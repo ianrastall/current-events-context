@@ -1,35 +1,1395 @@
-Date: '2026-03-14'
-Source_URI: Portal:Current events/2026 March 14
-Intelligence_Payload:
-  Uncategorized:
-  - Middle Eastern crisis
-  - 2026 Iran war
-  - Fifteen people are killed in a reported Israeli and United States missile strike
-    on an HVAC factory in Isfahan, Iran. (AFP via LBCI)
-  - Three Kuwaiti soldiers are injured after two drones struck Ahmad al-Jaber Air
-    Base, damaging the facility. (AFP via The Times of Israel)
-  - The port of Fujairah, a bunkering hub and export terminal in the Emirate of Fujairah,
-    United Arab Emirates, suffers a drone attack. (Reuters)
-  - The U.S. embassy in Baghdad, Iraq, is hit by a missile from an unknown origin.
-    (Politico)
-  - Russo-Ukrainian war
-  - Russian attacks on civilians in the Russo-Ukrainian war, Russian strikes against
-    Ukrainian infrastructure
-  - Five people are killed and three others are injured in Russian drone strikes on
-    residential areas and critical infrastructure across Ukraine. (Reuters)
-  - 2026 Afghanistan–Pakistan conflict
-  - According to Taliban officals, fourteen Pakistani soldiers are killed and eleven
-    others are injured by Afghan fighters during the capture of a Pakistani guard
-    post along the Durand Line in Kunar Province, Afghanistan.(Kabul Now)
-  - 2026 Cuban crisis
-  - Cuban authorities arrest five people after protesters damaged and set fire to
-    a Communist Party office in Morón, Ciego de Ávila Province, during demonstrations
-    over prolonged blackouts and shortages of basic goods. (AFP via Jamaica Observer)
-  - Antisemitism in Europe
-  - An explosion lightly damages a Jewish school in Amsterdam, Netherlands, with no
-    reported injuries, making it the third attack against Jewish buildings in the
-    Low Countries this week. (Euronews)
-  - Ecuadorian conflict
-  - Ecuador begins enforcing a curfew from 11:00 p.m. to 5:00 a.m. in the provinces
-    of El Oro, Guayas, Los Ríos, and Santo Domingo de los Tsáchilas to support military
-    operations against criminal organizations. (Reuters)
+date: "2026-03-14"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "assistant_curated_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+events:
+  - id: "evt-2026-03-14-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Military strike"
+    topics:
+      - "Iran war"
+      - "Kharg Island"
+    importance: 0.98
+    headline: "U.S. forces strike more than 90 Iranian military targets on Kharg Island"
+    summary: >
+      U.S. Central Command said United States forces carried out a large-scale
+      precision strike on Kharg Island in Iran on Friday night, hitting more than
+      90 military targets while preserving oil infrastructure.
+    details:
+      what_happened:
+        - "CENTCOM said U.S. forces struck more than 90 military targets on Kharg Island."
+        - "The reported targets included naval mine storage facilities and missile storage bunkers."
+        - "The U.S. military said oil infrastructure was not struck."
+      why_it_matters:
+        - "Kharg Island handles most of Iran's oil exports and is central to the war's energy dimension."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States"
+      secondary:
+        - "Iran"
+        - "U.S. Central Command"
+    entities:
+      people:
+        - "Donald Trump"
+      organizations:
+        - "U.S. Central Command"
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Kharg Island"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Military sites on Kharg Island reported destroyed; oil infrastructure reported preserved."
+    classification:
+      event_type:
+        - "air strike"
+        - "military escalation"
+      tags:
+        - "Middle East"
+        - "energy infrastructure"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/us-strikes-more-than-90-iranian-military-targets-kharg-island-centcom-says-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "U.S. forces struck more than 90 Iranian military targets on Kharg Island."
+            - "CENTCOM said the strike preserved oil infrastructure."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "AP News"
+          url: "https://apnews.com/article/iran-iraq-us-trump-march-14-2026-oil-prices-a2399398b4c590995b814d7640362a11"
+          publication_date: "2026-03-14"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "The United States struck targets on Kharg Island."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-002"
+      - "evt-2026-03-14-003"
+      - "evt-2026-03-14-004"
+    notes: ""
+
+  - id: "evt-2026-03-14-002"
+    category: "International relations"
+    subcategory: "Ceasefire diplomacy"
+    topics:
+      - "Iran war"
+      - "Middle East diplomacy"
+    importance: 0.94
+    headline: "Trump administration rebuffs efforts to start Iran ceasefire negotiations"
+    summary: >
+      Reuters reported that the Trump administration rejected attempts by Middle
+      Eastern allies to launch negotiations aimed at ending the Iran war, while
+      Iranian sources said Tehran would not consider a ceasefire until U.S. and
+      Israeli strikes stop.
+    details:
+      what_happened:
+        - "Reuters reported that Middle Eastern allies sought to start diplomacy to end the war."
+        - "The Trump administration rebuffed those efforts, according to Reuters."
+        - "Iranian sources told Reuters that Tehran would not consider a ceasefire while strikes continued."
+      why_it_matters:
+        - "The reporting indicated both Washington and Tehran were hardening positions rather than moving toward de-escalation."
+      uncertainty_notes:
+        - "This event depends on Reuters' sourcing from unnamed officials and sources familiar with the efforts."
+    actors:
+      primary:
+        - "United States"
+        - "Iran"
+      secondary:
+        - "Oman"
+        - "Egypt"
+    entities:
+      people:
+        - "Donald Trump"
+      organizations: []
+      states:
+        - "United States"
+        - "Iran"
+        - "Oman"
+        - "Egypt"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+        - "Oman"
+        - "Egypt"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic development"
+        - "ceasefire talks"
+      tags:
+        - "Middle East"
+        - "mediation"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/trump-rejects-efforts-launch-iran-ceasefire-talks-sources-say-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "The Trump administration rebuffed efforts to start negotiations."
+            - "Iranian sources said Tehran would not accept a ceasefire while strikes continued."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-001"
+      - "evt-2026-03-14-004"
+    notes: "This is a diplomacy event rather than a battlefield event."
+
+  - id: "evt-2026-03-14-003"
+    category: "Armed conflicts and attacks"
+    subcategory: "Regional retaliation and infrastructure disruption"
+    topics:
+      - "Iran war"
+      - "Gulf energy infrastructure"
+    importance: 0.96
+    headline: "Iran warns residents near major UAE ports as fire disrupts some Fujairah oil-loading operations"
+    summary: >
+      After the U.S. strike on Kharg Island, Iranian officials warned people to
+      leave areas near Jebel Ali, Khalifa, and Fujairah ports in the UAE, while a
+      fire caused by debris from an intercepted drone in Fujairah contributed to
+      the suspension of some oil-loading operations there.
+    details:
+      what_happened:
+        - "Reuters reported that some oil-loading operations in Fujairah were suspended."
+        - "Fujairah's media office said the fire followed debris falling during the interception of a drone."
+        - "Reuters reported that Iran warned residents to leave areas near Jebel Ali, Khalifa, and Fujairah ports."
+      why_it_matters:
+        - "The event showed the war directly affecting Gulf export infrastructure outside Iran."
+      uncertainty_notes:
+        - "The exact operational impact on loadings was not fully established at the time."
+        - "Reuters reported the UAE ministry had not yet commented on Iran's accusation that the U.S. attack came through the UAE."
+    actors:
+      primary:
+        - "Iran"
+      secondary:
+        - "United Arab Emirates"
+        - "Fujairah authorities"
+    entities:
+      people: []
+      organizations:
+        - "Islamic Revolutionary Guard Corps"
+      states:
+        - "Iran"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "United Arab Emirates"
+      places:
+        - "Fujairah"
+        - "Jebel Ali"
+        - "Khalifa Port"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 1
+      displaced: null
+      arrest_count: null
+      damage: "Fire at Fujairah and disruption to some oil-loading operations."
+    classification:
+      event_type:
+        - "drone-related incident"
+        - "infrastructure disruption"
+        - "threat"
+      tags:
+        - "oil markets"
+        - "UAE"
+        - "shipping"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Some oil-loading operations in Fujairah were suspended."
+            - "A fire occurred after debris fell during interception of a drone."
+            - "Iran warned residents to leave areas near major UAE ports."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "AP News"
+          url: "https://apnews.com/article/iran-iraq-us-trump-march-14-2026-oil-prices-a2399398b4c590995b814d7640362a11"
+          publication_date: "2026-03-14"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "Iran urged people to evacuate major UAE ports."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-001"
+      - "evt-2026-03-14-004"
+    notes: ""
+
+  - id: "evt-2026-03-14-004"
+    category: "International relations"
+    subcategory: "Maritime security"
+    topics:
+      - "Iran war"
+      - "Strait of Hormuz"
+    importance: 0.90
+    headline: "Trump calls on other countries to send warships to keep the Strait of Hormuz open"
+    summary: >
+      President Donald Trump called on other countries to help secure shipping
+      through the Strait of Hormuz as the conflict with Iran disrupted energy and
+      maritime traffic; Reuters reported there was no immediate indication that
+      other countries would do so.
+    details:
+      what_happened:
+        - "Trump publicly called on other countries to send warships."
+        - "The stated aim was to keep the Strait of Hormuz open for shipping."
+        - "Reuters reported no immediate indication that countries would commit."
+      why_it_matters:
+        - "The Strait of Hormuz is a critical chokepoint for global oil shipments."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States"
+      secondary:
+        - "France"
+        - "United Kingdom"
+        - "Iran"
+    entities:
+      people:
+        - "Donald Trump"
+      organizations: []
+      states:
+        - "United States"
+        - "France"
+        - "United Kingdom"
+        - "Iran"
+        - "Switzerland"
+    geography:
+      countries:
+        - "Iran"
+        - "Oman"
+      places:
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "security appeal"
+        - "maritime diplomacy"
+      tags:
+        - "shipping"
+        - "oil supply"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/trump-threatens-strike-irans-kharg-island-oil-network-if-shipping-lanes-remain-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Trump called on nations to help keep the Strait of Hormuz open."
+            - "Reuters reported no immediate indication of commitments."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "AP News"
+          url: "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
+          publication_date: "2026-03-15"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "Other countries did not immediately promise to send warships."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-001"
+      - "evt-2026-03-14-002"
+      - "evt-2026-03-14-003"
+    notes: "The AP follow-up was published on 2026-03-15 but directly concerns the March 14 appeal."
+
+  - id: "evt-2026-03-14-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Attack on diplomatic facility"
+    topics:
+      - "Iran war"
+      - "Iraq"
+    importance: 0.84
+    headline: "Missile strike hits the U.S. embassy compound in Baghdad"
+    summary: >
+      Reuters reported that the U.S. embassy compound in Baghdad was hit in a
+      missile attack, with smoke seen rising from the site; a separate Reuters
+      dispatch citing AP said a missile struck a helipad inside the compound.
+    details:
+      what_happened:
+        - "Iraqi security sources said the U.S. embassy compound in Baghdad was struck."
+        - "A Reuters item citing AP said the missile hit a helipad inside the compound."
+      why_it_matters:
+        - "The strike hit a major U.S. diplomatic facility during broader regional escalation."
+      uncertainty_notes:
+        - "Responsibility was not established in the cited reports."
+        - "Damage details were limited in early reports."
+    actors:
+      primary: []
+      secondary:
+        - "United States"
+        - "Iraq"
+    entities:
+      people: []
+      organizations:
+        - "U.S. Embassy Baghdad"
+      states:
+        - "United States"
+        - "Iraq"
+    geography:
+      countries:
+        - "Iraq"
+      places:
+        - "Baghdad"
+        - "U.S. embassy compound"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Missile strike reported inside the embassy compound."
+    classification:
+      event_type:
+        - "missile attack"
+        - "attack on diplomatic facility"
+      tags:
+        - "Baghdad"
+        - "regional escalation"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/us-embassy-iraqs-baghdad-hit-missiles-attack-security-sources-say-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "The U.S. embassy compound in Baghdad was hit in a missile attack."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/missile-strikes-helipad-us-embassy-compound-iraq-ap-reports-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "A missile struck a helipad in the embassy compound."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events:
+      - "evt-2026-03-14-001"
+      - "evt-2026-03-14-004"
+    notes: ""
+
+  - id: "evt-2026-03-14-006"
+    category: "International relations"
+    subcategory: "Conflict diplomacy"
+    topics:
+      - "Israel-Hezbollah conflict"
+      - "Lebanon"
+    importance: 0.73
+    headline: "Israel and Lebanon are reported to be preparing for direct talks"
+    summary: >
+      Reuters, citing Haaretz, reported that Israel and Lebanon were expected to
+      hold direct talks in the coming days, potentially in Paris or Cyprus, with
+      discussions expected to focus on ending fighting in Lebanon and disarming
+      Hezbollah.
+    details:
+      what_happened:
+        - "Reuters reported that Israel and Lebanon were expected to hold direct talks."
+        - "Haaretz said the talks might be held in Paris or Cyprus."
+        - "The reported agenda included ending fighting in Lebanon and disarming Hezbollah."
+      why_it_matters:
+        - "Direct talks would mark a diplomatic milestone amid active hostilities."
+      uncertainty_notes:
+        - "The report was based on Haaretz reporting and described the talks as expected rather than confirmed."
+    actors:
+      primary:
+        - "Israel"
+        - "Lebanon"
+      secondary:
+        - "Hezbollah"
+    entities:
+      people:
+        - "Jared Kushner"
+        - "Ron Dermer"
+      organizations:
+        - "Hezbollah"
+      states:
+        - "Israel"
+        - "Lebanon"
+        - "France"
+        - "Cyprus"
+    geography:
+      countries:
+        - "Israel"
+        - "Lebanon"
+        - "France"
+        - "Cyprus"
+      places:
+        - "Paris"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic development"
+        - "peace talks"
+      tags:
+        - "Middle East"
+        - "Hezbollah"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/israel-lebanon-expected-hold-direct-talks-coming-days-haaretz-reports-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Israel and Lebanon were expected to hold direct talks."
+            - "The talks were expected to focus on ending fighting in Lebanon and disarming Hezbollah."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-002"
+    notes: "This was a reported expectation, not a completed negotiation."
+
+  - id: "evt-2026-03-14-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Missile and drone barrage"
+    topics:
+      - "Russia-Ukraine war"
+    importance: 0.92
+    headline: "Russian missile and drone strikes kill six people across Ukraine"
+    summary: >
+      Reuters reported that Russian missile and drone strikes killed six people
+      and caused damage across several regions of Ukraine, including the Kyiv
+      region, where five of the dead were reported.
+    details:
+      what_happened:
+        - "Reuters said Russia struck Ukraine with missiles and drones."
+        - "Five of the dead were reported in the Kyiv region."
+        - "A later strike in Zaporizhzhia killed one more person and injured three."
+        - "Ukraine said six regions lost electricity after the attacks and shelling."
+      why_it_matters:
+        - "The attacks hit both civilian areas and energy-related infrastructure during a period of intense strain on Ukrainian air defenses."
+      uncertainty_notes:
+        - "Reuters reported Ukrainian official figures from different regions as the day developed."
+    actors:
+      primary:
+        - "Russia"
+      secondary:
+        - "Ukraine"
+    entities:
+      people:
+        - "Volodymyr Zelenskiy"
+      organizations: []
+      states:
+        - "Russia"
+        - "Ukraine"
+        - "Poland"
+        - "Moldova"
+    geography:
+      countries:
+        - "Ukraine"
+      places:
+        - "Kyiv region"
+        - "Zaporizhzhia"
+        - "Sumy"
+        - "Kharkiv"
+        - "Dnipro"
+        - "Mykolaiv"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 6
+      injured: 18
+      displaced: null
+      arrest_count: null
+      damage: "Residential buildings, schools, businesses, and energy-related infrastructure were damaged."
+    classification:
+      event_type:
+        - "missile attack"
+        - "drone attack"
+      tags:
+        - "civilian impact"
+        - "energy infrastructure"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/four-killed-russian-air-attack-kyiv-region-officials-say-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Russian missile and drone attacks killed six people across Ukraine."
+            - "Multiple regions were targeted and power disruptions followed."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "AP News"
+          url: "https://apnews.com/photo-gallery/russia-ukraine-war-kyiv-attack-photos-2e692b52d0717e2d334646acb8e8fab4"
+          publication_date: "2026-03-14"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "The Kyiv region was hit in a combined missile and drone attack."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-008"
+      - "evt-2026-03-14-009"
+    notes: "Injuries combine Reuters-reported 15 injured in Kyiv region and 3 in Zaporizhzhia."
+
+  - id: "evt-2026-03-14-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border infrastructure strike"
+    topics:
+      - "Russia-Ukraine war"
+      - "Krasnodar region"
+    importance: 0.70
+    headline: "Ukrainian drones hit an oil refinery and port in Russia's Krasnodar region"
+    summary: >
+      Reuters reported that Ukrainian drones struck an oil refinery and a port in
+      Russia's Krasnodar region overnight, causing injuries and damage according
+      to local authorities.
+    details:
+      what_happened:
+        - "Reuters said Ukrainian drones hit an oil refinery in Russia's Krasnodar region."
+        - "Reuters also said a port in the region was struck."
+        - "Local Russian authorities reported injuries and damage."
+      why_it_matters:
+        - "The strike fit Ukraine's campaign against Russian strategic and energy-linked infrastructure."
+      uncertainty_notes:
+        - "The Reuters dispatch summarized local-authority claims in Russia."
+    actors:
+      primary:
+        - "Ukraine"
+      secondary:
+        - "Russia"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Ukraine"
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Krasnodar region"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Oil refinery and port damage reported by local authorities."
+    classification:
+      event_type:
+        - "drone strike"
+        - "infrastructure attack"
+      tags:
+        - "oil"
+        - "port"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/ukrainian-drones-strike-oil-refinery-port-russias-krasnodar-region-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Ukrainian drones struck an oil refinery and a port in Krasnodar region."
+            - "Local authorities reported injuries and damage."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-007"
+    notes: ""
+
+  - id: "evt-2026-03-14-009"
+    category: "International relations"
+    subcategory: "Sanctions policy"
+    topics:
+      - "Russia-Ukraine war"
+      - "European Union sanctions"
+    importance: 0.77
+    headline: "European Union extends sanctions on people and entities tied to Russia's war against Ukraine"
+    summary: >
+      The European Union extended for another six months sanctions against people
+      and entities linked to Russia's war against Ukraine, keeping the measures in
+      place until September 15 after internal dispute over removals from the list.
+    details:
+      what_happened:
+        - "The EU extended its sanctions regime for six months."
+        - "Reuters reported the measures cover roughly 2,600 people and organizations."
+        - "Hungary and Slovakia had objected to parts of the list before agreement was reached."
+      why_it_matters:
+        - "The decision preserved a major element of the EU's pressure campaign against Russia."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "European Union"
+      secondary:
+        - "Hungary"
+        - "Slovakia"
+        - "Russia"
+    entities:
+      people:
+        - "Viktor Orban"
+      organizations:
+        - "European Union"
+      states:
+        - "Russia"
+        - "Ukraine"
+        - "Hungary"
+        - "Slovakia"
+    geography:
+      countries:
+        - "Belgium"
+      places:
+        - "European Union"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sanctions decision"
+        - "foreign policy"
+      tags:
+        - "European Union"
+        - "Russia sanctions"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/eu-extends-sanctions-against-people-over-russias-war-against-ukraine-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "The EU extended sanctions for another six months."
+            - "The sanctions cover roughly 2,600 people and organizations."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-007"
+      - "evt-2026-03-14-008"
+    notes: ""
+
+  - id: "evt-2026-03-14-010"
+    category: "International relations"
+    subcategory: "Regional mediation"
+    topics:
+      - "Afghanistan-Pakistan tensions"
+      - "China diplomacy"
+    importance: 0.65
+    headline: "China urges Afghanistan and Pakistan to resolve tensions through talks rather than force"
+    summary: >
+      Reuters reported that Chinese Foreign Minister Wang Yi urged Afghanistan and
+      Pakistan to resolve their dispute through dialogue and consultation rather
+      than force, as one of the most serious periods of tension between the two
+      neighbors in recent years continued.
+    details:
+      what_happened:
+        - "Wang Yi told Afghanistan's foreign minister that disputes should be resolved through talks."
+        - "China called for calm, restraint, and face-to-face ceasefire talks."
+      why_it_matters:
+        - "China was positioning itself as a mediator in a conflict affecting two neighboring states important to its regional strategy."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "China"
+      secondary:
+        - "Afghanistan"
+        - "Pakistan"
+    entities:
+      people:
+        - "Wang Yi"
+        - "Amir Khan Muttaqi"
+      organizations: []
+      states:
+        - "China"
+        - "Afghanistan"
+        - "Pakistan"
+    geography:
+      countries:
+        - "China"
+        - "Afghanistan"
+        - "Pakistan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic appeal"
+        - "mediation"
+      tags:
+        - "South Asia"
+        - "border tensions"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/china-urges-afghanistan-pakistan-resolve-tensions-via-talks-not-force-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "China urged Afghanistan and Pakistan to resolve tensions through talks rather than force."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-011"
+    category: "Society and civil unrest"
+    subcategory: "Protest and riot"
+    topics:
+      - "Cuba blackouts"
+      - "Food shortages"
+    importance: 0.78
+    headline: "Protesters attack a Communist Party office in Morón, Cuba, amid blackouts and shortages"
+    summary: >
+      Reuters reported that anti-government protesters attacked a Communist Party
+      office in Morón after a rally over power cuts and food shortages turned
+      violent, in a rare outburst of public dissent in Cuba.
+    details:
+      what_happened:
+        - "A rally against blackouts and shortages began peacefully in Morón."
+        - "The protest later turned violent and a Communist Party office was attacked."
+      why_it_matters:
+        - "Reuters characterized the incident as a rare outburst of public dissent in Cuba."
+      uncertainty_notes:
+        - "Early Reuters reporting focused on the attack and did not supply a final judicial outcome for those detained."
+    actors:
+      primary:
+        - "Anti-government protesters"
+      secondary:
+        - "Communist Party of Cuba"
+        - "Cuban authorities"
+    entities:
+      people: []
+      organizations:
+        - "Communist Party of Cuba"
+      states:
+        - "Cuba"
+    geography:
+      countries:
+        - "Cuba"
+      places:
+        - "Morón"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Communist Party office attacked and damaged."
+    classification:
+      event_type:
+        - "protest"
+        - "riot"
+      tags:
+        - "blackouts"
+        - "economic crisis"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/protesters-cuba-attack-communist-party-office-rare-riot-over-blackouts-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Protesters attacked a Communist Party office in Morón."
+            - "The protest was linked to blackouts and food shortages."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-012"
+    notes: ""
+
+  - id: "evt-2026-03-14-012"
+    category: "Society and civil unrest"
+    subcategory: "Mass protest"
+    topics:
+      - "Anti-war protests"
+      - "Italy"
+      - "Spain"
+    importance: 0.62
+    headline: "Thousands protest in Italy and Spain against the war in Iran"
+    summary: >
+      AP reported that thousands protested in Italy and Spain against the war in
+      Iran, with the Rome demonstration also connecting the conflict to a domestic
+      political battle over proposed judicial reforms in Italy.
+    details:
+      what_happened:
+        - "Thousands protested in Rome against the war in Iran."
+        - "Additional rallies were held across Spain."
+        - "In Italy, the protests also linked opposition to the war with opposition to judicial reforms."
+      why_it_matters:
+        - "The demonstrations showed the Iran war generating visible political and social backlash in Europe."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Anti-war protesters"
+      secondary:
+        - "Government of Italy"
+        - "Government of Spain"
+    entities:
+      people:
+        - "Giorgia Meloni"
+      organizations: []
+      states:
+        - "Italy"
+        - "Spain"
+        - "Greece"
+    geography:
+      countries:
+        - "Italy"
+        - "Spain"
+      places:
+        - "Rome"
+        - "Madrid"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "protest"
+      tags:
+        - "Europe"
+        - "Iran war"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "AP News"
+          url: "https://apnews.com/article/italy-meloni-protests-iran-spain-greece-1a007751a1ea7fbf6c579cdf6085eb4e"
+          publication_date: "2026-03-14"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "Thousands protested in Italy and Spain against the war in Iran."
+            - "The Rome protest was also tied to judicial-reform politics in Italy."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-002"
+      - "evt-2026-03-14-011"
+    notes: ""
+
+  - id: "evt-2026-03-14-013"
+    category: "Sports"
+    subcategory: "Event cancellation"
+    topics:
+      - "Formula One"
+      - "Iran war"
+    importance: 0.58
+    headline: "Formula One cancels the Bahrain and Saudi Arabian Grands Prix"
+    summary: >
+      Formula One, the FIA, and local promoters announced that the Bahrain and
+      Saudi Arabian Grands Prix scheduled for April would not take place because
+      of the Middle East conflict, with no replacement events planned.
+    details:
+      what_happened:
+        - "The Bahrain and Saudi Arabian races were canceled."
+        - "Reuters reported that they would not be rescheduled or replaced."
+        - "The season calendar was reduced from 24 races to 22."
+      why_it_matters:
+        - "The cancellations showed the war's spillover into major international sports and logistics."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Formula One"
+        - "FIA"
+      secondary:
+        - "Bahrain Grand Prix organizers"
+        - "Saudi Arabian Grand Prix organizers"
+    entities:
+      people: []
+      organizations:
+        - "Formula One"
+        - "FIA"
+      states:
+        - "Bahrain"
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Bahrain"
+        - "Saudi Arabia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Bahrain and Saudi Arabian rounds removed from the 2026 schedule."
+    classification:
+      event_type:
+        - "sports administration"
+        - "cancellation"
+      tags:
+        - "motor sport"
+        - "Middle East"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sports/formula1/f1-calls-off-april-races-bahrain-saudi-arabia-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Formula One canceled the Bahrain and Saudi Arabian Grands Prix."
+            - "The races would not be rescheduled or replaced."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-003"
+      - "evt-2026-03-14-004"
+    notes: ""
+
+  - id: "evt-2026-03-14-014"
+    category: "Sports"
+    subcategory: "Championship result"
+    topics:
+      - "2026 Six Nations Championship"
+      - "Rugby union"
+    importance: 0.56
+    headline: "France beats England 48-46 to win the Six Nations title"
+    summary: >
+      Reuters reported that France beat England 48-46 at the Stade de France to
+      win the 2026 Six Nations title, with Thomas Ramos kicking the decisive
+      penalty after the final hooter.
+    details:
+      what_happened:
+        - "France defeated England 48-46."
+        - "Thomas Ramos kicked the decisive late penalty."
+        - "Reuters said France claimed its record eighth title."
+      why_it_matters:
+        - "It was one of the day's most prominent international sports results."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "France national rugby union team"
+      secondary:
+        - "England national rugby union team"
+    entities:
+      people:
+        - "Thomas Ramos"
+        - "Louis Bielle-Biarrey"
+      organizations:
+        - "Six Nations Championship"
+      states:
+        - "France"
+        - "England"
+    geography:
+      countries:
+        - "France"
+      places:
+        - "Stade de France"
+        - "Paris"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports result"
+        - "championship"
+      tags:
+        - "rugby"
+        - "France"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sports/ramos-last-gasp-penalty-gives-france-six-nations-title-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "France beat England 48-46 to win the Six Nations title."
+            - "Thomas Ramos kicked the winning penalty."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-015"
+    category: "Culture and media"
+    subcategory: "Obituary"
+    topics:
+      - "Philosophy"
+      - "Germany"
+    importance: 0.60
+    headline: "Jürgen Habermas dies at 96"
+    summary: >
+      Reuters and AP reported that German philosopher Jürgen Habermas died at 96
+      in Starnberg, ending the life of one of the most influential intellectuals
+      in post-war Germany and modern social theory.
+    details:
+      what_happened:
+        - "Habermas died in Starnberg at age 96."
+        - "Reuters and AP both framed him as a major post-war German intellectual."
+      why_it_matters:
+        - "His death was a major cultural and intellectual news event."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Jürgen Habermas"
+      secondary: []
+    entities:
+      people:
+        - "Jürgen Habermas"
+      organizations:
+        - "Suhrkamp"
+      states:
+        - "Germany"
+    geography:
+      countries:
+        - "Germany"
+      places:
+        - "Starnberg"
+        - "Munich"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "death"
+        - "obituary"
+      tags:
+        - "philosophy"
+        - "public intellectual"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/media-telecom/juergen-habermas-philosopher-dies-age-96-publisher-says-2026-03-14/"
+          publication_date: "2026-03-14"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Jürgen Habermas died at 96 in Starnberg."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "AP News"
+          url: "https://apnews.com/article/juergen-habermas-dead-germany-2b541721af6cb19abfaa923359d091b5"
+          publication_date: "2026-03-14"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "Habermas was one of the most influential philosophers and public intellectuals of his era."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""

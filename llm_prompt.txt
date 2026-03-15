@@ -1,0 +1,164 @@
+Create a single, valid YAML document for the date {{DATE}} using the exact schema and rules below.
+
+Your task is to build a semantically rich, machine-readable current-events record for that one day.
+
+Use the English Wikipedia Current Events Portal page for that date as the seed index of events, but do NOT rely on Wikipedia alone. Use it to identify the day’s events, then enrich and verify those events with as many disparate high-quality sources as reasonably possible, including international, national, regional, official, and specialist sources where appropriate.
+
+This is not a deep-research essay. This is a structured historical event ledger in YAML.
+
+Output requirements:
+- Output ONLY valid YAML.
+- Do not include commentary before or after the YAML.
+- Do not use markdown fences.
+- Do not omit fields from the schema.
+- Use null for unknown scalar values.
+- Use [] for unknown or empty lists.
+- Preserve proper nouns exactly.
+- Be factual, neutral, and source-grounded.
+- Do not guess.
+- Do not invent events.
+- Do not include topic labels as standalone events.
+- If Wikipedia groups multiple real-world events together, split them into separate event objects.
+- If multiple outlets describe the same event, keep one event object and attach multiple sources.
+- Prefer fewer high-quality, well-structured events over many low-confidence fragments.
+- Use broad, stable categories rather than overly clever or overly narrow ones.
+
+Source policy:
+- Use the English Wikipedia Current Events Portal for the date as the event roster.
+- Then enrich with as many reasonably available sources as possible.
+- Prioritize high-quality sources such as Reuters, AP, BBC, AFP, major national outlets, regional outlets close to the event, official government or institutional releases, court documents, election authorities, UN/NGO reports, and similar primary or strong secondary sources.
+- Include multiple source types when possible.
+- If sources disagree, preserve the disagreement in notes and lower confidence.
+- Include source URLs when available.
+
+Event policy:
+- Each item under `events` must be a real event.
+- Conflict names, issue labels, election names, protest names, war names, crisis names, background topics, and umbrella subjects go in `topics`, not as events.
+- `headline` should be a concise human-readable title.
+- `summary` should be a short factual paragraph.
+- `details.what_happened` should be concrete.
+- `details.why_it_matters` should be used sparingly and remain factual.
+- `importance` is a 0.00 to 1.00 editorial relevance score for that day.
+- `confidence` fields must use only: high, medium, low.
+- If an event is ongoing, set `time.ongoing` to true.
+- If an exact time is unknown, set `time.time_known` to false.
+- Do not infer motives, casualty counts, responsibility, or outcomes unless sourced.
+
+Use these broad categories when applicable:
+- Armed conflicts and attacks
+- Disasters and accidents
+- International relations
+- Politics and elections
+- Law and crime
+- Business and economy
+- Science and technology
+- Health
+- Environment
+- Culture and media
+- Sports
+- Society and civil unrest
+
+Create the YAML using this exact schema:
+
+date: "{{DATE}}"
+source_page:
+  portal: "Portal:Current events/{{HUMAN_READABLE_PORTAL_DATE}}"
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.0"
+  compiler:
+    mode: "llm_browser_manual"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Wikipedia Current Events Portal"
+    enrichment_sources_expected: true
+
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+events:
+  - id: "evt-{{DATE}}-001"
+    category: ""
+    subcategory: null
+    topics: []
+    importance: null
+    headline: ""
+    summary: >
+      ...
+    details:
+      what_happened: []
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "{{DATE}}"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type: []
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: ""
+          url: null
+          publication_date: null
+          source_type: ""
+          reliability_tier: ""
+          supports: []
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+
+Important formatting rules:
+- Keep the top-level field order exactly as shown.
+- Keep the field order inside each event exactly as shown.
+- Number event IDs sequentially: evt-{{DATE}}-001, evt-{{DATE}}-002, etc.
+- Number source IDs sequentially within each event: src-001, src-002, etc.
+- Do not remove fields just because data is unavailable.
+- Do not collapse events into category-level prose summaries.
+- Do not output a partial template with placeholders left unresolved, except where a value is truly unknown and should be null or [].
+- Ensure the final YAML is parseable.
+
+Quality-control pass before finalizing:
+- Confirm every event is a real event, not merely a topic.
+- Confirm every claim in summary is supported by at least one listed source.
+- Confirm duplicate reporting has been merged.
+- Confirm categories are broad and consistent.
+- Confirm unknown values are null or [] rather than guessed.
+- Confirm output is valid YAML and nothing else.
+
+Now produce the completed YAML for {{DATE}}.
