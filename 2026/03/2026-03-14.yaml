@@ -24,38 +24,45 @@ events:
       - "Military Escalation"
       - "Industrial Targeting"
     importance: 9
-    headline: "Allied Airstrike Targets Industrial Facility in Isfahan, Iran"
-    summary: >
-      Allied military aircraft from the United States and Israel conducted a precision airstrike on an industrial complex in Isfahan, central Iran. The facility, described by Iranian state media as an HVAC manufacturing plant but suspected of housing dual-use capabilities for IRGC drone and missile production, was operating during normal business hours. The strike resulted in the deaths of at least 15 civilian workers. Iranian authorities swiftly condemned the attack, attributing the bombardment to US and Israeli forces.
+    headline: "Strike hits industrial facility in Isfahan as Iran blames U.S. and Israel"
+    summary: >-
+      A strike hit an industrial facility in Isfahan, central Iran, on March 14. Reuters supported the occurrence and location of the strike, while Fars News Agency said the site was an HVAC plant and that 15 workers were killed. Iranian authorities blamed the United States and Israel for the attack, but the listed sources in this record do not independently establish responsibility.
     details:
       what_happened:
-        - "US and Israeli military aircraft executed a precision airstrike on an industrial complex in Isfahan, Iran."
-        - "The targeted facility was officially described by state media as an HVAC equipment manufacturing plant."
-        - "At least 15 civilian workers present inside the factory were killed in the bombardment."
-        - "Iranian authorities condemned the strike, blaming the US and Israel."
+        - Reuters reported that a strike hit an industrial site in Isfahan, Iran.
+        - Fars News Agency described the facility as an HVAC equipment manufacturing plant.
+        - Iranian state media said 15 workers were killed in the strike.
+        - Iranian authorities publicly blamed the United States and Israel for the attack.
       why_it_matters:
-        - "Marks a significant expansion of the allied air campaign targeting Iran's dual-use economic and logistical infrastructure."
-        - "The civilian casualties provide the Iranian regime with leverage to consolidate domestic support and justify retaliatory measures."
+        - The strike indicated that industrial facilities inside Iran remained vulnerable as the regional war expanded.
+        - Claims of civilian casualties heightened the diplomatic and escalation risk around the conflict.
       uncertainty_notes:
-        - "The exact military or dual-use capacity of the targeted HVAC facility remains unverified by independent inspectors."
+        - The listed sources do not independently verify the military or dual-use role of the facility.
+        - Responsibility for the strike was asserted by Iranian authorities rather than confirmed by independent reporting in this record.
     actors:
-      primary:
-        - "United States Armed Forces"
-        - "Israel Defense Forces"
+      primary: []
       secondary:
-        - "Islamic Revolutionary Guard Corps (IRGC)"
+        - United States Armed Forces
+        - Israel Defense Forces
+        - Government of Iran
+        - Islamic Revolutionary Guard Corps
     entities:
       people: []
-      organizations: []
+      organizations:
+        - United States Armed Forces
+        - Israel Defense Forces
+        - Islamic Revolutionary Guard Corps
       states:
-        - "United States"
-        - "Israel"
-        - "Iran"
+        - United States
+        - Israel
+        - Iran
     geography:
       countries:
-        - "Iran"
+        - Iran
+        - United States
+        - Israel
       places:
-        - "Isfahan"
+        - Isfahan
       coordinates: []
     time:
       date: "2026-03-14"
@@ -69,11 +76,12 @@ events:
       damage: "Severe structural damage to industrial complex"
     classification:
       event_type:
-        - "Military Operation"
+        - airstrike
+        - industrial_site_damage
       tags:
-        - "Airstrike"
-        - "Isfahan"
-        - "IRGC"
+        - isfahan
+        - iran
+        - industrial-site
     sources:
       wikipedia_portal:
         included: false
@@ -83,22 +91,23 @@ events:
           outlet: "Fars News Agency"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
-          reliability_tier: "state_affiliated"
+          source_type: "state_affiliated"
+          reliability_tier: "medium"
           supports:
-            - "Facility description"
-            - "Casualty count"
+            - Iranian state media described the site as an HVAC plant
+            - Iranian state media said 15 workers were killed
+            - Iranian authorities blamed the United States and Israel
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
           outlet: "Reuters"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
-            - "Occurrence of airstrike"
-            - "Location"
+            - A strike hit an industrial site in Isfahan
+            - The strike occurred in central Iran
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -108,9 +117,9 @@ events:
     confidence:
       event_existence: "high"
       detail_accuracy: "medium"
-      actor_identification: "high"
+      actor_identification: "low"
     related_events:
-      - "evt-2026-03-14-002"
+      - evt-2026-03-14-002
     notes: ""
 
   - id: "evt-2026-03-14-002"
@@ -120,40 +129,45 @@ events:
       - "Energy Security"
       - "Maritime Trade"
     importance: 9
-    headline: "Iranian Drone Strikes Target UAE Bunkering Hub and Kuwaiti Air Base"
-    summary: >
-      Iranian forces launched coordinated drone and missile strikes against critical installations in the United Arab Emirates and Kuwait. In the UAE, a pre-dawn drone strike penetrated air defenses to hit the Fujairah Oil Industry Zone, igniting storage tanks and suspending marine fuel operations at the global bunkering hub. Concurrently, hostile drones targeted the Ahmad al-Jaber Air Base in Kuwait; while Kuwaiti defenses intercepted three drones, two breached the perimeter, causing material damage and minor injuries to three military personnel. The attacks have severely disrupted maritime navigation in the Gulf of Oman, pushing global crude oil prices above $100 per barrel.
+    headline: "Drone strikes hit Fujairah bunkering hub and Kuwaiti air base amid Gulf escalation"
+    summary: >-
+      Drone and missile attacks hit infrastructure in the United Arab Emirates and Kuwait on March 14. Associated Press reported a strike on the Fujairah Oil Industry Zone that ignited storage tanks and pushed oil prices higher, while the Kuwaiti Ministry of Defence said an attack on Ahmad al-Jaber Air Base injured three military personnel after some drones were intercepted and others breached the perimeter. The reviewed file attributed the attacks to Iran, but the listed source support in this record is stronger on the impacts than on direct attribution.
     details:
       what_happened:
-        - "A pre-dawn drone strike targeted the Fujairah Oil Industry Zone in the UAE, igniting storage tanks."
-        - "Hostile drones penetrated Kuwaiti airspace, targeting the Ahmad al-Jaber Air Base."
-        - "Kuwaiti interception systems destroyed three drones, but two breached the perimeter."
-        - "Three Kuwaiti Armed Forces personnel sustained minor injuries during the air base attack."
-        - "Global crude oil prices surged past $100 per barrel amid disruptions to maritime transit."
+        - Associated Press reported that a strike hit the Fujairah Oil Industry Zone in the United Arab Emirates and ignited storage tanks.
+        - The Kuwaiti Ministry of Defence said drones targeted Ahmad al-Jaber Air Base.
+        - Kuwait said three drones were intercepted and that other drones breached the perimeter.
+        - The Kuwaiti military reported three minor injuries at the air base.
+        - Associated Press linked the attacks to disruption in Gulf energy markets and higher oil prices.
       why_it_matters:
-        - "Demonstrates Iran's capacity to bypass regional air defense grids and threaten critical GCC infrastructure."
-        - "The disruption of Fujairah paralyzes regional marine fuel supply chains and severely impacts global energy markets."
-      uncertainty_notes: []
+        - The attacks showed that Gulf energy and military infrastructure remained exposed as the regional war widened.
+        - Damage in Fujairah and Kuwait added pressure to already strained oil and shipping markets.
+      uncertainty_notes:
+        - The listed sources in this record directly support the impacts in the UAE and Kuwait, but they are less explicit on direct attribution for both strikes.
     actors:
-      primary:
-        - "Islamic Republic of Iran Armed Forces"
+      primary: []
       secondary:
-        - "Kuwaiti Armed Forces"
-        - "UAE Air Defenses"
+        - Islamic Republic of Iran Armed Forces
+        - Kuwaiti Armed Forces
+        - UAE Air Defenses
     entities:
       people: []
-      organizations: []
+      organizations:
+        - Kuwaiti Armed Forces
+        - UAE Air Defenses
       states:
-        - "Iran"
-        - "United Arab Emirates"
-        - "Kuwait"
+        - Iran
+        - United Arab Emirates
+        - Kuwait
     geography:
       countries:
-        - "United Arab Emirates"
-        - "Kuwait"
+        - United Arab Emirates
+        - Kuwait
+        - Iran
       places:
-        - "Fujairah"
-        - "Ahmad al-Jaber Air Base"
+        - Fujairah
+        - Ahmad al-Jaber Air Base
+        - Gulf of Oman
       coordinates: []
     time:
       date: "2026-03-14"
@@ -167,11 +181,12 @@ events:
       damage: "Storage tanks ignited in UAE; material damage to Kuwaiti air base"
     classification:
       event_type:
-        - "Military Operation"
+        - drone_strike
+        - infrastructure_attack
       tags:
-        - "Drone Strike"
-        - "Oil Markets"
-        - "Gulf of Oman"
+        - fujairah
+        - kuwait
+        - gulf-energy
     sources:
       wikipedia_portal:
         included: false
@@ -184,20 +199,21 @@ events:
           source_type: "official_release"
           reliability_tier: "high"
           supports:
-            - "Air base attack"
-            - "Interception details"
-            - "Casualties"
+            - Attack on Ahmad al-Jaber Air Base
+            - Drone interception details
+            - Three injuries to Kuwaiti personnel
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
           outlet: "Associated Press"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
-            - "Fujairah strike"
-            - "Oil price surge"
+            - Strike on the Fujairah Oil Industry Zone
+            - Storage tanks were ignited
+            - Oil prices rose after the attacks
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -206,33 +222,33 @@ events:
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
     related_events:
-      - "evt-2026-03-14-001"
+      - evt-2026-03-14-001
     notes: ""
 
   - id: "evt-2026-03-14-003"
     category: "Business and economy"
-    subcategory: "International Trade"
+    subcategory: "Investment"
     topics:
       - "Energy Policy"
       - "Supply Chain Resiliency"
     importance: 8
-    headline: "US and Allies Finalize $57 Billion in Energy and Mineral Agreements in Tokyo"
-    summary: >
-      The United States and several Asia-Pacific allies formalized 22 commercial agreements valued at $57 billion during the inaugural Indo-Pacific Energy Security Ministerial and Business Forum in Tokyo. The deals cover long-term commitments in LNG, crude oil, nuclear power, and critical mineral supply chains. The agreements aim to reduce the reliance of major Asian economies, including Japan, South Korea, and Thailand, on Middle Eastern energy and Chinese mineral monopolies. During the summit, Japan pledged $550 billion in broader US investments by 2029 to secure supply chain continuity.
+    headline: "U.S. and allies announce $57 billion in energy and mineral agreements in Tokyo"
+    summary: >-
+      Reuters reported that the United States and allied governments announced 22 commercial agreements worth a combined $57 billion at the Indo-Pacific Energy Security Ministerial and Business Forum in Tokyo. The deals covered LNG, crude oil, nuclear cooperation, and critical mineral supply chains, and Reuters also cited a broader Japanese pledge to invest heavily in the United States by 2029. Because this record relies on a single Reuters report, the event has been kept close to the source's headline figures and framing.
     details:
       what_happened:
-        - "The Indo-Pacific Energy Security Ministerial and Business Forum was held in Tokyo."
-        - "US and allied officials finalized 22 commercial agreements valued at a cumulative $57 billion."
-        - "Agreements focused on LNG, crude oil, nuclear technology, and critical minerals."
-        - "Japan committed to a memorandum of understanding with Washington to finance strategic infrastructure."
-        - "Japan pledged $550 billion in broader US investments by 2029."
+        - Reuters reported that the Indo-Pacific Energy Security Ministerial and Business Forum was held in Tokyo.
+        - The report said 22 commercial agreements worth about $57 billion were announced.
+        - The agreements covered LNG, crude oil, nuclear cooperation, and critical minerals.
+        - Reuters said Japan also pledged broader investment in the United States through 2029.
       why_it_matters:
-        - "Accelerates the geoeconomic decoupling of key Asian economies from Middle Eastern hydrocarbons."
-        - "Aims to break monopolistic control over critical minerals required for advanced manufacturing and defense."
-      uncertainty_notes: []
+        - The package illustrated how governments in Asia and the United States were trying to diversify energy and mineral supply chains during the Middle East war.
+        - The event showed that energy-security diplomacy was being translated into large commercial commitments.
+      uncertainty_notes:
+        - This event relies on a single Reuters report in the reviewed file, so additional official detail was limited in this pass.
     actors:
       primary:
         - "United States Government"
@@ -240,16 +256,20 @@ events:
       secondary: []
     entities:
       people:
-        - "Doug Burgum"
-      organizations: []
+        - Doug Burgum
+      organizations:
+        - Indo-Pacific Energy Security Ministerial and Business Forum
       states:
-        - "United States"
-        - "Japan"
-        - "South Korea"
-        - "Thailand"
+        - United States
+        - Japan
+        - South Korea
+        - Thailand
     geography:
       countries:
-        - "Japan"
+        - Japan
+        - United States
+        - South Korea
+        - Thailand
       places:
         - "Tokyo"
       coordinates: []
@@ -265,12 +285,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "Summit"
-        - "Economic Agreement"
+        - investment_agreement
+        - energy_security_meeting
       tags:
-        - "Energy Security"
-        - "Indo-Pacific"
-        - "Supply Chains"
+        - tokyo
+        - energy-security
+        - critical-minerals
     sources:
       wikipedia_portal:
         included: false
@@ -280,12 +300,12 @@ events:
           outlet: "Reuters"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
-            - "Summit location"
-            - "Deal valuation"
-            - "Investment pledges"
+            - Tokyo meeting location
+            - 22 agreements worth about $57 billion
+            - Japanese investment pledge toward the United States
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -293,11 +313,11 @@ events:
       enriched_manually: true
       last_reviewed_by: "system_auditor"
     confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
+      event_existence: "medium"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events:
-      - "evt-2026-03-14-002"
+      - evt-2026-03-14-002
     notes: ""
 
   - id: "evt-2026-03-14-004"
@@ -307,37 +327,46 @@ events:
       - "Ballistic Missiles"
       - "Deterrence"
     importance: 7
-    headline: "North Korea Test-Fires 12 KN-25 Rocket Artillery Shells into Sea of Japan"
-    summary: >
-      The Korean People's Army conducted a firepower strike drill, launching 12 KN-25 600mm rocket artillery shells from the Sunan area near Pyongyang. Supervised by Chairman Kim Jong Un, the munitions traveled an estimated 350 kilometers before impacting the Sea of Japan. The state-run KCNA characterized the drill as a strategic warning in response to joint US-South Korean military exercises, demonstrating North Korea's maturing capability to deploy highly mobile, solid-fuel tactical delivery systems capable of overwhelming allied missile defenses.
+    headline: "North Korea test-fires KN-25 rocket artillery shells toward the Sea of Japan"
+    summary: >-
+      North Korea said it fired 12 KN-25 rocket artillery shells from the Sunan area on March 14. KCNA said Kim Jong Un supervised the drill, while South Korea's defense ministry supported the launch location and flight distance. The test was presented by North Korean state media as a warning over joint U.S.-South Korean military exercises.
     details:
       what_happened:
-        - "North Korea launched 12 KN-25 600mm rocket artillery shells from the Sunan area."
-        - "The munitions traveled roughly 350 kilometers and impacted the Sea of Japan."
-        - "Chairman Kim Jong Un directly supervised the firepower strike drill."
-        - "South Korean defense officials initially tracked the launches as short-range ballistic missiles."
-        - "KCNA issued statements framing the drill as a warning against US-South Korean military exercises."
+        - South Korean defense officials said North Korea launched munitions from the Sunan area.
+        - KCNA said 12 KN-25 rocket artillery shells were fired in the drill.
+        - South Korean officials said the projectiles traveled about 350 kilometers toward the Sea of Japan.
+        - KCNA said Kim Jong Un supervised the exercise and framed it as a warning over joint U.S.-South Korean drills.
       why_it_matters:
-        - "Demonstrates Pyongyang's growing capability to execute rapid, simultaneous barrages designed to overwhelm THAAD and Patriot interceptors."
-        - "Blurs the traditional demarcation between conventional artillery and tactical ballistic missiles in the region."
+        - The launch added to regional tension around North Korea's short-range strike capabilities.
+        - The drill tied North Korean weapons signaling directly to allied military exercises.
       uncertainty_notes: []
     actors:
       primary:
-        - "Korean People's Army"
-      secondary: []
+        - Korean People's Army
+      secondary:
+        - South Korean Defense Ministry
     entities:
       people:
-        - "Kim Jong Un"
-      organizations: []
+        - Kim Jong Un
+      organizations:
+        - Korean People's Army
+        - Korean Central News Agency (KCNA)
+        - South Korean Defense Ministry
       states:
-        - "North Korea"
+        - North Korea
+        - South Korea
+        - United States
+        - Japan
     geography:
       countries:
-        - "North Korea"
-        - "Japan"
+        - North Korea
+        - South Korea
+        - United States
+        - Japan
       places:
-        - "Sunan"
-        - "Sea of Japan"
+        - Sunan
+        - Pyongyang
+        - Sea of Japan
       coordinates: []
     time:
       date: "2026-03-14"
@@ -351,11 +380,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "Military Exercise"
+        - weapons_test
+        - military_drill
       tags:
-        - "Missile Test"
-        - "KN-25"
-        - "DPRK"
+        - north-korea
+        - kn-25
+        - weapons-test
     sources:
       wikipedia_portal:
         included: false
@@ -365,8 +395,8 @@ events:
           outlet: "Korean Central News Agency (KCNA)"
           url: null
           publication_date: "2026-03-14"
-          source_type: "official_release"
-          reliability_tier: "state_affiliated"
+          source_type: "state_affiliated"
+          reliability_tier: "medium"
           supports:
             - "Supervision by Kim Jong Un"
             - "Number of munitions fired"
@@ -390,46 +420,51 @@ events:
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
     notes: ""
 
   - id: "evt-2026-03-14-005"
     category: "Science and technology"
-    subcategory: "Defense Technology"
+    subcategory: "Defense technology"
     topics:
       - "Artificial Intelligence"
       - "Military Procurement"
     importance: 7
-    headline: "US Army Awards $20 Billion Enterprise Contract to Anduril Industries"
-    summary: >
-      The United States Army awarded a transformative 10-year enterprise contract, with a maximum potential value of $20 billion, to defense technology firm Anduril Industries. The sweeping agreement aims to consolidate over 120 disparate procurement actions into a single framework to implement and scale Anduril's AI-enabled 'Lattice' software platform. The system is designed to provide unified command, control, and counter-unmanned aerial systems (C-UAS) interoperability, reflecting a major DoD shift toward Silicon Valley development models and rapid software integration.
+    headline: "U.S. Army awards Anduril an enterprise software contract worth up to $20 billion"
+    summary: >-
+      The U.S. Army awarded Anduril Industries a 10-year enterprise contract with a ceiling value of up to $20 billion, according to a Defense Department release cited in the reviewed file. The file also cites Defense News for the claim that the award consolidates many earlier procurement actions around Anduril's Lattice software for command, control, and counter-drone functions. The event was rewritten to stay close to those documented claims and to remove broader unsupported commentary about industrial change.
     details:
       what_happened:
-        - "The US Army Contracting Command awarded a 10-year enterprise contract to Anduril Industries."
-        - "The contract has a maximum potential valuation of up to $20 billion over its lifespan."
-        - "The agreement consolidates over 120 pre-existing DoD procurement actions."
-        - "The core deliverable is the scaling of the AI-enabled 'Lattice' software platform for unified command and control."
+        - The U.S. Army Contracting Command awarded Anduril Industries a 10-year enterprise contract.
+        - The reviewed file says the contract has a ceiling value of up to $20 billion.
+        - The agreement centers on Anduril's Lattice software platform for command, control, and counter-drone functions.
+        - Defense News said the award consolidates numerous earlier procurement actions into one framework.
       why_it_matters:
-        - "Validates the Silicon Valley model of rapid, vertically integrated defense tech development over traditional hardware-centric prime contractors."
-        - "Aims to drastically accelerate the fielding of critical counter-drone software to deployed forces."
-      uncertainty_notes: []
+        - The contract represented a large software-focused military procurement action.
+        - It highlighted the U.S. military's continued push to integrate command-and-control and counter-drone systems.
+      uncertainty_notes:
+        - Exact task-order timing and implementation details were not available in the reviewed file.
     actors:
       primary:
         - "United States Army"
         - "Anduril Industries"
-      secondary: []
+      secondary:
+        - U.S. Department of Defense
     entities:
       people:
-        - "Gabe Chiulli"
+        - Gabe Chiulli
       organizations:
-        - "U.S. Army Contracting Command"
+        - United States Army
+        - Anduril Industries
+        - U.S. Department of Defense
+        - U.S. Army Contracting Command
       states:
-        - "United States"
+        - United States
     geography:
       countries:
-        - "United States"
+        - United States
       places: []
       coordinates: []
     time:
@@ -444,11 +479,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "Contract Award"
+        - contract_award
+        - defense_software_procurement
       tags:
-        - "Defense Procurement"
-        - "Artificial Intelligence"
-        - "Counter-UAS"
+        - anduril
+        - u-s-army
+        - defense-software
     sources:
       wikipedia_portal:
         included: false
@@ -470,8 +506,8 @@ events:
           outlet: "Defense News"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
-          reliability_tier: "high"
+          source_type: "trade_publication"
+          reliability_tier: "medium"
           supports:
             - "Consolidation of procurement actions"
             - "Strategic implications"
@@ -483,70 +519,74 @@ events:
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
     notes: ""
 
   - id: "evt-2026-03-14-006"
     category: "Armed conflicts and attacks"
-    subcategory: "Border Clash"
+    subcategory: "Border clash"
     topics:
       - "Border Security"
       - "Bilateral Tensions"
     importance: 8
-    headline: "Taliban Forces Overrun Pakistani Military Post in Deadly Border Escalation"
-    summary: >
-      Taliban defense forces launched a highly coordinated retaliatory offensive against Pakistani military positions along the Durand Line in the Kunar and Nangarhar provinces. The Taliban claims the assault resulted in the deaths of 14 Pakistani soldiers and the capture of a sovereign military guard post. The Taliban justified the operation as retaliation for heavy Pakistani cross-border artillery fire that reportedly injured three Afghan civilians. The government in Islamabad strongly dismissed the Taliban's casualty claims regarding dead soldiers as baseless propaganda.
+    headline: "Taliban and Pakistan exchange claims after border clash in eastern Afghanistan"
+    summary: >-
+      The Taliban defence ministry said its forces captured a Pakistani border post and inflicted heavy casualties after artillery shelling in Kunar and Nangarhar, while Pakistan's information ministry rejected the casualty claim as propaganda. The two official statements in this record indicate that a serious border confrontation occurred, but they do not independently resolve the scale of losses or the extent of territorial change. The clash kept the Afghanistan-Pakistan crisis active a day after Pakistan's cross-border airstrikes.
     details:
       what_happened:
-        - "Taliban forces launched an offensive against Pakistani military positions in border regions."
-        - "Taliban units overran and captured a Pakistani military guard post, destroying an armored tank."
-        - "The Taliban Defence Ministry claimed 14 Pakistani soldiers were killed and 11 wounded."
-        - "Taliban officials accused Pakistan of firing over 271 artillery shells into civilian areas prior to the assault."
-        - "Pakistan's Information Ministry dismissed the casualty claims as propaganda."
+        - The Taliban defence ministry said its forces attacked Pakistani military positions in Kunar and Nangarhar.
+        - Taliban officials claimed they captured a Pakistani post and destroyed an armored vehicle.
+        - The Taliban said 14 Pakistani soldiers were killed and 11 wounded.
+        - Pakistan's information ministry rejected the casualty claim as propaganda.
       why_it_matters:
-        - "Signals a total collapse of bilateral border management between Afghanistan and Pakistan."
-        - "Highlights the failure of recent diplomatic mediation efforts by regional actors like China and Turkey."
+        - The exchange showed that the Afghanistan-Pakistan border crisis remained volatile after the March 13 airstrikes.
+        - Conflicting official claims made it difficult to assess the scale of escalation in real time.
       uncertainty_notes:
-        - "The casualty figures for Pakistani forces are highly disputed, with Islamabad officially denying the Taliban's claim of 14 dead soldiers."
+        - The casualty figures and claim that a Pakistani post was captured were not independently verified in the reviewed file.
     actors:
-      primary:
-        - "Taliban Armed Forces"
-        - "Pakistan Armed Forces"
-      secondary: []
+      primary: []
+      secondary:
+        - Taliban Defence Ministry
+        - Pakistan Armed Forces
+        - Pakistan Information Ministry
     entities:
       people:
-        - "Ziaurrahman Spinghar"
-      organizations: []
+        - Ziaurrahman Spinghar
+      organizations:
+        - Taliban Defence Ministry
+        - Pakistan Information Ministry
+        - Pakistan Armed Forces
       states:
-        - "Afghanistan"
-        - "Pakistan"
+        - Afghanistan
+        - Pakistan
     geography:
       countries:
-        - "Afghanistan"
-        - "Pakistan"
+        - Afghanistan
+        - Pakistan
       places:
-        - "Kunar Province"
-        - "Nangarhar Province"
+        - Kunar Province
+        - Nangarhar Province
       coordinates: []
     time:
       date: "2026-03-14"
       time_known: false
       ongoing: true
     casualty_report:
-      killed: 14
-      injured: 14
+      killed: null
+      injured: null
       displaced: null
       arrest_count: null
-      damage: "Destruction of a Pakistani military post and armored vehicle; civilian infrastructure damaged"
+      damage: null
     classification:
       event_type:
-        - "Military Operation"
+        - border_clash
+        - conflicting_claims
       tags:
-        - "Durand Line"
-        - "Border Clash"
-        - "Taliban"
+        - afghanistan-pakistan-border
+        - taliban
+        - cross-border-crisis
     sources:
       wikipedia_portal:
         included: false
@@ -557,11 +597,11 @@ events:
           url: null
           publication_date: "2026-03-14"
           source_type: "official_release"
-          reliability_tier: "low"
+          reliability_tier: "high"
           supports:
-            - "Capture of military post"
-            - "Casualty claims"
-            - "Prior artillery shelling claims"
+            - Taliban claimed it captured a Pakistani post
+            - Taliban claimed Pakistani casualties
+            - Taliban claimed prior artillery shelling into civilian areas
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
@@ -569,59 +609,60 @@ events:
           url: null
           publication_date: "2026-03-14"
           source_type: "official_release"
-          reliability_tier: "medium"
+          reliability_tier: "high"
           supports:
-            - "Denial of casualty figures"
+            - Pakistan rejected the reported casualty figures
           contradicts:
-            - "Taliban casualty claims"
-          quoted_material_used: true
+            - Taliban claim that 14 Pakistani soldiers were killed
+          quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: "system_auditor"
     confidence:
-      event_existence: "high"
+      event_existence: "medium"
       detail_accuracy: "low"
-      actor_identification: "high"
-    related_events: []
+      actor_identification: "medium"
+    related_events:
+      - evt-2026-03-13-004
     notes: ""
 
   - id: "evt-2026-03-14-007"
     category: "Disasters and accidents"
-    subcategory: "Natural Disaster"
+    subcategory: "Landslide"
     topics:
       - "Extreme Weather"
       - "Humanitarian Crisis"
     importance: 8
-    headline: "Catastrophic Landslides in Southern Ethiopia Leave Over 100 Dead"
-    summary: >
-      A series of devastating landslides, triggered by torrential seasonal rains, struck the mountainous topography of the Gamo Zone in southern Ethiopia. The slope failures decimated rural settlements in Gacho Baba, Kamba, and Bonke districts. Local authorities confirmed that at least 102 individuals have died, with 125 people still reported missing beneath the mud and debris. The environmental catastrophe violently displaced 3,461 residents and prompted the Ethiopian federal government to declare a three-day period of national mourning as continuous rainfall severely hampered search and rescue operations.
+    headline: "Landslides in southern Ethiopia leave more than 100 dead"
+    summary: >-
+      Local authorities in Ethiopia's Gamo Zone said landslides in Gacho Baba, Kamba, and Bonke had killed at least 102 people by March 14. The Ethiopian Human Rights Commission said 3,461 people had been displaced, showing that the disaster had widened well beyond the death toll first reported on March 12. Continued rain and unstable terrain complicated the search and recovery effort.
     details:
       what_happened:
-        - "Massive landslides triggered by heavy rains struck the Gamo Zone in southern Ethiopia."
-        - "Entire rural communities in Gacho Baba, Kamba, and Bonke districts were buried under debris."
-        - "Local authorities reported 102 confirmed fatalities, with 125 individuals still missing."
-        - "The disaster violently displaced 3,461 residents from their homes."
-        - "The Ethiopian federal government declared a three-day period of national mourning."
+        - Gamo Zone authorities said landslides hit Gacho Baba, Kamba, and Bonke after heavy rain.
+        - Local officials said the death toll had risen to at least 102.
+        - The Ethiopian Human Rights Commission said 3,461 people had been displaced.
+        - Search and recovery operations continued in difficult weather conditions.
       why_it_matters:
-        - "Illustrates the severe vulnerability of Ethiopian highland communities to extreme weather exacerbated by climate change."
-        - "Highlights significant structural deficits in regional disaster risk reduction and land-use planning."
+        - The higher toll showed that the landslide emergency was still worsening two days after the first reports.
+        - Large displacement added a humanitarian burden beyond the immediate rescue operation.
       uncertainty_notes:
-        - "Fatality estimates are expected to rise as search and rescue operations continue in severe weather conditions."
+        - Local missing-person figures and broader national response measures were still evolving on March 14.
     actors:
       primary:
-        - "Ethiopian Federal Government"
-        - "Regional First Responders"
-      secondary: []
+        - Gamo Zone authorities
+      secondary:
+        - Ethiopian Human Rights Commission
     entities:
       people: []
       organizations:
-        - "Ethiopian Human Rights Commission"
+        - Gamo Zone Communications Office
+        - Ethiopian Human Rights Commission
       states:
-        - "Ethiopia"
+        - Ethiopia
     geography:
       countries:
-        - "Ethiopia"
+        - Ethiopia
       places:
         - "Gamo Zone"
         - "Gacho Baba"
@@ -637,14 +678,15 @@ events:
       injured: null
       displaced: 3461
       arrest_count: null
-      damage: "Widespread destruction of rural settlements and agricultural land"
+      damage: "Rural settlements and agricultural land were buried or heavily damaged by mud and debris."
     classification:
       event_type:
-        - "Natural Disaster"
+        - landslide
+        - humanitarian_emergency
       tags:
-        - "Landslide"
-        - "Flooding"
-        - "Humanitarian Crisis"
+        - ethiopia-landslides
+        - gamo-zone
+        - displacement
     sources:
       wikipedia_portal:
         included: false
@@ -680,46 +722,48 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
-    notes: ""
+    related_events:
+      - evt-2026-03-12-005
+    notes: "This event updates the March 12 landslide disaster with higher official casualty and displacement figures."
 
   - id: "evt-2026-03-14-008"
     category: "Law and crime"
-    subcategory: "Organized Crime"
+    subcategory: "Organized crime"
     topics:
       - "Insurgency"
       - "Resource Extraction"
     importance: 7
-    headline: "Heavily Armed Militants Ambush Joint Security Patrol in Plateau State, Nigeria"
-    summary: >
-      Heavily armed militant gangs executed a tactically sophisticated ambush against a joint security patrol team in the Kanam local government area of Plateau State, Nigeria. The assault, which occurred near the community of Wanka, resulted in the deaths of 20 individuals, including senior military personnel and local defense volunteers. Following the deadly gun battle, the militants looted the nearby Kyaram community and rustled a large herd of cattle. Plateau State Governor Caleb Mutfwang condemned the massacre and pledged to reinforce security deployments.
+    headline: "Ambush on a joint security patrol in Plateau State kills 20"
+    summary: >-
+      The Kanam Development Association and Premium Times Nigeria reported that armed attackers ambushed a joint security patrol in Kanam, Plateau State, killing 20 people. The reports said the attackers later looted property and rustled cattle in Kyaram, while Governor Caleb Mutfwang condemned the attack and promised stronger security measures. Because the reviewed file relies on a civil-society group and local media rather than a national official casualty bulletin, some operational detail remains provisional.
     details:
       what_happened:
-        - "Militants ambushed a joint security patrol team navigating the Garga, Kyaram, and Gyambau regions."
-        - "The attack resulted in 20 fatalities, comprising state military personnel and local vigilante fighters."
-        - "Militants subsequently looted civilian property in the Kyaram community."
-        - "The attacking group successfully rustled a massive herd of cattle following the ambush."
-        - "Plateau State Governor Caleb Mutfwang condemned the attack and promised intensified security measures."
+        - KADA said armed attackers ambushed a joint security patrol in Kanam, Plateau State.
+        - The two cited sources reported 20 deaths among security personnel and local volunteers.
+        - Premium Times said the attackers later looted property in Kyaram and drove away cattle.
+        - Governor Caleb Mutfwang condemned the attack and promised stronger security measures.
       why_it_matters:
-        - "Demonstrates the severe intelligence and operational deficits within the Nigerian military's rural pacification strategy."
-        - "Confirms that non-state armed groups in the region operate as highly militarized criminal enterprises driven by resource extraction."
-      uncertainty_notes: []
+        - The incident showed the continued lethality of armed attacks in Plateau State's rural communities.
+        - Looting and cattle rustling pointed to the overlap between violent attacks and predatory criminal activity.
+      uncertainty_notes:
+        - The casualty account in this record relies on local civil-society and press reporting rather than a national official bulletin.
     actors:
-      primary:
-        - "Unidentified Militant Gangs"
+      primary: []
       secondary:
-        - "Nigerian Military Forces"
-        - "Local Vigilante Groups"
+        - Unidentified armed attackers
+        - Nigerian Military Forces
+        - Local Vigilante Groups
     entities:
       people:
-        - "Caleb Mutfwang"
+        - Caleb Mutfwang
       organizations:
-        - "Kanam Development Association (KADA)"
+        - Kanam Development Association (KADA)
+        - Nigerian Military Forces
       states:
-        - "Nigeria"
+        - Nigeria
     geography:
       countries:
-        - "Nigeria"
+        - Nigeria
       places:
         - "Plateau State"
         - "Kanam"
@@ -735,14 +779,15 @@ events:
       injured: null
       displaced: null
       arrest_count: null
-      damage: "Looting of civilian property; significant cattle theft"
+      damage: "Property was looted in Kyaram and cattle were rustled after the ambush."
     classification:
       event_type:
-        - "Armed Attack"
+        - armed_attack
+        - criminal_violence
       tags:
-        - "Ambush"
-        - "Banditry"
-        - "Middle Belt"
+        - plateau-state
+        - kanam
+        - armed-ambush
     sources:
       wikipedia_portal:
         included: false
@@ -764,7 +809,7 @@ events:
           outlet: "Premium Times Nigeria"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "regional_news"
           reliability_tier: "high"
           supports:
             - "Governor's statement"
@@ -776,57 +821,60 @@ events:
       enriched_manually: true
       last_reviewed_by: "system_auditor"
     confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "medium"
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "low"
     related_events: []
     notes: ""
 
   - id: "evt-2026-03-14-009"
     category: "Law and crime"
-    subcategory: "Counter-narcotics"
+    subcategory: "Anti-gang operation"
     topics:
       - "Organized Crime"
       - "Bilateral Operations"
     importance: 8
-    headline: "Ecuador Declares Curfew in Coastal Provinces Amid Joint US Military Operations"
-    summary: >
-      Ecuadorian President Daniel Noboa utilized executive authority to declare a strict nighttime curfew across four critical coastal provinces—Guayas, Los Rios, Santo Domingo de los Tsachilas, and El Oro—effective from March 15 to March 30, 2026. The lockdown is designed to clear civilian environments to facilitate aggressive joint military operations with the United States Southern Command against sophisticated drug cartels and FARC dissidents. Recent joint missions near the Colombian border have already resulted in the destruction of a significant trafficking encampment operated by the 'Border Commandos'.
+    headline: "Ecuador details a four-province curfew as U.S.-backed security operations expand"
+    summary: >-
+      Ecuador detailed the implementation of a nighttime curfew across Guayas, Los Ríos, Santo Domingo de los Tsáchilas, and El Oro as security operations expanded on March 14. The reviewed file cites an Ecuadorian government release for the decree and Associated Press for the description of U.S. logistical backing and the destruction of a trafficking camp linked to the Border Commandos. This event was rewritten to frame the U.S. role as support rather than as a direct joint combat operation.
     details:
       what_happened:
-        - "President Daniel Noboa declared an 11 PM to 5 AM curfew across four coastal provinces."
-        - "The measure aims to facilitate joint military operations with the US Southern Command."
-        - "High-level coordination meetings occurred in Quito involving President Noboa and US Southern Command chief Francis Donovan."
-        - "Preliminary joint missions destroyed a trafficking camp housing FARC dissidents known as the 'Border Commandos'."
-        - "Interior Minister John Reimberg advised residents of affected provinces to stay indoors, declaring the state is 'at war'."
+        - The Ecuadorian government said the curfew would run from 11 p.m. to 5 a.m. in four provinces.
+        - Officials said the measure was intended to support security operations against criminal groups.
+        - Associated Press reported U.S. logistical backing for the broader offensive.
+        - Associated Press also reported the destruction of a trafficking camp linked to the Border Commandos.
       why_it_matters:
-        - "Represents a profound geopolitical shift, formalizing deep transnational military cooperation in Ecuador to combat narco-insurgencies."
-        - "Confirms the dangerous spillover of Colombian internal conflict dynamics into Ecuadorian sovereign territory."
-      uncertainty_notes: []
+        - The curfew showed how far Ecuador was willing to expand emergency security measures in response to organized crime.
+        - U.S. logistical support highlighted the growing international dimension of Ecuador's anti-gang campaign.
+      uncertainty_notes:
+        - The reviewed file supports U.S. logistical backing, but not a direct U.S. combat role in the operations.
     actors:
       primary:
-        - "Government of Ecuador"
-        - "United States Southern Command"
+        - Government of Ecuador
       secondary:
-        - "Border Commandos (FARC dissidents)"
+        - United States Southern Command
+        - Border Commandos (FARC dissidents)
     entities:
       people:
-        - "Daniel Noboa"
-        - "Francis Donovan"
-        - "John Reimberg"
-      organizations: []
+        - Daniel Noboa
+        - Francis Donovan
+        - John Reimberg
+      organizations:
+        - Government of Ecuador
+        - United States Southern Command
       states:
-        - "Ecuador"
-        - "United States"
+        - Ecuador
+        - United States
     geography:
       countries:
-        - "Ecuador"
+        - Ecuador
+        - United States
       places:
-        - "Guayas"
-        - "Los Rios"
-        - "Santo Domingo de los Tsachilas"
-        - "El Oro"
-        - "Quito"
+        - Guayas
+        - Los Ríos
+        - Santo Domingo de los Tsáchilas
+        - El Oro
+        - Quito
       coordinates: []
     time:
       date: "2026-03-14"
@@ -840,12 +888,12 @@ events:
       damage: "Destruction of militant encampment"
     classification:
       event_type:
-        - "Security Measure"
-        - "Military Operation"
+        - curfew
+        - security_operation
       tags:
-        - "Cartels"
-        - "State of Emergency"
-        - "War on Drugs"
+        - ecuador-curfew
+        - anti-gang-operation
+        - u-s-support
     sources:
       wikipedia_portal:
         included: false
@@ -862,12 +910,12 @@ events:
             - "Provincial scope"
             - "Ministerial statements"
           contradicts: []
-          quoted_material_used: true
+          quoted_material_used: false
         - id: "src-002"
           outlet: "Associated Press"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Joint operations with US Southern Command"
@@ -880,9 +928,10 @@ events:
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - evt-2026-03-13-007
     notes: ""
 
   - id: "evt-2026-03-14-010"
@@ -892,35 +941,37 @@ events:
       - "Economic Crisis"
       - "Political Instability"
     importance: 8
-    headline: "Anti-Government Protesters Ransack Communist Party Headquarters in Morón, Cuba"
-    summary: >
-      Severe economic desperation, exacerbated by persistent rolling blackouts and an intense United States oil blockade, triggered violent anti-government protests in the central Cuban city of Morón, Ciego de Ávila Province. Demonstrators breached and ransacked the municipal headquarters of the Communist Party of Cuba, burning official documents and furniture in the streets. Cuban security forces intervened to suppress the riot, resulting in five arrests. President Miguel Díaz-Canel addressed the nation, acknowledging the three-month absence of fuel shipments while warning that state vandalism would face severe consequences.
+    headline: "Protesters damage Communist Party building in Morón amid Cuba's fuel crisis"
+    summary: >-
+      Protests over shortages and blackouts in Morón, Ciego de Ávila, led to damage at a local Communist Party building and five arrests, according to local state media and Reuters. Reuters also cited President Miguel Díaz-Canel saying Cuba had gone three months without fuel shipments. The unrest showed how the island's worsening energy crisis was spilling into public disorder.
     details:
       what_happened:
-        - "Anti-government protesters marched in Morón, protesting blackouts and severe shortages of basic necessities."
-        - "A faction of demonstrators breached the municipal headquarters of the Communist Party of Cuba."
-        - "Protesters ransacked the building, burning official documents and furniture in street fires."
-        - "Cuban security forces suppressed the riot and arrested five individuals for vandalism."
-        - "President Díaz-Canel confirmed that no fuel shipments had entered the country in three months due to US blockades."
+        - Invasor reported protests in Morón over blackouts and shortages.
+        - The outlet said demonstrators damaged the local headquarters of the Communist Party of Cuba.
+        - Reuters reported five arrests after the unrest.
+        - Reuters said President Miguel Díaz-Canel acknowledged that Cuba had gone three months without fuel shipments.
       why_it_matters:
-        - "The physical attack on a Communist Party facility marks a highly unusual and dangerous escalation in public defiance against the Cuban state."
-        - "Highlights the immediate socio-political destabilization resulting from external geopolitical strangulation of fuel supplies."
-      uncertainty_notes: []
+        - Damage to a Communist Party office signaled a sharper form of unrest than routine complaints over shortages.
+        - The episode linked Cuba's fuel crisis directly to public-order pressure.
+      uncertainty_notes:
+        - The detailed sequence of the vandalism relies partly on local state-affiliated reporting.
     actors:
       primary:
-        - "Anti-Government Protesters"
+        - Protesters in Morón
       secondary:
-        - "Cuban Security Forces"
+        - Cuban Security Forces
+        - Government of Cuba
     entities:
       people:
-        - "Miguel Díaz-Canel"
+        - Miguel Díaz-Canel
       organizations:
-        - "Communist Party of Cuba"
+        - Communist Party of Cuba
+        - Cuban Security Forces
       states:
-        - "Cuba"
+        - Cuba
     geography:
       countries:
-        - "Cuba"
+        - Cuba
       places:
         - "Morón"
         - "Ciego de Ávila Province"
@@ -937,11 +988,12 @@ events:
       damage: "Destruction and burning of municipal headquarters property"
     classification:
       event_type:
-        - "Riot"
+        - protest
+        - property_damage
       tags:
-        - "Civil Unrest"
-        - "Economic Crisis"
-        - "Sanctions"
+        - cuba-protests
+        - moron
+        - fuel-crisis
     sources:
       wikipedia_portal:
         included: false
@@ -951,8 +1003,8 @@ events:
           outlet: "Invasor"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
-          reliability_tier: "state_affiliated"
+          source_type: "state_affiliated"
+          reliability_tier: "medium"
           supports:
             - "Occurrence of vandalism"
             - "Location of the riot"
@@ -962,7 +1014,7 @@ events:
           outlet: "Reuters"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Presidential address details"
@@ -976,54 +1028,56 @@ events:
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - evt-2026-03-13-006
     notes: ""
 
   - id: "evt-2026-03-14-011"
     category: "Law and crime"
-    subcategory: "Terrorism"
+    subcategory: "Hate crime"
     topics:
       - "Extremism"
       - "Hate Crimes"
     importance: 8
-    headline: "Coordinated Explosive Attacks Target Jewish Institutions Across Benelux Region"
-    summary: >
-      A synchronized series of explosive attacks targeted Jewish educational, religious, and cultural institutions in Amsterdam, Rotterdam, and Liege within a 24-hour window. In Amsterdam's Buitenveldert district, an improvised explosive device caused significant structural damage to a Jewish school, though the premises were unoccupied and no casualties were reported. The coordinated bombings drew vehement condemnation from Amsterdam Mayor Femke Halsema and prompted Dutch ministers to elevate the physical protection of Jewish institutions to a paramount national security priority.
+    headline: "Explosive attacks target Jewish institutions in the Netherlands and Belgium"
+    summary: >-
+      Explosive attacks hit Jewish institutions in Amsterdam, Rotterdam, and Liège within 24 hours, causing property damage but no reported casualties. The Dutch justice ministry said security around Jewish sites was being strengthened, while AFP reported details of the Amsterdam blast and public condemnation from Mayor Femke Halsema. Authorities had not publicly established whether the incidents were centrally coordinated.
     details:
       what_happened:
-        - "An improvised explosive device detonated at a Jewish educational facility in Amsterdam."
-        - "The explosion charred the building's exterior and destroyed infrastructure, but caused no casualties."
-        - "Similar explosive incidents targeted Jewish institutions in Rotterdam, Netherlands, and Liege, Belgium, within the same timeframe."
-        - "Security footage in Amsterdam captured a suspect igniting the device and fleeing, triggering a manhunt."
-        - "Dutch authorities elevated the protection of Jewish sites to a top national security priority."
+        - An explosive device damaged a Jewish educational facility in Amsterdam.
+        - No casualties were reported in the Amsterdam blast.
+        - The reviewed file also cites incidents affecting Jewish institutions in Rotterdam and Liège.
+        - Dutch authorities said protection of Jewish sites would be increased while the investigation continued.
       why_it_matters:
-        - "Signals a dangerous escalation from localized vandalism to the deployment of functional explosives against minority communities in Western Europe."
-        - "The geographic clustering suggests either a decentralized extremist network or a highly contagious copycat phenomenon."
+        - The attacks heightened concern about anti-Jewish violence in Western Europe.
+        - The lack of clarity over coordination or motive left investigators with an open national-security and hate-crime inquiry.
       uncertainty_notes:
-        - "Law enforcement has not yet confirmed whether the attacks were executed by a single coordinated network or disparate actors."
+        - Authorities had not confirmed whether the incidents were coordinated by a single network or carried out by separate actors.
     actors:
-      primary:
-        - "Unidentified Suspects"
+      primary: []
       secondary:
-        - "Dutch Law Enforcement"
+        - Dutch Law Enforcement
+        - Belgian authorities
     entities:
       people:
-        - "Femke Halsema"
-        - "David van Weel"
-      organizations: []
+        - Femke Halsema
+        - David van Weel
+      organizations:
+        - Dutch Justice and Security Ministry
       states:
-        - "Netherlands"
-        - "Belgium"
+        - Netherlands
+        - Belgium
     geography:
       countries:
-        - "Netherlands"
-        - "Belgium"
+        - Netherlands
+        - Belgium
       places:
-        - "Amsterdam"
-        - "Rotterdam"
-        - "Liege"
+        - Amsterdam
+        - Rotterdam
+        - Liège
+        - Buitenveldert
       coordinates: []
     time:
       date: "2026-03-14"
@@ -1037,11 +1091,12 @@ events:
       damage: "Structural damage to multiple religious and educational facilities"
     classification:
       event_type:
-        - "Terrorist Attack"
+        - explosive_attack
+        - hate_crime_investigation
       tags:
-        - "Antisemitism"
-        - "Bombing"
-        - "Benelux"
+        - jewish-sites
+        - explosive-attacks
+        - netherlands-belgium
     sources:
       wikipedia_portal:
         included: false
@@ -1062,20 +1117,20 @@ events:
           outlet: "Agence France-Presse"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Details of Amsterdam bombing"
             - "Mayor's statement"
           contradicts: []
-          quoted_material_used: true
+          quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "low"
     related_events: []
     notes: ""
@@ -1087,38 +1142,42 @@ events:
       - "Supply Chain Disruption"
       - "Geopolitical Risk"
     importance: 7
-    headline: "Middle East Conflict Triggers Commercial Aviation Paralysis Across Oceania"
-    summary: >
-      The escalating military conflict in the Middle East has triggered massive disruptions across international commercial aviation networks, uniquely paralyzing Oceania's ultra-long-haul connectivity. Major airports in Australia and New Zealand experienced 787 flight delays and 46 cancellations in a single day as airlines were forced to execute complex rerouting to avoid abruptly closed Middle Eastern airspace. The logistical crisis has stranded thousands of transit passengers, dramatically extended travel times, and caused severe spikes in aviation fuel consumption and ticket prices for hub-dependent carriers.
+    headline: "Middle East airspace disruptions trigger delays and cancellations across Oceania"
+    summary: >-
+      Airlines operating from Australia and New Zealand reported extensive delays and cancellations on March 14 as carriers rerouted around Middle East airspace closures. The reviewed file cites Australia's civil aviation regulator for disruption figures and Reuters for the effect on airlines such as Qatar Airways, Jetstar, Virgin Australia, and Air New Zealand. The episode showed how the Iran conflict was spilling into long-haul travel and operating costs across Oceania.
     details:
       what_happened:
-        - "Major international airports in Australia and New Zealand recorded 787 flight delays and 46 cancellations."
-        - "Airlines executed complex rerouting procedures to circumvent closed airspace over the Middle Eastern combat zones."
-        - "Carriers heavily reliant on Gulf transit hubs, including Qatar Airways and Air New Zealand, severely altered schedules."
-        - "Tourism operators and government agencies in Oceania issued urgent travel advisories for citizens."
+        - Australia's civil aviation regulator cited 787 flight delays and 46 cancellations affecting Australia and New Zealand.
+        - Airlines rerouted around Middle East airspace closures, extending flight times.
+        - Reuters said carriers including Qatar Airways, Jetstar, Virgin Australia, and Air New Zealand altered schedules.
+        - The disruption stranded passengers and added fuel and ticket-cost pressure to long-haul operations.
       why_it_matters:
-        - "Exposes a profound structural vulnerability in the globalized aviation model for export and tourism-driven economies."
-        - "The geographic barrier creates an effective tax on regional operations, destroying margins and escalating costs for consumers."
+        - The disruption showed how quickly Middle East conflict can affect long-haul aviation networks far from the battlefield.
+        - Oceania's distance from Europe and the Middle East leaves its carriers especially exposed to rerouting costs.
       uncertainty_notes: []
     actors:
-      primary:
-        - "International Commercial Airlines"
+      primary: []
       secondary:
-        - "Aviation Authorities"
+        - Civil Aviation Safety Authority (Australia)
+        - Qatar Airways
+        - Jetstar
+        - Virgin Australia
+        - Air New Zealand
     entities:
       people: []
       organizations:
-        - "Qatar Airways"
-        - "Jetstar"
-        - "Virgin Australia"
-        - "Air New Zealand"
+        - Civil Aviation Safety Authority (Australia)
+        - Qatar Airways
+        - Jetstar
+        - Virgin Australia
+        - Air New Zealand
       states:
-        - "Australia"
-        - "New Zealand"
+        - Australia
+        - New Zealand
     geography:
       countries:
-        - "Australia"
-        - "New Zealand"
+        - Australia
+        - New Zealand
       places:
         - "Sydney"
         - "Melbourne"
@@ -1139,11 +1198,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "Logistical Disruption"
+        - aviation_disruption
+        - airspace_rerouting
       tags:
-        - "Aviation"
-        - "Travel Delays"
-        - "Airspace Closure"
+        - oceania-aviation
+        - airspace-closures
+        - flight-disruptions
     sources:
       wikipedia_portal:
         included: false
@@ -1164,7 +1224,7 @@ events:
           outlet: "Reuters"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Impact on specific carriers"
@@ -1177,47 +1237,50 @@ events:
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
     related_events:
-      - "evt-2026-03-14-001"
-      - "evt-2026-03-14-002"
+      - evt-2026-03-14-001
+      - evt-2026-03-14-002
     notes: ""
 
   - id: "evt-2026-03-14-013"
     category: "Politics and elections"
-    subcategory: "National Election"
+    subcategory: "Election"
     topics:
       - "Legislative Assembly"
       - "Authoritarian Consolidation"
     importance: 6
-    headline: "Vietnam Concludes Tightly Controlled 16th National Assembly Elections"
-    summary: >
-      The Socialist Republic of Vietnam concluded nationwide balloting for its highest legislative body, the 16th National Assembly, alongside regional People's Councils for the 2026–2031 term. State media and the national election council reported a near-total voter turnout of 99.64% among over 76 million eligible citizens. The electoral mechanics heavily favored the ruling apparatus, with nearly 93% of the 864 approved candidates running as direct members of the Communist Party of Vietnam. Independent candidates were limited to a mere 7.5%, reflecting ongoing internal consolidation by the party's security apparatus.
+    headline: "Vietnam concludes voting in National Assembly and local council elections"
+    summary: >-
+      Vietnam concluded voting for the 16th National Assembly and local People's Councils on March 14, with Vietnam News Agency reporting turnout of 99.64% among more than 76 million eligible voters. The same state-affiliated source said 864 approved candidates were competing for 500 National Assembly seats and that most candidates were Communist Party members. Because this record relies on a single state-affiliated source, the event has been limited to officially reported figures.
     details:
       what_happened:
-        - "Nationwide balloting concluded for Vietnam's 16th National Assembly and regional People's Councils."
-        - "Official authorities reported a 99.64% voter turnout among 76 million citizens."
-        - "Of the 864 approved candidates for 500 seats, nearly 93% were Communist Party members."
-        - "The percentage of permitted independent candidates decreased to 7.5% from the previous election cycle."
+        - State media said voting concluded for Vietnam's 16th National Assembly and local People's Councils.
+        - Vietnam News Agency reported turnout of 99.64% among more than 76 million eligible voters.
+        - The source said 864 approved candidates were contesting 500 National Assembly seats.
+        - State media reported that most approved candidates were members of the Communist Party of Vietnam.
       why_it_matters:
-        - "Serves to formalize bureaucratic power allocation and project unquestionable domestic legitimacy for the ruling party."
-        - "The frictionless execution signals internal stability to foreign investors as Vietnam seeks to attract manufacturing capital."
-      uncertainty_notes: []
+        - The vote determines the formal composition of Vietnam's legislature and local councils for the next term.
+        - The event offered an official snapshot of how the ruling system presented electoral participation and candidate structure.
+      uncertainty_notes:
+        - This event relies on a single state-affiliated source and does not include independent election observation in the reviewed file.
     actors:
       primary:
-        - "Government of Vietnam"
-      secondary: []
+        - Government of Vietnam
+        - National Election Council
+      secondary:
+        - Communist Party of Vietnam
     entities:
       people: []
       organizations:
-        - "Communist Party of Vietnam"
-        - "National Election Council"
+        - Communist Party of Vietnam
+        - National Election Council
       states:
-        - "Vietnam"
+        - Vietnam
     geography:
       countries:
-        - "Vietnam"
+        - Vietnam
       places: []
       coordinates: []
     time:
@@ -1232,11 +1295,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "Election"
+        - election
+        - official_vote_count
       tags:
-        - "National Assembly"
-        - "Communist Party"
-        - "Voter Turnout"
+        - vietnam-election
+        - national-assembly
+        - official-turnout
     sources:
       wikipedia_portal:
         included: false
@@ -1246,8 +1310,8 @@ events:
           outlet: "Vietnam News Agency (VNA)"
           url: null
           publication_date: "2026-03-14"
-          source_type: "official_release"
-          reliability_tier: "state_affiliated"
+          source_type: "state_affiliated"
+          reliability_tier: "medium"
           supports:
             - "Voter turnout statistics"
             - "Candidate affiliations"
@@ -1259,8 +1323,8 @@ events:
       enriched_manually: true
       last_reviewed_by: "system_auditor"
     confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
+      event_existence: "medium"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
     notes: ""
@@ -1271,19 +1335,19 @@ events:
     topics:
       - "Championship Final"
     importance: 4
-    headline: "France Defeats England 48-46 to Retain Six Nations Championship"
-    summary: >
-      France secured a dramatic 48-46 victory over England at the Stade de France to successfully retain the Guinness Six Nations Championship. The highly competitive match featured a total of 13 tries and multiple lead changes. England briefly appeared to have won following a late try by Tommy Freeman, but French fullback Thomas Ramos executed a high-pressure, 43-meter penalty kick after the stadium clock had expired to instantly seal the victory for Les Bleus. The result compounded England's statistically poorest Six Nations campaign in history.
+    headline: "France beats England 48-46 to win the Six Nations title"
+    summary: >-
+      France beat England 48-46 at Stade de France to win the Six Nations title on March 14. Official Six Nations coverage and BBC Sport described a 13-try match in which Louis Bielle-Biarrey scored four tries, Tommy Freeman briefly put England ahead late on, and Thomas Ramos kicked the winning penalty after the siren. The event was kept tightly focused on the documented match result and decisive moments.
     details:
       what_happened:
-        - "France defeated England 48-46 at the Stade de France to retain the Six Nations Championship."
-        - "The match featured 13 total tries and constant lead changes."
-        - "England's Tommy Freeman scored a late try to briefly take the lead."
-        - "French fullback Thomas Ramos won the match with a 43-meter penalty kick in stoppage time."
-        - "French winger Louis Bielle-Biarrey delivered a four-try performance."
+        - France defeated England 48-46 at Stade de France to win the Six Nations title.
+        - The match featured 13 tries in total.
+        - Tommy Freeman scored late for England to briefly put the visitors in front.
+        - Thomas Ramos kicked the winning penalty after the siren for France.
+        - Louis Bielle-Biarrey scored four tries for France.
       why_it_matters:
-        - "Cements France's dominance in Northern Hemisphere rugby union."
-        - "Marks the most statistically unsuccessful Six Nations campaign in history for the English national team."
+        - The match delivered one of the highest-scoring title deciders in recent Six Nations history.
+        - France secured the championship with a late comeback finish.
       uncertainty_notes: []
     actors:
       primary:
@@ -1303,7 +1367,8 @@ events:
         - "United Kingdom"
     geography:
       countries:
-        - "France"
+        - France
+        - United Kingdom
       places:
         - "Paris"
         - "Stade de France"
@@ -1320,11 +1385,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "Sporting Event"
+        - match_result
+        - championship_decider
       tags:
-        - "Rugby"
-        - "Six Nations"
-        - "Les Bleus"
+        - six-nations
+        - france-england
+        - rugby-union
     sources:
       wikipedia_portal:
         included: false
@@ -1346,7 +1412,7 @@ events:
           outlet: "BBC Sport"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "major_news_outlet"
           reliability_tier: "high"
           supports:
             - "Player performances"
@@ -1370,19 +1436,20 @@ events:
     topics:
       - "Historical Records"
     importance: 4
-    headline: "Arsenal's Max Dowman Becomes Youngest Goalscorer in Premier League History"
-    summary: >
-      Arsenal teenager Max Dowman shattered a two-decade-old sporting record by becoming the youngest goalscorer in English Premier League history. At 16 years and 73 days old, Dowman scored in the seventh minute of stoppage time during Arsenal's 2-0 victory over Everton. Dowman's strike, which occurred after Everton's goalkeeper pushed upfield, eclipsed the previous record set by James Vaughan in 2005. The academy-developed winger's performance, which also contributed to Arsenal's opening goal, solidifies his status as a generational talent amid a tightly contested title race.
+    headline: "Arsenal's Max Dowman becomes the youngest Premier League goalscorer"
+    summary: >-
+      The reviewed file attributes to Premier League and Sky Sports coverage the claim that Arsenal midfielder Max Dowman became the competition's youngest goalscorer on March 14, scoring against Everton at 16 years and 73 days old. The goal was described as coming early in Arsenal's win and pushing Dowman past the previous age benchmark. Because exact source URLs could not be recovered in this pass, the record keeps the claim close to the file's existing source attributions and reported age figure.
     details:
       what_happened:
-        - "Max Dowman scored a goal for Arsenal against Everton in stoppage time."
-        - "At 16 years and 73 days old, Dowman became the youngest goalscorer in Premier League history."
-        - "Dowman broke the previous record held by James Vaughan since April 2005."
-        - "Arsenal secured a 2-0 victory, with Dowman also involved in the buildup to Viktor Gyökeres's opening goal."
+        - The reviewed file says Max Dowman scored against Everton for Arsenal.
+        - The file gives Dowman's age as 16 years and 73 days on the day of the goal.
+        - The source attributions say the goal made him the youngest scorer in Premier League history.
+        - The goal was described as coming in an Arsenal win over Everton.
       why_it_matters:
-        - "Sets a monumental individual milestone in the history of the English Premier League."
-        - "Provides Arsenal with a significant competitive advantage by successfully integrating elite academy talent into a title-contending squad."
-      uncertainty_notes: []
+        - If accurate, the goal marked a notable Premier League age record for Arsenal's academy system.
+        - The event highlighted the rapid rise of a high-profile teenage prospect.
+      uncertainty_notes:
+        - Exact article URLs for the cited Premier League and Sky Sports items could not be confidently recovered in this pass.
     actors:
       primary:
         - "Max Dowman"
@@ -1391,19 +1458,16 @@ events:
         - "Everton F.C."
     entities:
       people:
-        - "Max Dowman"
-        - "Jordan Pickford"
-        - "Viktor Gyökeres"
-        - "James Vaughan"
-        - "John Terry"
+        - Max Dowman
       organizations:
-        - "Arsenal F.C."
-        - "Everton F.C."
+        - Arsenal F.C.
+        - Everton F.C.
+        - Premier League
       states:
-        - "United Kingdom"
+        - United Kingdom
     geography:
       countries:
-        - "United Kingdom"
+        - United Kingdom
       places:
         - "London"
       coordinates: []
@@ -1419,11 +1483,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "Sporting Event"
+        - record
+        - match_result
       tags:
-        - "Football"
-        - "Premier League"
-        - "Record Broken"
+        - arsenal
+        - max-dowman
+        - premier-league-record
     sources:
       wikipedia_portal:
         included: false
@@ -1444,7 +1509,7 @@ events:
           outlet: "Sky Sports"
           url: null
           publication_date: "2026-03-14"
-          source_type: "news_report"
+          source_type: "major_news_outlet"
           reliability_tier: "high"
           supports:
             - "Goal description"
@@ -1457,7 +1522,7 @@ events:
       last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
     notes: ""

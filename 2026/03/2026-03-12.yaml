@@ -65,7 +65,12 @@ events:
         - "France"
     geography:
       countries:
-        - "United States"
+        - United States
+        - Russia
+        - China
+        - Iran
+        - United Kingdom
+        - France
       places:
         - "United Nations Headquarters"
         - "New York City"
@@ -82,12 +87,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "diplomatic_meeting"
-        - "sanctions_dispute"
+        - diplomatic_meeting
+        - sanctions_dispute
       tags:
-        - "UN"
-        - "Iran"
-        - "nuclear"
+        - un
+        - iran
+        - nuclear
     sources:
       wikipedia_portal:
         included: false
@@ -128,7 +133,7 @@ events:
 
   - id: "evt-2026-03-12-002"
     category: "Armed conflicts and attacks"
-    subcategory: "Regional escalation"
+    subcategory: "Military operation"
     topics:
       - "Iran-aligned armed groups"
       - "Israel"
@@ -172,9 +177,11 @@ events:
         - "United States"
     geography:
       countries:
-        - "Israel"
-        - "Lebanon"
-        - "Iraq"
+        - Israel
+        - Lebanon
+        - Iraq
+        - Iran
+        - United States
       places:
         - "Northern Israel"
       coordinates: []
@@ -190,12 +197,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "cross_border_attack"
-        - "rocket_attack"
+        - cross_border_attack
+        - rocket_attack
       tags:
-        - "Iran"
-        - "Hezbollah"
-        - "regional war"
+        - iran
+        - hezbollah
+        - regional-war
     sources:
       wikipedia_portal:
         included: false
@@ -275,8 +282,8 @@ events:
         - "United Arab Emirates"
     geography:
       countries:
-        - "Qatar"
-        - "United Arab Emirates"
+        - Qatar
+        - United Arab Emirates
       places:
         - "Ras Laffan"
         - "Strait of Hormuz"
@@ -293,13 +300,13 @@ events:
       damage: null
     classification:
       event_type:
-        - "supply_chain_disruption"
-        - "force_majeure"
-        - "market_shock"
+        - supply_chain_disruption
+        - force_majeure
+        - market_shock
       tags:
-        - "LNG"
-        - "Qatar"
-        - "helium"
+        - lng
+        - qatar
+        - helium
     sources:
       wikipedia_portal:
         included: false
@@ -389,8 +396,8 @@ events:
         - "Chad"
     geography:
       countries:
-        - "Sudan"
-        - "Chad"
+        - Sudan
+        - Chad
       places:
         - "Adikong"
         - "West Darfur"
@@ -408,12 +415,12 @@ events:
       damage: "Market stalls and fuel storage were destroyed or burned."
     classification:
       event_type:
-        - "drone_strike"
-        - "civilian_casualties"
+        - drone_strike
+        - civilian_casualties
       tags:
-        - "Darfur"
-        - "market"
-        - "drone warfare"
+        - darfur
+        - market
+        - drone-warfare
     sources:
       wikipedia_portal:
         included: false
@@ -449,12 +456,13 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "medium"
-    related_events: []
-    notes: ""
+    related_events:
+      - evt-2026-03-13-005
+    notes: "Later Reuters and MSF reporting on March 13 raised the reported toll to 11 killed and 23 injured."
 
   - id: "evt-2026-03-12-005"
     category: "Disasters and accidents"
-    subcategory: "Landslides"
+    subcategory: "Landslide"
     topics:
       - "Extreme rainfall"
       - "Southern Ethiopia"
@@ -488,7 +496,7 @@ events:
         - "Ethiopia"
     geography:
       countries:
-        - "Ethiopia"
+        - Ethiopia
       places:
         - "Gamo Zone"
         - "Gacho Baba"
@@ -507,11 +515,11 @@ events:
       damage: "Homes, roads and hillside settlements were affected by mud and debris flows."
     classification:
       event_type:
-        - "landslide"
-        - "natural_disaster"
+        - landslide
+        - natural_disaster
       tags:
-        - "rainfall"
-        - "mudslide"
+        - rainfall
+        - mudslide
     sources:
       wikipedia_portal:
         included: false
@@ -547,12 +555,13 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
-    notes: ""
+    related_events:
+      - evt-2026-03-14-007
+    notes: "Later official updates on March 14 raised the reported toll above 100 and reported thousands displaced."
 
   - id: "evt-2026-03-12-006"
     category: "Politics and elections"
-    subcategory: "Legislation and budget"
+    subcategory: "Legislation"
     topics:
       - "China"
       - "National People's Congress"
@@ -579,17 +588,18 @@ events:
         - "People's Republic of China"
       secondary:
         - "Government of Taiwan"
-      entities:
-        people: []
-        organizations:
-          - "National People's Congress"
-          - "People's Liberation Army"
-        states:
-          - "China"
-          - "Taiwan"
+    entities:
+      people: []
+      organizations:
+        - National People's Congress
+        - People's Liberation Army
+      states:
+        - China
+        - Taiwan
     geography:
       countries:
-        - "China"
+        - China
+        - Taiwan
       places:
         - "Beijing"
       coordinates: []
@@ -605,13 +615,13 @@ events:
       damage: null
     classification:
       event_type:
-        - "legislation"
-        - "budget_release"
-        - "policy_announcement"
+        - legislation
+        - budget_release
+        - policy_announcement
       tags:
-        - "NPC"
-        - "budget"
-        - "defense"
+        - npc
+        - budget
+        - defense
     sources:
       wikipedia_portal:
         included: false
@@ -621,8 +631,8 @@ events:
           outlet: "Xinhua"
           url: "https://english.news.cn/20260312/fb7b361a751d4a2290c61c6a66867996/c.html"
           publication_date: "2026-03-12"
-          source_type: "official_agency"
-          reliability_tier: "high"
+          source_type: "state_affiliated"
+          reliability_tier: "medium"
           supports:
             - "NPC session concluded"
             - "Government reports, planning outline and laws were approved"
@@ -661,7 +671,7 @@ events:
 
   - id: "evt-2026-03-12-007"
     category: "Business and economy"
-    subcategory: "International Trade"
+    subcategory: "International trade"
     topics:
       - "U.S. trade policy"
       - "Section 301"
@@ -689,22 +699,27 @@ events:
       secondary:
         - "European Union"
         - "Singapore"
-      entities:
-        people: []
-        organizations:
-          - "Office of the United States Trade Representative"
-          - "European Commission"
-        states:
-          - "United States"
-          - "China"
-          - "European Union"
-          - "Singapore"
-          - "India"
-          - "Japan"
-          - "Mexico"
+    entities:
+      people: []
+      organizations:
+        - Office of the United States Trade Representative
+        - European Commission
+      states:
+        - United States
+        - China
+        - European Union
+        - Singapore
+        - India
+        - Japan
+        - Mexico
     geography:
       countries:
-        - "United States"
+        - United States
+        - China
+        - Singapore
+        - India
+        - Japan
+        - Mexico
       places:
         - "Washington, D.C."
       coordinates: []
@@ -720,12 +735,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "regulatory_action"
-        - "trade_dispute"
+        - regulatory_action
+        - trade_dispute
       tags:
-        - "USTR"
-        - "Section 301"
-        - "tariffs"
+        - ustr
+        - section-301
+        - tariffs
     sources:
       wikipedia_portal:
         included: false
@@ -781,7 +796,8 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - evt-2026-03-13-009
     notes: ""
 
   - id: "evt-2026-03-12-008"
@@ -826,7 +842,12 @@ events:
         - "Vietnam"
     geography:
       countries:
-        - "Philippines"
+        - Philippines
+        - Indonesia
+        - Malaysia
+        - Singapore
+        - Thailand
+        - Vietnam
       places:
         - "Manila"
       coordinates: []
@@ -842,12 +863,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "diplomatic_coordination"
-        - "policy_meeting"
+        - diplomatic_coordination
+        - policy_meeting
       tags:
-        - "ASEAN"
-        - "energy security"
-        - "trade"
+        - asean
+        - energy-security
+        - trade
     sources:
       wikipedia_portal:
         included: false
@@ -883,7 +904,8 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - evt-2026-03-13-003
     notes: ""
 
   - id: "evt-2026-03-12-009"
@@ -927,8 +949,10 @@ events:
         - "Papua New Guinea"
     geography:
       countries:
-        - "Indonesia"
-        - "Australia"
+        - Indonesia
+        - Australia
+        - Japan
+        - Papua New Guinea
       places:
         - "Jakarta"
         - "Morotai"
@@ -945,12 +969,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "security_agreement"
-        - "diplomatic_meeting"
+        - security_agreement
+        - diplomatic_meeting
       tags:
-        - "Indo-Pacific"
-        - "defense"
-        - "regional alignment"
+        - indo-pacific
+        - defense
+        - regional-alignment
     sources:
       wikipedia_portal:
         included: false
@@ -1029,8 +1053,8 @@ events:
         - "Lithuania"
     geography:
       countries:
-        - "Belarus"
-        - "Lithuania"
+        - Belarus
+        - Lithuania
       places:
         - "The Hague"
       coordinates: []
@@ -1046,12 +1070,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "criminal_investigation"
-        - "international_law"
+        - criminal_investigation
+        - international_law
       tags:
-        - "ICC"
-        - "Belarus"
-        - "Lithuania"
+        - icc
+        - belarus
+        - lithuania
     sources:
       wikipedia_portal:
         included: false
@@ -1092,7 +1116,7 @@ events:
 
   - id: "evt-2026-03-12-011"
     category: "Disasters and accidents"
-    subcategory: "Floods and landslides"
+    subcategory: "Flood"
     topics:
       - "Ecuador"
       - "Rainy season"
@@ -1125,7 +1149,7 @@ events:
         - "Ecuador"
     geography:
       countries:
-        - "Ecuador"
+        - Ecuador
       places:
         - "Quito"
       coordinates: []
@@ -1141,14 +1165,14 @@ events:
       damage: "Floods, landslides and overflowing rivers damaged homes, roads and local infrastructure across multiple provinces."
     classification:
       event_type:
-        - "natural_disaster"
-        - "flooding"
-        - "landslide"
-        - "emergency_declaration"
+        - natural_disaster
+        - flooding
+        - landslide
+        - emergency_declaration
       tags:
-        - "rainy season"
-        - "floods"
-        - "landslides"
+        - rainy-season
+        - floods
+        - landslides
     sources:
       wikipedia_portal:
         included: false
@@ -1168,7 +1192,7 @@ events:
           outlet: "ReliefWeb / ECHO Daily Flash"
           url: "https://reliefweb.int/report/ecuador/ecuador-severe-weather-update-sngr-ifrc-copernicus-emsr-noaa-cpc-inhami-ecuador-echo-daily-flash-12-march-2026"
           publication_date: "2026-03-12"
-          source_type: "humanitarian_update"
+          source_type: "official_release"
           reliability_tier: "high"
           supports:
             - "At least eight people were dead, 17 injured and more than 40,000 affected"
@@ -1179,7 +1203,7 @@ events:
           outlet: "ReliefWeb / ECHO Daily Flash"
           url: "https://reliefweb.int/report/ecuador/ecuador-severe-weather-update-sngr-copernicus-emsr-noaa-cpc-inamhi-echo-daily-flash-13-march-2026"
           publication_date: "2026-03-13"
-          source_type: "humanitarian_update"
+          source_type: "official_release"
           reliability_tier: "high"
           supports:
             - "As of March 12, 28 rivers were overflowing and 34 were at risk"
@@ -1193,20 +1217,21 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - evt-2026-03-13-013
     notes: ""
 
   - id: "evt-2026-03-12-012"
-    category: "International relations"
-    subcategory: "Defense policy"
+    category: "Politics and elections"
+    subcategory: "Policy announcement"
     topics:
       - "Canada"
       - "Arctic"
       - "Sovereignty"
     importance: null
     headline: "Canada unveils a major Arctic defense plan centered on northern airfields and support hubs"
-    summary: >
-      Canada announced a major new Arctic defense package on March 12, with Prime Minister Mark Carney outlining a plan worth about C$35 billion to strengthen sovereignty and military readiness in the North. Reuters reported that the package included large spending on military airfields and four northern operational support hubs, and that Carney explicitly said Canada could no longer assume others would defend its Arctic interests. The announcement fit a broader Canadian push to reduce reliance on the United States for security assumptions in the region while responding to climate change, increasing accessibility of northern waters and strategic competition involving Russia and China. It was one of the day's most consequential defense-policy announcements outside the active war zones.
+    summary: >-
+      Canada announced a major Arctic defense package on March 12, with Prime Minister Mark Carney outlining a plan worth about C$35 billion to strengthen sovereignty and military readiness in the North. Reuters reported that the package included major spending on military airfields and four northern operational support hubs, and that Carney said Canada could no longer assume others would defend Canada's Arctic interests. The announcement underscored a more self-reliant Canadian approach to northern defense at a time of growing strategic competition in the region.
     details:
       what_happened:
         - "Prime Minister Mark Carney announced a roughly C$35 billion Arctic defense plan."
@@ -1214,8 +1239,8 @@ events:
         - "Carney said Canada could no longer rely on others to defend its Arctic interests."
         - "The plan was framed around Arctic sovereignty, climate change and rising strategic competition."
       why_it_matters:
-        - "The announcement reflected a significant reassessment of Canada's northern defense posture and alliance assumptions."
-        - "As Arctic access changes, infrastructure and logistics increasingly determine who can operate effectively in the region."
+        - The announcement reflected a significant reassessment of Canada's northern defense posture and alliance assumptions.
+        - As Arctic access changes, infrastructure and logistics increasingly determine who can operate effectively in the region.
       uncertainty_notes:
         - "The full implementation schedule and procurement details were not fully public on March 12."
     actors:
@@ -1237,7 +1262,10 @@ events:
         - "China"
     geography:
       countries:
-        - "Canada"
+        - Canada
+        - United States
+        - Russia
+        - China
       places:
         - "Canadian Arctic"
       coordinates: []
@@ -1253,12 +1281,12 @@ events:
       damage: null
     classification:
       event_type:
-        - "policy_announcement"
-        - "defense_spending"
+        - policy_announcement
+        - defense_spending
       tags:
-        - "Arctic"
-        - "Canada"
-        - "sovereignty"
+        - arctic
+        - canada
+        - sovereignty
     sources:
       wikipedia_portal:
         included: false
@@ -1276,24 +1304,13 @@ events:
             - "The package included airfields and support hubs"
           contradicts: []
           quoted_material_used: false
-        - id: "src-002"
-          outlet: "Global Affairs Canada"
-          url: "https://international.canada.ca/en/global-affairs/corporate/reports/arctic-policy-2024"
-          publication_date: "2026-02-26"
-          source_type: "official_release"
-          reliability_tier: "high"
-          supports:
-            - "Canada had already outlined major Arctic sovereignty and defense priorities"
-            - "Northern operational support hubs and Arctic military capability were part of the government's stated strategy"
-          contradicts: []
-          quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
+      event_existence: "medium"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
     notes: ""
