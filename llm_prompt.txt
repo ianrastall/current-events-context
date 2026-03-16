@@ -1,52 +1,77 @@
-Create a single, valid YAML document for the date {{DATE}} using the exact schema and rules below.
+Create a deep-research-backed YAML snapshot for a single day.
 
-Your task is to build a semantically rich, machine-readable current-events record for that one day.
+This task has two phases:
 
-Use the English Wikipedia Current Events Portal page for that date as the seed index of events, but do NOT rely on Wikipedia alone. Use it to identify the day’s events, then enrich and verify those events with as many disparate high-quality sources as reasonably possible, including international, national, regional, official, and specialist sources where appropriate.
+PHASE 1: RESEARCH
+Conduct a broad global news sweep for the date given in INPUTS.
+Identify the day's biggest events worldwide using strong, high-confidence sources.
+Deliberately check for major developments in:
+- North America
+- Latin America and the Caribbean
+- Europe
+- Middle East and North Africa
+- Sub-Saharan Africa
+- South Asia
+- East Asia
+- Southeast Asia
+- Oceania
 
-This is not a deep-research essay. This is a structured historical event ledger in YAML.
+Do not force equal regional representation.
+Do not add weak events just to fill regions.
+But do actively check for major events that may be underrepresented in Western coverage, especially in Africa, East Asia, Southeast Asia, and Oceania.
 
-Output requirements:
-- Output ONLY valid YAML.
-- Do not include commentary before or after the YAML.
-- Do not use markdown fences.
-- Do not omit fields from the schema.
-- Use null for unknown scalar values.
-- Use [] for unknown or empty lists.
-- Preserve proper nouns exactly.
+PHASE 2: OUTPUT
+After research is complete, output ONE valid YAML document only.
+Do not output notes, explanation, reasoning, or prose outside the YAML.
+
+Goal:
+Produce a broad, high-confidence global snapshot of the date's most important events.
+This is not a mirror of the Wikipedia Current Events Portal.
+Wikipedia may be consulted, but it must not determine the final event list.
+The final event list should reflect the biggest events of the day globally.
+
+Selection rules:
+- Prefer roughly 10 to 18 events on a normal day.
+- Go above 18 only if the day is unusually dense.
+- Prefer fewer strong events over many weak ones.
+- Include war, diplomacy, politics, disasters, business, science, health, culture, and sports when they are among the day's major developments.
+- Merge duplicate reporting about the same real-world event into one event object.
+- Split distinct real-world events into separate event objects.
+- Do not include mere topics or background conditions as events.
+
+Source rules:
+- Prefer 2 to 5 direct, high-confidence sources per event.
+- 1 source is allowed only if it is a highly credible original report or official primary source.
+- Every listed source must support at least one concrete claim in the event record.
+- Do not pad with background articles, earlier related stories, explainers, or vaguely adjacent links.
+- Prefer Reuters, AP, AFP, BBC, strong national outlets, strong regional outlets close to the event, official releases, court or election records, UN or NGO materials, and specialist trade or domain outlets when directly relevant.
+- Include URLs when available.
+
+Fact rules:
 - Be factual, neutral, and source-grounded.
 - Do not guess.
-- Do not invent events.
-- Do not include topic labels as standalone events.
-- If Wikipedia groups multiple real-world events together, split them into separate event objects.
-- If multiple outlets describe the same event, keep one event object and attach multiple sources.
-- Prefer fewer high-quality, well-structured events over many low-confidence fragments.
-- Use broad, stable categories rather than overly clever or overly narrow ones.
+- Do not invent events, entities, motives, casualty figures, responsibility, or outcomes.
+- Preserve proper nouns exactly.
+- Use null for unknown scalar values.
+- Use [] only when the information is genuinely unavailable or too uncertain.
+- Fill list fields when reliable sources clearly support the information.
+- Do not assign responsibility in actors.primary unless the listed sources explicitly support that attribution.
+- If sources disagree, record the disagreement briefly in uncertainty_notes or notes and lower confidence.
 
-Source policy:
-- Use the English Wikipedia Current Events Portal for the date as the event roster.
-- Then enrich with as many reasonably available sources as possible.
-- Prioritize high-quality sources such as Reuters, AP, BBC, AFP, major national outlets, regional outlets close to the event, official government or institutional releases, court documents, election authorities, UN/NGO reports, and similar primary or strong secondary sources.
-- Include multiple source types when possible.
-- If sources disagree, preserve the disagreement in notes and lower confidence.
-- Include source URLs when available.
-
-Event policy:
-- Each item under `events` must be a real event.
-- Conflict names, issue labels, election names, protest names, war names, crisis names, background topics, and umbrella subjects go in `topics`, not as events.
-- `headline` should be a concise human-readable title.
-- `summary` should be a short factual paragraph.
-- `details.what_happened` should be concrete.
-- `details.why_it_matters` should be used sparingly and remain factual.
-- `importance` is a 0.00 to 1.00 editorial relevance score for that day.
-- `confidence` fields must use only: high, medium, low.
-- If an event is ongoing, set `time.ongoing` to true.
-- If an exact time is unknown, set `time.time_known` to false.
-- Do not infer motives, casualty counts, responsibility, or outcomes unless sourced.
+Compression rules:
+The YAML must remain compact enough to fit in a normal model response.
+To keep it compact:
+- Keep each summary to 1 short paragraph.
+- Keep details.what_happened to 2 to 4 bullets.
+- Keep details.why_it_matters to 0 to 2 bullets.
+- Keep uncertainty_notes brief.
+- Keep tags concise.
+- Do not add extra commentary.
+- Do not add more than 5 sources per event.
+- Do not bloat fields with paraphrased repetition.
 
 Use these broad categories when applicable:
 - Armed conflicts and attacks
-- Disasters and accidents
 - International relations
 - Politics and elections
 - Law and crime
@@ -54,26 +79,27 @@ Use these broad categories when applicable:
 - Science and technology
 - Health
 - Environment
+- Society and civil unrest
 - Culture and media
 - Sports
-- Society and civil unrest
+- Disasters and accidents
 
-Create the YAML using this exact schema:
+Output only this schema and keep field order exactly as shown:
 
-date: "{{DATE}}"
+date: "DATE_ISO"
 source_page:
-  portal: "Portal:Current events/{{HUMAN_READABLE_PORTAL_DATE}}"
+  portal: null
   language: "en"
   wikipedia_revision_id: null
 
 dataset:
-  schema_version: "2.0"
+  schema_version: "2.1"
   compiler:
-    mode: "llm_browser_manual"
+    mode: "llm_deep_research_broad_snapshot"
     status: "draft"
     reviewed: false
   scope:
-    seed_source: "Wikipedia Current Events Portal"
+    seed_source: "Broad global news sweep"
     enrichment_sources_expected: true
 
 editorial_policy:
@@ -82,7 +108,7 @@ editorial_policy:
   require_source_support: true
 
 events:
-  - id: "evt-{{DATE}}-001"
+  - id: "evt-DATE_ISO-001"
     category: ""
     subcategory: null
     topics: []
@@ -106,7 +132,7 @@ events:
       places: []
       coordinates: []
     time:
-      date: "{{DATE}}"
+      date: "DATE_ISO"
       time_known: false
       ongoing: null
     casualty_report:
@@ -120,7 +146,7 @@ events:
       tags: []
     sources:
       wikipedia_portal:
-        included: true
+        included: false
         text_fragment: null
       external:
         - id: "src-001"
@@ -133,7 +159,7 @@ events:
           contradicts: []
           quoted_material_used: false
     provenance:
-      extracted_from_portal_bullet: true
+      extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: null
     confidence:
@@ -143,22 +169,23 @@ events:
     related_events: []
     notes: ""
 
-Important formatting rules:
-- Keep the top-level field order exactly as shown.
-- Keep the field order inside each event exactly as shown.
-- Number event IDs sequentially: evt-{{DATE}}-001, evt-{{DATE}}-002, etc.
+Formatting rules:
+- Replace DATE_ISO everywhere with the ISO date from INPUTS.
+- Number event IDs sequentially: evt-DATE_ISO-001, evt-DATE_ISO-002, etc.
 - Number source IDs sequentially within each event: src-001, src-002, etc.
-- Do not remove fields just because data is unavailable.
-- Do not collapse events into category-level prose summaries.
-- Do not output a partial template with placeholders left unresolved, except where a value is truly unknown and should be null or [].
-- Ensure the final YAML is parseable.
+- Keep top-level field order exactly as shown.
+- Keep field order inside each event exactly as shown.
+- Do not omit fields.
+- Output valid YAML only.
+- Do not use markdown fences.
 
-Quality-control pass before finalizing:
-- Confirm every event is a real event, not merely a topic.
-- Confirm every claim in summary is supported by at least one listed source.
-- Confirm duplicate reporting has been merged.
-- Confirm categories are broad and consistent.
-- Confirm unknown values are null or [] rather than guessed.
-- Confirm output is valid YAML and nothing else.
+Mandatory final checks before output:
+- Confirm the file reflects the day's biggest events globally, not just one outlet ecosystem.
+- Confirm Africa, East Asia, Southeast Asia, and Oceania were actively checked for major developments.
+- Confirm every event is a real event.
+- Confirm every listed source directly supports the event record.
+- Confirm empty lists are used only when information is genuinely unavailable.
+- Confirm the final YAML is parseable and compact.
 
-Now produce the completed YAML for {{DATE}}.
+INPUTS:
+DATE_ISO = 2026-03-13

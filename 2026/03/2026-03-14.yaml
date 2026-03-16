@@ -7,9 +7,9 @@ source_page:
 dataset:
   schema_version: "2.1"
   compiler:
-    mode: "llm_deep_research_broad_snapshot"
-    status: "draft"
-    reviewed: false
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
   scope:
     seed_source: "Broad global news sweep"
     enrichment_sources_expected: true
@@ -29,13 +29,12 @@ events:
     importance: null
     headline: "U.S. forces strike Kharg Island military sites as Iran retaliates across the Middle East"
     summary: >
-      The U.S. military conducted large-scale precision strikes on over 90 Iranian
-      military targets on Kharg Island, destroying radar and missile storage sites
-      while deliberately sparing crude oil export infrastructure. In retaliation,
-      Iran and aligned militias launched a widespread wave of drones and missiles,
-      damaging five U.S. aerial refueling planes in Saudi Arabia, destroying a
-      drone in Kuwait, striking a U.S. embassy helipad in Baghdad, and targeting
-      financial and energy hubs in the UAE and Bahrain.
+      The U.S. military conducted large-scale precision strikes on Iranian military
+      targets on Kharg Island, destroying radar and missile storage sites while
+      deliberately sparing crude oil export infrastructure. In retaliation, Iran and
+      aligned militias launched a widespread wave of drones and missiles, damaging
+      U.S. aerial refueling planes in Saudi Arabia, striking near a U.S. embassy
+      compound in Baghdad, and targeting financial and energy hubs in the UAE and Bahrain.
     details:
       what_happened:
         - "U.S. Central Command struck naval mine and missile storage facilities on Kharg Island, aiming to degrade Iran's ability to threaten the Strait of Hormuz."
@@ -46,7 +45,7 @@ events:
         - "The direct exchange of strikes marks a severe escalation in state-on-state conflict, threatening U.S. military assets and regional stability."
         - "While oil infrastructure was spared, the geographic spread of Iran's retaliation underscores its capability to strike U.S. allies and commercial interests across the Gulf."
       uncertainty_notes:
-        - "The exact extent of damage to U.S. assets in Saudi Arabia is disputed, with President Trump claiming 'virtually no damage' to four of the five planes."
+        - "The exact extent of damage to U.S. assets in Saudi Arabia is disputed by differing official accounts."
     actors:
       primary:
         - "United States Armed Forces"
@@ -103,7 +102,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Institute for the Study of War"
-          url: "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
+          url: "[https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/](https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/)"
           publication_date: "2026-03-14"
           source_type: "NGO report"
           reliability_tier: "high"
@@ -114,7 +113,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "Radio Free Europe/Radio Liberty"
-          url: "https://www.rferl.org/a/iran-israel-usa-war-homuz-strait-attacks-drones-missiles-energy/33706576.html"
+          url: "[https://www.rferl.org/a/iran-israel-usa-war-homuz-strait-attacks-drones-missiles-energy/33706576.html](https://www.rferl.org/a/iran-israel-usa-war-homuz-strait-attacks-drones-missiles-energy/33706576.html)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -125,7 +124,7 @@ events:
           quoted_material_used: false
         - id: "src-003"
           outlet: "The Hindu"
-          url: "https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-14-2026-live-updates/article70742182.ece"
+          url: "[https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-14-2026-live-updates/article70742182.ece](https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-14-2026-live-updates/article70742182.ece)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -164,7 +163,6 @@ events:
         - "Iranian naval mines and the threat of missile strikes effectively closed the Strait of Hormuz to commercial shipping."
         - "Global oil prices surged, with Brent crude reaching between $99 and $103 per barrel."
         - "Japan announced the largest release of strategic oil reserves in its history to counter the supply disruption."
-        - "U.S. President Donald Trump called for an international naval coalition, including China and the UK, to break the blockade."
       why_it_matters:
         - "The blockade affects nearly 20% of the world's oil supply, threatening to reignite global inflation and strain net-importing economies in Europe and Asia."
       uncertainty_notes: []
@@ -175,8 +173,7 @@ events:
         - "Japan"
         - "United States"
     entities:
-      people:
-        - "Donald Trump"
+      people: []
       organizations:
         - "United Kingdom Maritime Trade Operations (UKMTO)"
       states:
@@ -215,7 +212,7 @@ events:
       external:
         - id: "src-001"
           outlet: "IndraStra Global"
-          url: "https://www.indrastra.com/2026/03/escalating-middle-east-tensions-cloud.html"
+          url: "[https://www.indrastra.com/2026/03/escalating-middle-east-tensions-cloud.html](https://www.indrastra.com/2026/03/escalating-middle-east-tensions-cloud.html)"
           publication_date: "2026-03-14"
           source_type: "Analysis"
           reliability_tier: "high"
@@ -226,7 +223,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "Institute for the Study of War"
-          url: "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
+          url: "[https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/](https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/)"
           publication_date: "2026-03-14"
           source_type: "NGO report"
           reliability_tier: "high"
@@ -265,7 +262,6 @@ events:
         - "The IDF deployed additional divisions, tank transporters, and engineering battalions to the northern border for an expanded maneuver."
         - "Hezbollah claimed 43 attacks against Israeli forces and northern towns, marking the highest volume since the war began."
         - "The WHO reported 14 health workers killed in Lebanon over the past 24 hours, including 12 doctors in a strike on a primary healthcare center."
-        - "France circulated a three-stage diplomatic proposal to end hostilities, though ceasefire mediation efforts remain stalled."
       why_it_matters:
         - "An expanded ground offensive risks a prolonged, attritional war in southern Lebanon, exacerbating mass civilian displacement."
       uncertainty_notes: []
@@ -275,7 +271,6 @@ events:
         - "Hezbollah"
       secondary:
         - "World Health Organization (WHO)"
-        - "France"
     entities:
       people:
         - "Tedros Adhanom Ghebreyesus"
@@ -286,7 +281,6 @@ events:
       states:
         - "Israel"
         - "Lebanon"
-        - "France"
     geography:
       countries:
         - "Lebanon"
@@ -294,7 +288,6 @@ events:
       places:
         - "Southern Lebanon"
         - "Litani River"
-        - "Sidon"
       coordinates: []
     time:
       date: "2026-03-14"
@@ -321,7 +314,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Institute for the Study of War"
-          url: "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
+          url: "[https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/](https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/)"
           publication_date: "2026-03-14"
           source_type: "NGO report"
           reliability_tier: "high"
@@ -332,7 +325,7 @@ events:
           quoted_material_used: true
         - id: "src-002"
           outlet: "UN News"
-          url: "https://news.un.org/en/story/2026/03/1167136"
+          url: "[https://news.un.org/en/story/2026/03/1167136](https://news.un.org/en/story/2026/03/1167136)"
           publication_date: "2026-03-14"
           source_type: "Official release"
           reliability_tier: "high"
@@ -363,9 +356,9 @@ events:
     summary: >
       North Korea launched more than 10 short-range ballistic missiles from the
       Sunan area near Pyongyang into the sea off its east coast. The massed launch
-      occurred during the annual "Freedom Shield" joint military exercises conducted
+      occurured during the annual "Freedom Shield" joint military exercises conducted
       by the United States and South Korea, drawing immediate condemnation from Seoul
-      as a severe provocation violating UN Security Council resolutions.
+      as a severe provocation.
     details:
       what_happened:
         - "The missiles were fired at approximately 1:20 pm local time, flying roughly 350 kilometers before landing in the sea."
@@ -422,7 +415,7 @@ events:
       external:
         - id: "src-001"
           outlet: "The Diplomatic Insight"
-          url: "https://thediplomaticinsight.com/north-korea-dires-missiles-us-south-korea-drills/"
+          url: "[https://thediplomaticinsight.com/north-korea-dires-missiles-us-south-korea-drills/](https://thediplomaticinsight.com/north-korea-dires-missiles-us-south-korea-drills/)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -434,7 +427,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "Al Jazeera"
-          url: "https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills"
+          url: "[https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills](https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -460,21 +453,21 @@ events:
       - "Storms"
       - "Wildfires"
     importance: null
-    headline: "Severe 'megastorm' spawns 118 tornadoes and fuels deadly wildfires across the U.S."
+    headline: "Severe winter storm leaves hundreds of thousands without power and fuels deadly wildfires in the U.S."
     summary: >
-      A massive, erratic "bomb cyclone" storm system swept across the United States,
-      producing the largest March tornado outbreak on record with 118 confirmed tornadoes.
-      The system generated hurricane-force winds that left hundreds of thousands without
-      power in the Midwest and Mid-Atlantic, while simultaneously fueling over 100
-      fast-moving wildfires in Nebraska that resulted in at least one fatality.
+      A massive storm system swept across the United States, bringing blizzard
+      conditions to the Midwest and high winds that left over 346,000 customers
+      without power in Ohio, Pennsylvania, and Michigan. The system's dry line
+      simultaneously fueled fast-moving wildfires in Nebraska that resulted in at
+      least one fatality, affecting nearly 200 million Americans across multiple
+      hazard zones.
     details:
       what_happened:
-        - "The storm system generated 118 tornadoes across the Midwest and South, a record for the month of March."
-        - "High winds, including an 85 mph gust in Cleveland, knocked out power to over 346,000 customers in Ohio, Pennsylvania, and Michigan."
-        - "The dry line of the storm fueled numerous wildfires across Nebraska's grasslands, killing one person in Arthur County and forcing evacuations."
-        - "The system dumped heavy snow in the upper Midwest, paralyzing transportation networks."
+        - "High winds knocked out power to over 346,000 customers in Ohio, Pennsylvania, and Michigan."
+        - "The dry line of the storm fueled numerous wildfires across Nebraska's grasslands, killing one person and forcing evacuations."
+        - "The system dumped heavy snow and brought blizzard conditions to the upper Midwest, paralyzing transportation networks."
       why_it_matters:
-        - "The multi-hazard nature of the storm strained emergency response capabilities across a vast geographic area, affecting nearly 200 million Americans."
+        - "The multi-hazard nature of the storm strained emergency response capabilities across a vast geographic area."
       uncertainty_notes: []
     actors:
       primary: []
@@ -503,12 +496,11 @@ events:
       injured: null
       displaced: null
       arrest_count: null
-      damage: "Widespread infrastructure damage, power outages, and property destruction"
+      damage: "Widespread power outages and property destruction from wildfires and winds"
     classification:
       event_type:
         - "Severe storm"
         - "Wildfire"
-        - "Tornado"
       tags:
         - "Extreme weather"
         - "Bomb cyclone"
@@ -519,7 +511,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Associated Press"
-          url: "https://www.2news.com/news/national/high-winds-cause-power-outages-property-damage-and-at-least-1-death-as-wild-march/article_83f27bad-8386-58ee-84d1-41f00c136ca6.html"
+          url: "[https://www.2news.com/news/national/high-winds-cause-power-outages-property-damage-and-at-least-1-death-as-wild-march/article_83f27bad-8386-58ee-84d1-41f00c136ca6.html](https://www.2news.com/news/national/high-winds-cause-power-outages-property-damage-and-at-least-1-death-as-wild-march/article_83f27bad-8386-58ee-84d1-41f00c136ca6.html)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -530,7 +522,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "The Guardian"
-          url: "https://www.theguardian.com/us-news/2026/mar/15/snow-wind-winter-storm-thunder-tornadoes"
+          url: "[https://www.theguardian.com/us-news/2026/mar/15/snow-wind-winter-storm-thunder-tornadoes](https://www.theguardian.com/us-news/2026/mar/15/snow-wind-winter-storm-thunder-tornadoes)"
           publication_date: "2026-03-15"
           source_type: "News report"
           reliability_tier: "high"
@@ -539,16 +531,6 @@ events:
             - "Blizzard conditions in Midwest"
           contradicts: []
           quoted_material_used: true
-        - id: "src-003"
-          outlet: "Wikipedia"
-          url: "https://en.wikipedia.org/wiki/Tornado_outbreak_of_March_13%E2%80%9316,_2025"
-          publication_date: null
-          source_type: "Encyclopedia"
-          reliability_tier: "medium"
-          supports:
-            - "118 tornadoes recorded"
-          contradicts: []
-          quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
@@ -558,7 +540,7 @@ events:
       detail_accuracy: "high"
       actor_identification: "high"
     related_events: []
-    notes: "Historical Wikipedia data for the 2025 tornado outbreak was utilized in the research snippets to contextualize the scale of the March 2026 storm event."
+    notes: ""
 
   - id: "evt-2026-03-14-006"
     category: "Business and economy"
@@ -573,7 +555,7 @@ events:
       was completed on the Vineyard Wind project off the coast of Massachusetts,
       and the nearby Revolution Wind project delivered its first electricity to the
       New England grid. The facilities are expected to provide clean power to hundreds
-      of thousands of homes, bolstering regional energy security despite political opposition.
+      of thousands of homes, bolstering regional energy security.
     details:
       what_happened:
         - "Workers installed the final turbine blades on Vineyard Wind, a 62-turbine, 800-megawatt project capable of powering 400,000 homes."
@@ -581,7 +563,6 @@ events:
         - "The milestones mark the realization of the first utility-scale offshore wind farms in the United States."
       why_it_matters:
         - "The projects significantly reduce New England's reliance on expensive fossil gas imports during winter demand peaks."
-        - "The industry successfully navigated intense political headwinds, including previous construction halts ordered by the Trump administration."
       uncertainty_notes: []
     actors:
       primary:
@@ -629,7 +610,7 @@ events:
       external:
         - id: "src-001"
           outlet: "WBUR"
-          url: "https://www.capeandislands.org/2026-03-14/vineyard-wind-countrys-first-large-scale-offshore-wind-project-finishes-construction"
+          url: "[https://www.capeandislands.org/2026-03-14/vineyard-wind-countrys-first-large-scale-offshore-wind-project-finishes-construction](https://www.capeandislands.org/2026-03-14/vineyard-wind-countrys-first-large-scale-offshore-wind-project-finishes-construction)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -640,7 +621,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "PBS NewsHour"
-          url: "https://www.pbs.org/newshour/nation/construction-finishes-on-a-major-massachusetts-offshore-wind-farm-the-first-during-trumps-time-in-office"
+          url: "[https://www.pbs.org/newshour/nation/construction-finishes-on-a-major-massachusetts-offshore-wind-farm-the-first-during-trumps-time-in-office](https://www.pbs.org/newshour/nation/construction-finishes-on-a-major-massachusetts-offshore-wind-farm-the-first-during-trumps-time-in-office)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -661,108 +642,6 @@ events:
     notes: ""
 
   - id: "evt-2026-03-14-007"
-    category: "Law and crime"
-    subcategory: "Organized crime"
-    topics:
-      - "Drug cartels"
-      - "Military operations"
-    importance: null
-    headline: "Death of CJNG leader 'El Mencho' sparks violent retaliation across Mexico"
-    summary: >
-      Following a military operation in Zapopan, Jalisco, that resulted in the death
-      of Nemesio Oseguera Cervantes ("El Mencho"), the supreme leader of the Jalisco
-      New Generation Cartel (CJNG), retaliatory violence erupted across Mexico. Cartel
-      gunmen used rocket-propelled grenades to down a military helicopter, killing
-      nine soldiers, and orchestrated burning vehicle blockades to paralyze infrastructure.
-    details:
-      what_happened:
-        - "Mexican military forces killed El Mencho, dismantling the top leadership of one of the world's most powerful drug cartels."
-        - "CJNG gunmen retaliated by establishing narcobloqueos and attacking security forces, leading to the suspension of flights at Puerto Vallarta International Airport."
-        - "Nine Mexican soldiers were killed when a military helicopter was shot down by cartel forces."
-        - "The Mexican government announced the seizure of over 24,000 illegal firearms in 17 months, highlighting deepened security cooperation with the U.S."
-      why_it_matters:
-        - "The decapitation of the CJNG creates a power vacuum likely to trigger extreme factional violence in Mexico's illicit economy."
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Mexican Armed Forces"
-        - "Jalisco New Generation Cartel (CJNG)"
-      secondary:
-        - "U.S. Department of the Treasury"
-    entities:
-      people:
-        - "Nemesio Oseguera Cervantes (El Mencho)"
-        - "Claudia Sheinbaum"
-      organizations:
-        - "Mexican National Guard"
-      states:
-        - "Mexico"
-        - "United States"
-    geography:
-      countries:
-        - "Mexico"
-      places:
-        - "Zapopan"
-        - "Jalisco"
-        - "Michoacan"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 9
-      injured: null
-      displaced: null
-      arrest_count: 2
-      damage: "Military helicopter downed; civilian vehicles burned in blockades"
-    classification:
-      event_type:
-        - "Armed clash"
-        - "Targeted killing"
-      tags:
-        - "Drug war"
-        - "CJNG"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Wikipedia"
-          url: "https://en.wikipedia.org/wiki/2026_Jalisco_operation"
-          publication_date: null
-          source_type: "Encyclopedia"
-          reliability_tier: "medium"
-          supports:
-            - "Death of El Mencho"
-            - "Nine soldiers killed in helicopter crash"
-            - "Puerto Vallarta flights suspended"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "Mexico News Daily"
-          url: "https://mexiconewsdaily.com/news/us-mexico-security-cooperation-differences-ceo-perspective/"
-          publication_date: "2026-03-14"
-          source_type: "News report"
-          reliability_tier: "medium"
-          supports:
-            - "Seizure of 24,000 illegal firearms"
-            - "U.S. Treasury sanctions on laundering hubs"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "high"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-14-008"
     category: "Politics and elections"
     subcategory: "National election"
     topics:
@@ -823,7 +702,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Viet Nam News"
-          url: "https://vietnamnews.vn/politics-laws/1766809/viet-nam-s-2026-general-election-how-the-system-works.html"
+          url: "[https://vietnamnews.vn/politics-laws/1766809/viet-nam-s-2026-general-election-how-the-system-works.html](https://vietnamnews.vn/politics-laws/1766809/viet-nam-s-2026-general-election-how-the-system-works.html)"
           publication_date: "2026-03-15"
           source_type: "News report"
           reliability_tier: "high"
@@ -834,7 +713,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "Al Jazeera"
-          url: "https://www.aljazeera.com/news/2026/3/15/vietnam-holds-general-election-93-candidates-from-ruling-communist-party"
+          url: "[https://www.aljazeera.com/news/2026/3/15/vietnam-holds-general-election-93-candidates-from-ruling-communist-party](https://www.aljazeera.com/news/2026/3/15/vietnam-holds-general-election-93-candidates-from-ruling-communist-party)"
           publication_date: "2026-03-15"
           source_type: "News report"
           reliability_tier: "high"
@@ -854,7 +733,7 @@ events:
     related_events: []
     notes: "Voting took place on Sunday, March 15, local time, making it actively reported across the March 14/15 window internationally."
 
-  - id: "evt-2026-03-14-009"
+  - id: "evt-2026-03-14-008"
     category: "Politics and elections"
     subcategory: "National election"
     topics:
@@ -917,7 +796,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Associated Press"
-          url: "https://www.courthousenews.com/republic-of-congo-votes-in-an-election-thats-expected-to-extend-incumbent-presidents-42-year-rule/"
+          url: "[https://www.courthousenews.com/republic-of-congo-votes-in-an-election-thats-expected-to-extend-incumbent-presidents-42-year-rule/](https://www.courthousenews.com/republic-of-congo-votes-in-an-election-thats-expected-to-extend-incumbent-presidents-42-year-rule/)"
           publication_date: "2026-03-15"
           source_type: "News report"
           reliability_tier: "high"
@@ -929,7 +808,7 @@ events:
           quoted_material_used: true
         - id: "src-002"
           outlet: "Africa Center for Strategic Studies"
-          url: "https://africacenter.org/spotlight/en-elections-2026/repcongo/"
+          url: "[https://africacenter.org/spotlight/en-elections-2026/repcongo/](https://africacenter.org/spotlight/en-elections-2026/repcongo/)"
           publication_date: null
           source_type: "Analysis"
           reliability_tier: "high"
@@ -949,7 +828,7 @@ events:
     related_events: []
     notes: "Voting took place on Sunday, March 15, local time, aligning with the international news cycle covering the weekend."
 
-  - id: "evt-2026-03-14-010"
+  - id: "evt-2026-03-14-009"
     category: "Politics and elections"
     subcategory: "Referendum"
     topics:
@@ -1008,7 +887,7 @@ events:
       external:
         - id: "src-001"
           outlet: "The Times of Central Asia"
-          url: "https://timesca.com/cost-of-holding-referendum-on-kazakhstans-new-constitution-estimated-at-42-million/"
+          url: "[https://timesca.com/cost-of-holding-referendum-on-kazakhstans-new-constitution-estimated-at-42-million/](https://timesca.com/cost-of-holding-referendum-on-kazakhstans-new-constitution-estimated-at-42-million/)"
           publication_date: null
           source_type: "News report"
           reliability_tier: "high"
@@ -1019,7 +898,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "TRT World"
-          url: "https://www.trtworld.com/article/65f2dece6133"
+          url: "[https://www.trtworld.com/article/65f2dece6133](https://www.trtworld.com/article/65f2dece6133)"
           publication_date: null
           source_type: "News report"
           reliability_tier: "medium"
@@ -1038,7 +917,7 @@ events:
     related_events: []
     notes: "Vote held on March 15 local time; widely previewed and reported on March 14."
 
-  - id: "evt-2026-03-14-011"
+  - id: "evt-2026-03-14-010"
     category: "Disasters and accidents"
     subcategory: "Extreme weather"
     topics:
@@ -1100,7 +979,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Pulse Kenya"
-          url: "https://www.pulse.co.ke/story/kenya-floods-death-toll-rises-to-66-as-rains-continue-to-pound-nairobi-other-counties-2026031515175613517"
+          url: "[https://www.pulse.co.ke/story/kenya-floods-death-toll-rises-to-66-as-rains-continue-to-pound-nairobi-other-counties-2026031515175613517](https://www.pulse.co.ke/story/kenya-floods-death-toll-rises-to-66-as-rains-continue-to-pound-nairobi-other-counties-2026031515175613517)"
           publication_date: "2026-03-15"
           source_type: "News report"
           reliability_tier: "high"
@@ -1111,7 +990,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "Reuters"
-          url: "https://wqxc.com/2026/03/14/death-toll-from-kenyan-floods-rises-to-62-police-say/"
+          url: "[https://wqxc.com/2026/03/14/death-toll-from-kenyan-floods-rises-to-62-police-say/](https://wqxc.com/2026/03/14/death-toll-from-kenyan-floods-rises-to-62-police-say/)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -1131,7 +1010,7 @@ events:
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-012"
+  - id: "evt-2026-03-14-011"
     category: "Armed conflicts and attacks"
     subcategory: "Border clash"
     topics:
@@ -1195,7 +1074,7 @@ events:
       external:
         - id: "src-001"
           outlet: "ACLED"
-          url: "https://acleddata.com/update/asia-pacific-overview-march-2026"
+          url: "[https://acleddata.com/update/asia-pacific-overview-march-2026](https://acleddata.com/update/asia-pacific-overview-march-2026)"
           publication_date: null
           source_type: "NGO report"
           reliability_tier: "high"
@@ -1214,7 +1093,7 @@ events:
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-013"
+  - id: "evt-2026-03-14-012"
     category: "Politics and elections"
     subcategory: "Local election"
     topics:
@@ -1284,7 +1163,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Associated Press"
-          url: "https://www.pbs.org/newshour/world/french-voters-head-to-polls-in-first-round-of-municipal-elections-before-2027-presidential-race"
+          url: "[https://www.pbs.org/newshour/world/french-voters-head-to-polls-in-first-round-of-municipal-elections-before-2027-presidential-race](https://www.pbs.org/newshour/world/french-voters-head-to-polls-in-first-round-of-municipal-elections-before-2027-presidential-race)"
           publication_date: "2026-03-15"
           source_type: "News report"
           reliability_tier: "high"
@@ -1296,7 +1175,7 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "The Guardian"
-          url: "https://www.theguardian.com/world/2026/mar/15/france-votes-local-elections-presidential-indicator"
+          url: "[https://www.theguardian.com/world/2026/mar/15/france-votes-local-elections-presidential-indicator](https://www.theguardian.com/world/2026/mar/15/france-votes-local-elections-presidential-indicator)"
           publication_date: "2026-03-15"
           source_type: "News report"
           reliability_tier: "high"
@@ -1316,7 +1195,7 @@ events:
     related_events: []
     notes: "Voting took place on Sunday, March 15, matching the weekend news cycle."
 
-  - id: "evt-2026-03-14-014"
+  - id: "evt-2026-03-14-013"
     category: "Law and crime"
     subcategory: "Hate crime"
     topics:
@@ -1385,7 +1264,7 @@ events:
       external:
         - id: "src-001"
           outlet: "CBS News"
-          url: "https://www.cbsnews.com/news/jewish-school-amsterdam-attack-explosion/"
+          url: "[https://www.cbsnews.com/news/jewish-school-amsterdam-attack-explosion/](https://www.cbsnews.com/news/jewish-school-amsterdam-attack-explosion/)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -1397,7 +1276,7 @@ events:
           quoted_material_used: true
         - id: "src-002"
           outlet: "The Indian Express"
-          url: "https://indianexpress.com/article/world/amsterdam-jewish-school-explosion-antisemitism-rotterdam-liege-attacks-10581706/"
+          url: "[https://indianexpress.com/article/world/amsterdam-jewish-school-explosion-antisemitism-rotterdam-liege-attacks-10581706/](https://indianexpress.com/article/world/amsterdam-jewish-school-explosion-antisemitism-rotterdam-liege-attacks-10581706/)"
           publication_date: "2026-03-14"
           source_type: "News report"
           reliability_tier: "high"
@@ -1417,7 +1296,7 @@ events:
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-015"
+  - id: "evt-2026-03-14-014"
     category: "Armed conflicts and attacks"
     subcategory: "Internal conflict"
     topics:
@@ -1479,7 +1358,7 @@ events:
       external:
         - id: "src-001"
           outlet: "ACLED"
-          url: "https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026"
+          url: "[https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026](https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026)"
           publication_date: null
           source_type: "NGO report"
           reliability_tier: "high"
@@ -1487,101 +1366,6 @@ events:
             - "Airstrike on ELN in Catatumbo"
             - "10 fighters killed"
             - "ELN retaliation"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-14-016"
-    category: "Disasters and accidents"
-    subcategory: "Transport"
-    topics:
-      - "Aviation"
-    importance: null
-    headline: "Major aviation disruptions impact airports across Australia and New Zealand"
-    summary: >
-      Airports across Oceania, including major hubs in Sydney, Melbourne, Brisbane,
-      Auckland, Wellington, and Christchurch, experienced severe operational disruptions.
-      Airlines including Qantas, Jetstar, Virgin Australia, and Air New Zealand logged
-      a combined total of 787 flight delays and 46 cancellations, leaving thousands
-      of passengers stranded and straining regional logistics.
-    details:
-      what_happened:
-        - "787 flight delays and 46 cancellations were recorded across the region's busiest airports."
-        - "Multiple major carriers were forced to adjust schedules and ground flights."
-      why_it_matters:
-        - "The scale of the disruptions highlights vulnerabilities in the highly integrated trans-Tasman aviation network, causing significant friction for local tourism and supply chains."
-      uncertainty_notes:
-        - "The exact underlying cause of the widespread simultaneous disruptions (e.g., weather, air traffic control issues) is not detailed in the available sourcing."
-    actors:
-      primary:
-        - "Qantas"
-        - "Jetstar"
-        - "Virgin Australia"
-        - "Air New Zealand"
-      secondary: []
-    entities:
-      people: []
-      organizations:
-        - "Qantas"
-        - "Jetstar"
-        - "Virgin Australia"
-        - "Air New Zealand"
-        - "Qatar Airways"
-      states:
-        - "Australia"
-        - "New Zealand"
-    geography:
-      countries:
-        - "Australia"
-        - "New Zealand"
-      places:
-        - "Sydney"
-        - "Melbourne"
-        - "Brisbane"
-        - "Auckland"
-        - "Wellington"
-        - "Christchurch"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: 0
-      injured: 0
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "Transport disruption"
-      tags:
-        - "Aviation"
-        - "Oceania"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Travel and Tour World"
-          url: "https://www.travelandtourworld.com/news/article/hundreds-of-passengers-across-oceania-face-travel-disruption-as-airports-in-melbourne-sydney-auckland-wellington-and-more-in-australia-new-zealand-experience-787-flight-delays-and-46-cancellations-by/"
-          publication_date: "2026-03-14"
-          source_type: "Trade outlet"
-          reliability_tier: "medium"
-          supports:
-            - "787 flight delays"
-            - "46 cancellations"
-            - "Airports affected"
           contradicts: []
           quoted_material_used: false
     provenance:
