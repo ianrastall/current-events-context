@@ -7,9 +7,9 @@ source_page:
 dataset:
   schema_version: "2.1"
   compiler:
-    mode: "llm_deep_research_broad_snapshot"
-    status: "draft"
-    reviewed: false
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
   scope:
     seed_source: "Broad global news sweep"
     enrichment_sources_expected: true
@@ -23,32 +23,33 @@ events:
   - id: "evt-2026-03-10-001"
     category: "Armed conflicts and attacks"
     subcategory: "International conflict"
-    topics: ["Military strikes", "Naval warfare", "Energy security"]
+    topics: ["Airstrikes", "Maritime security", "Energy infrastructure"]
     importance: null
-    headline: "US and Israeli forces conduct massive strikes on Iran as conflict expands across the Middle East"
+    headline: "U.S.-Israeli war on Iran widens with strikes on naval assets and a drone hit on a major UAE industrial site"
     summary: >
-      The US and Israel heavily intensified "Operation Epic Fury," bombarding Iranian military assets, including Kharg Island naval facilities, amid the formal elevation of Mojtaba Khamenei as Iran's new Supreme Leader following the death of his father. In retaliation, Iran launched waves of ballistic missile and drone attacks against US bases and allied infrastructure in Kuwait, Saudi Arabia, Bahrain, and the UAE. The escalating hostilities and threats to shipping have led to a de facto closure of the Strait of Hormuz, causing massive volatility in global oil markets, while simultaneously displacing nearly 700,000 civilians in Lebanon due to parallel Israeli strikes on Hezbollah.
+      The U.S.-Israeli campaign against Iran intensified on March 10, with Washington saying it had destroyed 16 Iranian mine-laying vessels and prepared the heaviest day of strikes so far, while Israeli officials said the war would continue until Israel and the United States decided it should end. Iran kept up retaliatory attacks and threats against Gulf oil exports. In the United Arab Emirates, a drone strike caused a fire at the Ruwais Industrial Complex, a major ADNOC downstream site, underscoring how the conflict had expanded from direct military targets to commercial and energy infrastructure across the region.
     details:
       what_happened:
-        - "US and Israeli forces struck targets in central Iran and Kharg Island, destroying missile depots and naval mine storage facilities."
-        - "Iran retaliated with ballistic missile and drone strikes on Camp Arifjan in Kuwait, Prince Sultan Air Base in Saudi Arabia, and targets in the UAE and Bahrain."
-        - "Commercial traffic through the Strait of Hormuz reached a virtual standstill due to soaring insurance costs and the threat of Iranian mine-laying vessels, 16 of which were destroyed by the US."
-        - "The IDF executed over 500 strikes against Hezbollah in Lebanon, preparing for a potential ground offensive south of the Litani River."
+        - "The U.S. military said it had destroyed 16 Iranian mine-laying vessels as part of efforts to blunt threats to shipping in and around the Gulf."
+        - "Top U.S. military officials said March 10 would be the most intensive day of U.S. strikes inside Iran up to that point in the war."
+        - "Israeli Foreign Minister Gideon Saar said the war would continue until Israel and the United States judged that their objectives had been met."
+        - "A drone strike caused a fire at the Ruwais Industrial Complex in Abu Dhabi emirate, where ADNOC operates major refining and petrochemical facilities."
       why_it_matters:
-        - "The military escalation threatens to permanently cripple global energy supply chains by paralyzing the Strait of Hormuz, through which 20% of the world's traded oil passes."
-        - "The conflict has catalyzed massive humanitarian displacement in Lebanon and severely depleted the missile interceptor stockpiles of Gulf Arab states."
+        - "The fighting was no longer confined to Iran and Israel, but was directly affecting Gulf commercial and energy infrastructure."
+        - "Mine-laying threats and attacks on energy sites heightened risks to oil exports, shipping insurance, and regional escalation."
       uncertainty_notes:
+        - "The sources confirmed the destruction of vessels and the Ruwais fire, but did not provide a single verified battlefield-wide casualty total for March 10."
     actors:
-      primary:
-      secondary:
+      primary: ["United States", "Israel", "Iran"]
+      secondary: ["Abu Dhabi National Oil Company (ADNOC)"]
     entities:
-      people:
-      organizations:
-      states:
+      people: ["Gideon Saar"]
+      organizations: ["U.S. military", "Abu Dhabi National Oil Company (ADNOC)"]
+      states: ["United States", "Israel", "Iran", "United Arab Emirates"]
     geography:
-      countries:
-      places:
-      coordinates:
+      countries: ["Iran", "Israel", "United Arab Emirates"]
+      places: ["Strait of Hormuz", "Ruwais Industrial Complex", "Abu Dhabi emirate"]
+      coordinates: []
     time:
       date: "2026-03-10"
       time_known: false
@@ -56,43 +57,52 @@ events:
     casualty_report:
       killed: null
       injured: null
-      displaced: 700000
+      displaced: null
       arrest_count: null
-      damage: "Extensive destruction of military and energy infrastructure across multiple nations."
+      damage: "Fire damage at the Ruwais Industrial Complex and destruction of Iranian naval assets reported by the United States."
     classification:
-      event_type: ["Military operation", "Airstrike", "Economic disruption"]
-      tags:
+      event_type: ["Military operation", "Airstrike", "Maritime security incident"]
+      tags: ["Iran war", "Strait of Hormuz", "Ruwais", "Gulf escalation"]
     sources:
       wikipedia_portal:
-        included: true
-        text_fragment: "The Ruwais refinery in Al Dhannah, Abu Dhabi Emirate, United Arab Emirates, shuts down after a drone strike that causes a fire."
+        included: false
+        text_fragment: null
       external:
         - id: "src-001"
-          outlet: "CBS News"
-          url: "https://www.cbsnews.com/live-updates/us-iran-war-israel-stock-prices-down-oil-prices-up-despite-trump-reassurance/"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/us-military-striking-iranian-mine-laying-vessels-top-us-general-says-2026-03-10/"
           publication_date: "2026-03-10"
           source_type: "News report"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["U.S. destruction of 16 Iranian mine-laying vessels", "Most intensive day of U.S. strikes so far", "Conflict disrupting oil flow through the Strait of Hormuz"]
+          contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "FDD"
-          url: "https://www.fdd.org/overnight-brief/march-10-2026/"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/israel-not-seeking-endless-war-with-iran-foreign-minister-says-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "Think tank brief"
-          reliability_tier: "Medium"
-          supports: ["Iran leadership transition", "Lebanon displacement", "Gulf state interceptor shortages"]
-          contradicts:
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["Israeli position that the war would continue until Israel and the U.S. decided to stop", "Israeli war aims remained open-ended on March 10"]
+          contradicts: []
           quoted_material_used: false
         - id: "src-003"
-          outlet: "Institute for the Study of War"
-          url: "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
-          publication_date: "2026-03-14"
-          source_type: "Think tank brief"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/"
+          publication_date: "2026-03-10"
+          source_type: "News report"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["Drone strike caused fire at Ruwais Industrial Complex", "ADNOC operations are located at the site", "No injuries were initially reported"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-004"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/acf2af139d179fbef62927a8bf9bea55"
+          publication_date: "2026-03-10"
+          source_type: "News wire"
+          reliability_tier: "High"
+          supports: ["U.S. said it destroyed 16 mine-laying vessels", "Iran threatened Gulf oil exports", "Regional spillover included attacks in Gulf states and Lebanon"]
+          contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
@@ -102,37 +112,200 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events:
+    related_events: ["evt-2026-03-10-002", "evt-2026-03-10-012"]
     notes: ""
 
   - id: "evt-2026-03-10-002"
-    category: "Politics and elections"
-    subcategory: "Institutional reform"
-    topics: ["Parliamentary reform", "Constitutional law"]
+    category: "Business and economy"
+    subcategory: "Energy and transport disruption"
+    topics: ["Oil refining", "Airlines", "Fuel prices"]
     importance: null
-    headline: "UK House of Lords passes bill abolishing hereditary peer voting rights"
+    headline: "Iran war disrupts Gulf refining and pushes airlines to raise fares and fuel surcharges"
     summary: >
-      The United Kingdom's House of Lords accepted the final draft of the Hereditary Peers Bill, officially ending the right of the remaining 92 hereditary peers to sit and vote in the upper legislative chamber. Fulfilling a key Labour Party manifesto pledge and completing a reform process initiated in 1999, the landmark constitutional change was secured after the government offered life peerages to select Conservative and cross-bench members to bypass parliamentary gridlock.
+      The economic shock from the Iran war deepened on March 10 as consultancy IIR estimated that about 1.9 million barrels per day of Gulf refining capacity had been shut, while carriers in Asia and Europe began raising fares, adding fuel surcharges, or reworking schedules in response to surging jet fuel prices and disrupted flight corridors. Reuters reported that Qantas and Air New Zealand were among the first airlines to react publicly, while broader industry warnings pointed to a worsening squeeze on margins, ticket prices, and cargo flows if the conflict persisted.
     details:
       what_happened:
-        - "The House of Lords accepted the final draft of the House of Lords (hereditary peers) bill."
-        - "The legislation abolishes the parliamentary seating and voting rights of the remaining 92 hereditary peers."
-        - "A deal was struck granting life peerages to some outgoing Conservative and cross-bench peers to ensure the bill's passage."
+        - "Consultancy IIR said around 1.9 million barrels per day of Gulf refining capacity was shut because of the conflict, affecting facilities across Bahrain, Iraq, Kuwait, Qatar, Saudi Arabia, and the UAE."
+        - "Reuters reported that airlines in Asia and Europe were raising fares or adding fuel surcharges as jet fuel prices spiked sharply."
+        - "Qantas said it would raise international fares, and Air New Zealand also moved to increase prices because of higher fuel costs."
+        - "Carriers including Cathay Pacific and Finnair were adjusting routes and warning of further impacts from constrained airspace and fuel availability."
       why_it_matters:
-        - "The reform represents a massive constitutional shift for the UK, definitively ending a centuries-old aristocratic privilege in the legislative process."
-        - "The affected peers will lose their parliamentary access at the conclusion of the current legislative session later in the spring."
+        - "The conflict was transmitting quickly into household and business costs through fuel, freight, and air-travel prices."
+        - "Refining outages and aviation disruptions signaled that the war's economic effects extended well beyond the immediate combat zone."
       uncertainty_notes:
+        - "The reported refinery outages were point-in-time estimates and could change quickly with further strikes, repairs, or policy intervention."
     actors:
-      primary: ["House of Lords", "Labour Party", "Conservative Party"]
-      secondary:
+      primary: ["Airlines in Asia and Europe", "Gulf refiners"]
+      secondary: ["Qantas Airways", "Air New Zealand", "IIR"]
     entities:
-      people:
-      organizations: ["Parliament of the United Kingdom"]
+      people: []
+      organizations: ["Qantas Airways", "Air New Zealand", "Cathay Pacific", "Finnair", "IIR"]
+      states: ["Bahrain", "Iraq", "Kuwait", "Qatar", "Saudi Arabia", "United Arab Emirates", "Australia", "New Zealand"]
+    geography:
+      countries: ["Bahrain", "Iraq", "Kuwait", "Qatar", "Saudi Arabia", "United Arab Emirates", "Australia", "New Zealand"]
+      places: ["Gulf region", "Asia", "Europe"]
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Refining shutdowns, higher airline operating costs, and widespread transport disruption."
+    classification:
+      event_type: ["Economic disruption", "Energy shock", "Transport disruption"]
+      tags: ["oil prices", "airfares", "jet fuel", "Gulf refineries"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/around-19-million-bpd-oil-refining-capacity-shut-due-iran-war-gulf-iir-says-2026-03-10/"
+          publication_date: "2026-03-10"
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["Estimate of roughly 1.9 million bpd of Gulf refining capacity shut", "Refinery impacts across multiple Gulf states"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/airlines-begin-hike-fares-due-higher-fuel-prices-shares-stabilise-2026-03-10/"
+          publication_date: "2026-03-10"
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["Airlines in Asia and Europe raised fares or added fuel surcharges", "Jet fuel prices surged and routes were disrupted"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-003"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/qantas-hikes-fares-international-routes-fuel-costs-surge-mideast-conflict-2026-03-10/"
+          publication_date: "2026-03-10"
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["Qantas fare increases", "Air New Zealand also raised prices", "Conflict-driven fuel costs affected long-haul traffic"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: ["evt-2026-03-10-001", "evt-2026-03-10-012"]
+    notes: ""
+
+  - id: "evt-2026-03-10-003"
+    category: "Law and crime"
+    subcategory: "War crimes investigation"
+    topics: ["Ukraine war", "Crimes against humanity", "Children"]
+    importance: null
+    headline: "U.N. inquiry says Russia's deportation and transfer of Ukrainian children amount to crimes against humanity"
+    summary: >
+      The United Nations' Independent International Commission of Inquiry on Ukraine said on March 10 that Russia's deportation and transfer of Ukrainian children, as well as their enforced disappearance, amounted to crimes against humanity. Reuters reported that the finding drew on thousands of documents and more than 200 interviews. The commission said many children had not been returned, while Russia rejected the accusations and maintained that it had evacuated civilians voluntarily from a war zone.
+    details:
+      what_happened:
+        - "The U.N. commission concluded that deportation and forcible transfer of Ukrainian children by Russian authorities amounted to crimes against humanity."
+        - "The inquiry also cited enforced disappearance of children among the violations documented in its latest report."
+        - "Reuters said the commission's work drew on thousands of documents and more than 200 interviews."
+        - "Ukraine welcomed the findings and urged more international pressure, while Russia denied wrongdoing."
+      why_it_matters:
+        - "The report elevated one of the most contested aspects of the Ukraine war from political accusation to a formal U.N. crimes-against-humanity finding."
+        - "The conclusions reinforced separate international legal pressure, including previous ICC arrest warrants tied to child deportations."
+      uncertainty_notes:
+        - "Russia rejected the allegations and said children had been moved voluntarily for safety."
+    actors:
+      primary: ["Independent International Commission of Inquiry on Ukraine", "Russia"]
+      secondary: ["Ukraine", "United Nations Human Rights Council"]
+    entities:
+      people: []
+      organizations: ["Independent International Commission of Inquiry on Ukraine", "United Nations Human Rights Council", "International Criminal Court"]
+      states: ["Russia", "Ukraine", "Belarus"]
+    geography:
+      countries: ["Russia", "Ukraine", "Belarus"]
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Long-term harm to children through deportation, transfer, and disappearance documented by the inquiry."
+    classification:
+      event_type: ["UN finding", "War crimes investigation", "Human rights report"]
+      tags: ["Ukraine", "Russia", "children", "crimes against humanity"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/russias-deportations-ukrainian-children-amount-crimes-against-humanity-un-2026-03-10/"
+          publication_date: "2026-03-10"
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["U.N. finding of crimes against humanity", "Use of more than 200 interviews and thousands of documents", "Russia denied wrongdoing"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "OHCHR"
+          url: "https://www.ohchr.org/en/press-releases/2026/03/un-commission-concludes-deportation-and-forcible-transfer-ukrainian-children"
+          publication_date: "2026-03-10"
+          source_type: "Official release"
+          reliability_tier: "High"
+          supports: ["Commission concluded deportation and forcible transfer of children constituted crimes against humanity", "Enforced disappearance also cited"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-10-004"
+    category: "Politics and elections"
+    subcategory: "Parliamentary reform"
+    topics: ["United Kingdom", "House of Lords", "Constitutional reform"]
+    importance: null
+    headline: "Britain's parliament approves legislation to remove hereditary peers from the House of Lords"
+    summary: >
+      Britain's parliament approved legislation removing the remaining hereditary peers from the House of Lords, completing the final parliamentary stage of a reform first begun in 1999. The bill ended the right of the last 92 hereditary peers to sit and vote in the upper chamber and fulfilled a manifesto pledge of Prime Minister Keir Starmer's Labour government. Official parliamentary and government material described the vote as one of the biggest reforms to Parliament and UK democracy in a generation.
+    details:
+      what_happened:
+        - "The House of Lords completed the final stage of the Hereditary Peers Bill on March 10 after consideration of Commons reasons in legislative 'ping pong'."
+        - "The measure removes the remaining 92 hereditary peers from the Lords, ending their automatic right to sit and vote by inheritance."
+        - "The bill was presented by the government as a major constitutional reform and a manifesto commitment of the Labour administration."
+      why_it_matters:
+        - "The change removed one of the most visible hereditary features of the British legislature."
+        - "It marked the completion of a reform process left unfinished when most hereditary peers were removed in 1999."
+      uncertainty_notes: []
+    actors:
+      primary: ["Parliament of the United Kingdom", "Labour government"]
+      secondary: ["House of Lords", "House of Commons"]
+    entities:
+      people: ["Keir Starmer", "Angela Smith"]
+      organizations: ["Parliament of the United Kingdom", "House of Lords", "House of Commons"]
       states: ["United Kingdom"]
     geography:
       countries: ["United Kingdom"]
-      places: ["London"]
-      coordinates:
+      places: ["London", "Westminster"]
+      coordinates: []
     time:
       date: "2026-03-10"
       time_known: false
@@ -144,30 +317,39 @@ events:
       arrest_count: null
       damage: null
     classification:
-      event_type: ["Legislative vote"]
-      tags: ["House of Lords", "Constitutional reform", "UK Politics"]
+      event_type: ["Legislative vote", "Constitutional reform"]
+      tags: ["House of Lords", "hereditary peers", "UK politics"]
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
-        - id: "src-004"
-          outlet: "The Guardian"
-          url: "https://www.theguardian.com/politics/2026/mar/10/hereditary-peers-to-lose-their-seats-in-the-house-of-lords"
-          publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-        - id: "src-005"
+        - id: "src-001"
           outlet: "UK Government"
           url: "https://www.gov.uk/government/news/hereditary-peers-bill-passes-in-house-of-lords-paving-the-way-for-further-reform"
           publication_date: "2026-03-10"
           source_type: "Official release"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["Bill passed in the House of Lords", "Government described it as a major reform", "Removal of hereditary peers from the Lords"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Parliament of the United Kingdom"
+          url: "https://www.parliament.uk/business/news/2026/march-2026/hereditary-peers-bill-ping-pong/"
+          publication_date: "2026-03-11"
+          source_type: "Official parliamentary record"
+          reliability_tier: "High"
+          supports: ["Final stage occurred on Tuesday 10 March", "Bill completed its final stage in the Lords"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-003"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/uk/uk-ends-centuries-old-hereditary-seats-parliament-upper-chamber-2026-03-11/"
+          publication_date: "2026-03-11"
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["Remaining hereditary peers removed by legislation", "Measure fulfilled a Labour reform pledge", "Historical significance of the reform"]
+          contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
@@ -177,36 +359,105 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events:
+    related_events: []
     notes: ""
 
-  - id: "evt-2026-03-10-003"
-    category: "Armed conflicts and attacks"
-    subcategory: "Civil war"
-    topics:
+  - id: "evt-2026-03-10-005"
+    category: "Politics and elections"
+    subcategory: "Constitutional crisis"
+    topics: ["Kosovo", "Snap elections", "Court ruling"]
     importance: null
-    headline: "Drone strike on funeral truck kills 40 civilians in Sudan's West Kordofan"
+    headline: "Kosovo court blocks the president from setting a snap election date"
     summary: >
-      A drone strike obliterated a commercial pick-up truck transporting civilians to a funeral near Abu Zabad in Sudan's West Kordofan state, resulting in 40 fatalities, the majority of whom were women. The massacre highlights the escalating and indiscriminate use of weaponized unmanned aerial systems by warring factions in the Sudanese civil war, exacerbating an already catastrophic humanitarian crisis.
+      Kosovo's Constitutional Court temporarily barred President Vjosa Osmani from announcing a date for a snap election, deepening an institutional crisis that followed the dissolution of parliament after lawmakers failed to elect a president. Reuters reported that the ruling held until March 31 and also froze parliament's effort to elect a president, intensifying a power struggle between Osmani and Prime Minister Albin Kurti over whether the dissolution was constitutional.
     details:
       what_happened:
-        - "A commercial pick-up truck transporting civilians was hit by a drone strike in West Kordofan, Sudan."
-        - "The strike killed 40 people, primarily women, who were traveling to a funeral in the town of El-Fula."
-        - "The attack occurred amid escalating drone warfare between the Sudanese Armed Forces and the Rapid Support Forces."
+        - "The Constitutional Court ordered a temporary halt on President Vjosa Osmani's move to set a date for snap elections."
+        - "The ruling followed Osmani's dissolution of parliament after lawmakers failed to elect a new president by the constitutional deadline."
+        - "Reuters reported that the court also froze parliament's effort to elect a president while it considered the dispute."
+        - "Prime Minister Albin Kurti, once an ally of Osmani, challenged the dissolution in court."
       why_it_matters:
-        - "The incident underscores the severe deterioration of humanitarian conditions and the rampant violation of international humanitarian law in the Sudanese conflict."
-      uncertainty_notes:
+        - "The decision prolonged Kosovo's political paralysis and delayed a path out of the crisis."
+        - "It underscored the fragility of Kosovo's constitutional arrangements for electing a president and maintaining government continuity."
+      uncertainty_notes: []
     actors:
-      primary:
-      secondary:
+      primary: ["Constitutional Court of Kosovo", "Vjosa Osmani"]
+      secondary: ["Albin Kurti", "Government of Kosovo"]
     entities:
-      people:
-      organizations:
-      states:
+      people: ["Vjosa Osmani", "Albin Kurti"]
+      organizations: ["Constitutional Court of Kosovo", "Government of Kosovo", "Parliament of Kosovo"]
+      states: ["Kosovo"]
     geography:
-      countries:
-      places:
-      coordinates:
+      countries: ["Kosovo"]
+      places: ["Pristina"]
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type: ["Court ruling", "Election crisis"]
+      tags: ["Kosovo", "constitutional court", "snap election"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/court-bars-kosovo-president-announcing-snap-election-date-2026-03-10/"
+          publication_date: "2026-03-10"
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["Court barred the president from setting a date for snap elections until March 31", "Court also froze parliament's effort to elect a president", "Kurti challenged the dissolution"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-10-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Civil war"
+    topics: ["Sudan", "Drone warfare", "Civilian deaths"]
+    importance: null
+    headline: "Drone strike on a truck carrying mourners kills 40 in Sudan's West Kordofan"
+    summary: >
+      A drone strike hit a pick-up truck carrying mourners to a funeral on the road between Abu Zabad and El-Fula in Sudan's West Kordofan, killing 40 people, most of them women, according to a medical source cited by AFP. Subsequent reporting described the attack as part of a widening pattern of drone warfare against civilians in Sudan's Kordofan and nearby regions. The available sources confirmed the deaths and location but did not firmly attribute responsibility for this specific strike.
+    details:
+      what_happened:
+        - "A pick-up truck carrying civilians to a funeral was struck by a drone on the road between Abu Zabad and El-Fula in West Kordofan."
+        - "AFP, citing a medical source at Abu Zabad Hospital, reported that 40 people were killed and that most of the dead were women."
+        - "The attack occurred amid escalating drone warfare in Sudan's broader civil conflict."
+      why_it_matters:
+        - "The strike highlighted the growing lethality of drone attacks against civilians in Sudan."
+        - "It added to evidence that the Kordofan front was becoming one of the war's most dangerous zones for noncombatants."
+      uncertainty_notes:
+        - "The sources reviewed did not conclusively identify the force responsible for this specific strike."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: ["Sudan"]
+    geography:
+      countries: ["Sudan"]
+      places: ["Abu Zabad", "El-Fula", "West Kordofan"]
+      coordinates: []
     time:
       date: "2026-03-10"
       time_known: false
@@ -218,104 +469,30 @@ events:
       arrest_count: null
       damage: "Destruction of a civilian transport vehicle."
     classification:
-      event_type: ["Airstrike", "Mass casualty incident"]
-      tags:
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "Forty people are killed in a drone strike on a truck carrying funeralgoers near Abu Zabad, West Kordofan, Sudan."
-      external:
-        - id: "src-006"
-          outlet: "NAMPA / AFP"
-          url: "https://www.nampa.org/text/22884913"
-          publication_date: "2026-03-11"
-          source_type: "News agency report"
-          reliability_tier: "High"
-          supports: ["40 killed", "Funeral convoy", "Abu Zabad to El-Fula road"]
-          contradicts:
-          quoted_material_used: false
-        - id: "src-007"
-          outlet: "Al Jazeera"
-          url: "https://www.aljazeera.com/news/2026/3/13/drone-attack-on-market-in-sudan-kills-11-as-air-war-civilian-toll-mounts"
-          publication_date: "2026-03-13"
-          source_type: "News report"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "medium"
-    related_events:
-    notes: ""
-
-  - id: "evt-2026-03-10-004"
-    category: "Politics and elections"
-    subcategory: "Government dissolution"
-    topics: ["Political crisis", "Civil unrest"]
-    importance: null
-    headline: "Madagascar interim leader dissolves entire government following mass youth protests"
-    summary: >
-      Colonel Michael Randrianirina, the interim leader of Madagascar, issued a sudden executive decree dissolving the nation's entire governing cabinet and dismissing Prime Minister Herintsalama Rajaonarivelo. The sweeping institutional purge follows months of intense, youth-led "Gen Z" protests over severe water and power shortages, which had previously been met with violent state crackdowns, leaving the island nation in a precarious political vacuum as it struggles to form a reform-oriented transitional authority.
-    details:
-      what_happened:
-        - "Interim leader Col. Michael Randrianirina dissolved the council of ministers in Madagascar."
-        - "Prime Minister Herintsalama Rajaonarivelo was formally dismissed from his position."
-        - "The dissolution followed widespread youth-led demonstrations against critical infrastructural failures and severe state-sanctioned crackdowns."
-      why_it_matters:
-        - "The creation of an executive vacuum introduces severe risks of further destabilization in the island nation if a credible transitional authority is not swiftly appointed."
-      uncertainty_notes:
-    actors:
-      primary:
-      secondary:
-    entities:
-      people:
-      organizations:
-      states: ["Madagascar"]
-    geography:
-      countries: ["Madagascar"]
-      places: ["Antananarivo"]
-      coordinates:
-    time:
-      date: "2026-03-10"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type: ["Government dismissal"]
-      tags: ["Madagascar", "Political crisis", "Cabinet dissolution"]
+      event_type: ["Drone strike", "Mass casualty incident"]
+      tags: ["Sudan", "West Kordofan", "funeral mourners"]
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
-        - id: "src-008"
-          outlet: "Africanews"
-          url: "https://www.africanews.com/2026/03/10/madagascar-interim-leader-dissolves-entire-government-dismisses-pm/"
-          publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-        - id: "src-009"
-          outlet: "Africanews"
-          url: "https://www.africanews.com/2026/03/11/madagascar-cautiously-welcomes-dismissal-of-cabinet/"
+        - id: "src-001"
+          outlet: "Nampa / AFP"
+          url: "https://www.nampa.org/text/22884913"
           publication_date: "2026-03-11"
-          source_type: "News report"
+          source_type: "News agency report"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["40 people killed", "Truck carrying mourners to a funeral", "Road between Abu Zabad and El-Fula", "Most victims were women"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "TRT Afrika"
+          url: "https://www.trtafrika.com/english/article/0018867661dd"
+          publication_date: "2026-03-12"
+          source_type: "News report"
+          reliability_tier: "Medium"
+          supports: ["At least 40 people died in the mourners' truck strike in West Kordofan", "The incident formed part of a wider run of drone attacks in Sudan"]
+          contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
@@ -323,38 +500,41 @@ events:
       last_reviewed_by: null
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events: []
     notes: ""
 
-  - id: "evt-2026-03-10-005"
+  - id: "evt-2026-03-10-007"
     category: "Disasters and accidents"
-    subcategory: "Fires"
-    topics: ["Public transport", "Arson investigation"]
+    subcategory: "Fire"
+    topics: ["Public transport", "Switzerland", "Mass casualty fire"]
     importance: null
-    headline: "Postal bus fire in Switzerland kills 6 in suspected deliberate arson attack"
+    headline: "Bus fire in Kerzers, Switzerland, kills six people"
     summary: >
-      A massive fire engulfed a Swiss PostBus on the main street of Kerzers in the Fribourg canton, resulting in six fatalities and five serious injuries. Swiss cantonal prosecutors and law enforcement have launched a criminal investigation into the incident, treating it as a deliberate act following eyewitness reports that an individual intentionally poured flammable liquid on themselves inside the vehicle, marking the country's second major fatal fire in early 2026.
+      A fire on a regional PostBus in Kerzers, Switzerland, killed six people and injured five others on March 10. Swiss authorities said the blaze was likely the result of a deliberate act by a passenger who apparently set himself alight with a flammable substance, while ruling out any initial indication of terrorism. Reuters and AP both reported that the incident triggered a criminal investigation and shocked the local community.
     details:
       what_happened:
-        - "A PostBus caught fire on the main street of Kerzers, Switzerland, causing six deaths and injuring five people."
-        - "Emergency services utilized helicopters to evacuate the severely injured to regional hospitals."
-        - "Swiss prosecutors launched a criminal investigation after indications that an individual poured flammable liquid on themselves to start the fire."
+        - "The bus caught fire in Kerzers in Fribourg canton on Tuesday evening, killing six people."
+        - "Five other people were injured, with several taken to hospital by emergency services."
+        - "Swiss authorities said the most likely scenario was that a passenger set himself on fire using a flammable substance and that he was believed to be among the dead."
+        - "Police said they found no indication of a terror motive and opened a criminal investigation."
       why_it_matters:
-        - "The incident represents a severe breach of public safety in Switzerland's highly utilized public transit network and prompted shock from the Swiss President."
-      uncertainty_notes: ["Police have stated it is too early to determine if the deliberate act was terror-related."]
+        - "The fire caused one of Switzerland's deadliest public-transport incidents in recent memory."
+        - "The case raised immediate public-safety concerns while remaining, at least initially, outside a terrorism framework."
+      uncertainty_notes:
+        - "The final reconstruction of motive and sequence remained under criminal investigation."
     actors:
-      primary:
-      secondary: ["Fribourg cantonal police"]
+      primary: ["Fribourg cantonal police"]
+      secondary: ["PostBus"]
     entities:
       people: ["Guy Parmelin"]
-      organizations:
-      states:
+      organizations: ["Fribourg cantonal police", "PostBus"]
+      states: ["Switzerland"]
     geography:
-      countries:
-      places: ["Kerzers", "Fribourg canton"]
-      coordinates:
+      countries: ["Switzerland"]
+      places: ["Kerzers", "Fribourg canton", "Bern"]
+      coordinates: []
     time:
       date: "2026-03-10"
       time_known: true
@@ -364,23 +544,32 @@ events:
       injured: 5
       displaced: null
       arrest_count: null
-      damage: "Total destruction of a commercial transit bus."
+      damage: "The PostBus was destroyed by fire."
     classification:
-      event_type:
-      tags:
+      event_type: ["Transport fire", "Mass casualty incident", "Criminal investigation"]
+      tags: ["Switzerland", "Kerzers", "bus fire"]
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
-        - id: "src-010"
-          outlet: "The Guardian"
-          url: "https://www.theguardian.com/world/2026/mar/10/multiple-deaths-injuries-bus-fire-switzerland"
-          publication_date: "2026-03-11"
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/least-six-people-die-coach-fire-switzerland-local-police-say-2026-03-10/"
+          publication_date: "2026-03-10"
           source_type: "News report"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["Six deaths", "Possible deliberate act by a passenger", "No initial terrorism indication", "Criminal investigation"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/9bb42b64495d16ffb11f3298f5b354dd"
+          publication_date: "2026-03-11"
+          source_type: "News wire"
+          reliability_tier: "High"
+          supports: ["Five injuries", "Suspect believed among the dead", "Authorities cited psychological issues rather than a terror motive"]
+          contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
@@ -389,37 +578,40 @@ events:
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
-      actor_identification: "low"
-    related_events:
+      actor_identification: "medium"
+    related_events: []
     notes: ""
 
-  - id: "evt-2026-03-10-006"
-    category: "Sports"
-    subcategory: "Baseball"
-    topics:
+  - id: "evt-2026-03-10-008"
+    category: "Business and economy"
+    subcategory: "Trade"
+    topics: ["China", "Exports", "Trade surplus"]
     importance: null
-    headline: "Italy stuns the United States 8-6 in the World Baseball Classic"
+    headline: "China's January-February exports surge far above forecasts"
     summary: >
-      The Italian national baseball team delivered a historic upset at the 2026 World Baseball Classic in Houston, defeating a star-studded United States roster 8-6 in a critical Group B matchup. Italy's aggressive offense produced three home runs in the first four innings to build an insurmountable 8-0 lead, leaving the U.S. team with a 3-1 record and forcing them to rely on complex tie-breaker scenarios involving run differentials to advance to the tournament quarterfinals.
+      China reported a much stronger-than-expected start to 2026 trade, with exports up about 22% in January and February and the trade surplus reaching $213.6 billion. Reuters and AP both said demand for electronics, semiconductors, autos, and other manufactured goods drove the increase, while exports to the United States still fell. The data strengthened perceptions that external demand was helping stabilize China's economy even as domestic weakness and geopolitical risks persisted.
     details:
       what_happened:
-        - "Italy defeated the United States 8-6 in a Group B matchup at the World Baseball Classic in Houston's Daikin Park."
-        - "Italy scored eight runs in the first six innings, taking an early 8-0 lead before a late US rally."
-        - "The result left the US with a 3-1 pool play record, forcing them to rely on complex tie-breaker scenarios to advance."
+        - "Reuters reported that China's exports rose about 22% year-on-year in the first two months of 2026, well above analyst forecasts."
+        - "The combined January-February trade surplus reached $213.6 billion."
+        - "AP reported especially strong gains in semiconductors, autos, and other electronics-related exports."
+        - "Exports to the United States declined even as shipments to Europe, Latin America, and other Asian markets rose."
       why_it_matters:
-        - "The loss marked one of the biggest upsets in the tournament's 20-year history, jeopardizing the advancement of the heavily favored American roster led by Aaron Judge."
+        - "The figures suggested China's manufacturers entered 2026 with strong momentum despite domestic economic strains."
+        - "The results also highlighted how trade patterns were shifting away from the U.S. and toward other markets."
       uncertainty_notes:
+        - "Analysts cited in coverage warned that conflict-related shipping and energy shocks could still weaken trade later in the year."
     actors:
-      primary:
-      secondary:
+      primary: ["China"]
+      secondary: []
     entities:
-      people:
-      organizations:
-      states:
+      people: []
+      organizations: ["General Administration of Customs of China"]
+      states: ["China", "United States"]
     geography:
-      countries:
-      places:
-      coordinates:
+      countries: ["China", "United States"]
+      places: ["Beijing"]
+      coordinates: []
     time:
       date: "2026-03-10"
       time_known: false
@@ -431,30 +623,30 @@ events:
       arrest_count: null
       damage: null
     classification:
-      event_type:
-      tags:
+      event_type: ["Economic data release", "Trade report"]
+      tags: ["China exports", "trade surplus", "customs data"]
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
-        - id: "src-011"
-          outlet: "Olympics.com"
-          url: "https://www.olympics.com/en/news/2026-world-baseball-classic-italy-stun-united-states"
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/chinas-exports-turbocharge-into-2026-after-record-breaking-year-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "Official sports report"
+          source_type: "News report"
           reliability_tier: "High"
-          supports: ["8-6 final score", "Early 8-0 lead", "Aaron Judge strikeout"]
-          contradicts:
+          supports: ["Exports surged about 22%", "Trade surplus reached $213.6 billion", "Electronics demand drove growth"]
+          contradicts: []
           quoted_material_used: false
-        - id: "src-012"
+        - id: "src-002"
           outlet: "Associated Press"
-          url: "https://apnews.com/article/wbc-united-states-quarterfinals-derosa-2c51274b1dbe46d091d0a80f237aa542"
-          publication_date: "2026-03-11"
+          url: "https://apnews.com/article/b25cf7991025e8efd49afc8b17a1295f"
+          publication_date: "2026-03-10"
           source_type: "News wire"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["Semiconductors, autos, and electronics led export growth", "Exports to the U.S. fell while other markets grew"]
+          contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
@@ -464,37 +656,38 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events:
+    related_events: []
     notes: ""
 
-  - id: "evt-2026-03-10-007"
+  - id: "evt-2026-03-10-009"
     category: "Law and crime"
-    subcategory: "Organized crime"
-    topics:
+    subcategory: "Human rights"
+    topics: ["El Salvador", "State of emergency", "Crimes against humanity"]
     importance: null
-    headline: "Death of CJNG leader 'El Mencho' triggers widespread cartel violence across Mexico"
+    headline: "International jurists accuse El Salvador of likely crimes against humanity under the state of emergency"
     summary: >
-      Widespread violence and "narcobloqueos" paralyzed multiple Mexican states throughout March following the targeted killing of Nemesio "El Mencho" Oseguera Cervantes, the paramount leader of the Jalisco New Generation Cartel (CJNG). The decapitation of the cartel by Mexican security forces, aided by U.S. intelligence, has triggered intense cartel realignment and succession struggles, leading to civilian displacement and prompting severe security alerts across the region.
+      A group of international jurists filed a report with the Inter-American Commission on Human Rights arguing that Salvadoran authorities had likely committed crimes against humanity during the country's prolonged state of emergency. Reuters reported that the filing accused the government of systematic torture, murder, forced disappearances, and other abuses linked to anti-gang policies. An accompanying release from the International Commission of Jurists described the allegations as the product of a state policy rather than isolated misconduct.
     details:
       what_happened:
-        - "Nationwide violence and instability gripped Mexico following the late February killing of CJNG leader 'El Mencho' by Mexican military forces."
-        - "Cartel operatives paralyzed critical infrastructure by commandeering and incinerating commercial vehicles to create 'narcobloqueos' across nearly a dozen states."
-        - "The capital of Jalisco, Guadalajara, faced severe security lockdowns and civilian panic."
+        - "International jurists submitted a report to the Inter-American Commission on Human Rights on March 10."
+        - "The filing alleged systematic abuses under El Salvador's state of emergency, including torture, killings, forced disappearances, sexual violence, and persecution."
+        - "The report argued there were reasonable grounds to believe crimes against humanity were being committed."
       why_it_matters:
-        - "The systemic shock of the leadership vacuum has ignited protracted, multi-front turf wars as rival factions attempt to absorb lucrative trafficking routes."
-        - "The destabilization is projected to cause a surge in forced migration toward the U.S. border."
+        - "The filing intensified international legal scrutiny of President Nayib Bukele's high-profile anti-gang security model."
+        - "It framed the alleged abuses as systematic and state-directed, raising the stakes beyond ordinary human-rights criticism."
       uncertainty_notes:
+        - "The allegations were presented in a filing and had not been adjudicated by the commission on March 10."
     actors:
-      primary: ["Jalisco New Generation Cartel (CJNG)", "Mexican Armed Forces"]
-      secondary:
+      primary: ["International jurists", "Government of El Salvador"]
+      secondary: ["Inter-American Commission on Human Rights"]
     entities:
-      people: ["Nemesio Oseguera Cervantes"]
-      organizations: ["Cartel Jalisco Nueva Generación (CJNG)"]
-      states: ["Mexico"]
+      people: ["Nayib Bukele"]
+      organizations: ["Inter-American Commission on Human Rights", "International Commission of Jurists"]
+      states: ["El Salvador"]
     geography:
-      countries: ["Mexico"]
-      places:
-      coordinates:
+      countries: ["El Salvador"]
+      places: ["San Salvador", "Geneva"]
+      coordinates: []
     time:
       date: "2026-03-10"
       time_known: false
@@ -504,106 +697,32 @@ events:
       injured: null
       displaced: null
       arrest_count: null
-      damage: "Widespread arson and destruction of commercial vehicles and infrastructure."
-    classification:
-      event_type: ["Civil unrest", "Organized crime violence"]
-      tags: ["Mexico", "CJNG", "Cartel violence", "El Mencho"]
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-013"
-          outlet: "Center for Strategic and International Studies (CSIS)"
-          url: "https://www.csis.org/analysis/criminal-kingpin-el-mencho-dead-what-comes-next"
-          publication_date: "2026-02-26"
-          source_type: "Think tank brief"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-        - id: "src-014"
-          outlet: "ACLED"
-          url: "https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026"
-          publication_date: "2026-03-15"
-          source_type: "NGO report"
-          reliability_tier: "High"
-          supports: ["Ongoing March violence", "Criminal realignment"]
-          contradicts:
-          quoted_material_used: false
-        - id: "src-015"
-          outlet: "PBS NewsHour"
-          url: "https://www.pbs.org/newshour/world/mexican-army-kills-jalisco-new-generation-cartel-leader-el-mencho-during-operation-to-capture-him"
-          publication_date: "2026-02-23"
-          source_type: "News report"
-          reliability_tier: "High"
-          supports: ["Narcobloqueos in nearly a dozen states", "Guadalajara ghost town"]
-          contradicts:
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-    notes: "While the actual raid occurred in late February, the resulting nationwide cartel war and unrest is a defining ongoing event in Mexico throughout March."
-
-  - id: "evt-2026-03-10-008"
-    category: "Armed conflicts and attacks"
-    subcategory: "Border conflict"
-    topics: ["Airstrikes", "Civilian displacement"]
-    importance: null
-    headline: "Escalating Afghanistan-Pakistan border clashes displace over 16,000 families"
-    summary: >
-      A severe escalation in cross-border fighting and airstrikes along the Afghanistan-Pakistan border has resulted in significant civilian casualties and heightened protection risks across multiple provinces, including Khost, Kunar, and Paktika. Humanitarian organizations estimate that approximately 16,370 families have been newly displaced as civilians engage in precautionary movement away from the conflict zones, severely straining the region's limited medical and aid resources.
-    details:
-      what_happened:
-        - "Cross-border fighting and airstrikes intensified between Afghanistan and Pakistan."
-        - "The conflict caused reported civilian casualties, injuries, and heightened protection risks."
-        - "An estimated 16,370 families were newly displaced across multiple border provinces including Kabul, Kandahar, Khost, Kunar, and Nangarhar."
-      why_it_matters:
-        - "The clashes underscore the enduring fragility of the regional security architecture and exacerbate the severe humanitarian crisis in Afghanistan."
-      uncertainty_notes:
-    actors:
-      primary:
-      secondary:
-    entities:
-      people:
-      organizations: ["International Medical Corps (IMC)"]
-      states: ["Afghanistan", "Pakistan"]
-    geography:
-      countries: ["Afghanistan", "Pakistan"]
-      places:
-      coordinates:
-    time:
-      date: "2026-03-10"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: 16370
-      arrest_count: null
       damage: null
     classification:
-      event_type:
-      tags:
+      event_type: ["Human rights filing", "Legal complaint"]
+      tags: ["El Salvador", "state of emergency", "human rights"]
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
-        - id: "src-016"
-          outlet: "ReliefWeb / International Medical Corps"
-          url: "https://reliefweb.int/report/afghanistan/afghanistanpakistan-conflict-update-situation-report-1-march-10-2026"
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/el-salvador-likely-committed-crimes-against-humanity-during-state-emergency-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "NGO report"
+          source_type: "News report"
           reliability_tier: "High"
-          supports: ["16,370 families displaced", "Cross-border fighting", "Affected provinces"]
-          contradicts:
+          supports: ["Jurists filed a report with the Inter-American Commission on Human Rights", "Report alleged torture, murder, and forced disappearances", "Claims related to the prolonged state of emergency"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "International Commission of Jurists"
+          url: "https://www.icj.org/el-salvador-crimes-against-humanity-within-the-framework-of-public-security-policy/"
+          publication_date: null
+          source_type: "Official release"
+          reliability_tier: "High"
+          supports: ["Reasonable grounds to conclude crimes against humanity were being committed", "Abuses were presented as systematic and policy-linked"]
+          contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
@@ -613,110 +732,198 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "medium"
-    related_events:
-    notes: ""
-
-  - id: "evt-2026-03-10-009"
-    category: "Law and crime"
-    subcategory: "Terrorism"
-    topics:
-    importance: null
-    headline: "Southeast Asian authorities crack down on digital white-supremacist radicalization networks"
-    summary: >
-      Intelligence agencies across Indonesia, Singapore, and Malaysia launched sweeping surveillance operations targeting the rapid proliferation of "Nihilistic Violent Extremism" among youth populations. Prompted by a recent school bombing in Jakarta by a teenager influenced by far-right, mass-casualty ideologies, Indonesian police are actively monitoring nearly 100 youths—some as young as eleven—who have been radicalized through decentralized white-supremacist content on digital messaging platforms like Telegram.
-    details:
-      what_happened:
-        - "Indonesian authorities reported monitoring at least 97 youths exposed to online content praising mass violence and white supremacists."
-        - "The crackdown follows a school bombing in Jakarta by a teenager influenced by Western far-right movements."
-        - "Security officials in Malaysia, the Philippines, and Thailand also reported investigating teenagers inspired by online extremist content."
-      why_it_matters:
-        - "This trend represents a profound paradigm shift in regional counter-terrorism, shifting from organized Islamist groups to decentralized, digitally mediated radicalization."
-      uncertainty_notes:
-    actors:
-      primary:
-      secondary:
-    entities:
-      people:
-      organizations:
-      states:
-    geography:
-      countries:
-      places: ["Jakarta"]
-      coordinates:
-    time:
-      date: "2026-03-10"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type: ["Law enforcement operation", "Counter-terrorism"]
-      tags:
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-017"
-          outlet: "Japan Times / Reuters"
-          url: "https://www.japantimes.co.jp/news/2026/03/10/asia-pacific/society/white-supremacist-teens-asia/"
-          publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-        - id: "src-018"
-          outlet: "Daily Sabah"
-          url: "https://www.dailysabah.com/opinion/op-ed/extremism-is-going-digital-and-the-world-is-not-ready"
-          publication_date: "2026-03-10"
-          source_type: "Opinion/Editorial"
-          reliability_tier: "Medium"
-          supports:
-          contradicts:
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "medium"
-    related_events:
+    related_events: []
     notes: ""
 
   - id: "evt-2026-03-10-010"
-    category: "International relations"
-    subcategory: "Diplomacy"
-    topics:
+    category: "Sports"
+    subcategory: "Baseball"
+    topics: ["World Baseball Classic", "Upset", "Pool B"]
     importance: null
-    headline: "India negotiates with Iran to secure LPG tanker passage through Strait of Hormuz"
+    headline: "Italy shocks the United States 8-6 in the World Baseball Classic"
     summary: >
-      In response to the de facto closure of the Strait of Hormuz due to the escalating Middle East war, the Indian government entered into direct diplomatic negotiations with Tehran to secure the safe passage of Indian-flagged liquefied petroleum gas (LPG) carriers essential for domestic cooking fuel. The strategic exchange reportedly involves India considering the release of three seized tankers held by the Indian Coast Guard on smuggling charges, in return for Iran permitting the transit of Indian energy supplies.
+      Italy delivered one of the biggest upsets of the 2026 World Baseball Classic by beating the United States 8-6 in Houston and moving to 3-0 in Pool B. Italy built an 8-0 lead with early power hitting before holding off a late American comeback. AP, Reuters, and Olympics coverage all said the defeat left the heavily favored United States dependent on the result of Italy's next game and tournament tiebreakers to reach the quarterfinals.
     details:
       what_happened:
-        - "India's foreign ministry engaged in direct talks with Iran's ambassador in New Delhi to secure safe passage for ships through the Strait of Hormuz."
-        - "Iran requested the release of three tankers (Stellar Ruby, Asphalt Star, Al Jafzia) seized by the Indian Coast Guard in February for illegal ship-to-ship transfers."
-        - "India prioritized the passage of six specific vessels loaded with LPG to ease a severe domestic shortage of cooking fuel."
+        - "Italy beat the United States 8-6 at Daikin Park in Houston."
+        - "Italy raced to an 8-0 advantage, powered by home runs from Kyle Teel, Sam Antonacci, and Jac Caglianone."
+        - "The United States rallied late behind home runs from Gunnar Henderson and Pete Crow-Armstrong but could not complete the comeback."
+        - "The result put Italy atop Pool B and left the United States needing help from subsequent results to advance."
       why_it_matters:
-        - "The bilateral negotiation highlights state-level efforts to bypass the paralyzed multilateral security architecture and secure vital energy supply chains directly with combatants."
-      uncertainty_notes:
+        - "The game was one of the tournament's biggest shocks and reshaped the quarterfinal picture."
+        - "It underscored the competitive depth of the international field beyond the traditional favorites."
+      uncertainty_notes: []
     actors:
-      primary: ["Government of India", "Government of Iran"]
-      secondary: ["Indian Coast Guard"]
+      primary: ["Italy national baseball team", "United States national baseball team"]
+      secondary: []
     entities:
-      people:
-      organizations: ["Ministry of External Affairs (India)"]
-      states: ["India", "Iran"]
+      people: ["Kyle Teel", "Sam Antonacci", "Jac Caglianone", "Gunnar Henderson", "Pete Crow-Armstrong", "Aaron Judge", "Michael Lorenzen"]
+      organizations: ["World Baseball Classic"]
+      states: ["Italy", "United States"]
     geography:
-      countries: ["India", "Iran"]
-      places:
-      coordinates:
+      countries: ["United States"]
+      places: ["Daikin Park", "Houston, Texas"]
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: true
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type: ["Sports result", "Tournament upset"]
+      tags: ["World Baseball Classic", "Italy", "United States", "baseball"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Olympics.com"
+          url: "https://www.olympics.com/en/news/2026-world-baseball-classic-italy-stun-united-states"
+          publication_date: "2026-03-10"
+          source_type: "Official sports report"
+          reliability_tier: "High"
+          supports: ["Italy beat the United States 8-6", "Italy stayed undefeated in Pool B", "Upset significance of the result"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/wbc-united-states-quarterfinals-derosa-2c51274b1dbe46d091d0a80f237aa542"
+          publication_date: "2026-03-11"
+          source_type: "News wire"
+          reliability_tier: "High"
+          supports: ["United States needed help to advance after the loss", "Game changed Pool B quarterfinal scenarios"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-003"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sports/usa-stunned-by-italy-needs-help-reach-wbc-quarterfinals--flm-2026-03-11/"
+          publication_date: "2026-03-11"
+          source_type: "Sports report"
+          reliability_tier: "High"
+          supports: ["Italy led 8-0 and won 8-6", "Italy moved to 3-0", "The U.S. was left relying on tiebreakers or other results"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-10-011"
+    category: "Culture and media"
+    subcategory: "Art acquisition"
+    topics: ["Italy", "Caravaggio", "Museum collection"]
+    importance: null
+    headline: "Italy acquires a rare Caravaggio portrait for the Palazzo Barberini"
+    summary: >
+      Italy announced the purchase of a rare Caravaggio portrait of Monsignor Maffeo Barberini for 30 million euros, one of the largest amounts the state has paid for a single artwork. Reuters and AP reported that the painting, created around 1598 and now destined for the Palazzo Barberini in Rome, had been in a private Florentine collection and was publicly shown only recently. The acquisition was presented as a major effort to keep an important work by one of Italy's most influential painters in the public domain and on public display.
+    details:
+      what_happened:
+        - "Italy bought the 'Portrait of Monsignor Maffeo Barberini' for 30 million euros."
+        - "The painting depicts the future Pope Urban VIII and dates to around 1598."
+        - "After a year of negotiations, the work was acquired from a private collection and assigned to the Palazzo Barberini in Rome."
+      why_it_matters:
+        - "The purchase kept a rare and highly valuable Caravaggio in a public Italian collection."
+        - "It was one of the state's largest single-artwork acquisitions and reinforced the cultural significance of the Palazzo Barberini collection."
+      uncertainty_notes: []
+    actors:
+      primary: ["Italian Ministry of Culture"]
+      secondary: ["Palazzo Barberini"]
+    entities:
+      people: ["Caravaggio", "Maffeo Barberini", "Alessandro Giuli"]
+      organizations: ["Italian Ministry of Culture", "Palazzo Barberini"]
+      states: ["Italy"]
+    geography:
+      countries: ["Italy"]
+      places: ["Rome", "Palazzo Barberini", "Florence"]
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type: ["State acquisition", "Museum announcement"]
+      tags: ["Caravaggio", "art", "Italy", "Palazzo Barberini"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/lifestyle/italy-buys-rare-caravaggio-portrait-after-yearlong-talks-2026-03-10/"
+          publication_date: "2026-03-10"
+          source_type: "News report"
+          reliability_tier: "High"
+          supports: ["Italy paid 30 million euros", "Portrait depicts Maffeo Barberini", "Painting will join Palazzo Barberini"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/52d739100b450709b88c7e74f761de22"
+          publication_date: "2026-03-10"
+          source_type: "News wire"
+          reliability_tier: "High"
+          supports: ["Acquisition ranked among Italy's largest payouts for a single artwork", "Painting came from a private collection", "Public-access significance of the purchase"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-10-012"
+    category: "International relations"
+    subcategory: "Energy diplomacy"
+    topics: ["G7", "Strategic reserves", "Iran crisis"]
+    importance: null
+    headline: "G7 energy ministers stop short of an emergency oil release as leaders prepare a crisis call"
+    summary: >
+      Governments moved to coordinate a political response to the energy shock from the Iran war, but without immediate consensus on releasing strategic reserves. Reuters reported that G7 energy ministers and the European Union discussed soaring prices on March 10 and asked the International Energy Agency to study options instead of authorizing an immediate drawdown. Later the same day, France said President Emmanuel Macron would host a G7 leaders' call for March 11 focused on the Iran crisis and rising energy prices.
+    details:
+      what_happened:
+        - "G7 energy ministers and EU officials held talks on March 10 about the economic effects of the Iran war."
+        - "They stopped short of approving an immediate release of strategic oil reserves and instead asked the IEA to assess available options."
+        - "France announced that President Emmanuel Macron would convene a call with G7 leaders the next day to address the crisis and energy prices."
+      why_it_matters:
+        - "The discussions showed that the conflict had become a major multilateral economic-security issue for advanced economies."
+        - "The lack of immediate agreement highlighted divisions over how quickly to intervene in oil markets."
+      uncertainty_notes:
+        - "The ministers asked the IEA to study options on March 10; the historic coordinated release came later."
+    actors:
+      primary: ["G7 energy ministers", "European Union", "International Energy Agency"]
+      secondary: ["France"]
+    entities:
+      people: ["Emmanuel Macron"]
+      organizations: ["G7", "European Union", "International Energy Agency"]
+      states: ["France", "United States", "Canada", "Japan", "Italy", "United Kingdom", "Germany"]
+    geography:
+      countries: ["France", "United States", "Canada", "Japan", "Italy", "United Kingdom", "Germany"]
+      places: ["Paris"]
+      coordinates: []
     time:
       date: "2026-03-10"
       time_known: false
@@ -728,86 +935,30 @@ events:
       arrest_count: null
       damage: null
     classification:
-      event_type:
-      tags:
+      event_type: ["Emergency meeting", "Diplomatic coordination", "Energy policy response"]
+      tags: ["G7", "IEA", "oil reserves", "energy crisis"]
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
-        - id: "src-019"
-          outlet: "The Star"
-          url: "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/16/as-india-seeks-hormuz-safe-passage-tehran-asks-for-return-of-seized-tankers-sources-say"
-          publication_date: "2026-03-16"
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/g7-eu-hold-calls-soaring-energy-prices-2026-03-10/"
+          publication_date: "2026-03-10"
           source_type: "News report"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["G7 energy ministers stopped short of a reserve release", "IEA was asked to study options", "Talks centered on soaring energy prices"]
+          contradicts: []
           quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-    notes: ""
-
-  - id: "evt-2026-03-10-011"
-    category: "International relations"
-    subcategory: "Sovereignty dispute"
-    topics:
-    importance: null
-    headline: "Philippines rejects Chinese-circulated 1990 document regarding Scarborough Shoal sovereignty"
-    summary: >
-      The Philippine Department of Foreign Affairs categorically rejected the authenticity of a purported 1990 diplomatic letter circulated by the Chinese Embassy, which suggested Manila had acknowledged the Scarborough Shoal lay outside its territorial sovereignty. Philippine officials dismissed the document as a disinformation tactic, reiterating their incontrovertible sovereignty over Bajo de Masinloc based on historical cartography and the binding 2016 international arbitral tribunal ruling that invalidated China's expansive maritime claims.
-    details:
-      what_happened:
-        - "The Chinese Embassy circulated a purported 1990 letter from a Philippine ambassador suggesting Scarborough Shoal was outside Philippine territory."
-        - "The Philippine Department of Foreign Affairs refused to engage with the document, citing uncertain origin and authenticity."
-        - "Manila reiterated its sovereignty over the shoal based on the 1734 Murillo Velarde map and the 2016 international tribunal ruling."
-      why_it_matters:
-        - "The incident illustrates the ongoing weaponization of historical archives and cognitive warfare in South China Sea territorial disputes."
-      uncertainty_notes:
-    actors:
-      primary:
-      secondary:
-    entities:
-      people:
-      organizations:
-      states: ["Philippines", "China"]
-    geography:
-      countries: ["Philippines", "China"]
-      places:
-      coordinates:
-    time:
-      date: "2026-03-10"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-      tags:
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-020"
-          outlet: "The Star"
-          url: "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/16/philippines-questions-authenticity-of-china-circulated-letter-on-scarborough-shoal-claim"
-          publication_date: "2026-03-16"
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/macron-host-g7-leaders-call-iran-crisis-energy-prices-2026-03-10/"
+          publication_date: "2026-03-10"
           source_type: "News report"
           reliability_tier: "High"
-          supports:
-          contradicts:
+          supports: ["Macron announced a March 11 G7 leaders' call", "Leaders were to discuss the Iran crisis and energy prices"]
+          contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
@@ -817,228 +968,5 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events:
-    notes: ""
-
-  - id: "evt-2026-03-10-012"
-    category: "Health"
-    subcategory: "Medical regulation"
-    topics:
-    importance: null
-    headline: "FDA scales back broad autism use for leucovorin as US Congress passes targeted PBM reforms"
-    summary: >
-      The U.S. Food and Drug Administration (FDA) approved the generic medication leucovorin strictly for an ultra-rare genetic condition, definitively rejecting political pressure from the Trump administration to authorize the drug as a broad treatment for autism spectrum disorder due to a lack of scientific evidence. Concurrently, the U.S. Congress advanced critical legislation targeting Pharmacy Benefit Managers (PBMs) to enforce pricing transparency, curb anti-competitive Medicare rebate practices, and lower overall prescription drug costs for consumers.
-    details:
-      what_happened:
-        - "The FDA approved generic leucovorin for a rare brain disorder, refusing to expand its approval for general autism treatment."
-        - "The decision contradicted earlier statements by President Trump and administration officials touting the drug's broad promise."
-        - "Congress passed a budget deal including targeted reforms to regulate Pharmacy Benefit Managers (PBMs)."
-      why_it_matters:
-        - "The FDA decision reinforces the agency's reliance on empirical science over political pressure in drug authorizations."
-        - "The PBM reforms mark a significant structural change aimed at dismantling monopolistic practices inflating US healthcare costs."
-      uncertainty_notes:
-    actors:
-      primary:
-      secondary:
-    entities:
-      people:
-      organizations:
-      states:
-    geography:
-      countries:
-      places:
-      coordinates:
-    time:
-      date: "2026-03-10"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-      tags:
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-021"
-          outlet: "Associated Press"
-          url: "https://www.ksat.com/business/2026/03/10/fda-finds-little-evidence-that-a-generic-drug-could-help-many-people-with-autism/"
-          publication_date: "2026-03-10"
-          source_type: "News wire"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-        - id: "src-022"
-          outlet: "American Medical Association"
-          url: "https://www.ama-assn.org/public-health/behavioral-health/targeted-pbm-reforms-aim-boost-fairness-lower-costs"
-          publication_date: "2026-03-10"
-          source_type: "Professional association report"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-    notes: ""
-
-  - id: "evt-2026-03-10-013"
-    category: "Sports"
-    subcategory: "Soccer"
-    topics: ["UEFA Champions League", "Knockout stage"]
-    importance: null
-    headline: "Bayern Munich and Atlético Madrid secure dominant victories in UEFA Champions League Round of 16"
-    summary: >
-      The UEFA Champions League Round of 16 featured dominant offensive performances, highlighted by Bayern Munich's devastating 6-1 away victory over Atalanta, virtually ensuring their progression to the quarter-finals. In other major fixtures on the day, Atlético Madrid dispatched Tottenham Hotspur 5-2, Galatasaray secured a narrow 1-0 win against Liverpool, and Newcastle United battled Barcelona to a 1-1 draw in the first leg of the knockout stage.
-    details:
-      what_happened:
-        - "Bayern Munich defeated Atalanta 6-1 in their away leg of the Champions League Round of 16."
-        - "Atlético Madrid secured a 5-2 victory over Tottenham Hotspur."
-        - "Galatasaray beat Liverpool 1-0, and Newcastle United drew 1-1 with Barcelona."
-      why_it_matters:
-        - "The heavily lopsided results for Bayern Munich and Atlético Madrid effectively decide their ties ahead of the second leg, demonstrating significant tactical superiority."
-      uncertainty_notes:
-    actors:
-      primary:
-      secondary:
-    entities:
-      people:
-      organizations: ["UEFA"]
-      states:
-    geography:
-      countries:
-      places:
-      coordinates:
-    time:
-      date: "2026-03-10"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-      tags:
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-023"
-          outlet: "UEFA"
-          url: "https://www.uefa.com/uefachampionsleague/fixtures-results/"
-          publication_date: "2026-03-10"
-          source_type: "Official sports report"
-          reliability_tier: "High"
-          supports:
-          contradicts:
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-    notes: ""
-
-  - id: "evt-2026-03-10-014"
-    category: "Health"
-    subcategory: "Food security"
-    topics: ["Famine", "Global Hunger Index", "Conflict zones"]
-    importance: null
-    headline: "Global Hunger Index launch warns of stalling progress and escalating conflict-driven food crises"
-    summary: >
-      The launch of the 2025 Global Hunger Index by the African Union and international NGOs revealed that global progress in eradicating hunger has stagnated since 2016, pushing the 2030 "Zero Hunger" target out of reach. The report highlights that 56 countries will fail to achieve low hunger levels by the end of the decade, identifying armed conflict and violence as the primary drivers behind 20 acute food crises affecting nearly 140 million people globally over the past year.
-    details:
-      what_happened:
-        - "The 20th edition of the Global Hunger Index was officially launched and presented to international policymakers, including the African Union."
-        - "The report found that global hunger reduction has stalled since 2016, with 56 countries off-track to reach low hunger by 2030."
-        - "Armed violence was identified as fueling 20 distinct food crises affecting 140 million people."
-      why_it_matters:
-        - "The data serves as a stark warning to the international community that technological and agricultural interventions are failing without corresponding geopolitical conflict resolution."
-      uncertainty_notes:
-    actors:
-      primary:
-      secondary: ["African Union"]
-    entities:
-      people:
-      organizations: ["Institute for International Law of Peace and Armed Conflict"]
-      states:
-    geography:
-      countries:
-      places:
-      coordinates:
-    time:
-      date: "2026-03-10"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-      tags: ["Global Hunger Index", "Food security", "Famine"]
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-024"
-          outlet: "Global Hunger Index"
-          url: "https://www.globalhungerindex.org/pdf/en/2025.pdf"
-          publication_date: "2026-03-10"
-          source_type: "NGO report"
-          reliability_tier: "High"
-          supports: ["56 countries off track", "Progress stalled since 2016"]
-          contradicts:
-          quoted_material_used: false
-        - id: "src-025"
-          outlet: "Global Hunger Index"
-          url: "https://www.globalhungerindex.org/"
-          publication_date: "2026-03-10"
-          source_type: "NGO report"
-          reliability_tier: "High"
-          supports: ["Armed violence fueled 20 food crises", "140 million people affected"]
-          contradicts:
-          quoted_material_used: false
-        - id: "src-026"
-          outlet: "African Union"
-          url: "https://au.int/en/happening/events"
-          publication_date: "2026-03-10"
-          source_type: "Official release"
-          reliability_tier: "High"
-          supports: ["March 10 launch event date with AU"]
-          contradicts:
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
+    related_events: ["evt-2026-03-10-001", "evt-2026-03-10-002"]
     notes: ""
