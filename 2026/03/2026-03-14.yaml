@@ -120,6 +120,7 @@ events:
       actor_identification: "low"
     related_events:
       - evt-2026-03-14-002
+      - evt-2026-03-14-012
     notes: ""
 
   - id: "evt-2026-03-14-002"
@@ -226,6 +227,7 @@ events:
       actor_identification: "low"
     related_events:
       - evt-2026-03-14-001
+      - evt-2026-03-14-012
     notes: ""
 
   - id: "evt-2026-03-14-003"
@@ -932,7 +934,7 @@ events:
       actor_identification: "high"
     related_events:
       - evt-2026-03-13-007
-    notes: ""
+    notes: "This event expands on the March 13 curfew announcement with province-level scope and operational detail."
 
   - id: "evt-2026-03-14-010"
     category: "Society and civil unrest"
@@ -1242,7 +1244,7 @@ events:
     related_events:
       - evt-2026-03-14-001
       - evt-2026-03-14-002
-    notes: ""
+    notes: "The disruption followed the strikes recorded earlier the same day in Isfahan, Fujairah and Kuwait."
 
   - id: "evt-2026-03-14-013"
     category: "Politics and elections"
@@ -1398,7 +1400,7 @@ events:
       external:
         - id: "src-001"
           outlet: "Six Nations Rugby Official"
-          url: null
+          url: https://www.sixnationsrugby.com/en/m6n/fixtures/202600/france-v-england-14032026-2110
           publication_date: "2026-03-14"
           source_type: "official_release"
           reliability_tier: "high"

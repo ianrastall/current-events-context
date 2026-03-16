@@ -22,7 +22,7 @@ editorial_policy:
 events:
   - id: "evt-2026-03-11-001"
     category: "Armed conflicts and attacks"
-    subcategory: "Maritime and infrastructure attacks"
+    subcategory: "Cross-border attack"
     topics:
       - "Middle East war"
       - "Shipping disruption"
@@ -89,9 +89,9 @@ events:
         - "infrastructure_attack"
         - "geopolitical_conflict"
       tags:
-        - "Strait of Hormuz"
-        - "Gulf shipping"
-        - "Oil markets"
+        - strait-of-hormuz
+        - gulf-shipping
+        - oil-markets
     sources:
       wikipedia_portal:
         included: false
@@ -101,7 +101,7 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Attack on Basra port killed at least one person and halted Iraq oil terminal operations."
@@ -113,7 +113,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/middle-east/sea-drones-target-oil-tankers-middle-east-conflict-risks-widen-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Naval drones were used in attacks on oil tankers in the Gulf region."
@@ -124,7 +124,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/business/energy/iran-has-laid-about-dozen-mines-strait-hormuz-sources-say-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Iran deployed about a dozen mines in the Strait of Hormuz."
@@ -135,7 +135,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/middle-east/oil-storage-facilities-hit-omans-salalah-port-ambrey-state-tv-say-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Drones struck fuel tanks at Port of Salalah."
@@ -146,7 +146,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/business/energy/maersk-redistributing-ship-fuel-ensure-supplies-iran-war-disrupts-supply-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Maersk said ships were stranded in the Gulf and fuel flows were disrupted."
@@ -168,7 +168,7 @@ events:
 
   - id: "evt-2026-03-11-002"
     category: "International relations"
-    subcategory: "United Nations Security Council resolution"
+    subcategory: "United Nations"
     topics:
       - "United Nations"
       - "Middle East diplomacy"
@@ -243,9 +243,9 @@ events:
         - "resolution"
         - "diplomatic_action"
       tags:
-        - "UNSC"
-        - "Resolution 2817"
-        - "Gulf crisis"
+        - unsc
+        - resolution-2817
+        - gulf-crisis
     sources:
       wikipedia_portal:
         included: false
@@ -266,7 +266,7 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "The Security Council voted 13-0 with Russia and China abstaining."
@@ -288,7 +288,7 @@ events:
 
   - id: "evt-2026-03-11-003"
     category: "Business and economy"
-    subcategory: "Energy markets"
+    subcategory: "Energy"
     topics:
       - "Oil reserves"
       - "Strategic stockpiles"
@@ -339,9 +339,9 @@ events:
         - "economic_intervention"
         - "strategic_reserve_release"
       tags:
-        - "IEA"
-        - "Oil reserves"
-        - "Energy shock"
+        - iea
+        - oil-reserves
+        - energy-shock
     sources:
       wikipedia_portal:
         included: false
@@ -351,7 +351,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/business/energy/iea-proposes-largest-ever-oil-release-strategic-reserves-wsj-reports-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "IEA announced a record coordinated emergency release of 400 million barrels."
@@ -373,7 +373,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/business/energy/iea-recommend-release-strategic-oil-stocks-iran-war-sources-say-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "IEA discussions on March 11 centered on a major emergency release from strategic reserves."
@@ -391,11 +391,13 @@ events:
     related_events:
       - "evt-2026-03-11-001"
       - "evt-2026-03-11-002"
-    notes: ""
+      - evt-2026-03-10-012
+      - evt-2026-03-13-012
+    notes: "The release followed the March 10 G7-EU consultations and preceded national reserve actions such as Australia's March 13 drawdown."
 
   - id: "evt-2026-03-11-004"
     category: "Business and economy"
-    subcategory: "Trade policy"
+    subcategory: "International trade"
     topics:
       - "Tariffs"
       - "Manufacturing"
@@ -466,9 +468,9 @@ events:
         - "trade_action"
         - "policy_announcement"
       tags:
-        - "Section 301"
-        - "Tariffs"
-        - "Industrial policy"
+        - section-301
+        - tariffs
+        - industrial-policy
     sources:
       wikipedia_portal:
         included: false
@@ -489,7 +491,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/china/us-opens-new-unfair-trade-probes-rebuild-trumps-tariff-pressure-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "The investigations rebuilt tariff pressure after the administration's prior program was partially struck down."
@@ -504,12 +506,14 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
-    notes: ""
+    related_events:
+      - evt-2026-03-12-007
+      - evt-2026-03-13-009
+    notes: "The March 11 USTR action was followed by a broader March 12 filing and China's public response on March 13."
 
   - id: "evt-2026-03-11-005"
     category: "Politics and elections"
-    subcategory: "Executive transition"
+    subcategory: "Government formation"
     topics:
       - "Chile"
       - "Presidential inauguration"
@@ -567,9 +571,9 @@ events:
         - "political_inauguration"
         - "power_transition"
       tags:
-        - "Chile"
-        - "Kast"
-        - "Inauguration"
+        - chile
+        - kast
+        - inauguration
     sources:
       wikipedia_portal:
         included: false
@@ -579,7 +583,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/americas/chiles-kast-take-office-biggest-right-wing-shift-decades-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Kast was sworn in on March 11 in Chile's sharpest shift to the right in decades."
@@ -590,7 +594,7 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/00d398c96e0ff25378838dc8831dcbe8"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Kast was sworn in in Valparaíso as Chile's new president."
@@ -610,7 +614,7 @@ events:
 
   - id: "evt-2026-03-11-006"
     category: "Armed conflicts and attacks"
-    subcategory: "Civilian casualties"
+    subcategory: "Drone strikes"
     topics:
       - "Sudan war"
       - "Drone warfare"
@@ -667,9 +671,9 @@ events:
         - "drone_strike"
         - "civilian_attack"
       tags:
-        - "Sudan"
-        - "White Nile"
-        - "School strike"
+        - sudan
+        - white-nile
+        - school-strike
     sources:
       wikipedia_portal:
         included: false
@@ -701,7 +705,7 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/e1e102861f0d4cc193a51669f297c670"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Local medical sources said at least 17 people were killed, mostly schoolgirls."
@@ -721,7 +725,7 @@ events:
 
   - id: "evt-2026-03-11-007"
     category: "Armed conflicts and attacks"
-    subcategory: "Civilian casualties"
+    subcategory: "Drone strikes"
     topics:
       - "DRC conflict"
       - "Drone strikes"
@@ -779,9 +783,9 @@ events:
         - "drone_strike"
         - "civilian_attack"
       tags:
-        - "Goma"
-        - "DRC"
-        - "Aid worker"
+        - goma
+        - drc
+        - aid-worker
     sources:
       wikipedia_portal:
         included: false
@@ -791,7 +795,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/africa/drones-hit-east-congos-biggest-city-killing-french-aid-worker-rebels-un-say-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Drone strikes hit Goma and killed at least three people including a French UNICEF worker."
@@ -802,7 +806,7 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/606b7feba8685436d1f757de65d4efce"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "A drone strike in Goma killed a French aid worker and other victims in a building used by relief staff."
@@ -822,7 +826,7 @@ events:
 
   - id: "evt-2026-03-11-008"
     category: "Armed conflicts and attacks"
-    subcategory: "Cross-border strikes"
+    subcategory: "Cross-border attack"
     topics:
       - "Russia-Ukraine war"
       - "Drone strikes"
@@ -884,9 +888,9 @@ events:
         - "drone_strike"
         - "cross_border_attack"
       tags:
-        - "Kharkiv"
-        - "Bryansk"
-        - "Storm Shadow"
+        - kharkiv
+        - bryansk
+        - storm-shadow
     sources:
       wikipedia_portal:
         included: false
@@ -896,7 +900,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/europe/russian-drone-strike-ukraines-kharkiv-kills-two-officials-say-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "A Russian drone strike in Kharkiv killed two people and injured five."
@@ -907,7 +911,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/europe/kremlin-says-britain-was-involved-ukraines-missile-strike-russia-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "The Kremlin accused Britain of involvement in the Bryansk strike."
@@ -918,7 +922,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/russia-accuses-ukraine-britain-terrorist-attack-border-city-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Russia said the Bryansk death toll had risen to seven and injuries to 42."
@@ -938,7 +942,7 @@ events:
 
   - id: "evt-2026-03-11-009"
     category: "Disasters and accidents"
-    subcategory: "Aviation safety investigation"
+    subcategory: "Aviation accident"
     topics:
       - "Air crash inquiry"
       - "Airport safety"
@@ -997,9 +1001,9 @@ events:
         - "investigation_report"
         - "aviation_safety"
       tags:
-        - "Jeju Air"
-        - "Muan"
-        - "Audit"
+        - jeju-air
+        - muan
+        - audit
     sources:
       wikipedia_portal:
         included: false
@@ -1009,7 +1013,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/asia-pacific/south-korea-auditor-finds-cost-cutting-faulty-approvals-jeju-air-crash-site-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "The transport ministry cut construction costs and approved improper safety structures for more than two decades."
@@ -1020,7 +1024,7 @@ events:
           outlet: "KBS World"
           url: "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=199975&lang=e"
           publication_date: "2026-03-10"
-          source_type: "news_report"
+          source_type: "major_news_outlet"
           reliability_tier: "high"
           supports:
             - "The Board of Audit and Inspection found localizers at eight airports were installed against safety rules."
@@ -1040,7 +1044,7 @@ events:
 
   - id: "evt-2026-03-11-010"
     category: "Law and crime"
-    subcategory: "Environmental crime"
+    subcategory: "Organized crime"
     topics:
       - "Waste trafficking"
       - "Pollution crime"
@@ -1093,9 +1097,9 @@ events:
         - "law_enforcement_operation"
         - "arrest"
       tags:
-        - "Europol"
-        - "Waste trafficking"
-        - "Environmental crime"
+        - europol
+        - waste-trafficking
+        - environmental-crime
     sources:
       wikipedia_portal:
         included: false
@@ -1127,7 +1131,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/more-than-330-arrested-europol-led-operation-against-illicit-waste-trade-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "More than 330 people were arrested in a crackdown on illicit waste trafficking."
@@ -1147,7 +1151,7 @@ events:
 
   - id: "evt-2026-03-11-011"
     category: "International relations"
-    subcategory: "Diplomatic dispute"
+    subcategory: "Diplomacy"
     topics:
       - "Spain"
       - "Israel"
@@ -1202,9 +1206,9 @@ events:
       event_type:
         - "diplomatic_action"
       tags:
-        - "Spain"
-        - "Israel"
-        - "Ambassador"
+        - spain
+        - israel
+        - ambassador
     sources:
       wikipedia_portal:
         included: false
@@ -1214,7 +1218,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/middle-east/spain-removes-ambassador-israel-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Spain permanently withdrew its ambassador and said the embassy would be led by a chargé d'affaires."
@@ -1225,7 +1229,7 @@ events:
           outlet: "Al Jazeera"
           url: "https://www.aljazeera.com/news/2026/3/11/spain-removes-ambassador-from-israel-as-opposes-war-on-iran-gaza-genocide"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "major_news_outlet"
           reliability_tier: "high"
           supports:
             - "Spain removed its ambassador from Israel as tensions rose over the war with Iran and Gaza."
@@ -1245,7 +1249,7 @@ events:
 
   - id: "evt-2026-03-11-012"
     category: "Law and crime"
-    subcategory: "Terrorism investigation"
+    subcategory: "Terrorism"
     topics:
       - "Embassy security"
       - "Bombing investigation"
@@ -1300,9 +1304,9 @@ events:
         - "arrest"
         - "terrorism_investigation"
       tags:
-        - "Oslo"
-        - "U.S. Embassy"
-        - "IED"
+        - oslo
+        - u-s-embassy
+        - ied
     sources:
       wikipedia_portal:
         included: false
@@ -1312,7 +1316,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/norway-police-apprehend-three-suspects-us-embassy-bombing-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Three brothers were apprehended on suspicion of carrying out the embassy bombing."
@@ -1323,7 +1327,7 @@ events:
           outlet: "The Guardian"
           url: "https://www.theguardian.com/world/2026/mar/11/three-norwegian-brothers-arrested-us-embassy-blast-oslo"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "major_news_outlet"
           reliability_tier: "high"
           supports:
             - "Police said the suspects were Norwegian brothers in their 20s and were investigating motive."
@@ -1343,7 +1347,7 @@ events:
 
   - id: "evt-2026-03-11-013"
     category: "Politics and elections"
-    subcategory: "Electoral institutions"
+    subcategory: "Election"
     topics:
       - "Guatemala"
       - "Judicial overhaul"
@@ -1400,9 +1404,9 @@ events:
         - "institutional_appointment"
         - "election_governance"
       tags:
-        - "Guatemala"
-        - "TSE"
-        - "Judicial overhaul"
+        - guatemala
+        - tse
+        - judicial-overhaul
     sources:
       wikipedia_portal:
         included: false
@@ -1412,7 +1416,7 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/americas/guatemala-appoints-new-election-tribunal-amid-corruption-fears-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "news_report"
+          source_type: "news_agency"
           reliability_tier: "high"
           supports:
             - "Congress appointed new Supreme Electoral Tribunal magistrates for 2026-2032."

@@ -22,7 +22,7 @@ editorial_policy:
 events:
   - id: "evt-2026-03-10-001"
     category: "Armed conflicts and attacks"
-    subcategory: "International conflict"
+    subcategory: "Cross-border attack"
     topics: ["Airstrikes", "Maritime security", "Energy infrastructure"]
     importance: null
     headline: "U.S.-Israeli war on Iran widens with strikes on naval assets and a drone hit on a major UAE industrial site"
@@ -62,7 +62,11 @@ events:
       damage: "Fire damage at the Ruwais Industrial Complex and destruction of Iranian naval assets reported by the United States."
     classification:
       event_type: ["Military operation", "Airstrike", "Maritime security incident"]
-      tags: ["Iran war", "Strait of Hormuz", "Ruwais", "Gulf escalation"]
+      tags:
+        - iran-war
+        - strait-of-hormuz
+        - ruwais
+        - gulf-escalation
     sources:
       wikipedia_portal:
         included: false
@@ -72,8 +76,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/us-military-striking-iranian-mine-laying-vessels-top-us-general-says-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["U.S. destruction of 16 Iranian mine-laying vessels", "Most intensive day of U.S. strikes so far", "Conflict disrupting oil flow through the Strait of Hormuz"]
           contradicts: []
           quoted_material_used: false
@@ -81,8 +85,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/europe/israel-not-seeking-endless-war-with-iran-foreign-minister-says-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Israeli position that the war would continue until Israel and the U.S. decided to stop", "Israeli war aims remained open-ended on March 10"]
           contradicts: []
           quoted_material_used: false
@@ -90,8 +94,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Drone strike caused fire at Ruwais Industrial Complex", "ADNOC operations are located at the site", "No injuries were initially reported"]
           contradicts: []
           quoted_material_used: false
@@ -99,8 +103,8 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/acf2af139d179fbef62927a8bf9bea55"
           publication_date: "2026-03-10"
-          source_type: "News wire"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["U.S. said it destroyed 16 mine-laying vessels", "Iran threatened Gulf oil exports", "Regional spillover included attacks in Gulf states and Lebanon"]
           contradicts: []
           quoted_material_used: false
@@ -117,7 +121,7 @@ events:
 
   - id: "evt-2026-03-10-002"
     category: "Business and economy"
-    subcategory: "Energy and transport disruption"
+    subcategory: "Energy"
     topics: ["Oil refining", "Airlines", "Fuel prices"]
     importance: null
     headline: "Iran war disrupts Gulf refining and pushes airlines to raise fares and fuel surcharges"
@@ -157,7 +161,11 @@ events:
       damage: "Refining shutdowns, higher airline operating costs, and widespread transport disruption."
     classification:
       event_type: ["Economic disruption", "Energy shock", "Transport disruption"]
-      tags: ["oil prices", "airfares", "jet fuel", "Gulf refineries"]
+      tags:
+        - oil-prices
+        - airfares
+        - jet-fuel
+        - gulf-refineries
     sources:
       wikipedia_portal:
         included: false
@@ -167,8 +175,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/business/energy/around-19-million-bpd-oil-refining-capacity-shut-due-iran-war-gulf-iir-says-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Estimate of roughly 1.9 million bpd of Gulf refining capacity shut", "Refinery impacts across multiple Gulf states"]
           contradicts: []
           quoted_material_used: false
@@ -176,8 +184,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/middle-east/airlines-begin-hike-fares-due-higher-fuel-prices-shares-stabilise-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Airlines in Asia and Europe raised fares or added fuel surcharges", "Jet fuel prices surged and routes were disrupted"]
           contradicts: []
           quoted_material_used: false
@@ -185,8 +193,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/asia-pacific/qantas-hikes-fares-international-routes-fuel-costs-surge-mideast-conflict-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Qantas fare increases", "Air New Zealand also raised prices", "Conflict-driven fuel costs affected long-haul traffic"]
           contradicts: []
           quoted_material_used: false
@@ -203,7 +211,7 @@ events:
 
   - id: "evt-2026-03-10-003"
     category: "Law and crime"
-    subcategory: "War crimes investigation"
+    subcategory: "International criminal justice"
     topics: ["Ukraine war", "Crimes against humanity", "Children"]
     importance: null
     headline: "U.N. inquiry says Russia's deportation and transfer of Ukrainian children amount to crimes against humanity"
@@ -221,8 +229,12 @@ events:
       uncertainty_notes:
         - "Russia rejected the allegations and said children had been moved voluntarily for safety."
     actors:
-      primary: ["Independent International Commission of Inquiry on Ukraine", "Russia"]
-      secondary: ["Ukraine", "United Nations Human Rights Council"]
+      primary:
+        - Russia
+      secondary:
+        - Independent International Commission of Inquiry on Ukraine
+        - Ukraine
+        - United Nations Human Rights Council
     entities:
       people: []
       organizations: ["Independent International Commission of Inquiry on Ukraine", "United Nations Human Rights Council", "International Criminal Court"]
@@ -243,7 +255,11 @@ events:
       damage: "Long-term harm to children through deportation, transfer, and disappearance documented by the inquiry."
     classification:
       event_type: ["UN finding", "War crimes investigation", "Human rights report"]
-      tags: ["Ukraine", "Russia", "children", "crimes against humanity"]
+      tags:
+        - ukraine
+        - russia
+        - children
+        - crimes-against-humanity
     sources:
       wikipedia_portal:
         included: false
@@ -253,8 +269,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/europe/russias-deportations-ukrainian-children-amount-crimes-against-humanity-un-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["U.N. finding of crimes against humanity", "Use of more than 200 interviews and thousands of documents", "Russia denied wrongdoing"]
           contradicts: []
           quoted_material_used: false
@@ -262,8 +278,8 @@ events:
           outlet: "OHCHR"
           url: "https://www.ohchr.org/en/press-releases/2026/03/un-commission-concludes-deportation-and-forcible-transfer-ukrainian-children"
           publication_date: "2026-03-10"
-          source_type: "Official release"
-          reliability_tier: "High"
+          source_type: "official_release"
+          reliability_tier: "high"
           supports: ["Commission concluded deportation and forcible transfer of children constituted crimes against humanity", "Enforced disappearance also cited"]
           contradicts: []
           quoted_material_used: false
@@ -280,7 +296,7 @@ events:
 
   - id: "evt-2026-03-10-004"
     category: "Politics and elections"
-    subcategory: "Parliamentary reform"
+    subcategory: "Legislation"
     topics: ["United Kingdom", "House of Lords", "Constitutional reform"]
     importance: null
     headline: "Britain's parliament approves legislation to remove hereditary peers from the House of Lords"
@@ -318,7 +334,10 @@ events:
       damage: null
     classification:
       event_type: ["Legislative vote", "Constitutional reform"]
-      tags: ["House of Lords", "hereditary peers", "UK politics"]
+      tags:
+        - house-of-lords
+        - hereditary-peers
+        - uk-politics
     sources:
       wikipedia_portal:
         included: false
@@ -328,8 +347,8 @@ events:
           outlet: "UK Government"
           url: "https://www.gov.uk/government/news/hereditary-peers-bill-passes-in-house-of-lords-paving-the-way-for-further-reform"
           publication_date: "2026-03-10"
-          source_type: "Official release"
-          reliability_tier: "High"
+          source_type: "official_release"
+          reliability_tier: "high"
           supports: ["Bill passed in the House of Lords", "Government described it as a major reform", "Removal of hereditary peers from the Lords"]
           contradicts: []
           quoted_material_used: false
@@ -337,8 +356,8 @@ events:
           outlet: "Parliament of the United Kingdom"
           url: "https://www.parliament.uk/business/news/2026/march-2026/hereditary-peers-bill-ping-pong/"
           publication_date: "2026-03-11"
-          source_type: "Official parliamentary record"
-          reliability_tier: "High"
+          source_type: "official_release"
+          reliability_tier: "high"
           supports: ["Final stage occurred on Tuesday 10 March", "Bill completed its final stage in the Lords"]
           contradicts: []
           quoted_material_used: false
@@ -346,8 +365,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/uk/uk-ends-centuries-old-hereditary-seats-parliament-upper-chamber-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Remaining hereditary peers removed by legislation", "Measure fulfilled a Labour reform pledge", "Historical significance of the reform"]
           contradicts: []
           quoted_material_used: false
@@ -364,7 +383,7 @@ events:
 
   - id: "evt-2026-03-10-005"
     category: "Politics and elections"
-    subcategory: "Constitutional crisis"
+    subcategory: null
     topics: ["Kosovo", "Snap elections", "Court ruling"]
     importance: null
     headline: "Kosovo court blocks the president from setting a snap election date"
@@ -403,7 +422,10 @@ events:
       damage: null
     classification:
       event_type: ["Court ruling", "Election crisis"]
-      tags: ["Kosovo", "constitutional court", "snap election"]
+      tags:
+        - kosovo
+        - constitutional-court
+        - snap-election
     sources:
       wikipedia_portal:
         included: false
@@ -413,8 +435,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/court-bars-kosovo-president-announcing-snap-election-date-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Court barred the president from setting a date for snap elections until March 31", "Court also froze parliament's effort to elect a president", "Kurti challenged the dissolution"]
           contradicts: []
           quoted_material_used: false
@@ -426,12 +448,13 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
-    notes: ""
+    related_events:
+      - evt-2026-03-09-009
+    notes: "This March 10 follow-up clarified that the injunction also blocked the president from announcing a snap election date."
 
   - id: "evt-2026-03-10-006"
     category: "Armed conflicts and attacks"
-    subcategory: "Civil war"
+    subcategory: "Drone strikes"
     topics: ["Sudan", "Drone warfare", "Civilian deaths"]
     importance: null
     headline: "Drone strike on a truck carrying mourners kills 40 in Sudan's West Kordofan"
@@ -470,7 +493,10 @@ events:
       damage: "Destruction of a civilian transport vehicle."
     classification:
       event_type: ["Drone strike", "Mass casualty incident"]
-      tags: ["Sudan", "West Kordofan", "funeral mourners"]
+      tags:
+        - sudan
+        - west-kordofan
+        - funeral-mourners
     sources:
       wikipedia_portal:
         included: false
@@ -480,8 +506,8 @@ events:
           outlet: "Nampa / AFP"
           url: "https://www.nampa.org/text/22884913"
           publication_date: "2026-03-11"
-          source_type: "News agency report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["40 people killed", "Truck carrying mourners to a funeral", "Road between Abu Zabad and El-Fula", "Most victims were women"]
           contradicts: []
           quoted_material_used: false
@@ -489,8 +515,8 @@ events:
           outlet: "TRT Afrika"
           url: "https://www.trtafrika.com/english/article/0018867661dd"
           publication_date: "2026-03-12"
-          source_type: "News report"
-          reliability_tier: "Medium"
+          source_type: "state_affiliated"
+          reliability_tier: "medium"
           supports: ["At least 40 people died in the mourners' truck strike in West Kordofan", "The incident formed part of a wider run of drone attacks in Sudan"]
           contradicts: []
           quoted_material_used: false
@@ -507,7 +533,7 @@ events:
 
   - id: "evt-2026-03-10-007"
     category: "Disasters and accidents"
-    subcategory: "Fire"
+    subcategory: null
     topics: ["Public transport", "Switzerland", "Mass casualty fire"]
     importance: null
     headline: "Bus fire in Kerzers, Switzerland, kills six people"
@@ -547,7 +573,10 @@ events:
       damage: "The PostBus was destroyed by fire."
     classification:
       event_type: ["Transport fire", "Mass casualty incident", "Criminal investigation"]
-      tags: ["Switzerland", "Kerzers", "bus fire"]
+      tags:
+        - switzerland
+        - kerzers
+        - bus-fire
     sources:
       wikipedia_portal:
         included: false
@@ -557,8 +586,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/least-six-people-die-coach-fire-switzerland-local-police-say-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Six deaths", "Possible deliberate act by a passenger", "No initial terrorism indication", "Criminal investigation"]
           contradicts: []
           quoted_material_used: false
@@ -566,8 +595,8 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/9bb42b64495d16ffb11f3298f5b354dd"
           publication_date: "2026-03-11"
-          source_type: "News wire"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Five injuries", "Suspect believed among the dead", "Authorities cited psychological issues rather than a terror motive"]
           contradicts: []
           quoted_material_used: false
@@ -584,7 +613,7 @@ events:
 
   - id: "evt-2026-03-10-008"
     category: "Business and economy"
-    subcategory: "Trade"
+    subcategory: "International trade"
     topics: ["China", "Exports", "Trade surplus"]
     importance: null
     headline: "China's January-February exports surge far above forecasts"
@@ -624,7 +653,10 @@ events:
       damage: null
     classification:
       event_type: ["Economic data release", "Trade report"]
-      tags: ["China exports", "trade surplus", "customs data"]
+      tags:
+        - china-exports
+        - trade-surplus
+        - customs-data
     sources:
       wikipedia_portal:
         included: false
@@ -634,8 +666,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/asia-pacific/chinas-exports-turbocharge-into-2026-after-record-breaking-year-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Exports surged about 22%", "Trade surplus reached $213.6 billion", "Electronics demand drove growth"]
           contradicts: []
           quoted_material_used: false
@@ -643,8 +675,8 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/b25cf7991025e8efd49afc8b17a1295f"
           publication_date: "2026-03-10"
-          source_type: "News wire"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Semiconductors, autos, and electronics led export growth", "Exports to the U.S. fell while other markets grew"]
           contradicts: []
           quoted_material_used: false
@@ -661,7 +693,7 @@ events:
 
   - id: "evt-2026-03-10-009"
     category: "Law and crime"
-    subcategory: "Human rights"
+    subcategory: "International criminal justice"
     topics: ["El Salvador", "State of emergency", "Crimes against humanity"]
     importance: null
     headline: "International jurists accuse El Salvador of likely crimes against humanity under the state of emergency"
@@ -678,8 +710,11 @@ events:
       uncertainty_notes:
         - "The allegations were presented in a filing and had not been adjudicated by the commission on March 10."
     actors:
-      primary: ["International jurists", "Government of El Salvador"]
-      secondary: ["Inter-American Commission on Human Rights"]
+      primary:
+        - International Commission of Jurists
+      secondary:
+        - Government of El Salvador
+        - Inter-American Commission on Human Rights
     entities:
       people: ["Nayib Bukele"]
       organizations: ["Inter-American Commission on Human Rights", "International Commission of Jurists"]
@@ -700,7 +735,10 @@ events:
       damage: null
     classification:
       event_type: ["Human rights filing", "Legal complaint"]
-      tags: ["El Salvador", "state of emergency", "human rights"]
+      tags:
+        - el-salvador
+        - state-of-emergency
+        - human-rights
     sources:
       wikipedia_portal:
         included: false
@@ -710,17 +748,17 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/americas/el-salvador-likely-committed-crimes-against-humanity-during-state-emergency-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Jurists filed a report with the Inter-American Commission on Human Rights", "Report alleged torture, murder, and forced disappearances", "Claims related to the prolonged state of emergency"]
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
           outlet: "International Commission of Jurists"
           url: "https://www.icj.org/el-salvador-crimes-against-humanity-within-the-framework-of-public-security-policy/"
-          publication_date: null
-          source_type: "Official release"
-          reliability_tier: "High"
+          publication_date: '2026-03-11'
+          source_type: "NGO_report"
+          reliability_tier: "medium"
           supports: ["Reasonable grounds to conclude crimes against humanity were being committed", "Abuses were presented as systematic and policy-linked"]
           contradicts: []
           quoted_material_used: false
@@ -737,7 +775,7 @@ events:
 
   - id: "evt-2026-03-10-010"
     category: "Sports"
-    subcategory: "Baseball"
+    subcategory: null
     topics: ["World Baseball Classic", "Upset", "Pool B"]
     importance: null
     headline: "Italy shocks the United States 8-6 in the World Baseball Classic"
@@ -776,7 +814,11 @@ events:
       damage: null
     classification:
       event_type: ["Sports result", "Tournament upset"]
-      tags: ["World Baseball Classic", "Italy", "United States", "baseball"]
+      tags:
+        - world-baseball-classic
+        - italy
+        - united-states
+        - baseball
     sources:
       wikipedia_portal:
         included: false
@@ -786,8 +828,8 @@ events:
           outlet: "Olympics.com"
           url: "https://www.olympics.com/en/news/2026-world-baseball-classic-italy-stun-united-states"
           publication_date: "2026-03-10"
-          source_type: "Official sports report"
-          reliability_tier: "High"
+          source_type: "official_release"
+          reliability_tier: "high"
           supports: ["Italy beat the United States 8-6", "Italy stayed undefeated in Pool B", "Upset significance of the result"]
           contradicts: []
           quoted_material_used: false
@@ -795,8 +837,8 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/wbc-united-states-quarterfinals-derosa-2c51274b1dbe46d091d0a80f237aa542"
           publication_date: "2026-03-11"
-          source_type: "News wire"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["United States needed help to advance after the loss", "Game changed Pool B quarterfinal scenarios"]
           contradicts: []
           quoted_material_used: false
@@ -804,8 +846,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/sports/usa-stunned-by-italy-needs-help-reach-wbc-quarterfinals--flm-2026-03-11/"
           publication_date: "2026-03-11"
-          source_type: "Sports report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Italy led 8-0 and won 8-6", "Italy moved to 3-0", "The U.S. was left relying on tiebreakers or other results"]
           contradicts: []
           quoted_material_used: false
@@ -822,7 +864,7 @@ events:
 
   - id: "evt-2026-03-10-011"
     category: "Culture and media"
-    subcategory: "Art acquisition"
+    subcategory: "Arts"
     topics: ["Italy", "Caravaggio", "Museum collection"]
     importance: null
     headline: "Italy acquires a rare Caravaggio portrait for the Palazzo Barberini"
@@ -860,7 +902,11 @@ events:
       damage: null
     classification:
       event_type: ["State acquisition", "Museum announcement"]
-      tags: ["Caravaggio", "art", "Italy", "Palazzo Barberini"]
+      tags:
+        - caravaggio
+        - art
+        - italy
+        - palazzo-barberini
     sources:
       wikipedia_portal:
         included: false
@@ -870,8 +916,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/lifestyle/italy-buys-rare-caravaggio-portrait-after-yearlong-talks-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Italy paid 30 million euros", "Portrait depicts Maffeo Barberini", "Painting will join Palazzo Barberini"]
           contradicts: []
           quoted_material_used: false
@@ -879,8 +925,8 @@ events:
           outlet: "Associated Press"
           url: "https://apnews.com/article/52d739100b450709b88c7e74f761de22"
           publication_date: "2026-03-10"
-          source_type: "News wire"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Acquisition ranked among Italy's largest payouts for a single artwork", "Painting came from a private collection", "Public-access significance of the purchase"]
           contradicts: []
           quoted_material_used: false
@@ -897,7 +943,7 @@ events:
 
   - id: "evt-2026-03-10-012"
     category: "International relations"
-    subcategory: "Energy diplomacy"
+    subcategory: "Regional coordination"
     topics: ["G7", "Strategic reserves", "Iran crisis"]
     importance: null
     headline: "G7 energy ministers stop short of an emergency oil release as leaders prepare a crisis call"
@@ -936,7 +982,11 @@ events:
       damage: null
     classification:
       event_type: ["Emergency meeting", "Diplomatic coordination", "Energy policy response"]
-      tags: ["G7", "IEA", "oil reserves", "energy crisis"]
+      tags:
+        - g7
+        - iea
+        - oil-reserves
+        - energy-crisis
     sources:
       wikipedia_portal:
         included: false
@@ -946,8 +996,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/business/energy/g7-eu-hold-calls-soaring-energy-prices-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["G7 energy ministers stopped short of a reserve release", "IEA was asked to study options", "Talks centered on soaring energy prices"]
           contradicts: []
           quoted_material_used: false
@@ -955,8 +1005,8 @@ events:
           outlet: "Reuters"
           url: "https://www.reuters.com/world/macron-host-g7-leaders-call-iran-crisis-energy-prices-2026-03-10/"
           publication_date: "2026-03-10"
-          source_type: "News report"
-          reliability_tier: "High"
+          source_type: "news_agency"
+          reliability_tier: "high"
           supports: ["Macron announced a March 11 G7 leaders' call", "Leaders were to discuss the Iran crisis and energy prices"]
           contradicts: []
           quoted_material_used: false
@@ -968,5 +1018,5 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: ["evt-2026-03-10-001", "evt-2026-03-10-002"]
-    notes: ""
+    related_events: ["evt-2026-03-10-001", "evt-2026-03-10-002", evt-2026-03-11-003]
+    notes: "The next day, IEA member countries approved a record emergency oil release after the March 10 consultations stopped short of an immediate drawdown."
