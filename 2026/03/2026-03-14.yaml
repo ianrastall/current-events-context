@@ -7,7 +7,7 @@ source_page:
 dataset:
   schema_version: "2.1"
   compiler:
-    mode: "assistant_curated_broad_snapshot"
+    mode: "llm_deep_research_broad_snapshot"
     status: "draft"
     reviewed: false
   scope:
@@ -22,43 +22,62 @@ editorial_policy:
 events:
   - id: "evt-2026-03-14-001"
     category: "Armed conflicts and attacks"
-    subcategory: "Military strike"
+    subcategory: null
     topics:
-      - "Iran war"
-      - "Kharg Island"
-    importance: 0.98
-    headline: "U.S. forces strike more than 90 Iranian military targets on Kharg Island"
+      - "Military strikes"
+      - "Asymmetric warfare"
+    importance: null
+    headline: "U.S. forces strike Kharg Island military sites as Iran retaliates across the Middle East"
     summary: >
-      U.S. Central Command said United States forces carried out a large-scale
-      precision strike on Kharg Island in Iran on Friday night, hitting more than
-      90 military targets while preserving oil infrastructure.
+      The U.S. military conducted large-scale precision strikes on over 90 Iranian
+      military targets on Kharg Island, destroying radar and missile storage sites
+      while deliberately sparing crude oil export infrastructure. In retaliation,
+      Iran and aligned militias launched a widespread wave of drones and missiles,
+      damaging five U.S. aerial refueling planes in Saudi Arabia, destroying a
+      drone in Kuwait, striking a U.S. embassy helipad in Baghdad, and targeting
+      financial and energy hubs in the UAE and Bahrain.
     details:
       what_happened:
-        - "CENTCOM said U.S. forces struck more than 90 military targets on Kharg Island."
-        - "The reported targets included naval mine storage facilities and missile storage bunkers."
-        - "The U.S. military said oil infrastructure was not struck."
+        - "U.S. Central Command struck naval mine and missile storage facilities on Kharg Island, aiming to degrade Iran's ability to threaten the Strait of Hormuz."
+        - "An Iranian drone strike penetrated Prince Sultan Air Base in Saudi Arabia, damaging five U.S. aerial refueling tankers."
+        - "A drone impacted a helipad inside the U.S. Embassy compound in Baghdad, prompting urgent evacuation warnings for American citizens."
+        - "Iranian drones targeted Citibank buildings in Dubai and Manama, while intercepted debris caused fires at the Fujairah oil terminal in the UAE."
       why_it_matters:
-        - "Kharg Island handles most of Iran's oil exports and is central to the war's energy dimension."
-      uncertainty_notes: []
+        - "The direct exchange of strikes marks a severe escalation in state-on-state conflict, threatening U.S. military assets and regional stability."
+        - "While oil infrastructure was spared, the geographic spread of Iran's retaliation underscores its capability to strike U.S. allies and commercial interests across the Gulf."
+      uncertainty_notes:
+        - "The exact extent of damage to U.S. assets in Saudi Arabia is disputed, with President Trump claiming 'virtually no damage' to four of the five planes."
     actors:
       primary:
-        - "United States"
+        - "United States Armed Forces"
+        - "Islamic Revolutionary Guard Corps (IRGC)"
       secondary:
-        - "Iran"
-        - "U.S. Central Command"
+        - "Iran-aligned militias"
     entities:
       people:
         - "Donald Trump"
       organizations:
-        - "U.S. Central Command"
+        - "U.S. Central Command (CENTCOM)"
+        - "U.S. State Department"
       states:
         - "United States"
         - "Iran"
+        - "Saudi Arabia"
+        - "Iraq"
+        - "United Arab Emirates"
+        - "Kuwait"
+        - "Bahrain"
     geography:
       countries:
         - "Iran"
+        - "Saudi Arabia"
+        - "Iraq"
+        - "United Arab Emirates"
       places:
         - "Kharg Island"
+        - "Baghdad"
+        - "Prince Sultan Air Base"
+        - "Fujairah"
       coordinates: []
     time:
       date: "2026-03-14"
@@ -69,133 +88,52 @@ events:
       injured: null
       displaced: null
       arrest_count: null
-      damage: "Military sites on Kharg Island reported destroyed; oil infrastructure reported preserved."
+      damage: "Multiple military aircraft damaged; radar and missile storage destroyed"
     classification:
       event_type:
-        - "air strike"
-        - "military escalation"
+        - "Airstrike"
+        - "Military operation"
       tags:
-        - "Middle East"
-        - "energy infrastructure"
+        - "Middle East War"
+        - "US-Iran conflict"
     sources:
       wikipedia_portal:
-        included: false
-        text_fragment: null
+        included: true
+        text_fragment: "Five U.S. warplanes are damaged in an Iranian drone strike on Prince Sultan Air Base"
       external:
         - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/middle-east/us-strikes-more-than-90-iranian-military-targets-kharg-island-centcom-says-2026-03-14/"
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
           publication_date: "2026-03-14"
-          source_type: "wire_service"
+          source_type: "NGO report"
           reliability_tier: "high"
           supports:
-            - "U.S. forces struck more than 90 Iranian military targets on Kharg Island."
-            - "CENTCOM said the strike preserved oil infrastructure."
+            - "U.S. strikes on Kharg Island"
+            - "Damage to radar and missile storage"
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "AP News"
-          url: "https://apnews.com/article/iran-iraq-us-trump-march-14-2026-oil-prices-a2399398b4c590995b814d7640362a11"
+          outlet: "Radio Free Europe/Radio Liberty"
+          url: "https://www.rferl.org/a/iran-israel-usa-war-homuz-strait-attacks-drones-missiles-energy/33706576.html"
           publication_date: "2026-03-14"
-          source_type: "news_agency"
+          source_type: "News report"
           reliability_tier: "high"
           supports:
-            - "The United States struck targets on Kharg Island."
+            - "Drone strike on U.S. Embassy in Baghdad"
+            - "Fujairah oil terminal fire"
           contradicts: []
           quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-002"
-      - "evt-2026-03-14-003"
-      - "evt-2026-03-14-004"
-    notes: ""
-
-  - id: "evt-2026-03-14-002"
-    category: "International relations"
-    subcategory: "Ceasefire diplomacy"
-    topics:
-      - "Iran war"
-      - "Middle East diplomacy"
-    importance: 0.94
-    headline: "Trump administration rebuffs efforts to start Iran ceasefire negotiations"
-    summary: >
-      Reuters reported that the Trump administration rejected attempts by Middle
-      Eastern allies to launch negotiations aimed at ending the Iran war, while
-      Iranian sources said Tehran would not consider a ceasefire until U.S. and
-      Israeli strikes stop.
-    details:
-      what_happened:
-        - "Reuters reported that Middle Eastern allies sought to start diplomacy to end the war."
-        - "The Trump administration rebuffed those efforts, according to Reuters."
-        - "Iranian sources told Reuters that Tehran would not consider a ceasefire while strikes continued."
-      why_it_matters:
-        - "The reporting indicated both Washington and Tehran were hardening positions rather than moving toward de-escalation."
-      uncertainty_notes:
-        - "This event depends on Reuters' sourcing from unnamed officials and sources familiar with the efforts."
-    actors:
-      primary:
-        - "United States"
-        - "Iran"
-      secondary:
-        - "Oman"
-        - "Egypt"
-    entities:
-      people:
-        - "Donald Trump"
-      organizations: []
-      states:
-        - "United States"
-        - "Iran"
-        - "Oman"
-        - "Egypt"
-    geography:
-      countries:
-        - "United States"
-        - "Iran"
-        - "Oman"
-        - "Egypt"
-      places: []
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "diplomatic development"
-        - "ceasefire talks"
-      tags:
-        - "Middle East"
-        - "mediation"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/middle-east/trump-rejects-efforts-launch-iran-ceasefire-talks-sources-say-2026-03-14/"
+        - id: "src-003"
+          outlet: "The Hindu"
+          url: "https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-14-2026-live-updates/article70742182.ece"
           publication_date: "2026-03-14"
-          source_type: "wire_service"
+          source_type: "News report"
           reliability_tier: "high"
           supports:
-            - "The Trump administration rebuffed efforts to start negotiations."
-            - "Iranian sources said Tehran would not accept a ceasefire while strikes continued."
+            - "U.S. Embassy evacuation warning"
+            - "Kharg oil exports continue normally"
           contradicts: []
-          quoted_material_used: false
+          quoted_material_used: true
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
@@ -204,156 +142,52 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-001"
-      - "evt-2026-03-14-004"
-    notes: "This is a diplomacy event rather than a battlefield event."
-
-  - id: "evt-2026-03-14-003"
-    category: "Armed conflicts and attacks"
-    subcategory: "Regional retaliation and infrastructure disruption"
-    topics:
-      - "Iran war"
-      - "Gulf energy infrastructure"
-    importance: 0.96
-    headline: "Iran warns residents near major UAE ports as fire disrupts some Fujairah oil-loading operations"
-    summary: >
-      After the U.S. strike on Kharg Island, Iranian officials warned people to
-      leave areas near Jebel Ali, Khalifa, and Fujairah ports in the UAE, while a
-      fire caused by debris from an intercepted drone in Fujairah contributed to
-      the suspension of some oil-loading operations there.
-    details:
-      what_happened:
-        - "Reuters reported that some oil-loading operations in Fujairah were suspended."
-        - "Fujairah's media office said the fire followed debris falling during the interception of a drone."
-        - "Reuters reported that Iran warned residents to leave areas near Jebel Ali, Khalifa, and Fujairah ports."
-      why_it_matters:
-        - "The event showed the war directly affecting Gulf export infrastructure outside Iran."
-      uncertainty_notes:
-        - "The exact operational impact on loadings was not fully established at the time."
-        - "Reuters reported the UAE ministry had not yet commented on Iran's accusation that the U.S. attack came through the UAE."
-    actors:
-      primary:
-        - "Iran"
-      secondary:
-        - "United Arab Emirates"
-        - "Fujairah authorities"
-    entities:
-      people: []
-      organizations:
-        - "Islamic Revolutionary Guard Corps"
-      states:
-        - "Iran"
-        - "United Arab Emirates"
-    geography:
-      countries:
-        - "United Arab Emirates"
-      places:
-        - "Fujairah"
-        - "Jebel Ali"
-        - "Khalifa Port"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: null
-      injured: 1
-      displaced: null
-      arrest_count: null
-      damage: "Fire at Fujairah and disruption to some oil-loading operations."
-    classification:
-      event_type:
-        - "drone-related incident"
-        - "infrastructure disruption"
-        - "threat"
-      tags:
-        - "oil markets"
-        - "UAE"
-        - "shipping"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
-          reliability_tier: "high"
-          supports:
-            - "Some oil-loading operations in Fujairah were suspended."
-            - "A fire occurred after debris fell during interception of a drone."
-            - "Iran warned residents to leave areas near major UAE ports."
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "AP News"
-          url: "https://apnews.com/article/iran-iraq-us-trump-march-14-2026-oil-prices-a2399398b4c590995b814d7640362a11"
-          publication_date: "2026-03-14"
-          source_type: "news_agency"
-          reliability_tier: "high"
-          supports:
-            - "Iran urged people to evacuate major UAE ports."
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "medium"
-    related_events:
-      - "evt-2026-03-14-001"
-      - "evt-2026-03-14-004"
+    related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-004"
-    category: "International relations"
-    subcategory: "Maritime security"
+  - id: "evt-2026-03-14-002"
+    category: "Business and economy"
+    subcategory: "Energy"
     topics:
-      - "Iran war"
-      - "Strait of Hormuz"
-    importance: 0.90
-    headline: "Trump calls on other countries to send warships to keep the Strait of Hormuz open"
+      - "Oil markets"
+      - "Maritime security"
+    importance: null
+    headline: "Strait of Hormuz blockade triggers global oil shock as traffic collapses"
     summary: >
-      President Donald Trump called on other countries to help secure shipping
-      through the Strait of Hormuz as the conflict with Iran disrupted energy and
-      maritime traffic; Reuters reported there was no immediate indication that
-      other countries would do so.
+      The ongoing Iranian blockade of the Strait of Hormuz has severely disrupted
+      global energy markets, reducing daily maritime traffic through the chokepoint
+      from an average of 138 vessels to just two. The disruption has pushed Brent
+      crude oil prices above $100 per barrel, prompting Japan to authorize a historic
+      release of 80 million barrels from its strategic reserves to stabilize the market.
     details:
       what_happened:
-        - "Trump publicly called on other countries to send warships."
-        - "The stated aim was to keep the Strait of Hormuz open for shipping."
-        - "Reuters reported no immediate indication that countries would commit."
+        - "Iranian naval mines and the threat of missile strikes effectively closed the Strait of Hormuz to commercial shipping."
+        - "Global oil prices surged, with Brent crude reaching between $99 and $103 per barrel."
+        - "Japan announced the largest release of strategic oil reserves in its history to counter the supply disruption."
+        - "U.S. President Donald Trump called for an international naval coalition, including China and the UK, to break the blockade."
       why_it_matters:
-        - "The Strait of Hormuz is a critical chokepoint for global oil shipments."
+        - "The blockade affects nearly 20% of the world's oil supply, threatening to reignite global inflation and strain net-importing economies in Europe and Asia."
       uncertainty_notes: []
     actors:
       primary:
-        - "United States"
-      secondary:
-        - "France"
-        - "United Kingdom"
         - "Iran"
+      secondary:
+        - "Japan"
+        - "United States"
     entities:
       people:
         - "Donald Trump"
-      organizations: []
+      organizations:
+        - "United Kingdom Maritime Trade Operations (UKMTO)"
       states:
-        - "United States"
-        - "France"
-        - "United Kingdom"
         - "Iran"
-        - "Switzerland"
+        - "Japan"
+        - "United States"
     geography:
       countries:
         - "Iran"
         - "Oman"
+        - "Japan"
       places:
         - "Strait of Hormuz"
       coordinates: []
@@ -369,585 +203,35 @@ events:
       damage: null
     classification:
       event_type:
-        - "security appeal"
-        - "maritime diplomacy"
+        - "Blockade"
+        - "Economic shock"
       tags:
-        - "shipping"
-        - "oil supply"
+        - "Oil crisis"
+        - "Strait of Hormuz"
     sources:
       wikipedia_portal:
-        included: false
-        text_fragment: null
+        included: true
+        text_fragment: "Japan announces it will start releasing 80 million barrels of oil from its reserves"
       external:
         - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/middle-east/trump-threatens-strike-irans-kharg-island-oil-network-if-shipping-lanes-remain-2026-03-14/"
+          outlet: "IndraStra Global"
+          url: "https://www.indrastra.com/2026/03/escalating-middle-east-tensions-cloud.html"
           publication_date: "2026-03-14"
-          source_type: "wire_service"
+          source_type: "Analysis"
           reliability_tier: "high"
           supports:
-            - "Trump called on nations to help keep the Strait of Hormuz open."
-            - "Reuters reported no immediate indication of commitments."
+            - "Oil prices exceeding $100 per barrel"
+            - "Strait of Hormuz de facto closure"
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "AP News"
-          url: "https://apnews.com/article/9bbed3c906146844be08fdfd02595754"
-          publication_date: "2026-03-15"
-          source_type: "news_agency"
-          reliability_tier: "high"
-          supports:
-            - "Other countries did not immediately promise to send warships."
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-001"
-      - "evt-2026-03-14-002"
-      - "evt-2026-03-14-003"
-    notes: "The AP follow-up was published on 2026-03-15 but directly concerns the March 14 appeal."
-
-  - id: "evt-2026-03-14-005"
-    category: "Armed conflicts and attacks"
-    subcategory: "Attack on diplomatic facility"
-    topics:
-      - "Iran war"
-      - "Iraq"
-    importance: 0.84
-    headline: "Missile strike hits the U.S. embassy compound in Baghdad"
-    summary: >
-      Reuters reported that the U.S. embassy compound in Baghdad was hit in a
-      missile attack, with smoke seen rising from the site; a separate Reuters
-      dispatch citing AP said a missile struck a helipad inside the compound.
-    details:
-      what_happened:
-        - "Iraqi security sources said the U.S. embassy compound in Baghdad was struck."
-        - "A Reuters item citing AP said the missile hit a helipad inside the compound."
-      why_it_matters:
-        - "The strike hit a major U.S. diplomatic facility during broader regional escalation."
-      uncertainty_notes:
-        - "Responsibility was not established in the cited reports."
-        - "Damage details were limited in early reports."
-    actors:
-      primary: []
-      secondary:
-        - "United States"
-        - "Iraq"
-    entities:
-      people: []
-      organizations:
-        - "U.S. Embassy Baghdad"
-      states:
-        - "United States"
-        - "Iraq"
-    geography:
-      countries:
-        - "Iraq"
-      places:
-        - "Baghdad"
-        - "U.S. embassy compound"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: "Missile strike reported inside the embassy compound."
-    classification:
-      event_type:
-        - "missile attack"
-        - "attack on diplomatic facility"
-      tags:
-        - "Baghdad"
-        - "regional escalation"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/middle-east/us-embassy-iraqs-baghdad-hit-missiles-attack-security-sources-say-2026-03-14/"
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
           publication_date: "2026-03-14"
-          source_type: "wire_service"
+          source_type: "NGO report"
           reliability_tier: "high"
           supports:
-            - "The U.S. embassy compound in Baghdad was hit in a missile attack."
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/middle-east/missile-strikes-helipad-us-embassy-compound-iraq-ap-reports-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
-          reliability_tier: "high"
-          supports:
-            - "A missile struck a helipad in the embassy compound."
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "low"
-    related_events:
-      - "evt-2026-03-14-001"
-      - "evt-2026-03-14-004"
-    notes: ""
-
-  - id: "evt-2026-03-14-006"
-    category: "International relations"
-    subcategory: "Conflict diplomacy"
-    topics:
-      - "Israel-Hezbollah conflict"
-      - "Lebanon"
-    importance: 0.73
-    headline: "Israel and Lebanon are reported to be preparing for direct talks"
-    summary: >
-      Reuters, citing Haaretz, reported that Israel and Lebanon were expected to
-      hold direct talks in the coming days, potentially in Paris or Cyprus, with
-      discussions expected to focus on ending fighting in Lebanon and disarming
-      Hezbollah.
-    details:
-      what_happened:
-        - "Reuters reported that Israel and Lebanon were expected to hold direct talks."
-        - "Haaretz said the talks might be held in Paris or Cyprus."
-        - "The reported agenda included ending fighting in Lebanon and disarming Hezbollah."
-      why_it_matters:
-        - "Direct talks would mark a diplomatic milestone amid active hostilities."
-      uncertainty_notes:
-        - "The report was based on Haaretz reporting and described the talks as expected rather than confirmed."
-    actors:
-      primary:
-        - "Israel"
-        - "Lebanon"
-      secondary:
-        - "Hezbollah"
-    entities:
-      people:
-        - "Jared Kushner"
-        - "Ron Dermer"
-      organizations:
-        - "Hezbollah"
-      states:
-        - "Israel"
-        - "Lebanon"
-        - "France"
-        - "Cyprus"
-    geography:
-      countries:
-        - "Israel"
-        - "Lebanon"
-        - "France"
-        - "Cyprus"
-      places:
-        - "Paris"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "diplomatic development"
-        - "peace talks"
-      tags:
-        - "Middle East"
-        - "Hezbollah"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/europe/israel-lebanon-expected-hold-direct-talks-coming-days-haaretz-reports-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
-          reliability_tier: "high"
-          supports:
-            - "Israel and Lebanon were expected to hold direct talks."
-            - "The talks were expected to focus on ending fighting in Lebanon and disarming Hezbollah."
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "medium"
-      detail_accuracy: "medium"
-      actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-002"
-    notes: "This was a reported expectation, not a completed negotiation."
-
-  - id: "evt-2026-03-14-007"
-    category: "Armed conflicts and attacks"
-    subcategory: "Missile and drone barrage"
-    topics:
-      - "Russia-Ukraine war"
-    importance: 0.92
-    headline: "Russian missile and drone strikes kill six people across Ukraine"
-    summary: >
-      Reuters reported that Russian missile and drone strikes killed six people
-      and caused damage across several regions of Ukraine, including the Kyiv
-      region, where five of the dead were reported.
-    details:
-      what_happened:
-        - "Reuters said Russia struck Ukraine with missiles and drones."
-        - "Five of the dead were reported in the Kyiv region."
-        - "A later strike in Zaporizhzhia killed one more person and injured three."
-        - "Ukraine said six regions lost electricity after the attacks and shelling."
-      why_it_matters:
-        - "The attacks hit both civilian areas and energy-related infrastructure during a period of intense strain on Ukrainian air defenses."
-      uncertainty_notes:
-        - "Reuters reported Ukrainian official figures from different regions as the day developed."
-    actors:
-      primary:
-        - "Russia"
-      secondary:
-        - "Ukraine"
-    entities:
-      people:
-        - "Volodymyr Zelenskiy"
-      organizations: []
-      states:
-        - "Russia"
-        - "Ukraine"
-        - "Poland"
-        - "Moldova"
-    geography:
-      countries:
-        - "Ukraine"
-      places:
-        - "Kyiv region"
-        - "Zaporizhzhia"
-        - "Sumy"
-        - "Kharkiv"
-        - "Dnipro"
-        - "Mykolaiv"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 6
-      injured: 18
-      displaced: null
-      arrest_count: null
-      damage: "Residential buildings, schools, businesses, and energy-related infrastructure were damaged."
-    classification:
-      event_type:
-        - "missile attack"
-        - "drone attack"
-      tags:
-        - "civilian impact"
-        - "energy infrastructure"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/four-killed-russian-air-attack-kyiv-region-officials-say-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
-          reliability_tier: "high"
-          supports:
-            - "Russian missile and drone attacks killed six people across Ukraine."
-            - "Multiple regions were targeted and power disruptions followed."
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "AP News"
-          url: "https://apnews.com/photo-gallery/russia-ukraine-war-kyiv-attack-photos-2e692b52d0717e2d334646acb8e8fab4"
-          publication_date: "2026-03-14"
-          source_type: "news_agency"
-          reliability_tier: "high"
-          supports:
-            - "The Kyiv region was hit in a combined missile and drone attack."
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-008"
-      - "evt-2026-03-14-009"
-    notes: "Injuries combine Reuters-reported 15 injured in Kyiv region and 3 in Zaporizhzhia."
-
-  - id: "evt-2026-03-14-008"
-    category: "Armed conflicts and attacks"
-    subcategory: "Cross-border infrastructure strike"
-    topics:
-      - "Russia-Ukraine war"
-      - "Krasnodar region"
-    importance: 0.70
-    headline: "Ukrainian drones hit an oil refinery and port in Russia's Krasnodar region"
-    summary: >
-      Reuters reported that Ukrainian drones struck an oil refinery and a port in
-      Russia's Krasnodar region overnight, causing injuries and damage according
-      to local authorities.
-    details:
-      what_happened:
-        - "Reuters said Ukrainian drones hit an oil refinery in Russia's Krasnodar region."
-        - "Reuters also said a port in the region was struck."
-        - "Local Russian authorities reported injuries and damage."
-      why_it_matters:
-        - "The strike fit Ukraine's campaign against Russian strategic and energy-linked infrastructure."
-      uncertainty_notes:
-        - "The Reuters dispatch summarized local-authority claims in Russia."
-    actors:
-      primary:
-        - "Ukraine"
-      secondary:
-        - "Russia"
-    entities:
-      people: []
-      organizations: []
-      states:
-        - "Ukraine"
-        - "Russia"
-    geography:
-      countries:
-        - "Russia"
-      places:
-        - "Krasnodar region"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: "Oil refinery and port damage reported by local authorities."
-    classification:
-      event_type:
-        - "drone strike"
-        - "infrastructure attack"
-      tags:
-        - "oil"
-        - "port"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/ukrainian-drones-strike-oil-refinery-port-russias-krasnodar-region-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
-          reliability_tier: "high"
-          supports:
-            - "Ukrainian drones struck an oil refinery and a port in Krasnodar region."
-            - "Local authorities reported injuries and damage."
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
-      - "evt-2026-03-14-007"
-    notes: ""
-
-  - id: "evt-2026-03-14-009"
-    category: "International relations"
-    subcategory: "Sanctions policy"
-    topics:
-      - "Russia-Ukraine war"
-      - "European Union sanctions"
-    importance: 0.77
-    headline: "European Union extends sanctions on people and entities tied to Russia's war against Ukraine"
-    summary: >
-      The European Union extended for another six months sanctions against people
-      and entities linked to Russia's war against Ukraine, keeping the measures in
-      place until September 15 after internal dispute over removals from the list.
-    details:
-      what_happened:
-        - "The EU extended its sanctions regime for six months."
-        - "Reuters reported the measures cover roughly 2,600 people and organizations."
-        - "Hungary and Slovakia had objected to parts of the list before agreement was reached."
-      why_it_matters:
-        - "The decision preserved a major element of the EU's pressure campaign against Russia."
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "European Union"
-      secondary:
-        - "Hungary"
-        - "Slovakia"
-        - "Russia"
-    entities:
-      people:
-        - "Viktor Orban"
-      organizations:
-        - "European Union"
-      states:
-        - "Russia"
-        - "Ukraine"
-        - "Hungary"
-        - "Slovakia"
-    geography:
-      countries:
-        - "Belgium"
-      places:
-        - "European Union"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "sanctions decision"
-        - "foreign policy"
-      tags:
-        - "European Union"
-        - "Russia sanctions"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/eu-extends-sanctions-against-people-over-russias-war-against-ukraine-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
-          reliability_tier: "high"
-          supports:
-            - "The EU extended sanctions for another six months."
-            - "The sanctions cover roughly 2,600 people and organizations."
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-007"
-      - "evt-2026-03-14-008"
-    notes: ""
-
-  - id: "evt-2026-03-14-010"
-    category: "International relations"
-    subcategory: "Regional mediation"
-    topics:
-      - "Afghanistan-Pakistan tensions"
-      - "China diplomacy"
-    importance: 0.65
-    headline: "China urges Afghanistan and Pakistan to resolve tensions through talks rather than force"
-    summary: >
-      Reuters reported that Chinese Foreign Minister Wang Yi urged Afghanistan and
-      Pakistan to resolve their dispute through dialogue and consultation rather
-      than force, as one of the most serious periods of tension between the two
-      neighbors in recent years continued.
-    details:
-      what_happened:
-        - "Wang Yi told Afghanistan's foreign minister that disputes should be resolved through talks."
-        - "China called for calm, restraint, and face-to-face ceasefire talks."
-      why_it_matters:
-        - "China was positioning itself as a mediator in a conflict affecting two neighboring states important to its regional strategy."
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "China"
-      secondary:
-        - "Afghanistan"
-        - "Pakistan"
-    entities:
-      people:
-        - "Wang Yi"
-        - "Amir Khan Muttaqi"
-      organizations: []
-      states:
-        - "China"
-        - "Afghanistan"
-        - "Pakistan"
-    geography:
-      countries:
-        - "China"
-        - "Afghanistan"
-        - "Pakistan"
-      places: []
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "diplomatic appeal"
-        - "mediation"
-      tags:
-        - "South Asia"
-        - "border tensions"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/china/china-urges-afghanistan-pakistan-resolve-tensions-via-talks-not-force-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
-          reliability_tier: "high"
-          supports:
-            - "China urged Afghanistan and Pakistan to resolve tensions through talks rather than force."
+            - "Vessel traffic dropping from 138 to 2"
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -961,75 +245,100 @@ events:
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-011"
-    category: "Society and civil unrest"
-    subcategory: "Protest and riot"
+  - id: "evt-2026-03-14-003"
+    category: "Armed conflicts and attacks"
+    subcategory: null
     topics:
-      - "Cuba blackouts"
-      - "Food shortages"
-    importance: 0.78
-    headline: "Protesters attack a Communist Party office in Morón, Cuba, amid blackouts and shortages"
+      - "Ground invasion preparations"
+      - "Healthcare attacks"
+    importance: null
+    headline: "Israel prepares to expand Lebanon ground offensive as strikes kill 14 health workers"
     summary: >
-      Reuters reported that anti-government protesters attacked a Communist Party
-      office in Morón after a rally over power cuts and food shortages turned
-      violent, in a rare outburst of public dissent in Cuba.
+      Israeli and U.S. officials confirmed plans for the Israel Defense Forces to
+      significantly expand ground operations in southern Lebanon to dismantle Hezbollah
+      infrastructure south of the Litani River. The escalation coincides with a record
+      43 attacks claimed by Hezbollah in 24 hours and a severe humanitarian toll,
+      including the deaths of 14 health workers in southern Lebanon, prompting the
+      WHO to release emergency funds.
     details:
       what_happened:
-        - "A rally against blackouts and shortages began peacefully in Morón."
-        - "The protest later turned violent and a Communist Party office was attacked."
+        - "The IDF deployed additional divisions, tank transporters, and engineering battalions to the northern border for an expanded maneuver."
+        - "Hezbollah claimed 43 attacks against Israeli forces and northern towns, marking the highest volume since the war began."
+        - "The WHO reported 14 health workers killed in Lebanon over the past 24 hours, including 12 doctors in a strike on a primary healthcare center."
+        - "France circulated a three-stage diplomatic proposal to end hostilities, though ceasefire mediation efforts remain stalled."
       why_it_matters:
-        - "Reuters characterized the incident as a rare outburst of public dissent in Cuba."
-      uncertainty_notes:
-        - "Early Reuters reporting focused on the attack and did not supply a final judicial outcome for those detained."
+        - "An expanded ground offensive risks a prolonged, attritional war in southern Lebanon, exacerbating mass civilian displacement."
+      uncertainty_notes: []
     actors:
       primary:
-        - "Anti-government protesters"
+        - "Israel Defense Forces (IDF)"
+        - "Hezbollah"
       secondary:
-        - "Communist Party of Cuba"
-        - "Cuban authorities"
+        - "World Health Organization (WHO)"
+        - "France"
     entities:
-      people: []
+      people:
+        - "Tedros Adhanom Ghebreyesus"
       organizations:
-        - "Communist Party of Cuba"
+        - "Israel Defense Forces"
+        - "Hezbollah"
+        - "World Health Organization"
       states:
-        - "Cuba"
+        - "Israel"
+        - "Lebanon"
+        - "France"
     geography:
       countries:
-        - "Cuba"
+        - "Lebanon"
+        - "Israel"
       places:
-        - "Morón"
+        - "Southern Lebanon"
+        - "Litani River"
+        - "Sidon"
       coordinates: []
     time:
       date: "2026-03-14"
       time_known: false
-      ongoing: false
+      ongoing: true
     casualty_report:
-      killed: null
+      killed: 14
       injured: null
       displaced: null
       arrest_count: null
-      damage: "Communist Party office attacked and damaged."
+      damage: "Destruction of medical facilities and residential buildings in southern Lebanon"
     classification:
       event_type:
-        - "protest"
-        - "riot"
+        - "Military mobilization"
+        - "Airstrike"
       tags:
-        - "blackouts"
-        - "economic crisis"
+        - "Lebanon War"
+        - "IDF"
+        - "Hezbollah"
     sources:
       wikipedia_portal:
-        included: false
-        text_fragment: null
+        included: true
+        text_fragment: "Israel and Lebanon are expected to hold direct talks"
       external:
         - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/world/americas/protesters-cuba-attack-communist-party-office-rare-riot-over-blackouts-2026-03-14/"
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
           publication_date: "2026-03-14"
-          source_type: "wire_service"
+          source_type: "NGO report"
           reliability_tier: "high"
           supports:
-            - "Protesters attacked a Communist Party office in Morón."
-            - "The protest was linked to blackouts and food shortages."
+            - "IDF expanding ground campaign"
+            - "Hezbollah's 43 attacks"
+          contradicts: []
+          quoted_material_used: true
+        - id: "src-002"
+          outlet: "UN News"
+          url: "https://news.un.org/en/story/2026/03/1167136"
+          publication_date: "2026-03-14"
+          source_type: "Official release"
+          reliability_tier: "high"
+          supports:
+            - "14 health workers killed"
+            - "WHO releases emergency funds"
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -1039,53 +348,263 @@ events:
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
-      actor_identification: "medium"
-    related_events:
-      - "evt-2026-03-14-012"
+      actor_identification: "high"
+    related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-012"
-    category: "Society and civil unrest"
-    subcategory: "Mass protest"
+  - id: "evt-2026-03-14-004"
+    category: "Armed conflicts and attacks"
+    subcategory: null
     topics:
-      - "Anti-war protests"
-      - "Italy"
-      - "Spain"
-    importance: 0.62
-    headline: "Thousands protest in Italy and Spain against the war in Iran"
+      - "Missile tests"
+      - "Military drills"
+    importance: null
+    headline: "North Korea fires over 10 ballistic missiles during US-South Korea military drills"
     summary: >
-      AP reported that thousands protested in Italy and Spain against the war in
-      Iran, with the Rome demonstration also connecting the conflict to a domestic
-      political battle over proposed judicial reforms in Italy.
+      North Korea launched more than 10 short-range ballistic missiles from the
+      Sunan area near Pyongyang into the sea off its east coast. The massed launch
+      occurred during the annual "Freedom Shield" joint military exercises conducted
+      by the United States and South Korea, drawing immediate condemnation from Seoul
+      as a severe provocation violating UN Security Council resolutions.
     details:
       what_happened:
-        - "Thousands protested in Rome against the war in Iran."
-        - "Additional rallies were held across Spain."
-        - "In Italy, the protests also linked opposition to the war with opposition to judicial reforms."
+        - "The missiles were fired at approximately 1:20 pm local time, flying roughly 350 kilometers before landing in the sea."
+        - "The projectiles fell outside of Japan's exclusive economic zone, according to the Japanese coast guard."
+        - "South Korean and U.S. intelligence agencies immediately began analyzing the capabilities of the launched missiles."
       why_it_matters:
-        - "The demonstrations showed the Iran war generating visible political and social backlash in Europe."
+        - "The launches demonstrate North Korea's continued advancement of its ballistic missile program and serve as an asymmetric response to perceived threats from U.S.-led military exercises."
       uncertainty_notes: []
     actors:
       primary:
-        - "Anti-war protesters"
+        - "North Korea"
       secondary:
-        - "Government of Italy"
-        - "Government of Spain"
+        - "South Korea"
+        - "United States"
+        - "Japan"
     entities:
-      people:
-        - "Giorgia Meloni"
-      organizations: []
+      people: []
+      organizations:
+        - "South Korean Joint Chiefs of Staff"
       states:
-        - "Italy"
-        - "Spain"
-        - "Greece"
+        - "North Korea"
+        - "South Korea"
+        - "United States"
+        - "Japan"
     geography:
       countries:
-        - "Italy"
-        - "Spain"
+        - "North Korea"
+        - "South Korea"
+        - "Japan"
       places:
-        - "Rome"
-        - "Madrid"
+        - "Sunan"
+        - "Sea of Japan"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: true
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "Missile test"
+      tags:
+        - "Ballistic missiles"
+        - "Korean Peninsula"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "The Diplomatic Insight"
+          url: "https://thediplomaticinsight.com/north-korea-dires-missiles-us-south-korea-drills/"
+          publication_date: "2026-03-14"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Launch of over 10 ballistic missiles"
+            - "Missiles fired from Sunan area"
+            - "Coincided with Freedom Shield drills"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills"
+          publication_date: "2026-03-14"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Missiles landed outside Japan's EEZ"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-005"
+    category: "Disasters and accidents"
+    subcategory: "Extreme weather"
+    topics:
+      - "Storms"
+      - "Wildfires"
+    importance: null
+    headline: "Severe 'megastorm' spawns 118 tornadoes and fuels deadly wildfires across the U.S."
+    summary: >
+      A massive, erratic "bomb cyclone" storm system swept across the United States,
+      producing the largest March tornado outbreak on record with 118 confirmed tornadoes.
+      The system generated hurricane-force winds that left hundreds of thousands without
+      power in the Midwest and Mid-Atlantic, while simultaneously fueling over 100
+      fast-moving wildfires in Nebraska that resulted in at least one fatality.
+    details:
+      what_happened:
+        - "The storm system generated 118 tornadoes across the Midwest and South, a record for the month of March."
+        - "High winds, including an 85 mph gust in Cleveland, knocked out power to over 346,000 customers in Ohio, Pennsylvania, and Michigan."
+        - "The dry line of the storm fueled numerous wildfires across Nebraska's grasslands, killing one person in Arthur County and forcing evacuations."
+        - "The system dumped heavy snow in the upper Midwest, paralyzing transportation networks."
+      why_it_matters:
+        - "The multi-hazard nature of the storm strained emergency response capabilities across a vast geographic area, affecting nearly 200 million Americans."
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "National Weather Service"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Nebraska"
+        - "Ohio"
+        - "Pennsylvania"
+        - "Michigan"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Widespread infrastructure damage, power outages, and property destruction"
+    classification:
+      event_type:
+        - "Severe storm"
+        - "Wildfire"
+        - "Tornado"
+      tags:
+        - "Extreme weather"
+        - "Bomb cyclone"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Associated Press"
+          url: "https://www.2news.com/news/national/high-winds-cause-power-outages-property-damage-and-at-least-1-death-as-wild-march/article_83f27bad-8386-58ee-84d1-41f00c136ca6.html"
+          publication_date: "2026-03-14"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Power outages affecting 346,000"
+            - "Nebraska wildfire death"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/us-news/2026/mar/15/snow-wind-winter-storm-thunder-tornadoes"
+          publication_date: "2026-03-15"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Affecting nearly 200 million people"
+            - "Blizzard conditions in Midwest"
+          contradicts: []
+          quoted_material_used: true
+        - id: "src-003"
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/Tornado_outbreak_of_March_13%E2%80%9316,_2025"
+          publication_date: null
+          source_type: "Encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "118 tornadoes recorded"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "Historical Wikipedia data for the 2025 tornado outbreak was utilized in the research snippets to contextualize the scale of the March 2026 storm event."
+
+  - id: "evt-2026-03-14-006"
+    category: "Business and economy"
+    subcategory: "Energy"
+    topics:
+      - "Renewable energy"
+      - "Offshore wind"
+    importance: null
+    headline: "First large-scale U.S. offshore wind projects achieve major operational milestones"
+    summary: >
+      The U.S. offshore wind industry reached a historic milestone as construction
+      was completed on the Vineyard Wind project off the coast of Massachusetts,
+      and the nearby Revolution Wind project delivered its first electricity to the
+      New England grid. The facilities are expected to provide clean power to hundreds
+      of thousands of homes, bolstering regional energy security despite political opposition.
+    details:
+      what_happened:
+        - "Workers installed the final turbine blades on Vineyard Wind, a 62-turbine, 800-megawatt project capable of powering 400,000 homes."
+        - "Revolution Wind, located off Rhode Island, successfully transmitted its first power to the grid."
+        - "The milestones mark the realization of the first utility-scale offshore wind farms in the United States."
+      why_it_matters:
+        - "The projects significantly reduce New England's reliance on expensive fossil gas imports during winter demand peaks."
+        - "The industry successfully navigated intense political headwinds, including previous construction halts ordered by the Trump administration."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Vineyard Wind"
+        - "Revolution Wind"
+      secondary:
+        - "Avangrid"
+        - "Copenhagen Infrastructure Partners"
+        - "Ørsted"
+    entities:
+      people: []
+      organizations:
+        - "Union of Concerned Scientists"
+        - "Oceantic Network"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Massachusetts"
+        - "Rhode Island"
+        - "Martha's Vineyard"
       coordinates: []
     time:
       date: "2026-03-14"
@@ -1099,24 +618,35 @@ events:
       damage: null
     classification:
       event_type:
-        - "protest"
+        - "Infrastructure completion"
       tags:
-        - "Europe"
-        - "Iran war"
+        - "Offshore wind"
+        - "Clean energy"
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
         - id: "src-001"
-          outlet: "AP News"
-          url: "https://apnews.com/article/italy-meloni-protests-iran-spain-greece-1a007751a1ea7fbf6c579cdf6085eb4e"
+          outlet: "WBUR"
+          url: "https://www.capeandislands.org/2026-03-14/vineyard-wind-countrys-first-large-scale-offshore-wind-project-finishes-construction"
           publication_date: "2026-03-14"
-          source_type: "news_agency"
+          source_type: "News report"
           reliability_tier: "high"
           supports:
-            - "Thousands protested in Italy and Spain against the war in Iran."
-            - "The Rome protest was also tied to judicial-reform politics in Italy."
+            - "Vineyard Wind finishes construction"
+            - "Revolution Wind sends first power to grid"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "PBS NewsHour"
+          url: "https://www.pbs.org/newshour/nation/construction-finishes-on-a-major-massachusetts-offshore-wind-farm-the-first-during-trumps-time-in-office"
+          publication_date: "2026-03-14"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "800 megawatts generation capacity"
+            - "Political context involving Trump administration"
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -1127,50 +657,147 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-002"
-      - "evt-2026-03-14-011"
+    related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-013"
-    category: "Sports"
-    subcategory: "Event cancellation"
+  - id: "evt-2026-03-14-007"
+    category: "Law and crime"
+    subcategory: "Organized crime"
     topics:
-      - "Formula One"
-      - "Iran war"
-    importance: 0.58
-    headline: "Formula One cancels the Bahrain and Saudi Arabian Grands Prix"
+      - "Drug cartels"
+      - "Military operations"
+    importance: null
+    headline: "Death of CJNG leader 'El Mencho' sparks violent retaliation across Mexico"
     summary: >
-      Formula One, the FIA, and local promoters announced that the Bahrain and
-      Saudi Arabian Grands Prix scheduled for April would not take place because
-      of the Middle East conflict, with no replacement events planned.
+      Following a military operation in Zapopan, Jalisco, that resulted in the death
+      of Nemesio Oseguera Cervantes ("El Mencho"), the supreme leader of the Jalisco
+      New Generation Cartel (CJNG), retaliatory violence erupted across Mexico. Cartel
+      gunmen used rocket-propelled grenades to down a military helicopter, killing
+      nine soldiers, and orchestrated burning vehicle blockades to paralyze infrastructure.
     details:
       what_happened:
-        - "The Bahrain and Saudi Arabian races were canceled."
-        - "Reuters reported that they would not be rescheduled or replaced."
-        - "The season calendar was reduced from 24 races to 22."
+        - "Mexican military forces killed El Mencho, dismantling the top leadership of one of the world's most powerful drug cartels."
+        - "CJNG gunmen retaliated by establishing narcobloqueos and attacking security forces, leading to the suspension of flights at Puerto Vallarta International Airport."
+        - "Nine Mexican soldiers were killed when a military helicopter was shot down by cartel forces."
+        - "The Mexican government announced the seizure of over 24,000 illegal firearms in 17 months, highlighting deepened security cooperation with the U.S."
       why_it_matters:
-        - "The cancellations showed the war's spillover into major international sports and logistics."
+        - "The decapitation of the CJNG creates a power vacuum likely to trigger extreme factional violence in Mexico's illicit economy."
       uncertainty_notes: []
     actors:
       primary:
-        - "Formula One"
-        - "FIA"
+        - "Mexican Armed Forces"
+        - "Jalisco New Generation Cartel (CJNG)"
       secondary:
-        - "Bahrain Grand Prix organizers"
-        - "Saudi Arabian Grand Prix organizers"
+        - "U.S. Department of the Treasury"
     entities:
-      people: []
+      people:
+        - "Nemesio Oseguera Cervantes (El Mencho)"
+        - "Claudia Sheinbaum"
       organizations:
-        - "Formula One"
-        - "FIA"
+        - "Mexican National Guard"
       states:
-        - "Bahrain"
-        - "Saudi Arabia"
+        - "Mexico"
+        - "United States"
     geography:
       countries:
-        - "Bahrain"
-        - "Saudi Arabia"
+        - "Mexico"
+      places:
+        - "Zapopan"
+        - "Jalisco"
+        - "Michoacan"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 9
+      injured: null
+      displaced: null
+      arrest_count: 2
+      damage: "Military helicopter downed; civilian vehicles burned in blockades"
+    classification:
+      event_type:
+        - "Armed clash"
+        - "Targeted killing"
+      tags:
+        - "Drug war"
+        - "CJNG"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/2026_Jalisco_operation"
+          publication_date: null
+          source_type: "Encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "Death of El Mencho"
+            - "Nine soldiers killed in helicopter crash"
+            - "Puerto Vallarta flights suspended"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Mexico News Daily"
+          url: "https://mexiconewsdaily.com/news/us-mexico-security-cooperation-differences-ceo-perspective/"
+          publication_date: "2026-03-14"
+          source_type: "News report"
+          reliability_tier: "medium"
+          supports:
+            - "Seizure of 24,000 illegal firearms"
+            - "U.S. Treasury sanctions on laundering hubs"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-008"
+    category: "Politics and elections"
+    subcategory: "National election"
+    topics:
+      - "Legislative elections"
+    importance: null
+    headline: "Vietnam holds nationwide elections for the 16th National Assembly"
+    summary: >
+      Approximately 73.5 million voters in Vietnam cast ballots to elect 500 members
+      to the 16th National Assembly and local People's Councils for the 2026–2031 term.
+      The elections, strictly managed by the ruling Communist Party of Vietnam and the
+      Fatherland Front, are a procedural mechanism to validate the leadership mandates
+      decided at the prior Party Congress, including that of General Secretary Tô Lâm.
+    details:
+      what_happened:
+        - "Voters selected from candidates vetted by the Vietnam Fatherland Front across 184 multi-member constituencies."
+        - "The newly elected National Assembly will convene in April to formally appoint the President and Prime Minister."
+        - "Early voting was conducted for maritime workers and personnel in island regions."
+      why_it_matters:
+        - "The election cements the political continuity of the Communist Party and solidifies Tô Lâm's consolidation of power within the state apparatus."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Communist Party of Vietnam"
+      secondary:
+        - "Vietnam Fatherland Front"
+    entities:
+      people:
+        - "Tô Lâm"
+      organizations:
+        - "National Assembly of Vietnam"
+      states:
+        - "Vietnam"
+    geography:
+      countries:
+        - "Vietnam"
       places: []
       coordinates: []
     time:
@@ -1182,83 +809,90 @@ events:
       injured: null
       displaced: null
       arrest_count: null
-      damage: "Bahrain and Saudi Arabian rounds removed from the 2026 schedule."
+      damage: null
     classification:
       event_type:
-        - "sports administration"
-        - "cancellation"
+        - "Election"
       tags:
-        - "motor sport"
-        - "Middle East"
+        - "National Assembly"
+        - "Communist Party"
     sources:
       wikipedia_portal:
-        included: false
-        text_fragment: null
+        included: true
+        text_fragment: "Vietnamese citizens vote to elect the 500 members of the 16th National Assembly."
       external:
         - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/sports/formula1/f1-calls-off-april-races-bahrain-saudi-arabia-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
+          outlet: "Viet Nam News"
+          url: "https://vietnamnews.vn/politics-laws/1766809/viet-nam-s-2026-general-election-how-the-system-works.html"
+          publication_date: "2026-03-15"
+          source_type: "News report"
           reliability_tier: "high"
           supports:
-            - "Formula One canceled the Bahrain and Saudi Arabian Grands Prix."
-            - "The races would not be rescheduled or replaced."
+            - "73.5 million voters expected"
+            - "500 deputies to be elected"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/15/vietnam-holds-general-election-93-candidates-from-ruling-communist-party"
+          publication_date: "2026-03-15"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Opening session scheduled for April"
+            - "Tô Lâm confirmed as general secretary"
           contradicts: []
           quoted_material_used: false
     provenance:
-      extracted_from_portal_bullet: false
+      extracted_from_portal_bullet: true
       enriched_manually: true
       last_reviewed_by: null
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events:
-      - "evt-2026-03-14-003"
-      - "evt-2026-03-14-004"
-    notes: ""
+    related_events: []
+    notes: "Voting took place on Sunday, March 15, local time, making it actively reported across the March 14/15 window internationally."
 
-  - id: "evt-2026-03-14-014"
-    category: "Sports"
-    subcategory: "Championship result"
+  - id: "evt-2026-03-14-009"
+    category: "Politics and elections"
+    subcategory: "National election"
     topics:
-      - "2026 Six Nations Championship"
-      - "Rugby union"
-    importance: 0.56
-    headline: "France beats England 48-46 to win the Six Nations title"
+      - "Presidential election"
+      - "Democratic backsliding"
+    importance: null
+    headline: "Republic of the Congo holds presidential election amid boycotts and internet blackout"
     summary: >
-      Reuters reported that France beat England 48-46 at the Stade de France to
-      win the 2026 Six Nations title, with Thomas Ramos kicking the decisive
-      penalty after the final hooter.
+      Incumbent President Denis Sassou Nguesso sought a fifth consecutive term in
+      the Republic of the Congo's presidential election, which was marred by a
+      nationwide internet shutdown and widespread opposition boycotts. Sassou Nguesso,
+      who has ruled for 42 years, is expected to easily win the vote against six
+      minor challengers following the government's suspension of major opposition coalitions.
     details:
       what_happened:
-        - "France defeated England 48-46."
-        - "Thomas Ramos kicked the decisive late penalty."
-        - "Reuters said France claimed its record eighth title."
+        - "Approximately 3 million registered voters were eligible to participate in the election."
+        - "The government severed internet access and restricted vehicle traffic in the capital, Brazzaville."
+        - "Major opposition parties boycotted the election, citing an uneven playing field and arbitrary suspensions by the Ministry of Interior."
       why_it_matters:
-        - "It was one of the day's most prominent international sports results."
+        - "The election underscores the entrenchment of authoritarian rule in Central Africa, occurring against a backdrop of severe national debt and high youth poverty."
       uncertainty_notes: []
     actors:
       primary:
-        - "France national rugby union team"
-      secondary:
-        - "England national rugby union team"
+        - "Denis Sassou Nguesso"
+        - "Congolese Party of Labor (PCT)"
+      secondary: []
     entities:
       people:
-        - "Thomas Ramos"
-        - "Louis Bielle-Biarrey"
+        - "Denis Sassou Nguesso"
       organizations:
-        - "Six Nations Championship"
+        - "Congolese Party of Labor"
       states:
-        - "France"
-        - "England"
+        - "Republic of the Congo"
     geography:
       countries:
-        - "France"
+        - "Republic of the Congo"
       places:
-        - "Stade de France"
-        - "Paris"
+        - "Brazzaville"
       coordinates: []
     time:
       date: "2026-03-14"
@@ -1272,27 +906,506 @@ events:
       damage: null
     classification:
       event_type:
-        - "sports result"
-        - "championship"
+        - "Election"
       tags:
-        - "rugby"
+        - "Authoritarianism"
+        - "Internet blackout"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Congolese people vote to elect a president, with incumbent Denis Sassou Nguesso seeking a fifth consecutive term."
+      external:
+        - id: "src-001"
+          outlet: "Associated Press"
+          url: "https://www.courthousenews.com/republic-of-congo-votes-in-an-election-thats-expected-to-extend-incumbent-presidents-42-year-rule/"
+          publication_date: "2026-03-15"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Internet shutdown"
+            - "Traffic restricted in capital"
+            - "3 million registered voters"
+          contradicts: []
+          quoted_material_used: true
+        - id: "src-002"
+          outlet: "Africa Center for Strategic Studies"
+          url: "https://africacenter.org/spotlight/en-elections-2026/repcongo/"
+          publication_date: null
+          source_type: "Analysis"
+          reliability_tier: "high"
+          supports:
+            - "Suspension of 15 opposition parties"
+            - "42 years in power"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "Voting took place on Sunday, March 15, local time, aligning with the international news cycle covering the weekend."
+
+  - id: "evt-2026-03-14-010"
+    category: "Politics and elections"
+    subcategory: "Referendum"
+    topics:
+      - "Constitutional reform"
+    importance: null
+    headline: "Kazakhstan holds constitutional referendum to restructure government"
+    summary: >
+      Kazakhstan conducted a nationwide referendum to approve a new constitution
+      aimed at shifting the country from a super-presidential system to a presidential
+      republic with an empowered parliament. Promoted by President Kassym-Jomart Tokayev,
+      the reforms intend to decentralize executive authority and establish a unicameral
+      Parliament (Kurultai).
+    details:
+      what_happened:
+        - "Over 12.4 million citizens were eligible to vote across more than 10,400 polling stations."
+        - "The referendum proposed redistributing powers away from the presidency toward representative institutions."
+        - "The election was monitored by observers from over 30 countries and cost an estimated $42 million."
+      why_it_matters:
+        - "The reforms represent a significant institutional shift in Central Asia, attempting to modernize governance and prevent domestic unrest following previous political crises."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Kazakhstan"
+      secondary: []
+    entities:
+      people:
+        - "Kassym-Jomart Tokayev"
+      organizations:
+        - "Central Election Commission of Kazakhstan"
+      states:
+        - "Kazakhstan"
+    geography:
+      countries:
+        - "Kazakhstan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "Referendum"
+      tags:
+        - "Constitutional reform"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Kazakhstanis vote in a referendum to approve a new constitution."
+      external:
+        - id: "src-001"
+          outlet: "The Times of Central Asia"
+          url: "https://timesca.com/cost-of-holding-referendum-on-kazakhstans-new-constitution-estimated-at-42-million/"
+          publication_date: null
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "12.4 million eligible voters"
+            - "$42 million estimated cost"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "TRT World"
+          url: "https://www.trtworld.com/article/65f2dece6133"
+          publication_date: null
+          source_type: "News report"
+          reliability_tier: "medium"
+          supports:
+            - "Replacing super-presidential form of government"
+          contradicts: []
+          quoted_material_used: true
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "Vote held on March 15 local time; widely previewed and reported on March 14."
+
+  - id: "evt-2026-03-14-011"
+    category: "Disasters and accidents"
+    subcategory: "Extreme weather"
+    topics:
+      - "Floods"
+      - "Climate change"
+    importance: null
+    headline: "Flash floods in Kenya kill at least 66 people"
+    summary: >
+      Severe flash flooding caused by intense overnight rainfall across Kenya resulted
+      in the deaths of at least 66 people, with the capital city of Nairobi suffering
+      the highest casualty count. The deluge overwhelmed local drainage infrastructure
+      and rivers, sweeping away vehicles, displacing thousands of families, and
+      disrupting operations at East Africa's largest airport.
+    details:
+      what_happened:
+        - "Police and the Kenya Red Cross confirmed 66 fatalities, including 50 men, eight women, and eight children."
+        - "Nairobi was the worst-hit region, recording 33 deaths primarily from drowning and electrocution."
+        - "Over 2,000 families were displaced, and 130 children were rescued from an orphanage in southern Kenya."
+      why_it_matters:
+        - "The disaster highlights East Africa's acute vulnerability to extreme weather events exacerbated by climate change and inadequate urban infrastructure."
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary:
+        - "Kenya Red Cross Society"
+        - "National Police Service (Kenya)"
+    entities:
+      people: []
+      organizations:
+        - "Kenya Red Cross Society"
+      states:
+        - "Kenya"
+    geography:
+      countries:
+        - "Kenya"
+      places:
+        - "Nairobi"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 66
+      injured: null
+      displaced: 4845
+      arrest_count: null
+      damage: "Widespread infrastructure and residential damage in Nairobi and surrounding counties"
+    classification:
+      event_type:
+        - "Flood"
+      tags:
+        - "Natural disaster"
+        - "East Africa"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The death toll from severe flooding in Kenya rises to 66"
+      external:
+        - id: "src-001"
+          outlet: "Pulse Kenya"
+          url: "https://www.pulse.co.ke/story/kenya-floods-death-toll-rises-to-66-as-rains-continue-to-pound-nairobi-other-counties-2026031515175613517"
+          publication_date: "2026-03-15"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "66 victims including 50 men, 8 women, 8 children"
+            - "33 fatalities in Nairobi"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://wqxc.com/2026/03/14/death-toll-from-kenyan-floods-rises-to-62-police-say/"
+          publication_date: "2026-03-14"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "More than 2,000 families displaced"
+            - "Airport operations disrupted"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-012"
+    category: "Armed conflicts and attacks"
+    subcategory: "Border clash"
+    topics:
+      - "Border disputes"
+    importance: null
+    headline: "Clashes along the Durand Line leave 14 Pakistani soldiers dead"
+    summary: >
+      A severe military engagement occurred along the contested Durand Line border
+      separating Afghanistan and Pakistan. Afghan fighters assaulted and captured a
+      Pakistani military guard post in the Kunar Province, resulting in the deaths
+      of 14 Pakistani soldiers and injuring at least 11 others, marking a significant
+      deterioration in bilateral security relations.
+    details:
+      what_happened:
+        - "Afghan forces captured a Pakistani forward operating post along the border."
+        - "14 Pakistani military personnel were killed and 11 injured during the firefight."
+      why_it_matters:
+        - "The clash exacerbates existing diplomatic and security tensions between Kabul and Islamabad, threatening regional stability and cross-border trade."
+      uncertainty_notes:
+        - "Casualty figures were provided by Taliban officials; independent verification from the Pakistani military is not included in the sources."
+    actors:
+      primary:
+        - "Afghan fighters"
+        - "Pakistani Armed Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "Taliban"
+      states:
+        - "Afghanistan"
+        - "Pakistan"
+    geography:
+      countries:
+        - "Afghanistan"
+        - "Pakistan"
+      places:
+        - "Kunar Province"
+        - "Durand Line"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 14
+      injured: 11
+      displaced: null
+      arrest_count: null
+      damage: "Guard post captured"
+    classification:
+      event_type:
+        - "Border clash"
+      tags:
+        - "Durand Line"
+        - "Afghanistan-Pakistan relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "According to Taliban officials, fourteen Pakistani soldiers are killed and eleven others are injured by Afghan fighters"
+      external:
+        - id: "src-001"
+          outlet: "ACLED"
+          url: "https://acleddata.com/update/asia-pacific-overview-march-2026"
+          publication_date: null
+          source_type: "NGO report"
+          reliability_tier: "high"
+          supports:
+            - "Rising militancy triggered hostilities between Afghanistan and Pakistan"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-013"
+    category: "Politics and elections"
+    subcategory: "Local election"
+    topics:
+      - "Municipal elections"
+    importance: null
+    headline: "First round of French municipal elections tests national political trends"
+    summary: >
+      Voters across France participated in the first round of municipal elections
+      for mayors and councillors in roughly 35,000 communes. Serving as a crucial
+      political barometer ahead of the 2027 presidential election, the races were
+      closely watched to gauge the mainstream integration of the far-right National
+      Rally (RN) and the endurance of President Emmanuel Macron's centrist coalition
+      in key cities like Paris and Marseille.
+    details:
+      what_happened:
+        - "Over 904,000 candidates contested local positions across the country."
+        - "Voter turnout at 5:00 pm stood at 48.9%, lower than the 2014 benchmark."
+        - "The RN targeted victories in southern cities like Toulon, Nîmes, and Perpignan to build grassroots legitimacy."
+        - "In Paris, the race to succeed incumbent Socialist Mayor Anne Hidalgo featured a tight contest between Emmanuel Grégoire and Rachida Dati."
+      why_it_matters:
+        - "The results will dictate local governance while signaling the shifting balance of power in France's fragmented political landscape."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "French electorate"
+      secondary:
+        - "National Rally (RN)"
+        - "Socialist Party (PS)"
+        - "The Republicans (LR)"
+    entities:
+      people:
+        - "Emmanuel Grégoire"
+        - "Rachida Dati"
+        - "Marine Le Pen"
+        - "Jordan Bardella"
+      organizations: []
+      states:
         - "France"
+    geography:
+      countries:
+        - "France"
+      places:
+        - "Paris"
+        - "Marseille"
+        - "Toulon"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "Election"
+      tags:
+        - "Municipal elections"
+        - "French politics"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The first round of municipal elections is taking place in France."
+      external:
+        - id: "src-001"
+          outlet: "Associated Press"
+          url: "https://www.pbs.org/newshour/world/french-voters-head-to-polls-in-first-round-of-municipal-elections-before-2027-presidential-race"
+          publication_date: "2026-03-15"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "904,000 candidates"
+            - "Incumbent Anne Hidalgo not seeking third term"
+            - "RN targeting Toulon"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/mar/15/france-votes-local-elections-presidential-indicator"
+          publication_date: "2026-03-15"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Turnout at 48.9%"
+            - "RN targets Perpignan and Nîmes"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "Voting took place on Sunday, March 15, matching the weekend news cycle."
+
+  - id: "evt-2026-03-14-014"
+    category: "Law and crime"
+    subcategory: "Hate crime"
+    topics:
+      - "Antisemitism"
+      - "Terrorism"
+    importance: null
+    headline: "Wave of explosive attacks targets Jewish institutions in Europe"
+    summary: >
+      A targeted explosive device detonated against the exterior wall of an Orthodox
+      Jewish school in Amsterdam, causing limited damage but sparking widespread fear.
+      The attack follows similar arson and explosive incidents at synagogues in Rotterdam
+      and Liege, prompting Dutch and Belgian authorities to drastically increase security
+      around Jewish community sites amid a surge in antisemitic violence linked to the
+      Middle East conflict.
+    details:
+      what_happened:
+        - "An explosion damaged a drainage pipe and wall at a Jewish school in the Buitenveldert district of Amsterdam."
+        - "Amsterdam Mayor Femke Halsema condemned the bombing as a 'cowardly act of aggression' and stated the suspect was caught on CCTV."
+        - "Dutch police arrested four men following a separate arson and explosive attack on a synagogue in Rotterdam."
+        - "A synagogue in Liege, Belgium, was also targeted by a pre-dawn explosion."
+      why_it_matters:
+        - "The sequential attacks highlight a severe escalation in targeted violence against Jewish communities in Europe, deeply straining societal cohesion."
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary:
+        - "Dutch police"
+    entities:
+      people:
+        - "Femke Halsema"
+        - "David van Weel"
+      organizations: []
+      states:
+        - "Netherlands"
+        - "Belgium"
+    geography:
+      countries:
+        - "Netherlands"
+        - "Belgium"
+      places:
+        - "Amsterdam"
+        - "Rotterdam"
+        - "Liege"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: 4
+      damage: "Limited structural damage to school in Amsterdam and synagogues in Rotterdam and Liege"
+    classification:
+      event_type:
+        - "Bombing"
+        - "Hate crime"
+      tags:
+        - "Antisemitism"
+        - "Europe security"
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
         - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/sports/ramos-last-gasp-penalty-gives-france-six-nations-title-2026-03-14/"
+          outlet: "CBS News"
+          url: "https://www.cbsnews.com/news/jewish-school-amsterdam-attack-explosion/"
           publication_date: "2026-03-14"
-          source_type: "wire_service"
+          source_type: "News report"
           reliability_tier: "high"
           supports:
-            - "France beat England 48-46 to win the Six Nations title."
-            - "Thomas Ramos kicked the winning penalty."
+            - "Explosion at Jewish school in Amsterdam"
+            - "CCTV footage of suspect"
+            - "Liege synagogue explosion"
           contradicts: []
-          quoted_material_used: false
+          quoted_material_used: true
+        - id: "src-002"
+          outlet: "The Indian Express"
+          url: "https://indianexpress.com/article/world/amsterdam-jewish-school-explosion-antisemitism-rotterdam-liege-attacks-10581706/"
+          publication_date: "2026-03-14"
+          source_type: "News report"
+          reliability_tier: "high"
+          supports:
+            - "Four men arrested in Rotterdam"
+            - "Buitenveldert district location"
+          contradicts: []
+          quoted_material_used: true
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
@@ -1300,87 +1413,175 @@ events:
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
-      actor_identification: "high"
+      actor_identification: "low"
     related_events: []
     notes: ""
 
   - id: "evt-2026-03-14-015"
-    category: "Culture and media"
-    subcategory: "Obituary"
+    category: "Armed conflicts and attacks"
+    subcategory: "Internal conflict"
     topics:
-      - "Philosophy"
-      - "Germany"
-    importance: 0.60
-    headline: "Jürgen Habermas dies at 96"
+      - "Counter-insurgency"
+    importance: null
+    headline: "Colombian military airstrike kills 10 ELN fighters"
     summary: >
-      Reuters and AP reported that German philosopher Jürgen Habermas died at 96
-      in Starnberg, ending the life of one of the most influential intellectuals
-      in post-war Germany and modern social theory.
+      Colombian security forces executed a lethal airstrike targeting an encampment
+      of the National Liberation Army (ELN) in the Catatumbo region of Norte de
+      Santander, killing at least 10 fighters. The military escalation triggered
+      immediate retaliatory violence from the insurgent group, reflecting a severe
+      setback in the government's pursuit of a negotiated "Total Peace."
     details:
       what_happened:
-        - "Habermas died in Starnberg at age 96."
-        - "Reuters and AP both framed him as a major post-war German intellectual."
+        - "The military bombed an ELN position in Catatumbo, a major hub for coca cultivation."
+        - "The airstrike resulted in at least 10 confirmed guerrilla fatalities."
+        - "The ELN launched retaliatory attacks against state forces in the aftermath."
       why_it_matters:
-        - "His death was a major cultural and intellectual news event."
+        - "The use of aerial bombardment marks a tactical escalation by the Colombian state against the ELN, complicating ongoing peace negotiations."
       uncertainty_notes: []
     actors:
       primary:
-        - "Jürgen Habermas"
+        - "Military Forces of Colombia"
+        - "National Liberation Army (ELN)"
       secondary: []
     entities:
-      people:
-        - "Jürgen Habermas"
+      people: []
       organizations:
-        - "Suhrkamp"
+        - "National Liberation Army (ELN)"
       states:
-        - "Germany"
+        - "Colombia"
     geography:
       countries:
-        - "Germany"
+        - "Colombia"
       places:
-        - "Starnberg"
-        - "Munich"
+        - "Norte de Santander"
+        - "Catatumbo"
       coordinates: []
     time:
       date: "2026-03-14"
       time_known: false
       ongoing: false
     casualty_report:
-      killed: null
+      killed: 10
       injured: null
       displaced: null
       arrest_count: null
       damage: null
     classification:
       event_type:
-        - "death"
-        - "obituary"
+        - "Airstrike"
       tags:
-        - "philosophy"
-        - "public intellectual"
+        - "Colombia conflict"
+        - "ELN"
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
         - id: "src-001"
-          outlet: "Reuters"
-          url: "https://www.reuters.com/business/media-telecom/juergen-habermas-philosopher-dies-age-96-publisher-says-2026-03-14/"
-          publication_date: "2026-03-14"
-          source_type: "wire_service"
+          outlet: "ACLED"
+          url: "https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026"
+          publication_date: null
+          source_type: "NGO report"
           reliability_tier: "high"
           supports:
-            - "Jürgen Habermas died at 96 in Starnberg."
+            - "Airstrike on ELN in Catatumbo"
+            - "10 fighters killed"
+            - "ELN retaliation"
           contradicts: []
           quoted_material_used: false
-        - id: "src-002"
-          outlet: "AP News"
-          url: "https://apnews.com/article/juergen-habermas-dead-germany-2b541721af6cb19abfaa923359d091b5"
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-016"
+    category: "Disasters and accidents"
+    subcategory: "Transport"
+    topics:
+      - "Aviation"
+    importance: null
+    headline: "Major aviation disruptions impact airports across Australia and New Zealand"
+    summary: >
+      Airports across Oceania, including major hubs in Sydney, Melbourne, Brisbane,
+      Auckland, Wellington, and Christchurch, experienced severe operational disruptions.
+      Airlines including Qantas, Jetstar, Virgin Australia, and Air New Zealand logged
+      a combined total of 787 flight delays and 46 cancellations, leaving thousands
+      of passengers stranded and straining regional logistics.
+    details:
+      what_happened:
+        - "787 flight delays and 46 cancellations were recorded across the region's busiest airports."
+        - "Multiple major carriers were forced to adjust schedules and ground flights."
+      why_it_matters:
+        - "The scale of the disruptions highlights vulnerabilities in the highly integrated trans-Tasman aviation network, causing significant friction for local tourism and supply chains."
+      uncertainty_notes:
+        - "The exact underlying cause of the widespread simultaneous disruptions (e.g., weather, air traffic control issues) is not detailed in the available sourcing."
+    actors:
+      primary:
+        - "Qantas"
+        - "Jetstar"
+        - "Virgin Australia"
+        - "Air New Zealand"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "Qantas"
+        - "Jetstar"
+        - "Virgin Australia"
+        - "Air New Zealand"
+        - "Qatar Airways"
+      states:
+        - "Australia"
+        - "New Zealand"
+    geography:
+      countries:
+        - "Australia"
+        - "New Zealand"
+      places:
+        - "Sydney"
+        - "Melbourne"
+        - "Brisbane"
+        - "Auckland"
+        - "Wellington"
+        - "Christchurch"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "Transport disruption"
+      tags:
+        - "Aviation"
+        - "Oceania"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Travel and Tour World"
+          url: "https://www.travelandtourworld.com/news/article/hundreds-of-passengers-across-oceania-face-travel-disruption-as-airports-in-melbourne-sydney-auckland-wellington-and-more-in-australia-new-zealand-experience-787-flight-delays-and-46-cancellations-by/"
           publication_date: "2026-03-14"
-          source_type: "news_agency"
-          reliability_tier: "high"
+          source_type: "Trade outlet"
+          reliability_tier: "medium"
           supports:
-            - "Habermas was one of the most influential philosophers and public intellectuals of his era."
+            - "787 flight delays"
+            - "46 cancellations"
+            - "Airports affected"
           contradicts: []
           quoted_material_used: false
     provenance:
