@@ -22,7 +22,8 @@ But do actively check for major events that may be underrepresented in Western c
 
 PHASE 2: OUTPUT
 After research is complete, output ONE valid YAML document only.
-Do not output notes, explanation, reasoning, or prose outside the YAML.
+Output the final YAML enclosed strictly within standard markdown code blocks (```yaml ... ```). 
+Do not output any conversational text, explanations, reasoning, or prose outside of this code block.
 
 Goal:
 Produce a broad, high-confidence global snapshot of the date's most important events.
@@ -31,7 +32,7 @@ Wikipedia may be consulted, but it must not determine the final event list.
 The final event list should reflect the biggest events of the day globally.
 
 Selection rules:
-- Prefer roughly 10 to 18 events on a normal day.
+- Target 12 to 18 major events on a normal day. Do not artificially truncate the list.
 - Go above 18 only if the day is unusually dense.
 - Prefer fewer strong events over many weak ones.
 - Include war, diplomacy, politics, disasters, business, science, health, culture, and sports when they are among the day's major developments.
@@ -58,12 +59,11 @@ Fact rules:
 - Do not assign responsibility in actors.primary unless the listed sources explicitly support that attribution.
 - If sources disagree, record the disagreement briefly in uncertainty_notes or notes and lower confidence.
 
-Compression rules:
-The YAML must remain compact enough to fit in a normal model response.
-To keep it compact:
-- Keep each summary to 1 short paragraph.
-- Keep details.what_happened to 2 to 4 bullets.
-- Keep details.why_it_matters to 0 to 2 bullets.
+Depth & Formatting rules:
+To ensure comprehensive and parseable output:
+- Write a robust, substantial 1-paragraph summary. Do not over-compress.
+- Provide exactly 3 to 5 highly specific bullets in details.what_happened.
+- Provide 1 to 3 bullets in details.why_it_matters.
 - Keep uncertainty_notes brief.
 - Keep tags concise.
 - Do not add extra commentary.
@@ -177,7 +177,6 @@ Formatting rules:
 - Keep field order inside each event exactly as shown.
 - Do not omit fields.
 - Output valid YAML only.
-- Do not use markdown fences.
 
 Mandatory final checks before output:
 - Confirm the file reflects the day's biggest events globally, not just one outlet ecosystem.
@@ -185,7 +184,7 @@ Mandatory final checks before output:
 - Confirm every event is a real event.
 - Confirm every listed source directly supports the event record.
 - Confirm empty lists are used only when information is genuinely unavailable.
-- Confirm the final YAML is parseable and compact.
+- Confirm the final YAML is parseable and enclosed in markdown fences.
 
 INPUTS:
-DATE_ISO = 2026-03-13
+DATE_ISO = [insert date]

@@ -1,0 +1,229 @@
+Review and repair a YAML snapshot for a single day.
+You are not creating a new project from scratch unless the draft is unusable.
+You are auditing an existing YAML draft, correcting it, enriching it, and producing a comprehensive final version.
+This task has three phases:
+
+PHASE 1: AUDIT
+Read the draft YAML carefully and identify problems in:
+- factual support
+- source quality
+- source relevance
+- duplication
+- event selection
+- category consistency
+- attribution discipline
+- missing details or over-compression
+- YAML validity
+- schema compliance
+
+PHASE 2: VERIFY
+Conduct a targeted verification pass for the same date.
+Check whether the draft:
+- includes the day’s biggest events globally
+- overweights one outlet ecosystem or one region
+- misses major developments in Africa, East Asia, Southeast Asia, Oceania, Latin America, or other under-covered regions
+- includes weak, padded, speculative, or background-only material
+- includes events that are too minor for a broad daily snapshot
+- suffers from "LLM fatigue" (e.g., summaries are too brief, or bullet points are missing)
+
+PHASE 3: OUTPUT
+Output ONE corrected YAML document only, strictly enclosed within standard markdown code blocks (```yaml ... ```).
+Do not output commentary, reasoning, notes, or audit reports outside of these fences.
+
+Core goal:
+Produce a corrected, validated, and thoroughly enriched version of the supplied YAML draft for the date in INPUTS.
+Your job is to:
+- preserve strong events
+- remove weak events
+- add missing major events
+- repair bad sourcing
+- correct unsupported claims
+- reduce speculative framing
+- expand overly brief summaries and detail lists
+- fill supported empty fields
+- keep the final YAML parseable and high-confidence
+
+Review rules:
+
+1. Event selection
+- Keep only events that plausibly belong in a broad global snapshot of the day.
+- Remove events that are too weak, too speculative, too local, too thinly sourced, or clearly less important than omitted major events.
+- Add missing major events if they are clearly important and can be supported well.
+- Target roughly 12 to 18 events on a normal day unless the day clearly justifies more.
+
+2. Source discipline
+- Prefer 2 to 5 direct, high-confidence sources per event.
+- 1 source is allowed only if it is a highly credible original report or official primary source.
+- Remove background articles, older contextual pieces, explainers, low-value adjacent links, and sources that do not directly support a claim in the event record.
+- If a source supports only background context and not the event itself, remove it.
+- Prefer Reuters, AP, AFP, BBC, strong national outlets, strong local or regional outlets near the event, official releases, court or election records, UN or NGO material, and specialist trade or subject-matter outlets when directly relevant.
+- Do not keep Wikipedia as an external source.
+- If Wikipedia is referenced at all, it may appear only in `sources.wikipedia_portal`, never as a substitute for proper external verification.
+
+3. Fact discipline
+- Remove or rewrite any claim that is not directly supported by at least one listed source.
+- Do not let summaries overstate attribution, casualty counts, motives, responsibility, or outcomes.
+- Do not assign responsibility in `actors.primary` unless the listed sources explicitly support that attribution.
+- If attribution is suspected but not firmly supported, move it to `actors.secondary`, `uncertainty_notes`, or remove it.
+- If sources disagree, preserve the disagreement briefly in `uncertainty_notes` or `notes` and lower confidence.
+
+4. Detail & Depth
+- Ensure each summary is a robust, substantial paragraph. Reverse any over-compression from the draft.
+- Ensure `details.what_happened` contains 3 to 5 highly specific bullets. Expand them if the draft is too sparse.
+- Ensure `details.why_it_matters` contains 1 to 3 bullets.
+- Keep `details.uncertainty_notes` brief.
+- Keep tags concise.
+- Remove padded prose, repeated facts, and inflated editorial language, but prefer detailed precision over aggressive brevity.
+
+5. Empty fields
+- Fill list fields when the information is clearly supported.
+- Leave [] only when the information is genuinely unavailable or too uncertain.
+- Use null for unknown scalar values.
+- Do not invent filler to avoid empty lists.
+
+6. Global balance
+- Actively verify whether the draft overlooked major developments in:
+  - North America
+  - Latin America and the Caribbean
+  - Europe
+  - Middle East and North Africa
+  - Sub-Saharan Africa
+  - South Asia
+  - East Asia
+  - Southeast Asia
+  - Oceania
+- Do not force equal representation.
+- Do not add weak events just to fill regions.
+- But do correct obvious regional blind spots if major events were missed.
+
+7. YAML and schema integrity
+- Preserve the schema exactly.
+- Preserve top-level field order exactly.
+- Preserve field order inside each event exactly.
+- Ensure all IDs are sequential and valid.
+- Ensure the final YAML is parseable.
+
+Use these broad categories when applicable:
+- Armed conflicts and attacks
+- International relations
+- Politics and elections
+- Law and crime
+- Business and economy
+- Science and technology
+- Health
+- Environment
+- Society and civil unrest
+- Culture and media
+- Sports
+- Disasters and accidents
+
+Output only this schema and keep field order exactly as shown:
+
+date: "DATE_ISO"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+events:
+  - id: "evt-DATE_ISO-001"
+    category: ""
+    subcategory: null
+    topics: []
+    importance: null
+    headline: ""
+    summary: >
+      ...
+    details:
+      what_happened: []
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "DATE_ISO"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type: []
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: ""
+          url: null
+          publication_date: null
+          source_type: ""
+          reliability_tier: ""
+          supports: []
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+
+Formatting rules:
+- Replace DATE_ISO everywhere with the ISO date from INPUTS.
+- Renumber event IDs sequentially in final order: evt-DATE_ISO-001, evt-DATE_ISO-002, etc.
+- Renumber source IDs sequentially within each event: src-001, src-002, etc.
+- Keep top-level field order exactly as shown.
+- Keep field order inside each event exactly as shown.
+- Do not omit fields.
+- Output valid YAML only.
+
+Mandatory final checks before output:
+- Confirm every retained event is a real event and belongs in a broad global daily snapshot.
+- Confirm every summary claim is supported by at least one listed source.
+- Confirm every listed source directly supports something in that event record.
+- Confirm padded or background-only sources were removed.
+- Confirm unsupported attribution was removed or downgraded.
+- Confirm empty lists are used only when information is genuinely unavailable.
+- Confirm Africa, East Asia, Southeast Asia, and Oceania were actively checked for missing major developments.
+- Confirm the final YAML is parseable, sufficiently detailed, and enclosed in markdown fences.
+
+INPUTS:
+DATE_ISO = [insert date]
+
+DRAFT_YAML_START
+[paste draft YAML here]
+DRAFT_YAML_END

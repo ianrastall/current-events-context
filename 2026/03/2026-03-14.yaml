@@ -3,7 +3,6 @@ source_page:
   portal: null
   language: "en"
   wikipedia_revision_id: null
-
 dataset:
   schema_version: "2.1"
   compiler:
@@ -13,185 +12,251 @@ dataset:
   scope:
     seed_source: "Broad global news sweep"
     enrichment_sources_expected: true
-
 editorial_policy:
   summary_style: "factual"
   allow_inference: false
   require_source_support: true
-
 events:
   - id: "evt-2026-03-14-001"
     category: "Armed conflicts and attacks"
-    subcategory: null
+    subcategory: "Airstrikes"
     topics:
-      - "Military strikes"
-      - "Asymmetric warfare"
-    importance: null
-    headline: "U.S. forces strike Kharg Island military sites as Iran retaliates across the Middle East"
+      - "Military Escalation"
+      - "Industrial Targeting"
+    importance: 9
+    headline: "Allied Airstrike Targets Industrial Facility in Isfahan, Iran"
     summary: >
-      The U.S. military conducted large-scale precision strikes on Iranian military
-      targets on Kharg Island, destroying radar and missile storage sites while
-      deliberately sparing crude oil export infrastructure. In retaliation, Iran and
-      aligned militias launched a widespread wave of drones and missiles, damaging
-      U.S. aerial refueling planes in Saudi Arabia, striking near a U.S. embassy
-      compound in Baghdad, and targeting financial and energy hubs in the UAE and Bahrain.
+      Allied military aircraft from the United States and Israel conducted a precision airstrike on an industrial complex in Isfahan, central Iran. The facility, described by Iranian state media as an HVAC manufacturing plant but suspected of housing dual-use capabilities for IRGC drone and missile production, was operating during normal business hours. The strike resulted in the deaths of at least 15 civilian workers. Iranian authorities swiftly condemned the attack, attributing the bombardment to US and Israeli forces.
     details:
       what_happened:
-        - "U.S. Central Command struck naval mine and missile storage facilities on Kharg Island, aiming to degrade Iran's ability to threaten the Strait of Hormuz."
-        - "An Iranian drone strike penetrated Prince Sultan Air Base in Saudi Arabia, damaging five U.S. aerial refueling tankers."
-        - "A drone impacted a helipad inside the U.S. Embassy compound in Baghdad, prompting urgent evacuation warnings for American citizens."
-        - "Iranian drones targeted Citibank buildings in Dubai and Manama, while intercepted debris caused fires at the Fujairah oil terminal in the UAE."
+        - "US and Israeli military aircraft executed a precision airstrike on an industrial complex in Isfahan, Iran."
+        - "The targeted facility was officially described by state media as an HVAC equipment manufacturing plant."
+        - "At least 15 civilian workers present inside the factory were killed in the bombardment."
+        - "Iranian authorities condemned the strike, blaming the US and Israel."
       why_it_matters:
-        - "The direct exchange of strikes marks a severe escalation in state-on-state conflict, threatening U.S. military assets and regional stability."
-        - "While oil infrastructure was spared, the geographic spread of Iran's retaliation underscores its capability to strike U.S. allies and commercial interests across the Gulf."
+        - "Marks a significant expansion of the allied air campaign targeting Iran's dual-use economic and logistical infrastructure."
+        - "The civilian casualties provide the Iranian regime with leverage to consolidate domestic support and justify retaliatory measures."
       uncertainty_notes:
-        - "The exact extent of damage to U.S. assets in Saudi Arabia is disputed by differing official accounts."
+        - "The exact military or dual-use capacity of the targeted HVAC facility remains unverified by independent inspectors."
     actors:
       primary:
         - "United States Armed Forces"
-        - "Islamic Revolutionary Guard Corps (IRGC)"
+        - "Israel Defense Forces"
       secondary:
-        - "Iran-aligned militias"
+        - "Islamic Revolutionary Guard Corps (IRGC)"
     entities:
-      people:
-        - "Donald Trump"
-      organizations:
-        - "U.S. Central Command (CENTCOM)"
-        - "U.S. State Department"
+      people: []
+      organizations: []
       states:
         - "United States"
+        - "Israel"
         - "Iran"
-        - "Saudi Arabia"
-        - "Iraq"
-        - "United Arab Emirates"
-        - "Kuwait"
-        - "Bahrain"
     geography:
       countries:
         - "Iran"
-        - "Saudi Arabia"
-        - "Iraq"
-        - "United Arab Emirates"
       places:
-        - "Kharg Island"
-        - "Baghdad"
-        - "Prince Sultan Air Base"
-        - "Fujairah"
+        - "Isfahan"
       coordinates: []
     time:
       date: "2026-03-14"
       time_known: false
       ongoing: true
     casualty_report:
-      killed: null
+      killed: 15
       injured: null
       displaced: null
       arrest_count: null
-      damage: "Multiple military aircraft damaged; radar and missile storage destroyed"
+      damage: "Severe structural damage to industrial complex"
     classification:
       event_type:
-        - "Airstrike"
-        - "Military operation"
+        - "Military Operation"
       tags:
-        - "Middle East War"
-        - "US-Iran conflict"
+        - "Airstrike"
+        - "Isfahan"
+        - "IRGC"
     sources:
       wikipedia_portal:
-        included: true
-        text_fragment: "Five U.S. warplanes are damaged in an Iranian drone strike on Prince Sultan Air Base"
+        included: false
+        text_fragment: null
       external:
         - id: "src-001"
-          outlet: "Institute for the Study of War"
-          url: "[https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/](https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/)"
+          outlet: "Fars News Agency"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "NGO report"
-          reliability_tier: "high"
+          source_type: "news_report"
+          reliability_tier: "state_affiliated"
           supports:
-            - "U.S. strikes on Kharg Island"
-            - "Damage to radar and missile storage"
+            - "Facility description"
+            - "Casualty count"
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "Radio Free Europe/Radio Liberty"
-          url: "[https://www.rferl.org/a/iran-israel-usa-war-homuz-strait-attacks-drones-missiles-energy/33706576.html](https://www.rferl.org/a/iran-israel-usa-war-homuz-strait-attacks-drones-missiles-energy/33706576.html)"
+          outlet: "Reuters"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
+          source_type: "news_report"
           reliability_tier: "high"
           supports:
-            - "Drone strike on U.S. Embassy in Baghdad"
-            - "Fujairah oil terminal fire"
+            - "Occurrence of airstrike"
+            - "Location"
           contradicts: []
           quoted_material_used: false
-        - id: "src-003"
-          outlet: "The Hindu"
-          url: "[https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-14-2026-live-updates/article70742182.ece](https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-14-2026-live-updates/article70742182.ece)"
-          publication_date: "2026-03-14"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "U.S. Embassy evacuation warning"
-            - "Kharg oil exports continue normally"
-          contradicts: []
-          quoted_material_used: true
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
-      last_reviewed_by: null
+      last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - "evt-2026-03-14-002"
     notes: ""
 
   - id: "evt-2026-03-14-002"
-    category: "Business and economy"
-    subcategory: "Energy"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
     topics:
-      - "Oil markets"
-      - "Maritime security"
-    importance: null
-    headline: "Strait of Hormuz blockade triggers global oil shock as traffic collapses"
+      - "Energy Security"
+      - "Maritime Trade"
+    importance: 9
+    headline: "Iranian Drone Strikes Target UAE Bunkering Hub and Kuwaiti Air Base"
     summary: >
-      The ongoing Iranian blockade of the Strait of Hormuz has severely disrupted
-      global energy markets, reducing daily maritime traffic through the chokepoint
-      from an average of 138 vessels to just two. The disruption has pushed Brent
-      crude oil prices above $100 per barrel, prompting Japan to authorize a historic
-      release of 80 million barrels from its strategic reserves to stabilize the market.
+      Iranian forces launched coordinated drone and missile strikes against critical installations in the United Arab Emirates and Kuwait. In the UAE, a pre-dawn drone strike penetrated air defenses to hit the Fujairah Oil Industry Zone, igniting storage tanks and suspending marine fuel operations at the global bunkering hub. Concurrently, hostile drones targeted the Ahmad al-Jaber Air Base in Kuwait; while Kuwaiti defenses intercepted three drones, two breached the perimeter, causing material damage and minor injuries to three military personnel. The attacks have severely disrupted maritime navigation in the Gulf of Oman, pushing global crude oil prices above $100 per barrel.
     details:
       what_happened:
-        - "Iranian naval mines and the threat of missile strikes effectively closed the Strait of Hormuz to commercial shipping."
-        - "Global oil prices surged, with Brent crude reaching between $99 and $103 per barrel."
-        - "Japan announced the largest release of strategic oil reserves in its history to counter the supply disruption."
+        - "A pre-dawn drone strike targeted the Fujairah Oil Industry Zone in the UAE, igniting storage tanks."
+        - "Hostile drones penetrated Kuwaiti airspace, targeting the Ahmad al-Jaber Air Base."
+        - "Kuwaiti interception systems destroyed three drones, but two breached the perimeter."
+        - "Three Kuwaiti Armed Forces personnel sustained minor injuries during the air base attack."
+        - "Global crude oil prices surged past $100 per barrel amid disruptions to maritime transit."
       why_it_matters:
-        - "The blockade affects nearly 20% of the world's oil supply, threatening to reignite global inflation and strain net-importing economies in Europe and Asia."
+        - "Demonstrates Iran's capacity to bypass regional air defense grids and threaten critical GCC infrastructure."
+        - "The disruption of Fujairah paralyzes regional marine fuel supply chains and severely impacts global energy markets."
       uncertainty_notes: []
     actors:
       primary:
-        - "Iran"
+        - "Islamic Republic of Iran Armed Forces"
       secondary:
-        - "Japan"
-        - "United States"
+        - "Kuwaiti Armed Forces"
+        - "UAE Air Defenses"
     entities:
       people: []
-      organizations:
-        - "United Kingdom Maritime Trade Operations (UKMTO)"
+      organizations: []
       states:
         - "Iran"
-        - "Japan"
-        - "United States"
+        - "United Arab Emirates"
+        - "Kuwait"
     geography:
       countries:
-        - "Iran"
-        - "Oman"
-        - "Japan"
+        - "United Arab Emirates"
+        - "Kuwait"
       places:
-        - "Strait of Hormuz"
+        - "Fujairah"
+        - "Ahmad al-Jaber Air Base"
       coordinates: []
     time:
       date: "2026-03-14"
       time_known: false
       ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 3
+      displaced: null
+      arrest_count: null
+      damage: "Storage tanks ignited in UAE; material damage to Kuwaiti air base"
+    classification:
+      event_type:
+        - "Military Operation"
+      tags:
+        - "Drone Strike"
+        - "Oil Markets"
+        - "Gulf of Oman"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Kuwaiti Ministry of Defence"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "Air base attack"
+            - "Interception details"
+            - "Casualties"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "Fujairah strike"
+            - "Oil price surge"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-001"
+    notes: ""
+
+  - id: "evt-2026-03-14-003"
+    category: "Business and economy"
+    subcategory: "International Trade"
+    topics:
+      - "Energy Policy"
+      - "Supply Chain Resiliency"
+    importance: 8
+    headline: "US and Allies Finalize $57 Billion in Energy and Mineral Agreements in Tokyo"
+    summary: >
+      The United States and several Asia-Pacific allies formalized 22 commercial agreements valued at $57 billion during the inaugural Indo-Pacific Energy Security Ministerial and Business Forum in Tokyo. The deals cover long-term commitments in LNG, crude oil, nuclear power, and critical mineral supply chains. The agreements aim to reduce the reliance of major Asian economies, including Japan, South Korea, and Thailand, on Middle Eastern energy and Chinese mineral monopolies. During the summit, Japan pledged $550 billion in broader US investments by 2029 to secure supply chain continuity.
+    details:
+      what_happened:
+        - "The Indo-Pacific Energy Security Ministerial and Business Forum was held in Tokyo."
+        - "US and allied officials finalized 22 commercial agreements valued at a cumulative $57 billion."
+        - "Agreements focused on LNG, crude oil, nuclear technology, and critical minerals."
+        - "Japan committed to a memorandum of understanding with Washington to finance strategic infrastructure."
+        - "Japan pledged $550 billion in broader US investments by 2029."
+      why_it_matters:
+        - "Accelerates the geoeconomic decoupling of key Asian economies from Middle Eastern hydrocarbons."
+        - "Aims to break monopolistic control over critical minerals required for advanced manufacturing and defense."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Government"
+        - "Government of Japan"
+      secondary: []
+    entities:
+      people:
+        - "Doug Burgum"
+      organizations: []
+      states:
+        - "United States"
+        - "Japan"
+        - "South Korea"
+        - "Thailand"
+    geography:
+      countries:
+        - "Japan"
+      places:
+        - "Tokyo"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
     casualty_report:
       killed: null
       injured: null
@@ -200,193 +265,75 @@ events:
       damage: null
     classification:
       event_type:
-        - "Blockade"
-        - "Economic shock"
+        - "Summit"
+        - "Economic Agreement"
       tags:
-        - "Oil crisis"
-        - "Strait of Hormuz"
+        - "Energy Security"
+        - "Indo-Pacific"
+        - "Supply Chains"
     sources:
       wikipedia_portal:
-        included: true
-        text_fragment: "Japan announces it will start releasing 80 million barrels of oil from its reserves"
+        included: false
+        text_fragment: null
       external:
         - id: "src-001"
-          outlet: "IndraStra Global"
-          url: "[https://www.indrastra.com/2026/03/escalating-middle-east-tensions-cloud.html](https://www.indrastra.com/2026/03/escalating-middle-east-tensions-cloud.html)"
+          outlet: "Reuters"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "Analysis"
+          source_type: "news_report"
           reliability_tier: "high"
           supports:
-            - "Oil prices exceeding $100 per barrel"
-            - "Strait of Hormuz de facto closure"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "Institute for the Study of War"
-          url: "[https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/](https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/)"
-          publication_date: "2026-03-14"
-          source_type: "NGO report"
-          reliability_tier: "high"
-          supports:
-            - "Vessel traffic dropping from 138 to 2"
+            - "Summit location"
+            - "Deal valuation"
+            - "Investment pledges"
           contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
-      last_reviewed_by: null
+      last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-14-003"
-    category: "Armed conflicts and attacks"
-    subcategory: null
-    topics:
-      - "Ground invasion preparations"
-      - "Healthcare attacks"
-    importance: null
-    headline: "Israel prepares to expand Lebanon ground offensive as strikes kill 14 health workers"
-    summary: >
-      Israeli and U.S. officials confirmed plans for the Israel Defense Forces to
-      significantly expand ground operations in southern Lebanon to dismantle Hezbollah
-      infrastructure south of the Litani River. The escalation coincides with a record
-      43 attacks claimed by Hezbollah in 24 hours and a severe humanitarian toll,
-      including the deaths of 14 health workers in southern Lebanon, prompting the
-      WHO to release emergency funds.
-    details:
-      what_happened:
-        - "The IDF deployed additional divisions, tank transporters, and engineering battalions to the northern border for an expanded maneuver."
-        - "Hezbollah claimed 43 attacks against Israeli forces and northern towns, marking the highest volume since the war began."
-        - "The WHO reported 14 health workers killed in Lebanon over the past 24 hours, including 12 doctors in a strike on a primary healthcare center."
-      why_it_matters:
-        - "An expanded ground offensive risks a prolonged, attritional war in southern Lebanon, exacerbating mass civilian displacement."
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Israel Defense Forces (IDF)"
-        - "Hezbollah"
-      secondary:
-        - "World Health Organization (WHO)"
-    entities:
-      people:
-        - "Tedros Adhanom Ghebreyesus"
-      organizations:
-        - "Israel Defense Forces"
-        - "Hezbollah"
-        - "World Health Organization"
-      states:
-        - "Israel"
-        - "Lebanon"
-    geography:
-      countries:
-        - "Lebanon"
-        - "Israel"
-      places:
-        - "Southern Lebanon"
-        - "Litani River"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 14
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: "Destruction of medical facilities and residential buildings in southern Lebanon"
-    classification:
-      event_type:
-        - "Military mobilization"
-        - "Airstrike"
-      tags:
-        - "Lebanon War"
-        - "IDF"
-        - "Hezbollah"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "Israel and Lebanon are expected to hold direct talks"
-      external:
-        - id: "src-001"
-          outlet: "Institute for the Study of War"
-          url: "[https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/](https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/)"
-          publication_date: "2026-03-14"
-          source_type: "NGO report"
-          reliability_tier: "high"
-          supports:
-            - "IDF expanding ground campaign"
-            - "Hezbollah's 43 attacks"
-          contradicts: []
-          quoted_material_used: true
-        - id: "src-002"
-          outlet: "UN News"
-          url: "[https://news.un.org/en/story/2026/03/1167136](https://news.un.org/en/story/2026/03/1167136)"
-          publication_date: "2026-03-14"
-          source_type: "Official release"
-          reliability_tier: "high"
-          supports:
-            - "14 health workers killed"
-            - "WHO releases emergency funds"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events: []
+    related_events:
+      - "evt-2026-03-14-002"
     notes: ""
 
   - id: "evt-2026-03-14-004"
     category: "Armed conflicts and attacks"
-    subcategory: null
+    subcategory: "Weapons testing"
     topics:
-      - "Missile tests"
-      - "Military drills"
-    importance: null
-    headline: "North Korea fires over 10 ballistic missiles during US-South Korea military drills"
+      - "Ballistic Missiles"
+      - "Deterrence"
+    importance: 7
+    headline: "North Korea Test-Fires 12 KN-25 Rocket Artillery Shells into Sea of Japan"
     summary: >
-      North Korea launched more than 10 short-range ballistic missiles from the
-      Sunan area near Pyongyang into the sea off its east coast. The massed launch
-      occurured during the annual "Freedom Shield" joint military exercises conducted
-      by the United States and South Korea, drawing immediate condemnation from Seoul
-      as a severe provocation.
+      The Korean People's Army conducted a firepower strike drill, launching 12 KN-25 600mm rocket artillery shells from the Sunan area near Pyongyang. Supervised by Chairman Kim Jong Un, the munitions traveled an estimated 350 kilometers before impacting the Sea of Japan. The state-run KCNA characterized the drill as a strategic warning in response to joint US-South Korean military exercises, demonstrating North Korea's maturing capability to deploy highly mobile, solid-fuel tactical delivery systems capable of overwhelming allied missile defenses.
     details:
       what_happened:
-        - "The missiles were fired at approximately 1:20 pm local time, flying roughly 350 kilometers before landing in the sea."
-        - "The projectiles fell outside of Japan's exclusive economic zone, according to the Japanese coast guard."
-        - "South Korean and U.S. intelligence agencies immediately began analyzing the capabilities of the launched missiles."
+        - "North Korea launched 12 KN-25 600mm rocket artillery shells from the Sunan area."
+        - "The munitions traveled roughly 350 kilometers and impacted the Sea of Japan."
+        - "Chairman Kim Jong Un directly supervised the firepower strike drill."
+        - "South Korean defense officials initially tracked the launches as short-range ballistic missiles."
+        - "KCNA issued statements framing the drill as a warning against US-South Korean military exercises."
       why_it_matters:
-        - "The launches demonstrate North Korea's continued advancement of its ballistic missile program and serve as an asymmetric response to perceived threats from U.S.-led military exercises."
+        - "Demonstrates Pyongyang's growing capability to execute rapid, simultaneous barrages designed to overwhelm THAAD and Patriot interceptors."
+        - "Blurs the traditional demarcation between conventional artillery and tactical ballistic missiles in the region."
       uncertainty_notes: []
     actors:
       primary:
-        - "North Korea"
-      secondary:
-        - "South Korea"
-        - "United States"
-        - "Japan"
+        - "Korean People's Army"
+      secondary: []
     entities:
-      people: []
-      organizations:
-        - "South Korean Joint Chiefs of Staff"
+      people:
+        - "Kim Jong Un"
+      organizations: []
       states:
         - "North Korea"
-        - "South Korea"
-        - "United States"
-        - "Japan"
     geography:
       countries:
         - "North Korea"
-        - "South Korea"
         - "Japan"
       places:
         - "Sunan"
@@ -394,51 +341,53 @@ events:
       coordinates: []
     time:
       date: "2026-03-14"
-      time_known: true
+      time_known: false
       ongoing: false
     casualty_report:
-      killed: 0
-      injured: 0
-      displaced: 0
-      arrest_count: 0
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
       damage: null
     classification:
       event_type:
-        - "Missile test"
+        - "Military Exercise"
       tags:
-        - "Ballistic missiles"
-        - "Korean Peninsula"
+        - "Missile Test"
+        - "KN-25"
+        - "DPRK"
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
         - id: "src-001"
-          outlet: "The Diplomatic Insight"
-          url: "[https://thediplomaticinsight.com/north-korea-dires-missiles-us-south-korea-drills/](https://thediplomaticinsight.com/north-korea-dires-missiles-us-south-korea-drills/)"
+          outlet: "Korean Central News Agency (KCNA)"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
-          reliability_tier: "high"
+          source_type: "official_release"
+          reliability_tier: "state_affiliated"
           supports:
-            - "Launch of over 10 ballistic missiles"
-            - "Missiles fired from Sunan area"
-            - "Coincided with Freedom Shield drills"
+            - "Supervision by Kim Jong Un"
+            - "Number of munitions fired"
+            - "Strategic messaging"
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "Al Jazeera"
-          url: "[https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills](https://www.aljazeera.com/news/2026/3/14/north-korea-fires-ballistic-missiles-as-us-south-korea-hold-military-drills)"
+          outlet: "South Korean Defense Ministry"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
+          source_type: "official_release"
           reliability_tier: "high"
           supports:
-            - "Missiles landed outside Japan's EEZ"
+            - "Flight distance"
+            - "Launch location"
           contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
-      last_reviewed_by: null
+      last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
@@ -447,145 +396,41 @@ events:
     notes: ""
 
   - id: "evt-2026-03-14-005"
-    category: "Disasters and accidents"
-    subcategory: "Extreme weather"
+    category: "Science and technology"
+    subcategory: "Defense Technology"
     topics:
-      - "Storms"
-      - "Wildfires"
-    importance: null
-    headline: "Severe winter storm leaves hundreds of thousands without power and fuels deadly wildfires in the U.S."
+      - "Artificial Intelligence"
+      - "Military Procurement"
+    importance: 7
+    headline: "US Army Awards $20 Billion Enterprise Contract to Anduril Industries"
     summary: >
-      A massive storm system swept across the United States, bringing blizzard
-      conditions to the Midwest and high winds that left over 346,000 customers
-      without power in Ohio, Pennsylvania, and Michigan. The system's dry line
-      simultaneously fueled fast-moving wildfires in Nebraska that resulted in at
-      least one fatality, affecting nearly 200 million Americans across multiple
-      hazard zones.
+      The United States Army awarded a transformative 10-year enterprise contract, with a maximum potential value of $20 billion, to defense technology firm Anduril Industries. The sweeping agreement aims to consolidate over 120 disparate procurement actions into a single framework to implement and scale Anduril's AI-enabled 'Lattice' software platform. The system is designed to provide unified command, control, and counter-unmanned aerial systems (C-UAS) interoperability, reflecting a major DoD shift toward Silicon Valley development models and rapid software integration.
     details:
       what_happened:
-        - "High winds knocked out power to over 346,000 customers in Ohio, Pennsylvania, and Michigan."
-        - "The dry line of the storm fueled numerous wildfires across Nebraska's grasslands, killing one person and forcing evacuations."
-        - "The system dumped heavy snow and brought blizzard conditions to the upper Midwest, paralyzing transportation networks."
+        - "The US Army Contracting Command awarded a 10-year enterprise contract to Anduril Industries."
+        - "The contract has a maximum potential valuation of up to $20 billion over its lifespan."
+        - "The agreement consolidates over 120 pre-existing DoD procurement actions."
+        - "The core deliverable is the scaling of the AI-enabled 'Lattice' software platform for unified command and control."
       why_it_matters:
-        - "The multi-hazard nature of the storm strained emergency response capabilities across a vast geographic area."
-      uncertainty_notes: []
-    actors:
-      primary: []
-      secondary: []
-    entities:
-      people: []
-      organizations:
-        - "National Weather Service"
-      states:
-        - "United States"
-    geography:
-      countries:
-        - "United States"
-      places:
-        - "Nebraska"
-        - "Ohio"
-        - "Pennsylvania"
-        - "Michigan"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 1
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: "Widespread power outages and property destruction from wildfires and winds"
-    classification:
-      event_type:
-        - "Severe storm"
-        - "Wildfire"
-      tags:
-        - "Extreme weather"
-        - "Bomb cyclone"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Associated Press"
-          url: "[https://www.2news.com/news/national/high-winds-cause-power-outages-property-damage-and-at-least-1-death-as-wild-march/article_83f27bad-8386-58ee-84d1-41f00c136ca6.html](https://www.2news.com/news/national/high-winds-cause-power-outages-property-damage-and-at-least-1-death-as-wild-march/article_83f27bad-8386-58ee-84d1-41f00c136ca6.html)"
-          publication_date: "2026-03-14"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "Power outages affecting 346,000"
-            - "Nebraska wildfire death"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "The Guardian"
-          url: "[https://www.theguardian.com/us-news/2026/mar/15/snow-wind-winter-storm-thunder-tornadoes](https://www.theguardian.com/us-news/2026/mar/15/snow-wind-winter-storm-thunder-tornadoes)"
-          publication_date: "2026-03-15"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "Affecting nearly 200 million people"
-            - "Blizzard conditions in Midwest"
-          contradicts: []
-          quoted_material_used: true
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-14-006"
-    category: "Business and economy"
-    subcategory: "Energy"
-    topics:
-      - "Renewable energy"
-      - "Offshore wind"
-    importance: null
-    headline: "First large-scale U.S. offshore wind projects achieve major operational milestones"
-    summary: >
-      The U.S. offshore wind industry reached a historic milestone as construction
-      was completed on the Vineyard Wind project off the coast of Massachusetts,
-      and the nearby Revolution Wind project delivered its first electricity to the
-      New England grid. The facilities are expected to provide clean power to hundreds
-      of thousands of homes, bolstering regional energy security.
-    details:
-      what_happened:
-        - "Workers installed the final turbine blades on Vineyard Wind, a 62-turbine, 800-megawatt project capable of powering 400,000 homes."
-        - "Revolution Wind, located off Rhode Island, successfully transmitted its first power to the grid."
-        - "The milestones mark the realization of the first utility-scale offshore wind farms in the United States."
-      why_it_matters:
-        - "The projects significantly reduce New England's reliance on expensive fossil gas imports during winter demand peaks."
+        - "Validates the Silicon Valley model of rapid, vertically integrated defense tech development over traditional hardware-centric prime contractors."
+        - "Aims to drastically accelerate the fielding of critical counter-drone software to deployed forces."
       uncertainty_notes: []
     actors:
       primary:
-        - "Vineyard Wind"
-        - "Revolution Wind"
-      secondary:
-        - "Avangrid"
-        - "Copenhagen Infrastructure Partners"
-        - "Ørsted"
+        - "United States Army"
+        - "Anduril Industries"
+      secondary: []
     entities:
-      people: []
+      people:
+        - "Gabe Chiulli"
       organizations:
-        - "Union of Concerned Scientists"
-        - "Oceantic Network"
+        - "U.S. Army Contracting Command"
       states:
         - "United States"
     geography:
       countries:
         - "United States"
-      places:
-        - "Massachusetts"
-        - "Rhode Island"
-        - "Martha's Vineyard"
+      places: []
       coordinates: []
     time:
       date: "2026-03-14"
@@ -599,41 +444,43 @@ events:
       damage: null
     classification:
       event_type:
-        - "Infrastructure completion"
+        - "Contract Award"
       tags:
-        - "Offshore wind"
-        - "Clean energy"
+        - "Defense Procurement"
+        - "Artificial Intelligence"
+        - "Counter-UAS"
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
         - id: "src-001"
-          outlet: "WBUR"
-          url: "[https://www.capeandislands.org/2026-03-14/vineyard-wind-countrys-first-large-scale-offshore-wind-project-finishes-construction](https://www.capeandislands.org/2026-03-14/vineyard-wind-countrys-first-large-scale-offshore-wind-project-finishes-construction)"
+          outlet: "U.S. Department of Defense"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
+          source_type: "official_release"
           reliability_tier: "high"
           supports:
-            - "Vineyard Wind finishes construction"
-            - "Revolution Wind sends first power to grid"
+            - "Contract valuation"
+            - "Contractor identity"
+            - "Technology scope"
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "PBS NewsHour"
-          url: "[https://www.pbs.org/newshour/nation/construction-finishes-on-a-major-massachusetts-offshore-wind-farm-the-first-during-trumps-time-in-office](https://www.pbs.org/newshour/nation/construction-finishes-on-a-major-massachusetts-offshore-wind-farm-the-first-during-trumps-time-in-office)"
+          outlet: "Defense News"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
+          source_type: "news_report"
           reliability_tier: "high"
           supports:
-            - "800 megawatts generation capacity"
-            - "Political context involving Trump administration"
+            - "Consolidation of procurement actions"
+            - "Strategic implications"
           contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
-      last_reviewed_by: null
+      last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
@@ -641,37 +488,731 @@ events:
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-007"
-    category: "Politics and elections"
-    subcategory: "National election"
+  - id: "evt-2026-03-14-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Border Clash"
     topics:
-      - "Legislative elections"
-    importance: null
-    headline: "Vietnam holds nationwide elections for the 16th National Assembly"
+      - "Border Security"
+      - "Bilateral Tensions"
+    importance: 8
+    headline: "Taliban Forces Overrun Pakistani Military Post in Deadly Border Escalation"
     summary: >
-      Approximately 73.5 million voters in Vietnam cast ballots to elect 500 members
-      to the 16th National Assembly and local People's Councils for the 2026–2031 term.
-      The elections, strictly managed by the ruling Communist Party of Vietnam and the
-      Fatherland Front, are a procedural mechanism to validate the leadership mandates
-      decided at the prior Party Congress, including that of General Secretary Tô Lâm.
+      Taliban defense forces launched a highly coordinated retaliatory offensive against Pakistani military positions along the Durand Line in the Kunar and Nangarhar provinces. The Taliban claims the assault resulted in the deaths of 14 Pakistani soldiers and the capture of a sovereign military guard post. The Taliban justified the operation as retaliation for heavy Pakistani cross-border artillery fire that reportedly injured three Afghan civilians. The government in Islamabad strongly dismissed the Taliban's casualty claims regarding dead soldiers as baseless propaganda.
     details:
       what_happened:
-        - "Voters selected from candidates vetted by the Vietnam Fatherland Front across 184 multi-member constituencies."
-        - "The newly elected National Assembly will convene in April to formally appoint the President and Prime Minister."
-        - "Early voting was conducted for maritime workers and personnel in island regions."
+        - "Taliban forces launched an offensive against Pakistani military positions in border regions."
+        - "Taliban units overran and captured a Pakistani military guard post, destroying an armored tank."
+        - "The Taliban Defence Ministry claimed 14 Pakistani soldiers were killed and 11 wounded."
+        - "Taliban officials accused Pakistan of firing over 271 artillery shells into civilian areas prior to the assault."
+        - "Pakistan's Information Ministry dismissed the casualty claims as propaganda."
       why_it_matters:
-        - "The election cements the political continuity of the Communist Party and solidifies Tô Lâm's consolidation of power within the state apparatus."
+        - "Signals a total collapse of bilateral border management between Afghanistan and Pakistan."
+        - "Highlights the failure of recent diplomatic mediation efforts by regional actors like China and Turkey."
+      uncertainty_notes:
+        - "The casualty figures for Pakistani forces are highly disputed, with Islamabad officially denying the Taliban's claim of 14 dead soldiers."
+    actors:
+      primary:
+        - "Taliban Armed Forces"
+        - "Pakistan Armed Forces"
+      secondary: []
+    entities:
+      people:
+        - "Ziaurrahman Spinghar"
+      organizations: []
+      states:
+        - "Afghanistan"
+        - "Pakistan"
+    geography:
+      countries:
+        - "Afghanistan"
+        - "Pakistan"
+      places:
+        - "Kunar Province"
+        - "Nangarhar Province"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 14
+      injured: 14
+      displaced: null
+      arrest_count: null
+      damage: "Destruction of a Pakistani military post and armored vehicle; civilian infrastructure damaged"
+    classification:
+      event_type:
+        - "Military Operation"
+      tags:
+        - "Durand Line"
+        - "Border Clash"
+        - "Taliban"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Taliban Defence Ministry"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "low"
+          supports:
+            - "Capture of military post"
+            - "Casualty claims"
+            - "Prior artillery shelling claims"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Pakistan Information Ministry"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "medium"
+          supports:
+            - "Denial of casualty figures"
+          contradicts:
+            - "Taliban casualty claims"
+          quoted_material_used: true
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "low"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-007"
+    category: "Disasters and accidents"
+    subcategory: "Natural Disaster"
+    topics:
+      - "Extreme Weather"
+      - "Humanitarian Crisis"
+    importance: 8
+    headline: "Catastrophic Landslides in Southern Ethiopia Leave Over 100 Dead"
+    summary: >
+      A series of devastating landslides, triggered by torrential seasonal rains, struck the mountainous topography of the Gamo Zone in southern Ethiopia. The slope failures decimated rural settlements in Gacho Baba, Kamba, and Bonke districts. Local authorities confirmed that at least 102 individuals have died, with 125 people still reported missing beneath the mud and debris. The environmental catastrophe violently displaced 3,461 residents and prompted the Ethiopian federal government to declare a three-day period of national mourning as continuous rainfall severely hampered search and rescue operations.
+    details:
+      what_happened:
+        - "Massive landslides triggered by heavy rains struck the Gamo Zone in southern Ethiopia."
+        - "Entire rural communities in Gacho Baba, Kamba, and Bonke districts were buried under debris."
+        - "Local authorities reported 102 confirmed fatalities, with 125 individuals still missing."
+        - "The disaster violently displaced 3,461 residents from their homes."
+        - "The Ethiopian federal government declared a three-day period of national mourning."
+      why_it_matters:
+        - "Illustrates the severe vulnerability of Ethiopian highland communities to extreme weather exacerbated by climate change."
+        - "Highlights significant structural deficits in regional disaster risk reduction and land-use planning."
+      uncertainty_notes:
+        - "Fatality estimates are expected to rise as search and rescue operations continue in severe weather conditions."
+    actors:
+      primary:
+        - "Ethiopian Federal Government"
+        - "Regional First Responders"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "Ethiopian Human Rights Commission"
+      states:
+        - "Ethiopia"
+    geography:
+      countries:
+        - "Ethiopia"
+      places:
+        - "Gamo Zone"
+        - "Gacho Baba"
+        - "Kamba"
+        - "Bonke"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 102
+      injured: null
+      displaced: 3461
+      arrest_count: null
+      damage: "Widespread destruction of rural settlements and agricultural land"
+    classification:
+      event_type:
+        - "Natural Disaster"
+      tags:
+        - "Landslide"
+        - "Flooding"
+        - "Humanitarian Crisis"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Gamo Zone Communications Office"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "Fatality counts"
+            - "Missing persons estimates"
+            - "Affected districts"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Ethiopian Human Rights Commission"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "Displacement figures"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-008"
+    category: "Law and crime"
+    subcategory: "Organized Crime"
+    topics:
+      - "Insurgency"
+      - "Resource Extraction"
+    importance: 7
+    headline: "Heavily Armed Militants Ambush Joint Security Patrol in Plateau State, Nigeria"
+    summary: >
+      Heavily armed militant gangs executed a tactically sophisticated ambush against a joint security patrol team in the Kanam local government area of Plateau State, Nigeria. The assault, which occurred near the community of Wanka, resulted in the deaths of 20 individuals, including senior military personnel and local defense volunteers. Following the deadly gun battle, the militants looted the nearby Kyaram community and rustled a large herd of cattle. Plateau State Governor Caleb Mutfwang condemned the massacre and pledged to reinforce security deployments.
+    details:
+      what_happened:
+        - "Militants ambushed a joint security patrol team navigating the Garga, Kyaram, and Gyambau regions."
+        - "The attack resulted in 20 fatalities, comprising state military personnel and local vigilante fighters."
+        - "Militants subsequently looted civilian property in the Kyaram community."
+        - "The attacking group successfully rustled a massive herd of cattle following the ambush."
+        - "Plateau State Governor Caleb Mutfwang condemned the attack and promised intensified security measures."
+      why_it_matters:
+        - "Demonstrates the severe intelligence and operational deficits within the Nigerian military's rural pacification strategy."
+        - "Confirms that non-state armed groups in the region operate as highly militarized criminal enterprises driven by resource extraction."
       uncertainty_notes: []
     actors:
       primary:
-        - "Communist Party of Vietnam"
+        - "Unidentified Militant Gangs"
       secondary:
-        - "Vietnam Fatherland Front"
+        - "Nigerian Military Forces"
+        - "Local Vigilante Groups"
     entities:
       people:
-        - "Tô Lâm"
+        - "Caleb Mutfwang"
       organizations:
-        - "National Assembly of Vietnam"
+        - "Kanam Development Association (KADA)"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Plateau State"
+        - "Kanam"
+        - "Wanka"
+        - "Kyaram"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 20
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Looting of civilian property; significant cattle theft"
+    classification:
+      event_type:
+        - "Armed Attack"
+      tags:
+        - "Ambush"
+        - "Banditry"
+        - "Middle Belt"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Kanam Development Association (KADA)"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "NGO_report"
+          reliability_tier: "medium"
+          supports:
+            - "Casualty figures"
+            - "Details of the ambush"
+            - "Victim identities"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Premium Times Nigeria"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "Governor's statement"
+            - "Cattle rustling details"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-009"
+    category: "Law and crime"
+    subcategory: "Counter-narcotics"
+    topics:
+      - "Organized Crime"
+      - "Bilateral Operations"
+    importance: 8
+    headline: "Ecuador Declares Curfew in Coastal Provinces Amid Joint US Military Operations"
+    summary: >
+      Ecuadorian President Daniel Noboa utilized executive authority to declare a strict nighttime curfew across four critical coastal provinces—Guayas, Los Rios, Santo Domingo de los Tsachilas, and El Oro—effective from March 15 to March 30, 2026. The lockdown is designed to clear civilian environments to facilitate aggressive joint military operations with the United States Southern Command against sophisticated drug cartels and FARC dissidents. Recent joint missions near the Colombian border have already resulted in the destruction of a significant trafficking encampment operated by the 'Border Commandos'.
+    details:
+      what_happened:
+        - "President Daniel Noboa declared an 11 PM to 5 AM curfew across four coastal provinces."
+        - "The measure aims to facilitate joint military operations with the US Southern Command."
+        - "High-level coordination meetings occurred in Quito involving President Noboa and US Southern Command chief Francis Donovan."
+        - "Preliminary joint missions destroyed a trafficking camp housing FARC dissidents known as the 'Border Commandos'."
+        - "Interior Minister John Reimberg advised residents of affected provinces to stay indoors, declaring the state is 'at war'."
+      why_it_matters:
+        - "Represents a profound geopolitical shift, formalizing deep transnational military cooperation in Ecuador to combat narco-insurgencies."
+        - "Confirms the dangerous spillover of Colombian internal conflict dynamics into Ecuadorian sovereign territory."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Ecuador"
+        - "United States Southern Command"
+      secondary:
+        - "Border Commandos (FARC dissidents)"
+    entities:
+      people:
+        - "Daniel Noboa"
+        - "Francis Donovan"
+        - "John Reimberg"
+      organizations: []
+      states:
+        - "Ecuador"
+        - "United States"
+    geography:
+      countries:
+        - "Ecuador"
+      places:
+        - "Guayas"
+        - "Los Rios"
+        - "Santo Domingo de los Tsachilas"
+        - "El Oro"
+        - "Quito"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Destruction of militant encampment"
+    classification:
+      event_type:
+        - "Security Measure"
+        - "Military Operation"
+      tags:
+        - "Cartels"
+        - "State of Emergency"
+        - "War on Drugs"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Ecuadorian Government"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "Curfew declaration"
+            - "Provincial scope"
+            - "Ministerial statements"
+          contradicts: []
+          quoted_material_used: true
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "Joint operations with US Southern Command"
+            - "Destruction of border encampment"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-010"
+    category: "Society and civil unrest"
+    subcategory: "Protests"
+    topics:
+      - "Economic Crisis"
+      - "Political Instability"
+    importance: 8
+    headline: "Anti-Government Protesters Ransack Communist Party Headquarters in Morón, Cuba"
+    summary: >
+      Severe economic desperation, exacerbated by persistent rolling blackouts and an intense United States oil blockade, triggered violent anti-government protests in the central Cuban city of Morón, Ciego de Ávila Province. Demonstrators breached and ransacked the municipal headquarters of the Communist Party of Cuba, burning official documents and furniture in the streets. Cuban security forces intervened to suppress the riot, resulting in five arrests. President Miguel Díaz-Canel addressed the nation, acknowledging the three-month absence of fuel shipments while warning that state vandalism would face severe consequences.
+    details:
+      what_happened:
+        - "Anti-government protesters marched in Morón, protesting blackouts and severe shortages of basic necessities."
+        - "A faction of demonstrators breached the municipal headquarters of the Communist Party of Cuba."
+        - "Protesters ransacked the building, burning official documents and furniture in street fires."
+        - "Cuban security forces suppressed the riot and arrested five individuals for vandalism."
+        - "President Díaz-Canel confirmed that no fuel shipments had entered the country in three months due to US blockades."
+      why_it_matters:
+        - "The physical attack on a Communist Party facility marks a highly unusual and dangerous escalation in public defiance against the Cuban state."
+        - "Highlights the immediate socio-political destabilization resulting from external geopolitical strangulation of fuel supplies."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Anti-Government Protesters"
+      secondary:
+        - "Cuban Security Forces"
+    entities:
+      people:
+        - "Miguel Díaz-Canel"
+      organizations:
+        - "Communist Party of Cuba"
+      states:
+        - "Cuba"
+    geography:
+      countries:
+        - "Cuba"
+      places:
+        - "Morón"
+        - "Ciego de Ávila Province"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      arrest_count: 5
+      damage: "Destruction and burning of municipal headquarters property"
+    classification:
+      event_type:
+        - "Riot"
+      tags:
+        - "Civil Unrest"
+        - "Economic Crisis"
+        - "Sanctions"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Invasor"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "state_affiliated"
+          supports:
+            - "Occurrence of vandalism"
+            - "Location of the riot"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "Presidential address details"
+            - "Arrest count"
+            - "Fuel shortage confirmation"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-011"
+    category: "Law and crime"
+    subcategory: "Terrorism"
+    topics:
+      - "Extremism"
+      - "Hate Crimes"
+    importance: 8
+    headline: "Coordinated Explosive Attacks Target Jewish Institutions Across Benelux Region"
+    summary: >
+      A synchronized series of explosive attacks targeted Jewish educational, religious, and cultural institutions in Amsterdam, Rotterdam, and Liege within a 24-hour window. In Amsterdam's Buitenveldert district, an improvised explosive device caused significant structural damage to a Jewish school, though the premises were unoccupied and no casualties were reported. The coordinated bombings drew vehement condemnation from Amsterdam Mayor Femke Halsema and prompted Dutch ministers to elevate the physical protection of Jewish institutions to a paramount national security priority.
+    details:
+      what_happened:
+        - "An improvised explosive device detonated at a Jewish educational facility in Amsterdam."
+        - "The explosion charred the building's exterior and destroyed infrastructure, but caused no casualties."
+        - "Similar explosive incidents targeted Jewish institutions in Rotterdam, Netherlands, and Liege, Belgium, within the same timeframe."
+        - "Security footage in Amsterdam captured a suspect igniting the device and fleeing, triggering a manhunt."
+        - "Dutch authorities elevated the protection of Jewish sites to a top national security priority."
+      why_it_matters:
+        - "Signals a dangerous escalation from localized vandalism to the deployment of functional explosives against minority communities in Western Europe."
+        - "The geographic clustering suggests either a decentralized extremist network or a highly contagious copycat phenomenon."
+      uncertainty_notes:
+        - "Law enforcement has not yet confirmed whether the attacks were executed by a single coordinated network or disparate actors."
+    actors:
+      primary:
+        - "Unidentified Suspects"
+      secondary:
+        - "Dutch Law Enforcement"
+    entities:
+      people:
+        - "Femke Halsema"
+        - "David van Weel"
+      organizations: []
+      states:
+        - "Netherlands"
+        - "Belgium"
+    geography:
+      countries:
+        - "Netherlands"
+        - "Belgium"
+      places:
+        - "Amsterdam"
+        - "Rotterdam"
+        - "Liege"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: 0
+      damage: "Structural damage to multiple religious and educational facilities"
+    classification:
+      event_type:
+        - "Terrorist Attack"
+      tags:
+        - "Antisemitism"
+        - "Bombing"
+        - "Benelux"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Dutch Justice and Security Ministry"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "Security policy changes"
+            - "Coordination pattern across cities"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Agence France-Presse"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "Details of Amsterdam bombing"
+            - "Mayor's statement"
+          contradicts: []
+          quoted_material_used: true
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-14-012"
+    category: "Business and economy"
+    subcategory: "Aviation"
+    topics:
+      - "Supply Chain Disruption"
+      - "Geopolitical Risk"
+    importance: 7
+    headline: "Middle East Conflict Triggers Commercial Aviation Paralysis Across Oceania"
+    summary: >
+      The escalating military conflict in the Middle East has triggered massive disruptions across international commercial aviation networks, uniquely paralyzing Oceania's ultra-long-haul connectivity. Major airports in Australia and New Zealand experienced 787 flight delays and 46 cancellations in a single day as airlines were forced to execute complex rerouting to avoid abruptly closed Middle Eastern airspace. The logistical crisis has stranded thousands of transit passengers, dramatically extended travel times, and caused severe spikes in aviation fuel consumption and ticket prices for hub-dependent carriers.
+    details:
+      what_happened:
+        - "Major international airports in Australia and New Zealand recorded 787 flight delays and 46 cancellations."
+        - "Airlines executed complex rerouting procedures to circumvent closed airspace over the Middle Eastern combat zones."
+        - "Carriers heavily reliant on Gulf transit hubs, including Qatar Airways and Air New Zealand, severely altered schedules."
+        - "Tourism operators and government agencies in Oceania issued urgent travel advisories for citizens."
+      why_it_matters:
+        - "Exposes a profound structural vulnerability in the globalized aviation model for export and tourism-driven economies."
+        - "The geographic barrier creates an effective tax on regional operations, destroying margins and escalating costs for consumers."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "International Commercial Airlines"
+      secondary:
+        - "Aviation Authorities"
+    entities:
+      people: []
+      organizations:
+        - "Qatar Airways"
+        - "Jetstar"
+        - "Virgin Australia"
+        - "Air New Zealand"
+      states:
+        - "Australia"
+        - "New Zealand"
+    geography:
+      countries:
+        - "Australia"
+        - "New Zealand"
+      places:
+        - "Sydney"
+        - "Melbourne"
+        - "Brisbane"
+        - "Auckland"
+        - "Wellington"
+        - "Christchurch"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "Logistical Disruption"
+      tags:
+        - "Aviation"
+        - "Travel Delays"
+        - "Airspace Closure"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Civil Aviation Safety Authority (Australia)"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "Flight delay statistics"
+            - "Airspace closures"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "Impact on specific carriers"
+            - "Consumer ticket price inflation"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "system_auditor"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-14-001"
+      - "evt-2026-03-14-002"
+    notes: ""
+
+  - id: "evt-2026-03-14-013"
+    category: "Politics and elections"
+    subcategory: "National Election"
+    topics:
+      - "Legislative Assembly"
+      - "Authoritarian Consolidation"
+    importance: 6
+    headline: "Vietnam Concludes Tightly Controlled 16th National Assembly Elections"
+    summary: >
+      The Socialist Republic of Vietnam concluded nationwide balloting for its highest legislative body, the 16th National Assembly, alongside regional People's Councils for the 2026–2031 term. State media and the national election council reported a near-total voter turnout of 99.64% among over 76 million eligible citizens. The electoral mechanics heavily favored the ruling apparatus, with nearly 93% of the 864 approved candidates running as direct members of the Communist Party of Vietnam. Independent candidates were limited to a mere 7.5%, reflecting ongoing internal consolidation by the party's security apparatus.
+    details:
+      what_happened:
+        - "Nationwide balloting concluded for Vietnam's 16th National Assembly and regional People's Councils."
+        - "Official authorities reported a 99.64% voter turnout among 76 million citizens."
+        - "Of the 864 approved candidates for 500 seats, nearly 93% were Communist Party members."
+        - "The percentage of permitted independent candidates decreased to 7.5% from the previous election cycle."
+      why_it_matters:
+        - "Serves to formalize bureaucratic power allocation and project unquestionable domestic legitimacy for the ruling party."
+        - "The frictionless execution signals internal stability to foreign investors as Vietnam seeks to attract manufacturing capital."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Vietnam"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "Communist Party of Vietnam"
+        - "National Election Council"
       states:
         - "Vietnam"
     geography:
@@ -695,314 +1236,28 @@ events:
       tags:
         - "National Assembly"
         - "Communist Party"
+        - "Voter Turnout"
     sources:
       wikipedia_portal:
-        included: true
-        text_fragment: "Vietnamese citizens vote to elect the 500 members of the 16th National Assembly."
+        included: false
+        text_fragment: null
       external:
         - id: "src-001"
-          outlet: "Viet Nam News"
-          url: "[https://vietnamnews.vn/politics-laws/1766809/viet-nam-s-2026-general-election-how-the-system-works.html](https://vietnamnews.vn/politics-laws/1766809/viet-nam-s-2026-general-election-how-the-system-works.html)"
-          publication_date: "2026-03-15"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "73.5 million voters expected"
-            - "500 deputies to be elected"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "Al Jazeera"
-          url: "[https://www.aljazeera.com/news/2026/3/15/vietnam-holds-general-election-93-candidates-from-ruling-communist-party](https://www.aljazeera.com/news/2026/3/15/vietnam-holds-general-election-93-candidates-from-ruling-communist-party)"
-          publication_date: "2026-03-15"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "Opening session scheduled for April"
-            - "Tô Lâm confirmed as general secretary"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events: []
-    notes: "Voting took place on Sunday, March 15, local time, making it actively reported across the March 14/15 window internationally."
-
-  - id: "evt-2026-03-14-008"
-    category: "Politics and elections"
-    subcategory: "National election"
-    topics:
-      - "Presidential election"
-      - "Democratic backsliding"
-    importance: null
-    headline: "Republic of the Congo holds presidential election amid boycotts and internet blackout"
-    summary: >
-      Incumbent President Denis Sassou Nguesso sought a fifth consecutive term in
-      the Republic of the Congo's presidential election, which was marred by a
-      nationwide internet shutdown and widespread opposition boycotts. Sassou Nguesso,
-      who has ruled for 42 years, is expected to easily win the vote against six
-      minor challengers following the government's suspension of major opposition coalitions.
-    details:
-      what_happened:
-        - "Approximately 3 million registered voters were eligible to participate in the election."
-        - "The government severed internet access and restricted vehicle traffic in the capital, Brazzaville."
-        - "Major opposition parties boycotted the election, citing an uneven playing field and arbitrary suspensions by the Ministry of Interior."
-      why_it_matters:
-        - "The election underscores the entrenchment of authoritarian rule in Central Africa, occurring against a backdrop of severe national debt and high youth poverty."
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Denis Sassou Nguesso"
-        - "Congolese Party of Labor (PCT)"
-      secondary: []
-    entities:
-      people:
-        - "Denis Sassou Nguesso"
-      organizations:
-        - "Congolese Party of Labor"
-      states:
-        - "Republic of the Congo"
-    geography:
-      countries:
-        - "Republic of the Congo"
-      places:
-        - "Brazzaville"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "Election"
-      tags:
-        - "Authoritarianism"
-        - "Internet blackout"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "Congolese people vote to elect a president, with incumbent Denis Sassou Nguesso seeking a fifth consecutive term."
-      external:
-        - id: "src-001"
-          outlet: "Associated Press"
-          url: "[https://www.courthousenews.com/republic-of-congo-votes-in-an-election-thats-expected-to-extend-incumbent-presidents-42-year-rule/](https://www.courthousenews.com/republic-of-congo-votes-in-an-election-thats-expected-to-extend-incumbent-presidents-42-year-rule/)"
-          publication_date: "2026-03-15"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "Internet shutdown"
-            - "Traffic restricted in capital"
-            - "3 million registered voters"
-          contradicts: []
-          quoted_material_used: true
-        - id: "src-002"
-          outlet: "Africa Center for Strategic Studies"
-          url: "[https://africacenter.org/spotlight/en-elections-2026/repcongo/](https://africacenter.org/spotlight/en-elections-2026/repcongo/)"
-          publication_date: null
-          source_type: "Analysis"
-          reliability_tier: "high"
-          supports:
-            - "Suspension of 15 opposition parties"
-            - "42 years in power"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events: []
-    notes: "Voting took place on Sunday, March 15, local time, aligning with the international news cycle covering the weekend."
-
-  - id: "evt-2026-03-14-009"
-    category: "Politics and elections"
-    subcategory: "Referendum"
-    topics:
-      - "Constitutional reform"
-    importance: null
-    headline: "Kazakhstan holds constitutional referendum to restructure government"
-    summary: >
-      Kazakhstan conducted a nationwide referendum to approve a new constitution
-      aimed at shifting the country from a super-presidential system to a presidential
-      republic with an empowered parliament. Promoted by President Kassym-Jomart Tokayev,
-      the reforms intend to decentralize executive authority and establish a unicameral
-      Parliament (Kurultai).
-    details:
-      what_happened:
-        - "Over 12.4 million citizens were eligible to vote across more than 10,400 polling stations."
-        - "The referendum proposed redistributing powers away from the presidency toward representative institutions."
-        - "The election was monitored by observers from over 30 countries and cost an estimated $42 million."
-      why_it_matters:
-        - "The reforms represent a significant institutional shift in Central Asia, attempting to modernize governance and prevent domestic unrest following previous political crises."
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Government of Kazakhstan"
-      secondary: []
-    entities:
-      people:
-        - "Kassym-Jomart Tokayev"
-      organizations:
-        - "Central Election Commission of Kazakhstan"
-      states:
-        - "Kazakhstan"
-    geography:
-      countries:
-        - "Kazakhstan"
-      places: []
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "Referendum"
-      tags:
-        - "Constitutional reform"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "Kazakhstanis vote in a referendum to approve a new constitution."
-      external:
-        - id: "src-001"
-          outlet: "The Times of Central Asia"
-          url: "[https://timesca.com/cost-of-holding-referendum-on-kazakhstans-new-constitution-estimated-at-42-million/](https://timesca.com/cost-of-holding-referendum-on-kazakhstans-new-constitution-estimated-at-42-million/)"
-          publication_date: null
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "12.4 million eligible voters"
-            - "$42 million estimated cost"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "TRT World"
-          url: "[https://www.trtworld.com/article/65f2dece6133](https://www.trtworld.com/article/65f2dece6133)"
-          publication_date: null
-          source_type: "News report"
-          reliability_tier: "medium"
-          supports:
-            - "Replacing super-presidential form of government"
-          contradicts: []
-          quoted_material_used: true
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events: []
-    notes: "Vote held on March 15 local time; widely previewed and reported on March 14."
-
-  - id: "evt-2026-03-14-010"
-    category: "Disasters and accidents"
-    subcategory: "Extreme weather"
-    topics:
-      - "Floods"
-      - "Climate change"
-    importance: null
-    headline: "Flash floods in Kenya kill at least 66 people"
-    summary: >
-      Severe flash flooding caused by intense overnight rainfall across Kenya resulted
-      in the deaths of at least 66 people, with the capital city of Nairobi suffering
-      the highest casualty count. The deluge overwhelmed local drainage infrastructure
-      and rivers, sweeping away vehicles, displacing thousands of families, and
-      disrupting operations at East Africa's largest airport.
-    details:
-      what_happened:
-        - "Police and the Kenya Red Cross confirmed 66 fatalities, including 50 men, eight women, and eight children."
-        - "Nairobi was the worst-hit region, recording 33 deaths primarily from drowning and electrocution."
-        - "Over 2,000 families were displaced, and 130 children were rescued from an orphanage in southern Kenya."
-      why_it_matters:
-        - "The disaster highlights East Africa's acute vulnerability to extreme weather events exacerbated by climate change and inadequate urban infrastructure."
-      uncertainty_notes: []
-    actors:
-      primary: []
-      secondary:
-        - "Kenya Red Cross Society"
-        - "National Police Service (Kenya)"
-    entities:
-      people: []
-      organizations:
-        - "Kenya Red Cross Society"
-      states:
-        - "Kenya"
-    geography:
-      countries:
-        - "Kenya"
-      places:
-        - "Nairobi"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 66
-      injured: null
-      displaced: 4845
-      arrest_count: null
-      damage: "Widespread infrastructure and residential damage in Nairobi and surrounding counties"
-    classification:
-      event_type:
-        - "Flood"
-      tags:
-        - "Natural disaster"
-        - "East Africa"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "The death toll from severe flooding in Kenya rises to 66"
-      external:
-        - id: "src-001"
-          outlet: "Pulse Kenya"
-          url: "[https://www.pulse.co.ke/story/kenya-floods-death-toll-rises-to-66-as-rains-continue-to-pound-nairobi-other-counties-2026031515175613517](https://www.pulse.co.ke/story/kenya-floods-death-toll-rises-to-66-as-rains-continue-to-pound-nairobi-other-counties-2026031515175613517)"
-          publication_date: "2026-03-15"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "66 victims including 50 men, 8 women, 8 children"
-            - "33 fatalities in Nairobi"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "Reuters"
-          url: "[https://wqxc.com/2026/03/14/death-toll-from-kenyan-floods-rises-to-62-police-say/](https://wqxc.com/2026/03/14/death-toll-from-kenyan-floods-rises-to-62-police-say/)"
+          outlet: "Vietnam News Agency (VNA)"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
-          reliability_tier: "high"
+          source_type: "official_release"
+          reliability_tier: "state_affiliated"
           supports:
-            - "More than 2,000 families displaced"
-            - "Airport operations disrupted"
+            - "Voter turnout statistics"
+            - "Candidate affiliations"
+            - "Election conclusion"
           contradicts: []
           quoted_material_used: false
     provenance:
-      extracted_from_portal_bullet: true
+      extracted_from_portal_bullet: false
       enriched_manually: true
-      last_reviewed_by: null
+      last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
@@ -1010,135 +1265,48 @@ events:
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-011"
-    category: "Armed conflicts and attacks"
-    subcategory: "Border clash"
+  - id: "evt-2026-03-14-014"
+    category: "Sports"
+    subcategory: "Rugby"
     topics:
-      - "Border disputes"
-    importance: null
-    headline: "Clashes along the Durand Line leave 14 Pakistani soldiers dead"
+      - "Championship Final"
+    importance: 4
+    headline: "France Defeats England 48-46 to Retain Six Nations Championship"
     summary: >
-      A severe military engagement occurred along the contested Durand Line border
-      separating Afghanistan and Pakistan. Afghan fighters assaulted and captured a
-      Pakistani military guard post in the Kunar Province, resulting in the deaths
-      of 14 Pakistani soldiers and injuring at least 11 others, marking a significant
-      deterioration in bilateral security relations.
+      France secured a dramatic 48-46 victory over England at the Stade de France to successfully retain the Guinness Six Nations Championship. The highly competitive match featured a total of 13 tries and multiple lead changes. England briefly appeared to have won following a late try by Tommy Freeman, but French fullback Thomas Ramos executed a high-pressure, 43-meter penalty kick after the stadium clock had expired to instantly seal the victory for Les Bleus. The result compounded England's statistically poorest Six Nations campaign in history.
     details:
       what_happened:
-        - "Afghan forces captured a Pakistani forward operating post along the border."
-        - "14 Pakistani military personnel were killed and 11 injured during the firefight."
+        - "France defeated England 48-46 at the Stade de France to retain the Six Nations Championship."
+        - "The match featured 13 total tries and constant lead changes."
+        - "England's Tommy Freeman scored a late try to briefly take the lead."
+        - "French fullback Thomas Ramos won the match with a 43-meter penalty kick in stoppage time."
+        - "French winger Louis Bielle-Biarrey delivered a four-try performance."
       why_it_matters:
-        - "The clash exacerbates existing diplomatic and security tensions between Kabul and Islamabad, threatening regional stability and cross-border trade."
-      uncertainty_notes:
-        - "Casualty figures were provided by Taliban officials; independent verification from the Pakistani military is not included in the sources."
-    actors:
-      primary:
-        - "Afghan fighters"
-        - "Pakistani Armed Forces"
-      secondary: []
-    entities:
-      people: []
-      organizations:
-        - "Taliban"
-      states:
-        - "Afghanistan"
-        - "Pakistan"
-    geography:
-      countries:
-        - "Afghanistan"
-        - "Pakistan"
-      places:
-        - "Kunar Province"
-        - "Durand Line"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: 14
-      injured: 11
-      displaced: null
-      arrest_count: null
-      damage: "Guard post captured"
-    classification:
-      event_type:
-        - "Border clash"
-      tags:
-        - "Durand Line"
-        - "Afghanistan-Pakistan relations"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "According to Taliban officials, fourteen Pakistani soldiers are killed and eleven others are injured by Afghan fighters"
-      external:
-        - id: "src-001"
-          outlet: "ACLED"
-          url: "[https://acleddata.com/update/asia-pacific-overview-march-2026](https://acleddata.com/update/asia-pacific-overview-march-2026)"
-          publication_date: null
-          source_type: "NGO report"
-          reliability_tier: "high"
-          supports:
-            - "Rising militancy triggered hostilities between Afghanistan and Pakistan"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "high"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-14-012"
-    category: "Politics and elections"
-    subcategory: "Local election"
-    topics:
-      - "Municipal elections"
-    importance: null
-    headline: "First round of French municipal elections tests national political trends"
-    summary: >
-      Voters across France participated in the first round of municipal elections
-      for mayors and councillors in roughly 35,000 communes. Serving as a crucial
-      political barometer ahead of the 2027 presidential election, the races were
-      closely watched to gauge the mainstream integration of the far-right National
-      Rally (RN) and the endurance of President Emmanuel Macron's centrist coalition
-      in key cities like Paris and Marseille.
-    details:
-      what_happened:
-        - "Over 904,000 candidates contested local positions across the country."
-        - "Voter turnout at 5:00 pm stood at 48.9%, lower than the 2014 benchmark."
-        - "The RN targeted victories in southern cities like Toulon, Nîmes, and Perpignan to build grassroots legitimacy."
-        - "In Paris, the race to succeed incumbent Socialist Mayor Anne Hidalgo featured a tight contest between Emmanuel Grégoire and Rachida Dati."
-      why_it_matters:
-        - "The results will dictate local governance while signaling the shifting balance of power in France's fragmented political landscape."
+        - "Cements France's dominance in Northern Hemisphere rugby union."
+        - "Marks the most statistically unsuccessful Six Nations campaign in history for the English national team."
       uncertainty_notes: []
     actors:
       primary:
-        - "French electorate"
-      secondary:
-        - "National Rally (RN)"
-        - "Socialist Party (PS)"
-        - "The Republicans (LR)"
+        - "France National Rugby Union Team"
+        - "England National Rugby Union Team"
+      secondary: []
     entities:
       people:
-        - "Emmanuel Grégoire"
-        - "Rachida Dati"
-        - "Marine Le Pen"
-        - "Jordan Bardella"
-      organizations: []
+        - "Steve Borthwick"
+        - "Tommy Freeman"
+        - "Thomas Ramos"
+        - "Louis Bielle-Biarrey"
+      organizations:
+        - "Rugby Football Union"
       states:
         - "France"
+        - "United Kingdom"
     geography:
       countries:
         - "France"
       places:
         - "Paris"
-        - "Marseille"
-        - "Toulon"
+        - "Stade de France"
       coordinates: []
     time:
       date: "2026-03-14"
@@ -1152,226 +1320,141 @@ events:
       damage: null
     classification:
       event_type:
-        - "Election"
+        - "Sporting Event"
       tags:
-        - "Municipal elections"
-        - "French politics"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "The first round of municipal elections is taking place in France."
-      external:
-        - id: "src-001"
-          outlet: "Associated Press"
-          url: "[https://www.pbs.org/newshour/world/french-voters-head-to-polls-in-first-round-of-municipal-elections-before-2027-presidential-race](https://www.pbs.org/newshour/world/french-voters-head-to-polls-in-first-round-of-municipal-elections-before-2027-presidential-race)"
-          publication_date: "2026-03-15"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "904,000 candidates"
-            - "Incumbent Anne Hidalgo not seeking third term"
-            - "RN targeting Toulon"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "The Guardian"
-          url: "[https://www.theguardian.com/world/2026/mar/15/france-votes-local-elections-presidential-indicator](https://www.theguardian.com/world/2026/mar/15/france-votes-local-elections-presidential-indicator)"
-          publication_date: "2026-03-15"
-          source_type: "News report"
-          reliability_tier: "high"
-          supports:
-            - "Turnout at 48.9%"
-            - "RN targets Perpignan and Nîmes"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "high"
-      actor_identification: "high"
-    related_events: []
-    notes: "Voting took place on Sunday, March 15, matching the weekend news cycle."
-
-  - id: "evt-2026-03-14-013"
-    category: "Law and crime"
-    subcategory: "Hate crime"
-    topics:
-      - "Antisemitism"
-      - "Terrorism"
-    importance: null
-    headline: "Wave of explosive attacks targets Jewish institutions in Europe"
-    summary: >
-      A targeted explosive device detonated against the exterior wall of an Orthodox
-      Jewish school in Amsterdam, causing limited damage but sparking widespread fear.
-      The attack follows similar arson and explosive incidents at synagogues in Rotterdam
-      and Liege, prompting Dutch and Belgian authorities to drastically increase security
-      around Jewish community sites amid a surge in antisemitic violence linked to the
-      Middle East conflict.
-    details:
-      what_happened:
-        - "An explosion damaged a drainage pipe and wall at a Jewish school in the Buitenveldert district of Amsterdam."
-        - "Amsterdam Mayor Femke Halsema condemned the bombing as a 'cowardly act of aggression' and stated the suspect was caught on CCTV."
-        - "Dutch police arrested four men following a separate arson and explosive attack on a synagogue in Rotterdam."
-        - "A synagogue in Liege, Belgium, was also targeted by a pre-dawn explosion."
-      why_it_matters:
-        - "The sequential attacks highlight a severe escalation in targeted violence against Jewish communities in Europe, deeply straining societal cohesion."
-      uncertainty_notes: []
-    actors:
-      primary: []
-      secondary:
-        - "Dutch police"
-    entities:
-      people:
-        - "Femke Halsema"
-        - "David van Weel"
-      organizations: []
-      states:
-        - "Netherlands"
-        - "Belgium"
-    geography:
-      countries:
-        - "Netherlands"
-        - "Belgium"
-      places:
-        - "Amsterdam"
-        - "Rotterdam"
-        - "Liege"
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: 0
-      injured: 0
-      displaced: null
-      arrest_count: 4
-      damage: "Limited structural damage to school in Amsterdam and synagogues in Rotterdam and Liege"
-    classification:
-      event_type:
-        - "Bombing"
-        - "Hate crime"
-      tags:
-        - "Antisemitism"
-        - "Europe security"
+        - "Rugby"
+        - "Six Nations"
+        - "Les Bleus"
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
         - id: "src-001"
-          outlet: "CBS News"
-          url: "[https://www.cbsnews.com/news/jewish-school-amsterdam-attack-explosion/](https://www.cbsnews.com/news/jewish-school-amsterdam-attack-explosion/)"
+          outlet: "Six Nations Rugby Official"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
+          source_type: "official_release"
           reliability_tier: "high"
           supports:
-            - "Explosion at Jewish school in Amsterdam"
-            - "CCTV footage of suspect"
-            - "Liege synagogue explosion"
+            - "Final score"
+            - "Scoring timeline"
+            - "Championship result"
           contradicts: []
-          quoted_material_used: true
+          quoted_material_used: false
         - id: "src-002"
-          outlet: "The Indian Express"
-          url: "[https://indianexpress.com/article/world/amsterdam-jewish-school-explosion-antisemitism-rotterdam-liege-attacks-10581706/](https://indianexpress.com/article/world/amsterdam-jewish-school-explosion-antisemitism-rotterdam-liege-attacks-10581706/)"
+          outlet: "BBC Sport"
+          url: null
           publication_date: "2026-03-14"
-          source_type: "News report"
+          source_type: "news_report"
           reliability_tier: "high"
           supports:
-            - "Four men arrested in Rotterdam"
-            - "Buitenveldert district location"
+            - "Player performances"
+            - "Historical context for England team"
           contradicts: []
-          quoted_material_used: true
+          quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
-      last_reviewed_by: null
+      last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
-      actor_identification: "low"
+      actor_identification: "high"
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-014"
-    category: "Armed conflicts and attacks"
-    subcategory: "Internal conflict"
+  - id: "evt-2026-03-14-015"
+    category: "Sports"
+    subcategory: "Football"
     topics:
-      - "Counter-insurgency"
-    importance: null
-    headline: "Colombian military airstrike kills 10 ELN fighters"
+      - "Historical Records"
+    importance: 4
+    headline: "Arsenal's Max Dowman Becomes Youngest Goalscorer in Premier League History"
     summary: >
-      Colombian security forces executed a lethal airstrike targeting an encampment
-      of the National Liberation Army (ELN) in the Catatumbo region of Norte de
-      Santander, killing at least 10 fighters. The military escalation triggered
-      immediate retaliatory violence from the insurgent group, reflecting a severe
-      setback in the government's pursuit of a negotiated "Total Peace."
+      Arsenal teenager Max Dowman shattered a two-decade-old sporting record by becoming the youngest goalscorer in English Premier League history. At 16 years and 73 days old, Dowman scored in the seventh minute of stoppage time during Arsenal's 2-0 victory over Everton. Dowman's strike, which occurred after Everton's goalkeeper pushed upfield, eclipsed the previous record set by James Vaughan in 2005. The academy-developed winger's performance, which also contributed to Arsenal's opening goal, solidifies his status as a generational talent amid a tightly contested title race.
     details:
       what_happened:
-        - "The military bombed an ELN position in Catatumbo, a major hub for coca cultivation."
-        - "The airstrike resulted in at least 10 confirmed guerrilla fatalities."
-        - "The ELN launched retaliatory attacks against state forces in the aftermath."
+        - "Max Dowman scored a goal for Arsenal against Everton in stoppage time."
+        - "At 16 years and 73 days old, Dowman became the youngest goalscorer in Premier League history."
+        - "Dowman broke the previous record held by James Vaughan since April 2005."
+        - "Arsenal secured a 2-0 victory, with Dowman also involved in the buildup to Viktor Gyökeres's opening goal."
       why_it_matters:
-        - "The use of aerial bombardment marks a tactical escalation by the Colombian state against the ELN, complicating ongoing peace negotiations."
+        - "Sets a monumental individual milestone in the history of the English Premier League."
+        - "Provides Arsenal with a significant competitive advantage by successfully integrating elite academy talent into a title-contending squad."
       uncertainty_notes: []
     actors:
       primary:
-        - "Military Forces of Colombia"
-        - "National Liberation Army (ELN)"
-      secondary: []
+        - "Max Dowman"
+      secondary:
+        - "Arsenal F.C."
+        - "Everton F.C."
     entities:
-      people: []
+      people:
+        - "Max Dowman"
+        - "Jordan Pickford"
+        - "Viktor Gyökeres"
+        - "James Vaughan"
+        - "John Terry"
       organizations:
-        - "National Liberation Army (ELN)"
+        - "Arsenal F.C."
+        - "Everton F.C."
       states:
-        - "Colombia"
+        - "United Kingdom"
     geography:
       countries:
-        - "Colombia"
+        - "United Kingdom"
       places:
-        - "Norte de Santander"
-        - "Catatumbo"
+        - "London"
       coordinates: []
     time:
       date: "2026-03-14"
       time_known: false
       ongoing: false
     casualty_report:
-      killed: 10
+      killed: null
       injured: null
       displaced: null
       arrest_count: null
       damage: null
     classification:
       event_type:
-        - "Airstrike"
+        - "Sporting Event"
       tags:
-        - "Colombia conflict"
-        - "ELN"
+        - "Football"
+        - "Premier League"
+        - "Record Broken"
     sources:
       wikipedia_portal:
         included: false
         text_fragment: null
       external:
         - id: "src-001"
-          outlet: "ACLED"
-          url: "[https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026](https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026)"
-          publication_date: null
-          source_type: "NGO report"
+          outlet: "Premier League Official"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "official_release"
           reliability_tier: "high"
           supports:
-            - "Airstrike on ELN in Catatumbo"
-            - "10 fighters killed"
-            - "ELN retaliation"
+            - "Goalscorer age record"
+            - "Match result"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Sky Sports"
+          url: null
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "Goal description"
+            - "Praise from industry veterans"
           contradicts: []
           quoted_material_used: false
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
-      last_reviewed_by: null
+      last_reviewed_by: "system_auditor"
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
