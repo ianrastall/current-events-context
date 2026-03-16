@@ -1,62 +1,1234 @@
-Date: '2026-03-13'
-Source_URI: Portal:Current events/2026 March 13
-Intelligence_Payload:
-  Uncategorized:
-  - Middle Eastern crisis
-  - 2026 Iran war
-  - 2026 interceptions of Iranian missiles in Turkey
-  - Turkey intercepts an Iranian ballistic missile violating its airspace. (Türkiye
-    Today) (Caspian Post)
-  - 2026 Iranian strikes on Israel
-  - At least 58 people are injured by an Iranian ballistic missile strike on northern
-    Israel. (The Jerusalem Post)
-  - 2026 Strait of Hormuz crisis
-  - United States president Donald Trump says that U.S. forces conducted airstrikes
-    on military targets on Kharg Island, Iran, and warns that the U.S. may also target
-    the island's oil infrastructure if shipping through the Strait of Hormuz is disrupted.
-    (AFP via ABS-CBN News)
-  - Sinking of IRIS Dena
-  - Sri Lanka repatriates the bodies of 84 Iranian sailors killed when the frigate
-    IRIS Dena was sunk by a United States submarine off the coast of Galle on 4 March.
-    Thirty-two rescued sailors remain in Sri Lanka while authorities continue to host
-    other Iranian naval personnel under humanitarian arrangements. (AFP via RFI)
-  - U.S. officials say a marine expeditionary unit of 5,000 marines and sailors will
-    deploy to the Persian Gulf to reinforce existing forces stationed in the region.
-    (The Wall Street Journal) (Forbes)
-  - 2026 Lebanon war
-  - Twelve medical staff members, including doctors, nurses and paramedics, are killed
-    in an Israeli airstrike against a medical facility in Burj Qalaouiyah, Bint Jbeil
-    District, Lebanon. (Al Jazeera)
-  - Two migrant workers are killed and several other people are injured after security
-    forces intercept a drone in an industrial area in Sohar, Oman. (AFP via Daily
-    Sun)
-  - The Saudi Arabian defense ministry reports that air defenses intercepted and destroyed
-    56 hostile drones targeting several areas across the country. (Saudi Gazette)
-  - 2026 Afghanistan–Pakistan conflict
-  - Six people are killed and several others injured in a Pakistani airstrike on a
-    residential area in Kabul, Afghanistan. A fuel depot in Kandahar is also bombed.
-    (Reuters)
-  - Sudanese civil war
-  - Eleven people are killed and 20 others are injured in a drone strike on a fuel
-    reserve in western Sudan. (Reuters)
-  - Economic impact of the 2026 Iran war
-  - Saudi Arabia cuts oil production by 20% after the shutdown of two offshore oil
-    fields, including Safaniya. (Reuters)
-  - The United States military confirms that all six crew members aboard an Air Force
-    Boeing KC-135 Stratotanker died when the aircraft crashed in western Iraq yesterday.
-    (AFP via The Times of Israel)
-  - 2026 Cuban crisis, Cuba–United States relations
-  - Cuban president Miguel Díaz-Canel confirms that Cuba is in talks with the U.S.
-    to find solutions to the oil blockade in his country. (BBC News)
-  - El Salvador–United States relations, Nuclear power in El Salvador
-  - El Salvador and the United States sign Agreement 123 under the Atomic Energy Act
-    of 1954 to build a nuclear power plant in El Salvador that is planned to be operational
-    by 2030. (El Mundo in Spanish)
-  - Illegal drug trade in Latin America
-  - Bolivian authorities arrest suspected Uruguayan drug cartel leader during a police
-    operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries
-    and has a US$2 million reward linked to money laundering allegations, is detained
-    along with four other individuals. (AFP via France 24)
-  - 2025–2026 Iranian protests
-  - The Islamic Revolutionary Guard Corps warns of a stronger response than in January
-    if new protests against the regime erupt. (AFP via Al Arabiya)
+date: "2026-03-13"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+events:
+  - id: "evt-2026-03-13-001"
+    category: "Armed conflicts and attacks"
+    subcategory: null
+    topics:
+      - "Iran war"
+      - "Airstrikes"
+      - "Oil infrastructure"
+    importance: null
+    headline: "Trump says U.S. struck military targets on Iran's Kharg Island"
+    summary: >
+      President Donald Trump said the United States struck military targets on Iran's Kharg Island, a key oil export hub, while saying oil facilities were spared for now and warning of broader attacks if shipping through the Strait of Hormuz is further threatened.
+    details:
+      what_happened:
+        - "Trump said on March 13 that U.S. forces hit military targets on Kharg Island."
+        - "He said the island's oil infrastructure was not targeted in that strike."
+        - "He warned that attacks on shipping in the Strait of Hormuz could trigger wider strikes."
+      why_it_matters:
+        - "The strike marked a major escalation in the U.S.-Iran war at a site central to Iran's oil exports."
+        - "Any broader attack on Kharg Island or continued disruption in Hormuz would deepen the global energy shock."
+      uncertainty_notes:
+        - "The listed sources did not provide independently verified casualty figures from the strike."
+    actors:
+      primary:
+        - "United States"
+      secondary:
+        - "Iran"
+    entities:
+      people:
+        - "Donald Trump"
+      organizations: []
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Kharg Island"
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "airstrikes"
+        - "military escalation"
+      tags:
+        - "Kharg Island"
+        - "Hormuz"
+        - "oil exports"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/us-attacks-irans-kharg-island-trump-says-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/2a86a1f5c5997b70c6586d957074fb0c"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-002"
+    category: "International relations"
+    subcategory: null
+    topics:
+      - "Lebanon"
+      - "Humanitarian aid"
+      - "Displacement"
+    importance: null
+    headline: "UN launches $308 million Lebanon appeal as war displaces 800,000"
+    summary: >
+      The United Nations launched a $308 million flash appeal for Lebanon after the war there displaced more than 800,000 people, overwhelming shelters and adding to the country's existing economic and humanitarian strain.
+    details:
+      what_happened:
+        - "UN Secretary-General António Guterres announced the appeal in Beirut on March 13."
+        - "Reuters reported that the war had displaced more than one-seventh of Lebanon's population."
+        - "Aid agencies said shelter capacity and funding were already under severe strain."
+      why_it_matters:
+        - "The appeal underscored the scale of the humanitarian emergency spreading beyond the core U.S.-Iran battlefield."
+        - "Lebanon's weak state capacity increases the risk of a prolonged regional humanitarian crisis."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United Nations"
+      secondary:
+        - "Lebanon"
+        - "Israel"
+        - "Hezbollah"
+    entities:
+      people:
+        - "António Guterres"
+      organizations:
+        - "United Nations"
+        - "World Food Programme"
+        - "UNHCR"
+      states:
+        - "Lebanon"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+      places:
+        - "Beirut"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 800000
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "humanitarian appeal"
+        - "mass displacement"
+      tags:
+        - "Lebanon"
+        - "UN"
+        - "aid"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/un-seeks-325-million-lebanon-war-displaces-800000-people-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "United Nations"
+          url: "https://www.un.org/en/un-chief-launches-major-humanitarian-appeal-war-torn-lebanon"
+          publication_date: "2026-03-13"
+          source_type: "official"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-003"
+    category: "Armed conflicts and attacks"
+    subcategory: null
+    topics:
+      - "Pakistan-Afghanistan conflict"
+      - "Airstrikes"
+      - "Civilian casualties"
+    importance: null
+    headline: "Pakistan airstrikes in Afghanistan kill civilians and hit fuel depot near Kandahar"
+    summary: >
+      Pakistani strikes hit sites in Kabul, Paktia and Kandahar, including a Kam Air fuel depot near Kandahar airport; UNAMA said the Kabul strikes killed at least four civilians and injured 14, while Taliban officials reported additional civilian deaths elsewhere.
+    details:
+      what_happened:
+        - "Pakistan said its forces targeted militant camps and support infrastructure in Afghanistan."
+        - "Reuters reported that a Kam Air fuel depot used for civilian and UN flights was hit near Kandahar airport."
+        - "UNAMA documented four civilian deaths and 14 injuries in the Pul-e-Charkhi area of Kabul."
+      why_it_matters:
+        - "The strikes showed the Afghanistan-Pakistan conflict widening geographically and politically."
+        - "Damage to civilian-linked infrastructure increased the risk of further regional escalation."
+      uncertainty_notes:
+        - "Pakistan denied targeting civilians."
+        - "Taliban and Pakistani accounts differed on the full casualty toll and target set."
+    actors:
+      primary:
+        - "Pakistan"
+      secondary:
+        - "Taliban (Afghanistan)"
+    entities:
+      people:
+        - "Attaullah Tarar"
+        - "Zabihullah Mujahid"
+      organizations:
+        - "United Nations Assistance Mission in Afghanistan"
+        - "Kam Air"
+        - "Taliban"
+      states:
+        - "Pakistan"
+        - "Afghanistan"
+    geography:
+      countries:
+        - "Afghanistan"
+        - "Pakistan"
+      places:
+        - "Kabul"
+        - "Pul-e-Charkhi"
+        - "Paktia"
+        - "Kandahar"
+        - "Nangarhar"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 6
+      injured: 14
+      displaced: null
+      arrest_count: null
+      damage: "Kam Air fuel depot near Kandahar airport was set ablaze."
+    classification:
+      event_type:
+        - "airstrikes"
+        - "cross-border conflict"
+      tags:
+        - "Pakistan"
+        - "Afghanistan"
+        - "Kandahar"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/pakistan-bombs-fuel-depot-private-airline-near-kandahar-airport-afghan-taliban-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/eb61a70a88f6b44ef114e88064b84136"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "uncertainty_notes"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-004"
+    category: "Armed conflicts and attacks"
+    subcategory: null
+    topics:
+      - "Sudan war"
+      - "Drone strike"
+      - "Fuel reserves"
+    importance: null
+    headline: "Drone strike at fuel reserves near Chad border kills 11 in Sudan"
+    summary: >
+      A drone strike set fuel reserves alight at Adikong market in western Sudan near the Chad border, killing 11 people and injuring at least 23, according to Médecins Sans Frontières.
+    details:
+      what_happened:
+        - "MSF said the March 12 strike burned victims to death after fuel reserves were hit."
+        - "The injured were treated at an MSF-supported hospital in Adre, Chad."
+        - "Reuters described it as the second deadly drone strike in Adikong in less than a month."
+      why_it_matters:
+        - "The attack highlighted the rising civilian toll from drone warfare in Sudan."
+        - "Cross-border treatment of casualties showed how the conflict is straining neighboring Chad."
+      uncertainty_notes:
+        - "Reuters did not identify the party that launched the strike."
+    actors:
+      primary:
+        - "Unknown"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "Médecins Sans Frontières"
+      states:
+        - "Sudan"
+        - "Chad"
+    geography:
+      countries:
+        - "Sudan"
+        - "Chad"
+      places:
+        - "Adikong"
+        - "Adre"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 11
+      injured: 23
+      displaced: null
+      arrest_count: null
+      damage: "Fuel reserves at Adikong market were set on fire."
+    classification:
+      event_type:
+        - "drone strike"
+        - "civilian casualties"
+      tags:
+        - "Sudan"
+        - "Chad border"
+        - "MSF"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/drone-strike-sudan-kills-11-injures-over-20-msf-says-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/0241df1e672527877fc2f2c602d48c94"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "uncertainty_notes"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-005"
+    category: "Business and economy"
+    subcategory: null
+    topics:
+      - "Trade policy"
+      - "Forced labor"
+      - "Tariffs"
+    importance: null
+    headline: "U.S. opens Section 301 forced-labor probes into 60 economies"
+    summary: >
+      The Office of the United States Trade Representative opened Section 301 investigations into 60 economies over alleged failures to stop imports made with forced labor, broadening Washington's trade pressure campaign.
+    details:
+      what_happened:
+        - "USTR said on March 12 it initiated 60 investigations under Section 301 of the Trade Act of 1974."
+        - "Reuters reported the probes could lead to new tariffs or other trade restrictions."
+        - "The investigations cover a wide range of U.S. trading partners."
+      why_it_matters:
+        - "The move raised the risk of wider trade friction and supply-chain disruption."
+        - "It signaled a more aggressive U.S. use of trade tools tied to labor-policy enforcement."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States"
+      secondary: []
+    entities:
+      people:
+        - "Jamieson Greer"
+      organizations:
+        - "Office of the United States Trade Representative"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "trade investigation"
+        - "policy action"
+      tags:
+        - "USTR"
+        - "Section 301"
+        - "forced labor"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/us-opens-unfair-trade-practices-probe-60-countries-over-forced-labor-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "USTR"
+          url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-60-section-301-investigations-relating-failures-take-action-forced-labor"
+          publication_date: "2026-03-12"
+          source_type: "official"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-006"
+    category: "Business and economy"
+    subcategory: null
+    topics:
+      - "Oil markets"
+      - "Saudi Arabia"
+      - "Production cuts"
+    importance: null
+    headline: "Saudi Arabia cuts oil output to about 8 million bpd amid regional war"
+    summary: >
+      Saudi Arabia cut oil production by about 20% to roughly 8 million barrels per day after shutting output at the Safaniya and Zuluf offshore fields, according to Reuters sources, as the regional war disrupted Gulf energy flows.
+    details:
+      what_happened:
+        - "Reuters reported that Saudi output fell by about 2 million barrels per day."
+        - "The reduction followed shut-ins at the Safaniya and Zuluf offshore fields."
+        - "Saudi exports continued to be rerouted toward Red Sea infrastructure where possible."
+      why_it_matters:
+        - "A cut of that size underscored the scale of the energy shock already moving through global markets."
+        - "Lower Saudi output reduced the world's spare capacity cushion during an active regional war."
+      uncertainty_notes:
+        - "The figures were reported by Reuters citing sources and were not publicly confirmed by Saudi Aramco."
+    actors:
+      primary:
+        - "Saudi Arabia"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "Saudi Aramco"
+      states:
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Saudi Arabia"
+      places:
+        - "Safaniya"
+        - "Zuluf"
+        - "Yanbu"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "oil production cut"
+        - "energy disruption"
+      tags:
+        - "Saudi Arabia"
+        - "oil"
+        - "energy markets"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/saudi-arabia-cuts-oil-output-20-8-million-bpd-amid-iran-war-sources-say-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+            - "uncertainty_notes"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-007"
+    category: "Politics and elections"
+    subcategory: null
+    topics:
+      - "Nepal election"
+      - "Party realignment"
+      - "Anti-corruption politics"
+    importance: null
+    headline: "Nepal's Rastriya Swatantra Party wins landslide election victory"
+    summary: >
+      Nepal's Rastriya Swatantra Party won a landslide in the general election, putting Kathmandu Mayor Balendra Shah on course to become prime minister and sharply weakening the country's established parties.
+    details:
+      what_happened:
+        - "Reuters reported that the Rastriya Swatantra Party won 182 of 275 seats."
+        - "The party's leader, Balendra Shah, emerged as the likely next prime minister."
+        - "The vote followed months of youth-led anger over corruption and political stagnation."
+      why_it_matters:
+        - "The result marked one of Nepal's biggest political shifts in years."
+        - "It suggested a broad voter demand for anti-corruption and generational change."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Rastriya Swatantra Party"
+      secondary: []
+    entities:
+      people:
+        - "Balendra Shah"
+      organizations:
+        - "Rastriya Swatantra Party"
+      states:
+        - "Nepal"
+    geography:
+      countries:
+        - "Nepal"
+      places:
+        - "Kathmandu"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election result"
+        - "party realignment"
+      tags:
+        - "Nepal"
+        - "RSP"
+        - "Balendra Shah"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/nepal-ex-rappers-party-wins-election-landslide-after-gen-z-protests-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-008"
+    category: "Science and technology"
+    subcategory: null
+    topics:
+      - "AI regulation"
+      - "Child protection"
+      - "European Union"
+    importance: null
+    headline: "EU governments back adding ban on AI-generated child sexual abuse material"
+    summary: >
+      EU governments agreed a negotiating position that would add AI systems generating child sexual abuse material and non-consensual sexual content to the list of prohibited AI practices, opening the way for talks with the European Parliament.
+    details:
+      what_happened:
+        - "Reuters reported that EU governments took the first formal step toward outlawing such AI uses."
+        - "The Council's position added a prohibition on AI practices generating child sexual abuse material."
+        - "Any final change still requires agreement with the European Parliament."
+      why_it_matters:
+        - "The move would expand the EU AI Act's banned-use category in response to fast-moving generative-AI harms."
+        - "It signaled tougher regulation of sexual deepfakes and abusive synthetic content in a major tech market."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Council of the European Union"
+      secondary:
+        - "European Parliament"
+    entities:
+      people: []
+      organizations:
+        - "Council of the European Union"
+        - "European Parliament"
+      states: []
+    geography:
+      countries:
+        - "Belgium"
+      places:
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "regulatory action"
+        - "AI policy"
+      tags:
+        - "EU"
+        - "AI Act"
+        - "child safety"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/europe-takes-first-step-banning-ai-generated-child-sexual-abuse-images-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Council of the European Union"
+          url: "https://www.consilium.europa.eu/en/press/press-releases/2026/03/13/council-agrees-position-to-streamline-rules-on-artificial-intelligence/"
+          publication_date: "2026-03-13"
+          source_type: "official"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-009"
+    category: "Business and economy"
+    subcategory: null
+    topics:
+      - "China"
+      - "Industrial policy"
+      - "Subsidies"
+    importance: null
+    headline: "China moves to curb local government industrial subsidies"
+    summary: >
+      China said it would create a national negative list of sectors where local governments cannot offer subsidies, part of a push to curb excess capacity and price competition in strategic manufacturing.
+    details:
+      what_happened:
+        - "The State Council said local governments would face tighter limits on subsidy use."
+        - "Premier Li Qiang chaired the meeting that endorsed the negative-list approach."
+        - "The policy was framed as an effort to build a more unified national market."
+      why_it_matters:
+        - "The move addressed one of the domestic drivers behind China's overcapacity disputes with trading partners."
+        - "It could affect investment competition among Chinese provinces and sectors such as advanced manufacturing."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "China"
+      secondary: []
+    entities:
+      people:
+        - "Li Qiang"
+      organizations:
+        - "State Council of China"
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economic policy"
+        - "industrial regulation"
+      tags:
+        - "China"
+        - "subsidies"
+        - "overcapacity"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/china-tighten-oversight-local-government-subsidies-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-010"
+    category: "International relations"
+    subcategory: null
+    topics:
+      - "ASEAN"
+      - "Middle East war"
+      - "Energy security"
+    importance: null
+    headline: "ASEAN ministers call for immediate halt to Middle East war"
+    summary: >
+      ASEAN foreign and economic ministers meeting in Manila called for an immediate halt to the Middle East war and urged restraint as higher oil prices and shipping disruption hit Southeast Asian economies.
+    details:
+      what_happened:
+        - "ASEAN ministers held a special meeting on March 13 under the Philippine chairmanship."
+        - "They called for an immediate halt to hostilities and for energy and trade routes to remain open."
+        - "Reuters reported that governments in the region were already taking emergency economic measures."
+      why_it_matters:
+        - "The statement showed how the war's energy shock was driving coordinated diplomatic and economic responses far beyond the Middle East."
+        - "Southeast Asia's dependence on imported energy left the bloc especially exposed to prolonged disruption."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "ASEAN"
+      secondary: []
+    entities:
+      people:
+        - "Ma. Theresa Lazaro"
+      organizations:
+        - "ASEAN"
+      states:
+        - "Philippines"
+    geography:
+      countries:
+        - "Philippines"
+      places:
+        - "Manila"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic statement"
+        - "regional coordination"
+      tags:
+        - "ASEAN"
+        - "energy security"
+        - "Middle East"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/asean-ministers-urge-halt-middle-east-war-crisis-rattles-energy-trade-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-011"
+    category: "Business and economy"
+    subcategory: null
+    topics:
+      - "Australia"
+      - "Fuel reserves"
+      - "Supply disruption"
+    importance: null
+    headline: "Australia releases emergency fuel reserves amid supply strain"
+    summary: >
+      Australia released petrol and diesel from emergency reserves and loosened stockholding rules to ease regional shortages caused by the Middle East oil shock and panic buying.
+    details:
+      what_happened:
+        - "Energy Minister Chris Bowen said up to 20% of Australia's minimum stockholding obligation would be made available."
+        - "Reuters reported that the release amounted to roughly 762 million liters, or about 5 million barrels, of fuel."
+        - "The move was part of Australia's response to the broader IEA emergency oil action."
+      why_it_matters:
+        - "The step showed the oil crisis was causing direct consumer and logistics stress in Oceania."
+        - "Australia's relatively low fuel cover made supply management a national economic and political issue."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Australia"
+      secondary:
+        - "International Energy Agency"
+    entities:
+      people:
+        - "Chris Bowen"
+      organizations:
+        - "International Energy Agency"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "reserve release"
+        - "energy emergency response"
+      tags:
+        - "Australia"
+        - "fuel"
+        - "IEA"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/australia-releases-petrol-diesel-emergency-reserves-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/australia-news/2026/mar/13/australia-to-release-nearly-20-of-fuel-stockpile-as-bowen-insists-country-nowhere-near-running-out"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "what_happened"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-012"
+    category: "International relations"
+    subcategory: null
+    topics:
+      - "Serbia"
+      - "China"
+      - "Missiles"
+    importance: null
+    headline: "Serbia confirms purchase of Chinese air-to-surface missiles"
+    summary: >
+      President Aleksandar Vucic confirmed that Serbia had bought Chinese CM-400AKG air-to-surface ballistic missiles, making Serbia the first European operator of the weapon.
+    details:
+      what_happened:
+        - "Vucic said Serbia had adapted MiG-29 aircraft to carry the missiles."
+        - "Reuters reported that leaked images of the missiles mounted on Serbian aircraft preceded the confirmation."
+        - "Croatia criticized the move as destabilizing for the region."
+      why_it_matters:
+        - "The purchase highlighted Serbia's continued balancing among China, Russia, NATO and the EU."
+        - "It added to security concerns about military competition in the Balkans."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Serbia"
+      secondary:
+        - "China"
+    entities:
+      people:
+        - "Aleksandar Vucic"
+      organizations:
+        - "China Aerospace Science and Industry Corporation"
+      states:
+        - "Serbia"
+        - "China"
+        - "Croatia"
+    geography:
+      countries:
+        - "Serbia"
+      places:
+        - "Belgrade"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "arms acquisition"
+        - "security policy"
+      tags:
+        - "Serbia"
+        - "China"
+        - "Balkans"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/nato-partner-serbia-admits-buying-chinese-missiles-after-photos-leaked-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Agencia EFE"
+          url: "https://efe.com/en/latest-news/2026-03-13/serbia-becomes-first-european-country-with-chinese-hypersonic-missiles/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-13-013"
+    category: "Law and crime"
+    subcategory: null
+    topics:
+      - "South Africa"
+      - "Crime"
+      - "Military deployment"
+    importance: null
+    headline: "South Africa authorises deployment of 2,200 troops to fight crime"
+    summary: >
+      President Cyril Ramaphosa authorized the deployment of 2,200 South African troops to assist police against illegal mining and gangsterism across five provinces through March 2027.
+    details:
+      what_happened:
+        - "The presidency said the troops would support police under Operation Prosper."
+        - "The deployment covers Gauteng, Western Cape, Eastern Cape, Free State and North West."
+        - "Reuters reported the authorization on March 13."
+      why_it_matters:
+        - "The move reflected the severity of South Africa's crime and illegal-mining crisis."
+        - "It also showed the government turning to military support for a prolonged domestic security operation."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "South Africa"
+      secondary: []
+    entities:
+      people:
+        - "Cyril Ramaphosa"
+      organizations:
+        - "South African National Defence Force"
+        - "South African Police Service"
+      states:
+        - "South Africa"
+    geography:
+      countries:
+        - "South Africa"
+      places:
+        - "Gauteng"
+        - "Western Cape"
+        - "Eastern Cape"
+        - "Free State"
+        - "North West"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "troop deployment"
+        - "domestic security"
+      tags:
+        - "South Africa"
+        - "crime"
+        - "illegal mining"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/south-africas-president-authorises-deployment-2200-troops-help-fight-crime-2026-03-13/"
+          publication_date: "2026-03-13"
+          source_type: "news"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+            - "why_it_matters"
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Government of South Africa"
+          url: "https://www.gov.za/news/media-statements/president-cyril-ramaphosa-authorises-sandf-deployment-fight-against-crime-13"
+          publication_date: "2026-03-13"
+          source_type: "official"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "what_happened"
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
