@@ -1,106 +1,1486 @@
-Date: '2026-03-08'
-Source_URI: Portal:Current events/2026 March 8
-Intelligence_Payload:
-  Uncategorized:
-  - Middle Eastern crisis
-  - 2026 Iran war
-  - 2026 Iranian strikes on Bahrain
-  - An Iranian drone hits and damages a desalination plant in Bahrain. In addition,
-    falling missile debris injures three people and damages a university building
-    in Manama. (Asharq Al-Awsat)
-  - The Bahraini health ministry reports that an Iranian drone strike on the island
-    of Sitra injured 32 civilians, including four with serious injuries. (AFP via
-    The Times of Israel)
-  - 2026 Iranian strikes on Kuwait
-  - The main building of the Public Institution for Social Security in Kuwait City
-    suffers an airstrike. A large fire breaks out, but no injuries are reported. (Arab
-    Times)
-  - 2026 Iranian strikes on Saudi Arabia
-  - The United States Central Command confirms that a U.S. service member has died
-    of wounds sustained after an Iranian attack on a base in Saudi Arabia on March
-    1, bringing the confirmed death toll among U.S. forces to seven since the start
-    of the conflict. (CNN)
-  - Joint airstrikes by Israel and the United States are carried out against oil facilities
-    in Tehran and other Iranian cities, killing at least four truck drivers and causing
-    large fires. (Al Jazeera)
-  - According to Israeli sources, United Arab Emirates (UAE) warplanes carried out
-    airstrikes against Iran, and purportedly struck a desalination plant. However,
-    UAE officials denied any involvement in the alleged attacks. (Middle East Eye)
-  - Hezbollah–Israel conflict
-  - 2026 Hezbollah–Israel war
-  - Four people are killed and 10 more injured in an Israeli airstrike on a Ramada
-    hotel in central Beirut. (AFP via France 24)
-  - Two Israeli soldiers are killed in overnight clashes with Hezbollah in southern
-    Lebanon. (Al Jazeera)
-  - Gaza war
-  - Israel launches an airstrike and tank shell targeting Hamas members in Gaza City
-    and the Nuseirat refugee camp in the Gaza Strip, killing six Palestinians, including
-    two children. (Reuters)
-  - Israeli settler violence, Israeli incursions in the West Bank during the Gaza
-    war
-  - Two Palestinians are shot dead by Israeli settlers in Abu Falah, in the occupied
-    West Bank. Another Palestinian is killed after Israeli soldiers throw smoke grenades
-    during the attack. (Al Jazeera)
-  - A military projectile struck a residential area in Al-Kharj, Riyadh Province,
-    Saudi Arabia, killing two people and injuring 12 others. (AFP via Oman Daily Observer)
-  - Jonglei clashes
-  - Civilians flee Akobo, South Sudan, after the military issued an evacuation order
-    to prepare for a military operation. (AP)
-  - Terrorism in Norway
-  - An bomb exploded at the American embassy in Oslo, Norway, causing minor damage,
-    no one was injured. (CP24)
-  - United States strikes on alleged drug traffickers during Operation Southern Spear
-  - Six people are killed during an American airstrike against a boat in the Pacific
-    Ocean. (ABC News)
-  - 2026 New York City bombing attempt
-  - Two counter-protesters are arrested after throwing improvised explosive devices
-    at an anti-Islam demonstration outside Gracie Mansion in New York City, United
-    States. (The Guardian)
-  - Economic impact of the 2026 Iran war, 2026 Strait of Hormuz crisis
-  - The price of oil surpasses US$100 per barrel for the first time in four years.
-    (CNBC)
-  - Five people are killed and 60 others are injured when a bus carrying Zimbabwean
-    nationals collides with a car on N6 near Stutterheim, Eastern Cape, South Africa.
-    (The Citizen)
-  - At least four people are killed and several others are trapped after a section
-    of the Bantar Gebang landfill in Bekasi, West Java, Indonesia, collapses amid
-    heavy rainfall. (Reuters)
-  - Two people are killed and 19 people are injured following a mining incident in
-    Samarkandek, Batken Region, Kyrgyzstan. (Gazeta)
-  - A fire occurs in a historic building adjoining the Glasgow Central railway station
-    in Scotland, United Kingdom. The building collapses, destroying a number of businesses
-    and shops. The fire also causes the disruption and cancellation of many train
-    services, with Glasgow Central promptly shutting down until further notice. (BBC
-    News)
-  - Peruvian security crisis
-  - Peruvian authorities arrest three people following a bombing at a nightclub in
-    Trujillo, La Libertad Department, that injured 44 people. (AP)
-  - 2026 Colombian parliamentary election
-  - Colombians vote to elect 183 members of the Chamber of Representatives and 103
-    members of the Senate. (AP)
-  - 2026 Iranian Supreme Leader election
-  - Mojtaba Khamenei, the son of the late Ali Khamenei, is elected as the next Supreme
-    Leader of Iran. (AP)
-  - 2026 Nepalese general election
-  - The Rastriya Swatantra Party wins 124 direct seats and leads in one more from
-    164 of 165 constituencies reported so far in Nepal. The results from the Dhanusha
-    1 constituency are withheld pending an order from the Supreme Court. (The Himalayan
-    Times)
-  - 2026 Swiss referendums
-  - Swiss voters reject a referendum proposing to reduce the Swiss Broadcasting Corporation's
-    annual licence fee. They also reject a proposal for a climate fund and support
-    efforts to maintain the status of cash and remove individual taxation for married
-    couples. (Swissinfo.ch)
-  - 2026 Men's T20 World Cup
-  - India wins the 2026 Men's T20 World Cup, beating New Zealand by 96 runs in the
-    final. They become the first team to win back-to-back T20 World Cups, the first
-    team to win the title at home as hosts, and the first team to win the tournament
-    three times. (ESPNcricinfo)
-  - 2026 AFC Women's Asian Cup, 2026 Iranian diaspora protests
-  - Diaspora protesters surround the bus of the Iranian women's soccer team following
-    their match against the Philippines in Gold Coast, Queensland, Australia, amidst
-    fears of their safety upon returning to Iran after members of the team gave SOS
-    hand signals from the team bus. (ABC News Australia) (DW)
-  - Nathan Martin wins the 2026 Los Angeles Marathon in the marathon's closest-ever
-    finish, becoming the second consecutive American to win the event. (Los Angeles
-    Times)
+date: "2026-03-08"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+events:
+  - id: "evt-2026-03-08-001"
+    category: "Business and economy"
+    subcategory: "energy markets"
+    topics:
+      - "Oil prices"
+      - "Strait of Hormuz"
+      - "Iran war"
+      - "Inflation risk"
+    importance: null
+    headline: "Iran war disruption drives a fresh oil shock as the Strait of Hormuz is effectively curtailed"
+    summary: >
+      The widening war involving Iran kept global energy markets under severe strain on March 8, with
+      Reuters reporting that the Strait of Hormuz had been rendered virtually shut by mines, drones,
+      and the withdrawal of much commercial traffic. Brent crude briefly surged to levels not seen
+      since 2022 before retreating, and U.S. crude also remained sharply elevated, underscoring how
+      quickly the conflict had turned into a broad supply-and-inflation shock rather than a localized
+      military crisis. Markets were highly volatile throughout the day, with some recovery in equities
+      after signals from Washington that the fighting might not be prolonged, but the oil move itself
+      remained the dominant global macroeconomic development.
+    details:
+      what_happened:
+        - "Reuters reported that the Strait of Hormuz was virtually shut after Iranian mine and drone threats severely disrupted tanker traffic."
+        - "Brent crude spiked intraday to roughly $119.50 before settling lower near $99, while WTI remained near the mid-$90s."
+        - "The price move reflected fear of a large supply interruption rather than ordinary speculative trading."
+        - "Global stock markets partially stabilized later in the session after comments from U.S. President Donald Trump suggesting the war could end relatively soon."
+      why_it_matters:
+        - "The Strait of Hormuz is one of the world's most important oil transit chokepoints, so prolonged disruption can feed inflation and shipping stress well beyond the Gulf."
+        - "The price shock immediately raised the risk that central banks and governments would have to respond to a new energy-driven macroeconomic squeeze."
+      uncertainty_notes:
+        - "Exact shipping volumes still moving through the strait were fluid during the day."
+        - "The duration of the disruption remained unclear."
+    actors:
+      primary:
+        - "Iran"
+        - "G7 governments"
+      secondary:
+        - "United States"
+        - "Israel"
+    entities:
+      people:
+        - "Donald Trump"
+      organizations:
+        - "G7"
+      states:
+        - "Iran"
+        - "United States"
+        - "Israel"
+    geography:
+      countries:
+        - "Iran"
+        - "Oman"
+        - "United Arab Emirates"
+      places:
+        - "Strait of Hormuz"
+        - "Persian Gulf"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Severe disruption to commercial oil shipping and tanker transit."
+    classification:
+      event_type:
+        - "market shock"
+        - "shipping disruption"
+        - "war-related economic fallout"
+      tags:
+        - "oil"
+        - "Hormuz"
+        - "energy"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/us-oil-prices-jump-supply-fears-amid-expanding-us-israeli-war-with-iran-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "Oil prices surged sharply because of supply fears tied to the Iran war."
+            - "The Strait of Hormuz was reported as virtually shut for normal commercial movement."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "Global markets were volatile, with oil elevated and equities recovering later in the day."
+            - "Trump's comments contributed to a partial market rebound."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-08-002"
+      - "evt-2026-03-08-003"
+      - "evt-2026-03-08-004"
+    notes: ""
+
+  - id: "evt-2026-03-08-002"
+    category: "Politics and elections"
+    subcategory: "leadership transition"
+    topics:
+      - "Iran"
+      - "Supreme leadership"
+      - "Succession"
+      - "Clerical politics"
+    importance: null
+    headline: "Iranian succession moves into view after reports of consensus on a new supreme leader"
+    summary: >
+      Iran's internal power transition became a major political development on March 8 after Reuters,
+      citing Iranian media, reported that a member of the Assembly of Experts said a majority consensus
+      had been reached on the country’s next supreme leader following the death of Ayatollah Ali
+      Khamenei. Reporting around the process centered on Mojtaba Khamenei, whose rise had already been
+      widely discussed in Iranian and international coverage, but the state did not fully disclose the
+      mechanics, timing, or breadth of the clerical decision. In the middle of war and external
+      pressure, the leadership question moved from speculation toward an acknowledged state process.
+    details:
+      what_happened:
+        - "Reuters reported that Iranian media quoted Assembly of Experts member Hosseinali Eshkouri as saying a majority consensus had been reached on the next supreme leader."
+        - "The transition followed the reported death of Ayatollah Ali Khamenei amid an ongoing wartime crisis."
+        - "Coverage of the succession centered on Mojtaba Khamenei, though the full official decision pathway remained opaque."
+        - "The timing made the succession question inseparable from the war, regime continuity, and internal elite cohesion."
+      why_it_matters:
+        - "Iran's supreme leadership is the central node of the country's political, military, and religious authority."
+        - "Any uncertainty or dynastic turn in succession carries major implications for domestic stability and regional conflict management."
+      uncertainty_notes:
+        - "Public reporting did not fully document the vote count, formal announcement sequence, or all institutional procedures."
+        - "Actor identification around the final successor remained partly dependent on elite and state-media signaling."
+    actors:
+      primary:
+        - "Assembly of Experts"
+        - "Iranian clerical establishment"
+      secondary:
+        - "Mojtaba Khamenei"
+    entities:
+      people:
+        - "Ali Khamenei"
+        - "Mojtaba Khamenei"
+        - "Hosseinali Eshkouri"
+      organizations:
+        - "Assembly of Experts"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Tehran"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "leadership succession"
+        - "elite political process"
+      tags:
+        - "Iran"
+        - "succession"
+        - "clerics"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/majority-consensus-reached-irans-next-supreme-leader-mehr-news-reports-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "A member of the Assembly of Experts said a majority consensus had been reached on Iran's next supreme leader."
+            - "The succession process followed Ali Khamenei's death."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/us-oil-prices-jump-supply-fears-amid-expanding-us-israeli-war-with-iran-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "Wartime reporting on Iran referred to Mojtaba Khamenei as the new supreme leader, reflecting the direction of elite signaling."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-08-001"
+      - "evt-2026-03-08-003"
+      - "evt-2026-03-08-004"
+    notes: ""
+
+  - id: "evt-2026-03-08-003"
+    category: "Armed conflicts and attacks"
+    subcategory: "Israel-Hezbollah front"
+    topics:
+      - "Lebanon"
+      - "Israel"
+      - "Hezbollah"
+      - "Beirut strike"
+    importance: null
+    headline: "Israel-Hezbollah fighting intensifies as Israeli soldiers are killed and central Beirut is struck"
+    summary: >
+      The Lebanon front of the wider regional war escalated markedly on March 8. Israel's military
+      said two soldiers were killed in southern Lebanon, the first Israeli troop fatalities since this
+      phase of hostilities resumed, while a separate Israeli strike hit an apartment in the Ramada
+      Plaza hotel building in central Beirut, killing at least four people and injuring around ten.
+      Israel said the Beirut strike targeted senior Iranian Quds Force figures, but that specific
+      target claim was not independently confirmed in the reporting available at the time. Taken
+      together, the incidents showed both a deadlier ground contest in the south and a riskier
+      expansion of strikes into the Lebanese capital.
+    details:
+      what_happened:
+        - "The Israeli military said two soldiers were killed in southern Lebanon, marking its first such troop deaths since hostilities resumed."
+        - "An Israeli strike hit an apartment in the Ramada Plaza hotel building in central Beirut."
+        - "Lebanese security reporting cited by Reuters said the Beirut strike killed at least four people and wounded about ten."
+        - "Israel said it was targeting senior Quds Force personnel in the Beirut attack."
+      why_it_matters:
+        - "The simultaneous southern and Beirut incidents showed a widening military envelope in Lebanon."
+        - "Israeli troop deaths and strikes in central Beirut both increased the risk of further escalation on the Lebanon front."
+      uncertainty_notes:
+        - "The identities of those killed in the Beirut strike were not fully established in the reporting reviewed."
+        - "Israel's claimed target set in Beirut was not independently verified."
+    actors:
+      primary:
+        - "Israel Defense Forces"
+        - "Hezbollah"
+      secondary:
+        - "Islamic Revolutionary Guard Corps Quds Force"
+    entities:
+      people: []
+      organizations:
+        - "Israel Defense Forces"
+        - "Hezbollah"
+        - "Quds Force"
+      states:
+        - "Israel"
+        - "Lebanon"
+        - "Iran"
+    geography:
+      countries:
+        - "Israel"
+        - "Lebanon"
+      places:
+        - "southern Lebanon"
+        - "Beirut"
+        - "Ramada Plaza hotel building"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 6
+      injured: 10
+      displaced: null
+      arrest_count: null
+      damage: "Airstrike damage to a residential unit in a hotel building in central Beirut."
+    classification:
+      event_type:
+        - "airstrike"
+        - "cross-border conflict"
+        - "military casualties"
+      tags:
+        - "Lebanon"
+        - "Beirut"
+        - "Hezbollah"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/two-israeli-soldiers-killed-southern-lebanon-israel-military-says-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "Two Israeli soldiers were killed in southern Lebanon."
+            - "The deaths were the first Israeli troop fatalities since hostilities resumed."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/least-two-killed-strike-hotel-building-central-beirut-security-source-says-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "An Israeli strike hit the Ramada Plaza hotel building in central Beirut."
+            - "The strike killed at least four people and injured about ten."
+            - "Israel said the strike targeted senior Quds Force members."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-08-001"
+      - "evt-2026-03-08-002"
+    notes: ""
+
+  - id: "evt-2026-03-08-004"
+    category: "International relations"
+    subcategory: "great-power diplomacy"
+    topics:
+      - "China"
+      - "United States"
+      - "Iran"
+      - "Wang Yi"
+    importance: null
+    headline: "China uses Wang Yi's annual press conference to press for dialogue with Washington and condemn force over Iran"
+    summary: >
+      China's foreign minister Wang Yi used his high-profile press conference on March 8 to send a
+      dual message: Beijing still wanted structured dialogue with Washington, including preparation for
+      a Xi-Trump meeting, but it also intended to criticize the use of force in the Iran crisis and to
+      portray itself as a defender of international rules against bloc confrontation. In the context of
+      a global oil shock and fast-moving Middle East war, the remarks positioned China as both a rival
+      to the United States and a self-described stabilizing actor seeking to exploit diplomatic space
+      opened by Western military entanglement.
+    details:
+      what_happened:
+        - "At the National People's Congress press conference, Wang Yi said the agenda for a meeting between Xi Jinping and Donald Trump was on the table."
+        - "He said dialogue between the United States and China remained vital even as Washington pressured Beijing's partners."
+        - "Wang also called for an end to the Iran war and criticized a return to coercive 'law of the jungle' politics."
+        - "The remarks linked U.S.-China relations, Middle East conflict management, and China's broader diplomatic positioning."
+      why_it_matters:
+        - "Statements at Wang Yi's annual NPC briefing are closely watched as a guide to China's foreign-policy priorities."
+        - "The intervention showed Beijing attempting to frame itself as a necessary diplomatic center during a moment of U.S.-Iran crisis."
+      uncertainty_notes:
+        - "The remarks did not amount to a specific peace plan or negotiated breakthrough."
+    actors:
+      primary:
+        - "Wang Yi"
+        - "Chinese government"
+      secondary:
+        - "United States government"
+    entities:
+      people:
+        - "Wang Yi"
+        - "Xi Jinping"
+        - "Donald Trump"
+      organizations:
+        - "National People's Congress"
+      states:
+        - "China"
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "China"
+        - "United States"
+        - "Iran"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "press conference"
+        - "diplomatic signaling"
+      tags:
+        - "China"
+        - "Wang Yi"
+        - "U.S.-China"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/china-says-us-talks-vital-trump-targets-beijings-key-partners-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "Wang Yi said U.S.-China dialogue remained vital and that a Xi-Trump meeting was being prepared."
+            - "He urged an end to the Iran war and criticized reliance on force."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-08-001"
+      - "evt-2026-03-08-002"
+    notes: ""
+
+  - id: "evt-2026-03-08-005"
+    category: "Society and civil unrest"
+    subcategory: "women's rights protests"
+    topics:
+      - "International Women's Day"
+      - "Gender equality"
+      - "Civil society"
+      - "UN Women"
+    importance: null
+    headline: "International Women's Day brings worldwide marches and warnings about backlash against women's rights"
+    summary: >
+      International Women's Day on March 8 produced coordinated marches, rallies, and public advocacy
+      across multiple regions, with demonstrators emphasizing equal rights, reproductive freedom,
+      workplace fairness, and protection from gender-based violence. Reuters and AP reported broad
+      participation around the world, while UN Women used the occasion to warn that justice and
+      protection systems for women and girls were under severe strain. The day combined symbolic public
+      mobilization with a more pointed institutional message that legal gains were facing organized
+      political and social rollback.
+    details:
+      what_happened:
+        - "Protesters and advocates marked International Women's Day with marches and demonstrations in many countries."
+        - "The public actions focused on themes including equal pay, safety, bodily autonomy, and resistance to discrimination."
+        - "UN Women tied the observance to a broader warning that systems meant to protect women and girls were weakening or failing."
+        - "The mobilization also fed into the run-up to the annual UN Commission on the Status of Women session."
+      why_it_matters:
+        - "The scale and geographic spread of the marches showed that gender-equality issues remained a major transnational civil-society concern."
+        - "UN Women framed 2026 as a moment of backlash rather than steady linear progress, raising the political stakes of the observance."
+      uncertainty_notes:
+        - "Crowd sizes and local agendas varied widely by country."
+    actors:
+      primary:
+        - "women's rights protesters"
+        - "UN Women"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "UN Women"
+        - "Commission on the Status of Women"
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "protest"
+        - "international observance"
+      tags:
+        - "International Women's Day"
+        - "gender"
+        - "rights"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/international-womens-day-protesters-advocates-join-global-marches-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "International Women's Day was marked by global marches and demonstrations."
+            - "The protests focused on defending women's rights."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/photo-gallery/women-day-protests-photos-b435fc28fbc51634a0b20a67b0959329"
+          publication_date: "2026-03-08"
+          source_type: "news agency"
+          reliability_tier: "high"
+          supports:
+            - "Women around the world marked the day with marches and demonstrations emphasizing parity and rights."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-003"
+          outlet: "UN Women"
+          url: "https://www.unwomen.org/en/get-involved/international-womens-day"
+          publication_date: "2026-03-08"
+          source_type: "international organization"
+          reliability_tier: "high"
+          supports:
+            - "UN Women framed the 2026 observance as taking place under strained justice and protection systems."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-006"
+    category: "Politics and elections"
+    subcategory: "legislative election"
+    topics:
+      - "Colombia"
+      - "Congress"
+      - "Presidential primaries"
+      - "Electoral fragmentation"
+    importance: null
+    headline: "Colombians vote for a new Congress and coalition presidential nominees in a fragmented contest"
+    summary: >
+      Colombia held a major election day on March 8, with voters choosing a new Congress while also
+      participating in coalition primaries ahead of the presidential race. Reuters reported that the
+      results pointed toward a fragmented legislature rather than a commanding majority for any one
+      political force, even as the leftist Historic Pact and the conservative Democratic Center emerged
+      among the leading blocs. The day also elevated coalition candidates including Roy Barreras,
+      Claudia López, and Paloma Valencia, helping define the shape of the presidential field while
+      underscoring Colombia's volatile and divided political landscape.
+    details:
+      what_happened:
+        - "Colombians voted for both chambers of Congress and also selected coalition candidates for the presidential race."
+        - "Reuters reported that the early outcome pointed to a fragmented Congress rather than a dominant parliamentary winner."
+        - "Roy Barreras, Claudia López, and Paloma Valencia were among the candidates emerging from coalition primaries."
+        - "Authorities deployed heavy security, but reporting described the nationwide vote as broadly peaceful."
+      why_it_matters:
+        - "The vote reset Colombia's legislative balance ahead of the presidential election and will shape governability for the next administration."
+        - "A fractured Congress signaled continued difficulty in building stable majorities for reform."
+      uncertainty_notes:
+        - "Seat distributions were still being finalized as counting continued."
+    actors:
+      primary:
+        - "Colombian voters"
+        - "Historic Pact"
+        - "Democratic Center"
+      secondary:
+        - "Roy Barreras"
+        - "Claudia López"
+        - "Paloma Valencia"
+    entities:
+      people:
+        - "Roy Barreras"
+        - "Claudia López"
+        - "Paloma Valencia"
+      organizations:
+        - "Historic Pact"
+        - "Democratic Center"
+      states:
+        - "Colombia"
+    geography:
+      countries:
+        - "Colombia"
+      places:
+        - "Bogotá"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election"
+        - "primary vote"
+      tags:
+        - "Colombia"
+        - "Congress"
+        - "primaries"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/colombians-vote-legislative-contest-presidential-primaries-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "Colombia voted for Congress and coalition presidential primaries on March 8."
+            - "The emerging result pointed to a fragmented Congress."
+            - "Roy Barreras, Claudia López, and Paloma Valencia were key coalition winners."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/colombia-election-congress-presidential-candidates-petro-4766c3c2098610f24ec91aa61d793a4e"
+          publication_date: null
+          source_type: "news agency"
+          reliability_tier: "high"
+          supports:
+            - "Colombia's March 8 vote chose legislators and shaped the presidential field."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-007"
+    category: "Politics and elections"
+    subcategory: "state election"
+    topics:
+      - "Germany"
+      - "Baden-Württemberg"
+      - "Greens"
+      - "CDU"
+    importance: null
+    headline: "Germany's Greens edge Merz's conservatives in Baden-Württemberg's state election"
+    summary: >
+      Germany's first major state election after the federal vote delivered a politically significant
+      result on March 8, with early projections showing the Greens narrowly ahead of Chancellor
+      Friedrich Merz's CDU in Baden-Württemberg. Reuters reported that the outcome likely preserved the
+      state's Green-CDU coalition while also confirming the continued presence of the far-right AfD as
+      a major force. Because Baden-Württemberg is one of Germany's wealthiest and most symbolically
+      important states, the result was read not just locally but as a national test of post-federal
+      momentum.
+    details:
+      what_happened:
+        - "Early projections showed the Greens finishing narrowly ahead of the CDU in Baden-Württemberg."
+        - "The result suggested that the existing Green-CDU coalition could continue in the state."
+        - "The AfD placed third, reinforcing its role as a durable force in German politics."
+        - "The election was the first state-level test after Germany's recent federal contest."
+      why_it_matters:
+        - "The vote provided an early reading on whether Merz's federal chancellorship would immediately lift the CDU's state-level standing."
+        - "Baden-Württemberg's political and economic weight gives its results broader significance in German politics."
+      uncertainty_notes:
+        - "Final seat allocations and coalition mechanics depended on complete results."
+    actors:
+      primary:
+        - "Alliance 90/The Greens"
+        - "Christian Democratic Union"
+        - "Alternative for Germany"
+      secondary:
+        - "Friedrich Merz"
+    entities:
+      people:
+        - "Friedrich Merz"
+      organizations:
+        - "Alliance 90/The Greens"
+        - "Christian Democratic Union"
+        - "Alternative for Germany"
+      states:
+        - "Germany"
+    geography:
+      countries:
+        - "Germany"
+      places:
+        - "Baden-Württemberg"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election"
+        - "state politics"
+      tags:
+        - "Germany"
+        - "Greens"
+        - "CDU"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/german-greens-lead-chancellor-merzs-conservatives-state-election-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "The Greens led the CDU in early projections in Baden-Württemberg."
+            - "The result was politically significant for Chancellor Friedrich Merz and the post-federal environment."
+            - "The AfD placed third."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-008"
+    category: "Politics and elections"
+    subcategory: "general election count"
+    topics:
+      - "Nepal"
+      - "Vote counting"
+      - "Rastriya Swatantra Party"
+      - "Political upset"
+    importance: null
+    headline: "Nepal's vote count points to a major upset as the Rastriya Swatantra Party surges toward power"
+    summary: >
+      Nepal's post-election count remained one of the most consequential political stories in South
+      Asia on March 8, with Reuters reporting that Balendra Shah's three-year-old Rastriya Swatantra
+      Party was on course for a parliamentary majority. The early count showed the party leading in
+      100 of the 137 directly elected seats then being tallied, a dramatic sign that newer political
+      forces were overtaking established parties. Even before the final distribution of all seats, the
+      trend line made clear that Nepal was experiencing a severe reshaping of its party system rather
+      than a routine transfer of power.
+    details:
+      what_happened:
+        - "Reuters reported that the Rastriya Swatantra Party was leading in 100 of 137 directly elected seats being counted."
+        - "The performance pointed to a possible parliamentary majority for a party founded only three years earlier."
+        - "The count signaled a significant setback for Nepal's established political forces."
+        - "The election was widely read as a test of whether recent political unrest would translate into a durable party realignment."
+      why_it_matters:
+        - "A new-party majority would represent one of the region's sharpest recent anti-establishment electoral shifts."
+        - "The result would reshape coalition politics and executive power formation in Kathmandu."
+      uncertainty_notes:
+        - "Counting was still in progress on March 8, so the final seat tally was not yet complete."
+    actors:
+      primary:
+        - "Rastriya Swatantra Party"
+        - "Nepali voters"
+      secondary:
+        - "Balendra Shah"
+    entities:
+      people:
+        - "Balendra Shah"
+      organizations:
+        - "Rastriya Swatantra Party"
+      states:
+        - "Nepal"
+    geography:
+      countries:
+        - "Nepal"
+      places:
+        - "Kathmandu"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election count"
+        - "party realignment"
+      tags:
+        - "Nepal"
+        - "RSP"
+        - "counting"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/nepals-early-vote-count-puts-ex-rappers-party-ahead-2026-03-06/"
+          publication_date: "2026-03-06"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "Early counting showed the Rastriya Swatantra Party leading strongly and on course for a majority."
+            - "The party led in 100 of 137 directly elected seats then counted."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/2cf0332dcc8f56e313c27e846b8cbed5"
+          publication_date: null
+          source_type: "news agency"
+          reliability_tier: "high"
+          supports:
+            - "Subsequent reporting confirmed that the early surge translated into a dominant national result."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-009"
+    category: "Politics and elections"
+    subcategory: "referendums"
+    topics:
+      - "Switzerland"
+      - "Public broadcasting"
+      - "Tax reform"
+      - "Climate fund"
+    importance: null
+    headline: "Swiss voters reject a sharp cut to public-broadcasting funds in a national referendum day"
+    summary: >
+      Switzerland held a nationally significant referendum day on March 8 centered on public
+      broadcasting, taxation, climate finance, and the constitutional status of cash. The clearest and
+      most closely watched result was the rejection of a proposal to sharply cut funding for the public
+      broadcaster SRG, a decision that protected the existing media-finance model against a major
+      austerity push. Reporting around the same ballot cycle also indicated clear outcomes on the other
+      three measures, making the day an important test of Swiss views on the welfare state, fiscal
+      fairness, climate policy, and public-service media.
+    details:
+      what_happened:
+        - "Swiss voters rejected a plan to cut funding for the state broadcaster SRG."
+        - "The same nationwide vote also covered individual taxation, a climate fund proposal, and the constitutional guarantee of cash."
+        - "Result reporting indicated that voters backed the cash-related measure and individual-taxation reform while rejecting the climate fund."
+        - "The ballot day combined cultural, fiscal, and environmental questions in a single national decision cycle."
+      why_it_matters:
+        - "The broadcasting result was a major signal against weakening a central public-media institution."
+        - "The broader package showed how Swiss direct democracy can simultaneously reshape media policy, tax rules, and constitutional priorities."
+      uncertainty_notes:
+        - "Detailed margin breakdowns were not included here."
+    actors:
+      primary:
+        - "Swiss voters"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - "SRG"
+      states:
+        - "Switzerland"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Bern"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "referendum"
+        - "direct democracy vote"
+      tags:
+        - "Switzerland"
+        - "SRG"
+        - "referendum"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "SWI swissinfo.ch"
+          url: "https://www.swissinfo.ch/eng/swiss-politics/march-8-2026-vote-the-results-from-across-switzerland/90932419"
+          publication_date: "2026-03-08"
+          source_type: "national public service outlet"
+          reliability_tier: "medium-high"
+          supports:
+            - "Swiss voters cast ballots on four national issues on March 8."
+            - "The proposal to cut broadcaster funding was clearly rejected."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "SWI swissinfo.ch"
+          url: "https://www.swissinfo.ch/eng/swiss-politics/swiss-vote-on-licence-fee-tax-reform-cash-and-climate/91045322"
+          publication_date: "2026-03-08"
+          source_type: "national public service outlet"
+          reliability_tier: "medium-high"
+          supports:
+            - "The referendum day included votes on broadcaster funding, tax reform, cash, and a climate fund."
+            - "Result reporting covered the national outcomes across all four questions."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-010"
+    category: "Armed conflicts and attacks"
+    subcategory: "displacement crisis"
+    topics:
+      - "South Sudan"
+      - "Akobo"
+      - "Civilian flight"
+      - "UNMISS"
+    importance: null
+    headline: "Thousands flee South Sudan's Akobo after an army evacuation order and nearby fighting"
+    summary: >
+      Eastern South Sudan saw a fast-moving civilian displacement crisis on March 8 as thousands of
+      people fled Akobo after the army ordered an evacuation and fighting was reported west of the town.
+      The Associated Press reported that many civilians crossed into neighboring Ethiopia and that the
+      South Sudanese military also told the UN peacekeeping mission to close its local base. Even
+      without a definitive battlefield outcome on the day, the combination of evacuation orders,
+      population flight, and restrictions on international presence made Akobo one of the clearest
+      warning signs of renewed conflict escalation in the region.
+    details:
+      what_happened:
+        - "Thousands of residents fled Akobo after the army issued an evacuation order."
+        - "Fighting was reported west of the town, prompting civilians to move toward Ethiopia."
+        - "The army instructed the UN Mission in South Sudan to close its base in Akobo."
+        - "The town was reported to be close to empty as the displacement accelerated."
+      why_it_matters:
+        - "Rapid civilian flight is a strong indicator that local residents expected a serious deterioration in security."
+        - "The attempt to remove or limit peacekeeping presence raised concern about monitoring, protection, and humanitarian access."
+      uncertainty_notes:
+        - "The full scale of casualties and the exact military balance around Akobo were not clear in the reporting reviewed."
+    actors:
+      primary:
+        - "South Sudan army"
+        - "civilians in Akobo"
+      secondary:
+        - "UN Mission in South Sudan"
+    entities:
+      people: []
+      organizations:
+        - "UN Mission in South Sudan"
+      states:
+        - "South Sudan"
+        - "Ethiopia"
+    geography:
+      countries:
+        - "South Sudan"
+        - "Ethiopia"
+      places:
+        - "Akobo"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Near-total civilian evacuation of Akobo and disruption of local peacekeeping presence."
+    classification:
+      event_type:
+        - "displacement"
+        - "armed standoff"
+      tags:
+        - "South Sudan"
+        - "Akobo"
+        - "UNMISS"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/south-sudan-fighting-akobo-army-evacuation-order-77540ca4cb0e9d8338178080eaedc75f"
+          publication_date: "2026-03-08"
+          source_type: "news agency"
+          reliability_tier: "high"
+          supports:
+            - "Thousands fled Akobo after an army evacuation order."
+            - "Residents crossed into Ethiopia."
+            - "The army ordered UNMISS to close its local base."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-011"
+    category: "Law and crime"
+    subcategory: "embassy security incident"
+    topics:
+      - "Norway"
+      - "U.S. embassy"
+      - "Explosion"
+      - "Security alert"
+    importance: null
+    headline: "Explosion near the U.S. embassy in Oslo triggers a major security investigation"
+    summary: >
+      A loud early-morning explosion near the U.S. embassy in Oslo on March 8 prompted a major police
+      response and an immediate investigation into whether the blast was a deliberate attack. Reuters
+      reported that no one was injured and that the damage was minor, but Norwegian police said
+      terrorism was among the hypotheses being examined, particularly in light of the wider Middle East
+      security climate. The incident did not produce mass casualties, yet it was important because it
+      directly affected a U.S. diplomatic site in a European capital at a moment of acute regional
+      tension.
+    details:
+      what_happened:
+        - "Police reported a loud blast near the U.S. embassy compound in Oslo."
+        - "No injuries were reported."
+        - "The explosion caused minor physical damage, including broken windows and damage to nearby structures."
+        - "Police said they were investigating whether the blast was a deliberate attack, with terrorism among the working hypotheses."
+      why_it_matters:
+        - "Any attack or suspected attack affecting a U.S. diplomatic site carries outsized security and diplomatic significance."
+        - "The incident occurred amid a heightened international threat environment tied to the Middle East conflict."
+      uncertainty_notes:
+        - "Authorities had not identified a suspect or definitive motive on March 8."
+    actors:
+      primary:
+        - "Norwegian police"
+      secondary:
+        - "U.S. Embassy in Norway"
+    entities:
+      people: []
+      organizations:
+        - "Norwegian police"
+        - "U.S. Embassy in Norway"
+      states:
+        - "Norway"
+        - "United States"
+    geography:
+      countries:
+        - "Norway"
+        - "United States"
+      places:
+        - "Oslo"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: "Minor damage near the embassy site, including broken windows."
+    classification:
+      event_type:
+        - "explosion"
+        - "security incident"
+        - "investigation"
+      tags:
+        - "Oslo"
+        - "embassy"
+        - "blast"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/loud-blast-heard-near-us-embassy-oslo-norway-police-say-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "A blast occurred near the U.S. embassy in Oslo."
+            - "No injuries were reported."
+            - "Police were investigating whether the incident was a deliberate attack."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-08-001"
+      - "evt-2026-03-08-003"
+    notes: ""
+
+  - id: "evt-2026-03-08-012"
+    category: "Disasters and accidents"
+    subcategory: "landfill collapse"
+    topics:
+      - "Indonesia"
+      - "Bekasi"
+      - "Heavy rain"
+      - "Search and rescue"
+    importance: null
+    headline: "Landfill collapse in Bekasi kills at least four people and leaves others missing"
+    summary: >
+      A deadly collapse at the Bantargebang landfill in Bekasi, Indonesia, became one of Southeast
+      Asia's most significant disaster stories on March 8. Reuters reported that heavy rain likely
+      triggered the failure, killing at least four people, leaving five missing, and sending rescuers
+      into a difficult search through unstable waste and mud. The accident highlighted both the
+      immediate vulnerability of workers and scavengers at large dump sites and the broader public-safety
+      risks posed by overloaded urban landfill systems.
+    details:
+      what_happened:
+        - "Part of the Bantargebang landfill in Bekasi collapsed on March 8."
+        - "At least four people were confirmed dead and five others were reported missing in initial rescue reporting."
+        - "Authorities said heavy rain was the likely trigger for the collapse."
+        - "More than 200 rescue personnel were deployed to search the debris field."
+      why_it_matters:
+        - "The disaster exposed occupational and environmental risks at one of the Jakarta region's most important waste sites."
+        - "Large landfill failures can quickly turn into mass-casualty events because of unstable terrain, trapped workers, and slow rescue conditions."
+      uncertainty_notes:
+        - "The death toll was provisional on March 8 because search operations were still underway."
+    actors:
+      primary:
+        - "Indonesian rescue workers"
+        - "local authorities in Bekasi"
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Bekasi"
+        - "Bantargebang landfill"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Collapse of a landfill slope buried workers and disrupted operations."
+    classification:
+      event_type:
+        - "collapse"
+        - "industrial disaster"
+        - "rescue operation"
+      tags:
+        - "Indonesia"
+        - "landfill"
+        - "rain"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/indonesia-searches-missing-after-landfill-collapse-kills-four-2026-03-09/"
+          publication_date: "2026-03-09"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "The landfill collapse occurred on March 8 in Bekasi."
+            - "At least four people were killed and five were missing in the initial toll."
+            - "Heavy rain was identified as the likely cause."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-013"
+    category: "Sports"
+    subcategory: "cricket"
+    topics:
+      - "ICC Men's T20 World Cup"
+      - "India"
+      - "New Zealand"
+      - "Ahmedabad"
+    importance: null
+    headline: "India defeats New Zealand to retain the Men's T20 World Cup and claim a record third title"
+    summary: >
+      India produced one of the year's biggest sporting results on March 8 by defeating New Zealand by
+      96 runs in the ICC Men's T20 World Cup final in Ahmedabad. Reuters reported that India posted
+      255/5, the highest total ever recorded in a T20 World Cup final, before bowling New Zealand out
+      for 159. The result made India the first team to retain the men's T20 title and the first to win
+      the tournament three times, giving the win clear historical significance beyond the single match.
+    details:
+      what_happened:
+        - "India scored 255/5 in the final after an explosive batting performance led by Sanju Samson."
+        - "New Zealand was then dismissed for 159, giving India a 96-run victory."
+        - "Jasprit Bumrah took 4 for 15 and was named player of the match."
+        - "The final was played before a crowd of more than 86,000 at Narendra Modi Stadium in Ahmedabad."
+      why_it_matters:
+        - "India became the first men's team to retain the T20 World Cup and the first to win it three times."
+        - "The scale of the win reinforced India's central competitive and commercial position in world cricket."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "India men's cricket team"
+        - "New Zealand men's cricket team"
+      secondary:
+        - "Sanju Samson"
+        - "Jasprit Bumrah"
+    entities:
+      people:
+        - "Sanju Samson"
+        - "Jasprit Bumrah"
+      organizations:
+        - "International Cricket Council"
+      states:
+        - "India"
+        - "New Zealand"
+    geography:
+      countries:
+        - "India"
+        - "New Zealand"
+      places:
+        - "Ahmedabad"
+        - "Narendra Modi Stadium"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports final"
+        - "championship"
+      tags:
+        - "cricket"
+        - "T20 World Cup"
+        - "India"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sports/cricket/red-hot-samson-powers-india-255-5-against-nz-t20-world-cup-final-2026-03-08/"
+          publication_date: "2026-03-08"
+          source_type: "wire service"
+          reliability_tier: "high"
+          supports:
+            - "India beat New Zealand by 96 runs after scoring 255/5."
+            - "The title was India's third and made it the first men's side to retain the trophy."
+            - "Sanju Samson and Jasprit Bumrah were decisive performers."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "International Cricket Council"
+          url: "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/matches/268129/india-vs-new-zealand"
+          publication_date: "2026-03-08"
+          source_type: "sports governing body"
+          reliability_tier: "high"
+          supports:
+            - "The official match result recorded India 255/5 and New Zealand 159."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-08-014"
+    category: "Health"
+    subcategory: "psychiatric research"
+    topics:
+      - "Japan"
+      - "Ketamine"
+      - "Treatment-resistant depression"
+      - "PET imaging"
+    importance: null
+    headline: "Japanese researchers report direct brain-imaging evidence of how ketamine acts in treatment-resistant depression"
+    summary: >
+      A significant health and science development circulating around March 8 came from Japan, where a
+      study in Molecular Psychiatry reported direct human-brain imaging evidence of ketamine-related
+      changes associated with relief from treatment-resistant depression. Using the PET tracer [11C]K-2,
+      researchers at Yokohama City University mapped AMPA receptor dynamics in living patients and
+      found that receptor changes correlated with clinical improvement. The work stood out because it
+      moved beyond animal models and indirect hypotheses, offering a more concrete biological account
+      of how a fast-acting antidepressant may work in some of the hardest-to-treat cases.
+    details:
+      what_happened:
+        - "Researchers used a PET tracer called [11C]K-2 to visualize AMPA receptor density in living human brains."
+        - "The study compared patients with treatment-resistant depression and healthy controls."
+        - "Ketamine-associated receptor changes were observed in specific brain regions rather than as a uniform whole-brain effect."
+        - "The reported receptor shifts correlated with improvements in depressive symptoms."
+      why_it_matters:
+        - "The study offered rare direct human imaging evidence for a proposed mechanism behind ketamine's rapid antidepressant effect."
+        - "Such imaging may eventually help identify which patients are more likely to benefit from ketamine-based treatment."
+      uncertainty_notes:
+        - "This was a research finding, not an immediate change in clinical standards of care."
+    actors:
+      primary:
+        - "Yokohama City University researchers"
+      secondary:
+        - "patients with treatment-resistant depression"
+    entities:
+      people: []
+      organizations:
+        - "Yokohama City University"
+        - "Molecular Psychiatry"
+      states:
+        - "Japan"
+    geography:
+      countries:
+        - "Japan"
+      places:
+        - "Yokohama"
+      coordinates: []
+    time:
+      date: "2026-03-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "scientific study"
+        - "medical research"
+      tags:
+        - "ketamine"
+        - "depression"
+        - "Japan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Molecular Psychiatry"
+          url: "https://www.nature.com/articles/s41380-026-03510-w"
+          publication_date: "2026-03-05"
+          source_type: "peer-reviewed journal"
+          reliability_tier: "high"
+          supports:
+            - "The study reported AMPA receptor changes associated with ketamine treatment in patients with treatment-resistant depression."
+            - "The imaging findings correlated with clinical improvement."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "PubMed"
+          url: "https://pubmed.ncbi.nlm.nih.gov/41781722/"
+          publication_date: "2026-03-05"
+          source_type: "medical abstract database"
+          reliability_tier: "high"
+          supports:
+            - "The article described PET imaging with [11C]K-2 and region-specific AMPA receptor findings."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-003"
+          outlet: "Yokohama City University"
+          url: "https://www.yokohama-cu.ac.jp/english/news/20260306takahashi.html"
+          publication_date: "2026-03-06"
+          source_type: "university research release"
+          reliability_tier: "medium-high"
+          supports:
+            - "The research team and institution described the study as direct evidence in living human brains."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
