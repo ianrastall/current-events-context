@@ -1,0 +1,783 @@
+date: "2026-03-15"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+
+events:
+  - id: "evt-2026-03-15-001"
+    category: "Geopolitics"
+    subcategory: "Trade diplomacy"
+    topics:
+      - "U.S.-China relations"
+      - "Trade negotiations"
+      - "Tariffs"
+      - "Critical minerals"
+      - "Agricultural purchases"
+    importance: 4
+    headline: "U.S. and China open high-level trade talks in Paris ahead of a planned Trump-Xi summit"
+    summary: >
+      U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng opened
+      economic and trade talks in Paris on March 15, 2026. Reporting from AP and Reuters
+      indicates the meetings were aimed at stabilizing the bilateral trade truce and
+      exploring possible deliverables for a late-March Trump-Xi meeting, including
+      agriculture purchases and new mechanisms to manage trade and investment disputes.
+    details:
+      what_happened:
+        - "Delegations from Washington and Beijing began trade and economic talks in Paris."
+        - "The talks were led by U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng."
+        - "Reuters reported the discussions were described by sources as 'remarkably stable' and touched on agriculture, critical minerals, and managed trade."
+        - "AP reported the Paris talks were presented as a precursor to a planned Trump visit to Beijing at the end of March."
+      why_it_matters:
+        - "The talks reopened a major diplomatic channel between the world's two largest economies."
+        - "Potential agreements on agriculture, critical minerals, and trade-management mechanisms could affect global supply chains and commodity markets."
+        - "The meetings took place while the wider Iran war was complicating global energy and macroeconomic conditions."
+      uncertainty_notes:
+        - "Some of the most detailed claims about potential deliverables came from Reuters sources familiar with the talks rather than a full public official readout."
+        - "Beijing had not formally confirmed the planned state visit dates cited by U.S. officials."
+    actors:
+      primary:
+        - "United States"
+        - "China"
+      secondary:
+        - "Scott Bessent"
+        - "He Lifeng"
+        - "Donald Trump"
+        - "Xi Jinping"
+    entities:
+      people:
+        - "Scott Bessent"
+        - "He Lifeng"
+        - "Donald Trump"
+        - "Xi Jinping"
+      organizations:
+        - "U.S. Treasury Department"
+        - "Ministry of Commerce of the People's Republic of China"
+        - "OECD"
+      states:
+        - "United States"
+        - "China"
+        - "France"
+    geography:
+      countries:
+        - "France"
+        - "United States"
+        - "China"
+      places:
+        - "Paris"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic talks"
+        - "trade negotiation"
+      tags:
+        - "global_economy"
+        - "major_power_relations"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/us-china-discuss-farm-goods-managed-trade-remarkably-stable-paris-talks-sources-2026-03-15/"
+          publication_date: "2026-03-15"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Paris talks were held on March 15."
+            - "Bessent and He led the talks."
+            - "The discussions covered agriculture, critical minerals, and trade-management mechanisms."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/china-us-trade-talks-paris-304947f60609fce139602b57b214c468"
+          publication_date: "2026-03-15"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "The talks opened in Paris on Sunday."
+            - "They were framed as paving the way for a Trump-Xi summit."
+            - "The agenda included trade and economic issues of mutual concern."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-15-006"
+    notes: ""
+
+  - id: "evt-2026-03-15-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border strikes"
+    topics:
+      - "Pakistan-Afghanistan conflict"
+      - "Airstrikes"
+      - "Taliban"
+      - "Border security"
+    importance: 5
+    headline: "Pakistan strikes targets in Afghanistan's Kandahar as fighting with Kabul intensifies"
+    summary: >
+      Pakistan said it carried out overnight strikes on installations and militant
+      infrastructure in Afghanistan's Kandahar region on March 15, 2026, as the worst
+      Pakistan-Afghanistan fighting in years continued. Afghan officials said the two
+      sites hit were an empty guard post and a drug rehabilitation center that sustained
+      slight damage, and they said there were no casualties from the Kandahar strikes.
+    details:
+      what_happened:
+        - "Pakistan's information minister said the military struck Taliban installations and 'terrorist hideouts' in Kandahar overnight."
+        - "AP reported Kabul said two locations were hit: a daytime security-guard site that was empty at night and a drug rehabilitation center."
+        - "Afghan authorities said the Kandahar strikes caused slight damage and no casualties."
+        - "Afghanistan said it retaliated against Pakistani military targets, while Pakistan rejected those claims."
+        - "AP also reported that a mortar fired from Afghanistan hit a home in Pakistan's Bajaur district on the same day, killing four family members and injuring two others."
+      why_it_matters:
+        - "The episode underscored a sharp escalation in Pakistan-Afghanistan hostilities after the collapse of an earlier ceasefire."
+        - "It raised the risk of a broader regional security crisis in South Asia."
+        - "The conflict centers on cross-border militancy, sovereignty, and mutual accusations of harboring armed groups."
+      uncertainty_notes:
+        - "The two governments sharply disputed what was hit and the extent of resulting damage."
+        - "Casualty reporting for the wider cross-border fighting remained contested."
+    actors:
+      primary:
+        - "Pakistan"
+        - "Afghanistan"
+      secondary:
+        - "Attaullah Tarar"
+        - "Zabiullah Mujahid"
+        - "Asif Ali Zardari"
+    entities:
+      people:
+        - "Attaullah Tarar"
+        - "Zabiullah Mujahid"
+        - "Asif Ali Zardari"
+      organizations:
+        - "Government of Pakistan"
+        - "Taliban government of Afghanistan"
+        - "Pakistani military"
+        - "Afghan Defense Ministry"
+      states:
+        - "Pakistan"
+        - "Afghanistan"
+    geography:
+      countries:
+        - "Pakistan"
+        - "Afghanistan"
+      places:
+        - "Kandahar"
+        - "South Waziristan"
+        - "Bajaur"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Afghan officials said a drug rehabilitation center suffered slight damage; the broader conflict also involved additional same-day cross-border casualties elsewhere."
+    classification:
+      event_type:
+        - "airstrike"
+        - "cross-border conflict"
+      tags:
+        - "south_asia"
+        - "military_escalation"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/pakistan-targets-taliban-installations-terrorist-hideouts-kandahar-during-2026-03-15/"
+          publication_date: "2026-03-15"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Pakistan said it targeted installations and militant infrastructure in Kandahar overnight."
+            - "The strikes were presented as part of the ongoing conflict."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/pakistan-afghanistan-kandahar-fighting-15de9a35d08aa0c265de42a13d1ddaea"
+          publication_date: "2026-03-15"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "Afghan officials said the struck sites caused no casualties and only slight damage to the rehabilitation center."
+            - "Afghanistan reported retaliatory action and AP documented separate same-day Bajaur mortar casualties."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-15-003"
+    category: "Politics"
+    subcategory: "Parliamentary elections"
+    topics:
+      - "Vietnam"
+      - "National Assembly"
+      - "One-party state"
+      - "Communist Party"
+    importance: 3
+    headline: "Vietnam holds parliamentary elections dominated by Communist Party-approved candidates"
+    summary: >
+      Vietnam held nationwide elections for its new National Assembly on March 15, 2026.
+      Reuters and AP reported that roughly 73.5 million to 79 million eligible voters
+      were choosing 500 lawmakers from a field of 864 candidates, the overwhelming
+      majority of whom were fielded or pre-approved by the ruling Communist Party.
+    details:
+      what_happened:
+        - "Vietnamese voters cast ballots for the 500-seat National Assembly and local councils."
+        - "Reuters reported that nearly 93% of parliamentary candidates were fielded by the Communist Party, with independent candidates making up a small minority."
+        - "AP reported that nearly 79 million eligible voters were choosing from 864 vetted candidates."
+        - "The election came shortly after the party's January congress reconfirmed To Lam as the country's top political leader."
+      why_it_matters:
+        - "The election set the composition of the legislature that will ratify key appointments and support the government's next policy agenda."
+        - "It offered a closely watched indicator of continuity in Vietnam's one-party political system."
+        - "The vote took place as Vietnam sought to maintain rapid growth and attract manufacturing investment."
+      uncertainty_notes:
+        - "The formal vote is electorally significant, but the underlying distribution of political power in Vietnam is largely determined inside party structures before election day."
+    actors:
+      primary:
+        - "Vietnam"
+        - "Communist Party of Vietnam"
+      secondary:
+        - "To Lam"
+        - "Vietnamese electorate"
+    entities:
+      people:
+        - "To Lam"
+      organizations:
+        - "Communist Party of Vietnam"
+        - "National Assembly of Vietnam"
+      states:
+        - "Vietnam"
+    geography:
+      countries:
+        - "Vietnam"
+      places:
+        - "Hanoi"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election"
+        - "parliamentary vote"
+      tags:
+        - "southeast_asia"
+        - "governance"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/communist-party-fields-nearly-93-candidates-vietnam-holds-parliament-elections-2026-03-15/"
+          publication_date: "2026-03-15"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "Vietnam held parliamentary elections on March 15."
+            - "The ruling party overwhelmingly dominated the candidate field."
+            - "The election was one of the limited formal voting exercises in the one-party state."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/vietnam-election-national-assembly-c3a445f2e29da4d30267c1d18f079f0c"
+          publication_date: "2026-03-15"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "Nearly 79 million voters were eligible."
+            - "Voters were choosing 500 representatives from 864 candidates."
+            - "The legislature was expected to support the leadership agenda set after the party congress."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-15-004"
+    category: "Politics"
+    subcategory: "Presidential elections"
+    topics:
+      - "Republic of Congo"
+      - "Denis Sassou Nguesso"
+      - "Election integrity"
+      - "Internet blackout"
+    importance: 4
+    headline: "Republic of Congo votes in a presidential election marked by low turnout and an internet blackout"
+    summary: >
+      The Republic of Congo voted in a presidential election on March 15, 2026, with
+      incumbent Denis Sassou Nguesso widely expected to extend his rule. Reuters reported
+      sparse lines at many polling stations in Brazzaville and a nationwide internet
+      blackout that transparency monitors said reduced connectivity to about 3% of normal
+      levels.
+    details:
+      what_happened:
+        - "More than 3.2 million Congolese were registered to vote in the presidential election."
+        - "Reuters reported visibly thin turnout in Brazzaville and noted that Sassou faced six little-known challengers."
+        - "Several opposition parties boycotted the election and prominent opposition figures were imprisoned or in exile."
+        - "NetBlocks reported a nation-scale internet outage during the vote."
+      why_it_matters:
+        - "The vote was expected to extend the decades-long rule of one of Africa's longest-serving leaders."
+        - "The low-competition environment and internet outage raised questions about openness and public confidence."
+        - "The election mattered for the governance of an oil-producing state where poverty remains widespread."
+      uncertainty_notes:
+        - "Election-day visibility was constrained by the internet blackout."
+        - "Turnout and perceived credibility were disputed by government critics and civil society actors."
+    actors:
+      primary:
+        - "Republic of Congo"
+        - "Denis Sassou Nguesso"
+      secondary:
+        - "Congolese electorate"
+        - "NetBlocks"
+        - "Opposition parties"
+    entities:
+      people:
+        - "Denis Sassou Nguesso"
+        - "Anatole Collinet Makosso"
+      organizations:
+        - "Congolese Labour Party"
+        - "NetBlocks"
+      states:
+        - "Republic of Congo"
+    geography:
+      countries:
+        - "Republic of Congo"
+      places:
+        - "Brazzaville"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: "National internet connectivity was reported to be severely disrupted on election day."
+    classification:
+      event_type:
+        - "election"
+        - "internet shutdown"
+      tags:
+        - "central_africa"
+        - "authoritarian_politics"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/congo-republic-votes-election-expected-extend-sassous-long-rule-2026-03-15/"
+          publication_date: "2026-03-15"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "The election was held on March 15."
+            - "Turnout appeared thin in Brazzaville."
+            - "A nationwide internet outage was reported."
+            - "Sassou was expected to win against weak challengers."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-15-005"
+    category: "Politics"
+    subcategory: "Constitutional referendum"
+    topics:
+      - "Kazakhstan"
+      - "Constitution"
+      - "Presidential power"
+      - "Tokayev"
+    importance: 4
+    headline: "Kazakhstan votes to approve a new constitution that critics say could entrench presidential power"
+    summary: >
+      Kazakhstan held a referendum on March 15, 2026, and exit polls indicated strong
+      support for a new constitution. Reuters reported roughly 87% approval with turnout
+      around 73%, while AP said the constitutional package would strengthen President
+      Kassym-Jomart Tokayev's grip on power by reshaping parliament, restoring the vice
+      presidency, and allowing the president to appoint key officials.
+    details:
+      what_happened:
+        - "Kazakh voters cast ballots in a referendum on a new constitution."
+        - "Reuters reported two exit polls showing about 87% support and turnout of about 73%."
+        - "The proposed constitutional order would streamline parliament and recreate the office of vice president."
+        - "AP reported the reforms would also expand the president's appointment powers and create additional institutional tools under presidential influence."
+      why_it_matters:
+        - "The referendum could reshape Kazakhstan's political system and succession dynamics."
+        - "Critics and some analysts argued it may allow Tokayev to consolidate or extend power beyond the spirit of existing term limits."
+        - "Kazakhstan is a strategically important energy and minerals producer in Central Asia."
+      uncertainty_notes:
+        - "On March 15, the approval figures were based on exit polls rather than final certified results."
+        - "Competing interpretations remained over whether the new structure pointed to succession planning or term-resetting."
+    actors:
+      primary:
+        - "Kazakhstan"
+        - "Kassym-Jomart Tokayev"
+      secondary:
+        - "Nursultan Nazarbayev"
+        - "Kazakh electorate"
+    entities:
+      people:
+        - "Kassym-Jomart Tokayev"
+        - "Nursultan Nazarbayev"
+      organizations:
+        - "Central Election Commission of Kazakhstan"
+      states:
+        - "Kazakhstan"
+    geography:
+      countries:
+        - "Kazakhstan"
+      places:
+        - "Astana"
+        - "Almaty"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "referendum"
+        - "constitutional change"
+      tags:
+        - "central_asia"
+        - "institutional_reform"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/kazakhstan-approves-new-constitution-referendum-exit-poll-says-2026-03-15/"
+          publication_date: "2026-03-15"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "The referendum was held on March 15."
+            - "Exit polls showed about 87% support with turnout near 73%."
+            - "The constitution recreated the vice presidency and could affect post-2029 power arrangements."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/kazakhstan-referendum-tokayev-constitution-fef36383f2de35fa7f636a6d9310348d"
+          publication_date: "2026-03-15"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "AP described the referendum as one that would strengthen Tokayev's hold on power."
+            - "The reform package included a one-chamber parliament and expanded presidential appointment powers."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-15-006"
+    category: "Economy"
+    subcategory: "Energy markets"
+    topics:
+      - "International Energy Agency"
+      - "Strategic reserves"
+      - "Oil prices"
+      - "Strait of Hormuz"
+    importance: 5
+    headline: "IEA details rollout of more than 400 million barrels from emergency reserves amid Iran-war supply shock"
+    summary: >
+      The International Energy Agency said on March 15, 2026, that more than 400 million
+      barrels from emergency oil reserves would begin flowing soon in response to the
+      sharp energy shock linked to the Iran war and disruption in the Strait of Hormuz.
+      Reuters reported that this was the sixth coordinated stockpile release in IEA
+      history and by far the largest described in the 2026 crisis.
+    details:
+      what_happened:
+        - "The IEA announced that oil from emergency reserves in Asia and Oceania would be available immediately, with Europe and the Americas following later in March."
+        - "Reuters reported that governments committed 271.7 million barrels from public stocks, 116.6 million from obligated industry stocks, and 23.6 million from other sources."
+        - "The release was designed to counter price spikes and physical supply disruptions linked to the effective choking of Hormuz traffic."
+      why_it_matters:
+        - "Around one-fifth of global oil and gas supply normally moves through the Strait of Hormuz."
+        - "The reserve release was a major international intervention to stabilize fuel markets, shipping expectations, and inflation pressures."
+        - "The action highlighted how the Iran conflict had become a first-order global economic risk rather than only a regional military crisis."
+      uncertainty_notes:
+        - "The timing and pace of actual physical deliveries varied by region."
+        - "The longer-term market effect depended on whether Hormuz disruptions persisted."
+    actors:
+      primary:
+        - "International Energy Agency"
+      secondary:
+        - "IEA member states"
+        - "Global oil market participants"
+    entities:
+      people: []
+      organizations:
+        - "International Energy Agency"
+      states:
+        - "United States"
+        - "Japan"
+        - "Germany"
+        - "Canada"
+        - "Australia"
+      geography:
+        countries: []
+        places:
+          - "Strait of Hormuz"
+          - "Paris"
+        coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: "The underlying crisis had disrupted a major share of global oil and gas transit and contributed to severe price volatility."
+    classification:
+      event_type:
+        - "strategic reserve release"
+        - "energy market intervention"
+      tags:
+        - "global_economy"
+        - "oil_market"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/emergency-stockpile-oil-coming-soon-iran-wracked-markets-iea-says-2026-03-15/"
+          publication_date: "2026-03-15"
+          source_type: "wire_service"
+          reliability_tier: "high"
+          supports:
+            - "The IEA detailed a release of more than 400 million barrels."
+            - "The release was tied to the Hormuz and Iran-war supply shock."
+            - "Asia and Oceania stocks would be available first, with Europe and the Americas later."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/iran-us-oil-europe-reserve-release-eaf0cf9988cd7e06f0dc2a8ee800762e"
+          publication_date: "2026-03-11"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "AP separately confirmed the reserve-release decision and the scale of the international intervention."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-15-001"
+    notes: ""
+
+  - id: "evt-2026-03-15-007"
+    category: "Disasters and accidents"
+    subcategory: "Severe weather"
+    topics:
+      - "Winter storm"
+      - "Flooding"
+      - "Wildfires"
+      - "Power outages"
+      - "Flight disruptions"
+    importance: 4
+    headline: "A sprawling U.S. storm system brings blizzard conditions, Hawaii flooding, wildfire pressure and major travel disruptions"
+    summary: >
+      A broad storm chain battered much of the United States on March 15, 2026, bringing
+      heavy snow to the Upper Midwest, severe flooding in Hawaii, ongoing wildfire strain
+      in Nebraska, widespread power outages, and a growing threat of thunderstorms and
+      tornadoes farther east. AP reported more than 600 cancellations at Minneapolis-Saint
+      Paul airport, more than 850 cancellations at Chicago's O'Hare and Midway, and more
+      than 210,000 utility customers without power across six Great Lakes states.
+    details:
+      what_happened:
+        - "Heavy snow made roads hazardous or impassable across parts of Minnesota, Wisconsin, and Michigan."
+        - "AP reported more than 20 inches of snow in parts of southeastern Minnesota and western Wisconsin, with some areas forecast to exceed 2 feet."
+        - "In Hawaii, flash flooding, landslides, road collapses, and multiple rescues were reported on Maui and other islands."
+        - "PowerOutage.us data cited by AP showed more than 210,000 customers without power in six Great Lakes states and nearly 40,000 in Hawaii by midday Sunday."
+        - "Nebraska remained under pressure from large wind-driven wildfires while forecasters warned of severe storms and possible tornadoes moving east."
+      why_it_matters:
+        - "The weather system created simultaneous winter, flood, fire, and severe-storm hazards across multiple U.S. regions."
+        - "The combination of airport cancellations, outages, evacuations, and rescue operations made it a nationally significant domestic emergency."
+        - "The event replaced an unsupported earthquake claim in the original draft with a verified March 15 disaster picture."
+      uncertainty_notes:
+        - "Impacts were still unfolding on March 15, especially for outages, severe-storm damage, and any casualty totals."
+        - "The article reported one fire-related fatality in Nebraska from the preceding Friday, but this entry does not attribute that death directly to the March 15 storm impacts."
+    actors:
+      primary:
+        - "United States"
+      secondary:
+        - "National Weather Service"
+        - "Hawaii Emergency Management Agency"
+        - "Maui County"
+        - "State and local emergency responders"
+    entities:
+      people:
+        - "Richard Bissen"
+      organizations:
+        - "National Weather Service"
+        - "Hawaii Emergency Management Agency"
+        - "Maui County"
+        - "National Guard"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Minnesota"
+        - "Wisconsin"
+        - "Michigan"
+        - "Chicago"
+        - "Minneapolis-Saint Paul"
+        - "Maui"
+        - "Hawaii"
+        - "Nebraska"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Major road and airport disruption, road collapses and flood damage on Maui, widespread power outages, and ongoing wildfire damage in Nebraska."
+    classification:
+      event_type:
+        - "winter storm"
+        - "flooding"
+        - "wildfire emergency"
+        - "severe weather outbreak"
+      tags:
+        - "north_america"
+        - "weather"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/weather-blizzard-high-winds-tornadoes-94f6202d4bc4ad6a61d91e3e42919e57"
+          publication_date: "2026-03-15"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports:
+            - "A severe weather system affected large parts of the U.S. on March 15."
+            - "Heavy snow, flooding, power outages, flight cancellations, and Nebraska wildfire pressure were all documented."
+            - "Forecasters warned of an eastward severe-storm and tornado threat by late March 15 into March 16."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
