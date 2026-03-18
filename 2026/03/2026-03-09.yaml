@@ -124,6 +124,7 @@ events:
       detail_accuracy: "medium"
       actor_identification: "high"
     related_events:
+      - "evt-2026-03-08-002"
       - "evt-2026-03-09-002"
       - "evt-2026-03-09-003"
     notes: "Sources are secondary aggregators rather than primary wire services; event existence and core details corroborated across both."
@@ -241,6 +242,7 @@ events:
     related_events:
       - "evt-2026-03-09-001"
       - "evt-2026-03-09-003"
+      - "evt-2026-03-09-005"
       - "evt-2026-03-09-012"
     notes: ""
 
@@ -442,7 +444,8 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "medium"
-    related_events: []
+    related_events:
+      - "evt-2026-03-07-006"
     notes: ""
 
   - id: "evt-2026-03-09-005"
@@ -547,7 +550,6 @@ events:
       detail_accuracy: "medium"
       actor_identification: "medium"
     related_events:
-      - "evt-2026-03-09-001"
       - "evt-2026-03-09-002"
     notes: "The Al Jazeera source is dated March 12 and covers the developing situation retrospectively; the Nikkei figure is drawn from the March 9 American Legion source."
 
@@ -996,8 +998,9 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
-    notes: "Reuters source URL not retrieved in draft; seat count details are corroborated by Wikipedia portal text fragment. Detail accuracy set to medium pending direct URL."
+    related_events:
+      - "evt-2026-03-08-006"
+    notes: "Seat count details are corroborated by Reuters Connect and the Wikipedia portal text fragment."
 
   - id: "evt-2026-03-09-011"
     category: "Politics and elections"
@@ -1066,11 +1069,11 @@ events:
         text_fragment: "Malagasy president Michael Randrianirina dismisses prime minister Herintsalama Rajaonarivelo and his cabinet."
       external:
         - id: "src-001"
-          outlet: "Reuters"
-          url: null
-          publication_date: null
-          source_type: "news_agency"
-          reliability_tier: "high"
+          outlet: "Xinhua"
+          url: "https://english.news.cn/africa/20260310/e790d7ce084a4bd8ab0a175f5d76e34c/c.html"
+          publication_date: "2026-03-10"
+          source_type: "state_affiliated"
+          reliability_tier: "medium"
           supports:
             - "Dismissal of Prime Minister Herintsalama Rajaonarivelo and full cabinet"
           contradicts: []
@@ -1084,7 +1087,7 @@ events:
       detail_accuracy: "low"
       actor_identification: "low"
     related_events: []
-    notes: "Reuters source URL not retrieved; presidential attribution cannot be independently verified for 2026 from compiler knowledge base. Actor identification confidence is low."
+    notes: "Xinhua reported the cabinet dismissal; presidential attribution remains low-confidence pending corroboration from additional non-state sources."
 
   - id: "evt-2026-03-09-012"
     category: "Armed conflicts and attacks"
@@ -1427,8 +1430,8 @@ events:
       external:
         - id: "src-001"
           outlet: "Associated Press"
-          url: null
-          publication_date: null
+          url: "https://apnews.com/article/b399ada90696efa6c34c14640ed42652"
+          publication_date: "2026-03-09"
           source_type: "news_agency"
           reliability_tier: "high"
           supports:
@@ -1446,7 +1449,7 @@ events:
       detail_accuracy: "medium"
       actor_identification: "low"
     related_events: []
-    notes: "AP source URL not retrieved in draft; event corroborated by Wikipedia portal text fragment."
+    notes: "The AP report corroborates the Wikipedia portal text fragment on the collision and death toll."
 
   - id: "evt-2026-03-09-016"
     category: "Armed conflicts and attacks"
@@ -1544,5 +1547,6 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - "evt-2026-03-08-010"
     notes: ""

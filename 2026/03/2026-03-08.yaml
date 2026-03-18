@@ -93,7 +93,7 @@ events:
         - "war-related economic fallout"
       tags:
         - "oil"
-        - "Hormuz"
+        - "hormuz"
         - "energy"
     sources:
       wikipedia_portal:
@@ -202,7 +202,7 @@ events:
         - "leadership succession"
         - "elite political process"
       tags:
-        - "Iran"
+        - "iran"
         - "succession"
         - "clerics"
     sources:
@@ -243,6 +243,7 @@ events:
       - "evt-2026-03-08-001"
       - "evt-2026-03-08-003"
       - "evt-2026-03-08-004"
+      - "evt-2026-03-09-001"
     notes: ""
 
   - id: "evt-2026-03-08-003"
@@ -317,9 +318,9 @@ events:
         - "cross-border conflict"
         - "military casualties"
       tags:
-        - "Lebanon"
-        - "Beirut"
-        - "Hezbollah"
+        - "lebanon"
+        - "beirut"
+        - "hezbollah"
     sources:
       wikipedia_portal:
         included: false
@@ -430,9 +431,9 @@ events:
         - "press conference"
         - "diplomatic signaling"
       tags:
-        - "China"
-        - "Wang Yi"
-        - "U.S.-China"
+        - "china"
+        - "wang-yi"
+        - "us-china"
     sources:
       wikipedia_portal:
         included: false
@@ -521,7 +522,7 @@ events:
         - "protest"
         - "international observance"
       tags:
-        - "International Women's Day"
+        - "international-womens-day"
         - "gender"
         - "rights"
     sources:
@@ -640,8 +641,8 @@ events:
         - "election"
         - "primary vote"
       tags:
-        - "Colombia"
-        - "Congress"
+        - "colombia"
+        - "congress"
         - "primaries"
     sources:
       wikipedia_portal:
@@ -663,7 +664,7 @@ events:
         - id: "src-002"
           outlet: "Associated Press"
           url: "https://apnews.com/article/colombia-election-congress-presidential-candidates-petro-4766c3c2098610f24ec91aa61d793a4e"
-          publication_date: null
+          publication_date: "2026-03-08"
           source_type: "news agency"
           reliability_tier: "high"
           supports:
@@ -678,7 +679,8 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - "evt-2026-03-09-010"
     notes: ""
 
   - id: "evt-2026-03-08-007"
@@ -747,9 +749,9 @@ events:
         - "election"
         - "state politics"
       tags:
-        - "Germany"
-        - "Greens"
-        - "CDU"
+        - "germany"
+        - "greens"
+        - "cdu"
     sources:
       wikipedia_portal:
         included: false
@@ -841,8 +843,8 @@ events:
         - "election count"
         - "party realignment"
       tags:
-        - "Nepal"
-        - "RSP"
+        - "nepal"
+        - "rsp"
         - "counting"
     sources:
       wikipedia_portal:
@@ -863,7 +865,7 @@ events:
         - id: "src-002"
           outlet: "Associated Press"
           url: "https://apnews.com/article/2cf0332dcc8f56e313c27e846b8cbed5"
-          publication_date: null
+          publication_date: "2026-03-08"
           source_type: "news agency"
           reliability_tier: "high"
           supports:
@@ -878,7 +880,8 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - "evt-2026-03-07-008"
     notes: ""
 
   - id: "evt-2026-03-08-009"
@@ -941,8 +944,8 @@ events:
         - "referendum"
         - "direct democracy vote"
       tags:
-        - "Switzerland"
-        - "SRG"
+        - "switzerland"
+        - "srg"
         - "referendum"
     sources:
       wikipedia_portal:
@@ -1046,9 +1049,9 @@ events:
         - "displacement"
         - "armed standoff"
       tags:
-        - "South Sudan"
-        - "Akobo"
-        - "UNMISS"
+        - "south-sudan"
+        - "akobo"
+        - "unmiss"
     sources:
       wikipedia_portal:
         included: false
@@ -1074,7 +1077,8 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
-    related_events: []
+    related_events:
+      - "evt-2026-03-09-016"
     notes: ""
 
   - id: "evt-2026-03-08-011"
@@ -1142,7 +1146,7 @@ events:
         - "security incident"
         - "investigation"
       tags:
-        - "Oslo"
+        - "oslo"
         - "embassy"
         - "blast"
     sources:
@@ -1171,8 +1175,7 @@ events:
       detail_accuracy: "high"
       actor_identification: "high"
     related_events:
-      - "evt-2026-03-08-001"
-      - "evt-2026-03-08-003"
+      - "evt-2026-03-11-012"
     notes: ""
 
   - id: "evt-2026-03-08-012"
@@ -1236,7 +1239,7 @@ events:
         - "industrial disaster"
         - "rescue operation"
       tags:
-        - "Indonesia"
+        - "indonesia"
         - "landfill"
         - "rain"
     sources:
@@ -1333,8 +1336,8 @@ events:
         - "championship"
       tags:
         - "cricket"
-        - "T20 World Cup"
-        - "India"
+        - "t20-world-cup"
+        - "india"
     sources:
       wikipedia_portal:
         included: false
@@ -1437,7 +1440,7 @@ events:
       tags:
         - "ketamine"
         - "depression"
-        - "Japan"
+        - "japan"
     sources:
       wikipedia_portal:
         included: false

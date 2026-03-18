@@ -62,7 +62,7 @@ events:
       damage: null
     classification:
       event_type: ["air war", "regional security crisis", "retaliatory threats"]
-      tags: ["Iran war", "Gulf", "Trump", "Pezeshkian", "Saudi warning"]
+      tags: ["iran-war", "gulf", "trump", "pezeshkian", "saudi-warning"]
     sources:
       wikipedia_portal:
         included: false
@@ -152,7 +152,7 @@ events:
       damage: "Residential and urban areas around Nabi Chit were hit by repeated strikes."
     classification:
       event_type: ["airstrikes", "special forces raid", "cross-border conflict"]
-      tags: ["Lebanon", "Israel", "Hezbollah", "Nabi Chit", "Ron Arad"]
+      tags: ["lebanon", "israel", "hezbollah", "nabi-chit", "ron-arad"]
     sources:
       wikipedia_portal:
         included: false
@@ -243,7 +243,7 @@ events:
       damage: "A helipad area inside the embassy compound was struck."
     classification:
       event_type: ["rocket attack", "diplomatic security incident"]
-      tags: ["Baghdad", "Green Zone", "U.S. embassy", "Iraq", "regional spillover"]
+      tags: ["baghdad", "green-zone", "us-embassy", "iraq", "regional-spillover"]
     sources:
       wikipedia_portal:
         included: false
@@ -334,7 +334,7 @@ events:
       damage: "A five-storey residential building was hit and infrastructure was damaged in multiple regions."
     classification:
       event_type: ["missile strike", "drone attack", "civilian-area bombardment"]
-      tags: ["Ukraine", "Kharkiv", "Russia", "children killed", "infrastructure damage"]
+      tags: ["ukraine", "kharkiv", "russia", "children-killed", "infrastructure-damage"]
     sources:
       wikipedia_portal:
         included: false
@@ -415,7 +415,7 @@ events:
       damage: "Energy prices rose sharply and policymakers moved to cushion consumers and industry."
     classification:
       event_type: ["energy market shock", "economic policy response"]
-      tags: ["oil", "gasoline", "EU industry", "Hormuz", "Iran war"]
+      tags: ["oil", "gasoline", "eu-industry", "hormuz", "iran-war"]
     sources:
       wikipedia_portal:
         included: false
@@ -504,7 +504,7 @@ events:
       damage: "Dozens of vehicles were swept away and airport operations were disrupted."
     classification:
       event_type: ["flash flood", "weather disaster", "transport disruption"]
-      tags: ["Kenya", "Nairobi", "floods", "airport disruption", "East Africa"]
+      tags: ["kenya", "nairobi", "floods", "airport-disruption", "east-africa"]
     sources:
       wikipedia_portal:
         included: false
@@ -530,7 +530,7 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
+    related_events: ["evt-2026-03-09-004"]
     notes: ""
 
   - id: "evt-2026-03-07-007"
@@ -575,7 +575,7 @@ events:
       damage: "Homes were flattened or damaged, roads were blocked by debris and power outages affected residents."
     classification:
       event_type: ["tornado", "severe storm", "weather disaster"]
-      tags: ["Michigan", "tornadoes", "Union City", "EF3", "storm damage"]
+      tags: ["michigan", "tornadoes", "union-city", "ef3", "storm-damage"]
     sources:
       wikipedia_portal:
         included: false
@@ -666,7 +666,7 @@ events:
       damage: null
     classification:
       event_type: ["election", "vote count", "party-system shift"]
-      tags: ["Nepal", "RSP", "Balendra Shah", "election", "generational shift"]
+      tags: ["nepal", "rsp", "balendra-shah", "election", "generational-shift"]
     sources:
       wikipedia_portal:
         included: false
@@ -701,7 +701,7 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events: []
+    related_events: ["evt-2026-03-08-008"]
     notes: ""
 
   - id: "evt-2026-03-07-009"
@@ -746,7 +746,7 @@ events:
       damage: null
     classification:
       event_type: ["summit", "security coalition", "foreign policy initiative"]
-      tags: ["Miami", "Trump", "Latin America", "cartels", "Shield of the Americas"]
+      tags: ["miami", "trump", "latin-america", "cartels", "shield-of-the-americas"]
     sources:
       wikipedia_portal:
         included: false
@@ -827,7 +827,7 @@ events:
       damage: null
     classification:
       event_type: ["trade dispute", "WTO action"]
-      tags: ["Indonesia", "EU", "palm oil", "WTO", "trade retaliation"]
+      tags: ["indonesia", "eu", "palm-oil", "wto", "trade-retaliation"]
     sources:
       wikipedia_portal:
         included: false
@@ -897,7 +897,7 @@ events:
       damage: null
     classification:
       event_type: ["ship seizure", "sanctions-related investigation", "maritime law enforcement"]
-      tags: ["Baltic Sea", "Sweden", "Caffa", "false flag", "shipping"]
+      tags: ["baltic-sea", "sweden", "caffa", "false-flag", "shipping"]
     sources:
       wikipedia_portal:
         included: false
@@ -976,7 +976,7 @@ events:
       damage: null
     classification:
       event_type: ["leadership speech", "anti-corruption campaign", "civil-military politics"]
-      tags: ["China", "Xi Jinping", "PLA", "corruption", "Party loyalty"]
+      tags: ["china", "xi-jinping", "pla", "corruption", "party-loyalty"]
     sources:
       wikipedia_portal:
         included: false
@@ -1056,7 +1056,7 @@ events:
       damage: null
     classification:
       event_type: ["sporting event", "sanctions controversy"]
-      tags: ["Paralympics", "Russia", "Ukraine", "IPC", "flag"]
+      tags: ["paralympics", "russia", "ukraine", "ipc", "flag"]
     sources:
       wikipedia_portal:
         included: false
@@ -1136,7 +1136,7 @@ events:
       damage: null
     classification:
       event_type: ["armed clash", "bandit attack", "security operation"]
-      tags: ["Nigeria", "Katsina", "bandits", "army", "cattle theft"]
+      tags: ["nigeria", "katsina", "bandits", "army", "cattle-theft"]
     sources:
       wikipedia_portal:
         included: false

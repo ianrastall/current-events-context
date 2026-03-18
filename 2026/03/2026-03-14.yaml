@@ -26,10 +26,10 @@ events:
     importance: 9
     headline: "Strike hits industrial facility in Isfahan as Iran blames U.S. and Israel"
     summary: >-
-      A strike hit an industrial facility in Isfahan, central Iran, on March 14. Reuters supported the occurrence and location of the strike, while Fars News Agency said the site was an HVAC plant and that 15 workers were killed. Iranian authorities blamed the United States and Israel for the attack, but the listed sources in this record do not independently establish responsibility.
+      A strike hit an industrial facility in Isfahan, central Iran, on March 14. Associated Press live coverage supported the occurrence and location of the strike, while Fars News Agency said the site was an HVAC plant and that 15 workers were killed. Iranian authorities blamed the United States and Israel for the attack, but the listed sources in this record do not independently establish responsibility.
     details:
       what_happened:
-        - Reuters reported that a strike hit an industrial site in Isfahan, Iran.
+        - Associated Press live coverage reported that a strike killed people at an industrial area in Isfahan, Iran.
         - Fars News Agency described the facility as an HVAC equipment manufacturing plant.
         - Iranian state media said 15 workers were killed in the strike.
         - Iranian authorities publicly blamed the United States and Israel for the attack.
@@ -100,14 +100,14 @@ events:
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "Reuters"
-          url: null
+          outlet: "Associated Press"
+          url: "https://apnews.com/live/iran-war-israel-trump-03-14-2026"
           publication_date: "2026-03-14"
           source_type: "news_agency"
           reliability_tier: "high"
           supports:
-            - A strike hit an industrial site in Isfahan
-            - The strike occurred in central Iran
+            - A strike killed people at an industrial area in Isfahan
+            - Israeli military said it had not targeted the area and the U.S. military declined to comment
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -130,21 +130,22 @@ events:
       - "Energy Security"
       - "Maritime Trade"
     importance: 9
-    headline: "Drone strikes hit Fujairah bunkering hub and Kuwaiti air base amid Gulf escalation"
+    headline: "Fire near Fujairah port and drone strike on Kuwaiti air base mark Gulf escalation"
     summary: >-
-      Drone and missile attacks hit infrastructure in the United Arab Emirates and Kuwait on March 14. Associated Press reported a strike on the Fujairah Oil Industry Zone that ignited storage tanks and pushed oil prices higher, while the Kuwaiti Ministry of Defence said an attack on Ahmad al-Jaber Air Base injured three military personnel after some drones were intercepted and others breached the perimeter. The reviewed file attributed the attacks to Iran, but the listed source support in this record is stronger on the impacts than on direct attribution.
+      Drone and missile attacks hit infrastructure in the United Arab Emirates and Kuwait on March 14. Associated Press live coverage reported that debris from a drone interception sparked a fire near Fujairah port, while the Kuwaiti Ministry of Defence said an attack on Ahmad al-Jaber Air Base injured three military personnel after some drones were intercepted and others breached the perimeter. The listed sources in this record support the impacts in the UAE and Kuwait more clearly than they establish direct attribution for both attacks.
     details:
       what_happened:
-        - Associated Press reported that a strike hit the Fujairah Oil Industry Zone in the United Arab Emirates and ignited storage tanks.
+        - Associated Press live coverage reported that debris from a drone interception sparked a fire near Fujairah port in the United Arab Emirates.
         - The Kuwaiti Ministry of Defence said drones targeted Ahmad al-Jaber Air Base.
         - Kuwait said three drones were intercepted and that other drones breached the perimeter.
         - The Kuwaiti military reported three minor injuries at the air base.
-        - Associated Press linked the attacks to disruption in Gulf energy markets and higher oil prices.
+        - Local authorities cited by Associated Press said there were no casualties in the Fujairah fire.
       why_it_matters:
         - The attacks showed that Gulf energy and military infrastructure remained exposed as the regional war widened.
-        - Damage in Fujairah and Kuwait added pressure to already strained oil and shipping markets.
+        - Damage in Fujairah and Kuwait added pressure to already strained shipping and infrastructure protection plans in the Gulf.
       uncertainty_notes:
-        - The listed sources in this record directly support the impacts in the UAE and Kuwait, but they are less explicit on direct attribution for both strikes.
+        - The Associated Press account described a Fujairah fire caused by interception debris rather than independently confirming a direct strike on the port facility.
+        - The listed sources in this record directly support the impacts in the UAE and Kuwait, but they are less explicit on direct attribution for both attacks.
     actors:
       primary: []
       secondary:
@@ -207,14 +208,14 @@ events:
           quoted_material_used: false
         - id: "src-002"
           outlet: "Associated Press"
-          url: null
+          url: "https://apnews.com/live/iran-war-israel-trump-03-14-2026"
           publication_date: "2026-03-14"
           source_type: "news_agency"
           reliability_tier: "high"
           supports:
-            - Strike on the Fujairah Oil Industry Zone
-            - Storage tanks were ignited
-            - Oil prices rose after the attacks
+            - Fire near Fujairah port caused by debris from a drone interception
+            - No casualties were reported in the Fujairah fire
+            - Drones damaged Kuwait's Ahmed Al-Jaber air base and injured three soldiers
           contradicts: []
           quoted_material_used: false
     provenance:
@@ -227,6 +228,7 @@ events:
       actor_identification: "low"
     related_events:
       - evt-2026-03-14-001
+      - evt-2026-03-14-003
       - evt-2026-03-14-012
     notes: ""
 
@@ -945,13 +947,13 @@ events:
     importance: 8
     headline: "Protesters damage Communist Party building in Morón amid Cuba's fuel crisis"
     summary: >-
-      Protests over shortages and blackouts in Morón, Ciego de Ávila, led to damage at a local Communist Party building and five arrests, according to local state media and Reuters. Reuters also cited President Miguel Díaz-Canel saying Cuba had gone three months without fuel shipments. The unrest showed how the island's worsening energy crisis was spilling into public disorder.
+      Protests over shortages and blackouts in Morón, Ciego de Ávila, led to damage at a local Communist Party building and five arrests, according to local state media and Associated Press. Associated Press also cited President Miguel Díaz-Canel saying Cuba had gone three months without fuel shipments. The unrest showed how the island's worsening energy crisis was spilling into public disorder.
     details:
       what_happened:
         - Invasor reported protests in Morón over blackouts and shortages.
         - The outlet said demonstrators damaged the local headquarters of the Communist Party of Cuba.
-        - Reuters reported five arrests after the unrest.
-        - Reuters said President Miguel Díaz-Canel acknowledged that Cuba had gone three months without fuel shipments.
+        - Associated Press reported five arrests after the unrest.
+        - Associated Press said President Miguel Díaz-Canel acknowledged that Cuba had gone three months without fuel shipments.
       why_it_matters:
         - Damage to a Communist Party office signaled a sharper form of unrest than routine complaints over shortages.
         - The episode linked Cuba's fuel crisis directly to public-order pressure.
@@ -1013,8 +1015,8 @@ events:
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
-          outlet: "Reuters"
-          url: null
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/75e420ce4d6a1d52ceac5224839e2a6b"
           publication_date: "2026-03-14"
           source_type: "news_agency"
           reliability_tier: "high"
@@ -1043,25 +1045,24 @@ events:
       - "Extremism"
       - "Hate Crimes"
     importance: 8
-    headline: "Explosive attacks target Jewish institutions in the Netherlands and Belgium"
+    headline: "Explosion damages Jewish school in Amsterdam as Dutch security is tightened"
     summary: >-
-      Explosive attacks hit Jewish institutions in Amsterdam, Rotterdam, and Liège within 24 hours, causing property damage but no reported casualties. The Dutch justice ministry said security around Jewish sites was being strengthened, while AFP reported details of the Amsterdam blast and public condemnation from Mayor Femke Halsema. Authorities had not publicly established whether the incidents were centrally coordinated.
+      An explosion damaged a Jewish educational facility in Amsterdam on March 14, causing property damage but no reported casualties. The Dutch justice ministry said security around Jewish sites was being strengthened, while AFP reported details of the Amsterdam blast and public condemnation from Mayor Femke Halsema. This record does not independently establish a direct operational link between the Amsterdam incident and other attacks elsewhere in Europe.
     details:
       what_happened:
         - An explosive device damaged a Jewish educational facility in Amsterdam.
         - No casualties were reported in the Amsterdam blast.
-        - The reviewed file also cites incidents affecting Jewish institutions in Rotterdam and Liège.
         - Dutch authorities said protection of Jewish sites would be increased while the investigation continued.
+        - Mayor Femke Halsema publicly condemned the attack against the Jewish community.
       why_it_matters:
-        - The attacks heightened concern about anti-Jewish violence in Western Europe.
-        - The lack of clarity over coordination or motive left investigators with an open national-security and hate-crime inquiry.
+        - The attack heightened concern about anti-Jewish violence and intimidation in the Netherlands.
+        - The response showed Dutch authorities treating the blast as a serious security issue for Jewish institutions.
       uncertainty_notes:
-        - Authorities had not confirmed whether the incidents were coordinated by a single network or carried out by separate actors.
+        - The available sources in this record do not independently verify a linked cross-border attack pattern beyond the Amsterdam incident itself.
     actors:
       primary: []
       secondary:
         - Dutch Law Enforcement
-        - Belgian authorities
     entities:
       people:
         - Femke Halsema
@@ -1070,15 +1071,11 @@ events:
         - Dutch Justice and Security Ministry
       states:
         - Netherlands
-        - Belgium
     geography:
       countries:
         - Netherlands
-        - Belgium
       places:
         - Amsterdam
-        - Rotterdam
-        - Liège
         - Buitenveldert
       coordinates: []
     time:
@@ -1090,15 +1087,15 @@ events:
       injured: 0
       displaced: null
       arrest_count: 0
-      damage: "Structural damage to multiple religious and educational facilities"
+      damage: "Structural damage to a Jewish educational facility"
     classification:
       event_type:
         - explosive_attack
         - hate_crime_investigation
       tags:
-        - jewish-sites
-        - explosive-attacks
-        - netherlands-belgium
+        - amsterdam-jewish-school
+        - explosive-attack
+        - dutch-security
     sources:
       wikipedia_portal:
         included: false
@@ -1112,7 +1109,7 @@ events:
           reliability_tier: "high"
           supports:
             - "Security policy changes"
-            - "Coordination pattern across cities"
+            - "Protection around Jewish sites was increased"
           contradicts: []
           quoted_material_used: false
         - id: "src-002"
@@ -1135,7 +1132,7 @@ events:
       detail_accuracy: "medium"
       actor_identification: "low"
     related_events: []
-    notes: ""
+    notes: "The event was narrowed to the Amsterdam blast because the reviewed file did not provide source-backed detail for a coordinated Netherlands-Belgium incident pattern."
 
   - id: "evt-2026-03-14-012"
     category: "Business and economy"
@@ -1247,91 +1244,6 @@ events:
     notes: "The disruption followed the strikes recorded earlier the same day in Isfahan, Fujairah and Kuwait."
 
   - id: "evt-2026-03-14-013"
-    category: "Politics and elections"
-    subcategory: "Election"
-    topics:
-      - "Legislative Assembly"
-      - "Authoritarian Consolidation"
-    importance: 6
-    headline: "Vietnam concludes voting in National Assembly and local council elections"
-    summary: >-
-      Vietnam concluded voting for the 16th National Assembly and local People's Councils on March 14, with Vietnam News Agency reporting turnout of 99.64% among more than 76 million eligible voters. The same state-affiliated source said 864 approved candidates were competing for 500 National Assembly seats and that most candidates were Communist Party members. Because this record relies on a single state-affiliated source, the event has been limited to officially reported figures.
-    details:
-      what_happened:
-        - State media said voting concluded for Vietnam's 16th National Assembly and local People's Councils.
-        - Vietnam News Agency reported turnout of 99.64% among more than 76 million eligible voters.
-        - The source said 864 approved candidates were contesting 500 National Assembly seats.
-        - State media reported that most approved candidates were members of the Communist Party of Vietnam.
-      why_it_matters:
-        - The vote determines the formal composition of Vietnam's legislature and local councils for the next term.
-        - The event offered an official snapshot of how the ruling system presented electoral participation and candidate structure.
-      uncertainty_notes:
-        - This event relies on a single state-affiliated source and does not include independent election observation in the reviewed file.
-    actors:
-      primary:
-        - Government of Vietnam
-        - National Election Council
-      secondary:
-        - Communist Party of Vietnam
-    entities:
-      people: []
-      organizations:
-        - Communist Party of Vietnam
-        - National Election Council
-      states:
-        - Vietnam
-    geography:
-      countries:
-        - Vietnam
-      places: []
-      coordinates: []
-    time:
-      date: "2026-03-14"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - election
-        - official_vote_count
-      tags:
-        - vietnam-election
-        - national-assembly
-        - official-turnout
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "Vietnam News Agency (VNA)"
-          url: null
-          publication_date: "2026-03-14"
-          source_type: "state_affiliated"
-          reliability_tier: "medium"
-          supports:
-            - "Voter turnout statistics"
-            - "Candidate affiliations"
-            - "Election conclusion"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: "system_auditor"
-    confidence:
-      event_existence: "medium"
-      detail_accuracy: "medium"
-      actor_identification: "high"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-14-014"
     category: "Sports"
     subcategory: "Rugby"
     topics:
@@ -1432,7 +1344,7 @@ events:
     related_events: []
     notes: ""
 
-  - id: "evt-2026-03-14-015"
+  - id: "evt-2026-03-14-014"
     category: "Sports"
     subcategory: "Football"
     topics:

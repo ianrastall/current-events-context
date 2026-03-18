@@ -1,190 +1,30 @@
-Create a deep-research-backed YAML snapshot for a single day.
-
-This task has two phases:
+Create a deep-research global news report for a single day. 
 
 PHASE 1: RESEARCH
 Conduct a broad global news sweep for the date given in INPUTS.
 Identify the day's biggest events worldwide using strong, high-confidence sources.
-Deliberately check for major developments in:
-- North America
-- Latin America and the Caribbean
-- Europe
-- Middle East and North Africa
-- Sub-Saharan Africa
-- South Asia
-- East Asia
-- Southeast Asia
-- Oceania
-
-Do not force equal regional representation.
-Do not add weak events just to fill regions.
-But do actively check for major events that may be underrepresented in Western coverage, especially in Africa, East Asia, Southeast Asia, and Oceania.
+Deliberately check for major developments in: North America, Latin America and the Caribbean, Europe, Middle East and North Africa, Sub-Saharan Africa, South Asia, East Asia, Southeast Asia, and Oceania.
+Do not force equal regional representation, but actively check for major events that may be underrepresented in Western coverage.
 
 PHASE 2: OUTPUT
-After research is complete, output ONE valid YAML document only.
-Output the final YAML enclosed strictly within standard markdown code blocks (```yaml ... ```). 
-Do not output any conversational text, explanations, reasoning, or prose outside of this code block.
+Output a highly structured Markdown report. Do NOT output YAML. 
+For each event (aim for 12 to 18 major events), provide the following structured sections:
 
-Goal:
-Produce a broad, high-confidence global snapshot of the date's most important events.
-This is not a mirror of the Wikipedia Current Events Portal.
-Wikipedia may be consulted, but it must not determine the final event list.
-The final event list should reflect the biggest events of the day globally.
+## Event: [Headline]
+* **Category & Subcategory:** (e.g., Armed conflicts and attacks / Drone strikes)
+* **Geography:** [Countries], [Places]
+* **Summary:** A robust, substantial 1-paragraph summary.
+* **What Happened:** Exactly 3 to 5 highly specific bullet points.
+* **Why It Matters:** 1 to 3 bullet points explaining broader significance.
+* **Actors:** * Primary: (Only if explicitly supported by sources)
+    * Secondary:
+* **Casualties/Damage:** Killed, injured, displaced, arrest count, damage descriptions. (Use "Unknown" if genuinely unavailable).
+* **Sources:** For each source, provide the Outlet Name, URL, Publication Date, and a brief list of claims this specific source supports. Prefer 2 to 5 direct, high-confidence sources per event.
 
-Selection rules:
-- Target 12 to 18 major events on a normal day. Do not artificially truncate the list.
-- Go above 18 only if the day is unusually dense.
-- Prefer fewer strong events over many weak ones.
-- Include war, diplomacy, politics, disasters, business, science, health, culture, and sports when they are among the day's major developments.
-- Merge duplicate reporting about the same real-world event into one event object.
-- Split distinct real-world events into separate event objects.
-- Do not include mere topics or background conditions as events.
-
-Source rules:
-- Prefer 2 to 5 direct, high-confidence sources per event.
-- 1 source is allowed only if it is a highly credible original report or official primary source.
-- Every listed source must support at least one concrete claim in the event record.
-- Do not pad with background articles, earlier related stories, explainers, or vaguely adjacent links.
-- Prefer Reuters, AP, AFP, BBC, strong national outlets, strong regional outlets close to the event, official releases, court or election records, UN or NGO materials, and specialist trade or domain outlets when directly relevant.
-- Include URLs when available.
-
-Fact rules:
-- Be factual, neutral, and source-grounded.
-- Do not guess.
-- Do not invent events, entities, motives, casualty figures, responsibility, or outcomes.
-- Preserve proper nouns exactly.
-- Use null for unknown scalar values.
-- Use [] only when the information is genuinely unavailable or too uncertain.
-- Fill list fields when reliable sources clearly support the information.
-- Do not assign responsibility in actors.primary unless the listed sources explicitly support that attribution.
-- If sources disagree, record the disagreement briefly in uncertainty_notes or notes and lower confidence.
-
-Depth & Formatting rules:
-To ensure comprehensive and parseable output:
-- Write a robust, substantial 1-paragraph summary. Do not over-compress.
-- Provide exactly 3 to 5 highly specific bullets in details.what_happened.
-- Provide 1 to 3 bullets in details.why_it_matters.
-- Keep uncertainty_notes brief.
-- Keep tags concise.
-- Do not add extra commentary.
-- Do not add more than 5 sources per event.
-- Do not bloat fields with paraphrased repetition.
-
-Use these broad categories when applicable:
-- Armed conflicts and attacks
-- International relations
-- Politics and elections
-- Law and crime
-- Business and economy
-- Science and technology
-- Health
-- Environment
-- Society and civil unrest
-- Culture and media
-- Sports
-- Disasters and accidents
-
-Output only this schema and keep field order exactly as shown:
-
-date: "DATE_ISO"
-source_page:
-  portal: null
-  language: "en"
-  wikipedia_revision_id: null
-
-dataset:
-  schema_version: "2.1"
-  compiler:
-    mode: "llm_deep_research_broad_snapshot"
-    status: "draft"
-    reviewed: false
-  scope:
-    seed_source: "Broad global news sweep"
-    enrichment_sources_expected: true
-
-editorial_policy:
-  summary_style: "factual"
-  allow_inference: false
-  require_source_support: true
-
-events:
-  - id: "evt-DATE_ISO-001"
-    category: ""
-    subcategory: null
-    topics: []
-    importance: null
-    headline: ""
-    summary: >
-      ...
-    details:
-      what_happened: []
-      why_it_matters: []
-      uncertainty_notes: []
-    actors:
-      primary: []
-      secondary: []
-    entities:
-      people: []
-      organizations: []
-      states: []
-    geography:
-      countries: []
-      places: []
-      coordinates: []
-    time:
-      date: "DATE_ISO"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type: []
-      tags: []
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: ""
-          url: null
-          publication_date: null
-          source_type: ""
-          reliability_tier: ""
-          supports: []
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
-
-Formatting rules:
-- Replace DATE_ISO everywhere with the ISO date from INPUTS.
-- Number event IDs sequentially: evt-DATE_ISO-001, evt-DATE_ISO-002, etc.
-- Number source IDs sequentially within each event: src-001, src-002, etc.
-- Keep top-level field order exactly as shown.
-- Keep field order inside each event exactly as shown.
-- Do not omit fields.
-- Output valid YAML only.
-
-Mandatory final checks before output:
-- Confirm the file reflects the day's biggest events globally, not just one outlet ecosystem.
-- Confirm Africa, East Asia, Southeast Asia, and Oceania were actively checked for major developments.
-- Confirm every event is a real event.
-- Confirm every listed source directly supports the event record.
-- Confirm empty lists are used only when information is genuinely unavailable.
-- Confirm the final YAML is parseable and enclosed in markdown fences.
+Fact Rules:
+- Be factual, neutral, and source-grounded. Do not guess.
+- Merge duplicate reporting about the same real-world event into one event section.
+- Do not pad with background articles or explainers.
 
 INPUTS:
 DATE_ISO = [insert date]

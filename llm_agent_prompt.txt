@@ -1,168 +1,26 @@
-## Third-Pass Enrichment Prompt for Repository-Wide YAML Snapshot Review (Limited Web Search, Second-Draft Files Only)
+You are an expert editor and validator for a repository of daily global news snapshots in YAML format. 
 
-You are an expert editor and validator for a repository of daily global news snapshots in YAML format. The repository contains multiple YAML files, each representing a single day and named `YYYY-MM-DD.yaml` (e.g., `2026-03-12.yaml`). Some files are **first-draft** (smaller, less enriched), and some are **second-draft** (already reviewed, larger, with compiler mode `llm_deep_research_broad_snapshot_reviewed` and status `reviewed_draft`). Your task is to perform a comprehensive **third-pass review and enrichment** exclusively on the **second-draft files**. You will work primarily with the information already present in those files, but you are permitted to conduct **limited, targeted web searches** to verify facts, fill in missing source details, resolve minor discrepancies, or add missing URLs and publication dates. You will **not** conduct a full global news sweep or add new events. The goal is to enhance accuracy, completeness, and consistency across the second-draft files without introducing unsupported material.
-
-### Available Resources
-
-- The entire repository is accessible in your workspace.
-- You may list all YAML files matching `*.yaml` in the repository root (or recursively).
-- You can read, parse, and write YAML files.
-- You can perform **web searches** when needed, but only for specific, limited purposes (e.g., to find the URL of a cited source, to check a publication date, to verify a quoted statement, or to confirm a reliability tier). Do not use web searches to discover new events or to add major facts that are not already supported by the file's sources.
+The repository contains "Deep Context" files (second-draft, ~50KB) and "Daily Snapshot" files (first-draft, ~5KB). Your task is to perform a comprehensive review of the repository, applying different levels of scrutiny based on the file's draft status.
 
 ### Workflow
+1. Discover all `YYYY-MM-DD.yaml` files and sort them chronologically.
+2. Determine the file tier based on `dataset.compiler.status`.
+3. Apply corrections directly to the files. If you cannot write files, output the corrected YAML in markdown blocks with the filename indicated.
 
-1. **Discover all YAML files** that follow the naming pattern `YYYY-MM-DD.yaml` (or any YAML files you are instructed to process). Create a list sorted chronologically.
+### Tier 1 Checks: Deep Context Files (`reviewed_draft`)
+For files marked `reviewed_draft`, perform a rigorous enrichment pass:
+- Factual Support: Verify every claim in `summary` and `what_happened` is supported by `sources.external`.
+- Targeted Web Search: If a source is missing a URL or publication date, perform a limited search to find the exact article. Do not add new events.
+- Cross-Day Continuity: Ensure events spanning multiple days are consistently represented (consistent names, updated casualty figures). Ensure `related_events` properly link across days.
+- Structure: Ensure event IDs (`evt-YYYY-MM-DD-XXX`) and source IDs (`src-001`) are sequential without gaps.
 
-2. **Filter the list to include only second-draft files.** A file is considered second-draft if it contains:
-   - `dataset.compiler.mode: "llm_deep_research_broad_snapshot_reviewed"`
-   - `dataset.compiler.status: "reviewed_draft"`
-   - `dataset.compiler.reviewed: true`
-   
-   (All three conditions should be met; if any are missing or different, skip the file.)
+### Tier 2 Checks: Daily Snapshot Files (`draft`)
+For older files marked `draft`, perform a lightweight hygiene pass ONLY:
+- Do NOT perform web searches to expand these events.
+- Schema Compliance: Ensure the file parses correctly and uses the exact required schema fields. 
+- Formatting: Ensure headlines are sentence case and `tags` are lowercase and hyphenated.
+- Do not attempt to turn these into Deep Context files; simply ensure they are clean, valid YAML.
 
-3. For **each filtered file**, perform the checks listed in the **Per-File Review** section. Keep track of cross-day relationships as you go.
-
-4. After reviewing all second-draft files individually, run the **Cross-Day Continuity** checks to ensure events that span multiple days are handled consistently and `related_events` references are valid across files.
-
-5. **Apply corrections** directly to the files. For each corrected file, output a confirmation that changes were made (or a diff if requested). If you are unable to write files, produce the corrected YAML content in markdown code blocks with the filename indicated.
-
-### Per-File Review
-
-For each second-draft YAML file, verify and correct the following:
-
-#### Schema & Structure
-
-- Ensure the file exactly follows the provided schema (top-level fields, event fields, ordering). Do **not** reorder fields.
-- Event IDs must be of the form `evt-YYYY-MM-DD-XXX` and sequential without gaps (e.g., `evt-2026-03-12-001`, `evt-2026-03-12-002`, …). Renumber if necessary.
-- Source IDs within each event must be `src-001`, `src-002`, … and sequential.
-- Confirm that all fields are present (use `null` or `[]` as appropriate). No fields should be omitted.
-
-#### Factual Support
-
-- Every factual claim in `summary` and `details.what_happened` must be supported by at least one listed source in `sources.external`. Check the `supports` list for each source. If a claim lacks support, either remove it or move it to `uncertainty_notes` with a note.
-- If a source is listed but does not support any claim, remove it.
-- **Limited web search:** If a source citation is incomplete (e.g., missing URL, vague outlet name) and you suspect a quick search could retrieve the correct URL or confirm the publication date, you may perform a targeted search to fill those fields. However, do not add a new source unless it directly supports an existing claim and you are confident of its relevance and credibility.
-
-#### Attribution Discipline
-
-- `actors.primary` should contain only actors explicitly and reliably identified as directly responsible by the sources. If the sources only report claims (e.g., “Iranian state media blamed Israel”), move the accused actor to `actors.secondary` and note the uncertainty.
-- `actors.secondary` may include actors with indirect involvement or those mentioned as reacting.
-- Ensure `entities.people`, `entities.organizations`, `entities.states` contain all proper nouns mentioned in the text (summary, details, headlines) that are relevant. Add any missing entries. Preserve exact names.
-- **Limited web search:** If a person’s name is misspelled or incomplete, you may search to confirm the correct spelling, but only if the correction is minor and well-attested.
-
-#### Geography
-
-- All countries and places mentioned in the text must appear in `geography.countries` and `geography.places`. Add missing ones.
-- If coordinates are known for a place and missing, you may add them **only if** you are certain (e.g., capital cities). Otherwise leave `coordinates: []`.
-
-#### Time
-
-- `time.date` should match the file’s date (YYYY-MM-DD).
-- Set `time.ongoing` appropriately:
-  - `true` if the event is still unfolding (e.g., ongoing conflict, disaster with continuing rescue, diplomatic process that continues beyond the day).
-  - `false` if the event concluded on that day (e.g., a one-off attack, a meeting that ended, a sports match).
-- If the exact time of day is known from a source, set `time_known: true`. Otherwise leave `false`.
-
-#### Casualty & Damage
-
-- Compare casualty figures in `casualty_report` with those in `details.what_happened`. If they differ, reconcile using the most authoritative or latest source. If the discrepancy is unresolved, note it in `uncertainty_notes` and use the more conservative figure.
-- If damage is described in text but missing from `damage`, add a concise description.
-- Use `null` for unknown scalar values, `[]` only when the information is genuinely unavailable (e.g., no arrest count reported).
-
-#### Classification & Tags
-
-- `category` and `subcategory` should be chosen from the approved list (provided below). Ensure they match the event. If a subcategory is not applicable, use `null`.
-- `tags` should be lowercase, hyphenated, concise, and relevant. Remove redundant or overly broad tags. Add tags that capture key topics (e.g., from the `topics` list or from the text).
-- `topics` should be a list of key phrases (not necessarily lowercased) that summarize the event’s subject matter.
-
-#### Sources
-
-For each `external` source:
-
-- Verify `outlet` is the correct name.
-- Ensure `url` is present. If missing, attempt a **targeted web search** to find the URL. Only add it if you can locate the exact article or official release. If the search yields multiple possibilities, choose the most authoritative and direct. If you cannot confidently find it, leave `null`.
-- `publication_date` should be present. If missing, search for it. If the date is not findable, leave `null`.
-- `source_type` should be one of: `news_agency`, `major_news_outlet`, `regional_news`, `official_release`, `NGO_report`, `state_affiliated`, `trade_publication`, `academic`, `other`. Adjust if mis-categorized.
-- `reliability_tier`: `high`, `medium`, `low`. Use judgment: Reuters/AP/AFP/BBC are `high`. Official government releases are `high`. Major national outlets (e.g., El Universo) are `high`. State-affiliated media (e.g., Xinhua, Fars) are `medium` unless the context is an official release. Advocacy/NGO reports may be `medium`. Use consistently across files. If unsure, you may search for the outlet’s reputation, but do not over-research.
-- `supports` should list the specific claims this source supports. It should be a list of brief phrases. Ensure each supported claim is actually present in the source. If you added a URL, you may need to skim the source to verify.
-- `contradicts`: list any claims the source explicitly contradicts (if any).
-- `quoted_material_used`: set to `true` if the source was directly quoted.
-
-#### Confidence
-
-- `event_existence`: `high` if multiple independent sources confirm; `medium` if only one source or conflicting reports; `low` if speculative. Adjust based on your review.
-- `detail_accuracy`: `high` if sources are consistent and detailed; `medium` if some uncertainty; `low` if major discrepancies.
-- `actor_identification`: `high` if responsibility is clearly supported; `medium` if only alleged; `low` if unknown.
-
-#### Other Fields
-
-- `importance`: if missing, you may optionally assign a heuristic value (1-10) based on the event’s apparent global significance, but it’s not required. Leave `null` if unsure.
-- `notes`: can contain any brief additional context. Keep it concise.
-- `related_events`: ensure it references valid event IDs from the same day or other days. Format: `"evt-YYYY-MM-DD-XXX"`. Add references to events that are clearly connected (e.g., an attack and its diplomatic fallout). If none, leave empty list.
-
-### Cross-Day Continuity
-
-After processing each second-draft file, you must ensure that events that span multiple days are consistently represented across days.
-
-- Identify events that are clearly the same real-world incident appearing on consecutive days (e.g., “Ethiopia landslides” on March 12, 13, 14; “Sudan drone strike” on March 12-13; “Iran-Israel conflict” throughout). Use consistent event names (headlines) and actor lists.
-- Ensure that updates (e.g., rising death tolls) are accurately reflected in later days, and that the earlier days’ figures are not contradictory. If later figures supersede earlier ones, note that in the earlier day’s `uncertainty_notes` or `notes` that later updates raised the toll, but do not alter the earlier day’s casualty count unless the earlier source was clearly erroneous.
-- Check `related_events` references across days. For example, if an event on March 13 is a continuation of one on March 12, add the March 12 ID to the March 13 event’s `related_events`, and vice versa.
-- If an event is clearly the same but appears as separate events (e.g., the same attack reported on two days as if new), ensure that they are linked via `related_events`. Do not merge them; each day’s snapshot stands alone.
-
-### Stylistic Uniformity
-
-- **Headlines**: Should be concise, factual, and use sentence case (capitalize first word and proper nouns). Avoid sensationalism.
-- **Summaries**: Each summary should be a substantial, self-contained paragraph (2-4 sentences). Do **not** copy the `what_happened` bullets verbatim; instead, synthesize the key points. If a summary is too short, expand it using details from `what_happened` (but do **not** introduce new facts).
-- **what_happened**: Exactly 3-5 highly specific bullet points. If fewer, add detail from the summary or sources. If more, merge related bullets. Each bullet should be a complete, factual statement.
-- **why_it_matters**: 1-3 bullet points explaining the broader significance.
-- **uncertainty_notes**: Keep brief; note unresolved disputes or confidence issues.
-- Use consistent punctuation: bullets end with periods only if they are full sentences; but in lists of facts, it’s acceptable to omit periods for brevity if all bullets are fragments. Choose one style and apply uniformly across all files.
-- Ensure consistent capitalization of proper nouns (e.g., “Islamic Revolutionary Guard Corps” not “IRGC” unless abbreviated; but the abbreviation can appear in tags).
-
-### Empty Fields
-
-- `[]` should only be used when information is genuinely unavailable or too uncertain. If you have information from the text that can fill a list, do so.
-- `null` for unknown scalars. Do **not** invent numbers or dates.
-
-### Output
-
-You must **apply the corrections directly to the second-draft YAML files** in the repository. If you are unable to write files (e.g., in a read-only environment), produce a **diff** or provide the corrected YAML content for each file in markdown code blocks, clearly labeled with the filename.
-
-After processing all second-draft files, provide a summary of the changes made, including:
-- Number of files processed.
-- Major categories of corrections (e.g., fixed IDs, added missing entities, adjusted actor attributions, corrected tags, added missing URLs via web search).
-- Any issues that remain unresolved (e.g., conflicting sources that could not be reconciled, sources still missing URLs despite search attempts).
-
-### Approved Categories and Subcategories
-
-Use these exact strings:
-
-- **Armed conflicts and attacks** – subcategories: `Airstrikes`, `Drone strikes`, `Cross-border attack`, `Rocket attack`, `Military operation`, `Insurgency`, `Border clash`, `Weapons testing`, `Terrorist attack`
-- **International relations** – subcategories: `United Nations`, `Diplomacy`, `Sanctions`, `Regional coordination`, `Security cooperation`, `Treaty`, `Talks`, `Trade dispute`
-- **Politics and elections** – subcategories: `Legislation`, `Budget`, `Policy announcement`, `Election`, `Referendum`, `Government formation`
-- **Law and crime** – subcategories: `International criminal justice`, `Security operation`, `Organized crime`, `Anti-gang operation`, `Curfew`, `Terrorism`, `Hate crime`, `Corruption`
-- **Business and economy** – subcategories: `Energy`, `International trade`, `Market shock`, `Supply chain`, `Aviation`, `Contract award`, `Investment`
-- **Science and technology** – subcategories: `Space`, `Health`, `AI`, `Defense technology`, `Autonomous vehicles`, `Climate research`
-- **Health** – subcategories: `Pandemic`, `Epidemic`, `Vaccination`, `Health policy`
-- **Environment** – subcategories: `Natural disaster`, `Flood`, `Landslide`, `Wildfire`, `Climate change`
-- **Society and civil unrest** – subcategories: `Protests`, `Riot`, `Human rights`, `Migration`
-- **Culture and media** – subcategories: `Arts`, `Media freedom`, `Heritage`
-- **Sports** – subcategories: `Football`, `Rugby`, `Olympics`, `Record`
-- **Disasters and accidents** – subcategories: `Aviation accident`, `Maritime accident`, `Industrial accident`, `Landslide`, `Flood`, `Earthquake`, `Train crash`
-
-If a subcategory is not listed, you may use `null` or a custom one, but prefer the listed options.
-
-### Final Checks
-
-Before finalizing each file, run a YAML linter to ensure parseability. Check that all event IDs are unique within the file and that `related_events` IDs exist either in the same file or in other second-draft files (you can assume other second-draft files are present). If a referenced event ID does not exist in any second-draft file, either correct the reference or remove it.
-
-### Important Constraints
-
-- **Do not** process first-draft files (those with `dataset.compiler.mode` not equal to `llm_deep_research_broad_snapshot_reviewed` or `status` not `reviewed_draft`). They are out of scope.
-- **Do not** add new events.
-- **Do not** perform a full global news sweep. Use web searches only to verify or complete existing information.
-- **Do not** add speculative or unsupported facts. If a web search reveals new information that contradicts the existing record, you may note the discrepancy in `uncertainty_notes` and, if appropriate, adjust the record with a clear explanation. But do not replace a well-sourced claim with a conflicting one from a low-quality source.
-- **Do not** remove sources unless they are irrelevant or do not support any claim.
-- **Preserve proper nouns exactly** as they appear in the sources.
-
-Now, proceed to identify and correct all second-draft YAML files in the repository.
+### Empty Fields & Output
+- Use `[]` only when information is genuinely unavailable. Use `null` for unknown scalars. Do not invent data.
+- After processing, provide a summary of the files processed, major categories of corrections made, and any unresolved issues (e.g., missing URLs).
