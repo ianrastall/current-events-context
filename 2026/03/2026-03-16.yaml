@@ -1,0 +1,299 @@
+date: "2026-03-16"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+
+events:
+  - id: "evt-2026-03-16-001"
+    category: "International security and energy"
+    subcategory: "Maritime chokepoints and energy supply disruption"
+    topics: ["Oil Exports", "Maritime Security", "Energy Markets"]
+    importance: 9
+    headline: "Strait of Hormuz disruption deepens as Gulf oil exports plunge and floating storage swells"
+    summary: >
+      Shipping and energy markets remained heavily disrupted as the Strait of Hormuz stayed
+      mostly closed amid the U.S.-Iran war. Reuters reported that Gulf oil exports fell to
+      about 9.71 million barrels per day from about 25.13 million bpd in February, while
+      floating storage rose above 50 million barrels as tankers backed up outside the
+      chokepoint.
+    details:
+      what_happened:
+        - "Shipping data showed Gulf exports fell to about 9.71 million bpd from about 25.13 million bpd in February."
+        - "Floating storage rose above 50 million barrels as cargoes backed up outside the strait."
+      why_it_matters:
+        - "Sustained disruption of the Strait of Hormuz threatens a major global oil and LNG transit route, feeding shipping stress and price pressure."
+        - "The data showed that the wider U.S.-Iran war was still constraining physical energy flows, not just financial markets."
+      uncertainty_notes: []
+    actors:
+      primary: ["Iran", "United States"]
+      secondary: ["Kpler", "Vortexa", "Saudi Arabia", "United Arab Emirates", "Kuwait", "Iraq", "Oman", "Qatar", "Bahrain"]
+    entities:
+      people: []
+      organizations: ["Kpler", "Vortexa"]
+      states: ["Iran", "United States", "Saudi Arabia", "United Arab Emirates", "Kuwait", "Iraq", "Oman", "Qatar", "Bahrain"]
+    geography:
+      countries: ["Iran", "Saudi Arabia", "United Arab Emirates", "Kuwait", "Iraq", "Oman", "Qatar", "Bahrain"]
+      places: ["Strait of Hormuz", "Gulf waters"]
+      coordinates: []
+    time:
+      date: "2026-03-16"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Major supply-chain disruption and tanker-loading delays were reported."
+    classification:
+      event_type: ["military escalation", "economic disruption"]
+      tags: ["strait-of-hormuz", "oil-exports", "energy-markets"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/middle-east-oil-exports-drop-least-60-hormuz-stays-mostly-closed-data-shows-2026-03-16/"
+          publication_date: "2026-03-16"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports: ["export volumes and % decline estimates", "floating storage estimate"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "Gemini"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: ["evt-2026-03-15-006"]
+    notes: "Narrowed to the export and storage impacts directly supported by the cited Reuters report."
+
+  - id: "evt-2026-03-16-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes and air defense"
+    topics: ["Drone Warfare", "Air Defense"]
+    importance: 6
+    headline: "Russia launches a rare daytime drone attack on Kyiv; Ukraine reports most drones downed"
+    summary: >
+      Ukrainian officials reported a rare daytime Russian drone attack on Kyiv that
+      produced multiple explosions and scattered debris into central districts. Ukraine's
+      air force said it downed 194 of 211 drones, and officials reported no immediate
+      casualties in the capital.
+    details:
+      what_happened:
+        - "Russia conducted a daylight drone strike on Kyiv, with debris falling in central districts."
+        - "Ukraine's air force said it downed 194 of 211 drones launched in the attack."
+      why_it_matters:
+        - "Daytime attacks increase risks to civilian movement and test air-defense readiness."
+        - "The scale of the barrage underscored continued pressure on Ukrainian air defenses even when casualty levels remained limited."
+      uncertainty_notes: []
+    actors:
+      primary: ["Russia", "Ukraine"]
+      secondary: ["Ukrainian Air Force", "Vitali Klitschko", "Yuri Ihnat"]
+    entities:
+      people: ["Vitali Klitschko", "Yuri Ihnat"]
+      organizations: ["Ukrainian Air Force"]
+      states: ["Russia", "Ukraine"]
+    geography:
+      countries: ["Ukraine", "Russia"]
+      places: ["Kyiv"]
+      coordinates: []
+    time:
+      date: "2026-03-16"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      arrest_count: null
+      damage: "Drone debris impacts in multiple districts."
+    classification:
+      event_type: ["military attack"]
+      tags: ["drone-strike", "air-defense", "kyiv"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/debris-crashes-several-parts-kyiv-russian-drone-attack-no-injuries-reported-2026-03-16/"
+          publication_date: "2026-03-16"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports: ["timing and location of the attack", "air-defense numbers"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "Gemini"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-16-003"
+    category: "International relations"
+    subcategory: "Coercive diplomacy and regional security signaling"
+    topics: ["Diplomacy", "Energy Crisis"]
+    importance: 7
+    headline: "Trump escalates rhetoric toward Cuba as the island's power grid collapses"
+    summary: >
+      U.S. President Donald Trump escalated his rhetoric toward Cuba on March 16, saying
+      he could "take" the island, while Cuba's national electric grid collapsed amid the
+      country's worsening energy crisis.
+    details:
+      what_happened:
+        - "Trump told reporters he might have the 'honor' of 'taking Cuba in some form'."
+        - "Cuba's electric grid collapsed on March 16, leaving the island without power as authorities tried to restart generation."
+      why_it_matters:
+        - "Escalatory U.S. rhetoric raised the temperature around an already fragile confrontation with Cuba."
+        - "A nationwide blackout magnified economic disruption and humanitarian strain on the island."
+      uncertainty_notes: []
+    actors:
+      primary: ["United States", "Cuba"]
+      secondary: ["Donald Trump", "Miguel Díaz-Canel"]
+    entities:
+      people: ["Donald Trump", "Miguel Díaz-Canel"]
+      organizations: []
+      states: ["United States", "Cuba"]
+    geography:
+      countries: ["United States", "Cuba"]
+      places: ["Havana"]
+      coordinates: []
+    time:
+      date: "2026-03-16"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Collapse of national electric grid; severe economic disruption."
+    classification:
+      event_type: ["diplomatic incident", "infrastructure failure"]
+      tags: ["cuba", "power-grid", "us-cuba"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/trump-says-he-thinks-he-will-have-honor-taking-cuba-2026-03-16/"
+          publication_date: "2026-03-16"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports: ["Trump comments about taking Cuba", "report of the grid collapse"]
+          contradicts: []
+          quoted_material_used: true
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "Gemini"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: ["evt-2026-03-13-006", "evt-2026-03-14-010"]
+    notes: "Narrowed to the March 16 rhetoric and blackout; earlier U.S.-Cuba talks remain covered in prior entries."
+
+  - id: "evt-2026-03-16-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border airstrikes"
+    topics: ["Airstrikes", "Civilian Casualties"]
+    importance: 8
+    headline: "Pakistan strikes Kabul; Taliban says rehab hospital hit, Pakistan says it targeted military and technical support infrastructure"
+    summary: >
+      Afghanistan's Taliban administration said a Pakistani airstrike hit a drug
+      rehabilitation hospital in Kabul. Pakistan rejected that account, saying it struck
+      military installations and technical support infrastructure in Kabul and Nangarhar
+      instead. Afghan officials said the hospital strike killed about 400 people and
+      wounded roughly 250, claims Pakistan denied.
+    details:
+      what_happened:
+        - "Taliban officials said a Pakistani airstrike hit a drug rehabilitation hospital in Kabul."
+        - "Pakistan said it had struck military installations and technical support infrastructure in Kabul and Nangarhar and denied hitting civilian sites."
+        - "Afghan officials said about 400 people were killed and roughly 250 injured, figures Pakistan rejected."
+      why_it_matters:
+        - "A direct Pakistan-Afghanistan escalation risks broad regional destabilization."
+        - "Disputed casualty reporting can fuel misinformation and impede mediation."
+      uncertainty_notes: ["Significant uncertainty remains around independently verified casualty totals and the exact nature of the target struck."]
+    actors:
+      primary: ["Pakistan", "Afghanistan"]
+      secondary: ["Afghan Taliban administration", "Pakistan government"]
+    entities:
+      people: []
+      organizations: ["Taliban"]
+      states: ["Pakistan", "Afghanistan"]
+    geography:
+      countries: ["Pakistan", "Afghanistan"]
+      places: ["Kabul", "Nangarhar"]
+      coordinates: []
+    time:
+      date: "2026-03-16"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Rehab hospital described as heavily damaged/destroyed in AP account; Pakistan denies."
+    classification:
+      event_type: ["military attack", "disputed strike"]
+      tags: ["airstrike", "kabul", "civilian-casualties"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/pakistan-strikes-hit-drug-rehabilitation-hospital-kabul-taliban-says-2026-03-16/"
+          publication_date: "2026-03-16"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports: ["Taliban claim of hospital hit", "Pakistan denial of striking civilian sites"]
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-005"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/44c7bb28cdf68615b413a81eb4e4fe36"
+          publication_date: "2026-03-16"
+          source_type: "news_agency"
+          reliability_tier: "high"
+          supports: ["Afghan officials' casualty claims", "Pakistan's stated targets in Kabul and Nangarhar", "context of escalating conflict"]
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: "Gemini"
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "low"
+      actor_identification: "high"
+    related_events: ["evt-2026-03-15-002", "evt-2026-03-14-006", "evt-2026-03-13-004"]
+    notes: ""
