@@ -1,99 +1,356 @@
-Date: '2026-03-06'
-Source_URI: Portal:Current events/2026 March 6
-Intelligence_Payload:
-  Uncategorized:
-  - Middle Eastern crisis
-  - 2026 Iran war
-  - 2026 Iranian strikes on Qatar
-  - The Qatari government announces that its military had intercepted nine Iranian
-    drones, while one drone struck an uninhabited area. (QNA via Gulf Times)
-  - The Qatar Civil Aviation Authority partially reopens the country's airspace through
-    designated contingency routes with limited capacity. Operations initially included
-    evacuation flights for stranded passengers and air cargo services. (AFP via Deccan
-    Chronicle)
-  - Protests against the 2026 Iran war
-  - Iranian diaspora protesters clash with anti-war protesters at a Ali Khamenei vigil
-    at Washington Square Park in New York City, United States. (Times of Israel)
-  - Demonstrators in Sanaa, Yemen, rally in solitary with Iran and Lebanon amidst
-    the conflict. (Middle East Eye)
-  - 2025–2026 Iran–United States negotiations
-  - United States president Donald Trump calls for the "unconditional surrender" of
-    Iran, saying there will be no deal or further talks. This comes after Iranian
-    president Masoud Pezeshkian says that several countries have initiated mediation
-    efforts to end the war. (BBC News)
-  - 2026 Iranian strikes on Azerbaijan
-  - Azerbaijan's State Security Service affirms it has thwarted a terror attack plotted
-    by Iran's Islamic Revolutionary Guard Corps, including possible strikes against
-    the Baku-Tbilisi-Ceyhan pipeline. (Euronews)
-  - 2026 Iranian strikes on Bahrain
-  - The Bahraini military announces that its air defence continue to intercept successive
-    waves of Iranian attacks, with 84 missiles and 147 drones destroyed since the
-    onset of hostilities. (Emirates News Agency)
-  - 2026 Iranian strikes on the Kurdistan Region
-  - Drones hit a hotel in Erbil, Iraqi Kurdistan. (Iraqi News)
-  - 2026 Iranian strikes on Saudi Arabia
-  - An Iranian ballistic missile strikes Prince Sultan Air Base in Riyadh Province,
-    Saudi Arabia. The Saudi defense ministry says air defenses intercepted three missiles
-    launched to the base, as well as four drones east of the province. (The Caspian
-    Post) (Saudi Gazette)
-  - An Israeli IAI Heron UAV is shot down over Khuzestan province, Iran. (Aviation
-    Safety Network)
-  - U.S. Army AH-64 Apache helicopters launch air-to-surface missiles at Popular Mobilization
-    Forces positions near Mosul, Iraq. (Iraqi News) (Shafaq)
-  - The Iranian Red Crescent Society reports the death toll from the Israeli and American
-    air campaign in Iran has risen to 1,332. (Turkiye Today)
-  - 2026 Hezbollah–Israel war
-  - At least 41 people are killed, including three soldiers, and 40 more injured in
-    Israeli air and ground raids on Al-Nabi Shayth, Beqaa Valley. The Israeli commandos
-    tried unsuccessfully to locate and take away the remains of missing pilot Ron
-    Arad. (Al Jazeera) (The Guardian)
-  - Three Ghanaian peacekeepers are injured in an Israeli missile strike in southern
-    Lebanon. (France 24)
-  - Ecuadorian conflict
-  - Operation Southern Spear
-  - The U.S. defense department says its military has carried out airstrikes on narcoterrorists
-    in Ecuador at the request of the Ecuadorian government, targeting a camp belonging
-    to a faction of the FARC dissidents at the border with Colombia. (Reuters)
-  - 2026 Afghanistan–Pakistan war
-  - The United Nations High Commissioner for Refugees reports at least 100,000 civilians
-    have now been displaced from their homes due to the fighting between Afghanistan
-    and Pakistan, while Afghan forces say they have destroyed 14 more Pakistani military
-    outposts along the border and downed a drone. (Sky News)
-  - Sudanese civil war
-  - The Sudanese military recaptures the town of Barah in North Kordofan, Sudan, following
-    a ground assault backed by airstrikes against the Rapid Support Forces (RSF),
-    reportedly inflicting heavy losses on the RSF and destroying 32 RSF combat vehicles.
-    (Al Jazeera)
-  - Russo-Ukrainian war
-  - Prisoners of war in the Russo-Ukrainian war
-  - Russia and Ukraine exchange prisoners of war, with 300 soldiers returned to each
-    side. (The Moscow Times)
-  - A wave of severe weather and a related tornado outbreak, kill at least eight people
-    and cause widespread damage in the central United States. (CNN)
-  - 2020–2026 H5N1 outbreak
-  - The Japanese agriculture ministry confirms a H5N1 bird flu outbreak at a poultry
-    farm in Abira, Hokkaido. (MENAFN)
-  - 2026 Iranian diaspora protests
-  - Police in Moscow, Russia, detain Iranian nationals who celebrated the killing
-    of former supreme leader Ali Khamenei in public. (The Moscow Times)
-  - Immigration policy of the second Trump administration
-  - A United States appeals court declines to allow Donald Trump's administration
-    to end temporary protected status for more than 350,000 Haitian nationals, leaving
-    in place a lower court order that blocks the policy while the case proceeds. (Reuters)
-  - 2026 Iranian leadership crisis
-  - Exiled Iranian crown prince Reza Pahlavi, son of the late former shah Mohammad
-    Reza Pahlavi, says he is ready to lead a potential transition if the Iranian government
-    falls. (Naijan News)
-  - 2026 Kosovan presidential election, 2026 Kosovan parliamentary election
-  - Kosovan president Vjosa Osmani dissolves the Kuvendi, attempting to set new parliamentary
-    elections within 45 days. The Vetëvendosje party maintains that the constitution
-    allows parliament 60 more days to try to elect a president, seeking to challenge
-    Osmani's decree at the Constitutional Court. (AP) (Balkan Insight) (RKS)
-  - Internet in Indonesia
-  - Indonesia announces that it will prohibit social media access for users under
-    the age of 16 and begin deactivating accounts belonging to minors on several major
-    platforms as part of a phased policy intended to address risks such as internet
-    fraud and excessive internet use. (AFP via CNA)
-  - 2026 Winter Paralympics
-  - The opening ceremony of the Winter Paralympics in Milan and Cortina d'Ampezzo
-    is held in Verona Arena, Verona, Italy. (AP)
+date: "2026-03-06"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+events:
+  - id: "evt-2026-03-06-001"
+    category: "Economic policy"
+    subcategory: "Growth targets and planning law"
+    topics:
+      - "China economy"
+      - "GDP target"
+      - "National development planning law"
+      - "15th Five-Year Plan"
+    importance: null
+    headline: "China sets 2026 growth target and reviews draft national development planning law"
+    summary: >
+      Xinhua and China Daily reported that China set a 2026 GDP growth target
+      of 4.5 to 5 percent in the government work report as the National
+      People's Congress opened its annual session. Xinhua also reported that
+      lawmakers began deliberating a draft law on national development
+      planning, intended to codify procedures for formulating and implementing
+      five-year plans. Together, the steps linked the year's macro targets to
+      the opening phase of the 15th Five-Year Plan.
+    details:
+      what_happened:
+        - "Xinhua and China Daily reported that the government work report set a 2026 GDP growth target of 4.5 to 5 percent."
+        - "Xinhua reported that the National People's Congress began deliberating a draft law on national development planning on March 5."
+        - "The cited reporting tied both moves to the start of the 2026 to 2030 planning cycle and to wider efforts to steer high-quality development."
+      why_it_matters:
+        - "China's annual growth target shapes expectations for demand, trade and investment flows."
+        - "Putting the planning framework into law would formalize how Beijing prepares and implements long-term economic blueprints."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "National People's Congress of China"
+        - "State Council of China"
+      secondary:
+        - "Chinese policymakers and planners"
+    entities:
+      people: []
+      organizations:
+        - "National People's Congress of China"
+        - "State Council of China"
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - economic policy
+        - legislative review
+      tags:
+        - "china"
+        - "gdp-target"
+        - "national-development-planning-law"
+        - "five-year-plan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Xinhua News Agency"
+          url: "https://english.news.cn/20260306/42d1bb0eebd54ebba5aca2d3b8499d2b/c.html"
+          publication_date: "2026-03-06"
+          source_type: "state news agency"
+          reliability_tier: medium
+          supports:
+            - "China set a 2026 GDP growth target of 4.5 to 5 percent."
+            - "The target was presented in the government work report at the annual legislative session."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Xinhua News Agency"
+          url: "https://english.news.cn/20260305/e46c6e006b3f4bc8bba89efdc018693f/c.html"
+          publication_date: "2026-03-05"
+          source_type: "state news agency"
+          reliability_tier: medium
+          supports:
+            - "The National People's Congress began deliberating a draft law on national development planning."
+            - "The draft would codify procedures for preparing and implementing development plans including five-year plans."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-003"
+          outlet: "China Daily"
+          url: "https://www.chinadaily.com.cn/a/202603/05/WS69a8f737a310d6866eb3bdfd.html"
+          publication_date: "2026-03-05"
+          source_type: "state-affiliated news outlet"
+          reliability_tier: medium
+          supports:
+            - "The government work report set a 2026 GDP growth target of 4.5 to 5 percent."
+            - "The target was framed as the first-year benchmark for the new five-year period."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-06-002"
+    category: "Social policy"
+    subcategory: "Cross-border legal protections"
+    topics:
+      - "European Union"
+      - "Vulnerable adults"
+      - "Cross-border rights"
+      - "Council position"
+    importance: null
+    headline: "EU Council agrees position on law to protect vulnerable adults in cross-border cases"
+    summary: >
+      The Council of the European Union said on March 6 that it had agreed its
+      position on a law meant to protect adults who need support in cross-border
+      situations such as property transactions, medical care abroad or
+      relocation. The Council said the text clarifies jurisdiction, applicable
+      law, recognition of protection measures and the creation of a European
+      certificate of support and representation. It also said member states
+      removed the proposal for interconnected protection registers for now while
+      asking the Commission to reassess the idea later.
+    details:
+      what_happened:
+        - "The Council said it agreed its position on an EU law covering adults who need protection or support in cross-border situations."
+        - "The text clarifies which authority is competent, which law applies, and how measures or powers of representation are recognized in another member state."
+        - "The agreed text includes a European certificate of support and representation and drops interconnected protection registers at this stage."
+        - "The agreement will serve as the basis for negotiations with the European Parliament."
+      why_it_matters:
+        - "It addresses a practical legal gap for adults who rely on support across EU borders."
+        - "It moves the EU toward operational cross-border tools, not just general rights language."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Council of the European Union"
+      secondary:
+        - "European Parliament"
+        - "European Commission"
+    entities:
+      people:
+        - "Costas Fytiris"
+      organizations:
+        - "Council of the European Union"
+        - "European Parliament"
+        - "European Commission"
+      states:
+        - "European Union"
+    geography:
+      countries:
+        - "European Union"
+      places:
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - eu legislation
+        - council position
+      tags:
+        - "european-union"
+        - "vulnerable-adults"
+        - "cross-border-law"
+        - "certificate-of-support-and-representation"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004"
+          outlet: "Council of the European Union"
+          url: "https://www.consilium.europa.eu/en/press/press-releases/2026/03/06/council-agrees-position-on-eu-law-to-protect-vulnerable-adults/"
+          publication_date: "2026-03-06"
+          source_type: "official press release"
+          reliability_tier: high
+          supports:
+            - "The Council agreed its position on the proposed law."
+            - "The text includes a European certificate of support and representation."
+            - "Interconnected protection registers were removed from the draft for now."
+            - "The agreed position will be used for negotiations with the European Parliament."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-06-003"
+    category: "International trade"
+    subcategory: "Ratification and provisional implementation dispute"
+    topics:
+      - "EU-Mercosur"
+      - "Parliamentary scrutiny"
+      - "Animal welfare"
+      - "Provisional application"
+    importance: null
+    headline: "EU-Mercosur deal remains under legal and political scrutiny before provisional rollout"
+    summary: >
+      Scrutiny of the EU-Mercosur deal continued in early March after the
+      European Parliament asked the EU Court of Justice to assess whether the
+      agreement conforms with EU treaties, while Eurogroup for Animals argued
+      that the deal could weaken animal-welfare standards and should not be
+      applied provisionally before parliamentary consent. Associated Press
+      reported on February 27 that Ursula von der Leyen intended to move toward
+      provisional implementation after Mercosur ratifications, keeping the deal
+      under political and legal pressure.
+    details:
+      what_happened:
+        - "The European Parliament said on January 21 that it had requested a Court of Justice opinion on whether the agreement conforms with EU treaties."
+        - "Eurogroup for Animals said on January 28 that the agreement should not be provisionally applied before judicial and parliamentary scrutiny."
+        - "Associated Press reported on February 27 that Ursula von der Leyen would move toward provisional implementation after Mercosur ratifications despite the pending parliamentary process."
+      why_it_matters:
+        - "The deal remains entangled with questions of democratic procedure, legal competence and standards enforcement."
+        - "Animal-welfare objections show how trade deals increasingly face scrutiny beyond tariffs and market access."
+      uncertainty_notes:
+        - "The cited sources span January and late February 2026, so this entry is framed as an ongoing dispute still salient on March 6 rather than as a single same-day decision."
+    actors:
+      primary:
+        - "European Parliament"
+        - "European Commission"
+        - "Mercosur"
+      secondary:
+        - "Eurogroup for Animals"
+        - "Ursula von der Leyen"
+    entities:
+      people:
+        - "Ursula von der Leyen"
+      organizations:
+        - "European Parliament"
+        - "European Commission"
+        - "Mercosur"
+        - "Eurogroup for Animals"
+      states:
+        - "European Union"
+        - "Argentina"
+        - "Brazil"
+        - "Paraguay"
+        - "Uruguay"
+    geography:
+      countries:
+        - "European Union"
+        - "Argentina"
+        - "Brazil"
+        - "Paraguay"
+        - "Uruguay"
+      places:
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - trade dispute
+        - ratification challenge
+      tags:
+        - "eu-mercosur"
+        - "european-parliament"
+        - "provisional-implementation"
+        - "animal-welfare"
+        - "ursula-von-der-leyen"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005"
+          outlet: "European Parliament"
+          url: "https://www.europarl.europa.eu/news/en/press-room/20260116IPR32450/eu-mercosur-meps-demand-a-legal-opinion-on-its-conformity-with-the-eu-treaties"
+          publication_date: "2026-01-21"
+          source_type: "official press release"
+          reliability_tier: high
+          supports:
+            - "The European Parliament requested a Court of Justice opinion on treaty conformity."
+            - "The Parliament said its consent would come only after the Court's opinion."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-006"
+          outlet: "Eurogroup for Animals"
+          url: "https://www.eurogroupforanimals.org/news/eu-mercosur-agreement-cannot-apply-without-consent-european-parliament"
+          publication_date: "2026-01-28"
+          source_type: "ngo statement"
+          reliability_tier: medium
+          supports:
+            - "The group argued that the agreement should not be provisionally applied before parliamentary consent."
+            - "The group said the deal could weaken animal-welfare standards."
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-007"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/eu-south-america-mercosur-trade-00d6b70a7a306fc3a7731b9173d9457e"
+          publication_date: "2026-02-27"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - "Ursula von der Leyen said she intended to move toward provisional implementation after Mercosur ratifications."
+            - "The report described criticism that the move could sidestep the European Parliament."
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
