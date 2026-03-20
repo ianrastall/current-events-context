@@ -8,20 +8,20 @@ Do not force equal regional representation, but actively check for major events 
 
 PHASE 2: OUTPUT
 Output a highly structured Markdown report. Do NOT output YAML. 
-For each event (aim for 12 to 18 major events), provide the following structured sections:
+For each event (aim for 12 to 18 major events), provide the following strictly formatted sections. Do not deviate from these headers:
 
 ## Event: [Headline]
-* **Category & Subcategory:** (e.g., Armed conflicts and attacks / Drone strikes)
+* **Category & Subcategory:** [e.g., Armed conflicts and attacks / Drone strikes]
 * **Geography:** [Countries], [Places]
 * **Summary:** A robust, substantial 1-paragraph summary.
 * **What Happened:** Exactly 3 to 5 highly specific bullet points.
 * **Why It Matters:** 1 to 3 bullet points explaining broader significance.
-* **Actors:** * Primary: (Only if explicitly supported by sources)
-    * Secondary:
-* **Casualties/Damage:** Killed, injured, displaced, arrest count, damage descriptions. (Use "Unknown" if genuinely unavailable).
-* **Sources:** For each source, provide the Outlet Name, URL, Publication Date, and a brief list of claims this specific source supports. Prefer 2 to 5 direct, high-confidence sources per event.
+* **Actors:** * Primary: [Only if explicitly supported by sources]
+    * Secondary: [If applicable]
+* **Casualties/Damage:** [Killed: X, Injured: X, Displaced: X, Arrest Count: X, Damage Descriptions. Use "Unknown" if genuinely unavailable.]
+* **Sources:** [For each source, provide: Outlet Name, URL, Publication Date, and a brief list of claims this specific source supports. Prefer 2 to 5 direct, high-confidence sources per event.]
 
-Fact Rules:
+FACT RULES:
 - Be factual, neutral, and source-grounded. Do not guess.
 - Merge duplicate reporting about the same real-world event into one event section.
 - Do not pad with background articles or explainers.

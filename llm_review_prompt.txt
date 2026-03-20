@@ -1,3 +1,14 @@
+You are a strict data-transformation engine. Your only job is to take the provided Markdown research report (RESEARCH_REPORT_START to RESEARCH_REPORT_END) and translate it into a single, valid YAML document according to the schema provided below.
+
+INSTRUCTIONS:
+1. Output ONLY valid YAML. Do not include markdown formatting like ```yaml. Do not include introductory or concluding conversational text.
+2. Map the Markdown fields directly to their corresponding YAML keys. 
+3. Ensure every event gets a unique, sequential ID (e.g., "evt-DATE_ISO-001", "evt-DATE_ISO-002").
+4. Ensure every source gets a unique ID within its event (e.g., "src-001").
+5. Use `[]` for empty lists and `null` for missing scalar values. Do not invent data to fill empty fields.
+6. Ensure headlines use sentence case and `tags` are lowercase and hyphenated.
+
+YAML SCHEMA TEMPLATE:
 date: "DATE_ISO"
 source_page:
   portal: null
@@ -80,5 +91,5 @@ INPUTS:
 DATE_ISO = [insert date]
 
 RESEARCH_REPORT_START
-[paste Prompt 1 output here]
+[Insert Markdown Report Here]
 RESEARCH_REPORT_END

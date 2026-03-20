@@ -1,0 +1,1680 @@
+date: "2026-03-17"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+events:
+  - id: "evt-2026-03-17-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Leadership targeting and regional escalation"
+    topics:
+      - Iran-Israel war
+      - Leadership targeting
+      - Regional escalation
+      - Baghdad embassy attack
+    importance: null
+    headline: "Israel reports killing Iran’s security chief as Iran’s new supreme leader rejects de-escalation
+      and regional attacks intensify"
+    summary: >
+      Israel said Iran’s security chief Ali Larijani was killed, as the war’s trajectory continued to
+      shift toward leadership targeting and sustained bombardment. At the same time, Reuters reported
+      an exclusive account that Iran’s new supreme leader Mojtaba Khamenei rejected de-escalation proposals
+      conveyed by intermediaries, demanding that Israel and the U.S. be “brought to their knees” first.
+      On the ground, Iranian emergency responders described operating under repeated strikes and severe
+      strain; Reuters reported the Iranian Red Crescent citing more than 1,300 deaths in Iran since the
+      conflict began. The regional spillover included renewed rocket-and-drone attacks on the U.S. embassy
+      compound in Baghdad, underscoring a widening operational theater beyond direct U.S.-Israel–Iran
+      exchanges.
+    details:
+      what_happened:
+        - "Israel said Larijani was killed, publishing the claim on March 17 amid ongoing strikes."
+        - "Reuters reported that Mojtaba Khamenei rebuffed de-escalation proposals conveyed via intermediaries
+          and framed the strait closure and continued fighting as leverage."
+        - "Iraqi security sources told Reuters that rockets and multiple drones targeted the U.S. embassy
+          in Baghdad; at least one drone was reported to have hit inside the compound, causing fire and
+          smoke."
+        - "Reuters reported Iranian Red Crescent responders describing repeated-site strikes and extreme
+          fatigue, with the organization citing more than 1,300 killed in Iran since the war began."
+      why_it_matters:
+        - "Leadership targeting and rejection of de-escalation proposals reduces the near-term diplomatic
+          “off-ramp” and increases the risk of broader regional escalation through proxies and cross-border
+          attacks."
+        - "Civilian harm and emergency-system overload in Iran, alongside attacks on U.S. facilities in
+          Iraq, raise the probability of further retaliation cycles and international security fallout."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Israel"
+        - "Iran (leadership and state-linked institutions)"
+        - "U.S. diplomatic presence in Iraq (as target)"
+      secondary:
+        - "Iraqi security forces"
+        - "regional intermediaries"
+    entities:
+      people:
+        - "Ali Larijani"
+        - "Mojtaba Khamenei"
+      organizations:
+        - "Iranian Red Crescent"
+      states:
+        - "Israel"
+        - "Iran"
+        - "United States"
+        - "Iraq"
+    geography:
+      countries:
+        - "Iran"
+        - "Iraq"
+        - "Israel"
+      places:
+        - "Tehran"
+        - "Baghdad"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Fire/smoke reported inside the U.S. embassy compound in Baghdad; broader strike damage
+        in Tehran described by Reuters."
+    classification:
+      event_type:
+        - military escalation
+        - leadership targeting
+        - proxy attack
+      tags:
+        - "leadership-targeting"
+        - "regional-escalation"
+        - "drone-strikes"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/israel-says-irans-security-chief-larijani-is-killed-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Israeli claim that Ali Larijani was killed in ongoing strikes
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-002"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/irans-new-supreme-leader-rejects-proposals-reducing-tensions-with-us-senior-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Mojtaba Khamenei's rejection of de-escalation proposals
+            - Use of continued conflict and strait closure as leverage
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-003"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/drones-rockets-fired-us-embassy-baghdad-security-sources-say-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Rocket and drone attack on the U.S. embassy compound in Baghdad
+            - Report of fire and smoke inside the compound
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-004"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/iranian-rescue-workers-struggle-under-relentless-bombardment-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Iranian Red Crescent account of repeated strike pressure on responders
+            - Iran-wide death toll cited as exceeding 1,300 since the war began
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-002"
+    category: "Energy and climate"
+    subcategory: "Oil-and-gas supply disruption"
+    topics:
+      - Strait of Hormuz
+      - Oil supply
+      - Pipelines
+      - Emergency reserves
+    importance: null
+    headline: "Gulf exporters scramble to bypass the Strait of Hormuz as shipping is halted and oil supply
+      disruption deepens"
+    summary: >
+      Reuters reported that Iran’s actions had halted almost all shipping through the Strait of Hormuz,
+      a key chokepoint for global oil and liquefied natural gas flows, pushing Gulf exporters to reroute
+      crude through pipeline alternatives such as Saudi and UAE bypass lines. Reuters cited the IEA as
+      observing rising use of these alternatives, including increased Saudi exports through Red Sea terminals
+      and higher utilization of the UAE’s Habshan–Fujairah route. The IEA’s March 2026 Oil Market Report
+      described the Middle East war as producing the largest supply disruption in the history of the global
+      oil market, with flows through the strait collapsing from roughly 20 million barrels per day pre-war
+      to “a trickle,” and member countries agreeing to a large emergency oil release earlier in March.
+      Together, the reporting underscored both the immediacy of maritime disruption and the limits of
+      pipeline-based workarounds.
+    details:
+      what_happened:
+        - "Reuters reported that Iran continued to halt “almost all” shipping through the Strait of Hormuz,
+          prompting urgent rerouting plans."
+        - "Reuters reported Gulf exporters ramping pipeline usage to bypass the chokepoint, including
+          Saudi’s East–West and the UAE’s Habshan–Fujairah pipelines."
+        - "The IEA reported crude and product flows through the strait plunging from around 20 mb/d to
+          a “trickle,” with Gulf producers cutting total oil production sharply as storage filled and
+          exports stalled."
+        - "The IEA reported member countries agreeing on March 11 to make 400 million barrels available
+          from emergency reserves to address the disruption."
+      why_it_matters:
+        - "A near-standstill at Hormuz is a systemic shock to global energy and downstream products (diesel/jet
+          fuel/LPG), with knock-on inflation and supply-chain risks."
+        - "Reliance on limited bypass capacity increases strategic vulnerability and can reshape geopolitical
+          bargaining power across producer and consumer states."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Iran"
+        - "Gulf oil exporters (notably Saudi Arabia and UAE)"
+      secondary:
+        - "IEA member governments (emergency reserves decision)"
+        - "commercial shippers and port operators"
+    entities:
+      people: []
+      organizations:
+        - "International Energy Agency"
+      states: []
+    geography:
+      countries:
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+        - "Iran"
+      places:
+        - "Strait of Hormuz"
+        - "Red Sea"
+        - "Habshan"
+        - "Fujairah"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Economic and logistical disruption described as severe; shipping halted, production curtailed."
+    classification:
+      event_type:
+        - economic disruption
+        - energy market shock
+        - maritime disruption
+      tags:
+        - "oil-supply"
+        - "maritime-disruption"
+        - "energy-crisis"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005"
+          outlet: "Reuters Graphics"
+          url: "https://www.reuters.com/graphics/IRAN-CRISIS/MAPS/znpnmelervl/2026-03-17/gulf-oil-producers-scramble-to-bypass-hormuz-as-iran-locks-down-the-strait/"
+          publication_date: "2026-03-17"
+          source_type: "news graphics"
+          reliability_tier: high
+          supports:
+            - Near-halt of shipping through the Strait of Hormuz
+            - Use of Saudi and UAE bypass pipelines to reroute exports
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-006"
+          outlet: "IEA"
+          url: "https://www.iea.org/reports/oil-market-report-march-2026"
+          publication_date: "2026-03-12"
+          source_type: "energy agency report"
+          reliability_tier: high
+          supports:
+            - Oil flows through the strait falling to a trickle
+            - March 11 emergency release of 400 million barrels from reserves
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - evt-2026-03-16-001
+      - evt-2026-03-15-006
+    notes: ""
+
+  - id: "evt-2026-03-17-003"
+    category: "Military and security"
+    subcategory: "Accidents and operational readiness"
+    topics:
+      - U.S. Navy
+      - Aircraft carrier
+      - Fire
+      - Operational readiness
+    importance: null
+    headline: "U.S. aircraft carrier deployed in Iran war heads to port for repairs after onboard fire
+      and mass smoke injuries"
+    summary: >
+      Reuters reported that the U.S. aircraft carrier Gerald R. Ford was expected to temporarily pull
+      into Souda Bay on the Greek island of Crete after a fire onboard, amid its deployment supporting
+      operations against Iran. Reuters cited U.S. officials saying nearly 200 sailors were treated for
+      smoke-related injuries, with one service member flown off the ship, and around 100 sleeping berths
+      impacted—details that raised renewed readiness and morale concerns given the carrier’s extended
+      deployment. An official statement attributed the fire’s origin to the ship’s main laundry spaces,
+      said it was not combat-related, and stated the vessel remained fully operational with no damage
+      to the propulsion plant. Additional reporting from USNI News described the scale of smoke inhalation
+      treatment and the evacuation of an injured sailor in stable condition.
+    details:
+      what_happened:
+        - "Reuters reported the carrier would temporarily go to Souda Bay after an onboard fire, citing
+          U.S. officials."
+        - "Reuters reported nearly 200 sailors were treated for smoke-related injuries and that roughly
+          100 berths were affected; one service member was evacuated."
+        - "Official U.S. naval reporting said the fire started in main laundry spaces, was not combat-related,
+          and did not damage the propulsion plant; the carrier remained operational."
+        - "USNI News reported more than 200 sailors were treated for smoke inhalation and that an injured
+          sailor was medically evacuated and in stable condition."
+      why_it_matters:
+        - "Carrier readiness is a high-leverage variable in sustained air operations; maintenance interruptions
+          can shift force posture and escalation dynamics."
+        - "The incident highlights non-combat risks and human-factors strain during prolonged high-tempo
+          deployments."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Navy"
+        - "U.S. Naval Forces Central Command"
+      secondary:
+        - "host facilities at Souda Bay"
+    entities:
+      people: []
+      organizations:
+        - "U.S. Navy"
+        - U.S. Naval Forces Central Command
+      states:
+        - "United States"
+        - "Greece"
+    geography:
+      countries:
+        - "Greece"
+      places:
+        - "Red Sea"
+        - "Souda Bay"
+        - "Crete"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Fire affected main laundry area and ~100 sleeping berths; propulsion plant undamaged."
+    classification:
+      event_type:
+        - military accident
+        - naval readiness incident
+      tags:
+        - "military-accident"
+        - "naval-operations"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/us-carrier-ford-deployed-war-with-iran-go-port-temporarily-after-fire-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Temporary port call at Souda Bay after the fire
+            - Nearly 200 sailors treated for smoke-related injuries
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-008"
+          outlet: "U.S. Naval Forces Central Command"
+          url: "https://www.cusnc.navy.mil/Media/News/Display/Article/4431969/statement-of-uss-gerald-r-ford/"
+          publication_date: "2026-03-12"
+          source_type: "military official statement"
+          reliability_tier: high
+          supports:
+            - Fire started in the main laundry spaces
+            - Ship remained operational and the propulsion plant was unaffected
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-009"
+          outlet: "USNI News"
+          url: "https://news.usni.org/2026/03/17/uss-gerald-r-ford-headed-to-souda-bay-for-repairs-after-fire"
+          publication_date: "2026-03-17"
+          source_type: "defense news outlet"
+          reliability_tier: medium
+          supports:
+            - Smoke inhalation treatment totals and berth impacts
+            - Medical evacuation of one sailor in stable condition
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-004"
+    category: "Defense policy"
+    subcategory: "Missile defense procurement and budgeting"
+    topics:
+      - Golden Dome
+      - Missile defense
+      - Defense budget
+      - Space capabilities
+    importance: null
+    headline: "Pentagon raises 'Golden Dome' missile defense first-phase estimate to $185 billion and
+      adds prime contractors"
+    summary: >
+      Reuters reported that the U.S. expanded its cost estimate for the “Golden Dome” missile defense
+      shield to $185 billion and enlisted major defense firms as prime contractors for parts of the program’s
+      command-and-control system. Reporting described the added funding as tied to accelerating space-based
+      defense components and tracking architectures, while noting that space-based interceptors pose significant
+      scalability and affordability risks. Breaking Defense reported Gen. Michael Guetlein describing
+      the $10 billion increase as driven by requirements to move faster on specific space capabilities
+      (including missile tracking and data network elements), indicating a pace-versus-cost tradeoff.
+      Additional defense press reporting similarly emphasized that the cost increase was linked to expanded
+      space sensing/tracking and data transport requirements.
+    details:
+      what_happened:
+        - "Reuters reported the program’s cost estimate rose to $185 billion and that additional major
+          defense firms were enlisted as prime contractors."
+        - "Reuters reported that accelerating space-based capabilities was a key driver and that space-based
+          interceptors were seen as a high-risk, high-cost area."
+        - "Breaking Defense reported Guetlein saying the increase was intended to accelerate specific
+          space programs supporting the architecture (tracking/data layers)."
+        - "Air & Space Forces reporting said the estimate increased by $10 billion due to demand for more
+          space sensing, tracking, and data transport capabilities, citing Guetlein on March 17."
+      why_it_matters:
+        - "Large missile-defense architectures can reshape strategic stability calculations, especially
+          if space-based components expand rapidly."
+        - "Procurement scale and technical risk (particularly for space-based interceptors) create long-tail
+          budget exposure and political contention."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Department of Defense"
+        - "Michael Guetlein"
+      secondary:
+        - "Lockheed Martin"
+        - "RTX"
+        - "Northrop Grumman"
+    entities:
+      people:
+        - "Michael Guetlein"
+      organizations:
+        - "Lockheed Martin"
+        - "RTX"
+        - "Northrop Grumman"
+        - "U.S. Department of Defense"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Financial magnitude: $185B estimate and $10B increase reported."
+    classification:
+      event_type:
+        - defense procurement
+        - budget increase
+      tags:
+        - "defense-budget"
+        - "missile-defense"
+        - "military-procurement"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/us-expands-golden-dome-cost-estimate-185-billion-enlists-top-defense-firms-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Golden Dome estimate raised to $185 billion
+            - Additional prime contractors added to the program
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-011"
+          outlet: "Breaking Defense"
+          url: "https://breakingdefense.com/2026/03/to-accelerate-space-capabilities-pentagon-ups-golden-dome-spending-plan-by-10-billion/"
+          publication_date: "2026-03-17"
+          source_type: "defense news outlet"
+          reliability_tier: medium
+          supports:
+            - $10 billion increase tied to accelerated space capabilities
+            - Guetlein's explanation of tracking and data-network priorities
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-012"
+          outlet: "Air & Space Forces"
+          url: "https://www.airandspaceforces.com/pentagon-golden-dome-cost-estimate-grows-185-billion/"
+          publication_date: "2026-03-17"
+          source_type: "defense news outlet"
+          reliability_tier: medium
+          supports:
+            - Cost increase linked to space sensing, tracking and data transport
+            - Pentagon estimate increased by $10 billion
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border air strike"
+    topics:
+      - Pakistan-Afghanistan conflict
+      - Airstrike
+      - Civilian casualties
+      - Kabul
+    importance: null
+    headline: "Pakistan air strike on Kabul drug rehabilitation hospital triggers mass-casualty claims
+      and escalates cross-border conflict"
+    summary: >
+      Reuters reported that Afghanistan’s Taliban-led government said a Pakistani air strike hit a drug
+      rehabilitation hospital in Kabul, killing at least 408 people and injuring 265—figures Reuters noted
+      Pakistan had not verified. Pakistan rejected the allegation, stating the strike targeted military
+      installations and “terrorist support infrastructure” and claimed there was no collateral damage.
+      Reuters eyewitness reporting described burn damage, rubble, and continuing recovery of bodies, while
+      hospital officials cited by Reuters said the facility housed around 2,000 patients at the time.
+      Separate reporting from AP and Al Jazeera similarly relayed Taliban casualty claims, Pakistan’s
+      denial, and rising international calls for restraint and investigation.
+    details:
+      what_happened:
+        - "Reuters reported the Taliban government said Pakistan struck a Kabul drug rehabilitation hospital,
+          citing a death toll of at least 408 and 265 injured that Pakistan did not verify."
+        - "Pakistan rejected the hospital-strike account, saying it targeted military installations and
+          “terrorist support infrastructure” and asserting no collateral damage."
+        - "Reuters described survivors and medical staff reporting multiple explosions, fires, and overwhelmed
+          responders, with claims that bodies remained under rubble the next day."
+        - "Reuters and other outlets reported the incident feeding into an already-escalating Pakistan–Afghanistan
+          confrontation involving air/drone strikes and border fire, with external actors urging de-escalation."
+      why_it_matters:
+        - "If casualty figures are borne out, the reported strike would represent a major escalation with
+          severe civilian-protection implications and heightened risk of retaliatory operations."
+        - "The competing narratives (hospital vs. “terror infrastructure”) complicate verification and
+          can harden positions, reducing room for negotiated off-ramps."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Afghan Taliban"
+        - "Pakistan"
+      secondary:
+        - "External mediators (e.g., Qatar, Saudi Arabia, Turkey)"
+        - "humanitarian voices"
+    entities:
+      people: []
+      organizations:
+        - "Afghan Taliban"
+      states:
+        - "Afghanistan"
+        - "Pakistan"
+    geography:
+      countries:
+        - "Afghanistan"
+        - "Pakistan"
+      places:
+        - "Kabul"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Hospital/recovery site described as destroyed/blackened with rubble; bodies reported under
+        debris."
+    classification:
+      event_type:
+        - military attack
+        - disputed strike
+      tags:
+        - "cross-border-strike"
+        - "mass-casualty"
+        - "civilian-infrastructure"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/pakistans-air-strike-kabul-what-you-need-know-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Taliban claim that a Kabul rehabilitation hospital was struck
+            - Pakistan's denial and broader conflict context
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-014"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/it-was-like-doomsday-says-kabul-hospital-survivor-after-pakistan-air-strike-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Eyewitness and survivor descriptions of fires, rubble and body recovery
+            - Hospital occupancy and humanitarian impact claims
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-015"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/596bfd6c30d879be09af4d7a039972fe"
+          publication_date: "2026-03-17"
+          source_type: "news agency"
+          reliability_tier: high
+          supports:
+            - Afghan claim that more than 400 people were killed
+            - Pakistan's denial and calls for investigation or restraint
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-016"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/17/families-search-for-loved-ones-after-deadly-pakistan-strikes-on-kabul-rehab"
+          publication_date: "2026-03-17"
+          source_type: "news network"
+          reliability_tier: medium
+          supports:
+            - Family searches and recovery efforts after the strike
+            - Regional and international pressure for restraint
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - evt-2026-03-16-004
+      - evt-2026-03-15-002
+      - evt-2026-03-14-006
+    notes: ""
+
+  - id: "evt-2026-03-17-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Suicide bombings"
+    topics:
+      - Nigeria
+      - Suicide bombings
+      - Boko Haram
+      - Islamic State West Africa Province
+    importance: null
+    headline: "Suspected coordinated suicide bombings kill at least 23 in Maiduguri"
+    summary: >
+      Reuters and AP reported that multiple suspected suicide bomb attacks struck Maiduguri—Borno State’s
+      capital and a hub for counter-insurgency operations—killing at least 23 people and injuring 108.
+      Reporting described explosions at a post office, a Monday market, the University of Maiduguri Teaching
+      Hospital area, and the Kaleri neighborhood, with authorities tightening security and launching investigations.
+      No group immediately claimed responsibility; both Reuters and AP indicated suspicion fell on jihadist
+      groups active in the region, including Boko Haram and Islamic State West Africa Province, though
+      attribution remained unconfirmed in the immediate aftermath. Al Jazeera similarly reported the casualty
+      figures and cited police statements describing suspected suicide bombers.
+    details:
+      what_happened:
+        - "Reuters reported at least 23 killed and 108 injured across multiple blast sites in Maiduguri,
+          citing police and military statements."
+        - "Reuters reported initial blasts struck a central post office and the Monday market, followed
+          by additional explosions at the teaching hospital area and Kaleri."
+        - "AP reported the same death/injury toll and described the apparent coordination and the strain
+          on local hospitals (including calls for blood supplies)."
+        - "Al Jazeera reported police stating preliminary investigations indicated suspected suicide bombers
+          and that no group had claimed responsibility."
+      why_it_matters:
+        - "The attacks demonstrate insurgent capability to hit major urban targets in northeastern Nigeria
+          despite years of counter-insurgency operations."
+        - "A resurgence of suicide attacks can force major security reallocations and deepen humanitarian
+          strain in a region already affected by displacement and conflict."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Nigerian security services"
+        - "perpetrators (unidentified)"
+      secondary:
+        - "Boko Haram"
+        - "Islamic State West Africa Province"
+    entities:
+      people: []
+      organizations:
+        - "Boko Haram"
+        - "Islamic State West Africa Province"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Maiduguri"
+        - "Borno State"
+        - "Kaleri"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: 23
+      injured: 108
+      displaced: null
+      arrest_count: null
+      damage: "Blast craters and debris reported at market/other sites; specific property-loss totals
+        not provided."
+    classification:
+      event_type:
+        - terrorist attack
+        - suicide bombing
+      tags:
+        - "suicide-bombing"
+        - "terrorism"
+        - "mass-casualty"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-017"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/suspected-triple-suicide-attacks-kill-least-23-nigerias-maiduguri-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - At least 23 killed and 108 injured in Maiduguri blasts
+            - Police and military description of multiple attack sites
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-018"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/3eaeb7f126866ab3c8b1d927a8bc7168"
+          publication_date: "2026-03-17"
+          source_type: "news agency"
+          reliability_tier: high
+          supports:
+            - Coordinated nature of the blasts and casualty totals
+            - Pressure on hospitals and blood-supply appeals
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-019"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/17/many-killed-wounded-after-blasts-hit-nigerias-maiduguri-witnesses-say"
+          publication_date: "2026-03-17"
+          source_type: "news network"
+          reliability_tier: medium
+          supports:
+            - Police suspicion of suicide bombers
+            - No immediate claim of responsibility
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-007"
+    category: "Governance and elections"
+    subcategory: "Presidential election results"
+    topics:
+      - Republic of Congo
+      - Presidential election
+      - Internet blackout
+      - Opposition boycott
+    importance: null
+    headline: "Republic of Congo's Denis Sassou Nguesso wins re-election with nearly 95% amid boycott
+      claims and a tightly managed vote"
+    summary: >
+      Reuters reported provisional results showing Denis Sassou Nguesso re-elected with 94.82% of the
+      vote, extending decades of rule, in an election Reuters described as tightly managed with major
+      opposition parties boycotting and key opposition figures imprisoned. Reuters also reported a nationwide
+      internet blackout on election day and late openings at some polling stations, while officially reported
+      turnout was high. AP likewise reported provisional results near 94.8%, noting limited competition
+      and skepticism among residents. Al Jazeera reported the landslide win and the extension of Sassou
+      Nguesso’s long hold on power.
+    details:
+      what_happened:
+        - "Reuters reported state TV announcing Sassou Nguesso won 94.82% of the vote, with his closest
+          challenger at 1.48%."
+        - "Reuters reported major opposition parties declined to field candidates, citing lack of transparency,
+          and described arrests/suspensions of activists and parties ahead of voting."
+        - "AP reported provisional results at 94.8% and described an election environment marked by shutdowns/restrictions
+          and public skepticism about legitimacy."
+        - "Al Jazeera reported the outcome as extending nearly 42 years of rule, based on provisional
+          results."
+      why_it_matters:
+        - "The result consolidates continuity in a major oil-producing state while sharpening succession
+          questions and governance legitimacy concerns."
+        - "Election-management issues (boycott, internet outage, arrests) can exacerbate domestic political
+          tension and affect international confidence and investment dynamics."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Denis Sassou Nguesso"
+        - "Congolese electoral/state institutions"
+      secondary:
+        - "Opposition parties and detained opposition figures"
+        - "civil society/human-rights voices"
+    entities:
+      people:
+        - "Denis Sassou Nguesso"
+      organizations: []
+      states:
+        - "Republic of the Congo"
+    geography:
+      countries:
+        - "Republic of the Congo"
+      places:
+        - "Brazzaville"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Internet: nationwide outage reported."
+    classification:
+      event_type:
+        - election result
+        - internet shutdown
+      tags:
+        - "election-results"
+        - "internet-blackout"
+        - "political-boycott"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-020"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/congo-republic-president-sassou-nguesso-wins-re-election-state-tv-reports-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Provisional result giving Sassou Nguesso 94.82% of the vote
+            - Boycott and managed-election context including election-day disruptions
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-021"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/a7e32fea3127f90dabfc838eedd83d21"
+          publication_date: "2026-03-17"
+          source_type: "news agency"
+          reliability_tier: high
+          supports:
+            - Provisional result near 94.8%
+            - Skepticism over legitimacy and limited competition
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-022"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/17/congos-president-nguesso-to-secure-fifth-term-provisional-results-predict"
+          publication_date: "2026-03-17"
+          source_type: "news network"
+          reliability_tier: medium
+          supports:
+            - Landslide provisional result extending Sassou Nguesso's long rule
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - evt-2026-03-15-004
+    notes: ""
+
+  - id: "evt-2026-03-17-008"
+    category: "Security and terrorism"
+    subcategory: "Suspected antisemitic attack and recruitment concerns"
+    topics:
+      - Netherlands
+      - Synagogue attack
+      - Iran investigation
+      - Terrorism
+    importance: null
+    headline: "Netherlands probes possible Iran link to Rotterdam synagogue attack; prosecutors cite terrorist
+      intent"
+    summary: >
+      Reuters reported that Dutch authorities were investigating whether Iran was involved in an attack
+      on a synagogue in Rotterdam, with Justice Minister David van Weel telling parliament the possibility
+      was being explicitly examined while stressing there was not yet a conclusive link. Reuters said
+      Dutch prosecutors described four suspects (aged 17–19) apprehended after the Friday arson/explosion
+      incident as acting with terrorist intent, and noted a broader string of attacks on Jewish sites
+      in the Netherlands and neighboring areas. AP reported similarly that four teenagers were arrested
+      on suspicion of terror offenses linked to the Rotterdam synagogue explosion and arson, with no injuries
+      reported. Dutch public broadcaster NOS reported the minister stating “everything points” to recruitment
+      of the suspects and that an Iran link was under investigation.
+    details:
+      what_happened:
+        - "Reuters reported the Netherlands was examining a possible Iran role in the Rotterdam synagogue
+          attack, with the justice minister emphasizing the inquiry was active but not conclusive."
+        - "Reuters reported prosecutors said the suspects acted with “terrorist intent,” and that the
+          four suspects were aged 17–19."
+        - "AP reported four teenagers arrested for alleged terror offenses (explosion/arson/attempted
+          arson with terrorist intent), with no injuries in Rotterdam."
+        - "NOS reported the minister saying indications pointed to recruitment of the young suspects and
+          reiterated the Iran-link probe."
+      why_it_matters:
+        - "A substantiated state-linked component (if proven) would represent a significant escalation
+          in European homeland security risk tied to the broader Middle East conflict."
+        - "Even absent attribution, a cluster of attacks targeting Jewish sites increases societal tension
+          and drives heightened protective security measures."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Dutch justice authorities and prosecutors"
+        - "suspects (teenagers)"
+      secondary:
+        - "Iran"
+        - "Jewish community institutions in Rotterdam/Amsterdam"
+    entities:
+      people:
+        - "David van Weel"
+      organizations: []
+      states:
+        - "Netherlands"
+        - "Iran"
+    geography:
+      countries:
+        - "Netherlands"
+        - "Iran"
+      places:
+        - "Rotterdam"
+        - "Amsterdam"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: 4
+      damage: "Synagogue fire/explosion effects."
+    classification:
+      event_type:
+        - terror investigation
+        - security incident
+      tags:
+        - "antisemitism"
+        - "terror-investigation"
+        - "state-sponsored-terrorism"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-023"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/netherlands-probing-if-rotterdam-synagogue-attack-has-iran-link-minister-says-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Probe into a possible Iran link to the Rotterdam synagogue attack
+            - Prosecutors' description of terrorist intent
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-024"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/bfeb59e918d0678848fc564da3b1df31"
+          publication_date: "2026-03-16"
+          source_type: "news agency"
+          reliability_tier: high
+          supports:
+            - Four teenage suspects arrested on terror-related allegations
+            - No injuries reported in the synagogue attack
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-025"
+          outlet: "NOS"
+          url: "https://nos.nl/artikel/2606682-van-weel-aanslagplegers-synagoge-waarschijnlijk-geronseld"
+          publication_date: "2026-03-17"
+          source_type: "public broadcaster"
+          reliability_tier: medium
+          supports:
+            - Justice minister statement that recruitment indicators were being examined
+            - Continuation of the Iran-link investigation
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-009"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone or missile strike on infrastructure"
+    topics:
+      - Ukraine
+      - Odesa region
+      - Energy infrastructure
+      - Port infrastructure
+    importance: null
+    headline: "Russian strike damages energy and port infrastructure in Odesa region"
+    summary: >
+      Reuters reported that a Russian attack overnight damaged industrial, port, and energy infrastructure
+      facilities in Ukraine’s Odesa region, causing power-supply disruptions in multiple settlements,
+      with fires reportedly extinguished and no injuries reported. Anadolu Agency likewise reported Odesa
+      Governor Oleh Kiper saying energy, industrial, and port infrastructure were damaged and that critical
+      infrastructure was shifted to backup power. Ukrinform additionally reported local authorities describing
+      fires brought under control, no civilian injuries, and power outages in some settlements, with damage
+      to port-related infrastructure described.
+    details:
+      what_happened:
+        - "Reuters reported overnight strikes damaged industrial, port, and energy infrastructure in Odesa
+          region, affecting power supply in settlements."
+        - "Reuters reported the regional governor said fires were quickly extinguished and there were
+          no injuries reported."
+        - "Anadolu Agency reported Kiper saying damage occurred across energy/industrial/port facilities,
+          with critical infrastructure moved to backup power."
+        - "Ukrinform reported fires were extinguished, no civilian injuries, and noted additional details
+          about damage affecting a port’s utility buildings and other infrastructure."
+      why_it_matters:
+        - "Continued targeting of port and energy infrastructure threatens Ukraine’s export capacity and
+          civilian resilience, even when immediate casualties are avoided."
+        - "Infrastructure strikes can compound global supply-chain pressures already elevated by Middle
+          East energy disruption, intensifying international economic risk."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Russian forces"
+        - "Odesa regional administration"
+      secondary:
+        - "Emergency services/restoration crews"
+    entities:
+      people:
+        - "Oleh Kiper"
+      organizations: []
+      states:
+        - "Russia"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Ukraine"
+        - "Russia"
+      places:
+        - "Odesa region"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Industrial, port, and energy infrastructure facilities damaged; localized power disruptions."
+    classification:
+      event_type:
+        - military attack
+        - infrastructure strike
+      tags:
+        - "infrastructure-strike"
+        - "power-outage"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-026"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/russian-attack-damages-energy-port-infrastructure-ukraines-south-governor-says-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Damage to Odesa region energy and port infrastructure
+            - No injuries and power disruptions in multiple settlements
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-027"
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/asia-pacific/ukraine-says-russian-strikes-damage-energy-industrial-port-infrastructure-in-odesa-region/3867979"
+          publication_date: "2026-03-17"
+          source_type: "news agency"
+          reliability_tier: medium
+          supports:
+            - Governor's account of energy, industrial and port damage
+            - Critical infrastructure shifted to backup power
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-028"
+          outlet: "Ukrinform"
+          url: "https://www.ukrinform.net/rubric-ato/4102379-energy-industrial-and-port-infrastructure-damaged-in-odesa-region-following-overnight-russian-attack.html"
+          publication_date: "2026-03-17"
+          source_type: "national news agency"
+          reliability_tier: medium
+          supports:
+            - Extinguished fires and no civilian injuries
+            - Additional local details on infrastructure damage
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-010"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border security incident and diplomatic crisis"
+    topics:
+      - Colombia
+      - Ecuador
+      - Border bombing
+      - Diplomatic crisis
+    importance: null
+    headline: "Colombia reports 27 bodies found near Ecuador border after bombings as Petro and Noboa
+      trade accusations"
+    summary: >
+      Reuters reported Colombian President Gustavo Petro saying the charred remains of 27 people were
+      found in Colombia following bombings near the Ecuador border, while Ecuador’s President Daniel Noboa
+      said Ecuador was bombing drug traffickers within its own territory and denied crossing into Colombia.
+      Reuters reported Petro said Colombian security forces were not responsible and that he “didn’t give
+      that order,” after initially suggesting Ecuador bombed Colombian territory. The Guardian reported
+      the episode triggered sharp bilateral tensions, including claims about an unexploded aerial bomb
+      near civilian homes and linkages to broader anti-narcotics operations. El País (English edition)
+      reported the dispute as a fresh diplomatic crisis, with Noboa rejecting Petro’s allegation and describing
+      targets as “narco-terrorist” hideouts.
+    details:
+      what_happened:
+        - "Reuters reported Petro said 27 charred bodies were found in Colombia after bombings near the
+          Ecuador border."
+        - "Reuters reported Noboa denied bombing Colombian territory, stating operations were carried
+          out within Ecuador against criminal hideouts."
+        - "Reuters reported the two presidents sparred publicly on social media, with Petro denying Colombian
+          security forces were responsible."
+        - "The Guardian and El País reported the incident as triggering a broader diplomatic rupture,
+          with competing claims over where strikes occurred and what was targeted."
+      why_it_matters:
+        - "Border incidents between Colombia and Ecuador risk escalating organized-crime conflict into
+          inter-state confrontation, complicating regional security cooperation."
+        - "The dispute spotlights the political volatility of militarized anti-narcotics strategies and
+          the fragility of border governance in trafficking corridors."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Gustavo Petro"
+        - "Daniel Noboa"
+        - "Colombian and Ecuadorian security forces"
+      secondary:
+        - "Organized-crime groups"
+    entities:
+      people:
+        - "Gustavo Petro"
+        - "Daniel Noboa"
+      organizations: []
+      states:
+        - "Colombia"
+        - "Ecuador"
+    geography:
+      countries:
+        - "Colombia"
+        - "Ecuador"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 27
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Bombings/air-delivered munition referenced; precise destruction not quantified."
+    classification:
+      event_type:
+        - border incident
+        - diplomatic crisis
+      tags:
+        - "diplomatic-crisis"
+        - "border-incident"
+        - "anti-narcotics"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-029"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/colombias-petro-says-bombings-ecuador-border-left-27-charred-bodies-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Petro's report of 27 charred bodies near the Ecuador border
+            - Noboa's denial that Ecuador bombed inside Colombia
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-030"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/mar/17/colombian-president-ecuador-bodies"
+          publication_date: "2026-03-17"
+          source_type: "news publisher"
+          reliability_tier: medium
+          supports:
+            - Diplomatic tension triggered by the bombing claims
+            - Report of an unexploded aerial bomb near homes
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-031"
+          outlet: "El País (English)"
+          url: "https://english.elpais.com/international/2026-03-18/petro-accuses-ecuador-of-bombing-colombia-sparking-a-new-diplomatic-crisis.html"
+          publication_date: "2026-03-18"
+          source_type: "news publisher"
+          reliability_tier: medium
+          supports:
+            - Petro-Noboa dispute as a new diplomatic crisis
+            - Ecuador's claim that narco-terrorist targets were being hit
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-032"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/17/colombias-petro-accuses-ecuador-of-bombing-near-border"
+          publication_date: "2026-03-17"
+          source_type: "news network"
+          reliability_tier: medium
+          supports:
+            - Regional fallout from Petro's accusation
+            - Ecuadorian denial and border-security context
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-011"
+    category: "Migration and border policy"
+    subcategory: "Physical barrier construction"
+    topics:
+      - Chile
+      - Peru border
+      - Migration policy
+      - Border barriers
+    importance: null
+    headline: "Chile begins constructing anti-migration trenches at the Peru border under President José
+      Antonio Kast"
+    summary: >
+      Reuters reported Chile’s new right-wing government began deploying heavy machinery to dig trenches
+      along its northern border with Peru, fulfilling a campaign pledge by President José Antonio Kast
+      to clamp down on irregular migration and increase border security. AP reported Kast described the
+      first trenching work as a milestone under his “Border Shield” plan, including ditches, fences, surveillance
+      (including drones), and military patrols. Spanish news agency EFE reported additional plan elements
+      including fences/walls and expanded surveillance measures, framing the move as a central early initiative
+      of the new administration.
+    details:
+      what_happened:
+        - "Reuters reported trench construction began near the Chacalluta border post area, as part of
+          a broader crackdown on illegal migration and organized crime."
+        - "Reuters reported the policy was tied to a stated intent to reinforce sovereignty and public
+          safety, while human-rights groups raised rights concerns."
+        - "AP reported Kast highlighted a “Border Shield” concept combining physical barriers with drones
+          and military patrols, using emergency powers for rapid implementation."
+        - "EFE reported planned border infrastructure and surveillance expansions, including deepening/excavating
+          trenches and adding fencing/walls."
+      why_it_matters:
+        - "Chile’s shift toward physical border hardening reflects a broader regional trend of securitized
+          migration policy and can reshape asylum and labor-mobility dynamics."
+        - "Barrier construction raises operational and legal questions about humanitarian access, due
+          process, and cross-border coordination with Peru."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "José Antonio Kast"
+        - "Chilean government/security institutions"
+      secondary:
+        - "Migrant communities"
+        - "human-rights groups"
+        - "Peruvian border authorities"
+    entities:
+      people:
+        - "José Antonio Kast"
+      organizations: []
+      states:
+        - "Chile"
+        - "Peru"
+    geography:
+      countries:
+        - "Chile"
+        - "Peru"
+      places:
+        - "Arica"
+        - "Chacalluta"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Construction activity underway (trenches/barrier works)."
+    classification:
+      event_type:
+        - border enforcement
+        - migration policy
+      tags:
+        - "border-security"
+        - "migration-policy"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-033"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/chile-begins-construction-anti-migration-trenches-peru-border-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Start of trench construction near the Peru border
+            - Government framing around migration control and public safety
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-034"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/fbd8b92131fa05c8b3b5cbeddbc4816b"
+          publication_date: "2026-03-17"
+          source_type: "news agency"
+          reliability_tier: high
+          supports:
+            - Kast's Border Shield plan including barriers, drones and patrols
+            - Description of the first trenching work as a milestone
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-035"
+          outlet: "EFE"
+          url: "https://efe.com/en/latest-news/2026-03-17/kast-presents-plan-to-curb-irregular-migration-at-chiles-northern-border/"
+          publication_date: "2026-03-17"
+          source_type: "news agency"
+          reliability_tier: high
+          supports:
+            - Expanded trench, fence and wall plans
+            - Northern-border surveillance and military deployment measures
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-03-17-012"
+    category: "Energy and infrastructure"
+    subcategory: "Power-grid failure; Natural disasters / Earthquake"
+    topics:
+      - Cuba
+      - Blackout
+      - Earthquake
+      - Power grid
+    importance: null
+    headline: "Cuba restores power after 29-hour nationwide blackout as a magnitude 5.8–6.0 earthquake
+      strikes eastern Cuba"
+    summary: >
+      Reuters reported Cuba reconnected its power grid on March 17 after a nationwide blackout lasting
+      more than 29 hours, bringing its largest oil-fired power plant back online, while warning that shortages
+      could continue due to insufficient generation. AP likewise reported an islandwide blackout affecting
+      all residents amid a deepening energy crisis and described fragile restoration efforts and the role
+      of aging infrastructure and constrained fuel supply. Separately, the U.S. Geological Survey reported
+      a magnitude 5.8 earthquake south-southwest of Maisí, Cuba, at a depth around 11.6 km, while Reuters
+      reported EMSC estimating a magnitude 6.0 quake at 15 km depth; no casualties were confirmed in these
+      immediate reports. The combined shocks underscored the island’s compounding vulnerability: infrastructure
+      stress from fuel and maintenance constraints alongside geological hazard exposure.
+    details:
+      what_happened:
+        - "Reuters reported Cuba’s grid returned online by evening March 17 after a 29+ hour nationwide
+          blackout, with officials warning shortages may persist."
+        - "AP reported the blackout stemmed from systemic grid deterioration and constrained energy inputs,
+          and described fragile restoration progress."
+        - "USGS reported a magnitude 5.8 earthquake (reviewed) south-southwest of Maisí at ~11.6 km depth
+          at 2026-03-17 04:28:25 UTC."
+        - "Reuters reported EMSC measured a magnitude 6.0 quake at 15 km depth; immediate casualty/damage
+          details were not provided."
+      why_it_matters:
+        - "Prolonged nationwide blackouts can rapidly degrade food, water, healthcare, and economic function,
+          increasing near-term humanitarian and political stress."
+        - "Even moderate earthquakes can compound crisis conditions by damaging already-fragile infrastructure
+          and straining emergency response capacity."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Cuban energy authorities and grid operator"
+        - "USGS and EMSC"
+      secondary:
+        - "Residents and local emergency/repair crews"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Cuba"
+    geography:
+      countries:
+        - "Cuba"
+      places:
+        - "Havana"
+        - "Maisí"
+        - "Guantánamo"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: true
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: "Nationwide outage; continued shortages expected."
+    classification:
+      event_type:
+        - infrastructure failure
+        - earthquake
+      tags:
+        - "power-outage"
+        - "earthquake"
+        - "infrastructure-failure"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-036"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/cuba-reconnects-electrical-grid-millions-still-without-power-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Restoration of the Cuban grid after more than 29 hours
+            - Warning that shortages could continue despite reconnection
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-037"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/4dcd92d4b7b3bbeda88622b543074ceb"
+          publication_date: "2026-03-16"
+          source_type: "news agency"
+          reliability_tier: high
+          supports:
+            - Islandwide blackout amid deepening energy crisis
+            - Fragile restoration and the role of aging infrastructure and fuel shortages
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-038"
+          outlet: "USGS"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgrt"
+          publication_date: "2026-03-17"
+          source_type: "science agency"
+          reliability_tier: high
+          supports:
+            - Magnitude 5.8 earthquake south-southwest of Maisi
+            - Depth and timestamp of the quake
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-039"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/environment/magnitude-6-earthquake-strikes-cuba-emsc-says-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - EMSC's magnitude 6.0 estimate at 15 km depth
+            - No immediate casualty information in initial reports
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - evt-2026-03-16-003
+      - evt-2026-03-14-010
+      - evt-2026-03-13-006
+    notes: ""
+
+  - id: "evt-2026-03-17-013"
+    category: "Economy and trade"
+    subcategory: "Trade-deal implementation process"
+    topics:
+      - European Union
+      - United States
+      - Trade deal
+      - European Parliament
+    importance: null
+    headline: "European Parliament moves to revive EU–US trade deal legislation, scheduling a vote after
+      months of delay"
+    summary: >
+      Reuters reported that EU lawmakers agreed to proceed with a vote that week on legislation enacting
+      parts of an EU–U.S. trade deal, after months of delay and internal dispute over U.S. compliance
+      and political tensions. Euronews reported that members of the European Parliament moved to revive
+      the trade deal on March 17, scheduling a committee vote, while describing ongoing infighting and
+      uncertainty about full-assembly timing. Subsequent Reuters reporting (noted here for continuity)
+      described the trade committee’s later vote to advance the legislation, reinforcing that March 17
+      marked an operational turning point on process even as final approval remained pending.
+    details:
+      what_happened:
+        - "Reuters reported EU lawmakers agreed to move forward with a committee vote on legislation implementing
+          parts of the EU–U.S. trade deal."
+        - "Reuters reported lawmakers added safeguards (including conditionality mechanisms) amid concerns
+          about imbalance and U.S. compliance."
+        - "Euronews reported the move to revive the deal and schedule a vote, while highlighting political
+          infighting that could delay final approval."
+        - "Reuters later reported the trade committee voted to advance the legislation."
+      why_it_matters:
+        - "EU–U.S. tariff and market-access decisions affect transatlantic supply chains and set global
+          trade-policy signals during broader geopolitical volatility."
+        - "Conditional implementation mechanisms indicate elevated distrust and could foreshadow renewed
+          disputes if either side is seen as non-compliant."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "European Parliament committees and negotiators"
+        - "U.S. trade counterpart"
+      secondary:
+        - "European Commission"
+        - "EU member governments"
+    entities:
+      people: []
+      organizations:
+        - "European Parliament"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-17"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - trade legislation
+        - committee vote
+      tags:
+        - "trade-deal"
+        - "eu-us-relations"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-040"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/after-delays-eu-lawmakers-move-closer-vote-us-trade-deal-2026-03-17/"
+          publication_date: "2026-03-17"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Move toward a committee vote on EU-U.S. trade-deal legislation
+            - Delay and compliance-dispute context
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-041"
+          outlet: "Euronews"
+          url: "https://www.euronews.com/my-europe/2026/03/17/meps-move-to-revive-eu-us-trade-deal-after-months-of-gridlock"
+          publication_date: "2026-03-17"
+          source_type: "news network"
+          reliability_tier: medium
+          supports:
+            - Scheduling of a committee vote to revive the trade deal
+            - Political infighting over full-assembly timing
+          contradicts: []
+          quoted_material_used: false
+        - id: "src-042"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/eu-lawmakers-vote-progress-us-trade-deal-legislation-2026-03-19/"
+          publication_date: "2026-03-19"
+          source_type: "global news agency"
+          reliability_tier: high
+          supports:
+            - Later trade-committee vote advancing the legislation
+            - Continuity confirmation that the process moved forward
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
