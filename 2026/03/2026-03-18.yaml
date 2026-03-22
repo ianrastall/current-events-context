@@ -1,1988 +1,1886 @@
 date: "2026-03-18"
 source_page:
-  portal: null
-  language: "en"
-  wikipedia_revision_id: null
+portal: null
+language: "en"
+wikipedia_revision_id: null
 
 dataset:
-  schema_version: "2.1"
-  compiler:
-    mode: "llm_deep_research_broad_snapshot_reviewed"
-    status: "reviewed_draft"
-    reviewed: true
-  scope:
-    seed_source: "Broad global news sweep"
-    enrichment_sources_expected: true
+schema_version: "2.1"
+compiler:
+mode: "llm_deep_research_broad_snapshot_reviewed"
+status: "reviewed_draft"
+reviewed: true
+scope:
+seed_source: "Broad global news sweep"
+enrichment_sources_expected: true
 
 events:
 
-  - id: "evt-2026-03-18-001"
-    category: "Armed conflicts and attacks"
-    subcategory: "Infrastructure strikes"
-    topics: []
-    importance: null
-    headline: "Strike on Iran's South Pars gas field prompts threats to Gulf energy facilities"
-    summary: >-
-      Regional and market coverage on March 18 said facilities tied to Iran's South Pars gas field were
-      struck, after which Iranian officials threatened named energy sites in Saudi Arabia, the United
-      Arab Emirates and Qatar. Al Jazeera listed facilities identified in the warning, while market coverage
-      tracked Brent crude near $109.84 a barrel and rising inflation concerns. Together the reports pointed
-      to a deeper risk that the war would spread from military targets into Gulf energy infrastructure.
-    details:
-      what_happened:
-        - Coverage said facilities linked to South Pars in Assaluyeh were struck, with some 
-          processing units reportedly taken offline.
-        - Al Jazeera reported threats against specific Gulf energy sites including SAMREF, Jubail, 
-          Al Hosn, Ras Laffan and Mesaieed.
-        - Market coverage said Brent crude rose to about $109.84 a barrel as traders priced in wider
-          supply disruption risk.
-      why_it_matters:
-        - Threats to named energy facilities raised the risk that the conflict would move beyond 
-          military sites and into export and processing infrastructure.
-        - Oil and gas price spikes can quickly feed into global inflation, shipping costs and 
-          energy-security concerns.
-      uncertainty_notes:
-        - The cited sources did not align cleanly on operational attribution for the South Pars 
-          strike, so the event avoids a definitive attacker label.
-    actors:
-      primary:
-        - Iran
-        - Islamic Revolutionary Guard Corps (IRGC)
-      secondary:
-        - QatarEnergy
-    entities:
-      people:
-        - Alireza Tangsiri
-      organizations:
-        - Islamic Revolutionary Guard Corps (IRGC)
-        - QatarEnergy
-      states:
-        - Iran
-        - Qatar
-        - Saudi Arabia
-        - United Arab Emirates
-        - Israel
-    geography:
-      countries:
-        - Iran
-        - Qatar
-        - Saudi Arabia
-        - United Arab Emirates
-      places:
-        - South Pars gas field
-        - Assaluyeh
-        - SAMREF refinery
-        - Jubail petrochemical complex
-        - Al Hosn gas field
-        - Ras Laffan
-        - Mesaieed
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: Damage was reported at South Pars gas facilities in Assaluyeh.
-    classification:
-      event_type:
-        - "infrastructure-strikes"
-      tags:
-        - "iran"
-        - "qatar"
-        - "saudi-arabia"
-        - "united-arab-emirates"
-        - "energy-infrastructure"
-        - "south-pars"
-        - "irgc"
-        - "lng"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: "WC Shipping"
-          url: "https://www.wcshipping.com/blog/iran-war-day-19-israel-strikes-south-pars-iran-threatens-gulf-targets"
-          publication_date: "2026-03-18"
-          source_type: "trade publication"
-          reliability_tier: "medium"
-          supports:
-            - "South Pars strike"
-            - "evacuation of Qatar's Ras Laffan"
-            - "Brent crude spike to $109.84"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-002"
-          outlet: "Al Jazeera"
-          url: "https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "high"
-          supports:
-            - "IRGC threats against Gulf facilities"
-            - "threats against SAMREF, Jubail, Al Hosn, and Mesaieed"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-003"
-          outlet: "Times of India"
-          url: "https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-march-18-2026dow-sp-500-nasdaq-fall-as-crude-oil-surge-inflation-us-iran-war/articleshow/129659102.cms"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "broader economic impact"
-            - "global inflationary fears"
-            - "Brent crude to $109.84"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
+* id: "evt-2026-03-18-001"
+  category: "Armed conflicts and attacks"
+  subcategory: "Infrastructure strikes"
+  topics: []
+  importance: null
+  headline: "Coordinated airstrikes on Iran's South Pars gas field and subsequent IRGC threats to Gulf energy infrastructure"
+  summary: >
+  The operational theater in the Persian Gulf expanded precipitously as Israeli and United States forces executed coordinated drone strikes on the downstream infrastructure of Iran’s South Pars gas field, the largest natural gas reserve globally, immediately prompting an unprecedented retaliatory posture from Tehran. In an asymmetric response to the degradation of their sovereign energy assets, the Islamic Revolutionary Guard Corps (IRGC) Navy explicitly designated major Western-affiliated energy facilities across the Gulf—specifically in Qatar, Saudi Arabia, and the United Arab Emirates—as legitimate military targets equal to American military bases. This exchange signifies a definitive end to any localized containment of the conflict, directly threatening the infrastructure that underpins a vast percentage of global hydrocarbon liquidity and forcing the emergency evacuation of critical global liquefied natural gas (LNG) nodes ahead of anticipated ballistic missile strikes.
+  details:
+  what_happened:
+  - "Israeli and United States drone platforms struck four critical sour gas treatment facilities located at phases 3, 4, 5, and 6 of the South Pars field in Assaluyeh, southern Iran, forcing local authorities to take the processing plants offline to mitigate the spread of catastrophic fires."
+  - "In direct retaliation, IRGC Navy Commander Alireza Tangsiri updated Iran's target matrix, officially equating United States-affiliated oil facilities in the Gulf to American military bases and warning that they would come under fire with 'full force'."
+  - "The IRGC issued an extraordinary evacuation warning targeting specific Gulf facilities, including the SAMREF refinery and Jubail petrochemical complex in Saudi Arabia, the Al Hosn gas field in the UAE, and the Ras Laffan and Mesaieed complexes in Qatar."
+  - "Anticipating imminent kinetic strikes, Qatar initiated the evacuation of its primary LNG production facilities at Ras Laffan Industrial City, a site responsible for approximately 20 percent of the world’s LNG supply, exacerbating global supply chain panic."
+  - "Global energy markets reacted violently to the infrastructure strikes; the Dutch TTF gas benchmark rose by 5 percent within the hour, while Brent crude oil spiked by 6.2 percent to eclipse $109.84 per barrel."
+  why_it_matters:
+  - "The systematic targeting of downstream energy processing plants marks a dangerous evolution from purely military or nuclear targeting to total economic warfare, endangering up to 3.4 million barrels per day of Iranian crude output and threatening the foundational economic pillars of neighboring Gulf states."
+  - "The evacuation of Ras Laffan and the credible threat of Iranian ballistic missile strikes on Saudi and Emirati refineries present an unprecedented risk of long-term disruption to global energy markets, heightening the probability of a severe global inflationary wave that will impact central bank interest rate policies."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Israel Defense Forces (IDF)"
+  - "United States Armed Forces"
+  - "Islamic Revolutionary Guard Corps (IRGC)"
+  secondary:
+  - "QatarEnergy"
+  - "Saudi Ministry of Defense"
+  entities:
+  people:
+  - "Alireza Tangsiri"
+  organizations:
+  - "Israel Defense Forces (IDF)"
+  - "United States Armed Forces"
+  - "Islamic Revolutionary Guard Corps (IRGC)"
+  - "QatarEnergy"
+  - "Saudi Ministry of Defense"
+  states:
+  - "Iran"
+  - "Qatar"
+  - "Saudi Arabia"
+  - "United Arab Emirates"
+  - "United States"
+  - "Israel"
+  geography:
+  countries:
+  - "Iran"
+  - "Qatar"
+  - "Saudi Arabia"
+  - "United Arab Emirates"
+  places:
+  - "South Pars gas field"
+  - "Assaluyeh"
+  - "Ras Laffan Industrial City"
+  - "SAMREF refinery"
+  - "Jubail petrochemical complex"
+  - "Al Hosn gas field"
+  - "Mesaieed"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: null
+  displaced: null
+  arrest_count: 0
+  damage: "Severe structural and fire damage to four sour gas treatment facilities in Assaluyeh, Iran; extensive operational disruption to facilities at Ras Laffan, Qatar."
+  classification:
+  event_type:
+  - "infrastructure-strikes"
+  tags:
+  - "iran"
+  - "qatar"
+  - "saudi-arabia"
+  - "united-arab-emirates"
+  - "energy-infrastructure"
+  - "south-pars"
+  - "irgc"
+  - "lng"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "WC Shipping"
+  url: "[https://www.wcshipping.com/blog/iran-war-day-19-israel-strikes-south-pars-iran-threatens-gulf-targets](https://www.wcshipping.com/blog/iran-war-day-19-israel-strikes-south-pars-iran-threatens-gulf-targets)"
+  publication_date: "2026-03-18"
+  source_type: "trade publication"
+  reliability_tier: "medium"
+  supports:
+  - "South Pars strike"
+  - "evacuation of Qatar's Ras Laffan"
+  - "Brent crude spike to $109.84"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Al Jazeera"
+  url: "[https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack](https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "high"
+  supports:
+  - "IRGC threats against Gulf facilities"
+  - "threats against SAMREF, Jubail, Al Hosn, and Mesaieed"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Times of India"
+  url: "[https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-march-18-2026dow-sp-500-nasdaq-fall-as-crude-oil-surge-inflation-us-iran-war/articleshow/129659102.cms](https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-march-18-2026dow-sp-500-nasdaq-fall-as-crude-oil-surge-inflation-us-iran-war/articleshow/129659102.cms)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "broader economic impact"
+  - "global inflationary fears"
+  - "Brent crude to $109.84"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events:
 
-      - "evt-2026-03-17-001"
-      - "evt-2026-03-17-002"
-      - "evt-2026-03-16-001"
-      - "evt-2026-03-18-002"
-      - "evt-2026-03-18-003"
-      - "evt-2026-03-18-004"
+  * "evt-2026-03-18-002"
+  * "evt-2026-03-18-003"
+  * "evt-2026-03-18-004"
     notes: ""
 
-  - id: "evt-2026-03-18-002"
-    category: "Armed conflicts and attacks"
-    subcategory: "Targeted assassinations"
-    topics: []
-    importance: null
-    headline: "Israel says it killed Iran's intelligence minister as missile fire and airstrikes widen
-      the conflict"
-    summary: >-
-      Al Jazeera reported that Israel said it killed Iranian intelligence minister Esmaeil Khatib, adding
-      to recent killings of other senior Iranian figures. Other cited coverage described retaliatory missile
-      fire toward Tel Aviv and central Israel, Hezbollah rocket launches, and Israeli strikes in Beirut.
-      Together the reports pointed to continued escalation across Iran, Israel and Lebanon.
-    details:
-      what_happened:
-        - Al Jazeera reported that Iranian officials confirmed the death of intelligence minister 
-          Esmaeil Khatib.
-        - The same report placed Khatib after the recent killings of Ali Larijani and Gholamreza 
-          Soleimani.
-        - Other cited coverage described retaliatory missile fire toward Tel Aviv and central 
-          Israel, Hezbollah rocket launches, and Israeli strikes in Beirut.
-        - Al Jazeera also reported that Israeli officials signaled they would continue targeting 
-          senior Iranian figures.
-      why_it_matters:
-        - Leadership targeting reduces room for de-escalation and increases the likelihood of 
-          additional retaliatory strikes.
-        - Parallel fire across Iran, Israel and Lebanon underscored that the conflict was no longer 
-          confined to a single front.
-      uncertainty_notes:
-        - Casualty figures across Tehran, central Israel and Beirut were reported in separate 
-          accounts and are not combined here into a single total.
-    actors:
-      primary:
-        - Israel
-        - Iran
-        - Hezbollah
-      secondary:
-        - Masoud Pezeshkian
-    entities:
-      people:
-        - Esmaeil Khatib
-        - Masoud Pezeshkian
-        - Ali Larijani
-        - Gholamreza Soleimani
-      organizations:
-        - Hezbollah
-        - Basij
-      states:
-        - Iran
-        - Israel
-        - Lebanon
-    geography:
-      countries:
-        - "Iran"
-        - "Israel"
-        - "Lebanon"
-      places:
-        - "Tehran"
-        - "Tel Aviv"
-        - "central Israel"
-        - "Ramat Gan"
-        - "Beirut"
-        - "northern Israel"
-        - "northern West Bank"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: Damage was reported in Tehran, central Israel and Beirut.
-    classification:
-      event_type:
-        - "targeted-assassinations"
-      tags:
-        - "iran"
-        - "israel"
-        - "lebanon"
-        - "hezbollah"
-        - "irgc"
-        - "tehran"
-        - "tel-aviv"
-        - "beirut"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-004"
-          outlet: "Al Jazeera"
-          url: "https://www.aljazeera.com/news/2026/3/18/israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "high"
-          supports:
-            - "deaths of Esmaeil Khatib, Ali Larijani, and Gholamreza Soleimani"
-            - "standing kill order issued by Israel"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-005"
-          outlet: "Foundation for Defense of Democracies"
-          url: "https://www.fdd.org/overnight-brief/march-18-2026/"
-          publication_date: "2026-03-18"
-          source_type: "think tank brief"
-          reliability_tier: "medium"
-          supports:
-            - "cluster munition missile barrage on Ramat Gan"
-            - "Israeli airstrikes in Beirut"
-            - "Hezbollah rocket fire"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-006"
-          outlet: "Council on Foreign Relations"
-          url: "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran"
-          publication_date: "2026-03-18"
-          source_type: "conflict tracker"
-          reliability_tier: "high"
-          supports:
-            - "assassination of Khatib"
-            - "retaliatory ballistic missile strike on Tel Aviv"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
+* id: "evt-2026-03-18-002"
+  category: "Armed conflicts and attacks"
+  subcategory: "Targeted assassinations"
+  topics: []
+  importance: null
+  headline: "Israeli decapitation campaign eliminates Iranian intelligence minister amid missile barrages"
+  summary: >
+  The Israeli military apparatus dramatically intensified its systemic decapitation campaign against the Iranian leadership structure, successfully assassinating Iranian Intelligence Minister Esmaeil Khatib in a precision overnight strike in Tehran. This high-profile elimination marks the third assassination of a top-tier Iranian official within a 48-hour window, compounding the operational paralysis within Tehran’s command and control network and prompting the Israeli political echelon to issue a standing authorization for the military to eliminate any senior Iranian officials upon location. In tandem with these strikes, Hezbollah and Iranian forces launched retaliatory rocket and cluster-munition missile barrages into Israeli territory, highlighting a regional security environment that has entirely abandoned the doctrine of strategic patience in favor of overt, unrestrained confrontation.
+  details:
+  what_happened:
+  - "Iranian President Masoud Pezeshkian officially confirmed that Israeli forces killed Intelligence Minister Esmaeil Khatib, a deeply credentialed civilian intelligence figure closely aligned with the new supreme leader, Mojtaba Khamenei."
+  - "The assassination of Khatib immediately followed the targeted killings of Ali Larijani, a veteran security chief and political insider, and Gholamreza Soleimani, the commander of the Basij paramilitary force."
+  - "Following the strikes, the Israeli Defense Forces (IDF) and the political establishment announced a standing authorization to systematically eliminate any senior Iranian officials they can locate without requiring case-by-case cabinet approval."
+  - "In retaliation for the assassinations, the IRGC launched a ballistic missile attack on Tel Aviv and central Israel utilizing submunition (cluster) warheads, resulting in two civilian fatalities in Ramat Gan."
+  - "Simultaneously, Hezbollah escalated its northern front, launching dozens of rockets into northern Israel and the northern West Bank, while Israeli airstrikes in Beirut killed at least six individuals as part of an intensified offensive against the Iran-backed group."
+  why_it_matters:
+  - "The rapid, consecutive elimination of Iran's intelligence and paramilitary chiefs indicates a catastrophic intelligence compromise within the Iranian regime, deeply fracturing the state's internal security apparatus and breaking command continuity."
+  - "The explicit shift from a doctrine of 'strategic patience' and proxy warfare to direct ballistic missile exchanges and open assassinations fundamentally rewrites the rules of engagement in the Middle East, ensuring a protracted and highly destructive conflict that will continually draw in external actors."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Israel Defense Forces (IDF)"
+  - "Islamic Revolutionary Guard Corps (IRGC)"
+  - "Hezbollah"
+  secondary:
+  - "Masoud Pezeshkian"
+  - "Israel Katz"
+  entities:
+  people:
+  - "Esmaeil Khatib"
+  - "Masoud Pezeshkian"
+  - "Mojtaba Khamenei"
+  - "Ali Larijani"
+  - "Gholamreza Soleimani"
+  - "Israel Katz"
+  organizations:
+  - "Israel Defense Forces (IDF)"
+  - "Islamic Revolutionary Guard Corps (IRGC)"
+  - "Hezbollah"
+  - "Basij"
+  states:
+  - "Iran"
+  - "Israel"
+  - "Lebanon"
+  geography:
+  countries:
+  - "Iran"
+  - "Israel"
+  - "Lebanon"
+  places:
+  - "Tehran"
+  - "Tel Aviv"
+  - "central Israel"
+  - "Ramat Gan"
+  - "Beirut"
+  - "northern Israel"
+  - "northern West Bank"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: "11"
+  injured: 2
+  displaced: null
+  arrest_count: 0
+  damage: "Structural damage to a residence in Karmiel, Israel; unspecified command center damage in Tehran."
+  classification:
+  event_type:
+  - "targeted-assassinations"
+  tags:
+  - "iran"
+  - "israel"
+  - "lebanon"
+  - "hezbollah"
+  - "irgc"
+  - "tehran"
+  - "tel-aviv"
+  - "beirut"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Al Jazeera"
+  url: "[https://www.aljazeera.com/news/2026/3/18/israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days](https://www.aljazeera.com/news/2026/3/18/israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "high"
+  supports:
+  - "deaths of Esmaeil Khatib, Ali Larijani, and Gholamreza Soleimani"
+  - "standing kill order issued by Israel"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Foundation for Defense of Democracies"
+  url: "[https://www.fdd.org/overnight-brief/march-18-2026/](https://www.fdd.org/overnight-brief/march-18-2026/)"
+  publication_date: "2026-03-18"
+  source_type: "think tank brief"
+  reliability_tier: "medium"
+  supports:
+  - "cluster munition missile barrage on Ramat Gan"
+  - "Israeli airstrikes in Beirut"
+  - "Hezbollah rocket fire"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Council on Foreign Relations"
+  url: "[https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran](https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran)"
+  publication_date: "2026-03-18"
+  source_type: "conflict tracker"
+  reliability_tier: "high"
+  supports:
+  - "assassination of Khatib"
+  - "retaliatory ballistic missile strike on Tel Aviv"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events:
 
-      - "evt-2026-03-17-001"
-      - "evt-2026-03-18-001"
-      - "evt-2026-03-18-003"
+  * "evt-2026-03-18-001"
+  * "evt-2026-03-18-003"
+    notes: "Killed figure reflects 2 civilians in Ramat Gan, 6 killed in Beirut, and 3 senior Iranian officials in Tehran as presented in the report."
+
+* id: "evt-2026-03-18-003"
+  category: "Armed conflicts and attacks"
+  subcategory: "Airstrikes"
+  topics: []
+  importance: null
+  headline: "Combat debut of U.S. GBU-72 bunker busters against Iranian missile sites in the Strait of Hormuz"
+  summary: >
+  The United States Air Force executed a highly specialized kinetic operation utilizing the GBU-72 Advanced 5K Penetrator—a state-of-the-art 5,000-pound bunker-buster bomb—to obliterate deeply buried and hardened Iranian anti-ship cruise missile facilities along the coastline of the Strait of Hormuz. This operation marks the first documented combat employment of the precision-guided GBU-72, reflecting a significant technological escalation in Operation Epic Fury. The strikes are a direct effort by United States Central Command to neutralize the asymmetric coastal defense systems that have allowed the IRGC to effectively blockade international shipping through the world's most critical hydrocarbon transit chokepoint, where maritime traffic has plunged by over 95 percent since the outbreak of hostilities.
+  details:
+  what_happened:
+  - "U.S. forces successfully dropped multiple 5,000-pound GBU-72/B Advanced 5K Penetrator munitions onto hardened underground storage facilities harboring Iranian coastal defense cruise missiles near the Strait of Hormuz."
+  - "Joint Chiefs Chairman Gen. Dan Caine confirmed the strikes were part of the ongoing Operation Epic Fury, noting the bespoke design of the weapons to penetrate thick concrete and subterranean rock before detonating."
+  - "The operation explicitly targeted the anti-ship missile arrays that have facilitated Iran's near-total closure of the Strait of Hormuz, where maritime traffic remains largely restricted to single-digit 'permission-based transits' for Chinese and Indian vessels."
+  - "The deployment of the GBU-72 follows repeated refusals by European NATO allies to join a U.S.-led maritime coalition, forcing Washington to undertake unilateral preemptive strikes to secure the waterway under orders from President Donald Trump."
+  why_it_matters:
+  - "The combat debut of the GBU-72 provides the United States with a highly lethal, intermediate capability between the standard 2,000-pound JDAM and the massive 30,000-pound GBU-57 MOP, optimizing the military's ability to systematically dismantle deeply buried adversary infrastructure without resorting to strategic bombers."
+  - "By actively degrading Iran's coastal defense networks, the United States is attempting to forcibly break the economic chokehold on the Strait of Hormuz, which has already caused immense disruptions to global supply chains and driven energy prices to highly destabilizing levels."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "United States Air Force (USAF)"
+  - "United States Central Command (CENTCOM)"
+  - "Islamic Revolutionary Guard Corps (IRGC)"
+  secondary:
+  - "Dan Caine"
+  - "Donald Trump"
+  entities:
+  people:
+  - "Dan Caine"
+  - "Donald Trump"
+  organizations:
+  - "United States Air Force (USAF)"
+  - "United States Central Command (CENTCOM)"
+  - "Islamic Revolutionary Guard Corps (IRGC)"
+  - "NATO"
+  states:
+  - "Iran"
+  - "United States"
+  geography:
+  countries:
+  - "Iran"
+  places:
+  - "Strait of Hormuz"
+  - "Iranian coastline"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: null
+  injured: null
+  displaced: 0
+  arrest_count: 0
+  damage: "Total destruction of heavily fortified, underground coastal defense cruise missile storage facilities along the Iranian coastline."
+  classification:
+  event_type:
+  - "airstrikes"
+  tags:
+  - "united-states"
+  - "iran"
+  - "strait-of-hormuz"
+  - "gbu-72"
+  - "bunker-buster"
+  - "centcom"
+  - "operation-epic-fury"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Air Force Times"
+  url: "[https://www.airforcetimes.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/](https://www.airforcetimes.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "combat debut of the GBU-72 Advanced 5K Penetrator"
+  - "Dan Caine briefing"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "The Aviationist"
+  url: "[https://theaviationist.com/2026/03/18/gbu-72-used-first-time-in-combat/](https://theaviationist.com/2026/03/18/gbu-72-used-first-time-in-combat/)"
+  publication_date: "2026-03-18"
+  source_type: "specialist publication"
+  reliability_tier: "medium"
+  supports:
+  - "use of the munition"
+  - "CENTCOM rationale regarding threat to international shipping"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Hindustan Times"
+  url: "[https://www.hindustantimes.com/world-news/us-news/iran-strait-of-hormuz-update-us-forces-big-move-against-anti-ship-cruise-missiles-what-are-deep-penetrator-munitions-101773789461518.html](https://www.hindustantimes.com/world-news/us-news/iran-strait-of-hormuz-update-us-forces-big-move-against-anti-ship-cruise-missiles-what-are-deep-penetrator-munitions-101773789461518.html)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "strategic chokehold on the Strait of Hormuz"
+  - "refusal of NATO assistance"
+  - "global surge in energy prices"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events:
+
+  * "evt-2026-03-18-001"
+  * "evt-2026-03-18-002"
+  * "evt-2026-03-18-004"
     notes: ""
 
-  - id: "evt-2026-03-18-003"
-    category: "Armed conflicts and attacks"
-    subcategory: "Airstrikes"
-    topics: []
-    importance: null
-    headline: "U.S. uses GBU-72 bunker-buster bombs against Iranian missile sites near the Strait of Hormuz"
-    summary: >-
-      Specialist and military coverage said U.S. forces used GBU-72 Advanced 5K Penetrator bombs against
-      underground Iranian missile storage sites near the Strait of Hormuz, described as the weapon's first
-      combat use. Reports cited Joint Chiefs Chairman Dan Caine and framed the strikes as an effort to
-      reduce threats to international shipping at a time of severe disruption around Hormuz.
-    details:
-      what_happened:
-        - Air Force and aviation coverage said U.S. forces struck underground Iranian missile 
-          storage sites near the Strait of Hormuz with GBU-72 munitions.
-        - The reports described the operation as the first combat use of the GBU-72 Advanced 5K 
-          Penetrator.
-        - Dan Caine was cited describing the strike and the rationale for targeting anti-ship 
-          missile infrastructure.
-        - The cited coverage linked the operation to threats against international shipping through 
-          Hormuz.
-      why_it_matters:
-        - The reported first combat use of a new bunker-buster munition marked a technical 
-          escalation in the campaign against Iran.
-        - Any military action tied to Hormuz carries outsized consequences for shipping, insurance 
-          and global energy markets.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - United States Air Force (USAF)
-        - United States Central Command (CENTCOM)
-      secondary:
-        - Dan Caine
-    entities:
-      people:
-        - Dan Caine
-      organizations:
-        - United States Air Force (USAF)
-        - United States Central Command (CENTCOM)
-        - Islamic Revolutionary Guard Corps (IRGC)
-      states:
-        - Iran
-        - United States
-    geography:
-      countries:
-        - "Iran"
-      places:
-        - "Strait of Hormuz"
-        - "Iranian coastline"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: Underground missile storage sites were reportedly struck near the Strait of Hormuz.
-    classification:
-      event_type:
-        - "airstrikes"
-      tags:
-        - "united-states"
-        - "iran"
-        - "strait-of-hormuz"
-        - "gbu-72"
-        - "bunker-buster"
-        - "centcom"
-        - "operation-epic-fury"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-007"
-          outlet: "Air Force Times"
-          url: "https://www.airforcetimes.com/news/your-air-force/2026/03/19/us-strikes-iranian-underground-missile-storage-with-5000-pound-penetrator/"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "combat debut of the GBU-72 Advanced 5K Penetrator"
-            - "Dan Caine briefing"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-008"
-          outlet: "The Aviationist"
-          url: "https://theaviationist.com/2026/03/18/gbu-72-used-first-time-in-combat/"
-          publication_date: "2026-03-18"
-          source_type: "specialist publication"
-          reliability_tier: "medium"
-          supports:
-            - "use of the munition"
-            - "CENTCOM rationale regarding threat to international shipping"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-009"
-          outlet: "Hindustan Times"
-          url: "https://www.hindustantimes.com/world-news/us-news/iran-strait-of-hormuz-update-us-forces-big-move-against-anti-ship-cruise-missiles-what-are-deep-penetrator-munitions-101773789461518.html"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "strategic chokehold on the Strait of Hormuz"
-            - "refusal of NATO assistance"
-            - "global surge in energy prices"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
+* id: "evt-2026-03-18-004"
+  category: "Business and economics"
+  subcategory: "Financial markets"
+  topics: []
+  importance: null
+  headline: "Asian equities decouple and rally despite surging Middle Eastern oil prices"
+  summary: >
+  In a remarkable demonstration of regional market resilience and localized decoupling, major Asian equity indices surged robustly, entirely shrugging off the severe global inflationary anxieties triggered by the skyrocketing price of crude oil stemming from the United States-Israel-Iran war. While Wall Street's S&P 500 and Dow Jones indices contracted heavily under the weight of Brent crude surpassing $109 per barrel, Japan's Nikkei and India's benchmark Sensex indices recorded massive gains. This divergence underscores the internal liquidity strength of the Asian markets and reflects a complex geopolitical realignment where Asian manufacturing powerhouses simultaneously insulate themselves from Western inflation panics while engaging in aggressive localized trade defense maneuvers, evidenced by India's newly launched anti-dumping probes against Chinese chemical imports.
+  details:
+  what_happened:
+  - "Asian stock markets traded heavily in the green, with Japan's Nikkei index gaining over 3 percent and India's BSE Sensex jumping over 600 points, closing above the 23,750 mark."
+  - "This bullish momentum occurred in stark contrast to U.S. markets; the Dow Jones dropped 377 points and the S&P 500 fell 0.5 percent due to fears that prolonged energy disruptions in the Persian Gulf will trigger massive global inflation."
+  - "Brent crude oil surged 6.2 percent to $109.84 per barrel following Iranian threats against Gulf energy infrastructure, strengthening market expectations that the U.S. Federal Reserve will delay any interest rate cuts."
+  - "Amidst the broader market rally, the Indian government initiated an aggressive anti-dumping probe into ethyl chloroformate imports originating from China, indicating underlying regional trade friction despite the aggregate equity market exuberance."
+  why_it_matters:
+  - "The stark decoupling of Asian markets from Western inflationary panic indicates that regional investors are heavily discounting the long-term economic damage of the Middle East conflict to Asian economies, relying on internal liquidity and potentially sustained discounted oil flows from sanctioned states like Iran and Russia."
+  - "India's aggressive anti-dumping actions against Chinese chemical imports demonstrate that while broader Asian equities remain strong against global headwinds, systemic supply chain protectionism and economic rivalry continue to escalate between the region's two largest economies."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Asian Financial Markets"
+  - "U.S. Federal Reserve"
+  secondary:
+  - "Indian Ministry of Commerce and Industry"
+  entities:
+  people: []
+  organizations:
+  - "U.S. Federal Reserve"
+  - "Indian Ministry of Commerce and Industry"
+  states:
+  - "India"
+  - "Japan"
+  - "China"
+  - "United States"
+  geography:
+  countries:
+  - "India"
+  - "Japan"
+  - "China"
+  - "United States"
+  places:
+  - "Asia"
+  - "Wall Street"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "financial-markets"
+  tags:
+  - "asia"
+  - "india"
+  - "japan"
+  - "china"
+  - "united-states"
+  - "brent-crude"
+  - "stock-markets"
+  - "inflation"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Times of India"
+  url: "[https://timesofindia.indiatimes.com/business/international-business/asian-stocks-today-march-18-2026-markets-trade-in-green-amid-middle-east-conflict-hsi-remains-flat-nikkei-gains-over-3/articleshow/129646457.cms](https://timesofindia.indiatimes.com/business/international-business/asian-stocks-today-march-18-2026-markets-trade-in-green-amid-middle-east-conflict-hsi-remains-flat-nikkei-gains-over-3/articleshow/129646457.cms)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "Nikkei gaining over 3%"
+  - "broader Asian market rally"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Times of India"
+  url: "[https://timesofindia.indiatimes.com/business/india-business/stock-market-today-nifty50-bse-sensex-march-18-2026-dalal-street-indian-equities-global-markets-us-iran-war-middle-east-conflict-donald-trump-oil-prices/articleshow/129645781.cms](https://timesofindia.indiatimes.com/business/india-business/stock-market-today-nifty50-bse-sensex-march-18-2026-dalal-street-indian-equities-global-markets-us-iran-war-middle-east-conflict-donald-trump-oil-prices/articleshow/129645781.cms)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "BSE Sensex jump of 600 points"
+  - "Indian anti-dumping probe into Chinese ethyl chloroformate"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Times of India"
+  url: "[https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-march-18-2026dow-sp-500-nasdaq-fall-as-crude-oil-surge-inflation-us-iran-war/articleshow/129659102.cms](https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-march-18-2026dow-sp-500-nasdaq-fall-as-crude-oil-surge-inflation-us-iran-war/articleshow/129659102.cms)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "contraction of U.S. markets"
+  - "Brent crude spike to $109.84"
+  - "fears regarding Fed interest rates"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events:
 
-      - "evt-2026-03-17-002"
-      - "evt-2026-03-16-001"
-      - "evt-2026-03-18-001"
-      - "evt-2026-03-18-004"
+  * "evt-2026-03-18-001"
+  * "evt-2026-03-18-003"
     notes: ""
 
-  - id: "evt-2026-03-18-004"
-    category: "Business and economics"
-    subcategory: "Financial markets"
-    topics: []
-    importance: null
-    headline: "Asian equities rise even as oil prices surge on Middle East conflict"
-    summary: >-
-      Times of India market coverage said Asian indexes including Japan's Nikkei and India's Sensex rose
-      on March 18 even as Brent crude climbed above $109 and U.S. stocks fell. The divergence left investors
-      balancing local bullishness in Asia against global inflation fears tied to the Middle East war.
-    details:
-      what_happened:
-        - Times of India reported that Japan's Nikkei gained more than 3 percent and India's Sensex 
-          rose by more than 600 points.
-        - The same coverage said U.S. indexes fell as higher oil prices fed inflation concerns.
-        - Brent crude was reported around $109.84 a barrel after renewed threats to Gulf energy 
-          infrastructure.
-        - Indian authorities also opened an anti-dumping probe into ethyl chloroformate imports from
-          China.
-      why_it_matters:
-        - The trading session showed that oil shocks do not move all regional markets in the same 
-          direction or at the same speed.
-        - Higher crude prices and shifting rate expectations remained a direct transmission channel 
-          from conflict to global finance.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Asian Financial Markets"
-        - "U.S. Federal Reserve"
-      secondary:
-        - "Indian Ministry of Commerce and Industry"
-    entities:
-      people: []
-      organizations:
-        - "U.S. Federal Reserve"
-        - "Indian Ministry of Commerce and Industry"
-      states:
-        - "India"
-        - "Japan"
-        - "China"
-        - "United States"
-    geography:
-      countries:
-        - "India"
-        - "Japan"
-        - "China"
-        - "United States"
-      places:
-        - "Asia"
-        - "Wall Street"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "financial-markets"
-      tags:
-        - "asia"
-        - "india"
-        - "japan"
-        - "china"
-        - "united-states"
-        - "brent-crude"
-        - "stock-markets"
-        - "inflation"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-010"
-          outlet: "Times of India"
-          url: "https://timesofindia.indiatimes.com/business/international-business/asian-stocks-today-march-18-2026-markets-trade-in-green-amid-middle-east-conflict-hsi-remains-flat-nikkei-gains-over-3/articleshow/129646457.cms"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "Nikkei gaining over 3%"
-            - "broader Asian market rally"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-011"
-          outlet: "Times of India"
-          url: "https://timesofindia.indiatimes.com/business/india-business/stock-market-today-nifty50-bse-sensex-march-18-2026-dalal-street-indian-equities-global-markets-us-iran-war-middle-east-conflict-donald-trump-oil-prices/articleshow/129645781.cms"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "BSE Sensex jump of 600 points"
-            - "Indian anti-dumping probe into Chinese ethyl chloroformate"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-012"
-          outlet: "Times of India"
-          url: "https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-march-18-2026dow-sp-500-nasdaq-fall-as-crude-oil-surge-inflation-us-iran-war/articleshow/129659102.cms"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "contraction of U.S. markets"
-            - "Brent crude spike to $109.84"
-            - "fears regarding Fed interest rates"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
+* id: "evt-2026-03-18-005"
+  category: "Arts, culture, and sports"
+  subcategory: "International sporting events"
+  topics: []
+  importance: null
+  headline: "Venezuela defeats the United States to win the World Baseball Classic amidst military occupation"
+  summary: >
+  In a surreal juxtaposition of international sports and geopolitics, the Venezuelan national baseball team secured an improbable 3-2 victory over the United States to win their first-ever World Baseball Classic (WBC) championship at LoanDepot Park in Miami. The victory was secured by a ninth-inning, go-ahead RBI double from Eugenio Suárez, silencing a highly favored American roster composed of elite major league talent. The sporting triumph is historically unprecedented due to its grave geopolitical backdrop; the game occurred exactly two and a half months after the United States military invaded Venezuela during "Operation Absolute Resolve," which culminated in the arrest of the nation's president, Nicolás Maduro. This victory layers the championship with immense nationalistic and psychological weight for the Venezuelan populace, serving as a symbolic resistance against an occupying force.
+  details:
+  what_happened:
+  - "Venezuela defeated Team USA 3-2 in the World Baseball Classic final, securing the championship after Eugenio Suárez hit a game-winning RBI double off American reliever Garrett Whitlock in the top of the ninth inning."
+  - "The United States team briefly tied the game in the eighth inning via a two-run home run by Bryce Harper, but the highly touted American lineup ultimately struggled, managing only two hits against Venezuelan pitching early in the game."
+  - "The victory took place against the stark backdrop of the ongoing U.S. military occupation of Venezuela, which began with a kinetic invasion on January 3, 2026, leading to the capture and extraction of President Nicolás Maduro."
+  - "The victory sparked immense celebrations and outpourings of national pride for Venezuela, with players explicitly dedicating the win to their occupied homeland during post-game interviews."
+  why_it_matters:
+  - "The victory serves as a profound psychological and cultural release valve for the Venezuelan people, demonstrating the enduring power of sports nationalism amid the collapse of their sovereign government and ongoing foreign military occupation."
+  - "The defeat of the heavily favored 'dream team' American roster by a nation currently subjugated by U.S. military forces highlights a unique intersection of soft power and hard power, drawing intense international media scrutiny to the complexities of the ongoing occupation in Caracas."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Team Venezuela"
+  - "Team USA"
+  secondary:
+  - "Eugenio Suárez"
+  - "Bryce Harper"
+  - "U.S. Military Forces"
+  entities:
+  people:
+  - "Eugenio Suárez"
+  - "Bryce Harper"
+  - "Garrett Whitlock"
+  - "Nicolás Maduro"
+  organizations:
+  - "Team Venezuela"
+  - "Team USA"
+  - "U.S. Military Forces"
+  states:
+  - "United States"
+  - "Venezuela"
+  geography:
+  countries:
+  - "United States"
+  - "Venezuela"
+  places:
+  - "LoanDepot Park"
+  - "Miami"
+  - "Caracas"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "international-sporting-events"
+  tags:
+  - "venezuela"
+  - "united-states"
+  - "world-baseball-classic"
+  - "baseball"
+  - "eugenio-suarez"
+  - "bryce-harper"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "GoLocalProv"
+  url: "[https://www.golocalprov.com/news/5-big-news-stories-overnight-wednesday-march-18-2026](https://www.golocalprov.com/news/5-big-news-stories-overnight-wednesday-march-18-2026)"
+  publication_date: "2026-03-18"
+  source_type: "news roundup"
+  reliability_tier: "medium"
+  supports:
+  - "3-2 score"
+  - "link between sporting event and geopolitical context of the U.S. invasion of Venezuela and arrest of Nicolás Maduro"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "MLB.com"
+  url: "[https://www.mlb.com/news/eugenio-suarez-venezuela-world-baseball-classic-winning-hit](https://www.mlb.com/news/eugenio-suarez-venezuela-world-baseball-classic-winning-hit)"
+  publication_date: "2026-03-18"
+  source_type: "sports report"
+  reliability_tier: "high"
+  supports:
+  - "game-winning RBI double by Eugenio Suárez in the ninth inning against Garrett Whitlock"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Al Jazeera"
+  url: "[https://www.aljazeera.com/sports/2026/3/18/venezuela-defeat-usa-win-first-world-baseball-classic-championship](https://www.aljazeera.com/sports/2026/3/18/venezuela-defeat-usa-win-first-world-baseball-classic-championship)"
+  publication_date: "2026-03-18"
+  source_type: "sports report"
+  reliability_tier: "high"
+  supports:
+  - "game dynamics"
+  - "Bryce Harper's home run"
+  - "political tensions surrounding the championship matchup"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-      - "evt-2026-03-17-002"
-      - "evt-2026-03-16-001"
-      - "evt-2026-03-18-001"
-      - "evt-2026-03-18-003"
+* id: "evt-2026-03-18-006"
+  category: "Crime and law enforcement"
+  subcategory: "Armed standoffs and raids"
+  topics: []
+  importance: null
+  headline: "Sinaloa cartel senior leader captured in deadly raid amid U.S. indictments"
+  summary: >
+  The Mexican security apparatus launched a highly lethal raid against the Sinaloa Cartel in the state of Sinaloa, capturing a senior cartel leader and killing eleven heavily armed syndicate members following intense firefights. The operation occurred concurrently with the unsealing of a superseding indictment by the United States Department of Justice, which charged Sinaloa plaza boss René Arzate-García ("La Rana") and his brother with narcoterrorism and material support for terrorism, offering a $5 million reward for information leading to their arrest. These aggressive bilateral actions represent a desperate effort by the Mexican government to demonstrate domestic security competence and stave off threats of unilateral military intervention by the United States, following the power vacuum and widespread retaliatory violence generated by the recent death of CJNG leader "El Mencho".
+  details:
+  what_happened:
+  - "Mexican security forces executed a major tactical raid in Sinaloa, Mexico, resulting in the deaths of eleven Sinaloa Cartel members and the capture of a senior cartel leader along with a massive cache of weapons."
+  - "On the same day, the U.S. Department of Justice unsealed an indictment charging Sinaloa Cartel plaza boss René Arzate-García ('La Rana') and his brother Alfonso ('Aquiles') with narcoterrorism, offering a $5 million reward for their capture."
+  - "U.S. Attorney General Pamela Bondi stated the indictment is part of an ongoing campaign to permanently dismantle the cartels, warning cartel leadership to surrender or face unilateral American justice."
+  - "The raid in Sinaloa comes in the immediate aftermath of the Mexican military's operation to kill CJNG leader Nemesio Oseguera Cervantes ('El Mencho') in Tapalpa, which sparked retaliatory violence across 20 Mexican states and left dozens dead."
+  why_it_matters:
+  - "The simultaneous domestic raids and U.S. narcoterrorism indictments indicate that Washington is applying unprecedented pressure on the Sheinbaum administration to aggressively dismantle cartel hierarchies, fundamentally altering the bilateral security relationship."
+  - "The systematic removal of top-tier cartel figures like El Mencho and the fracturing of the Sinaloa leadership is virtually guaranteed to trigger internal power struggles and extreme localized violence as rival factions vie for control of lucrative fentanyl trafficking routes into the United States."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Mexican Armed Forces"
+  - "Sinaloa Cartel"
+  - "U.S. Department of Justice"
+  secondary:
+  - "René Arzate-García"
+  - "Pamela Bondi"
+  entities:
+  people:
+  - "René Arzate-García"
+  - "Alfonso Arzate-García"
+  - "Pamela Bondi"
+  - "Nemesio Oseguera Cervantes"
+  organizations:
+  - "Mexican Armed Forces"
+  - "Sinaloa Cartel"
+  - "U.S. Department of Justice"
+  - "CJNG"
+  states:
+  - "Mexico"
+  - "United States"
+  geography:
+  countries:
+  - "Mexico"
+  - "United States"
+  places:
+  - "Sinaloa"
+  - "Tapalpa"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 11
+  injured: null
+  displaced: 0
+  arrest_count: 1
+  damage: "Confiscation of large weapons caches."
+  classification:
+  event_type:
+  - "armed-standoffs-and-raids"
+  tags:
+  - "mexico"
+  - "united-states"
+  - "sinaloa-cartel"
+  - "narcoterrorism"
+  - "pamela-bondi"
+  - "rene-arzate-garcia"
+  sources:
+  wikipedia_portal:
+  included: true
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Wikipedia Portal: Current events"
+  url: "[https://en.wikipedia.org/wiki/Portal:Current_events](https://en.wikipedia.org/wiki/Portal:Current_events)"
+  publication_date: "2026-03-18"
+  source_type: "current events portal"
+  reliability_tier: "medium"
+  supports:
+  - "raid in Sinaloa"
+  - "deaths of eleven cartel members"
+  - "capture of a senior leader"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "U.S. Department of Justice"
+  url: "[https://www.justice.gov/opa/pr/sinaloa-cartel-leader-charged-narcoterrorism-material-support-terrorism-and-drug-trafficking](https://www.justice.gov/opa/pr/sinaloa-cartel-leader-charged-narcoterrorism-material-support-terrorism-and-drug-trafficking)"
+  publication_date: "2026-03-18"
+  source_type: "government press release"
+  reliability_tier: "high"
+  supports:
+  - "narcoterrorism indictment against René Arzate-García"
+  - "$5M reward"
+  - "quotes from AG Pamela Bondi"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Democracy Now!"
+  url: "[https://www.youtube.com/watch?v=1AfXepwseyI](https://www.youtube.com/watch?v=1AfXepwseyI)"
+  publication_date: "2026-03-18"
+  source_type: "video news analysis"
+  reliability_tier: "medium"
+  supports:
+  - "broader context of Mexican security crackdowns"
+  - "effort to prevent unilateral U.S. military intervention following the death of El Mencho"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: true
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events:
+
+  * "evt-2026-03-18-007"
     notes: ""
 
-  - id: "evt-2026-03-18-005"
-    category: "Arts, culture, and sports"
-    subcategory: "International sporting events"
-    topics: []
-    importance: null
-    headline: "Venezuela defeats the United States to win the World Baseball Classic"
-    summary: >-
-      Venezuela beat the United States 3-2 in the World Baseball Classic final to claim its first title,
-      with Eugenio Suárez delivering the decisive ninth-inning RBI double. MLB and Al Jazeera coverage
-      also highlighted Bryce Harper's late tying homer and the politically charged backdrop surrounding
-      the matchup.
-    details:
-      what_happened:
-        - Venezuela beat Team USA 3-2 in the championship game.
-        - MLB reported that Eugenio Suárez hit the go-ahead RBI double off Garrett Whitlock in the 
-          ninth inning.
-        - Al Jazeera and MLB coverage highlighted Bryce Harper's game-tying homer in the eighth 
-          inning before Venezuela retook the lead.
-        - Some coverage explicitly framed the final against broader political tensions between the 
-          two countries.
-      why_it_matters:
-        - The result gave Venezuela its first World Baseball Classic championship.
-        - Because coverage linked the matchup to wider political tensions, the game carried symbolic
-          weight beyond sport.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - Team Venezuela
-        - Team USA
-      secondary:
-        - Eugenio Suárez
-        - Bryce Harper
-    entities:
-      people:
-        - Eugenio Suárez
-        - Bryce Harper
-        - Garrett Whitlock
-      organizations:
-        - Team Venezuela
-        - Team USA
-      states:
-        - United States
-        - Venezuela
-    geography:
-      countries:
-        - United States
-        - Venezuela
-      places:
-        - LoanDepot Park
-        - Miami
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "international-sporting-events"
-      tags:
-        - "venezuela"
-        - "united-states"
-        - "world-baseball-classic"
-        - "baseball"
-        - "eugenio-suarez"
-        - "bryce-harper"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-013"
-          outlet: "GoLocalProv"
-          url: "https://www.golocalprov.com/news/5-big-news-stories-overnight-wednesday-march-18-2026"
-          publication_date: "2026-03-18"
-          source_type: "news roundup"
-          reliability_tier: "medium"
-          supports:
-            - "3-2 score"
-            - "link between sporting event and geopolitical context of the U.S. invasion of Venezuela
-              and arrest of Nicolás Maduro"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-014"
-          outlet: "MLB.com"
-          url: "https://www.mlb.com/news/eugenio-suarez-venezuela-world-baseball-classic-winning-hit"
-          publication_date: "2026-03-18"
-          source_type: "sports report"
-          reliability_tier: "high"
-          supports:
-            - "game-winning RBI double by Eugenio Suárez in the ninth inning against Garrett Whitlock"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-015"
-          outlet: "Al Jazeera"
-          url: "https://www.aljazeera.com/sports/2026/3/18/venezuela-defeat-usa-win-first-world-baseball-classic-championship"
-          publication_date: "2026-03-18"
-          source_type: "sports report"
-          reliability_tier: "high"
-          supports:
-            - "game dynamics"
-            - "Bryce Harper's home run"
-            - "political tensions surrounding the championship matchup"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
+* id: "evt-2026-03-18-007"
+  category: "Crime and law enforcement"
+  subcategory: "Arrests"
+  topics: []
+  importance: null
+  headline: "Capture of Ecuadorian 'Los Lobos' cartel leader in Mexico City"
+  summary: >
+  Transnational law enforcement achieved a highly significant tactical victory with the capture of Ángel Esteban Aguilar Morales, alias "Lobo Menor," a premier ringleader of the Ecuadorian terrorist organization "Los Lobos." Wanted on an Interpol Red Notice for orchestrating the brazen 2023 assassination of Ecuadorian presidential candidate Fernando Villavicencio, Aguilar was apprehended in Mexico City in a coordinated intelligence operation that relied heavily on real-time tracking data provided by Colombian authorities. His immediate transfer to Bogota highlights the deeply integrated and cooperative intelligence-sharing frameworks now required to combat the sprawling, multinational reach of Latin American drug cartels, which increasingly utilize Mexico as a logistical safe haven for managing South American criminal enterprises.
+  details:
+  what_happened:
+  - "Ángel Esteban Aguilar Morales, alias 'Lobo Menor,' was arrested by Mexican security forces in Mexico City after being placed under real-time surveillance the moment he entered the country."
+  - "The apprehension operation was executed seamlessly and without violence, relying on pinpoint intelligence and tracking provided by the Colombian government to Mexican Security Minister Omar Garcia Harfuch."
+  - "Following his arrest, Aguilar was transferred to the custody of the National Migration Institute and subsequently deported to Bogota, Colombia, where he was intercepted at El Dorado Airport by migration authorities."
+  - "Aguilar is recognized as a principal leader of the 'Los Lobos' criminal gang—recently designated a terrorist organization by the U.S.—and is wanted in connection with the August 2023 assassination of Ecuadorian presidential candidate Fernando Villavicencio in Quito."
+  why_it_matters:
+  - "The arrest decapitates a crucial node of leadership within 'Los Lobos,' severely disrupting the operational capabilities of a gang that has pushed Ecuador into an unprecedented state of internal armed conflict and institutional decay."
+  - "The seamless, multi-agency cooperation between Mexico, Colombia, and Ecuador demonstrates a maturing regional framework for tracking and extraditing high-value cartel targets across porous Latin American borders, denying criminal syndicates historical safe havens."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Ángel Esteban Aguilar Morales"
+  - "Mexican Security Ministry"
+  - "Colombian Migration Authorities"
+  secondary:
+  - "Interpol"
+  - "'Los Lobos' Cartel"
+  entities:
+  people:
+  - "Ángel Esteban Aguilar Morales"
+  - "Fernando Villavicencio"
+  - "Omar Garcia Harfuch"
+  organizations:
+  - "Mexican Security Ministry"
+  - "Colombian Migration Authorities"
+  - "Interpol"
+  - "Los Lobos"
+  - "National Migration Institute"
+  states:
+  - "Mexico"
+  - "Colombia"
+  - "Ecuador"
+  - "United States"
+  geography:
+  countries:
+  - "Mexico"
+  - "Colombia"
+  - "Ecuador"
+  places:
+  - "Mexico City"
+  - "Bogota"
+  - "El Dorado Airport"
+  - "Quito"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 1
+  damage: "None."
+  classification:
+  event_type:
+  - "arrests"
+  tags:
+  - "mexico"
+  - "colombia"
+  - "ecuador"
+  - "los-lobos"
+  - "angel-esteban-aguilar-morales"
+  - "fernando-villavicencio"
+  - "interpol"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "CBS News"
+  url: "[https://www.cbsnews.com/news/fugitive-wanted-assassination-ecuador-presidential-candidate-arrested-mexico/](https://www.cbsnews.com/news/fugitive-wanted-assassination-ecuador-presidential-candidate-arrested-mexico/)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "high"
+  supports:
+  - "arrest in Mexico"
+  - "intelligence sharing with Colombia"
+  - "transfer to Bogota"
+  - "link to Villavicencio assassination and Los Lobos"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events:
+
+  * "evt-2026-03-18-006"
     notes: ""
 
-  - id: "evt-2026-03-18-006"
-    category: "Crime and law enforcement"
-    subcategory: "Armed standoffs and raids"
-    topics: []
-    importance: null
-    headline: "Sinaloa cartel figure captured in deadly raid as U.S. unveils narcoterrorism charges"
-    summary: >-
-      A reported Mexican security raid in Sinaloa ended with the capture of a senior cartel figure and
-      the deaths of 11 suspected cartel members. Separately, the U.S. Justice Department announced narcoterrorism
-      and drug-trafficking charges against René Arzate-García and his brother Alfonso, alongside a $5
-      million reward offer. Additional commentary placed the moves in a broader crackdown on major Mexican
-      cartels.
-    details:
-      what_happened:
-        - The current events portal reported that a raid in Sinaloa killed 11 suspected cartel 
-          members and resulted in the capture of a senior figure.
-        - The U.S. Department of Justice announced narcoterrorism, terrorism-support and 
-          drug-trafficking charges against René Arzate-García and Alfonso Arzate-García.
-        - The DOJ also announced a $5 million reward for information leading to René Arzate-García's
-          arrest or conviction.
-        - Secondary commentary framed the moves as part of a wider crackdown after the death of CJNG
-          leader Nemesio Oseguera Cervantes, known as El Mencho.
-      why_it_matters:
-        - The combination of kinetic operations in Mexico and U.S. federal charges signaled 
-          sustained bilateral pressure on cartel leadership.
-        - High-level removals can disrupt trafficking networks but also increase the risk of 
-          splintering and retaliatory violence.
-      uncertainty_notes:
-        - Details of the Sinaloa raid itself were thinner than the DOJ indictment material and were 
-          sourced mainly through the current events portal and secondary commentary.
-    actors:
-      primary:
-        - "Mexican Armed Forces"
-        - "Sinaloa Cartel"
-        - "U.S. Department of Justice"
-      secondary:
-        - "René Arzate-García"
-        - "Pamela Bondi"
-    entities:
-      people:
-        - "René Arzate-García"
-        - "Alfonso Arzate-García"
-        - "Pamela Bondi"
-        - "Nemesio Oseguera Cervantes"
-      organizations:
-        - "Mexican Armed Forces"
-        - "Sinaloa Cartel"
-        - "U.S. Department of Justice"
-        - "CJNG"
-      states:
-        - "Mexico"
-        - "United States"
-    geography:
-      countries:
-        - "Mexico"
-        - "United States"
-      places:
-        - "Sinaloa"
-        - "Tapalpa"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: 11
-      injured: null
-      displaced: null
-      arrest_count: 1
-      damage: null
-    classification:
-      event_type:
-        - "armed-standoffs-and-raids"
-      tags:
-        - "mexico"
-        - "united-states"
-        - "sinaloa-cartel"
-        - "narcoterrorism"
-        - "pamela-bondi"
-        - "rene-arzate-garcia"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: null
-      external:
-        - id: "src-016"
-          outlet: "Wikipedia Portal: Current events"
-          url: "https://en.wikipedia.org/wiki/Portal:Current_events"
-          publication_date: "2026-03-18"
-          source_type: "current events portal"
-          reliability_tier: "medium"
-          supports:
-            - "raid in Sinaloa"
-            - "deaths of eleven cartel members"
-            - "capture of a senior leader"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-017"
-          outlet: "U.S. Department of Justice"
-          url: "https://www.justice.gov/opa/pr/sinaloa-cartel-leader-charged-narcoterrorism-material-support-terrorism-and-drug-trafficking"
-          publication_date: "2026-03-18"
-          source_type: "government press release"
-          reliability_tier: "high"
-          supports:
-            - "narcoterrorism indictment against René Arzate-García"
-            - "$5M reward"
-            - "quotes from AG Pamela Bondi"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-018"
-          outlet: "Democracy Now!"
-          url: "https://www.youtube.com/watch?v=1AfXepwseyI"
-          publication_date: "2026-03-18"
-          source_type: "video news analysis"
-          reliability_tier: "medium"
-          supports:
-            - "broader context of Mexican security crackdowns"
-            - "effort to prevent unilateral U.S. military intervention following the death of El Mencho"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
+* id: "evt-2026-03-18-008"
+  category: "Armed conflicts and attacks"
+  subcategory: "Drone strikes"
+  topics: []
+  importance: null
+  headline: "Sudanese cross-border drone strike massacres civilians at a funeral in Chad"
+  summary: >
+  The catastrophic civil war in Sudan violently spilled across sovereign borders as a weaponized drone strike originating from Sudanese territory struck a civilian funeral gathering in the eastern Chadian border town of Tine Djagaraba, killing at least 17 civilians. The lethal incursion represents a severe escalation in regional instability, prompting the Chadian government to condemn the attack as a grave violation of its territorial sovereignty. In response to the massacre, Chadian President Mahamat Idriss Déby convened an emergency security council, ordered the complete closure of the porous 1,300-kilometer border with Sudan, evacuated thousands of civilians from border villages, and authorized the National Army to execute retaliatory military operations against any further aggression from the warring Sudanese factions.
+  details:
+  what_happened:
+  - "A weaponized drone launched from Sudan struck a residential compound in the border town of Tine Djagaraba, Chad, where mourners had gathered for a funeral ceremony for a deceased relative."
+  - "At least 17 Chadian civilians, including children playing nearby, were killed in the twin explosions, and dozens more were wounded, marking one of the deadliest cross-border spillover events of the ongoing Sudanese conflict."
+  - "Local military sources attributed the drone strike to the paramilitary Rapid Support Forces (RSF), though both the RSF and the Sudanese Armed Forces (SAF) have historically exchanged blame for cross-border incursions."
+  - "In response, the Chadian government evacuated 2,500 people from border villages to secure areas further inland."
+  - "Chadian President Mahamat Idriss Déby ordered the total closure of the border with Sudan and directed the Chadian National Army to maintain a posture of readiness for cross-border retaliation and the exercise of the 'right of pursuit' onto Sudanese soil."
+  why_it_matters:
+  - "The massacre underscores the dangerous regionalization of the Sudanese civil war, threatening to drag neighboring states like Chad into a broader, multi-front Sahelian conflict as border security and diplomatic containment completely degrade."
+  - "The authorization of military retaliation and the right of pursuit by N'Djamena significantly increases the likelihood of direct state-on-state clashes or Chadian military intervention against RSF positions within Sudanese territory, which could destabilize the entire region."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Rapid Support Forces (RSF)"
+  - "Chadian National Army"
+  secondary:
+  - "Mahamat Idriss Déby"
+  entities:
+  people:
+  - "Mahamat Idriss Déby"
+  organizations:
+  - "Rapid Support Forces (RSF)"
+  - "Chadian National Army"
+  - "Sudanese Armed Forces (SAF)"
+  states:
+  - "Chad"
+  - "Sudan"
+  geography:
+  countries:
+  - "Chad"
+  - "Sudan"
+  places:
+  - "Tine Djagaraba"
+  - "eastern Chad"
+  - "border villages"
+  - "N'Djamena"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 17
+  injured: "Dozens"
+  displaced: 2500
+  arrest_count: 0
+  damage: "Destruction of a residential property in Tine Djagaraba."
+  classification:
+  event_type:
+  - "drone-strikes"
+  tags:
+  - "chad"
+  - "sudan"
+  - "rsf"
+  - "funeral-attack"
+  - "cross-border"
+  - "mahamat-idriss-deby"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Xinhua"
+  url: "[https://english.news.cn/africa/20260319/a9f274c226634e859f5c61097dfee933/c.html](https://english.news.cn/africa/20260319/a9f274c226634e859f5c61097dfee933/c.html)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "death toll of 17"
+  - "location of Tine Djagaraba"
+  - "border closure"
+  - "threat of military retaliation by President Déby"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "The Whistler"
+  url: "[https://thewhistler.ng/drone-attack-from-sudan-kills-17-in-chad/](https://thewhistler.ng/drone-attack-from-sudan-kills-17-in-chad/)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "civilian casualties at the funeral"
+  - "deployment of additional Chadian forces"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Devdiscourse"
+  url: "[https://www.devdiscourse.com/article/law-order/3843925-cross-border-drone-attack-escalates-tensions-between-sudan-and-chad](https://www.devdiscourse.com/article/law-order/3843925-cross-border-drone-attack-escalates-tensions-between-sudan-and-chad)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "evacuation of 2,500 residents from border villages"
+  - "RSF-SAF conflict dynamics"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-      - "evt-2026-03-18-007"
-    notes: ""
+* id: "evt-2026-03-18-009"
+  category: "International relations"
+  subcategory: "Diplomatic visits"
+  topics: []
+  importance: null
+  headline: "Nigerian President Bola Tinubu commences historic state visit to the United Kingdom"
+  summary: >
+  In a highly choreographed diplomatic milestone, Nigerian President Bola Ahmed Tinubu commenced the first state visit by a Nigerian leader to the United Kingdom in 37 years. Hosted by King Charles III and Queen Camilla at Windsor Castle, the visit represents a deliberate strategic pivot by the British government to revitalize its Commonwealth ties, secure critical supply chains, and deepen economic integration with Africa's most populous nation. Demonstrating a profound degree of cultural diplomacy, the Royal Household implemented a historic break from tradition by adapting the timing and menu of the state banquet to accommodate the Islamic fasting month of Ramadan. The visit yielded immediate, tangible economic dividends, culminating in the signing of a massive £746 million maritime infrastructure financing agreement to refurbish Nigeria's primary port complexes, signaling a new era of bilateral commercial engagement.
+  details:
+  what_happened:
+  - "President Bola Tinubu and First Lady Oluremi Tinubu arrived in the UK for a two-day state visit, marking the first such inward visit by a Nigerian head of state since 1989 and the first time a Nigerian leader was hosted at Windsor Castle."
+  - "King Charles III hosted the Nigerian delegation at Windsor Castle, breaking nearly a century of royal tradition by altering the schedule and menu of the state banquet to respectfully accommodate President Tinubu's observance of the Ramadan fast."
+  - "President Tinubu delivered a historic address at St George's Hall, emphasizing the enduring bonds between the two nations and referencing the mutual evolution of democratic institutions, the Magna Carta, and thinkers like Thomas Hobbes."
+  - "The diplomatic engagement produced a landmark £746 million financing deal between UK Export Finance (UKEF) and the Nigerian Ports Authority to support the sweeping refurbishment of the Lagos Port Complex and the Tin Can Island Port Complex."
+  why_it_matters:
+  - "The state visit signals a robust reaffirmation of the UK-Nigeria bilateral relationship, emphasizing trade, defense, and development as the UK actively seeks to solidify its post-Brexit economic footprint in West Africa and counter Chinese infrastructure diplomacy."
+  - "The £746 million maritime infrastructure agreement will drastically modernize Nigeria's shipping and logistics capabilities, directly boosting the nation's capacity for international trade and domestic economic revitalization."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Bola Tinubu"
+  - "King Charles III"
+  secondary:
+  - "Keir Starmer"
+  - "UK Export Finance (UKEF)"
+  entities:
+  people:
+  - "Bola Tinubu"
+  - "Oluremi Tinubu"
+  - "King Charles III"
+  - "Queen Camilla"
+  - "Keir Starmer"
+  - "Thomas Hobbes"
+  organizations:
+  - "UK Export Finance (UKEF)"
+  - "Nigerian Ports Authority"
+  - "Royal Household"
+  states:
+  - "United Kingdom"
+  - "Nigeria"
+  geography:
+  countries:
+  - "United Kingdom"
+  - "Nigeria"
+  places:
+  - "Windsor Castle"
+  - "St George's Hall"
+  - "Lagos Port Complex"
+  - "Tin Can Island Port Complex"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "diplomatic-visits"
+  tags:
+  - "united-kingdom"
+  - "nigeria"
+  - "bola-tinubu"
+  - "king-charles-iii"
+  - "windsor-castle"
+  - "ramadan"
+  - "ukeff"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "The Royal Household"
+  url: "[https://www.royal.uk/news-and-activity/2026-02-10/announcement-of-a-state-visit-by-the-president-of-the-federal-republic](https://www.royal.uk/news-and-activity/2026-02-10/announcement-of-a-state-visit-by-the-president-of-the-federal-republic)"
+  publication_date: "2026-02-10"
+  source_type: "official statement"
+  reliability_tier: "high"
+  supports:
+  - "scheduling and historical rarity of the state visit to Windsor Castle"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Punch NG"
+  url: "[https://punchng.com/zobo-at-windsor-inside-historic-ramadan-friendly-royal-banquet-for-tinubus-uk-state-visit/](https://punchng.com/zobo-at-windsor-inside-historic-ramadan-friendly-royal-banquet-for-tinubus-uk-state-visit/)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "cultural diplomacy of the Ramadan-friendly state banquet at Windsor Castle"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "State House Nigeria"
+  url: "[https://statehouse.gov.ng/president-tinubu-begins-historic-state-visit-to-the-united-kingdom-tomorrow/](https://statehouse.gov.ng/president-tinubu-begins-historic-state-visit-to-the-united-kingdom-tomorrow/)"
+  publication_date: "2026-03-16"
+  source_type: "official statement"
+  reliability_tier: "high"
+  supports:
+  - "£746 million financing deal for the Lagos and Tin Can Island port complexes"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-  - id: "evt-2026-03-18-007"
-    category: "Crime and law enforcement"
-    subcategory: "Arrests"
-    topics: []
-    importance: null
-    headline: "Alleged Los Lobos leader arrested in Mexico and transferred to Colombia"
-    summary: >-
-      CBS News reported that Ángel Esteban Aguilar Morales, described as an alleged Los Lobos leader,
-      was arrested in Mexico and transferred to Colombia. The report linked him to the 2023 assassination
-      of Ecuadorian presidential candidate Fernando Villavicencio and said the operation relied on intelligence
-      sharing with Colombia.
-    details:
-      what_happened:
-        - CBS reported that Mexican authorities arrested Ángel Esteban Aguilar Morales in Mexico 
-          City.
-        - The report said Colombian intelligence sharing helped identify and track him.
-        - After his arrest, he was transferred to Colombia via migration authorities.
-        - CBS linked Aguilar Morales to Los Lobos and to the Villavicencio assassination case.
-      why_it_matters:
-        - The arrest showed how regional intelligence sharing is increasingly central to pursuing 
-          transnational criminal figures.
-        - It also kept attention on the wider violence and political fallout tied to Ecuador's 
-          criminal networks.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Ángel Esteban Aguilar Morales"
-        - "Mexican Security Ministry"
-        - "Colombian Migration Authorities"
-      secondary:
-        - "Interpol"
-        - "'Los Lobos' Cartel"
-    entities:
-      people:
-        - "Ángel Esteban Aguilar Morales"
-        - "Fernando Villavicencio"
-        - "Omar Garcia Harfuch"
-      organizations:
-        - "Mexican Security Ministry"
-        - "Colombian Migration Authorities"
-        - "Interpol"
-        - "Los Lobos"
-        - "National Migration Institute"
-      states:
-        - "Mexico"
-        - "Colombia"
-        - "Ecuador"
-        - "United States"
-    geography:
-      countries:
-        - "Mexico"
-        - "Colombia"
-        - "Ecuador"
-      places:
-        - "Mexico City"
-        - "Bogota"
-        - "El Dorado Airport"
-        - "Quito"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: 1
-      damage: null
-    classification:
-      event_type:
-        - "arrests"
-      tags:
-        - "mexico"
-        - "colombia"
-        - "ecuador"
-        - "los-lobos"
-        - "angel-esteban-aguilar-morales"
-        - "fernando-villavicencio"
-        - "interpol"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-019"
-          outlet: "CBS News"
-          url: "https://www.cbsnews.com/news/fugitive-wanted-assassination-ecuador-presidential-candidate-arrested-mexico/"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "high"
-          supports:
-            - "arrest in Mexico"
-            - "intelligence sharing with Colombia"
-            - "transfer to Bogota"
-            - "link to Villavicencio assassination and Los Lobos"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
+* id: "evt-2026-03-18-010"
+  category: "Disasters and accidents"
+  subcategory: "Maritime disasters"
+  topics: []
+  importance: null
+  headline: "Migrant vessel capsizes off Comoros, leaving dozens dead"
+  summary: >
+  The perilous maritime migration routes of the Indian Ocean claimed at least 17 lives when a smuggling vessel capsized off the northern coast of Grande Comore. The victims, identified as undocumented migrants fleeing the protracted instability and conflict in the Democratic Republic of the Congo (DRC), were attempting to reach the French overseas department of Mayotte in search of economic opportunity and European welfare standards. The migrants had traveled through Tanzania before embarking on the lethal sea crossing. The tragedy highlights the increasing diversification of global migration networks, as highly exploitative smuggling cartels increasingly utilize dangerous maritime corridors in the Indian Ocean, resulting in the highest localized death toll recorded by Comorian authorities in recent history.
+  details:
+  what_happened:
+  - "A boat carrying undocumented African migrants capsized after smugglers forced the passengers overboard offshore near the coastal town of Mitsamiouli at the northern tip of Grande Comore, Comoros."
+  - "Local residents, fishermen, and civil security authorities recovered between 17 and 18 bodies, including two infants, while the coast guard continued search operations for missing individuals."
+  - "Approximately 30 individuals survived the incident; survivors confirmed they originated from the Democratic Republic of the Congo, transited through Dar es Salaam, Tanzania, and believed they had already reached the shores of Mayotte."
+  - "Comorian Interior Minister Mohamed Ahamada Assoumani addressed the media, noting that while migrants frequently transit through the archipelago toward Mayotte, this represents an unprecedented loss of life for a single event in the territory."
+  why_it_matters:
+  - "The disaster exposes the severe desperation of populations fleeing the DRC, willing to traverse the continent to Tanzania before embarking on lethal sea crossings operated by exploitative smuggling syndicates."
+  - "The incident places renewed pressure on both the Comorian and French governments to address the structural vulnerabilities and border security gaps within the Mozambique Channel that facilitate human trafficking to the European outpost of Mayotte."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Human smuggling syndicates"
+  - "Comorian Coast Guard"
+  secondary:
+  - "Mohamed Ahamada Assoumani"
+  entities:
+  people:
+  - "Mohamed Ahamada Assoumani"
+  organizations:
+  - "Comorian Coast Guard"
+  - "civil security authorities"
+  states:
+  - "Comoros"
+  - "Mayotte"
+  - "Democratic Republic of the Congo"
+  - "Tanzania"
+  - "France"
+  geography:
+  countries:
+  - "Comoros"
+  - "Democratic Republic of the Congo"
+  places:
+  - "Mayotte"
+  - "Grande Comore"
+  - "Mitsamiouli"
+  - "Dar es Salaam"
+  - "Tanzania"
+  - "Mozambique Channel"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: "17-18"
+  injured: null
+  displaced: 0
+  arrest_count: 0
+  damage: "Loss of a maritime smuggling vessel."
+  classification:
+  event_type:
+  - "maritime-disasters"
+  tags:
+  - "comoros"
+  - "mayotte"
+  - "democratic-republic-of-the-congo"
+  - "migrants"
+  - "boat-capsize"
+  - "smuggling"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "eNCA"
+  url: "[https://www.enca.com/news/least-18-african-migrants-drown-comoros](https://www.enca.com/news/least-18-african-migrants-drown-comoros)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "origins of the migrants from the DRC"
+  - "transit through Tanzania"
+  - "drop-off by smugglers"
+  - "recovery of bodies in Mitsamiouli"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Xinhua"
+  url: "[https://english.news.cn/20260319/03f97fa3a33448dc94bf4f2409c544c4/c.html](https://english.news.cn/20260319/03f97fa3a33448dc94bf4f2409c544c4/c.html)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "recovery of 17 bodies including two babies"
+  - "survivors' intended destination of Mayotte"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "BSS/AFP"
+  url: "[https://www.bssnews.net/international/370168](https://www.bssnews.net/international/370168)"
+  publication_date: "2026-03-19"
+  source_type: "wire report"
+  reliability_tier: "medium"
+  supports:
+  - "statements by Interior Minister Mohamed Ahamada Assoumani regarding the search for missing bodies"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: "Killed figure is presented as a range because the report cites 17 to 18 recovered bodies."
 
-      - "evt-2026-03-18-006"
-    notes: ""
+* id: "evt-2026-03-18-011"
+  category: "Politics and elections"
+  subcategory: "Government formation"
+  topics: []
+  importance: null
+  headline: "Thailand's parliament re-elects Anutin Charnvirakul as prime minister"
+  summary: >
+  Following a snap general election that reshaped the Thai legislative landscape, the National Assembly formally re-elected Bhumjaithai Party leader Anutin Charnvirakul as Prime Minister. Securing a comfortable parliamentary majority of 293 votes, Anutin’s victory solidifies a formidable conservative-centrist coalition government backed by 13 parties, notably including the historically rival Pheu Thai Party. The election decisively marginalized the progressive People's Party, which had previously attempted to table a no-confidence motion against Anutin's administration, prompting the premature dissolution of the House. Despite minor public protests and social media campaigns alleging election irregularities, the parliamentary vote ensures the continuity of the political establishment in Bangkok and underscores the enduring influence of traditional power brokers within Southeast Asia's second-largest economy.
+  details:
+  what_happened:
+  - "Anutin Charnvirakul was re-elected as Thailand's 32nd Prime Minister, securing 293 votes in a roll-call vote in the 500-member House of Representatives, easily surpassing the simple majority required for approval."
+  - "He defeated Natthaphong Ruengpanyawut, the leader of the progressive People's Party, who secured only 119 votes despite his party finishing second in the February snap polls."
+  - "The Bhumjaithai Party cemented its mandate by forming a robust coalition government consisting of 13 parties, including the third-placed Pheu Thai Party, commanding approximately 291 seats in the lower house."
+  - "The parliamentary vote was preceded by minor protests and social media activism over alleged election irregularities, with hashtags calling for a nationwide recount, though these demonstrations failed to disrupt the legislative process."
+  why_it_matters:
+  - "Anutin's re-election represents a significant consolidation of power by Thailand's conservative and business-aligned establishment, successfully neutralizing the systemic legislative challenge posed by the progressive, youth-backed opposition factions."
+  - "The political alliance between the Bhumjaithai and Pheu Thai parties signals a pragmatic, stability-focused governance approach, prioritizing economic continuity and foreign investment over structural democratic reform."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Anutin Charnvirakul"
+  - "Natthaphong Ruengpanyawut"
+  secondary:
+  - "Pheu Thai Party"
+  - "Sophon Zaram"
+  entities:
+  people:
+  - "Anutin Charnvirakul"
+  - "Natthaphong Ruengpanyawut"
+  - "Sophon Zaram"
+  organizations:
+  - "Bhumjaithai Party"
+  - "People's Party"
+  - "Pheu Thai Party"
+  - "House of Representatives"
+  states:
+  - "Thailand"
+  geography:
+  countries:
+  - "Thailand"
+  places:
+  - "Bangkok"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "government-formation"
+  tags:
+  - "thailand"
+  - "anutin-charnvirakul"
+  - "bhumjaithai-party"
+  - "pheu-thai"
+  - "parliament"
+  - "snap-election"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Xinhua"
+  url: "[https://english.news.cn/asiapacific/20260319/1395682639854a3b810b772c10a6ae3e/c.html](https://english.news.cn/asiapacific/20260319/1395682639854a3b810b772c10a6ae3e/c.html)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "exact vote count"
+  - "13-party coalition with Pheu Thai"
+  - "political context of the snap election"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Bernama"
+  url: "[https://www.bernama.com/en/world/news.php?id=2536078](https://www.bernama.com/en/world/news.php?id=2536078)"
+  publication_date: "2026-03-19"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "official parliamentary results"
+  - "legislative defeat of the People's Party"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Channel News Asia"
+  url: "[https://www.channelnewsasia.com/asia/thailand-election-irregularities-recount-anutin-charnvirakul-5922801](https://www.channelnewsasia.com/asia/thailand-election-irregularities-recount-anutin-charnvirakul-5922801)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "high"
+  supports:
+  - "minor public protests"
+  - "social media campaigns alleging election irregularities prior to the vote"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-  - id: "evt-2026-03-18-008"
-    category: "Armed conflicts and attacks"
-    subcategory: "Drone strikes"
-    topics: []
-    importance: null
-    headline: "Cross-border drone strike hits funeral gathering in Chad, killing at least 17"
-    summary: >-
-      Xinhua and other outlets reported that a drone strike from Sudan hit a funeral gathering in Tine
-      Djagaraba, Chad, killing at least 17 civilians. Chad responded by closing its border with Sudan,
-      evacuating residents from nearby villages, and warning it could retaliate if further attacks occur.
-      Coverage framed the incident as a dangerous cross-border spillover from the Sudan war.
-    details:
-      what_happened:
-        - Reports said a drone strike hit a funeral gathering in Tine Djagaraba in eastern Chad.
-        - At least 17 civilians were reported killed, and other casualties were described but not 
-          consistently quantified.
-        - Chad said it would close its border with Sudan and move additional forces into the area.
-        - Devdiscourse reported that about 2,500 residents were evacuated from border villages.
-      why_it_matters:
-        - The incident illustrated how the Sudan war can destabilize neighboring states through 
-          direct cross-border violence.
-        - Chad's response raised the risk of further military confrontation along a fragile border.
-      uncertainty_notes:
-        - Some reports attributed the strike to the RSF, but attribution was not independently 
-          confirmed across all cited sources.
-    actors:
-      primary:
-        - Chadian authorities
-        - armed actors in Sudan
-      secondary:
-        - Mahamat Idriss Déby
-    entities:
-      people:
-        - "Mahamat Idriss Déby"
-      organizations:
-        - "Rapid Support Forces (RSF)"
-        - "Chadian National Army"
-        - "Sudanese Armed Forces (SAF)"
-      states:
-        - "Chad"
-        - "Sudan"
-    geography:
-      countries:
-        - "Chad"
-        - "Sudan"
-      places:
-        - "Tine Djagaraba"
-        - "eastern Chad"
-        - "border villages"
-        - "N'Djamena"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: 17
-      injured: null
-      displaced: 2500
-      arrest_count: null
-      damage: A residential site at the funeral location was reported hit.
-    classification:
-      event_type:
-        - "drone-strikes"
-      tags:
-        - "chad"
-        - "sudan"
-        - "rsf"
-        - "funeral-attack"
-        - "cross-border"
-        - "mahamat-idriss-deby"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-020"
-          outlet: "Xinhua"
-          url: "https://english.news.cn/africa/20260319/a9f274c226634e859f5c61097dfee933/c.html"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "death toll of 17"
-            - "location of Tine Djagaraba"
-            - "border closure"
-            - "threat of military retaliation by President Déby"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-021"
-          outlet: "The Whistler"
-          url: "https://thewhistler.ng/drone-attack-from-sudan-kills-17-in-chad/"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "civilian casualties at the funeral"
-            - "deployment of additional Chadian forces"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-022"
-          outlet: "Devdiscourse"
-          url: "https://www.devdiscourse.com/article/law-order/3843925-cross-border-drone-attack-escalates-tensions-between-sudan-and-chad"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "evacuation of 2,500 residents from border villages"
-            - "RSF-SAF conflict dynamics"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
+* id: "evt-2026-03-18-012"
+  category: "International relations"
+  subcategory: "Security agreements"
+  topics: []
+  importance: null
+  headline: "New Zealand forges border security agreements with Samoa and Tonga"
+  summary: >
+  In a concerted effort to dismantle transnational organized crime networks operating within the "Pacific superhighway," New Zealand Prime Minister Christopher Luxon finalized sweeping border security and customs agreements with the sovereign states of Samoa and Tonga. The bilateral accords are a direct, strategic response to the alarming infiltration of South American drug cartels and deported criminal syndicate members utilizing the vast ocean expanse to traffic illicit narcotics into Australasia. The strategic initiatives include the unprecedented embedding of New Zealand Police officers within the Samoan force for rapid intelligence sharing, and the funding of specialized detector dog facilities in Tonga. These agreements mark a definitive escalation in Wellington's security architecture, extending its defensive perimeter deep across Polynesia.
+  details:
+  what_happened:
+  - "New Zealand Prime Minister Christopher Luxon and Samoan Prime Minister La'aulialemalietoa Polataivao Leuatea Fosi Schmidt signed a Customs Cooperative Arrangement in Apia, embedding five New Zealand Police officers into the Samoan force to facilitate rapid intelligence sharing."
+  - "In Nuku'alofa, New Zealand signed the Pacific Detector Dog Working Arrangement with Tongan authorities, committing to supply specialist detector dogs, training, and operational support through 2030."
+  - "Wellington committed to funding the construction of a secure, purpose-built detector dog facility in Vava'u, Tonga—a known maritime transit hub for transnational organized crime—with construction beginning in 2026."
+  - "Prime Minister Luxon publicly attributed the rising border risks to South American crime families and cartels utilizing Pacific island nations as a transit superhighway for illicit drugs destined for New Zealand and Australia."
+  why_it_matters:
+  - "The formal integration of New Zealand law enforcement into sovereign Pacific island agencies reflects an aggressive, forward-deployed strategy to intercept narcotics and dismantle cartels long before they reach Australasian borders."
+  - "The agreements underscore the increasing vulnerability of under-resourced Pacific states to highly sophisticated, transnational cartels, necessitating a regionalized security umbrella spearheaded and funded by Wellington and Canberra."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "New Zealand Customs and Police"
+  - "Samoan Police Service"
+  - "Tonga Customs"
+  secondary:
+  - "Christopher Luxon"
+  - "La'aulialemalietoa Polataivao Leuatea Fosi Schmidt"
+  entities:
+  people:
+  - "Christopher Luxon"
+  - "La'aulialemalietoa Polataivao Leuatea Fosi Schmidt"
+  organizations:
+  - "New Zealand Customs and Police"
+  - "Samoan Police Service"
+  - "Tonga Customs"
+  states:
+  - "New Zealand"
+  - "Samoa"
+  - "Tonga"
+  - "Australia"
+  geography:
+  countries:
+  - "New Zealand"
+  - "Samoa"
+  - "Tonga"
+  places:
+  - "Apia"
+  - "Nuku'alofa"
+  - "Vava'u"
+  - "Polynesia"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "security-agreements"
+  tags:
+  - "new-zealand"
+  - "samoa"
+  - "tonga"
+  - "christopher-luxon"
+  - "border-security"
+  - "customs"
+  - "drug-trafficking"
+  - "pacific"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "RNZ Pacific"
+  url: "[https://islandsbusiness.com/pacnews/pacnews-two-17-march-2026/](https://islandsbusiness.com/pacnews/pacnews-two-17-march-2026/)"
+  publication_date: "2026-03-17"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "Luxon's characterization of the Pacific as a drug 'superhighway' exploited by South American cartels"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Inside Government NZ"
+  url: "[https://insidegovernment.co.nz/new-agreement-to-strengthen-border-security-with-samoa-tonga/](https://insidegovernment.co.nz/new-agreement-to-strengthen-border-security-with-samoa-tonga/)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "medium"
+  supports:
+  - "specifics of the Customs Cooperative Arrangement"
+  - "funding for the Vava'u detector dog facility"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "The Spinoff"
+  url: "[https://thespinoff.co.nz/the-bulletin/17-03-2026/superhighway-for-drugs-what-luxons-pacific-trip-is-really-about](https://thespinoff.co.nz/the-bulletin/17-03-2026/superhighway-for-drugs-what-luxons-pacific-trip-is-really-about)"
+  publication_date: "2026-03-17"
+  source_type: "news analysis"
+  reliability_tier: "medium"
+  supports:
+  - "embedding of five NZ police officers in Samoa"
+  - "contextualization of cartel infiltration"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-  - id: "evt-2026-03-18-009"
-    category: "International relations"
-    subcategory: "Diplomatic visits"
-    topics: []
-    importance: null
-    headline: "Nigerian President Bola Tinubu begins state visit to the United Kingdom"
-    summary: >-
-      Bola Tinubu began a state visit to the United Kingdom, with official and local reporting emphasizing
-      the rarity of the visit, royal hosting at Windsor Castle, and accommodations for Ramadan during
-      the banquet. Nigerian official statements also highlighted a £746 million UK Export Finance-backed
-      package for Lagos and Tin Can Island port upgrades.
-    details:
-      what_happened:
-        - Official announcements described the visit as a rare state visit by a Nigerian president 
-          to the United Kingdom.
-        - Reporting from Nigeria highlighted Ramadan accommodations during the Windsor Castle 
-          banquet.
-        - A Nigerian official statement tied the visit to a £746 million financing package for Lagos
-          Port Complex and Tin Can Island Port Complex upgrades.
-      why_it_matters:
-        - The visit combined symbolic diplomacy with a tangible infrastructure-financing outcome.
-        - It underscored the importance both governments placed on trade and bilateral ties.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - Bola Tinubu
-        - King Charles III
-      secondary:
-        - UK Export Finance (UKEF)
-    entities:
-      people:
-        - Bola Tinubu
-        - Oluremi Tinubu
-        - King Charles III
-        - Queen Camilla
-      organizations:
-        - UK Export Finance (UKEF)
-        - Nigerian Ports Authority
-        - Royal Household
-      states:
-        - United Kingdom
-        - Nigeria
-    geography:
-      countries:
-        - United Kingdom
-        - Nigeria
-      places:
-        - Windsor Castle
-        - Lagos Port Complex
-        - Tin Can Island Port Complex
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "diplomatic-visits"
-      tags:
-        - "united-kingdom"
-        - "nigeria"
-        - "bola-tinubu"
-        - "king-charles-iii"
-        - "windsor-castle"
-        - "ramadan"
-        - ukef
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-023"
-          outlet: "The Royal Household"
-          url: "https://www.royal.uk/news-and-activity/2026-02-10/announcement-of-a-state-visit-by-the-president-of-the-federal-republic"
-          publication_date: "2026-02-10"
-          source_type: "official statement"
-          reliability_tier: "high"
-          supports:
-            - "scheduling and historical rarity of the state visit to Windsor Castle"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-024"
-          outlet: "Punch NG"
-          url: "https://punchng.com/zobo-at-windsor-inside-historic-ramadan-friendly-royal-banquet-for-tinubus-uk-state-visit/"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "cultural diplomacy of the Ramadan-friendly state banquet at Windsor Castle"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-025"
-          outlet: "State House Nigeria"
-          url: "https://statehouse.gov.ng/president-tinubu-begins-historic-state-visit-to-the-united-kingdom-tomorrow/"
-          publication_date: "2026-03-16"
-          source_type: "official statement"
-          reliability_tier: "high"
-          supports:
-            - "£746 million financing deal for the Lagos and Tin Can Island port complexes"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
+* id: "evt-2026-03-18-013"
+  category: "Business and economics"
+  subcategory: "Labor agreements"
+  topics: []
+  importance: null
+  headline: "WNBA reaches transformative collective bargaining agreement"
+  summary: >
+  The Women's National Basketball Association (WNBA) and its players' union ratified a landmark, transformative seven-year Collective Bargaining Agreement (CBA) that fundamentally rewrites the economic architecture of women's professional sports. Driven by exponential growth in viewership, attendance, and corporate league popularity over the past two seasons, the players successfully negotiated an equity-based economic model that grants them 20 percent of gross league revenues. The agreement shatters previous compensation ceilings, instituting a $7 million team salary cap, driving average salaries past the half-million-dollar mark, and instituting a $1.4 million supermax. This monumental financial shift successfully eliminates the economic necessity for top-tier American athletes to supplement their incomes in overseas leagues during the offseason, securing domestic talent retention.
+  details:
+  what_happened:
+  - "The WNBA and the WNBPA tentatively agreed to a new seven-year CBA, featuring a mutual opt-out clause after the sixth year, formally aligning player compensation with the league's skyrocketing gross revenue."
+  - "The agreement guarantees players approximately 20 percent of gross revenue and raises the team salary cap exponentially from $1.5 million to $7 million."
+  - "Base compensation frameworks were radically altered: the average annual salary will surge from $120,000 to approximately $600,000, while the minimum salary will rise to $300,000."
+  - "Top-tier 'supermax' contracts will jump to $1.4 million, representing 20 percent of the new team salary cap, a monumental increase from previous maximums."
+  why_it_matters:
+  - "The CBA establishes a historic benchmark for gender equity in sports economics, converting players into true financial stakeholders by basing profit-sharing on gross, rather than net, revenue, forcing the league to open its books."
+  - "The dramatic salary increases definitively end the era in which WNBA athletes were economically forced to play in foreign leagues to maintain a sustainable living."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Women's National Basketball Association (WNBA)"
+  - "Women's National Basketball Players Association (WNBPA)"
+  secondary:
+  - "Cathy Engelbert"
+  - "Nneka Ogwumike"
+  entities:
+  people:
+  - "Cathy Engelbert"
+  - "Nneka Ogwumike"
+  - "Kelsey Mitchell"
+  organizations:
+  - "Women's National Basketball Association (WNBA)"
+  - "Women's National Basketball Players Association (WNBPA)"
+  states:
+  - "United States"
+  geography:
+  countries:
+  - "United States"
+  places: []
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "labor-agreements"
+  tags:
+  - "wnba"
+  - "wnbpa"
+  - "collective-bargaining"
+  - "sports-labor"
+  - "player-salaries"
+  - "cathy-engelbert"
+  - "nneka-ogwumike"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Sports Illustrated"
+  url: "[https://www.si.com/onsi/womens-fastbreak/wnba/what-new-wnba-cba-means-for-player-salaries-01km34e7yme1](https://www.si.com/onsi/womens-fastbreak/wnba/what-new-wnba-cba-means-for-player-salaries-01km34e7yme1)"
+  publication_date: "2026-03-18"
+  source_type: "sports report"
+  reliability_tier: "medium"
+  supports:
+  - "specific salary tier increases"
+  - "$1.4M supermax"
+  - "$600k average"
+  - "$300k minimum"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "The Ringer"
+  url: "[https://www.theringer.com/2026/03/19/wnba/wnba-cba-players-salary-agreement-details](https://www.theringer.com/2026/03/19/wnba/wnba-cba-players-salary-agreement-details)"
+  publication_date: "2026-03-19"
+  source_type: "sports analysis"
+  reliability_tier: "medium"
+  supports:
+  - "20 percent gross revenue sharing model"
+  - "7-year term of the agreement"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "The Guardian"
+  url: "[https://www.theguardian.com/sport/2026/mar/18/wnba-new-cba-player-salaries-basketball](https://www.theguardian.com/sport/2026/mar/18/wnba-new-cba-player-salaries-basketball)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "high"
+  supports:
+  - "league growth context"
+  - "quotes from leadership"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-  - id: "evt-2026-03-18-010"
-    category: "Disasters and accidents"
-    subcategory: "Maritime disasters"
-    topics: []
-    importance: null
-    headline: "Migrant boat capsizes off Comoros, with reports of 17 to 18 deaths"
-    summary: >-
-      Reports from eNCA, Xinhua and AFP said a migrant boat capsized off Grande Comore as passengers from
-      the Democratic Republic of the Congo attempted to reach Mayotte after traveling through Tanzania.
-      Coverage said 17 or 18 bodies had been recovered, including two babies, while search efforts continued.
-    details:
-      what_happened:
-        - A boat carrying migrants capsized off the northern coast of Grande Comore near 
-          Mitsamiouli.
-        - The cited reports said the passengers were from the Democratic Republic of the Congo and 
-          had traveled through Tanzania while trying to reach Mayotte.
-        - Local rescuers and authorities recovered at least 17 bodies, with one report placing the 
-          toll at 18, and search efforts continued.
-        - Interior Minister Mohamed Ahamada Assoumani was cited discussing the search for additional
-          bodies.
-      why_it_matters:
-        - The deaths highlighted the risks of an Indian Ocean migration route shaped by smugglers 
-          and fragile border controls.
-        - The incident also underscored how conflict and hardship can drive migrants toward long, 
-          improvised and highly dangerous journeys.
-      uncertainty_notes:
-        - The reported death toll differed across cited sources, ranging from 17 to 18 bodies 
-          recovered.
-    actors:
-      primary:
-        - "Human smuggling syndicates"
-        - "Comorian Coast Guard"
-      secondary:
-        - "Mohamed Ahamada Assoumani"
-    entities:
-      people:
-        - "Mohamed Ahamada Assoumani"
-      organizations:
-        - "Comorian Coast Guard"
-        - "civil security authorities"
-      states:
-        - Comoros
-        - Democratic Republic of the Congo
-        - Tanzania
-        - France
-    geography:
-      countries:
-        - Comoros
-        - Democratic Republic of the Congo
-        - Tanzania
-        - France
-      places:
-        - Grande Comore
-        - Mitsamiouli
-        - Mayotte
-        - Dar es Salaam
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "maritime-disasters"
-      tags:
-        - "comoros"
-        - "mayotte"
-        - "democratic-republic-of-the-congo"
-        - "migrants"
-        - "boat-capsize"
-        - "smuggling"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-026"
-          outlet: "eNCA"
-          url: "https://www.enca.com/news/least-18-african-migrants-drown-comoros"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "origins of the migrants from the DRC"
-            - "transit through Tanzania"
-            - "drop-off by smugglers"
-            - "recovery of bodies in Mitsamiouli"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-027"
-          outlet: "Xinhua"
-          url: "https://english.news.cn/20260319/03f97fa3a33448dc94bf4f2409c544c4/c.html"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "recovery of 17 bodies including two babies"
-            - "survivors' intended destination of Mayotte"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-028"
-          outlet: "BSS/AFP"
-          url: "https://www.bssnews.net/international/370168"
-          publication_date: "2026-03-19"
-          source_type: "wire report"
-          reliability_tier: "medium"
-          supports:
-            - "statements by Interior Minister Mohamed Ahamada Assoumani regarding the search for missing
-              bodies"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
+* id: "evt-2026-03-18-014"
+  category: "Society and culture"
+  subcategory: "Scandals and controversies"
+  topics: []
+  importance: null
+  headline: "Labor rights icon Cesar Chavez posthumously implicated in sexual abuse"
+  summary: >
+  The historical legacy of the American labor movement faces an unprecedented reckoning following a sweeping investigative report by the New York Times that credibly accused late United Farm Workers (UFW) founder César Chavez of grooming and sexually abusing young girls and women during his tenure. The scandal was dramatically amplified when Dolores Huerta, an iconic 95-year-old civil rights leader and co-founder of the union, broke decades of silence to release a statement revealing she was also sexually abused and manipulated by Chavez in the 1960s. The revelations have triggered an immediate institutional distancing, resulting in the rapid cancellation of civic celebrations, the legislative renaming of public holidays in California and Texas, and a profound re-evaluation of the patriarchal power dynamics that permeated 20th-century progressive civil rights organizations.
+  details:
+  what_happened:
+  - "The New York Times published a comprehensive investigative exposé revealing that César Chavez exploited his powerful position as the leader of the United Farm Workers to groom and sexually abuse young girls and women working within the movement, including the reported rape of a 13-year-old girl."
+  - "95-year-old labor rights icon Dolores Huerta released a public statement confirming she was sexually abused by Chavez in 1966, citing 'manipulated' and 'forced' encounters, and explaining her 60-year silence was out of fear of damaging the union movement."
+  - "The United Farm Workers union released a formal statement condemning the actions of their founder and announced they would distance themselves from all future events bearing his name."
+  - "Political leaders across California and Texas immediately initiated legislative moves to rename César Chavez Day and remove his name from public infrastructure, schools, and civic holidays, with some advocating to replace his name with Huerta's."
+  why_it_matters:
+  - "The allegations force a deeply uncomfortable but historically necessary correction regarding the deification of charismatic male leaders within progressive movements, exposing the collateral damage inflicted upon female activists in the name of political solidarity."
+  - "The institutional collapse of Chavez's legacy demonstrates the accelerating speed at which modern accountability mechanisms and investigative journalism can dismantle historically entrenched cultural icons."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "César Chavez"
+  - "Dolores Huerta"
+  secondary:
+  - "United Farm Workers (UFW)"
+  - "New York Times"
+  entities:
+  people:
+  - "César Chavez"
+  - "Dolores Huerta"
+  organizations:
+  - "United Farm Workers (UFW)"
+  - "New York Times"
+  states:
+  - "United States"
+  geography:
+  countries:
+  - "United States"
+  places:
+  - "California"
+  - "Texas"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "scandals-and-controversies"
+  tags:
+  - "united-states"
+  - "cesar-chavez"
+  - "dolores-huerta"
+  - "sexual-abuse"
+  - "labor-movement"
+  - "united-farm-workers"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "Associated Press"
+  url: "[https://www.opb.org/article/2026/03/18/cesar-chavez-accused-of-sexually-abusing-labor-rights-leader-dolores-huerta/](https://www.opb.org/article/2026/03/18/cesar-chavez-accused-of-sexually-abusing-labor-rights-leader-dolores-huerta/)"
+  publication_date: "2026-03-18"
+  source_type: "wire report"
+  reliability_tier: "high"
+  supports:
+  - "direct quotes from Dolores Huerta"
+  - "nature of the abuse"
+  - "reasons for prior silence"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "PBS NewsHour"
+  url: "[https://www.pbs.org/newshour/nation/california-moves-to-rename-cesar-chavez-day-over-sexual-abuse-allegations](https://www.pbs.org/newshour/nation/california-moves-to-rename-cesar-chavez-day-over-sexual-abuse-allegations)"
+  publication_date: "2026-03-18"
+  source_type: "news report"
+  reliability_tier: "high"
+  supports:
+  - "New York Times investigation findings"
+  - "political movement to rename state holidays and infrastructure"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "Washington Post"
+  url: "[https://www.washingtonpost.com/opinions/2026/03/19/csar-chavez-labor-leader-rape-sexual-abuse/](https://www.washingtonpost.com/opinions/2026/03/19/csar-chavez-labor-leader-rape-sexual-abuse/)"
+  publication_date: "2026-03-19"
+  source_type: "opinion"
+  reliability_tier: "medium"
+  supports:
+  - "reported rape of a 13-year-old girl"
+  - "broader culture of sexual exploitation within progressive movements in the 1960s"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-  - id: "evt-2026-03-18-011"
-    category: "Politics and elections"
-    subcategory: "Government formation"
-    topics: []
-    importance: null
-    headline: "Thailand's parliament re-elects Anutin Charnvirakul as prime minister"
-    summary: >-
-      Thailand's parliament re-elected Bhumjaithai leader Anutin Charnvirakul as prime minister with 293
-      votes, according to Xinhua and Bernama. The reports said he secured backing from a 13-party coalition
-      that included Pheu Thai, while CNA described smaller protests and online allegations of irregularities
-      around the vote.
-    details:
-      what_happened:
-        - Anutin Charnvirakul was elected prime minister with 293 votes in parliament.
-        - Xinhua said his coalition spanned 13 parties, including Pheu Thai.
-        - Bernama also reported the parliamentary result and the defeat of the People's Party 
-          candidate.
-        - CNA described minor protests and social media claims of irregularities ahead of the vote.
-      why_it_matters:
-        - The result preserved establishment control over the Thai government after a snap election.
-        - The coalition makeup suggested continuity and dealmaking among major parties rather than a
-          sharp political reset.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Anutin Charnvirakul"
-        - "Natthaphong Ruengpanyawut"
-      secondary:
-        - "Pheu Thai Party"
-        - "Sophon Zaram"
-    entities:
-      people:
-        - "Anutin Charnvirakul"
-        - "Natthaphong Ruengpanyawut"
-        - "Sophon Zaram"
-      organizations:
-        - "Bhumjaithai Party"
-        - "People's Party"
-        - "Pheu Thai Party"
-        - "House of Representatives"
-      states:
-        - "Thailand"
-    geography:
-      countries:
-        - "Thailand"
-      places:
-        - "Bangkok"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "government-formation"
-      tags:
-        - "thailand"
-        - "anutin-charnvirakul"
-        - "bhumjaithai-party"
-        - "pheu-thai"
-        - "parliament"
-        - "snap-election"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-029"
-          outlet: "Xinhua"
-          url: "https://english.news.cn/asiapacific/20260319/1395682639854a3b810b772c10a6ae3e/c.html"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "exact vote count"
-            - "13-party coalition with Pheu Thai"
-            - "political context of the snap election"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-030"
-          outlet: "Bernama"
-          url: "https://www.bernama.com/en/world/news.php?id=2536078"
-          publication_date: "2026-03-19"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "official parliamentary results"
-            - "legislative defeat of the People's Party"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-031"
-          outlet: "Channel News Asia"
-          url: "https://www.channelnewsasia.com/asia/thailand-election-irregularities-recount-anutin-charnvirakul-5922801"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "high"
-          supports:
-            - "minor public protests"
-            - "social media campaigns alleging election irregularities prior to the vote"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
+* id: "evt-2026-03-18-015"
+  category: "Science and technology"
+  subcategory: "Awards and recognition"
+  topics: []
+  importance: null
+  headline: "Pioneers of quantum cryptography awarded 2025 ACM A.M. Turing Award"
+  summary: >
+  The Association for Computing Machinery (ACM) awarded the 2025 A.M. Turing Award—universally recognized as the "Nobel Prize of Computing"—to Charles H. Bennett of IBM Research and Gilles Brassard of the Université de Montréal. The laureates were honored for their foundational creation of quantum cryptography, specifically the 1984 BB84 protocol, which utilizes the fundamental laws of quantum mechanics to guarantee information-theoretic security against adversaries with limitless computational power. As the proliferation of physical quantum computers threatens the viability of modern, math-based public-key encryption frameworks like RSA, the recognition of Bennett and Brassard underscores the critical transition of quantum information science from theoretical physics to an urgent imperative for global digital infrastructure and national security.
+  details:
+  what_happened:
+  - "Charles H. Bennett and Gilles Brassard were named co-recipients of the 2025 ACM A.M. Turing Award, sharing a $1 million prize funded by Google for their contributions to computing."
+  - "The ACM cited the researchers for establishing the foundations of quantum information science and transforming the future of secure communication by treating quantum mechanical phenomena as resources for transmitting data."
+  - "The award specifically highlights their 1984 development of the BB84 protocol, the first practical system for quantum key distribution, which leverages quantum mechanical properties to detect eavesdropping and ensure absolute security."
+  - "The recognition validates over five decades of interdisciplinary collaboration that successfully melded theoretical physics with computer science, establishing concepts like quantum teleportation and entanglement distillation."
+  why_it_matters:
+  - "With the rapid advancement of quantum computing threatening to break standard RSA and mathematical public-key encryption infrastructures, the BB84 protocol provides the only scientifically proven method for unbreakable, physics-based data security."
+  - "The award elevates quantum information science to the absolute pinnacle of computing achievement, signaling immense ongoing capital and intellectual investment by governments and corporations into building a secure, quantum-resistant global internet."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Charles H. Bennett"
+  - "Gilles Brassard"
+  secondary:
+  - "Association for Computing Machinery (ACM)"
+  - "IBM Research"
+  - "Université de Montréal"
+  entities:
+  people:
+  - "Charles H. Bennett"
+  - "Gilles Brassard"
+  organizations:
+  - "Association for Computing Machinery (ACM)"
+  - "IBM Research"
+  - "Université de Montréal"
+  - "Google"
+  states:
+  - "United States"
+  - "Canada"
+  geography:
+  countries:
+  - "United States"
+  - "Canada"
+  places: []
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "awards-and-recognition"
+  tags:
+  - "quantum-cryptography"
+  - "turing-award"
+  - "charles-h-bennett"
+  - "gilles-brassard"
+  - "bb84"
+  - "acm"
+  - "quantum-information-science"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "ACM Media Center"
+  url: "[https://www.acm.org/media-center/2026/march/turing-award-2025](https://www.acm.org/media-center/2026/march/turing-award-2025)"
+  publication_date: "2026-03-18"
+  source_type: "official statement"
+  reliability_tier: "high"
+  supports:
+  - "specific achievements of Bennett and Brassard"
+  - "nature of the BB84 protocol"
+  - "financial backing of the award"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-002"
+  outlet: "Université de Montréal News"
+  url: "[https://nouvelles.umontreal.ca/en/article/2026/03/18/gilles-brassard-co-founder-of-quantum-cryptography-receives-the-am-turing-award](https://nouvelles.umontreal.ca/en/article/2026/03/18/gilles-brassard-co-founder-of-quantum-cryptography-receives-the-am-turing-award)"
+  publication_date: "2026-03-18"
+  source_type: "institutional news"
+  reliability_tier: "high"
+  supports:
+  - "Brassard comments on urgency of abandoning outdated cryptographic infrastructures"
+  contradicts: []
+  quoted_material_used: false
+  - id: "src-003"
+  outlet: "IBM Research Blog"
+  url: "[https://research.ibm.com/blog/2025-turing-award](https://research.ibm.com/blog/2025-turing-award)"
+  publication_date: "2026-03-17"
+  source_type: "institutional blog"
+  reliability_tier: "high"
+  supports:
+  - "Bennett's career context"
+  - "historical development of quantum computation"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events: []
+  notes: ""
 
-  - id: "evt-2026-03-18-012"
-    category: "International relations"
-    subcategory: "Security agreements"
-    topics: []
-    importance: null
-    headline: "New Zealand signs border security agreements with Samoa and Tonga"
-    summary: >-
-      New Zealand signed border-security and customs agreements with Samoa and Tonga during Christopher
-      Luxon's Pacific trip. The cited coverage described a Customs Cooperative Arrangement with Samoa,
-      a detector-dog working arrangement with Tonga, funding for a Vava'u facility, and the embedding
-      of five New Zealand police officers in Samoa.
-    details:
-      what_happened:
-        - New Zealand and Samoa signed a Customs Cooperative Arrangement during Christopher Luxon's 
-          trip.
-        - New Zealand and Tonga also agreed on a detector-dog working arrangement.
-        - The cited reports described funding for a detector-dog facility in Vava'u and operational 
-          support through the end of the decade.
-        - Secondary coverage said five New Zealand police officers would be embedded in Samoa.
-      why_it_matters:
-        - The agreements showed Wellington taking a more active role in Pacific counter-smuggling 
-          and border-security coordination.
-        - They also reflected concern that transnational criminal groups are using Pacific routes 
-          for narcotics trafficking.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "New Zealand Customs and Police"
-        - "Samoan Police Service"
-        - "Tonga Customs"
-      secondary:
-        - "Christopher Luxon"
-        - "La'aulialemalietoa Polataivao Leuatea Fosi Schmidt"
-    entities:
-      people:
-        - "Christopher Luxon"
-        - "La'aulialemalietoa Polataivao Leuatea Fosi Schmidt"
-      organizations:
-        - "New Zealand Customs and Police"
-        - "Samoan Police Service"
-        - "Tonga Customs"
-      states:
-        - "New Zealand"
-        - "Samoa"
-        - "Tonga"
-        - "Australia"
-    geography:
-      countries:
-        - "New Zealand"
-        - "Samoa"
-        - "Tonga"
-      places:
-        - "Apia"
-        - "Nuku'alofa"
-        - "Vava'u"
-        - "Polynesia"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "security-agreements"
-      tags:
-        - "new-zealand"
-        - "samoa"
-        - "tonga"
-        - "christopher-luxon"
-        - "border-security"
-        - "customs"
-        - "drug-trafficking"
-        - "pacific"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-032"
-          outlet: "RNZ Pacific"
-          url: "https://islandsbusiness.com/pacnews/pacnews-two-17-march-2026/"
-          publication_date: "2026-03-17"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "Luxon's characterization of the Pacific as a drug 'superhighway' exploited by South American
-              cartels"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-033"
-          outlet: "Inside Government NZ"
-          url: "https://insidegovernment.co.nz/new-agreement-to-strengthen-border-security-with-samoa-tonga/"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "medium"
-          supports:
-            - "specifics of the Customs Cooperative Arrangement"
-            - "funding for the Vava'u detector dog facility"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-034"
-          outlet: "The Spinoff"
-          url: "https://thespinoff.co.nz/the-bulletin/17-03-2026/superhighway-for-drugs-what-luxons-pacific-trip-is-really-about"
-          publication_date: "2026-03-17"
-          source_type: "news analysis"
-          reliability_tier: "medium"
-          supports:
-            - "embedding of five NZ police officers in Samoa"
-            - "contextualization of cartel infiltration"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
+* id: "evt-2026-03-18-016"
+  category: "International relations"
+  subcategory: "Speeches and addresses"
+  topics: []
+  importance: null
+  headline: "Ukrainian president warns European Parliament of proliferating non-state drone threats"
+  summary: >
+  In a stark, strategic address to the British Parliament at Westminster, Ukrainian President Volodymyr Zelenskyy issued a prescient warning regarding the democratization of lethal drone technology, emphasizing that mass-attack capabilities are no longer the exclusive domain of wealthy nation-states like Russia. Drawing direct parallels between the regimes in Moscow and Tehran—labeling them "brothers in hatred"—Zelenskyy highlighted the dangerous proliferation of cheap, highly destructive Iranian-designed Shahed drones across global theaters. His address sought to re-anchor European attention on the existential threat posed by Russian aggression, cautioning that criminal networks, non-state actors, and terrorist groups will inevitably adopt these asymmetrical weapons platforms while the West's strategic focus is dangerously diverted by the escalating conflict in the Middle East.
+  details:
+  what_happened:
+  - "Ukrainian President Volodymyr Zelenskyy addressed British MPs and peers, demonstrating the latest drone technologies and warning that mass kinetic attacks now cost 'far less' than the billions previously required."
+  - "He explicitly warned that European nations must prepare for advanced drone strikes originating from non-state actors, criminal networks, and lone-wolf terrorists who now have access to this cheap technology."
+  - "Zelenskyy condemned the geopolitical alliance between Russia and Iran, describing them as 'brothers in hatred,' and noted that the Middle East conflict is accelerating the proliferation of Iranian-designed Shahed variants."
+  - "UK Prime Minister Keir Starmer publicly supported the address, emphasizing that the West must not lose focus on Kyiv or allow Vladimir Putin to benefit economically from the oil price surges generated by the Iran conflict."
+  why_it_matters:
+  - "Zelenskyy’s strategic foresight correctly identifies a paradigm shift in asymmetric warfare: the rapid commoditization of loitering munitions grants non-state actors unprecedented stand-off strike capabilities, fundamentally altering domestic European security calculations."
+  - "The diplomatic push in London reveals deep anxieties within Kyiv that vital Western air defense systems, funding, and geopolitical bandwidth are being irrevocably cannibalized by the escalating crisis in the Persian Gulf."
+  uncertainty_notes: []
+  actors:
+  primary:
+  - "Volodymyr Zelenskyy"
+  secondary:
+  - "Keir Starmer"
+  entities:
+  people:
+  - "Volodymyr Zelenskyy"
+  - "Keir Starmer"
+  - "Vladimir Putin"
+  organizations:
+  - "British Parliament"
+  states:
+  - "United Kingdom"
+  - "Ukraine"
+  - "Russia"
+  - "Iran"
+  geography:
+  countries:
+  - "United Kingdom"
+  - "Ukraine"
+  - "Russia"
+  - "Iran"
+  places:
+  - "Westminster"
+  - "London"
+  coordinates: []
+  time:
+  date: "2026-03-18"
+  time_known: false
+  ongoing: null
+  casualty_report:
+  killed: 0
+  injured: 0
+  displaced: 0
+  arrest_count: 0
+  damage: "None."
+  classification:
+  event_type:
+  - "speeches-and-addresses"
+  tags:
+  - "ukraine"
+  - "united-kingdom"
+  - "volodymyr-zelenskyy"
+  - "keir-starmer"
+  - "drones"
+  - "shahed"
+  - "non-state-actors"
+  - "westminster"
+  sources:
+  wikipedia_portal:
+  included: false
+  text_fragment: null
+  external:
+  - id: "src-001"
+  outlet: "The Guardian"
+  url: "[https://www.theguardian.com/world/2026/mar/17/europe-must-prepare-for-drone-strikes-volodymyr-zelenskyy](https://www.theguardian.com/world/2026/mar/17/europe-must-prepare-for-drone-strikes-volodymyr-zelenskyy)"
+  publication_date: "2026-03-17"
+  source_type: "news report"
+  reliability_tier: "high"
+  supports:
+  - "quotes from Zelenskyy's Westminster address regarding non-state actors"
+  - "proliferation of Shahed drones"
+  - "Starmer comments on oil sanctions and Western resolve"
+  contradicts: []
+  quoted_material_used: false
+  provenance:
+  extracted_from_portal_bullet: false
+  enriched_manually: true
+  last_reviewed_by: null
+  confidence:
+  event_existence: "high"
+  detail_accuracy: "medium"
+  actor_identification: "medium"
+  related_events:
 
-  - id: "evt-2026-03-18-013"
-    category: "Business and economics"
-    subcategory: "Labor agreements"
-    topics: []
-    importance: null
-    headline: "WNBA and players agree to a new collective bargaining deal"
-    summary: >-
-      The WNBA and its players association reached a new labor agreement that reports described as a seven-year
-      deal with 20 percent gross-revenue sharing and sharp pay increases. Coverage cited a $1.4 million
-      supermax, a roughly $600,000 average salary and a $300,000 minimum, reflecting the league's recent
-      growth.
-    details:
-      what_happened:
-        - Coverage described a new seven-year collective bargaining agreement between the WNBA and 
-          the WNBPA.
-        - The deal was reported to include 20 percent gross-revenue sharing for players.
-        - Reports also cited a $1.4 million supermax, about a $600,000 average salary and a $300,000
-          minimum salary.
-        - The Guardian framed the agreement in the context of the league's recent growth in audience
-          and visibility.
-      why_it_matters:
-        - The agreement marked a major shift in compensation structure for women's professional 
-          basketball in the United States.
-        - Its revenue-sharing terms made the deal significant not only for labor relations but also 
-          for the league's business model.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Women's National Basketball Association (WNBA)"
-        - "Women's National Basketball Players Association (WNBPA)"
-      secondary:
-        - "Cathy Engelbert"
-        - "Nneka Ogwumike"
-    entities:
-      people:
-        - "Cathy Engelbert"
-        - "Nneka Ogwumike"
-        - "Kelsey Mitchell"
-      organizations:
-        - "Women's National Basketball Association (WNBA)"
-        - "Women's National Basketball Players Association (WNBPA)"
-      states:
-        - "United States"
-    geography:
-      countries:
-        - "United States"
-      places: []
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "labor-agreements"
-      tags:
-        - "wnba"
-        - "wnbpa"
-        - "collective-bargaining"
-        - "sports-labor"
-        - "player-salaries"
-        - "cathy-engelbert"
-        - "nneka-ogwumike"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-035"
-          outlet: "Sports Illustrated"
-          url: "https://www.si.com/onsi/womens-fastbreak/wnba/what-new-wnba-cba-means-for-player-salaries-01km34e7yme1"
-          publication_date: "2026-03-18"
-          source_type: "sports report"
-          reliability_tier: "medium"
-          supports:
-            - "specific salary tier increases"
-            - "$1.4M supermax"
-            - "$600k average"
-            - "$300k minimum"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-036"
-          outlet: "The Ringer"
-          url: "https://www.theringer.com/2026/03/19/wnba/wnba-cba-players-salary-agreement-details"
-          publication_date: "2026-03-19"
-          source_type: "sports analysis"
-          reliability_tier: "medium"
-          supports:
-            - "20 percent gross revenue sharing model"
-            - "7-year term of the agreement"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-037"
-          outlet: "The Guardian"
-          url: "https://www.theguardian.com/sport/2026/mar/18/wnba-new-cba-player-salaries-basketball"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "high"
-          supports:
-            - "league growth context"
-            - "quotes from leadership"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-18-014"
-    category: "Society and culture"
-    subcategory: "Scandals and controversies"
-    topics: []
-    importance: null
-    headline: "Dolores Huerta accuses Cesar Chavez of sexual abuse as California moves to rename state
-      holiday"
-    summary: >-
-      AP reported that Dolores Huerta said Cesar Chavez sexually abused her in the 1960s, while PBS said
-      California moved to rename Cesar Chavez Day following wider allegations described in a New York
-      Times investigation. The developments triggered a rapid reassessment of Chavez's public legacy and
-      the institutions that honor him.
-    details:
-      what_happened:
-        - AP reported that Dolores Huerta described sexual abuse by Cesar Chavez and said she had 
-          remained silent for decades out of concern for the farmworker movement.
-        - The AP account included Huerta's description of encounters she said were manipulative and 
-          forced.
-        - PBS reported that California moved to rename Cesar Chavez Day after wider allegations 
-          surfaced in a New York Times investigation.
-        - The cited reporting focused on the allegations and the public response to them rather than
-          on criminal proceedings.
-      why_it_matters:
-        - The reporting forced a reassessment of a major figure in U.S. labor history and of how 
-          institutions commemorate him.
-        - It also showed how new testimony can quickly reshape public memory and official symbolism 
-          around historical figures.
-      uncertainty_notes:
-        - This event records allegations and reported testimony described by the cited coverage; it 
-          does not treat contested historical allegations as adjudicated findings.
-    actors:
-      primary:
-        - Dolores Huerta
-        - Cesar Chavez
-      secondary:
-        - United Farm Workers (UFW)
-    entities:
-      people:
-        - Dolores Huerta
-        - Cesar Chavez
-      organizations:
-        - United Farm Workers (UFW)
-      states:
-        - United States
-    geography:
-      countries:
-        - United States
-      places:
-        - California
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "scandals-and-controversies"
-      tags:
-        - "united-states"
-        - "cesar-chavez"
-        - "dolores-huerta"
-        - "sexual-abuse"
-        - "labor-movement"
-        - "united-farm-workers"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-038"
-          outlet: "Associated Press"
-          url: "https://www.opb.org/article/2026/03/18/cesar-chavez-accused-of-sexually-abusing-labor-rights-leader-dolores-huerta/"
-          publication_date: "2026-03-18"
-          source_type: "wire report"
-          reliability_tier: "high"
-          supports:
-            - "direct quotes from Dolores Huerta"
-            - "nature of the abuse"
-            - "reasons for prior silence"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-039"
-          outlet: "PBS NewsHour"
-          url: "https://www.pbs.org/newshour/nation/california-moves-to-rename-cesar-chavez-day-over-sexual-abuse-allegations"
-          publication_date: "2026-03-18"
-          source_type: "news report"
-          reliability_tier: "high"
-          supports:
-            - "New York Times investigation findings"
-            - "political movement to rename state holidays and infrastructure"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-18-015"
-    category: "Science and technology"
-    subcategory: "Awards and recognition"
-    topics: []
-    importance: null
-    headline: "Quantum cryptography pioneers win the 2025 ACM A.M. Turing Award"
-    summary: >-
-      ACM awarded the 2025 A.M. Turing Award to Charles H. Bennett and Gilles Brassard for foundational
-      contributions to quantum cryptography and quantum information science. Official and institutional
-      sources highlighted the BB84 protocol, the $1 million prize funded by Google, and the broader importance
-      of secure communication in a world preparing for quantum computing.
-    details:
-      what_happened:
-        - ACM named Charles H. Bennett and Gilles Brassard the co-recipients of the 2025 A.M. Turing
-          Award.
-        - The official citation highlighted their role in quantum cryptography and quantum 
-          information science, including the BB84 protocol.
-        - The award carried a $1 million prize funded by Google.
-        - Institutional coverage from Montreal and IBM placed the honor in the broader history of 
-          quantum computing and secure communications.
-      why_it_matters:
-        - The award recognized foundational work behind quantum key distribution and secure 
-          communications.
-        - It also underscored how quantum-era security questions have moved from theory into 
-          mainstream computing policy and industry strategy.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Charles H. Bennett"
-        - "Gilles Brassard"
-      secondary:
-        - "Association for Computing Machinery (ACM)"
-        - "IBM Research"
-        - "Université de Montréal"
-    entities:
-      people:
-        - "Charles H. Bennett"
-        - "Gilles Brassard"
-      organizations:
-        - "Association for Computing Machinery (ACM)"
-        - "IBM Research"
-        - "Université de Montréal"
-        - "Google"
-      states:
-        - "United States"
-        - "Canada"
-    geography:
-      countries:
-        - "United States"
-        - "Canada"
-      places: []
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "awards-and-recognition"
-      tags:
-        - "quantum-cryptography"
-        - "turing-award"
-        - "charles-h-bennett"
-        - "gilles-brassard"
-        - "bb84"
-        - "acm"
-        - "quantum-information-science"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-040"
-          outlet: "ACM Media Center"
-          url: "https://www.acm.org/media-center/2026/march/turing-award-2025"
-          publication_date: "2026-03-18"
-          source_type: "official statement"
-          reliability_tier: "high"
-          supports:
-            - "specific achievements of Bennett and Brassard"
-            - "nature of the BB84 protocol"
-            - "financial backing of the award"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-041"
-          outlet: "Université de Montréal News"
-          url: "https://nouvelles.umontreal.ca/en/article/2026/03/18/gilles-brassard-co-founder-of-quantum-cryptography-receives-the-am-turing-award"
-          publication_date: "2026-03-18"
-          source_type: "institutional news"
-          reliability_tier: "high"
-          supports:
-            - "Brassard comments on urgency of abandoning outdated cryptographic infrastructures"
-          contradicts: []
-          quoted_material_used: false
-        - id: "src-042"
-          outlet: "IBM Research Blog"
-          url: "https://research.ibm.com/blog/2025-turing-award"
-          publication_date: "2026-03-17"
-          source_type: "institutional blog"
-          reliability_tier: "high"
-          supports:
-            - "Bennett's career context"
-            - "historical development of quantum computation"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
-
-  - id: "evt-2026-03-18-016"
-    category: "International relations"
-    subcategory: "Speeches and addresses"
-    topics: []
-    importance: null
-    headline: "Zelenskyy warns British Parliament about drone threats from non-state actors"
-    summary: >-
-      In an address at Westminster, Volodymyr Zelenskyy warned British MPs and peers that cheap drone
-      technology could enable attacks by terrorists, criminals and other non-state actors. The Guardian
-      reported that he again linked Russia and Iran through the spread of Shahed drones, while Keir Starmer
-      argued the West should not let the Middle East crisis sap support for Ukraine.
-    details:
-      what_happened:
-        - Zelenskyy addressed British MPs and peers at Westminster about the spread of low-cost 
-          drone warfare.
-        - The Guardian reported that he warned terrorists, criminals and other non-state actors 
-          could mount future drone attacks.
-        - He also linked Russia and Iran through the use and spread of Shahed drones.
-        - Keir Starmer said the West should not lose focus on Ukraine as the Middle East crisis 
-          intensified.
-      why_it_matters:
-        - The speech connected battlefield drone innovation in Ukraine to future domestic-security 
-          risks in Europe.
-        - It also reflected Kyiv's concern that the Middle East war could divert Western attention 
-          and resources.
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Volodymyr Zelenskyy"
-      secondary:
-        - "Keir Starmer"
-    entities:
-      people:
-        - "Volodymyr Zelenskyy"
-        - "Keir Starmer"
-        - "Vladimir Putin"
-      organizations:
-        - "British Parliament"
-      states:
-        - "United Kingdom"
-        - "Ukraine"
-        - "Russia"
-        - "Iran"
-    geography:
-      countries:
-        - "United Kingdom"
-        - "Ukraine"
-        - "Russia"
-        - "Iran"
-      places:
-        - "Westminster"
-        - "London"
-      coordinates: []
-    time:
-      date: "2026-03-18"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type:
-        - "speeches-and-addresses"
-      tags:
-        - "ukraine"
-        - "united-kingdom"
-        - "volodymyr-zelenskyy"
-        - "keir-starmer"
-        - "drones"
-        - "shahed"
-        - "non-state-actors"
-        - "westminster"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-043"
-          outlet: "The Guardian"
-          url: "https://www.theguardian.com/world/2026/mar/17/europe-must-prepare-for-drone-strikes-volodymyr-zelenskyy"
-          publication_date: "2026-03-17"
-          source_type: "news report"
-          reliability_tier: "high"
-          supports:
-            - "quotes from Zelenskyy's Westminster address regarding non-state actors"
-            - "proliferation of Shahed drones"
-            - "Starmer comments on oil sanctions and Western resolve"
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events:
-
-      - "evt-2026-03-18-001"
-      - "evt-2026-03-18-003"
+  * "evt-2026-03-18-001"
+  * "evt-2026-03-18-003"
     notes: ""
