@@ -1,30 +1,30 @@
-Create a deep-research global news report for a single day. 
+**PHASE 1: RESEARCH**
+[cite_start]Conduct a broad global news sweep for the date given in INPUTS[cite: 2].
+[cite_start]Identify the day's biggest events worldwide using strong, high-confidence sources[cite: 3].
+[cite_start]Deliberately check for major developments in: North America, Latin America and the Caribbean, Europe, Middle East and North Africa, Sub-Saharan Africa, South Asia, East Asia, Southeast Asia, and Oceania[cite: 4].
+[cite_start]Do not force equal regional representation, but actively check for major events that may be underrepresented in Western coverage[cite: 5].
 
-PHASE 1: RESEARCH
-Conduct a broad global news sweep for the date given in INPUTS.
-Identify the day's biggest events worldwide using strong, high-confidence sources.
-Deliberately check for major developments in: North America, Latin America and the Caribbean, Europe, Middle East and North Africa, Sub-Saharan Africa, South Asia, East Asia, Southeast Asia, and Oceania.
-Do not force equal regional representation, but actively check for major events that may be underrepresented in Western coverage.
-
-PHASE 2: OUTPUT
-Output a highly structured Markdown report. Do NOT output YAML. 
-For each event (aim for 12 to 18 major events), provide the following strictly formatted sections. Do not deviate from these headers:
+**PHASE 2: OUTPUT**
+Output a highly structured Markdown report. [cite_start]Do NOT output YAML[cite: 6].
+[cite_start]For each event (aim for 12 to 18 major events), provide the following strictly formatted sections[cite: 7].
+[cite_start]Do not deviate from these headers[cite: 8]. Maintain exact string matches for programmatic parsing.
 
 ## Event: [Headline]
-* **Category & Subcategory:** [e.g., Armed conflicts and attacks / Drone strikes]
-* **Geography:** [Countries], [Places]
-* **Summary:** A robust, substantial 1-paragraph summary.
-* **What Happened:** Exactly 3 to 5 highly specific bullet points.
-* **Why It Matters:** 1 to 3 bullet points explaining broader significance.
-* **Actors:** * Primary: [Only if explicitly supported by sources]
-    * Secondary: [If applicable]
-* **Casualties/Damage:** [Killed: X, Injured: X, Displaced: X, Arrest Count: X, Damage Descriptions. Use "Unknown" if genuinely unavailable.]
-* **Sources:** [For each source, provide: Outlet Name, URL, Publication Date, and a brief list of claims this specific source supports. Prefer 2 to 5 direct, high-confidence sources per event.]
+* [cite_start]**Category & Subcategory:** [e.g., Armed conflicts and attacks / Drone strikes] [cite: 8]
+* [cite_start]**Geography:** [Countries], [Places] [cite: 8]
+* [cite_start]**Summary:** A robust, substantial 1-paragraph summary. [cite: 8] If a detail is not explicitly in the text, do not include it.
+* [cite_start]**What Happened:** Exactly 3 to 5 highly specific bullet points. [cite: 9]
+* [cite_start]**Why It Matters:** 1 to 3 bullet points explaining broader significance. [cite: 10]
+* [cite_start]**Actors:** * Primary: [Only if explicitly supported by sources. [cite: 11] If none, write "None identified."]
+    * [cite_start]Secondary: [If applicable. [cite: 11] If none, write "None identified."]
+* [cite_start]**Casualties/Damage:** [Killed: X, Injured: X, Displaced: X, Arrest Count: X, Damage Descriptions. [cite: 11] [cite_start]Use "Unknown" if genuinely unavailable. [cite: 12] Do not estimate or infer numbers.]
+* [cite_start]**Sources:** [For each source, provide: Outlet Name, URL, Publication Date, and a brief list of claims this specific source supports, including a short direct quote for critical claims. [cite: 12] [cite_start]Prefer 2 to 5 direct, high-confidence sources per event. [cite: 13]]
 
-FACT RULES:
-- Be factual, neutral, and source-grounded. Do not guess.
-- Merge duplicate reporting about the same real-world event into one event section.
-- Do not pad with background articles or explainers.
+**FACT RULES:**
+- Be factual, neutral, and source-grounded. [cite_start]Do not guess. [cite: 13]
+- If source information is conflicting, state the conflict explicitly rather than synthesizing a middle ground.
+- [cite_start]Merge duplicate reporting about the same real-world event into one event section. [cite: 14]
+- [cite_start]Do not pad with background articles or explainers. [cite: 15]
 
-INPUTS:
+**INPUTS:**
 DATE_ISO = [insert date]
