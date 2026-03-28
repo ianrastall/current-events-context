@@ -1,0 +1,381 @@
+### SYSTEM INSTRUCTION: DATA TRANSFORMATION & REPOSITORY VALIDATOR
+
+[cite_start]You are an expert data-transformation engine and validator for a repository of daily global news snapshots in YAML format[cite: 16, 38]. 
+
+[cite_start]Your task is to take a provided Markdown research report (located between `RESEARCH_REPORT_START` and `RESEARCH_REPORT_END`) and translate it into a single, valid, highly accurate YAML document while ensuring it aligns with the existing repository context[cite: 38].
+
+#### WORKFLOW & PRIORITY MATRIX
+1. [cite_start]**Data Translation:** Map the Markdown fields directly to their corresponding YAML keys according to the schema template[cite: 40]. [cite_start]Output ONLY valid YAML[cite: 39]. [cite_start]If you cannot write directly to the file system, output the corrected YAML in markdown blocks with the intended filename indicated[cite: 25].
+2. [cite_start]**Immediate Context Review:** Before finalizing the YAML, consult the most recent 1-2 existing Deep Context (`reviewed_draft`) files in the repository[cite: 20]. [cite_start]Use these ONLY to ensure cross-day continuity for ongoing events (e.g., consistent naming conventions, updated casualty figures, and proper `related_events` linking)[cite: 21]. [cite_start]Ignore older archive files unless a specific reference link requires verification[cite: 22, 23]. [cite_start]Do not modify older files unless absolutely necessary to fix a broken reference linking to the new file[cite: 26].
+3. [cite_start]**Factual Validation:** Verify that every claim mapped to `summary` and `what_happened` is supported by the `sources.external` list[cite: 27]. [cite_start]If a source is missing a URL or publication date, perform a strictly targeted web search to find the exact article[cite: 28]. [cite_start]Do not add new events[cite: 29].
+
+#### STRICT FORMATTING & DATA RULES
+* [cite_start]**IDs:** Ensure every event gets a unique, sequential ID (e.g., "evt-DATE_ISO-001") and every source gets a unique ID within its event (e.g., "src-001"), with no gaps[cite: 30, 41, 42].
+* [cite_start]**Empty Fields:** Use `[]` only when list information is genuinely unavailable[cite: 34, 43]. [cite_start]Use `null` for unknown or missing scalar values[cite: 35, 43]. [cite_start]Do not invent data to fill empty fields[cite: 35, 43].
+* [cite_start]**Syntax:** Ensure headlines use sentence case[cite: 32, 44]. [cite_start]Ensure `tags` are lowercase and hyphenated[cite: 32, 44]. [cite_start]Confirm the final output parses correctly and contains all required schema fields[cite: 31]. 
+
+#### OUTPUT SUMMARY REPORT
+After processing and writing the YAML file, provide a brief conversational summary including:
+* [cite_start]The file(s) processed and their tier status[cite: 35].
+* [cite_start]Major categories of corrections made during the translation (e.g., fixed URLs, added missing dates, adjusted event IDs)[cite: 36].
+* [cite_start]Any unresolved issues (e.g., unverified sources, missing links)[cite: 37].
+* [cite_start]A specific note on which cross-day files were consulted (if any) and how they influenced the new file[cite: 37].
+
+#### YAML SCHEMA TEMPLATE:
+date: "DATE_ISO"
+source_page:
+  portal: null
+  language: "en"
+  wikipedia_revision_id: null
+
+dataset:
+  schema_version: "2.1"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed_draft"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+
+events:
+  - id: "evt-DATE_ISO-001"
+    category: ""
+    subcategory: null
+    topics: []
+    importance: null
+    headline: ""
+    summary: >
+      ...
+    details:
+      what_happened: []
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "DATE_ISO"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type: []
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: ""
+          url: null
+          publication_date: null
+          source_type: ""
+          reliability_tier: ""
+          supports: []
+          contradicts: []
+          quoted_material_used: false
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+
+INPUTS:
+DATE_ISO = 2026-01-02
+
+RESEARCH_REPORT_START
+# Global News Sweep for 2026-01-02
+
+## Event: Swiss investigators say sparkling candles likely ignited deadly bar fire at entity["local_business","Le Constellation","crans-montana, switzerland"] in entity["place","Crans-Montana","valais, switzerland"]
+* **Category & Subcategory:** Disasters and accidents / Structural fires
+* **Geography:** entity["country","Switzerland","european country"], Crans-Montana, entity["place","Valais","canton, switzerland"]
+* **Summary:** Investigators in Switzerland said evidence indicated that “sparkling candles” used during New Year celebrations were the likely source of ignition for the deadly fire at Le Constellation in the ski resort of Crans-Montana. Reporting described a mass-casualty incident with extensive burn injuries, with the reported death toll differing slightly between outlets: the Associated Press reported 41 killed, while Reuters described 41 killed in later follow-up reporting about nationwide safety inspections after the incident. citeturn5search0turn0search1
+* **What Happened:**
+  * Swiss investigators said the fire was likely started by sparkling candles attached to champagne bottles during New Year celebrations. citeturn5search0
+  * Reuters reported Swiss authorities ordered inspections of bars, nightclubs, and other venues following the deadly fire. citeturn0search1
+  * The death toll was reported as 41 by the Associated Press; Reuters described 41 killed in its later reporting about follow-on inspections. citeturn5search0turn0search1
+  * Reporting emphasized the scale of casualties and severe burn injuries, driving a broader public-safety response. citeturn5search0turn0search1
+* **Why It Matters:**
+  * The incident focused renewed attention on indoor fire risks associated with celebratory candles/pyrotechnic-style items in crowded venues. citeturn5search0
+  * Follow-on inspections signaled a national-level safety response beyond the immediate disaster site. citeturn0search1
+* **Actors:**
+  * Primary: Swiss investigators and authorities (not individually named in the cited reporting). citeturn5search0turn0search1
+  * Secondary: None identified.
+* **Casualties/Damage:** Killed: 41 (reported); Injured: 115 (reported); Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown (extent not specified in the cited reporting). citeturn5search0turn0search1
+* **Sources:**
+  * entity["organization","The Associated Press","news agency, us"] — `https://apnews.com/article/switzerland-fire-constellation-crans-montana-3aa2dba8629c4f6f8a947c5a0f6a6050` — Publication Date: Jan 2, 2026 — Supports: investigators’ assessment of likely cause; casualty figures — Quote: “sparkling candles attached to champagne bottles” were “likely” to have started the fire. citeturn5search0
+  * entity["organization","Reuters","news agency, london"] — `https://www.reuters.com/world/europe/swiss-authorities-inspect-nightclubs-bars-after-deadly-fire-2026-01-06/` — Publication Date: Jan 6, 2026 — Supports: Swiss-wide inspections after the incident; reported death toll — Quote: authorities ordered inspections after “41 people” were killed. citeturn0search1
+
+## Event: Strong 6.5 earthquake jolts entity["country","Mexico","country in north america"], disrupting President entity["politician","Claudia Sheinbaum","mexico president"]’s briefing
+* **Category & Subcategory:** Natural disasters / Earthquakes
+* **Geography:** Mexico, entity["state","Guerrero","state in mexico"], near entity["place","San Marcos","guerrero, mexico"]; Mexico City
+* **Summary:** A magnitude 6.5 earthquake struck near San Marcos in Guerrero state, shaking southern and central Mexico and interrupting President Claudia Sheinbaum’s live morning press briefing as seismic alarms sounded. The earliest Reuters reporting emphasized the immediate disruption and noted there were no immediate reports of injuries or major damage at that time, while later reporting by the Associated Press described at least two deaths and described widespread alarm and aftershocks. The U.S. Geological Survey reported the quake’s magnitude, location, and depth on its event page. citeturn8search11turn8news33turn8search4
+* **What Happened:**
+  * The entity["organization","U.S. Geological Survey","earth science agency, us"] recorded a magnitude 6.5 quake near San Marcos, Guerrero. citeturn8search4
+  * Reuters reported the quake disrupted Sheinbaum’s press conference in Mexico City as alarms sounded and people evacuated. citeturn8search11
+  * The Associated Press later reported at least two deaths associated with the quake and described extensive public alarm and aftershocks. citeturn8news33
+  * Reuters noted that in the immediate aftermath, there were no immediate reports of injuries or significant damage (reflecting early-stage reporting). citeturn8search11
+* **Why It Matters:**
+  * Conflicting early vs. later casualty reporting illustrated how rapidly disaster assessments can evolve in the hours after a major quake. citeturn8search11turn8news33
+  * The quake’s disruption of a nationally broadcast presidential briefing underscored the event’s scale of felt impact. citeturn8search11
+* **Actors:**
+  * Primary: U.S. Geological Survey; President Claudia Sheinbaum. citeturn8search4turn8search11
+  * Secondary: None identified.
+* **Casualties/Damage:** Killed: At least 2 (reported by AP); Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown (extent not specified in the cited reporting). citeturn8news33turn8search11
+* **Sources:**
+  * Reuters — `https://www.reuters.com/business/environment/earthquake-magnitude-63-strikes-mexico-gfz-says-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: quake interrupts Sheinbaum briefing; early “no immediate” casualty/damage reporting — Quote: “temporarily disrupted President Claudia Sheinbaum’s morning press conference.” citeturn8search11
+  * Associated Press — `https://apnews.com/article/ce9e9e76e445e68797e36b2fa8e14418` — Publication Date: Jan 2, 2026 — Supports: quake impacts; deaths/aftershocks — Quote: “causing widespread alarm and resulting in at least two deaths.” citeturn8news33
+  * U.S. Geological Survey — `https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm3k` — Publication Date: Jan 2, 2026 — Supports: magnitude and basic event parameters — Quote: “Magnitude: 6.5 … Depth: 18.0 km.” citeturn8search4
+
+## Event: Dozens missing after migrant boat capsizes off entity["country","The Gambia","west african country"]; rescue totals and death toll disputed across reports
+* **Category & Subcategory:** Disasters and accidents / Maritime incidents
+* **Geography:** The Gambia, North Bank region coastline (near Jinack, per reporting)
+* **Summary:** A boat described as carrying more than 200 migrants capsized off the Gambian coast around New Year’s, triggering a search-and-rescue operation involving state responders and local fishing boats. Reporting diverged on key figures: Reuters reported seven dead and 96 rescued based on a defence ministry statement; the Gambia Maritime Administration reported 102 rescued and four confirmed deaths (as of January 1); and AP reported 102 rescued and seven bodies recovered, citing a state broadcast by President Adama Barrow. In all accounts, officials warned that many people were still unaccounted for. citeturn14search2turn14search1turn15view0
+* **What Happened:**
+  * Reuters cited a Gambian defence ministry statement reporting seven deaths and 96 rescues after a migrant boat capsized. citeturn14search2
+  * The entity["organization","Gambia Maritime Administration","maritime agency, gambia"] issued an incident update listing 102 persons rescued and four confirmed deaths (as of January 1, 2026). citeturn14search1
+  * The Associated Press reported President entity["politician","Adama Barrow","gambia president"] said 102 survivors were rescued and seven bodies were recovered, with dozens missing. citeturn15view0
+  * AP reported the boat was found “grounded on a sandbank,” while also noting uncertainty about what caused the tragedy. citeturn15view0
+* **Why It Matters:**
+  * The conflicting official and media counts highlighted the information gaps typical in fast-moving maritime disasters involving irregular migration routes. citeturn14search2turn14search1turn15view0
+  * The incident underscored ongoing life-threatening risks on Atlantic migration routes toward Europe. citeturn15view0turn14search2
+* **Actors:**
+  * Primary: Adama Barrow; Gambian defence and maritime authorities. citeturn15view0turn14search2turn14search1
+  * Secondary: Local fishermen and volunteers (as described in AP reporting). citeturn15view0
+* **Casualties/Damage:** Killed: Conflicting (4 reported by Gambia Maritime Administration; 7 reported by Reuters/AP); Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown. citeturn14search1turn14search2turn15view0
+* **Sources:**
+  * Reuters — `https://www.reuters.com/world/africa/seven-bodies-recovered-96-rescued-after-migrant-boat-capsizes-gambia-says-2026-01-01/` — Publication Date: Jan 1, 2026 — Supports: seven deaths; 96 rescued; statement attribution — Quote: “seven … were rescued” (and seven “lost their lives”). citeturn14search2
+  * Gambia Maritime Administration — `https://www.gambiamaritime.com/press-release-jinack-boat` — Publication Date: (statement current as of Jan 1, 2026) — Supports: official rescue/death figures as of Jan 1 — Quote: “One hundred and two (102) persons rescued … Four (4) confirmed deaths.” citeturn14search1
+  * Associated Press — `https://apnews.com/article/gambia-boat-migrants-capsizing-atlantic-7058d8af4f362eb299a685709d0b693a` — Publication Date: Jan 2, 2026 (updated, per AP page) — Supports: Barrow’s broadcast; 102 rescued; 7 bodies; sandbank detail — Quote: the boat was found “grounded on a sandbank.” citeturn15view0
+
+## Event: Saudi-led coalition strikes separatist targets in entity["country","Yemen","country in middle east"] as entity["organization","Southern Transitional Council","yemen separatist group"] pushes referendum plan
+* **Category & Subcategory:** Armed conflicts and attacks / Airstrikes and separatist politics
+* **Geography:** Yemen, entity["place","Hadhramaut","governorate, yemen"]; Seiyun (per reporting)
+* **Summary:** Reporting described Saudi-led coalition airstrikes targeting positions held by the UAE-backed Southern Transitional Council (STC) in Yemen, with witnesses and STC-linked accounts pointing to strikes around Hadhramaut, including near Seiyun. Separately, Reuters reported the STC announced plans to hold a referendum on independence, while also describing the escalation as part of a widening rift between major coalition backers inside Yemen’s government-controlled areas. The reports emphasized active fighting, shifting territorial control, and competing political endgames. citeturn6search11turn6search15turn6search0turn6search3
+* **What Happened:**
+  * AFP reporting described Saudi-led coalition strikes on UAE-backed STC positions, with the STC reporting fatalities in the strikes. citeturn6search15
+  * Reuters reported the STC said it would hold an independence referendum. citeturn6search0
+  * Reuters described the broader crisis as reflecting rivalry between Riyadh and Abu Dhabi in Yemen’s government-run areas. citeturn6search3
+  * Reporting indicated strikes hit areas including Hadhramaut’s Seiyun city (airport and a military base cited by witnesses/STC sources). citeturn6search11
+* **Why It Matters:**
+  * The combination of airstrikes and referendum plans suggested an escalating fracture inside the anti-Houthi camp, with potential implications for Yemen’s territorial integrity. citeturn6search0turn6search3
+  * Coalition strikes against a coalition-aligned separatist actor signaled a possible shift in alignment and escalation risk in southern/eastern Yemen. citeturn6search11turn6search15
+* **Actors:**
+  * Primary: Southern Transitional Council; Saudi-led coalition (as described in the reporting). citeturn6search0turn6search15turn6search11
+  * Secondary: United Arab Emirates (described as backing the STC in reporting); “witnesses” and local sources cited by outlets. citeturn6search11turn6search3
+* **Casualties/Damage:** Killed: 7 (reported by an STC official, per Times of Israel/AFP-syndicated reporting); Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown. citeturn6search11turn6search15
+* **Sources:**
+  * entity["organization","Courthouse News Service","news site, us"] (AFP) — `https://courthousenews.com/seven-killed-as-saudi-coalition-strikes-uae-backed-forces-in-yemen/` — Publication Date: Jan 2, 2026 — Supports: coalition strikes; reported fatalities — Quote: “Seven killed as Saudi coalition strikes UAE-backed forces.” citeturn6search15
+  * entity["organization","The Times of Israel","news outlet, israel"] — `https://www.timesofisrael.com/saudi-jets-strike-uae-backed-separatists-in-yemen-abu-dhabi-says-its-forces-have-withdrawn/` — Publication Date: Jan 2, 2026 — Supports: strike locations and context; cited fatalities — Quote: “Airstrikes killed seven separatist fighters.” citeturn6search11
+  * Reuters — `https://www.reuters.com/world/middle-east/yemen-separatists-say-they-will-hold-referendum-independence-by-end-2026-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: STC referendum plan — Quote: the STC said it would hold a referendum “by end-2026.” citeturn6search0
+
+## Event: Islamic State-linked entity["organization","Allied Democratic Forces","armed group, drc"] attacks kill civilians in eastern entity["country","Democratic Republic of the Congo","country in central africa"]; death toll disputed
+* **Category & Subcategory:** Armed conflicts and attacks / Militant attacks on civilians
+* **Geography:** Democratic Republic of the Congo, entity["place","North Kivu","province, drc"], entity["place","Lubero Territory","north kivu, drc"]
+* **Summary:** Reuters reported that Islamic State-linked ADF rebels killed at least 15 people in attacks on multiple villages in Lubero territory, citing local officials and describing a pattern of lethal attacks primarily targeting civilians. DRC outlet Actualite.cd also reported 15 deaths while describing village-to-village attacks and additional context about casualties, while Le Monde (AFP) reported at least 14 killed and also described local claims of 15 deaths and multiple houses burned. The reporting collectively emphasized continuing insecurity, competing casualty claims, and attacks spanning several nearby communities. citeturn19search1turn19search2turn19search4
+* **What Happened:**
+  * Reuters reported ADF-linked attackers killed at least 15 people in Lubero territory, citing two officials. citeturn19search1
+  * Reuters included local breakdowns indicating some victims were killed with bladed weapons and that there was gunfire exchange in at least one location. citeturn19search1
+  * Actualite.cd reported 15 deaths while describing successive attacks across multiple villages and adding additional locally sourced details. citeturn19search2
+  * Le Monde (AFP) reported at least 14 killed and relayed local claims of 15 killed and 13 houses burned. citeturn19search4
+* **Why It Matters:**
+  * Divergent death toll reporting (14 vs. 15+) reflected difficulty of rapid verification in remote conflict zones and ongoing volatility in eastern DRC. citeturn19search1turn19search4
+  * The incident underscored persistent civilian exposure to armed-group violence in North Kivu despite ongoing security operations. citeturn19search1turn19search2
+* **Actors:**
+  * Primary: Allied Democratic Forces (ADF). citeturn19search1turn19search4
+  * Secondary: Congolese security forces (referenced as exchanging fire in Reuters reporting). citeturn19search1
+* **Casualties/Damage:** Killed: Conflicting (at least 15 reported by Reuters/Actualite.cd; at least 14 reported by AFP via Le Monde); Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: 13 houses burned (reported via AFP/Le Monde). citeturn19search1turn19search2turn19search4
+* **Sources:**
+  * Reuters — `https://www.reuters.com/world/africa/islamic-state-linked-rebels-kill-15-eastern-congo-officials-say-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: “at least 15” killed; official accounts; weapon description — Quote: attackers killed “at least 15 people.” citeturn19search1
+  * entity["organization","Actualite.cd","news outlet, drc"] — `https://actualite.cd/2026/01/02/un-nouvel-sombre-bapere-lubero-au-moins-15-morts-dans-des-attaques-adf` — Publication Date: Jan 2, 2026 — Supports: locally reported fatalities; narrative of spread across villages — Quote: “Ce qui fait 15 morts.” citeturn19search2
+  * entity["organization","Le Monde","newspaper, france"] (AFP) — `https://www.lemonde.fr/en/le-monde-africa/article/2026/01/03/14-killed-in-dr-congo-attack-by-a-militia-linked-to-the-islamic-state-group_6749026_124.html` — Publication Date: Jan 3, 2026 — Supports: “at least 14” headline toll; local claim of 15; house-burning — Quote: “killing at least 14 people.” citeturn19search4
+
+## Event: Multi-storey building collapse in entity["city","Nairobi","kenya"] leaves people feared trapped
+* **Category & Subcategory:** Disasters and accidents / Building collapses
+* **Geography:** entity["country","Kenya","country in east africa"], Nairobi (South C area, per reporting)
+* **Summary:** A multi-storey building under construction collapsed in Nairobi, with officials and the Kenya Red Cross indicating that multiple people were believed trapped and rescue efforts were underway. Associated Press reporting described an active search operation and included accounts of family members receiving phone contact from under the rubble, while Kenyan media reporting referenced the building’s location and response operations, citing Kenya Red Cross statements and other officials. Reporting did not provide a definitive death toll at the time of the initial reports. citeturn12news33turn13search5turn13search11
+* **What Happened:**
+  * The Associated Press reported that a multi-storey building under construction collapsed in Nairobi, with four people believed trapped. citeturn12news33
+  * The entity["organization","Kenya Red Cross","humanitarian org, kenya"] said a multi-agency response team was on site managing the situation. citeturn12news33turn13search11
+  * Nation media reporting described a collapse in South C and referenced on-the-ground response and public concern near adjacent structures. citeturn13search5
+  * Early local reporting stated injuries/fatalities were not yet confirmed (reflecting the evolving rescue phase). citeturn13search11
+* **Why It Matters:**
+  * The report added to ongoing scrutiny of construction safety and regulation in Kenya’s capital, with rescue operations still underway when early reports were filed. citeturn12news33turn13search11
+  * Uncertainty around the number trapped and casualties highlighted the high-stakes nature of structural collapses in dense urban settings. citeturn12news33
+* **Actors:**
+  * Primary: Kenya Red Cross; Nairobi emergency responders (multi-agency response team referenced). citeturn12news33turn13search11
+  * Secondary: None identified.
+* **Casualties/Damage:** Killed: Unknown; Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Building collapse (extent not otherwise specified). citeturn12news33turn13search11
+* **Sources:**
+  * Associated Press — `https://apnews.com/article/kenya-nairobi-building-collapse-south-c-2a07a02a11447c4cfd2fafdf17a52881` — Publication Date: Jan 2, 2026 — Supports: collapse; “four believed trapped”; rescue efforts — Quote: “with 4 believed to be trapped.” citeturn12news33
+  * entity["organization","Nation Africa","news outlet, kenya"] — `https://nation.africa/kenya/counties/nairobi/in-photos-14-storey-building-collapses-in-south-c-4-feared-trapped-5314302` — Publication Date: Jan 2, 2026 — Supports: location and contemporaneous local coverage — Quote: “4 feared trapped.” citeturn13search5
+  * entity["organization","People Daily Digital","news site, kenya"] — `https://peopledaily.digital/news/kenya-red-cross-confirms-response-as-building-under-construction-collapses-in-south-c` — Publication Date: Jan 2, 2026 — Supports: Kenya Red Cross statement; early uncertainty on injuries/fatalities — Quote: “injuries and fatalities yet to be confirmed.” citeturn13search11
+
+## Event: Avalanches strike northern entity["country","Italy","country in europe"]; fatalities disputed between types of reporting
+* **Category & Subcategory:** Disasters and accidents / Avalanches
+* **Geography:** Italy, entity["place","Piedmont","region, italy"]; other alpine areas (per reporting)
+* **Summary:** Reuters reported that a series of avalanches in Italy’s Alps killed two people and injured several others, emphasizing that strong winds hampered rescue operations and limited helicopter use. Italian news agency ANSA described a broader toll—reporting three deaths and multiple injuries across multiple avalanche incidents in regions including Piedmont and Veneto—illustrating variability between early incident reporting and consolidated domestic coverage. Both accounts emphasized hazardous winter conditions and difficult rescue logistics. citeturn16search0turn17search0
+* **What Happened:**
+  * Reuters reported two people were killed in a series of avalanches in Italy’s Alps, with several others injured. citeturn16search0
+  * Reuters reported strong winds hampered rescue efforts and constrained helicopter operations. citeturn16search0
+  * ANSA reported a higher consolidated toll of three dead and multiple injured across several avalanches in Piedmont and Veneto. citeturn17search0
+  * ANSA described at least one major avalanche incident involving multiple hikers/ski tourers and significant rescue deployments. citeturn17search0turn17search2
+* **Why It Matters:**
+  * The reporting highlighted how weather constraints can sharply limit aerial rescue access during avalanche emergencies. citeturn16search0
+  * Divergent fatality totals underscored the importance of cross-checking incident-by-incident vs. consolidated domestic reporting. citeturn16search0turn17search0
+* **Actors:**
+  * Primary: Italian rescue services and alpine responders (named generically in the reporting). citeturn16search0turn17search0
+  * Secondary: None identified.
+* **Casualties/Damage:** Killed: Conflicting (2 reported by Reuters; 3 reported by ANSA); Injured: Unknown (reported as “several”/“multiple” without a single consistent count in the cited excerpts); Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown. citeturn16search0turn17search0
+* **Sources:**
+  * Reuters — `https://www.reuters.com/business/environment/avalanches-kill-two-people-injure-several-others-italys-alps-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: two killed; rescue hampered by wind — Quote: “strong winds hampering the rescue operations.” citeturn16search0
+  * entity["organization","ANSA","news agency, italy"] — `https://www.ansa.it/sito/notizie/cronaca/2026/01/02/valanga-travolge-almeno-quattro-escursionisti-un-morto-e-due-feriti-gravi.-si-cercano_1d773753-ed3d-4356-8ec7-76bdd83eba99.html` — Publication Date: Jan 2, 2026 — Supports: consolidated national toll of three dead; multiple avalanche incidents — Quote: “Tre morti e diversi feriti.” citeturn17search0
+
+## Event: Court extends detention warrant against former South Korean president entity["politician","Yoon Suk Yeol","south korea former president"]
+* **Category & Subcategory:** Politics and governance / Courts and prosecutions
+* **Geography:** entity["country","South Korea","country in east asia"], Seoul (court proceedings, per reporting)
+* **Summary:** Reuters, citing Yonhap reporting, said a South Korean court extended the detention warrant against former president Yoon Suk Yeol for another six months and that he had been indicted on additional charges, including aiding an enemy state, tied to his brief declaration of martial law in 2024. Yonhap’s English-language report framed the action as a new warrant to detain Yoon for another six months, while Korean media reporting cited court concerns about potential destruction of evidence. The reporting emphasized the continuing legal jeopardy facing the former president. citeturn21search0turn21search4turn21search35
+* **What Happened:**
+  * Reuters reported the court extended Yoon’s detention warrant for another six months, citing Yonhap News TV. citeturn21search0
+  * Yonhap reported the court issued a new warrant to detain Yoon for another six months. citeturn21search4
+  * Reuters reported the judge cited concerns Yoon might destroy evidence. citeturn21search0
+  * Korea JoongAng Daily reported an additional arrest warrant and cited the risk of evidence destruction in the court’s reasoning. citeturn21search35
+* **Why It Matters:**
+  * The renewed warrant represented a major escalation in legal constraints on a former head of state, with implications for political stability and accountability narratives. citeturn21search0turn21search4
+  * The cited evidence-destruction concern underscored the court’s assessment of investigatory risk in a high-profile national-security-linked case. citeturn21search0turn21search35
+* **Actors:**
+  * Primary: Yoon Suk Yeol; South Korean judiciary (court). citeturn21search0turn21search4
+  * Secondary: entity["organization","Yonhap News Agency","news agency, seoul"] (as reporting conduit cited by Reuters); prosecutors (indictment referenced). citeturn21search0turn21search4
+* **Casualties/Damage:** Killed: Unknown; Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown. citeturn21search0turn21search4
+* **Sources:**
+  * Reuters — `https://www.reuters.com/world/asia-pacific/south-korean-court-extends-detention-warrant-against-former-president-yoon-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: warrant extension; charges reference; evidence-destruction concern — Quote: concern he might “destroy evidence.” citeturn21search0
+  * Yonhap News Agency — `https://en.yna.co.kr/view/AEN20260102010600315` — Publication Date: Jan 2, 2026 — Supports: characterization as warrant “to detain … for another 6 months” — Quote: “for another 6 months.” citeturn21search4
+  * entity["organization","Korea JoongAng Daily","newspaper, seoul"] — `https://koreajoongangdaily.joins.com/news/2026-01-02/national/politics/Court-issues-additional-arrest-warrant-for-exPresident-Yoon-/2491863` — Publication Date: Jan 2, 2026 — Supports: additional warrant framing; evidence-destruction rationale — Quote: “risk of destruction of evidence.” citeturn21search35
+
+## Event: entity["country","Pakistan","country in south asia"] court sentences journalists and commentators to life in absentia over alleged protest-linked “digital” offences
+* **Category & Subcategory:** Law and crime / Courts and sentences
+* **Geography:** Pakistan, Islamabad (court actions, per reporting)
+* **Summary:** Reuters reported that a Pakistani anti-terrorism court sentenced eight journalists and social media commentators to life imprisonment in absentia, linking the convictions to alleged online activity connected to protests that followed the 2023 arrest of former prime minister Imran Khan. Al Jazeera also reported the life sentences and described them as tied to “pro-Khan protests,” while UPI reported life sentences for seven people for “digital terrorism,” showing inconsistency between outlets on the number sentenced. Reuters’ report included names of those sentenced and said most were believed to be outside Pakistan and did not participate in the trials, and it referenced criticisms from the Committee to Protect Journalists. citeturn21search1turn21search5turn21search24
+* **What Happened:**
+  * Reuters reported a Pakistani anti-terrorism court sentenced eight journalists and social media commentators to life imprisonment in absentia. citeturn21search1
+  * Al Jazeera reported journalists were sentenced to life over 2023 pro-Khan protests, noting trials were held in absentia. citeturn21search5
+  * UPI reported life sentences for seven defendants for “digital terrorism,” indicating an outlet-level discrepancy in the number convicted/sentenced. citeturn21search24
+  * Reuters said critics, including the entity["organization","Committee to Protect Journalists","press freedom ngo, us"], viewed the convictions as politically motivated and said the verdict required confirmation by the Islamabad High Court. citeturn21search1
+* **Why It Matters:**
+  * The case raised significant press-freedom and due-process concerns due to life sentences imposed in absentia in a politically charged context. citeturn21search1turn21search5
+  * The discrepancy in how many people were sentenced (seven vs. eight) highlighted reporting variability even among major outlets covering the same proceeding. citeturn21search1turn21search24
+* **Actors:**
+  * Primary: Pakistani anti-terrorism court (judge named by Al Jazeera); those sentenced (names provided by Reuters). citeturn21search1turn21search5
+  * Secondary: entity["politician","Imran Khan","former pm, pakistan"] (context referenced for protests); Committee to Protect Journalists. citeturn21search1turn21search5
+* **Casualties/Damage:** Killed: Unknown; Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Legal penalties—life imprisonment sentences issued in absentia (physical damage not applicable/not reported). citeturn21search1turn21search5turn21search24
+* **Sources:**
+  * Reuters — `https://www.reuters.com/business/media-telecom/pakistan-court-sentences-journalists-life-over-links-protests-after-imran-khans-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: “eight” sentenced; in absentia; context; CPJ reaction; confirmation requirement — Quote: sentenced to life “in absentia.” citeturn21search1
+  * entity["organization","Al Jazeera","news network, qatar"] — `https://www.aljazeera.com/news/2026/1/2/pakistan-court-sentences-journalists-to-life-over-2023-pro-khan-protests` — Publication Date: Jan 2, 2026 — Supports: verdict framing; judge name and procedural description — Quote: trials were held “in absentia.” citeturn21search5
+  * entity["organization","UPI","news agency, us"] — `https://www.upi.com/Top_News/World-News/2026/01/02/pakistan-digital-terrorism/7451767395180/` — Publication Date: Jan 2, 2026 — Supports: “seven” sentenced; “digital terrorism” framing — Quote: life sentences for “digital terrorism.” citeturn21search24
+
+## Event: entity["country","Equatorial Guinea","country in central africa"] relocates capital from entity["city","Malabo","bioko island, equatorial guinea"] to entity["city","Ciudad de la Paz","djibloho, equatorial guinea"] by presidential decree
+* **Category & Subcategory:** Politics and governance / National capitals and state administration
+* **Geography:** Equatorial Guinea, Malabo (former capital), Ciudad de la Paz (new capital)
+* **Summary:** Reporting stated that Equatorial Guinea officially changed its capital from Malabo (on an island) to Ciudad de la Paz (on the mainland) via a decree signed by President Teodoro Obiang Nguema Mbasogo. Le Monde (AFP) described the move as a decree changing the capital, Barron’s reported the change was made by presidential decree and identified Djibloho province as the location, and ArchDaily described the relocation as formal and long-planned, noting construction origins and alternate names used for the planned city. citeturn21search2turn21search33turn21search6
+* **What Happened:**
+  * Le Monde (AFP) reported a decree changed the capital from Malabo to Ciudad de la Paz on the mainland. citeturn21search2
+  * Barron’s reported the move was done “via a presidential decree” and located Ciudad de la Paz in Djibloho province. citeturn21search33
+  * ArchDaily reported Malabo served as capital until Jan 2, 2026, when a decree issued by Obiang transferred the capital to Ciudad de la Paz. citeturn21search6
+  * ArchDaily described Ciudad de la Paz as a planned capital (also referred to as Djibloho/Oyala in the report). citeturn21search6
+* **Why It Matters:**
+  * Relocating a national capital by decree is a major administrative and political reconfiguration, with implications for government operations and national geography of power. citeturn21search2turn21search6
+  * The move reflects long-term planned-capital development choices as described in international reporting. citeturn21search6turn21search33
+* **Actors:**
+  * Primary: entity["politician","Teodoro Obiang Nguema Mbasogo","equatorial guinea president"]. citeturn21search2turn21search6turn21search33
+  * Secondary: None identified.
+* **Casualties/Damage:** Killed: Unknown; Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Not reported.
+* **Sources:**
+  * Le Monde (AFP) — `https://www.lemonde.fr/en/international/article/2026/01/04/equatorial-guinea-relocates-capital-to-ciudad-de-la-paz_6749064_4.html` — Publication Date: Jan 4, 2026 — Supports: decree changes capital; island vs mainland framing — Quote: “changed the capital from Malabo … to Ciudad de la Paz.” citeturn21search2
+  * entity["organization","Barron's","financial magazine, us"] — `https://www.barrons.com/news/e-guinea-relocates-capital-citing-strategic-reasons-7b48792c` — Publication Date: Jan 3, 2026 — Supports: capital change; decree language; province reference — Quote: “via a presidential decree.” citeturn21search33
+  * entity["organization","ArchDaily","architecture website"] — `https://www.archdaily.com/1037773/equatorial-guinea-relocates-its-capital-from-malabo-to-ciudad-de-la-paz-on-central-africas-mainland` — Publication Date: Jan 13, 2026 — Supports: date of formal transfer (Jan 2, 2026); planned-capital framing and alternate names — Quote: “until January 2, 2026, when a decree … transferred the capital.” citeturn21search6
+
+## Event: entity["organization","Met Office","uk national weather svc"] confirms 2025 was entity["country","United Kingdom","country in europe"]’s warmest and sunniest year on record
+* **Category & Subcategory:** Environment and climate / National climate records
+* **Geography:** United Kingdom
+* **Summary:** The UK Met Office announced provisional figures indicating that 2025 was both the warmest and sunniest year on record for the United Kingdom, reporting a mean temperature of 10.09°C and emphasizing the rarity of annual mean temperatures exceeding 10°C in the historical series dating back to 1884. Reuters and The Guardian reported on the Met Office findings, reinforcing the record framing and placing the result in the context of recent years ranking among the warmest on record. citeturn20search0turn20search5turn20search3
+* **What Happened:**
+  * The Met Office said 2025 set UK records as both the warmest and sunniest year on record, citing provisional figures. citeturn20search0
+  * The Met Office reported a UK mean temperature of 10.09°C in 2025 and presented ranked comparisons with prior warm years. citeturn20search0
+  * Reuters reported the Met Office said 2025 surpassed the prior annual temperature record set in 2022 and noted the long-term record series (since 1884). citeturn20search5
+  * The Guardian reported the same record claims and cited sunshine-hour figures as part of the “double-record” framing. citeturn20search3
+* **Why It Matters:**
+  * The record-setting national metrics were presented by the Met Office as evidence of rapidly shifting climate baselines in the UK. citeturn20search0turn20search5
+  * The findings provided an official benchmark used by multiple outlets for public discussion of climate risk and policy context. citeturn20search0turn20search3
+* **Actors:**
+  * Primary: Met Office. citeturn20search0
+  * Secondary: None identified.
+* **Casualties/Damage:** Killed: Unknown; Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown (not specified in the cited reporting).
+* **Sources:**
+  * Met Office — `https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/2025-is-double-record-breaker-uks-warmest-and-sunniest-year-on-record` — Publication Date: Jan 2, 2026 — Supports: official record declarations; 10.09°C mean; rankings — Quote: “Recording a mean temperature of 10.09°C.” citeturn20search0
+  * Reuters — `https://www.reuters.com/sustainability/cop/uk-records-hottest-sunniest-year-ever-2025-says-weather-service-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: record framing; prior-record comparison; context — Quote: “hottest and sunniest year on record.” citeturn20search5
+  * entity["organization","The Guardian","news outlet, uk"] — `https://www.theguardian.com/uk-news/2026/jan/02/2025-uk-warmest-and-sunniest-year-on-record-met-office` — Publication Date: Jan 2, 2026 — Supports: record framing; additional detail emphasis — Quote: “warmest and sunniest year on record.” citeturn20search3
+
+## Event: entity["company","BYD","chinese automaker"] overtakes entity["company","Tesla","ev maker"] as top battery-electric seller in 2025
+* **Category & Subcategory:** Business and economy / Automakers and EV markets
+* **Geography:** entity["country","China","country in asia"], entity["country","United States","country in north america"]; global EV market
+* **Summary:** Reporting on automaker sales said BYD surpassed Tesla’s battery-electric vehicle deliveries in 2025, taking the position of the world’s biggest EV seller as Tesla reported a second consecutive annual sales decline. Reuters and the Associated Press both reported Tesla’s 2025 deliveries at about 1.64 million and BYD’s battery-electric sales at about 2.26 million, while also describing contributing factors such as competition and demand pressures. Coverage focused on the symbolic shift and competitive stakes in the global EV market. citeturn7search2turn7search0
+* **What Happened:**
+  * Reuters reported Tesla’s quarterly deliveries fell more than expected and that Tesla lost the EV sales crown to BYD on 2025 totals. citeturn7search2
+  * AP reported Tesla delivered 1.64 million vehicles in 2025, while BYD sold 2.26 million. citeturn7search0
+  * Reuters reported BYD’s sales outside China reached a record 1 million vehicles in 2025 (as reported in the Reuters story). citeturn7search2
+  * Reporting framed the result as Tesla’s second consecutive year of declining annual EV sales. citeturn7search0turn7search2
+* **Why It Matters:**
+  * The shift signaled intensifying competition and the growing global reach of Chinese EV manufacturing at the top of the battery-electric market. citeturn7search0turn7search2
+  * Tesla’s reported decline for a second year reinforced market concerns around demand, brand, and competitive positioning discussed in the coverage. citeturn7search0
+* **Actors:**
+  * Primary: BYD; Tesla. citeturn7search2turn7search0
+  * Secondary: entity["known_celebrity","Elon Musk","entrepreneur, tesla"] (referenced in reporting as Tesla’s CEO). citeturn7search0
+* **Casualties/Damage:** Killed: Unknown; Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Not reported.
+* **Sources:**
+  * Reuters — `https://www.reuters.com/business/autos-transportation/teslas-quarterly-deliveries-fall-more-than-expected-lower-ev-demand-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: BYD vs Tesla totals framing; international sales figure — Quote: BYD sales outside China “climbed to a record 1 million.” citeturn7search2
+  * Associated Press — `https://apnews.com/article/tesla-sales-musk-trump-deliveries-robotaxi-6d60715babde97b3b1a8e2416f4065ca` — Publication Date: Jan 2, 2026 — Supports: 1.64m vs 2.26m figures; “lost its crown” framing — Quote: “Tesla lost its crown.” citeturn7search0
+
+## Event: Bus and truck collide head-on in entity["country","Brazil","country in south america"] near entity["city","Pelotas","rio grande do sul, brazil"]; at least 11 reported dead
+* **Category & Subcategory:** Disasters and accidents / Road crashes
+* **Geography:** Brazil, entity["state","Rio Grande do Sul","brazil state"], Pelotas area (BR-116, per reporting)
+* **Summary:** Reuters reported that a head-on collision between a bus and a truck in southern Brazil killed at least 11 people, citing a statement from Brazil’s Federal Highway Police. CNN Brasil also reported the collision, describing a video showing the truck leaving its lane and crossing into oncoming traffic before the crash. The reporting focused on the confirmed death toll and the basic circumstances described by authorities and video evidence. citeturn11search0turn11search25
+* **What Happened:**
+  * Reuters reported a head-on collision between a bus and a truck killed at least 11 people in southern Brazil. citeturn11search0
+  * Reuters cited Brazil’s Federal Highway Police as the source of the death-toll statement. citeturn11search0
+  * entity["organization","CNN Brasil","news outlet, brazil"] reported video showed the truck departed its lane and entered the opposite carriageway, causing the crash. citeturn11search25
+  * Reporting did not provide a consistent, source-confirmed injured count in the cited excerpts. citeturn11search0turn11search25
+* **Why It Matters:**
+  * The incident added to ongoing public safety concerns around severe highway crashes, with authorities providing only limited initial detail. citeturn11search0
+  * Video-documented circumstances can materially shape official investigations and public understanding in the immediate aftermath. citeturn11search25
+* **Actors:**
+  * Primary: Brazil Federal Highway Police (as cited by Reuters). citeturn11search0
+  * Secondary: None identified.
+* **Casualties/Damage:** Killed: At least 11; Injured: Unknown; Displaced: Unknown; Arrest Count: Unknown; Damage: Unknown. citeturn11search0turn11search25
+* **Sources:**
+  * Reuters — `https://www.reuters.com/world/americas/eleven-killed-bus-crashes-head-on-into-truck-southern-brazil-2026-01-02/` — Publication Date: Jan 2, 2026 — Supports: at least 11 killed; police attribution — Quote: “at least 11 people dead.” citeturn11search0
+  * CNN Brasil — `https://www.cnnbrasil.com.br/nacional/sul/rs/video-mostra-momento-do-acidente-que-deixou-11-mortos-em-pelotas/` — Publication Date: Jan 2, 2026 — Supports: video description of lane-crossing mechanism — Quote: the truck “invade a contramão.” citeturn11search25
+RESEARCH_REPORT_END
+
+
+*** TARGET OUTPUT FILE ***
+Please save the generated YAML to: D:\GitHub\current-events-context\2026\01\2026-01-02.yaml
