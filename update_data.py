@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from wiki_parser import fetch_wikitext, parse_events
 
 # ---------------------------------------------------------------------------
-# Logging — file only, no console output
+# Logging — file and console output
 # ---------------------------------------------------------------------------
 
 logging.basicConfig(
@@ -16,6 +16,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
         logging.FileHandler("update.log", encoding="utf-8"),
+        logging.StreamHandler(sys.stdout),
     ],
 )
 log = logging.getLogger(__name__)
