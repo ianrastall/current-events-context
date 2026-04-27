@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,12 +32,21 @@ jobs:
 
       - name: Commit and Push
         run: |
+          set -e
+
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
           git add .
           if git diff --staged --quiet; then
             echo "No changes today. Skipping commit."
-          else
-            git commit -m "Automated daily update for $(date +'%Y-%m-%d')"
-            git push origin HEAD
+            exit 0
           fi
+
+          git commit -m "Automated daily update for $(date +'%Y-%m-%d')"
+
+          # Integrate any changes that landed on main after checkout.
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
