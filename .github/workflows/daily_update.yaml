@@ -5,6 +5,10 @@ on:
     - cron: '0 23 * * *' # Runs at 23:00 UTC every day
   workflow_dispatch:
 
+concurrency:
+  group: daily-wikipedia-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -15,7 +19,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+
+      - name: Sync with Latest Main
+        run: |
+          git fetch origin main
+          git rebase origin/main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,8 +55,18 @@ jobs:
 
           git commit -m "Automated daily update for $(date +'%Y-%m-%d')"
 
-          # Integrate any changes that landed on main after checkout.
-          git fetch origin main
-          git rebase origin/main
+          for attempt in 1 2 3; do
+            # Integrate any changes that landed on main after checkout.
+            git fetch origin main
+            git rebase origin/main
 
-          git push origin HEAD:main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push failed on attempt ${attempt}. Retrying after latest main is fetched."
+            sleep $((attempt * 5))
+          done
+
+          echo "Failed to push after 3 attempts."
+          exit 1
