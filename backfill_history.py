@@ -159,7 +159,7 @@ def monthly_candidate_title(year: int, month_name: str) -> str:
     fail for a pre-2004 date so that the operator knows which monthly page
     to inspect manually or handle with a future monthly-backfill routine.
     """
-    return f"Wikipedia:Current events/{month_name} {year}"
+    return f"Portal:Current events/{month_name} {year}"
 
 
 # ---------------------------------------------------------------------------

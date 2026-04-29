@@ -39,6 +39,26 @@ git clone [https://github.com/ianrastall/current-events-context.git](https://git
 
 You can then parse the YAML files locally using any standard library (like `PyYAML` in Python).
 
+## Local Backfill Batches
+
+Historical backfill should be run locally rather than through GitHub Actions. Use `backfill_batches.py` to plan work, fetch missing files, and optionally commit/push one month or year at a time:
+
+```bash
+python backfill_batches.py plan --target missing --chunk month
+python backfill_batches.py run --start 2026-04-01 --end 2026-04-27
+python backfill_batches.py run --target missing --chunk month --commit --push
+```
+
+If HTTPS push auth needs a GitHub token, put it in an environment variable and pass the variable name:
+
+```powershell
+$env:GITHUB_TOKEN = "..."
+python backfill_batches.py run --commit --push --token-env GITHUB_TOKEN
+```
+
+The script rebases on `origin/main` before committing and before each push attempt. For early archive gaps, it also checks rendered monthly archive pages such as `Portal:Current events/January 2002` when a daily page is missing.
+Each run writes a CSV report to `.backfill-reports/`, while lower-level fetch details remain in `backfill.log`.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
