@@ -13,17 +13,19 @@ Currently, the files fall into two distinct tiers of detail:
 
 **The ongoing goal of this project is to incrementally upgrade all the 5KB "Daily Snapshots" into 50KB "Deep Context" files.**
 
-## How to Contribute (The "Pincer" Strategy)
+## How to Contribute (LLM Deep Research)
 
-This is an open project, and contributions to expand the context engine are highly appreciated! 
+This is an open project, and contributions to expand the context engine are highly appreciated! The only contributions we are currently looking for are **LLM deep research projects** to upgrade existing 5KB Daily Snapshots into 50KB Deep Context files.
 
-Because the repository creator is currently running automated scripts to backfill the archive from **2002 moving backwards**, we ask contributors to work from the opposite end to avoid merge conflicts.
+Because the repository creator is currently running automated scripts to backfill the archive from **2002 moving backwards**, please avoid the 2001–2004 era as the foundational architecture for those years is still being structured.
+
+To minimize the chances of two contributors picking the exact same day at the exact same time, we ask that you pick dates entirely at random.
 
 **Please adhere to the following workflow:**
 
-1. **Work from the Present, Backwards:** Choose an existing, unexpanded `YYYY-MM-DD.yaml` Daily Snapshot from the most recent years (2024, 2025, 2026) to research and expand into a Deep Context file. Please avoid the 2001–2004 era, as the foundational architecture for those years is still being structured.
+1. **Pick a Random Date in the Middle:** Choose an existing, unexpanded `YYYY-MM-DD.yaml` Daily Snapshot completely at random from the middle of our available time period (e.g., anywhere between 2005 and 2025). Using a random number generator to pick a year and month is highly recommended!
 2. **Do Not Generate New Dates:** Please DO NOT backfill or create new YAML files for missing dates. The skeleton of the repository and daily file generation is handled via automated backend scripts. Only edit existing files.
-3. **Check for Duplication:** Before you start researching, check the repository's open Pull Requests to ensure someone else isn't already working on an expansion for that specific date.
+3. **Check for Duplication:** Before you start your LLM deep research, check the repository's open Pull Requests to ensure someone else hasn't already submitted an expansion for your randomly selected date.
 4. **Submit Your Expansion:**
     * **Fork** this repository.
     * Make your deep-context additions to the existing YAML file, ensuring you adhere to the project's strict YAML schema. 
@@ -35,30 +37,3 @@ You can browse the YAML files directly on GitHub. To use them programmatically i
 
 ```bash
 git clone [https://github.com/ianrastall/current-events-context.git](https://github.com/ianrastall/current-events-context.git)
-```
-
-You can then parse the YAML files locally using any standard library (like `PyYAML` in Python).
-
-## Local Backfill Batches
-
-Historical backfill should be run locally rather than through GitHub Actions. Use `backfill_batches.py` to plan work, fetch missing files, and optionally commit/push one month or year at a time:
-
-```bash
-python backfill_batches.py plan --target missing --chunk month
-python backfill_batches.py run --start 2026-04-01 --end 2026-04-27
-python backfill_batches.py run --target missing --chunk month --commit --push
-```
-
-If HTTPS push auth needs a GitHub token, put it in an environment variable and pass the variable name:
-
-```powershell
-$env:GITHUB_TOKEN = "..."
-python backfill_batches.py run --commit --push --token-env GITHUB_TOKEN
-```
-
-The script rebases on `origin/main` before committing and before each push attempt. For early archive gaps, it also checks rendered monthly archive pages such as `Portal:Current events/January 2002` when a daily page is missing.
-Each run writes a CSV report to `.backfill-reports/`, while lower-level fetch details remain in `backfill.log`.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
