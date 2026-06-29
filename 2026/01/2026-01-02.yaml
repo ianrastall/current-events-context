@@ -1,59 +1,2358 @@
-Date: '2026-01-02'
-Source_URI: Portal:Current events/2026 January 2
-Intelligence_Payload:
-  Uncategorized:
-  - Yemeni civil war
-  - 2025 Southern Yemen offensive, Saudi-led intervention in the Yemeni civil war
-  - The Saudi Arabia-led coalition in Yemen launches airstrikes in Hadhramaut Governorate,
-    killing 20 Southern Transitional Council (STC) fighters and leaving more than
-    20 others injured. (AFP via Le Monde)
-  - The STC announces a plan to hold an independence referendum for the State of South
-    Arabia within two years. (Reuters)
-  - BYD Auto, based in China, surpasses the United States-based Tesla, Inc., as the
-    world's best-selling electric vehicle automaker after selling 2.26 million vehicles
-    in 2025, overtaking Tesla's 1.64 million. (AP) (DW)
-  - 2026 Guerrero earthquake
-  - A earthquake strikes off the coast of San Marcos, Guerrero, Mexico, killing two
-    people and injuring 12 others. (AFP via The New Zealand Herald) (Infobae in Spanish)
-  - Buddha Air Flight 901
-  - An ATR 72-500, overran the runway upon landing at Bhadrapur Airport in Nepal and
-    crashed into a creek. All 55 people on board survived, though 7 people received
-    minor injuries and the aircraft was written off. (MyRepublica)
-  - At least fourteen people die and several people are hospitalised after drinking
-    contaminated water in Indore, Madhya Pradesh, India. (The Hindu)
-  - Eleven people are killed and eleven others are injured after a bus and a truck
-    collide head-on on a federal highway in Pelotas, Rio Grande do Sul, Brazil. (Reuters)
-    (G1)
-  - At least four people are trapped when a multi-story building collapses in Nairobi,
-    Kenya. (AP)
-  - Dozens of people are missing and at least 102 others are rescued after a boat
-    carrying over 200 migrants capsizes off the coast of the North Bank Division of
-    the Gambia. (AP)
-  - Climate change in the United Kingdom
-  - The United Kingdom records its hottest and sunniest year in 2025 with an average
-    temperature of , surpassing the 2022 record of . (Business Day)
-  - Burkina Faso–United States relations, Mali–United States relations, Niger–United
-    States relations
-  - The Alliance of Sahel States, consisting of Burkina Faso, Mali, and Niger, bans
-    American citizens from entering the countries, to reciprocate the U.S. banning
-    their citizens. (Al Jazeera)
-  - 2022–2025 Pakistan political unrest, Terrorism in Pakistan
-  - The Pakistani anti-terrorism court sentences eight journalists and online commentators,
-    including Wajahat Saeed Khan, Adil Raja, and Shaheen Sehbai, to life imprisonment
-    in absentia for terrorism-related offences tied to digital content supporting
-    former prime minister Imran Khan during the unrest. (Reuters)
-  - 2025–2026 Iranian protests
-  - A protester is shot dead by security forces in Harsin, Kermanshah province, Iran.
-    (Hengaw)
-  - Arrest of Yoon Suk Yeol
-  - A South Korean court issues a new six-month detention warrant for former president
-    Yoon Suk Yeol after indicting him on additional charges linked to his declaration
-    of martial law in 2024, citing the risk of evidence tampering. (Reuters)
-  - Education in Greece
-  - Greece removes more than 308,000 inactive students from public university records
-    under new education rules that end long-term dormant enrollment, reducing the
-    official student population by almost half. (AP)
-  - Ciudad de la Paz, a planned city in the mainland, officially becomes the new capital
-    of Equatorial Guinea, replacing Malabo, with a decree by President Teodoro Obiang
-    Nguema Mbasogo. Government services are to relocate within one year. (Africanews)
-    (Arch Daily)
+date: "2026-01-02"
+source_page:
+  portal: "Portal:Current events/2026 January 2"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 2, 2026 was shaped by the aftermath and verification of disasters that
+  opened the year, alongside a cluster of accountability and governance actions
+  across multiple continents. Swiss investigators attributed the Crans-Montana bar
+  fire to celebratory "sparkling candles" and triggered nationwide venue
+  inspections, while fresh disasters — a magnitude 6.5 earthquake in Mexico,
+  avalanches in the Italian Alps, a building collapse in Nairobi, and a highway
+  collision in southern Brazil — added to the toll. A recurring feature of the
+  day's coverage was sharply divergent casualty reporting across outlets, from the
+  Gambian migrant-boat capsize to the eastern DRC militant attacks, underscoring
+  the difficulty of rapid verification in fast-moving events. In parallel, courts
+  in South Korea and Pakistan handed down high-profile rulings, Equatorial Guinea
+  relocated its capital by decree, the UK Met Office confirmed a record-warm 2025,
+  and the global EV market recorded a symbolic shift as BYD overtook Tesla.
+
+events:
+  - id: "evt-2026-01-02-001"
+    category: "Disasters and accidents"
+    subcategory: "Structural fires"
+    topics:
+      - "2026 Crans-Montana bar fire"
+      - "Switzerland"
+      - "fire investigation"
+      - "pyrotechnics safety"
+    importance: 7
+    headline: "Swiss investigators say sparkling candles likely ignited deadly Crans-Montana bar fire"
+    summary: >
+      Investigators in Switzerland said evidence indicated that "sparkling candles"
+      used during New Year celebrations were the likely source of ignition for the
+      deadly fire at Le Constellation in the ski resort of Crans-Montana. Reporting
+      described a mass-casualty incident with extensive burn injuries; the Associated
+      Press reported 41 killed, and Reuters cited the same toll in later follow-up
+      reporting about Swiss authorities ordering nationwide inspections of bars,
+      nightclubs, and other venues in response to the disaster.
+    key_data:
+      - label: "Reported Fatalities"
+        value: "41"
+        citation_refs: [1, 2]
+      - label: "Reported Injuries"
+        value: "115"
+        citation_refs: [1]
+      - label: "Likely Ignition Source"
+        value: "Sparkling candles attached to champagne bottles"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "Swiss investigators said the fire was likely started by sparkling candles attached to champagne bottles during New Year celebrations."
+        - "Reuters reported Swiss authorities ordered inspections of bars, nightclubs, and other venues following the deadly fire."
+        - "The death toll was reported as 41 by the Associated Press, with Reuters citing the same figure in its later reporting on follow-on inspections."
+        - "Reporting emphasized the scale of casualties and severe burn injuries, driving a broader public-safety response."
+      why_it_matters:
+        - "The incident focused renewed attention on indoor fire risks associated with celebratory candles and pyrotechnic-style items in crowded venues."
+        - "Follow-on inspections signaled a national-level safety response beyond the immediate disaster site."
+      uncertainty_notes:
+        - "Death-toll figures differed slightly between outlets in early reporting; the cited sources converge on 41 killed."
+    actors:
+      primary:
+        - "Swiss investigators and authorities"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Swiss federal and cantonal authorities"
+          description: "Investigators and regulators ordering post-incident venue inspections (not individually named in the cited reporting)"
+      states:
+        - "Switzerland"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Crans-Montana, Valais"
+        - "Le Constellation bar"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 41
+      injured: 115
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Extent of structural damage not specified in the cited reporting; venue destroyed in the January 1 fire."
+    classification:
+      event_type:
+        - "disaster-followup"
+        - "fire-investigation"
+        - "regulatory-response"
+      tags:
+        - "sparkling-candles"
+        - "venue-inspections"
+        - "fire-safety"
+        - "crans-montana"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-001-a
+          outlet: "The Associated Press"
+          url: "https://apnews.com/article/switzerland-fire-constellation-crans-montana-3aa2dba8629c4f6f8a947c5a0f6a6050"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "sparkling candles attached to champagne bottles were likely to have started the fire"
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/swiss-authorities-inspect-nightclubs-bars-after-deadly-fire-2026-01-06/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "authorities ordered inspections after 41 people were killed"
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Follow-up reporting to the January 1, 2026 Crans-Montana bar fire."
+
+  - id: "evt-2026-01-02-002"
+    category: "Disasters and accidents"
+    subcategory: "Earthquakes"
+    topics:
+      - "2026 Guerrero earthquake"
+      - "Mexico"
+      - "earthquake"
+      - "Claudia Sheinbaum"
+    importance: 7
+    headline: "Strong magnitude 6.5 earthquake strikes Guerrero, Mexico, disrupting Sheinbaum briefing"
+    summary: >
+      A magnitude 6.5 earthquake struck near San Marcos in Guerrero state, shaking
+      southern and central Mexico and interrupting President Claudia Sheinbaum's live
+      morning press briefing as seismic alarms sounded. The earliest Reuters reporting
+      emphasized the immediate disruption and noted no immediate reports of injuries
+      or major damage, while later Associated Press reporting described at least two
+      deaths, widespread alarm, and aftershocks. The U.S. Geological Survey reported
+      the quake's magnitude, location, and depth on its event page.
+    key_data:
+      - label: "Magnitude"
+        value: "6.5"
+        citation_refs: [5]
+      - label: "Depth"
+        value: "18.0 km"
+        citation_refs: [5]
+      - label: "Epicenter"
+        value: "Near San Marcos, Guerrero"
+        citation_refs: [5]
+      - label: "Reported Deaths"
+        value: "At least 2 (per later AP reporting)"
+        citation_refs: [4]
+    details:
+      what_happened:
+        - "The U.S. Geological Survey recorded a magnitude 6.5 quake near San Marcos, Guerrero, at a depth of 18.0 km."
+        - "Reuters reported the quake disrupted Sheinbaum's press conference in Mexico City as alarms sounded and people evacuated."
+        - "The Associated Press later reported at least two deaths associated with the quake and described extensive public alarm and aftershocks."
+        - "Reuters noted that in the immediate aftermath there were no immediate reports of injuries or significant damage, reflecting early-stage reporting."
+      why_it_matters:
+        - "Conflicting early versus later casualty reporting illustrated how rapidly disaster assessments can evolve in the hours after a major quake."
+        - "The quake's disruption of a nationally broadcast presidential briefing underscored the event's scale of felt impact."
+      uncertainty_notes:
+        - "Early Reuters reporting cited no immediate casualties; later AP reporting described at least two deaths. The portal summary cited two killed and twelve injured."
+        - "Initial magnitude estimates varied by agency (GFZ early estimate versus USGS 6.5)."
+    actors:
+      primary:
+        - "U.S. Geological Survey"
+        - "Claudia Sheinbaum"
+      secondary: []
+    entities:
+      people:
+        - name: "Claudia Sheinbaum"
+          role: "President of Mexico"
+      organizations:
+        - name: "U.S. Geological Survey"
+          description: "U.S. earth science agency reporting earthquake parameters"
+      states:
+        - "Mexico"
+    geography:
+      countries:
+        - "Mexico"
+      places:
+        - "San Marcos, Guerrero"
+        - "Mexico City"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: true
+      time_detail: "During Sheinbaum's morning press conference"
+      ongoing: false
+    casualty_report:
+      killed: 2
+      injured: 12
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Extent not specified in the cited reporting."
+    classification:
+      event_type:
+        - "natural-disaster"
+        - "earthquake"
+      tags:
+        - "guerrero"
+        - "seismic-alert"
+        - "aftershocks"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A earthquake strikes off the coast of San Marcos, Guerrero, Mexico, killing two people and injuring 12 others."
+      external:
+        - id: src-002-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/environment/earthquake-magnitude-63-strikes-mexico-gfz-says-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "temporarily disrupted President Claudia Sheinbaum's morning press conference"
+          citation_refs: [3]
+        - id: src-002-b
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/ce9e9e76e445e68797e36b2fa8e14418"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "causing widespread alarm and resulting in at least two deaths"
+          citation_refs: [4]
+        - id: src-002-c
+          outlet: "U.S. Geological Survey"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm3k"
+          publication_date: "2026-01-02"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Magnitude: 6.5 ... Depth: 18.0 km"
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-003"
+    category: "Disasters and accidents"
+    subcategory: "Maritime incidents"
+    topics:
+      - "The Gambia"
+      - "migrant boat capsize"
+      - "Atlantic migration route"
+      - "search and rescue"
+    importance: 7
+    headline: "Dozens missing after migrant boat capsizes off The Gambia; tolls disputed"
+    summary: >
+      A boat described as carrying more than 200 migrants capsized off the Gambian
+      coast around New Year's, triggering a search-and-rescue operation involving
+      state responders and local fishing boats. Reporting diverged on key figures:
+      Reuters reported seven dead and 96 rescued based on a defence ministry
+      statement; the Gambia Maritime Administration reported 102 rescued and four
+      confirmed deaths as of January 1; and the Associated Press reported 102 rescued
+      and seven bodies recovered, citing a state broadcast by President Adama Barrow.
+      In all accounts, officials warned that many people were still unaccounted for.
+    key_data:
+      - label: "Estimated Onboard"
+        value: "More than 200 migrants"
+        citation_refs: [8]
+      - label: "Rescued"
+        value: "96 (Reuters) / 102 (Gambia Maritime Administration, AP)"
+        citation_refs: [6, 7, 8]
+      - label: "Confirmed Deaths"
+        value: "4 (Gambia Maritime Administration) / 7 (Reuters, AP)"
+        citation_refs: [6, 7, 8]
+    details:
+      what_happened:
+        - "Reuters cited a Gambian defence ministry statement reporting seven deaths and 96 rescues after a migrant boat capsized."
+        - "The Gambia Maritime Administration issued an incident update listing 102 persons rescued and four confirmed deaths as of January 1, 2026."
+        - "The Associated Press reported President Adama Barrow said 102 survivors were rescued and seven bodies were recovered, with dozens missing."
+        - "AP reported the boat was found grounded on a sandbank, while noting uncertainty about what caused the tragedy."
+      why_it_matters:
+        - "The conflicting official and media counts highlighted the information gaps typical in fast-moving maritime disasters involving irregular migration routes."
+        - "The incident underscored ongoing life-threatening risks on Atlantic migration routes toward Europe."
+      uncertainty_notes:
+        - "Death toll conflicting: four confirmed by the Gambia Maritime Administration versus seven reported by Reuters and AP."
+        - "Rescue count varied between 96 and 102 across sources."
+    actors:
+      primary:
+        - "Adama Barrow"
+        - "Gambian defence and maritime authorities"
+      secondary:
+        - "Local fishermen and volunteers"
+    entities:
+      people:
+        - name: "Adama Barrow"
+          role: "President of The Gambia"
+      organizations:
+        - name: "Gambia Maritime Administration"
+          description: "Gambian maritime regulatory agency"
+        - name: "Gambian Ministry of Defence"
+          description: "Source of an early casualty statement"
+      states:
+        - "The Gambia"
+    geography:
+      countries:
+        - "The Gambia"
+      places:
+        - "North Bank region coastline"
+        - "Jinack"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 7
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Total loss of the migrant vessel."
+    classification:
+      event_type:
+        - "disaster"
+        - "maritime-accident"
+        - "migration"
+      tags:
+        - "canary-islands-route"
+        - "irregular-migration"
+        - "search-and-rescue"
+        - "disputed-toll"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Dozens of people are missing and at least 102 others are rescued after a boat carrying over 200 migrants capsizes off the coast of the North Bank Division of the Gambia."
+      external:
+        - id: src-003-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/seven-bodies-recovered-96-rescued-after-migrant-boat-capsizes-gambia-says-2026-01-01/"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "seven lost their lives and 96 were rescued"
+          citation_refs: [6]
+        - id: src-003-b
+          outlet: "Gambia Maritime Administration"
+          url: "https://www.gambiamaritime.com/press-release-jinack-boat"
+          publication_date: "2026-01-01"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "One hundred and two (102) persons rescued ... Four (4) confirmed deaths"
+          citation_refs: [7]
+        - id: src-003-c
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/gambia-boat-migrants-capsizing-atlantic-7058d8af4f362eb299a685709d0b693a"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "grounded on a sandbank"
+          citation_refs: [8]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Related to the January 1, 2026 Gambia migrant-boat capsize reporting."
+
+  - id: "evt-2026-01-02-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes and separatist politics"
+    topics:
+      - "Yemeni civil war"
+      - "Southern Transitional Council"
+      - "Saudi-led coalition"
+      - "2025 Southern Yemen offensive"
+    importance: 7
+    headline: "Saudi-led coalition strikes STC targets in Yemen as separatists push referendum plan"
+    summary: >
+      Reporting described Saudi-led coalition airstrikes targeting positions held by
+      the UAE-backed Southern Transitional Council (STC) in Yemen, with witnesses and
+      STC-linked accounts pointing to strikes around Hadhramaut, including near Seiyun.
+      Separately, Reuters reported the STC announced plans to hold a referendum on
+      independence, while describing the escalation as part of a widening rift between
+      Saudi Arabia and the UAE inside Yemen's government-controlled areas. The reports
+      emphasized active fighting, shifting territorial control, and competing political
+      endgames.
+    key_data:
+      - label: "Reported STC Fighters Killed"
+        value: "7 (STC official, AFP/Times of Israel) / 20 (portal summary)"
+        citation_refs: [9, 10]
+      - label: "Strike Locations"
+        value: "Hadhramaut, including near Seiyun (airport and a military base)"
+        citation_refs: [10]
+      - label: "STC Referendum Plan"
+        value: "Independence vote for the State of South Arabia by end-2026"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "AFP reporting described Saudi-led coalition strikes on UAE-backed STC positions, with the STC reporting fatalities in the strikes."
+        - "Reuters reported the STC said it would hold an independence referendum by the end of 2026."
+        - "Reuters described the broader crisis as reflecting rivalry between Riyadh and Abu Dhabi in Yemen's government-run areas."
+        - "Reporting indicated strikes hit areas including Hadhramaut's Seiyun city, with an airport and a military base cited by witnesses and STC sources."
+      why_it_matters:
+        - "The combination of airstrikes and referendum plans suggested an escalating fracture inside the anti-Houthi camp, with potential implications for Yemen's territorial integrity."
+        - "Coalition strikes against a coalition-aligned separatist actor signaled a possible shift in alignment and escalation risk in southern and eastern Yemen."
+      uncertainty_notes:
+        - "Casualty figures varied: an STC official cited seven killed, while the portal summary referenced 20 STC fighters killed and more than 20 injured."
+    actors:
+      primary:
+        - "Southern Transitional Council (STC)"
+        - "Saudi-led coalition"
+      secondary:
+        - "United Arab Emirates"
+    entities:
+      people: []
+      organizations:
+        - name: "Southern Transitional Council"
+          description: "UAE-backed Yemeni separatist group"
+        - name: "Saudi-led coalition"
+          description: "Military coalition intervening in the Yemeni civil war"
+      states:
+        - "Yemen"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "Yemen"
+      places:
+        - "Hadhramaut Governorate"
+        - "Seiyun"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 7
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Strikes reported on positions, an airport, and a military base near Seiyun."
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+        - "separatist-politics"
+      tags:
+        - "saudi-uae-rift"
+        - "hadhramaut"
+        - "independence-referendum"
+        - "anti-houthi-coalition"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Saudi Arabia-led coalition in Yemen launches airstrikes in Hadhramaut Governorate, killing 20 Southern Transitional Council (STC) fighters and leaving more than 20 others injured. The STC announces a plan to hold an independence referendum for the State of South Arabia within two years."
+      external:
+        - id: src-004-a
+          outlet: "Courthouse News Service (AFP)"
+          url: "https://courthousenews.com/seven-killed-as-saudi-coalition-strikes-uae-backed-forces-in-yemen/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Seven killed as Saudi coalition strikes UAE-backed forces"
+          citation_refs: [9]
+        - id: src-004-b
+          outlet: "The Times of Israel"
+          url: "https://www.timesofisrael.com/saudi-jets-strike-uae-backed-separatists-in-yemen-abu-dhabi-says-its-forces-have-withdrawn/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Airstrikes killed seven separatist fighters"
+          citation_refs: [10]
+        - id: src-004-c
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/yemen-separatists-say-they-will-hold-referendum-independence-by-end-2026-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "the STC said it would hold a referendum by end-2026"
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Continuation of the Saudi-UAE rift and Aden-area crisis reported on January 1, 2026."
+
+  - id: "evt-2026-01-02-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Militant attacks on civilians"
+    topics:
+      - "Allied Democratic Forces insurgency"
+      - "Democratic Republic of the Congo"
+      - "North Kivu"
+      - "Islamic State"
+    importance: 6
+    headline: "ISIS-linked ADF attacks kill civilians in eastern DR Congo; death toll disputed"
+    summary: >
+      Reuters reported that Islamic State-linked ADF rebels killed at least 15 people
+      in attacks on multiple villages in Lubero territory, citing local officials and
+      describing a pattern of lethal attacks primarily targeting civilians. DRC outlet
+      Actualite.cd also reported 15 deaths while describing village-to-village attacks,
+      and Le Monde (AFP) reported at least 14 killed, relaying local claims of 15 deaths
+      and multiple houses burned. The reporting collectively emphasized continuing
+      insecurity, competing casualty claims, and attacks spanning several nearby
+      communities.
+    key_data:
+      - label: "Reported Deaths"
+        value: "At least 14 (AFP/Le Monde) / at least 15 (Reuters, Actualite.cd)"
+        citation_refs: [12, 13, 14]
+      - label: "Houses Burned"
+        value: "13 (reported via AFP/Le Monde)"
+        citation_refs: [14]
+      - label: "Location"
+        value: "Lubero Territory, North Kivu"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "Reuters reported ADF-linked attackers killed at least 15 people in Lubero territory, citing two officials."
+        - "Reuters included local breakdowns indicating some victims were killed with bladed weapons and that there was gunfire exchange in at least one location."
+        - "Actualite.cd reported 15 deaths while describing successive attacks across multiple villages and adding locally sourced details."
+        - "Le Monde (AFP) reported at least 14 killed and relayed local claims of 15 killed and 13 houses burned."
+      why_it_matters:
+        - "Divergent death-toll reporting reflected the difficulty of rapid verification in remote conflict zones and ongoing volatility in eastern DRC."
+        - "The incident underscored persistent civilian exposure to armed-group violence in North Kivu despite ongoing security operations."
+      uncertainty_notes:
+        - "Death toll conflicting: at least 14 (AFP via Le Monde) versus at least 15 (Reuters and Actualite.cd)."
+    actors:
+      primary:
+        - "Allied Democratic Forces (ADF)"
+      secondary:
+        - "Congolese security forces (FARDC)"
+    entities:
+      people: []
+      organizations:
+        - name: "Allied Democratic Forces"
+          description: "Islamic State-linked armed group operating in eastern DRC"
+        - name: "FARDC"
+          description: "Armed Forces of the Democratic Republic of the Congo"
+      states:
+        - "Democratic Republic of the Congo"
+    geography:
+      countries:
+        - "Democratic Republic of the Congo"
+      places:
+        - "Lubero Territory"
+        - "North Kivu"
+        - "Bapere"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 15
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "13 houses reported burned (via AFP/Le Monde)."
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "militant-attack"
+        - "mass-killing"
+      tags:
+        - "adf"
+        - "islamic-state"
+        - "north-kivu"
+        - "disputed-toll"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-005-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/islamic-state-linked-rebels-kill-15-eastern-congo-officials-say-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "attackers killed at least 15 people"
+          citation_refs: [12]
+        - id: src-005-b
+          outlet: "Actualite.cd"
+          url: "https://actualite.cd/2026/01/02/un-nouvel-sombre-bapere-lubero-au-moins-15-morts-dans-des-attaques-adf"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Ce qui fait 15 morts"
+          citation_refs: [13]
+        - id: src-005-c
+          outlet: "Le Monde (AFP)"
+          url: "https://www.lemonde.fr/en/le-monde-africa/article/2026/01/03/14-killed-in-dr-congo-attack-by-a-militia-linked-to-the-islamic-state-group_6749026_124.html"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "killing at least 14 people"
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Continuation of ADF attacks in Lubero territory reported on January 1, 2026."
+
+  - id: "evt-2026-01-02-006"
+    category: "Disasters and accidents"
+    subcategory: "Building collapses"
+    topics:
+      - "Nairobi building collapse"
+      - "Kenya"
+      - "construction safety"
+      - "search and rescue"
+    importance: 5
+    headline: "Multi-storey building under construction collapses in Nairobi, people feared trapped"
+    summary: >
+      A multi-storey building under construction collapsed in Nairobi's South C area,
+      with officials and the Kenya Red Cross indicating that multiple people were
+      believed trapped and rescue efforts were underway. Associated Press reporting
+      described an active search operation, including accounts of family members
+      receiving phone contact from under the rubble, while Kenyan media referenced the
+      building's location and response operations. Reporting did not provide a
+      definitive death toll at the time of the initial reports.
+    key_data:
+      - label: "People Believed Trapped"
+        value: "At least 4"
+        citation_refs: [15, 16]
+      - label: "Location"
+        value: "South C, Nairobi"
+        citation_refs: [16]
+      - label: "Status"
+        value: "Building under construction; rescue operation ongoing"
+        citation_refs: [15, 17]
+    details:
+      what_happened:
+        - "The Associated Press reported that a multi-storey building under construction collapsed in Nairobi, with four people believed trapped."
+        - "The Kenya Red Cross said a multi-agency response team was on site managing the situation."
+        - "Nation media reporting described a collapse in South C and referenced on-the-ground response and public concern near adjacent structures."
+        - "Early local reporting stated injuries and fatalities were not yet confirmed, reflecting the evolving rescue phase."
+      why_it_matters:
+        - "The report added to ongoing scrutiny of construction safety and regulation in Kenya's capital, with rescue operations still underway when early reports were filed."
+        - "Uncertainty around the number trapped and casualties highlighted the high-stakes nature of structural collapses in dense urban settings."
+      uncertainty_notes:
+        - "No confirmed death toll at the time of reporting; injuries and fatalities described as not yet confirmed."
+    actors:
+      primary:
+        - "Kenya Red Cross"
+        - "Nairobi emergency responders"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Kenya Red Cross"
+          description: "Kenyan humanitarian organization coordinating the multi-agency response"
+      states:
+        - "Kenya"
+    geography:
+      countries:
+        - "Kenya"
+      places:
+        - "Nairobi"
+        - "South C"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Building under construction collapsed; full extent not otherwise specified."
+    classification:
+      event_type:
+        - "disaster"
+        - "building-collapse"
+      tags:
+        - "construction-safety"
+        - "nairobi"
+        - "search-and-rescue"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least four people are trapped when a multi-story building collapses in Nairobi, Kenya."
+      external:
+        - id: src-006-a
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/kenya-nairobi-building-collapse-south-c-2a07a02a11447c4cfd2fafdf17a52881"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "with 4 believed to be trapped"
+          citation_refs: [15]
+        - id: src-006-b
+          outlet: "Nation Africa"
+          url: "https://nation.africa/kenya/counties/nairobi/in-photos-14-storey-building-collapses-in-south-c-4-feared-trapped-5314302"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "4 feared trapped"
+          citation_refs: [16]
+        - id: src-006-c
+          outlet: "People Daily Digital"
+          url: "https://peopledaily.digital/news/kenya-red-cross-confirms-response-as-building-under-construction-collapses-in-south-c"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "injuries and fatalities yet to be confirmed"
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-007"
+    category: "Disasters and accidents"
+    subcategory: "Avalanches"
+    topics:
+      - "Italy avalanches"
+      - "Alps"
+      - "winter weather"
+      - "mountain rescue"
+    importance: 5
+    headline: "Avalanches strike the northern Italian Alps; fatality counts differ across reporting"
+    summary: >
+      Reuters reported that a series of avalanches in Italy's Alps killed two people
+      and injured several others, emphasizing that strong winds hampered rescue
+      operations and limited helicopter use. Italian news agency ANSA described a
+      broader toll — three deaths and multiple injuries across several avalanche
+      incidents in regions including Piedmont and Veneto — illustrating variability
+      between early incident reporting and consolidated domestic coverage. Both
+      accounts emphasized hazardous winter conditions and difficult rescue logistics.
+    key_data:
+      - label: "Reported Deaths"
+        value: "2 (Reuters) / 3 (ANSA)"
+        citation_refs: [18, 19]
+      - label: "Affected Regions"
+        value: "Piedmont and Veneto, among other alpine areas"
+        citation_refs: [19]
+      - label: "Rescue Constraint"
+        value: "Strong winds limited helicopter operations"
+        citation_refs: [18]
+    details:
+      what_happened:
+        - "Reuters reported two people were killed in a series of avalanches in Italy's Alps, with several others injured."
+        - "Reuters reported strong winds hampered rescue efforts and constrained helicopter operations."
+        - "ANSA reported a higher consolidated toll of three dead and multiple injured across several avalanches in Piedmont and Veneto."
+        - "ANSA described at least one major avalanche incident involving multiple hikers or ski tourers and significant rescue deployments."
+      why_it_matters:
+        - "The reporting highlighted how weather constraints can sharply limit aerial rescue access during avalanche emergencies."
+        - "Divergent fatality totals underscored the importance of cross-checking incident-by-incident versus consolidated domestic reporting."
+      uncertainty_notes:
+        - "Death toll conflicting: two (Reuters) versus three (ANSA). Injury counts described only as several or multiple."
+    actors:
+      primary:
+        - "Italian rescue services and alpine responders"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Italian alpine rescue services"
+          description: "Mountain rescue responders (named generically in the cited reporting)"
+      states:
+        - "Italy"
+    geography:
+      countries:
+        - "Italy"
+      places:
+        - "Piedmont"
+        - "Veneto"
+        - "Italian Alps"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 3
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Not specified in the cited reporting."
+    classification:
+      event_type:
+        - "natural-disaster"
+        - "avalanche"
+      tags:
+        - "alps"
+        - "winter-weather"
+        - "mountain-rescue"
+        - "disputed-toll"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-007-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/environment/avalanches-kill-two-people-injure-several-others-italys-alps-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "strong winds hampering the rescue operations"
+          citation_refs: [18]
+        - id: src-007-b
+          outlet: "ANSA"
+          url: "https://www.ansa.it/sito/notizie/cronaca/2026/01/02/valanga-travolge-almeno-quattro-escursionisti-un-morto-e-due-feriti-gravi.-si-cercano_1d773753-ed3d-4356-8ec7-76bdd83eba99.html"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Tre morti e diversi feriti"
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-008"
+    category: "Politics and elections"
+    subcategory: "Courts and prosecutions"
+    topics:
+      - "Arrest of Yoon Suk Yeol"
+      - "South Korea"
+      - "martial law"
+      - "judiciary"
+    importance: 6
+    headline: "South Korean court extends detention warrant against former president Yoon Suk Yeol"
+    summary: >
+      A South Korean court extended the detention warrant against former president
+      Yoon Suk Yeol for another six months, and he was indicted on additional charges —
+      including aiding an enemy state — tied to his brief declaration of martial law in
+      2024. Reuters, citing Yonhap, reported the extension and that the judge cited
+      concerns Yoon might destroy evidence, while Korean media reporting framed the
+      action as an additional arrest warrant grounded in evidence-tampering risk. The
+      reporting emphasized the continuing legal jeopardy facing the former president.
+    key_data:
+      - label: "Detention Extension"
+        value: "Six additional months"
+        citation_refs: [20, 21]
+      - label: "Stated Rationale"
+        value: "Risk of evidence destruction / tampering"
+        citation_refs: [20, 22]
+      - label: "Additional Charges"
+        value: "Including aiding an enemy state, linked to 2024 martial law declaration"
+        citation_refs: [20]
+    details:
+      what_happened:
+        - "Reuters reported the court extended Yoon's detention warrant for another six months, citing Yonhap News TV."
+        - "Yonhap reported the court issued a new warrant to detain Yoon for another six months."
+        - "Reuters reported the judge cited concerns Yoon might destroy evidence."
+        - "Korea JoongAng Daily reported an additional arrest warrant and cited the risk of evidence destruction in the court's reasoning."
+      why_it_matters:
+        - "The renewed warrant represented a major escalation in legal constraints on a former head of state, with implications for political stability and accountability narratives."
+        - "The cited evidence-destruction concern underscored the court's assessment of investigatory risk in a high-profile, national-security-linked case."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Yoon Suk Yeol"
+        - "South Korean judiciary"
+      secondary:
+        - "Yonhap News Agency"
+        - "South Korean prosecutors"
+    entities:
+      people:
+        - name: "Yoon Suk Yeol"
+          role: "Former President of South Korea"
+      organizations:
+        - name: "Yonhap News Agency"
+          description: "South Korean news agency cited as a reporting conduit"
+      states:
+        - "South Korea"
+    geography:
+      countries:
+        - "South Korea"
+      places:
+        - "Seoul"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 1
+      damage: null
+    classification:
+      event_type:
+        - "judicial-proceeding"
+        - "detention"
+      tags:
+        - "martial-law"
+        - "evidence-tampering"
+        - "accountability"
+        - "former-head-of-state"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A South Korean court issues a new six-month detention warrant for former president Yoon Suk Yeol after indicting him on additional charges linked to his declaration of martial law in 2024, citing the risk of evidence tampering."
+      external:
+        - id: src-008-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/south-korean-court-extends-detention-warrant-against-former-president-yoon-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "concern he might destroy evidence"
+          citation_refs: [20]
+        - id: src-008-b
+          outlet: "Yonhap News Agency"
+          url: "https://en.yna.co.kr/view/AEN20260102010600315"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "to detain him for another 6 months"
+          citation_refs: [21]
+        - id: src-008-c
+          outlet: "Korea JoongAng Daily"
+          url: "https://koreajoongangdaily.joins.com/news/2026-01-02/national/politics/Court-issues-additional-arrest-warrant-for-exPresident-Yoon-/2491863"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "risk of destruction of evidence"
+          citation_refs: [22]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-009"
+    category: "Law and crime"
+    subcategory: "Courts and sentences"
+    topics:
+      - "Terrorism in Pakistan"
+      - "press freedom"
+      - "2022–2025 Pakistan political unrest"
+      - "Imran Khan"
+    importance: 6
+    headline: "Pakistani court sentences journalists to life in absentia over alleged 'digital' offences"
+    summary: >
+      A Pakistani anti-terrorism court sentenced journalists and social media
+      commentators to life imprisonment in absentia, with convictions linked to
+      alleged online activity connected to protests following the 2023 arrest of former
+      prime minister Imran Khan. Reuters reported eight people were sentenced and named
+      several; Al Jazeera described the sentences as tied to pro-Khan protests; and UPI
+      reported life sentences for seven people for "digital terrorism," reflecting
+      outlet-level discrepancy on the number sentenced. Reuters said most were believed
+      to be outside Pakistan, did not participate in the trials, and referenced
+      criticism from the Committee to Protect Journalists.
+    key_data:
+      - label: "Number Sentenced"
+        value: "Eight (Reuters) / seven (UPI)"
+        citation_refs: [23, 25]
+      - label: "Sentence"
+        value: "Life imprisonment, in absentia"
+        citation_refs: [23, 24]
+      - label: "Named Defendants"
+        value: "Wajahat Saeed Khan, Adil Raja, Shaheen Sehbai (per portal summary)"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "Reuters reported a Pakistani anti-terrorism court sentenced eight journalists and social media commentators to life imprisonment in absentia."
+        - "Al Jazeera reported journalists were sentenced to life over the 2023 pro-Khan protests, noting trials were held in absentia."
+        - "UPI reported life sentences for seven defendants for 'digital terrorism,' indicating an outlet-level discrepancy in the number convicted."
+        - "Reuters said critics, including the Committee to Protect Journalists, viewed the convictions as politically motivated and that the verdict required confirmation by the Islamabad High Court."
+      why_it_matters:
+        - "The case raised significant press-freedom and due-process concerns due to life sentences imposed in absentia in a politically charged context."
+        - "The discrepancy in how many people were sentenced (seven versus eight) highlighted reporting variability even among major outlets covering the same proceeding."
+      uncertainty_notes:
+        - "Number of defendants sentenced conflicting: eight (Reuters) versus seven (UPI)."
+    actors:
+      primary:
+        - "Pakistani anti-terrorism court"
+        - "Sentenced journalists and commentators"
+      secondary:
+        - "Imran Khan"
+        - "Committee to Protect Journalists"
+    entities:
+      people:
+        - name: "Wajahat Saeed Khan"
+          role: "Journalist sentenced in absentia"
+        - name: "Adil Raja"
+          role: "Commentator sentenced in absentia"
+        - name: "Shaheen Sehbai"
+          role: "Journalist sentenced in absentia"
+        - name: "Imran Khan"
+          role: "Former Prime Minister of Pakistan (context)"
+      organizations:
+        - name: "Committee to Protect Journalists"
+          description: "U.S.-based press-freedom NGO that criticized the convictions"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places:
+        - "Islamabad"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Legal penalties: life imprisonment sentences issued in absentia."
+    classification:
+      event_type:
+        - "judicial-proceeding"
+        - "sentencing"
+        - "press-freedom"
+      tags:
+        - "digital-terrorism"
+        - "in-absentia"
+        - "imran-khan"
+        - "anti-terrorism-court"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Pakistani anti-terrorism court sentences eight journalists and online commentators, including Wajahat Saeed Khan, Adil Raja, and Shaheen Sehbai, to life imprisonment in absentia for terrorism-related offences tied to digital content supporting former prime minister Imran Khan during the unrest."
+      external:
+        - id: src-009-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/media-telecom/pakistan-court-sentences-journalists-life-over-links-protests-after-imran-khans-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "sentenced to life in absentia"
+          citation_refs: [23]
+        - id: src-009-b
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/2/pakistan-court-sentences-journalists-to-life-over-2023-pro-khan-protests"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "trials were held in absentia"
+          citation_refs: [24]
+        - id: src-009-c
+          outlet: "UPI"
+          url: "https://www.upi.com/Top_News/World-News/2026/01/02/pakistan-digital-terrorism/7451767395180/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts:
+            - key_data
+          quoted_material:
+            - "life sentences for digital terrorism"
+          citation_refs: [25]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-010"
+    category: "Politics and elections"
+    subcategory: "National capitals and state administration"
+    topics:
+      - "Equatorial Guinea"
+      - "Ciudad de la Paz"
+      - "capital relocation"
+      - "Teodoro Obiang Nguema Mbasogo"
+    importance: 6
+    headline: "Equatorial Guinea relocates capital from Malabo to Ciudad de la Paz by decree"
+    summary: >
+      Equatorial Guinea officially changed its capital from Malabo, on Bioko Island,
+      to Ciudad de la Paz, on the mainland, via a decree signed by President Teodoro
+      Obiang Nguema Mbasogo. Le Monde (AFP) described the move as a decree changing the
+      capital, Barron's reported the change was made by presidential decree and located
+      the new capital in Djibloho province, and ArchDaily described the relocation as
+      formal and long-planned, noting the planned city's construction origins and
+      alternate names. Government services are to relocate within one year.
+    key_data:
+      - label: "Former Capital"
+        value: "Malabo (Bioko Island)"
+        citation_refs: [26]
+      - label: "New Capital"
+        value: "Ciudad de la Paz (Djibloho province, mainland)"
+        citation_refs: [27]
+      - label: "Mechanism"
+        value: "Presidential decree"
+        citation_refs: [27]
+      - label: "Transition Period"
+        value: "Government services to relocate within one year"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "Le Monde (AFP) reported a decree changed the capital from Malabo to Ciudad de la Paz on the mainland."
+        - "Barron's reported the move was done via a presidential decree and located Ciudad de la Paz in Djibloho province."
+        - "ArchDaily reported Malabo served as capital until January 2, 2026, when a decree issued by Obiang transferred the capital to Ciudad de la Paz."
+        - "ArchDaily described Ciudad de la Paz as a planned capital, also referred to as Djibloho or Oyala."
+      why_it_matters:
+        - "Relocating a national capital by decree is a major administrative and political reconfiguration, with implications for government operations and the national geography of power."
+        - "The move reflects long-term planned-capital development choices as described in international reporting."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Teodoro Obiang Nguema Mbasogo"
+      secondary: []
+    entities:
+      people:
+        - name: "Teodoro Obiang Nguema Mbasogo"
+          role: "President of Equatorial Guinea"
+      organizations: []
+      states:
+        - "Equatorial Guinea"
+    geography:
+      countries:
+        - "Equatorial Guinea"
+      places:
+        - "Malabo"
+        - "Ciudad de la Paz"
+        - "Djibloho"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "administrative-reorganization"
+        - "capital-relocation"
+      tags:
+        - "planned-capital"
+        - "presidential-decree"
+        - "djibloho"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Ciudad de la Paz, a planned city in the mainland, officially becomes the new capital of Equatorial Guinea, replacing Malabo, with a decree by President Teodoro Obiang Nguema Mbasogo. Government services are to relocate within one year."
+      external:
+        - id: src-010-a
+          outlet: "Le Monde (AFP)"
+          url: "https://www.lemonde.fr/en/international/article/2026/01/04/equatorial-guinea-relocates-capital-to-ciudad-de-la-paz_6749064_4.html"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "changed the capital from Malabo to Ciudad de la Paz"
+          citation_refs: [26]
+        - id: src-010-b
+          outlet: "Barron's"
+          url: "https://www.barrons.com/news/e-guinea-relocates-capital-citing-strategic-reasons-7b48792c"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "via a presidential decree"
+          citation_refs: [27]
+        - id: src-010-c
+          outlet: "ArchDaily"
+          url: "https://www.archdaily.com/1037773/equatorial-guinea-relocates-its-capital-from-malabo-to-ciudad-de-la-paz-on-central-africas-mainland"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "until January 2, 2026, when a decree transferred the capital"
+          citation_refs: [28]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-011"
+    category: "Environment and climate"
+    subcategory: "National climate records"
+    topics:
+      - "Climate change in the United Kingdom"
+      - "Met Office"
+      - "temperature record"
+      - "2025 climate"
+    importance: 5
+    headline: "UK Met Office confirms 2025 was Britain's warmest and sunniest year on record"
+    summary: >
+      The UK Met Office announced provisional figures indicating that 2025 was both the
+      warmest and sunniest year on record for the United Kingdom, reporting a mean
+      temperature of 10.09°C and emphasizing the rarity of annual mean temperatures
+      exceeding 10°C in a historical series dating back to 1884. Reuters and The
+      Guardian reported the findings, reinforcing the record framing and placing the
+      result in the context of recent years ranking among the warmest on record.
+    key_data:
+      - label: "Mean Temperature (2025)"
+        value: "10.09°C"
+        citation_refs: [29]
+      - label: "Records Set"
+        value: "Warmest and sunniest year on record"
+        citation_refs: [29, 30]
+      - label: "Previous Temperature Record"
+        value: "2022"
+        citation_refs: [30]
+      - label: "Series Start"
+        value: "1884"
+        citation_refs: [30]
+    details:
+      what_happened:
+        - "The Met Office said 2025 set UK records as both the warmest and sunniest year on record, citing provisional figures."
+        - "The Met Office reported a UK mean temperature of 10.09°C in 2025 and presented ranked comparisons with prior warm years."
+        - "Reuters reported the Met Office said 2025 surpassed the prior annual temperature record set in 2022 and noted the long-term record series since 1884."
+        - "The Guardian reported the same record claims and cited sunshine-hour figures as part of the double-record framing."
+      why_it_matters:
+        - "The record-setting national metrics were presented by the Met Office as evidence of rapidly shifting climate baselines in the UK."
+        - "The findings provided an official benchmark used by multiple outlets for public discussion of climate risk and policy context."
+      uncertainty_notes:
+        - "Figures described as provisional by the Met Office."
+    actors:
+      primary:
+        - "Met Office"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Met Office"
+          description: "UK national weather service"
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "climate-record"
+        - "scientific-announcement"
+      tags:
+        - "warmest-year"
+        - "sunniest-year"
+        - "met-office"
+        - "climate-change"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United Kingdom records its hottest and sunniest year in 2025 with an average temperature of , surpassing the 2022 record of ."
+      external:
+        - id: src-011-a
+          outlet: "Met Office"
+          url: "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/2025-is-double-record-breaker-uks-warmest-and-sunniest-year-on-record"
+          publication_date: "2026-01-02"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Recording a mean temperature of 10.09°C"
+          citation_refs: [29]
+        - id: src-011-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/cop/uk-records-hottest-sunniest-year-ever-2025-says-weather-service-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "hottest and sunniest year on record"
+          citation_refs: [30]
+        - id: src-011-c
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/uk-news/2026/jan/02/2025-uk-warmest-and-sunniest-year-on-record-met-office"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "warmest and sunniest year on record"
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-012"
+    category: "Business and economy"
+    subcategory: "Automakers and EV markets"
+    topics:
+      - "BYD"
+      - "Tesla"
+      - "electric vehicles"
+      - "global EV market"
+    importance: 6
+    headline: "BYD overtakes Tesla as the world's top battery-electric seller in 2025"
+    summary: >
+      Reporting on automaker sales said BYD surpassed Tesla's battery-electric vehicle
+      deliveries in 2025, taking the position of the world's biggest EV seller as Tesla
+      reported a second consecutive annual sales decline. Reuters and the Associated
+      Press both reported Tesla's 2025 deliveries at about 1.64 million and BYD's
+      battery-electric sales at about 2.26 million, while describing contributing
+      factors such as competition and demand pressures. Coverage focused on the
+      symbolic shift and competitive stakes in the global EV market.
+    key_data:
+      - label: "Tesla 2025 Deliveries"
+        value: "~1.64 million"
+        citation_refs: [32, 33]
+      - label: "BYD 2025 BEV Sales"
+        value: "~2.26 million"
+        citation_refs: [33]
+      - label: "BYD Sales Outside China"
+        value: "Record ~1 million vehicles"
+        citation_refs: [32]
+      - label: "Tesla Trend"
+        value: "Second consecutive year of declining annual EV sales"
+        citation_refs: [33]
+    details:
+      what_happened:
+        - "Reuters reported Tesla's quarterly deliveries fell more than expected and that Tesla lost the EV sales crown to BYD on 2025 totals."
+        - "AP reported Tesla delivered 1.64 million vehicles in 2025, while BYD sold 2.26 million."
+        - "Reuters reported BYD's sales outside China reached a record 1 million vehicles in 2025."
+        - "Reporting framed the result as Tesla's second consecutive year of declining annual EV sales."
+      why_it_matters:
+        - "The shift signaled intensifying competition and the growing global reach of Chinese EV manufacturing at the top of the battery-electric market."
+        - "Tesla's reported decline for a second year reinforced market concerns around demand, brand, and competitive positioning discussed in the coverage."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "BYD"
+        - "Tesla"
+      secondary:
+        - "Elon Musk"
+    entities:
+      people:
+        - name: "Elon Musk"
+          role: "CEO of Tesla"
+      organizations:
+        - name: "BYD"
+          description: "Chinese automaker and EV manufacturer"
+        - name: "Tesla"
+          description: "U.S.-based electric vehicle manufacturer"
+      states:
+        - "China"
+        - "United States"
+    geography:
+      countries:
+        - "China"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "business-milestone"
+        - "market-shift"
+      tags:
+        - "electric-vehicles"
+        - "byd"
+        - "tesla"
+        - "china-manufacturing"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "BYD Auto, based in China, surpasses the United States-based Tesla, Inc., as the world's best-selling electric vehicle automaker after selling 2.26 million vehicles in 2025, overtaking Tesla's 1.64 million."
+      external:
+        - id: src-012-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/autos-transportation/teslas-quarterly-deliveries-fall-more-than-expected-lower-ev-demand-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "BYD sales outside China climbed to a record 1 million"
+          citation_refs: [32]
+        - id: src-012-b
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/tesla-sales-musk-trump-deliveries-robotaxi-6d60715babde97b3b1a8e2416f4065ca"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Tesla lost its crown"
+          citation_refs: [33]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-013"
+    category: "Disasters and accidents"
+    subcategory: "Road crashes"
+    topics:
+      - "Brazil road crash"
+      - "Pelotas"
+      - "BR-116"
+      - "highway safety"
+    importance: 5
+    headline: "Bus and truck collide head-on near Pelotas, Brazil; at least 11 killed"
+    summary: >
+      Reuters reported that a head-on collision between a bus and a truck in southern
+      Brazil killed at least 11 people, citing a statement from Brazil's Federal Highway
+      Police. CNN Brasil also reported the collision, describing video showing the truck
+      leaving its lane and crossing into oncoming traffic before the crash. The portal
+      summary additionally reported eleven people injured. The reporting focused on the
+      confirmed death toll and the basic circumstances described by authorities and
+      video evidence.
+    key_data:
+      - label: "Killed"
+        value: "At least 11"
+        citation_refs: [34]
+      - label: "Injured"
+        value: "11 (per portal summary)"
+        citation_refs: [36]
+      - label: "Location"
+        value: "Federal highway near Pelotas, Rio Grande do Sul (BR-116)"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "Reuters reported a head-on collision between a bus and a truck killed at least 11 people in southern Brazil."
+        - "Reuters cited Brazil's Federal Highway Police as the source of the death-toll statement."
+        - "CNN Brasil reported video showed the truck departed its lane and entered the opposite carriageway, causing the crash."
+        - "Reporting did not provide a consistent, source-confirmed injured count in the cited excerpts."
+      why_it_matters:
+        - "The incident added to ongoing public-safety concerns around severe highway crashes, with authorities providing only limited initial detail."
+        - "Video-documented circumstances can materially shape official investigations and public understanding in the immediate aftermath."
+      uncertainty_notes:
+        - "Injured count varied; the portal summary cited eleven injured, while the cited wire reporting did not give a consistent figure."
+    actors:
+      primary:
+        - "Brazil Federal Highway Police"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Brazil Federal Highway Police"
+          description: "Brazilian federal traffic enforcement agency (Polícia Rodoviária Federal)"
+      states:
+        - "Brazil"
+    geography:
+      countries:
+        - "Brazil"
+      places:
+        - "Pelotas, Rio Grande do Sul"
+        - "BR-116"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 11
+      injured: 11
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Bus and truck destroyed in head-on collision."
+    classification:
+      event_type:
+        - "disaster"
+        - "road-accident"
+      tags:
+        - "highway-crash"
+        - "head-on-collision"
+        - "br-116"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Eleven people are killed and eleven others are injured after a bus and a truck collide head-on on a federal highway in Pelotas, Rio Grande do Sul, Brazil."
+      external:
+        - id: src-013-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/eleven-killed-bus-crashes-head-on-into-truck-southern-brazil-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "at least 11 people dead"
+          citation_refs: [34]
+        - id: src-013-b
+          outlet: "CNN Brasil"
+          url: "https://www.cnnbrasil.com.br/nacional/sul/rs/video-mostra-momento-do-acidente-que-deixou-11-mortos-em-pelotas/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "invade a contramão"
+          citation_refs: [35]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-02-014"
+    category: "Disasters and accidents"
+    subcategory: "Aviation accidents"
+    topics:
+      - "Buddha Air Flight 901"
+      - "Nepal"
+      - "runway overrun"
+      - "aviation safety"
+    importance: 4
+    headline: "Buddha Air ATR 72 overruns runway at Bhadrapur Airport, Nepal; all 55 survive"
+    summary: >
+      An ATR 72-500 operating as Buddha Air Flight 901 overran the runway upon landing
+      at Bhadrapur Airport in Nepal and crashed into a creek. All 55 people on board
+      survived, though seven people received minor injuries and the aircraft was written
+      off.
+    key_data:
+      - label: "Aircraft"
+        value: "ATR 72-500"
+        citation_refs: [36]
+      - label: "People on Board"
+        value: "55 (all survived)"
+        citation_refs: [36]
+      - label: "Minor Injuries"
+        value: "7"
+        citation_refs: [36]
+      - label: "Aircraft Status"
+        value: "Written off"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "An ATR 72-500 operating as Buddha Air Flight 901 overran the runway on landing at Bhadrapur Airport and crashed into a creek."
+        - "All 55 people on board survived; seven received minor injuries."
+        - "The aircraft was written off as a result of the accident."
+      why_it_matters:
+        - "The survivable runway overrun highlighted aviation-safety conditions at Nepalese regional airports despite the absence of fatalities."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Buddha Air"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Buddha Air"
+          description: "Nepalese domestic airline operating Flight 901"
+      states:
+        - "Nepal"
+    geography:
+      countries:
+        - "Nepal"
+      places:
+        - "Bhadrapur Airport"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 7
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Aircraft written off after crashing into a creek beyond the runway."
+    classification:
+      event_type:
+        - "disaster"
+        - "aviation-accident"
+      tags:
+        - "runway-overrun"
+        - "atr-72"
+        - "no-fatalities"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An ATR 72-500, overran the runway upon landing at Bhadrapur Airport in Nepal and crashed into a creek. All 55 people on board survived, though 7 people received minor injuries and the aircraft was written off."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by MyRepublica per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-02-015"
+    category: "Disasters and accidents"
+    subcategory: "Public health incidents"
+    topics:
+      - "Indore"
+      - "Madhya Pradesh"
+      - "contaminated water"
+      - "India"
+    importance: 5
+    headline: "At least 14 die after drinking contaminated water in Indore, India"
+    summary: >
+      At least fourteen people died and several others were hospitalised after drinking
+      contaminated water in Indore, Madhya Pradesh, India.
+    key_data:
+      - label: "Deaths"
+        value: "At least 14"
+        citation_refs: [36]
+      - label: "Location"
+        value: "Indore, Madhya Pradesh"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "At least fourteen people died after drinking contaminated water in Indore, Madhya Pradesh."
+        - "Several additional people were hospitalised."
+      why_it_matters:
+        - "The incident underscored public-health risks from water contamination in urban India."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Local health authorities in Indore"
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "India"
+    geography:
+      countries:
+        - "India"
+      places:
+        - "Indore, Madhya Pradesh"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 14
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Several people hospitalised."
+    classification:
+      event_type:
+        - "disaster"
+        - "public-health-incident"
+      tags:
+        - "water-contamination"
+        - "india"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least fourteen people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh, India."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by The Hindu per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-02-016"
+    category: "Politics and elections"
+    subcategory: "International relations"
+    topics:
+      - "Alliance of Sahel States"
+      - "Burkina Faso–United States relations"
+      - "Mali–United States relations"
+      - "Niger–United States relations"
+    importance: 5
+    headline: "Alliance of Sahel States bans American citizens in reciprocal travel move"
+    summary: >
+      The Alliance of Sahel States, consisting of Burkina Faso, Mali, and Niger, banned
+      American citizens from entering the three countries, to reciprocate the United
+      States banning their citizens under the expanded U.S. entry restrictions.
+    key_data:
+      - label: "Member States"
+        value: "Burkina Faso, Mali, Niger"
+        citation_refs: [36]
+      - label: "Action"
+        value: "Ban on entry of American citizens (reciprocal)"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "The Alliance of Sahel States (Burkina Faso, Mali, and Niger) banned American citizens from entering the member countries."
+        - "The move was framed as reciprocation for the U.S. banning citizens of the three Sahel states."
+      why_it_matters:
+        - "The reciprocal ban reflected deepening tensions between the Sahel bloc and the United States following expanded U.S. entry restrictions."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Alliance of Sahel States"
+      secondary:
+        - "United States"
+    entities:
+      people: []
+      organizations:
+        - name: "Alliance of Sahel States"
+          description: "Confederation of Burkina Faso, Mali, and Niger"
+      states:
+        - "Burkina Faso"
+        - "Mali"
+        - "Niger"
+        - "United States"
+    geography:
+      countries:
+        - "Burkina Faso"
+        - "Mali"
+        - "Niger"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-action"
+        - "travel-restriction"
+      tags:
+        - "sahel"
+        - "reciprocal-ban"
+        - "us-relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Alliance of Sahel States, consisting of Burkina Faso, Mali, and Niger, bans American citizens from entering the countries, to reciprocate the U.S. banning their citizens."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by Al Jazeera per the Wikipedia portal. Reciprocal to the U.S. entry restrictions effective January 1, 2026. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-02-017"
+    category: "Law and crime"
+    subcategory: "Civil unrest"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "Iran"
+      - "Kermanshah"
+      - "civil unrest"
+    importance: 5
+    headline: "Protester shot dead by security forces in Harsin, Iran"
+    summary: >
+      A protester was shot dead by security forces in Harsin, Kermanshah province,
+      Iran, amid the continuing nationwide protests over economic conditions.
+    key_data:
+      - label: "Reported Deaths"
+        value: "1 protester"
+        citation_refs: [36]
+      - label: "Location"
+        value: "Harsin, Kermanshah province"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "A protester was shot dead by security forces in Harsin, Kermanshah province."
+      why_it_matters:
+        - "The killing added to the death toll from the continuing 2025–2026 Iranian protests and the security forces' lethal response."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Iranian security forces"
+        - "Iranian protesters"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Iranian security forces"
+          description: "State forces responding to nationwide protests"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Harsin, Kermanshah province"
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "civil-unrest"
+        - "protest-death"
+      tags:
+        - "iranian-protests"
+        - "kermanshah"
+        - "lethal-force"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A protester is shot dead by security forces in Harsin, Kermanshah province, Iran."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Portal-derived event; reported by Hengaw per the Wikipedia portal. Continuation of the 2025–2026 Iranian protests reported on January 1, 2026. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-02-018"
+    category: "Politics and elections"
+    subcategory: "Education policy"
+    topics:
+      - "Education in Greece"
+      - "Greece"
+      - "university enrollment"
+      - "education reform"
+    importance: 4
+    headline: "Greece removes over 308,000 inactive students from university records"
+    summary: >
+      Greece removed more than 308,000 inactive students from public university records
+      under new education rules that end long-term dormant enrollment, reducing the
+      official student population by almost half.
+    key_data:
+      - label: "Students Removed"
+        value: "More than 308,000"
+        citation_refs: [36]
+      - label: "Effect"
+        value: "Official student population reduced by almost half"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "Greece removed more than 308,000 inactive students from public university records."
+        - "The change followed new education rules ending long-term dormant enrollment."
+        - "The reform reduced the official student population by almost half."
+      why_it_matters:
+        - "The mass deregistration reflected a structural reform of Greek higher-education record-keeping and resource allocation."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Greece"
+      secondary:
+        - "Greek public universities"
+    entities:
+      people: []
+      organizations:
+        - name: "Government of Greece"
+          description: "Implementing the higher-education enrollment reform"
+      states:
+        - "Greece"
+    geography:
+      countries:
+        - "Greece"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-02"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "policy-implementation"
+        - "education-reform"
+      tags:
+        - "higher-education"
+        - "enrollment"
+        - "greece"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Greece removes more than 308,000 inactive students from public university records under new education rules that end long-term dormant enrollment, reducing the official student population by almost half."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Portal-derived event; reported by AP per the Wikipedia portal. Not covered in the deep-research markdown."
+
+strategic_conclusion: >
+  The events of January 2, 2026 illustrate two persistent themes from the year's
+  opening days: the fragility of rapid disaster reporting and the global spread of
+  contested accountability. Multiple events — the Gambian migrant-boat capsize, the
+  eastern DRC militant attacks, the Italian avalanches, and the Mexican earthquake —
+  produced materially different casualty figures across credible outlets, a reminder
+  that early counts are provisional and prone to revision. Politically, judicial
+  actions against a former South Korean president and against Pakistani journalists,
+  alongside Equatorial Guinea's capital relocation by decree, point to executive and
+  judicial power being exercised assertively across very different systems. The UK's
+  record-warm 2025 and BYD's overtaking of Tesla mark longer-term structural shifts —
+  in climate baselines and in the global EV market — that sit beneath the day's
+  immediate news cycle.
+
+works_cited:
+  - id: 1
+    title: "Switzerland: investigators say sparkling candles likely caused Crans-Montana bar fire"
+    outlet: "The Associated Press"
+    url: "https://apnews.com/article/switzerland-fire-constellation-crans-montana-3aa2dba8629c4f6f8a947c5a0f6a6050"
+    accessed: "2026-01-02"
+  - id: 2
+    title: "Swiss authorities inspect nightclubs, bars after deadly fire"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/swiss-authorities-inspect-nightclubs-bars-after-deadly-fire-2026-01-06/"
+    accessed: "2026-01-06"
+  - id: 3
+    title: "Earthquake of magnitude 6.3 strikes Mexico, GFZ says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/environment/earthquake-magnitude-63-strikes-mexico-gfz-says-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 4
+    title: "Earthquake strikes Mexico, disrupting Sheinbaum briefing; at least two dead"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ce9e9e76e445e68797e36b2fa8e14418"
+    accessed: "2026-01-02"
+  - id: 5
+    title: "M 6.5 earthquake event page (Guerrero, Mexico)"
+    outlet: "U.S. Geological Survey"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm3k"
+    accessed: "2026-01-02"
+  - id: 6
+    title: "Seven bodies recovered, 96 rescued after migrant boat capsizes, Gambia says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/seven-bodies-recovered-96-rescued-after-migrant-boat-capsizes-gambia-says-2026-01-01/"
+    accessed: "2026-01-01"
+  - id: 7
+    title: "Press release: Jinack boat incident"
+    outlet: "Gambia Maritime Administration"
+    url: "https://www.gambiamaritime.com/press-release-jinack-boat"
+    accessed: "2026-01-02"
+  - id: 8
+    title: "Gambia boat migrants capsizing in the Atlantic"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/gambia-boat-migrants-capsizing-atlantic-7058d8af4f362eb299a685709d0b693a"
+    accessed: "2026-01-02"
+  - id: 9
+    title: "Seven killed as Saudi coalition strikes UAE-backed forces in Yemen"
+    outlet: "Courthouse News Service (AFP)"
+    url: "https://courthousenews.com/seven-killed-as-saudi-coalition-strikes-uae-backed-forces-in-yemen/"
+    accessed: "2026-01-02"
+  - id: 10
+    title: "Saudi jets strike UAE-backed separatists in Yemen; Abu Dhabi says forces withdrawn"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/saudi-jets-strike-uae-backed-separatists-in-yemen-abu-dhabi-says-its-forces-have-withdrawn/"
+    accessed: "2026-01-02"
+  - id: 11
+    title: "Yemen separatists say they will hold referendum on independence by end-2026"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/yemen-separatists-say-they-will-hold-referendum-independence-by-end-2026-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 12
+    title: "Islamic State-linked rebels kill 15 in eastern Congo, officials say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/islamic-state-linked-rebels-kill-15-eastern-congo-officials-say-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 13
+    title: "Un nouveau drame à Bapere (Lubero): au moins 15 morts dans des attaques ADF"
+    outlet: "Actualite.cd"
+    url: "https://actualite.cd/2026/01/02/un-nouvel-sombre-bapere-lubero-au-moins-15-morts-dans-des-attaques-adf"
+    accessed: "2026-01-02"
+  - id: 14
+    title: "14 killed in DR Congo attack by a militia linked to the Islamic State group"
+    outlet: "Le Monde (AFP)"
+    url: "https://www.lemonde.fr/en/le-monde-africa/article/2026/01/03/14-killed-in-dr-congo-attack-by-a-militia-linked-to-the-islamic-state-group_6749026_124.html"
+    accessed: "2026-01-03"
+  - id: 15
+    title: "Kenya: Nairobi building collapse in South C"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/kenya-nairobi-building-collapse-south-c-2a07a02a11447c4cfd2fafdf17a52881"
+    accessed: "2026-01-02"
+  - id: 16
+    title: "In photos: storey building collapses in South C, 4 feared trapped"
+    outlet: "Nation Africa"
+    url: "https://nation.africa/kenya/counties/nairobi/in-photos-14-storey-building-collapses-in-south-c-4-feared-trapped-5314302"
+    accessed: "2026-01-02"
+  - id: 17
+    title: "Kenya Red Cross confirms response as building under construction collapses in South C"
+    outlet: "People Daily Digital"
+    url: "https://peopledaily.digital/news/kenya-red-cross-confirms-response-as-building-under-construction-collapses-in-south-c"
+    accessed: "2026-01-02"
+  - id: 18
+    title: "Avalanches kill two people, injure several others in Italy's Alps"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/environment/avalanches-kill-two-people-injure-several-others-italys-alps-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 19
+    title: "Valanga travolge escursionisti: tre morti e diversi feriti"
+    outlet: "ANSA"
+    url: "https://www.ansa.it/sito/notizie/cronaca/2026/01/02/valanga-travolge-almeno-quattro-escursionisti-un-morto-e-due-feriti-gravi.-si-cercano_1d773753-ed3d-4356-8ec7-76bdd83eba99.html"
+    accessed: "2026-01-02"
+  - id: 20
+    title: "South Korean court extends detention warrant against former president Yoon"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/south-korean-court-extends-detention-warrant-against-former-president-yoon-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 21
+    title: "Court issues new warrant to detain Yoon for another 6 months"
+    outlet: "Yonhap News Agency"
+    url: "https://en.yna.co.kr/view/AEN20260102010600315"
+    accessed: "2026-01-02"
+  - id: 22
+    title: "Court issues additional arrest warrant for ex-President Yoon"
+    outlet: "Korea JoongAng Daily"
+    url: "https://koreajoongangdaily.joins.com/news/2026-01-02/national/politics/Court-issues-additional-arrest-warrant-for-exPresident-Yoon-/2491863"
+    accessed: "2026-01-02"
+  - id: 23
+    title: "Pakistan court sentences journalists to life over links to protests after Imran Khan's arrest"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/media-telecom/pakistan-court-sentences-journalists-life-over-links-protests-after-imran-khans-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 24
+    title: "Pakistan court sentences journalists to life over 2023 pro-Khan protests"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/2/pakistan-court-sentences-journalists-to-life-over-2023-pro-khan-protests"
+    accessed: "2026-01-02"
+  - id: 25
+    title: "Pakistan: seven sentenced for 'digital terrorism'"
+    outlet: "UPI"
+    url: "https://www.upi.com/Top_News/World-News/2026/01/02/pakistan-digital-terrorism/7451767395180/"
+    accessed: "2026-01-02"
+  - id: 26
+    title: "Equatorial Guinea relocates capital to Ciudad de la Paz"
+    outlet: "Le Monde (AFP)"
+    url: "https://www.lemonde.fr/en/international/article/2026/01/04/equatorial-guinea-relocates-capital-to-ciudad-de-la-paz_6749064_4.html"
+    accessed: "2026-01-04"
+  - id: 27
+    title: "E. Guinea relocates capital, citing strategic reasons"
+    outlet: "Barron's"
+    url: "https://www.barrons.com/news/e-guinea-relocates-capital-citing-strategic-reasons-7b48792c"
+    accessed: "2026-01-03"
+  - id: 28
+    title: "Equatorial Guinea relocates its capital from Malabo to Ciudad de la Paz"
+    outlet: "ArchDaily"
+    url: "https://www.archdaily.com/1037773/equatorial-guinea-relocates-its-capital-from-malabo-to-ciudad-de-la-paz-on-central-africas-mainland"
+    accessed: "2026-01-13"
+  - id: 29
+    title: "2025 is double record-breaker: UK's warmest and sunniest year on record"
+    outlet: "Met Office"
+    url: "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/2025-is-double-record-breaker-uks-warmest-and-sunniest-year-on-record"
+    accessed: "2026-01-02"
+  - id: 30
+    title: "UK records hottest, sunniest year ever in 2025, says weather service"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/cop/uk-records-hottest-sunniest-year-ever-2025-says-weather-service-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 31
+    title: "2025 was UK's warmest and sunniest year on record, Met Office says"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/uk-news/2026/jan/02/2025-uk-warmest-and-sunniest-year-on-record-met-office"
+    accessed: "2026-01-02"
+  - id: 32
+    title: "Tesla's quarterly deliveries fall more than expected on lower EV demand"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/autos-transportation/teslas-quarterly-deliveries-fall-more-than-expected-lower-ev-demand-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 33
+    title: "Tesla sales fall as BYD takes EV crown"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/tesla-sales-musk-trump-deliveries-robotaxi-6d60715babde97b3b1a8e2416f4065ca"
+    accessed: "2026-01-02"
+  - id: 34
+    title: "Eleven killed as bus crashes head-on into truck in southern Brazil"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/eleven-killed-bus-crashes-head-on-into-truck-southern-brazil-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 35
+    title: "Vídeo mostra momento do acidente que deixou 11 mortos em Pelotas"
+    outlet: "CNN Brasil"
+    url: "https://www.cnnbrasil.com.br/nacional/sul/rs/video-mostra-momento-do-acidente-que-deixou-11-mortos-em-pelotas/"
+    accessed: "2026-01-02"
+  - id: 36
+    title: "Portal:Current events/2026 January 2"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_2"
+    accessed: "2026-03-24"

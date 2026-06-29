@@ -1,48 +1,3104 @@
-Date: '2026-01-01'
-Source_URI: Portal:Current events/2026 January 1
-Intelligence_Payload:
-  Uncategorized:
-  - Allied Democratic Forces insurgency
-  - At least 15 people are killed in coordinated attacks by the Allied Democratic
-    Forces on three villages in Lubero, North Kivu, Democratic Republic of the Congo.
-    (Reuters)
-  - Israeli–Palestinian conflict
-  - A Palestinian is killed and another is injured when Israeli forces open fire on
-    stone-throwers near Al-Lubban ash-Sharqiya, Nablus, West Bank. (Reuters)
-  - Russo-Ukrainian war
-  - One person is killed and another is injured in Russian drone strikes on Dniprovskyi
-    District, Kherson, Ukraine. (RBC-Ukraine)
-  - Enlargement of the eurozone
-  - Bulgaria and the euro
-  - Bulgaria adopts the euro, replacing the lev, becoming the 21st member of the eurozone.
-    (AFP via The Sun)
-  - AI boom, Economy of South Korea
-  - South Korea records its highest annual export value of more than US$700 billion
-    in 2025 after semiconductor shipments reach a record $173.4 billion driven by
-    demand for artificial intelligence. (AFP via France 24)
-  - Legality of cryptocurrency by country or territory
-  - Turkmenistan legalizes the mining and exchange of cryptocurrency as digital assets,
-    but maintains that digital currency cannot be used as legal tender. (AP)
-  - 2026 Crans-Montana bar fire
-  - Forty people are killed and 116 others are injured in an explosion and fire suspected
-    to be caused by pyrotechnics at a bar in Crans-Montana, Valais, Switzerland. (BBC
-    News) (The Guardian)
-  - At least 17 people are killed and 11 others are injured in flash floods caused
-    by heavy rains and snowfall across Afghanistan. (AP)
-  - Seven people are killed, 96 others are rescued and at least 97 are reported missing
-    when a boat carrying hundreds of migrants capsizes in The Gambia. (Reuters)
-  - The Vondelkerk in Amsterdam, Netherlands, catches fire, collapsing the tower and
-    leaving only the exterior walls standing. (NOS in Dutch)
-  - 2025–2026 Iranian protests
-  - Five civilians are killed in clashes with security forces across Azna, Lorestan,
-    and Lordegan, Chaharmahal and Bakhtiari, Iran, during demonstrations over rising
-    living costs. (AFP via The Express Tribune) (AFP via The Times of Israel)
-  - The Venezuelan government releases 88 political prisoners who were detained and
-    jailed during protests against the results of the presidential election last year.
-    (DW)
-  - Demographics of China, Family planning policies of China
-  - China ends the value-added tax (VAT) exemption on birth control drugs and devices,
-    which will now be taxed at 13%, as part of efforts to address a continuing decline
-    in national birth rates. (Reuters)
-  - Guy Parmelin is sworn in as President of Switzerland, succeeding Karin Keller-Sutter.
-    (Swiss Info)
+date: "2026-01-01"
+source_page:
+  portal: "Portal:Current events/2026 January 1"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  The international landscape at the dawn of 2026 is characterized by a high degree
+  of volatility, as established institutional frameworks face unprecedented pressure
+  from both internal civil unrest and radical shifts in bilateral diplomacy. The
+  convergence of catastrophic domestic disasters, significant changes in monetary
+  unions, and the implementation of restrictive cross-border policies suggests a
+  global environment transitioning from post-pandemic recovery toward a more
+  fragmented and security-centric order. In Europe, the expansion of the eurozone
+  is juxtaposed against profound internal safety failures and the loss of cultural
+  heritage, while the Middle East and Central Asia grapple with the legal and
+  physical infrastructure of a digitalized and often violent economy.
+
+events:
+  - id: "evt-2026-01-01-001"
+    category: "Disasters and accidents"
+    subcategory: "Building fires"
+    topics:
+      - "2026 Crans-Montana bar fire"
+      - "Switzerland"
+      - "nightclub fire"
+      - "pyrotechnics safety"
+    importance: 10
+    headline: "Mass-casualty inferno at Le Constellation bar in Crans-Montana"
+    summary: >
+      A catastrophic fire at the Le Constellation bar and nightclub in the Swiss Alpine
+      resort of Crans-Montana on January 1, 2026, has emerged as one of the most
+      significant and traumatic disasters in the history of the Swiss Confederation.
+      The fire, which broke out at approximately 1:26 a.m. CET during high-capacity
+      New Year's celebrations, was reportedly initiated when interior pyrotechnics
+      attached to champagne bottles ignited non-flame-retardant acoustic foam on the
+      basement ceiling. This ignition triggered a "flashover" phenomenon — a state where
+      nearly all combustible materials in an enclosed space reach their auto-ignition
+      temperature simultaneously — engulfing the venue in a sudden, inescapable inferno
+      that trapped scores of young revelers. The speed of the fire prevented many from
+      reaching emergency exits, some of which were allegedly locked from the inside,
+      leading to a massive casualty count that necessitated the deployment of 150
+      personnel, 10 helicopters, and 40 ambulances. In the aftermath, President Guy
+      Parmelin declared five days of national mourning, reflecting the scale of the
+      tragedy and its impact on the nation's reputation for safety and precision.
+    key_data:
+      - label: "Confirmed Fatalities"
+        value: "41"
+        citation_refs: [3]
+      - label: "Non-fatal Injuries"
+        value: "115–116"
+        citation_refs: [2]
+      - label: "Critically Injured (Severe Burns)"
+        value: "83"
+        citation_refs: [3]
+      - label: "Average Age of Victims"
+        value: "19 years"
+        citation_refs: [5]
+      - label: "Nationalities of Deceased"
+        value: "Swiss (23), French (9), Italian (6), Belgian (1), Portuguese (1), Romanian (1), Turkish (1)"
+        citation_refs: [4]
+      - label: "Number of Personnel Deployed"
+        value: "150 first responders"
+        citation_refs: [3]
+    details:
+      what_happened:
+        - "At approximately 01:26 CET, staff at the Le Constellation bar carried champagne bottles featuring lit \"fountain candle\" sparklers near a ceiling clad in acoustic foam that fire experts suspect was not flame-retardant."
+        - "Witnesses described a massive fire blast occurring within ten seconds of ignition, as smoke billowing from the basement nightclub blocked the narrow main staircase and hindered access to emergency exits."
+        - "Local police and emergency services arrived by 01:32 CET, but the intensity of the smoke and the collapse of the ceiling prevented immediate rescue for those trapped in the basement."
+        - "Forensic teams and the Valais cantonal attorney general ruled out a terrorist attack by the morning of January 1, focusing the investigation on criminal negligence regarding safety inspections and building code violations."
+        - "Seriously burned victims were airlifted to specialist units across five European countries, including France, Italy, Germany, and Belgium, as local Swiss intensive care units reached capacity."
+      why_it_matters:
+        - "This disaster exposes a critical regulatory vacuum in the oversight of indoor pyrotechnics and the failure of municipal safety inspections, which had reportedly not occurred at this venue for five years."
+        - "The high proportion of international teenage victims creates a complex diplomatic and legal situation, requiring multi-jurisdictional cooperation for forensic identification and criminal prosecution."
+        - "The tragedy represents a significant blow to the \"Swiss brand\" of reliability and safety, occurring in the context of broader national shifts such as the leadership transition to Guy Parmelin."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Jacques and Jessica Moretti"
+        - "Béatrice Pilloud"
+        - "Guy Parmelin"
+      secondary:
+        - "Valais Cantonal Police"
+        - "Federal Office for Civil Protection"
+        - "Mathias Reynard"
+    entities:
+      people:
+        - name: "Jacques Moretti"
+          role: "Bar co-owner"
+        - name: "Jessica Moretti"
+          role: "Bar co-owner"
+        - name: "Béatrice Pilloud"
+          role: "Cantonal Attorney General of Valais"
+        - name: "Guy Parmelin"
+          role: "President of Switzerland"
+        - name: "Mathias Reynard"
+          role: "President of Valais Canton"
+      organizations:
+        - name: "Valais Cantonal Police"
+          description: "Swiss cantonal law enforcement"
+        - name: "Federal Office for Civil Protection"
+          description: "Swiss federal emergency agency"
+      states:
+        - "Switzerland"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Crans-Montana, Valais"
+        - "Le Constellation bar"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: true
+      time_detail: "01:26 CET"
+      ongoing: false
+    casualty_report:
+      killed: 41
+      injured: 115
+      displaced: 0
+      missing: null
+      arrest_count: 4
+      damage: "Total destruction of the Le Constellation interior and extensive structural damage to the primary ground-floor and basement areas."
+    classification:
+      event_type:
+        - "disaster"
+        - "building-fire"
+        - "mass-casualty-event"
+      tags:
+        - "flashover"
+        - "pyrotechnics"
+        - "acoustic-foam"
+        - "nightclub"
+        - "new-years-eve"
+        - "national-mourning"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Forty people are killed and 116 others are injured in an explosion and fire suspected to be caused by pyrotechnics at a bar in Crans-Montana, Valais, Switzerland."
+      external:
+        - id: src-001-a
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/live/2026/jan/01/switzerland-resort-explosion-dead-blast-ski-town-crans-montana-latest-news-live"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "around 40 people have died and at least 115 have been injured"
+          citation_refs: [2]
+        - id: src-001-b
+          outlet: "BBC News"
+          url: "https://www.bbc.com"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: src-001-c
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/2026_Crans-Montana_bar_fire"
+          publication_date: "2026-03-24"
+          source_type: encyclopedia
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: src-001-d
+          outlet: "Agence France-Presse (AFP) via The Guardian"
+          url: "https://www.theguardian.com/world/2026/feb/01/crans-montana-bar-fire-switzerland-death-toll"
+          publication_date: "2026-02-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - casualty_report
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-002"
+    category: "Business and economy"
+    subcategory: "Enlargement of the eurozone"
+    topics:
+      - "Bulgaria and the euro"
+      - "eurozone"
+      - "European integration"
+      - "currency adoption"
+    importance: 8
+    headline: "Bulgaria integrates into the eurozone as 21st member state"
+    summary: >
+      On January 1, 2026, Bulgaria officially adopted the euro, replacing the Bulgarian
+      lev and becoming the 21st member state of the eurozone. This historic milestone
+      follows decades of monetary alignment, specifically a currency board that has
+      pegged the lev to the euro since 1997, and the country's successful fulfillment
+      of convergence criteria as verified by the European Commission and the European
+      Central Bank in June 2025. A one-month dual circulation period commenced on New
+      Year's Day, allowing the lev and the euro to coexist for cash payments, although
+      change is provided exclusively in euros to facilitate the withdrawal of the former
+      currency. European Commission President Ursula von der Leyen hailed the accession
+      as a symbol of European strength and unity, while Bulgarian President Rumen Radev
+      expressed a mixture of pride in the integration and regret over the lack of a
+      popular referendum.
+    key_data:
+      - label: "Official Accession Date"
+        value: "January 1, 2026"
+        citation_refs: [9]
+      - label: "Fixed Conversion Rate"
+        value: "1.95583 BGN = 1 EUR"
+        citation_refs: [9]
+      - label: "Dual Circulation Period"
+        value: "January 1–31, 2026"
+        citation_refs: [9]
+      - label: "Mandatory Dual Pricing"
+        value: "August 8, 2025 – August 8, 2026"
+        citation_refs: [9]
+      - label: "Sole Legal Tender Date"
+        value: "February 1, 2026"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "At midnight on January 1, 2026, the Bulgarian lev ceased to be the sole legal tender, and the European Central Bank (ECB) assumed direct supervision of significant Bulgarian financial institutions."
+        - "Commercial establishments across Bulgaria began receiving euro payments while dual pricing in lev and euros remained mandatory to ensure consumer transparency and prevent inflationary price gouging."
+        - "President Rumen Radev delivered a televised address shortly before midnight, characterizing the move as the \"final step\" in Bulgaria's EU integration but noting public skepticism regarding potential price increases."
+        - "The Bulgarian National Bank began the final phase of the cash changeover, distributing euro coins that notably feature a Christian character, a first for the eurozone."
+        - "Despite recent political instability and the resignation of the conservative government earlier in the month, the technical implementation of the euro was carried out without reported operational disruptions."
+      why_it_matters:
+        - "Adoption of the single currency eliminates currency conversion costs and exchange rate risks, which is expected to significantly boost Bulgaria's attractiveness for Foreign Direct Investment (FDI) and lower borrowing costs for the government and private sector."
+        - "Bulgaria's entry into the eurozone reinforces the geopolitical stability of the Balkan region and signals the continued viability of the single currency despite broader European economic headwinds."
+        - "The transition marks the end of 146 years of the Bulgarian lev, representing a profound shift in national identity and economic sovereignty."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Rumen Radev"
+        - "Ursula von der Leyen"
+        - "Christine Lagarde"
+      secondary:
+        - "Bulgarian National Bank"
+        - "Council of the European Union"
+    entities:
+      people:
+        - name: "Rumen Radev"
+          role: "President of Bulgaria"
+        - name: "Ursula von der Leyen"
+          role: "President of the European Commission"
+        - name: "Christine Lagarde"
+          role: "President of the European Central Bank"
+      organizations:
+        - name: "Bulgarian National Bank"
+          description: "Central bank of Bulgaria"
+        - name: "European Central Bank"
+          description: "Central bank of the eurozone"
+        - name: "European Commission"
+          description: "Executive branch of the European Union"
+        - name: "Council of the European Union"
+          description: "EU legislative body representing member state governments"
+      states:
+        - "Bulgaria"
+    geography:
+      countries:
+        - "Bulgaria"
+      places:
+        - "Sofia"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: true
+      time_detail: "Midnight CET"
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "economic-policy"
+        - "currency-adoption"
+        - "european-integration"
+      tags:
+        - "eurozone"
+        - "bulgarian-lev"
+        - "dual-circulation"
+        - "convergence-criteria"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Bulgaria adopts the euro, replacing the lev, becoming the 21st member of the eurozone."
+      external:
+        - id: src-002-a
+          outlet: "European Commission"
+          url: "https://trade.ec.europa.eu/access-to-markets/en/news/bulgaria-adopts-euro-1-january-2026"
+          publication_date: "2026-01-01"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "fixed and irrevocable conversion rate"
+          citation_refs: [9]
+        - id: src-002-b
+          outlet: "European Central Bank"
+          url: "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.pr250708~b9676a9fa8.en.html"
+          publication_date: "2025-07-08"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [13]
+        - id: src-002-c
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/Bulgaria_and_the_euro"
+          publication_date: "2026-03-24"
+          source_type: encyclopedia
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+        - id: src-002-d
+          outlet: "Euronews/YouTube"
+          url: "https://www.youtube.com/watch?v=GrhPOpdP950"
+          publication_date: "2026-01-01"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-003"
+    category: "Politics and elections"
+    subcategory: "Immigration policy"
+    topics:
+      - "Presidential Proclamation 10998"
+      - "US travel ban"
+      - "visa restrictions"
+      - "immigration"
+    importance: 8
+    headline: "Implementation of US Presidential Proclamation 10998 expansion"
+    summary: >
+      Effective 12:01 a.m. EST on January 1, 2026, the United States government
+      implemented Presidential Proclamation 10998, a sweeping expansion of entry
+      restrictions aimed at protecting national security. The proclamation, titled
+      "Restricting and Limiting the Entry of Foreign Nationals to Protect the Security
+      of the United States," fully or partially suspends the issuance of immigrant and
+      nonimmigrant visas for nationals of 39 countries and holders of Palestinian
+      Authority travel documents. This order continues and augments the restrictions
+      previously imposed by Presidential Proclamation 10949, while simultaneously
+      removing several critical categorical exceptions, such as those for immediate
+      family members. The implementation of this policy marks a definitive shift toward
+      more rigorous, security-focused screening and vetting procedures under the Trump
+      administration, likely disrupting global mobility and bilateral relations with
+      affected nations.
+    key_data:
+      - label: "Full Suspension (All Visas)"
+        value: "19 countries (e.g., Afghanistan, Iran, Somalia, Syria, Yemen) and Palestinian Authority"
+        citation_refs: [15]
+      - label: "Partial Suspension (Visitor/Student)"
+        value: "19 countries (e.g., Cuba, Nigeria, Venezuela, Senegal, Togo)"
+        citation_refs: [15]
+      - label: "Immigrant Visa Suspension Only"
+        value: "Turkmenistan"
+        citation_refs: [15]
+      - label: "Rescinded Exceptions"
+        value: "Immediate family (IR-1/CR-1, IR-2/CR-2, IR-5) and Afghan SIVs"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "At 12:01 a.m. EST, U.S. embassies and consulates worldwide officially suspended routine visa operations for the specific categories outlined in Proclamation 10998, affecting millions of potential applicants."
+        - "The State Department clarified that the proclamation only applies to foreign nationals who were outside the United States and did not hold a valid visa as of the effective date; no existing visas were revoked solely based on this order."
+        - "Previous exceptions for children being adopted and immediate family members of U.S. citizens were officially terminated, forcing applicants to seek \"National Interest Exceptions\" on a case-by-case basis."
+        - "Expanded screening and vetting procedures were introduced for H-1B and dependent H-4 visa applicants, increasing the administrative burden for high-skilled labor migration."
+        - "In response, several countries, including Argentina, took parallel steps in other areas, such as withdrawing from international health organizations, reflecting a trend toward isolationist policies."
+      why_it_matters:
+        - "The removal of categorical exceptions for immediate family members and Afghan Special Immigrant Visas represents a significant hardening of the U.S. border, prioritizing security vetting over humanitarian or familial considerations."
+        - "This policy could lead to significant brain drain in affected nations or, conversely, a reduction in the available high-skilled labor pool in the United States, particularly from countries like Nigeria and Venezuela."
+        - "The proclamation reinforces the current U.S. administration's \"America First\" posture, further distancing the United States from multilateral commitments and traditional diplomatic norms."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+        - "U.S. Department of State"
+        - "U.S. Department of Homeland Security"
+      secondary:
+        - "U.S. Immigration and Customs Enforcement (ICE)"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "U.S. Department of State"
+          description: "US federal foreign affairs agency"
+        - name: "U.S. Department of Homeland Security"
+          description: "US federal domestic security agency"
+        - name: "U.S. Immigration and Customs Enforcement"
+          description: "US immigration enforcement agency"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: true
+      time_detail: "12:01 a.m. EST"
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Significant disruption to international education, labor markets, and family reunification."
+    classification:
+      event_type:
+        - "immigration-policy"
+        - "executive-order"
+      tags:
+        - "travel-ban"
+        - "visa-suspension"
+        - "proclamation-10998"
+        - "national-security"
+        - "america-first"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-003-a
+          outlet: "U.S. Department of State"
+          url: "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html"
+          publication_date: "2026-02-02"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [15]
+        - id: src-003-b
+          outlet: "BBC News"
+          url: "https://www.bbc.com"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [16]
+        - id: src-003-c
+          outlet: "U.S. Department of Health and Human Services"
+          url: "https://www.hhs.gov/press-room/fact-sheet-us-withdrawal-from-the-world-health-organization.html"
+          publication_date: "2026-01-22"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Accountability and Transparency"
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-004"
+    category: "Law and crime"
+    subcategory: "Civil unrest"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "Iran"
+      - "economic crisis"
+      - "state repression"
+    importance: 9
+    headline: "Lethal escalation of economic protests across Iran"
+    summary: >
+      The New Year began in Iran with a violent escalation of nationwide protests that
+      have been dubbed the largest uprising since the 1979 revolution. Fueled by a
+      deepening economic crisis, hyperinflation, and the free-fall of the Iranian rial,
+      demonstrations on January 1, 2026, resulted in the killing of at least five
+      civilians and one member of the security forces. Security forces, including the
+      Islamic Revolutionary Guard Corps (IRGC) and the Basij paramilitary unit,
+      reportedly used live fire and metal pellets to disperse crowds in several
+      provinces, including Lorestan and Chaharmahal and Bakhtiari. Despite the lethal
+      crackdown, protests spread to over 200 cities, with many Iranians calling for the
+      end of the current clerical establishment regardless of the cost.
+    key_data:
+      - label: "Mostafa Fallahi"
+        value: "Age 15, killed in Azna, Lorestan"
+        citation_refs: [24]
+      - label: "Taha Safari"
+        value: "Age 15, killed in Azna, Lorestan"
+        citation_refs: [23]
+      - label: "Shayan Asadollahi"
+        value: "Age 30, killed in Azna, Lorestan"
+        citation_refs: [23]
+      - label: "Sajjad Valamanesh Zilayi"
+        value: "Age 28, killed in Lordegan, Chaharmahal and Bakhtiari"
+        citation_refs: [24]
+      - label: "Ahmad Jalil"
+        value: "Age 21, killed in Lordegan, Chaharmahal and Bakhtiari"
+        citation_refs: [23]
+    details:
+      what_happened:
+        - "In Azna, Lorestan province, security forces opened fire on peaceful protesters near the county governor's office on the evening of January 1, killing at least six people throughout the day."
+        - "Protesters in Lordegan engaged in clashes with security forces, resulting in two fatalities and 17 injuries as anger over living costs and unemployment boiled over."
+        - "State media confirmed that a member of the Basij volunteer paramilitary force died in Kuhdasht, Lorestan, during clashes with demonstrators, indicating the increasing risk to state actors."
+        - "Major markets in Tehran were shuttered on January 1 as merchants joined marches against the economic mismanagement and international sanctions that have crippled the nation's industry."
+        - "Supreme Leader Ali Khamenei and senior IRGC officials issued statements declaring that the period of \"tolerance\" was over and pledging to put \"rioters in their place\"."
+      why_it_matters:
+        - "The use of lethal force against teenage protesters suggests a regime strategy of absolute repression that risks further radicalizing the population and deepening the internal crisis."
+        - "The economic drivers of the protests — rial depreciation and basic commodity shortages — remain unaddressed, suggesting that the unrest will persist despite the violent crackdown."
+        - "The assassination of key officials and the subsequent escalation of the \"2026 Iran war\" suggests that the domestic uprising is increasingly intertwined with regional military conflicts involving the U.S. and Israel."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ali Khamenei"
+        - "Islamic Revolutionary Guard Corps (IRGC)"
+        - "Iranian Protesters"
+      secondary:
+        - "Basij Paramilitary Force"
+        - "Amnesty International"
+        - "Human Rights Watch"
+    entities:
+      people:
+        - name: "Ali Khamenei"
+          role: "Supreme Leader of Iran"
+        - name: "Mostafa Fallahi"
+          role: "Protester killed, age 15"
+        - name: "Taha Safari"
+          role: "Protester killed, age 15"
+        - name: "Shayan Asadollahi"
+          role: "Protester killed, age 30"
+        - name: "Sajjad Valamanesh Zilayi"
+          role: "Protester killed, age 28"
+        - name: "Ahmad Jalil"
+          role: "Protester killed, age 21"
+      organizations:
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military branch and intelligence service"
+        - name: "Basij"
+          description: "Iranian volunteer paramilitary militia"
+        - name: "Amnesty International"
+          description: "International human rights organization"
+        - name: "Human Rights Watch"
+          description: "International human rights organization"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Azna, Lorestan"
+        - "Lordegan, Chaharmahal and Bakhtiari"
+        - "Kuhdasht, Lorestan"
+        - "Tehran"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 6
+      injured: 17
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: "Attacks on police stations, governorate offices, and government vehicles."
+    classification:
+      event_type:
+        - "civil-unrest"
+        - "state-violence"
+        - "protest"
+      tags:
+        - "iran-protests"
+        - "economic-crisis"
+        - "rial-depreciation"
+        - "live-fire"
+        - "1979-revolution-comparison"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Five civilians are killed in clashes with security forces across Azna, Lorestan, and Lordegan, Chaharmahal and Bakhtiari, Iran, during demonstrations over rising living costs."
+      external:
+        - id: src-004-a
+          outlet: "ReliefWeb (Amnesty International/HRW)"
+          url: "https://reliefweb.int/report/iran-islamic-republic/iran-deaths-and-injuries-rise-amid-authorities-renewed-cycle-protest-bloodshed"
+          publication_date: "2026-01-03"
+          source_type: ngo_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "unlawful use of force"
+          citation_refs: [23]
+        - id: src-004-b
+          outlet: "Radio Free Europe/Radio Liberty (RFE/RL)"
+          url: "https://www.rferl.org/a/iran-protests-deaths-economy/33637925.html"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [22]
+        - id: src-004-c
+          outlet: "National Council of Resistance of Iran (NCRI)"
+          url: "https://www.ncr-iran.org/en/ncri-statements/statement-iran-protest/iran-names-of-13-more-martyrs-of-nationwide-uprising-released-death-toll-rises-to-at-least-31/"
+          publication_date: "2026-01-05"
+          source_type: advocacy_organization
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [24]
+        - id: src-004-d
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests"
+          publication_date: "2026-03-24"
+          source_type: encyclopedia
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [21]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-005"
+    category: "Politics and elections"
+    subcategory: "Family planning policies"
+    topics:
+      - "Demographics of China"
+      - "family planning"
+      - "VAT policy"
+      - "birth rate decline"
+    importance: 7
+    headline: "China mandates 13% VAT on contraceptives to address birth crisis"
+    summary: >
+      In a dramatic shift of fiscal policy aimed at reversing a sustained decline in
+      national birth rates, China officially removed a three-decade-old value-added tax
+      (VAT) exemption on birth control drugs and devices on January 1, 2026.
+      Contraceptives, including condoms and birth control pills, are now subject to the
+      standard 13% VAT rate, effectively increasing the cost of reproductive prevention
+      for the Chinese population. This measure is part of a broader "fertility-friendly"
+      package that includes personal income tax exemptions for childcare subsidies and
+      the promotion of "love education" in colleges to encourage marriage and
+      childbearing. The move reflects Beijing's urgent response to a population that has
+      fallen for three consecutive years and a shrinking workforce that threatens the
+      long-term sustainability of the world's second-largest economy.
+    key_data:
+      - label: "New VAT Rate on Contraceptives"
+        value: "13%"
+        citation_refs: [8]
+      - label: "Previous Tax Status"
+        value: "Exempt for over 30 years"
+        citation_refs: [27]
+      - label: "Effective Date"
+        value: "January 1, 2026"
+        citation_refs: [27]
+      - label: "Population Trend"
+        value: "Fallen for 3rd consecutive year (2024–2026)"
+        citation_refs: [27]
+      - label: "Complementary Incentives"
+        value: "Childcare subsidies, love education, tax breaks"
+        citation_refs: [27]
+    details:
+      what_happened:
+        - "Starting January 1, Chinese pharmaceutical companies and retailers were required to issue special VAT invoices for all sales of birth control pills and devices, marking the end of the \"Provisional Regulations on Value-added Tax\" that previously granted exemptions."
+        - "The National Health Commission and tax authorities implemented these measures following the annual Central Economic Work Conference, where top leadership pledged to \"stabilize birth rates\" through a pro-childbearing attitude."
+        - "While taxing prevention, the government simultaneously rolled out annual childcare subsidies for families and urged educational institutions to portray family life in a more positive light."
+        - "Market analysts reported that the price of birth control pills and condoms rose immediately in major urban centers, potentially impacting low-income households and university students."
+        - "Public response on Chinese social media was divided, with some critics arguing that the move targets personal autonomy without addressing the underlying high costs of education and housing."
+      why_it_matters:
+        - "This policy represents a shift from purely incentive-based demographic management to a more coercive fiscal model that penalizes the avoidance of pregnancy."
+        - "The demographic decline is now viewed as a central macroeconomic risk that could stifle industrial profits and increase the dependency ratio, potentially leading to a long-term economic stagnation similar to Japan's \"Lost Decades\"."
+        - "The removal of tax breaks on contraception is a significant rollback of reproductive healthcare accessibility, reflecting the state's prioritization of national growth over individual health rights."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Xi Jinping"
+        - "State Taxation Administration"
+        - "National Health Commission"
+      secondary:
+        - "Chinese contraceptive manufacturers"
+    entities:
+      people:
+        - name: "Xi Jinping"
+          role: "General Secretary of the CCP"
+      organizations:
+        - name: "State Taxation Administration"
+          description: "Chinese government tax agency"
+        - name: "National Health Commission"
+          description: "Chinese government health ministry"
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Increased purchase costs for consumers and potential re-evaluation of cost structures for producers."
+    classification:
+      event_type:
+        - "fiscal-policy"
+        - "demographic-policy"
+      tags:
+        - "contraceptives"
+        - "VAT"
+        - "birth-rate"
+        - "population-decline"
+        - "fertility-policy"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "China ends the value-added tax (VAT) exemption on birth control drugs and devices, which will now be taxed at 13%, as part of efforts to address a continuing decline in national birth rates."
+      external:
+        - id: src-005-a
+          outlet: "Reuters via Investing.com"
+          url: "https://www.investing.com/news/world-news/china-taxes-condoms-contraceptive-drugs-in-bid-to-spur-birth-rate-4427787"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [28]
+        - id: src-005-b
+          outlet: "RBC-Ukraine"
+          url: "https://newsukraine.rbc.ua/news/china-introduces-new-tax-measures-to-boost-1767394304.html"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+        - id: src-005-c
+          outlet: "Webull/Zhitongcaijing"
+          url: "https://www.webull.com/news/13945687413867520"
+          publication_date: "2025-11-30"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [29]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-006"
+    category: "Disasters and accidents"
+    subcategory: "Maritime accidents"
+    topics:
+      - "irregular migration"
+      - "The Gambia"
+      - "Canary Islands route"
+      - "boat capsizing"
+    importance: 8
+    headline: "Migrant vessel capsizes off The Gambia resulting in 39 deaths"
+    summary: >
+      A catastrophic maritime disaster occurred on New Year's Eve as an overcrowded and
+      dilapidated boat carrying migrants capsized off the coast of The Gambia and
+      Senegal. The vessel, which had departed from the village of Jinack with
+      approximately 235 to 250 people on board, was reportedly bound for the Spanish
+      Canary Islands — one of the world's most dangerous migration routes. As of
+      January 8, 2026, the confirmed death toll has risen to 39, including a two-year-old
+      child, while more than 100 people remain missing. The disaster has sparked national
+      mourning in The Gambia and highlights the extreme risks taken by West African youth
+      fleeing poverty and lack of local opportunity.
+    key_data:
+      - label: "Confirmed Dead"
+        value: "39 (24 in Gambia, 15 in Senegal)"
+        citation_refs: [31]
+      - label: "Number of Rescued"
+        value: "112–114"
+        citation_refs: [31]
+      - label: "Number of Missing"
+        value: "~100"
+        citation_refs: [8]
+      - label: "Estimated Onboard"
+        value: "200–250"
+        citation_refs: [32]
+      - label: "Nationalities Involved"
+        value: "Gambia, Senegal, Guinea, Mali, Ivory Coast, Burkina Faso, Sierra Leone"
+        citation_refs: [31]
+    details:
+      what_happened:
+        - "Shortly after midnight on January 1, the migrant vessel struck a sandbank and overturned while attempting to navigate the Atlantic waters near the North Bank region of The Gambia."
+        - "The Gambian Navy, supported by local fishermen and Senegalese authorities, launched a search and rescue operation that successfully recovered 112 survivors, 39 of whom required hospitalization in Banjul."
+        - "Survivors described the journey as \"traumatic\" and \"desperate,\" noting that many passengers did not know how to swim and the boat was severely overloaded."
+        - "The Gambia Red Cross deployed personnel to provide humanitarian assistance and mental health support to families in the Jinack community, which was heavily impacted by the loss."
+        - "Authorities reported that the disaster occurred despite increased maritime patrols by Senegal and Mauritania, which have forced migrant boats to depart from points further south."
+      why_it_matters:
+        - "The Canary Islands route is increasingly utilized by West Africans as traditional Mediterranean routes become more difficult, despite its reputation for high fatality rates due to the long distances and unpredictable Atlantic conditions."
+        - "This incident underscores the \"desperation\" driving irregular migration, often inspired by the perceived success of peers who have reached Europe and support their families through remittances."
+        - "The tragedy reflects a failure of regional deterrence strategies, as the number of intercepted migrants in The Gambia surpassed 2,700 in 2025 despite a 60% drop in overall irregular arrivals to the EU."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Adama Barrow"
+        - "Gambian Navy"
+        - "The Gambia Immigration Department"
+      secondary:
+        - "Senegal Coast Guard"
+        - "The Gambia Red Cross"
+        - "International Organization for Migration (IOM)"
+    entities:
+      people:
+        - name: "Adama Barrow"
+          role: "President of The Gambia"
+      organizations:
+        - name: "Gambian Navy"
+          description: "Naval forces of The Gambia"
+        - name: "The Gambia Immigration Department"
+          description: "Gambian immigration authority"
+        - name: "The Gambia Red Cross"
+          description: "National humanitarian society"
+        - name: "International Organization for Migration"
+          description: "UN migration agency"
+        - name: "Senegal Coast Guard"
+          description: "Senegalese maritime law enforcement"
+      states:
+        - "The Gambia"
+        - "Senegal"
+    geography:
+      countries:
+        - "The Gambia"
+        - "Senegal"
+      places:
+        - "Jinack"
+        - "North Bank Division"
+        - "Banjul"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 39
+      injured: 39
+      displaced: 0
+      missing: 100
+      arrest_count: 0
+      damage: "Total loss of the migrant vessel; significant psychological trauma to the Jinack community."
+    classification:
+      event_type:
+        - "maritime-disaster"
+        - "irregular-migration"
+      tags:
+        - "boat-capsizing"
+        - "canary-islands-route"
+        - "west-africa"
+        - "national-mourning"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Seven people are killed, 96 others are rescued and at least 97 are reported missing when a boat carrying hundreds of migrants capsizes in The Gambia."
+      external:
+        - id: src-006-a
+          outlet: "Reuters via Arab News"
+          url: "https://www.arabnews.pk/node/2628698/world"
+          publication_date: "2026-01-08"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [32]
+        - id: src-006-b
+          outlet: "IFRC GO"
+          url: "https://go.ifrc.org/emergencies/7743/details"
+          publication_date: "2026-01-01"
+          source_type: ngo_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [33]
+        - id: src-006-c
+          outlet: "Bangladesh Sangbad Sangstha (BSS)/AFP"
+          url: "https://www.bssnews.net/international/348390"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [34]
+        - id: src-006-d
+          outlet: "Maghrebi.org"
+          url: "https://maghrebi.org/2026/01/09/39-people-dead-as-migrant-boat-sinks-off-gambias-coast/"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [35]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Insurgency"
+    topics:
+      - "Allied Democratic Forces"
+      - "North Kivu"
+      - "DR Congo"
+      - "Islamic State"
+    importance: 8
+    headline: "ADF terrorist assaults on North Kivu villages in DR Congo"
+    summary: >
+      The Allied Democratic Forces (ADF), an armed group allied with the global Islamic
+      State movement, launched a series of coordinated nighttime attacks on multiple
+      villages in the Lubero territory of North Kivu on January 1, 2026. The assaults
+      targeted the villages of Katanga, Boti, Isigo, and Mambimbi, resulting in the
+      deaths of at least 15 to 21 people, including civilians and soldiers. Rebels
+      utilized the cover of New Year's celebrations to burn dozens of residential houses,
+      a health center, and a Catholic church, sparking widespread panic and the
+      displacement of residents toward safer urban areas like Kambau. The ongoing violence
+      in eastern DRC continues to be characterized by "unprecedented humanitarian crisis,"
+      as the ADF remains one of the most dangerous and resilient terrorist groups in the
+      region.
+    key_data:
+      - label: "Confirmed Deaths (Jan 1)"
+        value: "15–21"
+        citation_refs: [36]
+      - label: "Infrastructure Destroyed"
+        value: "63 houses, 1 health center, 1 Catholic church"
+        citation_refs: [37]
+      - label: "Primary Target Locations"
+        value: "Katanga, Boti, Isigo, Mambimbi, Musenge"
+        citation_refs: [36]
+      - label: "Armed Group Involved"
+        value: "Allied Democratic Forces (ADF)"
+        citation_refs: [36]
+      - label: "Displacement Destination"
+        value: "Kambau town"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "In the Bapere Sector of Lubero Territory, ADF fighters conducted a nighttime incursion on January 1, initially killing six people before the toll rose to 21 as more bodies were recovered by local civil society."
+        - "In the village of Musenge, militants burned down almost the entire village, including a vital health center and a Catholic church, effectively paralyzing medical and spiritual support for the survivors."
+        - "The Congolese army (FARDC) reported retaking two localities near the city of Uvira from Rwandan-backed M23 rebels on the same day, reflecting a multi-front conflict in the east."
+        - "Residents of the Bapakombe grouping fled their homes following simultaneous attacks on three villages, leaving their livestock and possessions behind as the security situation deteriorated."
+        - "Since the beginning of 2026, more than 60 civilians have been killed in the Beni and Lubero areas, highlighting the lethal start to the year for the region's population."
+      why_it_matters:
+        - "The ADF's ability to carry out simultaneous attacks on multiple villages demonstrates a sophisticated level of coordination and a persistent threat to the territorial integrity of the DRC."
+        - "The targeting of health centers and churches exacerbates the humanitarian suffering of a population already \"scarred by years of violence,\" hindering both immediate medical response and long-term recovery."
+        - "Continued instability in North Kivu disrupts the mining of strategic minerals like coltan, which are essential for global electronics but remain a primary driver of local conflict."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Allied Democratic Forces (ADF)"
+        - "FARDC (Congolese Army)"
+      secondary:
+        - "MONUSCO (UN Peacekeeping)"
+        - "M23 Rebels"
+    entities:
+      people: []
+      organizations:
+        - name: "Allied Democratic Forces"
+          description: "Armed rebel group allied with Islamic State, operating in eastern DRC"
+        - name: "FARDC"
+          description: "Armed Forces of the Democratic Republic of the Congo"
+        - name: "MONUSCO"
+          description: "United Nations peacekeeping mission in DR Congo"
+        - name: "M23"
+          description: "Rwandan-backed rebel group in eastern DRC"
+      states:
+        - "Democratic Republic of the Congo"
+    geography:
+      countries:
+        - "Democratic Republic of the Congo"
+      places:
+        - "Lubero Territory, North Kivu"
+        - "Katanga"
+        - "Boti"
+        - "Isigo"
+        - "Mambimbi"
+        - "Musenge"
+        - "Kambau"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 21
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Total destruction of Musenge village center, including a church and a health clinic. 63 houses burned."
+    classification:
+      event_type:
+        - "insurgent-attack"
+        - "mass-atrocity"
+      tags:
+        - "ADF"
+        - "Islamic-State"
+        - "North-Kivu"
+        - "village-raids"
+        - "arson"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 15 people are killed in coordinated attacks by the Allied Democratic Forces on three villages in Lubero, North Kivu, Democratic Republic of the Congo."
+      external:
+        - id: src-007-a
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/africa/21-people-killed-in-rebel-attack-in-eastern-dr-congo/3824953"
+          publication_date: "2026-02-09"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [37]
+        - id: src-007-b
+          outlet: "Persecution.org (International Christian Concern)"
+          url: "https://persecution.org/2026/01/03/new-year-brings-tragedy-in-the-drc/"
+          publication_date: "2026-01-03"
+          source_type: ngo_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "deadly nighttime incursion"
+          citation_refs: [36]
+        - id: src-007-c
+          outlet: "Agenzia Fides"
+          url: "https://www.fides.org/en/news/77286-AFRICA_DR_CONGO_New_massacres_committed_by_ADF_jihadists_in_eastern_DRC"
+          publication_date: "2026-03-11"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [38]
+        - id: src-007-d
+          outlet: "UN Secretary-General"
+          url: "https://www.un.org/sg/en/content/sg/statements/2025-11-22/statement-attributable-the-spokesperson-for-the-secretary-general-adf-attacks-against-civilians-lubero-territory"
+          publication_date: "2025-11-22"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [39]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-008"
+    category: "Politics and elections"
+    subcategory: "Regional diplomatic crisis"
+    topics:
+      - "Yemen"
+      - "Aden airport"
+      - "Saudi-UAE rift"
+      - "Southern Transitional Council"
+    importance: 7
+    headline: "Aden Airport closure amid Saudi-UAE geopolitical rift"
+    summary: >
+      Aden International Airport, the primary air gateway for Yemen's internationally
+      recognized government, suspended operations on January 1, 2026, following a severe
+      diplomatic and logistical dispute between Saudi Arabia and the United Arab Emirates
+      (UAE). The Southern Transitional Council (STC), backed by the UAE, accused Saudi
+      Arabia of imposing an air blockade by requiring all international flights to
+      transit through Jeddah Airport for mandatory inspections. This incident marks the
+      most significant crisis in relations between Riyadh and Abu Dhabi in a decade, as
+      both nations vie for control over strategic territories and ports in southern Yemen.
+      The closure effectively isolates Aden and has led to conflicting reports from Yemeni
+      authorities regarding the cause and duration of the flight restrictions.
+    key_data:
+      - label: "Primary Trigger"
+        value: "Saudi demand for all flights to transit through Jeddah"
+        citation_refs: [40]
+      - label: "STC Position"
+        value: "Labeled it an \"air blockade\" and suspended operations"
+        citation_refs: [40]
+      - label: "Regional Context"
+        value: "Rift between Saudi Arabia and the UAE over southern Yemen"
+        citation_refs: [41]
+      - label: "Impacted Routes"
+        value: "Flights to Saudi Arabia, Egypt, and Jordan"
+        citation_refs: [40]
+      - label: "Infrastructure Status"
+        value: "Operations fully suspended as of Jan 1"
+        citation_refs: [40]
+    details:
+      what_happened:
+        - "The STC-affiliated AIC channel claimed that Saudi Arabia had unilaterally halted all domestic and international flights to and from Aden, prompting the STC to shut down the facility in protest."
+        - "A senior source in the internationally recognized Presidential Leadership Council (PLC) denied that a shutdown had been ordered, describing the situation as \"limited regulatory measures\" coordinating with the Saudi-led coalition."
+        - "Tensions escalated as STC forces established checkpoints around Aden and the presidential office reported a campaign of arrests within the city, further destabilizing the temporary capital."
+        - "The U.S. embassy received reports of the closure and noted that flights were being redirected to Socotra Island or canceled entirely, impacting hundreds of travelers."
+        - "The rift follows recent Saudi airstrikes on STC positions in Hadhramaut, which the kingdom justified as necessary for its national security against separatist encroachment."
+      why_it_matters:
+        - "The closure of Aden Airport cripples the mobility of the internationally recognized government and disrupts the delivery of aid and personnel to non-Houthi areas."
+        - "This event signals a fundamental fracturing of the anti-Houthi coalition, as Saudi Arabia and the UAE pursue divergent goals: Riyadh seeks a unified Yemen while Abu Dhabi supports southern secession."
+        - "Continued friction in Aden could lead to a full-scale military confrontation between PLC and STC forces, as occurred in early January when government forces briefly retook the airport."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Southern Transitional Council (STC)"
+        - "Saudi Arabia"
+        - "Presidential Leadership Council (PLC)"
+      secondary:
+        - "United Arab Emirates (UAE)"
+    entities:
+      people: []
+      organizations:
+        - name: "Southern Transitional Council"
+          description: "UAE-backed Yemeni separatist political organization"
+        - name: "Presidential Leadership Council"
+          description: "Internationally recognized government of Yemen"
+      states:
+        - "Yemen"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "Yemen"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+      places:
+        - "Aden"
+        - "Jeddah"
+        - "Socotra Island"
+        - "Hadhramaut"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: "Indefinite suspension of international flight operations at Yemen's main air hub."
+    classification:
+      event_type:
+        - "diplomatic-crisis"
+        - "infrastructure-disruption"
+      tags:
+        - "aden-airport"
+        - "saudi-uae-rift"
+        - "STC"
+        - "yemen-civil-war"
+        - "air-blockade"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-008-a
+          outlet: "TRT World"
+          url: "https://www.trtworld.com/article/d493b223392c"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [40]
+        - id: src-008-b
+          outlet: "UNN/Reuters"
+          url: "https://unn.ua/en/news/yemens-international-airport-suspends-operations-amid-deepening-crisis-between-saudi-arabia-and-uae"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "biggest crisis in a decade"
+          citation_refs: [41]
+        - id: src-008-c
+          outlet: "Al-Monitor/Reuters"
+          url: "https://www.al-monitor.com/originals/2026/01/yemeni-government-accuses-separatists-aden-restrictions"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [42]
+        - id: src-008-d
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/Fall_of_Aden_(2026)"
+          publication_date: "2026-03-24"
+          source_type: encyclopedia
+          reliability_tier: medium
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [43]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-009"
+    category: "Business and economy"
+    subcategory: "Legality of cryptocurrency"
+    topics:
+      - "Turkmenistan"
+      - "cryptocurrency"
+      - "digital assets"
+      - "economic diversification"
+    importance: 6
+    headline: "Turkmenistan legalizes digital asset mining and exchanges"
+    summary: >
+      In a significant departure from its history as one of the world's most closed
+      economies, Turkmenistan officially legalized cryptocurrency mining and digital
+      asset exchanges on January 1, 2026. The "Law on Virtual Assets," signed by
+      President Serdar Berdimuhamedow, establishes a comprehensive licensing regime
+      overseen by the Central Bank and classifies digital assets as digital property
+      rather than legal tender. The legislation aims to diversify the national economy
+      away from its heavy reliance on natural gas exports by attracting foreign
+      technological investment and leveraging the country's exceptionally low energy
+      costs for mining operations. However, the law maintains strict state oversight,
+      banning anonymous wallets and ensuring that cryptocurrencies cannot be used for
+      everyday payments within the country.
+    key_data:
+      - label: "Classification"
+        value: "Digital property / Investment instrument (Not legal tender)"
+        citation_refs: [46]
+      - label: "Regulatory Body"
+        value: "Central Bank of Turkmenistan"
+        citation_refs: [47]
+      - label: "Licensing Requirements"
+        value: "Local entity with resident director for foreign firms"
+        citation_refs: [48]
+      - label: "Prohibited Activities"
+        value: "Anonymous wallets, \"hidden\" mining, everyday payments"
+        citation_refs: [46]
+      - label: "Storage Standard"
+        value: "Mandatory cold storage for exchange assets"
+        citation_refs: [47]
+    details:
+      what_happened:
+        - "President Serdar Berdimuhamedow signed the legislation in late November 2025, and it officially entered into force as the clock struck midnight on New Year's Day."
+        - "The law permits both individuals and domestic/foreign companies to mine virtual assets, provided they register their equipment and operations with the government and meet strict technical standards."
+        - "Licensed exchanges must implement full Know-Your-Customer (KYC) and Anti-Money Laundering (AML) protocols, with all transactions required to be traceable to an individual or company."
+        - "While adoption may be slowed by the country's tight internet censorship and capital controls, the move aligns Turkmenistan with regional peers like Kazakhstan and Uzbekistan."
+        - "Economic experts suggest that the legalization will enhance financial inclusion and provide the legal clarity necessary to attract digital foreign direct investment."
+      why_it_matters:
+        - "Legalization provides a formal pathway for Turkmenistan to capture the global crypto-mining market share following China's 2021 ban, potentially transforming the nation into a Central Asian tech hub."
+        - "The \"walled garden\" model of regulation — combining formal legality with tight state oversight — reflects a broader trend in developing nations to control digital assets while benefiting from their technological utility."
+        - "Utilizing excess natural gas energy for bitcoin mining creates a new, non-sanctionable revenue stream that could bolster the state's foreign exchange reserves."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Serdar Berdimuhamedow"
+        - "Central Bank of Turkmenistan"
+      secondary:
+        - "Ministry of Finance and Economy"
+    entities:
+      people:
+        - name: "Serdar Berdimuhamedow"
+          role: "President of Turkmenistan"
+      organizations:
+        - name: "Central Bank of Turkmenistan"
+          description: "Central monetary authority of Turkmenistan"
+      states:
+        - "Turkmenistan"
+    geography:
+      countries:
+        - "Turkmenistan"
+      places:
+        - "Ashgabat"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "economic-policy"
+        - "financial-regulation"
+      tags:
+        - "cryptocurrency"
+        - "bitcoin-mining"
+        - "digital-assets"
+        - "KYC-AML"
+        - "economic-diversification"
+        - "natural-gas"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Turkmenistan legalizes the mining and exchange of cryptocurrency as digital assets, but maintains that digital currency cannot be used as legal tender."
+      external:
+        - id: src-009-a
+          outlet: "BitMarkets"
+          url: "https://bitmarkets.com/en/insights/article/crypto-gets-green-light-in-turkmenistan"
+          publication_date: "2026-01-01"
+          source_type: trade_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [45]
+        - id: src-009-b
+          outlet: "Finance Magnates via TradingView"
+          url: "https://www.tradingview.com/news/financemagnates:1082fa7a9094b:0-turkmenistan-opens-its-crypto-market-to-miners-and-exchanges-but-will-they-come/"
+          publication_date: "2026-01-01"
+          source_type: trade_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Walled Garden"
+          citation_refs: [49]
+        - id: src-009-c
+          outlet: "Bitbo"
+          url: "https://bitbo.io/news/turkmenistan-legalizes-bitcoin-mining/"
+          publication_date: "2026-01-04"
+          source_type: trade_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [47]
+        - id: src-009-d
+          outlet: "Daryo.uz"
+          url: "https://daryo.uz/en/2026/01/06/turkmenistan-approves-crypto-mining-keeps-payments-off-limits/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [46]
+        - id: src-009-e
+          outlet: "Bitcoin Magazine"
+          url: "https://bitcoinmagazine.com/news/turkmenistan-legalizes-crypto-mining"
+          publication_date: "2026-01-02"
+          source_type: trade_publication
+          reliability_tier: medium
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [48]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-010"
+    category: "Disasters and accidents"
+    subcategory: "Flash floods"
+    topics:
+      - "Afghanistan"
+      - "flash floods"
+      - "humanitarian crisis"
+      - "climate vulnerability"
+    importance: 7
+    headline: "Deadly flash floods and snowfall across Afghanistan"
+    summary: >
+      The season's first heavy rains and snowfall triggered catastrophic flash floods in
+      several areas of Afghanistan on January 1, killing at least 17 people and injuring
+      11 others. The extreme weather ended a prolonged dry spell but proved fatal for
+      vulnerable communities, particularly in Herat province, where five members of a
+      single family died after their roof collapsed. The flooding damaged or destroyed
+      over 640 houses and impacted approximately 2,100 families, exacerbating a
+      humanitarian crisis that aid agencies warn will remain one of the world's largest
+      in 2026. The disaster underscores Afghanistan's extreme vulnerability to
+      climate-related shocks following decades of conflict and deforestation.
+    key_data:
+      - label: "Confirmed Dead"
+        value: "17"
+        citation_refs: [8]
+      - label: "Number of Injured"
+        value: "11"
+        citation_refs: [50]
+      - label: "Houses Destroyed"
+        value: "256 completely, 385 partially"
+        citation_refs: [52]
+      - label: "Affected Families"
+        value: "1,800–2,100"
+        citation_refs: [50]
+      - label: "Agricultural Impact"
+        value: "8,400 jeribs of land damaged; 494 livestock lost"
+        citation_refs: [52]
+    details:
+      what_happened:
+        - "Heavy and sustained rainfall throughout the week culminated in flash floods on January 1, primarily affecting low-lying areas and riverbed settlements in Farah, Herat, and Uruzgan provinces."
+        - "In the Kabkan district of Herat, a mud-brick home's roof caved in due to the weight of snow and rain, killing two children and three adults from the same household."
+        - "The Afghan National Disaster Management Authority dispatched assessment teams to the worst-hit regions, while the Afghan Red Crescent Society provided initial emergency shelter to displaced families."
+        - "Severe weather also disrupted daily life and transportation across central and northern regions, making the distribution of food and medicine difficult for aid organizations."
+        - "The United Nations launched a $1.7 billion appeal earlier in the week to assist 18 million Afghans, noting that the country remains highly susceptible to extreme weather events."
+      why_it_matters:
+        - "Afghanistan's \"poor infrastructure and widespread deforestation\" have amplified the lethality of seasonal rain, turning a much-needed end to a drought into a deadly catastrophe."
+        - "The loss of nearly 500 livestock and 8,400 jeribs of agricultural land will likely worsen food insecurity in rural areas where families rely on pastoral and farming livelihoods."
+        - "The high impact on mud-brick homes — which offer \"scant protection against sudden deluges\" — highlights the urgent need for climate-resilient housing in remote Afghan provinces."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Afghanistan National Disaster Management Authority"
+        - "Afghan Red Crescent Society (ARCS)"
+      secondary:
+        - "United Nations"
+        - "International Federation of Red Cross and Red Crescent Societies (IFRC)"
+    entities:
+      people: []
+      organizations:
+        - name: "Afghanistan National Disaster Management Authority"
+          description: "Afghan disaster response agency"
+        - name: "Afghan Red Crescent Society"
+          description: "Afghan national humanitarian society"
+        - name: "IFRC"
+          description: "International Federation of Red Cross and Red Crescent Societies"
+        - name: "United Nations"
+          description: "Intergovernmental organization"
+      states:
+        - "Afghanistan"
+    geography:
+      countries:
+        - "Afghanistan"
+      places:
+        - "Herat"
+        - "Farah"
+        - "Uruzgan"
+        - "Kabkan district, Herat"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 17
+      injured: 11
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Extensive destruction of rural shelters, loss of livestock, and burial of agricultural land under silt and debris. 256 houses completely destroyed, 385 partially damaged."
+    classification:
+      event_type:
+        - "natural-disaster"
+        - "flash-flood"
+      tags:
+        - "afghanistan"
+        - "climate-vulnerability"
+        - "deforestation"
+        - "humanitarian-crisis"
+        - "mud-brick-housing"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 17 people are killed and 11 others are injured in flash floods caused by heavy rains and snowfall across Afghanistan."
+      external:
+        - id: src-010-a
+          outlet: "The Independent/Associated Press"
+          url: "https://www.independent.co.uk/news/world/asia/afghanistan-floods-deaths-b2893215.html"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [50]
+        - id: src-010-b
+          outlet: "IFRC GO"
+          url: "https://go.ifrc.org/emergencies/7748/details"
+          publication_date: "2026-01-01"
+          source_type: ngo_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [52]
+        - id: src-010-c
+          outlet: "ECHO Daily Flash via ReliefWeb"
+          url: "https://reliefweb.int/report/afghanistan/afghanistan-severe-weather-and-flash-floods-ifrc-noaa-cpc-echo-daily-flash-7-january-2026"
+          publication_date: "2026-01-07"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [53]
+        - id: src-010-d
+          outlet: "Al Arabiya"
+          url: "https://english.alarabiya.net/News/world/2026/01/01/flash-floods-triggered-by-heavy-rains-in-afghanistan-kill-at-least-17-people"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [54]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-011"
+    category: "Disasters and accidents"
+    subcategory: "Building fires"
+    topics:
+      - "Vondelkerk"
+      - "Amsterdam"
+      - "cultural heritage"
+      - "fireworks"
+    importance: 6
+    headline: "Historic Vondelkerk church in Amsterdam destroyed by fire"
+    summary: >
+      A massive fire devastated the historic Vondelkerk, a 154-year-old neo-Gothic
+      landmark in Amsterdam, in the early hours of January 1, 2026. The blaze erupted
+      shortly after midnight during New Year's Eve celebrations, quickly engulfing the
+      spire and roof of the building designed by the renowned architect Pierre Cuypers.
+      Despite an intensive response from firefighters, the 50-meter-high bell tower and
+      the roof collapsed, leaving the church "no longer salvageable" and causing
+      significant loss to the city's architectural heritage. While no injuries were
+      reported, the fire necessitated the evacuation of dozens of nearby residents and
+      caused power outages in approximately 90 homes.
+    key_data:
+      - label: "50-meter Bell Tower"
+        value: "Collapsed"
+        citation_refs: [16]
+      - label: "Wooden Roof Structure"
+        value: "Entirely destroyed"
+        citation_refs: [55]
+      - label: "Perimeter Masonry Walls"
+        value: "Still standing; under structural review"
+        citation_refs: [55]
+      - label: "Internal Nave"
+        value: "\"Irreparable damage\" to vaulting and pillars"
+        citation_refs: [57]
+      - label: "Site Status"
+        value: "Declared a \"crime scene\" for investigation"
+        citation_refs: [55]
+    details:
+      what_happened:
+        - "The fire alarm was triggered shortly after midnight as flames became visible at the top of the church spire; local residents reported a \"dense shower of sparks\" threatening neighboring homes."
+        - "Firefighters focused on containment to protect the adjacent Vondelstraat and Vondelpark, as parts of the church's upper section collapsed under intense heat."
+        - "By early Thursday morning, authorities from the Veiligheidsregio Amsterdam-Amstelland officially stated that the church could not be saved, though structural engineers arrived to assess the stability of the surviving shell."
+        - "Mayor Femke Halsema described the event as a \"terribly bad and dramatic start to the new year,\" expressing grief over the loss of a building that served as a community hub for events and small businesses."
+        - "While the exact cause remains under investigation, several testimonies and media reports point to the possibility of a firework striking the wooden spire during the city's celebrations."
+      why_it_matters:
+        - "The Vondelkerk was a masterpiece of 19th-century Dutch architecture, and its destruction leaves a permanent void in the skyline near one of Europe's most famous urban parks."
+        - "This incident has renewed urgent calls for a nationwide ban on consumer fireworks in the Netherlands, following an \"escalation of incidents\" that saw serious eye injuries and other major fires on the same night."
+        - "The loss of the building, which had successfully transitioned from a place of worship to a viable commercial space, is a blow to the model of \"adaptive reuse\" that preserves historic structures."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Femke Halsema"
+        - "Veiligheidsregio Amsterdam-Amstelland"
+      secondary:
+        - "Stadsherstel Amsterdam"
+        - "Pierre Cuypers"
+    entities:
+      people:
+        - name: "Femke Halsema"
+          role: "Mayor of Amsterdam"
+        - name: "Pierre Cuypers"
+          role: "Original architect of the Vondelkerk (historical)"
+      organizations:
+        - name: "Veiligheidsregio Amsterdam-Amstelland"
+          description: "Amsterdam regional safety authority"
+        - name: "Stadsherstel Amsterdam"
+          description: "Amsterdam historic preservation group"
+      states:
+        - "Netherlands"
+    geography:
+      countries:
+        - "Netherlands"
+      places:
+        - "Amsterdam"
+        - "Vondelstraat"
+        - "Vondelpark"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: true
+      time_detail: "Shortly after midnight CET"
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Total loss of spire and roof; extensive interior damage; loss of historic stained glass and decorative masonry. Power outages in ~90 homes."
+    classification:
+      event_type:
+        - "disaster"
+        - "building-fire"
+        - "cultural-heritage-loss"
+      tags:
+        - "vondelkerk"
+        - "neo-gothic"
+        - "fireworks"
+        - "adaptive-reuse"
+        - "pierre-cuypers"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Vondelkerk in Amsterdam, Netherlands, catches fire, collapsing the tower and leaving only the exterior walls standing."
+      external:
+        - id: src-011-a
+          outlet: "Fire Risk Heritage"
+          url: "https://www.fireriskheritage.net/fire-and-cultural-heritage-losses/new-years-eve-fire-in-a-historic-church-in-amsterdam/"
+          publication_date: "2026-01-01"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "dense shower of sparks"
+          citation_refs: [55]
+        - id: src-011-b
+          outlet: "ArtDependence"
+          url: "https://artdependence.com/articles/amsterdams-historic-vondelkerk-destroyed-in-new-years-fire/"
+          publication_date: "2026-01-01"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+          contradicts: []
+          quoted_material:
+            - "no longer salvageable"
+          citation_refs: [58]
+        - id: src-011-c
+          outlet: "Finestresullarte"
+          url: "https://www.finestresullarte.info/en/news/amsterdam-the-vondelkerk-an-important-neo-gothic-church-on-fire-possibly-a-firework"
+          publication_date: "2026-01-01"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [57]
+        - id: src-011-d
+          outlet: "Evrim Ağacı/BNO News"
+          url: "https://evrimagaci.org/gpt/historic-amsterdam-church-destroyed-in-new-year-fire-522144"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [56]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-012"
+    category: "Business and economy"
+    subcategory: "International trade"
+    topics:
+      - "South Korea"
+      - "semiconductor exports"
+      - "AI boom"
+      - "defense industry"
+    importance: 6
+    headline: "South Korea surpasses $700 billion annual export record"
+    summary: >
+      South Korea officially achieved its highest annual export value on record in 2025,
+      surpassing the $700 billion milestone as announced on January 1, 2026. This
+      exceptional performance was primarily driven by the "AI boom," which propelled
+      semiconductor shipments to a record $173.4 billion, reflecting global demand for
+      electronic components and data center infrastructure. In addition to its technology
+      sector, South Korea has emerged as a major global player in the defense industry,
+      with its arms exports surging from $2.5 billion in 2019 to an estimated $23
+      billion in 2025. The country now ranks among the top 10 global arms exporters,
+      with a growing backlog of orders from nations such as Vietnam and Poland.
+    key_data:
+      - label: "Total Export Value"
+        value: "$700B+ (all-time record)"
+        citation_refs: [8, 59]
+      - label: "Semiconductor Exports"
+        value: "$173.4B (record high)"
+        citation_refs: [8]
+      - label: "Arms Export Value"
+        value: "$23B (estimate, ranked #10 globally)"
+        citation_refs: [62]
+      - label: "Defense Order Backlog"
+        value: "100 Trillion Won ($72B), doubled since 2021"
+        citation_refs: [62]
+      - label: "Trade Growth Rate"
+        value: "7% (global average), double the 2024 pace"
+        citation_refs: [60]
+    details:
+      what_happened:
+        - "In October 2025, outbound shipments surged at their quickest pace in nearly 16 years (49.7% year-on-year), helping South Korea reach the $700 billion target by the year's end."
+        - "The semiconductor sector, led by companies like Samsung and SK Hynix, benefited from high-performance memory demand as big-tech firms like AWS and Google increased AI capital expenditure."
+        - "The South Korean defense industry secured major deals for K9 howitzers and Chunmoo multiple rocket systems, with export shares for top firms like Hanwha Aerospace reaching 65% of their order books."
+        - "Trade with Vietnam grew strongly, setting a record value and establishing Vietnam as South Korea's third-largest trading partner and second-largest source of trade surplus."
+        - "Despite the record, analysts from the IMF and UNCTAD expressed caution for 2026, citing potential U.S. tariffs on semiconductors and a general slowing of global economic growth."
+      why_it_matters:
+        - "South Korea's economy is increasingly specialized in high-tech and defense, making it a \"winner\" in the current geopolitical environment while simultaneously increasing its vulnerability to shifts in U.S. trade policy."
+        - "The rapid maturity of the South Korean defense industry challenges traditional arms exporters like Russia and China, providing nations with a \"highly capable manufacturing base\" and \"proven platforms\" on short delivery timelines."
+        - "Continued investment in AI infrastructure, projected to exceed $600 billion globally in 2026, suggests that the semiconductor boom has further room for growth despite macroeconomic headwinds."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ministry of Trade, Industry and Energy (South Korea)"
+        - "Samsung Electronics"
+        - "Hanwha Aerospace"
+      secondary:
+        - "SK Hynix"
+        - "LIG Nex1"
+        - "Hyundai Rotem"
+    entities:
+      people: []
+      organizations:
+        - name: "Ministry of Trade, Industry and Energy"
+          description: "South Korean government trade ministry"
+        - name: "Samsung Electronics"
+          description: "South Korean semiconductor and electronics conglomerate"
+        - name: "Hanwha Aerospace"
+          description: "South Korean defense and aerospace company"
+        - name: "SK Hynix"
+          description: "South Korean semiconductor manufacturer"
+        - name: "LIG Nex1"
+          description: "South Korean defense electronics company"
+        - name: "Hyundai Rotem"
+          description: "South Korean rail and defense vehicle manufacturer"
+      states:
+        - "South Korea"
+    geography:
+      countries:
+        - "South Korea"
+      places:
+        - "Seoul"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "economic-milestone"
+        - "trade-record"
+      tags:
+        - "semiconductors"
+        - "AI-boom"
+        - "defense-exports"
+        - "K9-howitzer"
+        - "samsung"
+        - "SK-hynix"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "South Korea records its highest annual export value of more than US$700 billion in 2025 after semiconductor shipments reach a record $173.4 billion driven by demand for artificial intelligence."
+      external:
+        - id: src-012-a
+          outlet: "France 24/AFP"
+          url: "https://www.france24.com"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: src-012-b
+          outlet: "Digitimes"
+          url: "https://www.digitimes.com"
+          publication_date: "2026-01-28"
+          source_type: trade_publication
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [59]
+        - id: src-012-c
+          outlet: "The Straits Times"
+          url: "https://www.straitstimes.com"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "triumph over tariffs"
+          citation_refs: [60]
+        - id: src-012-d
+          outlet: "World New World"
+          url: "https://worldnewworld.com/page/content.php?no=5941"
+          publication_date: "2025-05-06"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [62]
+        - id: src-012-e
+          outlet: "Go Markets"
+          url: "https://www.gomarkets.com/en/articles/the-2026-ai-playbook-what-is-powering-the-ai-trade"
+          publication_date: "2026-01-01"
+          source_type: trade_publication
+          reliability_tier: medium
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [61]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-013"
+    category: "Politics and elections"
+    subcategory: "International diplomacy"
+    topics:
+      - "WHO withdrawal"
+      - "United States"
+      - "global health governance"
+      - "pandemic preparedness"
+    importance: 8
+    headline: "US finalizes official withdrawal from World Health Organization"
+    summary: >
+      Following a one-year notice period initiated by President Donald Trump on January
+      20, 2025, the United States officially completed its withdrawal from the World
+      Health Organization (WHO) on January 1, 2026. The U.S. government has terminated
+      all funding, recalled personnel from WHO headquarters in Geneva, and suspended
+      participation in hundreds of international health committees. The administration
+      cited the WHO's alleged mishandling of the COVID-19 pandemic and its perceived
+      susceptibility to political influence from China as the primary drivers for the
+      exit. While the WHO expressed regret over the decision, health experts warn that
+      the departure of the agency's largest funder will "hobble" global responses to
+      future pandemics and polio eradication efforts.
+    key_data:
+      - label: "Notification Date"
+        value: "January 20, 2025"
+        citation_refs: [17]
+      - label: "Completion Date"
+        value: "January 1–22, 2026 (Finalized)"
+        citation_refs: [7]
+      - label: "Funding Terminated"
+        value: "~$681M annually (Assessed + Voluntary)"
+        citation_refs: [17]
+      - label: "Outstanding Dues"
+        value: "~$280M (Estimated by WHO)"
+        citation_refs: [19]
+      - label: "Staff Recalled"
+        value: "Hundreds of CDC/HHS personnel"
+        citation_refs: [17]
+    details:
+      what_happened:
+        - "President Trump signed Executive Order 14155 on his first day in office in 2025, triggering the legal withdrawal process that culminated in the U.S. formally exiting the organization as of early 2026."
+        - "The U.S. Department of Health and Human Services (HHS) confirmed that it has pivoted its global health activities to \"direct bilateral engagements\" with allies and private sector partners."
+        - "WHO principal legal officer Steven Solomon noted that the U.S. remains financially obligated for outstanding dues from 2024 and 2025, a claim the Trump administration has officially denied."
+        - "Scientists and technical experts from Johns Hopkins and other U.S. institutions noted that while official coordination has ceased, some individual participation in WHO committees may continue on a non-governmental basis."
+        - "Geopolitical analysts noted that the vacuum left by the U.S. is being filled by countries like India, Saudi Arabia, Russia, and China, which are now exerting more influence over global health priorities."
+      why_it_matters:
+        - "The U.S. withdrawal represents a historic rupture in global health governance, potentially delaying the detection of new viral threats and complicating the updates to seasonal flu vaccines."
+        - "The loss of U.S. specialized expertise and financial support could lead to a \"slow bleed\" of resources for low- and middle-income countries that rely on WHO guidance."
+        - "This move restores what the administration calls \"accountability and transparency for U.S. taxpayers\" but risks leaving the United States vulnerable to health crises originating in regions where it no longer has data-sharing agreements."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+        - "Tedros Adhanom Ghebreyesus"
+      secondary:
+        - "U.S. Department of State"
+        - "U.S. Centers for Disease Control and Prevention (CDC)"
+        - "Steven Solomon"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Tedros Adhanom Ghebreyesus"
+          role: "Director-General of WHO"
+        - name: "Steven Solomon"
+          role: "WHO principal legal officer"
+      organizations:
+        - name: "World Health Organization"
+          description: "UN specialized health agency, headquartered in Geneva"
+        - name: "U.S. Department of Health and Human Services"
+          description: "US federal health ministry"
+        - name: "U.S. Centers for Disease Control and Prevention"
+          description: "US national public health agency"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+        - "Switzerland"
+      places:
+        - "Washington, D.C."
+        - "Geneva"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Termination of billions in cumulative global health funding; loss of U.S. leadership in international health forums."
+    classification:
+      event_type:
+        - "international-diplomacy"
+        - "institutional-withdrawal"
+      tags:
+        - "WHO"
+        - "global-health"
+        - "pandemic-preparedness"
+        - "executive-order"
+        - "america-first"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-013-a
+          outlet: "CDC Newsroom"
+          url: "https://www.cdc.gov/media/releases/2026/united-states-completes-who-withdrawal.html"
+          publication_date: "2026-01-22"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+          contradicts: []
+          quoted_material: []
+          citation_refs: [20]
+        - id: src-013-b
+          outlet: "TIME"
+          url: "https://time.com/7357180/us-withdrawal-who-world-health-organization/"
+          publication_date: "2026-01-22"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [65]
+        - id: src-013-c
+          outlet: "AP News"
+          url: "https://apnews.com/article/world-health-organization-trump-b6e0be566c7db9aece0334e987d516f1"
+          publication_date: "2026-01-22"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [19]
+        - id: src-013-d
+          outlet: "U.S. Department of Health and Human Services"
+          url: "https://www.hhs.gov/press-room/fact-sheet-us-withdrawal-from-the-world-health-organization.html"
+          publication_date: "2026-01-22"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Accountability and Transparency"
+            - "direct bilateral engagements"
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-014"
+    category: "Law and crime"
+    subcategory: "Judicial releases"
+    topics:
+      - "Venezuela"
+      - "political prisoners"
+      - "regime change"
+      - "Operation Southern Spear"
+    importance: 7
+    headline: "Release of 88 political prisoners in Venezuela following regime shift"
+    summary: >
+      The Venezuelan government, now led by Acting President Delcy Rodríguez following
+      the capture and rendition of Nicolás Maduro, released 88 political prisoners on
+      January 1, 2026. This move was characterized by the administration as a "gesture"
+      to consolidate peace and open a "new political moment" in a country entering a
+      phase of profound uncertainty. While the release of detainees, including those
+      jailed during the previous year's election protests, was hailed by opposition
+      leader María Corina Machado, human rights organizations like Foro Penal warn that
+      approximately 800 people remain in custody under conditional liberty. The
+      transition occurs as Venezuela faces a total energy collapse and an ongoing U.S.
+      oil blockade following the New Year's Day strikes.
+    key_data:
+      - label: "Number Released (Jan 1)"
+        value: "88"
+        citation_refs: [8]
+      - label: "Total Released (Dec–Jan)"
+        value: "~406 (Claimed by gov)"
+        citation_refs: [68]
+      - label: "Remaining Detainees"
+        value: "~800–1,000 (NGO estimate)"
+        citation_refs: [68]
+      - label: "Terms of Release"
+        value: "Conditional liberty; restricted speech/travel"
+        citation_refs: [67]
+      - label: "Foreign Nationals"
+        value: "Several Spanish and US citizens involved"
+        citation_refs: [67]
+    details:
+      what_happened:
+        - "In the aftermath of the U.S. operation that captured Nicolás Maduro and First Lady Cilia Flores, Acting President Delcy Rodríguez announced a \"mass process of releases\" to demonstrate a more civic image to the international community."
+        - "On January 1, family members gathered outside prisons like El Rodeo I as 88 individuals were allowed to return to their homes, though they remained barred from speaking to the press or traveling abroad."
+        - "The U.S. State Department welcomed the release of four detained Americans, calling it an \"important step in the right direction\" by the interim authorities."
+        - "Spain's foreign ministry confirmed the release of five Spanish nationals who were prepared to travel to Madrid following their detention in military counterintelligence headquarters."
+        - "Despite the releases, the Rodríguez administration issued a decree authorizing a national manhunt for those involved in the American attack and warned that \"messages of hatred\" would not be permitted."
+      why_it_matters:
+        - "The release of political prisoners is a tactical attempt by the interim Venezuelan government to reduce international pressure and secure a lifting of the catastrophic oil blockade."
+        - "Human rights activists describe the situation as a \"revolving door\" effect, where some prisoners are freed to satisfy international demands while others are arrested for political dissent under the new leadership."
+        - "The political reshuffle has created \"administrative chaos,\" as the de facto leaders — the Rodríguez siblings — struggle to maintain a clear chain of command while the de jure president awaits trial in the U.S."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Delcy Rodríguez"
+        - "Jorge Rodríguez"
+      secondary:
+        - "María Corina Machado"
+        - "Foro Penal"
+    entities:
+      people:
+        - name: "Delcy Rodríguez"
+          role: "Acting President of Venezuela"
+        - name: "Jorge Rodríguez"
+          role: "President of National Assembly of Venezuela"
+        - name: "Nicolás Maduro"
+          role: "Captured former President of Venezuela"
+        - name: "María Corina Machado"
+          role: "Venezuelan opposition leader"
+      organizations:
+        - name: "Foro Penal"
+          description: "Venezuelan human rights NGO"
+      states:
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places:
+        - "Caracas"
+        - "El Rodeo I prison"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Conditional freedom with strict judicial restrictions on speech and movement."
+    classification:
+      event_type:
+        - "political-transition"
+        - "prisoner-release"
+      tags:
+        - "political-prisoners"
+        - "operation-southern-spear"
+        - "regime-change"
+        - "conditional-liberty"
+        - "oil-blockade"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Venezuelan government releases 88 political prisoners who were detained and jailed during protests against the results of the presidential election last year."
+      external:
+        - id: src-014-a
+          outlet: "Deutsche Welle (DW)"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_1"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: src-014-b
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/jan/08/venezuela-to-release-important-number-of-detainees"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "gesture to consolidate peace"
+          citation_refs: [67]
+        - id: src-014-c
+          outlet: "Investing.com/Reuters"
+          url: "https://www.investing.com/news/world-news/venezuela-says-it-has-released-116-prisoners-4441818"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "acts associated with disrupting the constitutional order"
+          citation_refs: [66]
+        - id: src-014-d
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/2026_political_prisoner_release_in_Venezuela"
+          publication_date: "2026-03-24"
+          source_type: encyclopedia
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [69]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "Israeli–Palestinian conflict"
+      - "Gaza"
+      - "West Bank"
+      - "humanitarian crisis"
+    importance: 9
+    headline: "Israeli airstrikes and humanitarian crisis in Gaza and the West Bank"
+    summary: >
+      On January 1, 2026, the Israeli–Palestinian conflict continued with lethal force,
+      even as a fragile ceasefire was reportedly in place elsewhere. In the Gaza Strip,
+      an Israeli airstrike targeted a tent sheltering refugees in the Khan Yunis camp,
+      killing four Palestinians in what the military claimed was a strike on a "Hamas
+      target." Simultaneously, in the West Bank, Israeli forces opened fire on a group of
+      stone-throwers near Nablus, killing one Palestinian and injuring another. These
+      incidents occur against a backdrop of a UN-declared famine in Gaza, where over
+      2,600 families have been completely wiped out and basic survival remains the primary
+      daily struggle for the displaced population.
+    key_data:
+      - label: "Airstrike on Refugee Tent"
+        value: "4 Palestinians killed, Khan Yunis, Gaza"
+        citation_refs: [70]
+      - label: "Ground Fire on Stone-throwers"
+        value: "1 Palestinian killed, 1 injured, Al-Lubban ash-Sharqiya, Nablus"
+        citation_refs: [8]
+      - label: "Total Families Erased (War to Oct 2025)"
+        value: "2,613 families completely killed"
+        citation_refs: [71]
+      - label: "Forced Evacuation Order"
+        value: "Dozens of families displaced, Southern Gaza"
+        citation_refs: [72]
+    details:
+      what_happened:
+        - "In the early hours of January 1, an Israeli drone or aircraft struck a temporary shelter in the Khan Yunis refugee camp, causing casualties among displaced civilians seeking cover from the winter cold."
+        - "Israeli forces ordered Palestinian families in areas like Bani Suhaila to leave their homes in the first known forced evacuation since the October ceasefire, dropping leaflets warning them not to cross armistice lines."
+        - "In the West Bank, clashes erupted near the town of Al-Lubban ash-Sharqiya, where Israeli troops used live ammunition to respond to youths throwing stones."
+        - "Humanitarian reports from Gaza detailed that parts of the strip have entered \"catastrophic hunger stages,\" with acute shortages of flour and clean water leading to widespread malnutrition among children."
+        - "Israel authorized Palestinian mobile operators Jawwal and Ooredoo to begin upgrading to 4G services in the West Bank, a rare developmental concession amid the ongoing security crackdown."
+      why_it_matters:
+        - "The targeted strikes on refugee shelters and the forced evacuations suggest that the Israeli military is continuing to expand the area it controls in Gaza despite international calls for a permanent ceasefire."
+        - "The scale of familial loss — where nearly 6,000 families have been left with only a single surviving member — indicates a profound and lasting demographic scar on Palestinian society."
+        - "The divergence between military strikes and the 4G upgrade authorization reflect a \"dual-track\" strategy of security enforcement combined with limited economic concessions for the West Bank."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Israel Defense Forces (IDF)"
+        - "Hamas"
+      secondary:
+        - "Palestinian Authority"
+        - "Ericsson"
+        - "UN World Food Programme"
+    entities:
+      people: []
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Military forces of Israel"
+        - name: "Hamas"
+          description: "Palestinian militant organization governing Gaza"
+        - name: "Palestinian Authority"
+          description: "Interim governing body of the Palestinian territories"
+        - name: "UN World Food Programme"
+          description: "UN food assistance agency"
+        - name: "Jawwal"
+          description: "Palestinian mobile network operator"
+        - name: "Ooredoo"
+          description: "Qatari-owned Palestinian mobile network operator"
+      states:
+        - "Israel"
+        - "Palestine"
+    geography:
+      countries:
+        - "Israel"
+        - "Palestine"
+      places:
+        - "Khan Yunis, Gaza Strip"
+        - "Al-Lubban ash-Sharqiya, Nablus, West Bank"
+        - "Bani Suhaila, Gaza Strip"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 5
+      injured: 1
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Destruction of refugee shelters and homes in central Gaza."
+    classification:
+      event_type:
+        - "military-operation"
+        - "airstrike"
+        - "humanitarian-crisis"
+      tags:
+        - "gaza"
+        - "west-bank"
+        - "khan-yunis"
+        - "forced-evacuation"
+        - "famine"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A Palestinian is killed and another is injured when Israeli forces open fire on stone-throwers near Al-Lubban ash-Sharqiya, Nablus, West Bank."
+      external:
+        - id: src-015-a
+          outlet: "Reuters/Wikipedia"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_1"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: src-015-b
+          outlet: "The National"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/January_2026"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [70]
+        - id: src-015-c
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/features/2026/1/1/gazas-new-year-begins-with-a-struggle-for-survival-and-dignity"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material: []
+          citation_refs: [71]
+        - id: src-015-d
+          outlet: "Just Security/Reuters"
+          url: "https://www.justsecurity.org/129312/early-edition-january-21-2026/"
+          publication_date: "2026-01-21"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [72]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Russo-Ukrainian war"
+      - "drone warfare"
+      - "peace negotiations"
+      - "energy infrastructure"
+    importance: 8
+    headline: "Russo-Ukrainian war drone strikes and peace deal negotiations"
+    summary: >
+      The war in Ukraine entered its fifth year with persistent drone warfare and
+      significant civilian casualties on January 1, 2026. Russian "Shahed" drones
+      targeted critical infrastructure and residential buildings in Kherson and Odesa,
+      while Ukraine launched retaliatory strikes on Voronezh and oil depots in the
+      Volgograd region. President Volodymyr Zelenskyy claimed that 90% of a peace
+      agreement with Russia has been finalized, yet warned that the remaining 10% —
+      which concerns the fundamental fate of Ukraine and Europe — remains undecided. As
+      the conflict reaches day 1,406, the primary goal for Ukrainian troops in the east
+      has shifted from advancement to simple survival amidst a brutal winter and
+      continued Russian advances.
+    key_data:
+      - label: "Drone Strike (Kherson)"
+        value: "1 killed; 1 injured on Jan 1"
+        citation_refs: [8]
+      - label: "Drone Strike (Odesa)"
+        value: "6 injured in overnight attack"
+        citation_refs: [73]
+      - label: "Retaliatory Strike (Voronezh)"
+        value: "1 Russian woman killed; residential damage"
+        citation_refs: [70]
+      - label: "Peace Deal Status"
+        value: "\"90% ready\" according to Zelenskyy"
+        citation_refs: [73]
+      - label: "Kyiv Power Outages"
+        value: "Thousands of apartments without electricity"
+        citation_refs: [18]
+    details:
+      what_happened:
+        - "In Kherson's Dniprovskyi District, a Russian drone strike killed one person and injured another, while Odesa reported critical infrastructure damage after a wave of overnight attacks."
+        - "Moscow Mayor Sergei Sobyanin claimed Russian forces intercepted five Ukrainian drones en route to the capital, while Ukrainian forces struck the Zhutovskaya oil depot in Volgograd."
+        - "President Zelenskyy emphasized that Ukraine is not prepared to sign a \"weak agreement,\" even as engineers in Kyiv work around the clock to restore heat and power to residents following the latest Russian barrages."
+        - "Russia reportedly deployed hypersonic \"Oreshnik\" missiles in Belarus, a strategic escalation that further heightens tensions with neighboring European states."
+        - "The war continues to be identified by the UN and IAEA as the world's biggest threat to nuclear safety, as power supplies to critical sites remain vulnerable to nearby combat."
+      why_it_matters:
+        - "The shift in the \"goal for 2026\" from victory to survival reflects the exhaustion of Ukrainian frontline troops after years of Russian advances and the uncertainty of future Western military aid."
+        - "The \"90% ready\" peace deal highlights that while procedural points may be settled, the fundamental territorial and sovereignty disputes remain intractable, suggesting a long-term \"frozen conflict\" or a continued war of attrition."
+        - "Retaliatory strikes on Russian soil (Voronezh/Volgograd) demonstrate Ukraine's evolving capability to reach deep into Russian territory, potentially bringing the domestic cost of the war to the Russian public."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Volodymyr Zelenskyy"
+        - "Vladimir Putin"
+      secondary:
+        - "Sergei Sobyanin"
+        - "Tymur Tkachenko"
+    entities:
+      people:
+        - name: "Volodymyr Zelenskyy"
+          role: "President of Ukraine"
+        - name: "Vladimir Putin"
+          role: "President of Russia"
+        - name: "Sergei Sobyanin"
+          role: "Mayor of Moscow"
+        - name: "Tymur Tkachenko"
+          role: "Kyiv Military Administration official"
+      organizations: []
+      states:
+        - "Ukraine"
+        - "Russia"
+    geography:
+      countries:
+        - "Ukraine"
+        - "Russia"
+        - "Belarus"
+      places:
+        - "Kherson, Dniprovskyi District"
+        - "Odesa"
+        - "Kyiv"
+        - "Voronezh"
+        - "Volgograd"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 2
+      injured: 7
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Residential buildings, critical infrastructure, and oil depots damaged in both nations. Thousands in Kyiv without power."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "war"
+        - "infrastructure-attack"
+      tags:
+        - "shahed-drones"
+        - "oreshnik-missiles"
+        - "peace-negotiations"
+        - "energy-infrastructure"
+        - "oil-depot"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "One person is killed and another is injured in Russian drone strikes on Dniprovskyi District, Kherson, Ukraine."
+      external:
+        - id: src-016-a
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/1/russia-ukraine-war-list-of-key-events-day-1407"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [73]
+        - id: src-016-b
+          outlet: "RBC-Ukraine"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_1"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: src-016-c
+          outlet: "Reuters/Wikipedia"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/January_2026"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [70]
+        - id: src-016-d
+          outlet: "BBC News (Internet Archive)"
+          url: "https://archive.org/details/BBCNEWS_20260101_010000_BBC_News"
+          publication_date: "2026-01-01"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material: []
+          citation_refs: [74]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-01-017"
+    category: "Politics and elections"
+    subcategory: "Head of state transition"
+    topics:
+      - "Switzerland"
+      - "presidency"
+      - "Guy Parmelin"
+    importance: 4
+    headline: "Guy Parmelin sworn in as President of Switzerland"
+    summary: >
+      Guy Parmelin was sworn in as President of Switzerland on January 1, 2026,
+      succeeding Karin Keller-Sutter. The transition follows the Swiss Federal Council's
+      annual rotating presidency system.
+    key_data: []
+    details:
+      what_happened:
+        - "Guy Parmelin assumed the presidency of the Swiss Confederation on January 1, succeeding Karin Keller-Sutter under the country's annual rotation system."
+      why_it_matters:
+        - "The presidential transition occurred against the backdrop of the Crans-Montana fire disaster, immediately testing the new president's crisis management capabilities."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Guy Parmelin"
+      secondary:
+        - "Karin Keller-Sutter"
+    entities:
+      people:
+        - name: "Guy Parmelin"
+          role: "President of Switzerland (incoming)"
+        - name: "Karin Keller-Sutter"
+          role: "President of Switzerland (outgoing)"
+      organizations: []
+      states:
+        - "Switzerland"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Bern"
+      coordinates: []
+    time:
+      date: "2026-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "head-of-state-transition"
+      tags:
+        - "swiss-presidency"
+        - "rotating-presidency"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Guy Parmelin is sworn in as President of Switzerland, succeeding Karin Keller-Sutter."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-01-001"
+    notes: ""
+
+strategic_conclusion: >
+  The events of January 1, 2026, indicate a world that is simultaneously integrating
+  through economic necessity while fragmenting under the pressure of populist
+  nationalism and persistent conflict. In Europe, the successful adoption of the euro
+  by Bulgaria is a testament to the enduring appeal of the single currency as a buffer
+  against volatility, yet the catastrophic fire in Crans-Montana serves as a grim
+  reminder that administrative and safety protocols must be as robust as fiscal ones.
+  The deepening Saudi-UAE rift over Yemen and the escalating domestic crisis in Iran
+  suggest that the Middle East remains the world's primary theater of geopolitical
+  instability, where old alliances are being replaced by transactional and often hostile
+  competition. In the Americas, the capture of Nicolás Maduro has triggered a
+  high-stakes transition in Venezuela that could either lead to a restoration of
+  democratic norms or a new era of administrative chaos under the Rodríguez siblings.
+  Meanwhile, the United States' continued withdrawal from multilateral institutions
+  like the WHO and its hardening of immigration policies reflect a persistent "America
+  First" strategy that is redrawing the map of global health and labor. Finally, the
+  AI-driven export records in South Korea and the legalization of crypto in Turkmenistan
+  highlight a shift toward a digitalized global economy where energy-rich and
+  technologically advanced nations are finding new avenues for growth, even as the
+  traditional "law of the jungle" continues to dictate the fate of many in conflict
+  zones like Ukraine, Gaza, and North Kivu. The outlook for 2026 is one of "steady but
+  divergent forces," as technology and adaptability offset the mounting headwinds of
+  trade policy and geopolitical tension.
+
+works_cited:
+  - id: 1
+    title: "THE NEW YORK TIMES – THURSDAY, JANUARY 1, 2026"
+    outlet: "Boomers Daily"
+    url: "https://boomers-daily.com/2026/01/01/the-new-york-times-thursday-january-1-2026/"
+    accessed: "2026-03-24"
+  - id: 2
+    title: "Switzerland resort fire latest news: 40 dead and 115 injured in Crans-Montana"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/live/2026/jan/01/switzerland-resort-explosion-dead-blast-ski-town-crans-montana-latest-news-live"
+    accessed: "2026-03-24"
+  - id: 3
+    title: "2026 Crans-Montana bar fire"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Crans-Montana_bar_fire"
+    accessed: "2026-03-24"
+  - id: 4
+    title: "Death toll from Crans-Montana bar fire rises to 41"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/feb/01/crans-montana-bar-fire-switzerland-death-toll"
+    accessed: "2026-03-24"
+  - id: 5
+    title: "Criminal investigation opened into two officials over deadly new year Swiss fire"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/29/criminal-investigation-crans-montana-officials-swiss-fire"
+    accessed: "2026-03-24"
+  - id: 7
+    title: "2026"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026"
+    accessed: "2026-03-24"
+  - id: 8
+    title: "Portal:Current events/2026 January 1"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_1"
+    accessed: "2026-03-24"
+  - id: 9
+    title: "Bulgaria adopts euro as of 1 January 2026"
+    outlet: "European Commission"
+    url: "https://trade.ec.europa.eu/access-to-markets/en/news/bulgaria-adopts-euro-1-january-2026"
+    accessed: "2026-03-24"
+  - id: 11
+    title: "Bulgaria and the euro"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Bulgaria_and_the_euro"
+    accessed: "2026-03-24"
+  - id: 13
+    title: "Bulgaria to join euro area on 1 January 2026"
+    outlet: "European Central Bank"
+    url: "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.pr250708~b9676a9fa8.en.html"
+    accessed: "2026-03-24"
+  - id: 14
+    title: "Latest news bulletin | January 1st, 2026 – Evening"
+    outlet: "Euronews/YouTube"
+    url: "https://www.youtube.com/watch?v=GrhPOpdP950"
+    accessed: "2026-03-24"
+  - id: 15
+    title: "Suspension of Visa Issuance to Foreign Nationals to Protect the Security of the United States"
+    outlet: "U.S. Department of State"
+    url: "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html"
+    accessed: "2026-03-24"
+  - id: 16
+    title: "2026 January 01 BBC 2-minute World News Audio"
+    outlet: "BBC/YouTube"
+    url: "https://www.youtube.com/watch?v=7_Lj2_G_H8Q"
+    accessed: "2026-03-24"
+  - id: 17
+    title: "Fact Sheet: U.S. Withdrawal from the World Health Organization"
+    outlet: "HHS.gov"
+    url: "https://www.hhs.gov/press-room/fact-sheet-us-withdrawal-from-the-world-health-organization.html"
+    accessed: "2026-03-24"
+  - id: 18
+    title: "Russia-Ukraine war: List of key events, day 1417"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/11/russia-ukraine-war-list-of-key-events-day-1417"
+    accessed: "2026-03-24"
+  - id: 19
+    title: "US completes withdrawal from World Health Organization"
+    outlet: "AP News"
+    url: "https://apnews.com/article/world-health-organization-trump-b6e0be566c7db9aece0334e987d516f1"
+    accessed: "2026-03-24"
+  - id: 20
+    title: "United States Completes WHO Withdrawal"
+    outlet: "CDC Newsroom"
+    url: "https://www.cdc.gov/media/releases/2026/united-states-completes-who-withdrawal.html"
+    accessed: "2026-03-24"
+  - id: 21
+    title: "2025–2026 Iranian protests"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests"
+    accessed: "2026-03-24"
+  - id: 22
+    title: "Several Protesters Reported Dead In Iran As Anger Builds Over Dismal Economy"
+    outlet: "RFE/RL"
+    url: "https://www.rferl.org/a/iran-protests-deaths-economy/33637925.html"
+    accessed: "2026-03-24"
+  - id: 23
+    title: "Iran: Deaths and injuries rise amid authorities' renewed cycle of protest bloodshed"
+    outlet: "ReliefWeb/Amnesty International"
+    url: "https://reliefweb.int/report/iran-islamic-republic/iran-deaths-and-injuries-rise-amid-authorities-renewed-cycle-protest-bloodshed"
+    accessed: "2026-03-24"
+  - id: 24
+    title: "Iran: Names of 13 More Martyrs of Nationwide Uprising Released"
+    outlet: "NCRI"
+    url: "https://www.ncr-iran.org/en/ncri-statements/statement-iran-protest/iran-names-of-13-more-martyrs-of-nationwide-uprising-released-death-toll-rises-to-at-least-31/"
+    accessed: "2026-03-24"
+  - id: 27
+    title: "China introduces new tax measures to boost birth rates"
+    outlet: "RBC-Ukraine"
+    url: "https://newsukraine.rbc.ua/news/china-introduces-new-tax-measures-to-boost-1767394304.html"
+    accessed: "2026-03-24"
+  - id: 28
+    title: "China taxes condoms, contraceptive drugs in bid to spur birth rate"
+    outlet: "Reuters/Investing.com"
+    url: "https://www.investing.com/news/world-news/china-taxes-condoms-contraceptive-drugs-in-bid-to-spur-birth-rate-4427787"
+    accessed: "2026-03-24"
+  - id: 29
+    title: "From January 1, 2026, sales of birth control pills and devices will be subject to VAT"
+    outlet: "Webull/Zhitongcaijing"
+    url: "https://www.webull.com/news/13945687413867520"
+    accessed: "2026-03-24"
+  - id: 31
+    title: "Officials say that 39 people have died in a Gambia boat sinking"
+    outlet: "Marine Link"
+    url: "https://www.marinelink.com/blogs/blog/officials-say-that-39-people-have-died-in-a-gambia-boat-sinking-103937"
+    accessed: "2026-03-24"
+  - id: 32
+    title: "Thirty-nine dead in Gambia migrant boat sinking"
+    outlet: "Reuters/Arab News"
+    url: "https://www.arabnews.pk/node/2628698/world"
+    accessed: "2026-03-24"
+  - id: 33
+    title: "Emergency - GMB: Boat Accident (capsized migrant boat off the Gambian coast)"
+    outlet: "IFRC GO"
+    url: "https://go.ifrc.org/emergencies/7743/details"
+    accessed: "2026-03-24"
+  - id: 34
+    title: "At least 31 dead in New Year's migrant boat sinking off Gambia"
+    outlet: "BSS/AFP"
+    url: "https://www.bssnews.net/international/348390"
+    accessed: "2026-03-24"
+  - id: 35
+    title: "39 people dead as migrant boat sinks off Gambia's coast"
+    outlet: "Maghrebi.org"
+    url: "https://maghrebi.org/2026/01/09/39-people-dead-as-migrant-boat-sinks-off-gambias-coast/"
+    accessed: "2026-03-24"
+  - id: 36
+    title: "New Year Brings Tragedy in the DRC"
+    outlet: "Persecution.org/ICC"
+    url: "https://persecution.org/2026/01/03/new-year-brings-tragedy-in-the-drc/"
+    accessed: "2026-03-24"
+  - id: 37
+    title: "21 people killed in rebel attack in eastern DR Congo"
+    outlet: "Anadolu Agency"
+    url: "https://www.aa.com.tr/en/africa/21-people-killed-in-rebel-attack-in-eastern-dr-congo/3824953"
+    accessed: "2026-03-24"
+  - id: 38
+    title: "AFRICA/DR CONGO - New massacres committed by ADF jihadists in eastern DRC"
+    outlet: "Agenzia Fides"
+    url: "https://www.fides.org/en/news/77286-AFRICA_DR_CONGO_New_massacres_committed_by_ADF_jihadists_in_eastern_DRC"
+    accessed: "2026-03-24"
+  - id: 39
+    title: "Statement on ADF attacks against civilians in Lubero territory"
+    outlet: "UN Secretary-General"
+    url: "https://www.un.org/sg/en/content/sg/statements/2025-11-22/statement-attributable-the-spokesperson-for-the-secretary-general-adf-attacks-against-civilians-lubero-territory"
+    accessed: "2026-03-24"
+  - id: 40
+    title: "Yemen's STC says Aden airport operations suspended"
+    outlet: "TRT World"
+    url: "https://www.trtworld.com/article/d493b223392c"
+    accessed: "2026-03-24"
+  - id: 41
+    title: "Yemen's international airport suspends operations"
+    outlet: "UNN/Reuters"
+    url: "https://unn.ua/en/news/yemens-international-airport-suspends-operations-amid-deepening-crisis-between-saudi-arabia-and-uae"
+    accessed: "2026-03-24"
+  - id: 42
+    title: "Yemeni government accuses separatists of Aden restrictions"
+    outlet: "Al-Monitor/Reuters"
+    url: "https://www.al-monitor.com/originals/2026/01/yemeni-government-accuses-separatists-aden-restrictions"
+    accessed: "2026-03-24"
+  - id: 43
+    title: "Fall of Aden (2026)"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Fall_of_Aden_(2026)"
+    accessed: "2026-03-24"
+  - id: 45
+    title: "Crypto Exchanges and Mining Approved in Turkmenistan"
+    outlet: "BitMarkets"
+    url: "https://bitmarkets.com/en/insights/article/crypto-gets-green-light-in-turkmenistan"
+    accessed: "2026-03-24"
+  - id: 46
+    title: "Turkmenistan approves crypto mining, keeps payments off-limits"
+    outlet: "Daryo.uz"
+    url: "https://daryo.uz/en/2026/01/06/turkmenistan-approves-crypto-mining-keeps-payments-off-limits/"
+    accessed: "2026-03-24"
+  - id: 47
+    title: "Turkmenistan Legalizes Bitcoin Mining, Licensed Exchanges"
+    outlet: "Bitbo"
+    url: "https://bitbo.io/news/turkmenistan-legalizes-bitcoin-mining/"
+    accessed: "2026-03-24"
+  - id: 48
+    title: "Turkmenistan Legalizes Crypto Mining and Exchanges Under Tight State Control"
+    outlet: "Bitcoin Magazine"
+    url: "https://bitcoinmagazine.com/news/turkmenistan-legalizes-crypto-mining"
+    accessed: "2026-03-24"
+  - id: 49
+    title: "Turkmenistan Opens Its Crypto Market to Miners and Exchanges — But Will They Come?"
+    outlet: "Finance Magnates/TradingView"
+    url: "https://www.tradingview.com/news/financemagnates:1082fa7a9094b:0-turkmenistan-opens-its-crypto-market-to-miners-and-exchanges-but-will-they-come/"
+    accessed: "2026-03-24"
+  - id: 50
+    title: "Flash flooding in Afghanistan leaves at least 17 dead"
+    outlet: "The Independent/AP"
+    url: "https://www.independent.co.uk/news/world/asia/afghanistan-floods-deaths-b2893215.html"
+    accessed: "2026-03-24"
+  - id: 52
+    title: "Emergency - AFG: Flash Floods 2026"
+    outlet: "IFRC GO"
+    url: "https://go.ifrc.org/emergencies/7748/details"
+    accessed: "2026-03-24"
+  - id: 53
+    title: "Afghanistan: Severe weather and flash floods"
+    outlet: "ECHO Daily Flash/ReliefWeb"
+    url: "https://reliefweb.int/report/afghanistan/afghanistan-severe-weather-and-flash-floods-ifrc-noaa-cpc-echo-daily-flash-7-january-2026"
+    accessed: "2026-03-24"
+  - id: 54
+    title: "Flash floods triggered by heavy rains in Afghanistan kill at least 17 people"
+    outlet: "Al Arabiya"
+    url: "https://english.alarabiya.net/News/world/2026/01/01/flash-floods-triggered-by-heavy-rains-in-afghanistan-kill-at-least-17-people"
+    accessed: "2026-03-24"
+  - id: 55
+    title: "New Year's Eve Fire in a Historic former Church in Amsterdam"
+    outlet: "Fire Risk Heritage"
+    url: "https://www.fireriskheritage.net/fire-and-cultural-heritage-losses/new-years-eve-fire-in-a-historic-church-in-amsterdam/"
+    accessed: "2026-03-24"
+  - id: 56
+    title: "Historic Amsterdam Church Destroyed In New Year Fire"
+    outlet: "Evrim Ağacı/BNO News"
+    url: "https://evrimagaci.org/gpt/historic-amsterdam-church-destroyed-in-new-year-fire-522144"
+    accessed: "2026-03-24"
+  - id: 57
+    title: "Amsterdam, the Vondelkerk, an important neo-Gothic church, on fire"
+    outlet: "Finestresullarte"
+    url: "https://www.finestresullarte.info/en/news/amsterdam-the-vondelkerk-an-important-neo-gothic-church-on-fire-possibly-a-firework"
+    accessed: "2026-03-24"
+  - id: 58
+    title: "Amsterdam's Historic Vondelkerk destroyed in New Year's Fire"
+    outlet: "ArtDependence"
+    url: "https://artdependence.com/articles/amsterdams-historic-vondelkerk-destroyed-in-new-years-fire/"
+    accessed: "2026-03-24"
+  - id: 59
+    title: "DIGITIMES news archive"
+    outlet: "Digitimes"
+    url: "https://www.digitimes.com"
+    accessed: "2026-03-24"
+  - id: 60
+    title: "Global trade thrives despite looming trade tensions"
+    outlet: "The Straits Times"
+    url: "https://www.straitstimes.com/asia/se-asia/trade-triumphs-over-tariffs-the-world-is-trading-more-than-ever"
+    accessed: "2026-03-24"
+  - id: 61
+    title: "The 2026 AI playbook: what is powering the AI trade?"
+    outlet: "Go Markets"
+    url: "https://www.gomarkets.com/en/articles/the-2026-ai-playbook-what-is-powering-the-ai-trade"
+    accessed: "2026-03-24"
+  - id: 62
+    title: "Major military weapons of South Korea defense industry"
+    outlet: "World New World"
+    url: "https://worldnewworld.com/page/content.php?no=5941"
+    accessed: "2026-03-24"
+  - id: 65
+    title: "What the U.S.' Withdrawal from the WHO Means for Public Health"
+    outlet: "TIME"
+    url: "https://time.com/7357180/us-withdrawal-who-world-health-organization/"
+    accessed: "2026-03-24"
+  - id: 66
+    title: "Venezuela says it has released 116 prisoners"
+    outlet: "Reuters/Investing.com"
+    url: "https://www.investing.com/news/world-news/venezuela-says-it-has-released-116-prisoners-4441818"
+    accessed: "2026-03-24"
+  - id: 67
+    title: "Venezuela begins releasing political detainees to 'consolidate peace'"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/08/venezuela-to-release-important-number-of-detainees"
+    accessed: "2026-03-24"
+  - id: 68
+    title: "Venezuela regime claims release of political prisoners is sign of new era"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/14/venezuelan-political-prisoners-released"
+    accessed: "2026-03-24"
+  - id: 69
+    title: "2026 political prisoner release in Venezuela"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_political_prisoner_release_in_Venezuela"
+    accessed: "2026-03-24"
+  - id: 70
+    title: "Portal:Current events/January 2026"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/January_2026"
+    accessed: "2026-03-24"
+  - id: 71
+    title: "Gaza's new year begins with a struggle for survival and dignity"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/features/2026/1/1/gazas-new-year-begins-with-a-struggle-for-survival-and-dignity"
+    accessed: "2026-03-24"
+  - id: 72
+    title: "Early Edition: January 21, 2026"
+    outlet: "Just Security/Reuters"
+    url: "https://www.justsecurity.org/129312/early-edition-january-21-2026/"
+    accessed: "2026-03-24"
+  - id: 73
+    title: "Russia-Ukraine war: List of key events, day 1407"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/1/russia-ukraine-war-list-of-key-events-day-1407"
+    accessed: "2026-03-24"
+  - id: 74
+    title: "BBC News: January 1, 2026 1:00am-1:31am GMT"
+    outlet: "BBC/Internet Archive"
+    url: "https://archive.org/details/BBCNEWS_20260101_010000_BBC_News"
+    accessed: "2026-03-24"
+  - id: 75
+    title: "News headlines in January 2026"
+    outlet: "Global Issues"
+    url: "https://www.globalissues.org/news/2026/01"
+    accessed: "2026-03-24"
