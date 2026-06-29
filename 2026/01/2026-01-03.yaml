@@ -1,52 +1,2425 @@
-Date: '2026-01-03'
-Source_URI: Portal:Current events/2026 January 3
-Intelligence_Payload:
-  Uncategorized:
-  - Operation Southern Spear, War on drugs
-  - 2026 United States strikes in Venezuela
-  - The United States carries out airstrikes around Caracas, Venezuela, killing at
-    least 40 people, including civilians and military personnel. A national state
-    of emergency is declared following the strikes. (The Times) (CNN)
-  - Footage shows United States Marine Corps Bell AH-1Z Vipers striking Fort Tiuna
-    and Generalissimo Francisco de Miranda Air Base with Hellfire air-to-surface missiles
-    during the operation. Fort Tiuna is later evacuated. (El Tiempo in Spanish) (The
-    Aviationist)
-  - Venezuelan president Nicolás Maduro and his wife, first lady Cilia Flores, are
-    captured by U.S. forces and flown out of the country. Venezuelan vice president
-    Delcy Rodríguez becomes acting president. (CBS News) (BBC News)
-  - After being held aboard the USS Iwo Jima, Maduro is taken to New York, where U.S.
-    attorney general Pam Bondi says he has been indicted on drug and weapons charges.
-    (BBC News) (AP)
-  - Russo-Ukrainian war
-  - 2025 Sumy offensive, Kharkiv strikes, Kherson strikes, Mykolaiv strikes
-  - At least eight people are killed and 42 others are injured in overnight Russian
-    attacks on the Dnipropetrovsk, Donetsk, Kharkiv, Kherson, Mykolaiv, and Sumy Oblasts
-    of Ukraine. (RBC-Ukraine) (The Kyiv Independent)
-  - Nigerian bandit conflict
-  - At least 30 people are killed and others kidnapped by armed bandits in a raid
-    on a village market in Borgu, Niger State, Nigeria. The market was also looted
-    of food before being set on fire. (AP) (The Punch)
-  - War against the Islamic State
-  - British and French aircraft carry out a joint strike on an underground facility
-    alleged to be occupied by the Islamic State near Palmyra in central Syria. (The
-    Guardian)
-  - 2026 arson attack on the Berlin power grid
-  - An arson attack on the Teltow Canal targeting the Lichterfelde gas-fired power
-    plant causes a power outage in south Berlin, with tens of thousands affected.
-    (Politico.eu) (Deutsche Welle)
-  - Economy of Syria
-  - The Central Bank of Syria begins exchanging old banknotes for a new currency that
-    removes two zeros from the previous denominations, with 100 old pounds converted
-    to one new pound, as part of economic stabilization measures following the change
-    in government. (AP)
-  - 26 people are killed and 14 others are missing after a boat carrying 52 passengers
-    capsizes in Nguru, Yobe State, Nigeria. (Reuters) (Africanews)
-  - Six people are killed after a car collides with a minibus taxi near Fouriesburg,
-    South Africa. (IOL)
-  - 2025–2026 Iranian protests
-  - Four more protesters are shot dead by security forces in Malekshahi County, Ilam
-    province, Iran. (Hengaw) (Iran International) (AP)
-  - 2026 PDC World Darts Championship
-  - In professional darts, English player Luke Littler wins a second PDC World Darts
-    Championship back-to-back after defeating Dutch player Gian van Veen 7–1 in the
-    final. (BBC Sports)
+date: "2026-01-03"
+source_page:
+  portal: "Portal:Current events/2026 January 3"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 3, 2026 was dominated by cascading crises of state power, infrastructure
+  vulnerability, and contested accountability. The most consequential development was
+  the U.S. operation in Venezuela that captured Nicolas Maduro, paired with reports
+  of strikes, explosions, emergency rule, and a U.S.-managed transition claim. The day
+  also saw follow-on assessments from disasters that began earlier in the year,
+  including Guerrero earthquake damage and criminal proceedings after the
+  Crans-Montana fire, while new shocks emerged in Berlin's power grid, Nigeria,
+  South Africa, Ukraine, and Syria.
+
+  Governance and legitimacy were recurring themes: Myanmar's military-backed party
+  led early election results under widely criticized conditions, Pakistan's
+  anti-terrorism courts escalated cases against journalists and commentators, and
+  Iran's protest cycle continued with both national-level defiance from Ali Khamenei
+  and new lethal local reports. Business and economic items ranged from Turkey's
+  record exports to Airbus delivery expectations, Ferrari shareholder continuity,
+  and Syria's currency redenomination.
+
+events:
+  - id: "evt-2026-01-03-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border military operation"
+    topics:
+      - "Operation Southern Spear"
+      - "War on drugs"
+      - "2026 United States strikes in Venezuela"
+      - "Nicolás Maduro"
+      - "Venezuela"
+    importance: 10
+    headline: "U.S. captures Nicolás Maduro during strikes around Caracas"
+    summary: >
+      On January 3, 2026, the United States announced that it had captured Venezuelan
+      President Nicolás Maduro in a military operation and flown him out of Venezuela.
+      The Associated Press reported that President Donald Trump said the United States
+      would temporarily "run" Venezuela and seek access to the country's oil reserves,
+      while Reuters reported explosions in Caracas and outages in parts of the capital.
+      The Wikipedia portal also described U.S. airstrikes around Caracas that killed at
+      least 40 people, footage of Marine Corps AH-1Z Vipers striking Fort Tiuna and
+      Generalissimo Francisco de Miranda Air Base, the capture of Maduro and Cilia
+      Flores, Delcy Rodríguez becoming acting president, and Maduro later being taken
+      to New York for indictment on drug and weapons charges.
+    key_data:
+      - label: "Captured leader"
+        value: "Nicolás Maduro"
+        citation_refs: [1, 25]
+      - label: "Reported deaths in portal summary"
+        value: "At least 40"
+        citation_refs: [25]
+      - label: "Reported acting president"
+        value: "Delcy Rodríguez"
+        citation_refs: [25]
+      - label: "Reported U.S. position"
+        value: "Trump said the United States would temporarily run Venezuela"
+        citation_refs: [1, 3]
+    details:
+      what_happened:
+        - "U.S. officials said Nicolás Maduro was captured and flown out of Venezuela in an operation carried out early on January 3."
+        - "Donald Trump said the United States would temporarily run Venezuela after Maduro's capture and referenced tapping Venezuelan oil reserves."
+        - "Reuters reported explosions in Caracas and that at least one area was without electricity amid the events."
+        - "The portal described U.S. airstrikes around Caracas, footage of AH-1Z Viper strikes on Fort Tiuna and Generalissimo Francisco de Miranda Air Base, and later evacuation of Fort Tiuna."
+        - "The portal reported that Maduro and Cilia Flores were captured, Delcy Rodríguez became acting president, and Maduro was later taken from the USS Iwo Jima to New York after indictment on drug and weapons charges."
+      why_it_matters:
+        - "A U.S. operation that removes and detains a sitting head of state represents a major escalation with implications for international law, hemispheric diplomacy, and precedent-setting U.S. behavior."
+        - "The claim that the United States would temporarily run Venezuela signaled an uncertain sovereignty and governance situation with potential effects on regional security and energy markets."
+        - "Reported explosions, power disruption, and mass casualties point to immediate civilian and infrastructure instability during the intervention."
+      uncertainty_notes:
+        - "The deep-research sources support the capture, U.S. transition language, explosions, and outages; the specific strike casualty count and indictment details are preserved from the Wikipedia portal seed."
+    actors:
+      primary:
+        - "United States government"
+        - "Donald Trump"
+        - "Nicolás Maduro"
+      secondary:
+        - "Cilia Flores"
+        - "Delcy Rodríguez"
+        - "United States Marine Corps"
+    entities:
+      people:
+        - name: "Nicolás Maduro"
+          role: "Captured president of Venezuela"
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Cilia Flores"
+          role: "First lady of Venezuela"
+        - name: "Delcy Rodríguez"
+          role: "Venezuelan vice president and reported acting president"
+        - name: "Pam Bondi"
+          role: "U.S. attorney general referenced in portal indictment reporting"
+      organizations:
+        - name: "United States Marine Corps"
+          description: "U.S. military branch reported by the portal as operating AH-1Z Vipers during the strikes"
+        - name: "Associated Press"
+          description: "News agency reporting on Maduro's capture and Trump's remarks"
+        - name: "Reuters"
+          description: "News agency reporting explosions and power disruption in Caracas"
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+        - "United States"
+      places:
+        - "Caracas"
+        - "Fort Tiuna"
+        - "Generalissimo Francisco de Miranda Air Base"
+        - "USS Iwo Jima"
+        - "New York"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 40
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 1
+      damage: "Explosions and power outages reported in Caracas; portal reported strikes on Fort Tiuna and Generalissimo Francisco de Miranda Air Base."
+    classification:
+      event_type:
+        - "military-operation"
+        - "airstrike"
+        - "head-of-state-capture"
+      tags:
+        - "venezuela"
+        - "operation-southern-spear"
+        - "maduro"
+        - "caracas"
+        - "us-intervention"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States carries out airstrikes around Caracas, Venezuela, killing at least 40 people, including civilians and military personnel. A national state of emergency is declared following the strikes. Footage shows United States Marine Corps Bell AH-1Z Vipers striking Fort Tiuna and Generalissimo Francisco de Miranda Air Base with Hellfire air-to-surface missiles during the operation. Fort Tiuna is later evacuated. Venezuelan president Nicolás Maduro and his wife, first lady Cilia Flores, are captured by U.S. forces and flown out of the country. Venezuelan vice president Delcy Rodríguez becomes acting president. After being held aboard the USS Iwo Jima, Maduro is taken to New York, where U.S. attorney general Pam Bondi says he has been indicted on drug and weapons charges."
+      external:
+        - id: src-001-a
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/07c3faba55d651a1cac077d4a9ff16b0"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "the United States would run Venezuela at least temporarily"
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/trump-administration-aware-reported-explosions-venezuelan-capital-cbs-reporter-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "reported explosions in Venezuelan capital"
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "will run Venezuela"
+          citation_refs: [3]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-01-014"
+    notes: "Deep-research event merged with multiple Venezuela portal bullets from the January 3 seed."
+
+  - id: "evt-2026-01-03-002"
+    category: "Disasters and accidents"
+    subcategory: "Earthquake impact assessment"
+    topics:
+      - "2026 Guerrero earthquake"
+      - "Mexico"
+      - "Guerrero"
+      - "aftershocks"
+    importance: 7
+    headline: "Post-quake assessments report widespread damage in Guerrero"
+    summary: >
+      Following the magnitude 6.5 earthquake near San Marcos, Guerrero on January 2,
+      Mexican authorities and media reported on January 3 that at least 24 Guerrero
+      municipalities had registered impacts and that damage evaluation continued.
+      La Jornada reported more than 1,400 aftershocks by the morning of January 3,
+      while earlier AP reporting said the earthquake killed at least two people and
+      produced impacts including landslides and hospital disruption in Chilpancingo.
+    key_data:
+      - label: "Affected municipalities"
+        value: "At least 24 in Guerrero"
+        citation_refs: [4, 5]
+      - label: "Aftershocks reported"
+        value: "1,448 by January 3, per La Jornada"
+        citation_refs: [5]
+      - label: "Confirmed deaths"
+        value: "At least 2"
+        citation_refs: [6]
+    details:
+      what_happened:
+        - "A magnitude 6.5 earthquake struck near San Marcos in Guerrero on January 2, prompting evacuations and emergency response."
+        - "By January 3, Mexican reporting cited impacts across at least 24 municipalities in Guerrero, with damage evaluation and quantification still underway."
+        - "La Jornada reported more than 1,400 aftershocks, with the strongest cited as magnitude 4.7."
+        - "El Universal reported housing damage and collapses in the San Marcos area, while AP reported landslides and hospital disruption in Chilpancingo."
+      why_it_matters:
+        - "Damage assessments determine humanitarian needs, infrastructure repair priorities, and whether additional public resources are needed."
+        - "A sustained aftershock sequence can complicate sheltering, inspections, and structural safety decisions."
+        - "Hospital disruption and confirmed fatalities show that the earthquake's effects extended beyond property damage."
+      uncertainty_notes:
+        - "Detailed damage totals were still under assessment on January 3."
+    actors:
+      primary:
+        - "Mexican federal civil protection authorities"
+        - "Guerrero state and municipal authorities"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Mexican federal civil protection authorities"
+          description: "Authorities coordinating earthquake assessment and response"
+      states:
+        - "Mexico"
+    geography:
+      countries:
+        - "Mexico"
+      places:
+        - "Guerrero"
+        - "San Marcos"
+        - "Chilpancingo"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 2
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Impacts reported across at least 24 municipalities; housing damage and collapses reported around San Marcos; hospital damage and patient evacuations reported in Chilpancingo."
+    classification:
+      event_type:
+        - "natural-disaster-followup"
+        - "earthquake"
+        - "damage-assessment"
+      tags:
+        - "guerrero"
+        - "san-marcos"
+        - "aftershocks"
+        - "civil-protection"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-002-a
+          outlet: "El Universal"
+          url: "https://www.eluniversal.com.mx/estados/sismo-del-2-de-enero-deja-afectaciones-en-al-menos-24-municipios-de-guerrero-san-marcos-el-mas-danado/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "afectaciones en al menos 24 municipios"
+          citation_refs: [4]
+        - id: src-002-b
+          outlet: "La Jornada"
+          url: "https://www.jornada.com.mx/noticia/2026/01/03/politica/pc-identifica-24-municipios-en-guerrero-con-afectaciones-tras-sismo-de-65-registran-mil-448-replicas"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "mil 448 replicas"
+          citation_refs: [5]
+        - id: src-002-c
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/ce9e9e76e445e68797e36b2fa8e14418"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "resulting in at least two deaths"
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-02-002"
+    notes: "Follow-up to the January 2 Guerrero earthquake."
+
+  - id: "evt-2026-01-03-003"
+    category: "Disasters and accidents"
+    subcategory: "Critical infrastructure arson"
+    topics:
+      - "2026 arson attack on the Berlin power grid"
+      - "Berlin"
+      - "Teltow Canal"
+      - "power outage"
+    importance: 7
+    headline: "Suspected arson damages Berlin high-voltage cables"
+    summary: >
+      A January 3 fire on a bridge across Berlin's Teltow Canal damaged multiple
+      high-voltage cables near a local heat-and-power station area, causing a major
+      outage in south Berlin. Reuters reported that up to 45,000 households and
+      around 2,200 commercial entities could be affected, with power potentially out
+      until January 8 and possible disruption to mobile and landline services. Later
+      reporting described the incident as a significant arson-linked blackout that
+      renewed debate over protection of critical energy infrastructure.
+    key_data:
+      - label: "Households potentially affected"
+        value: "Up to 45,000"
+        citation_refs: [7, 9]
+      - label: "Businesses potentially affected"
+        value: "Around 2,200"
+        citation_refs: [7, 9]
+      - label: "Restoration estimate"
+        value: "Until January 8, per Reuters"
+        citation_refs: [7]
+    details:
+      what_happened:
+        - "A fire early January 3 damaged several high-voltage cables at or near a bridge crossing the Teltow Canal in south-west Berlin."
+        - "Police investigated the incident as suspected arson."
+        - "Stromnetz Berlin said the outage could leave up to 45,000 households without electricity until January 8."
+        - "Reuters reported that about 2,200 commercial entities were affected and that mobile and landline services could also face disruption."
+      why_it_matters:
+        - "A prolonged winter outage can create health, heating, communications, and logistics risks."
+        - "The incident shows how limited physical damage at cable chokepoints can create large-scale urban disruption."
+        - "Follow-up reporting framed the case as a policy prompt for critical-infrastructure security and public technical transparency."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Stromnetz Berlin"
+        - "Berlin police"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Stromnetz Berlin"
+          description: "Berlin power grid operator"
+        - name: "Berlin police"
+          description: "Police investigating suspected arson"
+      states:
+        - "Germany"
+    geography:
+      countries:
+        - "Germany"
+      places:
+        - "Berlin"
+        - "Teltow Canal"
+        - "Lichterfelde"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Several high-voltage cables damaged; power outage projected to affect up to 45,000 households and around 2,200 businesses, with possible telecom disruptions."
+    classification:
+      event_type:
+        - "infrastructure-attack"
+        - "arson"
+        - "power-outage"
+      tags:
+        - "berlin"
+        - "teltow-canal"
+        - "critical-infrastructure"
+        - "electricity-grid"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An arson attack on the Teltow Canal targeting the Lichterfelde gas-fired power plant causes a power outage in south Berlin, with tens of thousands affected."
+      external:
+        - id: src-003-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/possible-arson-berlin-cable-link-cuts-power-50000-households-police-says-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "could leave up to 45,000 households without power until Jan 8"
+          citation_refs: [7]
+        - id: src-003-b
+          outlet: "Clean Energy Wire"
+          url: "https://www.cleanenergywire.org/news/berlin-arson-attack-power-blackout-triggers-calls-put-security-over-transparency"
+          publication_date: "2026-01-03"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - details.why_it_matters
+            - summary
+          contradicts: []
+          quoted_material:
+            - "arson attack that damaged high-voltage cables"
+          citation_refs: [8]
+        - id: src-003-c
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/c945742c0b821b396244fd894f2d971c"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "affected around 45,000 households and 2,200 businesses"
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-03-004"
+    category: "Disasters and accidents"
+    subcategory: "Fire investigation"
+    topics:
+      - "2026 Crans-Montana bar fire"
+      - "Switzerland"
+      - "criminal investigation"
+      - "pyrotechnics safety"
+    importance: 7
+    headline: "Swiss prosecutors investigate managers after Crans-Montana bar fire"
+    summary: >
+      Swiss authorities intensified accountability steps after the deadly New Year's
+      fire at Le Constellation in Crans-Montana. Reuters reported that prosecutors
+      placed the two managers under criminal investigation, while AP and PBS reported
+      that authorities believed sparklers on Champagne bottles likely ignited the fire
+      after coming too close to the ceiling. Reporting cited 40 deaths and more than
+      100 injuries as victim identification and family notification continued.
+    key_data:
+      - label: "Reported fatalities"
+        value: "40"
+        citation_refs: [10, 11, 12]
+      - label: "Reported injuries"
+        value: "More than 100"
+        citation_refs: [11, 12]
+      - label: "Managers under investigation"
+        value: "2"
+        citation_refs: [10]
+    details:
+      what_happened:
+        - "Swiss authorities opened criminal proceedings into the managers of the Crans-Montana bar where the New Year's fire occurred."
+        - "Investigators said they believed sparklers or sparkling candles on Champagne bottles likely ignited the fire when they came too close to the ceiling."
+        - "Reporting cited 40 deaths and more than 100 injuries."
+        - "Victim identification and family notification were still ongoing."
+      why_it_matters:
+        - "The proceedings moved the disaster response into legal accountability and may affect safety enforcement in the hospitality sector."
+        - "The suspected ignition mechanism is relevant to regulation of indoor celebratory pyrotechnics and crowd-safety practices."
+        - "The casualty scale created medical, forensic, and diplomatic coordination demands."
+      uncertainty_notes:
+        - "January 1 and January 2 files use a later converged death toll of 41; the January 3 sources cited here reported 40 deaths."
+    actors:
+      primary:
+        - "Swiss prosecutors"
+        - "Bar managers"
+      secondary:
+        - "Swiss investigators"
+    entities:
+      people: []
+      organizations:
+        - name: "Swiss prosecutors"
+          description: "Authorities pursuing the criminal investigation"
+        - name: "Le Constellation"
+          description: "Crans-Montana bar where the deadly fire occurred"
+      states:
+        - "Switzerland"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Crans-Montana, Valais"
+        - "Le Constellation bar"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 40
+      injured: 100
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Deadly bar fire scene remained under investigation."
+    classification:
+      event_type:
+        - "disaster-followup"
+        - "criminal-investigation"
+        - "fire-investigation"
+      tags:
+        - "crans-montana"
+        - "sparkling-candles"
+        - "bar-fire"
+        - "switzerland"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-004-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/swiss-prosecutors-place-bar-managers-under-investigation-after-deadly-blaze-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "placed under criminal investigation the two managers"
+          citation_refs: [10]
+        - id: src-004-b
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/switzerland-crans-montana-bar-fire-c63d39a8f288281d18919b3a585d5f29"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - casualty_report
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "left 40 people dead"
+          citation_refs: [11]
+        - id: src-004-c
+          outlet: "PBS NewsHour"
+          url: "https://www.pbs.org/newshour/world/authorities-investigate-managers-of-swiss-bar-where-new-years-fire-killed-40"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "opened a criminal investigation"
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-01-001"
+      - "evt-2026-01-02-001"
+    notes: "Follow-up to the January 1 Crans-Montana bar fire; casualty-report uncertainty reflects different reporting dates."
+
+  - id: "evt-2026-01-03-005"
+    category: "Politics and elections"
+    subcategory: "Election results under military rule"
+    topics:
+      - "Myanmar"
+      - "Union Solidarity and Development Party"
+      - "Myanmar civil war"
+      - "Aung San Suu Kyi"
+    importance: 8
+    headline: "Myanmar military-backed party leads early election results"
+    summary: >
+      Early results from Myanmar's first national election process since the 2021 coup
+      showed the military-backed Union Solidarity and Development Party leading by a
+      wide margin. Reuters reported partial results from 56 constituencies and said the
+      USDP had won 38 of 40 lower-house seats tallied at that point, with the junta
+      reporting first-phase turnout of 52%. AP reported that the military-appointed
+      election body began announcing winners and that the military-backed party was
+      winning most declared seats in a multi-phase vote criticized by the UN and rights
+      groups and conducted without key opposition forces.
+    key_data:
+      - label: "Lower-house seats cited by Reuters"
+        value: "USDP won 38 of 40 tallied seats"
+        citation_refs: [13]
+      - label: "First-phase turnout reported by junta"
+        value: "52%"
+        citation_refs: [13]
+      - label: "Election structure"
+        value: "Multi-phase vote under military-appointed election body"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "Reuters reported partial results from 56 constituencies, with the USDP winning the overwhelming majority of lower-house seats tallied."
+        - "The junta reported 52% turnout in the first phase."
+        - "AP reported Myanmar's military-appointed election body began announcing winners from the first phase."
+        - "Reuters noted that opposition parties were not running and that criticism of the polls had been criminalized."
+      why_it_matters:
+        - "Election outcomes under military control affect international recognition, sanctions policy, and regional diplomacy toward Myanmar."
+        - "A low-turnout election that excludes major opposition forces risks deepening legitimacy disputes."
+        - "An early near-sweep for the military-backed party signals a constrained political field and limited prospects for representative settlement."
+      uncertainty_notes:
+        - "Results were partial and first-phase only as of the January 3 reporting."
+    actors:
+      primary:
+        - "Union Solidarity and Development Party"
+        - "Myanmar Union Election Commission"
+        - "Myanmar junta"
+      secondary:
+        - "Aung San Suu Kyi"
+        - "National League for Democracy"
+    entities:
+      people:
+        - name: "Aung San Suu Kyi"
+          role: "Detained Myanmar opposition leader referenced in reporting"
+      organizations:
+        - name: "Union Solidarity and Development Party"
+          description: "Military-backed political party leading early results"
+        - name: "Myanmar Union Election Commission"
+          description: "Military-appointed election body"
+        - name: "National League for Democracy"
+          description: "Dissolved opposition party referenced in reporting"
+      states:
+        - "Myanmar"
+    geography:
+      countries:
+        - "Myanmar"
+      places:
+        - "Naypyitaw"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "election"
+        - "military-rule"
+        - "partial-results"
+      tags:
+        - "myanmar"
+        - "usdp"
+        - "junta"
+        - "election-credibility"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-005-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/military-backed-party-myanmar-takes-lead-first-phase-polls-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "winning 38 of 40 seats"
+          citation_refs: [13]
+        - id: src-005-b
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/myanmar-dec28-election-usdp-lead-uec-early-results-336b9121f2466438c673c0bc1dc346d2"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "begun announcing the winners"
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-03-006"
+    category: "Law and crime"
+    subcategory: "Anti-terrorism sentencing"
+    topics:
+      - "Terrorism in Pakistan"
+      - "Imran Khan"
+      - "press freedom"
+      - "Pakistan political unrest"
+    importance: 7
+    headline: "Pakistani court sentences journalists and commentators to life in absentia"
+    summary: >
+      Reporting published January 3 described a Pakistani anti-terrorism court
+      sentencing eight journalists and social media commentators to life imprisonment
+      in absentia over online activity tied to the unrest after Imran Khan's 2023
+      arrest. Reuters reported that the court ruled the actions fell within terrorism
+      law and promoted fear and unrest. ABC, citing Reuters, emphasized a defense
+      claim from a journalist abroad that he had not been served or notified, and the
+      reporting referenced criticism from press-freedom advocates.
+    key_data:
+      - label: "People sentenced"
+        value: "8 journalists and social media commentators"
+        citation_refs: [15, 16, 17]
+      - label: "Sentence"
+        value: "Life imprisonment in absentia"
+        citation_refs: [15, 16, 17]
+      - label: "Context"
+        value: "May 9, 2023 unrest after Imran Khan's arrest"
+        citation_refs: [15, 16]
+    details:
+      what_happened:
+        - "A Pakistani anti-terrorism court sentenced eight journalists and social media commentators to life imprisonment in absentia."
+        - "Reuters and ABC reported that the convictions were tied to cases arising from the May 9, 2023 protests and attacks on military installations after Imran Khan's arrest."
+        - "Reuters listed convicted individuals including journalists and former military officers turned YouTubers, and reported that most were believed to be outside Pakistan."
+        - "Reporting said the sentences were subject to confirmation by the Islamabad High Court and included additional penalties and fines."
+      why_it_matters:
+        - "Life sentences under terrorism frameworks for online speech have major implications for press freedom and diaspora journalism."
+        - "The cases show how anti-terror laws are being used in the broader political crackdown linked to the 2023 unrest."
+        - "International press-freedom criticism can affect Pakistan's diplomatic and human-rights scrutiny."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Pakistani anti-terrorism court"
+        - "Convicted journalists and commentators"
+        - "Imran Khan"
+      secondary:
+        - "Islamabad High Court"
+        - "Committee to Protect Journalists"
+    entities:
+      people:
+        - name: "Imran Khan"
+          role: "Former prime minister of Pakistan; political context for the cases"
+      organizations:
+        - name: "Pakistani anti-terrorism court"
+          description: "Court issuing the in-absentia life sentences"
+        - name: "Islamabad High Court"
+          description: "Court referenced for sentence confirmation"
+        - name: "Committee to Protect Journalists"
+          description: "Press-freedom organization referenced in reporting"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places:
+        - "Islamabad"
+        - "Lahore"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Legal penalties include life imprisonment in absentia plus additional terms and fines as reported."
+    classification:
+      event_type:
+        - "court-sentencing"
+        - "press-freedom"
+        - "anti-terrorism-law"
+      tags:
+        - "pakistan"
+        - "imran-khan"
+        - "journalists"
+        - "digital-content"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-006-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/media-telecom/pakistan-court-sentences-journalists-life-over-links-protests-after-imran-khans-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "fell within the ambit of terrorism"
+          citation_refs: [15]
+        - id: src-006-b
+          outlet: "ABC News"
+          url: "https://www.abc.net.au/news/2026-01-03/pakistan-court-sentences-journalists-to-life/106196366"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "never served a summons, never notified"
+          citation_refs: [16]
+        - id: src-006-c
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/dd97d50c8db007acf0132d53aecfde6a"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "sentenced... to life imprisonment"
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-02-009"
+    notes: "Follow-up and broader reporting on the January 2 Pakistan court event."
+
+  - id: "evt-2026-01-03-007"
+    category: "Law and crime"
+    subcategory: "Civil unrest and state response"
+    topics:
+      - "2025-2026 Iranian protests"
+      - "Iran"
+      - "Ali Khamenei"
+      - "economic protests"
+    importance: 7
+    headline: "Khamenei says he will not yield as Iran protests continue"
+    summary: >
+      Reuters reported that Iran's Supreme Leader Ali Khamenei said he would not
+      yield as protests continued amid economic distress and tensions with the United
+      States. A separate Reuters report from January 1 cited Iranian media and rights
+      groups saying several people had been killed in unrest and cited Fars reporting
+      three protesters killed and 17 injured in an attack on a police station in
+      Lorestan. The reporting underscored both the persistence of unrest and the
+      sensitivity of casualty accounting.
+    key_data:
+      - label: "Khamenei position"
+        value: "Said he would not yield"
+        citation_refs: [18]
+      - label: "Fars-cited deaths in Lorestan incident"
+        value: "3 protesters"
+        citation_refs: [19]
+      - label: "Fars-cited injuries in Lorestan incident"
+        value: "17"
+        citation_refs: [19]
+    details:
+      what_happened:
+        - "Reuters reported Ali Khamenei said he would not yield as protests simmered in Iran."
+        - "Reuters reported that the U.S. issued threats amid the protests and broader tensions."
+        - "Reuters cited Iranian media and rights groups describing multiple deaths amid unrest connected to economic conditions."
+        - "Reuters cited Fars reporting that three protesters were killed and 17 were injured in an attack on a police station in Lorestan province."
+      why_it_matters:
+        - "National-level protests in Iran can escalate quickly and affect regional security calculations."
+        - "Divergent casualty narratives can influence both domestic legitimacy claims and international responses."
+        - "A hardline statement from the supreme leader signals limited near-term prospects for de-escalation through concessions."
+      uncertainty_notes:
+        - "Casualty figures are attributed to Fars as cited by Reuters and may differ from rights-group or later figures."
+    actors:
+      primary:
+        - "Ali Khamenei"
+        - "Iranian protesters"
+        - "Iranian security institutions"
+      secondary:
+        - "Fars News Agency"
+        - "United States government"
+    entities:
+      people:
+        - name: "Ali Khamenei"
+          role: "Supreme Leader of Iran"
+      organizations:
+        - name: "Fars News Agency"
+          description: "Semi-official Iranian news agency cited by Reuters"
+        - name: "Iranian security institutions"
+          description: "State security bodies involved in protest response"
+      states:
+        - "Iran"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Lorestan province"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 3
+      injured: 17
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Attack on a police station reported in Lorestan; broader protest damage details not specified."
+    classification:
+      event_type:
+        - "civil-unrest"
+        - "protest-response"
+        - "political-statement"
+      tags:
+        - "iranian-protests"
+        - "khamenei"
+        - "lorestan"
+        - "economic-conditions"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-007-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/iran-supreme-leader-says-will-not-yield-protests-simmer-us-threatens-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - details.why_it_matters
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "will not yield"
+          citation_refs: [18]
+        - id: src-007-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/one-person-killed-iran-protests-over-economic-woes-2026-01-01/"
+          publication_date: "2026-01-01"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "three protesters were killed and 17 were injured"
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-01-004"
+      - "evt-2026-01-02-017"
+    notes: "Related to continuing 2025-2026 Iranian protest coverage."
+
+  - id: "evt-2026-01-03-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Militant attacks on civilians"
+    topics:
+      - "Democratic Republic of the Congo"
+      - "Allied Democratic Forces"
+      - "Islamic State"
+      - "Lubero"
+    importance: 7
+    headline: "Islamic State-linked rebels kill at least 15 in eastern DRC"
+    summary: >
+      Reuters reported that Islamic State-linked rebels killed at least 15 people in
+      three villages in Lubero territory in eastern Democratic Republic of the Congo,
+      citing two officials. The report framed the attack as part of a recurring
+      pattern of lethal violence that mainly targets civilians, underscoring persistent
+      insecurity in eastern DRC and the difficulty of protecting remote communities.
+    key_data:
+      - label: "Reported deaths"
+        value: "At least 15"
+        citation_refs: [20]
+      - label: "Location"
+        value: "Three villages in Lubero territory"
+        citation_refs: [20]
+      - label: "Attribution"
+        value: "Islamic State-linked rebels"
+        citation_refs: [20]
+    details:
+      what_happened:
+        - "Reuters reported that Islamic State-linked rebels killed at least 15 people in three villages in Lubero territory."
+        - "Two officials were cited by Reuters as the basis for the casualty reporting."
+        - "The report described the incident as consistent with a pattern of lethal attacks mainly targeting civilians."
+      why_it_matters:
+        - "Civilian-targeted attacks deepen displacement pressure and humanitarian need in eastern DRC."
+        - "Persistent militant violence undermines state authority and complicates stabilization efforts."
+        - "Attribution to Islamic State-linked actors can shape international security attention and counterinsurgency priorities."
+      uncertainty_notes:
+        - "The January 3 deep-research event relies on a January 2 Reuters report and is linked to the January 2 DRC event in this dataset."
+    actors:
+      primary:
+        - "Islamic State-linked rebels"
+        - "Local officials"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Islamic State-linked rebels"
+          description: "Militant actors identified by Reuters as linked to Islamic State"
+      states:
+        - "Democratic Republic of the Congo"
+    geography:
+      countries:
+        - "Democratic Republic of the Congo"
+      places:
+        - "Lubero territory"
+        - "Eastern DRC"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 15
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Damage not specified beyond fatalities."
+    classification:
+      event_type:
+        - "militant-attack"
+        - "civilian-killings"
+        - "armed-conflict"
+      tags:
+        - "eastern-drc"
+        - "lubero"
+        - "islamic-state-linked"
+        - "civilian-targeting"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-008-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/islamic-state-linked-rebels-kill-15-eastern-congo-officials-say-2026-01-02/"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "killed at least 15 people"
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-02-005"
+    notes: "Deep-research markdown includes this as a January 3 sweep item based on January 2 reporting."
+
+  - id: "evt-2026-01-03-009"
+    category: "Business and economy"
+    subcategory: "National export performance"
+    topics:
+      - "Turkey"
+      - "Recep Tayyip Erdoğan"
+      - "exports"
+      - "trade"
+    importance: 5
+    headline: "Erdoğan says Turkey's 2025 exports hit record $273.4 billion"
+    summary: >
+      Reuters reported that Turkish President Recep Tayyip Erdoğan said Turkey's 2025
+      exports reached a record $273.4 billion, a 4.5% year-on-year increase. The
+      announcement served as a headline national economic performance indicator and
+      part of Ankara's macroeconomic narrative at the start of 2026.
+    key_data:
+      - label: "2025 exports"
+        value: "$273.4 billion"
+        citation_refs: [21]
+      - label: "Year-on-year change"
+        value: "Up 4.5%"
+        citation_refs: [21]
+    details:
+      what_happened:
+        - "Reuters reported Erdoğan said Turkey's 2025 exports reached a record $273.4 billion."
+        - "Reuters reported that the figure represented a 4.5% year-on-year increase."
+        - "The statement was publicly attributed to Erdoğan."
+      why_it_matters:
+        - "Export performance influences currency confidence, investor perception, and domestic economic messaging."
+        - "Record exports can shape narratives around Turkey's trade balance and industrial capacity."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Recep Tayyip Erdoğan"
+        - "Turkish government"
+      secondary: []
+    entities:
+      people:
+        - name: "Recep Tayyip Erdoğan"
+          role: "President of Turkey"
+      organizations: []
+      states:
+        - "Turkey"
+    geography:
+      countries:
+        - "Turkey"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "economic-data"
+        - "trade"
+        - "exports"
+      tags:
+        - "turkey"
+        - "exports"
+        - "trade-performance"
+        - "erdogan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-009-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/turkeys-2025-exports-hit-record-2734-billion-up-45-yy-says-erdogan-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "hit record $273.4 billion"
+          citation_refs: [21]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-03-010"
+    category: "Business and economy"
+    subcategory: "Aerospace manufacturing"
+    topics:
+      - "Airbus"
+      - "commercial aviation"
+      - "aircraft deliveries"
+      - "Bloomberg News"
+    importance: 5
+    headline: "Reuters reports Airbus expected to beat 790-aircraft delivery goal"
+    summary: >
+      Reuters reported, citing Bloomberg News, that Airbus was expected to beat its
+      annual aircraft delivery goal of 790. The item reflected close market attention
+      to delivery performance at a major aerospace manufacturer, where deliveries are
+      a key indicator of supply-chain throughput, revenue timing, and airline fleet
+      planning.
+    key_data:
+      - label: "Annual delivery goal"
+        value: "790 aircraft"
+        citation_refs: [22]
+      - label: "Reported status"
+        value: "Expected to beat the goal"
+        citation_refs: [22]
+    details:
+      what_happened:
+        - "Reuters reported, citing Bloomberg News, that Airbus was expected to beat its annual delivery goal of 790 aircraft."
+        - "The report framed the information as an expectation rather than a final audited result."
+      why_it_matters:
+        - "Aircraft deliveries are a core performance metric for aerospace manufacturers and affect revenue timing and airline fleet plans."
+        - "Beating delivery targets can signal improved supply-chain throughput in a sector constrained by component shortages."
+      uncertainty_notes:
+        - "The report described an expectation attributed to Bloomberg News, not a final audited annual result."
+    actors:
+      primary:
+        - "Airbus"
+      secondary:
+        - "Bloomberg News"
+    entities:
+      people: []
+      organizations:
+        - name: "Airbus"
+          description: "European aerospace manufacturer"
+        - name: "Bloomberg News"
+          description: "News organization cited by Reuters"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Europe"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "corporate-performance"
+        - "aerospace"
+        - "delivery-target"
+      tags:
+        - "airbus"
+        - "aircraft-deliveries"
+        - "aerospace"
+        - "supply-chain"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-010-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/airbus-beat-annual-delivery-goal-790-aircraft-bloomberg-news-reports-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "to beat annual delivery goal of 790 aircraft"
+          citation_refs: [22]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-03-011"
+    category: "Business and economy"
+    subcategory: "Corporate governance"
+    topics:
+      - "Exor"
+      - "Ferrari"
+      - "Piero Ferrari"
+      - "shareholder agreement"
+    importance: 4
+    headline: "Exor renews Ferrari shareholder agreement with Piero Ferrari"
+    summary: >
+      Reuters reported that Exor renewed a Ferrari shareholder agreement with Piero
+      Ferrari, identified as the founder's son. The update indicated continuity in a
+      major shareholder relationship around Ferrari and reflected market interest in
+      shareholder agreements that shape governance stability and control structures in
+      high-profile public companies.
+    key_data:
+      - label: "Company"
+        value: "Ferrari"
+        citation_refs: [23]
+      - label: "Agreement parties"
+        value: "Exor and Piero Ferrari"
+        citation_refs: [23]
+    details:
+      what_happened:
+        - "Reuters reported that Exor renewed a Ferrari shareholder agreement with Piero Ferrari."
+        - "Reuters characterized Piero Ferrari as the founder's son, linking the agreement to legacy-family governance dynamics."
+      why_it_matters:
+        - "Shareholder agreements can shape strategic stability and voting alignment in companies where long-term stewardship is central to investor concerns."
+        - "Continuity of major shareholder arrangements can reduce governance uncertainty around an iconic global brand."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Exor"
+        - "Ferrari"
+        - "Piero Ferrari"
+      secondary: []
+    entities:
+      people:
+        - name: "Piero Ferrari"
+          role: "Ferrari vice chairman and founder's son"
+      organizations:
+        - name: "Exor"
+          description: "Investment holding company"
+        - name: "Ferrari"
+          description: "Automaker"
+      states:
+        - "Italy"
+    geography:
+      countries:
+        - "Italy"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "corporate-governance"
+        - "shareholder-agreement"
+      tags:
+        - "exor"
+        - "ferrari"
+        - "piero-ferrari"
+        - "shareholders"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-011-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/sustainable-finance-reporting/exor-renews-ferrari-shareholder-agreement-with-founders-son-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "renews Ferrari shareholder agreement"
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-03-012"
+    category: "Disasters and accidents"
+    subcategory: "Urban fire response"
+    topics:
+      - "Denver"
+      - "apartment building fire"
+      - "construction site"
+      - "power outages"
+    importance: 5
+    headline: "Fire engulfs Denver apartment building under construction"
+    summary: >
+      Reuters reported that a fire engulfed an apartment building under construction
+      in Denver on January 3, causing power outages. The item was reported as an
+      emergency-services and infrastructure-disruption story, emphasizing the scale of
+      the blaze and the downstream effect on electricity service in the affected area.
+    key_data:
+      - label: "Location"
+        value: "Denver, Colorado"
+        citation_refs: [24]
+      - label: "Structure"
+        value: "Apartment building under construction"
+        citation_refs: [24]
+      - label: "Reported utility impact"
+        value: "Power outages"
+        citation_refs: [24]
+    details:
+      what_happened:
+        - "Reuters reported a fire engulfed an apartment building under construction in Denver."
+        - "Reuters reported the fire caused power outages."
+        - "Reuters published the report as an incident response update on January 3."
+      why_it_matters:
+        - "Large construction-site fires can create localized public-safety hazards and disrupt electricity service for nearby residents and businesses."
+        - "Such incidents can trigger emergency response costs and scrutiny of fire-prevention practices at construction sites."
+      uncertainty_notes:
+        - "The deep-research excerpt did not provide casualty totals or identify the utility involved."
+    actors:
+      primary:
+        - "Denver fire and emergency responders"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Denver fire and emergency responders"
+          description: "Local responders implied by the Reuters fire coverage"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Denver, Colorado"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Apartment building under construction engulfed by fire; power outages reported."
+    classification:
+      event_type:
+        - "building-fire"
+        - "construction-site-fire"
+        - "power-outage"
+      tags:
+        - "denver"
+        - "construction"
+        - "apartment-building"
+        - "urban-fire"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-012-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/us/fire-engulfs-denver-apartment-building-under-construction-causing-power-outages-2026-01-03/"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "causing power outages"
+          citation_refs: [24]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-03-013"
+    category: "Armed conflicts and attacks"
+    subcategory: "Missile and drone attacks"
+    topics:
+      - "Russo-Ukrainian war"
+      - "2025 Sumy offensive"
+      - "Kharkiv strikes"
+      - "Kherson strikes"
+      - "Mykolaiv strikes"
+    importance: 7
+    headline: "Russian attacks kill at least eight across six Ukrainian oblasts"
+    summary: >
+      At least eight people were killed and 42 others injured in overnight Russian
+      attacks on the Dnipropetrovsk, Donetsk, Kharkiv, Kherson, Mykolaiv, and Sumy
+      oblasts of Ukraine.
+    key_data:
+      - label: "Reported deaths"
+        value: "At least 8"
+        citation_refs: [25]
+      - label: "Reported injuries"
+        value: "42"
+        citation_refs: [25]
+      - label: "Affected oblasts"
+        value: "Dnipropetrovsk, Donetsk, Kharkiv, Kherson, Mykolaiv, and Sumy"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "The portal reported overnight Russian attacks across six Ukrainian oblasts."
+        - "The reported affected areas were Dnipropetrovsk, Donetsk, Kharkiv, Kherson, Mykolaiv, and Sumy oblasts."
+        - "The portal reported at least eight killed and 42 injured."
+      why_it_matters:
+        - "The attacks indicate continuing multi-region strike pressure on Ukraine's civilian and military infrastructure."
+        - "The event continues the pattern of Russian strikes documented in the January 1 file."
+      uncertainty_notes:
+        - "This is a portal-derived event not covered in the January 3 deep-research markdown."
+    actors:
+      primary:
+        - "Russian forces"
+      secondary:
+        - "Ukrainian civilians and authorities"
+    entities:
+      people: []
+      organizations:
+        - name: "Russian forces"
+          description: "Forces attributed by the portal as carrying out the overnight attacks"
+      states:
+        - "Russia"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Ukraine"
+      places:
+        - "Dnipropetrovsk Oblast"
+        - "Donetsk Oblast"
+        - "Kharkiv Oblast"
+        - "Kherson Oblast"
+        - "Mykolaiv Oblast"
+        - "Sumy Oblast"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: true
+      time_detail: "Overnight"
+      ongoing: false
+    casualty_report:
+      killed: 8
+      injured: 42
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Damage not specified in the portal bullet."
+    classification:
+      event_type:
+        - "airstrike"
+        - "missile-attack"
+        - "drone-attack"
+      tags:
+        - "russia-ukraine-war"
+        - "ukraine"
+        - "overnight-attacks"
+        - "civilian-casualties"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least eight people are killed and 42 others are injured in overnight Russian attacks on the Dnipropetrovsk, Donetsk, Kharkiv, Kherson, Mykolaiv, and Sumy Oblasts of Ukraine."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-01-016"
+    notes: "Portal-derived event; reported by RBC-Ukraine and The Kyiv Independent per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-03-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "Bandit attack"
+    topics:
+      - "Nigerian bandit conflict"
+      - "Nigeria"
+      - "Borgu"
+      - "market attack"
+    importance: 7
+    headline: "Bandits kill at least 30 in raid on Niger State market"
+    summary: >
+      At least 30 people were killed and others kidnapped when armed bandits raided a
+      village market in Borgu, Niger State, Nigeria. The market was looted of food and
+      then set on fire.
+    key_data:
+      - label: "Reported deaths"
+        value: "At least 30"
+        citation_refs: [25]
+      - label: "Location"
+        value: "Borgu, Niger State, Nigeria"
+        citation_refs: [25]
+      - label: "Additional harm"
+        value: "Kidnappings, food looting, and market arson"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "The portal reported that armed bandits raided a village market in Borgu, Niger State."
+        - "At least 30 people were reported killed and others kidnapped."
+        - "The market was reportedly looted of food before being set on fire."
+      why_it_matters:
+        - "Market attacks can devastate rural food access, local commerce, and civilian security."
+        - "The incident reflects the continuing lethality of the Nigerian bandit conflict."
+      uncertainty_notes:
+        - "This is a portal-derived event not covered in the January 3 deep-research markdown."
+    actors:
+      primary:
+        - "Armed bandits"
+      secondary:
+        - "Market civilians"
+    entities:
+      people: []
+      organizations:
+        - name: "Armed bandits"
+          description: "Raiders identified by the portal in the Nigerian bandit conflict"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Borgu"
+        - "Niger State"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 30
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Village market looted of food and set on fire."
+    classification:
+      event_type:
+        - "armed-raid"
+        - "kidnapping"
+        - "market-arson"
+      tags:
+        - "nigerian-bandit-conflict"
+        - "borgu"
+        - "niger-state"
+        - "market-attack"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 30 people are killed and others kidnapped by armed bandits in a raid on a village market in Borgu, Niger State, Nigeria. The market was also looted of food before being set on fire."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Portal-derived event; reported by AP and The Punch per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-03-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "Counterterrorism airstrike"
+    topics:
+      - "War against the Islamic State"
+      - "Syria"
+      - "Palmyra"
+      - "United Kingdom"
+      - "France"
+    importance: 6
+    headline: "British and French aircraft strike alleged Islamic State facility near Palmyra"
+    summary: >
+      British and French aircraft carried out a joint strike on an underground
+      facility alleged to be occupied by the Islamic State near Palmyra in central
+      Syria.
+    key_data:
+      - label: "Participating states"
+        value: "United Kingdom and France"
+        citation_refs: [25]
+      - label: "Reported target"
+        value: "Underground facility alleged to be occupied by Islamic State"
+        citation_refs: [25]
+      - label: "Location"
+        value: "Near Palmyra, central Syria"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "The portal reported a joint British and French aircraft strike near Palmyra."
+        - "The reported target was an underground facility alleged to be occupied by the Islamic State."
+      why_it_matters:
+        - "The strike indicates continuing coalition-style counterterrorism operations against Islamic State targets in Syria."
+        - "An underground target near Palmyra suggests concern over hardened militant infrastructure."
+      uncertainty_notes:
+        - "This is a portal-derived event not covered in the January 3 deep-research markdown."
+    actors:
+      primary:
+        - "British armed forces"
+        - "French armed forces"
+        - "Islamic State"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Islamic State"
+          description: "Militant organization alleged to occupy the struck facility"
+        - name: "British armed forces"
+          description: "Military forces reported as participating in the strike"
+        - name: "French armed forces"
+          description: "Military forces reported as participating in the strike"
+      states:
+        - "United Kingdom"
+        - "France"
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Palmyra"
+        - "Central Syria"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Underground facility allegedly occupied by Islamic State struck."
+    classification:
+      event_type:
+        - "counterterrorism-strike"
+        - "airstrike"
+      tags:
+        - "islamic-state"
+        - "palmyra"
+        - "syria"
+        - "uk-france"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "British and French aircraft carry out a joint strike on an underground facility alleged to be occupied by the Islamic State near Palmyra in central Syria."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by The Guardian per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-03-016"
+    category: "Business and economy"
+    subcategory: "Currency redenomination"
+    topics:
+      - "Economy of Syria"
+      - "Central Bank of Syria"
+      - "Syrian pound"
+      - "currency reform"
+    importance: 6
+    headline: "Syria begins exchanging old banknotes for redenominated currency"
+    summary: >
+      The Central Bank of Syria began exchanging old banknotes for a new currency that
+      removes two zeros from previous denominations, converting 100 old pounds to one
+      new pound as part of economic stabilization measures following the change in
+      government.
+    key_data:
+      - label: "Conversion rate"
+        value: "100 old pounds to 1 new pound"
+        citation_refs: [25]
+      - label: "Institution"
+        value: "Central Bank of Syria"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "The Central Bank of Syria began exchanging old banknotes for a redenominated currency."
+        - "The new currency removed two zeros from previous denominations."
+        - "The change converted 100 old pounds into one new pound."
+      why_it_matters:
+        - "Currency redenomination is a visible economic-stabilization measure and can affect cash handling, prices, and public confidence."
+        - "The reform followed a change in government, making it part of a broader state and economic transition."
+      uncertainty_notes:
+        - "This is a portal-derived event not covered in the January 3 deep-research markdown."
+    actors:
+      primary:
+        - "Central Bank of Syria"
+      secondary:
+        - "Syrian government"
+    entities:
+      people: []
+      organizations:
+        - name: "Central Bank of Syria"
+          description: "Central bank implementing the banknote exchange"
+      states:
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "currency-redenomination"
+        - "economic-policy"
+        - "banknote-exchange"
+      tags:
+        - "syria"
+        - "central-bank"
+        - "currency-reform"
+        - "economic-stabilization"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Central Bank of Syria begins exchanging old banknotes for a new currency that removes two zeros from the previous denominations, with 100 old pounds converted to one new pound, as part of economic stabilization measures following the change in government."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by AP per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-03-017"
+    category: "Disasters and accidents"
+    subcategory: "Boat capsize"
+    topics:
+      - "Nigeria"
+      - "Yobe State"
+      - "Nguru"
+      - "boat accident"
+    importance: 6
+    headline: "Boat capsizes in Nguru, Nigeria, killing 26"
+    summary: >
+      Twenty-six people were killed and 14 others were missing after a boat carrying
+      52 passengers capsized in Nguru, Yobe State, Nigeria.
+    key_data:
+      - label: "Reported deaths"
+        value: "26"
+        citation_refs: [25]
+      - label: "Reported missing"
+        value: "14"
+        citation_refs: [25]
+      - label: "Passengers aboard"
+        value: "52"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "The portal reported that a boat carrying 52 passengers capsized in Nguru, Yobe State."
+        - "Twenty-six people were reported killed."
+        - "Fourteen others were reported missing."
+      why_it_matters:
+        - "The incident adds to recurring inland waterway safety concerns in Nigeria."
+        - "A missing-person count indicates continuing search, rescue, or recovery uncertainty."
+      uncertainty_notes:
+        - "This is a portal-derived event not covered in the January 3 deep-research markdown."
+    actors:
+      primary:
+        - "Boat passengers"
+        - "Local responders"
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Nguru"
+        - "Yobe State"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 26
+      injured: null
+      displaced: 0
+      missing: 14
+      arrest_count: 0
+      damage: "Boat carrying 52 passengers capsized."
+    classification:
+      event_type:
+        - "boat-capsize"
+        - "transport-disaster"
+      tags:
+        - "nigeria"
+        - "yobe-state"
+        - "nguru"
+        - "missing-persons"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "26 people are killed and 14 others are missing after a boat carrying 52 passengers capsizes in Nguru, Yobe State, Nigeria."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by Reuters and Africanews per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-03-018"
+    category: "Disasters and accidents"
+    subcategory: "Road collision"
+    topics:
+      - "South Africa"
+      - "Fouriesburg"
+      - "traffic collision"
+      - "minibus taxi"
+    importance: 5
+    headline: "Car and minibus taxi collide near Fouriesburg, killing six"
+    summary: >
+      Six people were killed after a car collided with a minibus taxi near Fouriesburg,
+      South Africa.
+    key_data:
+      - label: "Reported deaths"
+        value: "6"
+        citation_refs: [25]
+      - label: "Location"
+        value: "Near Fouriesburg, South Africa"
+        citation_refs: [25]
+      - label: "Vehicles involved"
+        value: "Car and minibus taxi"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "The portal reported that a car collided with a minibus taxi near Fouriesburg."
+        - "Six people were reported killed."
+      why_it_matters:
+        - "Fatal minibus taxi crashes can have major local impacts because the vehicles often carry multiple passengers."
+        - "The crash reflects continuing road-safety risks on regional roads."
+      uncertainty_notes:
+        - "This is a portal-derived event not covered in the January 3 deep-research markdown."
+    actors:
+      primary:
+        - "Vehicle occupants"
+      secondary:
+        - "Local emergency responders"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "South Africa"
+    geography:
+      countries:
+        - "South Africa"
+      places:
+        - "Fouriesburg"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Car and minibus taxi collision."
+    classification:
+      event_type:
+        - "road-accident"
+        - "traffic-collision"
+      tags:
+        - "south-africa"
+        - "fouriesburg"
+        - "minibus-taxi"
+        - "road-safety"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Six people are killed after a car collides with a minibus taxi near Fouriesburg, South Africa."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by IOL per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-03-019"
+    category: "Law and crime"
+    subcategory: "Civil unrest"
+    topics:
+      - "2025-2026 Iranian protests"
+      - "Iran"
+      - "Malekshahi County"
+      - "Ilam province"
+    importance: 5
+    headline: "Four protesters shot dead in Malekshahi County, Iran"
+    summary: >
+      Four more protesters were shot dead by security forces in Malekshahi County,
+      Ilam province, Iran, amid the continuing 2025-2026 Iranian protests.
+    key_data:
+      - label: "Reported deaths"
+        value: "4 protesters"
+        citation_refs: [25]
+      - label: "Location"
+        value: "Malekshahi County, Ilam province"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "The portal reported four more protesters were shot dead by security forces in Malekshahi County."
+        - "The incident occurred in Ilam province amid the continuing 2025-2026 Iranian protests."
+      why_it_matters:
+        - "The reported deaths add to a continuing pattern of lethal protest response in Iran."
+        - "The event is linked to the broader protest cycle documented in January 1, January 2, and the January 3 Khamenei event."
+      uncertainty_notes:
+        - "This specific Malekshahi County report is portal-derived and was not covered as a separate deep-research event."
+    actors:
+      primary:
+        - "Iranian security forces"
+        - "Iranian protesters"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Iranian security forces"
+          description: "State forces reported by the portal as shooting protesters"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Malekshahi County"
+        - "Ilam province"
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "civil-unrest"
+        - "protest-death"
+        - "state-violence"
+      tags:
+        - "iranian-protests"
+        - "malekshahi"
+        - "ilam"
+        - "security-forces"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Four more protesters are shot dead by security forces in Malekshahi County, Ilam province, Iran."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-01-004"
+      - "evt-2026-01-02-017"
+      - "evt-2026-01-03-007"
+    notes: "Portal-derived event; reported by Hengaw, Iran International, and AP per the Wikipedia portal. Not covered as a separate event in the deep-research markdown."
+
+  - id: "evt-2026-01-03-020"
+    category: "Sports"
+    subcategory: "Professional darts"
+    topics:
+      - "2026 PDC World Darts Championship"
+      - "Luke Littler"
+      - "Gian van Veen"
+      - "professional darts"
+    importance: 4
+    headline: "Luke Littler wins second straight PDC World Darts Championship"
+    summary: >
+      English darts player Luke Littler won a second consecutive PDC World Darts
+      Championship after defeating Dutch player Gian van Veen 7-1 in the final.
+    key_data:
+      - label: "Winner"
+        value: "Luke Littler"
+        citation_refs: [25]
+      - label: "Runner-up"
+        value: "Gian van Veen"
+        citation_refs: [25]
+      - label: "Final score"
+        value: "7-1"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "Luke Littler defeated Gian van Veen in the PDC World Darts Championship final."
+        - "The portal reported a 7-1 scoreline."
+        - "The win gave Littler back-to-back world championship titles."
+      why_it_matters:
+        - "Back-to-back world titles are a major achievement in professional darts."
+        - "The result reinforces Littler's position at the top of the sport."
+      uncertainty_notes:
+        - "This is a portal-derived sports event not covered in the January 3 deep-research markdown."
+    actors:
+      primary:
+        - "Luke Littler"
+        - "Gian van Veen"
+      secondary:
+        - "Professional Darts Corporation"
+    entities:
+      people:
+        - name: "Luke Littler"
+          role: "English professional darts player and tournament winner"
+        - name: "Gian van Veen"
+          role: "Dutch professional darts player and finalist"
+      organizations:
+        - name: "Professional Darts Corporation"
+          description: "Organizer of the PDC World Darts Championship"
+      states:
+        - "United Kingdom"
+        - "Netherlands"
+    geography:
+      countries:
+        - "United Kingdom"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-03"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "sports-result"
+        - "championship-final"
+      tags:
+        - "pdc-world-darts-championship"
+        - "luke-littler"
+        - "gian-van-veen"
+        - "darts"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In professional darts, English player Luke Littler wins a second PDC World Darts Championship back-to-back after defeating Dutch player Gian van Veen 7–1 in the final."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by BBC Sport per the Wikipedia portal. Not covered in the deep-research markdown."
+
+strategic_conclusion: >
+  January 3 shows a world in which acute security shocks and slower institutional
+  stresses are unfolding together. Venezuela is the day's central rupture: a
+  cross-border operation, reported mass casualties, head-of-state detention, and
+  disputed sovereignty all converge in one event with implications far beyond Caracas.
+  The same day also points to the vulnerability of infrastructure and civilian spaces,
+  from Berlin's grid outage to Russian attacks across Ukraine, Nigerian mass-casualty
+  violence, and transportation disasters in Nigeria and South Africa.
+
+  The governance picture is equally unsettled. Myanmar's military-supervised election
+  results, Pakistan's in-absentia life sentences, and Iran's continuing protest
+  deaths each show state institutions asserting control under contested legitimacy.
+  Meanwhile, follow-up reporting on the Guerrero earthquake and Crans-Montana fire
+  emphasizes that the aftermath of disasters often becomes a second phase of the
+  story: damage assessment, criminal accountability, casualty reconciliation, and
+  public trust. Even the economic items, from Syria's currency reform to Turkey's
+  exports and Airbus's delivery outlook, sit inside a broader pattern of governments
+  and firms trying to stabilize narratives while political and security conditions
+  remain volatile.
+
+works_cited:
+  - id: 1
+    title: "U.S. captures Venezuela's President Nicolás Maduro"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/07c3faba55d651a1cac077d4a9ff16b0"
+    accessed: "2026-01-03"
+  - id: 2
+    title: "Trump administration aware of reported explosions in Venezuelan capital"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/trump-administration-aware-reported-explosions-venezuelan-capital-cbs-reporter-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 3
+    title: "Loud noises heard in Venezuela capital; southern area without electricity"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/"
+    accessed: "2026-01-04"
+  - id: 4
+    title: "Sismo del 2 de enero deja afectaciones en al menos 24 municipios de Guerrero"
+    outlet: "El Universal"
+    url: "https://www.eluniversal.com.mx/estados/sismo-del-2-de-enero-deja-afectaciones-en-al-menos-24-municipios-de-guerrero-san-marcos-el-mas-danado/"
+    accessed: "2026-01-03"
+  - id: 5
+    title: "PC identifica 24 municipios en Guerrero con afectaciones tras sismo de 6.5"
+    outlet: "La Jornada"
+    url: "https://www.jornada.com.mx/noticia/2026/01/03/politica/pc-identifica-24-municipios-en-guerrero-con-afectaciones-tras-sismo-de-65-registran-mil-448-replicas"
+    accessed: "2026-01-03"
+  - id: 6
+    title: "Earthquake strikes Mexico, disrupting Sheinbaum briefing; at least two dead"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ce9e9e76e445e68797e36b2fa8e14418"
+    accessed: "2026-01-02"
+  - id: 7
+    title: "Possible arson on Berlin cable link cuts power to 50,000 households, police says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/possible-arson-berlin-cable-link-cuts-power-50000-households-police-says-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 8
+    title: "Berlin arson attack power blackout triggers calls to put security over transparency"
+    outlet: "Clean Energy Wire"
+    url: "https://www.cleanenergywire.org/news/berlin-arson-attack-power-blackout-triggers-calls-put-security-over-transparency"
+    accessed: "2026-01-03"
+  - id: 9
+    title: "Berlin power outage affects households and businesses"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/c945742c0b821b396244fd894f2d971c"
+    accessed: "2026-01-03"
+  - id: 10
+    title: "Swiss prosecutors place bar managers under investigation after deadly blaze"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/swiss-prosecutors-place-bar-managers-under-investigation-after-deadly-blaze-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 11
+    title: "Swiss authorities investigate managers of Crans-Montana bar"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/switzerland-crans-montana-bar-fire-c63d39a8f288281d18919b3a585d5f29"
+    accessed: "2026-01-03"
+  - id: 12
+    title: "Authorities investigate managers of Swiss bar where New Year's fire killed 40"
+    outlet: "PBS NewsHour"
+    url: "https://www.pbs.org/newshour/world/authorities-investigate-managers-of-swiss-bar-where-new-years-fire-killed-40"
+    accessed: "2026-01-03"
+  - id: 13
+    title: "Military-backed party in Myanmar takes lead in first phase of polls"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/military-backed-party-myanmar-takes-lead-first-phase-polls-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 14
+    title: "Myanmar election body announces early results showing USDP lead"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/myanmar-dec28-election-usdp-lead-uec-early-results-336b9121f2466438c673c0bc1dc346d2"
+    accessed: "2026-01-03"
+  - id: 15
+    title: "Pakistan court sentences journalists to life over links to protests after Imran Khan's arrest"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/media-telecom/pakistan-court-sentences-journalists-life-over-links-protests-after-imran-khans-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 16
+    title: "Pakistan court sentences journalists to life"
+    outlet: "ABC News"
+    url: "https://www.abc.net.au/news/2026-01-03/pakistan-court-sentences-journalists-to-life/106196366"
+    accessed: "2026-01-03"
+  - id: 17
+    title: "Pakistan anti-terrorism convictions over unrest"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/dd97d50c8db007acf0132d53aecfde6a"
+    accessed: "2026-01-03"
+  - id: 18
+    title: "Iran supreme leader says will not yield as protests simmer and U.S. threatens"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/iran-supreme-leader-says-will-not-yield-protests-simmer-us-threatens-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 19
+    title: "One person killed in Iran protests over economic woes"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/one-person-killed-iran-protests-over-economic-woes-2026-01-01/"
+    accessed: "2026-01-01"
+  - id: 20
+    title: "Islamic State-linked rebels kill 15 in eastern Congo, officials say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/islamic-state-linked-rebels-kill-15-eastern-congo-officials-say-2026-01-02/"
+    accessed: "2026-01-02"
+  - id: 21
+    title: "Turkey's 2025 exports hit record $273.4 billion, up 4.5% y/y, says Erdoğan"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/turkeys-2025-exports-hit-record-2734-billion-up-45-yy-says-erdogan-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 22
+    title: "Airbus to beat annual delivery goal of 790 aircraft, Bloomberg News reports"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/aerospace-defense/airbus-beat-annual-delivery-goal-790-aircraft-bloomberg-news-reports-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 23
+    title: "Exor renews Ferrari shareholder agreement with founder's son"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/sustainable-finance-reporting/exor-renews-ferrari-shareholder-agreement-with-founders-son-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 24
+    title: "Fire engulfs Denver apartment building under construction, causing power outages"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/us/fire-engulfs-denver-apartment-building-under-construction-causing-power-outages-2026-01-03/"
+    accessed: "2026-01-03"
+  - id: 25
+    title: "Portal:Current events/2026 January 3"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_3"
+    accessed: "2026-03-24"
