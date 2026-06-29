@@ -1,32 +1,2648 @@
-Date: '2026-01-04'
-Source_URI: Portal:Current events/2026 January 4
-Intelligence_Payload:
-  Uncategorized:
-  - Yemeni civil war
-  - 2025 Southern Yemen offensive, Saudi-led intervention in the Yemeni civil war
-  - Yemeni forces and the Saudi Arabia-led coalition capture the al-Mahrah and Hadhramaut
-    governorates from the Southern Transitional Council. (Al Jazeera)
-  - 2026 United States strikes in Venezuela
-  - The death toll from the strikes rises to at least 80, including members of security
-    forces and civilians. (The New York Times)
-  - Cuba confirms that 32 of its citizens were killed during the attacks while carrying
-    out missions. Two days of national mourning are declared. (Al Jazeera)
-  - The United States Federal Aviation Administration lifts the ban on US flights
-    through the Caribbean imposed following military strikes in Venezuela. Hundreds
-    of flights were canceled or are rescheduled from yesterday. (Reuters) (The New
-    York Times)
-  - Israel–Hezbollah conflict
-  - Two Hezbollah militants are killed in a strike by the Israel Defense Forces in
-    Al-Jumayjimah, Nabatieh Governorate, Lebanon. (The Jerusalem Post)
-  - Six people are killed and five injured after a roof collapses in Charsadda district,
-    Pakistan. (Dawn)
-  - A collision caused by tea leaves spilled from a moving truck involving 12 vehicles
-    in Sano, Tochigi, Japan, leaves one person dead and three others injured. (Kyodo
-    News)
-  - Myanmar's government releases 6,186 prisoners, including 52 foreign nationals,
-    and reduces prison sentences to mark Independence Day, while excluding inmates
-    convicted of serious crimes. (Reuters)
-  - A technical failure in Greece's air traffic control communication systems forces
-    authorities to impose a seven-hour nationwide ground stop and airspace closure,
-    diverting aircraft to nearby countries and causing widespread delays and cancellations.
-    (VINnews) (Reuters)
+date: "2026-01-04"
+source_page:
+  portal: "Portal:Current events/2026 January 4"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 4, 2026 extended several crises from the first three days of the year while
+  adding new disruptions in aviation, conflict zones, and domestic governance. The
+  Venezuela crisis moved from the initial U.S. strike and capture operation into a
+  diplomatic and administrative emergency, with reporting on Maduro's detention,
+  regional condemnation, strike casualties, Cuban deaths, and the lifting of a
+  temporary Caribbean aviation ban. In Yemen, Saudi-backed government forces retook
+  Hadhramaut and Al-Mahrah from the Southern Transitional Council, deepening the
+  Saudi-UAE fracture inside the anti-Houthi camp.
+
+  The day also highlighted infrastructure and institutional fragility: Greece's air
+  traffic control failure stopped national air operations for hours, a roof collapse
+  killed wedding guests in Pakistan, and Japan saw a fatal chain collision caused by
+  spilled cargo. Security events ranged from North Korean missile launches to
+  UK-French strikes near Palmyra, an ISWAP IED attack in Nigeria, an Israeli strike
+  in Lebanon, and continuing violence or territorial contestation in Iran, DRC,
+  Sudan, and Myanmar. Several non-kinetic political decisions - Myanmar's mass
+  amnesty, India's Russian oil waiver, and Australia's Bondi inquiry - show states
+  using legal and administrative tools to manage legitimacy after shocks.
+
+events:
+  - id: "evt-2026-01-04-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Military intervention"
+    topics:
+      - "2026 United States intervention in Venezuela"
+      - "Nicolás Maduro"
+      - "Cilia Flores"
+      - "Donald Trump"
+      - "Delcy Rodríguez"
+    importance: 10
+    headline: "U.S. special forces capture Nicolás Maduro in Venezuela raid"
+    summary: >
+      Reporting on January 4 described the aftermath of a U.S. operation that captured
+      Venezuelan President Nicolás Maduro and first lady Cilia Flores and transferred
+      Maduro toward federal custody in New York. Kultura Press and Anadolu summarized
+      U.S. and international coverage of President Donald Trump's statement that the
+      United States would temporarily run Venezuela during a transition, while ABC
+      reported on Maduro's transfer to New York and oil-pressure measures. Singapore's
+      foreign ministry publicly expressed grave concern over the U.S. intervention and
+      urged restraint.
+    key_data:
+      - label: "Captured officials"
+        value: "Nicolás Maduro and Cilia Flores"
+        citation_refs: [1, 3]
+      - label: "Reported U.S. transition position"
+        value: "Trump said the United States would temporarily run Venezuela"
+        citation_refs: [1, 2]
+      - label: "Diplomatic reaction"
+        value: "Singapore said it was gravely concerned and urged restraint"
+        citation_refs: [4]
+    details:
+      what_happened:
+        - "U.S. elite forces were reported to have detained Nicolás Maduro and Cilia Flores during an overnight raid in Caracas."
+        - "Reporting described Maduro being transported by U.S. military assets and then toward federal detention in Brooklyn, New York."
+        - "Donald Trump said the United States would temporarily run Venezuela during a transition and linked the intervention to Venezuela's oil sector."
+        - "Acting Venezuelan leader Delcy Rodríguez declared a state of emergency and condemned the raid."
+        - "Singapore's foreign ministry expressed grave concern about the intervention and urged restraint by all parties."
+      why_it_matters:
+        - "The detention of a sitting head of state by foreign forces is a major challenge to sovereignty norms and regional diplomacy."
+        - "Explicit discussion of Venezuelan oil reserves raised the strategic and economic stakes of the intervention."
+        - "The event intensified the transition and legitimacy questions opened by the January 3 Venezuela strikes and capture reports."
+      uncertainty_notes:
+        - "The deep-research report combines direct reporting, broadcast summaries, and diplomatic reaction sources; specific operational details should be treated as early crisis reporting."
+    actors:
+      primary:
+        - "United States Armed Forces"
+        - "Nicolás Maduro"
+        - "Donald Trump"
+      secondary:
+        - "Cilia Flores"
+        - "Delcy Rodríguez"
+        - "Marco Rubio"
+        - "Pete Hegseth"
+    entities:
+      people:
+        - name: "Nicolás Maduro"
+          role: "Captured president of Venezuela"
+        - name: "Cilia Flores"
+          role: "First lady of Venezuela"
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Delcy Rodríguez"
+          role: "Venezuelan vice president and acting leader"
+        - name: "Marco Rubio"
+          role: "U.S. Secretary of State"
+        - name: "Pete Hegseth"
+          role: "U.S. Secretary of Defense"
+      organizations:
+        - name: "United States Armed Forces"
+          description: "Military force reported as carrying out the raid"
+        - name: "Ministry of Foreign Affairs Singapore"
+          description: "Official source of Singapore's public reaction"
+      states:
+        - "United States"
+        - "Venezuela"
+        - "Singapore"
+    geography:
+      countries:
+        - "Venezuela"
+        - "United States"
+      places:
+        - "Caracas"
+        - "Brooklyn, New York"
+        - "Metropolitan Detention Center"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 2
+      damage: "Localized structural damage near operation zones was reported in the deep-research source summary."
+    classification:
+      event_type:
+        - "military-intervention"
+        - "head-of-state-capture"
+        - "diplomatic-crisis"
+      tags:
+        - "venezuela"
+        - "maduro"
+        - "us-intervention"
+        - "oil"
+        - "sovereignty"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-001-a
+          outlet: "Kultura Press"
+          url: "https://kulturapress.com/2026/01/04/journalism-history-for-sunday-4th-january-2026/"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "US will now 'run Venezuela'"
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/world/morning-briefing-jan-4-2026/3789215"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "run the country"
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "ABC News/YouTube"
+          url: "https://www.youtube.com/watch?v=_9j2lMNlubE"
+          publication_date: "2026-01-04"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Maduro jailed in NYC"
+          citation_refs: [3]
+        - id: src-001-d
+          outlet: "Ministry of Foreign Affairs Singapore"
+          url: "https://www.publicnow.com/view/7FE717E8877E9C951BE9FA71B268E46A3FF55A04?1767512907"
+          publication_date: "2026-01-04"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "gravely concerned"
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-001"
+    notes: "Deep-research follow-up to the January 3 Venezuela intervention event."
+
+  - id: "evt-2026-01-04-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Civil war"
+    topics:
+      - "Yemeni civil war"
+      - "2025 Southern Yemen offensive"
+      - "Saudi-led intervention in the Yemeni civil war"
+      - "Southern Transitional Council"
+      - "Hadhramaut Governorate"
+    importance: 8
+    headline: "Saudi-backed Yemeni forces retake Hadhramaut and Al-Mahrah"
+    summary: >
+      Saudi-backed Yemeni government forces, including the Nation's Shield Forces,
+      recaptured Hadhramaut and Al-Mahrah governorates from the UAE-backed Southern
+      Transitional Council. Reporting described government forces entering Mukalla,
+      securing Al-Rayyan International Airport and other key infrastructure, and
+      forcing the STC into Riyadh-backed negotiations after its independence-roadmap
+      announcement.
+    key_data:
+      - label: "Recaptured governorates"
+        value: "Hadhramaut and Al-Mahrah"
+        citation_refs: [2, 5]
+      - label: "Strategic city"
+        value: "Mukalla"
+        citation_refs: [5, 6]
+      - label: "Airport captured"
+        value: "Al-Rayyan International Airport"
+        citation_refs: [7]
+    details:
+      what_happened:
+        - "Nation's Shield Forces advanced into Hadhramaut and entered Mukalla after STC withdrawals."
+        - "Government forces secured military installations and Al-Rayyan International Airport."
+        - "The portal reported Yemeni forces and the Saudi Arabia-led coalition captured Al-Mahrah and Hadhramaut from the STC."
+        - "Saudi Arabia backed talks in Riyadh to manage the southern political crisis."
+      why_it_matters:
+        - "Control of Hadhramaut is strategically important for Saudi security because of its border and position in eastern Yemen."
+        - "The fighting exposes the conflicting goals of Saudi Arabia and the UAE inside the anti-Houthi coalition."
+        - "The government gains leverage against STC independence plans by recovering major administrative and logistical sites."
+      uncertainty_notes:
+        - "The deep-research report gives aggregate STC losses for the broader counter-offensive; the portal bullet did not include casualties for the January 4 capture."
+    actors:
+      primary:
+        - "Nation's Shield Forces"
+        - "Yemeni government"
+        - "Southern Transitional Council"
+      secondary:
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+        - "Rashad al-Alimi"
+    entities:
+      people:
+        - name: "Rashad al-Alimi"
+          role: "Chairman of Yemen's Presidential Leadership Council"
+      organizations:
+        - name: "Nation's Shield Forces"
+          description: "Saudi-backed Yemeni government-aligned force"
+        - name: "Southern Transitional Council"
+          description: "UAE-backed southern separatist organization"
+        - name: "Saudi Arabia-led coalition"
+          description: "Coalition intervening in Yemen's civil war"
+      states:
+        - "Yemen"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "Yemen"
+      places:
+        - "Hadhramaut Governorate"
+        - "Al-Mahrah Governorate"
+        - "Mukalla"
+        - "Al-Rayyan International Airport"
+        - "Al-Ghaydah"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 80
+      injured: 152
+      displaced: null
+      missing: null
+      arrest_count: 130
+      damage: "Minor urban damage reported; figures reflect aggregate STC losses cited in the deep-research report."
+    classification:
+      event_type:
+        - "civil-war"
+        - "territorial-capture"
+        - "coalition-operation"
+      tags:
+        - "yemen"
+        - "hadhramaut"
+        - "al-mahrah"
+        - "stc"
+        - "saudi-led-coalition"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Yemeni forces and the Saudi Arabia-led coalition capture the al-Mahrah and Hadhramaut governorates from the Southern Transitional Council."
+      external:
+        - id: src-002-a
+          outlet: "Al Jazeera/YouTube"
+          url: "https://www.youtube.com/watch?v=2jI20UvsZRg"
+          publication_date: "2026-01-04"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "entered Hadramout province and secured the capital, Mukalla"
+          citation_refs: [5]
+        - id: src-002-b
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/world/morning-briefing-jan-4-2026/3789215"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "withdrew from Al-Ghaydah airport and the presidential palace"
+          citation_refs: [2]
+        - id: src-002-c
+          outlet: "Liveuamap"
+          url: "https://yemen.liveuamap.com/en/2026/4-january-08-al-jazeera-sources-yemeni-government-forces"
+          publication_date: "2026-01-04"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "control Al-Rayyan International Airport"
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-01-008"
+      - "evt-2026-01-02-004"
+    notes: ""
+
+  - id: "evt-2026-01-04-003"
+    category: "Armed conflicts and attacks"
+    subcategory: "Weapons testing"
+    topics:
+      - "North Korea"
+      - "ballistic missile"
+      - "Sea of Japan"
+      - "Hwasong-11A"
+      - "KN-23"
+    importance: 7
+    headline: "North Korea conducts first ballistic missile test of 2026"
+    summary: >
+      North Korea launched at least two short-range ballistic missiles from the
+      Pyongyang region toward the Sea of Japan. Japanese and South Korean tracking
+      data cited in the deep-research report said the missiles flew roughly 900 and
+      950 kilometers at about 50 kilometers of altitude, followed irregular trajectories,
+      and landed outside Japan's exclusive economic zone. The test took place ahead of
+      regional diplomatic activity and was followed by emergency consultations in Seoul
+      and Tokyo.
+    key_data:
+      - label: "Missiles launched"
+        value: "At least 2"
+        citation_refs: [8, 9]
+      - label: "Reported flight distances"
+        value: "Approximately 900 km and 950 km"
+        citation_refs: [8]
+      - label: "Reported maximum altitude"
+        value: "Approximately 50 km"
+        citation_refs: [8]
+    details:
+      what_happened:
+        - "North Korea launched two projectiles early on January 4 from the Pyongyang region toward the Sea of Japan."
+        - "Japan's defense ministry reported one missile flew about 900 kilometers and another about 950 kilometers."
+        - "The missiles reportedly flew at a depressed altitude of about 50 kilometers and landed outside Japan's EEZ."
+        - "South Korea convened emergency security consultations and Japan issued maritime and aviation safety directives."
+      why_it_matters:
+        - "Low-altitude, maneuverable missile trajectories complicate regional missile-defense planning."
+        - "The timing ahead of diplomatic talks signaled Pyongyang's use of testing to shape regional security agendas."
+        - "The launch reinforced trilateral security coordination among South Korea, Japan, and the United States."
+      uncertainty_notes:
+        - "Technical identification as KN-23/Hwasong-11A style is inferred from reported flight profile and specialist context."
+    actors:
+      primary:
+        - "North Korean military"
+      secondary:
+        - "South Korean Joint Chiefs of Staff"
+        - "Japanese Ministry of Defense"
+    entities:
+      people: []
+      organizations:
+        - name: "North Korean military"
+          description: "Force conducting the missile launch"
+        - name: "Japanese Ministry of Defense"
+          description: "Official source for telemetry and response details"
+        - name: "South Korean Joint Chiefs of Staff"
+          description: "South Korean military body monitoring the launch"
+      states:
+        - "North Korea"
+        - "Japan"
+        - "South Korea"
+    geography:
+      countries:
+        - "North Korea"
+        - "Japan"
+      places:
+        - "Pyongyang region"
+        - "Sea of Japan"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: true
+      time_detail: "Around 07:54 and 08:05 local time"
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "No physical damage reported; missiles impacted open waters."
+    classification:
+      event_type:
+        - "missile-test"
+        - "weapons-test"
+      tags:
+        - "north-korea"
+        - "ballistic-missile"
+        - "sea-of-japan"
+        - "regional-security"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-003-a
+          outlet: "Japanese Ministry of Defense"
+          url: "https://www.mod.go.jp/en/article/2026/01/aa5e30c854760e9da8444434a4ffd1c0ab2c843f.html"
+          publication_date: "2026-01-04"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "maximum altitude of approximately 50 kilometers"
+          citation_refs: [8]
+        - id: src-003-b
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/jan/03/north-korea-has-fired-ballistic-missile-towards-the-sea-of-japan"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "launched ballistic missiles towards the sea"
+          citation_refs: [9]
+        - id: src-003-c
+          outlet: "38 North"
+          url: "https://www.38north.org/2026/03/assessing-the-maneuverability-of-north-koreas-kn-23-hwasong-11a-srbm/"
+          publication_date: "2026-03-01"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "depressed ballistic trajectory"
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-04-004"
+    category: "Disasters and accidents"
+    subcategory: "Infrastructure failure"
+    topics:
+      - "Greece"
+      - "air traffic control"
+      - "airspace closure"
+      - "ground stop"
+    importance: 7
+    headline: "Technical failure forces nationwide Greek airspace closure"
+    summary: >
+      Greece imposed a roughly seven-hour nationwide ground stop and airspace closure
+      after a technical failure in air traffic control communications affected the
+      Athens and Macedonia Area Control Centers. Reporting cited radio-system collapse,
+      diversions to neighboring countries, widespread delays and cancellations, and a
+      government inquiry that initially ruled out a coordinated cyberattack.
+    key_data:
+      - label: "Closure duration"
+        value: "Seven hours"
+        citation_refs: [11, 12, 36]
+      - label: "Failure time"
+        value: "Around 09:00 local time"
+        citation_refs: [11]
+      - label: "Affected centers"
+        value: "Athens and Macedonia Area Control Centers"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "A technical failure disrupted Greek air traffic control communication systems around 09:00 local time."
+        - "Authorities imposed a nationwide ground stop and closed Greek airspace."
+        - "Inbound flights were diverted to nearby countries, including Italy, Albania, Cyprus, Hungary, and Turkey."
+        - "Limited operations resumed later using backup frequencies."
+        - "Greek authorities launched investigations and initially ruled out a coordinated cyberattack."
+      why_it_matters:
+        - "A national aviation communications failure reveals systemic vulnerability in critical transport infrastructure."
+        - "The shutdown disrupted a peak holiday travel period and created cross-border diversion and cancellation effects."
+        - "The inquiry may affect future aviation resilience and backup-system investment."
+      uncertainty_notes:
+        - "Reports differed in how they described the technical cause, using terms such as radio collapse, frequency interference, and communication-system failure."
+    actors:
+      primary:
+        - "Hellenic Civil Aviation Authority"
+        - "Greek Ministry of Transport"
+      secondary:
+        - "Airlines operating in Greek airspace"
+    entities:
+      people:
+        - name: "Christos Dimas"
+          role: "Greek transport minister referenced in reporting"
+      organizations:
+        - name: "Hellenic Civil Aviation Authority"
+          description: "Greek aviation regulator that imposed the ground stop"
+        - name: "Greek Ministry of Transport"
+          description: "Ministry overseeing investigations"
+      states:
+        - "Greece"
+    geography:
+      countries:
+        - "Greece"
+      places:
+        - "Athens"
+        - "Macedonia Area Control Center"
+        - "Athens Flight Information Region"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: true
+      time_detail: "Around 09:00 local time"
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Logistical and economic disruption from diversions, cancellations, and delays; no aircraft damage reported."
+    classification:
+      event_type:
+        - "infrastructure-failure"
+        - "aviation-disruption"
+        - "ground-stop"
+      tags:
+        - "greece"
+        - "air-traffic-control"
+        - "airspace-closure"
+        - "flight-delays"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A technical failure in Greece's air traffic control communication systems forces authorities to impose a seven-hour nationwide ground stop and airspace closure, diverting aircraft to nearby countries and causing widespread delays and cancellations."
+      external:
+        - id: src-004-a
+          outlet: "Al Mayadeen"
+          url: "https://english.almayadeen.net/news/miscellaneous/greece-grounds-all-flights-after-nationwide-radio-system-col"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "nationwide flight freeze"
+          citation_refs: [11]
+        - id: src-004-b
+          outlet: "AVweb"
+          url: "https://avweb.com/aviation-news/radio-collapse-shuts-down-greek-airspace/"
+          publication_date: "2026-01-04"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "safety was not compromised"
+          citation_refs: [12]
+        - id: src-004-c
+          outlet: "TravelPulse"
+          url: "https://www.travelpulse.com/news/airlines-airports/greece-air-traffic-control-failure-triggers-widespread-flight-disruptions"
+          publication_date: "2026-01-04"
+          source_type: trade_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "diverted to Tirana, Albania"
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-04-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "War against the Islamic State"
+      - "Syria"
+      - "Palmyra"
+      - "Operation Inherent Resolve"
+      - "United Kingdom"
+      - "France"
+    importance: 6
+    headline: "British and French forces strike Islamic State facility near Palmyra"
+    summary: >
+      British and French aircraft conducted a joint strike on an underground Islamic
+      State facility near Palmyra, Syria, during the night of January 3 into January 4.
+      Reporting by The Times of Israel and The Guardian described British Typhoon and
+      French aircraft using precision weapons against tunnels or a subterranean weapons
+      store under the Operation Inherent Resolve framework.
+    key_data:
+      - label: "Participating forces"
+        value: "United Kingdom and France"
+        citation_refs: [14, 15]
+      - label: "Target"
+        value: "Underground Islamic State weapons or logistics facility"
+        citation_refs: [14, 15]
+      - label: "Location"
+        value: "Near Palmyra, Syria"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "British and French warplanes struck a suspected underground Islamic State facility near Palmyra."
+        - "Reporting described precision-guided munitions used against tunnels or a weapons stockpile."
+        - "The deep-research report characterized the strike as part of Operation Inherent Resolve."
+        - "The strike followed recent lethal Islamic State activity against U.S. personnel in the area, according to the cited broadcast source."
+      why_it_matters:
+        - "The strike shows continued coalition activity against Islamic State remnants in central Syria."
+        - "Targeting an underground site suggests concern about hardened militant logistics and weapons storage."
+        - "The event continues the January 3 portal item about UK-French strikes near Palmyra."
+      uncertainty_notes:
+        - "Casualty information was not available in the cited sources."
+    actors:
+      primary:
+        - "Royal Air Force"
+        - "French Air Force"
+        - "Islamic State"
+      secondary:
+        - "Operation Inherent Resolve"
+    entities:
+      people: []
+      organizations:
+        - name: "Royal Air Force"
+          description: "British air force participating in the strike"
+        - name: "French Air Force"
+          description: "French air force participating in the strike"
+        - name: "Islamic State"
+          description: "Militant organization whose facility was targeted"
+      states:
+        - "United Kingdom"
+        - "France"
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Palmyra"
+        - "Central Syria"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: true
+      time_detail: "Night of January 3 into January 4"
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Underground bunker or weapons stockpile reported destroyed; no civilian infrastructure damage reported in cited material."
+    classification:
+      event_type:
+        - "airstrike"
+        - "counterterrorism-operation"
+      tags:
+        - "islamic-state"
+        - "palmyra"
+        - "syria"
+        - "uk-france"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-005-a
+          outlet: "The Times of Israel"
+          url: "https://www.timesofisrael.com/british-french-warplanes-strike-suspected-isis-weapons-stockpile-in-syria/"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "cooperated with France"
+          citation_refs: [14]
+        - id: src-005-b
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/jan/03/british-and-french-aircraft-attack-underground-isis-weapons-store-in-syria"
+          publication_date: "2026-01-03"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Guided bombs used to target tunnels"
+          citation_refs: [15]
+        - id: src-005-c
+          outlet: "Firstpost/YouTube"
+          url: "https://www.youtube.com/watch?v=jDkJXX-JPeE"
+          publication_date: "2026-01-04"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "killing two US soldiers and a US civilian"
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-015"
+    notes: ""
+
+  - id: "evt-2026-01-04-006"
+    category: "Disasters and accidents"
+    subcategory: "Infrastructure collapse"
+    topics:
+      - "Pakistan"
+      - "Charsadda District"
+      - "roof collapse"
+      - "wedding gathering"
+    importance: 6
+    headline: "Roof collapse kills six at wedding gathering in Charsadda"
+    summary: >
+      A dilapidated roof collapsed at a residential home in Shabqadar tehsil of
+      Charsadda district, Khyber Pakhtunkhwa, killing six people and injuring five.
+      Dawn reported the collapse happened around 4:00 a.m. while family members and
+      guests were present for a wedding gathering, prompting neighbors and Rescue 1122
+      to recover victims and transfer the injured for treatment.
+    key_data:
+      - label: "Reported deaths"
+        value: "6"
+        citation_refs: [17, 36]
+      - label: "Reported injuries"
+        value: "5"
+        citation_refs: [17, 36]
+      - label: "Approximate time"
+        value: "04:00"
+        citation_refs: [17]
+    details:
+      what_happened:
+        - "A dilapidated roof collapsed in Khairabad Matta, Shabqadar tehsil, Charsadda district."
+        - "The collapse occurred during the early morning while guests were present for a wedding."
+        - "Six people were killed and five others injured."
+        - "Neighbors and Rescue 1122 responders helped recover victims from the debris."
+      why_it_matters:
+        - "The event shows the lethal risk of weak residential structures during large family gatherings."
+        - "It prompted immediate political condolences and relief promises in Khyber Pakhtunkhwa."
+      uncertainty_notes:
+        - "Some background sources in the deep-research report discuss earlier Charsadda roof-collapse vulnerability rather than this specific incident."
+    actors:
+      primary:
+        - "Wedding guests and family members"
+        - "Rescue 1122"
+      secondary:
+        - "Khyber Pakhtunkhwa provincial authorities"
+    entities:
+      people:
+        - name: "Ali Amin Gandapur"
+          role: "Khyber Pakhtunkhwa chief minister referenced in reporting"
+      organizations:
+        - name: "Rescue 1122"
+          description: "Emergency response service involved in rescue"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places:
+        - "Charsadda district"
+        - "Shabqadar tehsil"
+        - "Khairabad Matta"
+        - "Khyber Pakhtunkhwa"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: true
+      time_detail: "Around 04:00 local time"
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: 5
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Residential roof collapsed with severe interior damage."
+    classification:
+      event_type:
+        - "structural-collapse"
+        - "building-accident"
+      tags:
+        - "charsadda"
+        - "roof-collapse"
+        - "wedding"
+        - "pakistan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Six people are killed and five injured after a roof collapses in Charsadda district, Pakistan."
+      external:
+        - id: src-006-a
+          outlet: "Dawn"
+          url: "https://www.dawn.com/news/1965058"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "incident occurred at around 4am"
+          citation_refs: [17]
+        - id: src-006-b
+          outlet: "Geo News/YouTube"
+          url: "https://www.youtube.com/watch?v=u7dyP5pTsDg"
+          publication_date: "2026-01-04"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - key_data
+            - casualty_report
+          contradicts: []
+          quoted_material: []
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-04-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Improvised explosive devices"
+    topics:
+      - "Boko Haram insurgency"
+      - "Islamic State West Africa Province"
+      - "Nigeria"
+      - "Damasak"
+      - "Borno State"
+    importance: 7
+    headline: "ISWAP IED attack kills Nigerian soldiers near Damasak"
+    summary: >
+      Insurgents affiliated with Islamic State West Africa Province attacked a Nigerian
+      military convoy near Damasak in Borno State with an improvised explosive device.
+      The Hindu reported at least nine soldiers killed in an ambush in Borno, while
+      the deep-research report summarized additional claims that five others were
+      wounded and one armored vehicle was destroyed.
+    key_data:
+      - label: "Reported soldiers killed"
+        value: "8 to 9"
+        citation_refs: [19, 20]
+      - label: "Reported wounded"
+        value: "5"
+        citation_refs: [20]
+      - label: "Location"
+        value: "Near Damasak, Borno State"
+        citation_refs: [19]
+    details:
+      what_happened:
+        - "An IED detonated against a Nigerian military convoy traveling toward Damasak."
+        - "The attack occurred near Bindundul village in Borno State, according to the deep-research report."
+        - "At least eight to nine soldiers were reported killed and five others wounded."
+        - "The deep-research report said an armored military vehicle was destroyed."
+      why_it_matters:
+        - "The attack shows ISWAP's continued ability to target military movement with mines or IEDs."
+        - "Convoy attacks on key routes undermine state control and logistics in the Lake Chad basin."
+        - "The incident adds to the security pressure in northeastern Nigeria after the January 3 Niger State market attack."
+      uncertainty_notes:
+        - "The exact death toll varies between eight and nine across the deep-research summary and cited reporting."
+    actors:
+      primary:
+        - "Islamic State West Africa Province"
+        - "Nigerian military"
+      secondary:
+        - "Civilian Joint Task Force"
+    entities:
+      people: []
+      organizations:
+        - name: "Islamic State West Africa Province"
+          description: "Militant group attributed in the attack"
+        - name: "Nigerian military"
+          description: "Military convoy targeted by the IED"
+        - name: "Civilian Joint Task Force"
+          description: "Local militia force involved in rescue support"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Borno State"
+        - "Damasak"
+        - "Bindundul village"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 9
+      injured: 5
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "One armored military vehicle reported destroyed."
+    classification:
+      event_type:
+        - "ied-attack"
+        - "ambush"
+        - "insurgency"
+      tags:
+        - "iswap"
+        - "borno"
+        - "damasak"
+        - "nigerian-military"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-007-a
+          outlet: "The Hindu"
+          url: "https://www.thehindu.com/news/international/at-least-nine-soldiers-killed-in-ambush-attack-in-nigerias-borno/article70476620.ece"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "At least nine soldiers killed"
+          citation_refs: [19]
+        - id: src-007-b
+          outlet: "YouTube"
+          url: "https://www.youtube.com/watch?v=0xyXm_f-LZE"
+          publication_date: "2026-01-04"
+          source_type: broadcast
+          reliability_tier: low
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-03-014"
+    notes: ""
+
+  - id: "evt-2026-01-04-008"
+    category: "Disasters and accidents"
+    subcategory: "Fire aftermath"
+    topics:
+      - "2026 Crans-Montana bar fire"
+      - "Switzerland"
+      - "victim identification"
+      - "national mourning"
+    importance: 6
+    headline: "Authorities identify all victims of Crans-Montana bar fire"
+    summary: >
+      Swiss authorities identified all 40 deceased victims of the Crans-Montana bar
+      fire, and mourners held silent commemorations as families received official
+      confirmation. CBS, The Guardian, and SWI swissinfo all reported that the victim
+      identification process had been completed, marking a shift in the disaster's
+      aftermath from uncertainty to mourning and legal accountability.
+    key_data:
+      - label: "Identified deceased victims"
+        value: "40"
+        citation_refs: [21, 22, 23]
+      - label: "Location"
+        value: "Crans-Montana, Valais, Switzerland"
+        citation_refs: [21, 22, 23]
+    details:
+      what_happened:
+        - "Authorities reported that all deceased victims of the Crans-Montana bar fire had been identified."
+        - "Families and mourners held silent commemorations after the identification process."
+        - "The event followed the January 3 opening of criminal proceedings against bar managers."
+      why_it_matters:
+        - "Completing identification allowed families to receive confirmation and begin formal mourning processes."
+        - "The aftermath continues to shape Switzerland's public-safety and legal response to the fire."
+      uncertainty_notes:
+        - "January 1 and January 2 files cite a later converged toll of 41, while January 3 and January 4 reporting here cites 40 identified deceased victims."
+    actors:
+      primary:
+        - "Swiss authorities"
+        - "Victims' families"
+      secondary:
+        - "Crans-Montana community"
+    entities:
+      people: []
+      organizations:
+        - name: "Swiss authorities"
+          description: "Authorities responsible for victim identification and public communication"
+      states:
+        - "Switzerland"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Crans-Montana"
+        - "Valais"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 40
+      injured: null
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: "No new damage; event concerns identification after the January 1 fire."
+    classification:
+      event_type:
+        - "disaster-followup"
+        - "victim-identification"
+        - "public-mourning"
+      tags:
+        - "crans-montana"
+        - "bar-fire"
+        - "switzerland"
+        - "victim-identification"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-008-a
+          outlet: "CBS News"
+          url: "https://www.cbsnews.com/news/fire-switzerland-crans-montana-ski-resort-bar-le-constellation-mass/"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "All 40 Swiss bar fire victims identified"
+          citation_refs: [21]
+        - id: src-008-b
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/jan/04/crans-montana-fire-victims-identified-silent-procession"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "Last 16 victims"
+          citation_refs: [22]
+        - id: src-008-c
+          outlet: "SWI swissinfo.ch"
+          url: "https://www.swissinfo.ch/eng/various/all-fatalities-in-crans-montana-vs-have-been-identified/90725361"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "All 40 deceased victims"
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-01-001"
+      - "evt-2026-01-02-001"
+      - "evt-2026-01-03-004"
+    notes: "Follow-up to the Crans-Montana bar fire; casualty uncertainty retained because previous dataset files cite 41 killed."
+
+  - id: "evt-2026-01-04-009"
+    category: "Politics and elections"
+    subcategory: "Military diplomacy"
+    topics:
+      - "BRICS"
+      - "South Africa"
+      - "Iran"
+      - "naval exercise"
+      - "United States"
+    importance: 5
+    headline: "South Africa reduces Iran's role in BRICS naval exercise"
+    summary: >
+      South Africa adjusted Iran's role in a BRICS-linked naval exercise amid U.S.
+      pressure, according to maritime and regional reporting summarized in the
+      deep-research report. Maritime Executive and Marineforum described the exercise
+      sliding into diplomatic controversy, with Iranian participation curtailed before
+      the sea phase as South Africa balanced BRICS cooperation against renewed U.S.
+      backlash.
+    key_data:
+      - label: "Host state"
+        value: "South Africa"
+        citation_refs: [24, 26]
+      - label: "Contested participant"
+        value: "Iran"
+        citation_refs: [24, 25]
+      - label: "Reported adjustment"
+        value: "Iran's role reduced or excluded before the sea phase"
+        citation_refs: [25]
+    details:
+      what_happened:
+        - "South Africa hosted BRICS-linked naval activity involving warships from partner states."
+        - "Reporting described Iran's role being downgraded or excluded before the sea phase."
+        - "The adjustment followed diplomatic pressure and concern over U.S. backlash."
+      why_it_matters:
+        - "The episode shows the difficulty of balancing BRICS defense ties with U.S. diplomatic pressure."
+        - "Iran's reduced participation reflects the wider geopolitical fallout of U.S.-Iran and U.S.-Venezuela tensions."
+      uncertainty_notes:
+        - "Different maritime outlets described the adjustment with varying emphasis, from exclusion to downgrade."
+    actors:
+      primary:
+        - "South African government"
+        - "Iranian military representatives"
+      secondary:
+        - "BRICS partners"
+        - "United States"
+    entities:
+      people: []
+      organizations:
+        - name: "BRICS"
+          description: "Intergovernmental grouping associated with the naval exercise"
+      states:
+        - "South Africa"
+        - "Iran"
+        - "United States"
+        - "China"
+        - "Russia"
+    geography:
+      countries:
+        - "South Africa"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "military-diplomacy"
+        - "naval-exercise"
+      tags:
+        - "south-africa"
+        - "brics"
+        - "iran"
+        - "naval-drills"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-009-a
+          outlet: "The Maritime Executive"
+          url: "https://maritime-executive.com/article/chinese-led-south-african-naval-exercise-slides-into-diplomatic-disaster"
+          publication_date: "2026-01-04"
+          source_type: trade_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "slides into diplomatic disaster"
+          citation_refs: [24]
+        - id: src-009-b
+          outlet: "Marineforum"
+          url: "https://marineforum.online/en/brics-seemanoever-south-africa-iran-excluded-before-sea-phase/"
+          publication_date: "2026-01-04"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Iran excluded before sea phase"
+          citation_refs: [25]
+        - id: src-009-c
+          outlet: "Business Insider Africa"
+          url: "https://africa.businessinsider.com/local/markets/south-africa-hosts-brics-warships-for-naval-exercise-risks-renewed-us-backlash/hnr6nvb"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "risks renewed US backlash"
+          citation_refs: [26]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-04-010"
+    category: "Law and crime"
+    subcategory: "Civil unrest"
+    topics:
+      - "2025-2026 Iranian protests"
+      - "Iran"
+      - "Malekshahi County"
+      - "Ilam province"
+    importance: 6
+    headline: "Malekshahi protest killings become focal point in Iran uprising"
+    summary: >
+      Iranian opposition and diaspora reporting described the killing of protesters in
+      Malekshahi County, Ilam province, as a massacre during the seventh day of the
+      nationwide uprising. NCRI's January 4 brief and Iran International's later
+      reporting were cited in the deep-research report as evidence that the incident
+      became a prominent symbol in the continuing protest cycle.
+    key_data:
+      - label: "Reported location"
+        value: "Malekshahi County, Ilam province"
+        citation_refs: [27, 36]
+      - label: "Portal-linked death count from January 3"
+        value: "4 protesters"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "The deep-research report described the Malekshahi protest deaths as occurring during the seventh day of nationwide unrest."
+        - "NCRI's January 4 brief reported opposition accounts of continued protest activity and state violence."
+        - "The January 3 portal item reported four protesters shot dead by security forces in Malekshahi County."
+      why_it_matters:
+        - "The Malekshahi deaths became a symbol of the continuing protest movement and state response."
+        - "Diaspora and opposition accounts can shape international attention, while casualty verification remains contested."
+      uncertainty_notes:
+        - "The event relies partly on opposition sources and should be read alongside the broader uncertainty around Iranian protest casualty reporting."
+    actors:
+      primary:
+        - "Iranian protesters"
+        - "Iranian security forces"
+      secondary:
+        - "National Council of Resistance of Iran"
+    entities:
+      people: []
+      organizations:
+        - name: "Iranian security forces"
+          description: "State forces reported as using lethal force against protesters"
+        - name: "National Council of Resistance of Iran"
+          description: "Opposition organization cited in reporting"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Malekshahi County"
+        - "Ilam province"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "civil-unrest"
+        - "protest-death"
+        - "state-violence"
+      tags:
+        - "iranian-protests"
+        - "malekshahi"
+        - "ilam"
+        - "uprising"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-010-a
+          outlet: "National Council of Resistance of Iran"
+          url: "https://www.ncr-iran.org/en/news/iran-news-in-brief-news/iran-news-in-brief-january-4-2026/"
+          publication_date: "2026-01-04"
+          source_type: advocacy_organization
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: medium
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-01-004"
+      - "evt-2026-01-02-017"
+      - "evt-2026-01-03-007"
+      - "evt-2026-01-03-019"
+    notes: "Follow-up to the January 3 portal-derived Malekshahi protest deaths."
+
+  - id: "evt-2026-01-04-011"
+    category: "Armed conflicts and attacks"
+    subcategory: "Territorial control"
+    topics:
+      - "M23 campaign"
+      - "Democratic Republic of the Congo"
+      - "Uvira"
+      - "Rwanda-DRC relations"
+    importance: 6
+    headline: "M23 rebels maintain occupation of Uvira despite peace accord"
+    summary: >
+      Regional conflict monitoring cited in the deep-research report said M23 rebels
+      maintained control of Uvira despite diplomatic steps aimed at de-escalating
+      Rwanda-DRC tensions. ACLED, Channel Africa, ReliefWeb, and Security Council
+      Report sources framed the occupation as evidence that negotiated commitments had
+      not yet translated into local de-escalation in eastern DRC.
+    key_data:
+      - label: "Contested location"
+        value: "Uvira"
+        citation_refs: [28, 29]
+      - label: "Conflict context"
+        value: "Rwanda-DRC de-escalation talks and eastern DRC violence"
+        citation_refs: [29, 30]
+    details:
+      what_happened:
+        - "The deep-research report stated that M23 rebels continued occupying Uvira."
+        - "Regional reporting described Rwanda and DRC agreeing on de-escalation steps in Washington."
+        - "Conflict-monitoring sources indicated that ground control and insecurity in eastern DRC remained unresolved."
+      why_it_matters:
+        - "Continued M23 control of Uvira undermines confidence in diplomatic de-escalation."
+        - "The occupation affects civilian security and humanitarian access in eastern DRC."
+        - "The event connects local territorial control to regional Rwanda-DRC diplomacy."
+      uncertainty_notes:
+        - "The deep-research report synthesizes several monitoring sources; exact front-line conditions may change rapidly."
+    actors:
+      primary:
+        - "M23 rebels"
+        - "Government of the Democratic Republic of the Congo"
+      secondary:
+        - "Government of Rwanda"
+    entities:
+      people: []
+      organizations:
+        - name: "M23"
+          description: "Rebel movement active in eastern DRC"
+        - name: "ACLED"
+          description: "Conflict data organization cited for regional monitoring"
+      states:
+        - "Democratic Republic of the Congo"
+        - "Rwanda"
+    geography:
+      countries:
+        - "Democratic Republic of the Congo"
+      places:
+        - "Uvira"
+        - "Eastern DRC"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Continued rebel occupation and insecurity; specific new physical damage not stated."
+    classification:
+      event_type:
+        - "territorial-occupation"
+        - "armed-conflict"
+        - "peace-process"
+      tags:
+        - "m23"
+        - "uvira"
+        - "eastern-drc"
+        - "rwanda-drc"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-011-a
+          outlet: "ACLED"
+          url: "https://acleddata.com/update/africa-overview-january-2026"
+          publication_date: "2026-01-31"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [28]
+        - id: src-011-b
+          outlet: "Channel Africa"
+          url: "https://www.channelafrica.co.za/channelafrica/news/rwanda-drc-agree-on-steps-to-de-escalate-tensions-in-washington-meeting/"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "de-escalate tensions"
+          citation_refs: [29]
+        - id: src-011-c
+          outlet: "ReliefWeb/ACLED"
+          url: "https://reliefweb.int/report/democratic-republic-congo/acled-regional-overview-africa-january-2026"
+          publication_date: "2026-01-31"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [30]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: medium
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-008"
+    notes: ""
+
+  - id: "evt-2026-01-04-012"
+    category: "Armed conflicts and attacks"
+    subcategory: "Rebel governance"
+    topics:
+      - "Sudanese civil war"
+      - "SLM-AW"
+      - "Darfur"
+      - "Abdul Wahid al-Nur"
+    importance: 5
+    headline: "SLM-AW rebels replace Sudanese state symbols in Darfur areas"
+    summary: >
+      Sudan Tribune reporting cited by the deep-research report said the Sudan
+      Liberation Movement-Abdul Wahid faction adopted its own flag and anthem in areas
+      it controlled, erasing Sudanese state symbols in parts of Darfur. The step
+      indicated a move from military control toward parallel administrative identity in
+      rebel-held territory during the Sudanese civil war.
+    key_data:
+      - label: "Group"
+        value: "Sudan Liberation Movement-Abdul Wahid"
+        citation_refs: [31]
+      - label: "Reported action"
+        value: "Adopted own flag and anthem in controlled areas"
+        citation_refs: [31]
+    details:
+      what_happened:
+        - "SLM-AW adopted its own flag and anthem in areas under its control."
+        - "The move displaced Sudanese state symbols in rebel-held Darfur areas."
+        - "The event was framed as part of the wider 2026 Sudanese civil war timeline."
+      why_it_matters:
+        - "Replacing state symbols signals deeper rebel governance and territorial institutionalization."
+        - "Symbolic separatist moves can complicate later peace negotiations and state reintegration."
+      uncertainty_notes:
+        - "The event is based primarily on Sudan Tribune reporting and timeline context."
+    actors:
+      primary:
+        - "Sudan Liberation Movement-Abdul Wahid"
+      secondary:
+        - "Sudanese state authorities"
+    entities:
+      people:
+        - name: "Abdul Wahid al-Nur"
+          role: "Leader associated with SLM-AW"
+      organizations:
+        - name: "Sudan Liberation Movement-Abdul Wahid"
+          description: "Darfur rebel faction adopting separate symbols"
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places:
+        - "Darfur"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Sudanese state symbols removed or replaced in controlled areas."
+    classification:
+      event_type:
+        - "rebel-governance"
+        - "symbolic-statebuilding"
+      tags:
+        - "sudan"
+        - "darfur"
+        - "slm-aw"
+        - "civil-war"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-012-a
+          outlet: "Sudan Tribune"
+          url: "https://sudantribune.com/article/308994"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "adopts own flag and anthem"
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: medium
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-04-013"
+    category: "Politics and elections"
+    subcategory: "Prison amnesty"
+    topics:
+      - "Myanmar"
+      - "Independence Day"
+      - "mass amnesty"
+      - "political prisoners"
+    importance: 6
+    headline: "Myanmar junta releases more than 6,000 prisoners for Independence Day"
+    summary: >
+      Myanmar's military government released 6,186 prisoners, including 52 foreign
+      nationals, and reduced some sentences to mark Independence Day while excluding
+      inmates convicted of serious crimes. Irrawaddy reporting cited in the
+      deep-research report also noted that top political prisoners were not included
+      in the amnesty, placing the mass release in the context of a junta-managed power
+      transition.
+    key_data:
+      - label: "Prisoners released"
+        value: "6,186"
+        citation_refs: [32, 36]
+      - label: "Foreign nationals released"
+        value: "52"
+        citation_refs: [36]
+      - label: "Occasion"
+        value: "Independence Day"
+        citation_refs: [32, 36]
+    details:
+      what_happened:
+        - "Myanmar's junta released more than 6,000 prisoners for Independence Day."
+        - "The portal reported 6,186 prisoners released, including 52 foreign nationals."
+        - "The amnesty reduced prison sentences for some inmates while excluding serious-crime convictions."
+        - "Irrawaddy reporting said some top political prisoners were not granted amnesty."
+      why_it_matters:
+        - "Mass amnesties are a recurring legitimacy tool for Myanmar's military government."
+        - "Exclusions for major political prisoners limit the move's significance for political reconciliation."
+        - "The release followed early election results favoring the military-backed party."
+      uncertainty_notes:
+        - "Irrawaddy articles around the same period cite related amnesty totals and exclusions; the portal provides the precise 6,186 and 52 figures."
+    actors:
+      primary:
+        - "Myanmar junta"
+        - "Released prisoners"
+      secondary:
+        - "Foreign nationals in Myanmar prisons"
+    entities:
+      people: []
+      organizations:
+        - name: "Myanmar junta"
+          description: "Military government authorizing the amnesty"
+      states:
+        - "Myanmar"
+    geography:
+      countries:
+        - "Myanmar"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "prisoner-release"
+        - "amnesty"
+        - "military-rule"
+      tags:
+        - "myanmar"
+        - "junta"
+        - "independence-day"
+        - "prisoners"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Myanmar's government releases 6,186 prisoners, including 52 foreign nationals, and reduces prison sentences to mark Independence Day, while excluding inmates convicted of serious crimes."
+      external:
+        - id: src-013-a
+          outlet: "The Irrawaddy"
+          url: "https://www.irrawaddy.com/news/burma/myanmar-junta-says-to-release-over-6000-prisoners-in-annual-amnesty.html"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "release over 6000 prisoners"
+          citation_refs: [32]
+        - id: src-013-b
+          outlet: "The Irrawaddy"
+          url: "https://www.irrawaddy.com/news/politics/no-amnesty-for-myanmars-top-political-prisoner-as-junta-orchestrates-power-transition.html"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "No Amnesty for Myanmar's Top Political Prisoner"
+          citation_refs: [33]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-005"
+    notes: ""
+
+  - id: "evt-2026-01-04-014"
+    category: "Business and economy"
+    subcategory: "Sanctions waiver"
+    topics:
+      - "India"
+      - "Russia"
+      - "oil imports"
+      - "United States sanctions"
+    importance: 6
+    headline: "U.S. grants India 30-day waiver for stranded Russian oil purchases"
+    summary: >
+      The United States granted India a 30-day sanctions waiver to purchase stranded
+      Russian oil, according to broadcast reporting cited in the deep-research report.
+      The decision was framed as a short-term U.S. policy reversal affecting Indian
+      refiners and Russian crude flows during a period of broader energy-market
+      volatility after the Venezuela intervention.
+    key_data:
+      - label: "Waiver duration"
+        value: "30 days"
+        citation_refs: [34]
+      - label: "Commodity"
+        value: "Russian oil"
+        citation_refs: [34]
+      - label: "Beneficiary"
+        value: "India"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "Broadcast reporting cited in the deep-research report said the U.S. allowed India a 30-day window to buy Russian oil."
+        - "The waiver was framed as addressing stranded crude and avoiding immediate penalty."
+        - "The decision drew questions about the direction of U.S. sanctions policy."
+      why_it_matters:
+        - "A waiver affects Indian energy security, Russian crude flows, and the credibility of U.S. sanctions enforcement."
+        - "The decision occurred amid wider oil-market uncertainty linked to Venezuela."
+      uncertainty_notes:
+        - "The event relies mainly on broadcast sources listed in the deep-research report."
+    actors:
+      primary:
+        - "United States government"
+        - "Government of India"
+      secondary:
+        - "Russian oil suppliers"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "India"
+        - "Russia"
+    geography:
+      countries:
+        - "India"
+        - "United States"
+        - "Russia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "sanctions-waiver"
+        - "energy-policy"
+        - "oil-trade"
+      tags:
+        - "india"
+        - "russian-oil"
+        - "us-sanctions"
+        - "energy-markets"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-014-a
+          outlet: "Firstpost/YouTube"
+          url: "https://www.youtube.com/watch?v=db6XM1sYfS0"
+          publication_date: "2026-01-04"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "India Can Buy Russian Oil Again"
+          citation_refs: [34]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: medium
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-04-001"
+    notes: ""
+
+  - id: "evt-2026-01-04-015"
+    category: "Law and crime"
+    subcategory: "Public inquiry"
+    topics:
+      - "Australia"
+      - "Bondi Junction terror attack"
+      - "royal commission"
+      - "antisemitism"
+      - "social cohesion"
+    importance: 6
+    headline: "Australia announces royal commission after Bondi Junction attack"
+    summary: >
+      Australian Prime Minister Anthony Albanese announced a royal commission into
+      antisemitism and social cohesion following the Bondi Junction terror attack,
+      according to Guardian coverage cited in the deep-research report. The inquiry
+      was framed as a national response to security failures, hate violence, and the
+      broader policy debate over social cohesion and weapons controls.
+    key_data:
+      - label: "Inquiry type"
+        value: "Royal commission"
+        citation_refs: [35]
+      - label: "Policy focus"
+        value: "Antisemitism and social cohesion"
+        citation_refs: [35]
+      - label: "Triggering event"
+        value: "Bondi Junction terror attack"
+        citation_refs: [35]
+    details:
+      what_happened:
+        - "The Australian prime minister announced a royal commission after the Bondi Junction attack."
+        - "Guardian reporting described the inquiry as focused on antisemitism and social cohesion."
+        - "Related reporting discussed how the commission would operate and what it would examine."
+      why_it_matters:
+        - "A royal commission can compel testimony and documents, making it a major accountability mechanism."
+        - "The inquiry connects a specific attack to wider questions about hate violence, security policy, and social cohesion."
+      uncertainty_notes:
+        - "The full scope and final recommendations were not yet known on January 4."
+    actors:
+      primary:
+        - "Anthony Albanese"
+        - "Australian government"
+      secondary:
+        - "Royal commission"
+    entities:
+      people:
+        - name: "Anthony Albanese"
+          role: "Prime Minister of Australia"
+      organizations:
+        - name: "Australian government"
+          description: "Government establishing the royal commission"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Bondi Junction"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "public-inquiry"
+        - "terrorism-aftermath"
+        - "royal-commission"
+      tags:
+        - "australia"
+        - "bondi-junction"
+        - "antisemitism"
+        - "social-cohesion"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-015-a
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/australia-news/royal-commission-on-antisemitism-and-social-cohesion"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [35]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-04-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "2026 United States strikes in Venezuela"
+      - "Venezuela"
+      - "Caracas"
+      - "civilian casualties"
+    importance: 8
+    headline: "Death toll from U.S. strikes in Venezuela rises to at least 80"
+    summary: >
+      The death toll from U.S. military strikes in Venezuela rose to at least 80,
+      including members of security forces and civilians, according to the Wikipedia
+      current-events portal's January 4 summary.
+    key_data:
+      - label: "Reported deaths"
+        value: "At least 80"
+        citation_refs: [36]
+      - label: "Victim categories"
+        value: "Security forces and civilians"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "The portal reported that deaths from the U.S. strikes in Venezuela rose to at least 80."
+        - "The reported dead included both security-force members and civilians."
+      why_it_matters:
+        - "A rising casualty count deepened the humanitarian and diplomatic severity of the Venezuela intervention."
+        - "The casualty update changes the scale of the January 3 event and intensifies scrutiny of the strike campaign."
+      uncertainty_notes:
+        - "Portal-derived event; no separate deep-research section covered this death-toll update."
+    actors:
+      primary:
+        - "United States military"
+        - "Venezuelan security forces and civilians"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States military"
+          description: "Force attributed in the portal as carrying out strikes"
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places:
+        - "Caracas"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 80
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Damage from previous strikes not further specified in the portal bullet."
+    classification:
+      event_type:
+        - "airstrike"
+        - "casualty-update"
+      tags:
+        - "venezuela"
+        - "us-strikes"
+        - "civilian-casualties"
+        - "caracas"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The death toll from the strikes rises to at least 80, including members of security forces and civilians."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-03-001"
+      - "evt-2026-01-04-001"
+    notes: "Portal-derived event; reported by The New York Times per the Wikipedia portal. Not covered as a standalone deep-research event."
+
+  - id: "evt-2026-01-04-017"
+    category: "Politics and elections"
+    subcategory: "National mourning"
+    topics:
+      - "Cuba"
+      - "2026 United States strikes in Venezuela"
+      - "Venezuela"
+      - "national mourning"
+    importance: 6
+    headline: "Cuba says 32 citizens were killed in Venezuela attacks"
+    summary: >
+      Cuba confirmed that 32 Cuban citizens were killed during the attacks in Venezuela
+      while carrying out missions, and declared two days of national mourning,
+      according to the Wikipedia current-events portal.
+    key_data:
+      - label: "Cuban citizens killed"
+        value: "32"
+        citation_refs: [36]
+      - label: "National mourning"
+        value: "2 days"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "The portal reported Cuba confirmed 32 of its citizens were killed during the Venezuela attacks."
+        - "The Cubans were described as carrying out missions."
+        - "Cuba declared two days of national mourning."
+      why_it_matters:
+        - "The deaths internationalized the human toll of the Venezuela strikes beyond Venezuelan and U.S. actors."
+        - "Cuba's mourning declaration signaled a formal state response and potential diplomatic escalation."
+      uncertainty_notes:
+        - "Portal-derived event; no separate deep-research section covered the Cuban casualty announcement."
+    actors:
+      primary:
+        - "Government of Cuba"
+        - "Cuban citizens in Venezuela"
+      secondary:
+        - "United States military"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Cuba"
+        - "Venezuela"
+        - "United States"
+    geography:
+      countries:
+        - "Venezuela"
+        - "Cuba"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 32
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "national-mourning"
+        - "casualty-announcement"
+      tags:
+        - "cuba"
+        - "venezuela"
+        - "us-strikes"
+        - "mourning"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Cuba confirms that 32 of its citizens were killed during the attacks while carrying out missions. Two days of national mourning are declared."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-001"
+      - "evt-2026-01-04-016"
+    notes: "Portal-derived event; reported by Al Jazeera per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-04-018"
+    category: "Business and economy"
+    subcategory: "Aviation restrictions"
+    topics:
+      - "Federal Aviation Administration"
+      - "Caribbean aviation"
+      - "2026 United States strikes in Venezuela"
+      - "flight cancellations"
+    importance: 5
+    headline: "FAA lifts Caribbean flight ban after Venezuela strikes"
+    summary: >
+      The U.S. Federal Aviation Administration lifted its ban on U.S. flights through
+      the Caribbean that had been imposed after military strikes in Venezuela. The
+      portal reported that hundreds of flights had been canceled or rescheduled from
+      the previous day.
+    key_data:
+      - label: "Action"
+        value: "FAA lifted Caribbean flight ban"
+        citation_refs: [36]
+      - label: "Operational impact"
+        value: "Hundreds of flights canceled or rescheduled"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "The FAA lifted a ban on U.S. flights through the Caribbean."
+        - "The ban had been imposed following U.S. military strikes in Venezuela."
+        - "Hundreds of flights were canceled or rescheduled from the previous day."
+      why_it_matters:
+        - "The update shows the aviation spillover from the Venezuela intervention beginning to ease."
+        - "Large-scale cancellations and rescheduling demonstrate how military crises can disrupt civilian air networks."
+      uncertainty_notes:
+        - "Portal-derived event; no separate deep-research section covered the FAA action."
+    actors:
+      primary:
+        - "United States Federal Aviation Administration"
+      secondary:
+        - "Airlines operating Caribbean routes"
+    entities:
+      people: []
+      organizations:
+        - name: "United States Federal Aviation Administration"
+          description: "U.S. aviation regulator lifting the flight ban"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Caribbean"
+        - "Venezuela"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Hundreds of flights canceled or rescheduled."
+    classification:
+      event_type:
+        - "aviation-restriction"
+        - "flight-ban-lifted"
+        - "transport-disruption"
+      tags:
+        - "faa"
+        - "caribbean"
+        - "venezuela"
+        - "flight-cancellations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States Federal Aviation Administration lifts the ban on US flights through the Caribbean imposed following military strikes in Venezuela. Hundreds of flights were canceled or are rescheduled from yesterday."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-001"
+      - "evt-2026-01-04-001"
+    notes: "Portal-derived event; reported by Reuters and The New York Times per the Wikipedia portal. Not covered as a standalone deep-research event."
+
+  - id: "evt-2026-01-04-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrike"
+    topics:
+      - "Israel-Hezbollah conflict"
+      - "Lebanon"
+      - "Hezbollah"
+      - "Israel Defense Forces"
+    importance: 5
+    headline: "Israeli strike kills two Hezbollah militants in southern Lebanon"
+    summary: >
+      Two Hezbollah militants were killed in a strike by the Israel Defense Forces in
+      Al-Jumayjimah, Nabatieh Governorate, Lebanon, according to the Wikipedia
+      current-events portal.
+    key_data:
+      - label: "Reported deaths"
+        value: "2 Hezbollah militants"
+        citation_refs: [36]
+      - label: "Location"
+        value: "Al-Jumayjimah, Nabatieh Governorate"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "The portal reported an IDF strike in Al-Jumayjimah, Nabatieh Governorate."
+        - "Two Hezbollah militants were reported killed."
+      why_it_matters:
+        - "The strike continued the Israel-Hezbollah conflict in southern Lebanon."
+        - "Even small strikes can affect escalation calculations along the Israel-Lebanon front."
+      uncertainty_notes:
+        - "Portal-derived event; no separate deep-research section covered the strike."
+    actors:
+      primary:
+        - "Israel Defense Forces"
+        - "Hezbollah"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Israeli military force reported as carrying out the strike"
+        - name: "Hezbollah"
+          description: "Lebanese militant and political organization whose members were killed"
+      states:
+        - "Israel"
+        - "Lebanon"
+    geography:
+      countries:
+        - "Lebanon"
+      places:
+        - "Al-Jumayjimah"
+        - "Nabatieh Governorate"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 2
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Strike damage not specified in the portal bullet."
+    classification:
+      event_type:
+        - "airstrike"
+        - "cross-border-conflict"
+      tags:
+        - "israel-hezbollah"
+        - "lebanon"
+        - "nabatieh"
+        - "idf"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two Hezbollah militants are killed in a strike by the Israel Defense Forces in Al-Jumayjimah, Nabatieh Governorate, Lebanon."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by The Jerusalem Post per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-04-020"
+    category: "Disasters and accidents"
+    subcategory: "Road collision"
+    topics:
+      - "Japan"
+      - "Tochigi"
+      - "Sano"
+      - "traffic collision"
+    importance: 5
+    headline: "Spilled tea leaves trigger fatal 12-vehicle collision in Japan"
+    summary: >
+      A collision involving 12 vehicles in Sano, Tochigi, Japan, left one person dead
+      and three others injured. The portal reported that the crash was caused by tea
+      leaves spilled from a moving truck.
+    key_data:
+      - label: "Vehicles involved"
+        value: "12"
+        citation_refs: [36]
+      - label: "Reported deaths"
+        value: "1"
+        citation_refs: [36]
+      - label: "Reported injuries"
+        value: "3"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "Tea leaves spilled from a moving truck in Sano, Tochigi."
+        - "The spill caused a collision involving 12 vehicles."
+        - "One person was killed and three others were injured."
+      why_it_matters:
+        - "The crash shows how cargo spills can create sudden multi-vehicle roadway hazards."
+        - "A 12-vehicle collision can produce significant local transport disruption even with limited casualty counts."
+      uncertainty_notes:
+        - "Portal-derived event; no separate deep-research section covered the crash."
+    actors:
+      primary:
+        - "Truck operator"
+        - "Vehicle occupants"
+      secondary:
+        - "Local emergency responders"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Japan"
+    geography:
+      countries:
+        - "Japan"
+      places:
+        - "Sano"
+        - "Tochigi"
+      coordinates: []
+    time:
+      date: "2026-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 3
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Twelve vehicles involved in collision."
+    classification:
+      event_type:
+        - "road-accident"
+        - "multi-vehicle-collision"
+        - "cargo-spill"
+      tags:
+        - "japan"
+        - "tochigi"
+        - "sano"
+        - "tea-leaves"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A collision caused by tea leaves spilled from a moving truck involving 12 vehicles in Sano, Tochigi, Japan, leaves one person dead and three others injured."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by Kyodo News per the Wikipedia portal. Not covered in the deep-research markdown."
+
+strategic_conclusion: >
+  The fourth day of January shows crisis management overtaking the initial shock of
+  the year's opening events. Venezuela remained the central geopolitical rupture, but
+  the story widened from battlefield reports and Maduro's detention to strike
+  casualty counts, Cuban losses, aviation restrictions, and foreign condemnation.
+  Yemen likewise moved from escalation to territorial reversal, with Saudi-backed
+  forces restoring government control in eastern governorates and forcing the STC
+  back toward negotiation.
+
+  Across the rest of the day's events, states and institutions were tested by brittle
+  systems: Greece's aviation network failed, Myanmar used a mass amnesty to mark
+  Independence Day after tightly controlled elections, Australia turned to a royal
+  commission after a terror attack, and South Africa adjusted military diplomacy under
+  outside pressure. The security picture remained fragmented: missile testing in
+  North Korea, strikes in Syria and Lebanon, insurgent attacks in Nigeria, territorial
+  conflict in DRC, and symbolic rebel governance in Sudan all point to multiple
+  regional crises proceeding at once, with each demanding local responses even as the
+  Venezuela crisis absorbed global attention.
+
+works_cited:
+  - id: 1
+    title: "Journalism History for Sunday 4th January 2026"
+    outlet: "Kultura Press"
+    url: "https://kulturapress.com/2026/01/04/journalism-history-for-sunday-4th-january-2026/"
+    accessed: "2026-03-24"
+  - id: 2
+    title: "Morning Briefing: Jan. 4, 2026"
+    outlet: "Anadolu Agency"
+    url: "https://www.aa.com.tr/en/world/morning-briefing-jan-4-2026/3789215"
+    accessed: "2026-03-24"
+  - id: 3
+    title: "ABC World News Tonight with David Muir Full Broadcast - Jan. 4, 2026"
+    outlet: "ABC News/YouTube"
+    url: "https://www.youtube.com/watch?v=_9j2lMNlubE"
+    accessed: "2026-03-24"
+  - id: 4
+    title: "Ministry of Foreign Affairs Press Statement: Situation in Venezuela, 4 January 2026"
+    outlet: "Ministry of Foreign Affairs Singapore"
+    url: "https://www.publicnow.com/view/7FE717E8877E9C951BE9FA71B268E46A3FF55A04?1767512907"
+    accessed: "2026-03-24"
+  - id: 5
+    title: "Saudi-backed Yemeni forces secure Mukalla after clashes with separatist STC"
+    outlet: "Al Jazeera/YouTube"
+    url: "https://www.youtube.com/watch?v=2jI20UvsZRg"
+    accessed: "2026-03-24"
+  - id: 6
+    title: "Saudi-backed forces spread across Yemen's Mukalla after retaking port city"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=fW5LYLbF-Gs"
+    accessed: "2026-03-24"
+  - id: 7
+    title: "Yemeni government forces control Al-Rayyan International Airport in Mukalla"
+    outlet: "Liveuamap"
+    url: "https://yemen.liveuamap.com/en/2026/4-january-08-al-jazeera-sources-yemeni-government-forces"
+    accessed: "2026-03-24"
+  - id: 8
+    title: "Extraordinary Press Conference by Defense Minister Koizumi on Sunday, January 4, 2026"
+    outlet: "Japanese Ministry of Defense"
+    url: "https://www.mod.go.jp/en/article/2026/01/aa5e30c854760e9da8444434a4ffd1c0ab2c843f.html"
+    accessed: "2026-03-24"
+  - id: 9
+    title: "North Korea launches ballistic missiles towards sea before South Korean leader's visit to China"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/03/north-korea-has-fired-ballistic-missile-towards-the-sea-of-japan"
+    accessed: "2026-03-24"
+  - id: 10
+    title: "Assessing the Maneuverability of North Korea's KN-23/Hwasong-11A SRBM"
+    outlet: "38 North"
+    url: "https://www.38north.org/2026/03/assessing-the-maneuverability-of-north-koreas-kn-23-hwasong-11a-srbm/"
+    accessed: "2026-03-24"
+  - id: 11
+    title: "Greece grounds all flights after nationwide radio system collapse"
+    outlet: "Al Mayadeen English"
+    url: "https://english.almayadeen.net/news/miscellaneous/greece-grounds-all-flights-after-nationwide-radio-system-col"
+    accessed: "2026-03-24"
+  - id: 12
+    title: "Radio Collapse Shuts Down Greek Airspace"
+    outlet: "AVweb"
+    url: "https://avweb.com/aviation-news/radio-collapse-shuts-down-greek-airspace/"
+    accessed: "2026-03-24"
+  - id: 13
+    title: "Greek Air Traffic Control Failure Triggers Widespread Flight Disruptions"
+    outlet: "TravelPulse"
+    url: "https://www.travelpulse.com/news/airlines-airports/greece-air-traffic-control-failure-triggers-widespread-flight-disruptions"
+    accessed: "2026-03-24"
+  - id: 14
+    title: "British, French warplanes strike suspected ISIS weapons stockpile in Syria"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/british-french-warplanes-strike-suspected-isis-weapons-stockpile-in-syria/"
+    accessed: "2026-03-24"
+  - id: 15
+    title: "British and French aircraft attack underground Islamic State weapons store in Syria"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/03/british-and-french-aircraft-attack-underground-isis-weapons-store-in-syria"
+    accessed: "2026-03-24"
+  - id: 16
+    title: "UK, France Warplanes Strike Syria, destroy ISIS Hideouts, Weapon Sites"
+    outlet: "Firstpost/YouTube"
+    url: "https://www.youtube.com/watch?v=jDkJXX-JPeE"
+    accessed: "2026-03-24"
+  - id: 17
+    title: "At least 6 killed after dilapidated roof collapses in KP's Charsadda"
+    outlet: "Dawn"
+    url: "https://www.dawn.com/news/1965058"
+    accessed: "2026-03-24"
+  - id: 18
+    title: "Six killed in house roof collapse during wedding in Charsadda"
+    outlet: "Geo News/YouTube"
+    url: "https://www.youtube.com/watch?v=u7dyP5pTsDg"
+    accessed: "2026-03-24"
+  - id: 19
+    title: "At least nine soldiers killed in ambush attack in Nigeria's Borno"
+    outlet: "The Hindu"
+    url: "https://www.thehindu.com/news/international/at-least-nine-soldiers-killed-in-ambush-attack-in-nigerias-borno/article70476620.ece"
+    accessed: "2026-03-24"
+  - id: 20
+    title: "Troops Repel ISWAP Terrorist Attack In Damasak, Borno"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=0xyXm_f-LZE"
+    accessed: "2026-03-24"
+  - id: 21
+    title: "All 40 Swiss bar fire victims identified"
+    outlet: "CBS News"
+    url: "https://www.cbsnews.com/news/fire-switzerland-crans-montana-ski-resort-bar-le-constellation-mass/"
+    accessed: "2026-03-24"
+  - id: 22
+    title: "Last 16 victims of Crans-Montana fire identified"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/04/crans-montana-fire-victims-identified-silent-procession"
+    accessed: "2026-03-24"
+  - id: 23
+    title: "All 40 deceased victims of Crans-Montana bar fire identified"
+    outlet: "SWI swissinfo.ch"
+    url: "https://www.swissinfo.ch/eng/various/all-fatalities-in-crans-montana-vs-have-been-identified/90725361"
+    accessed: "2026-03-24"
+  - id: 24
+    title: "Chinese-Led South African Naval Exercise Slides into Diplomatic Disaster"
+    outlet: "The Maritime Executive"
+    url: "https://maritime-executive.com/article/chinese-led-south-african-naval-exercise-slides-into-diplomatic-disaster"
+    accessed: "2026-03-24"
+  - id: 25
+    title: "BRICS naval manoeuvre South Africa - Iran excluded before sea phase"
+    outlet: "Marineforum"
+    url: "https://marineforum.online/en/brics-seemanoever-south-africa-iran-excluded-before-sea-phase/"
+    accessed: "2026-03-24"
+  - id: 26
+    title: "South Africa hosts BRICS warships for naval exercise, risks renewed US backlash"
+    outlet: "Business Insider Africa"
+    url: "https://africa.businessinsider.com/local/markets/south-africa-hosts-brics-warships-for-naval-exercise-risks-renewed-us-backlash/hnr6nvb"
+    accessed: "2026-03-24"
+  - id: 27
+    title: "Iran News in Brief - January 4, 2026"
+    outlet: "National Council of Resistance of Iran"
+    url: "https://www.ncr-iran.org/en/news/iran-news-in-brief-news/iran-news-in-brief-january-4-2026/"
+    accessed: "2026-03-24"
+  - id: 28
+    title: "Africa Overview: January 2026"
+    outlet: "ACLED"
+    url: "https://acleddata.com/update/africa-overview-january-2026"
+    accessed: "2026-03-24"
+  - id: 29
+    title: "Rwanda, DRC agree on steps to de-escalate tensions in Washington meeting"
+    outlet: "Channel Africa"
+    url: "https://www.channelafrica.co.za/channelafrica/news/rwanda-drc-agree-on-steps-to-de-escalate-tensions-in-washington-meeting/"
+    accessed: "2026-03-24"
+  - id: 30
+    title: "ACLED Regional Overview Africa: January 2026 - Democratic Republic of the Congo"
+    outlet: "ReliefWeb/ACLED"
+    url: "https://reliefweb.int/report/democratic-republic-congo/acled-regional-overview-africa-january-2026"
+    accessed: "2026-03-24"
+  - id: 31
+    title: "SLM-AW adopts own flag and anthem in controlled areas"
+    outlet: "Sudan Tribune"
+    url: "https://sudantribune.com/article/308994"
+    accessed: "2026-03-24"
+  - id: 32
+    title: "Myanmar junta says to release over 6,000 prisoners in annual amnesty"
+    outlet: "The Irrawaddy"
+    url: "https://www.irrawaddy.com/news/burma/myanmar-junta-says-to-release-over-6000-prisoners-in-annual-amnesty.html"
+    accessed: "2026-03-24"
+  - id: 33
+    title: "No Amnesty for Myanmar's Top Political Prisoner as Junta Orchestrates Power Transition"
+    outlet: "The Irrawaddy"
+    url: "https://www.irrawaddy.com/news/politics/no-amnesty-for-myanmars-top-political-prisoner-as-junta-orchestrates-power-transition.html"
+    accessed: "2026-03-24"
+  - id: 34
+    title: "India Can Buy Russian Oil Again After US U-Turn"
+    outlet: "Firstpost/YouTube"
+    url: "https://www.youtube.com/watch?v=db6XM1sYfS0"
+    accessed: "2026-03-24"
+  - id: 35
+    title: "Royal commission on antisemitism and social cohesion"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/australia-news/royal-commission-on-antisemitism-and-social-cohesion"
+    accessed: "2026-03-24"
+  - id: 36
+    title: "Portal:Current events/2026 January 4"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_4"
+    accessed: "2026-03-24"
