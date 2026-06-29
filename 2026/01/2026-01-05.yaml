@@ -1,48 +1,2320 @@
-Date: '2026-01-05'
-Source_URI: Portal:Current events/2026 January 5
-Intelligence_Payload:
-  Uncategorized:
-  - Gaza Conflict
-  - Four Palestinians are killed in an Israeli airstrike on a tent sheltering displaced
-    refugees in the Khan Yunis refugee camp in Gaza. Israel claims it was targeting
-    a Hamas target. (The National)
-  - Terrorism in Pakistan
-  - Pakistani counter-terrorism police seize two tons of explosives and arrest three
-    people suspected of being members of the Baloch Liberation Army and planning attacks
-    with them. (AP)
-  - A bluefin tuna is sold for a record 510 million (US$3.2 million) at the Toyosu
-    fish market in Tokyo, Japan. (BBC News) (AP)
-  - At least 14 people are killed in flash floods in Siau Tagulandang Biaro Islands
-    Regency, North Sulawesi, Indonesia. (Reuters)
-  - Nestlé recalls selected batches of infant formula in several European countries
-    after identifying a quality issue in a supplier ingredient that may involve the
-    presence of the toxin cereulide. (AFP via The Manila Times)
-  - Israel–Syria relations
-  - Israeli invasion of Syria
-  - United States-mediated talks between Israel and Syria focused on reviving the
-    1974 disengagement framework resume after a several-month hiatus, with Syria pressing
-    for an Israeli withdrawal from territory entered after the fall of the Assad regime.
-    (Reuters)
-  - International reactions to the 2026 United States strikes in Venezuela, Swiss
-    neutrality
-  - Switzerland freezes all assets held in the country by de jure Venezuelan president
-    Nicolás Maduro and his associates for four years, following Maduro's abduction
-    and transfer to the United States, and is intending to secure the assets while
-    their legal status is under investigation. (Reuters)
-  - 2026 United States strikes in Venezuela
-  - A Venezuelan decree authorizes a national manhunt for those involved in the American
-    attack. (Reuters)
-  - United States v. Maduro et al.
-  - De jure Venezuelan president Nicolás Maduro and first lady Cilia Flores plead
-    not guilty to charges of drug trafficking and narcoterrorism in the United States.
-    They will remain in prison until their next court appearance in March. (NBC News)
-    (Fox News)
-  - Three Arab Israelis are killed in two separate shootings in Nazareth and Kafr
-    Qara, Israel. (The Jerusalem Post)
-  - 2026 United States strikes in Venezuela
-  - Delcy Rodríguez is formally sworn in as acting and first female president of Venezuela
-    following Nicolás Maduro's abduction and transfer out of the country. (Reuters)
-  - Censorship in Uganda
-  - Uganda bans the live broadcasting and streaming of protests and violent incidents
-    and restricts content deemed inciting or hateful ahead of the general election.
-    (Reuters)
+date: "2026-01-05"
+source_page:
+  portal: "Portal:Current events/2026 January 5"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed"
+    reviewed: true
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 5, 2026 was shaped by the expanding consequences of the U.S. intervention
+  in Venezuela and by a series of domestic-security, disaster, and governance events
+  across several regions. The Venezuela crisis produced emergency decrees, asset
+  freezes, legal proceedings against Nicolás Maduro and Cilia Flores, Delcy
+  Rodríguez's formal assumption of the presidency, and secondary diplomatic shocks,
+  including U.S. threats toward Colombia and renewed U.S.-Greenland rhetoric. The same
+  U.S. posture also affected Iranian crisis calculations as protests continued under
+  external pressure.
+
+  Outside the Venezuela-centered cluster, the day's news mixed security operations
+  and civil disasters: an Israeli strike killed Palestinians in Gaza, Pakistani police
+  seized explosives allegedly tied to the Baloch Liberation Army, Indonesia suffered
+  deadly flash floods, Japan recorded a record tuna auction at Toyosu, Nestlé recalled
+  infant formula batches, Israel-Syria talks resumed, and Uganda restricted live
+  protest coverage ahead of elections. Several January 4 events also carried forward,
+  including the Berlin grid arson and its claimed militant responsibility.
+
+events:
+  - id: "evt-2026-01-05-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes and regime transition"
+    topics:
+      - "2026 United States strikes in Venezuela"
+      - "Nicolás Maduro"
+      - "Delcy Rodríguez"
+      - "Venezuela"
+      - "United States"
+    importance: 10
+    headline: "Venezuela issues emergency arrest decree after U.S. strikes topple Maduro"
+    summary: >
+      Reuters reporting summarized in the January 5 deep-research file described the
+      aftermath of U.S. strikes and special-forces action in Caracas that captured
+      Nicolás Maduro and Cilia Flores, damaged communications and power infrastructure,
+      and left Delcy Rodríguez in control of the Venezuelan government. Venezuela
+      declared a state of emergency and ordered police to arrest people accused of
+      promoting or supporting the U.S. attack. The Wikipedia portal separately reported
+      that a Venezuelan decree authorized a national manhunt and that Delcy Rodríguez
+      was formally sworn in as acting and first female president.
+    key_data:
+      - label: "Captured officials"
+        value: "Nicolás Maduro and Cilia Flores"
+        citation_refs: [1]
+      - label: "Reported emergency action"
+        value: "Arrest decree for people accused of supporting the U.S. attack"
+        citation_refs: [2, 24]
+      - label: "Reported acting president"
+        value: "Delcy Rodríguez"
+        citation_refs: [24]
+      - label: "Disputed total deaths cited by Venezuelan official"
+        value: "100"
+        citation_refs: [2]
+    details:
+      what_happened:
+        - "Reuters reporting cited in the deep-research file said U.S. forces captured Nicolás Maduro and Cilia Flores after strikes in Caracas."
+        - "Venezuela declared a national emergency and ordered arrests of people accused of promoting or supporting the U.S. attack."
+        - "Aftermath reporting described damage to communications towers, homes, a coastal-defense base, and power infrastructure."
+        - "The portal reported a Venezuelan decree authorizing a national manhunt for people involved in the American attack."
+        - "The portal reported Delcy Rodríguez was formally sworn in as acting and first female president of Venezuela."
+      why_it_matters:
+        - "The event marks the transition from a strike-and-capture operation into an emergency internal-security campaign and disputed transfer of executive authority."
+        - "Damage to infrastructure and conflicting casualty claims deepen the humanitarian and verification problems around the intervention."
+        - "The crisis continues to affect regional diplomacy, oil-market expectations, and international legal norms."
+      uncertainty_notes:
+        - "The death figure of 100 came from a Venezuelan official according to the deep-research summary and is not reconciled with the January 4 portal figure of at least 80."
+    actors:
+      primary:
+        - "United States military"
+        - "Nicolás Maduro"
+        - "Delcy Rodríguez"
+      secondary:
+        - "Cilia Flores"
+        - "Venezuelan police"
+    entities:
+      people:
+        - name: "Nicolás Maduro"
+          role: "Captured de jure Venezuelan president"
+        - name: "Cilia Flores"
+          role: "First lady of Venezuela"
+        - name: "Delcy Rodríguez"
+          role: "Acting president of Venezuela"
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "United States military"
+          description: "Force carrying out the strikes and capture operation"
+        - name: "Venezuelan police"
+          description: "Police ordered to carry out arrests under the emergency decree"
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+        - "United States"
+      places:
+        - "Caracas"
+        - "Catia La Mar"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 100
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 2
+      damage: "Communications and power infrastructure, homes, and a coastal-defense base were reported damaged; tens of thousands of households reportedly lost power."
+    classification:
+      event_type:
+        - "airstrike-aftermath"
+        - "emergency-decree"
+        - "regime-transition"
+      tags:
+        - "venezuela"
+        - "maduro"
+        - "delcy-rodriguez"
+        - "us-strikes"
+        - "state-of-emergency"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A Venezuelan decree authorizes a national manhunt for those involved in the American attack. Delcy Rodríguez is formally sworn in as acting and first female president of Venezuela following Nicolás Maduro's abduction and transfer out of the country."
+      external:
+        - id: src-001-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/us-forces-captured-maduro-caracas-venezuela-poll-2026-01-05/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "yielding the capture of Venezuelan President Nicolas Maduro"
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/venezuela-orders-police-find-arrest-anyone-involved-supporting-us-attack-decree-2026-01-05/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "promotes or supports"
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/images-show-wreckage-caracas-after-us-strikes-venezuela-2026-01-05/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "struck TV/phone tower and damaged homes"
+          citation_refs: [3]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-001"
+      - "evt-2026-01-04-001"
+      - "evt-2026-01-04-016"
+      - "evt-2026-01-04-017"
+      - "evt-2026-01-04-018"
+    notes: "Merged the January 5 deep-research Venezuela event with matching portal bullets about the national manhunt and Delcy Rodríguez's swearing-in."
+
+  - id: "evt-2026-01-05-002"
+    category: "Politics and elections"
+    subcategory: "Military threats"
+    topics:
+      - "United States-Colombia relations"
+      - "Donald Trump"
+      - "Gustavo Petro"
+      - "Colombia"
+    importance: 7
+    headline: "Trump threatens possible military action against Colombia"
+    summary: >
+      President Donald Trump publicly denounced Colombia's government, described its
+      leadership as "very sick," and suggested that a U.S. military operation against
+      Colombia "sounds good" after the Venezuela raid. Colombia condemned the remarks
+      as unacceptable interference and summoned U.S. diplomatic representatives, while
+      regional outlets framed the comments as a dangerous expansion of the Venezuela
+      crisis.
+    key_data:
+      - label: "Targeted country"
+        value: "Colombia"
+        citation_refs: [4, 5]
+      - label: "Referenced leader"
+        value: "Gustavo Petro"
+        citation_refs: [4, 5]
+      - label: "Colombian response"
+        value: "Condemned remarks as unacceptable interference"
+        citation_refs: [4]
+    details:
+      what_happened:
+        - "Trump accused Colombia's leadership of corruption and drug trafficking in remarks after the Venezuela raid."
+        - "When asked about a U.S. operation against Colombia, Trump reportedly answered that it sounded good to him."
+        - "Colombia's government protested the remarks and summoned U.S. diplomatic representatives."
+        - "Colombian officials emphasized respect for their democratic process and warned of damage to bilateral relations."
+      why_it_matters:
+        - "A threat against a U.S. ally's elected government undermines diplomatic norms and regional trust."
+        - "The rhetoric risked expanding the Venezuela crisis into a broader U.S.-Latin America confrontation."
+        - "The comments could fuel anti-U.S. sentiment and defensive responses among regional governments."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+        - "Gustavo Petro"
+        - "Government of Colombia"
+      secondary:
+        - "United States diplomatic representatives"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Gustavo Petro"
+          role: "President of Colombia"
+      organizations:
+        - name: "Colombian Foreign Ministry"
+          description: "Ministry responding to the U.S. president's remarks"
+      states:
+        - "United States"
+        - "Colombia"
+    geography:
+      countries:
+        - "United States"
+        - "Colombia"
+      places:
+        - "Bogotá"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-crisis"
+        - "military-threat"
+      tags:
+        - "colombia"
+        - "donald-trump"
+        - "gustavo-petro"
+        - "venezuela-crisis"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-002-a
+          outlet: "Reuters/KFGO"
+          url: "https://kfgo.com/2026/01/04/trump-threatens-military-operation-against-colombia-after-venezuela-raid/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "It sounds good to me"
+          citation_refs: [4]
+        - id: src-002-b
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/5/trump-threatens-colombias-petro-says-cuba-looks-like-its-ready-to-fall"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Sounds good to me"
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-05-001"
+    notes: ""
+
+  - id: "evt-2026-01-05-003"
+    category: "Politics and elections"
+    subcategory: "Territorial claims"
+    topics:
+      - "Greenland"
+      - "Denmark-United States relations"
+      - "Donald Trump"
+      - "Mette Frederiksen"
+    importance: 6
+    headline: "Trump revives claim that the U.S. could take Greenland"
+    summary: >
+      Donald Trump again floated the idea of acquiring or taking Greenland from
+      Denmark, prompting Danish Prime Minister Mette Frederiksen to reject the claim
+      and state that the United States had no right to Danish or Greenlandic
+      territory. Reuters reporting summarized in the deep-research file framed the
+      exchange as part of a broader pattern of adversarial U.S. rhetoric toward allies.
+    key_data:
+      - label: "Territory at issue"
+        value: "Greenland"
+        citation_refs: [6]
+      - label: "Danish response"
+        value: "The U.S. has no right to take Greenland"
+        citation_refs: [6]
+    details:
+      what_happened:
+        - "Trump publicly renewed his interest in Greenland, citing natural resources and strategic value."
+        - "Mette Frederiksen rejected the comments and defended Danish sovereignty over Greenland."
+        - "The remarks strained relations with Denmark, a NATO ally."
+      why_it_matters:
+        - "The dispute tested U.S. respect for allied sovereignty and NATO cohesion."
+        - "Greenland's Arctic position and mineral resources give the claim wider geopolitical significance."
+        - "Repeated sovereignty pressure can affect Greenlandic domestic politics and independence debates."
+      uncertainty_notes:
+        - "The deep-research report cites Reuters coverage from January 6 as follow-up to the January 5 comments."
+    actors:
+      primary:
+        - "Donald Trump"
+        - "Mette Frederiksen"
+      secondary:
+        - "Government of Denmark"
+        - "Greenlandic authorities"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Mette Frederiksen"
+          role: "Prime Minister of Denmark"
+      organizations: []
+      states:
+        - "United States"
+        - "Denmark"
+        - "Greenland"
+    geography:
+      countries:
+        - "Greenland"
+        - "Denmark"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "territorial-claim"
+        - "diplomatic-dispute"
+      tags:
+        - "greenland"
+        - "denmark"
+        - "united-states"
+        - "arctic"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-003-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/denmarks-frederiksen-says-us-has-no-right-take-greenland-2026-01-06/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "the U.S. has no right"
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: medium
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-004"
+    category: "Law and crime"
+    subcategory: "Civil unrest"
+    topics:
+      - "2025-2026 Iranian protests"
+      - "Iran"
+      - "United States-Iran relations"
+      - "Donald Trump"
+    importance: 7
+    headline: "Iran protests continue as leaders fear U.S. pressure after Venezuela raid"
+    summary: >
+      Reuters analysis cited in the deep-research file reported that Iranian protests
+      continued amid worsening economic conditions and that Tehran's leadership was
+      under unusual pressure after U.S. threats and the capture of Nicolás Maduro in
+      Venezuela. Reuters reported at least 17 people had died in the unrest by January
+      5 and quoted Iranian officials who feared Iran could become the next target of
+      U.S. policy.
+    key_data:
+      - label: "Reported deaths in unrest"
+        value: "At least 17"
+        citation_refs: [7]
+      - label: "Triggering pressure point"
+        value: "U.S. threats and the Venezuela intervention"
+        citation_refs: [7]
+    details:
+      what_happened:
+        - "Anti-government protests that began in late December continued into January 5."
+        - "Reuters reported at least 17 people had died in the unrest."
+        - "Trump had warned the U.S. would intervene if Iranian forces killed protesters."
+        - "Iranian officials reportedly worried they could become the next target after the U.S. capture of Maduro."
+      why_it_matters:
+        - "The protests reflected deep economic discontent and a volatile state response."
+        - "External U.S. threats complicated Tehran's internal security calculations."
+        - "The linkage to Venezuela shows one intervention affecting strategic perceptions in another region."
+      uncertainty_notes:
+        - "The 17-death figure is a Reuters-reported total as of January 5 and may differ from opposition or state-linked casualty counts."
+    actors:
+      primary:
+        - "Iranian government"
+        - "Iranian protesters"
+        - "Donald Trump"
+      secondary:
+        - "Ali Khamenei"
+    entities:
+      people:
+        - name: "Ali Khamenei"
+          role: "Supreme Leader of Iran"
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "Iranian security forces"
+          description: "State forces responding to protests"
+      states:
+        - "Iran"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 17
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Protest-site damage reported generally; details not specified."
+    classification:
+      event_type:
+        - "civil-unrest"
+        - "protest"
+        - "international-pressure"
+      tags:
+        - "iranian-protests"
+        - "us-pressure"
+        - "venezuela-intervention"
+        - "economic-grievances"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-004-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/iran-protests-complicated-by-trump-threat-after-venezuela-raid-2026-01-05/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "at least 17 people have died so far"
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-03-007"
+      - "evt-2026-01-03-019"
+      - "evt-2026-01-04-010"
+      - "evt-2026-01-05-001"
+    notes: ""
+
+  - id: "evt-2026-01-05-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Critical infrastructure arson"
+    topics:
+      - "2026 arson attack on the Berlin power grid"
+      - "Berlin"
+      - "Volcano Group"
+      - "power outage"
+    importance: 7
+    headline: "Berlin grid arson attributed to far-left Volcano Group"
+    summary: >
+      Follow-up reporting on the Berlin power-grid arson said a far-left group calling
+      itself the Volcano Group claimed responsibility for the attack on Lichterfelde
+      power infrastructure. Reuters reporting cited in the deep-research file said the
+      attack knocked out power for up to 45,000 households and about 1,900 businesses,
+      while later comments by Germany's interior minister framed the incident as a
+      left-wing militancy threat.
+    key_data:
+      - label: "Households affected"
+        value: "Up to 45,000"
+        citation_refs: [8, 9]
+      - label: "Businesses affected"
+        value: "About 1,900"
+        citation_refs: [8]
+      - label: "Claiming group"
+        value: "Volcano Group"
+        citation_refs: [8, 9]
+    details:
+      what_happened:
+        - "Unknown assailants set fire to utility cables at the Lichterfelde power site."
+        - "The attack disrupted electricity to tens of thousands of households and businesses."
+        - "The Volcano Group claimed responsibility, linking the action to fossil-fuel and industrial targets."
+        - "German authorities intensified critical-infrastructure security and promised action against left-wing militancy."
+      why_it_matters:
+        - "The attack shows how small acts of sabotage against cable infrastructure can produce large urban disruption."
+        - "The claim of responsibility raised concerns about extremist targeting of critical infrastructure."
+        - "Government responses may affect security policy and civil-liberties debates."
+      uncertainty_notes:
+        - "The January 4 file described the incident as suspected arson; the January 5 deep-research file adds the claimed Volcano Group attribution."
+    actors:
+      primary:
+        - "Volcano Group"
+      secondary:
+        - "German police"
+        - "German Interior Ministry"
+    entities:
+      people:
+        - name: "Alexander Dobrindt"
+          role: "German interior minister referenced in follow-up reporting"
+      organizations:
+        - name: "Volcano Group"
+          description: "Far-left militant group reported to have claimed responsibility"
+        - name: "Stromnetz Berlin"
+          description: "Berlin power-grid operator affected by the attack"
+      states:
+        - "Germany"
+    geography:
+      countries:
+        - "Germany"
+      places:
+        - "Berlin"
+        - "Lichterfelde"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "High-voltage cables and related infrastructure damaged; up to 45,000 households and about 1,900 businesses lost power."
+    classification:
+      event_type:
+        - "infrastructure-attack"
+        - "arson"
+        - "power-outage"
+      tags:
+        - "berlin"
+        - "volcano-group"
+        - "critical-infrastructure"
+        - "left-wing-militancy"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-005-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/possible-arson-berlin-cable-link-cuts-power-50000-households-police-says-2026-01-03/"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "45,000 households"
+          citation_refs: [8]
+        - id: src-005-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/germany-vows-crackdown-left-wing-militancy-after-berlin-power-attack-2026-01-27/"
+          publication_date: "2026-01-27"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Volcano group"
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-03-003"
+    notes: "Follow-up to the Berlin grid arson event."
+
+  - id: "evt-2026-01-05-006"
+    category: "Politics and elections"
+    subcategory: "Ceasefire implementation"
+    topics:
+      - "Thailand-Cambodia border dispute"
+      - "Thailand"
+      - "Cambodia"
+      - "China mediation"
+    importance: 6
+    headline: "Thailand-Cambodia ceasefire gradually takes effect"
+    summary: >
+      China said a ceasefire agreement between Thailand and Cambodia was being
+      gradually implemented after weeks of deadly border clashes. Reuters-syndicated
+      reporting said Chinese foreign ministry spokesperson Lin Jian urged a
+      comprehensive and lasting ceasefire and noted that Thailand had returned 18
+      Cambodian soldiers.
+    key_data:
+      - label: "Returned soldiers"
+        value: "18 Cambodian soldiers"
+        citation_refs: [10]
+      - label: "Mediator"
+        value: "China"
+        citation_refs: [10]
+    details:
+      what_happened:
+        - "China said the Thailand-Cambodia ceasefire was being gradually implemented."
+        - "Lin Jian urged both sides to ensure a comprehensive and lasting ceasefire."
+        - "Thailand returned 18 Cambodian soldiers."
+        - "The ceasefire followed weeks of border clashes in late 2025."
+      why_it_matters:
+        - "The ceasefire reduced the risk of renewed fighting along a volatile Southeast Asian border."
+        - "China's mediation demonstrated Beijing's role in regional security diplomacy."
+        - "Returning captured soldiers was a confidence-building measure."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Thailand"
+        - "Government of Cambodia"
+      secondary:
+        - "Government of China"
+        - "Lin Jian"
+    entities:
+      people:
+        - name: "Lin Jian"
+          role: "Chinese foreign ministry spokesperson"
+      organizations:
+        - name: "Chinese Ministry of Foreign Affairs"
+          description: "Mediator and source of public comments"
+      states:
+        - "Thailand"
+        - "Cambodia"
+        - "China"
+    geography:
+      countries:
+        - "Thailand"
+        - "Cambodia"
+      places:
+        - "Thailand-Cambodia border"
+        - "Koh Kong"
+        - "Trat"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "No new damage reported; prior border fighting damaged infrastructure."
+    classification:
+      event_type:
+        - "ceasefire"
+        - "mediation"
+        - "border-conflict"
+      tags:
+        - "thailand"
+        - "cambodia"
+        - "china-mediation"
+        - "ceasefire"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-006-a
+          outlet: "Reuters/ThePrint"
+          url: "https://theprint.in/world/thailand-cambodia-ceasefire-gradually-being-implemented-says-china/2818973/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "gradually implemented"
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-007"
+    category: "Politics and elections"
+    subcategory: "Election results certification"
+    topics:
+      - "Guinea"
+      - "Mamadi Doumbouya"
+      - "2025 Guinean presidential election"
+      - "military rule"
+    importance: 6
+    headline: "Guinea court certifies Mamadi Doumbouya's election victory"
+    summary: >
+      Guinea's Supreme Court upheld coup leader Mamadi Doumbouya's presidential
+      election victory, confirming that he won with about 86.7% of the vote. The
+      certification formalized the transition of the 2021 coup leader into an elected
+      seven-year presidency under a new constitution, though observers and critics
+      continued to question opposition constraints and the political environment.
+    key_data:
+      - label: "Certified vote share"
+        value: "86.72% (Reuters summary) / 86.7% (AP)"
+        citation_refs: [11, 12]
+      - label: "Runner-up"
+        value: "Abdoulaye/Yero Baldé"
+        citation_refs: [11, 12]
+      - label: "New presidential term"
+        value: "7 years"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "Guinea's Supreme Court validated Doumbouya's victory in the December 28, 2025 election."
+        - "Reuters reporting summarized in the deep-research file gave Doumbouya 86.72% of votes."
+        - "AP reported the court confirmed Doumbouya as president-elect after the first vote since the 2021 coup."
+        - "The election took place under a new constitution that allowed military leaders to run."
+      why_it_matters:
+        - "The result extends military dominance in Guinea through electoral certification."
+        - "It may encourage other coup-led governments to seek legitimacy through tightly controlled elections."
+        - "Guinea's mineral wealth makes the political transition important for commodities and foreign investment."
+      uncertainty_notes:
+        - "Sources differ slightly on the runner-up's reported name and vote share; the core certified outcome is consistent."
+    actors:
+      primary:
+        - "Mamadi Doumbouya"
+        - "Guinea Supreme Court"
+      secondary:
+        - "Abdoulaye Baldé"
+    entities:
+      people:
+        - name: "Mamadi Doumbouya"
+          role: "Guinean coup leader and president-elect"
+        - name: "Abdoulaye Baldé"
+          role: "Opposition candidate referenced in Reuters summary"
+      organizations:
+        - name: "Guinea Supreme Court"
+          description: "Court certifying the election result"
+      states:
+        - "Guinea"
+    geography:
+      countries:
+        - "Guinea"
+      places:
+        - "Conakry"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "election-certification"
+        - "post-coup-politics"
+      tags:
+        - "guinea"
+        - "doumbouya"
+        - "supreme-court"
+        - "military-rule"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-007-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/guineas-top-court-certifies-doumbouyas-election-victory-2026-01-05/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "86.72% of votes"
+          citation_refs: [11]
+        - id: src-007-b
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/b3cf4eb1e045a525542f59347b08fe1a"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "confirmed as Guinea's president-elect"
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-008"
+    category: "Politics and elections"
+    subcategory: "Budget enactment"
+    topics:
+      - "Philippines"
+      - "Ferdinand Marcos Jr."
+      - "national budget"
+      - "anti-corruption"
+    importance: 5
+    headline: "Marcos signs Philippines' 2026 national budget"
+    summary: >
+      Philippine President Ferdinand Marcos Jr. signed the 2026 national budget into
+      law, approving a 6.79-trillion-peso spending plan focused on infrastructure,
+      education, social programs, and anti-corruption safeguards. Reuters-syndicated
+      reporting said Marcos vowed prudent spending after recent scandals and promised
+      not to let public money fall into corrupt hands.
+    key_data:
+      - label: "Budget size"
+        value: "6.79 trillion pesos"
+        citation_refs: [13]
+      - label: "Year"
+        value: "2026"
+        citation_refs: [13]
+      - label: "Policy emphasis"
+        value: "Prudent spending and anti-corruption safeguards"
+        citation_refs: [13]
+    details:
+      what_happened:
+        - "Marcos signed the Philippines' 2026 national budget on January 5."
+        - "The budget total was reported at 6.79 trillion pesos."
+        - "Marcos emphasized preventing waste, corruption, and improper use of funds."
+        - "The spending plan included infrastructure, education, healthcare, and social welfare priorities."
+      why_it_matters:
+        - "A timely budget supports political continuity and investor confidence."
+        - "Anti-corruption language responds to public concern after budget and infrastructure scandals."
+        - "The spending plan sets fiscal priorities for Southeast Asia's third-largest economy."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ferdinand Marcos Jr."
+        - "Philippine Congress"
+      secondary:
+        - "Department of Budget and Management"
+    entities:
+      people:
+        - name: "Ferdinand Marcos Jr."
+          role: "President of the Philippines"
+      organizations:
+        - name: "Philippine Congress"
+          description: "Legislature that passed the budget"
+        - name: "Department of Budget and Management"
+          description: "Philippine budget agency"
+      states:
+        - "Philippines"
+    geography:
+      countries:
+        - "Philippines"
+      places:
+        - "Manila"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "budget-law"
+        - "fiscal-policy"
+      tags:
+        - "philippines"
+        - "marcos"
+        - "budget"
+        - "anti-corruption"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-008-a
+          outlet: "Reuters/The Business Times"
+          url: "https://www.businesstimes.com.sg/international/asean/philippines-marcos-signs-2026-budget-bill-vows-prudent-spending"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "6.79 trillion peso"
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-009"
+    category: "Business and economy"
+    subcategory: "Trade and inflation"
+    topics:
+      - "Indonesia"
+      - "trade surplus"
+      - "inflation"
+      - "Statistics Indonesia"
+    importance: 5
+    headline: "Indonesia reports narrower trade surplus and higher inflation"
+    summary: >
+      Indonesia reported a lower-than-expected November 2025 trade surplus and a rise
+      in December annual inflation. Reuters reporting summarized in the deep-research
+      file said the November surplus narrowed to $2.66 billion as exports fell 6.6%
+      year-on-year, while December inflation rose to 2.92%, the highest since April
+      2024, driven by food, gold, and weather-related supply disruptions.
+    key_data:
+      - label: "November trade surplus"
+        value: "$2.66 billion"
+        citation_refs: [14, 15]
+      - label: "Export change"
+        value: "Down 6.60% year-on-year"
+        citation_refs: [14]
+      - label: "December annual inflation"
+        value: "2.92%"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "Statistics Indonesia announced November trade figures and December inflation data."
+        - "Exports fell 6.6% year-on-year to $22.52 billion, narrowing the trade surplus to $2.66 billion."
+        - "December annual consumer inflation rose to 2.92%, above forecast and the highest since April 2024."
+        - "Commodity export weakness and weather-related food disruptions were cited as factors."
+      why_it_matters:
+        - "Indonesia's trade and inflation data influence regional market expectations and currency views."
+        - "Inflation remained within target, giving policymakers room for accommodative policy."
+        - "Commodity export weakness points to changing demand and price conditions in global raw-material markets."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Statistics Indonesia"
+      secondary:
+        - "Bank Indonesia"
+        - "Indonesian government"
+    entities:
+      people: []
+      organizations:
+        - name: "Statistics Indonesia"
+          description: "Government statistics agency publishing trade and inflation data"
+        - name: "Bank Indonesia"
+          description: "Central bank monitoring inflation and trade conditions"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "economic-data"
+        - "trade"
+        - "inflation"
+      tags:
+        - "indonesia"
+        - "trade-surplus"
+        - "inflation"
+        - "commodities"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-009-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/markets/asia/indonesia-trade-surplus-misses-forecast-inflation-rises-2026-01-05/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "trade surplus was $2.66 billion"
+          citation_refs: [14]
+        - id: src-009-b
+          outlet: "Statistics Indonesia"
+          url: "https://www.bps.go.id/en/news/2026/01/05/836/indonesia-s-balance-of-trade-continues-to-record-a-surplus.html"
+          publication_date: "2026-01-05"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "trade surplus"
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-010"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrike"
+    topics:
+      - "Gaza Conflict"
+      - "Khan Yunis"
+      - "Israel"
+      - "Hamas"
+      - "displaced refugees"
+    importance: 6
+    headline: "Israeli airstrike kills four Palestinians in Khan Yunis tent"
+    summary: >
+      Four Palestinians were killed in an Israeli airstrike on a tent sheltering
+      displaced refugees in the Khan Yunis refugee camp in Gaza. Israel said it was
+      targeting a Hamas target.
+    key_data:
+      - label: "Reported deaths"
+        value: "4 Palestinians"
+        citation_refs: [24]
+      - label: "Location"
+        value: "Khan Yunis refugee camp, Gaza"
+        citation_refs: [24]
+      - label: "Israeli claim"
+        value: "Targeting a Hamas target"
+        citation_refs: [24]
+    details:
+      what_happened:
+        - "An Israeli airstrike hit a tent sheltering displaced refugees in Khan Yunis."
+        - "Four Palestinians were reported killed."
+        - "Israel said the strike targeted a Hamas target."
+      why_it_matters:
+        - "The strike added to civilian harm concerns in Gaza, especially among displaced people sheltering in tents."
+        - "Israeli claims of targeting Hamas show the continuing dispute over military objectives and civilian impact."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 5 deep-research markdown."
+    actors:
+      primary:
+        - "Israel Defense Forces"
+        - "Palestinian civilians"
+      secondary:
+        - "Hamas"
+    entities:
+      people: []
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Israeli military force carrying out the strike"
+        - name: "Hamas"
+          description: "Palestinian militant organization named in Israel's targeting claim"
+      states:
+        - "Israel"
+        - "Palestine"
+    geography:
+      countries:
+        - "Palestine"
+      places:
+        - "Gaza"
+        - "Khan Yunis refugee camp"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Tent sheltering displaced refugees struck."
+    classification:
+      event_type:
+        - "airstrike"
+        - "civilian-casualties"
+      tags:
+        - "gaza"
+        - "khan-yunis"
+        - "displaced-refugees"
+        - "israel-hamas"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Four Palestinians are killed in an Israeli airstrike on a tent sheltering displaced refugees in the Khan Yunis refugee camp in Gaza. Israel claims it was targeting a Hamas target."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Portal-derived event; reported by The National per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-05-011"
+    category: "Law and crime"
+    subcategory: "Counterterrorism arrests"
+    topics:
+      - "Terrorism in Pakistan"
+      - "Baloch Liberation Army"
+      - "Pakistan"
+      - "explosives seizure"
+    importance: 6
+    headline: "Pakistani police seize two tons of explosives and arrest three BLA suspects"
+    summary: >
+      Pakistani counter-terrorism police seized two tons of explosives and arrested
+      three people suspected of being members of the Baloch Liberation Army and
+      planning attacks with the explosives.
+    key_data:
+      - label: "Explosives seized"
+        value: "2 tons"
+        citation_refs: [24]
+      - label: "Arrests"
+        value: "3 suspected BLA members"
+        citation_refs: [24]
+    details:
+      what_happened:
+        - "Pakistani counter-terrorism police seized two tons of explosives."
+        - "Three suspected Baloch Liberation Army members were arrested."
+        - "Authorities alleged the suspects were planning attacks with the explosives."
+      why_it_matters:
+        - "The seizure suggests disruption of a potentially large-scale attack plan."
+        - "The event reflects continuing militancy and counterterrorism pressure in Pakistan."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 5 deep-research markdown."
+    actors:
+      primary:
+        - "Pakistani counter-terrorism police"
+        - "Baloch Liberation Army suspects"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Baloch Liberation Army"
+          description: "Separatist militant organization whose suspected members were arrested"
+        - name: "Pakistani counter-terrorism police"
+          description: "Police force carrying out the seizure and arrests"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 3
+      damage: "Two tons of explosives seized before alleged attacks."
+    classification:
+      event_type:
+        - "counterterrorism"
+        - "explosives-seizure"
+        - "arrests"
+      tags:
+        - "pakistan"
+        - "baloch-liberation-army"
+        - "explosives"
+        - "counterterrorism"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Pakistani counter-terrorism police seize two tons of explosives and arrest three people suspected of being members of the Baloch Liberation Army and planning attacks with them."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Portal-derived event; reported by AP per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-05-012"
+    category: "Business and economy"
+    subcategory: "Commodity auction"
+    topics:
+      - "Toyosu Market"
+      - "bluefin tuna"
+      - "Tokyo"
+      - "Kiyomura"
+    importance: 4
+    headline: "Bluefin tuna sells for record 510 million yen at Toyosu"
+    summary: >
+      A 243-kilogram bluefin tuna sold for a record 510 million yen, about US$3.2
+      million, at Tokyo's Toyosu fish market during the first auction of 2026.
+      Associated Press reporting said the winning bid came from Kiyomura Corp.,
+      operator of the Sushi Zanmai restaurant chain.
+    key_data:
+      - label: "Sale price"
+        value: "510 million yen (about US$3.2 million)"
+        citation_refs: [16, 24]
+      - label: "Weight"
+        value: "243 kg / 535 lb"
+        citation_refs: [16]
+      - label: "Market"
+        value: "Toyosu fish market, Tokyo"
+        citation_refs: [16, 24]
+    details:
+      what_happened:
+        - "A bluefin tuna sold for a record 510 million yen at Toyosu's first auction of 2026."
+        - "AP reported the fish weighed 243 kilograms, or 535 pounds."
+        - "The winning bidder was Kiyomura Corp., associated with the Sushi Zanmai chain."
+      why_it_matters:
+        - "The New Year tuna auction is a symbolic market and cultural event in Japan."
+        - "The record price reflects the prestige economy around high-end tuna and the Toyosu auction tradition."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Kiyomura Corp."
+        - "Toyosu fish market"
+      secondary:
+        - "Kiyoshi Kimura"
+    entities:
+      people:
+        - name: "Kiyoshi Kimura"
+          role: "Kiyomura president associated with Sushi Zanmai"
+      organizations:
+        - name: "Kiyomura Corp."
+          description: "Winning bidder and operator of Sushi Zanmai"
+        - name: "Toyosu Market"
+          description: "Tokyo wholesale market hosting the auction"
+      states:
+        - "Japan"
+    geography:
+      countries:
+        - "Japan"
+      places:
+        - "Tokyo"
+        - "Toyosu fish market"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "auction"
+        - "commodity-sale"
+      tags:
+        - "bluefin-tuna"
+        - "toyosu"
+        - "tokyo"
+        - "sushi-zanmai"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A bluefin tuna is sold for a record 510 million (US$3.2 million) at the Toyosu fish market in Tokyo, Japan."
+      external:
+        - id: src-012-a
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/ee40ecf56d234a14a625cc09b7a2f8e1"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "record 510 million yen"
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-013"
+    category: "Disasters and accidents"
+    subcategory: "Flash floods"
+    topics:
+      - "Indonesia"
+      - "North Sulawesi"
+      - "Siau Tagulandang Biaro Islands Regency"
+      - "flash floods"
+    importance: 6
+    headline: "Flash floods kill at least 14 in North Sulawesi"
+    summary: >
+      At least 14 people were killed in flash floods in Siau Tagulandang Biaro Islands
+      Regency, North Sulawesi, Indonesia. Reuters video and portal reporting described
+      deadly flooding after heavy rain on Siau Island.
+    key_data:
+      - label: "Reported deaths"
+        value: "At least 14"
+        citation_refs: [17, 24]
+      - label: "Location"
+        value: "Siau Tagulandang Biaro Islands Regency, North Sulawesi"
+        citation_refs: [17, 24]
+    details:
+      what_happened:
+        - "Flash floods struck Siau Tagulandang Biaro Islands Regency in North Sulawesi."
+        - "At least 14 people were reported killed."
+        - "Reuters video reporting said heavy rain triggered sudden flooding on Siau Island."
+      why_it_matters:
+        - "Flash floods in island communities can quickly overwhelm local roads, drainage, and rescue capacity."
+        - "The event adds to monsoon-season disaster pressure in Indonesia."
+      uncertainty_notes:
+        - "Portal-derived event with Reuters video support; detailed missing and injury counts were not included in the seed bullet."
+    actors:
+      primary:
+        - "Indonesian local authorities"
+        - "Flood victims"
+      secondary:
+        - "Emergency responders"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Siau Tagulandang Biaro Islands Regency"
+        - "North Sulawesi"
+        - "Siau Island"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 14
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Flood damage not specified in the portal bullet."
+    classification:
+      event_type:
+        - "flash-flood"
+        - "natural-disaster"
+      tags:
+        - "indonesia"
+        - "north-sulawesi"
+        - "siau-island"
+        - "flooding"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 14 people are killed in flash floods in Siau Tagulandang Biaro Islands Regency, North Sulawesi, Indonesia."
+      external:
+        - id: src-013-a
+          outlet: "Reuters/YouTube"
+          url: "https://www.youtube.com/watch?v=JM_ru2wV3dk"
+          publication_date: "2026-01-05"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "kill at least 14"
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-014"
+    category: "Business and economy"
+    subcategory: "Product recall"
+    topics:
+      - "Nestlé"
+      - "infant formula"
+      - "cereulide"
+      - "food safety"
+    importance: 6
+    headline: "Nestlé recalls infant formula batches over possible cereulide toxin"
+    summary: >
+      Nestlé recalled selected infant-formula batches in several European countries
+      after identifying a supplier-ingredient quality issue that could involve the
+      toxin cereulide. AFP via The Manila Times and Nestlé recall material described
+      the recall as precautionary and linked it to products manufactured at a Dutch
+      facility.
+    key_data:
+      - label: "Company"
+        value: "Nestlé"
+        citation_refs: [18, 19]
+      - label: "Risk identified"
+        value: "Possible cereulide toxin"
+        citation_refs: [18, 19, 24]
+      - label: "Product type"
+        value: "Infant formula"
+        citation_refs: [18, 19, 24]
+    details:
+      what_happened:
+        - "Nestlé announced a recall of selected infant-formula batches in several European countries."
+        - "The company identified a quality issue in a supplier ingredient that may involve cereulide."
+        - "Nestlé's timeline said trace amounts of cereulide were found in batches under its control and products manufactured since new equipment installation were recalled as a precaution."
+      why_it_matters:
+        - "Infant formula recalls are high-sensitivity food-safety events because affected consumers are medically vulnerable."
+        - "The supplier-ingredient link raises supply-chain quality-control questions across multiple countries."
+      uncertainty_notes:
+        - "No illness count was provided in the portal bullet."
+    actors:
+      primary:
+        - "Nestlé"
+      secondary:
+        - "European food-safety authorities"
+        - "Infant formula consumers"
+    entities:
+      people: []
+      organizations:
+        - name: "Nestlé"
+          description: "Food company issuing the recall"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Europe"
+        - "Netherlands"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Selected infant formula batches recalled."
+    classification:
+      event_type:
+        - "product-recall"
+        - "food-safety"
+      tags:
+        - "nestle"
+        - "infant-formula"
+        - "cereulide"
+        - "recall"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Nestlé recalls selected batches of infant formula in several European countries after identifying a quality issue in a supplier ingredient that may involve the presence of the toxin cereulide."
+      external:
+        - id: src-014-a
+          outlet: "The Manila Times/AFP"
+          url: "https://www.manilatimes.net/2026/01/07/business/foreign-business/nestle-recalls-infant-formula-in-several-europe-countries/2253957"
+          publication_date: "2026-01-07"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "recall of batches of infant formula"
+          citation_refs: [18]
+        - id: src-014-b
+          outlet: "Nestlé"
+          url: "https://www.nestle.com/sites/default/files/2026-01/infant-formula-recall-timeline-events.pdf"
+          publication_date: "2026-01-29"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.what_happened
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "trace amounts of cereulide"
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-015"
+    category: "Politics and elections"
+    subcategory: "Security talks"
+    topics:
+      - "Israel-Syria relations"
+      - "Israeli invasion of Syria"
+      - "1974 disengagement agreement"
+      - "United States mediation"
+    importance: 6
+    headline: "U.S.-mediated Israel-Syria talks resume over 1974 disengagement framework"
+    summary: >
+      United States-mediated talks between Israel and Syria resumed after a
+      several-month hiatus, focusing on reviving the 1974 disengagement framework.
+      Syria pressed for Israeli withdrawal from territory entered after the fall of
+      the Assad regime.
+    key_data:
+      - label: "Framework under discussion"
+        value: "1974 Israel-Syria disengagement agreement"
+        citation_refs: [20, 24]
+      - label: "Mediator"
+        value: "United States"
+        citation_refs: [20, 24]
+    details:
+      what_happened:
+        - "U.S.-mediated Israel-Syria talks resumed after several months."
+        - "The talks focused on reviving the 1974 disengagement framework."
+        - "Syria pressed for Israeli withdrawal from territory entered after the fall of the Assad regime."
+      why_it_matters:
+        - "Reviving the disengagement framework could reduce the risk of escalation along the Israel-Syria frontier."
+        - "The talks test whether post-Assad Syria and Israel can restore a managed security arrangement."
+      uncertainty_notes:
+        - "Portal-derived event with supporting syndicated Reuters coverage; details of concessions or outcomes were not available."
+    actors:
+      primary:
+        - "Government of Israel"
+        - "Government of Syria"
+        - "United States mediators"
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+        - "Syria"
+        - "United States"
+    geography:
+      countries:
+        - "Syria"
+        - "Israel"
+      places:
+        - "Golan Heights"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-talks"
+        - "security-negotiation"
+      tags:
+        - "israel-syria"
+        - "1974-disengagement"
+        - "us-mediation"
+        - "golan-heights"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "United States-mediated talks between Israel and Syria focused on reviving the 1974 disengagement framework resume after a several-month hiatus, with Syria pressing for an Israeli withdrawal from territory entered after the fall of the Assad regime."
+      external:
+        - id: src-015-a
+          outlet: "Reuters/Algemeiner"
+          url: "https://www.algemeiner.com/2026/01/05/syria-israel-resume-us-mediated-security-talks/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "reviving a 1974 disengagement agreement"
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-05-016"
+    category: "Politics and elections"
+    subcategory: "Asset freeze"
+    topics:
+      - "International reactions to the 2026 United States strikes in Venezuela"
+      - "Swiss neutrality"
+      - "Nicolás Maduro"
+      - "Switzerland"
+    importance: 6
+    headline: "Switzerland freezes assets linked to Nicolás Maduro"
+    summary: >
+      Switzerland froze assets held in the country by Nicolás Maduro and associated
+      persons for four years after Maduro's capture and transfer to the United States.
+      The Swiss Federal Council said the immediate freeze was intended to prevent an
+      outflow of assets while their legal status was investigated and did not affect
+      members of Venezuela's current government.
+    key_data:
+      - label: "Freeze duration"
+        value: "4 years"
+        citation_refs: [21, 24]
+      - label: "Target"
+        value: "Assets held by Nicolás Maduro and associated persons"
+        citation_refs: [21]
+      - label: "Effective date"
+        value: "January 5, 2026"
+        citation_refs: [21]
+    details:
+      what_happened:
+        - "The Swiss Federal Council froze assets held in Switzerland by Nicolás Maduro and associated persons."
+        - "The measure took effect immediately on January 5."
+        - "Swiss authorities said the aim was to prevent an outflow of assets pending future legal proceedings."
+        - "The freeze did not apply to members of the current Venezuelan government."
+      why_it_matters:
+        - "The measure shows a neutral state taking a legal-preservation step after the contested Venezuela intervention."
+        - "Asset preservation could support future restitution if funds are found to have been illicitly acquired."
+        - "The action adds an international financial dimension to Maduro's capture."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Swiss Federal Council"
+        - "Nicolás Maduro"
+      secondary:
+        - "Maduro-associated persons"
+    entities:
+      people:
+        - name: "Nicolás Maduro"
+          role: "De jure Venezuelan president whose assets were frozen"
+      organizations:
+        - name: "Swiss Federal Council"
+          description: "Swiss executive authority ordering the asset freeze"
+      states:
+        - "Switzerland"
+        - "Venezuela"
+    geography:
+      countries:
+        - "Switzerland"
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Financial assets frozen for four years."
+    classification:
+      event_type:
+        - "asset-freeze"
+        - "sanctions"
+        - "financial-law"
+      tags:
+        - "switzerland"
+        - "maduro"
+        - "asset-freeze"
+        - "venezuela"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Switzerland freezes all assets held in the country by de jure Venezuelan president Nicolás Maduro and his associates for four years, following Maduro's abduction and transfer to the United States, and is intending to secure the assets while their legal status is under investigation."
+      external:
+        - id: src-016-a
+          outlet: "Swiss Federal Department of Foreign Affairs"
+          url: "https://www.eda.admin.ch/countries/chad/en/home/news/news.html/content/eda/en/meta/news/2026/1/5/4mdMVbqPTwY-5XoVHeNVP"
+          publication_date: "2026-01-05"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "freeze any assets held in Switzerland"
+          citation_refs: [21]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-05-001"
+    notes: ""
+
+  - id: "evt-2026-01-05-017"
+    category: "Law and crime"
+    subcategory: "Federal criminal proceedings"
+    topics:
+      - "United States v. Maduro et al."
+      - "Nicolás Maduro"
+      - "Cilia Flores"
+      - "narcoterrorism"
+    importance: 8
+    headline: "Maduro and Cilia Flores plead not guilty in U.S. court"
+    summary: >
+      De jure Venezuelan president Nicolás Maduro and first lady Cilia Flores pleaded
+      not guilty to U.S. drug-trafficking and narcoterrorism charges. Reporting on
+      Maduro's first U.S. court appearance said both would remain in prison until
+      their next court appearance in March.
+    key_data:
+      - label: "Defendants"
+        value: "Nicolás Maduro and Cilia Flores"
+        citation_refs: [22, 24]
+      - label: "Plea"
+        value: "Not guilty"
+        citation_refs: [22, 24]
+      - label: "Next court appearance"
+        value: "March 2026"
+        citation_refs: [22, 24]
+    details:
+      what_happened:
+        - "Maduro and Flores made a U.S. court appearance after being captured in Caracas."
+        - "Both pleaded not guilty to drug-trafficking and narcoterrorism-related charges."
+        - "Maduro described his capture as a kidnapping, according to court reporting."
+        - "The defendants were ordered to remain in prison until a March court appearance."
+      why_it_matters:
+        - "The court appearance moved the Venezuela intervention into a complex U.S. legal process."
+        - "The defendants' challenge to the legality of their capture may shape future proceedings."
+        - "The case intensifies the dispute over whether Maduro remains Venezuela's lawful president."
+      uncertainty_notes:
+        - "Portal sources cite NBC News and Fox News; Washington Post reporting is used here for court-proceeding details."
+    actors:
+      primary:
+        - "Nicolás Maduro"
+        - "Cilia Flores"
+        - "U.S. federal court"
+      secondary:
+        - "U.S. prosecutors"
+    entities:
+      people:
+        - name: "Nicolás Maduro"
+          role: "Defendant and de jure Venezuelan president"
+        - name: "Cilia Flores"
+          role: "Defendant and first lady of Venezuela"
+        - name: "Alvin K. Hellerstein"
+          role: "U.S. judge referenced in reporting"
+      organizations:
+        - name: "U.S. federal court"
+          description: "Court handling the criminal proceeding"
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "New York"
+        - "Manhattan"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "court-hearing"
+        - "criminal-case"
+        - "not-guilty-plea"
+      tags:
+        - "maduro"
+        - "cilia-flores"
+        - "narcoterrorism"
+        - "us-court"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "De jure Venezuelan president Nicolás Maduro and first lady Cilia Flores plead not guilty to charges of drug trafficking and narcoterrorism in the United States. They will remain in prison until their next court appearance in March."
+      external:
+        - id: src-017-a
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/national-security/2026/01/05/maduro-court-appearance-trial-new-york/"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "kidnapped"
+          citation_refs: [22]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-05-001"
+      - "evt-2026-01-05-016"
+    notes: ""
+
+  - id: "evt-2026-01-05-018"
+    category: "Law and crime"
+    subcategory: "Shootings"
+    topics:
+      - "Arab citizens of Israel"
+      - "Nazareth"
+      - "Kafr Qara"
+      - "Israel"
+    importance: 5
+    headline: "Three Arab Israelis killed in shootings in Nazareth and Kafr Qara"
+    summary: >
+      Three Arab Israelis were killed in two separate shootings in Nazareth and Kafr
+      Qara, Israel, according to the Wikipedia current-events portal.
+    key_data:
+      - label: "Reported deaths"
+        value: "3"
+        citation_refs: [24]
+      - label: "Locations"
+        value: "Nazareth and Kafr Qara"
+        citation_refs: [24]
+    details:
+      what_happened:
+        - "Two separate shootings occurred in Nazareth and Kafr Qara."
+        - "Three Arab Israelis were reported killed."
+      why_it_matters:
+        - "The killings added to persistent concerns about gun violence affecting Arab communities in Israel."
+        - "Separate shootings on the same day indicate a broader public-safety issue rather than a single isolated incident."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 5 deep-research markdown."
+    actors:
+      primary:
+        - "Unknown shooters"
+        - "Arab Israeli victims"
+      secondary:
+        - "Israeli police"
+    entities:
+      people: []
+      organizations:
+        - name: "Israeli police"
+          description: "Law enforcement expected to investigate the shootings"
+      states:
+        - "Israel"
+    geography:
+      countries:
+        - "Israel"
+      places:
+        - "Nazareth"
+        - "Kafr Qara"
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 3
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "shooting"
+        - "homicide"
+      tags:
+        - "arab-israelis"
+        - "nazareth"
+        - "kafr-qara"
+        - "gun-violence"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Three Arab Israelis are killed in two separate shootings in Nazareth and Kafr Qara, Israel."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by The Jerusalem Post per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-05-019"
+    category: "Politics and elections"
+    subcategory: "Media restrictions"
+    topics:
+      - "Censorship in Uganda"
+      - "Uganda"
+      - "2026 Ugandan general election"
+      - "media freedom"
+    importance: 6
+    headline: "Uganda bans live broadcasts of protests before general election"
+    summary: >
+      Uganda banned live broadcasting and streaming of protests and violent incidents
+      and restricted content deemed inciting or hateful ahead of the general election.
+      Reuters-syndicated reporting said the restrictions covered riots, unlawful
+      processions, and other violent incidents as President Yoweri Museveni sought
+      another term.
+    key_data:
+      - label: "Restricted content"
+        value: "Live broadcasts and streams of protests and violent incidents"
+        citation_refs: [23, 24]
+      - label: "Election context"
+        value: "Ahead of Uganda's general election"
+        citation_refs: [23, 24]
+    details:
+      what_happened:
+        - "Uganda banned live broadcasts of riots, unlawful processions, protests, and violent incidents."
+        - "Authorities also restricted content deemed inciting or hateful."
+        - "The restrictions came ahead of a general election in which Yoweri Museveni sought another term."
+      why_it_matters:
+        - "The ban restricts real-time reporting during a politically sensitive election period."
+        - "Media restrictions can limit documentation of protest activity and state responses."
+        - "The measure may affect opposition campaigning and public trust in electoral conditions."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Uganda"
+        - "Ugandan media outlets"
+      secondary:
+        - "Yoweri Museveni"
+        - "Opposition supporters"
+    entities:
+      people:
+        - name: "Yoweri Museveni"
+          role: "President of Uganda and election candidate"
+      organizations: []
+      states:
+        - "Uganda"
+    geography:
+      countries:
+        - "Uganda"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "media-restriction"
+        - "censorship"
+        - "election-control"
+      tags:
+        - "uganda"
+        - "media-freedom"
+        - "election"
+        - "protest-coverage"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Uganda bans the live broadcasting and streaming of protests and violent incidents and restricts content deemed inciting or hateful ahead of the general election."
+      external:
+        - id: src-019-a
+          outlet: "Reuters/The EastAfrican"
+          url: "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-bans-live-coverage-of-protests-ahead-january-election-5317122"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "banning live broadcasts of riots"
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+strategic_conclusion: >
+  January 5 shows the Venezuela intervention radiating outward through law,
+  diplomacy, domestic security, and financial systems. The Venezuelan government
+  issued emergency arrest powers while Delcy Rodríguez formalized executive control;
+  Maduro and Flores entered U.S. criminal proceedings; Switzerland froze assets; and
+  Trump's threats toward Colombia and comments about Greenland showed the crisis
+  feeding a wider pattern of coercive rhetoric. Iran's protest environment was also
+  reframed through the example of Maduro's capture, demonstrating how one intervention
+  can reshape threat perceptions elsewhere.
+
+  Beyond that central axis, the day mixed routine governance with acute shocks:
+  Guinea certified a post-coup election, the Philippines enacted a large budget,
+  Indonesia reported trade and inflation data, Uganda restricted live protest
+  broadcasting, Israel and Syria resumed security talks, and Thailand-Cambodia
+  ceasefire implementation proceeded under Chinese mediation. At the same time,
+  floods in Indonesia, a Gaza airstrike, Pakistan's explosives seizure, and shootings
+  in Israel kept the day's risk picture broad and uneven.
+
+works_cited:
+  - id: 1
+    title: "U.S. forces captured Maduro in Caracas, Reuters poll report"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/us-forces-captured-maduro-caracas-venezuela-poll-2026-01-05/"
+    accessed: "2026-03-24"
+  - id: 2
+    title: "Venezuela orders police to find, arrest anyone involved in supporting U.S. attack - decree"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/venezuela-orders-police-find-arrest-anyone-involved-supporting-us-attack-decree-2026-01-05/"
+    accessed: "2026-03-24"
+  - id: 3
+    title: "Aftermath imagery shows wreckage in Caracas after U.S. strikes"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/images-show-wreckage-caracas-after-us-strikes-venezuela-2026-01-05/"
+    accessed: "2026-03-24"
+  - id: 4
+    title: "Trump threatens military operation against Colombia, after Venezuela raid"
+    outlet: "Reuters/KFGO"
+    url: "https://kfgo.com/2026/01/04/trump-threatens-military-operation-against-colombia-after-venezuela-raid/"
+    accessed: "2026-01-05"
+  - id: 5
+    title: "Trump threatens Colombia's Petro, says Cuba looks like it's ready to fall"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/5/trump-threatens-colombias-petro-says-cuba-looks-like-its-ready-to-fall"
+    accessed: "2026-01-05"
+  - id: 6
+    title: "Denmark's Frederiksen says U.S. has no right to take Greenland"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/denmarks-frederiksen-says-us-has-no-right-take-greenland-2026-01-06/"
+    accessed: "2026-03-24"
+  - id: 7
+    title: "Iran protests complicated by Trump threat after Venezuela raid"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/iran-protests-complicated-by-trump-threat-after-venezuela-raid-2026-01-05/"
+    accessed: "2026-03-24"
+  - id: 8
+    title: "Possible arson on Berlin cable link cuts power to households"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/possible-arson-berlin-cable-link-cuts-power-50000-households-police-says-2026-01-03/"
+    accessed: "2026-01-05"
+  - id: 9
+    title: "Germany vows crackdown on left-wing militancy after Berlin power attack"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/germany-vows-crackdown-left-wing-militancy-after-berlin-power-attack-2026-01-27/"
+    accessed: "2026-03-24"
+  - id: 10
+    title: "Thailand-Cambodia ceasefire gradually being implemented, says China"
+    outlet: "Reuters/ThePrint"
+    url: "https://theprint.in/world/thailand-cambodia-ceasefire-gradually-being-implemented-says-china/2818973/"
+    accessed: "2026-01-05"
+  - id: 11
+    title: "Guinea's top court certifies Doumbouya's election victory"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/guineas-top-court-certifies-doumbouyas-election-victory-2026-01-05/"
+    accessed: "2026-03-24"
+  - id: 12
+    title: "Guinea's junta leader is confirmed president-elect after first vote since a 2021 coup"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/b3cf4eb1e045a525542f59347b08fe1a"
+    accessed: "2026-01-05"
+  - id: 13
+    title: "Philippines' Marcos signs 2026 budget bill, vows prudent spending"
+    outlet: "Reuters/The Business Times"
+    url: "https://www.businesstimes.com.sg/international/asean/philippines-marcos-signs-2026-budget-bill-vows-prudent-spending"
+    accessed: "2026-01-05"
+  - id: 14
+    title: "Indonesia trade surplus misses forecast and inflation rises"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/markets/asia/indonesia-trade-surplus-misses-forecast-inflation-rises-2026-01-05/"
+    accessed: "2026-03-24"
+  - id: 15
+    title: "Indonesia's Balance of Trade Continues to Record a Surplus"
+    outlet: "Statistics Indonesia"
+    url: "https://www.bps.go.id/en/news/2026/01/05/836/indonesia-s-balance-of-trade-continues-to-record-a-surplus.html"
+    accessed: "2026-01-05"
+  - id: 16
+    title: "Bluefin tuna sells for record $3.2 million at year-opening auction at Tokyo fish market"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ee40ecf56d234a14a625cc09b7a2f8e1"
+    accessed: "2026-01-05"
+  - id: 17
+    title: "Flash floods in Indonesia's North Sulawesi kill at least 14"
+    outlet: "Reuters/YouTube"
+    url: "https://www.youtube.com/watch?v=JM_ru2wV3dk"
+    accessed: "2026-01-05"
+  - id: 18
+    title: "Nestle recalls infant formula in several Europe countries"
+    outlet: "The Manila Times/AFP"
+    url: "https://www.manilatimes.net/2026/01/07/business/foreign-business/nestle-recalls-infant-formula-in-several-europe-countries/2253957"
+    accessed: "2026-01-07"
+  - id: 19
+    title: "Infant formula recall timeline of events"
+    outlet: "Nestlé"
+    url: "https://www.nestle.com/sites/default/files/2026-01/infant-formula-recall-timeline-events.pdf"
+    accessed: "2026-01-29"
+  - id: 20
+    title: "Syria, Israel resume U.S.-mediated security talks"
+    outlet: "Reuters/Algemeiner"
+    url: "https://www.algemeiner.com/2026/01/05/syria-israel-resume-us-mediated-security-talks/"
+    accessed: "2026-01-05"
+  - id: 21
+    title: "Federal Council freezes any assets held in Switzerland by Nicolás Maduro"
+    outlet: "Swiss Federal Department of Foreign Affairs"
+    url: "https://www.eda.admin.ch/countries/chad/en/home/news/news.html/content/eda/en/meta/news/2026/1/5/4mdMVbqPTwY-5XoVHeNVP"
+    accessed: "2026-01-05"
+  - id: 22
+    title: "Maduro, making first court appearance, says U.S. kidnapped him"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/national-security/2026/01/05/maduro-court-appearance-trial-new-york/"
+    accessed: "2026-01-05"
+  - id: 23
+    title: "Uganda bans live coverage of protests ahead of January election"
+    outlet: "Reuters/The EastAfrican"
+    url: "https://www.theeastafrican.co.ke/tea/news/east-africa/uganda-bans-live-coverage-of-protests-ahead-january-election-5317122"
+    accessed: "2026-01-05"
+  - id: 24
+    title: "Portal:Current events/2026 January 5"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_5"
+    accessed: "2026-03-24"
