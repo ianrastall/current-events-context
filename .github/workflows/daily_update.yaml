@@ -2,8 +2,13 @@ name: Daily Wikipedia Update
 
 on:
   schedule:
-    - cron: '0 23 * * *' # Runs at 23:00 UTC every day
+    - cron: '17 2 * * *' # 02:17 UTC; avoids top-of-hour congestion
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'UTC date to process (YYYY-MM-DD); defaults to yesterday'
+        required: false
+        type: string
 
 concurrency:
   group: daily-wikipedia-update
@@ -22,41 +27,86 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Sync with Latest Main
-        run: |
-          git fetch origin main
-          git rebase origin/main
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install requests mwparserfromhell pyyaml
 
-      - name: Run Script for Today
-        run: python update_data.py
+      - name: Resolve Target Date
+        id: target
+        shell: bash
+        env:
+          REQUESTED_DATE: ${{ github.event.inputs.date || '' }}
+        run: |
+          set -euo pipefail
+
+          if [[ -n "$REQUESTED_DATE" ]]; then
+            target_date="$REQUESTED_DATE"
+          else
+            # Scheduled runs process the completed previous UTC day. This keeps
+            # a delayed Actions run from accidentally requesting the next day.
+            target_date="$(date -u -d 'yesterday' +'%Y-%m-%d')"
+          fi
+
+          normalized="$(date -u -d "$target_date" +'%Y-%m-%d')"
+          if [[ "$normalized" != "$target_date" ]]; then
+            echo "Invalid date: $target_date (expected YYYY-MM-DD)" >&2
+            exit 1
+          fi
+
+          echo "date=$target_date" >> "$GITHUB_OUTPUT"
+          echo "Processing UTC date: $target_date"
+
+      - name: Run Script
+        shell: bash
+        env:
+          TARGET_DATE: ${{ steps.target.outputs.date }}
+        run: |
+          set -euo pipefail
+
+          for attempt in 1 2 3 4; do
+            if python update_data.py "$TARGET_DATE"; then
+              exit 0
+            fi
+
+            if [[ "$attempt" -lt 4 ]]; then
+              delay=$((attempt * 30))
+              echo "Update attempt $attempt failed; retrying in ${delay}s."
+              sleep "$delay"
+            fi
+          done
+
+          echo "Failed to generate data for $TARGET_DATE after 4 attempts." >&2
+          exit 1
 
       - name: Commit and Push
+        shell: bash
+        env:
+          TARGET_DATE: ${{ steps.target.outputs.date }}
         run: |
-          set -e
+          set -euo pipefail
 
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add .
+          year="${TARGET_DATE:0:4}"
+          month="${TARGET_DATE:5:2}"
+          output_file="$year/$month/$TARGET_DATE.yaml"
+
+          git add -- "$output_file"
           if git diff --staged --quiet; then
-            echo "No changes today. Skipping commit."
+            echo "No changes for $TARGET_DATE. Skipping commit."
             exit 0
           fi
 
-          git commit -m "Automated daily update for $(date +'%Y-%m-%d')"
+          git commit -m "Automated daily update for $TARGET_DATE"
 
           for attempt in 1 2 3; do
-            # Integrate any changes that landed on main after checkout.
             git fetch origin main
             git rebase origin/main
 
@@ -64,9 +114,9 @@ jobs:
               exit 0
             fi
 
-            echo "Push failed on attempt ${attempt}. Retrying after latest main is fetched."
+            echo "Push failed on attempt ${attempt}; retrying."
             sleep $((attempt * 5))
           done
 
-          echo "Failed to push after 3 attempts."
+          echo "Failed to push after 3 attempts." >&2
           exit 1
