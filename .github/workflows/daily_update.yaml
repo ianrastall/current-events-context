@@ -69,19 +69,23 @@ jobs:
         run: |
           set -euo pipefail
 
-          for attempt in 1 2 3 4; do
-            if python update_data.py "$TARGET_DATE"; then
+          # Real 429 backoff now happens inside `seed` itself (seed.ratelimit),
+          # up to 5 retries x up to 10 minutes for Wikipedia. This outer loop
+          # is only a coarse safety net for non-429 failures (network blips,
+          # transient runner issues) -- kept short so a persistent outage
+          # doesn't turn into an hours-long stuck run.
+          for attempt in 1 2; do
+            if python -m seed date "$TARGET_DATE"; then
               exit 0
             fi
 
-            if [[ "$attempt" -lt 4 ]]; then
-              delay=$((attempt * 30))
-              echo "Update attempt $attempt failed; retrying in ${delay}s."
-              sleep "$delay"
+            if [[ "$attempt" -lt 2 ]]; then
+              echo "Update attempt $attempt failed; retrying in 30s."
+              sleep 30
             fi
           done
 
-          echo "Failed to generate data for $TARGET_DATE after 4 attempts." >&2
+          echo "Failed to generate data for $TARGET_DATE after 2 attempts." >&2
           exit 1
 
       - name: Commit and Push
