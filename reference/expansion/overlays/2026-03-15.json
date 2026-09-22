@@ -1,0 +1,33 @@
+{
+  "mode": "legacy",
+  "match": {"2": 14},
+  "ev": {
+    "md:0": {"i": 6}, "md:1": {"i": 6}, "md:2": {"i": 5}, "md:3": {"i": 5}, "md:4": {"i": 6}, "md:5": {"i": 7}, "md:6": {"i": 5},
+    "p:0": {"h": "Israeli strike on a police vehicle in Gaza kills eight officers, including a district police chief", "i": 6, "k": 8, "pl": ["Deir al-Balah Governorate"], "st": ["Palestine", "Israel"]},
+    "p:1": {"h": "Israeli soldiers fire on a civilian car in the northern West Bank, killing four", "i": 5, "k": 4, "w": 2, "pl": ["West Bank"], "st": ["Palestine", "Israel"]},
+    "p:2": {"h": "Iranian drone strike destroys an Italian MQ-9 Reaper at Kuwait's Ali Al Salem Air Base", "i": 5, "pl": ["Ali Al Salem Air Base"], "st": ["Kuwait", "Italy", "Iran"]},
+    "p:3": {"h": "Afghan mortar fire kills four members of a family in Pakistan's Bajaur District", "i": 5, "k": 4, "pl": ["Bajaur District", "Khyber Pakhtunkhwa"], "st": ["Pakistan", "Afghanistan"]},
+    "p:4": {"h": "South Sudan's army deploys troops to secure Akobo", "i": 5, "pl": ["Akobo"], "st": ["South Sudan"],
+            "org": {"South Sudan People's Defence Forces": "Military of South Sudan"}},
+    "p:5": {"h": "One Battle After Another wins six Oscars, including Best Picture", "i": 4, "st": ["United States"],
+            "ppl": {"Paul Thomas Anderson": "Film director (One Battle After Another)"}},
+    "p:6": {"h": "Sinners wins four Academy Awards", "i": 3, "st": ["United States"],
+            "ppl": {"Ryan Coogler": "Film director and screenwriter (Sinners)", "Michael B. Jordan": "Actor (Sinners)"}},
+    "p:8": {"h": "Kenya's flood death toll rises to 66", "i": 5, "k": 66, "st": ["Kenya"],
+            "org": {"Kenya Red Cross Society": "Kenya's national humanitarian society"}, "unc": ["Cumulative toll for the flooding, not a single-day figure."]},
+    "p:9": {"h": "Meningitis outbreak at the University of Kent kills two", "i": 5, "k": 2, "w": 11, "pl": ["University of Kent", "Canterbury"], "st": ["United Kingdom"]},
+    "p:10": {"h": "France holds the first round of municipal elections", "i": 5, "st": ["France"]},
+    "p:12": {"h": "North Korea elects its 15th Supreme People's Assembly", "i": 4, "st": ["North Korea"]},
+    "p:15": {"h": "Winter Paralympics close in Cortina d'Ampezzo with China top of the medal table", "i": 4, "pl": ["Cortina d'Ampezzo"], "st": ["Italy", "China"]},
+    "p:16": {"h": "United States beats Canada 6–2 for Paralympic para ice hockey gold", "i": 3, "st": ["United States", "Canada"]},
+    "p:17": {"h": "Kimi Antonelli wins the Chinese Grand Prix for his first Formula One victory", "i": 4, "st": ["China"],
+             "ppl": {"Kimi Antonelli": "Mercedes Formula One driver"}},
+    "p:18": {"h": "AFC says Iran will still play at the FIFA World Cup", "i": 4, "st": ["Iran"],
+             "ppl": {"Windsor John": "General secretary of the Asian Football Confederation"}},
+    "p:19": {"h": "Joan Laporta re-elected president of FC Barcelona", "i": 3, "st": ["Spain"],
+             "ppl": {"Joan Laporta": "President of FC Barcelona"}}
+  },
+  "related": [["md:1", "p:3"], ["md:3", "md:4", "md:2"]],
+  "analytical_overview": "March 15, 2026 was a heavy election day: Vietnam chose a new National Assembly, the Republic of the Congo voted for president amid low turnout and an internet blackout, Kazakhstan approved a new constitution by referendum, North Korea elected its Supreme People's Assembly and France held the first round of municipal elections. U.S. and Chinese delegations opened trade talks in Paris ahead of a planned Trump–Xi summit, and the IEA detailed the release of more than 400 million barrels of emergency oil reserves, including 80 million barrels from Japan.\n\nConflict continued on several fronts: Pakistan struck targets around Kandahar while Afghan mortar fire killed four people in Bajaur, Israeli fire killed eight police officers in Gaza and four people in the West Bank, and an Iranian drone destroyed an Italian MQ-9 at a Kuwaiti air base. Kenya's flood toll rose to 66, a meningitis outbreak at the University of Kent killed two, and in culture and sport One Battle After Another won Best Picture as the Winter Paralympics closed.",
+  "strategic_conclusion": "The day combined a cluster of state-managed or contested votes, in Vietnam, the Republic of the Congo, Kazakhstan and North Korea, with coordinated emergency action on oil supply led by the IEA. U.S.–China trade talks opened a separate diplomatic channel even as the Iran war and the Afghanistan–Pakistan conflict continued to cause casualties across the region."
+}

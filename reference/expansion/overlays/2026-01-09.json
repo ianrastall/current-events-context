@@ -1,0 +1,17 @@
+{
+  "match": {"0": null},
+  "ev": {
+    "md:0": {"i": 7}, "md:1": {"i": 8}, "md:2": {"i": 6}, "md:3": {"i": 6}, "md:4": {"i": 6}, "md:5": {"i": 7},
+    "md:6": {"i": 6}, "md:7": {"i": 5}, "md:8": {"i": 5}, "md:9": {"i": 6}, "md:10": {"i": 6}, "md:11": {"i": 8},
+    "md:12": {"i": 5}, "md:13": {"i": 5}, "md:14": {"i": 4}, "md:15": {"i": 5}, "md:16": {"i": 3}, "md:17": {"i": 6}, "md:18": {"i": 6},
+    "p:1": {"h": "U.S. military seizes Timor-Leste-flagged oil tanker in the Caribbean", "i": 5, "pl": ["Caribbean Sea"], "st": ["United States", "East Timor"]},
+    "p:2": {"h": "Russian drone and missile strikes on Kyiv kill four and wound 28", "i": 6, "k": 4, "w": 28, "pl": ["Kyiv"], "st": ["Ukraine", "Russia", "Qatar"]},
+    "p:4": {"h": "STC delegation in Riyadh announces dissolution; STC rejects it as made under duress", "i": 6, "pl": ["Riyadh"], "st": ["Yemen", "Saudi Arabia"],
+            "org": {"Southern Transitional Council": "Yemeni southern separatist movement"}},
+    "p:5": {"h": "21 EU member states approve the EU–Mercosur trade deal", "i": 6, "org": {"European Union": "Political and economic union of 27 European states", "Mercosur": "South American trade bloc"}},
+    "p:7": {"h": "Bus crash in Borno State, Nigeria, kills nine", "i": 4, "k": 9, "w": 10, "pl": ["Borno State"], "st": ["Nigeria"]},
+    "p:9": {"h": "Honduran Congress approves recount of November 2025 election votes", "i": 5, "st": ["Honduras"],
+            "ppl": {"Xiomara Castro": "President of Honduras"}, "org": {"National Congress of Honduras": "Legislature of Honduras"}}
+  },
+  "related": [["md:11", "p:2"], ["md:7", "p:9"], ["md:0", "p:1"]]
+}

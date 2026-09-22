@@ -1,0 +1,14 @@
+{
+  "match": {"0": 15, "6": 16, "12": 6},
+  "ev": {
+    "md:0": {"i": 7}, "md:1": {"i": 9}, "md:2": {"i": 6}, "md:3": {"i": 5}, "md:4": {"i": 6}, "md:5": {"i": 5},
+    "md:6": {"i": 6}, "md:7": {"i": 5}, "md:8": {"i": 5}, "md:9": {"i": 5}, "md:10": {"i": 5}, "md:11": {"i": 6},
+    "md:12": {"i": 5}, "md:13": {"i": 6}, "md:14": {"i": 5}, "md:15": {"i": 5}, "md:16": {"i": 8}, "md:17": {"i": 5},
+    "p:4": {"h": "Spain's Sánchez tightens rent rules by decree, limiting short-term rentals", "i": 5, "st": ["Spain"],
+            "ppl": {"Pedro Sánchez": "Prime Minister of Spain"}},
+    "p:7": {"h": "Morocco's seven-year drought ends after winter rainfall nearly doubles", "i": 5, "st": ["Morocco"]},
+    "p:9": {"h": "Swedish police seize three tonnes of cocaine at Helsingborg, the country's largest haul", "i": 5, "pl": ["Port of Helsingborg"], "st": ["Sweden"],
+            "org": {"Swedish Police": "Police of Sweden"}}
+  },
+  "related": [["md:10", "p:9"]]
+}

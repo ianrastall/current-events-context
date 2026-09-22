@@ -1,0 +1,76 @@
+# Hand re-indented copy of event 1 from 2026/03/2026-03-18.yaml at commit 0f5cbef6,
+# whose indentation was flattened (not loadable as YAML). Content unchanged.
+date: "2026-03-18"
+events:
+  - id: "evt-2026-03-18-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Infrastructure strikes"
+    topics: []
+    importance: null
+    headline: "Coordinated airstrikes on Iran's South Pars gas field and subsequent IRGC threats to Gulf energy infrastructure"
+    summary: >
+      The operational theater in the Persian Gulf expanded precipitously as Israeli and United States forces executed coordinated drone strikes on the downstream infrastructure of Iran’s South Pars gas field, the largest natural gas reserve globally, immediately prompting an unprecedented retaliatory posture from Tehran. In an asymmetric response to the degradation of their sovereign energy assets, the Islamic Revolutionary Guard Corps (IRGC) Navy explicitly designated major Western-affiliated energy facilities across the Gulf—specifically in Qatar, Saudi Arabia, and the United Arab Emirates—as legitimate military targets equal to American military bases. This exchange signifies a definitive end to any localized containment of the conflict, directly threatening the infrastructure that underpins a vast percentage of global hydrocarbon liquidity and forcing the emergency evacuation of critical global liquefied natural gas (LNG) nodes ahead of anticipated ballistic missile strikes.
+    details:
+      what_happened:
+        - "Israeli and United States drone platforms struck four critical sour gas treatment facilities located at phases 3, 4, 5, and 6 of the South Pars field in Assaluyeh, southern Iran, forcing local authorities to take the processing plants offline to mitigate the spread of catastrophic fires."
+        - "In direct retaliation, IRGC Navy Commander Alireza Tangsiri updated Iran's target matrix, officially equating United States-affiliated oil facilities in the Gulf to American military bases and warning that they would come under fire with 'full force'."
+        - "The IRGC issued an extraordinary evacuation warning targeting specific Gulf facilities, including the SAMREF refinery and Jubail petrochemical complex in Saudi Arabia, the Al Hosn gas field in the UAE, and the Ras Laffan and Mesaieed complexes in Qatar."
+        - "Anticipating imminent kinetic strikes, Qatar initiated the evacuation of its primary LNG production facilities at Ras Laffan Industrial City, a site responsible for approximately 20 percent of the world’s LNG supply, exacerbating global supply chain panic."
+        - "Global energy markets reacted violently to the infrastructure strikes; the Dutch TTF gas benchmark rose by 5 percent within the hour, while Brent crude oil spiked by 6.2 percent to eclipse $109.84 per barrel."
+      why_it_matters:
+        - "The systematic targeting of downstream energy processing plants marks a dangerous evolution from purely military or nuclear targeting to total economic warfare, endangering up to 3.4 million barrels per day of Iranian crude output and threatening the foundational economic pillars of neighboring Gulf states."
+        - "The evacuation of Ras Laffan and the credible threat of Iranian ballistic missile strikes on Saudi and Emirati refineries present an unprecedented risk of long-term disruption to global energy markets, heightening the probability of a severe global inflationary wave that will impact central bank interest rate policies."
+      uncertainty_notes: []
+    actors:
+      primary: ["Israel Defense Forces (IDF)", "United States Armed Forces", "Islamic Revolutionary Guard Corps (IRGC)"]
+      secondary: ["QatarEnergy", "Saudi Ministry of Defense"]
+    entities:
+      people: ["Alireza Tangsiri"]
+      organizations: ["Israel Defense Forces (IDF)", "United States Armed Forces", "Islamic Revolutionary Guard Corps (IRGC)", "QatarEnergy", "Saudi Ministry of Defense"]
+      states: ["Iran", "Qatar", "Saudi Arabia", "United Arab Emirates", "United States", "Israel"]
+    geography:
+      countries: ["Iran", "Qatar", "Saudi Arabia", "United Arab Emirates"]
+      places: ["South Pars gas field", "Assaluyeh", "Ras Laffan Industrial City", "SAMREF refinery", "Jubail petrochemical complex", "Al Hosn gas field", "Mesaieed"]
+      coordinates: []
+    time:
+      date: "2026-03-18"
+      time_known: false
+      ongoing: null
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      arrest_count: 0
+      damage: "Severe structural and fire damage to four sour gas treatment facilities in Assaluyeh, Iran; extensive operational disruption to facilities at Ras Laffan, Qatar."
+    classification:
+      event_type: ["infrastructure-strikes"]
+      tags: ["iran", "qatar", "saudi-arabia", "united-arab-emirates", "energy-infrastructure", "south-pars", "irgc", "lng"]
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001"
+          outlet: "WC Shipping"
+          url: "https://www.wcshipping.com/blog/iran-war-day-19-israel-strikes-south-pars-iran-threatens-gulf-targets"
+          publication_date: "2026-03-18"
+          source_type: "trade_publication"
+          reliability_tier: "medium"
+          supports: ["South Pars strike", "evacuation of Qatar's Ras Laffan", "Brent crude spike to $109.84"]
+          contradicts: []
+        - id: "src-002"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/18/iran-threatens-to-strike-gulf-energy-facilities-after-south-pars-attack"
+          publication_date: "2026-03-18"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports: ["IRGC threats against Gulf facilities", "threats against SAMREF, Jubail, Al Hosn, and Mesaieed"]
+          contradicts: []
+        - id: "src-003"
+          outlet: "Times of India"
+          url: "https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-march-18-2026dow-sp-500-nasdaq-fall-as-crude-oil-surge-inflation-us-iran-war/articleshow/129659102.cms"
+          publication_date: "2026-03-18"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports: ["broader economic impact", "global inflationary fears", "Brent crude to $109.84"]
+          contradicts: []

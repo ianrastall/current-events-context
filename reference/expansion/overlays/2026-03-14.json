@@ -1,0 +1,27 @@
+{
+  "match": {"0": 2, "5": 9, "9": 11, "10": 12, "12": 19},
+  "ev": {
+    "md:0": {"i": 8}, "md:1": {"i": 7}, "md:2": {"i": 6}, "md:3": {"i": 5}, "md:4": {"i": 5}, "md:5": {"i": 7},
+    "md:6": {"i": 7}, "md:7": {"i": 6}, "md:8": {"i": 5}, "md:9": {"i": 5}, "md:10": {"i": 5}, "md:11": {"i": 5},
+    "md:12": {"i": 4}, "md:13": {"i": 4},
+    "p:0": {"h": "Iranian drone strike damages five U.S. warplanes at Prince Sultan Air Base", "i": 7, "pl": ["Prince Sultan Air Base"], "st": ["Saudi Arabia", "United States", "Iran"]},
+    "p:1": {"h": "Trump calls on allies to help lift Iran's blockade of the Strait of Hormuz", "i": 7, "pl": ["Strait of Hormuz"], "st": ["United States", "Iran"],
+            "ppl": {"Donald Trump": "President of the United States"}},
+    "p:3": {"h": "Drones strike Kuwait's Ahmad al-Jaber Air Base, injuring three soldiers", "i": 5, "w": 3, "pl": ["Ahmad al-Jaber Air Base"], "st": ["Kuwait"]},
+    "p:5": {"h": "Missile of unknown origin hits U.S. embassy in Baghdad", "i": 6, "pl": ["Baghdad"], "st": ["Iraq", "United States"]},
+    "p:6": {"h": "Hamas urges Iran to stop attacking its Middle East neighbours", "i": 5, "st": ["Palestine", "Iran"],
+            "org": {"Hamas": "Palestinian Islamist militant group governing Gaza"}},
+    "p:7": {"h": "Israel and Lebanon expected to hold direct talks", "i": 6, "st": ["Israel", "Lebanon"]},
+    "p:8": {"h": "Russian drone strikes across Ukraine kill five", "i": 5, "k": 5, "w": 3, "st": ["Ukraine", "Russia"]},
+    "p:10": {"h": "Minibus crash near Nepal's Manakamana Temple kills seven Indian pilgrims", "i": 4, "k": 7, "w": 8, "pl": ["Manakamana Temple"], "st": ["Nepal", "India"]},
+    "p:14": {"h": "Anti-war protests held across Spain", "i": 4, "pl": ["Madrid", "Barcelona", "Valencia"], "st": ["Spain"]},
+    "p:15": {"h": "Protests in Italy against the war and Meloni's government", "i": 4, "st": ["Italy"],
+             "ppl": {"Giorgia Meloni": "Prime Minister of Italy"}},
+    "p:16": {"h": "Belarusian activist Maria Kolesnikova receives the Charlemagne Prize in Aachen", "i": 4, "pl": ["Aachen"], "st": ["Germany", "Belarus"],
+             "ppl": {"Maria Kolesnikova": "Belarusian opposition activist"}},
+    "p:17": {"h": "FIA cancels Bahrain and Saudi Arabian Grands Prix over safety concerns", "i": 5, "st": ["Bahrain", "Saudi Arabia"],
+             "org": {"Fédération Internationale de l'Automobile": "Governing body of world motorsport"}}
+  },
+  "related": [["md:1", "p:3", "p:0"], ["p:14", "p:15"], ["md:11", "p:17"]],
+  "strategic_conclusion": "March 14 brought further strikes on both sides of the Gulf: a deadly strike on an Isfahan factory, fires at Fujairah and drone attacks on U.S. and Kuwaiti air bases, alongside President Trump's appeal to allies to help reopen Hormuz and signs of Israel–Lebanon talks. The war's effects reached aviation and sport, from Oceania flight disruption to the cancellation of Gulf Formula One races, and anti-war protests spread in Spain and Italy. Separately, the Afghanistan–Pakistan border war, Ethiopia's landslide toll, an ambush in Plateau State and unrest in Cuba marked continuing crises elsewhere."
+}

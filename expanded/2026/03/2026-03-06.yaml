@@ -1,0 +1,2597 @@
+date: "2026-03-06"
+source_page:
+  portal: "Portal:Current events/2026 March 6"
+  language: "en"
+  wikipedia_revision_id: 1347162176
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 6 (revision 1347162176; seed 2026/03/2026-03-06.yaml) + deep-research report reference/deep-research/2026/03/2026-03-06a.md + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  On March 6, 2026, the Iran war remained the dominant story. President Trump called for
+  Iran's "unconditional surrender" and ruled out talks, an Iranian ballistic missile struck
+  Prince Sultan Air Base in Saudi Arabia, and Qatar and Bahrain reported further
+  interceptions. The Iranian Red Crescent put the cumulative death toll from the
+  U.S.-Israeli air campaign at 1,332, Israeli raids in Lebanon's Beqaa Valley killed at
+  least 41 people, and Azerbaijan said it had thwarted an IRGC-plotted attack. U.S. forces
+  also struck Popular Mobilization Forces positions in Iraq and, at Ecuador's request,
+  alleged narcoterrorist targets in Ecuador.
+
+  Elsewhere, China set its 2026 growth target at the National People's Congress, Nepal's
+  early count showed the Rastriya Swatantra Party ahead, Kosovo's president dissolved
+  parliament, and Russia and Ukraine exchanged 300 prisoners each. UNHCR reported 100,000
+  displaced by Afghanistan–Pakistan fighting, Sudan's army retook Barah, severe storms and
+  tornadoes killed at least eight people in the central United States, and the Winter
+  Paralympics opened in Verona.
+
+events:
+  - id: "evt-2026-03-06-001"
+    category: "Business and economy"
+    subcategory: "Growth targets and planning law"
+    topics:
+      - "China economy"
+      - "GDP target"
+      - "National development planning law"
+      - "15th Five-Year Plan"
+      - "Growth targets and planning law"
+      - "China"
+    importance: 6
+    headline: "China sets 2026 growth target and reviews draft national development planning law"
+    summary: >
+      On March 6, 2026, China formally established its national economic blueprint for the
+      year, with lawmakers approving a GDP growth target of 4.5 percent to 5 percent. This
+      decision was part of a broader legislative agenda that included the passage of the
+      National Development Planning Law, a significant step in formalizing state-led
+      economic strategy. The announcement provides a critical benchmark for global markets
+      and signals Beijing's intent to balance ambitious goals with pragmatic risk management
+      amidst a complex international environment.
+    key_data: []
+    details:
+      what_happened:
+        - "Chinese lawmakers approved the government work report for 2026, which formally set the nation's economic development targets."
+        - "The official target for Gross Domestic Product (GDP) growth was set at a range of 4.5 percent to 5 percent for the year."
+        - "The National Development Planning Law was passed during the annual session of the National People's Congress (NPC), strengthening the legal framework for long-term national planning."
+        - "The NPC Standing Committee also reiterated its support for reforms, including the enactment of the Private Sector Promotion Law from the previous year, aimed at bolstering innovation and market confidence."
+      why_it_matters:
+        - "China's growth target is a key indicator for the global economy, influencing commodity demand, currency valuations, and investment flows worldwide."
+        - "The passage of the National Development Planning Law signifies a formal institutionalization of the state's role in guiding economic development, reinforcing a model of strategic, top-down planning."
+        - "The focus on strengthening economic legislation, including laws promoting the private sector, suggests an effort to create a more stable and predictable business environment to foster domestic innovation and resilience."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "National People's Congress (NPC) of the People's Republic of China"
+        - "State Council of the People's Republic of China"
+      secondary:
+        - "Chinese Ministry of Finance"
+        - "State-owned enterprises"
+        - "Private sector enterprises"
+    entities:
+      people: []
+      organizations:
+        - name: "National People's Congress of China"
+          description: "China's national legislature"
+        - name: "State Council of China"
+          description: "China's cabinet"
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economic-policy"
+        - "legislative-review"
+      tags:
+        - "china"
+        - "gdp-target"
+        - "national-development-planning-law"
+        - "five-year-plan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "Xinhua News Agency"
+          url: "https://english.news.cn/20260307/fd6cebfec6f4494c8e8111c118793f61/c.html"
+          publication_date: "2026-03-06"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Xinhua News Agency"
+          url: "https://english.news.cn/20260305/1c911f4ad4464861b617dfe291a7c4ef/c.html"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+        - id: "src-001-c"
+          outlet: "Xinhua News Agency"
+          url: "https://english.news.cn/20260312/1074f7d041c941c1a401b6eecb0e42cd/c.html"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: "src-001-d"
+          outlet: "Xinhua News Agency"
+          url: "https://english.news.cn/20260305/2f29cd3cb18348f49eb7e0253670450f/c.html"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+        - id: "src-001-e"
+          outlet: "China Daily"
+          url: "https://english.news.cn/20260312/8c5b46f48eee4d308081a75eed1a1e54/c.html"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [5]
+        - id: "src-001-f"
+          outlet: "Xinhua News Agency"
+          url: "https://english.news.cn/20260309/d6e70e4840194928b590fc31bd8186b4/c.html"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "Significant volume of state media reporting indicates a highly coordinated messaging strategy around the 2026 targets."
+  - id: "evt-2026-03-06-002"
+    category: "Politics and elections"
+    subcategory: "Cross-border legal protections"
+    topics:
+      - "European Union"
+      - "Vulnerable adults"
+      - "Cross-border rights"
+      - "Council position"
+      - "Cross-border legal protections"
+    importance: 4
+    headline: "EU Council agrees position on law to protect vulnerable adults in cross-border cases"
+    summary: >
+      On March 6, 2026, the Council of the European Union reached a common position on a
+      landmark regulation designed to protect the rights of vulnerable adults in
+      cross-border situations. The agreement, chaired by Cyprus's Justice Minister Costas
+      Fytiris, establishes clear rules for jurisdiction and introduces a "European
+      certificate of support and representation" to facilitate the recognition of powers
+      across member states. This marks a significant advancement in EU social policy, aiming
+      to provide greater autonomy and legal certainty for a particularly vulnerable
+      population moving within the single market.
+    key_data: []
+    details:
+      what_happened:
+        - "The Council of the European Union formally agreed upon its common position on the proposed regulation concerning the protection of vulnerable adults."
+        - "The regulation clarifies which court or authority has jurisdiction in cross-border cases involving property sales, medical care abroad, or placement in care facilities."
+        - "A key element of the agreement is the creation of a 'European certificate of support and representation' to streamline the recognition of a chosen representative's authority in another member state."
+        - "The Council decided to remove a proposal for interconnected national protection registers at this stage to reduce administrative burdens on member states."
+      why_it_matters:
+        - "This regulation addresses a long-standing gap in EU law, providing crucial protections for a highly vulnerable group who may be unable to advocate for themselves."
+        - "The introduction of the 'European certificate' is a practical tool that could significantly simplify legal processes for families and caregivers navigating different national systems, enhancing personal autonomy."
+        - "The agreement represents a tangible step towards building a Social Europe, demonstrating a commitment to fundamental rights and social cohesion beyond purely economic integration."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Council of the European Union"
+        - "European Commission"
+      secondary:
+        - "Republic of Cyprus"
+        - "European Parliament"
+        - "Member State governments"
+        - "Advocacy groups for persons with disabilities"
+    entities:
+      people:
+        - name: "Costas Fytiris"
+          role: "Cypriot official cited in the report"
+      organizations:
+        - name: "Council of the European Union"
+          description: "EU body of member-state ministers"
+        - name: "European Parliament"
+          description: "Legislature of the European Union"
+        - name: "European Commission"
+          description: "Executive branch of the European Union"
+      states:
+        - "European Union"
+    geography:
+      countries:
+        - "European Union"
+      places:
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "eu-legislation"
+        - "council-position"
+      tags:
+        - "european-union"
+        - "vulnerable-adults"
+        - "cross-border-law"
+        - "certificate-of-support-and-representation"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "Council of the European Union"
+          url: "https://www.consilium.europa.eu/en/press/press-releases/2026/03/06/council-agrees-position-on-eu-law-to-protect-vulnerable-adults"
+          publication_date: "2026-03-06"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-06-003"
+    category: "International relations"
+    subcategory: "Environmental and ethical standards"
+    topics:
+      - "EU-Mercosur"
+      - "Animal welfare"
+      - "Trade agreement"
+      - "Environmental and ethical standards"
+      - "European Union"
+      - "Argentina"
+    importance: 3
+    headline: "EU-Mercosur Free Trade Agreement Faces Scrutiny Over Animal Welfare Concerns"
+    summary: >
+      While the EU-Mercosur Free Trade Agreement (EMTA) was signed some time prior, March 6,
+      2026, falls within a period of intense public debate regarding its provisional
+      implementation. Late in February 2026, President Ursula von der Leyen had announced
+      the move forward with provisional application, but this has been met with fierce
+      opposition from animal welfare organizations like Eurogroup for Animals. Critics argue
+      that the agreement will undermine EU standards by facilitating the importation of beef
+      and poultry from Mercosur countries where intensive livestock farming practices may be
+      unlawful under EU law, creating a damaging regulatory asymmetry.
+    key_data: []
+    details:
+      what_happened:
+        - "The European Commission, under President Ursula von der Leyen, moved forward with the provisional implementation of the EU-Mercosur Free Trade Agreement (EMTA)."
+        - "This move created a window for public and parliamentary scrutiny, leading to strong criticism from animal welfare advocates."
+        - "Organizations such as Eurogroup for Animals condemned the EMTA, warning it would lead to a surge in intensive livestock farming in Mercosur nations to meet EU market demand."
+        - "Critics highlighted the lack of binding conditionality mechanisms within the agreement's sustainability chapters, arguing they are insufficient to counteract the negative consequences on animal welfare."
+      why_it_matters:
+        - "The controversy surrounding the EMTA exemplifies a growing global tension between the principles of free trade and the enforcement of social and environmental values."
+        - "The failure of the agreement's sustainability provisions to be legally binding is a critical weakness that directly fuels the criticism and complicates the path to full ratification by the European Parliament."
+        - "The debate demonstrates the increasing power of civil society and NGOs to shape the discourse around international trade deals, challenging purely economic justifications and demanding greater accountability."
+      uncertainty_notes:
+        - "Based on a legal-blog commentary rather than news reporting; it describes an ongoing debate, not a dated event."
+    actors:
+      primary:
+        - "European Commission"
+        - "Mercosur bloc"
+        - "Eurogroup for Animals"
+      secondary:
+        - "Daniel Pérez Vega"
+        - "European Parliament"
+        - "EU Member States"
+        - "Mercosur agricultural producers"
+    entities:
+      people:
+        - name: "Ursula von der Leyen"
+          role: "President of the European Commission"
+        - name: "Daniel Pérez Vega"
+          role: "Spokesperson cited in the report"
+      organizations:
+        - name: "European Commission"
+          description: "Executive branch of the European Union"
+        - name: "Eurogroup for Animals"
+          description: "European animal-welfare advocacy group"
+        - name: "Mercosur"
+          description: "South American trade bloc"
+        - name: "World Economic Forum"
+          description: "International business and policy organization"
+      states:
+        - "European Union"
+        - "Argentina"
+        - "Brazil"
+        - "Paraguay"
+        - "Uruguay"
+    geography:
+      countries:
+        - "European Union"
+        - "Argentina"
+        - "Brazil"
+        - "Paraguay"
+        - "Uruguay"
+      places:
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "trade-dispute"
+        - "ratification-challenge"
+      tags:
+        - "eu-mercosur"
+        - "animal-welfare"
+        - "trade-policy"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Official Blog of UNIO"
+          url: "https://officialblogofunio.com/2026/03/06/article-13-tfeu-between-symbolism-and-effectiveness-animal-sentience-in-european-constitutionalism"
+          publication_date: "2026-03-06"
+          source_type: "ngo_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "low"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-06-004"
+    category: "Politics and elections"
+    subcategory: "Vote count"
+    topics:
+      - "Nepal elections"
+      - "Generational shift"
+      - "Vote count"
+      - "Nepal"
+    importance: 6
+    headline: "Nepal's early vote count puts ex-rapper's party ahead"
+    summary: >
+      Early counting from Nepal's parliamentary election showed the Rastriya Swatantra Party
+      (RSP) leading in 100 of 137 seats counted by March 6. Reuters reported that the RSP, a
+      young anti-establishment force associated with rapper-turned-politician Balendra Shah,
+      was set to sweep the election and was on course for a lower-house majority. The result
+      represented a major setback for established parties and pointed to one of the sharpest
+      democratic realignments in Nepal's post-monarchy era.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that the RSP was set to sweep the election and was leading in 100 of 137 seats counted."
+        - "The result represented a major setback for established parties."
+        - "Balendra Shah, a former rapper and Kathmandu mayor, was positioned as the party's prime ministerial candidate."
+        - "The surge came at the expense of long-dominant parties including the Nepali Congress and the CPN-UML."
+      why_it_matters:
+        - "A strong RSP result could reduce Nepal's chronic coalition instability and reshape domestic governance."
+        - "The result also showed how protest energy had translated into electoral change rather than only street mobilisation."
+      uncertainty_notes:
+        - "Final seat totals were not yet certified on March 7."
+    actors:
+      primary:
+        - "Rastriya Swatantra Party"
+        - "Balendra Shah"
+        - "Election Commission Nepal"
+      secondary:
+        - "Nepali Congress"
+        - "CPN-UML"
+    entities:
+      people:
+        - name: "Balendra Shah"
+          role: "Rastriya Swatantra Party leader and former Mayor of Kathmandu"
+        - name: "Rabi Lamichhane"
+          role: "Founder of the Rastriya Swatantra Party"
+        - name: "K.P. Sharma Oli"
+          role: "Former Prime Minister of Nepal; CPN-UML chairman"
+      organizations:
+        - name: "Rastriya Swatantra Party"
+          description: "Nepali political party"
+        - name: "Election Commission Nepal"
+          description: "Nepal's electoral authority"
+        - name: "Nepali Congress"
+          description: "Nepali political party"
+        - name: "CPN-UML"
+          description: "Communist Party of Nepal (Unified Marxist–Leninist)"
+      states:
+        - "Nepal"
+    geography:
+      countries:
+        - "Nepal"
+      places:
+        - "Kathmandu"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election"
+        - "vote-count"
+        - "party-system-shift"
+      tags:
+        - "nepal"
+        - "rsp"
+        - "balendra-shah"
+        - "election"
+        - "generational-shift"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/nepals-early-vote-count-puts-ex-rappers-party-ahead-2026-03-06"
+          publication_date: "2026-03-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-06-005"
+    category: "Law and crime"
+    subcategory: "Maritime security and sanctions"
+    topics:
+      - "Baltic Sea"
+      - "Sanctions enforcement"
+      - "Maritime documentation fraud"
+      - "Maritime security and sanctions"
+      - "Sweden"
+    importance: 5
+    headline: "Swedish coast guard boards freighter Caffa in the Baltic Sea"
+    summary: >
+      Sweden boarded the Caffa after questions arose over its flag and legal status. The
+      Swedish coast guard boarded the freighter Caffa in the Baltic Sea on March 6 because
+      of uncertainty about its legal status. Officials said the vessel's ownership and
+      insurance arrangements were unclear and that it appeared on a Ukrainian sanctions
+      list.
+    key_data: []
+    details:
+      what_happened:
+        - "The Swedish coast guard boarded the freighter Caffa in the Baltic Sea on March 6 because of uncertainty about its legal status."
+        - "Officials said the vessel's ownership and insurance arrangements were unclear and that it appeared on a Ukrainian sanctions list."
+        - "Swedish authorities said the ship had used a false flag and one crew member was notified of suspected offences."
+      why_it_matters:
+        - "The incident fed wider regional concern about opaque shipping activity in the Baltic during a period of heightened security scrutiny."
+        - "False-flag operation raises both legal and sanctions-enforcement questions."
+      uncertainty_notes:
+        - "The full set of alleged offences and the eventual legal outcome were not yet public."
+    actors:
+      primary:
+        - "Sweden"
+        - "Swedish coast guard"
+      secondary:
+        - "crew of the Caffa"
+    entities:
+      people: []
+      organizations:
+        - name: "Swedish Coast Guard"
+          description: "Swedish maritime enforcement agency"
+        - name: "Caffa"
+          description: "Cargo ship boarded by the Swedish coast guard"
+      states:
+        - "Sweden"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Sweden"
+      places:
+        - "Baltic Sea"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "ship-seizure"
+        - "sanctions-related-investigation"
+      tags:
+        - "baltic-sea"
+        - "sweden"
+        - "caffa"
+        - "false-flag"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/swedish-coast-guard-boards-suspected-stateless-ship-baltic-sea-2026-03-06"
+          publication_date: "2026-03-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-06-006"
+    category: "Disasters and accidents"
+    subcategory: "tornado outbreak"
+    topics:
+      - "United States"
+      - "Michigan"
+      - "severe weather"
+      - "tornado outbreak"
+    importance: 5
+    headline: "Tornadoes and severe storms strike southern Michigan"
+    summary: >
+      Storms and suspected tornadoes struck southern Michigan on March 6 into March 7,
+      killing four people. The National Weather Service documented tornado damage in
+      southern Michigan from the March 6 event. AP reported four deaths in Michigan,
+      including a 12-year-old boy, and 12 injuries in the Union Lake area.
+    key_data: []
+    details:
+      what_happened:
+        - "Storms and suspected tornadoes struck southern Michigan on March 6 into March 7, killing four people."
+        - "AP reported four deaths in Michigan, including a 12-year-old boy, and 12 injuries in the Union Lake area."
+        - "The National Weather Service documented tornado damage in southern Michigan from the March 6 event."
+        - "The National Weather Service said an initial assessment confirmed an EF3 tornado."
+      why_it_matters:
+        - "The event showed the destructive force of early-season tornado activity in heavily populated rural communities."
+        - "Confirmed EF3 intensity and repeated impacts on the same area underscored infrastructure and shelter vulnerability."
+      uncertainty_notes:
+        - "Damage surveys and injury totals were still evolving as search operations continued."
+    actors:
+      primary:
+        - "Michigan authorities"
+        - "National Weather Service"
+      secondary:
+        - "Branch County Sheriff's Office"
+    entities:
+      people: []
+      organizations:
+        - name: "National Weather Service"
+          description: "U.S. federal weather agency"
+        - name: "Branch County Sheriff's Office"
+          description: "County law enforcement in Michigan"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Michigan"
+        - "Union City"
+        - "Union Lake"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: 12
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Homes were flattened or damaged, roads were blocked by debris and power outages affected residents."
+    classification:
+      event_type:
+        - "tornado"
+        - "severe-storm"
+      tags:
+        - "michigan"
+        - "tornadoes"
+        - "union-city"
+        - "ef3"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A wave of severe weather and a related tornado outbreak, kill at least eight people and cause widespread damage in the central United States."
+      external:
+        - id: "src-006-a"
+          outlet: "National Weather Service"
+          url: "https://www.weather.gov/iwx/03062026_LowerMichiganTornadoes"
+          publication_date: "2026-03-07"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-06-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "clash with armed gangs"
+    topics:
+      - "Nigeria"
+      - "Katsina"
+      - "bandit violence"
+      - "clash with armed gangs"
+    importance: 6
+    headline: "Bandits launch deadly return attack in Nigeria's Katsina state"
+    summary: >
+      A deadly clash occurred in Katsina state's Danmusa area after an attempted cattle
+      theft on March 5 was followed by a larger return attack by bandits on March 6. AP
+      reported that the clashes followed a failed cattle theft and a return attack by
+      bandits in Danmusa. Authorities said the army killed 45 attackers in the fighting.
+    key_data: []
+    details:
+      what_happened:
+        - "The clash occurred in Katsina state's Danmusa area after an attempted cattle theft on March 5 was followed by a larger return attack on March 6."
+        - "Authorities said the army killed 45 attackers in the fighting."
+        - "Reuters reported that one army captain and two soldiers were also killed."
+        - "AP said the Katsina state government described the attackers as bandits seeking revenge after the failed theft."
+      why_it_matters:
+        - "The episode underscored the scale of organised armed violence in northwestern Nigeria outside the country's better-known northeastern insurgency theatre."
+        - "Cattle-rustling violence continues to destabilise rural communities and strain state security forces."
+      uncertainty_notes:
+        - "The casualty and attacker figures were based on official accounts and were not independently verified."
+    actors:
+      primary:
+        - "Nigerian army"
+        - "armed gangs in Katsina"
+      secondary:
+        - "Katsina state government"
+    entities:
+      people: []
+      organizations:
+        - name: "Nigerian army"
+          description: "Army of Nigeria"
+        - name: "Katsina state government"
+          description: "Government of Katsina State, Nigeria"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Katsina state"
+        - "Danmusa area"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 48
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-clash"
+        - "bandit-attack"
+      tags:
+        - "nigeria"
+        - "katsina"
+        - "bandits"
+        - "army"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/nigeria-militants-katsina-army-8831792a02af5d04d70706fb66776442"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-06-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Protests against the 2026 Iran war in the United States"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "Protests against the 2026 Iran war"
+      - "Protests against the 2026 Iran war in the United States"
+    importance: 4
+    headline: "Iranian diaspora and anti-war protesters clash at a Khamenei vigil in New York"
+    summary: >
+      Iranian diaspora protesters clash with anti-war protesters at a Ali Khamenei vigil at
+      Washington Square Park in New York City, United States.
+    key_data: []
+    details:
+      what_happened:
+        - "Iranian diaspora protesters clash with anti-war protesters at a Ali Khamenei vigil at Washington Square Park in New York City, United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington Square Park"
+        - "New York City"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "protest"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "protests-against-the-2026-iran-war"
+        - "protests-against-the-2026-iran-war-in-the-united-states"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iranian diaspora protesters clash with anti-war protesters at a Ali Khamenei vigil at Washington Square Park in New York City, United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-027"
+      - "evt-2026-03-06-029"
+    notes: "Portal-derived event with no deep-research coverage; reported by Times of Israel per the Wikipedia portal."
+  - id: "evt-2026-03-06-009"
+    category: "Armed conflicts and attacks"
+    subcategory: "Protests against the 2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "Protests against the 2026 Iran war"
+    importance: 4
+    headline: "Rally in Sanaa in solidarity with Iran and Lebanon"
+    summary: >
+      Demonstrators in Sanaa, Yemen, rally in solidarity with Iran and Lebanon amidst the
+      conflict.
+    key_data: []
+    details:
+      what_happened:
+        - "Demonstrators in Sanaa, Yemen, rally in solidarity with Iran and Lebanon amidst the conflict."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Yemen"
+        - "Iran"
+        - "Lebanon"
+    geography:
+      countries:
+        - "Yemen"
+        - "Iran"
+        - "Lebanon"
+      places:
+        - "Sanaa"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "protests-against-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Demonstrators in Sanaa, Yemen, rally in solidarity with Iran and Lebanon amidst the conflict."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Middle East Eye per the Wikipedia portal."
+  - id: "evt-2026-03-06-010"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Qatar"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Qatar"
+    importance: 5
+    headline: "Qatar intercepts nine Iranian drones; one strikes an uninhabited area"
+    summary: >
+      The Qatari government announces that its military had intercepted nine Iranian drones,
+      while one drone struck an uninhabited area.
+    key_data: []
+    details:
+      what_happened:
+        - "The Qatari government announces that its military had intercepted nine Iranian drones, while one drone struck an uninhabited area."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Qatar"
+        - "Iran"
+    geography:
+      countries:
+        - "Qatar"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-qatar"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Qatari government announces that its military had intercepted nine Iranian drones, while one drone struck an uninhabited area."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-011"
+      - "evt-2026-03-06-014"
+      - "evt-2026-03-06-016"
+    notes: "Portal-derived event with no deep-research coverage; reported by QNA via Gulf Times per the Wikipedia portal."
+  - id: "evt-2026-03-06-011"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Qatar"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Qatar"
+    importance: 5
+    headline: "Qatar partially reopens its airspace via contingency routes"
+    summary: >
+      The Qatar Civil Aviation Authority partially reopens the country's airspace through
+      designated contingency routes with limited capacity. Operations initially included
+      evacuation flights for stranded passengers and air cargo services.
+    key_data: []
+    details:
+      what_happened:
+        - "The Qatar Civil Aviation Authority partially reopens the country's airspace through designated contingency routes with limited capacity. Operations initially included evacuation flights for stranded passengers and air cargo services."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Qatar Civil Aviation Authority"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Qatar Civil Aviation Authority"
+          description: "Qatar's aviation regulator"
+      states:
+        - "Qatar"
+    geography:
+      countries:
+        - "Qatar"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-qatar"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Qatar Civil Aviation Authority partially reopens the country's airspace through designated contingency routes with limited capacity. Operations initially included evacuation flights for stranded passengers and air cargo services."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-010"
+      - "evt-2026-03-06-014"
+      - "evt-2026-03-06-016"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Deccan Chronicle per the Wikipedia portal."
+  - id: "evt-2026-03-06-012"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025–2026 Iran–United States negotiations"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2025–2026 Iran–United States negotiations"
+    importance: 8
+    headline: "Trump demands Iran's 'unconditional surrender' and rules out talks"
+    summary: >
+      United States president Donald Trump calls for the "unconditional surrender" of Iran,
+      saying there will be no deal or further talks. This comes after Iranian president
+      Masoud Pezeshkian says that several countries have initiated mediation efforts to end
+      the war.
+    key_data: []
+    details:
+      what_happened:
+        - "United States president Donald Trump calls for the \"unconditional surrender\" of Iran, saying there will be no deal or further talks. This comes after Iranian president Masoud Pezeshkian says that several countries have initiated mediation efforts to end the war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+      secondary: []
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations: []
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2025-2026-iran-united-states-negotiations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "United States president Donald Trump calls for the \"unconditional surrender\" of Iran, saying there will be no deal or further talks. This comes after Iranian president Masoud Pezeshkian says that several countries have initiated mediation efforts to end the war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-06-013"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Azerbaijan"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Azerbaijan"
+    importance: 6
+    headline: "Azerbaijan says it thwarted an IRGC-plotted terror attack"
+    summary: >
+      Azerbaijan's State Security Service affirms it has thwarted a terror attack plotted by
+      Iran's Islamic Revolutionary Guard Corps, including possible strikes against the
+      Baku-Tbilisi-Ceyhan pipeline.
+    key_data: []
+    details:
+      what_happened:
+        - "Azerbaijan's State Security Service affirms it has thwarted a terror attack plotted by Iran's Islamic Revolutionary Guard Corps, including possible strikes against the Baku-Tbilisi-Ceyhan pipeline."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "State Security Service of Azerbaijan"
+        - "Islamic Revolutionary Guard Corps"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "State Security Service of Azerbaijan"
+          description: "Azerbaijan's domestic security agency"
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military and security force"
+      states:
+        - "Azerbaijan"
+        - "Iran"
+    geography:
+      countries:
+        - "Azerbaijan"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-azerbaijan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Azerbaijan's State Security Service affirms it has thwarted a terror attack plotted by Iran's Islamic Revolutionary Guard Corps, including possible strikes against the Baku-Tbilisi-Ceyhan pipeline."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Euronews per the Wikipedia portal."
+  - id: "evt-2026-03-06-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Bahrain"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Bahrain"
+    importance: 5
+    headline: "Bahrain reports 84 missiles and 147 drones destroyed since the war began"
+    summary: >
+      The Bahraini military announces that its air defence continue to intercept successive
+      waves of Iranian attacks, with 84 missiles and 147 drones destroyed since the onset of
+      hostilities.
+    key_data: []
+    details:
+      what_happened:
+        - "The Bahraini military announces that its air defence continue to intercept successive waves of Iranian attacks, with 84 missiles and 147 drones destroyed since the onset of hostilities."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Bahrain"
+        - "Iran"
+    geography:
+      countries:
+        - "Bahrain"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-bahrain"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Bahraini military announces that its air defence continue to intercept successive waves of Iranian attacks, with 84 missiles and 147 drones destroyed since the onset of hostilities."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-010"
+      - "evt-2026-03-06-011"
+      - "evt-2026-03-06-016"
+    notes: "Portal-derived event with no deep-research coverage; reported by Emirates News Agency per the Wikipedia portal."
+  - id: "evt-2026-03-06-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on the Kurdistan Region"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on the Kurdistan Region"
+    importance: 5
+    headline: "Drones hit a hotel in Erbil, Iraqi Kurdistan"
+    summary: >
+      Drones hit a hotel in Erbil, Iraqi Kurdistan.
+    key_data: []
+    details:
+      what_happened:
+        - "Drones hit a hotel in Erbil, Iraqi Kurdistan."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iraq"
+    geography:
+      countries:
+        - "Iraq"
+      places:
+        - "Erbil"
+        - "Kurdistan Region"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-the-kurdistan-region"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Drones hit a hotel in Erbil, Iraqi Kurdistan."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Iraqi News per the Wikipedia portal."
+  - id: "evt-2026-03-06-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Saudi Arabia"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Saudi Arabia"
+    importance: 7
+    headline: "Iranian ballistic missile strikes Prince Sultan Air Base in Saudi Arabia"
+    summary: >
+      An Iranian ballistic missile strikes Prince Sultan Air Base in Riyadh Province, Saudi
+      Arabia. The Saudi defense ministry says air defenses intercepted three missiles
+      launched to the base, as well as four drones east of the province.
+    key_data: []
+    details:
+      what_happened:
+        - "An Iranian ballistic missile strikes Prince Sultan Air Base in Riyadh Province, Saudi Arabia. The Saudi defense ministry says air defenses intercepted three missiles launched to the base, as well as four drones east of the province."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Saudi Arabia"
+        - "Iran"
+    geography:
+      countries:
+        - "Saudi Arabia"
+        - "Iran"
+      places:
+        - "Prince Sultan Air Base"
+        - "Riyadh Province"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-saudi-arabia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An Iranian ballistic missile strikes Prince Sultan Air Base in Riyadh Province, Saudi Arabia. The Saudi defense ministry says air defenses intercepted three missiles launched to the base, as well as four drones east of the province."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-010"
+      - "evt-2026-03-06-011"
+      - "evt-2026-03-06-014"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Caspian Post and Saudi Gazette per the Wikipedia portal."
+  - id: "evt-2026-03-06-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+    importance: 5
+    headline: "Israeli Heron drone shot down over Iran's Khuzestan province"
+    summary: >
+      An Israeli IAI Heron UAV is shot down over Khuzestan province, Iran.
+    key_data: []
+    details:
+      what_happened:
+        - "An Israeli IAI Heron UAV is shot down over Khuzestan province, Iran."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+        - "Israel"
+    geography:
+      countries:
+        - "Iran"
+        - "Israel"
+      places:
+        - "Khuzestan province"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An Israeli IAI Heron UAV is shot down over Khuzestan province, Iran."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Aviation Safety Network per the Wikipedia portal."
+  - id: "evt-2026-03-06-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+    importance: 6
+    headline: "U.S. Apache helicopters strike Popular Mobilization Forces positions near Mosul"
+    summary: >
+      U.S. Army AH-64 Apache helicopters launch air-to-surface missiles at Popular
+      Mobilization Forces positions near Mosul, Iraq.
+    key_data: []
+    details:
+      what_happened:
+        - "U.S. Army AH-64 Apache helicopters launch air-to-surface missiles at Popular Mobilization Forces positions near Mosul, Iraq."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Popular Mobilization Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Popular Mobilization Forces"
+          description: "Iraqi state-sanctioned umbrella of mostly Shia militias"
+      states:
+        - "United States"
+        - "Iraq"
+    geography:
+      countries:
+        - "United States"
+        - "Iraq"
+      places:
+        - "Mosul"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "U.S. Army AH-64 Apache helicopters launch air-to-surface missiles at Popular Mobilization Forces positions near Mosul, Iraq."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Iraqi News and Shafaq per the Wikipedia portal."
+  - id: "evt-2026-03-06-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+    importance: 8
+    headline: "Iranian Red Crescent puts death toll from U.S.-Israeli air campaign at 1,332"
+    summary: >
+      The Iranian Red Crescent Society reports the death toll from the Israeli and American
+      air campaign in Iran has risen to 1,332.
+    key_data: []
+    details:
+      what_happened:
+        - "The Iranian Red Crescent Society reports the death toll from the Israeli and American air campaign in Iran has risen to 1,332."
+      why_it_matters: []
+      uncertainty_notes:
+        - "Cumulative toll since the start of the air campaign, not a single-day figure."
+    actors:
+      primary:
+        - "Iranian Red Crescent Society"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Iranian Red Crescent Society"
+          description: "Iran's national humanitarian society"
+      states:
+        - "Iran"
+        - "United States"
+        - "Israel"
+    geography:
+      countries:
+        - "Iran"
+        - "United States"
+        - "Israel"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1332
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Iranian Red Crescent Society reports the death toll from the Israeli and American air campaign in Iran has risen to 1,332."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Turkiye Today per the Wikipedia portal."
+  - id: "evt-2026-03-06-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Hezbollah–Israel war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Hezbollah–Israel war"
+    importance: 7
+    headline: "Israeli raids on Al-Nabi Shayth in Lebanon's Beqaa Valley kill at least 41"
+    summary: >
+      At least 41 people are killed, including three soldiers, and 40 more injured in
+      Israeli air and ground raids on Al-Nabi Shayth, Beqaa Valley. The Israeli commandos
+      tried unsuccessfully to locate and take away the remains of missing pilot Ron Arad.
+    key_data: []
+    details:
+      what_happened:
+        - "At least 41 people are killed, including three soldiers, and 40 more injured in Israeli air and ground raids on Al-Nabi Shayth, Beqaa Valley. The Israeli commandos tried unsuccessfully to locate and take away the remains of missing pilot Ron Arad."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Lebanon"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Israel"
+      places:
+        - "Al-Nabi Shayth"
+        - "Beqaa Valley"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 41
+      injured: 40
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-hezbollah-israel-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 41 people are killed, including three soldiers, and 40 more injured in Israeli air and ground raids on Al-Nabi Shayth, Beqaa Valley. The Israeli commandos tried unsuccessfully to locate and take away the remains of missing pilot Ron Arad."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-021"
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera and The Guardian per the Wikipedia portal."
+  - id: "evt-2026-03-06-021"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Hezbollah–Israel war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Hezbollah–Israel war"
+    importance: 5
+    headline: "Three Ghanaian UN peacekeepers injured by Israeli strike in southern Lebanon"
+    summary: >
+      Three Ghanaian peacekeepers are injured in an Israeli missile strike in southern
+      Lebanon.
+    key_data: []
+    details:
+      what_happened:
+        - "Three Ghanaian peacekeepers are injured in an Israeli missile strike in southern Lebanon."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "UNIFIL"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "UNIFIL"
+          description: "UN Interim Force in Lebanon"
+      states:
+        - "Lebanon"
+        - "Ghana"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Ghana"
+        - "Israel"
+      places:
+        - "Southern Lebanon"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 3
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-hezbollah-israel-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Three Ghanaian peacekeepers are injured in an Israeli missile strike in southern Lebanon."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-020"
+    notes: "Portal-derived event with no deep-research coverage; reported by France 24 per the Wikipedia portal."
+  - id: "evt-2026-03-06-022"
+    category: "Armed conflicts and attacks"
+    subcategory: "Operation Southern Spear"
+    topics:
+      - "Ecuadorian conflict"
+      - "Operation Southern Spear"
+    importance: 6
+    headline: "U.S. carries out airstrikes on narcoterrorists in Ecuador at Quito's request"
+    summary: >
+      The U.S. defense department says its military has carried out airstrikes on
+      narcoterrorists in Ecuador at the request of the Ecuadorian government, targeting a
+      camp belonging to a faction of the FARC dissidents at the border with Colombia.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.S. defense department says its military has carried out airstrikes on narcoterrorists in Ecuador at the request of the Ecuadorian government, targeting a camp belonging to a faction of the FARC dissidents at the border with Colombia."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Ecuador"
+        - "Colombia"
+    geography:
+      countries:
+        - "United States"
+        - "Ecuador"
+        - "Colombia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+      tags:
+        - "ecuadorian-conflict"
+        - "operation-southern-spear"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The U.S. defense department says its military has carried out airstrikes on narcoterrorists in Ecuador at the request of the Ecuadorian government, targeting a camp belonging to a faction of the FARC dissidents at the border with Colombia."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-06-023"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Afghanistan–Pakistan war"
+    topics:
+      - "2026 Afghanistan–Pakistan war"
+    importance: 6
+    headline: "UNHCR says at least 100,000 displaced by Afghanistan–Pakistan fighting"
+    summary: >
+      The United Nations High Commissioner for Refugees reports at least 100,000 civilians
+      have now been displaced from their homes due to the fighting between Afghanistan and
+      Pakistan, while Afghan forces say they have destroyed 14 more Pakistani military
+      outposts along the border and downed a drone.
+    key_data: []
+    details:
+      what_happened:
+        - "The United Nations High Commissioner for Refugees reports at least 100,000 civilians have now been displaced from their homes due to the fighting between Afghanistan and Pakistan, while Afghan forces say they have destroyed 14 more Pakistani military outposts along the border and downed a drone."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "UNHCR"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "UNHCR"
+          description: "UN refugee agency"
+      states:
+        - "Afghanistan"
+        - "Pakistan"
+    geography:
+      countries:
+        - "Afghanistan"
+        - "Pakistan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 100000
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "2026-afghanistan-pakistan-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United Nations High Commissioner for Refugees reports at least 100,000 civilians have now been displaced from their homes due to the fighting between Afghanistan and Pakistan, while Afghan forces say they have destroyed 14 more Pakistani military outposts along the border and downed a drone."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Sky News per the Wikipedia portal."
+  - id: "evt-2026-03-06-024"
+    category: "Armed conflicts and attacks"
+    subcategory: "Sudanese civil war"
+    topics:
+      - "Sudanese civil war"
+    importance: 6
+    headline: "Sudanese army recaptures Barah in North Kordofan from the RSF"
+    summary: >
+      The Sudanese military recaptures the town of Barah in North Kordofan, Sudan, following
+      a ground assault backed by airstrikes against the Rapid Support Forces (RSF),
+      reportedly inflicting heavy losses on the RSF and destroying 32 RSF combat vehicles.
+    key_data: []
+    details:
+      what_happened:
+        - "The Sudanese military recaptures the town of Barah in North Kordofan, Sudan, following a ground assault backed by airstrikes against the Rapid Support Forces (RSF), reportedly inflicting heavy losses on the RSF and destroying 32 RSF combat vehicles."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Rapid Support Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Rapid Support Forces"
+          description: "Sudanese paramilitary force at war with the Sudanese army"
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places:
+        - "Barah"
+        - "North Kordofan"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+      tags:
+        - "sudanese-civil-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Sudanese military recaptures the town of Barah in North Kordofan, Sudan, following a ground assault backed by airstrikes against the Rapid Support Forces (RSF), reportedly inflicting heavy losses on the RSF and destroying 32 RSF combat vehicles."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-03-06-025"
+    category: "Armed conflicts and attacks"
+    subcategory: "Prisoners of war in the Russo-Ukrainian war"
+    topics:
+      - "Russo-Ukrainian war"
+      - "Prisoners of war in the Russo-Ukrainian war"
+    importance: 5
+    headline: "Russia and Ukraine exchange 300 prisoners of war each"
+    summary: >
+      Russia and Ukraine exchange prisoners of war, with 300 soldiers returned to each side.
+    key_data: []
+    details:
+      what_happened:
+        - "Russia and Ukraine exchange prisoners of war, with 300 soldiers returned to each side."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Russia"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Russia"
+        - "Ukraine"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "russo-ukrainian-war"
+        - "prisoners-of-war-in-the-russo-ukrainian-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Russia and Ukraine exchange prisoners of war, with 300 soldiers returned to each side."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Moscow Times per the Wikipedia portal."
+  - id: "evt-2026-03-06-026"
+    category: "Health and environment"
+    subcategory: "2020–2026 H5N1 outbreak"
+    topics:
+      - "2020–2026 H5N1 outbreak"
+    importance: 4
+    headline: "Japan confirms H5N1 bird flu outbreak at a Hokkaido poultry farm"
+    summary: >
+      The Japanese agriculture ministry confirms a H5N1 bird flu outbreak at a poultry farm
+      in Abira, Hokkaido.
+    key_data: []
+    details:
+      what_happened:
+        - "The Japanese agriculture ministry confirms a H5N1 bird flu outbreak at a poultry farm in Abira, Hokkaido."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Japan"
+    geography:
+      countries:
+        - "Japan"
+      places:
+        - "Abira"
+        - "Hokkaido"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "health-and-environment"
+      tags:
+        - "2020-2026-h5n1-outbreak"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Japanese agriculture ministry confirms a H5N1 bird flu outbreak at a poultry farm in Abira, Hokkaido."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by MENAFN per the Wikipedia portal."
+  - id: "evt-2026-03-06-027"
+    category: "Law and crime"
+    subcategory: "2026 Iranian diaspora protests"
+    topics:
+      - "2026 Iranian diaspora protests"
+    importance: 4
+    headline: "Moscow police detain Iranians who publicly celebrated Khamenei's killing"
+    summary: >
+      Police in Moscow, Russia, detain Iranian nationals who celebrated the killing of
+      former supreme leader Ali Khamenei in public.
+    key_data: []
+    details:
+      what_happened:
+        - "Police in Moscow, Russia, detain Iranian nationals who celebrated the killing of former supreme leader Ali Khamenei in public."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Russia"
+        - "Iran"
+    geography:
+      countries:
+        - "Russia"
+        - "Iran"
+      places:
+        - "Moscow"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "2026-iranian-diaspora-protests"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Police in Moscow, Russia, detain Iranian nationals who celebrated the killing of former supreme leader Ali Khamenei in public."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-008"
+      - "evt-2026-03-06-029"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Moscow Times per the Wikipedia portal."
+  - id: "evt-2026-03-06-028"
+    category: "Law and crime"
+    subcategory: "Immigration policy of the second Trump administration"
+    topics:
+      - "Immigration policy of the second Trump administration"
+    importance: 5
+    headline: "Appeals court keeps protected status in place for more than 350,000 Haitians"
+    summary: >
+      A United States appeals court declines to allow Donald Trump's administration to end
+      temporary protected status for more than 350,000 Haitian nationals, leaving in place a
+      lower court order that blocks the policy while the case proceeds.
+    key_data: []
+    details:
+      what_happened:
+        - "A United States appeals court declines to allow Donald Trump's administration to end temporary protected status for more than 350,000 Haitian nationals, leaving in place a lower court order that blocks the policy while the case proceeds."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Haiti"
+    geography:
+      countries:
+        - "United States"
+        - "Haiti"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "immigration-policy-of-the-second-trump-administration"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A United States appeals court declines to allow Donald Trump's administration to end temporary protected status for more than 350,000 Haitian nationals, leaving in place a lower court order that blocks the policy while the case proceeds."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-06-029"
+    category: "Politics and elections"
+    subcategory: "2026 Iranian leadership crisis"
+    topics:
+      - "2026 Iranian leadership crisis"
+    importance: 5
+    headline: "Reza Pahlavi says he is ready to lead a transition in Iran"
+    summary: >
+      Exiled Iranian crown prince Reza Pahlavi, son of the late former shah Mohammad Reza
+      Pahlavi, says he is ready to lead a potential transition if the Iranian government
+      falls.
+    key_data: []
+    details:
+      what_happened:
+        - "Exiled Iranian crown prince Reza Pahlavi, son of the late former shah Mohammad Reza Pahlavi, says he is ready to lead a potential transition if the Iranian government falls."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Reza Pahlavi"
+      secondary: []
+    entities:
+      people:
+        - name: "Reza Pahlavi"
+          role: "Exiled Iranian crown prince and opposition figure"
+      organizations: []
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "2026-iranian-leadership-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Exiled Iranian crown prince Reza Pahlavi, son of the late former shah Mohammad Reza Pahlavi, says he is ready to lead a potential transition if the Iranian government falls."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-06-008"
+      - "evt-2026-03-06-027"
+    notes: "Portal-derived event with no deep-research coverage; reported by Naijan News per the Wikipedia portal."
+  - id: "evt-2026-03-06-030"
+    category: "Politics and elections"
+    subcategory: "2026 Kosovan presidential election, 2026 Kosovan parliamentary election"
+    topics:
+      - "2026 Kosovan presidential election, 2026 Kosovan parliamentary election"
+    importance: 5
+    headline: "Kosovo's president Vjosa Osmani dissolves parliament"
+    summary: >
+      Kosovan president Vjosa Osmani dissolves the Kuvendi, attempting to set new
+      parliamentary elections within 45 days. The Vetëvendosje party maintains that the
+      constitution allows parliament 60 more days to try to elect a president, seeking to
+      challenge Osmani's decree at the Constitutional Court.
+    key_data: []
+    details:
+      what_happened:
+        - "Kosovan president Vjosa Osmani dissolves the Kuvendi, attempting to set new parliamentary elections within 45 days. The Vetëvendosje party maintains that the constitution allows parliament 60 more days to try to elect a president, seeking to challenge Osmani's decree at the Constitutional Court."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Vjosa Osmani"
+        - "Vetëvendosje"
+      secondary: []
+    entities:
+      people:
+        - name: "Vjosa Osmani"
+          role: "President of Kosovo"
+      organizations:
+        - name: "Vetëvendosje"
+          description: "Kosovo's governing party"
+      states:
+        - "Kosovo"
+    geography:
+      countries:
+        - "Kosovo"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "election"
+      tags:
+        - "2026-kosovan-presidential-election-2026-kosovan-parliamentary-election"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Kosovan president Vjosa Osmani dissolves the Kuvendi, attempting to set new parliamentary elections within 45 days. The Vetëvendosje party maintains that the constitution allows parliament 60 more days to try to elect a president, seeking to challenge Osmani's decree at the Constitutional Court."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP and Balkan Insight and RKS per the Wikipedia portal."
+  - id: "evt-2026-03-06-031"
+    category: "Science and technology"
+    subcategory: "Internet in Indonesia"
+    topics:
+      - "Internet in Indonesia"
+    importance: 5
+    headline: "Indonesia to bar social media for users under 16"
+    summary: >
+      Indonesia announces that it will prohibit social media access for users under the age
+      of 16 and begin deactivating accounts belonging to minors on several major platforms
+      as part of a phased policy intended to address risks such as internet fraud and
+      excessive internet use.
+    key_data: []
+    details:
+      what_happened:
+        - "Indonesia announces that it will prohibit social media access for users under the age of 16 and begin deactivating accounts belonging to minors on several major platforms as part of a phased policy intended to address risks such as internet fraud and excessive internet use."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "science-and-technology"
+      tags:
+        - "internet-in-indonesia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Indonesia announces that it will prohibit social media access for users under the age of 16 and begin deactivating accounts belonging to minors on several major platforms as part of a phased policy intended to address risks such as internet fraud and excessive internet use."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via CNA per the Wikipedia portal."
+  - id: "evt-2026-03-06-032"
+    category: "Sports"
+    subcategory: "2026 Winter Paralympics"
+    topics:
+      - "2026 Winter Paralympics"
+    importance: 4
+    headline: "Winter Paralympics open at Verona Arena"
+    summary: >
+      The opening ceremony of the Winter Paralympics in Milan and Cortina d'Ampezzo is held
+      in Verona Arena, Verona, Italy.
+    key_data: []
+    details:
+      what_happened:
+        - "The opening ceremony of the Winter Paralympics in Milan and Cortina d'Ampezzo is held in Verona Arena, Verona, Italy."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Italy"
+    geography:
+      countries:
+        - "Italy"
+      places:
+        - "Verona Arena"
+        - "Verona"
+      coordinates: []
+    time:
+      date: "2026-03-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2026-winter-paralympics"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The opening ceremony of the Winter Paralympics in Milan and Cortina d'Ampezzo is held in Verona Arena, Verona, Italy."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+
+strategic_conclusion: >
+  The war's reach continued to extend beyond Iran and Israel, to Gulf air bases, Iraqi
+  militias, Lebanon and Azerbaijan, while Washington's call for unconditional surrender left
+  no visible diplomatic track. Casualty and displacement figures rose in several parallel
+  conflicts, including Afghanistan–Pakistan and Sudan. Political transitions were under way
+  in Nepal and Kosovo.
+
+works_cited:
+  - id: 1
+    title: "Xinhua News Agency report"
+    outlet: "Xinhua News Agency"
+    url: "https://english.news.cn/20260307/fd6cebfec6f4494c8e8111c118793f61/c.html"
+    accessed: "2026-03-06"
+  - id: 2
+    title: "Xinhua News Agency report"
+    outlet: "Xinhua News Agency"
+    url: "https://english.news.cn/20260305/1c911f4ad4464861b617dfe291a7c4ef/c.html"
+    accessed: "2026-03-05"
+  - id: 3
+    title: "Xinhua News Agency report"
+    outlet: "Xinhua News Agency"
+    url: "https://english.news.cn/20260312/1074f7d041c941c1a401b6eecb0e42cd/c.html"
+    accessed: "2026-03-12"
+  - id: 4
+    title: "Xinhua News Agency report"
+    outlet: "Xinhua News Agency"
+    url: "https://english.news.cn/20260305/2f29cd3cb18348f49eb7e0253670450f/c.html"
+    accessed: "2026-03-05"
+  - id: 5
+    title: "China Daily report"
+    outlet: "China Daily"
+    url: "https://english.news.cn/20260312/8c5b46f48eee4d308081a75eed1a1e54/c.html"
+    accessed: "2026-03-12"
+  - id: 6
+    title: "Xinhua News Agency report"
+    outlet: "Xinhua News Agency"
+    url: "https://english.news.cn/20260309/d6e70e4840194928b590fc31bd8186b4/c.html"
+    accessed: "2026-03-09"
+  - id: 7
+    title: "Council agrees position on eu law to protect vulnerable adults"
+    outlet: "Council of the European Union"
+    url: "https://www.consilium.europa.eu/en/press/press-releases/2026/03/06/council-agrees-position-on-eu-law-to-protect-vulnerable-adults"
+    accessed: "2026-03-06"
+  - id: 8
+    title: "Article 13 tfeu between symbolism and effectiveness animal sentience in european constitutionalism"
+    outlet: "Official Blog of UNIO"
+    url: "https://officialblogofunio.com/2026/03/06/article-13-tfeu-between-symbolism-and-effectiveness-animal-sentience-in-european-constitutionalism"
+    accessed: "2026-03-06"
+  - id: 9
+    title: "Nepals early vote count puts ex rappers party ahead"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/nepals-early-vote-count-puts-ex-rappers-party-ahead-2026-03-06"
+    accessed: "2026-03-06"
+  - id: 10
+    title: "Swedish coast guard boards suspected stateless ship baltic sea"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/swedish-coast-guard-boards-suspected-stateless-ship-baltic-sea-2026-03-06"
+    accessed: "2026-03-06"
+  - id: 11
+    title: "National Weather Service report"
+    outlet: "National Weather Service"
+    url: "https://www.weather.gov/iwx/03062026_LowerMichiganTornadoes"
+    accessed: "2026-03-07"
+  - id: 12
+    title: "Nigeria militants katsina army"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/nigeria-militants-katsina-army-8831792a02af5d04d70706fb66776442"
+    accessed: "2026-03-07"
+  - id: 13
+    title: "Portal:Current events/2026 March 6"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_6&oldid=1347162176"
+    accessed: "2026-09-22"

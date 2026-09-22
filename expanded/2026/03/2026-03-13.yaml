@@ -1,0 +1,2573 @@
+date: "2026-03-13"
+source_page:
+  portal: "Portal:Current events/2026 March 13"
+  language: "en"
+  wikipedia_revision_id: 1361624379
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 13 (revision 1361624379; seed 2026/03/2026-03-13.yaml) + deep-research report reference/deep-research/2026/03/2026-03-13a.md + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  On March 13, 2026, the United States said it had struck military targets on Iran's Kharg
+  Island and warned that oil sites could be next, and U.S. officials announced a
+  5,000-strong marine expeditionary unit for the Persian Gulf. All six crew of a U.S. Air
+  Force KC-135 tanker that crashed over Iraq were confirmed dead. Iranian missiles injured
+  at least 58 people in northern Israel and a missile was intercepted over Turkey, while an
+  Israeli strike on a Lebanese medical facility killed 12 medical staff. Saudi Arabia cut
+  oil production by 20% after shutting two offshore fields, and ASEAN foreign ministers
+  called for an immediate halt to the fighting.
+
+  Outside the Middle East, Pakistani airstrikes in Afghanistan killed civilians near
+  Kandahar and Kabul, a drone strike on a market on the Sudan–Chad border killed 11, and an
+  ambush in Nigeria's Plateau State killed 20 security personnel. Cuba confirmed talks with
+  the United States amid blackouts, El Salvador and the United States signed a nuclear
+  cooperation agreement, Switzerland's Federal Council adopted the Bilaterals III package
+  with the EU, and floods widened emergencies in Peru and Ecuador.
+
+events:
+  - id: "evt-2026-03-13-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "Iran"
+      - "Energy"
+      - "Shipping"
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+      - "Airstrikes"
+      - "United States"
+    importance: 8
+    headline: "U.S. says it struck military targets on Iran's Kharg Island and warns oil sites could be next"
+    summary: >
+      On March 13, 2026, President Donald Trump said U.S. forces struck military targets on
+      Iran's Kharg Island, a strategic hub for Iranian oil exports, while deliberately
+      leaving oil infrastructure untouched for the time being. Reuters and AP reported that
+      Washington paired the strike with a public warning that Iranian interference with
+      shipping through the Strait of Hormuz could trigger direct attacks on energy
+      facilities. The announcement marked a further escalation in the U.S.-Iran war and
+      highlighted the conflict's growing connection to oil markets, regional shipping
+      security, and civilian risk in Iran.
+    key_data: []
+    details:
+      what_happened:
+        - "Trump said the United States hit all military sites on Kharg Island and had, for the moment, spared the island's oil infrastructure."
+        - "Reuters described Kharg as a key Iranian oil export hub, making the strike strategically important beyond its immediate military effect."
+        - "Trump publicly warned that Iranian interference with passage through the Strait of Hormuz could lead to attacks on oil infrastructure."
+        - "AP reported that the same day also saw an explosion at Tehran's Ferdowsi Square during a Quds Day rally, underscoring the conflict's continuing reach inside Iran."
+      why_it_matters:
+        - "The strike signaled willingness by Washington to move from military targets toward threats against energy infrastructure if maritime disruption worsens."
+        - "Kharg Island's role in Iran's export system means operations there carry consequences for oil flows, shipping insurance, and broader market stability."
+        - "The public linkage between military operations and Hormuz transit raised the risk of further escalation across the Gulf."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Armed Forces"
+      secondary:
+        - "Government of Iran"
+        - "Donald Trump"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "United States Armed Forces"
+          description: "Military forces of the United States"
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+        - "United States"
+      places:
+        - "Kharg Island"
+        - "Tehran"
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Damage to military targets on Kharg Island was reported; the extent was not independently quantified."
+    classification:
+      event_type:
+        - "military-strike"
+        - "strategic-escalation"
+      tags:
+        - "iran-war"
+        - "kharg-island"
+        - "hormuz"
+        - "oil-infrastructure"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "United States president Donald Trump says that U.S. forces conducted airstrikes on military targets on Kharg Island, Iran, and warns that the U.S. may also target the island's oil infrastructure if shipping through the Strait of Hormuz is disrupted."
+      external:
+        - id: "src-001-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/us-attacks-irans-kharg-island-trump-says-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/iran-israel-us-march-13-2026-oil-prices-2a86a1f5c5997b70c6586d957074fb0c"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-13-017"
+      - "evt-2026-03-13-022"
+    notes: "Operational claims came mainly from U.S. official statements and wartime reporting."
+  - id: "evt-2026-03-13-002"
+    category: "Disasters and accidents"
+    subcategory: "Aviation accident"
+    topics:
+      - "United States"
+      - "Iraq"
+      - "Military"
+      - "Aviation accident"
+    importance: 6
+    headline: "All six U.S. service members aboard a KC-135 die in crash over Iraq"
+    summary: >
+      On March 13, 2026, the U.S. military said all six service members aboard a KC-135
+      Stratotanker that crashed in western Iraq had died. Reuters and AP reported that the
+      aircraft went down during operations connected to the regional war with Iran, while a
+      second tanker landed safely. U.S. officials said there was no evidence of hostile or
+      friendly fire, leaving the cause under investigation.
+    key_data: []
+    details:
+      what_happened:
+        - "The aircraft crashed in western Iraq and the U.S. military confirmed on March 13 that all six service members on board were dead."
+        - "A second tanker involved in the same mission landed safely, according to U.S. officials cited by Reuters and AP."
+        - "U.S. officials said the crash was not the result of hostile fire or friendly fire."
+        - "The dead included Air National Guard personnel and active-duty service members, according to AP's identification of the victims."
+      why_it_matters:
+        - "The crash added a major non-combat loss to U.S. operations in the region during an already expanding conflict."
+        - "The finding that there was no indication of hostile fire narrowed the initial possibilities but kept scrutiny on mechanical, operational, and mission-planning factors."
+        - "The accident highlighted the strain on long-range refueling and logistics missions supporting military operations across the Middle East."
+      uncertainty_notes:
+        - "The cause of the crash remained under investigation on March 13."
+    actors:
+      primary:
+        - "United States Armed Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States Armed Forces"
+          description: "Military forces of the United States"
+      states:
+        - "United States"
+        - "Iraq"
+    geography:
+      countries:
+        - "Iraq"
+        - "United States"
+      places:
+        - "western Iraq"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Aircraft destroyed in crash."
+    classification:
+      event_type:
+        - "aviation-accident"
+        - "military-loss"
+      tags:
+        - "kc-135"
+        - "u-s-military"
+        - "iraq"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States military confirms that all six crew members aboard an Air Force Boeing KC-135 Stratotanker died when the aircraft crashed in western Iraq yesterday."
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/all-six-us-service-members-killed-plane-crash-over-iraq-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: "src-002-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/c337359a58be6280dc96fdbf1cb48a5b"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The event was treated as an accident rather than a confirmed attack as of March 13."
+  - id: "evt-2026-03-13-003"
+    category: "International relations"
+    subcategory: "Regional coordination"
+    topics:
+      - "ASEAN"
+      - "Energy"
+      - "Trade"
+      - "Regional coordination"
+      - "Philippines"
+      - "Singapore"
+    importance: 5
+    headline: "ASEAN ministers call for an immediate halt to Middle East fighting as energy and trade risks mount"
+    summary: >
+      ASEAN foreign and economic ministers held special meetings on March 13, 2026, and
+      called for an immediate halt to the fighting in the Middle East, warning that the
+      conflict was already affecting Southeast Asia through higher energy prices, inflation
+      pressure, and trade disruption. Reuters reported that the Philippines, chairing ASEAN
+      in 2026, convened the discussions as concern grew over the Strait of Hormuz and
+      regional fuel vulnerability. Official ASEAN statements emphasized restraint, civilian
+      protection, stable supply chains, and stronger economic resilience measures.
+    key_data: []
+    details:
+      what_happened:
+        - "ASEAN foreign ministers met virtually on March 13 and issued a chair's statement expressing serious concern about the Middle East conflict and calling for restraint and a diplomatic solution."
+        - "ASEAN economic ministers separately issued a joint statement focused on inflation, trade, energy security, and economic resilience."
+        - "Reuters reported that ministers highlighted the region's exposure to oil and LNG disruption linked to threats around the Strait of Hormuz."
+        - "The Philippines convened the meetings in its role as 2026 ASEAN chair."
+      why_it_matters:
+        - "The meetings showed that a Middle East war had become an economic and diplomatic problem for Southeast Asia, not only a distant security issue."
+        - "ASEAN's emphasis on supply chains and energy vulnerability reflected the region's dependence on imported fuel and open shipping routes."
+        - "The coordinated foreign-policy and economic response indicated concern that a prolonged conflict could undermine growth, prices, and political stability across the bloc."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Association of Southeast Asian Nations"
+        - "Government of the Philippines"
+      secondary: []
+    entities:
+      people:
+        - name: "Ma. Theresa Lazaro"
+          role: "Secretary of Foreign Affairs of the Philippines"
+      organizations:
+        - name: "Association of Southeast Asian Nations"
+          description: "Regional organization of Southeast Asian states"
+      states:
+        - "Philippines"
+        - "Singapore"
+        - "Indonesia"
+        - "Thailand"
+        - "Vietnam"
+        - "Malaysia"
+        - "Brunei"
+        - "Cambodia"
+        - "Laos"
+        - "Myanmar"
+        - "Timor-Leste"
+    geography:
+      countries:
+        - "Philippines"
+        - "Singapore"
+        - "Indonesia"
+        - "Thailand"
+        - "Vietnam"
+        - "Malaysia"
+        - "Brunei"
+        - "Cambodia"
+        - "Laos"
+        - "Myanmar"
+        - "Timor-Leste"
+      places:
+        - "Manila"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-meeting"
+        - "regional-response"
+      tags:
+        - "asean"
+        - "middle-east-war"
+        - "energy-security"
+        - "trade"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/asean-ministers-urge-halt-middle-east-war-crisis-rattles-energy-trade-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [5]
+        - id: "src-003-b"
+          outlet: "ASEAN"
+          url: "https://asean.org/asean-chairs-statement-on-the-outcomes-of-the-special-asean-foreign-ministers-meeting-on-the-situation-in-the-middle-east"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [6]
+        - id: "src-003-c"
+          outlet: "ASEAN"
+          url: "https://asean.org/joint-statement-of-the-asean-economic-ministers-on-strengthening-aseans-economic-resilience-in-response-to-recent-global-economic-and-geopolitical-developments"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "ASEAN issued separate political and economic statements on the same day."
+  - id: "evt-2026-03-13-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border attack"
+    topics:
+      - "Afghanistan"
+      - "Pakistan"
+      - "Border conflict"
+      - "2026 Afghanistan–Pakistan war"
+      - "Cross-border attack"
+    importance: 6
+    headline: "Pakistan airstrikes in Afghanistan kill civilians and hit fuel facilities near Kandahar"
+    summary: >
+      Pakistan carried out airstrikes in Afghanistan that were publicly detailed on March
+      13, 2026, hitting Kabul and other locations as fighting between the neighbors entered
+      a third week. Reuters, AP, and U.N.-cited reporting said civilians were killed and
+      injured, while Taliban officials said fuel depots belonging to Kam Air near Kandahar
+      airport were also struck. Pakistan said the operation targeted militant hideouts and
+      support infrastructure, not civilians, leaving casualty totals and several battlefield
+      claims contested.
+    key_data: []
+    details:
+      what_happened:
+        - "AP reported that Taliban authorities said at least six civilians were killed and more than a dozen injured in strikes on Kabul and other areas."
+        - "Reuters cited the United Nations as saying that strikes in Kabul's Pul-e-Charkhi area killed at least four civilians and wounded fourteen."
+        - "Taliban officials said Pakistani aircraft also struck fuel depots belonging to Kam Air near Kandahar airport."
+        - "Pakistan's information ministry said the operation targeted alleged militant camps and support infrastructure as part of Operation Ghazb lil Haq."
+        - "Afghan and Pakistani officials also exchanged conflicting claims about drone activity and retaliatory strikes around Kohat."
+      why_it_matters:
+        - "The attacks marked a sharp escalation in direct cross-border military action between Pakistan and Taliban-ruled Afghanistan."
+        - "Strikes affecting residential areas and aviation fuel infrastructure raised humanitarian and civil-aviation concerns."
+        - "The conflicting narratives showed how quickly the border crisis could widen amid weak verification and overlapping insurgent threats."
+      uncertainty_notes:
+        - "Casualty totals differed by location and source; the overall toll across Afghanistan was still unclear on March 13."
+        - "Claims about retaliatory drone strikes and damage in Pakistan were disputed by the two sides."
+    actors:
+      primary:
+        - "Pakistan Armed Forces"
+      secondary:
+        - "Taliban authorities"
+        - "Tehrik-i-Taliban Pakistan"
+        - "Kam Air"
+    entities:
+      people:
+        - name: "Zabihullah Mujahid"
+          role: "Spokesman for the Taliban government of Afghanistan"
+        - name: "Attaullah Tarar"
+          role: "Minister of Information of Pakistan"
+      organizations:
+        - name: "Pakistan Air Force"
+          description: "Air force of Pakistan"
+        - name: "Kam Air"
+          description: "Afghan airline"
+        - name: "United Nations"
+          description: "Intergovernmental organization"
+      states:
+        - "Pakistan"
+        - "Afghanistan"
+    geography:
+      countries:
+        - "Afghanistan"
+        - "Pakistan"
+      places:
+        - "Kabul"
+        - "Pul-e-Charkhi"
+        - "Kandahar"
+        - "Nangarhar"
+        - "Kohat"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 6
+      injured: 15
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Residential structures in Kabul and fuel facilities near Kandahar airport were damaged."
+    classification:
+      event_type:
+        - "military-strike"
+        - "cross-border-clash"
+      tags:
+        - "pakistan"
+        - "afghanistan"
+        - "airstrikes"
+        - "kandahar"
+        - "kabul"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Six people are killed and several others injured in a Pakistani airstrike on a residential area in Kabul, Afghanistan. A fuel depot in Kandahar is also bombed."
+      external:
+        - id: "src-004-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/pakistan-bombs-fuel-depot-private-airline-near-kandahar-airport-afghan-taliban-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: "src-004-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/afghanistan-pakistan-fighting-eb61a70a88f6b44ef114e88064b84136"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "Both governments framed the operation differently, with independent verification limited during the fighting."
+  - id: "evt-2026-03-13-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Sudan"
+      - "Darfur"
+      - "Drone warfare"
+      - "Sudanese civil war"
+      - "Drone strikes"
+      - "Chad"
+    importance: 6
+    headline: "Drone strike on Adikong market near the Chad border kills 11 and wounds 23"
+    summary: >
+      Reporting on March 13, 2026, said a drone strike on the market and fuel reserves at
+      Adikong in West Darfur killed 11 people and injured 23, with victims treated across
+      the border in Adré, Chad. Reuters cited Médecins Sans Frontières, which said this was
+      the second deadly strike on the area in less than a month, while AP reported an
+      earlier lower toll as information emerged. The attack highlighted the widening use of
+      drones in Sudan's civil war and the vulnerability of civilian trading points near the
+      Chad border.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters, citing MSF, said eleven people were burned to death and twenty-three were injured when a strike hit the market and fuel reserves at Adikong."
+        - "MSF said seven of the injured were children and that the wounded were treated in Adré, Chad."
+        - "Reuters reported that this was the second deadly strike on Adikong in less than a month."
+        - "AP said initial reports had put the death toll lower before the higher casualty count was circulated in later reporting."
+        - "Human rights and aid reporting linked the incident to a broader surge in drone attacks affecting civilians in Darfur and Kordofan."
+      why_it_matters:
+        - "The strike showed how drone warfare in Sudan is increasingly hitting markets, fuel points, and other civilian lifelines."
+        - "Cross-border medical treatment in Chad illustrated the conflict's spillover burden on neighboring states and aid systems."
+        - "The changing casualty count reflected the difficulty of verification in remote war zones."
+      uncertainty_notes:
+        - "The two main reports differed on the initial death toll as casualty information evolved."
+        - "Attribution for the strike was reported through medical and humanitarian channels rather than a neutral on-site investigation."
+    actors:
+      primary: []
+      secondary:
+        - "Sudanese Armed Forces"
+        - "Rapid Support Forces"
+        - "Médecins Sans Frontières"
+    entities:
+      people: []
+      organizations:
+        - name: "Médecins Sans Frontières"
+          description: "International medical humanitarian organization"
+        - name: "Sudanese Armed Forces"
+          description: "Military of Sudan"
+        - name: "Rapid Support Forces"
+          description: "Sudanese paramilitary force at war with the Sudanese army"
+      states:
+        - "Sudan"
+        - "Chad"
+    geography:
+      countries:
+        - "Sudan"
+        - "Chad"
+      places:
+        - "Adikong"
+        - "West Darfur"
+        - "Adré"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 11
+      injured: 23
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Market area and fuel reserves were destroyed or heavily damaged."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "civilian-casualties"
+      tags:
+        - "sudan-war"
+        - "darfur"
+        - "market-strike"
+        - "drone-warfare"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Eleven people are killed and 20 others are injured in a drone strike on a fuel reserve in western Sudan."
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/drone-strike-sudan-kills-11-injures-over-20-msf-says-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [10]
+        - id: "src-005-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/sudan-darfur-war-army-drones-kordofan-0241df1e672527877fc2f2c602d48c94"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "The event was clearly reported, but casualty and attribution details were still stabilizing."
+  - id: "evt-2026-03-13-006"
+    category: "International relations"
+    subcategory: "Talks"
+    topics:
+      - "Cuba"
+      - "United States"
+      - "Energy crisis"
+      - "2026 Cuban crisis, Cuba–United States relations"
+      - "Talks"
+    importance: 6
+    headline: "Cuba confirms direct talks with the United States as blackouts and fuel shortages deepen"
+    summary: >
+      Cuban President Miguel Díaz-Canel said on March 13, 2026, that Havana had recently
+      held direct talks with the United States, publicly confirming a diplomatic channel
+      that had not previously been acknowledged in detail. Reuters and AP reported that a
+      February 25 meeting in St. Kitts involved U.S. Secretary of State Marco Rubio and Raúl
+      Guillermo Rodríguez Castro, while Cuba faced severe fuel shortages, electricity
+      instability, and a broader economic emergency. The confirmation signaled that even
+      amid a hard U.S. line toward Cuba, both sides were maintaining contact as the island's
+      crisis intensified.
+    key_data: []
+    details:
+      what_happened:
+        - "Díaz-Canel said he was directing talks for Cuba together with Raúl Castro and other officials."
+        - "Reuters and AP reported that a secret meeting took place on February 25 in St. Kitts involving Marco Rubio and Raúl Guillermo Rodríguez Castro."
+        - "Cuba was experiencing major electricity shortages and fuel scarcity, with ongoing blackouts and wider economic strain."
+        - "U.S. and Cuban officials described the contacts as related to differences between the two governments rather than a normalization process."
+      why_it_matters:
+        - "The public acknowledgment of talks indicated that Cuba's internal crisis had become significant enough to sustain direct engagement despite hostile bilateral politics."
+        - "Energy shortages and blackouts raised the stakes for migration, public order, and humanitarian conditions on the island."
+        - "The event showed that crisis management channels can persist even when broader relations remain adversarial."
+      uncertainty_notes:
+        - "Neither side publicly released a full agenda for the talks on March 13."
+    actors:
+      primary:
+        - "Government of Cuba"
+        - "United States Department of State"
+      secondary:
+        - "Miguel Díaz-Canel"
+        - "Marco Rubio"
+        - "Raúl Guillermo Rodríguez Castro"
+    entities:
+      people:
+        - name: "Miguel Díaz-Canel"
+          role: "President of Cuba"
+        - name: "Marco Rubio"
+          role: "U.S. Secretary of State"
+        - name: "Raúl Guillermo Rodríguez Castro"
+          role: "Grandson of Raúl Castro; reported Cuban interlocutor in talks with the U.S."
+        - name: "Raúl Castro"
+          role: "Former President of Cuba"
+      organizations:
+        - name: "Government of Cuba"
+          description: "Government of Cuba"
+        - name: "United States Department of State"
+          description: "U.S. foreign ministry"
+      states:
+        - "Cuba"
+        - "United States"
+        - "St. Kitts and Nevis"
+    geography:
+      countries:
+        - "Cuba"
+        - "United States"
+        - "St. Kitts and Nevis"
+      places:
+        - "Havana"
+        - "St. Kitts"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Nationwide electricity and fuel disruptions continued in Cuba."
+    classification:
+      event_type:
+        - "diplomatic-meeting"
+        - "energy-crisis"
+      tags:
+        - "cuba"
+        - "united-states"
+        - "blackouts"
+        - "fuel-shortages"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Cuban president Miguel Díaz-Canel confirms that Cuba is in talks with the U.S. to find solutions to the oil blockade in his country."
+      external:
+        - id: "src-006-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/cuban-president-under-pressure-economic-crisis-trump-address-media-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [12]
+        - id: "src-006-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/cuban-president-us-talks-differences-rubio-57eb73b8879c420abf76cf184b73ec63"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-13-023"
+    notes: "The event centered on the public confirmation of talks, not on any announced agreement."
+  - id: "evt-2026-03-13-007"
+    category: "Law and crime"
+    subcategory: "Anti-gang operation"
+    topics:
+      - "Ecuador"
+      - "Organized crime"
+      - "Curfew"
+      - "Anti-gang operation"
+      - "United States"
+    importance: 5
+    headline: "Ecuador orders nighttime curfews in four provinces for anti-gang offensive backed by U.S. support"
+    summary: >
+      Ecuador announced and formalized a curfew regime on March 13, 2026, covering four
+      violence-hit provinces as the government prepared a major offensive against organized
+      crime. Reuters reported that the 11 p.m. to 5 a.m. curfew would take effect from March
+      15 in Guayas, El Oro, Los Ríos, and Santo Domingo de los Tsáchilas, while AP reported
+      officials saying the operation would receive logistical support from the United
+      States. Local reporting on Executive Decree 329 detailed the enforcement window and
+      penalties tied to violations.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters said Ecuador imposed an overnight curfew in four provinces to facilitate military and police operations against criminal organizations."
+        - "AP reported Interior Minister John Reimberg saying the offensive would receive significant logistical support from U.S. forces."
+        - "El Universo reported that Executive Decree 329 set the curfew from March 15 to March 30, from 11 p.m. to 5 a.m."
+        - "Officials said the measures were intended to clear roads for troop and equipment movement and to intensify operations against narcotrafficking, illegal mining, and other criminal structures."
+      why_it_matters:
+        - "The decree underscored the extent to which Ecuador's security crisis was being addressed with extraordinary emergency powers and military support."
+        - "U.S. logistical backing showed the internationalization of Ecuador's anti-gang campaign."
+        - "The curfew affected major population and logistics zones, indicating a high level of state concern over criminal violence."
+      uncertainty_notes:
+        - "AP's earlier report named three provinces, while Reuters and the decree reflected a four-province curfew by March 13."
+    actors:
+      primary:
+        - "Government of Ecuador"
+      secondary:
+        - "United States Southern Command"
+        - "John Reimberg"
+        - "National Police of Ecuador"
+    entities:
+      people:
+        - name: "John Reimberg"
+          role: "Minister of the Interior of Ecuador"
+        - name: "Daniel Noboa"
+          role: "President of Ecuador"
+      organizations:
+        - name: "Government of Ecuador"
+          description: "Government of Ecuador"
+        - name: "United States Southern Command"
+          description: "U.S. military command for Latin America and the Caribbean"
+        - name: "National Police of Ecuador"
+          description: "National police of Ecuador"
+      states:
+        - "Ecuador"
+        - "United States"
+    geography:
+      countries:
+        - "Ecuador"
+        - "United States"
+      places:
+        - "Guayas"
+        - "El Oro"
+        - "Los Ríos"
+        - "Santo Domingo de los Tsáchilas"
+        - "Quito"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "security-operation"
+        - "curfew"
+      tags:
+        - "ecuador"
+        - "organized-crime"
+        - "curfew"
+        - "u-s-support"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/ecuador-declares-curfew-coastal-provinces-security-operations-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [14]
+        - id: "src-007-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/ecuador-us-military-operation-southern-command-reimberg-c699d564204fcad98625a2b87f386d70"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [15]
+        - id: "src-007-c"
+          outlet: "El Universo"
+          url: "https://www.eluniverso.com/noticias/seguridad/este-es-el-horario-de-toque-de-queda-que-regira-en-guayas-los-rios-santo-domingo-de-los-tsachilas-y-el-oro-nota"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The security package combined emergency decree powers, curfew enforcement, and planned raids."
+  - id: "evt-2026-03-13-008"
+    category: "International relations"
+    subcategory: "Diplomacy"
+    topics:
+      - "Switzerland"
+      - "European Union"
+      - "Trade"
+      - "Diplomacy"
+    importance: 5
+    headline: "Swiss Federal Council adopts Bilaterals III package to stabilize and deepen ties with the European Union"
+    summary: >
+      Switzerland's Federal Council said on March 13, 2026, that it had adopted the dispatch
+      and draft laws for the Bilaterals III package and sent them to parliament, advancing a
+      major effort to stabilize and develop relations with the European Union. Reuters
+      reported that Bern framed stable ties with neighboring Europe as strategically
+      important for the export-oriented Swiss economy. The package built on a political
+      agreement reached in principle in late 2024 and represented one of the most
+      consequential Swiss-EU integration steps in years.
+    key_data: []
+    details:
+      what_happened:
+        - "The Federal Council approved the Bilaterals III package and transmitted it to parliament for consideration."
+        - "Swiss officials said the package was intended to stabilize and future-proof the bilateral relationship with the EU."
+        - "Reuters reported that the government linked the package to economic certainty and prosperity for Switzerland's export-led economy."
+        - "The move followed an earlier political agreement in principle between Switzerland and the EU reached in December 2024."
+      why_it_matters:
+        - "The package was a major institutional step in a relationship that has long mattered for Swiss trade, labor mobility, and regulatory coordination."
+        - "Sending the dispatch to parliament moved the issue from diplomatic negotiation into the domestic ratification arena, where political resistance remained possible."
+        - "The decision reflected the strategic weight Switzerland assigns to stable access and legal certainty in its dealings with the EU."
+      uncertainty_notes:
+        - "Parliamentary debate and any referendum process still lay ahead after the Federal Council decision."
+    actors:
+      primary:
+        - "Swiss Federal Council"
+      secondary:
+        - "European Union"
+    entities:
+      people: []
+      organizations:
+        - name: "Swiss Federal Council"
+          description: "Executive of Switzerland"
+        - name: "European Union"
+          description: "Political and economic union of 27 European states"
+      states:
+        - "Switzerland"
+        - "European Union"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Bern"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "policy-announcement"
+        - "treaty-process"
+      tags:
+        - "switzerland"
+        - "european-union"
+        - "bilaterals-iii"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/swiss-federal-council-adopts-draft-law-deepen-ties-with-eu-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [17]
+        - id: "src-008-b"
+          outlet: "Swiss Federal Administration"
+          url: "https://www.eid.admin.ch/en/newnsb/HWvQ3sxWQ8hU-xZ4yDnSf"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The action on March 13 advanced the package procedurally but did not complete ratification."
+  - id: "evt-2026-03-13-009"
+    category: "International relations"
+    subcategory: "Trade dispute"
+    topics:
+      - "United States"
+      - "China"
+      - "Tariffs"
+      - "Trade dispute"
+    importance: 5
+    headline: "China denounces new U.S. Section 301 investigations ahead of Paris trade talks"
+    summary: >
+      On March 13, 2026, China criticized a new U.S. trade probe just before senior Chinese
+      and U.S. officials were due to meet in Paris, highlighting the central role of Section
+      301 in the latest round of bilateral economic confrontation. Reuters reported that
+      Vice Premier He Lifeng was expected to meet Treasury Secretary Scott Bessent and U.S.
+      Trade Representative Jamieson Greer from March 14 to 17. USTR materials said the
+      United States had launched Section 301 investigations covering structural excess
+      capacity and forced-labor-related issues involving China and other economies.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that Beijing denounced the U.S. trade probe and said it reserved the right to take countermeasures."
+        - "Reuters said senior Chinese and U.S. officials were due to meet in Paris from March 14 to 17 for another round of trade talks."
+        - "USTR said it had launched Section 301 investigations focused on structural excess capacity and on forced-labor-related trade issues."
+        - "The investigations formed part of a broader escalation in trade frictions that had already produced repeated high-level talks."
+      why_it_matters:
+        - "The event showed that even while dialogue continued, both governments were preparing for further legal and tariff conflict."
+        - "Section 301 investigations can become the basis for new trade restrictions, making them commercially important well beyond the immediate diplomatic exchange."
+        - "The Paris talks took place under the shadow of new enforcement tools rather than a clear de-escalation path."
+      uncertainty_notes:
+        - "The precise scope and timing of any trade remedies stemming from the investigations remained unsettled on March 13."
+    actors:
+      primary:
+        - "Office of the United States Trade Representative"
+        - "Government of China"
+      secondary:
+        - "He Lifeng"
+        - "Scott Bessent"
+        - "Jamieson Greer"
+    entities:
+      people:
+        - name: "He Lifeng"
+          role: "Vice Premier of China"
+        - name: "Scott Bessent"
+          role: "U.S. Secretary of the Treasury"
+        - name: "Jamieson Greer"
+          role: "U.S. Trade Representative"
+      organizations:
+        - name: "Office of the United States Trade Representative"
+          description: "U.S. trade agency"
+        - name: "Ministry of Commerce of China"
+          description: "Ministry of Commerce of China"
+      states:
+        - "United States"
+        - "China"
+        - "France"
+    geography:
+      countries:
+        - "United States"
+        - "China"
+        - "France"
+      places:
+        - "Paris"
+        - "Beijing"
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "trade-probe"
+        - "diplomatic-talks"
+      tags:
+        - "section-301"
+        - "u-s-china-trade"
+        - "paris-talks"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/china-slams-us-trade-probe-ahead-paris-talks-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [19]
+        - id: "src-009-b"
+          outlet: "USTR"
+          url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/american-workers-farmers-and-manufacturers-applaud-ustr-launched-section-301-investigations"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The March 13 response came after the USTR opened the investigations on March 11 and broadened them on March 12."
+  - id: "evt-2026-03-13-010"
+    category: "Law and crime"
+    subcategory: "Security operation"
+    topics:
+      - "South Africa"
+      - "Illegal mining"
+      - "Gang violence"
+      - "Security operation"
+    importance: 5
+    headline: "South Africa authorizes deployment of 2,200 soldiers to support anti-crime operations"
+    summary: >
+      South African President Cyril Ramaphosa authorized the deployment of 2,200 soldiers to
+      support police operations against crime, illegal mining, and gangsterism, according to
+      reporting and an official presidency statement on March 13, 2026. Reuters said the
+      deployment would support policing in several provinces, while the presidency
+      identified the mission as part of Operation Prosper and set its time frame from March
+      1, 2026, to March 31, 2027. The move reflected the scale of criminal violence and the
+      state's decision to use military support for internal security tasks.
+    key_data: []
+    details:
+      what_happened:
+        - "Ramaphosa authorized 2,200 members of the South African National Defence Force to assist police in fighting crime."
+        - "The presidency said the deployment would support efforts against illegal mining and gangsterism under Operation Prosper."
+        - "Reuters reported that the mission covered provinces including the Eastern Cape, Free State, Gauteng, North West, and Western Cape."
+        - "The deployment period was set to run from March 1, 2026, to March 31, 2027."
+      why_it_matters:
+        - "The decision underscored the government's assessment that conventional policing alone was insufficient in some high-risk areas."
+        - "Using soldiers for anti-crime work highlighted the overlap between criminal economies, local violence, and state capacity concerns."
+        - "The long duration of the authorization suggested the government expected a sustained rather than temporary security challenge."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of South Africa"
+        - "South African National Defence Force"
+      secondary:
+        - "South African Police Service"
+        - "Cyril Ramaphosa"
+    entities:
+      people:
+        - name: "Cyril Ramaphosa"
+          role: "President of South Africa"
+      organizations:
+        - name: "South African National Defence Force"
+          description: "Military of South Africa"
+        - name: "South African Police Service"
+          description: "National police of South Africa"
+        - name: "Presidency of South Africa"
+          description: "Office of the South African president"
+      states:
+        - "South Africa"
+    geography:
+      countries:
+        - "South Africa"
+      places:
+        - "Eastern Cape"
+        - "Free State"
+        - "Gauteng"
+        - "North West"
+        - "Western Cape"
+        - "Pretoria"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "troop-deployment"
+        - "security-operation"
+      tags:
+        - "south-africa"
+        - "illegal-mining"
+        - "gang-violence"
+        - "operation-prosper"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/south-africas-president-authorises-deployment-2200-troops-help-fight-crime-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [21]
+        - id: "src-010-b"
+          outlet: "Presidency of South Africa"
+          url: "https://www.thepresidency.gov.za/president-ramaphosa-authorises-sandf-deployment-fight-against-crime"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [22]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The deployment was framed as support to police rather than a standalone military operation."
+  - id: "evt-2026-03-13-011"
+    category: "Science and technology"
+    subcategory: "Autonomous vehicles"
+    topics:
+      - "Autonomous vehicles"
+      - "Ride-hailing"
+      - "United States"
+    importance: 4
+    headline: "Uber and Motional launch commercial robotaxi service in Las Vegas"
+    summary: >
+      Uber and Motional launched a commercial robotaxi service in Las Vegas on March 13,
+      2026, moving autonomous ride-hailing further into mainstream consumer use. Reuters
+      reported that Uber users could hail the autonomous electric vehicles at no additional
+      cost, while Uber's own announcement said the service area initially covered
+      high-traffic parts of Las Vegas, including stretches of Las Vegas Boulevard and
+      downtown. The rollout represented a notable shift from tightly bounded pilot programs
+      toward an integrated commercial product inside a major ride-hailing platform.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that Uber and Motional launched commercial robotaxi rides in Las Vegas at no extra cost to users."
+        - "Uber's announcement said the service was integrated into the standard Uber app rather than a separate platform."
+        - "The initial operating area included prominent Las Vegas destinations such as the Strip corridor, downtown, and Town Square."
+        - "The service used Hyundai IONIQ 5-based autonomous vehicles through the Uber-Motional partnership."
+      why_it_matters:
+        - "The launch was an important commercialization milestone for autonomous transport because it embedded the technology inside a large existing ride-hailing network."
+        - "Las Vegas provided a visible test of whether autonomous services can scale in dense tourist and urban environments."
+        - "The rollout had implications for mobility economics, regulation, and public acceptance of driverless transport."
+      uncertainty_notes:
+        - "Operational details, including service expansion and staffing models, were expected to evolve after launch."
+    actors:
+      primary:
+        - "Uber Technologies, Inc."
+        - "Motional"
+      secondary:
+        - "Hyundai Motor Group"
+    entities:
+      people: []
+      organizations:
+        - name: "Uber Technologies, Inc."
+          description: "U.S. ride-hailing company"
+        - name: "Motional"
+          description: "Autonomous-vehicle company"
+        - name: "Hyundai Motor Group"
+          description: "South Korean automaker"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Las Vegas, Nevada"
+        - "Las Vegas Boulevard"
+        - "Downtown Las Vegas"
+        - "Town Square"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "technology-deployment"
+        - "commercial-launch"
+      tags:
+        - "robotaxi"
+        - "autonomous-vehicles"
+        - "uber"
+        - "las-vegas"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/uber-motional-launch-commercial-robotaxi-service-las-vegas-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [23]
+        - id: "src-011-b"
+          outlet: "Uber Investor Relations"
+          url: "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Motional-Launch-Robotaxi-Service-in-Las-Vegas/default.aspx"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [24]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The March 13 launch was a commercial deployment rather than a research-only pilot."
+  - id: "evt-2026-03-13-012"
+    category: "Business and economy"
+    subcategory: "Energy"
+    topics:
+      - "Australia"
+      - "Fuel reserves"
+      - "Oceania"
+      - "Energy"
+    importance: 5
+    headline: "Australia releases petrol and diesel from domestic reserves and loosens fuel rules amid supply shock fears"
+    summary: >
+      Australia announced emergency fuel measures on March 13, 2026, including the release
+      of petrol and diesel from domestic reserves, as officials sought to counter disruption
+      and localized shortages linked to the Middle East war. Reuters reported that up to 762
+      million litres, roughly 20% of the minimum stockholding obligation for petrol and
+      diesel, would be made available, while the government also temporarily eased fuel
+      quality standards to boost usable supply. The measures highlighted Australia's
+      dependence on imported fuel and the pressure on regional supply chains.
+    key_data: []
+    details:
+      what_happened:
+        - "Energy Minister Chris Bowen said Australia would release up to 762 million litres of petrol and diesel from domestic reserves."
+        - "Reuters reported that the release was aimed at easing shortages and supply-chain disruption, especially in regional areas."
+        - "Reuters also reported that Australia would temporarily relax fuel quality standards to increase available supply."
+        - "Official government material said the fuel would be targeted toward localized market disruption and would take time to move through the supply chain."
+      why_it_matters:
+        - "The move showed how quickly a distant war was affecting fuel security planning in Oceania."
+        - "Australia's need to draw on reserves underscored its reliance on imported fuel and its persistent shortfall versus the IEA's 90-day stockholding benchmark."
+        - "The combination of reserve release and rule changes illustrated a short-term crisis response rather than a structural solution to fuel vulnerability."
+      uncertainty_notes:
+        - "Officials said the fuel was not expected to arrive everywhere immediately because of logistics and distribution timing."
+    actors:
+      primary:
+        - "Government of Australia"
+      secondary:
+        - "Chris Bowen"
+        - "International Energy Agency"
+    entities:
+      people:
+        - name: "Chris Bowen"
+          role: "Australian Minister for Climate Change and Energy"
+      organizations:
+        - name: "Department of Climate Change, Energy, the Environment and Water"
+          description: "Australian government department"
+        - name: "International Energy Agency"
+          description: "Intergovernmental energy agency"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Canberra"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "energy-policy"
+        - "reserve-release"
+      tags:
+        - "australia"
+        - "fuel-reserves"
+        - "energy-security"
+        - "oceania"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/australia-releases-petrol-diesel-emergency-reserves-2026-03-13"
+          publication_date: "2026-03-13"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [25]
+        - id: "src-012-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/boards-policy-regulation/australia-temporarily-ease-fuel-standards-boost-supply-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [26]
+        - id: "src-012-c"
+          outlet: "Australian Government"
+          url: "https://minister.dcceew.gov.au/bowen/media-releases/more-fuel-regional-australians"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The announcement combined reserve management with temporary regulatory flexibility after the IEA's March 11 collective release."
+  - id: "evt-2026-03-13-013"
+    category: "Disasters and accidents"
+    subcategory: "Flood"
+    topics:
+      - "Peru"
+      - "Ecuador"
+      - "El Niño Costero"
+      - "Flood"
+    importance: 5
+    headline: "Heavy rains and flooding continue to expand emergencies in Peru and Ecuador"
+    summary: >
+      A March 13, 2026, OCHA regional situation update said Peru had declared emergencies in
+      283 districts across 20 regions as intense rains associated with El Niño Costero drove
+      flooding, river overflows, and landslides. The same update said more than 16,000
+      people had been affected in Peru and more than 44,000 in Ecuador in 2026 to date,
+      showing that the weather emergency was growing across both countries. The figures
+      placed the Andean Pacific coast among the day's major humanitarian stories outside the
+      war-driven headlines dominating global news.
+    key_data: []
+    details:
+      what_happened:
+        - "OCHA said Peru had declared emergencies in 283 districts across 20 regions because of heavy rains and related hazards."
+        - "The same update said more than 16,000 people had been affected by rains and flooding in Peru."
+        - "OCHA reported that more than 44,000 people in Ecuador had been affected in 2026 to date."
+        - "The regional update linked the disruption to floods, landslides, and river overflows associated with El Niño Costero conditions."
+      why_it_matters:
+        - "The event showed that a major climate and humanitarian emergency was unfolding alongside the day's conflict-driven headlines."
+        - "The scale across two countries pointed to prolonged pressure on transport, housing, agriculture, and disaster-response systems."
+        - "OCHA's figures indicated that the impacts were regional and cumulative rather than isolated local incidents."
+      uncertainty_notes:
+        - "The OCHA summary provided affected-population figures but did not settle all country-level casualty details in the snapshot used here."
+    actors:
+      primary:
+        - "Government of Peru"
+        - "Government of Ecuador"
+      secondary:
+        - "UN OCHA"
+    entities:
+      people: []
+      organizations:
+        - name: "UN OCHA"
+          description: "UN Office for the Coordination of Humanitarian Affairs"
+      states:
+        - "Peru"
+        - "Ecuador"
+    geography:
+      countries:
+        - "Peru"
+        - "Ecuador"
+      places:
+        - "Piura"
+        - "Tumbes"
+        - "Lambayeque"
+        - "Ecuador"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Flooding, landslides, and river overflows caused widespread infrastructure and livelihood damage."
+    classification:
+      event_type:
+        - "natural-disaster"
+        - "humanitarian-emergency"
+      tags:
+        - "peru"
+        - "ecuador"
+        - "flooding"
+        - "el-nino-costero"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013-a"
+          outlet: "UN OCHA"
+          url: "https://www.unocha.org/publications/report/ecuador/latin-america-caribbean-weekly-situation-update-13-march-2026"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [28]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "The regional emergency update was used conservatively, without adding unsupported casualty totals."
+  - id: "evt-2026-03-13-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 interceptions of Iranian missiles in Turkey"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 interceptions of Iranian missiles in Turkey"
+    importance: 5
+    headline: "Turkey intercepts an Iranian ballistic missile in its airspace"
+    summary: >
+      Turkey intercepts an Iranian ballistic missile violating its airspace.
+    key_data: []
+    details:
+      what_happened:
+        - "Turkey intercepts an Iranian ballistic missile violating its airspace."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Turkey"
+        - "Iran"
+    geography:
+      countries:
+        - "Turkey"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-interceptions-of-iranian-missiles-in-turkey"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Turkey intercepts an Iranian ballistic missile violating its airspace."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-13-015"
+      - "evt-2026-03-13-019"
+      - "evt-2026-03-13-020"
+    notes: "Portal-derived event with no deep-research coverage; reported by Türkiye Today and Caspian Post per the Wikipedia portal."
+  - id: "evt-2026-03-13-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Israel"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Israel"
+    importance: 6
+    headline: "Iranian missile strike on northern Israel injures at least 58"
+    summary: >
+      At least 58 people are injured by an Iranian ballistic missile strike on northern
+      Israel.
+    key_data: []
+    details:
+      what_happened:
+        - "At least 58 people are injured by an Iranian ballistic missile strike on northern Israel."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+        - "Iran"
+    geography:
+      countries:
+        - "Israel"
+        - "Iran"
+      places:
+        - "Northern Israel"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 58
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-israel"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 58 people are injured by an Iranian ballistic missile strike on northern Israel."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-13-014"
+      - "evt-2026-03-13-019"
+      - "evt-2026-03-13-020"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Jerusalem Post per the Wikipedia portal."
+  - id: "evt-2026-03-13-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "Sinking of IRIS Dena"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "Sinking of IRIS Dena"
+    importance: 5
+    headline: "Sri Lanka repatriates bodies of 84 sailors from the sunk Iranian frigate IRIS Dena"
+    summary: >
+      Sri Lanka repatriates the bodies of 84 Iranian sailors killed when the frigate IRIS
+      Dena was sunk by a United States submarine off the coast of Galle on 4 March.
+      Thirty-two rescued sailors remain in Sri Lanka while authorities continue to host
+      other Iranian naval personnel under humanitarian arrangements.
+    key_data: []
+    details:
+      what_happened:
+        - "Sri Lanka repatriates the bodies of 84 Iranian sailors killed when the frigate IRIS Dena was sunk by a United States submarine off the coast of Galle on 4 March. Thirty-two rescued sailors remain in Sri Lanka while authorities continue to host other Iranian naval personnel under humanitarian arrangements."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Sri Lanka"
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "Sri Lanka"
+        - "United States"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "death"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "sinking-of-iris-dena"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Sri Lanka repatriates the bodies of 84 Iranian sailors killed when the frigate IRIS Dena was sunk by a United States submarine off the coast of Galle on 4 March. Thirty-two rescued sailors remain in Sri Lanka while authorities continue to host other Iranian naval personnel under humanitarian arrangements."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via RFI per the Wikipedia portal."
+  - id: "evt-2026-03-13-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+    importance: 6
+    headline: "U.S. to deploy 5,000-strong marine expeditionary unit to the Persian Gulf"
+    summary: >
+      U.S. officials say a marine expeditionary unit of 5,000 marines and sailors will
+      deploy to the Persian Gulf to reinforce existing forces stationed in the region.
+    key_data: []
+    details:
+      what_happened:
+        - "U.S. officials say a marine expeditionary unit of 5,000 marines and sailors will deploy to the Persian Gulf to reinforce existing forces stationed in the region."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Persian Gulf"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "U.S. officials say a marine expeditionary unit of 5,000 marines and sailors will deploy to the Persian Gulf to reinforce existing forces stationed in the region."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-13-001"
+      - "evt-2026-03-13-022"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Wall Street Journal and Forbes per the Wikipedia portal."
+  - id: "evt-2026-03-13-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Lebanon war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Lebanon war"
+    importance: 7
+    headline: "Israeli strike on a Lebanese medical facility kills 12 medical staff"
+    summary: >
+      Twelve medical staff members, including doctors, nurses and paramedics, are killed in
+      an Israeli airstrike against a medical facility in Burj Qalaouiyah, Bint Jbeil
+      District, Lebanon.
+    key_data: []
+    details:
+      what_happened:
+        - "Twelve medical staff members, including doctors, nurses and paramedics, are killed in an Israeli airstrike against a medical facility in Burj Qalaouiyah, Bint Jbeil District, Lebanon."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Lebanon"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Israel"
+      places:
+        - "Southern Lebanon"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 12
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+      tags:
+        - "middle-eastern-crisis"
+        - "hezbollah-israel-conflict"
+        - "2026-lebanon-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Twelve medical staff members, including doctors, nurses and paramedics, are killed in an Israeli airstrike against a medical facility in Burj Qalaouiyah, Bint Jbeil District, Lebanon."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-03-13-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "Middle Eastern crisis"
+    topics:
+      - "Middle Eastern crisis"
+    importance: 5
+    headline: "Drone interception in Sohar, Oman, kills two migrant workers"
+    summary: >
+      Two migrant workers are killed and several other people are injured after security
+      forces intercept a drone in an industrial area in Sohar, Oman.
+    key_data: []
+    details:
+      what_happened:
+        - "Two migrant workers are killed and several other people are injured after security forces intercept a drone in an industrial area in Sohar, Oman."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Oman"
+    geography:
+      countries:
+        - "Oman"
+      places:
+        - "Sohar"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 2
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two migrant workers are killed and several other people are injured after security forces intercept a drone in an industrial area in Sohar, Oman."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-13-014"
+      - "evt-2026-03-13-015"
+      - "evt-2026-03-13-020"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Daily Sun per the Wikipedia portal."
+  - id: "evt-2026-03-13-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "Middle Eastern crisis"
+    topics:
+      - "Middle Eastern crisis"
+    importance: 4
+    headline: "Saudi Arabia says air defences destroyed 56 hostile drones"
+    summary: >
+      The Saudi Arabian defense ministry reports that air defenses intercepted and destroyed
+      56 hostile drones targeting several areas across the country.
+    key_data: []
+    details:
+      what_happened:
+        - "The Saudi Arabian defense ministry reports that air defenses intercepted and destroyed 56 hostile drones targeting several areas across the country."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Saudi Arabia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Saudi Arabian defense ministry reports that air defenses intercepted and destroyed 56 hostile drones targeting several areas across the country."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-13-014"
+      - "evt-2026-03-13-015"
+      - "evt-2026-03-13-019"
+    notes: "Portal-derived event with no deep-research coverage; reported by Saudi Gazette per the Wikipedia portal."
+  - id: "evt-2026-03-13-021"
+    category: "Armed conflicts and attacks"
+    subcategory: "Nigerian bandit conflict"
+    topics:
+      - "Nigerian bandit conflict"
+    importance: 6
+    headline: "Ambush in Plateau State, Nigeria, kills 20 security personnel"
+    summary: >
+      Armed men ambush and kill twenty security personnel, including two senior military
+      officers, in Plateau State, Nigeria.
+    key_data: []
+    details:
+      what_happened:
+        - "Armed men ambush and kill twenty security personnel, including two senior military officers, in Plateau State, Nigeria."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Plateau State"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 20
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "nigerian-bandit-conflict"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Armed men ambush and kill twenty security personnel, including two senior military officers, in Plateau State, Nigeria."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-13-022"
+    category: "Business and economy"
+    subcategory: "Economic impact of the 2026 Iran war"
+    topics:
+      - "Economic impact of the 2026 Iran war"
+    importance: 7
+    headline: "Saudi Arabia cuts oil production by 20% after shutting two offshore fields"
+    summary: >
+      Saudi Arabia cuts oil production by 20% after the shutdown of two offshore oil fields,
+      including Safaniya.
+    key_data: []
+    details:
+      what_happened:
+        - "Saudi Arabia cuts oil production by 20% after the shutdown of two offshore oil fields, including Safaniya."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Saudi Arabia"
+      places:
+        - "Safaniya oil field"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Saudi Arabia cuts oil production by 20% after the shutdown of two offshore oil fields, including Safaniya."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-13-001"
+      - "evt-2026-03-13-017"
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-13-023"
+    category: "International relations"
+    subcategory: "El Salvador–United States relations, Nuclear power in El Salvador"
+    topics:
+      - "El Salvador–United States relations, Nuclear power in El Salvador"
+    importance: 5
+    headline: "El Salvador and the U.S. sign a nuclear cooperation Agreement 123"
+    summary: >
+      El Salvador and the United States sign Agreement 123 under the Atomic Energy Act of
+      1954 to build a nuclear power plant in El Salvador that is planned to be operational
+      by 2030.
+    key_data: []
+    details:
+      what_happened:
+        - "El Salvador and the United States sign Agreement 123 under the Atomic Energy Act of 1954 to build a nuclear power plant in El Salvador that is planned to be operational by 2030."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "El Salvador"
+        - "United States"
+    geography:
+      countries:
+        - "El Salvador"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "el-salvador-united-states-relations-nuclear-power-in-el-salvador"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "El Salvador and the United States sign Agreement 123 under the Atomic Energy Act of 1954 to build a nuclear power plant in El Salvador that is planned to be operational by 2030."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-13-006"
+    notes: "Portal-derived event with no deep-research coverage; reported by El Mundo in Spanish per the Wikipedia portal."
+  - id: "evt-2026-03-13-024"
+    category: "Law and crime"
+    subcategory: "Illegal drug trade in Latin America"
+    topics:
+      - "Illegal drug trade in Latin America"
+    importance: 5
+    headline: "Bolivia arrests suspected Uruguayan cartel leader Sebastián Marset"
+    summary: >
+      Bolivian authorities arrest suspected Uruguayan drug cartel leader during a police
+      operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and
+      has a US$2 million reward linked to money laundering allegations, is detained along
+      with four other individuals.
+    key_data: []
+    details:
+      what_happened:
+        - "Bolivian authorities arrest suspected Uruguayan drug cartel leader during a police operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and has a US$2 million reward linked to money laundering allegations, is detained along with four other individuals."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Sebastián Marset"
+      secondary: []
+    entities:
+      people:
+        - name: "Sebastián Marset"
+          role: "Uruguayan alleged drug-trafficking leader"
+      organizations: []
+      states:
+        - "Bolivia"
+        - "Uruguay"
+    geography:
+      countries:
+        - "Bolivia"
+        - "Uruguay"
+      places:
+        - "Santa Cruz de la Sierra"
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 1
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "arrest"
+      tags:
+        - "illegal-drug-trade-in-latin-america"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Bolivian authorities arrest suspected Uruguayan drug cartel leader during a police operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and has a US$2 million reward linked to money laundering allegations, is detained along with four other individuals."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+  - id: "evt-2026-03-13-025"
+    category: "Politics and elections"
+    subcategory: "2025–2026 Iranian protests"
+    topics:
+      - "2025–2026 Iranian protests"
+    importance: 5
+    headline: "IRGC warns of a stronger response to any new protests"
+    summary: >
+      The Islamic Revolutionary Guard Corps warns of a stronger response than in January if
+      new protests against the regime erupt.
+    key_data: []
+    details:
+      what_happened:
+        - "The Islamic Revolutionary Guard Corps warns of a stronger response than in January if new protests against the regime erupt."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Islamic Revolutionary Guard Corps"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military and security force"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "protest"
+      tags:
+        - "2025-2026-iranian-protests"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Islamic Revolutionary Guard Corps warns of a stronger response than in January if new protests against the regime erupt."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Al Arabiya per the Wikipedia portal."
+
+strategic_conclusion: >
+  The day's events show the United States expanding its military posture and threatening
+  Iran's oil infrastructure while Gulf producers cut output under attack, deepening the
+  energy shock. Regional bodies including ASEAN pressed for a ceasefire. Parallel conflicts
+  in Afghanistan–Pakistan, Sudan and Nigeria continued to cause civilian and security-force
+  deaths, and U.S. diplomacy in the Americas advanced on separate tracks with Cuba and El
+  Salvador.
+
+works_cited:
+  - id: 1
+    title: "Us attacks irans kharg island trump says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/us-attacks-irans-kharg-island-trump-says-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 2
+    title: "Iran israel us march 13 2026 oil prices"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/iran-israel-us-march-13-2026-oil-prices-2a86a1f5c5997b70c6586d957074fb0c"
+    accessed: "2026-03-13"
+  - id: 3
+    title: "All six us service members killed plane crash over iraq"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/all-six-us-service-members-killed-plane-crash-over-iraq-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 4
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/c337359a58be6280dc96fdbf1cb48a5b"
+    accessed: "2026-03-13"
+  - id: 5
+    title: "Asean ministers urge halt middle east war crisis rattles energy trade"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/asean-ministers-urge-halt-middle-east-war-crisis-rattles-energy-trade-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 6
+    title: "Asean chairs statement on the outcomes of the special asean foreign ministers meeting on the situation in the middle east"
+    outlet: "ASEAN"
+    url: "https://asean.org/asean-chairs-statement-on-the-outcomes-of-the-special-asean-foreign-ministers-meeting-on-the-situation-in-the-middle-east"
+    accessed: "2026-03-13"
+  - id: 7
+    title: "Joint statement of the asean economic ministers on strengthening aseans economic resilience in response to recent global economic and geopolitical developments"
+    outlet: "ASEAN"
+    url: "https://asean.org/joint-statement-of-the-asean-economic-ministers-on-strengthening-aseans-economic-resilience-in-response-to-recent-global-economic-and-geopolitical-developments"
+    accessed: "2026-03-13"
+  - id: 8
+    title: "Pakistan bombs fuel depot private airline near kandahar airport afghan taliban"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/pakistan-bombs-fuel-depot-private-airline-near-kandahar-airport-afghan-taliban-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 9
+    title: "Afghanistan pakistan fighting"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/afghanistan-pakistan-fighting-eb61a70a88f6b44ef114e88064b84136"
+    accessed: "2026-03-13"
+  - id: 10
+    title: "Drone strike sudan kills 11 injures over 20 msf says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/drone-strike-sudan-kills-11-injures-over-20-msf-says-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 11
+    title: "Sudan darfur war army drones kordofan"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/sudan-darfur-war-army-drones-kordofan-0241df1e672527877fc2f2c602d48c94"
+    accessed: "2026-03-12"
+  - id: 12
+    title: "Cuban president under pressure economic crisis trump address media"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/cuban-president-under-pressure-economic-crisis-trump-address-media-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 13
+    title: "Cuban president us talks differences rubio"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/cuban-president-us-talks-differences-rubio-57eb73b8879c420abf76cf184b73ec63"
+    accessed: "2026-03-13"
+  - id: 14
+    title: "Ecuador declares curfew coastal provinces security operations"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/ecuador-declares-curfew-coastal-provinces-security-operations-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 15
+    title: "Ecuador us military operation southern command reimberg"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ecuador-us-military-operation-southern-command-reimberg-c699d564204fcad98625a2b87f386d70"
+    accessed: "2026-03-12"
+  - id: 16
+    title: "Este es el horario de toque de queda que regira en guayas los rios santo domingo de los tsachilas y el oro nota"
+    outlet: "El Universo"
+    url: "https://www.eluniverso.com/noticias/seguridad/este-es-el-horario-de-toque-de-queda-que-regira-en-guayas-los-rios-santo-domingo-de-los-tsachilas-y-el-oro-nota"
+    accessed: "2026-03-13"
+  - id: 17
+    title: "Swiss federal council adopts draft law deepen ties with eu"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/swiss-federal-council-adopts-draft-law-deepen-ties-with-eu-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 18
+    title: "Swiss Federal Administration report"
+    outlet: "Swiss Federal Administration"
+    url: "https://www.eid.admin.ch/en/newnsb/HWvQ3sxWQ8hU-xZ4yDnSf"
+    accessed: "2026-03-13"
+  - id: 19
+    title: "China slams us trade probe ahead paris talks"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/china-slams-us-trade-probe-ahead-paris-talks-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 20
+    title: "American workers farmers and manufacturers applaud ustr launched section 301 investigations"
+    outlet: "USTR"
+    url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/american-workers-farmers-and-manufacturers-applaud-ustr-launched-section-301-investigations"
+    accessed: "2026-03-13"
+  - id: 21
+    title: "South africas president authorises deployment 2200 troops help fight crime"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/south-africas-president-authorises-deployment-2200-troops-help-fight-crime-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 22
+    title: "President ramaphosa authorises sandf deployment fight against crime"
+    outlet: "Presidency of South Africa"
+    url: "https://www.thepresidency.gov.za/president-ramaphosa-authorises-sandf-deployment-fight-against-crime"
+    accessed: "2026-03-13"
+  - id: 23
+    title: "Uber motional launch commercial robotaxi service las vegas"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/uber-motional-launch-commercial-robotaxi-service-las-vegas-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 24
+    title: "Uber Investor Relations report"
+    outlet: "Uber Investor Relations"
+    url: "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Motional-Launch-Robotaxi-Service-in-Las-Vegas/default.aspx"
+    accessed: "2026-03-13"
+  - id: 25
+    title: "Australia releases petrol diesel emergency reserves"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/australia-releases-petrol-diesel-emergency-reserves-2026-03-13"
+    accessed: "2026-03-13"
+  - id: 26
+    title: "Australia temporarily ease fuel standards boost supply"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/boards-policy-regulation/australia-temporarily-ease-fuel-standards-boost-supply-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 27
+    title: "More fuel regional australians"
+    outlet: "Australian Government"
+    url: "https://minister.dcceew.gov.au/bowen/media-releases/more-fuel-regional-australians"
+    accessed: "2026-03-13"
+  - id: 28
+    title: "Latin america caribbean weekly situation update 13 march 2026"
+    outlet: "UN OCHA"
+    url: "https://www.unocha.org/publications/report/ecuador/latin-america-caribbean-weekly-situation-update-13-march-2026"
+    accessed: "2026-03-13"
+  - id: 29
+    title: "Portal:Current events/2026 March 13"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_13&oldid=1361624379"
+    accessed: "2026-09-22"

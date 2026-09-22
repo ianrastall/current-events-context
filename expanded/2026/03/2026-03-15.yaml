@@ -1,0 +1,1981 @@
+date: "2026-03-15"
+source_page:
+  portal: "Portal:Current events/2026 March 15"
+  language: "en"
+  wikipedia_revision_id: 1361624434
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 15 (revision 1361624434; seed 2026/03/2026-03-15.yaml) + deep-research report reference/deep-research/2026/03/2026-03-15a.md + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  March 15, 2026 was a heavy election day: Vietnam chose a new National Assembly, the
+  Republic of the Congo voted for president amid low turnout and an internet blackout,
+  Kazakhstan approved a new constitution by referendum, North Korea elected its Supreme
+  People's Assembly and France held the first round of municipal elections. U.S. and Chinese
+  delegations opened trade talks in Paris ahead of a planned Trump–Xi summit, and the IEA
+  detailed the release of more than 400 million barrels of emergency oil reserves, including
+  80 million barrels from Japan.
+
+  Conflict continued on several fronts: Pakistan struck targets around Kandahar while Afghan
+  mortar fire killed four people in Bajaur, Israeli fire killed eight police officers in
+  Gaza and four people in the West Bank, and an Iranian drone destroyed an Italian MQ-9 at a
+  Kuwaiti air base. Kenya's flood toll rose to 66, a meningitis outbreak at the University
+  of Kent killed two, and in culture and sport One Battle After Another won Best Picture as
+  the Winter Paralympics closed.
+
+events:
+  - id: "evt-2026-03-15-001"
+    category: "International relations"
+    subcategory: "Trade diplomacy"
+    topics:
+      - "U.S.-China relations"
+      - "Trade negotiations"
+      - "Tariffs"
+      - "Critical minerals"
+      - "Agricultural purchases"
+      - "Trade diplomacy"
+      - "France"
+      - "United States"
+    importance: 6
+    headline: "U.S. and China open high-level trade talks in Paris ahead of a planned Trump-Xi summit"
+    summary: >
+      U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng opened
+      economic and trade talks in Paris on March 15, 2026. Reporting from AP and Reuters
+      indicates the meetings were aimed at stabilizing the bilateral trade truce and
+      exploring possible deliverables for a late-March Trump-Xi meeting, including
+      agriculture purchases and new mechanisms to manage trade and investment disputes.
+    key_data: []
+    details:
+      what_happened:
+        - "Delegations from Washington and Beijing began trade and economic talks in Paris."
+        - "The talks were led by U.S. Treasury Secretary Scott Bessent and Chinese Vice Premier He Lifeng."
+        - "Reuters reported the discussions were described by sources as 'remarkably stable' and touched on agriculture, critical minerals, and managed trade."
+        - "AP reported the Paris talks were presented as a precursor to a planned Trump visit to Beijing at the end of March."
+      why_it_matters:
+        - "The talks reopened a major diplomatic channel between the world's two largest economies."
+        - "Potential agreements on agriculture, critical minerals, and trade-management mechanisms could affect global supply chains and commodity markets."
+        - "The meetings took place while the wider Iran war was complicating global energy and macroeconomic conditions."
+      uncertainty_notes:
+        - "Some of the most detailed claims about potential deliverables came from Reuters sources familiar with the talks rather than a full public official readout."
+        - "Beijing had not formally confirmed the planned state visit dates cited by U.S. officials."
+    actors:
+      primary:
+        - "United States"
+        - "China"
+      secondary:
+        - "Scott Bessent"
+        - "He Lifeng"
+        - "Donald Trump"
+        - "Xi Jinping"
+    entities:
+      people:
+        - name: "Scott Bessent"
+          role: "U.S. Secretary of the Treasury"
+        - name: "He Lifeng"
+          role: "Vice Premier of China"
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Xi Jinping"
+          role: "President of China and General Secretary of the Chinese Communist Party"
+      organizations:
+        - name: "U.S. Treasury Department"
+          description: "U.S. finance ministry"
+        - name: "Ministry of Commerce of the People's Republic of China"
+          description: "Ministry of Commerce of China"
+        - name: "OECD"
+          description: "Organisation for Economic Co-operation and Development"
+      states:
+        - "United States"
+        - "China"
+        - "France"
+    geography:
+      countries:
+        - "France"
+        - "United States"
+        - "China"
+      places:
+        - "Paris"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-talks"
+        - "trade-negotiation"
+      tags:
+        - "global-economy"
+        - "major-power-relations"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/us-china-discuss-farm-goods-managed-trade-remarkably-stable-paris-talks-sources-2026-03-15"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/china-us-trade-talks-paris-304947f60609fce139602b57b214c468"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-15-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border strikes"
+    topics:
+      - "Pakistan-Afghanistan conflict"
+      - "Airstrikes"
+      - "Taliban"
+      - "Border security"
+      - "Cross-border strikes"
+      - "Pakistan"
+      - "Afghanistan"
+    importance: 6
+    headline: "Pakistan strikes targets in Afghanistan's Kandahar as fighting with Kabul intensifies"
+    summary: >
+      Pakistan said it carried out overnight strikes on installations and militant
+      infrastructure in Afghanistan's Kandahar region on March 15, 2026, as the worst
+      Pakistan-Afghanistan fighting in years continued. Afghan officials said the two sites
+      hit were an empty guard post and a drug rehabilitation center that sustained slight
+      damage, and they said there were no casualties from the Kandahar strikes.
+    key_data: []
+    details:
+      what_happened:
+        - "Pakistan's information minister said the military struck Taliban installations and 'terrorist hideouts' in Kandahar overnight."
+        - "AP reported Kabul said two locations were hit: a daytime security-guard site that was empty at night and a drug rehabilitation center."
+        - "Afghan authorities said the Kandahar strikes caused slight damage and no casualties."
+        - "Afghanistan said it retaliated against Pakistani military targets, while Pakistan rejected those claims."
+        - "AP also reported that a mortar fired from Afghanistan hit a home in Pakistan's Bajaur district on the same day, killing four family members and injuring two others."
+      why_it_matters:
+        - "The episode underscored a sharp escalation in Pakistan-Afghanistan hostilities after the collapse of an earlier ceasefire."
+        - "It raised the risk of a broader regional security crisis in South Asia."
+        - "The conflict centers on cross-border militancy, sovereignty, and mutual accusations of harboring armed groups."
+      uncertainty_notes:
+        - "The two governments sharply disputed what was hit and the extent of resulting damage."
+        - "Casualty reporting for the wider cross-border fighting remained contested."
+    actors:
+      primary:
+        - "Pakistan"
+        - "Afghanistan"
+      secondary:
+        - "Attaullah Tarar"
+        - "Zabiullah Mujahid"
+        - "Asif Ali Zardari"
+    entities:
+      people:
+        - name: "Attaullah Tarar"
+          role: "Minister of Information of Pakistan"
+        - name: "Zabiullah Mujahid"
+          role: "Spokesman for the Taliban government of Afghanistan"
+        - name: "Asif Ali Zardari"
+          role: "President of Pakistan"
+      organizations:
+        - name: "Government of Pakistan"
+          description: "Government of Pakistan"
+        - name: "Taliban government of Afghanistan"
+          description: "De facto government of Afghanistan"
+        - name: "Pakistani military"
+          description: "Military of Pakistan"
+        - name: "Afghan Defense Ministry"
+          description: "Defense ministry of the Taliban government"
+      states:
+        - "Pakistan"
+        - "Afghanistan"
+    geography:
+      countries:
+        - "Pakistan"
+        - "Afghanistan"
+      places:
+        - "Kandahar"
+        - "South Waziristan"
+        - "Bajaur"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Afghan officials said a drug rehabilitation center suffered slight damage; the broader conflict also involved additional same-day cross-border casualties elsewhere."
+    classification:
+      event_type:
+        - "airstrike"
+        - "cross-border-conflict"
+      tags:
+        - "south-asia"
+        - "military-escalation"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/pakistan-targets-taliban-installations-terrorist-hideouts-kandahar-during-2026-03-15"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: "src-002-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/pakistan-afghanistan-kandahar-fighting-15de9a35d08aa0c265de42a13d1ddaea"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-15-011"
+    notes: ""
+  - id: "evt-2026-03-15-003"
+    category: "Politics and elections"
+    subcategory: "Parliamentary elections"
+    topics:
+      - "Vietnam"
+      - "National Assembly"
+      - "One-party state"
+      - "Communist Party"
+      - "2026 Vietnamese legislative election"
+      - "Parliamentary elections"
+    importance: 5
+    headline: "Vietnam holds parliamentary elections dominated by Communist Party-approved candidates"
+    summary: >
+      Vietnam held nationwide elections for its new National Assembly on March 15, 2026.
+      Reuters and AP reported that roughly 73.5 million to 79 million eligible voters were
+      choosing 500 lawmakers from a field of 864 candidates, the overwhelming majority of
+      whom were fielded or pre-approved by the ruling Communist Party.
+    key_data: []
+    details:
+      what_happened:
+        - "Vietnamese voters cast ballots for the 500-seat National Assembly and local councils."
+        - "Reuters reported that nearly 93% of parliamentary candidates were fielded by the Communist Party, with independent candidates making up a small minority."
+        - "AP reported that nearly 79 million eligible voters were choosing from 864 vetted candidates."
+        - "The election came shortly after the party's January congress reconfirmed To Lam as the country's top political leader."
+      why_it_matters:
+        - "The election set the composition of the legislature that will ratify key appointments and support the government's next policy agenda."
+        - "It offered a closely watched indicator of continuity in Vietnam's one-party political system."
+        - "The vote took place as Vietnam sought to maintain rapid growth and attract manufacturing investment."
+      uncertainty_notes:
+        - "The formal vote is electorally significant, but the underlying distribution of political power in Vietnam is largely determined inside party structures before election day."
+    actors:
+      primary:
+        - "Vietnam"
+        - "Communist Party of Vietnam"
+      secondary:
+        - "To Lam"
+        - "Vietnamese electorate"
+    entities:
+      people:
+        - name: "To Lam"
+          role: "General Secretary of the Communist Party of Vietnam"
+      organizations:
+        - name: "Communist Party of Vietnam"
+          description: "Ruling party of Vietnam"
+        - name: "National Assembly of Vietnam"
+          description: "Legislature of Vietnam"
+      states:
+        - "Vietnam"
+    geography:
+      countries:
+        - "Vietnam"
+      places:
+        - "Hanoi"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election"
+        - "parliamentary-vote"
+      tags:
+        - "southeast-asia"
+        - "governance"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Vietnamese citizens vote to elect the 500 members of the 16th National Assembly. The sole legal party contesting the election is the Communist Party."
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/communist-party-fields-nearly-93-candidates-vietnam-holds-parliament-elections-2026-03-15"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [5]
+        - id: "src-003-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/vietnam-election-national-assembly-c3a445f2e29da4d30267c1d18f079f0c"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-15-004"
+      - "evt-2026-03-15-005"
+    notes: ""
+  - id: "evt-2026-03-15-004"
+    category: "Politics and elections"
+    subcategory: "Presidential elections"
+    topics:
+      - "Republic of Congo"
+      - "Denis Sassou Nguesso"
+      - "Election integrity"
+      - "Internet blackout"
+      - "2026 Republic of the Congo presidential election"
+      - "Presidential elections"
+    importance: 5
+    headline: "Republic of Congo votes in a presidential election marked by low turnout and an internet blackout"
+    summary: >
+      The Republic of Congo voted in a presidential election on March 15, 2026, with
+      incumbent Denis Sassou Nguesso widely expected to extend his rule. Reuters reported
+      sparse lines at many polling stations in Brazzaville and a nationwide internet
+      blackout that transparency monitors said reduced connectivity to about 3% of normal
+      levels.
+    key_data: []
+    details:
+      what_happened:
+        - "More than 3.2 million Congolese were registered to vote in the presidential election."
+        - "Reuters reported visibly thin turnout in Brazzaville and noted that Sassou faced six little-known challengers."
+        - "Several opposition parties boycotted the election and prominent opposition figures were imprisoned or in exile."
+        - "NetBlocks reported a nation-scale internet outage during the vote."
+      why_it_matters:
+        - "The vote was expected to extend the decades-long rule of one of Africa's longest-serving leaders."
+        - "The low-competition environment and internet outage raised questions about openness and public confidence."
+        - "The election mattered for the governance of an oil-producing state where poverty remains widespread."
+      uncertainty_notes:
+        - "Election-day visibility was constrained by the internet blackout."
+        - "Turnout and perceived credibility were disputed by government critics and civil society actors."
+    actors:
+      primary:
+        - "Republic of Congo"
+        - "Denis Sassou Nguesso"
+      secondary:
+        - "Congolese electorate"
+        - "NetBlocks"
+        - "Opposition parties"
+    entities:
+      people:
+        - name: "Denis Sassou Nguesso"
+          role: "President of the Republic of the Congo"
+        - name: "Anatole Collinet Makosso"
+          role: "Prime Minister of the Republic of the Congo"
+      organizations:
+        - name: "Congolese Labour Party"
+          description: "Ruling party of the Republic of the Congo"
+        - name: "NetBlocks"
+          description: "Internet-connectivity monitoring organization"
+      states:
+        - "Republic of Congo"
+    geography:
+      countries:
+        - "Republic of Congo"
+      places:
+        - "Brazzaville"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "National internet connectivity was reported to be severely disrupted on election day."
+    classification:
+      event_type:
+        - "election"
+        - "internet-shutdown"
+      tags:
+        - "central-africa"
+        - "authoritarian-politics"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Congolese people vote to elect a president, with incumbent Denis Sassou Nguesso seeking a fifth consecutive term."
+      external:
+        - id: "src-004-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/congo-republic-votes-election-expected-extend-sassous-long-rule-2026-03-15"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-15-003"
+      - "evt-2026-03-15-005"
+    notes: ""
+  - id: "evt-2026-03-15-005"
+    category: "Politics and elections"
+    subcategory: "Constitutional referendum"
+    topics:
+      - "Kazakhstan"
+      - "Constitution"
+      - "Presidential power"
+      - "Tokayev"
+      - "2026 Kazakh constitutional referendum"
+      - "Constitutional referendum"
+    importance: 6
+    headline: "Kazakhstan votes to approve a new constitution that critics say could entrench presidential power"
+    summary: >
+      Kazakhstan held a referendum on March 15, 2026, and exit polls indicated strong
+      support for a new constitution. Reuters reported roughly 87% approval with turnout
+      around 73%, while AP said the constitutional package would strengthen President
+      Kassym-Jomart Tokayev's grip on power by reshaping parliament, restoring the vice
+      presidency, and allowing the president to appoint key officials.
+    key_data: []
+    details:
+      what_happened:
+        - "Kazakh voters cast ballots in a referendum on a new constitution."
+        - "Reuters reported two exit polls showing about 87% support and turnout of about 73%."
+        - "The proposed constitutional order would streamline parliament and recreate the office of vice president."
+        - "AP reported the reforms would also expand the president's appointment powers and create additional institutional tools under presidential influence."
+      why_it_matters:
+        - "The referendum could reshape Kazakhstan's political system and succession dynamics."
+        - "Critics and some analysts argued it may allow Tokayev to consolidate or extend power beyond the spirit of existing term limits."
+        - "Kazakhstan is a strategically important energy and minerals producer in Central Asia."
+      uncertainty_notes:
+        - "On March 15, the approval figures were based on exit polls rather than final certified results."
+        - "Competing interpretations remained over whether the new structure pointed to succession planning or term-resetting."
+    actors:
+      primary:
+        - "Kazakhstan"
+        - "Kassym-Jomart Tokayev"
+      secondary:
+        - "Nursultan Nazarbayev"
+        - "Kazakh electorate"
+    entities:
+      people:
+        - name: "Kassym-Jomart Tokayev"
+          role: "President of Kazakhstan"
+        - name: "Nursultan Nazarbayev"
+          role: "Former President of Kazakhstan"
+      organizations:
+        - name: "Central Election Commission of Kazakhstan"
+          description: "Electoral authority of Kazakhstan"
+      states:
+        - "Kazakhstan"
+    geography:
+      countries:
+        - "Kazakhstan"
+      places:
+        - "Astana"
+        - "Almaty"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "referendum"
+        - "constitutional-change"
+      tags:
+        - "central-asia"
+        - "institutional-reform"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Kazakhstanis vote in a referendum to approve a new constitution."
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/kazakhstan-approves-new-constitution-referendum-exit-poll-says-2026-03-15"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: "src-005-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/kazakhstan-referendum-tokayev-constitution-fef36383f2de35fa7f636a6d9310348d"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-15-003"
+      - "evt-2026-03-15-004"
+    notes: ""
+  - id: "evt-2026-03-15-006"
+    category: "Business and economy"
+    subcategory: "Energy markets"
+    topics:
+      - "International Energy Agency"
+      - "Strategic reserves"
+      - "Oil prices"
+      - "Strait of Hormuz"
+      - "Economic impact of the 2026 Iran war"
+      - "Energy markets"
+    importance: 7
+    headline: "IEA details rollout of more than 400 million barrels from emergency reserves amid Iran-war supply shock"
+    summary: >
+      The International Energy Agency said on March 15, 2026, that more than 400 million
+      barrels from emergency oil reserves would begin flowing soon in response to the sharp
+      energy shock linked to the Iran war and disruption in the Strait of Hormuz. Reuters
+      reported that this was the sixth coordinated stockpile release in IEA history and by
+      far the largest described in the 2026 crisis.
+    key_data: []
+    details:
+      what_happened:
+        - "The IEA announced that oil from emergency reserves in Asia and Oceania would be available immediately, with Europe and the Americas following later in March."
+        - "Reuters reported that governments committed 271.7 million barrels from public stocks, 116.6 million from obligated industry stocks, and 23.6 million from other sources."
+        - "The release was designed to counter price spikes and physical supply disruptions linked to the effective choking of Hormuz traffic."
+      why_it_matters:
+        - "Around one-fifth of global oil and gas supply normally moves through the Strait of Hormuz."
+        - "The reserve release was a major international intervention to stabilize fuel markets, shipping expectations, and inflation pressures."
+        - "The action highlighted how the Iran conflict had become a first-order global economic risk rather than only a regional military crisis."
+      uncertainty_notes:
+        - "The timing and pace of actual physical deliveries varied by region."
+        - "The longer-term market effect depended on whether Hormuz disruptions persisted."
+    actors:
+      primary:
+        - "International Energy Agency"
+      secondary:
+        - "IEA member states"
+        - "Global oil market participants"
+    entities:
+      people: []
+      organizations:
+        - name: "International Energy Agency"
+          description: "Intergovernmental energy agency"
+      states:
+        - "United States"
+        - "Japan"
+        - "Germany"
+        - "Canada"
+        - "Australia"
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "The underlying crisis had disrupted a major share of global oil and gas transit and contributed to severe price volatility."
+    classification:
+      event_type:
+        - "strategic-reserve-release"
+        - "energy-market-intervention"
+      tags:
+        - "global-economy"
+        - "oil-market"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Japan announces it will start releasing 80 million barrels of oil from its reserves, the largest such release in the country's history, in response to disruptions in the oil supply caused by the conflict."
+      external:
+        - id: "src-006-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/emergency-stockpile-oil-coming-soon-iran-wracked-markets-iea-says-2026-03-15"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [10]
+        - id: "src-006-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/iran-us-oil-europe-reserve-release-eaf0cf9988cd7e06f0dc2a8ee800762e"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-15-007"
+    category: "Disasters and accidents"
+    subcategory: "Severe weather"
+    topics:
+      - "Winter storm"
+      - "Flooding"
+      - "Wildfires"
+      - "Power outages"
+      - "Flight disruptions"
+      - "Severe weather"
+      - "United States"
+    importance: 5
+    headline: "A sprawling U.S. storm system brings blizzard conditions, Hawaii flooding, wildfire pressure and major travel disruptions"
+    summary: >
+      A broad storm chain battered much of the United States on March 15, 2026, bringing
+      heavy snow to the Upper Midwest, severe flooding in Hawaii, ongoing wildfire strain in
+      Nebraska, widespread power outages, and a growing threat of thunderstorms and
+      tornadoes farther east. AP reported more than 600 cancellations at Minneapolis-Saint
+      Paul airport, more than 850 cancellations at Chicago's O'Hare and Midway, and more
+      than 210,000 utility customers without power across six Great Lakes states.
+    key_data: []
+    details:
+      what_happened:
+        - "Heavy snow made roads hazardous or impassable across parts of Minnesota, Wisconsin, and Michigan."
+        - "AP reported more than 20 inches of snow in parts of southeastern Minnesota and western Wisconsin, with some areas forecast to exceed 2 feet."
+        - "In Hawaii, flash flooding, landslides, road collapses, and multiple rescues were reported on Maui and other islands."
+        - "PowerOutage.us data cited by AP showed more than 210,000 customers without power in six Great Lakes states and nearly 40,000 in Hawaii by midday Sunday."
+        - "Nebraska remained under pressure from large wind-driven wildfires while forecasters warned of severe storms and possible tornadoes moving east."
+      why_it_matters:
+        - "The weather system created simultaneous winter, flood, fire, and severe-storm hazards across multiple U.S. regions."
+        - "The combination of airport cancellations, outages, evacuations, and rescue operations made it a nationally significant domestic emergency."
+        - "The event replaced an unsupported earthquake claim in the original draft with a verified March 15 disaster picture."
+      uncertainty_notes:
+        - "Impacts were still unfolding on March 15, especially for outages, severe-storm damage, and any casualty totals."
+        - "The article reported one fire-related fatality in Nebraska from the preceding Friday, but this entry does not attribute that death directly to the March 15 storm impacts."
+    actors:
+      primary:
+        - "United States"
+      secondary:
+        - "National Weather Service"
+        - "Hawaii Emergency Management Agency"
+        - "Maui County"
+        - "State and local emergency responders"
+    entities:
+      people:
+        - name: "Richard Bissen"
+          role: "Mayor of Maui County"
+      organizations:
+        - name: "National Weather Service"
+          description: "U.S. federal weather agency"
+        - name: "Hawaii Emergency Management Agency"
+          description: "Emergency agency of the U.S. state of Hawaii"
+        - name: "Maui County"
+          description: "County government in Hawaii"
+        - name: "National Guard"
+          description: "U.S. state-based military reserve force"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Minnesota"
+        - "Wisconsin"
+        - "Michigan"
+        - "Chicago"
+        - "Minneapolis-Saint Paul"
+        - "Maui"
+        - "Hawaii"
+        - "Nebraska"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Major road and airport disruption, road collapses and flood damage on Maui, widespread power outages, and ongoing wildfire damage in Nebraska."
+    classification:
+      event_type:
+        - "winter-storm"
+        - "flooding"
+        - "wildfire-emergency"
+        - "severe-weather-outbreak"
+      tags:
+        - "north-america"
+        - "weather"
+        - "reviewed"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/weather-blizzard-high-winds-tornadoes-94f6202d4bc4ad6a61d91e3e42919e57"
+          publication_date: "2026-03-15"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-15-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Gaza war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Israeli–Palestinian conflict"
+      - "Gaza war"
+    importance: 6
+    headline: "Israeli strike on a police vehicle in Gaza kills eight officers, including a district police chief"
+    summary: >
+      Eight police officers, including the police chief of the Deir al-Balah Governorate,
+      are killed by an Israeli attack on a police vehicle in Az-Zawayda, Palestine.
+    key_data: []
+    details:
+      what_happened:
+        - "Eight police officers, including the police chief of the Deir al-Balah Governorate, are killed by an Israeli attack on a police vehicle in Az-Zawayda, Palestine."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Palestine"
+        - "Israel"
+    geography:
+      countries:
+        - "Palestine"
+        - "Israel"
+      places:
+        - "Deir al-Balah Governorate"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 8
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "israeli-palestinian-conflict"
+        - "gaza-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Eight police officers, including the police chief of the Deir al-Balah Governorate, are killed by an Israeli attack on a police vehicle in Az-Zawayda, Palestine."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Business Recorder per the Wikipedia portal."
+  - id: "evt-2026-03-15-009"
+    category: "Armed conflicts and attacks"
+    subcategory: "Israeli incursions in the West Bank during the Gaza war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Israeli–Palestinian conflict"
+      - "Israeli incursions in the West Bank during the Gaza war"
+    importance: 5
+    headline: "Israeli soldiers fire on a civilian car in the northern West Bank, killing four"
+    summary: >
+      Four people are killed and two others are injured when Israel Defense Forces soldiers
+      open fire on a civilian car in northern Israeli-occupied West Bank.
+    key_data: []
+    details:
+      what_happened:
+        - "Four people are killed and two others are injured when Israel Defense Forces soldiers open fire on a civilian car in northern Israeli-occupied West Bank."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+        - "Palestine"
+    geography:
+      countries:
+        - "Israel"
+        - "Palestine"
+      places:
+        - "West Bank"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: 2
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "fire"
+      tags:
+        - "middle-eastern-crisis"
+        - "israeli-palestinian-conflict"
+        - "israeli-incursions-in-the-west-bank-during-the-gaza-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Four people are killed and two others are injured when Israel Defense Forces soldiers open fire on a civilian car in northern Israeli-occupied West Bank."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Hindustan Times per the Wikipedia portal."
+  - id: "evt-2026-03-15-010"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Kuwait"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Kuwait"
+    importance: 5
+    headline: "Iranian drone strike destroys an Italian MQ-9 Reaper at Kuwait's Ali Al Salem Air Base"
+    summary: >
+      An Italian MQ-9 Reaper is destroyed in an Iranian drone strike on Ali Al Salem Air
+      Base in Kuwait.
+    key_data: []
+    details:
+      what_happened:
+        - "An Italian MQ-9 Reaper is destroyed in an Iranian drone strike on Ali Al Salem Air Base in Kuwait."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Kuwait"
+        - "Italy"
+        - "Iran"
+    geography:
+      countries:
+        - "Kuwait"
+        - "Italy"
+        - "Iran"
+      places:
+        - "Ali Al Salem Air Base"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-kuwait"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An Italian MQ-9 Reaper is destroyed in an Iranian drone strike on Ali Al Salem Air Base in Kuwait."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by ANSA per the Wikipedia portal."
+  - id: "evt-2026-03-15-011"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Afghanistan–Pakistan war"
+    topics:
+      - "2026 Afghanistan–Pakistan war"
+    importance: 5
+    headline: "Afghan mortar fire kills four members of a family in Pakistan's Bajaur District"
+    summary: >
+      Afghan forces launch mortars into Pakistan, with one hitting a residential property in
+      Bajaur District, Khyber Pakhtunkhwa, killing four members of the same family and
+      wounding two others.
+    key_data: []
+    details:
+      what_happened:
+        - "Afghan forces launch mortars into Pakistan, with one hitting a residential property in Bajaur District, Khyber Pakhtunkhwa, killing four members of the same family and wounding two others."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Pakistan"
+        - "Afghanistan"
+    geography:
+      countries:
+        - "Pakistan"
+        - "Afghanistan"
+      places:
+        - "Bajaur District"
+        - "Khyber Pakhtunkhwa"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "2026-afghanistan-pakistan-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Afghan forces launch mortars into Pakistan, with one hitting a residential property in Bajaur District, Khyber Pakhtunkhwa, killing four members of the same family and wounding two others."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-15-002"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Guardian per the Wikipedia portal."
+  - id: "evt-2026-03-15-012"
+    category: "Armed conflicts and attacks"
+    subcategory: "Jonglei clashes"
+    topics:
+      - "Jonglei clashes"
+    importance: 5
+    headline: "South Sudan's army deploys troops to secure Akobo"
+    summary: >
+      The South Sudan People's Defence Forces announces that they have deployed troops in
+      Akobo, South Sudan to secure full control of the area for the first time since the
+      outbreak of the civil war in the country after having previously recapturing the area
+      from opposition forces.
+    key_data: []
+    details:
+      what_happened:
+        - "The South Sudan People's Defence Forces announces that they have deployed troops in Akobo, South Sudan to secure full control of the area for the first time since the outbreak of the civil war in the country after having previously recapturing the area from opposition forces."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "South Sudan People's Defence Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "South Sudan People's Defence Forces"
+          description: "Military of South Sudan"
+      states:
+        - "South Sudan"
+    geography:
+      countries:
+        - "South Sudan"
+      places:
+        - "Akobo"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "jonglei-clashes"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The South Sudan People's Defence Forces announces that they have deployed troops in Akobo, South Sudan to secure full control of the area for the first time since the outbreak of the civil war in the country after having previously recapturing the area from opposition forces."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Medafrica Times per the Wikipedia portal."
+  - id: "evt-2026-03-15-013"
+    category: "Arts and culture"
+    subcategory: "98th Academy Awards"
+    topics:
+      - "98th Academy Awards"
+    importance: 4
+    headline: "One Battle After Another wins six Oscars, including Best Picture"
+    summary: >
+      At the Academy Awards, One Battle After Another wins six Academy Awards, including
+      Best Picture and the inaugural Achievement in Casting award.
+    key_data: []
+    details:
+      what_happened:
+        - "At the Academy Awards, One Battle After Another wins six Academy Awards, including Best Picture and the inaugural Achievement in Casting award."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Paul Thomas Anderson"
+      secondary: []
+    entities:
+      people:
+        - name: "Paul Thomas Anderson"
+          role: "Film director (One Battle After Another)"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "arts-and-culture"
+        - "competition-result"
+      tags:
+        - "98th-academy-awards"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At the Academy Awards, One Battle After Another wins six Academy Awards, including Best Picture and the inaugural Achievement in Casting award."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP and Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-15-014"
+    category: "Arts and culture"
+    subcategory: "98th Academy Awards"
+    topics:
+      - "98th Academy Awards"
+    importance: 3
+    headline: "Sinners wins four Academy Awards"
+    summary: >
+      Sinners wins four Academy Awards following a record 16 nominations, with Ryan Coogler
+      for original screenplay, Michael B. Jordan for lead actor, Autumn Durald Arkapaw for
+      cinematography, and Ludwig Göransson for score.
+    key_data: []
+    details:
+      what_happened:
+        - "Sinners wins four Academy Awards following a record 16 nominations, with Ryan Coogler for original screenplay, Michael B. Jordan for lead actor, Autumn Durald Arkapaw for cinematography, and Ludwig Göransson for score."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ryan Coogler"
+        - "Michael B. Jordan"
+      secondary: []
+    entities:
+      people:
+        - name: "Ryan Coogler"
+          role: "Film director and screenwriter (Sinners)"
+        - name: "Michael B. Jordan"
+          role: "Actor (Sinners)"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "arts-and-culture"
+        - "competition-result"
+      tags:
+        - "98th-academy-awards"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Sinners wins four Academy Awards following a record 16 nominations, with Ryan Coogler for original screenplay, Michael B. Jordan for lead actor, Autumn Durald Arkapaw for cinematography, and Ludwig Göransson for score."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Hollywood Reporter per the Wikipedia portal."
+  - id: "evt-2026-03-15-015"
+    category: "Disasters and accidents"
+    subcategory: "2026 Kenya floods"
+    topics:
+      - "2026 Kenya floods"
+    importance: 5
+    headline: "Kenya's flood death toll rises to 66"
+    summary: >
+      The death toll from severe flooding in Kenya rises to 66, according to the Kenya Red
+      Cross Society.
+    key_data: []
+    details:
+      what_happened:
+        - "The death toll from severe flooding in Kenya rises to 66, according to the Kenya Red Cross Society."
+      why_it_matters: []
+      uncertainty_notes:
+        - "Cumulative toll for the flooding, not a single-day figure."
+    actors:
+      primary:
+        - "Kenya Red Cross Society"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Kenya Red Cross Society"
+          description: "Kenya's national humanitarian society"
+      states:
+        - "Kenya"
+    geography:
+      countries:
+        - "Kenya"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 66
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+        - "flood"
+      tags:
+        - "2026-kenya-floods"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The death toll from severe flooding in Kenya rises to 66, according to the Kenya Red Cross Society."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-15-016"
+    category: "Health and environment"
+    subcategory: "2026 Kent meningitis outbreak"
+    topics:
+      - "2026 Kent meningitis outbreak"
+    importance: 5
+    headline: "Meningitis outbreak at the University of Kent kills two"
+    summary: >
+      Two people are killed and eleven others are hospitalized in serious condition
+      following a meningitis outbreak at the University of Kent in Canterbury, Kent,
+      England.
+    key_data: []
+    details:
+      what_happened:
+        - "Two people are killed and eleven others are hospitalized in serious condition following a meningitis outbreak at the University of Kent in Canterbury, Kent, England."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places:
+        - "University of Kent"
+        - "Canterbury"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 2
+      injured: 11
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "health-and-environment"
+      tags:
+        - "2026-kent-meningitis-outbreak"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two people are killed and eleven others are hospitalized in serious condition following a meningitis outbreak at the University of Kent in Canterbury, Kent, England."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-15-017"
+    category: "Politics and elections"
+    subcategory: "2026 French municipal elections"
+    topics:
+      - "2026 French municipal elections"
+    importance: 5
+    headline: "France holds the first round of municipal elections"
+    summary: >
+      The first round of municipal elections takes place in France.
+    key_data: []
+    details:
+      what_happened:
+        - "The first round of municipal elections takes place in France."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "France"
+    geography:
+      countries:
+        - "France"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "election"
+      tags:
+        - "2026-french-municipal-elections"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The first round of municipal elections takes place in France."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-15-018"
+    category: "Politics and elections"
+    subcategory: "2026 North Korean parliamentary election"
+    topics:
+      - "2026 North Korean parliamentary election"
+    importance: 4
+    headline: "North Korea elects its 15th Supreme People's Assembly"
+    summary: >
+      North Koreans vote to elect the 687 members of the 15th Supreme People's Assembly.
+    key_data: []
+    details:
+      what_happened:
+        - "North Koreans vote to elect the 687 members of the 15th Supreme People's Assembly."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "North Korea"
+    geography:
+      countries:
+        - "North Korea"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "2026-north-korean-parliamentary-election"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "North Koreans vote to elect the 687 members of the 15th Supreme People's Assembly."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Diplomat per the Wikipedia portal."
+  - id: "evt-2026-03-15-019"
+    category: "Sports"
+    subcategory: "2026 Winter Paralympics closing ceremony"
+    topics:
+      - "2026 Winter Paralympics"
+      - "2026 Winter Paralympics closing ceremony"
+    importance: 4
+    headline: "Winter Paralympics close in Cortina d'Ampezzo with China top of the medal table"
+    summary: >
+      The Winter Paralympics conclude in Cortina d'Ampezzo, Italy, with China as the
+      highest-ranked team in the medal table. The Paralympic flag is handed over to the
+      organizers of the 2030 Winter Paralympics to be held in the French Alps.
+    key_data: []
+    details:
+      what_happened:
+        - "The Winter Paralympics conclude in Cortina d'Ampezzo, Italy, with China as the highest-ranked team in the medal table. The Paralympic flag is handed over to the organizers of the 2030 Winter Paralympics to be held in the French Alps."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Italy"
+        - "China"
+    geography:
+      countries:
+        - "Italy"
+        - "China"
+      places:
+        - "Cortina d'Ampezzo"
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2026-winter-paralympics"
+        - "2026-winter-paralympics-closing-ceremony"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Winter Paralympics conclude in Cortina d'Ampezzo, Italy, with China as the highest-ranked team in the medal table. The Paralympic flag is handed over to the organizers of the 2030 Winter Paralympics to be held in the French Alps."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+  - id: "evt-2026-03-15-020"
+    category: "Sports"
+    subcategory: "2026 Winter Paralympics"
+    topics:
+      - "2026 Winter Paralympics"
+    importance: 3
+    headline: "United States beats Canada 6–2 for Paralympic para ice hockey gold"
+    summary: >
+      In para ice hockey, the United States defeats Canada 6–2, completing the three-peat of
+      hockey championships at the Winter Olympics and Paralympics in Italy.
+    key_data: []
+    details:
+      what_happened:
+        - "In para ice hockey, the United States defeats Canada 6–2, completing the three-peat of hockey championships at the Winter Olympics and Paralympics in Italy."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Canada"
+        - "Italy"
+    geography:
+      countries:
+        - "United States"
+        - "Canada"
+        - "Italy"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2026-winter-paralympics"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In para ice hockey, the United States defeats Canada 6–2, completing the three-peat of hockey championships at the Winter Olympics and Paralympics in Italy."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-15-021"
+    category: "Sports"
+    subcategory: "2026 Chinese Grand Prix"
+    topics:
+      - "2026 Formula One World Championship"
+      - "2026 Chinese Grand Prix"
+    importance: 4
+    headline: "Kimi Antonelli wins the Chinese Grand Prix for his first Formula One victory"
+    summary: >
+      In auto racing, Mercedes-Benz driver Kimi Antonelli wins his first Formula One Grand
+      Prix after also setting his maiden pole position at the 2026 Chinese Grand Prix. He
+      becomes the second-youngest Grand Prix winner at 19 years old.
+    key_data: []
+    details:
+      what_happened:
+        - "In auto racing, Mercedes-Benz driver Kimi Antonelli wins his first Formula One Grand Prix after also setting his maiden pole position at the 2026 Chinese Grand Prix. He becomes the second-youngest Grand Prix winner at 19 years old."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Kimi Antonelli"
+      secondary: []
+    entities:
+      people:
+        - name: "Kimi Antonelli"
+          role: "Mercedes Formula One driver"
+      organizations: []
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+        - "competition-result"
+      tags:
+        - "2026-formula-one-world-championship"
+        - "2026-chinese-grand-prix"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In auto racing, Mercedes-Benz driver Kimi Antonelli wins his first Formula One Grand Prix after also setting his maiden pole position at the 2026 Chinese Grand Prix. He becomes the second-youngest Grand Prix winner at 19 years old."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+  - id: "evt-2026-03-15-022"
+    category: "Sports"
+    subcategory: "Iran at the FIFA World Cup"
+    topics:
+      - "2026 FIFA World Cup"
+      - "Iran at the FIFA World Cup"
+    importance: 4
+    headline: "AFC says Iran will still play at the FIFA World Cup"
+    summary: >
+      Asian Football Confederation secretary general Windsor John says that the Iran
+      national football team will still play at the upcoming FIFA World Cup despite remarks
+      from U.S. President Donald Trump that their safety could be at risk.
+    key_data: []
+    details:
+      what_happened:
+        - "Asian Football Confederation secretary general Windsor John says that the Iran national football team will still play at the upcoming FIFA World Cup despite remarks from U.S. President Donald Trump that their safety could be at risk."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Windsor John"
+      secondary: []
+    entities:
+      people:
+        - name: "Windsor John"
+          role: "General secretary of the Asian Football Confederation"
+      organizations: []
+      states:
+        - "Iran"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2026-fifa-world-cup"
+        - "iran-at-the-fifa-world-cup"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Asian Football Confederation secretary general Windsor John says that the Iran national football team will still play at the upcoming FIFA World Cup despite remarks from U.S. President Donald Trump that their safety could be at risk."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Independent per the Wikipedia portal."
+  - id: "evt-2026-03-15-023"
+    category: "Sports"
+    subcategory: "2026 FC Barcelona presidential election"
+    topics:
+      - "2026 FC Barcelona presidential election"
+    importance: 3
+    headline: "Joan Laporta re-elected president of FC Barcelona"
+    summary: >
+      In association football, Joan Laporta is re-elected president of FC Barcelona.
+    key_data: []
+    details:
+      what_happened:
+        - "In association football, Joan Laporta is re-elected president of FC Barcelona."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Joan Laporta"
+      secondary: []
+    entities:
+      people:
+        - name: "Joan Laporta"
+          role: "President of FC Barcelona"
+      organizations: []
+      states:
+        - "Spain"
+    geography:
+      countries:
+        - "Spain"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-15"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2026-fc-barcelona-presidential-election"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In association football, Joan Laporta is re-elected president of FC Barcelona."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by ESPN per the Wikipedia portal."
+
+strategic_conclusion: >
+  The day combined a cluster of state-managed or contested votes, in Vietnam, the Republic
+  of the Congo, Kazakhstan and North Korea, with coordinated emergency action on oil supply
+  led by the IEA. U.S.–China trade talks opened a separate diplomatic channel even as the
+  Iran war and the Afghanistan–Pakistan conflict continued to cause casualties across the
+  region.
+
+works_cited:
+  - id: 1
+    title: "Us china discuss farm goods managed trade remarkably stable paris talks sources"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/aerospace-defense/us-china-discuss-farm-goods-managed-trade-remarkably-stable-paris-talks-sources-2026-03-15"
+    accessed: "2026-03-15"
+  - id: 2
+    title: "China us trade talks paris"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/china-us-trade-talks-paris-304947f60609fce139602b57b214c468"
+    accessed: "2026-03-15"
+  - id: 3
+    title: "Pakistan targets taliban installations terrorist hideouts kandahar during"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/pakistan-targets-taliban-installations-terrorist-hideouts-kandahar-during-2026-03-15"
+    accessed: "2026-03-15"
+  - id: 4
+    title: "Pakistan afghanistan kandahar fighting"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/pakistan-afghanistan-kandahar-fighting-15de9a35d08aa0c265de42a13d1ddaea"
+    accessed: "2026-03-15"
+  - id: 5
+    title: "Communist party fields nearly 93 candidates vietnam holds parliament elections"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/communist-party-fields-nearly-93-candidates-vietnam-holds-parliament-elections-2026-03-15"
+    accessed: "2026-03-15"
+  - id: 6
+    title: "Vietnam election national assembly"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/vietnam-election-national-assembly-c3a445f2e29da4d30267c1d18f079f0c"
+    accessed: "2026-03-15"
+  - id: 7
+    title: "Congo republic votes election expected extend sassous long rule"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/congo-republic-votes-election-expected-extend-sassous-long-rule-2026-03-15"
+    accessed: "2026-03-15"
+  - id: 8
+    title: "Kazakhstan approves new constitution referendum exit poll says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/kazakhstan-approves-new-constitution-referendum-exit-poll-says-2026-03-15"
+    accessed: "2026-03-15"
+  - id: 9
+    title: "Kazakhstan referendum tokayev constitution"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/kazakhstan-referendum-tokayev-constitution-fef36383f2de35fa7f636a6d9310348d"
+    accessed: "2026-03-15"
+  - id: 10
+    title: "Emergency stockpile oil coming soon iran wracked markets iea says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/emergency-stockpile-oil-coming-soon-iran-wracked-markets-iea-says-2026-03-15"
+    accessed: "2026-03-15"
+  - id: 11
+    title: "Iran us oil europe reserve release"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/iran-us-oil-europe-reserve-release-eaf0cf9988cd7e06f0dc2a8ee800762e"
+    accessed: "2026-03-11"
+  - id: 12
+    title: "Weather blizzard high winds tornadoes"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/weather-blizzard-high-winds-tornadoes-94f6202d4bc4ad6a61d91e3e42919e57"
+    accessed: "2026-03-15"
+  - id: 13
+    title: "Portal:Current events/2026 March 15"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_15&oldid=1361624434"
+    accessed: "2026-09-22"

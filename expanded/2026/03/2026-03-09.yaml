@@ -1,0 +1,4301 @@
+date: "2026-03-09"
+source_page:
+  portal: "Portal:Current events/2026 March 9"
+  language: "en"
+  wikipedia_revision_id: 1353720604
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 9 (revision 1353720604; seed 2026/03/2026-03-09.yaml) + deep-research report reference/deep-research/2026/03/2026-03-09.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  On March 9, 2026, Iran named Mojtaba Khamenei as Supreme Leader while U.S. and Israeli
+  forces carried out their heaviest raids yet on Tehran, and Iranian missiles and drones
+  targeted the UAE, with one ballistic missile intercepted over Turkey by NATO. An Israeli
+  strike in central Beirut killed senior Quds Force and Hezbollah figures. Oil and commodity
+  markets swung sharply as G7 finance ministers discussed but held off on releasing
+  emergency reserves, and energy-importing states including Pakistan and Bangladesh imposed
+  fuel-saving measures. Presidents Putin and Trump spoke by phone about the war, Ukraine and
+  energy prices.
+
+  Beyond the war, blasts damaged the U.S. embassy in Oslo and a synagogue in Liège, a
+  migrant boat collision off Turkey left at least 14 dead, and coordinated militant raids
+  struck northeast Nigeria. Colombia's legislative election produced a fragmented Senate led
+  by the Historic Pact, Portugal inaugurated President António José Seguro, Kosovo's
+  Constitutional Court froze the president's dissolution of parliament, and Madagascar's
+  president dismissed his government. Nairobi's flood toll rose to 42.
+
+events:
+  - id: "evt-2026-03-09-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Interstate war escalation and leadership succession"
+    topics:
+      - "Interstate war escalation and leadership succession"
+      - "Iran"
+      - "Israel"
+    importance: 9
+    headline: "Iran names Mojtaba Khamenei as Supreme Leader as Israel and the United States intensify the Iran war"
+    summary: >
+      On March 9, Iran identified Mojtaba Khamenei as successor to his father as Supreme
+      Leader while heavy air raids shook Tehran, including reports of more than 20 large
+      explosions and localized power cuts. Donald Trump publicly framed the leadership
+      change as “more of the same” and avoided saying whether Iran’s new leader could be
+      targeted, while the conflict’s reported death toll continued to rise across multiple
+      countries.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that Iran’s succession announcement signaled hardliners remained firmly in charge about a week into the conflict."
+        - "AP reported that Tehran experienced the heaviest raids since the war began, with witnesses describing sustained aircraft noise, heavy blasts, and power cuts in some neighborhoods; Iranian media did not provide damage/casualty details for those strikes at the time."
+        - "AP reported that Trump said naming Mojtaba Khamenei would likely bring “more of the same,” and said it would be “inappropriate” to speculate about targeting the new leader."
+        - "AP’s running casualty summary cited official figures indicating at least 1,230 killed in Iran, at least 397 in Lebanon, and 11 in Israel (as reported by officials in those countries)."
+        - "AP’s live coverage also said new footage had “raised the likelihood” the U.S. military struck an Iranian elementary school where a blast killed at least 165 people, mostly children (a claim characterized as developing/under review)."
+      why_it_matters:
+        - "Leadership succession under wartime pressure can shape escalation decisions, bargaining positions, and internal cohesion in Iran."
+        - "Intensified strikes on Tehran and rising cross-border casualty totals heighten risks of wider regional spillover and further retaliatory cycles."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Iran"
+        - "Israel"
+        - "United States"
+        - "Donald Trump"
+        - "Mojtaba Khamenei"
+      secondary:
+        - "Civilian populations in affected areas (Iran/Israel/Lebanon)"
+        - "officials reporting casualty totals"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "U.S. president"
+        - name: "Mojtaba Khamenei"
+          role: "Son of Ali Khamenei; named Supreme Leader of Iran in March 2026"
+      organizations:
+        - name: "Associated Press"
+          description: "News agency"
+        - name: "Reuters"
+          description: "News agency"
+        - name: "Civilian populations in affected areas"
+          description: "Iran/Israel/Lebanon"
+      states:
+        - "Iran"
+        - "Israel"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+        - "Israel"
+        - "United States"
+      places:
+        - "Tehran"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1638
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Reported heavy explosions and localized electricity cuts in Tehran; strike damage/casualties in Tehran not detailed by Iranian media at the time."
+    classification:
+      event_type:
+        - "interstate-war-escalation-and-leadership-succession"
+      tags:
+        - "interstate-war-escalation-and-leadership-succession"
+        - "iran"
+        - "israel"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/live/iran-war-israel-trump-khamenei-03-09-2026"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/oil-soars-25-gold-drops-iran-war-jolts-global-commodity-markets-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-09-019"
+    notes: ""
+  - id: "evt-2026-03-09-002"
+    category: "Business and economy"
+    subcategory: "Energy shock and coordinated policy signaling"
+    topics:
+      - "Energy shock and coordinated policy signaling"
+    importance: 8
+    headline: "Oil and commodities swing sharply as G7 weighs (but delays) releasing emergency reserves amid Iran war shock"
+    summary: >
+      Global commodity markets convulsed on March 9 as crude prices surged to multi-year
+      highs before retreating, while precious and industrial metals moved sharply in
+      response to energy disruptions, inflation expectations, and currency moves. Reuters
+      reported oil briefly spiked as much as 29% before ending the day substantially higher,
+      and separately reported that G7 finance ministers discussed the shock but broadly
+      agreed not to release strategic stockpiles immediately—while stating they were
+      prepared to take “necessary measures,” including possible releases.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported oil prices surged as much as 29% to the highest since mid-2022 before paring gains to settle roughly 7% higher, while gold fell more than 1% amid a stronger dollar and shifting rate-cut expectations."
+        - "Reuters reported Brent futures settled at $98.96/bbl (+6.8%) and U.S. WTI at $94.77/bbl (+4.3%) after volatility tied to supply anxieties and conflict risk."
+        - "Reuters reported the G7 finance ministers held a teleconference and said they were ready to take “necessary measures” (including stockpile release) but decided not to release reserves “just yet,” pending further analysis."
+        - "The Guardian reported oil rose above $100/bbl and that G7 ministers monitored impacts on stability, markets, and secure trading routes while stopping short of an immediate coordinated emergency release."
+      why_it_matters:
+        - "Oil-price spikes feed directly into inflation and recession/stagflation risk, especially if shipping chokepoints or production outages persist."
+        - "The G7’s decision to delay a release—while signaling readiness—can influence expectations, speculative positioning, and policy coordination across energy-importing states."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Group of Seven finance ministers"
+      secondary:
+        - "International Energy Agency (emergency stocks framework referenced in reporting)"
+        - "global commodities market participants"
+    entities:
+      people: []
+      organizations:
+        - name: "Group of Seven"
+          description: "Major advanced economies"
+        - name: "International Energy Agency"
+          description: "Intergovernmental energy body"
+        - name: "The Guardian"
+          description: "UK newspaper"
+        - name: "Group of Seven finance ministers"
+          description: "Finance ministers of the G7 economies"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "G7 economies"
+        - "key shipping routes in/near the Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Market/price shock—oil up sharply intraday; metals and agriculture markets saw significant volatility; policy coordination discussions initiated."
+    classification:
+      event_type:
+        - "energy-shock-and-coordinated-policy-signaling"
+      tags:
+        - "energy-shock-and-coordinated-policy-signaling"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/oil-soars-25-gold-drops-iran-war-jolts-global-commodity-markets-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+        - id: "src-002-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/broad-agreement-g7-not-release-oil-reserves-just-yet-says-g7-official-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: "src-002-c"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/business/2026/mar/09/g7-release-emergency-reserves-oil-price-us-middle-east-war"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-09-003"
+      - "evt-2026-03-09-034"
+      - "evt-2026-03-09-035"
+      - "evt-2026-03-09-036"
+    notes: ""
+  - id: "evt-2026-03-09-003"
+    category: "Politics and elections"
+    subcategory: "Energy-rationing and austerity measures"
+    topics:
+      - "Energy-rationing and austerity measures"
+      - "Pakistan"
+    importance: 5
+    headline: "Pakistan orders fuel-saving measures as energy shock forces emergency cuts"
+    summary: >
+      Pakistan announced sweeping fuel- and cost-saving measures on March 9 as surging
+      energy prices disrupted budgets and daily life, including a temporary closure of
+      schools, workforce reductions, and cuts to government fuel allowances. Reuters and
+      other reporting described the package as an attempt to reduce demand and keep
+      essential services functioning under rising import costs and market volatility driven
+      by the wider Middle East conflict.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported the government announced a two-week closure of schools (public and private), with universities moving online."
+        - "Reuters reported a shift to a four-day workweek for public offices and additional steps to cut fuel use (including reductions to official vehicles and departmental fuel allocations)."
+        - "AP reported Pakistan was among Asian states scrambling to conserve energy as oil-price shocks hit; Pakistan’s measures included limiting movement and reducing fuel consumption across the public sector."
+        - "Dawn reported additional Pakistan-specific implementation details and official messaging around the closures and fuel-saving directives."
+      why_it_matters:
+        - "Large, rapid demand-reduction orders signal acute vulnerability to imported fuel costs and can trigger knock-on economic and social impacts (lost instruction time, productivity losses, public frustration)."
+        - "Such measures can indicate stress in foreign-exchange reserves and fiscal capacity when global energy markets spike."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Pakistan government"
+        - "Shehbaz Sharif"
+      secondary:
+        - "Provincial education authorities"
+        - "public-sector agencies implementing rationing steps"
+    entities:
+      people:
+        - name: "Shehbaz Sharif"
+          role: "Pakistan prime minister"
+      organizations:
+        - name: "Dawn"
+          description: "Pakistan newspaper"
+        - name: "Pakistan government"
+          description: "Government of Pakistan"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places:
+        - "nationwide public-sector and education system measures"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Nationwide service disruption—school closures and reduced public-office operations as emergency conservation measures."
+    classification:
+      event_type:
+        - "energy-rationing-and-austerity-measures"
+      tags:
+        - "energy-rationing-and-austerity-measures"
+        - "pakistan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/pakistan-shuts-all-schools-save-fuel-amid-rising-energy-prices-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [5]
+        - id: "src-003-b"
+          outlet: "AP"
+          url: "https://apnews.com/article/energy-crisis-oil-prices-asia-pakistan-schools-close-"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [6]
+        - id: "src-003-c"
+          outlet: "Dawn"
+          url: "https://www.dawn.com/news/1778252"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-09-002"
+      - "evt-2026-03-09-034"
+      - "evt-2026-03-09-035"
+      - "evt-2026-03-09-036"
+    notes: ""
+  - id: "evt-2026-03-09-004"
+    category: "International relations"
+    subcategory: "Crisis diplomacy between great powers"
+    topics:
+      - "Crisis diplomacy between great powers"
+      - "United States"
+      - "Russia"
+    importance: 7
+    headline: "Vladimir Putin and Donald Trump hold call on Iran war, Ukraine, and energy prices"
+    summary: >
+      On March 9, Trump and Putin spoke by phone with both sides indicating the Iran war and
+      the Ukraine conflict were central topics, alongside the global oil-market stakes.
+      Reuters reported Trump publicly described the call as “very good,” while
+      Kremlin-linked reporting said Putin shared proposals aimed at ending the Iran war
+      quickly and the leaders discussed Ukraine and energy markets.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Trump said he discussed the conflicts in Ukraine and Iran with Putin and described the call positively."
+        - "Reuters also reported (in market context) that oil-price moves later reversed around news of the Trump–Putin call, amid reporting the U.S. was weighing additional easing of sanctions on Russian oil to cool prices."
+        - "Kremlin reporting said Putin shared proposals for a quick settlement to the Iran war and that the leaders discussed Ukraine and Venezuela in the context of oil markets."
+        - "Axios reported additional context on the call’s framing and the administration’s diplomacy around the conflict."
+      why_it_matters:
+        - "U.S.–Russia crisis channels can shape negotiated off-ramps, deconfliction, and third-party mediation dynamics—even while Russia remains central to energy supply and sanctions politics."
+        - "Any sanctions adjustment linked to oil prices can shift incentives and revenues connected to Russia’s war in Ukraine."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+        - "Vladimir Putin"
+      secondary:
+        - "Trump administration officials"
+        - "Kremlin foreign-policy staff (as referenced in reporting)"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Vladimir Putin"
+          role: "President of Russia"
+      organizations:
+        - name: "Trump administration officials"
+          description: "U.S. executive-branch officials"
+        - name: "Kremlin foreign-policy staff"
+          description: "as referenced in reporting"
+      states:
+        - "United States"
+        - "Russia"
+    geography:
+      countries:
+        - "United States"
+        - "Russia"
+      places:
+        - "conflict-linked discussions touching the Middle East and Ukraine"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "None reported (diplomatic contact); potential downstream impacts on markets and conflict trajectories."
+    classification:
+      event_type:
+        - "crisis-diplomacy-between-great-powers"
+      tags:
+        - "crisis-diplomacy-between-great-powers"
+        - "united-states"
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/trump-says-he-discussed-ukraine-and-iran-conflicts-with-putin-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: "src-004-b"
+          outlet: "Kremlin/official readout referenced via news aggregation"
+          url: "https://www.jpost.com/international/article-889408"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [9]
+        - id: "src-004-c"
+          outlet: "Axios"
+          url: "https://www.axios.com"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Attack on diplomatic facility"
+    topics:
+      - "Attack on diplomatic facility"
+      - "Norway"
+    importance: 5
+    headline: "Blast damages the U.S. embassy in Oslo as Norway police hunt suspect"
+    summary: >
+      Norwegian authorities investigated an apparent deliberate attack after an
+      improvised/incendiary device caused an explosion outside the U.S. embassy in Oslo,
+      damaging an entrance but producing no reported injuries. Reuters reported police were
+      seeking a suspect captured on surveillance footage and exploring multiple
+      hypotheses—including a possible link to the wider Middle East crisis—while AP reported
+      the incident involved an incendiary device placed outside the consular area.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported the blast damaged the entrance to the embassy’s consular section and produced thick smoke; police described the device as an IED and said no injuries occurred."
+        - "Reuters reported investigators reviewed surveillance images of a hooded individual carrying a backpack and appealed for information while weighing hypotheses including terrorism."
+        - "AP reported the blast was caused by an incendiary device likely placed in a backpack outside the Consular Affairs office; Norway’s security service increased involvement but did not raise the national threat level."
+        - "Reuters reporting described heightened vigilance around U.S./Israeli/Jewish sites in Europe amid ongoing hostilities."
+      why_it_matters:
+        - "Attacks on diplomatic facilities can trigger security escalations, reciprocal measures, and broader fears of conflict spillover onto European soil."
+        - "The incident added to a same-day pattern of high-sensitivity security alerts tied in reporting to the Iran war’s wider tensions."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Norwegian police"
+        - "U.S. Embassy in Oslo"
+      secondary:
+        - "Norway’s Police Security Service (PST)"
+        - "U.S. State Department (acknowledgment mentioned by AP)"
+    entities:
+      people: []
+      organizations:
+        - name: "Norwegian police"
+          description: "Police of Norway"
+        - name: "U.S. Embassy in Oslo"
+          description: "U.S. diplomatic mission in Oslo"
+        - name: "Norway’s Police Security Service"
+          description: "PST"
+        - name: "U.S. State Department"
+          description: "acknowledgment mentioned by AP"
+      states:
+        - "Norway"
+    geography:
+      countries:
+        - "Norway"
+      places:
+        - "Oslo"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Minor structural damage to an embassy entrance/consular-area access point; smoke reported."
+    classification:
+      event_type:
+        - "attack-on-diplomatic-facility"
+      tags:
+        - "attack-on-diplomatic-facility"
+        - "norway"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/norway-police-search-suspect-after-us-embassy-blast-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+        - id: "src-005-b"
+          outlet: "AP"
+          url: "https://apnews.com/article/4d6647454232241ea640e9ff334f2864"
+          publication_date: "2026-03-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-006"
+    category: "Law and crime"
+    subcategory: "Antisemitic attack investigation"
+    topics:
+      - "Terrorism in Belgium, Antisemitism in contemporary Belgium"
+      - "Antisemitic attack investigation"
+      - "Belgium"
+    importance: 6
+    headline: "Liège synagogue blast treated as antisemitic act; Belgium opens terrorism-linked investigation"
+    summary: >
+      A pre-dawn explosion damaged a synagogue in Liège on March 9, shattering windows and
+      damaging nearby property but causing no injuries. Reuters reported Belgian authorities
+      labeled the incident a “despicable antisemitic act,” with federal authorities taking
+      over the investigation, while AP and Jewish Telegraphic Agency reporting described
+      Europe-wide alerts after the incident and parallel security concerns following the
+      Oslo embassy blast.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported the blast occurred around 4 a.m., blowing out windows at the synagogue and a nearby building, with no injuries reported."
+        - "Reuters reported Belgian federal authorities (handling terrorism/organized crime cases) took over the investigation and police sealed off the area."
+        - "Reuters reported Bernard Quintin condemned the incident and said security around Jewish sites would be reinforced."
+        - "JTA reported officials were treating possibilities including terrorism and emphasized the antisemitic framing by officials."
+      why_it_matters:
+        - "Targeting religious sites intensifies communal fear and can drive rapid security responses across multiple countries."
+        - "The incident added to a broader pattern of reported security incidents in Europe that officials and media linked to heightened geopolitical tensions."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Belgian federal prosecutors/police"
+        - "Bernard Quintin"
+      secondary:
+        - "Jewish community organizations in Belgium (quoted in Reuters)"
+        - "local Liège authorities"
+    entities:
+      people:
+        - name: "Bernard Quintin"
+          role: "Belgian interior minister"
+      organizations:
+        - name: "Belgian federal prosecutors/police"
+          description: "Belgian investigating authorities"
+      states:
+        - "Belgium"
+    geography:
+      countries:
+        - "Belgium"
+      places:
+        - "Liège"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Significant window and facade/property damage reported at the synagogue and nearby buildings."
+    classification:
+      event_type:
+        - "antisemitic-attack-investigation"
+      tags:
+        - "terrorism-in-belgium-antisemitism-in-contemporary-belgium"
+        - "antisemitic-attack-investigation"
+        - "belgium"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A synagogue in Liège, Belgium, is damaged by an explosion. It is being investigated as a potential act of terrorism."
+      external:
+        - id: "src-006-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/synagogue-belgian-city-liege-damaged-explosion-vrt-reports-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [13]
+        - id: "src-006-b"
+          outlet: "AP"
+          url: "https://apnews.com/article/europe-security-synagogue-belgium-blast-48e901cc4234301ea261773493dc2843"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [14]
+        - id: "src-006-c"
+          outlet: "Jewish Telegraphic Agency"
+          url: "https://www.jta.org/2026/03/09/global/belgian-officials-investigating-synagogue-explosion-as-possible-act-of-terrorism"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-007"
+    category: "International relations"
+    subcategory: "Defense partnerships and strategic alignment"
+    topics:
+      - "Defense partnerships and strategic alignment"
+      - "Australia"
+      - "Iceland"
+    importance: 4
+    headline: "European Union signals expanding defense ties with Australia, Iceland, and Ghana"
+    summary: >
+      On March 9, Reuters reported EU foreign-policy chief Kaja Kallas said the EU would
+      sign defense partnerships with Australia, Iceland, and Ghana “in the coming days,”
+      framing the move as part of a wider shift by countries seeking to diversify
+      partnerships amid heightened global risk. EUobserver and EEAS material situated the
+      announcement in a Brussels speech context, with Kallas signaling additional countries
+      were seeking similar arrangements.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Kallas said the EU would sign the partnerships soon and noted other countries were “knocking at our door.”"
+        - "Reuters reported the remark was delivered in Brussels and linked to a broader trend of strategic diversification under heightened risk."
+        - "EUobserver reported the same “in the coming days” timeline and described the announcement as part of EU defense outreach beyond the bloc’s borders."
+        - "The EEAS published Kallas’s keynote speech at the 2026 EU Ambassadors Conference dated 09.03.2026, providing official contextual framing for her Brussels remarks."
+      why_it_matters:
+        - "EU security partnerships with non-European partners can deepen intelligence, maritime, cyber, and interoperability cooperation without full alliance structures—reshaping regional security networks."
+        - "The inclusion of Australia and Ghana underscores EU outreach spanning Indo-Pacific and African security domains during a period of heightened global instability."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "European Union"
+        - "Kaja Kallas"
+      secondary:
+        - "Australia"
+        - "Iceland"
+        - "Ghana (partner governments)"
+    entities:
+      people:
+        - name: "Kaja Kallas"
+          role: "EU foreign policy chief"
+      organizations:
+        - name: "European External Action Service"
+          description: "EU diplomatic service"
+        - name: "European Union"
+          description: "Political and economic union of 27 European states"
+      states:
+        - "Australia"
+        - "Iceland"
+        - "Ghana"
+    geography:
+      countries:
+        - "Australia"
+        - "Iceland"
+        - "Ghana"
+      places:
+        - "European Union"
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "None reported (diplomatic/security agreements in preparation)."
+    classification:
+      event_type:
+        - "defense-partnerships-and-strategic-alignment"
+      tags:
+        - "defense-partnerships-and-strategic-alignment"
+        - "australia"
+        - "iceland"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/eu-sign-defence-partnerships-with-australia-iceland-ghana-kallas-says-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [16]
+        - id: "src-007-b"
+          outlet: "EUobserver"
+          url: "https://euobserver.com/206161/eu-to-sign-defence-pacts-with-australia-iceland-and-ghana-in-coming-days"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [17]
+        - id: "src-007-c"
+          outlet: "European External Action Service"
+          url: "https://www.eeas.europa.eu/eeas/keynote-speech-hrvp-kaja-kallas-2026-eu-ambassadors-conference_en"
+          publication_date: "2026-03-09"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-008"
+    category: "Disasters and accidents"
+    subcategory: "Maritime incident and border enforcement"
+    topics:
+      - "Mediterranean Sea migrant smuggling"
+      - "Maritime incident and border enforcement"
+      - "Turkey"
+      - "Greece"
+    importance: 6
+    headline: "Deadly migrant collision off Turkey leaves at least 14 dead after chase near Antalya province"
+    summary: >
+      At least 14 migrants died on March 9 after an inflatable boat collided with a Turkish
+      coastguard vessel during an attempted interception off Antalya province. Reuters cited
+      a Turkish coast guard statement confirming the death toll, while AP reported the crash
+      occurred during a chase after the migrant boat ignored calls to stop; Al Jazeera noted
+      the collision occurred near the Finike district.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported at least 14 people died when an inflatable migrant boat crashed into a Turkish coast guard vessel off Antalya province, according to a coast guard statement."
+        - "AP reported the collision occurred during a chase after the migrant vessel ignored calls to stop; officials described the pursuit and enforcement context."
+        - "Al Jazeera reported the collision occurred off the Finike district area of southwestern Turkey’s Antalya province."
+        - "Reporting indicated the incident happened on a major Eastern Mediterranean migration route where enforcement encounters can rapidly become deadly."
+      why_it_matters:
+        - "The incident underscores persistent lethal risk on Mediterranean migration routes, including during interdiction chases."
+        - "Fatal enforcement encounters can intensify domestic and international scrutiny of border policing, maritime rescue capacity, and asylum-route access."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Turkish Coast Guard"
+        - "migrants aboard the inflatable boat"
+      secondary:
+        - "Antalya provincial authorities (as referenced by AP)"
+        - "rescue/search units"
+    entities:
+      people: []
+      organizations:
+        - name: "Turkish Coast Guard"
+          description: "Maritime security agency"
+        - name: "Al Jazeera"
+          description: "News organization"
+        - name: "Antalya provincial authorities"
+          description: "as referenced by AP"
+      states:
+        - "Greece"
+        - "Turkey"
+    geography:
+      countries:
+        - "Turkey"
+        - "Greece"
+      places:
+        - "Antalya Province (Finike/Demre coastal area)"
+        - "Eastern Mediterranean routes toward Greece"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 14
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Collision at sea during enforcement chase; vessel damage details not specified in reporting summaries."
+    classification:
+      event_type:
+        - "maritime-incident-and-border-enforcement"
+      tags:
+        - "mediterranean-sea-migrant-smuggling"
+        - "maritime-incident-and-border-enforcement"
+        - "turkey"
+        - "greece"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least fourteen migrants are found drowned and seven others are rescued after their boat collides with a Coast Guard boat off the coast of Demre, Antalya Province, Turkey."
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/least-14-dead-after-migrant-boat-crashes-into-coast-guard-vessel-off-southern-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [19]
+        - id: "src-008-b"
+          outlet: "AP"
+          url: "https://apnews.com/article/turkey-migrants-drown-mediterranean-chase-collision-b399ada90696efa6c34c14640ed42652"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [20]
+        - id: "src-008-c"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/9/at-least-14-dead-after-migrant-boat-crashes-into-turkish-coastguard-vessel"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [21]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-009"
+    category: "Armed conflicts and attacks"
+    subcategory: "Insurgent raids on military and civilian targets"
+    topics:
+      - "Boko Haram insurgency"
+      - "Insurgent raids on military and civilian targets"
+      - "Nigeria"
+    importance: 7
+    headline: "Coordinated militant raids in Nigeria kill soldiers and civilians as attacks intensify in the northeast"
+    summary: >
+      Reuters reported that coordinated overnight attacks in northeast Nigeria killed at
+      least 12 soldiers and three civilians on March 9, citing military sources and
+      residents amid intensifying assaults on armed forces. Other contemporaneous reporting
+      (via AFP/AP republished outlets) described further details of attacks on military
+      positions and nearby communities, reflecting persistent instability despite years of
+      counterinsurgency operations.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Islamist militants killed at least 12 soldiers and three civilians in coordinated overnight attacks, citing military sources and residents."
+        - "Reuters reported the attacks occurred as assaults on armed forces were intensifying, indicating an elevated operational tempo."
+        - "AFP-reported coverage (via Defense Post) described militants striking multiple locations, including military positions and adjacent communities, with casualty figures varying by incident reports."
+        - "AP-reported follow-on coverage (via the Los Angeles Times item referencing AP) characterized the raids as part of a continuing insurgent threat in the region."
+      why_it_matters:
+        - "Sustained attacks on soldiers and civilians in northeast Nigeria signal ongoing capacity of insurgent forces to mount coordinated operations and stress government security posture."
+        - "Renewed attack waves can worsen displacement and humanitarian strain in a region already heavily affected by conflict."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Islamist militants (not further identified in Reuters summary)"
+        - "Nigerian security forces"
+      secondary:
+        - "Local residents and communities in affected areas"
+    entities:
+      people: []
+      organizations:
+        - name: "Islamist militants"
+          description: "not further identified in Reuters summary"
+        - name: "Nigerian security forces"
+          description: "Security forces of Nigeria"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Northeast (including areas referenced by Reuters around Maiduguri/Borno)"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 15
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Attack-specific infrastructure damage not quantified in Reuters summary; AFP-linked reporting described multi-site raids with varying incident-level detail."
+    classification:
+      event_type:
+        - "insurgent-raids-on-military-and-civilian-targets"
+      tags:
+        - "boko-haram-insurgency"
+        - "insurgent-raids-on-military-and-civilian-targets"
+        - "nigeria"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Islamist militants conduct coordinated overnight attacks on several locations in northeastern Nigeria, killing at least 12 soldiers and three civilians in fighting with government forces. The assaults target military positions in Borno and Yobe states and result in damage to military facilities and nearby homes."
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/islamist-militants-kill-15-coordinated-raids-across-northeast-nigeria-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [22]
+        - id: "src-009-b"
+          outlet: "Defense Post (AFP-based)"
+          url: "https://www.thedefensepost.com/2026/03/10/islamist-militants-attack-nigeria"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [23]
+        - id: "src-009-c"
+          outlet: "Los Angeles Times (AP-based)"
+          url: "https://www.latimes.com/world-nation/story/2026-03-10/islamist-militants-kill-nigeria-soldiers"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [24]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-010"
+    category: "Armed conflicts and attacks"
+    subcategory: "Force deployment and regional escalation risk"
+    topics:
+      - "Force deployment and regional escalation risk"
+      - "Turkey"
+      - "Northern Cyprus"
+    importance: 6
+    headline: "Turkey deploys F-16s and air defenses to northern Cyprus amid spreading regional tensions"
+    summary: >
+      On March 9, Reuters and Greek-media reporting said Turkey planned (and, per Turkish
+      defense ministry statements cited by Ekathimerini, began) deploying six F-16 fighter
+      jets and air defense systems to northern Cyprus to bolster security for the Turkish
+      Cypriot community amid broader regional instability tied to the Iran war. The move was
+      reported as part of a wider Turkish readiness posture as conflicts spread and military
+      resources repositioned in the Eastern Mediterranean.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Turkey planned to deploy six F-16 fighter jets to northern Cyprus, citing broadcaster NTV and confirmation from a civil aviation official."
+        - "Reuters reported the decision followed earlier indications from a Turkish defense ministry source that Ankara was considering additional security measures as conflict spread."
+        - "Ekathimerini reported Turkey’s defense ministry said it had deployed the jets and air defense systems and would take further measures if needed."
+        - "Reporting framed the deployment as specifically linked to protecting the Turkish Cypriot community during a period of heightened regional risk."
+      why_it_matters:
+        - "Deploying combat aircraft and air defenses in a contested regional environment increases escalation risk and may affect neighboring states’ threat perceptions and airspace management."
+        - "The move illustrates how the Iran war was driving secondary military repositioning in the Eastern Mediterranean beyond the immediate theater."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Turkey (Defense Ministry)"
+        - "government authorities in northern Cyprus (as referenced via reporting)"
+      secondary:
+        - "Regional states monitoring air/missile defense posture (not specified in the cited summaries)"
+    entities:
+      people: []
+      organizations:
+        - name: "Regional states monitoring air/missile defense posture"
+          description: "not specified in the cited summaries"
+      states:
+        - "Turkey"
+        - "Northern Cyprus"
+    geography:
+      countries:
+        - "Turkey"
+        - "Northern Cyprus"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "None reported (force deployment activity)."
+    classification:
+      event_type:
+        - "force-deployment-and-regional-escalation-risk"
+      tags:
+        - "force-deployment-and-regional-escalation-risk"
+        - "turkey"
+        - "northern-cyprus"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/turkey-deploy-six-f-16-fighter-jets-northern-cyprus-broadcaster-ntv-says-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [25]
+        - id: "src-010-b"
+          outlet: "Ekathimerini"
+          url: "https://www.ekathimerini.com/politics/foreign-policy/1297451/turkey-deploys-6-f-16-jets-air-defense-systems-to-cyprus-occupied-north"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [26]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-09-020"
+    notes: ""
+  - id: "evt-2026-03-09-011"
+    category: "Law and crime"
+    subcategory: "Crimes against humanity and universal jurisdiction"
+    topics:
+      - "Syrian civil war, Syria–United Kingdom relations"
+      - "Crimes against humanity and universal jurisdiction"
+      - "United Kingdom"
+      - "Syria"
+    importance: 5
+    headline: "UK charges Salem Al-Salem with crimes against humanity for 2011 crackdown in Syria"
+    summary: >
+      British prosecutors and counterterrorism police announced landmark charges against
+      Salem Al-Salem—described as a former Syrian Air Force Intelligence colonel—alleging
+      murder and torture as crimes against humanity tied to suppression of pro-democracy
+      demonstrations in Damascus in 2011. The Crown Prosecution Service stated this was the
+      first time it had brought murder charges as crimes against humanity under the UK’s
+      International Criminal Court Act framework, while Reuters and AP reported the suspect
+      was due to appear in court shortly after the filing.
+    key_data: []
+    details:
+      what_happened:
+        - "The CPS said Salem Al-Salem (58) was charged with seven offenses, including three counts of murder as a crime against humanity, three counts of torture, and one count of conduct ancillary to murder."
+        - "The Metropolitan Police said the investigation was led by Counter Terrorism Policing’s War Crimes Unit and described the case as the first prosecution of its kind in the UK."
+        - "Reuters reported the charges relate to alleged leadership of a group tasked with quelling demonstrations in the Jobar area east of central Damascus, and noted the suspect had been detained previously."
+        - "AP reported prosecutors said the suspect would appear at Westminster Magistrates’ Court and emphasized the novelty of the crime-against-humanity murder charges in the UK legal system."
+      why_it_matters:
+        - "The case reinforces “no safe haven” enforcement and the use of domestic courts to prosecute international crimes committed abroad."
+        - "Charging murder as a crime against humanity sets a precedent for future accountability cases involving alleged perpetrators who relocated to the UK."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Salem Al-Salem"
+        - "Crown Prosecution Service"
+        - "Metropolitan Police"
+      secondary:
+        - "Witnesses/victims connected to 2011 Damascus protests (as referenced by charging narrative)"
+    entities:
+      people:
+        - name: "Salem Al-Salem"
+          role: "Former Syrian colonel"
+      organizations:
+        - name: "Crown Prosecution Service"
+          description: "UK prosecutors"
+        - name: "Metropolitan Police"
+          description: "London police service"
+        - name: "Witnesses/victims connected to 2011 Damascus protests"
+          description: "as referenced by charging narrative"
+      states:
+        - "United Kingdom"
+        - "Syria"
+    geography:
+      countries:
+        - "United Kingdom"
+        - "Syria"
+      places:
+        - "alleged crimes in Damascus"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 3
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 1
+      damage: "Not applicable (legal action concerning past alleged acts)."
+    classification:
+      event_type:
+        - "crimes-against-humanity-and-universal-jurisdiction"
+      tags:
+        - "syrian-civil-war-syria-united-kingdom-relations"
+        - "crimes-against-humanity-and-universal-jurisdiction"
+        - "united-kingdom"
+        - "syria"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Crown Prosecution Service charges a former Syrian soldier from the Air Force Intelligence Directorate with three counts of murder and three counts of torture as crimes against humanity under the International Criminal Court Act for his attacks on civilians in Damascus in 2011."
+      external:
+        - id: "src-011-a"
+          outlet: "Crown Prosecution Service"
+          url: "https://www.cps.gov.uk/cps/news/update-syrian-colonel-charged-crimes-against-humanity-and-torture-damascus-demonstrators"
+          publication_date: "2026-03-09"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+        - id: "src-011-b"
+          outlet: "Metropolitan Police"
+          url: "https://news.met.police.uk/news/man-charged-over-crimes-against-humanity-in-syria-506891"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [28]
+        - id: "src-011-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/uk/ex-member-syrian-military-intelligence-charged-britain-over-2011-protests-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [29]
+        - id: "src-011-d"
+          outlet: "AP"
+          url: "https://apnews.com/article/syria-crimes-against-humanity-britain-damascus-2011-0caf8269792ec96ddcfac47caf4a6837"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [30]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-012"
+    category: "Armed conflicts and attacks"
+    subcategory: "Large-scale exercise and civil-military integration"
+    topics:
+      - "Large-scale exercise and civil-military integration"
+    importance: 4
+    headline: "NATO begins Cold Response drills with a new focus on civilian readiness in the High North"
+    summary: >
+      NATO launched its biennial “Cold Response” exercise on March 9, with Reuters reporting
+      roughly 25,000 troops from 14 countries training across northern Norway and Finland
+      through March 19 while placing unusual emphasis on civilian readiness (including
+      hospital surge scenarios). NATO’s Joint Force Command Norfolk described Cold Response
+      26 as part of “Arctic Sentry,” aimed at strengthening allied cold-weather operations
+      preparedness amid heightened strategic tensions in the Arctic region.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Cold Response 2026 runs March 9–19 and involves about 25,000 troops from 14 countries, primarily training in northern Norway and Finland."
+        - "Reuters reported the 2026 drills place special emphasis on civilian roles—such as hospitals preparing to handle large inflows of wounded from a simulated Finnish front."
+        - "NATO JFC Norfolk described Cold Response 26 as a Norwegian-led exercise underpinning Arctic Sentry and focused on improving cold-weather operational preparedness and interoperability."
+        - "Reuters also reported the U.S. contribution included thousands of troops while at least one planned F-35 element was withdrawn, possibly due to another conflict (not confirmed by officials in the Reuters item)."
+      why_it_matters:
+        - "Arctic exercises enhance NATO deterrence and logistics readiness in extreme environments where reinforcement routes and medical systems can be critical constraints."
+        - "The “total defense” emphasis reflects a strategic shift toward societal resilience alongside military capability in high-risk regions."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "NATO"
+        - "participating armed forces of member states"
+      secondary:
+        - "Civilian institutions (notably hospitals and public services) participating in readiness drills"
+    entities:
+      people: []
+      organizations:
+        - name: "NATO"
+          description: "North Atlantic Treaty Organization, transatlantic military alliance"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Norway and Finland (European Arctic)"
+        - "NATO member participation"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None reported (exercise activity)."
+    classification:
+      event_type:
+        - "large-scale-exercise-and-civil-military-integration"
+      tags:
+        - "large-scale-exercise-and-civil-military-integration"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/nato-drills-war-arctic-with-focus-civilians-being-ready-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [31]
+        - id: "src-012-b"
+          outlet: "NATO JFC Norfolk"
+          url: "https://jfcnorfolk.nato.int/activity/arctic-sentry-enhances-allied-coldweather-operations-preparedness-through-exercise-cold-response-2026.aspx"
+          publication_date: "2026-03-09"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [32]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-013"
+    category: "International relations"
+    subcategory: "Hostage diplomacy and coercive measures"
+    topics:
+      - "Hostage diplomacy and coercive measures"
+      - "United States"
+      - "Afghanistan"
+    importance: 5
+    headline: "U.S. Department of State designates Afghanistan a “state sponsor of wrongful detention,” warns of possible travel restrictions"
+    summary: >
+      On March 9, Secretary of State Marco Rubio announced the U.S. designation of
+      Afghanistan as a “State Sponsor of Wrongful Detention,” accusing the Taliban of using
+      kidnappings to seek concessions and demanding the release of named detainees. Reuters
+      reported Rubio warned the U.S. could move toward banning U.S. passport-holder travel
+      to Afghanistan, while the State Department’s press statement framed the action as a
+      formal censure and demanded an end to “despicable tactics.”
+    key_data: []
+    details:
+      what_happened:
+        - "The State Department press statement announced the designation and accused the Taliban of using kidnapping for ransom or policy concessions, calling for an end to those tactics."
+        - "Reuters reported Rubio demanded release of detainees including Mahmood Habibi and Dennis Coyle and criticized the Taliban for leveraging detentions."
+        - "Reuters reported Rubio warned the U.S. might impose a travel ban for American passport holders for safety reasons, comparing it to travel restrictions used for North Korea."
+        - "Reuters reported the U.S. also sought the return of author Paul Overby’s remains, who disappeared near the Afghanistan–Pakistan border in 2014."
+      why_it_matters:
+        - "The designation formalizes diplomatic pressure on the Taliban and can set conditions for future sanctions, travel controls, or negotiation posture on detainees."
+        - "“Wrongful detention” branding can shape international perception of Afghanistan’s governance and complicate humanitarian, commercial, and diplomatic engagement."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Department of State"
+        - "Marco Rubio"
+        - "Taliban"
+      secondary:
+        - "Named detainees and families (Habibi/Coyle)"
+        - "U.S. officials pursuing Overby case"
+    entities:
+      people:
+        - name: "Marco Rubio"
+          role: "U.S. secretary of state"
+      organizations:
+        - name: "Taliban"
+          description: "Afghan governing movement"
+        - name: "U.S. Department of State"
+          description: "U.S. foreign ministry"
+        - name: "Named detainees and families"
+          description: "Habibi/Coyle"
+      states:
+        - "United States"
+        - "Afghanistan"
+    geography:
+      countries:
+        - "United States"
+        - "Afghanistan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Policy escalation—formal designation and potential travel restriction threat; detention cases central."
+    classification:
+      event_type:
+        - "hostage-diplomacy-and-coercive-measures"
+      tags:
+        - "hostage-diplomacy-and-coercive-measures"
+        - "united-states"
+        - "afghanistan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013-a"
+          outlet: "U.S. Department of State"
+          url: "https://www.state.gov/releases/office-of-the-spokesperson/2026/03/afghanistan-designated-as-a-state-sponsor-of-wrongful-detention"
+          publication_date: "2026-03-09"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [33]
+        - id: "src-013-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/rubio-could-designate-afghanistan-sponsor-wrongful-detention-source-says-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [34]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-014"
+    category: "Politics and elections"
+    subcategory: "Election administration and law-enforcement investigation"
+    topics:
+      - "Election administration and law-enforcement investigation"
+      - "United States"
+    importance: 5
+    headline: "FBI subpoenas Maricopa County audit records as 2020 election probe expands in Arizona"
+    summary: >
+      Reuters reported on March 9 that the FBI obtained Arizona legislative records tied to
+      a Republican-led audit of the 2020 election in Maricopa County, expanding federal
+      inquiry into claims of election fraud promoted by Trump and allies. PBS and the
+      Arizona Attorney General’s office detailed political and legal backlash, with
+      Democratic Attorney General Kris Mayes criticizing the move and warning about
+      potential politicization and voter-data risks as federal investigators sought
+      documentation from the state Senate’s prior audit process.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported the FBI subpoenaed the Arizona Senate for records linked to the 2021 Maricopa County audit and that Senate President Warren Petersen said the FBI had the records."
+        - "Reuters reported the 2021 audit reaffirmed Joe Biden’s victory and was criticized for unsubstantiated allegations, yet helped sustain fraud narratives."
+        - "PBS reported the move reflected widening federal election scrutiny and noted privacy and legitimacy concerns raised by officials and observers."
+        - "The Arizona Attorney General’s office published a statement condemning the federal subpoena and criticizing Petersen’s continued fraud claims."
+      why_it_matters:
+        - "Subpoena-driven reexamination of settled election outcomes can undermine trust in election administration and intensify partisan conflict ahead of future elections."
+        - "Access to sensitive election records raises questions about data protection, legal standards for subpoenas, and potential precedent for federal intervention into state-run election systems."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "FBI"
+        - "Warren Petersen"
+        - "Kris Mayes"
+      secondary:
+        - "Cyber Ninjas (audit contractor referenced in reporting)"
+        - "Arizona election officials and county offices"
+    entities:
+      people:
+        - name: "Warren Petersen"
+          role: "Arizona senate president"
+        - name: "Kris Mayes"
+          role: "Arizona attorney general"
+      organizations:
+        - name: "Cyber Ninjas"
+          description: "Election audit contractor"
+        - name: "FBI"
+          description: "U.S. Federal Bureau of Investigation"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Arizona"
+        - "Maricopa County"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Political/institutional—records transfer to federal investigators; heightened controversy over election legitimacy and data."
+    classification:
+      event_type:
+        - "election-administration-and-law-enforcement-investigation"
+      tags:
+        - "election-administration-and-law-enforcement-investigation"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-014-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/legal/government/fbi-examines-arizona-election-records-widening-probe-trump-vote-fraud-claims-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [35]
+        - id: "src-014-b"
+          outlet: "PBS NewsHour"
+          url: "https://www.pbs.org/newshour/politics/trump-administration-widens-its-2020-election-probe-as-it-obtains-records-from-arizona"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [36]
+        - id: "src-014-c"
+          outlet: "Arizona Attorney General (press release)"
+          url: "https://www.azag.gov/press-release/attorney-general-mayes-issues-statement-federal-grand-jury-subpoena-2020-election"
+          publication_date: "2026-03-09"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [37]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-015"
+    category: "Business and economy"
+    subcategory: "Inflation data and macroeconomic outlook"
+    topics:
+      - "Inflation data and macroeconomic outlook"
+      - "China"
+    importance: 4
+    headline: "China reports consumer inflation at a three-year high as holiday demand surges"
+    summary: >
+      China reported a sharp rise in headline consumer inflation, with Reuters describing
+      February CPI at a three-year high driven by holiday demand, while producer prices
+      remained in deflation. The National Bureau of Statistics’ release provided the
+      official CPI/PPI figures, which markets watch closely for signs of domestic demand
+      strength and policy constraints as China manages inflation pressures while parts of
+      the industrial sector remain weak.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported China’s consumer inflation rose to 1.3% year-on-year in February (a three-year high) due to holiday effects, exceeding the Reuters-polled expectation of 0.8%."
+        - "Reuters reported producer prices fell 1.2% year-on-year (continuing an extended deflationary streak)."
+        - "The National Bureau of Statistics published the official February CPI and PPI data in its March 9 release."
+        - "Reporting noted the CPI jump was associated with holiday-related consumption, implying seasonality rather than a uniform inflation surge across categories."
+      why_it_matters:
+        - "Higher CPI can limit near-term stimulus options and complicate balancing acts between supporting growth and containing price pressures."
+        - "Ongoing PPI deflation alongside rising CPI points to uneven recovery—consumer-facing prices rising while industrial pricing power remains weak."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "National Bureau of Statistics of China"
+      secondary:
+        - "Chinese policymakers and market participants interpreting CPI/PPI trajectory"
+    entities:
+      people: []
+      organizations:
+        - name: "National Bureau of Statistics of China"
+          description: "China official statistics"
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None (economic indicator release; market/price implications)."
+    classification:
+      event_type:
+        - "inflation-data-and-macroeconomic-outlook"
+      tags:
+        - "inflation-data-and-macroeconomic-outlook"
+        - "china"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-015-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/china-consumer-inflation-hits-three-year-high-holiday-surge-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [38]
+        - id: "src-015-b"
+          outlet: "National Bureau of Statistics of China"
+          url: "https://www.stats.gov.cn/sj/zxfb/202603/t20260309_1958023.html"
+          publication_date: "2026-03-09"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [39]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-016"
+    category: "Politics and elections"
+    subcategory: "Student protest under economic strain"
+    topics:
+      - "Student protest under economic strain"
+      - "Cuba"
+    importance: 4
+    headline: "Rare student sit-in protest at University of Havana highlights deepening nationwide crisis in Cuba"
+    summary: >
+      A small group of Havana university students held a rare sit-in protest on March 9 over
+      major disruption to education amid severe electricity, transport, and connectivity
+      problems that Reuters and AP linked to deepening energy shortages and tightened
+      external constraints on fuel inflows. Reuters reported senior officials intervened and
+      said there would be no punitive measures, while students warned they would protest
+      again if demands were not taken seriously—underscoring a sensitive moment for public
+      dissent in Cuba.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported just over 20 students staged an hours-long sit-in on the University of Havana steps, criticizing distance learning and inadequate measures amid energy and internet shortages."
+        - "Reuters reported Higher Education Vice Minister Modesto Ricardo Gomez spoke with students and said there would be no punitive actions, while attributing crisis drivers largely to tightened U.S. sanctions."
+        - "AP reported the protest occurred amid an energy crisis that reduced classes and “paralyzed” parts of the country, with U.S. policy described as an “oil blockade” worsening conditions."
+        - "Reuters reported students said they would protest again if their demands were not addressed, noting Cuba’s constitution permits protests but lacks a clear framework."
+      why_it_matters:
+        - "Student protests are politically sensitive in Cuba; even small demonstrations can signal widening social strain and test the government’s tolerance for public dissent."
+        - "The protest spotlighted immediate service failures—power and connectivity—that can accelerate migration pressures and economic contraction."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "University of Havana students"
+        - "Cuban higher-education officials"
+      secondary:
+        - "Cuban security/administrative staff at the university"
+        - "external sanctions policy environment referenced in reporting"
+    entities:
+      people: []
+      organizations:
+        - name: "University of Havana students"
+          description: "Students staging the sit-in"
+      states:
+        - "Cuba"
+    geography:
+      countries:
+        - "Cuba"
+      places:
+        - "Havana"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "None reported; disruption centered on education delivery and public services."
+    classification:
+      event_type:
+        - "student-protest-under-economic-strain"
+      tags:
+        - "student-protest-under-economic-strain"
+        - "cuba"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-016-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/cuban-university-students-stage-rare-protest-amid-energy-internet-shortages-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [40]
+        - id: "src-016-b"
+          outlet: "AP"
+          url: "https://apnews.com/article/cuba-student-protest-university-oil-blockade-d5eb4d4333edc8ac1906caee49895232"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [41]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-017"
+    category: "Politics and elections"
+    subcategory: "Cabinet dismissal and executive consolidation"
+    topics:
+      - "Cabinet dismissal and executive consolidation"
+      - "Madagascar"
+    importance: 6
+    headline: "Madagascar’s President Michael Randrianirina dismisses prime minister and cabinet amid ongoing political turbulence"
+    summary: >
+      Madagascar’s presidency dismissed the prime minister and entire cabinet on March 9,
+      with Reuters reporting the announcement via a spokesperson’s statement and situating
+      the decision in the post-October power transition. AP reporting in the following days
+      described the dismissal as part of an effort to reshuffle governance amid public
+      pressure and corruption concerns, reflecting continued volatility in executive
+      authority and government formation.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Randrianirina dismissed the prime minister and entire cabinet, citing a spokesperson statement."
+        - "Reuters noted Randrianirina had seized power in October following youth-led protests that pushed out his predecessor, placing the cabinet dismissal within a still-fluid transition context."
+        - "AP reported the government was dissolved and a new prime minister appointed, as authorities described anti-corruption motivations."
+        - "The Guardian reported the March 9 cabinet dismissal preceded subsequent anti-corruption measures (including proposed polygraph screening for ministers), illustrating attempts to project reform credibility after the reshuffle."
+      why_it_matters:
+        - "Cabinet dissolution often signals instability or consolidation after regime change, affecting investor confidence, security institutions, and public trust."
+        - "Institutional reshuffles can reshape timelines for elections and governance reforms in a politically fragile environment."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Michael Randrianirina"
+        - "Madagascar executive branch"
+      secondary:
+        - "Protest movements and civil society pressures referenced in background reporting"
+        - "anti-corruption officials in subsequent reshuffle steps"
+    entities:
+      people:
+        - name: "Michael Randrianirina"
+          role: "President of Madagascar"
+      organizations:
+        - name: "Madagascar executive branch"
+          description: "Government of Madagascar"
+      states:
+        - "Madagascar"
+    geography:
+      countries:
+        - "Madagascar"
+      places:
+        - "Antananarivo"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None reported; political disruption centered on cabinet dissolution and executive restructuring."
+    classification:
+      event_type:
+        - "cabinet-dismissal-and-executive-consolidation"
+      tags:
+        - "cabinet-dismissal-and-executive-consolidation"
+        - "madagascar"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Malagasy president Michael Randrianirina dismisses prime minister Herintsalama Rajaonarivelo and his cabinet."
+      external:
+        - id: "src-017-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/madagascars-president-randrianirina-dismisses-prime-minister-cabinet-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [42]
+        - id: "src-017-b"
+          outlet: "AP"
+          url: "https://apnews.com/article/ac27f0fac3c812b56e6e233aaa173e0e"
+          publication_date: "2026-03-19"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [43]
+        - id: "src-017-c"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/mar/20/madagascar-military-ruler-new-ministers-lie-detector-tests"
+          publication_date: "2026-03-20"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [44]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-018"
+    category: "Business and economy"
+    subcategory: "Cabinet resignation and electoral positioning"
+    topics:
+      - "Cabinet resignation and electoral positioning"
+      - "Brazil"
+    importance: 4
+    headline: "Brazil signals looming finance-ministry turnover as Fernando Haddad expected to resign to run São Paulo governor race"
+    summary: >
+      Reuters reported on March 9 that Brazil’s finance minister Fernando Haddad was
+      expected to step down by the end of the following week to run for governor of São
+      Paulo, amid political pressure and election positioning around President Luiz Inácio
+      Lula da Silva’s broader strategy. The report cited sources describing Lula’s push for
+      Haddad to contest a key state contest while polling suggested Haddad trailed the
+      incumbent governor, underscoring political uncertainty for Brazil’s fiscal leadership
+      during a period of global energy and market stress.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported multiple sources said Haddad was expected to resign by the end of the next week to run for São Paulo governor."
+        - "Reuters reported Lula had encouraged Haddad to run to strengthen leftist prospects in the strategically important state."
+        - "Reuters cited polling context indicating a tight national political environment and that Haddad trailed incumbent São Paulo governor Tarcísio de Freitas by 13 points."
+        - "AP later reported Haddad resigned to launch the bid and noted immediate successor planning, reinforcing that the anticipated transition moved toward implementation."
+      why_it_matters:
+        - "Finance-ministry turnover in Brazil can affect fiscal strategy credibility, market pricing, and inflation-management decisions—especially during an energy-price shock."
+        - "São Paulo’s governor race has outsized national political significance and can reshape Lula’s coalition math and succession dynamics."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Fernando Haddad"
+        - "President Luiz Inácio Lula da Silva"
+      secondary:
+        - "São Paulo Governor Tarcísio de Freitas"
+        - "Brazil Finance Ministry leadership bench (successor planning referenced in AP)"
+    entities:
+      people:
+        - name: "Fernando Haddad"
+          role: "Minister of Finance of Brazil"
+        - name: "Luiz Inácio Lula da Silva"
+          role: "President"
+        - name: "Tarcísio de Freitas"
+          role: "São Paulo Governor"
+      organizations:
+        - name: "Brazil Finance Ministry leadership bench"
+          description: "successor planning referenced in AP"
+      states:
+        - "Brazil"
+    geography:
+      countries:
+        - "Brazil"
+      places:
+        - "São Paulo state"
+        - "Brasília"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None reported; political/economic risk centered on leadership transition and market confidence."
+    classification:
+      event_type:
+        - "cabinet-resignation-and-electoral-positioning"
+      tags:
+        - "cabinet-resignation-and-electoral-positioning"
+        - "brazil"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-018-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/brazils-finance-minister-expected-step-down-next-week-sources-say-2026-03-09"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [45]
+        - id: "src-018-b"
+          outlet: "AP"
+          url: "https://apnews.com/article/fc397a97a74c8cf996152271bd77181c"
+          publication_date: "2026-03-20"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [46]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-09-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "Military operation"
+    topics:
+      - "Middle Eastern crisis"
+      - "US-Iran war"
+      - "Military operation"
+      - "Iran"
+      - "Saudi Arabia"
+    importance: 8
+    headline: "U.S. and Israeli forces target Iranian military infrastructure as U.S. combat death toll reaches seven"
+    summary: >
+      A combined US and Israeli military force conducted extensive airstrikes against
+      Iranian internal security and military targets, severely degrading Iran's missile and
+      drone production and launch capabilities. Strikes heavily targeted Islamic
+      Revolutionary Guard Corps Ground Forces bases in Esfahan Province, an intelligence
+      office in Darreh Shahr, Ilam Province, and naval assets, including a Shahid
+      Soleimani-class corvette reported sunk off Bandar Lengeh. Concurrently, US Central
+      Command announced the death of a seventh American service member, an Army soldier who
+      succumbed to wounds sustained during an Iranian attack in Saudi Arabia on March 1,
+      raising the US fatality count and increasing domestic political pressure over the
+      costs of the campaign dubbed Operation Epic Fury.
+    key_data: []
+    details:
+      what_happened:
+        - "IDF and US forces struck key IRGC Ground Forces installations, including the Seyyed ol Shohada Operational Base and the 14th Imam Hossein Division in Esfahan Province."
+        - "The combined force conducted a strike against a Shahid Soleimani-class corvette off the coast of Bandar Lengeh in the Persian Gulf."
+        - "Strikes also targeted internal security infrastructure, including an IRGC intelligence office in Darreh Shahr, Ilam Province."
+        - "US Central Command formally announced the death of a seventh American service member who had been wounded during an Iranian attack in Saudi Arabia on March 1 and subsequently died of his injuries."
+        - "The aggregate strikes were part of the sustained Operation Epic Fury campaign aimed at dismantling Iran's offensive military capacity."
+      why_it_matters:
+        - "The targeted destruction of IRGC ground forces and internal security units limits Tehran's ability to coordinate retaliatory strikes against allied forces and suppress potential domestic unrest simultaneously."
+        - "Rising US combat casualties increase both domestic political scrutiny and congressional pressure regarding the scope and duration of Operation Epic Fury."
+      uncertainty_notes:
+        - "Specific casualty figures among Iranian personnel at the targeted facilities remain unconfirmed by independent sources."
+    actors:
+      primary:
+        - "United States Armed Forces"
+        - "Israel Defense Forces"
+      secondary:
+        - "Islamic Revolutionary Guard Corps"
+    entities:
+      people: []
+      organizations:
+        - name: "United States Central Command"
+          description: ""
+        - name: "Israel Defense Forces"
+          description: "Military of Israel"
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military and security force"
+      states:
+        - "United States"
+        - "Israel"
+        - "Iran"
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Iran"
+        - "Saudi Arabia"
+      places:
+        - "Esfahan Province"
+        - "Darreh Shahr"
+        - "Ilam Province"
+        - "Bandar Lengeh"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "airstrike"
+        - "military-casualty"
+      tags:
+        - "operation-epic-fury"
+        - "us-military"
+        - "irgc"
+        - "iran"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-019-a"
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-9-2026"
+          publication_date: "2026-03-09"
+          source_type: "specialist_publication"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [47]
+        - id: "src-019-b"
+          outlet: "WNG"
+          url: "https://wng.org/podcasts/monday-morning-news-march-9-2026-1772989452"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [48]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-09-001"
+    notes: "Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border attack"
+    topics:
+      - "Regional escalation"
+      - "NATO"
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 interceptions of Iranian missiles in Turkey"
+      - "Cross-border attack"
+      - "Iran"
+      - "United Arab Emirates"
+    importance: 7
+    headline: "Iran launches missiles and drones at the UAE; ballistic missile intercepted over Turkey by NATO"
+    summary: >
+      Iran continued its regional bombardment on March 9 by launching an estimated 15
+      ballistic missiles and 18 drones targeting the United Arab Emirates, demonstrating
+      continued offensive capacity despite sustained allied airstrikes on its military
+      infrastructure. In a separate and significant escalation, an Iranian ballistic missile
+      violated Turkish airspace and was subsequently intercepted by NATO air defenses, with
+      debris falling in Turkey's southeastern Gaziantep Province. The breach of a NATO
+      member's airspace by an Iranian projectile marked a dangerous widening of the
+      conflict's geographic footprint and triggered formal protests from Ankara.
+    key_data: []
+    details:
+      what_happened:
+        - "The UAE Defense Ministry reported that Iran fired approximately 15 ballistic missiles and 18 drones at targets in the United Arab Emirates."
+        - "The Turkish Defense Ministry confirmed that an Iranian ballistic missile entered Turkish national airspace without authorization."
+        - "NATO air defense systems successfully intercepted the missile over Turkish territory."
+        - "Debris from the intercepted missile fell in Gaziantep Province in southeastern Turkey, raising concerns about civilian safety."
+        - "The airspace violation prompted a formal diplomatic response from Ankara and triggered consultations within the NATO alliance."
+      why_it_matters:
+        - "The barrage against the UAE demonstrates Iran's continued capacity and will to threaten Gulf state partners of the US despite sustained damage to its military infrastructure from Operation Epic Fury."
+        - "The violation of Turkish airspace and the NATO interception of an Iranian projectile severely escalate the risk of triggering Article 5 consultations and drawing the broader NATO alliance directly into the conflict."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Iran"
+      secondary:
+        - "NATO"
+        - "United Arab Emirates"
+        - "Turkey"
+    entities:
+      people: []
+      organizations:
+        - name: "NATO"
+          description: "North Atlantic Treaty Organization, transatlantic military alliance"
+        - name: "UAE Defense Ministry"
+          description: ""
+        - name: "Turkish Defense Ministry"
+          description: ""
+      states:
+        - "Iran"
+        - "United Arab Emirates"
+        - "Turkey"
+    geography:
+      countries:
+        - "Iran"
+        - "United Arab Emirates"
+        - "Turkey"
+      places:
+        - "Gaziantep Province"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "missile-strike"
+        - "air-defense-interception"
+      tags:
+        - "iran"
+        - "uae"
+        - "turkey"
+        - "nato"
+        - "operation-epic-fury"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Turkey and NATO forces shoot down a suspected Iranian ballistic missile violating Turkish airspace, with debris falling in Gaziantep Province."
+      external:
+        - id: "src-020-a"
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-morning-special-report-march-9-2026"
+          publication_date: "2026-03-09"
+          source_type: "specialist_publication"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [49]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-09-010"
+    notes: "Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-021"
+    category: "Disasters and accidents"
+    subcategory: "Flood"
+    topics:
+      - "Flooding"
+      - "Extreme weather"
+      - "2026 Kenya floods"
+      - "Flood"
+      - "Kenya"
+    importance: 6
+    headline: "Death toll reaches 42 following severe flash floods in Nairobi, Kenya"
+    summary: >
+      Heavy, concentrated rainfall in Kenya's capital, Nairobi, and surrounding areas
+      triggered devastating flash floods that left at least 42 people dead. The torrential
+      downpours caused rivers to burst their banks, sweeping away vehicles, damaging power
+      infrastructure, and severely disrupting flights at Jomo Kenyatta International
+      Airport. Nairobi recorded the highest share of the national fatality count, with 26
+      deaths attributed to the capital alone. The Kenyan government announced it would cover
+      hospital expenses for the injured and burial costs for the families of victims, while
+      emergency and recovery operations continued across affected neighborhoods.
+    key_data: []
+    details:
+      what_happened:
+        - "Torrential rains triggered severe flash floods across Nairobi and neighboring regions, causing extensive damage to property, roads, and power infrastructure."
+        - "The national death toll rose to at least 42, with Nairobi recording the highest concentration of fatalities at 26 confirmed deaths."
+        - "Flooding severely disrupted transportation, including suspension of flight operations at Jomo Kenyatta International Airport and widespread road closures across the city."
+        - "The Kenyan government announced it would cover hospital expenses for the injured and burial costs for the families of all confirmed victims."
+        - "Emergency response and recovery teams continued operations into the evening as water levels remained elevated in low-lying neighborhoods."
+      why_it_matters:
+        - "The disaster underscores the region's acute vulnerability to concentrated extreme precipitation events, which climate scientists attribute to altered rainfall patterns in East Africa."
+        - "Widespread infrastructure damage and the closure of Nairobi's international airport place immediate strain on Kenya's emergency response capacity and broader economic activity."
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary:
+        - "Kenyan Government"
+    entities:
+      people: []
+      organizations:
+        - name: "Kenyan Government"
+          description: ""
+      states:
+        - "Kenya"
+    geography:
+      countries:
+        - "Kenya"
+      places:
+        - "Nairobi"
+        - "Jomo Kenyatta International Airport"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 42
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "flood"
+      tags:
+        - "kenya"
+        - "nairobi"
+        - "extreme-weather"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The death toll from floods in Nairobi, Kenya, rises to 42."
+      external:
+        - id: "src-021-a"
+          outlet: "OkayAfrica"
+          url: "https://www.okayafrica.com/today-in-africa-mar-9-2026-42-killed-in-kenya-floods-rising-oil-prices-from-iran-war-threaten-inflation-across-africa/1410384"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [50]
+        - id: "src-021-b"
+          outlet: "allAfrica"
+          url: "https://allafrica.com/stories/202603090099.html"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [51]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-022"
+    category: "International relations"
+    subcategory: "Security cooperation"
+    topics:
+      - "Military alliance"
+      - "Defense readiness"
+      - "Korean Peninsula"
+      - "Security cooperation"
+      - "South Korea"
+    importance: 5
+    headline: "U.S. and South Korea launch annual 'Freedom Shield' joint military exercises"
+    summary: >
+      The United States and South Korea formally commenced "Freedom Shield," a large-scale
+      combined military exercise designed to test and strengthen allied defense posture on
+      the Korean Peninsula. The drills, scheduled to run through March 19, involve
+      approximately 18,000 South Korean troops alongside a US component, according to South
+      Korea's Joint Chiefs of Staff. The exercise began amid South Korean media speculation
+      that Washington might be redeploying some strategic assets from the peninsula to
+      support ongoing military operations against Iran, a claim that US Forces Korea had not
+      publicly addressed.
+    key_data: []
+    details:
+      what_happened:
+        - "\"Freedom Shield\" joint military exercises officially commenced, co-led by U.S. Forces Korea and the Republic of Korea Armed Forces."
+        - "South Korea's Joint Chiefs of Staff confirmed approximately 18,000 Korean troops are participating in the drills."
+        - "The exercises are scheduled to continue through March 19, 2026."
+        - "South Korean media reported unconfirmed speculation that some US strategic assets on the peninsula could be redeployed to support Middle Eastern operations; US Forces Korea did not publicly confirm or deny these reports."
+      why_it_matters:
+        - "The exercise serves as a critical public demonstration of the US-South Korea security alliance's combat readiness during a period of elevated global military tensions linked to the Iran conflict."
+        - "Commencing the exercise signals Washington's commitment to Indo-Pacific deterrence even as it simultaneously manages a major overseas military campaign."
+      uncertainty_notes:
+        - "The exact number of American troops participating has not been publicly confirmed by US Forces Korea."
+        - "Reporting on possible US asset redeployment from South Korea to the Middle East is speculative and unconfirmed."
+    actors:
+      primary:
+        - "United States Armed Forces"
+        - "Republic of Korea Armed Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "South Korea Joint Chiefs of Staff"
+          description: ""
+        - name: "US Forces Korea"
+          description: ""
+      states:
+        - "United States"
+        - "South Korea"
+    geography:
+      countries:
+        - "South Korea"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "military-exercise"
+      tags:
+        - "freedom-shield"
+        - "us-south-korea"
+        - "korean-peninsula"
+        - "defense"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-022-a"
+          outlet: "The American Legion"
+          url: "https://www.legion.org/information-center/news/security/2026/march/five-things-to-know-march-9-2026"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [52]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "Sourced from a single secondary aggregator; event existence is consistent with the annual US-ROK exercise schedule. Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-023"
+    category: "Health and environment"
+    subcategory: "Health policy"
+    topics:
+      - "Healthcare reform"
+      - "Anti-corruption"
+      - "Health policy"
+      - "Malawi"
+    importance: 3
+    headline: "Malawi bans 'dual practice' by public health workers to combat corruption"
+    summary: >
+      The government of Malawi implemented a strict ban prohibiting health workers employed
+      by the state from simultaneously operating in or owning private medical clinics,
+      pharmacies, hospitals, or diagnostic centers. The directive, attributed in initial
+      reports to the sitting president, aims to eliminate documented abuses including
+      medical staff extorting illegal fees from patients entitled to free services,
+      diverting patients to their privately owned facilities, and siphoning state-supplied
+      medicines for resale. Health workers with ownership stakes in private facilities were
+      granted 30 days to divest or face dismissal from public service and potential criminal
+      prosecution.
+    key_data: []
+    details:
+      what_happened:
+        - "The Malawian government officially banned public health workers from operating in or holding ownership of private medical facilities simultaneously with their state employment."
+        - "Workers with full or partial ownership in private clinics, pharmacies, or diagnostic centers were required to divest within 30 days of the announcement."
+        - "Non-compliance will result in dismissal from public service and potential legal action under anti-corruption statutes."
+        - "The policy targets documented practices of diverting public medicines and charging unlawful fees to patients at state facilities."
+      why_it_matters:
+        - "The ban represents a substantive anti-corruption intervention aimed at redirecting public health resources to the intended beneficiaries and rebuilding patient trust in the state healthcare system."
+        - "The structural realignment of the healthcare workforce may face resistance from entrenched medical professionals and could affect staffing levels at public facilities during the transition period."
+      uncertainty_notes:
+        - "The allAfrica source attributes the directive to the Malawian president but names Peter Mutharika; Mutharika served as president from 2014 to 2020 and was succeeded by Lazarus Chakwera. The name of the sitting Malawian president in March 2026 cannot be confirmed from available sources, as the September 2025 Malawian general election results are outside the compiler's verified knowledge base."
+    actors:
+      primary:
+        - "Government of Malawi"
+      secondary: []
+    entities:
+      people:
+        - name: "Peter Mutharika (attribution uncertain; see uncertainty_notes)"
+          role: ""
+      organizations: []
+      states:
+        - "Malawi"
+    geography:
+      countries:
+        - "Malawi"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "policy-change"
+      tags:
+        - "malawi"
+        - "healthcare"
+        - "anti-corruption"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-023-a"
+          outlet: "allAfrica"
+          url: "https://allafrica.com/stories/202603090099.html"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [51]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events: []
+    notes: "Actor identification confidence is low due to uncertain presidential attribution; the policy itself is well-supported by the source. Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-024"
+    category: "Law and crime"
+    subcategory: "Security operation"
+    topics:
+      - "Maritime security"
+      - "Drug trafficking"
+      - "Use of lethal force"
+      - "Security operation"
+    importance: 5
+    headline: "U.S. military kills six in strike on suspected drug-smuggling vessel in the eastern Pacific"
+    summary: >
+      The United States military conducted a lethal strike against a small vessel suspected
+      of smuggling narcotics in the eastern Pacific Ocean, killing all six men aboard when
+      the boat was destroyed. Operating under US Southern Command's jurisdiction, the attack
+      is part of an aggressive campaign initiated by the Trump administration to target
+      alleged narcoterrorists on established maritime smuggling routes. The US military
+      released video footage showing the small vessel being blown up. The operation raised
+      the cumulative death toll from such Pacific maritime strikes to at least 157 since the
+      campaign began in September of the previous year, drawing scrutiny over the absence of
+      independent verification that narcotics were present on each vessel targeted.
+    key_data: []
+    details:
+      what_happened:
+        - "US Southern Command launched an armed strike on a small vessel navigating a known drug-smuggling route in the eastern Pacific Ocean."
+        - "All six individuals aboard the boat were killed when the vessel was destroyed."
+        - "The military characterized the men as alleged narcoterrorists and posted video footage of the strike online."
+        - "No immediate independent evidence of narcotics aboard the destroyed vessel was provided by US authorities at the time of the announcement."
+        - "The strike brought the total death toll from US lethal maritime counter-narcotics operations in the Pacific to at least 157 since September of the previous year."
+      why_it_matters:
+        - "The operation illustrates the Trump administration's use of military lethal force in counter-narcotics operations that were previously conducted under law enforcement interdiction frameworks."
+        - "The rising aggregate death toll and absence of independent evidence of drugs on targeted vessels raises unresolved questions about accountability and verification standards under the current operational posture."
+      uncertainty_notes:
+        - "No independent verification that narcotics were present on the destroyed vessel has been published; the narcoterrorist designation is based solely on US military characterization."
+    actors:
+      primary:
+        - "United States Southern Command"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States Southern Command"
+          description: "U.S. military command for Latin America and the Caribbean"
+      states:
+        - "United States"
+    geography:
+      countries: []
+      places:
+        - "Eastern Pacific Ocean"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "military-strike"
+        - "counter-narcotics-operation"
+      tags:
+        - "us-southern-command"
+        - "drug-smuggling"
+        - "pacific-ocean"
+        - "lethal-force"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-024-a"
+          outlet: "The American Legion"
+          url: "https://www.legion.org/information-center/news/security/2026/march/five-things-to-know-march-9-2026"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [52]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "Sourced from a single secondary outlet; event existence and death toll are treated as credible pending corroboration from primary defense or wire sources. Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-025"
+    category: "Politics and elections"
+    subcategory: ""
+    topics:
+      - "Judiciary"
+      - "Parliamentary dissolution"
+      - "2026 Kosovan presidential election"
+      - "Kosovo"
+    importance: 5
+    headline: "Kosovo Constitutional Court freezes president's parliament dissolution decree"
+    summary: >
+      The Constitutional Court of Kosovo intervened in a growing political standoff by
+      issuing an injunction that freezes President Vjosa Osmani's decree to dissolve the
+      national parliament, the Kuvendi. The ruling temporarily strips the President of the
+      legal authority to call snap elections while simultaneously barring the Kuvendi from
+      conducting normal legislative business until the Court delivers a final, binding
+      ruling on the constitutionality of the dissolution order. The intervention placed
+      Kosovo's political system in administrative suspension pending judicial resolution.
+    key_data: []
+    details:
+      what_happened:
+        - "The Constitutional Court of Kosovo issued a formal injunction against President Vjosa Osmani's decree dissolving the Kuvendi."
+        - "The injunction suspends the dissolution and prevents the President from scheduling snap elections during the review period."
+        - "The Kuvendi is also barred from carrying out standard parliamentary business while the Court deliberates."
+        - "The case sets a precedent for the extent of presidential dissolution powers under Kosovo's constitution."
+      why_it_matters:
+        - "The judicial intervention places the country's political institutions in formal gridlock, raising uncertainty over Kosovo's near-term governance and legislative calendar."
+        - "The case constitutes a critical test of constitutional checks on executive power and the independence of Kosovo's Constitutional Court."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Constitutional Court of Kosovo"
+      secondary:
+        - "Vjosa Osmani"
+    entities:
+      people:
+        - name: "Vjosa Osmani"
+          role: "President"
+      organizations:
+        - name: "Constitutional Court of Kosovo"
+          description: ""
+        - name: "Kuvendi"
+          description: ""
+      states:
+        - "Kosovo"
+    geography:
+      countries:
+        - "Kosovo"
+      places:
+        - "Pristina"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "judicial-ruling"
+        - "political-crisis"
+      tags:
+        - "kosovo"
+        - "constitutional-court"
+        - "vjosa-osmani"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Constitutional Court of Kosovo issues an injunction that freezes President Vjosa Osmani's decree dissolving the Kuvendi, while also preventing both the President from calling snap elections and the Kuvendi from carrying out parliamentary business until the Constitutional Court delivers its final ruling."
+      external:
+        - id: "src-025-a"
+          outlet: "Euronews Albania"
+          url: "https://euronews.al/en/kosovo-constitutional-court-suspends-vjosa-osmanis-decree-government-reacts"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [53]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "Reuters reported on March 10 that the court also barred the president from announcing a snap election date. Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-026"
+    category: "Politics and elections"
+    subcategory: "Election"
+    topics:
+      - "Election results"
+      - "Coalition building"
+      - "2026 Colombian parliamentary election"
+      - "Election"
+      - "Colombia"
+    importance: 6
+    headline: "Colombia parliamentary elections produce hung Senate; Historic Pact wins plurality"
+    summary: >
+      Results from the 2026 Colombian parliamentary election confirmed that the ruling
+      Historic Pact coalition secured 25 of the 102 available seats in the Senate, emerging
+      as the largest single bloc but well short of a governing majority. The right-wing
+      Democratic Centre party placed second with 17 seats, while the remaining 60 seats were
+      distributed across a fragmented field of other parties, producing a hung parliament.
+      The outcome forces the ruling government into complex multi-party coalition
+      negotiations before it can advance significant legislation in the upcoming session.
+    key_data: []
+    details:
+      what_happened:
+        - "The Historic Pact coalition won 25 out of 102 seats in the Colombian Senate, making it the largest single bloc."
+        - "The Democratic Centre secured the second-largest share with 17 Senate seats."
+        - "The remaining 60 seats were distributed across numerous other political parties, preventing any single coalition from holding a majority."
+        - "The outcome constitutes a hung parliament requiring the ruling government to negotiate coalition support for its legislative agenda."
+      why_it_matters:
+        - "The fragmented result severely complicates the ruling coalition's ability to pass reform legislation without significant concessions to smaller parties."
+        - "The strong showing of the right-wing Democratic Centre as the second-largest bloc provides a meaningful opposition counterweight to the government's left-wing policy platform."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Historic Pact"
+      secondary:
+        - "Democratic Centre"
+    entities:
+      people: []
+      organizations:
+        - name: "Senate of Colombia"
+          description: ""
+      states:
+        - "Colombia"
+    geography:
+      countries:
+        - "Colombia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election-result"
+      tags:
+        - "colombia"
+        - "historic-pact"
+        - "senate"
+        - "coalition"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The ruling Historic Pact coalition wins 25 of 102 seats in the Senate, becoming the largest bloc but falling short of a majority. The Democratic Centre places second with 17 seats, while other seats are distributed among several parties, resulting in a hung parliament that will require coalition negotiations."
+      external:
+        - id: "src-026-a"
+          outlet: "Reuters"
+          url: "https://www.reutersconnect.com/item/elections-in-colombia-gustavo-petros-party-wins-the-legislative-elections-and-consolidates-its-position-in-the-senate/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUxUQU5BMDAwUkFROUI2"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [54]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "Seat count details are corroborated by Reuters Connect and the Wikipedia portal text fragment. Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-027"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "Targeted killings"
+      - "Hezbollah-Israel conflict"
+      - "Airstrikes"
+      - "Lebanon"
+    importance: 7
+    headline: "Israeli precision strike in central Beirut kills five senior Quds Force and Hezbollah operatives"
+    summary: >
+      The Israel Defense Forces conducted a precision airstrike targeting a room at the
+      Ramada Hotel in a seaside district of Beirut, Lebanon, killing five senior operatives
+      associated with Iran's Quds Force and the Lebanese militant group Hezbollah. The IDF
+      stated the targets were key intelligence and financial figures responsible for
+      coordinating operations and transferring hundreds of millions of dollars from Tehran
+      to Hezbollah. The assassination took place as part of a wider 24-hour Israeli
+      offensive in which the IDF reported striking more than 100 targets across Lebanon,
+      including command centers, weapons depots, and logistics nodes. The strike at a
+      commercial hotel inside Beirut represented a significant escalation in Israel's
+      willingness to conduct precision strikes in densely populated urban areas.
+    key_data: []
+    details:
+      what_happened:
+        - "An IDF precision strike hit the Ramada Hotel in a coastal district of Beirut, destroying a room occupied by the targets."
+        - "Five senior figures from Iran's Quds Force and Hezbollah were killed in the explosion."
+        - "The IDF described the targets as key figures in intelligence coordination and the transfer of large financial flows from Iran to Hezbollah's operational infrastructure."
+        - "The IDF reported conducting strikes against more than 100 targets across Lebanon, including command centers and weapons storage facilities, in the preceding 24-hour period."
+      why_it_matters:
+        - "The targeted assassination of senior financial and intelligence operatives disrupts a critical funding and coordination pipeline between Tehran and Hezbollah at a moment when both are under sustained military pressure."
+        - "Conducting a precision strike at a commercial hotel in central Beirut signals Israel's willingness to target high-value Hezbollah leadership in civilian urban environments."
+      uncertainty_notes:
+        - "The identities of the five killed operatives were not publicly confirmed in the initial report; casualty figures and organizational affiliations are drawn from IDF statements."
+    actors:
+      primary:
+        - "Israel Defense Forces"
+      secondary:
+        - "Hezbollah"
+        - "Quds Force"
+    entities:
+      people: []
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Military of Israel"
+        - name: "Hezbollah"
+          description: "Lebanese Shia militant group and political party"
+        - name: "Quds Force"
+          description: "IRGC unit for external operations"
+      states:
+        - "Israel"
+        - "Lebanon"
+        - "Iran"
+    geography:
+      countries:
+        - "Lebanon"
+      places:
+        - "Beirut"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 5
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "airstrike"
+        - "targeted-killing"
+      tags:
+        - "beirut"
+        - "idf"
+        - "hezbollah"
+        - "quds-force"
+        - "lebanon"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-027-a"
+          outlet: "ILTV News"
+          url: "https://www.youtube.com/watch?v=aApyQ7HhuJE"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [55]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-09-033"
+    notes: "Sourced from a single Israeli broadcaster video; detail accuracy is medium pending corroboration from wire services. IDF attribution of responsibility to Quds Force and Hezbollah is taken from the source but not independently verified. Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-028"
+    category: "Politics and elections"
+    subcategory: "Government formation"
+    topics:
+      - "Executive transition"
+      - "Portugal"
+      - "2026 Portuguese presidential election"
+      - "Government formation"
+    importance: 5
+    headline: "António José Seguro inaugurated as president of Portugal"
+    summary: >
+      António José Seguro was officially sworn in as the new President of the Portuguese
+      Republic at a ceremony in Lisbon, formally concluding the presidential transition. He
+      succeeded outgoing president Marcelo Rebelo de Sousa, whose term ended following the
+      January 2026 presidential election. The inauguration marked a return to prominence for
+      Seguro, a veteran Socialist Party figure who had previously led the party before
+      stepping down in 2014.
+    key_data: []
+    details:
+      what_happened:
+        - "António José Seguro took the oath of office as President of Portugal in a formal ceremony in Lisbon."
+        - "He officially assumed the constitutional powers of the Presidency of the Portuguese Republic."
+        - "The inauguration marked the formal conclusion of Marcelo Rebelo de Sousa's tenure as president."
+      why_it_matters:
+        - "The inauguration represents a peaceful and constitutional transfer of executive power in a European Union and NATO member state."
+        - "Seguro's election represents a shift in the political profile of the presidency within the Portuguese constitutional system."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "António José Seguro"
+      secondary:
+        - "Marcelo Rebelo de Sousa"
+    entities:
+      people:
+        - name: "António José Seguro"
+          role: ""
+        - name: "Marcelo Rebelo de Sousa"
+          role: "Whose term ended following the January 2026 presidential election"
+      organizations:
+        - name: "Presidency of the Portuguese Republic"
+          description: ""
+      states:
+        - "Portugal"
+    geography:
+      countries:
+        - "Portugal"
+      places:
+        - "Lisbon"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "inauguration"
+      tags:
+        - "portugal"
+        - "president"
+        - "europe"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "António José Seguro is sworn in as President of Portugal, succeeding Marcelo Rebelo de Sousa."
+      external:
+        - id: "src-028-a"
+          outlet: "Público"
+          url: "https://ereader.publico.pt/publico-edicao-lisboa/20260309"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [56]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "Público source URL not retrieved in draft; event corroborated by Wikipedia portal text fragment. Detail accuracy is medium pending direct URL. Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-029"
+    category: "Disasters and accidents"
+    subcategory: "Industrial accident"
+    topics:
+      - "Workplace safety"
+      - "Infrastructure collapse"
+      - "Industrial accident"
+      - "India"
+    importance: 5
+    headline: "Soil collapse kills seven construction workers near Dharuhera, Haryana, India"
+    summary: >
+      A fatal workplace accident occurred at a construction site near Dharuhera in the
+      northern Indian state of Haryana when excavation work triggered a sudden, catastrophic
+      collapse of a soil embankment. Seven workers were buried alive and confirmed dead.
+      Four additional laborers were pulled from the debris by emergency responders and
+      hospitalized in critical condition. The incident drew attention to persistent
+      occupational safety deficiencies in India's construction sector, where
+      excavation-related collapses remain a recurring hazard.
+    key_data: []
+    details:
+      what_happened:
+        - "Workers conducting excavation at a construction site near Dharuhera, Haryana, were buried when a soil embankment suddenly collapsed."
+        - "Seven workers were confirmed dead following the collapse."
+        - "Four additional workers were rescued from the debris in critical condition and transported to hospital."
+        - "Emergency response teams carried out extraction operations at the site."
+      why_it_matters:
+        - "The mass casualty event highlights persistent deficiencies in excavation safety protocols and oversight within India's rapidly expanding construction sector."
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "India"
+    geography:
+      countries:
+        - "India"
+      places:
+        - "Dharuhera"
+        - "Haryana"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 7
+      injured: 4
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "structural-collapse"
+        - "workplace-accident"
+      tags:
+        - "india"
+        - "haryana"
+        - "construction"
+        - "workplace-safety"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Seven workers are killed and four are critically injured after being buried under soil during excavation work at a construction site near Dharuhera in Haryana, India."
+      external:
+        - id: "src-029-a"
+          outlet: "Hindustan Times"
+          url: "https://www.hindustantimes.com/cities/chandigarh-news/soil-collapse-in-haryana-s-dharuhera-leaves-7-workers-dead-4-critical-rescue-op-continues-101773111927688.html"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [57]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-030"
+    category: "Armed conflicts and attacks"
+    subcategory: "Military operation"
+    topics:
+      - "Displacement"
+      - "Internal conflict"
+      - "Humanitarian crisis"
+      - "Military operation"
+      - "South Sudan"
+    importance: 6
+    headline: "Thousands flee Akobo ahead of South Sudan army offensive; U.N. and aid groups ordered to withdraw"
+    summary: >
+      A mass civilian exodus occurred in and around the opposition-held town of Akobo in
+      eastern South Sudan after the national army ordered the immediate evacuation of all
+      civilians, humanitarian organizations, and international personnel from the area. The
+      South Sudan People's Defense Forces warned that it was preparing an assault on the
+      stronghold, which is controlled by the Sudan People's Liberation Movement-In
+      Opposition, and demanded that residents leave to avoid "collateral damage." The SSPDF
+      explicitly ordered the United Nations Mission in South Sudan to close its local base
+      and directed non-governmental organizations to withdraw their staff, stripping a
+      vulnerable population of immediate humanitarian cover ahead of the offensive. Fighting
+      in Jonglei state had already displaced more than 280,000 people in recent weeks before
+      the Akobo evacuation order was issued.
+    key_data: []
+    details:
+      what_happened:
+        - "The South Sudan People's Defense Forces formally ordered the evacuation of Akobo, an SPLM-IO stronghold in Jonglei state, ahead of a planned military offensive."
+        - "Thousands of civilians fled the town and surrounding areas in response to the military warning."
+        - "The SSPDF explicitly instructed the United Nations Mission in South Sudan to close its base in Akobo."
+        - "Non-governmental organizations operating in the area were also ordered to withdraw their personnel and assets."
+        - "The military cited the need to prevent \"collateral damage\" as the justification for the civilian and humanitarian evacuation order."
+      why_it_matters:
+        - "The looming offensive threatens a catastrophic escalation of South Sudan's humanitarian emergency; fighting in Jonglei state had already displaced over 280,000 people prior to the Akobo order."
+        - "Forcing the withdrawal of UN peacekeepers and aid organizations removes the primary source of protection and emergency medical support for a population about to be subjected to sustained military operations."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "South Sudan People's Defense Forces"
+      secondary:
+        - "Sudan People's Liberation Movement-In Opposition"
+        - "United Nations Mission in South Sudan"
+    entities:
+      people: []
+      organizations:
+        - name: "South Sudan People's Defense Forces"
+          description: ""
+        - name: "Sudan People's Liberation Movement-In Opposition"
+          description: ""
+        - name: "United Nations Mission in South Sudan"
+          description: ""
+      states:
+        - "South Sudan"
+    geography:
+      countries:
+        - "South Sudan"
+      places:
+        - "Akobo"
+        - "Jonglei State"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "military-mobilization"
+        - "mass-displacement"
+      tags:
+        - "south-sudan"
+        - "akobo"
+        - "unmiss"
+        - "humanitarian-crisis"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-030-a"
+          outlet: "OkayAfrica"
+          url: "https://www.okayafrica.com/today-in-africa-mar-9-2026-42-killed-in-kenya-floods-rising-oil-prices-from-iran-war-threaten-inflation-across-africa/1410384"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [50]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "Carried forward from the earlier schema-2.1 expansion (commit 0f5cbef6); not in the deep-research report."
+  - id: "evt-2026-03-09-031"
+    category: "Armed conflicts and attacks"
+    subcategory: "Pakistan in the 2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+      - "Pakistan in the 2026 Iran war"
+    importance: 5
+    headline: "Pakistan Navy launches Operation Muhafiz-ul-Bahr to protect its sea lanes"
+    summary: >
+      The Inter-Services Public Relations announces that the Pakistan Navy has launched
+      Operation Muhafiz-ul-Bahr to safeguard Pakistan's Sea Lines of Communication (SLOC)
+      and ensure the uninterrupted flow of national energy supplies amidst disruptions in
+      the Strait of Hormuz.
+    key_data: []
+    details:
+      what_happened:
+        - "The Inter-Services Public Relations announces that the Pakistan Navy has launched Operation Muhafiz-ul-Bahr to safeguard Pakistan's Sea Lines of Communication (SLOC) and ensure the uninterrupted flow of national energy supplies amidst disruptions in the Strait of Hormuz."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Inter-Services Public Relations"
+        - "Pakistan Navy"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Inter-Services Public Relations"
+          description: "Media wing of Pakistan's armed forces"
+        - name: "Pakistan Navy"
+          description: "Naval force of Pakistan"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+        - "pakistan-in-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Inter-Services Public Relations announces that the Pakistan Navy has launched Operation Muhafiz-ul-Bahr to safeguard Pakistan's Sea Lines of Communication (SLOC) and ensure the uninterrupted flow of national energy supplies amidst disruptions in the Strait of Hormuz."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Arab News per the Wikipedia portal."
+  - id: "evt-2026-03-09-032"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 6
+    headline: "Macron announces a multinational naval escort mission for merchant shipping"
+    summary: >
+      French president Emmanuel Macron announces that France and other states will create a
+      naval escort mission for merchant ships in the framework of Operation Aspides.
+    key_data: []
+    details:
+      what_happened:
+        - "French president Emmanuel Macron announces that France and other states will create a naval escort mission for merchant ships in the framework of Operation Aspides."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Emmanuel Macron"
+      secondary: []
+    entities:
+      people:
+        - name: "Emmanuel Macron"
+          role: "President of France"
+      organizations: []
+      states:
+        - "France"
+    geography:
+      countries:
+        - "France"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "French president Emmanuel Macron announces that France and other states will create a naval escort mission for merchant ships in the framework of Operation Aspides."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by USNI News and Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-03-09-033"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Hezbollah–Israel war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Hezbollah–Israel war"
+    importance: 5
+    headline: "Maronite priest Pierre al-Rahi killed by Israeli strike in Al-Qlayaa, Lebanon"
+    summary: >
+      Lebanese Maronite Catholic priest Father Pierre al-Rahi is killed by an Israeli double
+      strike on a house in the Christian-majority town of Al-Qlayaa, Lebanon.
+    key_data: []
+    details:
+      what_happened:
+        - "Lebanese Maronite Catholic priest Father Pierre al-Rahi is killed by an Israeli double strike on a house in the Christian-majority town of Al-Qlayaa, Lebanon."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Pierre al-Rahi"
+      secondary: []
+    entities:
+      people:
+        - name: "Pierre al-Rahi"
+          role: "Lebanese Maronite Catholic priest"
+      organizations: []
+      states:
+        - "Lebanon"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Israel"
+      places:
+        - "Al-Qlayaa"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "hezbollah-israel-conflict"
+        - "2026-hezbollah-israel-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Lebanese Maronite Catholic priest Father Pierre al-Rahi is killed by an Israeli double strike on a house in the Christian-majority town of Al-Qlayaa, Lebanon."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-09-027"
+    notes: "Portal-derived event with no deep-research coverage; reported by ICN per the Wikipedia portal."
+  - id: "evt-2026-03-09-034"
+    category: "Business and economy"
+    subcategory: "2026 Iranian strikes on Bahrain"
+    topics:
+      - "Economic impact of the 2026 Iran war"
+      - "2026 Iranian strikes on Bahrain"
+    importance: 5
+    headline: "Bapco Energies declares force majeure on Bahrain refinery operations"
+    summary: >
+      Bapco Energies declares force majeure on certain refinery operations in Bahrain after
+      damage to its facilities by Iranian strikes, temporarily affecting shipments.
+    key_data: []
+    details:
+      what_happened:
+        - "Bapco Energies declares force majeure on certain refinery operations in Bahrain after damage to its facilities by Iranian strikes, temporarily affecting shipments."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Bapco Energies"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Bapco Energies"
+          description: "Bahraini state energy company"
+      states:
+        - "Bahrain"
+    geography:
+      countries:
+        - "Bahrain"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "economic-impact-of-the-2026-iran-war"
+        - "2026-iranian-strikes-on-bahrain"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Bapco Energies declares force majeure on certain refinery operations in Bahrain after damage to its facilities by Iranian strikes, temporarily affecting shipments."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-09-002"
+      - "evt-2026-03-09-003"
+      - "evt-2026-03-09-035"
+      - "evt-2026-03-09-036"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Al Arabiya per the Wikipedia portal."
+  - id: "evt-2026-03-09-035"
+    category: "Business and economy"
+    subcategory: "Economic impact of the 2026 Iran war"
+    topics:
+      - "Economic impact of the 2026 Iran war"
+    importance: 4
+    headline: "Bangladesh closes universities early to cut electricity use"
+    summary: >
+      Bangladesh closes all universities by advancing the Eid al-Fitr holidays as part of
+      emergency measures to reduce electricity consumption during an energy crisis linked to
+      the Iran war.
+    key_data: []
+    details:
+      what_happened:
+        - "Bangladesh closes all universities by advancing the Eid al-Fitr holidays as part of emergency measures to reduce electricity consumption during an energy crisis linked to the Iran war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Bangladesh"
+        - "Iran"
+    geography:
+      countries:
+        - "Bangladesh"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Bangladesh closes all universities by advancing the Eid al-Fitr holidays as part of emergency measures to reduce electricity consumption during an energy crisis linked to the Iran war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-09-002"
+      - "evt-2026-03-09-003"
+      - "evt-2026-03-09-034"
+      - "evt-2026-03-09-036"
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-09-036"
+    category: "Business and economy"
+    subcategory: "Economic impact of the 2026 Iran war"
+    topics:
+      - "Economic impact of the 2026 Iran war"
+    importance: 5
+    headline: "U.S. stocks rise after Trump says the Iran war is 'very complete'"
+    summary: >
+      The Dow Jones Industrial Average and S&P 500 rises after United States president
+      Donald Trump says that the war in Iran is “very complete”, hinting that it could end
+      soon. Additionally, oil prices have dipped under $100 following his remarks.
+    key_data: []
+    details:
+      what_happened:
+        - "The Dow Jones Industrial Average and S&P 500 rises after United States president Donald Trump says that the war in Iran is “very complete”, hinting that it could end soon. Additionally, oil prices have dipped under $100 following his remarks."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+      secondary: []
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations: []
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Dow Jones Industrial Average and S&P 500 rises after United States president Donald Trump says that the war in Iran is “very complete”, hinting that it could end soon. Additionally, oil prices have dipped under $100 following his remarks."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-09-002"
+      - "evt-2026-03-09-003"
+      - "evt-2026-03-09-034"
+      - "evt-2026-03-09-035"
+    notes: "Portal-derived event with no deep-research coverage; reported by CNBC and Semafor per the Wikipedia portal."
+  - id: "evt-2026-03-09-037"
+    category: "International relations"
+    subcategory: "2026 Iranian strikes on Azerbaijan"
+    topics:
+      - "Azerbaijan–Iran relations"
+      - "2026 Iranian strikes on Azerbaijan"
+    importance: 4
+    headline: "Azerbaijan reopens border crossings with Iran to cargo traffic"
+    summary: >
+      Azerbaijan reopens its border crossings with Iran to cargo traffic after closing them
+      following a drone incident in the Nakhchivan Autonomous Republic. Iranian president
+      Masoud Pezeshkian, who denies Iran's involvement, tells Azerbaijani president Ilham
+      Aliyev that Iran is investigating the incident.
+    key_data: []
+    details:
+      what_happened:
+        - "Azerbaijan reopens its border crossings with Iran to cargo traffic after closing them following a drone incident in the Nakhchivan Autonomous Republic. Iranian president Masoud Pezeshkian, who denies Iran's involvement, tells Azerbaijani president Ilham Aliyev that Iran is investigating the incident."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Azerbaijan"
+        - "Iran"
+    geography:
+      countries:
+        - "Azerbaijan"
+        - "Iran"
+      places:
+        - "Nakhchivan Autonomous Republic"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+        - "drone-strike"
+      tags:
+        - "azerbaijan-iran-relations"
+        - "2026-iranian-strikes-on-azerbaijan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Azerbaijan reopens its border crossings with Iran to cargo traffic after closing them following a drone incident in the Nakhchivan Autonomous Republic. Iranian president Masoud Pezeshkian, who denies Iran's involvement, tells Azerbaijani president Ilham Aliyev that Iran is investigating the incident."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-09-038"
+    category: "International relations"
+    subcategory: "Greenland crisis"
+    topics:
+      - "Greenland crisis"
+    importance: 5
+    headline: "NATO holds drills in Greenland involving more than 25,000 troops"
+    summary: >
+      NATO conducts military drills in Greenland involving over 25,000 troops from 14
+      nations including Denmark and the United States in a effort to de-escalate tensions
+      over efforts by Trump to annex the island. The exercise will last until March 19.
+    key_data: []
+    details:
+      what_happened:
+        - "NATO conducts military drills in Greenland involving over 25,000 troops from 14 nations including Denmark and the United States in a effort to de-escalate tensions over efforts by Trump to annex the island. The exercise will last until March 19."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "NATO"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "NATO"
+          description: "North Atlantic Treaty Organization, transatlantic military alliance"
+      states:
+        - "Greenland"
+        - "Denmark"
+        - "United States"
+    geography:
+      countries:
+        - "Greenland"
+        - "Denmark"
+        - "United States"
+      places:
+        - "Greenland"
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "greenland-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "NATO conducts military drills in Greenland involving over 25,000 troops from 14 nations including Denmark and the United States in a effort to de-escalate tensions over efforts by Trump to annex the island. The exercise will last until March 19."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Independent per the Wikipedia portal."
+  - id: "evt-2026-03-09-039"
+    category: "Law and crime"
+    subcategory: "United States sanctions against Iran"
+    topics:
+      - "United States sanctions against Iran"
+    importance: 5
+    headline: "U.S. reaches deferred prosecution agreement with Turkey's Halkbank"
+    summary: >
+      The United States reaches a deferred prosecution agreement with Turkey's state-owned
+      lender Halkbank to resolve criminal charges alleging that the bank helped Iran evade
+      U.S. sanctions. Under the agreement, Halkbank must implement compliance monitoring and
+      avoid transactions that benefit Iran, after which the charges may be dismissed pending
+      court approval.
+    key_data: []
+    details:
+      what_happened:
+        - "The United States reaches a deferred prosecution agreement with Turkey's state-owned lender Halkbank to resolve criminal charges alleging that the bank helped Iran evade U.S. sanctions. Under the agreement, Halkbank must implement compliance monitoring and avoid transactions that benefit Iran, after which the charges may be dismissed pending court approval."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Halkbank"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Halkbank"
+          description: "Turkish state-owned lender"
+      states:
+        - "United States"
+        - "Turkey"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Turkey"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "sanctions"
+      tags:
+        - "united-states-sanctions-against-iran"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States reaches a deferred prosecution agreement with Turkey's state-owned lender Halkbank to resolve criminal charges alleging that the bank helped Iran evade U.S. sanctions. Under the agreement, Halkbank must implement compliance monitoring and avoid transactions that benefit Iran, after which the charges may be dismissed pending court approval."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+
+strategic_conclusion: >
+  The leadership succession in Tehran and the intensified strikes on the capital marked a
+  new phase of the Iran war, while the G7's decision to delay a reserve release left markets
+  volatile and pushed importing states toward emergency conservation. Attacks on diplomatic
+  and religious sites in Norway and Belgium indicated that security effects were extending
+  into Europe. Political change continued elsewhere, with new governments or leadership
+  arrangements in Portugal, Madagascar and Kosovo and a fragmented outcome in Colombia's
+  congressional vote.
+
+works_cited:
+  - id: 1
+    title: "Iran war israel trump khamenei 03 09 2026"
+    outlet: "Associated Press"
+    url: "https://apnews.com/live/iran-war-israel-trump-khamenei-03-09-2026"
+    accessed: "2026-03-09"
+  - id: 2
+    title: "Oil soars 25 gold drops iran war jolts global commodity markets"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/oil-soars-25-gold-drops-iran-war-jolts-global-commodity-markets-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 3
+    title: "Broad agreement g7 not release oil reserves just yet says g7 official"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/broad-agreement-g7-not-release-oil-reserves-just-yet-says-g7-official-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 4
+    title: "G7 release emergency reserves oil price us middle east war"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/business/2026/mar/09/g7-release-emergency-reserves-oil-price-us-middle-east-war"
+    accessed: "2026-03-09"
+  - id: 5
+    title: "Pakistan shuts all schools save fuel amid rising energy prices"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/pakistan-shuts-all-schools-save-fuel-amid-rising-energy-prices-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 6
+    title: "Energy crisis oil prices asia pakistan schools close"
+    outlet: "AP"
+    url: "https://apnews.com/article/energy-crisis-oil-prices-asia-pakistan-schools-close-"
+    accessed: "2026-03-09"
+  - id: 7
+    title: "Dawn report"
+    outlet: "Dawn"
+    url: "https://www.dawn.com/news/1778252"
+    accessed: "2026-03-09"
+  - id: 8
+    title: "Trump says he discussed ukraine and iran conflicts with putin"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/trump-says-he-discussed-ukraine-and-iran-conflicts-with-putin-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 9
+    title: "Kremlin/official readout referenced via news aggregation report"
+    outlet: "Kremlin/official readout referenced via news aggregation"
+    url: "https://www.jpost.com/international/article-889408"
+    accessed: "2026-03-09"
+  - id: 10
+    title: "Axios report"
+    outlet: "Axios"
+    url: "https://www.axios.com"
+    accessed: "2026-03-09"
+  - id: 11
+    title: "Norway police search suspect after us embassy blast"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/norway-police-search-suspect-after-us-embassy-blast-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 12
+    title: "AP report"
+    outlet: "AP"
+    url: "https://apnews.com/article/4d6647454232241ea640e9ff334f2864"
+    accessed: "2026-03-08"
+  - id: 13
+    title: "Synagogue belgian city liege damaged explosion vrt reports"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/synagogue-belgian-city-liege-damaged-explosion-vrt-reports-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 14
+    title: "Europe security synagogue belgium blast"
+    outlet: "AP"
+    url: "https://apnews.com/article/europe-security-synagogue-belgium-blast-48e901cc4234301ea261773493dc2843"
+    accessed: "2026-03-09"
+  - id: 15
+    title: "Belgian officials investigating synagogue explosion as possible act of terrorism"
+    outlet: "Jewish Telegraphic Agency"
+    url: "https://www.jta.org/2026/03/09/global/belgian-officials-investigating-synagogue-explosion-as-possible-act-of-terrorism"
+    accessed: "2026-03-09"
+  - id: 16
+    title: "Eu sign defence partnerships with australia iceland ghana kallas says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/eu-sign-defence-partnerships-with-australia-iceland-ghana-kallas-says-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 17
+    title: "Eu to sign defence pacts with australia iceland and ghana in coming days"
+    outlet: "EUobserver"
+    url: "https://euobserver.com/206161/eu-to-sign-defence-pacts-with-australia-iceland-and-ghana-in-coming-days"
+    accessed: "2026-03-09"
+  - id: 18
+    title: "Keynote speech hrvp kaja kallas 2026 eu ambassadors conference en"
+    outlet: "European External Action Service"
+    url: "https://www.eeas.europa.eu/eeas/keynote-speech-hrvp-kaja-kallas-2026-eu-ambassadors-conference_en"
+    accessed: "2026-03-09"
+  - id: 19
+    title: "Least 14 dead after migrant boat crashes into coast guard vessel off southern"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/least-14-dead-after-migrant-boat-crashes-into-coast-guard-vessel-off-southern-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 20
+    title: "Turkey migrants drown mediterranean chase collision"
+    outlet: "AP"
+    url: "https://apnews.com/article/turkey-migrants-drown-mediterranean-chase-collision-b399ada90696efa6c34c14640ed42652"
+    accessed: "2026-03-09"
+  - id: 21
+    title: "At least 14 dead after migrant boat crashes into turkish coastguard vessel"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/9/at-least-14-dead-after-migrant-boat-crashes-into-turkish-coastguard-vessel"
+    accessed: "2026-03-09"
+  - id: 22
+    title: "Islamist militants kill 15 coordinated raids across northeast nigeria"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/islamist-militants-kill-15-coordinated-raids-across-northeast-nigeria-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 23
+    title: "Islamist militants attack nigeria"
+    outlet: "Defense Post (AFP-based)"
+    url: "https://www.thedefensepost.com/2026/03/10/islamist-militants-attack-nigeria"
+    accessed: "2026-03-10"
+  - id: 24
+    title: "Islamist militants kill nigeria soldiers"
+    outlet: "Los Angeles Times (AP-based)"
+    url: "https://www.latimes.com/world-nation/story/2026-03-10/islamist-militants-kill-nigeria-soldiers"
+    accessed: "2026-03-10"
+  - id: 25
+    title: "Turkey deploy six f 16 fighter jets northern cyprus broadcaster ntv says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/turkey-deploy-six-f-16-fighter-jets-northern-cyprus-broadcaster-ntv-says-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 26
+    title: "Turkey deploys 6 f 16 jets air defense systems to cyprus occupied north"
+    outlet: "Ekathimerini"
+    url: "https://www.ekathimerini.com/politics/foreign-policy/1297451/turkey-deploys-6-f-16-jets-air-defense-systems-to-cyprus-occupied-north"
+    accessed: "2026-03-09"
+  - id: 27
+    title: "Update syrian colonel charged crimes against humanity and torture damascus demonstrators"
+    outlet: "Crown Prosecution Service"
+    url: "https://www.cps.gov.uk/cps/news/update-syrian-colonel-charged-crimes-against-humanity-and-torture-damascus-demonstrators"
+    accessed: "2026-03-09"
+  - id: 28
+    title: "Man charged over crimes against humanity in syria"
+    outlet: "Metropolitan Police"
+    url: "https://news.met.police.uk/news/man-charged-over-crimes-against-humanity-in-syria-506891"
+    accessed: "2026-03-09"
+  - id: 29
+    title: "Ex member syrian military intelligence charged britain over 2011 protests"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/uk/ex-member-syrian-military-intelligence-charged-britain-over-2011-protests-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 30
+    title: "Syria crimes against humanity britain damascus 2011"
+    outlet: "AP"
+    url: "https://apnews.com/article/syria-crimes-against-humanity-britain-damascus-2011-0caf8269792ec96ddcfac47caf4a6837"
+    accessed: "2026-03-09"
+  - id: 31
+    title: "Nato drills war arctic with focus civilians being ready"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/aerospace-defense/nato-drills-war-arctic-with-focus-civilians-being-ready-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 32
+    title: "Arctic sentry enhances allied coldweather operations preparedness through exercise cold response 2026"
+    outlet: "NATO JFC Norfolk"
+    url: "https://jfcnorfolk.nato.int/activity/arctic-sentry-enhances-allied-coldweather-operations-preparedness-through-exercise-cold-response-2026.aspx"
+    accessed: "2026-03-09"
+  - id: 33
+    title: "Afghanistan designated as a state sponsor of wrongful detention"
+    outlet: "U.S. Department of State"
+    url: "https://www.state.gov/releases/office-of-the-spokesperson/2026/03/afghanistan-designated-as-a-state-sponsor-of-wrongful-detention"
+    accessed: "2026-03-09"
+  - id: 34
+    title: "Rubio could designate afghanistan sponsor wrongful detention source says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/rubio-could-designate-afghanistan-sponsor-wrongful-detention-source-says-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 35
+    title: "Fbi examines arizona election records widening probe trump vote fraud claims"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/legal/government/fbi-examines-arizona-election-records-widening-probe-trump-vote-fraud-claims-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 36
+    title: "Trump administration widens its 2020 election probe as it obtains records from arizona"
+    outlet: "PBS NewsHour"
+    url: "https://www.pbs.org/newshour/politics/trump-administration-widens-its-2020-election-probe-as-it-obtains-records-from-arizona"
+    accessed: "2026-03-09"
+  - id: 37
+    title: "Attorney general mayes issues statement federal grand jury subpoena 2020 election"
+    outlet: "Arizona Attorney General (press release)"
+    url: "https://www.azag.gov/press-release/attorney-general-mayes-issues-statement-federal-grand-jury-subpoena-2020-election"
+    accessed: "2026-03-09"
+  - id: 38
+    title: "China consumer inflation hits three year high holiday surge"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/china-consumer-inflation-hits-three-year-high-holiday-surge-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 39
+    title: "National Bureau of Statistics of China report"
+    outlet: "National Bureau of Statistics of China"
+    url: "https://www.stats.gov.cn/sj/zxfb/202603/t20260309_1958023.html"
+    accessed: "2026-03-09"
+  - id: 40
+    title: "Cuban university students stage rare protest amid energy internet shortages"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/cuban-university-students-stage-rare-protest-amid-energy-internet-shortages-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 41
+    title: "Cuba student protest university oil blockade"
+    outlet: "AP"
+    url: "https://apnews.com/article/cuba-student-protest-university-oil-blockade-d5eb4d4333edc8ac1906caee49895232"
+    accessed: "2026-03-10"
+  - id: 42
+    title: "Madagascars president randrianirina dismisses prime minister cabinet"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/madagascars-president-randrianirina-dismisses-prime-minister-cabinet-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 43
+    title: "AP report"
+    outlet: "AP"
+    url: "https://apnews.com/article/ac27f0fac3c812b56e6e233aaa173e0e"
+    accessed: "2026-03-19"
+  - id: 44
+    title: "Madagascar military ruler new ministers lie detector tests"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/mar/20/madagascar-military-ruler-new-ministers-lie-detector-tests"
+    accessed: "2026-03-20"
+  - id: 45
+    title: "Brazils finance minister expected step down next week sources say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/brazils-finance-minister-expected-step-down-next-week-sources-say-2026-03-09"
+    accessed: "2026-03-09"
+  - id: 46
+    title: "AP report"
+    outlet: "AP"
+    url: "https://apnews.com/article/fc397a97a74c8cf996152271bd77181c"
+    accessed: "2026-03-20"
+  - id: 47
+    title: "Iran update evening special report march 9 2026"
+    outlet: "Institute for the Study of War"
+    url: "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-9-2026"
+    accessed: "2026-03-09"
+  - id: 48
+    title: "Monday morning news march 9 2026"
+    outlet: "WNG"
+    url: "https://wng.org/podcasts/monday-morning-news-march-9-2026-1772989452"
+    accessed: "2026-03-09"
+  - id: 49
+    title: "Iran update morning special report march 9 2026"
+    outlet: "Institute for the Study of War"
+    url: "https://understandingwar.org/research/middle-east/iran-update-morning-special-report-march-9-2026"
+    accessed: "2026-03-09"
+  - id: 50
+    title: "OkayAfrica report"
+    outlet: "OkayAfrica"
+    url: "https://www.okayafrica.com/today-in-africa-mar-9-2026-42-killed-in-kenya-floods-rising-oil-prices-from-iran-war-threaten-inflation-across-africa/1410384"
+    accessed: "2026-03-09"
+  - id: 51
+    title: "allAfrica report"
+    outlet: "allAfrica"
+    url: "https://allafrica.com/stories/202603090099.html"
+    accessed: "2026-03-09"
+  - id: 52
+    title: "Five things to know march 9 2026"
+    outlet: "The American Legion"
+    url: "https://www.legion.org/information-center/news/security/2026/march/five-things-to-know-march-9-2026"
+    accessed: "2026-03-09"
+  - id: 53
+    title: "Kosovo constitutional court suspends vjosa osmanis decree government reacts"
+    outlet: "Euronews Albania"
+    url: "https://euronews.al/en/kosovo-constitutional-court-suspends-vjosa-osmanis-decree-government-reacts"
+    accessed: "2026-03-09"
+  - id: 54
+    title: "Reuters report"
+    outlet: "Reuters"
+    url: "https://www.reutersconnect.com/item/elections-in-colombia-gustavo-petros-party-wins-the-legislative-elections-and-consolidates-its-position-in-the-senate/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUxUQU5BMDAwUkFROUI2"
+    accessed: "2026-03-09"
+  - id: 55
+    title: "ILTV News report"
+    outlet: "ILTV News"
+    url: "https://www.youtube.com/watch?v=aApyQ7HhuJE"
+    accessed: "2026-03-09"
+  - id: 56
+    title: "Público report"
+    outlet: "Público"
+    url: "https://ereader.publico.pt/publico-edicao-lisboa/20260309"
+    accessed: "2026-03-09"
+  - id: 57
+    title: "Soil collapse in haryana s dharuhera leaves 7 workers dead 4 critical rescue op continues"
+    outlet: "Hindustan Times"
+    url: "https://www.hindustantimes.com/cities/chandigarh-news/soil-collapse-in-haryana-s-dharuhera-leaves-7-workers-dead-4-critical-rescue-op-continues-101773111927688.html"
+    accessed: "2026-03-10"
+  - id: 58
+    title: "Portal:Current events/2026 March 9"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_9&oldid=1353720604"
+    accessed: "2026-09-22"

@@ -1,0 +1,2752 @@
+date: "2026-01-12"
+source_page:
+  portal: "Portal:Current events/2026 January 12"
+  language: "en"
+  wikipedia_revision_id: 1333741245
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 January 12 (revision 1333741245; seed 2026/01/2026-01-12.yaml) + deep-research report reference/deep-research/2026/01/2026-01-12a.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  The following comprehensive intelligence dossier synthesizes major geopolitical,
+  macroeconomic, and security developments recorded worldwide on January 12, 2026. The
+  analysis reveals a global environment increasingly defined by aggressive executive actions
+  overriding traditional institutional or judicial guardrails, the rapid fracturing of
+  sovereign security architectures in conflict zones, and a paradigm shift in how states
+  regulate emerging digital technologies. To provide a structural overview of these
+  compounding risks, the macro-level themes are categorized below.
+
+events:
+  - id: "evt-2026-01-12-001"
+    category: "Law and crime"
+    subcategory: "Sanctions and immigration enforcement"
+    topics:
+      - "Sanctions and immigration enforcement"
+      - "United States"
+      - "Venezuela"
+    importance: 7
+    headline: "U.S. Seizes Venezuelan Oil Assets and Deports Asylum Seekers Amid Political Prisoner Release"
+    summary: >
+      The geopolitical landscape surrounding Venezuela experienced extreme volatility as the
+      United States simultaneously intensified economic sanctions, engineered diplomatic
+      asset maneuvers, and executed highly controversial deportations following the recent
+      capture of Nicolás Maduro. Early on Friday, U.S. Southern Command detained the
+      Venezuelan-linked oil tanker Olina in the Caribbean Sea, the fifth such seizure by the
+      Trump administration since December. Concurrently, President Donald Trump signed an
+      executive order classifying Venezuelan oil revenues held in U.S. Treasury accounts as
+      sovereign property, a deliberate legal maneuver to block private creditors like
+      ExxonMobil from impounding the funds, ostensibly to preserve capital for a U.S.-backed
+      transitional government. Inside Venezuela, the government initiated a "national
+      pacification" process, releasing roughly 400 political prisoners, though NGOs like
+      Foro Penal note that 600 remain incarcerated and the state's systemic repressive
+      apparatus remains fully intact under the 2024 Simón Bolívar Organic Law. Complicating
+      the human rights narrative, the U.S. administration invoked the archaic Alien Enemies
+      Act to deport 137 Venezuelan asylum seekers to El Salvador's draconian Terrorism
+      Confinement Center (CECOT) maximum-security prison, frequently profiling individuals
+      based on tattoos. The confluence of these events underscores an aggressive,
+      multifaceted U.S. strategy that prioritizes geopolitical leverage and hardline
+      immigration deterrence over traditional human rights or corporate debt frameworks.
+    key_data: []
+    details:
+      what_happened:
+        - "U.S. Southern Command seized the Venezuelan-linked tanker Olina in the Caribbean without incident, while President Trump signed an executive order protecting Venezuelan oil revenues in U.S. custody from private corporate claims."
+        - "Venezuelan authorities released approximately 400 political prisoners as part of a purported \"national pacification\" effort following Maduro's capture, though systemic judicial repression and restrictive laws remain active."
+        - "The U.S. deported 137 Venezuelan nationals, including legal asylum seekers, to El Salvador’s CECOT maximum-security prison under the Alien Enemies Act."
+        - "Deportees, including former professional soccer player Jerce Reyes Barrios, were controversially classified as gang members based on tattoos, with the U.S. State Department admitting it has no tracking mechanism for their current whereabouts."
+      why_it_matters:
+        - "The executive protection of Venezuelan oil revenues indicates the U.S. is prioritizing the financial viability of a future allied transitional government in Caracas over restitution for American corporations."
+        - "The deportation of asylum seekers to foreign maximum-security prisons under the Alien Enemies Act sets a severe, legally untested precedent for U.S. immigration enforcement, likely drawing intense international legal challenges."
+        - "Venezuela's release of political prisoners appears to be a superficial diplomatic concession designed to alleviate immediate pressure, rather than a genuine dismantling of the state's deeply entrenched authoritarian infrastructure."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Government (President Donald Trump, U.S. Southern Command, ICE)"
+        - "Venezuelan Government"
+      secondary:
+        - "Foro Penal"
+        - "ExxonMobil"
+        - "ConocoPhillips"
+        - "Government of El Salvador"
+    entities:
+      people: []
+      organizations:
+        - name: "United States Government"
+          description: "President Donald Trump, U.S. Southern Command, ICE"
+        - name: "Venezuelan Government"
+          description: "Government of Venezuela"
+        - name: "Foro Penal"
+          description: "Venezuelan human-rights organization monitoring political prisoners"
+        - name: "ExxonMobil"
+          description: "U.S. oil company"
+        - name: "ConocoPhillips"
+          description: "U.S. oil company"
+        - name: "Government of El Salvador"
+          description: "Government of El Salvador"
+      states:
+        - "United States"
+        - "Venezuela"
+        - "El Salvador"
+    geography:
+      countries:
+        - "United States"
+        - "Venezuela"
+        - "El Salvador"
+      places:
+        - "Caribbean Sea"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: 137
+      missing: null
+      arrest_count: 600
+      damage: "None identified."
+    classification:
+      event_type:
+        - "sanctions-and-immigration-enforcement"
+      tags:
+        - "sanctions-and-immigration-enforcement"
+        - "united-states"
+        - "venezuela"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Venezuela releases more than 100 political prisoners who were detained due to acts associated with civil disobedience the constitutional order."
+      external:
+        - id: "src-001-a"
+          outlet: "Just Security"
+          url: "https://www.justsecurity.org/128495/early-edition-january-12-2026"
+          publication_date: "2026-01-12"
+          source_type: "specialist_publication"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "The Olina was detained 'without incident,' becoming the fifth Venezuelan-linked tanker seized by the Trump administration since December."
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/March_2025_American_deportations_of_Venezuelans"
+          publication_date: "2026-01-12"
+          source_type: "encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "On January 12, 2026, Secretary of State Marco Rubio said in a court filing that the United States has no way of knowing the whereabouts of the 137 Venezuelans"
+          citation_refs: [2]
+        - id: "src-001-c"
+          outlet: "Human Rights Watch"
+          url: "https://www.hrw.org/news/2026/02/18/venezuela-dismantle-repressive-apparatus"
+          publication_date: "2026-02-18"
+          source_type: "ngo_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "According to Venezuelan human rights groups, the authorities have released about 400 political prisoners. About 600 others remain behind bars"
+          citation_refs: [3]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-002"
+    category: "Politics and elections"
+    subcategory: "Civil unrest"
+    topics:
+      - "Civil unrest"
+    importance: 9
+    headline: "Iranian Crackdown on Protests Surpasses 500 Civilian Deaths"
+    summary: >
+      Nationwide anti-government protests in Iran stretched into their third week, evolving
+      from localized economic grievances over a plummeting currency—trading at 1.4 million
+      rials to the U.S. dollar—into an uncompromising, existential demand for the
+      dismantling of the Islamic Republic. The regime's response has been overwhelmingly
+      brutal, with human rights organizations confirming that the civilian death toll has
+      surpassed 500, alongside more than 10,000 arbitrary detentions. State media admitted
+      that 121 security personnel have also been killed in the clashes, prompting Armed
+      Forces-affiliated outlets to explicitly threaten the deployment of specialized Islamic
+      Revolutionary Guard Corps (IRGC) Ground Forces, including the Saberin Special Forces
+      Brigade, to ruthlessly suppress the unrest. Amidst the domestic chaos, Tehran has
+      initiated diplomatic back-channels, with Foreign Minister Abbas Araghchi communicating
+      with U.S. Special Envoy Steve Witkoff to stave off potential American military
+      intervention, a threat repeatedly levied by President Trump, who concurrently
+      announced devastating 25% secondary tariffs on any nation doing business with Iran.
+    key_data: []
+    details:
+      what_happened:
+        - "Activists reported the civilian death toll from the crackdown exceeded 500, with over 10,000 protesters detained across major cities including Tehran and Mashhad."
+        - "State-affiliated media confirmed 121 security personnel have been killed and threatened to deploy elite IRGC Ground Forces to crush the demonstrations."
+        - "Iran's currency collapsed to 1.4 million rials to the U.S. dollar, exacerbating the foundational economic catalysts of the uprising."
+        - "Foreign Minister Abbas Araghchi contacted U.S. Special Envoy Steve Witkoff to attempt de-escalation, despite Iran's public refusal to negotiate on its nuclear or ballistic missile programs."
+        - "President Trump threatened military intervention and announced a 25% tariff on products from any country conducting business with Iran."
+      why_it_matters:
+        - "The catastrophic loss of life and the threatened deployment of elite IRGC combat units indicate the regime recognizes the protests as a terminal threat, pivoting entirely to militarized survival tactics."
+        - "The back-channel communications highlight Tehran's profound strategic anxiety regarding opportunistic U.S. military strikes, suggesting that intense domestic fragility is actively constraining its foreign policy maneuvering."
+        - "The implementation of 25% secondary tariffs by the U.S. threatens to completely sever Iran's remaining economic lifelines, potentially accelerating total state collapse."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Iranian Government (President Masoud Pezeshkian, IRGC, Foreign Minister Abbas Araghchi)"
+        - "Anti-government protesters"
+      secondary:
+        - "United States Government (President Donald Trump, Special Envoy Steve Witkoff)"
+    entities:
+      people: []
+      organizations:
+        - name: "Iranian Government"
+          description: "President Masoud Pezeshkian, IRGC, Foreign Minister Abbas Araghchi"
+        - name: "Anti-government protesters"
+          description: "Demonstrators"
+        - name: "United States Government"
+          description: "President Donald Trump, Special Envoy Steve Witkoff"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Iran (Tehran"
+        - "Mashhad"
+        - "Karaj"
+        - "Esfahan)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 621
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 10000
+      damage: "Widespread urban infrastructure damage from riots."
+    classification:
+      event_type:
+        - "civil-unrest"
+      tags:
+        - "civil-unrest"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "WORLD Radio"
+          url: "https://wng.org/podcasts/monday-morning-news-january-12-2026-1768165213"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "Activists say Iran’s crackdown on nationwide protests has now killed well over 500 people, with thousands more detained"
+          citation_refs: [4]
+        - id: "src-002-b"
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-january-12-2026"
+          publication_date: "2026-01-12"
+          source_type: "specialist_publication"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "Iranian Armed Forces General Staff (AFGS)-affiliated media threatened on January 12 to deploy more IRGC Ground Forces units to suppress protests."
+          citation_refs: [7]
+        - id: "src-002-c"
+          outlet: "International Affairs Forum"
+          url: "https://www.ia-forum.org/Content/ViewInternalDocument.cfm?ContentID=21275"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "On January 12, President Trump announced 25% import tariffs on products from any country doing business with Iran, a major oil exporter."
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-003"
+    category: "Law and crime"
+    subcategory: "Civil rights lawsuits"
+    topics:
+      - "Civil rights lawsuits"
+      - "United States"
+    importance: 6
+    headline: "Minnesota Sues DHS Over \"Operation Metro Surge\" Following Fatal ICE Shooting"
+    summary: >
+      The state of Minnesota, joined by the cities of Minneapolis and St. Paul, launched a
+      comprehensive federal lawsuit against the Department of Homeland Security (DHS) to
+      immediately halt "Operation Metro Surge," an unprecedented deployment of over 2,000
+      federal immigration agents to the region. Attorney General Keith Ellison alleges the
+      hyper-militarized operation violates the First Amendment by politically retaliating
+      against Democratic leadership, and the Tenth Amendment by commandeering local police
+      resources and forcing school closures. The legal and civic crisis was catalyzed by the
+      January 7 fatal shooting of 37-year-old U.S. citizen Renee Nicole Good by ICE agent
+      Jonathan Ross, an incident federal officials praised as self-defense, but which
+      eyewitnesses, video evidence, and state officials characterize as a reckless
+      escalation against a fleeing vehicle. The fallout has severely disrupted the regional
+      economy—with local businesses reporting 50% to 80% revenue drops due to community
+      terror—while simultaneously triggering an internal crisis at the Department of
+      Justice, where four top civil rights officials resigned in protest over the agency's
+      refusal to criminally investigate Ross.
+    key_data: []
+    details:
+      what_happened:
+        - "Minnesota Attorney General Keith Ellison filed a federal lawsuit seeking a Temporary Restraining Order against DHS to halt \"Operation Metro Surge\"."
+        - "The lawsuit cites First and Tenth Amendment violations, alleging the deployment of 2,000 agents is political retaliation that has cost local taxpayers millions in police overtime."
+        - "The litigation follows the January 7 killing of U.S. citizen Renee Nicole Good, who was shot three times by ICE agent Jonathan Ross."
+        - "The FBI launched an investigation into Good's background as an activist, while four DOJ officials resigned over the department's refusal to investigate her killer."
+        - "The federal surge caused massive economic disruption, with Minneapolis businesses reporting revenue drops of up to 80% due to fear of arbitrary detention and racial profiling."
+      why_it_matters:
+        - "The lawsuit forces a profound constitutional reckoning regarding the executive branch's ability to utilize federal law enforcement agencies as punitive tools against politically opposed domestic jurisdictions."
+        - "The blatant refusal of the DOJ to investigate the fatal shooting of a U.S. citizen by a federal agent, coupled with high-level resignations, suggests a severe politicization and breakdown of internal federal accountability mechanisms."
+        - "The drastic economic contraction in the Twin Cities illustrates the catastrophic collateral damage that hyper-aggressive, militarized interior immigration enforcement inflicts on local commerce and public safety."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "State of Minnesota (Attorney General Keith Ellison)"
+        - "City of Minneapolis"
+        - "City of St. Paul"
+        - "U.S. Department of Homeland Security (Secretary Kristi Noem, ICE Agent Jonathan Ross)"
+      secondary:
+        - "Renee Nicole Good (deceased), FBI"
+        - "U.S. Department of Justice"
+    entities:
+      people: []
+      organizations:
+        - name: "State of Minnesota"
+          description: "Attorney General Keith Ellison"
+        - name: "City of Minneapolis"
+          description: "Municipal government of Minneapolis"
+        - name: "City of St. Paul"
+          description: "Municipal government of Saint Paul"
+        - name: "U.S. Department of Homeland Security"
+          description: "Secretary Kristi Noem, ICE Agent Jonathan Ross"
+        - name: "Renee Nicole Good (deceased), FBI"
+          description: "Victim and investigating agency"
+        - name: "U.S. Department of Justice"
+          description: "U.S. federal justice department"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Minnesota (Minneapolis"
+        - "St. Paul)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 3789
+      damage: "Severe economic contraction; Minneapolis businesses report 50-80% revenue losses."
+    classification:
+      event_type:
+        - "civil-rights-lawsuits"
+      tags:
+        - "civil-rights-lawsuits"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Office of the Minnesota Attorney General"
+          url: "https://www.ag.state.mn.us/Office/Communications/2026/01/12_ICE.asp"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "The State and the cities allege the surge amounts to a violation of the First and Tenth Amendments of the Constitution, as well as the Constitution’s guarantee of equal sovereignty"
+          citation_refs: [8]
+        - id: "src-003-b"
+          outlet: "Syracuse Law Review"
+          url: "https://lawreview.syr.edu/minnesota-sues-department-of-homeland-security-following-the-fatal-ice-involved-shooting-of-renee-good"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "In the aftermath of an Immigration and Customs Enforcement (ICE) agent fatally shooting Renee Nicole Good, Minnesota Attorney General Keith Ellison filed a federal lawsuit"
+          citation_refs: [9]
+        - id: "src-003-c"
+          outlet: "Truthout"
+          url: "https://truthout.org/articles/fbi-investigating-renee-good-while-obstructing-probes-into-ice-killer"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "...at least four top DOJ officials in the section have resigned in protest of the department’s refusal to not investigate Ross."
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "Internal political violence"
+    topics:
+      - "Gaza war"
+      - "Palestinian internal political violence"
+      - "Internal political violence"
+      - "Palestine"
+      - "Israel"
+    importance: 5
+    headline: "Anti-Hamas Militia Assassinates Senior Hamas Police Official in Gaza"
+    summary: >
+      Deepening the internal fragmentation of the Gaza Strip, an armed faction identifying
+      itself as the "Counter-Terrorism Strike Force" assassinated a high-ranking Hamas
+      police official, highlighting the emergence of localized armed resistance to Hamas's
+      governance. Lieutenant Colonel Mahmoud al-Astal, the director of police investigations
+      for Khan Younis, was killed in a drive-by shooting in the al-Mawasi area, an enclave
+      currently under Israeli military control. Following the hit, militia leader Hussam
+      al-Astal released a highly provocative video claiming responsibility, displaying
+      blood-stained weaponry, and explicitly threatening death to anyone collaborating with
+      Hamas. While the Hamas interior ministry swiftly blamed the attack on "agents of the
+      Israeli occupation," Israeli Defense Forces personnel denied knowledge of the specific
+      operation, though Israel has previously acknowledged permitting rival clans to operate
+      in territories under its control.
+    key_data: []
+    details:
+      what_happened:
+        - "The anti-Hamas militia \"Counter-Terrorism Strike Force\" assassinated Lt. Col. Mahmoud al-Astal, Hamas's police investigations chief in Khan Younis."
+        - "The targeted killing occurred via a drive-by shooting in the al-Mawasi region of southern Gaza."
+        - "Militia leader Hussam al-Astal posted a video claiming the assassination, displaying bloodied weapons, and threatening further attacks against Hamas operatives."
+        - "Hamas's interior ministry officially attributed the assassination to \"agents of the Israeli occupation,\" claiming the perpetrators fired from a vehicle."
+        - "The IDF stated it was unaware of operations in the area, though the militia operates freely within Israeli-controlled territory."
+      why_it_matters:
+        - "The successful assassination of a senior official by a rival militia severely undermines Hamas's monopoly on internal security and governance within the Gaza Strip."
+        - "The proliferation of well-armed, localized anti-Hamas factions risks plunging the territory into protracted intra-Palestinian civil warfare, complicating the implementation of the phased US-brokered ceasefire plan."
+        - "Operating from within IDF-controlled zones, these militias blur the lines of accountability and present a chaotic variable in the post-conflict stabilization architecture of Gaza."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Counter-Terrorism Strike Force (Hussam al-Astal)"
+        - "Hamas (Lt. Col. Mahmoud al-Astal)"
+      secondary:
+        - "Israel (IDF)"
+    entities:
+      people: []
+      organizations:
+        - name: "Counter-Terrorism Strike Force"
+          description: "Hussam al-Astal"
+        - name: "Hamas"
+          description: "Lt. Col. Mahmoud al-Astal"
+      states:
+        - "Israel"
+        - "Palestine"
+    geography:
+      countries:
+        - "Palestine"
+        - "Israel"
+      places:
+        - "Gaza Strip (Khan Younis"
+        - "al-Mawasi)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None identified."
+    classification:
+      event_type:
+        - "internal-political-violence"
+      tags:
+        - "gaza-war"
+        - "palestinian-internal-political-violence"
+        - "internal-political-violence"
+        - "palestine"
+        - "israel"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Israeli-backed militant organization Counter-Terrorism Strike Force says it has assassinated Mahmoud Al-Astal, head of a Hamas-run police unit in Khan Yunis, Gaza Strip."
+      external:
+        - id: "src-004-a"
+          outlet: "The Times of Israel"
+          url: "https://www.timesofisrael.com/head-of-gaza-militia-claims-killing-of-senior-hamas-cop"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "We announce today the assassination of the head of investigations in Khan Younis,"
+          citation_refs: [17]
+        - id: "src-004-b"
+          outlet: "The Jerusalem Post"
+          url: "https://www.jpost.com/middle-east/article-883107"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "Housam al-Astal, leader of the anti-Hamas Gazan 'Counterterrorism Service' militia, announced that the group killed a senior Hamas police officer in the Gaza Strip on Monday."
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Insurgency"
+    topics:
+      - "Insurgency in Khyber Pakhtunkhwa"
+      - "Insurgency"
+      - "Pakistan"
+    importance: 6
+    headline: "Insurgent Bombing Kills Six Police Officers in Northwestern Pakistan"
+    summary: >
+      The volatile security environment in northwestern Pakistan deteriorated further as a
+      remotely detonated roadside bomb obliterated an armored police vehicle in the Tank
+      district of Khyber Pakhtunkhwa province, killing six officers. The explosion, which
+      occurred on the Gomal Bazaar road near the Afghan border, claimed the lives of several
+      personnel including an additional station house officer. This attack is indicative of
+      a broader surge in militancy heavily attributed to Tehrik-e-Taliban Pakistan (TTP)
+      fighters, whom Islamabad routinely accuses of operating with impunity from safe havens
+      within Afghan territory. Simultaneously, Pakistani authorities attempted to project
+      operational success, with Interior Minister Mohsin Naqvi announcing that the Counter
+      Terrorism Department had killed eight suspected terrorists during preemptive raids
+      across the Peshawar, Bannu, and Khyber districts.
+    key_data: []
+    details:
+      what_happened:
+        - "A remotely controlled roadside bomb struck an armored police vehicle on Gomal Bazaar road in the Tank district of Khyber Pakhtunkhwa."
+        - "The blast killed six Pakistani police officers, including a senior station house officer."
+        - "Interior Minister Mohsin Naqvi condemned the attack and praised the sacrifices of the local police forces."
+        - "In separate, concurrent operations, the Counter Terrorism Department killed eight suspected militants across the Peshawar, Bannu, and Khyber districts."
+      why_it_matters:
+        - "The continued attrition of local law enforcement personnel via sophisticated IEDs demonstrates the sustained operational capabilities of insurgents operating along the porous Afghan-Pakistani border."
+        - "The relentless violence continually exacerbates geopolitical friction between Islamabad and the Taliban government in Kabul, elevating the risk of cross-border military escalation."
+        - "The simultaneous lethal raids by the Counter Terrorism Department reflect a reactive, highly militarized domestic security posture struggling to contain a deeply entrenched insurgency."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Pakistani Police"
+        - "Unidentified Insurgents (likely TTP)"
+      secondary:
+        - "Counter Terrorism Department (Pakistan)"
+    entities:
+      people: []
+      organizations:
+        - name: "Pakistani Police"
+          description: "Police of Pakistan"
+        - name: "Counter Terrorism Department"
+          description: "Pakistan"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places:
+        - "Khyber Pakhtunkhwa (Tank district"
+        - "Peshawar)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 14
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Armored police vehicle destroyed."
+    classification:
+      event_type:
+        - "insurgency"
+      tags:
+        - "insurgency-in-khyber-pakhtunkhwa"
+        - "insurgency"
+        - "pakistan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A roadside bomb targeting a police vehicle kills six officers near the Afghan border in northwestern Pakistan."
+      external:
+        - id: "src-005-a"
+          outlet: "AZERTAC"
+          url: "https://azertag.az/en/xeber/bomb_blast_kills_5_policemen_including_officer_in_northwestern_pakistan-3961715"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "The bomb was controlled remotely and exploded near an armored police vehicle on Gomal Bazaar road in Tank district of Khyber Pakhtunkhwa (KP) province"
+          citation_refs: [19]
+        - id: "src-005-b"
+          outlet: "AP News (via Wikipedia Portal)"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_12"
+          publication_date: "2026-01-12"
+          source_type: "encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "A roadside bomb targeting a police vehicle kills six officers near the Afghan border in northwestern Pakistan. (AP)"
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-006"
+    category: "Disasters and accidents"
+    subcategory: "Meteotsunami"
+    topics:
+      - "Meteotsunami"
+      - "Argentina"
+    importance: 5
+    headline: "Rare Meteotsunami Inundates Argentina's Atlantic Coast"
+    summary: >
+      A highly destructive and unpredictable meteotsunami struck the Atlantic coast of
+      Argentina's Buenos Aires Province, killing one person and injuring at least 35 others
+      as it swept through crowded summer beaches. Occurring between 16:20 and 17:00 local
+      time, the sea abruptly receded before violently returning as a massive surge, with
+      wave crests estimated between 5 to 6 meters (16 to 20 feet) high, vastly exceeding the
+      region's typical 2-meter surf. The sudden inundation caused widespread panic in
+      coastal towns such as Santa Clara del Mar, Mar Chiquita, and Mar del Plata, tossing
+      people and heavy debris inland. Meteorological experts confirmed the phenomenon was
+      not seismic, but rather driven by rapid atmospheric pressure drops and wind shifts
+      from a passing frontal system that induced a resonant oscillation in the shallow
+      continental shelf waters.
+    key_data: []
+    details:
+      what_happened:
+        - "A rare meteotsunami struck Argentina's Atlantic coast, generating massive 5 to 6-meter waves that inundated heavily populated tourist beaches."
+        - "The ocean suddenly withdrew several meters before rushing back ashore, violently sweeping away beachgoers and infrastructure."
+        - "A 29-year-old man was killed after being thrown against rocks while fishing on a breakwater in Santa Clara del Mar."
+        - "At least 35 individuals sustained injuries ranging from severe cuts and bruises to one reported heart attack induced by the panic."
+        - "Authorities initiated immediate evacuations of several beach resorts and deployed civil defense, health, and security agencies across the affected coastline."
+      why_it_matters:
+        - "The deadly event exposes severe vulnerabilities in coastal warning systems, as meteotsunamis lack the seismic precursors that trigger traditional tsunami alerts, rendering standard emergency protocols ineffective."
+        - "The phenomenon highlights the escalating threat of extreme, rapid-onset weather events impacting densely populated coastal tourism hubs, necessitating urgent investment in specialized atmospheric pressure monitoring."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "None identified"
+      secondary:
+        - "Defensa Civil de Buenos Aires"
+    entities:
+      people: []
+      organizations:
+        - name: "Defensa Civil de Buenos Aires"
+          description: "Civil defense agency of Buenos Aires Province"
+      states:
+        - "Argentina"
+    geography:
+      countries:
+        - "Argentina"
+      places:
+        - "Buenos Aires Province (Santa Clara del Mar"
+        - "Mar del Plata)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 35
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Widespread destruction of beach infrastructure, umbrellas, and temporary coastal structures."
+    classification:
+      event_type:
+        - "meteotsunami"
+      tags:
+        - "meteotsunami"
+        - "argentina"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "One person is killed and 35 others are injured in a meteotsunami at several beaches in Argentina."
+      external:
+        - id: "src-006-a"
+          outlet: "watchers.news"
+          url: "https://watchers.news/2026/01/13/meteotsunami-santa-clara-del-mar-argentina-january-2026"
+          publication_date: "2026-01-13"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "The sea suddenly withdrew and returned as powerful 5–6 m (16–20 feet) large waves, inundating beaches crowded with tourists and residents."
+          citation_refs: [22]
+        - id: "src-006-b"
+          outlet: "BNO News"
+          url: "https://bnonews.com/index.php/2026/01/meteotsunami-kills-1-injures-dozens-along-argentinas-atlantic-coast"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "Fabián García, an official with Buenos Aires Province Civil Defense, said the fatality occurred in Santa Clara del Mar after a young man was dragged by the surge and hit rocks along the shoreline."
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-007"
+    category: "Science and technology"
+    subcategory: "AI regulation and censorship"
+    topics:
+      - "Criticism of Twitter"
+      - "AI regulation and censorship"
+      - "Malaysia"
+      - "Indonesia"
+    importance: 6
+    headline: "Malaysia and Indonesia Block Elon Musk's Grok AI Amid UK Investigation"
+    summary: >
+      The global regulatory environment for generative artificial intelligence sharply
+      contracted as the governments of Malaysia and Indonesia became the first nations to
+      officially block access to Grok, the AI chatbot developed by Elon Musk’s xAI24. The
+      outright bans were enacted after Grok's "digital undressing" feature was
+      systematically abused to generate non-consensual, sexually explicit deepfakes of women
+      and minors, with analytical data showing the platform was generating up to 6,700
+      explicit images per hour. Concurrently, the United Kingdom’s media regulator, Ofcom,
+      launched a formal investigation into the platform under the Online Safety Act,
+      threatening X Corp with fines up to 10% of its global revenue or a complete national
+      ban if found complicit in distributing child sexual abuse material. The crisis has
+      sparked parallel legislative action worldwide, including U.S. senators lobbying Apple
+      and Google to remove X from app stores, and Canada advancing Bill C-16 to criminalize
+      AI-generated intimate images.
+    key_data: []
+    details:
+      what_happened:
+        - "Indonesia and Malaysia blocked national access to xAI's Grok chatbot to halt the proliferation of non-consensual sexual deepfakes."
+        - "Data revealed the platform was being utilized to generate approximately 6,700 sexually suggestive or nudified images per hour."
+        - "The UK regulator Ofcom launched a formal investigation under the Online Safety Act, threatening fines of $24 million or 10% of global revenue."
+        - "UK Technology Secretary Liz Kendall labeled the AI images \"weapons of abuse\" and announced legislation to criminalize \"nudification apps\"."
+        - "U.S. senators formally requested Apple and Google to remove the X app from their respective stores due to violations of app store safety policies."
+      why_it_matters:
+        - "The implementation of national blocks marks a definitive escalation in digital regulation, shifting from post-hoc financial penalties to preemptive censorship of generative AI platforms lacking adequate ethical guardrails."
+        - "The coordinated international pressure—spanning Asian bans, UK investigations, and US legislative lobbying—poses a severe existential threat to xAI's operational viability and X Corp's broader revenue model."
+        - "The crisis illustrates the rapid societal harm inflicted by unrestricted consumer AI tools, forcing governments to hastily draft new legal frameworks to combat digital sexual exploitation."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Governments of Malaysia and Indonesia"
+        - "xAI (Elon Musk)"
+      secondary:
+        - "UK Ofcom (Liz Kendall)"
+        - "X Corp"
+        - "U.S. Senate"
+    entities:
+      people:
+        - name: "UK Ofcom"
+          role: "Liz Kendall"
+      organizations:
+        - name: "Governments of Malaysia and Indonesia"
+          description: "Governments that blocked Grok"
+        - name: "X Corp"
+          description: "Company operating the X platform and Grok chatbot"
+        - name: "U.S. Senate"
+          description: "Upper house of the U.S. Congress"
+      states:
+        - "Malaysia"
+        - "Indonesia"
+        - "United Kingdom"
+        - "United States"
+    geography:
+      countries:
+        - "Malaysia"
+        - "Indonesia"
+        - "United Kingdom"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None identified."
+    classification:
+      event_type:
+        - "ai-regulation-and-censorship"
+      tags:
+        - "criticism-of-twitter"
+        - "ai-regulation-and-censorship"
+        - "malaysia"
+        - "indonesia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United Kingdom's Ofcom opens an investigation into X over complaints about the creation of deepfake sexualised images by its chatbot Grok."
+      external:
+        - id: "src-007-a"
+          outlet: "AP News"
+          url: "https://apnews.com/article/grok-malaysia-indonesia-block-c7cb320327f259c4da35908e1269c225"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Malaysia and Indonesia have become the first countries to block Grok... as concerns grow among global authorities that it is being misused to generate sexually explicit and nonconsensual images."
+          citation_refs: [25]
+        - id: "src-007-b"
+          outlet: "Courthouse News Service"
+          url: "https://www.courthousenews.com/uk-watchdog-investigates-x-over-sexualized-grok-images"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "If a breach is found, Ofcom said it can impose fines of up to $24 million or 10% of worldwide revenue, whichever is higher."
+          citation_refs: [28]
+        - id: "src-007-c"
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/Grok_sexual_deepfake_scandal"
+          publication_date: "2026-01-12"
+          source_type: "encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "A separate analysis conducted over 24 hours from January 5 to 6 calculated that users had Grok create 6,700 sexually suggestive or nudified images per hour"
+          citation_refs: [27]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-008"
+    category: "Science and technology"
+    subcategory: "Social media regulation"
+    topics:
+      - "Social media regulation"
+      - "Australia"
+    importance: 5
+    headline: "Meta Forcibly Deactivates 544,000 Underage Accounts in Australia"
+    summary: >
+      In a massive compliance sweep mandated by unprecedented national legislation, Meta
+      deactivated 544,052 social media accounts across Australia to adhere to a new federal
+      law banning platform access for children under the age of 1629. Executed between
+      December 4 and December 11, the purge utilized Meta's internal algorithms to scrub
+      330,639 accounts from Instagram, 173,497 from Facebook, and 39,916 from Threads.
+      Facing devastating civil penalties of up to $49.5 million Australian dollars ($33
+      million USD) for non-compliance, Meta executed the deletions but simultaneously
+      launched a fierce public relations counter-offensive. The tech giant argued that the
+      blanket ban is fundamentally flawed, driving youth toward unregulated, darker corners
+      of the internet, and insisted that the burden of age verification must legally be
+      shifted to smartphone operating systems and app stores, rather than individual
+      software applications.
+    key_data: []
+    details:
+      what_happened:
+        - "Meta deactivated 544,052 accounts in Australia belonging to users its algorithms identified as under 16 years of age."
+        - "The deletions spanned 330,639 Instagram profiles, 173,497 Facebook accounts, and 39,916 Threads accounts."
+        - "The purge was executed to comply with Australia's stringent new social media law that threatens platforms with fines up to $49.5 million AUD29."
+        - "Meta published a formal critique of the law, warning it fails to improve teen safety and pushes youths toward unregulated platforms."
+        - "Meta demanded the Australian government mandate age verification at the app store and operating system level to prevent a \"whack-a-mole\" regulatory environment."
+      why_it_matters:
+        - "Australia's legislation serves as the world's most aggressive blueprint for social media age restriction, establishing a highly watched precedent for other governments considering similar bans."
+        - "The mass deletion illustrates the immense technical and logistical friction between sovereign legal mandates and the operational realities of global tech platforms regarding data privacy and age verification."
+        - "Meta's push to shift liability to app stores indicates a strategic pivot to force hardware monopolies (Apple, Google) to bear the infrastructural burden of digital regulation."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Meta (Mark Zuckerberg)"
+        - "Australian Government"
+      secondary:
+        - "None identified"
+    entities:
+      people: []
+      organizations:
+        - name: "Meta"
+          description: "Mark Zuckerberg"
+        - name: "Australian Government"
+          description: "Government of Australia"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None identified."
+    classification:
+      event_type:
+        - "social-media-regulation"
+      tags:
+        - "social-media-regulation"
+        - "australia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Meta reports that it has shut down over 544,000 accounts of users under the age of 16 on Facebook, Instagram, and Threads in response to Australian social media age restrictions."
+      external:
+        - id: "src-008-a"
+          outlet: "en.tempo.co"
+          url: "https://en.tempo.co/read/2079926/meta-shuts-over-544000-australian-accounts-after-ban"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "Meta said that between December 4 and 11 it had deactivated 544,052 accounts it believed were held by users aged under 16."
+          citation_refs: [29]
+        - id: "src-008-b"
+          outlet: "Forbes Australia"
+          url: "https://www.forbes.com.au/covers/innovation/meta-deletes-544000-accounts-in-australias-teen-social-media-ban"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "The premise of the law, which prevents under-16s from holding a social media account so they aren’t exposed to an algorithmic experience, is false,"
+          citation_refs: [30]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-009"
+    category: "Law and crime"
+    subcategory: "Corruption"
+    topics:
+      - "Corruption in Georgia"
+      - "Corruption"
+      - "Georgia"
+    importance: 5
+    headline: "Former Georgian Prime Minister Irakli Garibashvili Jailed for Money Laundering"
+    summary: >
+      In a watershed moment for Georgia's turbulent domestic politics, former Prime Minister
+      Irakli Garibashvili was sentenced to five years in prison and fined 1 million Georgian
+      lari ($370,000 USD) after pleading guilty to large-scale money laundering. Following a
+      carefully negotiated plea agreement with the Prosecutor's Office, the Tbilisi City
+      Court officially approved the sentence, leading to Garibashvili's immediate arrest
+      directly inside the courtroom. Investigators successfully demonstrated that the former
+      premier covertly engaged in prohibited business activities during his tenure,
+      laundering the illicit proceeds by falsifying his asset declarations to categorize the
+      massive revenue as "gifts" from family members. As part of the plea, the state
+      officially confiscated approximately $6.5 million in cash that was seized from his
+      residence during a high-profile raid in October 202533.
+    key_data: []
+    details:
+      what_happened:
+        - "Irakli Garibashvili pleaded guilty to money laundering charges under Article 194, part three of the Georgian Criminal Code."
+        - "The court sentenced him to five years in prison and imposed a fine of 1 million GEL ($370,000 USD)."
+        - "Garibashvili was arrested immediately in the courtroom and transferred to begin serving his sentence."
+        - "The state ordered the forfeiture of roughly $6.5 million in cash seized from his Tbilisi apartment during a prior raid."
+        - "Prosecutors proved he laundered illicit income through undeclared business ventures and integrated the funds via falsified asset declarations."
+      why_it_matters:
+        - "Garibashvili's imprisonment marks the first time a senior figure from the ruling Georgian Dream party has been jailed, signaling a dramatic, potentially cannibalistic escalation in domestic anti-corruption purges."
+        - "The prosecution reflects severe internal power struggles within the ruling party, orchestrated by billionaire founder Bidzina Ivanishvili, intended to consolidate control while neutralizing potential rivals."
+        - "The high-profile conviction tests the credibility and independence of Georgia's judicial system at a critical juncture in the nation's fragile bid for European Union integration."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Irakli Garibashvili"
+        - "Prosecutor's Office of Georgia"
+      secondary:
+        - "Bidzina Ivanishvili (Georgian Dream party)"
+    entities:
+      people:
+        - name: "Irakli Garibashvili"
+          role: "Former Prime Minister of Georgia"
+        - name: "Bidzina Ivanishvili"
+          role: "Georgian Dream party"
+      organizations:
+        - name: "Prosecutor's Office of Georgia"
+          description: "Public prosecutor of Georgia (country)"
+      states:
+        - "Georgia"
+    geography:
+      countries:
+        - "Georgia"
+      places:
+        - "Tbilisi"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 1
+      damage: "State confiscation of $6.5 million USD in physical cash."
+    classification:
+      event_type:
+        - "corruption"
+      tags:
+        - "corruption-in-georgia"
+        - "corruption"
+        - "georgia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Former Georgian prime minister Irakli Garibashvili pleads guilty to large-scale money-laundering charges and receives a five-year prison sentence and a ₾1-million (US$371,829) fine after investigators seize about $6.5 million in cash during raids on his residence."
+      external:
+        - id: "src-009-a"
+          outlet: "Sakartvelos Ambebi"
+          url: "https://sakartvelosambebi.ge/en/news/former-prime-minister-garibashvili-sentenced-to-five-years-in-prison-after-plea-deal"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "Irakli Garibashvili admits to the crime he committed and agrees to the terms of the plea agreement. The court has already satisfied the Prosecutor’s Office’s motion"
+          citation_refs: [33]
+        - id: "src-009-b"
+          outlet: "IntelliNews"
+          url: "https://new.intellinews.com/articles/georgian-ex-pm-jailed-for-five-years-after-pleading-guilty-to-money-laundering-419520"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "The conviction marks the first time a senior figure from the ruling Georgian Dream (GD) party has been jailed, indicating a dramatic escalation in the authorities’ anti-corruption drive"
+          citation_refs: [35]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-010"
+    category: "Law and crime"
+    subcategory: "Political asylum"
+    topics:
+      - "Corruption in Poland, Hungary–Poland relations"
+      - "Political asylum"
+    importance: 5
+    headline: "Former Polish Justice Minister Zbigniew Ziobro Granted Asylum in Hungary"
+    summary: >
+      The Hungarian government officially granted political asylum to Poland's former
+      Justice Minister Zbigniew Ziobro, an unprecedented diplomatic maneuver that severely
+      escalated tensions between the two European Union member states. Ziobro had fled to
+      Budapest to escape 26 impending criminal charges in Poland, which carry a potential
+      25-year prison sentence, regarding his alleged establishment of a criminal enterprise
+      and the illicit diversion of a crime victims' fund to purchase Pegasus spyware for
+      surveilling political opponents. Taking to social media, Ziobro announced the asylum
+      decision, expressing gratitude to Hungarian Prime Minister Viktor Orbán and asserting
+      that he is the victim of a "creeping dictatorship" and a personal vendetta
+      orchestrated by current Polish Prime Minister Donald Tusk. The move, defended by
+      Hungarian officials as protection against political repression, effectively shields a
+      key architect of Poland's previous right-wing government from domestic accountability.
+    key_data: []
+    details:
+      what_happened:
+        - "Former Polish Justice Minister Zbigniew Ziobro announced he accepted political asylum granted by the Hungarian government."
+        - "Ziobro fled Poland to evade prosecution on 26 charges, including the misuse of public funds to purchase Pegasus spyware."
+        - "The Polish parliament had previously stripped Ziobro of his immunity in November, and his passport was officially revoked in December."
+        - "Hungarian Foreign Minister Peter Szijjarto publicly defended the asylum, asserting that democracy and the rule of law are under threat in Poland."
+        - "Ziobro's legal team confirmed he would receive a travel document under the 1951 Refugee Convention, facilitating his movement despite his revoked passport."
+      why_it_matters:
+        - "Granting asylum to a former minister of a fellow EU and NATO member state fundamentally violates the core principle of mutual legal trust that underpins European judicial cooperation."
+        - "The diplomatic rupture highlights the deepening ideological schism in Central Europe, positioning Orbán's Hungary as a sanctuary for nationalist figures fleeing accountability from pro-EU administrations."
+        - "The asylum effectively paralyzes Poland's domestic efforts to prosecute the systemic abuses of power and illegal surveillance practices allegedly committed by the previous Law and Justice (PiS) government."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Zbigniew Ziobro"
+        - "Hungarian Government (Viktor Orbán, Peter Szijjarto)"
+      secondary:
+        - "Polish Government (Donald Tusk)"
+    entities:
+      people:
+        - name: "Zbigniew Ziobro"
+          role: "Former Polish Minister of Justice"
+      organizations:
+        - name: "Hungarian Government"
+          description: "Viktor Orbán, Peter Szijjarto"
+        - name: "Polish Government"
+          description: "Donald Tusk"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Hungary (Budapest)"
+        - "Poland (Warsaw)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None identified."
+    classification:
+      event_type:
+        - "political-asylum"
+      tags:
+        - "corruption-in-poland-hungary-poland-relations"
+        - "political-asylum"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Former Polish justice minister Zbigniew Ziobro receives political asylum in Hungary while Polish prosecutors investigate him on 26 counts related to alleged misuse of a crime victims fund and other abuses of office under the first Morawiecki cabinet."
+      external:
+        - id: "src-010-a"
+          outlet: "Courthouse News Service"
+          url: "https://www.courthousenews.com/hungary-gives-asylum-to-polands-former-justice-minister"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "I decided to take advantage of the asylum granted to me by the Hungarian government due to political repression in Poland,"
+          citation_refs: [36]
+        - id: "src-010-b"
+          outlet: "Notes from Poland"
+          url: "https://notesfrompoland.com/2026/01/12/hungary-grants-asylum-to-polish-former-justice-minister-ziobro"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "I extend my sincere thanks and gratitude to [Hungarian] Prime Minister Viktor Orbán."
+          citation_refs: [37]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-011"
+    category: "Law and crime"
+    subcategory: "War on drugs"
+    topics:
+      - "War on drugs"
+      - "Spain"
+    importance: 5
+    headline: "Spain Seizes Record 10 Tonnes of Cocaine in Operation White Tide"
+    summary: >
+      In a massive blow to transnational narcotics trafficking, Spanish police executed the
+      country's largest-ever maritime cocaine seizure, intercepting nearly 10 metric tonnes
+      of the drug aboard a cargo ship in the Atlantic Ocean. The complex interdiction,
+      code-named "Operation White Tide," involved elite tactical officers boarding a
+      Cameroon-flagged vessel approximately 332 miles off the coast of the Canary Islands
+      after the ship inexplicably ran out of fuel while en route from Brazil to Europe.
+      Authorities discovered 9,994 kilograms of cocaine, meticulously divided into 294
+      bales, buried beneath a massive, decoy cargo shipment of salt. The highly coordinated
+      raid, which resulted in the arrest of all 13 crew members and the seizure of defensive
+      firearms, was facilitated through extensive intelligence sharing with the U.S. Drug
+      Enforcement Administration (DEA), the UK National Crime Agency (NCA), and authorities
+      from Brazil, France, and Portugal.
+    key_data: []
+    details:
+      what_happened:
+        - "Spanish police seized 9,994 kilograms (nearly 10 tonnes) of cocaine from a Cameroon-flagged container ship adrift in the Atlantic Ocean."
+        - "The massive drug shipment was concealed inside 294 bales buried beneath a cargo of salt."
+        - "Elite tactical officers boarded the vessel roughly 332 miles off the Canary Islands after it ran out of fuel en route from Brazil."
+        - "All 13 crew members were arrested, and a firearm used to guard the stash was recovered by authorities."
+        - "The interdiction was a multinational effort involving the DEA, NCA, and law enforcement from Brazil, France, and Portugal."
+      why_it_matters:
+        - "The sheer volume of the seizure represents a catastrophic logistical and financial disruption to South American cartels utilizing maritime shipping routes to supply the European market."
+        - "The success of \"Operation White Tide\" emphasizes the critical necessity of multinational intelligence sharing and operational synchronization to combat sophisticated, transnational organized crime syndicates."
+        - "The bust reinforces Spain's persistent geographic vulnerability as a primary maritime gateway for illicit narcotics entering the European Union."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Spanish National Police"
+      secondary:
+        - "U.S. Drug Enforcement Administration (DEA)"
+        - "UK National Crime Agency (NCA)"
+    entities:
+      people: []
+      organizations:
+        - name: "Spanish National Police"
+          description: "National police of Spain"
+        - name: "U.S. Drug Enforcement Administration"
+          description: "DEA"
+        - name: "UK National Crime Agency"
+          description: "NCA"
+      states:
+        - "Spain"
+    geography:
+      countries:
+        - "Spain"
+      places:
+        - "Canary Islands"
+        - "Atlantic Ocean"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 13
+      damage: "None identified."
+    classification:
+      event_type:
+        - "war-on-drugs"
+      tags:
+        - "war-on-drugs"
+        - "spain"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Spanish police, in coordination with the UK National Crime Agency and the US DEA, seize 10 tonnes of cocaine hidden among a cargo of salt on a cargo ship off the Canary Islands. It is the country's largest ever seizure of drugs at sea. Thirteen people on board the vessel are arrested."
+      external:
+        - id: "src-011-a"
+          outlet: "CBS News"
+          url: "https://www.cbsnews.com/news/spain-largest-ever-cocaine-seizure-sea-operation-white-tide"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "This operation, dubbed White Tide, represents the largest cocaine seizure on the high seas ever made by the National Police"
+          citation_refs: [40]
+        - id: "src-011-b"
+          outlet: "Mixmag"
+          url: "https://mixmag.net/read/spanish-police-seize-10-tonnes-of-cocaine-hidden-in-salt-shipment-news"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "...a video shared by Policía Nacional shows officers digging through a mountain of salt with shovels to find 294 silver-wrapped bundles."
+          citation_refs: [42]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-01-12-021"
+    notes: ""
+  - id: "evt-2026-01-12-012"
+    category: "International relations"
+    subcategory: "Diplomatic rupture"
+    topics:
+      - "Somalia–United Arab Emirates relations"
+      - "Constitutional crisis in Somalia"
+      - "Diplomatic rupture"
+      - "United Arab Emirates"
+      - "Somaliland"
+    importance: 6
+    headline: "Somalia Severs Security Agreements with the UAE, Triggering Regional Defiance"
+    summary: >
+      The Federal Government of Somalia (FGS) enacted a sweeping unilateral termination of
+      all defense, security, and port agreements with the United Arab Emirates, plunging the
+      fragile Horn of Africa nation into a severe domestic and regional crisis. President
+      Hassan Sheikh Mohamud justified the abrupt ban on January 12 as a defense of national
+      sovereignty, acting in direct retaliation for the UAE's alleged covert facilitation of
+      Israel's formal recognition of the breakaway region of Somaliland. The federal edict
+      immediately banned UAE military and cargo flights from entering Somali airspace.
+      However, the mandate was swiftly and publicly rejected by the semi-autonomous regional
+      governments of Puntland and Jubaland, whose leaders declared the ban unconstitutional
+      and vowed to maintain their lucrative, independent security and port agreements with
+      Abu Dhabi, including the operation of the UAE-trained Puntland Maritime Police Force.
+      Seizing the strategic vacuum created by the rupture, Qatar immediately expanded its
+      security footprint in Mogadishu.
+    key_data: []
+    details:
+      what_happened:
+        - "Somalia's federal cabinet officially canceled all defense, security, and port agreements with the United Arab Emirates."
+        - "The federal government implemented an immediate ban on all UAE military and cargo aircraft entering Somali airspace."
+        - "The diplomatic rupture was triggered by intelligence suggesting the UAE supported Israel's recognition of Somaliland's sovereignty."
+        - "The regional administrations of Puntland and Jubaland rejected the federal ban as unconstitutional and declared they would maintain their ties with the UAE44."
+        - "Qatar swiftly intervened to fill the security void in Mogadishu left by the departing Emirati forces."
+      why_it_matters:
+        - "The diplomatic break catastrophically fragments Somalia's already fragile security architecture, establishing a dangerous dynamic between Qatar-backed federal forces and UAE-backed regional militias."
+        - "The open defiance of Puntland and Jubaland severely undermines the federal government's authority, pushing the state closer toward complete administrative secession and internal civil conflict."
+        - "The crisis illustrates how the geopolitical rivalry between Gulf states (UAE vs. Qatar) actively exacerbates internal state-building challenges and destabilizes the strategic Red Sea corridor."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Federal Government of Somalia (President Hassan Sheikh Mohamud)"
+        - "United Arab Emirates"
+      secondary:
+        - "Puntland Government"
+        - "Jubaland Government"
+        - "Somaliland"
+        - "Qatar"
+    entities:
+      people: []
+      organizations:
+        - name: "Federal Government of Somalia"
+          description: "President Hassan Sheikh Mohamud"
+        - name: "Puntland Government"
+          description: "Government of Somalia's Puntland state"
+        - name: "Jubaland Government"
+          description: "Government of Somalia's Jubaland state"
+      states:
+        - "United Arab Emirates"
+        - "Somaliland"
+        - "Qatar"
+    geography:
+      countries:
+        - "United Arab Emirates"
+        - "Somaliland"
+        - "Qatar"
+      places:
+        - "Somalia (Mogadishu"
+        - "Puntland"
+        - "Jubaland)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None identified."
+    classification:
+      event_type:
+        - "diplomatic-rupture"
+      tags:
+        - "somalia-united-arab-emirates-relations"
+        - "constitutional-crisis-in-somalia"
+        - "diplomatic-rupture"
+        - "united-arab-emirates"
+        - "somaliland"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Somalia's Council of Ministers terminates all agreements between the Federal Government of Somalia and the Government of the United Arab Emirates (UAE), disallowing the UAE from operating in the ports of Berbera, Bosaso, and Kismayo for their support of Somaliland. The Somaliland, Puntland, and Jubaland governments subsequently dismiss the decision."
+      external:
+        - id: "src-012-a"
+          outlet: "Peoples Dispatch"
+          url: "https://peoplesdispatch.org/2026/01/19/uae-loses-bases-in-somalia-over-dealings-with-pro-israel-separatist-group"
+          publication_date: "2026-01-19"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "The government of Somalia terminated all agreements with the United Arab Emirates on January 12, ending defense and security cooperation."
+          citation_refs: [45]
+        - id: "src-012-b"
+          outlet: "Horn Review"
+          url: "https://hornreview.org/2026/01/21/qatar-steps-into-the-breach-somalias-security-reset-and-the-fracturing-of-federal-power"
+          publication_date: "2026-01-21"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "The Federal Government of Somalia (FGS) cancelled all Emirati security and port agreements following what Mogadishu framed as the 'last straw': reports that the UAE facilitated Israel’s recognition of Somaliland"
+          citation_refs: [44]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-013"
+    category: "Disasters and accidents"
+    subcategory: "Wildlife attacks"
+    topics:
+      - "Wildlife attacks"
+      - "India"
+    importance: 5
+    headline: "Wild Elephant Rampage Leaves 20 Dead in Eastern India"
+    summary: >
+      An unprecedented human-wildlife crisis unfolded in the eastern Indian state of
+      Jharkhand, where a lone, rogue wild elephant killed at least 20 people over a highly
+      concentrated nine-day period, prompting massive emergency interventions. Operating
+      under the cover of darkness in the Chaibasa and Kolhan forest areas of the West
+      Singhbhum district, the male elephant systematically attacked villagers who were
+      either guarding their paddy fields or sleeping outside their homes. With the death
+      toll rapidly escalating—including 13 fatalities occurring in just a two-day
+      span—regional authorities deployed a specialized task force of over 100 forest
+      personnel to track and tranquilize the elusive animal. To aid the search operations
+      and prevent further agitation of the animal, officials took the extraordinary
+      logistical step of canceling 12 regional train routes, as experts assessed the
+      elephant was likely experiencing "musth," a temporary phase characterized by severe
+      hormonal aggression.
+    key_data: []
+    details:
+      what_happened:
+        - "A lone male elephant killed 20 people in Jharkhand’s West Singhbhum district between January 1 and January 9, 202646."
+        - "The fatal attacks occurred primarily at night, targeting rural villagers guarding crops or sleeping near their homes."
+        - "Authorities deployed over 100 forest personnel and specialized wildlife teams to track, tranquilize, and relocate the animal."
+        - "Officials canceled 12 regional train routes to facilitate the massive search operation and avoid potential collisions."
+        - "Wildlife experts suspect the elephant was in \"musth,\" a temporary phase of extreme aggression driven by heightened testosterone levels."
+      why_it_matters:
+        - "The staggering concentration of fatalities severely highlights the escalating, deadly consequences of human-wildlife conflict in India, driven by rampant deforestation, habitat fragmentation, and the encroachment on traditional wildlife corridors."
+        - "The suspension of railway services demonstrates the profound logistical and economic disruptions required to manage rogue wildlife incidents in densely populated rural areas."
+        - "The incident underscores the urgent need for enhanced early warning systems and habitat conservation to separate vulnerable rural populations from aggressive megafauna."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "None identified"
+      secondary:
+        - "Jharkhand Forest Department"
+    entities:
+      people: []
+      organizations:
+        - name: "Jharkhand Forest Department"
+          description: "Forest department of the Indian state of Jharkhand"
+      states:
+        - "India"
+    geography:
+      countries:
+        - "India"
+      places:
+        - "Jharkhand (West Singhbhum district)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 20
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Property damage to rural homes and agricultural barns."
+    classification:
+      event_type:
+        - "wildlife-attacks"
+      tags:
+        - "wildlife-attacks"
+        - "india"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Authorities say a wild Asian elephant has killed 20 people since the start of the year in the Indian state of Jharkhand and remains on the loose. A search operation involving more than 100 park rangers is underway to locate the elephant."
+      external:
+        - id: "src-013-a"
+          outlet: "AZERTAC"
+          url: "https://azertag.az/en/xeber/elephant_kills_20_in_indian_state_as_rescue_efforts_continue-3962199"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "At least 20 people have been killed by a wild elephant in nine days in the eastern Indian state of Jharkhand, officials have said"
+          citation_refs: [46]
+        - id: "src-013-b"
+          outlet: "MotorBiscuit"
+          url: "https://www.motorbiscuit.com/elephant-kills-villagers-india-trains"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Officials canceled 12 train routes in the region."
+          citation_refs: [47]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "Sudanese civil war"
+    topics:
+      - "Sudanese civil war"
+      - "Sudan"
+    importance: 6
+    headline: "Rapid Support Forces Missile Strike Kills Civilians in Sudan"
+    summary: >
+      The catastrophic humanitarian situation in Sudan was further degraded as the
+      paramilitary Rapid Support Forces (RSF) launched a deadly missile strike on the city
+      of Singa in Sennar State, resulting in significant civilian casualties. The
+      indiscriminate strike killed ten civilians and wounded nine others, demonstrating the
+      lethal expansion of the civil war into previously stable administrative centers. This
+      attack occurs against an apocalyptic backdrop of widespread acute food insecurity and
+      a totally collapsed national healthcare infrastructure. According to concurrent
+      reporting from the UN Office for the Coordination of Humanitarian Affairs, an
+      estimated 21 million Sudanese are currently facing acute food shortages, with
+      female-headed households suffering disproportionately as the brutal war of attrition
+      between the RSF and the Sudanese Armed Forces (SAF) shows no signs of abatement.
+    key_data: []
+    details:
+      what_happened:
+        - "The Rapid Support Forces (RSF) fired a missile into the populated city of Singa in Sennar State, Sudan."
+        - "The explosive impact of the missile strike killed ten civilians and wounded nine others."
+        - "The attack forms part of a broader RSF offensive expanding beyond their traditional strongholds in Khartoum and Darfur."
+        - "Concurrent UN data highlights that 21 million Sudanese are facing acute food insecurity, exacerbating the impact of military strikes on civilian populations."
+      why_it_matters:
+        - "The missile strike in Sennar State demonstrates the expanding geographic footprint of the RSF's military operations, bringing lethal violence to regions previously hosting internally displaced persons."
+        - "The continued indiscriminate targeting of civilian populations fundamentally violates international humanitarian law and compounds the massive emergency in Sudan, where international aid access remains severely restricted."
+        - "The integration of kinetic military strikes with mass starvation tactics indicates a protracted conflict scenario with catastrophic demographic consequences for the Horn of Africa."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Rapid Support Forces (RSF)"
+      secondary:
+        - "None identified"
+    entities:
+      people: []
+      organizations:
+        - name: "Rapid Support Forces"
+          description: "RSF"
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places:
+        - "Sennar State (Singa)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 10
+      injured: 9
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Urban infrastructure damage from missile impact."
+    classification:
+      event_type:
+        - "sudanese-civil-war"
+      tags:
+        - "sudanese-civil-war"
+        - "sudan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A Rapid Support Forces missile strike kills ten civilians and wounds nine others in Singa, Sennar State, Sudan."
+      external:
+        - id: "src-014-a"
+          outlet: "Wikipedia (Portal:Current Events)"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_12"
+          publication_date: "2026-01-12"
+          source_type: "encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "A Rapid Support Forces missile strike kills ten civilians and wounds nine others in Singa, Sennar State, Sudan. (AA)"
+          citation_refs: [20]
+        - id: "src-014-b"
+          outlet: "News As Facts"
+          url: "https://newsasfacts.com/news/148975"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "A Rapid Support Forces missile strike kills ten civilians and wounds nine others in Singa, Sennar State, Sudan."
+          citation_refs: [49]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "Myanmar civil war"
+    topics:
+      - "Myanmar civil war, Bangladesh–Myanmar relations"
+      - "Myanmar civil war"
+    importance: 5
+    headline: "Bangladesh Detains Fleeing ARSA Militants Following Clashes in Myanmar"
+    summary: >
+      The volatility of Myanmar's multi-front civil war spilled across international borders
+      as Border Guard Bangladesh (BGB) detained 53 members of the Arakan Rohingya Salvation
+      Army (ARSA) who fled intense combat in Rakhine State. The militants crossed the Naf
+      River into Bangladesh to escape severe, ongoing clearance operations conducted by the
+      Arakan Army (AA), an ethnic armed organization fighting for regional autonomy.
+      According to local intelligence, coordinated early-morning ambushes by ARSA and allied
+      Muslim armed groups against AA security outposts on Kyee Island resulted in heavy
+      militant casualties and forced a chaotic, unarmed retreat into Bangladeshi territory.
+      This cross-border violence coincides directly with the commencement of merits hearings
+      at the International Court of Justice (ICJ) regarding the Myanmar military's alleged
+      genocide of the Rohingya people, while Human Rights Watch concurrently released a
+      damning report accusing the Arakan Army of massacring Rohingya civilians in Hoyyar
+      Siri.
+    key_data: []
+    details:
+      what_happened:
+        - "Border Guard Bangladesh detained 53 members of the Arakan Rohingya Salvation Army (ARSA) who illicitly crossed the border from Myanmar."
+        - "The militants fled following intense military clashes with the Arakan Army near border markers in Maungdaw Township, Rakhine State."
+        - "ARSA and allied armed groups launched coordinated heavy weapons attacks on Arakan Army outposts on Kyee Island before being overwhelmed and forced to retreat."
+        - "Bangladesh authorities intercepted the fleeing militants, noting no weapons were recovered, suggesting they were cached prior to the crossing."
+        - "The military clashes occurred exactly as the ICJ began formal hearings regarding Myanmar's state responsibility for the Rohingya genocide, compounded by HRW reports of AA massacres."
+      why_it_matters:
+        - "The cross-border arrests highlight the destabilizing spillover effects of Myanmar's civil war, placing severe security burdens on neighboring Bangladesh and risking the dangerous militarization of Rohingya refugee camps in Cox's Bazar."
+        - "The brutal conflict between the Arakan Army and Rohingya militant groups further endangers the remaining, highly vulnerable Rohingya civilian population in Rakhine State, exposing them to atrocities from both the junta and ethnic armed groups."
+        - "The timing of the violence threatens to complicate the ongoing ICJ genocide proceedings and international diplomatic efforts to secure justice and safe repatriation for the Rohingya."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Arakan Rohingya Salvation Army (ARSA)"
+        - "Arakan Army (AA)"
+        - "Border Guard Bangladesh (BGB)"
+      secondary:
+        - "None identified"
+    entities:
+      people: []
+      organizations:
+        - name: "Arakan Rohingya Salvation Army"
+          description: "ARSA"
+        - name: "Arakan Army"
+          description: "AA"
+        - name: "Border Guard Bangladesh"
+          description: "BGB"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Bangladesh (Cox's Bazar)"
+        - "Myanmar (Rakhine State"
+        - "Maungdaw)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 53
+      missing: null
+      arrest_count: 53
+      damage: "None identified."
+    classification:
+      event_type:
+        - "myanmar-civil-war"
+      tags:
+        - "myanmar-civil-war-bangladesh-myanmar-relations"
+        - "myanmar-civil-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Bangladesh detains 53 Arakan Rohingya Salvation Army members that crossed into Bangladesh amid fighting with the Arakan Army in Rakhine State, Myanmar."
+      external:
+        - id: "src-015-a"
+          outlet: "Wikipedia (Portal:Current Events)"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_12"
+          publication_date: "2026-01-12"
+          source_type: "encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Bangladesh detains 53 Arakan Rohingya Salvation Army members that crossed into Bangladesh amid fighting with the Arakan Army in Rakhine State, Myanmar."
+          citation_refs: [20]
+        - id: "src-015-b"
+          outlet: "Development Media Group"
+          url: "https://www.dmediag.com/news/cebaaa.html"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "At least 50 of those who fled were reportedly detained by Border Guard Bangladesh (BGB), while others are said to be hiding in refugee camps in Cox's Bazar."
+          citation_refs: [51]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-016"
+    category: "Law and crime"
+    subcategory: "Corsican conflict"
+    topics:
+      - "Corsican conflict"
+      - "France"
+    importance: 5
+    headline: "Former Corsican Nationalist Leader Alain Orsoni Assassinated"
+    summary: >
+      The French Mediterranean island of Corsica was rocked by a high-profile political
+      assassination when Alain Orsoni, a historic and deeply controversial figure in the
+      island's nationalist movement, was shot dead in the village of Vero. The 71-year-old
+      former militant was brazenly gunned down while attending his mother's funeral, an act
+      that shocked attendees and immediately plunged the region into tension. Orsoni was a
+      foundational leader of the National Liberation Front of Corsica (FLNC) during the peak
+      of its armed struggle in the 1980s, later founding the Movement for Self-Determination
+      (MPA) before transitioning into civil society as the president of the AC Ajaccio
+      professional soccer club. The public prosecutor of Ajaccio immediately opened a murder
+      investigation, explicitly treating the targeted killing as an act perpetrated by an
+      organized criminal gang, highlighting the often blurred lines between historic
+      political militancy and modern organized crime on the island.
+    key_data: []
+    details:
+      what_happened:
+        - "Alain Orsoni, 71, was shot and killed by an unidentified gunman in the village of Vero, Corse-du-Sud, France."
+        - "The assassination was executed in broad daylight while Orsoni was attending the funeral service for his mother."
+        - "Orsoni was a historic leader of the militant National Liberation Front of Corsica (FLNC) and former president of the AC Ajaccio soccer club."
+        - "The Ajaccio public prosecutor formally opened an investigation into the killing as a murder executed by an organized gang."
+      why_it_matters:
+        - "The targeted assassination of a legacy nationalist figure poses a severe risk of reigniting dormant political, factional, and clan-based violence on the French island."
+        - "The brazen nature of the killing—executed at a funeral—underscores the ruthless, taboo-breaking methods employed by modern Corsican organized crime networks."
+        - "The event highlights the enduring, complex nexus between historic separatist militancy, the sports industry, and contemporary organized crime syndicates operating in the Mediterranean."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Alain Orsoni (deceased)"
+        - "Unidentified Gunman"
+      secondary:
+        - "Ajaccio Public Prosecutor"
+    entities:
+      people:
+        - name: "Alain Orsoni"
+          role: "Deceased"
+        - name: "Unidentified Gunman"
+          role: "Perpetrator (unidentified at time of reporting)"
+        - name: "Ajaccio Public Prosecutor"
+          role: "Public prosecutor leading the investigation in Ajaccio, Corsica"
+      organizations: []
+      states:
+        - "France"
+    geography:
+      countries:
+        - "France"
+      places:
+        - "Corsica (Vero"
+        - "Corse-du-Sud)"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None identified."
+    classification:
+      event_type:
+        - "corsican-conflict"
+      tags:
+        - "corsican-conflict"
+        - "france"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Former National Liberation Front of Corsica leader Alain Orsoni is assassinated by a gunman at his mother's funeral in Vero, Corse-du-Sud, Corsica, France."
+      external:
+        - id: "src-016-a"
+          outlet: "Newsday"
+          url: "https://www.newsday.com/sports/soccer/ajaccio-corsica-nationalist-leader-soccer-shot-dead-d18281"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "Alain Orsoni was one of the leaders of the Corsican National Liberation Front (FLNC) in the 1980s."
+          citation_refs: [54]
+        - id: "src-016-b"
+          outlet: "Wikipedia (Portal:Current Events)"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_12"
+          publication_date: "2026-01-12"
+          source_type: "encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Former National Liberation Front of Corsica leader Alain Orsoni is assassinated by a gunman at his mother's funeral in Vero, Corse-du-Sud, Corsica, France."
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-017"
+    category: "Politics and elections"
+    subcategory: "Executive-judicial conflict"
+    topics:
+      - "Executive-judicial conflict"
+      - "United States"
+    importance: 8
+    headline: "U.S. DOJ Subpoenas Federal Reserve Chair Jerome Powell"
+    summary: >
+      The United States witnessed an unprecedented constitutional and institutional crisis
+      as the Department of Justice (DOJ) served grand jury subpoenas targeting sitting
+      Federal Reserve Chair Jerome Powell, effectively opening a criminal probe into the
+      head of the nation's independent central bank. The investigation ostensibly centers on
+      statements Powell made during congressional testimony regarding a $2.5 billion
+      renovation project for Federal Reserve buildings in Washington, D.C.. However, Powell
+      released a highly defiant public statement dismissing the threat of a criminal
+      indictment as a fabricated "pretext" orchestrated by President Donald Trump—who has
+      relentlessly demanded lower interest rates—to seize control of U.S. monetary policy
+      and subjugate the Fed's technocratic independence. The extreme legal maneuver sent
+      immediate shockwaves through global financial markets; while the S&P 500 managed to
+      tick to record highs, the yield on the 10-year Treasury briefly spiked to 4.21% amid
+      severe investor concerns that a politicized, captive Federal Reserve would trigger
+      runaway long-term inflation.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.S. Department of Justice served grand jury subpoenas to the Federal Reserve concerning Chair Jerome Powell's testimony to Congress."
+        - "The official scope of the criminal investigation focuses on statements related to a $2.5 billion renovation project for Federal Reserve buildings."
+        - "Powell publicly stated he considers the threat of criminal charges a pretextual attempt to pressure him to conduct monetary policy according to the President's preferences."
+        - "President Trump, who is concurrently trying to fire Fed Governor Lisa Cook, publicly denied directing the DOJ investigation."
+        - "Global markets experienced volatility, with the 10-year Treasury yield briefly rising to 4.21% due to inflation concerns tied to the potential loss of central bank independence."
+      why_it_matters:
+        - "The threat of criminally indicting a sitting Federal Reserve Chair constitutes a historic breach of the norms protecting the central bank's political independence, risking a severe institutional crisis."
+        - "If global investors perceive that the Federal Reserve has been captured by the executive branch, it will likely severely damage institutional credibility, leading to long-term market instability, higher borrowing costs, and reduced foreign investment in U.S. Treasurys."
+        - "The event underscores a broader, systemic trend of weaponizing the Justice Department to execute executive branch policy objectives against independent regulatory agencies."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Department of Justice"
+        - "Federal Reserve Chair Jerome Powell"
+      secondary:
+        - "President Donald Trump"
+    entities:
+      people:
+        - name: "Jerome Powell"
+          role: "Federal Reserve Chair"
+        - name: "Donald Trump"
+          role: "President"
+      organizations:
+        - name: "U.S. Department of Justice"
+          description: "U.S. federal justice department"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington D.C"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "None identified."
+    classification:
+      event_type:
+        - "executive-judicial-conflict"
+      tags:
+        - "executive-judicial-conflict"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-017-a"
+          outlet: "AP News"
+          url: "https://apnews.com/article/federal-reserve-jerome-powell-investigation-b5676bc638f04b3b528372b59673d804"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "...Powell, abandoning his previous attempt to ignore Trump’s relentless criticism, called the administration’s threat of criminal charges “pretexts"
+          citation_refs: [57]
+        - id: "src-017-b"
+          outlet: "Economic Policy Institute"
+          url: "https://www.epi.org/policywatch/department-of-justice-opens-criminal-probe-into-federal-reserve-chair-jerome-powell"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "On January 9, 2026, the Department of Justice (DOJ) served grand jury subpoenas to the Federal Reserve regarding statements made to Congress by Federal Reserve Chair Jerome Powell"
+          citation_refs: [58]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-018"
+    category: "Law and crime"
+    subcategory: "Cybercrime and scam centers"
+    topics:
+      - "Cambodia–South Korea relations, Scam centers in Cambodia"
+      - "Cybercrime and scam centers"
+      - "Cambodia"
+    importance: 5
+    headline: "Joint Task Force Dismantles Cambodian Cyber Scam Network"
+    summary: >
+      Demonstrating the escalating severity of transnational cybercrime originating in
+      Southeast Asia, a joint law enforcement operation between South Korean and Cambodian
+      authorities successfully dismantled a highly sophisticated scam and sexual
+      exploitation syndicate operating out of Phnom Penh. The pan-government task force
+      conducted coordinated raids on several offices and residences on January 5,
+      culminating in the formal arrest of 26 suspects. The criminal network is accused of
+      executing elaborate impersonation scams heavily intertwined with the creation and
+      weaponization of sexually exploitative material, successfully defrauding 165 South
+      Korean victims out of approximately 26.7 billion won ($18.25 million USD). Following
+      the arrests, South Korean authorities announced comprehensive plans to immediately
+      block the digital circulation of the illicit videos and extract the suspects back to
+      Seoul to face stringent prosecution, underscoring a newly aggressive bilateral posture
+      against borderless digital extortion.
+    key_data: []
+    details:
+      what_happened:
+        - "South Korean and Cambodian police conducted joint raids in Phnom Penh, arresting 26 individuals connected to a major cyber scam syndicate."
+        - "The criminal network allegedly defrauded 165 South Korean victims out of roughly 26.7 billion won ($18.25 million USD)."
+        - "The syndicate's operations relied heavily on a combination of impersonation scams and the use of sexually exploitative videos for extortion."
+        - "South Korean authorities announced their intent to extradite all 26 suspects to face domestic criminal charges in Seoul."
+        - "The South Korean government committed to immediately blocking the online circulation and distribution of the explicit material generated by the scammers."
+      why_it_matters:
+        - "The bust highlights the massive financial scale and increasing sophistication of transnational cyber-scam centers operating out of Southeast Asia, which are increasingly pivoting toward sexual extortion to maximize profits."
+        - "The successful joint operation demonstrates a maturation in bilateral law enforcement cooperation required to tackle borderless digital exploitation, offering a reproducible framework for future interventions across the Mekong region."
+        - "The integration of digital asset blocking with physical arrests indicates a holistic, whole-of-government approach to neutralizing cybercrime networks that transcends traditional policing."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "South Korean Police"
+        - "Cambodian Police"
+      secondary:
+        - "Unidentified suspects (26 arrested)"
+    entities:
+      people: []
+      organizations:
+        - name: "South Korean Police"
+          description: "Police of South Korea"
+        - name: "Cambodian Police"
+          description: "Police of Cambodia"
+      states:
+        - "Cambodia"
+    geography:
+      countries:
+        - "Cambodia"
+      places:
+        - "Phnom Penh"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 26
+      damage: "Financial losses of $18.25 million USD to 165 victims."
+    classification:
+      event_type:
+        - "cybercrime-and-scam-centers"
+      tags:
+        - "cambodia-south-korea-relations-scam-centers-in-cambodia"
+        - "cybercrime-and-scam-centers"
+        - "cambodia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Cambodian and South Korean police arrest 26 suspects accused of impersonation scams and sexual exploitation that allegedly defrauded 165 South Korean victims of about ₩26.7 billion (US$18.25 million), with authorities set to extradite the suspects to South Korea."
+      external:
+        - id: "src-018-a"
+          outlet: "Philippine Daily Inquirer"
+          url: "https://globalnation.inquirer.net/305221/26-people-nabbed-over-sexual-exploitation-scam-crimes-in-cambodia"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "The pan-government task force took 26 members of a scam ring in Phnom Penh into custody during raids into their offices and residences... together with Cambodian police"
+          citation_refs: [61]
+        - id: "src-018-b"
+          outlet: "Wikipedia (Portal:Current Events)"
+          url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_12"
+          publication_date: "2026-01-12"
+          source_type: "encyclopedia"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "Cambodian and South Korean police arrest 26 suspects accused of impersonation scams and sexual exploitation that allegedly defrauded 165 South Korean victims of about ₩26.7 billion (US$18.25 million)"
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-12-019"
+    category: "Business and economy"
+    subcategory: "Spanish property bubble"
+    topics:
+      - "Spanish property bubble"
+    importance: 5
+    headline: "Spain's Sánchez tightens rent rules by decree, limiting short-term rentals"
+    summary: >
+      Spanish prime minister Pedro Sánchez issues a decree that tightens rent regulations by
+      limiting short-term rentals and offering full tax refunds to landlords who renew
+      contracts without rent increases, as the country faces a housing shortfall of about
+      500,000 homes and average rents that have doubled over the past decade.
+    key_data: []
+    details:
+      what_happened:
+        - "Spanish prime minister Pedro Sánchez issues a decree that tightens rent regulations by limiting short-term rentals and offering full tax refunds to landlords who renew contracts without rent increases, as the country faces a housing shortfall of about 500,000 homes and average rents that have doubled over the past decade."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Pedro Sánchez"
+      secondary: []
+    entities:
+      people:
+        - name: "Pedro Sánchez"
+          role: "Prime Minister of Spain"
+      organizations: []
+      states:
+        - "Spain"
+    geography:
+      countries:
+        - "Spain"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "spanish-property-bubble"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Spanish prime minister Pedro Sánchez issues a decree that tightens rent regulations by limiting short-term rentals and offering full tax refunds to landlords who renew contracts without rent increases, as the country faces a housing shortfall of about 500,000 homes and average rents that have doubled over the past decade."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-01-12-020"
+    category: "Health and environment"
+    subcategory: "Climate change in Morocco"
+    topics:
+      - "Climate change in Morocco"
+    importance: 5
+    headline: "Morocco's seven-year drought ends after winter rainfall nearly doubles"
+    summary: >
+      A seven-year drought ends in Morocco after a 95 percent increase in winter rainfall
+      compared with 2025 was recorded.
+    key_data: []
+    details:
+      what_happened:
+        - "A seven-year drought ends in Morocco after a 95 percent increase in winter rainfall compared with 2025 was recorded."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Morocco"
+    geography:
+      countries:
+        - "Morocco"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "health-and-environment"
+      tags:
+        - "climate-change-in-morocco"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A seven-year drought ends in Morocco after a 95 percent increase in winter rainfall compared with 2025 was recorded."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-01-12-021"
+    category: "Law and crime"
+    subcategory: "War on drugs"
+    topics:
+      - "War on drugs"
+    importance: 5
+    headline: "Swedish police seize three tonnes of cocaine at Helsingborg, the country's largest haul"
+    summary: >
+      Swedish police seize three tonnes of cocaine found in a shipping container from South
+      America at the Port of Helsingborg, making it the country's single-largest seizure of
+      the illegal drug.
+    key_data: []
+    details:
+      what_happened:
+        - "Swedish police seize three tonnes of cocaine found in a shipping container from South America at the Port of Helsingborg, making it the country's single-largest seizure of the illegal drug."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Swedish Police"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Swedish Police"
+          description: "Police of Sweden"
+      states:
+        - "Sweden"
+    geography:
+      countries:
+        - "Sweden"
+      places:
+        - "Port of Helsingborg"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "war-on-drugs"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Swedish police seize three tonnes of cocaine found in a shipping container from South America at the Port of Helsingborg, making it the country's single-largest seizure of the illegal drug."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-12-011"
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+
+strategic_conclusion: >
+  The exhaustive analysis of events on January 12, 2026, reveals a hyper-volatile global
+  operating environment where standard diplomatic, legal, and institutional frameworks are
+  being systematically bypassed or dismantled.
+
+  The weaponization of the judicial apparatus to achieve political ends is the most critical
+  macro-trend observed. The U.S. DOJ’s unprecedented subpoena of the Federal Reserve Chair
+  strikes at the foundational independence of Western monetary policy, a move paralleled by
+  the hyper-militarized deployment of DHS agents in Minnesota against the express wishes of
+  local Democratic leadership. Similarly, in Eastern Europe, Hungary’s granting of asylum to
+  a fugitive Polish minister eviscerates EU legal solidarity, utilizing the concept of
+  political asylum to shield ideological allies from corruption charges.
+
+works_cited:
+  - id: 1
+    title: "Early Edition: January 12, 2026"
+    outlet: "Just Security"
+    url: "https://www.justsecurity.org/128495/early-edition-january-12-2026"
+    accessed: "2026-08-06"
+  - id: 2
+    title: "March 2025 American deportations of Venezuelans"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/March_2025_American_deportations_of_Venezuelans"
+    accessed: "2026-08-06"
+  - id: 3
+    title: "Venezuela: Dismantle Repressive Apparatus"
+    outlet: "Human Rights Watch"
+    url: "https://www.hrw.org/news/2026/02/18/venezuela-dismantle-repressive-apparatus"
+    accessed: "2026-08-06"
+  - id: 4
+    title: "Monday morning news: January 12, 2026 | WORLD"
+    outlet: "WNG.org"
+    url: "https://wng.org/podcasts/monday-morning-news-january-12-2026-1768165213"
+    accessed: "2026-08-06"
+  - id: 5
+    title: "Around the World, Across the Political Spectrum"
+    outlet: "International Affairs Forum"
+    url: "https://www.ia-forum.org/Content/ViewInternalDocument.cfm?ContentID=21275"
+    accessed: "2026-08-06"
+  - id: 6
+    title: "January 12-18, 2026: Week in Review"
+    outlet: "Human Rights Research Center"
+    url: "https://www.humanrightsresearch.org/post/january-12-18-2026-week-in-review"
+    accessed: "2026-08-06"
+  - id: 7
+    title: "Iran Update, January 12, 2026"
+    outlet: "ISW"
+    url: "https://understandingwar.org/research/middle-east/iran-update-january-12-2026"
+    accessed: "2026-08-06"
+  - id: 8
+    title: "Attorney General Ellison and cities of Minneapolis and Saint Paul sue to halt ICE surge into Minnesota"
+    outlet: "ag.state.mn.us"
+    url: "https://www.ag.state.mn.us/Office/Communications/2026/01/12_ICE.asp"
+    accessed: "2026-08-06"
+  - id: 9
+    title: "Minnesota Sues Department of Homeland Security Following the Fatal ICE-Involved Shooting of Renee Good"
+    outlet: "Law Review"
+    url: "https://lawreview.syr.edu/minnesota-sues-department-of-homeland-security-following-the-fatal-ice-involved-shooting-of-renee-good"
+    accessed: "2026-08-06"
+  - id: 10
+    title: "Killing of Renée Good"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Killing_of_Ren%C3%A9e_Good"
+    accessed: "2026-08-06"
+  - id: 11
+    title: "The Response to Renee Good's Killing Shows the Power of Bearing Witness"
+    outlet: "Truthout"
+    url: "https://truthout.org/articles/the-response-to-renee-goods-killing-shows-the-power-of-bearing-witness"
+    accessed: "2026-08-06"
+  - id: 12
+    title: "Operation Metro Surge"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Operation_Metro_Surge"
+    accessed: "2026-08-06"
+  - id: 13
+    title: "FBI Investigating Renee Good While Obstructing Probes Into ICE Killer"
+    outlet: "Truthout"
+    url: "https://truthout.org/articles/fbi-investigating-renee-good-while-obstructing-probes-into-ice-killer"
+    accessed: "2026-08-06"
+  - id: 14
+    title: "Case: State of Minnesota v. Noem"
+    outlet: "Civil Rights Litigation Clearinghouse"
+    url: "https://clearinghouse.net/case/47683"
+    accessed: "2026-08-06"
+  - id: 15
+    title: "2,800 Police Officers Killed in Gaza: Why Does 'Israel' Continue Targeting Them After the Ceasefire?"
+    outlet: "Al-Estiklal Newspaper"
+    url: "https://www.alestiklal.net/en/article/2-800-police-officers-killed-in-gaza-why-does-israel-continue-targeting-them-after-the-ceasefire"
+    accessed: "2026-08-06"
+  - id: 16
+    title: "Popular Forces Gaza militia captures senior Hamas member"
+    outlet: "FDD's Long War Journal"
+    url: "https://www.longwarjournal.org/archives/2026/02/popular-forces-gaza-militia-captures-senior-hamas-member.php"
+    accessed: "2026-08-06"
+  - id: 17
+    title: "Head of Gaza militia claims killing of senior Hamas cop"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/head-of-gaza-militia-claims-killing-of-senior-hamas-cop"
+    accessed: "2026-08-06"
+  - id: 18
+    title: "Anti-Hamas militia claims killing Khan Yunis police chief"
+    outlet: "The Jerusalem Post"
+    url: "https://www.jpost.com/middle-east/article-883107"
+    accessed: "2026-08-06"
+  - id: 19
+    title: "Bomb blast kills 5 policemen, including officer, in northwestern Pakistan"
+    outlet: "AZERTAC"
+    url: "https://azertag.az/en/xeber/bomb_blast_kills_5_policemen_including_officer_in_northwestern_pakistan-3961715"
+    accessed: "2026-08-06"
+  - id: 20
+    title: "Portal:Current events/2026 January 12"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_12"
+    accessed: "2026-08-06"
+  - id: 21
+    title: "Violent Extremism in South Asia | Global Conflict Tracker"
+    outlet: "Council on Foreign Relations"
+    url: "https://www.cfr.org/global-conflict-tracker/conflict/war-afghanistan"
+    accessed: "2026-08-06"
+  - id: 22
+    title: "Rare meteotsunami causes deadly surge along Santa Clara del Mar coast, Argentina"
+    outlet: "watchers.news"
+    url: "https://watchers.news/2026/01/13/meteotsunami-santa-clara-del-mar-argentina-january-2026"
+    accessed: "2026-08-06"
+  - id: 23
+    title: "Meteotsunami kills 1, injures dozens along Argentina's Atlantic coast"
+    outlet: "BNO News"
+    url: "https://bnonews.com/index.php/2026/01/meteotsunami-kills-1-injures-dozens-along-argentinas-atlantic-coast"
+    accessed: "2026-08-06"
+  - id: 24
+    title: "Regulators around the world are scrutinizing Grok over sexual deepfakes"
+    outlet: "Malwarebytes"
+    url: "https://www.malwarebytes.com/blog/news/2026/01/regulators-around-the-world-are-scrutinizing-grok-over-sexual-deepfakes"
+    accessed: "2026-08-06"
+  - id: 25
+    title: "Malaysia and Indonesia become the first countries to block Musk's Grok over sexualized AI images"
+    outlet: "AP News"
+    url: "https://apnews.com/article/grok-malaysia-indonesia-block-c7cb320327f259c4da35908e1269c225"
+    accessed: "2026-08-06"
+  - id: 26
+    title: "Grok AI Blocked in Malaysia: How This Shapes the Future of AI"
+    outlet: "Deeper Insights"
+    url: "https://deeperinsights.com/ai-blog/grok-blocked-in-malaysia"
+    accessed: "2026-08-06"
+  - id: 27
+    title: "Grok sexual deepfake scandal"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Grok_sexual_deepfake_scandal"
+    accessed: "2026-08-06"
+  - id: 28
+    title: "UK watchdog investigates X over sexualized Grok images"
+    outlet: "Courthouse News Service"
+    url: "https://www.courthousenews.com/uk-watchdog-investigates-x-over-sexualized-grok-images"
+    accessed: "2026-08-06"
+  - id: 29
+    title: "Meta Shuts Over 544,000 Australian Accounts After Ban"
+    outlet: "ASEAN & Beyond En.tempo.co"
+    url: "https://en.tempo.co/read/2079926/meta-shuts-over-544000-australian-accounts-after-ban"
+    accessed: "2026-08-06"
+  - id: 30
+    title: "Meta deletes 544,000 accounts in Australia's teen social media ban"
+    outlet: "forbes.com.au"
+    url: "https://www.forbes.com.au/covers/innovation/meta-deletes-544000-accounts-in-australias-teen-social-media-ban"
+    accessed: "2026-08-06"
+  - id: 31
+    title: "Australia forces Meta to block more than half a million accounts: Who got hit"
+    outlet: "RBC-Ukraine"
+    url: "https://newsukraine.rbc.ua/news/australia-forces-meta-to-block-more-than-1768188368.html"
+    accessed: "2026-08-06"
+  - id: 32
+    title: "Meta urges Australia to change world-first teen social media ban"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/liveblog_entry/meta-urges-australia-to-change-world-first-teen-social-media-ban"
+    accessed: "2026-08-06"
+  - id: 33
+    title: "Former Prime Minister Garibashvili Sentenced to Five Years in Prison After Plea Deal"
+    outlet: "sakartvelosambebi.ge"
+    url: "https://sakartvelosambebi.ge/en/news/former-prime-minister-garibashvili-sentenced-to-five-years-in-prison-after-plea-deal"
+    accessed: "2026-08-06"
+  - id: 34
+    title: "Former Georgia Prime Minister Irakli Garibashvili Jailed Five Years in Major Money Laundering Case"
+    outlet: "AML Network"
+    url: "https://amlnetwork.org/aml-news/former-georgia-prime-minister-irakli-garibashvili-jailed-five-years-in-major-money-laundering-case"
+    accessed: "2026-08-06"
+  - id: 35
+    title: "Georgian ex-PM jailed for five years after pleading guilty to money laundering"
+    outlet: "intellinews"
+    url: "https://new.intellinews.com/articles/georgian-ex-pm-jailed-for-five-years-after-pleading-guilty-to-money-laundering-419520"
+    accessed: "2026-08-06"
+  - id: 36
+    title: "Hungary gives 'asylum' to Poland's former justice minister"
+    outlet: "Courthouse News Service"
+    url: "https://www.courthousenews.com/hungary-gives-asylum-to-polands-former-justice-minister"
+    accessed: "2026-08-06"
+  - id: 37
+    title: "Hungary grants asylum to Polish former justice minister Ziobro"
+    outlet: "Notes From Poland"
+    url: "https://notesfrompoland.com/2026/01/12/hungary-grants-asylum-to-polish-former-justice-minister-ziobro"
+    accessed: "2026-08-06"
+  - id: 38
+    title: "Hungary Grants Asylum to Former Polish Justice Minister, Deepening EU Rift"
+    outlet: "moderndiplomacy.eu"
+    url: "https://moderndiplomacy.eu/2026/01/12/hungary-grants-asylum-to-former-polish-justice-minister-deepening-eu-rift"
+    accessed: "2026-08-06"
+  - id: 39
+    title: "Persecuted Polish Citizens Granted Political Asylum in Hungary"
+    outlet: "hungarytoday.hu"
+    url: "https://hungarytoday.hu/persecuted-polish-citizens-granted-political-asylum-in-hungary"
+    accessed: "2026-08-06"
+  - id: 40
+    title: "Spain makes its largest-ever cocaine seizure at sea in U.S.-aided operation dubbed \"White Tide\""
+    outlet: "CBS News"
+    url: "https://www.cbsnews.com/news/spain-largest-ever-cocaine-seizure-sea-operation-white-tide"
+    accessed: "2026-08-06"
+  - id: 41
+    title: "Spain makes largest-ever cocaine seizure at sea"
+    outlet: "The Peninsula Qatar"
+    url: "https://m.thepeninsulaqatar.com/article/12/01/2026/spain-makes-largest-ever-cocaine-seizure-at-sea"
+    accessed: "2026-08-06"
+  - id: 42
+    title: "Spanish police seize 10 tonnes of cocaine hidden in salt shipment"
+    outlet: "Mixmag.net"
+    url: "https://mixmag.net/read/spanish-police-seize-10-tonnes-of-cocaine-hidden-in-salt-shipment-news"
+    accessed: "2026-08-06"
+  - id: 43
+    title: "Spanish Police seize 10 TONNES of cocaine worth over £500 MILLION near the Canary Islands"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=2U5YWJlJQ3c"
+    accessed: "2026-08-06"
+  - id: 44
+    title: "Qatar Steps Into the Breach: Somalia's Security Reset and the Fracturing of Federal Power"
+    outlet: "hornreview.org"
+    url: "https://hornreview.org/2026/01/21/qatar-steps-into-the-breach-somalias-security-reset-and-the-fracturing-of-federal-power"
+    accessed: "2026-08-06"
+  - id: 45
+    title: "UAE loses bases in Somalia over dealings with pro-Israel separatist group"
+    outlet: "peoplesdispatch.org"
+    url: "https://peoplesdispatch.org/2026/01/19/uae-loses-bases-in-somalia-over-dealings-with-pro-israel-separatist-group"
+    accessed: "2026-08-06"
+  - id: 46
+    title: "Elephant kills 20 in Indian state as rescue efforts continue"
+    outlet: "AZERTAC"
+    url: "https://azertag.az/en/xeber/elephant_kills_20_in_indian_state_as_rescue_efforts_continue-3962199"
+    accessed: "2026-08-06"
+  - id: 47
+    title: "Rogue Elephant Kills 17 Villagers, India Responds Stopping Trains"
+    outlet: "MotorBiscuit"
+    url: "https://www.motorbiscuit.com/elephant-kills-villagers-india-trains"
+    accessed: "2026-08-06"
+  - id: 48
+    title: "Deadly elephant rampage claims 22 lives in India"
+    outlet: "Shafaqna Pakistan"
+    url: "https://pakistan.shafaqna.com/EN/314457"
+    accessed: "2026-08-06"
+  - id: 49
+    title: "Armed conflicts and attacks"
+    outlet: "News as Facts"
+    url: "https://newsasfacts.com/news/148975"
+    accessed: "2026-08-06"
+  - id: 50
+    title: "Portal:Current events/January 2024"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/January_2024"
+    accessed: "2026-08-06"
+  - id: 51
+    title: "Clashes escalate between Arakan Army and Muslim armed groups in Maungdaw"
+    outlet: "dmediag.com"
+    url: "https://www.dmediag.com/news/cebaaa.html"
+    accessed: "2026-08-06"
+  - id: 52
+    title: "Myanmar: Critical Hearings in Rohingya Genocide Case"
+    outlet: "Human Rights Watch"
+    url: "https://www.hrw.org/news/2026/01/08/myanmar-critical-hearings-in-rohingya-genocide-case"
+    accessed: "2026-08-06"
+  - id: 53
+    title: "“Skeletons and Skulls Scattered Everywhere”: Arakan Army Massacre of Rohingya Muslims in Hoyyar Siri, Myanmar"
+    outlet: "Human Rights Watch"
+    url: "https://www.hrw.org/report/2026/05/18/skeletons-and-skulls-scattered-everywhere/arakan-army-massacre-of-rohingya"
+    accessed: "2026-08-06"
+  - id: 54
+    title: "Ex-Corsican nationalist leader, soccer club president Alain Orsoni shot dead at mother's funeral"
+    outlet: "Newsday"
+    url: "https://www.newsday.com/sports/soccer/ajaccio-corsica-nationalist-leader-soccer-shot-dead-d18281"
+    accessed: "2026-08-06"
+  - id: 55
+    title: "Former Corsican nationalist leader Alain Orsoni shot dead at funeral"
+    outlet: "AP News"
+    url: "https://apnews.com/article/ajaccio-corsica-nationalist-leader-soccer-shot-dead-c2656d58d47813ac7abb752df0624efb"
+    accessed: "2026-08-06"
+  - id: 56
+    title: "RTL's January 12th news broadcast with Anne-Sophie Lapix and Vincent Derosier"
+    outlet: "youtube.com"
+    url: "https://www.youtube.com/watch?v=q7ZoYe_EMWY"
+    accessed: "2026-08-06"
+  - id: 57
+    title: "Bringing charges against the Fed: What we do (and don't) know"
+    outlet: "AP News"
+    url: "https://apnews.com/article/federal-reserve-jerome-powell-investigation-b5676bc638f04b3b528372b59673d804"
+    accessed: "2026-08-06"
+  - id: 58
+    title: "Department of Justice opens criminal probe into Federal Reserve Chair Jerome Powell"
+    outlet: "epi.org"
+    url: "https://www.epi.org/policywatch/department-of-justice-opens-criminal-probe-into-federal-reserve-chair-jerome-powell"
+    accessed: "2026-08-06"
+  - id: 59
+    title: "DOJ subpoenas Fed Chair Powell, escalating Trump clash over Fed independence"
+    outlet: "CBS19"
+    url: "https://www.cbs19.tv/video/news/local/doj-subpoenas-fed-chair-powell-escalating-trump-clash-over-fed-independence/501-48edc90e-67a7-4a5c-9e17-8a066ba955e1"
+    accessed: "2026-08-06"
+  - id: 60
+    title: "Wall Street ticks to records after shaking off worries about Trump's feud with the Fed"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/stocks-markets-powell-trump-rates-9eb79e89fec160c7c64dfcef6871e693"
+    accessed: "2026-08-06"
+  - id: 61
+    title: "26 people nabbed over sexual exploitation scam crimes in Cambodia"
+    outlet: "Global News"
+    url: "https://globalnation.inquirer.net/305221/26-people-nabbed-over-sexual-exploitation-scam-crimes-in-cambodia"
+    accessed: "2026-08-06"
+  - id: 62
+    title: "Portal:Current events/2026 January 12"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_January_12&oldid=1333741245"
+    accessed: "2026-09-22"

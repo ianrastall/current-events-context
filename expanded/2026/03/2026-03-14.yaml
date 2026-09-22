@@ -1,0 +1,2615 @@
+date: "2026-03-14"
+source_page:
+  portal: "Portal:Current events/2026 March 14"
+  language: "en"
+  wikipedia_revision_id: 1361624400
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 14 (revision 1361624400; seed 2026/03/2026-03-14.yaml) + deep-research report reference/deep-research/2026/03/2026-03-14a.md + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  The global strategic operating environment on March 14, 2026, is characterized by an
+  unprecedented convergence of acute military conflicts, systemic energy market
+  realignments, and profound domestic instability across multiple continents. The escalating
+  and multi-front war in the Middle East—pitting the United States and Israel against the
+  Islamic Republic of Iran—has fundamentally destabilized global hydrocarbon logistics,
+  directly catalyzing massive geoeconomic countermeasures in the Indo-Pacific and severe
+  aviation disruptions in Oceania. Concurrently, deep-seated structural vulnerabilities in
+  sub-Saharan Africa and Latin America have manifested in catastrophic environmental
+  disasters and sophisticated insurgent violence, challenging the sovereign integrity of
+  regional powers. Furthermore, the rapid integration of artificial intelligence into
+  defense procurement marks a permanent paradigm shift in modern military doctrine. This
+  comprehensive report synthesizes the day's most critical global events, identifying the
+  second- and third-order implications of these developments on international security,
+  economic continuity, and political stability.
+
+  The joint military campaign executed by the United States and Israel, designated under the
+  operational monikers 'Operation Epic Fury' and 'Operation Roaring Lion', continues to
+  systematically dismantle Iranian military capabilities, nuclear enrichment peripheries,
+  and the Islamic Revolutionary Guard Corps (IRGC) infrastructure. On March 14, this
+  campaign marked a significant escalation in its targeting matrix when allied military
+  aircraft executed a precision airstrike on an industrial complex located in the central
+  Iranian city of Isfahan. The targeted facility, officially described by Iranian state
+  media and the semi-official Fars News Agency as a manufacturing plant for heating,
+  ventilation, and air conditioning (HVAC) equipment, was operating during normal business
+  hours at the time of the bombardment.
+
+events:
+  - id: "evt-2026-03-14-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "Military Escalation"
+      - "Industrial Targeting"
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "Airstrikes"
+      - "Iran"
+      - "United States"
+    importance: 8
+    headline: "Strike hits industrial facility in Isfahan as Iran blames U.S. and Israel"
+    summary: >
+      A strike hit an industrial facility in Isfahan, central Iran, on March 14. Associated
+      Press live coverage supported the occurrence and location of the strike, while Fars
+      News Agency said the site was an HVAC plant and that 15 workers were killed. Iranian
+      authorities blamed the United States and Israel for the attack, but the listed sources
+      in this record do not independently establish responsibility.
+    key_data: []
+    details:
+      what_happened:
+        - "Associated Press live coverage reported that a strike killed people at an industrial area in Isfahan, Iran."
+        - "Fars News Agency described the facility as an HVAC equipment manufacturing plant."
+        - "Iranian state media said 15 workers were killed in the strike."
+        - "Iranian authorities publicly blamed the United States and Israel for the attack."
+      why_it_matters:
+        - "The strike indicated that industrial facilities inside Iran remained vulnerable as the regional war expanded."
+        - "Claims of civilian casualties heightened the diplomatic and escalation risk around the conflict."
+      uncertainty_notes:
+        - "The listed sources do not independently verify the military or dual-use role of the facility."
+        - "Responsibility for the strike was asserted by Iranian authorities rather than confirmed by independent reporting in this record."
+    actors:
+      primary: []
+      secondary:
+        - "United States Armed Forces"
+        - "Israel Defense Forces"
+        - "Government of Iran"
+        - "Islamic Revolutionary Guard Corps"
+    entities:
+      people: []
+      organizations:
+        - name: "United States Armed Forces"
+          description: "Military forces of the United States"
+        - name: "Israel Defense Forces"
+          description: "Military of Israel"
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military and security force"
+      states:
+        - "United States"
+        - "Israel"
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+        - "United States"
+        - "Israel"
+      places:
+        - "Isfahan"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 15
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Severe structural damage to industrial complex"
+    classification:
+      event_type:
+        - "airstrike"
+        - "industrial-site-damage"
+      tags:
+        - "isfahan"
+        - "iran"
+        - "industrial-site"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Fifteen people are killed in a reported Israeli and United States missile strike on an HVAC factory in Isfahan, Iran."
+      external:
+        - id: "src-001-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/live/iran-war-israel-trump-03-14-2026"
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [79]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Energy Security"
+      - "Maritime Trade"
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "Drone strikes"
+      - "United Arab Emirates"
+      - "Kuwait"
+    importance: 7
+    headline: "Fire near Fujairah port and drone strike on Kuwaiti air base mark Gulf escalation"
+    summary: >
+      Drone and missile attacks hit infrastructure in the United Arab Emirates and Kuwait on
+      March 14. Associated Press live coverage reported that debris from a drone
+      interception sparked a fire near Fujairah port, while the Kuwaiti Ministry of Defence
+      said an attack on Ahmad al-Jaber Air Base injured three military personnel after some
+      drones were intercepted and others breached the perimeter. The listed sources in this
+      record support the impacts in the UAE and Kuwait more clearly than they establish
+      direct attribution for both attacks.
+    key_data: []
+    details:
+      what_happened:
+        - "Associated Press live coverage reported that debris from a drone interception sparked a fire near Fujairah port in the United Arab Emirates."
+        - "The Kuwaiti Ministry of Defence said drones targeted Ahmad al-Jaber Air Base."
+        - "Kuwait said three drones were intercepted and that other drones breached the perimeter."
+        - "The Kuwaiti military reported three minor injuries at the air base."
+        - "Local authorities cited by Associated Press said there were no casualties in the Fujairah fire."
+      why_it_matters:
+        - "The attacks showed that Gulf energy and military infrastructure remained exposed as the regional war widened."
+        - "Damage in Fujairah and Kuwait added pressure to already strained shipping and infrastructure protection plans in the Gulf."
+      uncertainty_notes:
+        - "The Associated Press account described a Fujairah fire caused by interception debris rather than independently confirming a direct strike on the port facility."
+        - "The listed sources in this record directly support the impacts in the UAE and Kuwait, but they are less explicit on direct attribution for both attacks."
+    actors:
+      primary: []
+      secondary:
+        - "Islamic Republic of Iran Armed Forces"
+        - "Kuwaiti Armed Forces"
+        - "UAE Air Defenses"
+    entities:
+      people: []
+      organizations:
+        - name: "Kuwaiti Armed Forces"
+          description: "Military of Kuwait"
+        - name: "UAE Air Defenses"
+          description: "Air defenses of the United Arab Emirates"
+      states:
+        - "Iran"
+        - "United Arab Emirates"
+        - "Kuwait"
+    geography:
+      countries:
+        - "United Arab Emirates"
+        - "Kuwait"
+        - "Iran"
+      places:
+        - "Fujairah"
+        - "Ahmad al-Jaber Air Base"
+        - "Gulf of Oman"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 3
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Storage tanks ignited in UAE; material damage to Kuwaiti air base"
+    classification:
+      event_type:
+        - "drone-strike"
+        - "infrastructure-attack"
+      tags:
+        - "fujairah"
+        - "kuwait"
+        - "gulf-energy"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The port of Fujairah, a bunkering hub and export terminal in the Emirate of Fujairah, United Arab Emirates, suffers a drone attack. UAE authorities report that its air defence intercepted nine ballistic missiles and 33 drones."
+      external:
+        - id: "src-002-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/live/iran-war-israel-trump-03-14-2026"
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [79]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events:
+      - "evt-2026-03-14-015"
+      - "evt-2026-03-14-017"
+    notes: ""
+  - id: "evt-2026-03-14-003"
+    category: "Business and economy"
+    subcategory: "Investment"
+    topics:
+      - "Energy Policy"
+      - "Supply Chain Resiliency"
+      - "Investment"
+      - "Japan"
+      - "United States"
+    importance: 6
+    headline: "U.S. and allies announce $57 billion in energy and mineral agreements in Tokyo"
+    summary: >
+      Reuters reported that the United States and allied governments announced 22 commercial
+      agreements worth a combined $57 billion at the Indo-Pacific Energy Security
+      Ministerial and Business Forum in Tokyo. The deals covered LNG, crude oil, nuclear
+      cooperation, and critical mineral supply chains, and Reuters also cited a broader
+      Japanese pledge to invest heavily in the United States by 2029. Because this record
+      relies on a single Reuters report, the event has been kept close to the source's
+      headline figures and framing.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that the Indo-Pacific Energy Security Ministerial and Business Forum was held in Tokyo."
+        - "The report said 22 commercial agreements worth about $57 billion were announced."
+        - "The agreements covered LNG, crude oil, nuclear cooperation, and critical minerals."
+        - "Reuters said Japan also pledged broader investment in the United States through 2029."
+      why_it_matters:
+        - "The package illustrated how governments in Asia and the United States were trying to diversify energy and mineral supply chains during the Middle East war."
+        - "The event showed that energy-security diplomacy was being translated into large commercial commitments."
+      uncertainty_notes:
+        - "This event relies on a single Reuters report in the reviewed file, so additional official detail was limited in this pass."
+    actors:
+      primary:
+        - "United States Government"
+        - "Government of Japan"
+      secondary: []
+    entities:
+      people:
+        - name: "Doug Burgum"
+          role: "U.S. Secretary of the Interior"
+      organizations:
+        - name: "Indo-Pacific Energy Security Ministerial and Business Forum"
+          description: "Energy and minerals forum held in Tokyo"
+      states:
+        - "United States"
+        - "Japan"
+        - "South Korea"
+        - "Thailand"
+    geography:
+      countries:
+        - "Japan"
+        - "United States"
+        - "South Korea"
+        - "Thailand"
+      places:
+        - "Tokyo"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "investment-agreement"
+        - "energy-security-meeting"
+      tags:
+        - "tokyo"
+        - "energy-security"
+        - "critical-minerals"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "Weapons testing"
+    topics:
+      - "Ballistic Missiles"
+      - "Deterrence"
+      - "Weapons testing"
+      - "North Korea"
+      - "South Korea"
+    importance: 5
+    headline: "North Korea test-fires KN-25 rocket artillery shells toward the Sea of Japan"
+    summary: >
+      North Korea said it fired 12 KN-25 rocket artillery shells from the Sunan area on
+      March 14. KCNA said Kim Jong Un supervised the drill, while South Korea's defense
+      ministry supported the launch location and flight distance. The test was presented by
+      North Korean state media as a warning over joint U.S.-South Korean military exercises.
+    key_data: []
+    details:
+      what_happened:
+        - "South Korean defense officials said North Korea launched munitions from the Sunan area."
+        - "KCNA said 12 KN-25 rocket artillery shells were fired in the drill."
+        - "South Korean officials said the projectiles traveled about 350 kilometers toward the Sea of Japan."
+        - "KCNA said Kim Jong Un supervised the exercise and framed it as a warning over joint U.S.-South Korean drills."
+      why_it_matters:
+        - "The launch added to regional tension around North Korea's short-range strike capabilities."
+        - "The drill tied North Korean weapons signaling directly to allied military exercises."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Korean People's Army"
+      secondary:
+        - "South Korean Defense Ministry"
+    entities:
+      people:
+        - name: "Kim Jong Un"
+          role: "Supreme Leader of North Korea"
+      organizations:
+        - name: "Korean People's Army"
+          description: "Armed forces of North Korea"
+        - name: "Korean Central News Agency (KCNA)"
+          description: "North Korean state news agency"
+        - name: "South Korean Defense Ministry"
+          description: "Ministry of National Defense of South Korea"
+      states:
+        - "North Korea"
+        - "South Korea"
+        - "United States"
+        - "Japan"
+    geography:
+      countries:
+        - "North Korea"
+        - "South Korea"
+        - "United States"
+        - "Japan"
+      places:
+        - "Sunan"
+        - "Pyongyang"
+        - "Sea of Japan"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "weapons-test"
+        - "military-drill"
+      tags:
+        - "north-korea"
+        - "kn-25"
+        - "weapons-test"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-005"
+    category: "Science and technology"
+    subcategory: "Defense technology"
+    topics:
+      - "Artificial Intelligence"
+      - "Military Procurement"
+      - "Defense technology"
+      - "United States"
+    importance: 5
+    headline: "U.S. Army awards Anduril an enterprise software contract worth up to $20 billion"
+    summary: >
+      The U.S. Army awarded Anduril Industries a 10-year enterprise contract with a ceiling
+      value of up to $20 billion, according to a Defense Department release cited in the
+      reviewed file. The file also cites Defense News for the claim that the award
+      consolidates many earlier procurement actions around Anduril's Lattice software for
+      command, control, and counter-drone functions. The event was rewritten to stay close
+      to those documented claims and to remove broader unsupported commentary about
+      industrial change.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.S. Army Contracting Command awarded Anduril Industries a 10-year enterprise contract."
+        - "The reviewed file says the contract has a ceiling value of up to $20 billion."
+        - "The agreement centers on Anduril's Lattice software platform for command, control, and counter-drone functions."
+        - "Defense News said the award consolidates numerous earlier procurement actions into one framework."
+      why_it_matters:
+        - "The contract represented a large software-focused military procurement action."
+        - "It highlighted the U.S. military's continued push to integrate command-and-control and counter-drone systems."
+      uncertainty_notes:
+        - "Exact task-order timing and implementation details were not available in the reviewed file."
+    actors:
+      primary:
+        - "United States Army"
+        - "Anduril Industries"
+      secondary:
+        - "U.S. Department of Defense"
+    entities:
+      people:
+        - name: "Gabe Chiulli"
+          role: "Chief Technology Officer, Office of the Chief Information Officer, U.S. Department of War"
+      organizations:
+        - name: "United States Army"
+          description: "Land service of the U.S. armed forces"
+        - name: "Anduril Industries"
+          description: "U.S. defense technology company"
+        - name: "U.S. Department of Defense"
+          description: "U.S. defense department (styled Department of War since 2025)"
+        - name: "U.S. Army Contracting Command"
+          description: "U.S. Army procurement command"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "contract-award"
+        - "defense-software-procurement"
+      tags:
+        - "anduril"
+        - "u-s-army"
+        - "defense-software"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Border clash"
+    topics:
+      - "Border Security"
+      - "Bilateral Tensions"
+      - "2026 Afghanistan–Pakistan war"
+      - "Border clash"
+      - "Afghanistan"
+      - "Pakistan"
+    importance: 7
+    headline: "Taliban and Pakistan exchange claims after border clash in eastern Afghanistan"
+    summary: >
+      The Taliban defence ministry said its forces captured a Pakistani border post and
+      inflicted heavy casualties after artillery shelling in Kunar and Nangarhar, while
+      Pakistan's information ministry rejected the casualty claim as propaganda. The two
+      official statements in this record indicate that a serious border confrontation
+      occurred, but they do not independently resolve the scale of losses or the extent of
+      territorial change. The clash kept the Afghanistan-Pakistan crisis active a day after
+      Pakistan's cross-border airstrikes.
+    key_data: []
+    details:
+      what_happened:
+        - "The Taliban defence ministry said its forces attacked Pakistani military positions in Kunar and Nangarhar."
+        - "Taliban officials claimed they captured a Pakistani post and destroyed an armored vehicle."
+        - "The Taliban said 14 Pakistani soldiers were killed and 11 wounded."
+        - "Pakistan's information ministry rejected the casualty claim as propaganda."
+      why_it_matters:
+        - "The exchange showed that the Afghanistan-Pakistan border crisis remained volatile after the March 13 airstrikes."
+        - "Conflicting official claims made it difficult to assess the scale of escalation in real time."
+      uncertainty_notes:
+        - "The casualty figures and claim that a Pakistani post was captured were not independently verified in the reviewed file."
+    actors:
+      primary: []
+      secondary:
+        - "Taliban Defence Ministry"
+        - "Pakistan Armed Forces"
+        - "Pakistan Information Ministry"
+    entities:
+      people:
+        - name: "Ziaurrahman Spinghar"
+          role: "Taliban head of information and culture in Kunar province"
+      organizations:
+        - name: "Taliban Defence Ministry"
+          description: "Defense ministry of the Taliban government"
+        - name: "Pakistan Information Ministry"
+          description: "Ministry of Information of Pakistan"
+        - name: "Pakistan Armed Forces"
+          description: "Military of Pakistan"
+      states:
+        - "Afghanistan"
+        - "Pakistan"
+    geography:
+      countries:
+        - "Afghanistan"
+        - "Pakistan"
+      places:
+        - "Kunar Province"
+        - "Nangarhar Province"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "border-clash"
+        - "conflicting-claims"
+      tags:
+        - "afghanistan-pakistan-border"
+        - "taliban"
+        - "cross-border-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "According to Taliban officials, fourteen Pakistani soldiers are killed and eleven others are injured by Afghan fighters during the capture of a Pakistani guard post along the Durand Line in Kunar Province, Afghanistan."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "low"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-007"
+    category: "Disasters and accidents"
+    subcategory: "Landslide"
+    topics:
+      - "Extreme Weather"
+      - "Humanitarian Crisis"
+      - "Landslide"
+      - "Ethiopia"
+    importance: 7
+    headline: "Landslides in southern Ethiopia leave more than 100 dead"
+    summary: >
+      Local authorities in Ethiopia's Gamo Zone said landslides in Gacho Baba, Kamba, and
+      Bonke had killed at least 102 people by March 14. The Ethiopian Human Rights
+      Commission said 3,461 people had been displaced, showing that the disaster had widened
+      well beyond the death toll first reported on March 12. Continued rain and unstable
+      terrain complicated the search and recovery effort.
+    key_data: []
+    details:
+      what_happened:
+        - "Gamo Zone authorities said landslides hit Gacho Baba, Kamba, and Bonke after heavy rain."
+        - "Local officials said the death toll had risen to at least 102."
+        - "The Ethiopian Human Rights Commission said 3,461 people had been displaced."
+        - "Search and recovery operations continued in difficult weather conditions."
+      why_it_matters:
+        - "The higher toll showed that the landslide emergency was still worsening two days after the first reports."
+        - "Large displacement added a humanitarian burden beyond the immediate rescue operation."
+      uncertainty_notes:
+        - "Local missing-person figures and broader national response measures were still evolving on March 14."
+    actors:
+      primary:
+        - "Gamo Zone authorities"
+      secondary:
+        - "Ethiopian Human Rights Commission"
+    entities:
+      people: []
+      organizations:
+        - name: "Gamo Zone Communications Office"
+          description: "Local government communications office in southern Ethiopia"
+        - name: "Ethiopian Human Rights Commission"
+          description: "Ethiopian national human-rights institution"
+      states:
+        - "Ethiopia"
+    geography:
+      countries:
+        - "Ethiopia"
+      places:
+        - "Gamo Zone"
+        - "Gacho Baba"
+        - "Kamba"
+        - "Bonke"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 102
+      injured: null
+      displaced: 3461
+      missing: null
+      arrest_count: null
+      damage: "Rural settlements and agricultural land were buried or heavily damaged by mud and debris."
+    classification:
+      event_type:
+        - "landslide"
+        - "humanitarian-emergency"
+      tags:
+        - "ethiopia-landslides"
+        - "gamo-zone"
+        - "displacement"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "This event updates the March 12 landslide disaster with higher official casualty and displacement figures."
+  - id: "evt-2026-03-14-008"
+    category: "Law and crime"
+    subcategory: "Organized crime"
+    topics:
+      - "Insurgency"
+      - "Resource Extraction"
+      - "Organized crime"
+      - "Nigeria"
+    importance: 6
+    headline: "Ambush on a joint security patrol in Plateau State kills 20"
+    summary: >
+      The Kanam Development Association and Premium Times Nigeria reported that armed
+      attackers ambushed a joint security patrol in Kanam, Plateau State, killing 20 people.
+      The reports said the attackers later looted property and rustled cattle in Kyaram,
+      while Governor Caleb Mutfwang condemned the attack and promised stronger security
+      measures. Because the reviewed file relies on a civil-society group and local media
+      rather than a national official casualty bulletin, some operational detail remains
+      provisional.
+    key_data: []
+    details:
+      what_happened:
+        - "KADA said armed attackers ambushed a joint security patrol in Kanam, Plateau State."
+        - "The two cited sources reported 20 deaths among security personnel and local volunteers."
+        - "Premium Times said the attackers later looted property in Kyaram and drove away cattle."
+        - "Governor Caleb Mutfwang condemned the attack and promised stronger security measures."
+      why_it_matters:
+        - "The incident showed the continued lethality of armed attacks in Plateau State's rural communities."
+        - "Looting and cattle rustling pointed to the overlap between violent attacks and predatory criminal activity."
+      uncertainty_notes:
+        - "The casualty account in this record relies on local civil-society and press reporting rather than a national official bulletin."
+    actors:
+      primary: []
+      secondary:
+        - "Unidentified armed attackers"
+        - "Nigerian Military Forces"
+        - "Local Vigilante Groups"
+    entities:
+      people:
+        - name: "Caleb Mutfwang"
+          role: "Governor of Plateau State, Nigeria"
+      organizations:
+        - name: "Kanam Development Association (KADA)"
+          description: "Community association in Kanam, Plateau State, Nigeria"
+        - name: "Nigerian Military Forces"
+          description: "Armed forces of Nigeria"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Plateau State"
+        - "Kanam"
+        - "Wanka"
+        - "Kyaram"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 20
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Property was looted in Kyaram and cattle were rustled after the ambush."
+    classification:
+      event_type:
+        - "armed-attack"
+        - "criminal-violence"
+      tags:
+        - "plateau-state"
+        - "kanam"
+        - "armed-ambush"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-009"
+    category: "Law and crime"
+    subcategory: "Anti-gang operation"
+    topics:
+      - "Organized Crime"
+      - "Bilateral Operations"
+      - "Ecuadorian conflict"
+      - "Anti-gang operation"
+      - "Ecuador"
+      - "United States"
+    importance: 5
+    headline: "Ecuador details a four-province curfew as U.S.-backed security operations expand"
+    summary: >
+      Ecuador detailed the implementation of a nighttime curfew across Guayas, Los Ríos,
+      Santo Domingo de los Tsáchilas, and El Oro as security operations expanded on March
+      14. The reviewed file cites an Ecuadorian government release for the decree and
+      Associated Press for the description of U.S. logistical backing and the destruction of
+      a trafficking camp linked to the Border Commandos. This event was rewritten to frame
+      the U.S. role as support rather than as a direct joint combat operation.
+    key_data: []
+    details:
+      what_happened:
+        - "The Ecuadorian government said the curfew would run from 11 p.m. to 5 a.m. in four provinces."
+        - "Officials said the measure was intended to support security operations against criminal groups."
+        - "Associated Press reported U.S. logistical backing for the broader offensive."
+        - "Associated Press also reported the destruction of a trafficking camp linked to the Border Commandos."
+      why_it_matters:
+        - "The curfew showed how far Ecuador was willing to expand emergency security measures in response to organized crime."
+        - "U.S. logistical support highlighted the growing international dimension of Ecuador's anti-gang campaign."
+      uncertainty_notes:
+        - "The reviewed file supports U.S. logistical backing, but not a direct U.S. combat role in the operations."
+    actors:
+      primary:
+        - "Government of Ecuador"
+      secondary:
+        - "United States Southern Command"
+        - "Border Commandos (FARC dissidents)"
+    entities:
+      people:
+        - name: "Daniel Noboa"
+          role: "President of Ecuador"
+        - name: "Francis Donovan"
+          role: "Commander of U.S. Southern Command"
+        - name: "John Reimberg"
+          role: "Minister of the Interior of Ecuador"
+      organizations:
+        - name: "Government of Ecuador"
+          description: "Government of Ecuador"
+        - name: "United States Southern Command"
+          description: "U.S. military command for Latin America and the Caribbean"
+      states:
+        - "Ecuador"
+        - "United States"
+    geography:
+      countries:
+        - "Ecuador"
+        - "United States"
+      places:
+        - "Guayas"
+        - "Los Ríos"
+        - "Santo Domingo de los Tsáchilas"
+        - "El Oro"
+        - "Quito"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Destruction of militant encampment"
+    classification:
+      event_type:
+        - "curfew"
+        - "security-operation"
+      tags:
+        - "ecuador-curfew"
+        - "anti-gang-operation"
+        - "u-s-support"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Ecuador begins enforcing a curfew from 11:00 p.m. to 5:00 a.m. in the provinces of El Oro, Guayas, Los Ríos, and Santo Domingo de los Tsáchilas to support military operations against criminal organizations."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "This event expands on the March 13 curfew announcement with province-level scope and operational detail."
+  - id: "evt-2026-03-14-010"
+    category: "Law and crime"
+    subcategory: "Protests"
+    topics:
+      - "Economic Crisis"
+      - "Political Instability"
+      - "2026 Cuban crisis"
+      - "Protests"
+      - "Cuba"
+    importance: 5
+    headline: "Protesters damage Communist Party building in Morón amid Cuba's fuel crisis"
+    summary: >
+      Protests over shortages and blackouts in Morón, Ciego de Ávila, led to damage at a
+      local Communist Party building and five arrests, according to local state media and
+      Associated Press. Associated Press also cited President Miguel Díaz-Canel saying Cuba
+      had gone three months without fuel shipments. The unrest showed how the island's
+      worsening energy crisis was spilling into public disorder.
+    key_data: []
+    details:
+      what_happened:
+        - "Invasor reported protests in Morón over blackouts and shortages."
+        - "The outlet said demonstrators damaged the local headquarters of the Communist Party of Cuba."
+        - "Associated Press reported five arrests after the unrest."
+        - "Associated Press said President Miguel Díaz-Canel acknowledged that Cuba had gone three months without fuel shipments."
+      why_it_matters:
+        - "Damage to a Communist Party office signaled a sharper form of unrest than routine complaints over shortages."
+        - "The episode linked Cuba's fuel crisis directly to public-order pressure."
+      uncertainty_notes:
+        - "The detailed sequence of the vandalism relies partly on local state-affiliated reporting."
+    actors:
+      primary:
+        - "Protesters in Morón"
+      secondary:
+        - "Cuban Security Forces"
+        - "Government of Cuba"
+    entities:
+      people:
+        - name: "Miguel Díaz-Canel"
+          role: "President of Cuba"
+      organizations:
+        - name: "Communist Party of Cuba"
+          description: "Ruling party of Cuba"
+        - name: "Cuban Security Forces"
+          description: "Security forces of Cuba"
+      states:
+        - "Cuba"
+    geography:
+      countries:
+        - "Cuba"
+      places:
+        - "Morón"
+        - "Ciego de Ávila Province"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 5
+      damage: "Destruction and burning of municipal headquarters property"
+    classification:
+      event_type:
+        - "protest"
+        - "property-damage"
+      tags:
+        - "cuba-protests"
+        - "moron"
+        - "fuel-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Cuban authorities arrest five people after a small group of protesters damaged and set fire to a Communist Party office in Morón, Ciego de Ávila Province, during demonstrations over prolonged blackouts and shortages of basic goods."
+      external:
+        - id: "src-010-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/75e420ce4d6a1d52ceac5224839e2a6b"
+          publication_date: "2026-03-14"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [80]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-011"
+    category: "Law and crime"
+    subcategory: "Hate crime"
+    topics:
+      - "Extremism"
+      - "Hate Crimes"
+      - "Antisemitism in Europe"
+      - "Hate crime"
+      - "Netherlands"
+    importance: 5
+    headline: "Explosion damages Jewish school in Amsterdam as Dutch security is tightened"
+    summary: >
+      An explosion damaged a Jewish educational facility in Amsterdam on March 14, causing
+      property damage but no reported casualties. The Dutch justice ministry said security
+      around Jewish sites was being strengthened, while AFP reported details of the
+      Amsterdam blast and public condemnation from Mayor Femke Halsema. This record does not
+      independently establish a direct operational link between the Amsterdam incident and
+      other attacks elsewhere in Europe.
+    key_data: []
+    details:
+      what_happened:
+        - "An explosive device damaged a Jewish educational facility in Amsterdam."
+        - "No casualties were reported in the Amsterdam blast."
+        - "Dutch authorities said protection of Jewish sites would be increased while the investigation continued."
+        - "Mayor Femke Halsema publicly condemned the attack against the Jewish community."
+      why_it_matters:
+        - "The attack heightened concern about anti-Jewish violence and intimidation in the Netherlands."
+        - "The response showed Dutch authorities treating the blast as a serious security issue for Jewish institutions."
+      uncertainty_notes:
+        - "The available sources in this record do not independently verify a linked cross-border attack pattern beyond the Amsterdam incident itself."
+    actors:
+      primary: []
+      secondary:
+        - "Dutch Law Enforcement"
+    entities:
+      people:
+        - name: "Femke Halsema"
+          role: "Mayor of Amsterdam"
+        - name: "David van Weel"
+          role: "Dutch Minister of Justice and Security"
+      organizations:
+        - name: "Dutch Justice and Security Ministry"
+          description: "Dutch Ministry of Justice and Security"
+      states:
+        - "Netherlands"
+    geography:
+      countries:
+        - "Netherlands"
+      places:
+        - "Amsterdam"
+        - "Buitenveldert"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Structural damage to a Jewish educational facility"
+    classification:
+      event_type:
+        - "explosive-attack"
+        - "hate-crime-investigation"
+      tags:
+        - "amsterdam-jewish-school"
+        - "explosive-attack"
+        - "dutch-security"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An explosion lightly damages a Jewish school in Amsterdam, Netherlands, with no reported injuries, making it the third attack against Jewish buildings in the Low Countries this week."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events: []
+    notes: "The event was narrowed to the Amsterdam blast because the reviewed file did not provide source-backed detail for a coordinated Netherlands-Belgium incident pattern."
+  - id: "evt-2026-03-14-012"
+    category: "Business and economy"
+    subcategory: "Aviation"
+    topics:
+      - "Supply Chain Disruption"
+      - "Geopolitical Risk"
+      - "Aviation"
+      - "Australia"
+      - "New Zealand"
+    importance: 5
+    headline: "Middle East airspace disruptions trigger delays and cancellations across Oceania"
+    summary: >
+      Airlines operating from Australia and New Zealand reported extensive delays and
+      cancellations on March 14 as carriers rerouted around Middle East airspace closures.
+      The reviewed file cites Australia's civil aviation regulator for disruption figures
+      and Reuters for the effect on airlines such as Qatar Airways, Jetstar, Virgin
+      Australia, and Air New Zealand. The episode showed how the Iran conflict was spilling
+      into long-haul travel and operating costs across Oceania.
+    key_data: []
+    details:
+      what_happened:
+        - "Australia's civil aviation regulator cited 787 flight delays and 46 cancellations affecting Australia and New Zealand."
+        - "Airlines rerouted around Middle East airspace closures, extending flight times."
+        - "Reuters said carriers including Qatar Airways, Jetstar, Virgin Australia, and Air New Zealand altered schedules."
+        - "The disruption stranded passengers and added fuel and ticket-cost pressure to long-haul operations."
+      why_it_matters:
+        - "The disruption showed how quickly Middle East conflict can affect long-haul aviation networks far from the battlefield."
+        - "Oceania's distance from Europe and the Middle East leaves its carriers especially exposed to rerouting costs."
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary:
+        - "Civil Aviation Safety Authority (Australia)"
+        - "Qatar Airways"
+        - "Jetstar"
+        - "Virgin Australia"
+        - "Air New Zealand"
+    entities:
+      people: []
+      organizations:
+        - name: "Civil Aviation Safety Authority (Australia)"
+          description: "Australian aviation regulator"
+        - name: "Qatar Airways"
+          description: "Qatari national airline"
+        - name: "Jetstar"
+          description: "Australian low-cost airline"
+        - name: "Virgin Australia"
+          description: "Australian airline"
+        - name: "Air New Zealand"
+          description: "New Zealand national airline"
+      states:
+        - "Australia"
+        - "New Zealand"
+    geography:
+      countries:
+        - "Australia"
+        - "New Zealand"
+      places:
+        - "Sydney"
+        - "Melbourne"
+        - "Brisbane"
+        - "Auckland"
+        - "Wellington"
+        - "Christchurch"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "aviation-disruption"
+        - "airspace-rerouting"
+      tags:
+        - "oceania-aviation"
+        - "airspace-closures"
+        - "flight-disruptions"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-026"
+    notes: "The disruption followed the strikes recorded earlier the same day in Isfahan, Fujairah and Kuwait."
+  - id: "evt-2026-03-14-013"
+    category: "Sports"
+    subcategory: "Rugby"
+    topics:
+      - "Championship Final"
+      - "2026 Six Nations Championship"
+      - "Rugby"
+      - "France"
+      - "United Kingdom"
+    importance: 4
+    headline: "France beats England 48-46 to win the Six Nations title"
+    summary: >
+      France beat England 48-46 at Stade de France to win the Six Nations title on March 14.
+      Official Six Nations coverage and BBC Sport described a 13-try match in which Louis
+      Bielle-Biarrey scored four tries, Tommy Freeman briefly put England ahead late on, and
+      Thomas Ramos kicked the winning penalty after the siren. The event was kept tightly
+      focused on the documented match result and decisive moments.
+    key_data: []
+    details:
+      what_happened:
+        - "France defeated England 48-46 at Stade de France to win the Six Nations title."
+        - "The match featured 13 tries in total."
+        - "Tommy Freeman scored late for England to briefly put the visitors in front."
+        - "Thomas Ramos kicked the winning penalty after the siren for France."
+        - "Louis Bielle-Biarrey scored four tries for France."
+      why_it_matters:
+        - "The match delivered one of the highest-scoring title deciders in recent Six Nations history."
+        - "France secured the championship with a late comeback finish."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "France National Rugby Union Team"
+        - "England National Rugby Union Team"
+      secondary: []
+    entities:
+      people:
+        - name: "Steve Borthwick"
+          role: "England rugby union head coach"
+        - name: "Tommy Freeman"
+          role: "England rugby union player"
+        - name: "Thomas Ramos"
+          role: "France rugby union player"
+        - name: "Louis Bielle-Biarrey"
+          role: "France rugby union player"
+      organizations:
+        - name: "Rugby Football Union"
+          description: "Governing body of rugby union in England"
+      states:
+        - "France"
+        - "United Kingdom"
+    geography:
+      countries:
+        - "France"
+        - "United Kingdom"
+      places:
+        - "Paris"
+        - "Stade de France"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "match-result"
+        - "championship-decider"
+      tags:
+        - "six-nations"
+        - "france-england"
+        - "rugby-union"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In rugby union, France defeats England 48–46 to win the Six Nations Championship in the final."
+      external:
+        - id: "src-013-a"
+          outlet: "Six Nations Rugby Official"
+          url: "https://www.sixnationsrugby.com/en/m6n/fixtures/202600/france-v-england-14032026-2110"
+          publication_date: "2026-03-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [81]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-014"
+    category: "Sports"
+    subcategory: "Football"
+    topics:
+      - "Historical Records"
+      - "2025–26 Premier League"
+      - "Football"
+      - "United Kingdom"
+    importance: 4
+    headline: "Arsenal's Max Dowman becomes the youngest Premier League goalscorer"
+    summary: >
+      The reviewed file attributes to Premier League and Sky Sports coverage the claim that
+      Arsenal midfielder Max Dowman became the competition's youngest goalscorer on March
+      14, scoring against Everton at 16 years and 73 days old. The goal was described as
+      coming early in Arsenal's win and pushing Dowman past the previous age benchmark.
+      Because exact source URLs could not be recovered in this pass, the record keeps the
+      claim close to the file's existing source attributions and reported age figure.
+    key_data: []
+    details:
+      what_happened:
+        - "The reviewed file says Max Dowman scored against Everton for Arsenal."
+        - "The file gives Dowman's age as 16 years and 73 days on the day of the goal."
+        - "The source attributions say the goal made him the youngest scorer in Premier League history."
+        - "The goal was described as coming in an Arsenal win over Everton."
+      why_it_matters:
+        - "If accurate, the goal marked a notable Premier League age record for Arsenal's academy system."
+        - "The event highlighted the rapid rise of a high-profile teenage prospect."
+      uncertainty_notes:
+        - "Exact article URLs for the cited Premier League and Sky Sports items could not be confidently recovered in this pass."
+    actors:
+      primary:
+        - "Max Dowman"
+      secondary:
+        - "Arsenal F.C."
+        - "Everton F.C."
+    entities:
+      people:
+        - name: "Max Dowman"
+          role: "Arsenal footballer"
+      organizations:
+        - name: "Arsenal F.C."
+          description: "English football club"
+        - name: "Everton F.C."
+          description: "English football club"
+        - name: "Premier League"
+          description: "Top division of English football"
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places:
+        - "London"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "record"
+        - "match-result"
+      tags:
+        - "arsenal"
+        - "max-dowman"
+        - "premier-league-record"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In association football, English attacking midfielder Max Dowman scores for Arsenal in a 2–0 win over Everton to become the youngest ever goal scorer in Premier League history at 16 years and 73 days old."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-14-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Saudi Arabia"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Saudi Arabia"
+    importance: 7
+    headline: "Iranian drone strike damages five U.S. warplanes at Prince Sultan Air Base"
+    summary: >
+      Five U.S. warplanes are damaged in an Iranian drone strike on Prince Sultan Air Base,
+      Saudi Arabia.
+    key_data: []
+    details:
+      what_happened:
+        - "Five U.S. warplanes are damaged in an Iranian drone strike on Prince Sultan Air Base, Saudi Arabia."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Saudi Arabia"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Saudi Arabia"
+        - "Iran"
+      places:
+        - "Prince Sultan Air Base"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-saudi-arabia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Five U.S. warplanes are damaged in an Iranian drone strike on Prince Sultan Air Base, Saudi Arabia."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-002"
+      - "evt-2026-03-14-017"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Wall Street Journal per the Wikipedia portal."
+  - id: "evt-2026-03-14-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 7
+    headline: "Trump calls on allies to help lift Iran's blockade of the Strait of Hormuz"
+    summary: >
+      United States president Donald Trump calls on the country's allies to help lift the
+      Iranian blockade of the Strait of Hormuz.
+    key_data: []
+    details:
+      what_happened:
+        - "United States president Donald Trump calls on the country's allies to help lift the Iranian blockade of the Strait of Hormuz."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+      secondary: []
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations: []
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+      places:
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "United States president Donald Trump calls on the country's allies to help lift the Iranian blockade of the Strait of Hormuz."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-14-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+    importance: 5
+    headline: "Drones strike Kuwait's Ahmad al-Jaber Air Base, injuring three soldiers"
+    summary: >
+      Three Kuwaiti soldiers are injured after two drones struck Ahmad al-Jaber Air Base,
+      damaging the facility.
+    key_data: []
+    details:
+      what_happened:
+        - "Three Kuwaiti soldiers are injured after two drones struck Ahmad al-Jaber Air Base, damaging the facility."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Kuwait"
+    geography:
+      countries:
+        - "Kuwait"
+      places:
+        - "Ahmad al-Jaber Air Base"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 3
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Three Kuwaiti soldiers are injured after two drones struck Ahmad al-Jaber Air Base, damaging the facility."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-002"
+      - "evt-2026-03-14-015"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via The Times of Israel per the Wikipedia portal."
+  - id: "evt-2026-03-14-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+    importance: 6
+    headline: "Missile of unknown origin hits U.S. embassy in Baghdad"
+    summary: >
+      The U.S. embassy in Baghdad, Iraq, is hit by a missile from an unknown origin.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.S. embassy in Baghdad, Iraq, is hit by a missile from an unknown origin."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Iraq"
+    geography:
+      countries:
+        - "United States"
+        - "Iraq"
+      places:
+        - "Baghdad"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The U.S. embassy in Baghdad, Iraq, is hit by a missile from an unknown origin."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Politico per the Wikipedia portal."
+  - id: "evt-2026-03-14-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+    importance: 5
+    headline: "Hamas urges Iran to stop attacking its Middle East neighbours"
+    summary: >
+      Palestinian militant group Hamas calls for Iran to cease their attacks on Middle East
+      neighbors during the war. They also reaffirm Tehran's right to defend itself from
+      Israel and the United States.
+    key_data: []
+    details:
+      what_happened:
+        - "Palestinian militant group Hamas calls for Iran to cease their attacks on Middle East neighbors during the war. They also reaffirm Tehran's right to defend itself from Israel and the United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Hamas"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Hamas"
+          description: "Palestinian Islamist militant group governing Gaza"
+      states:
+        - "Iran"
+        - "Israel"
+        - "United States"
+        - "Palestine"
+    geography:
+      countries:
+        - "Iran"
+        - "Israel"
+        - "United States"
+        - "Palestine"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Palestinian militant group Hamas calls for Iran to cease their attacks on Middle East neighbors during the war. They also reaffirm Tehran's right to defend itself from Israel and the United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by CBS News per the Wikipedia portal."
+  - id: "evt-2026-03-14-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Lebanon war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Lebanon war"
+    importance: 6
+    headline: "Israel and Lebanon expected to hold direct talks"
+    summary: >
+      Israel and Lebanon are expected to hold direct talks in the coming days amidst the
+      reignited war between Israel and Hezbollah.
+    key_data: []
+    details:
+      what_happened:
+        - "Israel and Lebanon are expected to hold direct talks in the coming days amidst the reignited war between Israel and Hezbollah."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+        - "Lebanon"
+    geography:
+      countries:
+        - "Israel"
+        - "Lebanon"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "hezbollah-israel-conflict"
+        - "2026-lebanon-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Israel and Lebanon are expected to hold direct talks in the coming days amidst the reignited war between Israel and Hezbollah."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-14-021"
+    category: "Armed conflicts and attacks"
+    subcategory: "Russian attacks on civilians in the Russo-Ukrainian war, Russian strikes against Ukrainian infrastructure"
+    topics:
+      - "Russo-Ukrainian war"
+      - "Russian attacks on civilians in the Russo-Ukrainian war, Russian strikes against Ukrainian infrastructure"
+    importance: 5
+    headline: "Russian drone strikes across Ukraine kill five"
+    summary: >
+      Five people are killed and three others are injured in Russian drone strikes on
+      residential areas and critical infrastructure across Ukraine.
+    key_data: []
+    details:
+      what_happened:
+        - "Five people are killed and three others are injured in Russian drone strikes on residential areas and critical infrastructure across Ukraine."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Ukraine"
+        - "Russia"
+    geography:
+      countries:
+        - "Ukraine"
+        - "Russia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 5
+      injured: 3
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "russo-ukrainian-war"
+        - "russian-attacks-on-civilians-in-the-russo-ukrainian-war-russian-strikes-against-ukrainian-infrastructure"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Five people are killed and three others are injured in Russian drone strikes on residential areas and critical infrastructure across Ukraine."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-14-022"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Minibus crash near Nepal's Manakamana Temple kills seven Indian pilgrims"
+    summary: >
+      Seven Indian pilgrims are killed and eight others are injured when a minibus returning
+      from the Manakamana Temple veers off a road and plunges down a slope in Gandaki
+      Province, Nepal.
+    key_data: []
+    details:
+      what_happened:
+        - "Seven Indian pilgrims are killed and eight others are injured when a minibus returning from the Manakamana Temple veers off a road and plunges down a slope in Gandaki Province, Nepal."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Nepal"
+        - "India"
+    geography:
+      countries:
+        - "Nepal"
+        - "India"
+      places:
+        - "Manakamana Temple"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 7
+      injured: 8
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Seven Indian pilgrims are killed and eight others are injured when a minibus returning from the Manakamana Temple veers off a road and plunges down a slope in Gandaki Province, Nepal."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Hindustan Times per the Wikipedia portal."
+  - id: "evt-2026-03-14-023"
+    category: "Politics and elections"
+    subcategory: "Spain in the 2026 Iran war, Gaza war protests"
+    topics:
+      - "Protests against the 2026 Iran war"
+      - "Spain in the 2026 Iran war, Gaza war protests"
+    importance: 4
+    headline: "Anti-war protests held across Spain"
+    summary: >
+      Anti-war protests are held across Spain, including in Madrid, Barcelona, and Valencia,
+      against both the Iran war and the Gaza war, reviving the "No to war" movement.
+    key_data: []
+    details:
+      what_happened:
+        - "Anti-war protests are held across Spain, including in Madrid, Barcelona, and Valencia, against both the Iran war and the Gaza war, reviving the \"No to war\" movement."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Spain"
+        - "Iran"
+    geography:
+      countries:
+        - "Spain"
+        - "Iran"
+      places:
+        - "Madrid"
+        - "Barcelona"
+        - "Valencia"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "protest"
+      tags:
+        - "protests-against-the-2026-iran-war"
+        - "spain-in-the-2026-iran-war-gaza-war-protests"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Anti-war protests are held across Spain, including in Madrid, Barcelona, and Valencia, against both the Iran war and the Gaza war, reviving the \"No to war\" movement."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-024"
+    notes: "Portal-derived event with no deep-research coverage; reported by El Confidencial and Global Portal News per the Wikipedia portal."
+  - id: "evt-2026-03-14-024"
+    category: "Politics and elections"
+    subcategory: "Protests against the 2026 Iran war"
+    topics:
+      - "Protests against the 2026 Iran war"
+    importance: 4
+    headline: "Protests in Italy against the war and Meloni's government"
+    summary: >
+      Protests are held in Italy against the war, Prime Minister Giorgia Meloni, and
+      upcoming constitutional referendum in the country.
+    key_data: []
+    details:
+      what_happened:
+        - "Protests are held in Italy against the war, Prime Minister Giorgia Meloni, and upcoming constitutional referendum in the country."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Giorgia Meloni"
+      secondary: []
+    entities:
+      people:
+        - name: "Giorgia Meloni"
+          role: "Prime Minister of Italy"
+      organizations: []
+      states:
+        - "Italy"
+    geography:
+      countries:
+        - "Italy"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "protest"
+      tags:
+        - "protests-against-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Protests are held in Italy against the war, Prime Minister Giorgia Meloni, and upcoming constitutional referendum in the country."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-023"
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-14-025"
+    category: "Politics and elections"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Belarusian activist Maria Kolesnikova receives the Charlemagne Prize in Aachen"
+    summary: >
+      Belarusian opposition activist Maria Kolesnikova receives the Charlemagne Prize in
+      Aachen, Germany, which had been awarded to her in 2022 for her role in advocating for
+      democracy, human rights, and free elections in Belarus while she was imprisoned for
+      her role in the 2020 Belarusian protests against President Alexander Lukashenko.
+    key_data: []
+    details:
+      what_happened:
+        - "Belarusian opposition activist Maria Kolesnikova receives the Charlemagne Prize in Aachen, Germany, which had been awarded to her in 2022 for her role in advocating for democracy, human rights, and free elections in Belarus while she was imprisoned for her role in the 2020 Belarusian protests against President Alexander Lukashenko."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Maria Kolesnikova"
+      secondary: []
+    entities:
+      people:
+        - name: "Maria Kolesnikova"
+          role: "Belarusian opposition activist"
+      organizations: []
+      states:
+        - "Germany"
+        - "Belarus"
+    geography:
+      countries:
+        - "Germany"
+        - "Belarus"
+      places:
+        - "Aachen"
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "election"
+        - "protest"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Belarusian opposition activist Maria Kolesnikova receives the Charlemagne Prize in Aachen, Germany, which had been awarded to her in 2022 for her role in advocating for democracy, human rights, and free elections in Belarus while she was imprisoned for her role in the 2020 Belarusian protests against President Alexander Lukashenko."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-14-026"
+    category: "Sports"
+    subcategory: "2026 Formula One World Championship"
+    topics:
+      - "Economic impact of the 2026 Iran war"
+      - "2026 Formula One World Championship"
+    importance: 5
+    headline: "FIA cancels Bahrain and Saudi Arabian Grands Prix over safety concerns"
+    summary: >
+      In auto racing, the Fédération Internationale de l'Automobile cancels the Bahrain and
+      Saudi Arabian Grands Prix, both scheduled to occur in April, due to safety concerns
+      amid the Iran war.
+    key_data: []
+    details:
+      what_happened:
+        - "In auto racing, the Fédération Internationale de l'Automobile cancels the Bahrain and Saudi Arabian Grands Prix, both scheduled to occur in April, due to safety concerns amid the Iran war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Fédération Internationale de l'Automobile"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Fédération Internationale de l'Automobile"
+          description: "Governing body of world motorsport"
+      states:
+        - "Bahrain"
+        - "Iran"
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Bahrain"
+        - "Iran"
+        - "Saudi Arabia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-14"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "economic-impact-of-the-2026-iran-war"
+        - "2026-formula-one-world-championship"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In auto racing, the Fédération Internationale de l'Automobile cancels the Bahrain and Saudi Arabian Grands Prix, both scheduled to occur in April, due to safety concerns amid the Iran war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-14-012"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+
+strategic_conclusion: >
+  March 14 brought further strikes on both sides of the Gulf: a deadly strike on an Isfahan
+  factory, fires at Fujairah and drone attacks on U.S. and Kuwaiti air bases, alongside
+  President Trump's appeal to allies to help reopen Hormuz and signs of Israel–Lebanon
+  talks. The war's effects reached aviation and sport, from Oceania flight disruption to the
+  cancellation of Gulf Formula One races, and anti-war protests spread in Spain and Italy.
+  Separately, the Afghanistan–Pakistan border war, Ethiopia's landslide toll, an ambush in
+  Plateau State and unrest in Cuba marked continuing crises elsewhere.
+
+works_cited:
+  - id: 1
+    title: "Top News Stories That Dominated Headlines in World | Global Pulse | March 14, 2026"
+    outlet: "Part 1"
+    url: "https://www.youtube.com/watch?v=wse6fYk5Zh0"
+    accessed: "2026-03-16"
+  - id: 2
+    title: "Hundreds of Passengers across Oceania Face Travel Disruption as Airports in Melbourne, Sydney, Auckland, Wellington and more in Australia, New Zealand Experience 787 Flight Delays and 46 Cancellations by Qatar Airways, Jetstar, Virgin Australia, Air Ne"
+    outlet: "travelandtourworld.com"
+    url: "https://www.travelandtourworld.com/news/article/hundreds-of-passengers-across-oceania-face-travel-disruption-as-airports-in-melbourne-sydney-auckland-wellington-and-more-in-australia-new-zealand-experience-787-flight-delays-and-46-cancellations-by"
+    accessed: "2026-03-16"
+  - id: 3
+    title: "Asia to pledge $30 billion in energy, mineral deals with US"
+    outlet: "mining.com"
+    url: "https://www.mining.com/web/asia-set-to-pledge-30-billion-in-energy-mineral-deals-with-us"
+    accessed: "2026-03-16"
+  - id: 4
+    title: "News Analysis: Landslides in south Ethiopia expose disaster preparedness gaps as death toll climbs"
+    outlet: "addisstandard.com"
+    url: "https://addisstandard.com/landslides-in-south-ethiopia-expose-disaster-preparedness-gaps-as-death-toll-climbs"
+    accessed: "2026-03-16"
+  - id: 5
+    title: "Armed group killed security personnel in an ambush in north-central Nigeria, authorities say"
+    outlet: "halifax.citynews.ca"
+    url: "https://halifax.citynews.ca/2026/03/15/armed-group-killed-security-personnel-in-an-ambush-in-north-central-nigeria-authorities-say"
+    accessed: "2026-03-16"
+  - id: 6
+    title: "Ecuador declares curfew in coastal provinces for security operations"
+    outlet: "The Straits Times"
+    url: "https://www.straitstimes.com/world/ecuador-declares-curfew-in-coastal-provinces-for-security-operations"
+    accessed: "2026-03-16"
+  - id: 7
+    title: "U.S. Army awards enterprise contract for IT commercial solutions"
+    outlet: "army.mil"
+    url: "https://www.army.mil/article/291074/u_s_army_awards_enterprise_contract_for_it_commercial_solutions"
+    accessed: "2026-03-16"
+  - id: 8
+    title: "Operations Epic Fury and Roaring Lion: 3/14/26 – 3/15/26 Update"
+    outlet: "JINSA"
+    url: "https://jinsa.org/wp-content/uploads/2026/03/Operations-Epic-Fury-and-Roaring-Lion-03.14.26-03.15.26.pdf"
+    accessed: "2026-03-16"
+  - id: 9
+    title: "US-Israeli strike on Isfahan factory kills 15"
+    outlet: "Middle East Eye"
+    url: "https://www.middleeasteye.net/live-blog/live-blog-update/us-israeli-strike-isfahan-factory-kills-15?nid=434266&topic=War%2520on%2520Iran&fid=553081"
+    accessed: "2026-03-16"
+  - id: 10
+    title: "US-Israeli strike kills 15 at Isfahan factory, Iranian media says | US-Israel war on Iran News"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/amp/news/2026/3/14/us-israeli-strike-kills-15-at-isfahan-factory-iranian-media-says"
+    accessed: "2026-03-16"
+  - id: 11
+    title: "Fifteen killed in strike on factory in Iran’s Isfahan, Fars news agency says"
+    outlet: "Al Arabiya"
+    url: "https://english.alarabiya.net/amp/News/middle-east/2026/03/14/fifteen-killed-in-strike-on-factory-in-iran-s-isfahan-fars-news-agency-says-"
+    accessed: "2026-03-16"
+  - id: 12
+    title: "US-Israeli strikes hit Iran's missile, nuclear, political, and repression sites"
+    outlet: "FDD"
+    url: "https://www.fdd.org/analysis/2026/03/03/us-israeli-strikes-hit-irans-missile-nuclear-political-and-repression-sites"
+    accessed: "2026-03-16"
+  - id: 13
+    title: "Twenty questions (and expert answers) about the Iran war"
+    outlet: "Atlantic Council"
+    url: "https://www.atlanticcouncil.org/dispatches/twenty-questions-and-expert-answers-about-the-iran-war"
+    accessed: "2026-03-16"
+  - id: 14
+    title: "Iran war: What is happening on day 16 of US-Israel attacks?"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/15/iran-war-what-is-happening-on-day-16-of-us-israel-attacks"
+    accessed: "2026-03-16"
+  - id: 15
+    title: "Fire at UAE Oil Hub as Iran Vows Retaliation for US Attack on Kharg Island"
+    outlet: "GV Wire"
+    url: "https://gvwire.com/2026/03/14/fire-at-uae-oil-hub-as-iran-vows-retaliation-for-us-attack-on-kharg-island"
+    accessed: "2026-03-16"
+  - id: 16
+    title: "Tehran claims the U.S. attacked it from the UAE as Iran war enters its third week"
+    outlet: "PBS"
+    url: "https://www.pbs.org/newshour/world/tehran-claims-the-u-s-attacked-it-from-the-uae-as-iran-war-enters-its-third-week"
+    accessed: "2026-03-16"
+  - id: 17
+    title: "Drone Damage Shuts Fujairah Oil Terminal, Diverts Crew Changes and Supply Vessels"
+    outlet: "visahq.com"
+    url: "https://www.visahq.com/news/2026-03-14/ae/drone-damage-shuts-fujairah-oil-terminal-diverts-crew-changes-and-supply-vessels"
+    accessed: "2026-03-16"
+  - id: 18
+    title: "The strategic importance of Fujairah to global oil markets"
+    outlet: "Modern Diplomacy"
+    url: "https://moderndiplomacy.eu/2026/03/14/the-strategic-importance-of-fujairah-to-global-oil-markets"
+    accessed: "2026-03-16"
+  - id: 19
+    title: "Drone attack on Kuwait air base injures three soldiers"
+    outlet: "Middle East Eye"
+    url: "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-kuwait-air-base-injures-three-soldiers"
+    accessed: "2026-03-16"
+  - id: 20
+    title: "3 injured in drone attack on Kuwait’s Ahmad Al-Jaber Air Base"
+    outlet: "egypttoday.com"
+    url: "https://www.egypttoday.com/Article/1/145632/3-injured-in-drone-attack-on-Kuwait%E2%80%99s-Ahmad-Al-Jaber"
+    accessed: "2026-03-16"
+  - id: 21
+    title: "CORRECTED: Drones cause damage, injuries near US base in Kuwait: ministry"
+    outlet: "spacewar.com"
+    url: "https://www.spacewar.com/afp/260314173510.7qus7cut.html"
+    accessed: "2026-03-16"
+  - id: 22
+    title: "AP News Summary at 8:12 p.m. EDT"
+    outlet: "lasvegassun.com"
+    url: "https://lasvegassun.com/news/2026/mar/14/ap-news-summary-at-812-pm-edt"
+    accessed: "2026-03-16"
+  - id: 23
+    title: "AP News Summary at 8:45 p.m. EDT"
+    outlet: "lasvegassun.com"
+    url: "https://lasvegassun.com/news/2026/mar/14/ap-news-summary-at-845-pm-edt"
+    accessed: "2026-03-16"
+  - id: 24
+    title: "Africa News"
+    outlet: "Today's latest from Al Jazeera"
+    url: "https://www.aljazeera.com/africa"
+    accessed: "2026-03-16"
+  - id: 25
+    title: "Portal:Current events/2026 March 14"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_14"
+    accessed: "2026-03-16"
+  - id: 26
+    title: "AP News Summary at 12:33 a.m. EDT"
+    outlet: "morningsun.net"
+    url: "http://www.morningsun.net/stories/ap-news-summary-at-1233-am-edt,320710"
+    accessed: "2026-03-16"
+  - id: 27
+    title: "Japan Signs a $56 Billion Energy Deal with the US: Boosting Ties Amid Global Uncertainty"
+    outlet: "energynewsbeat.co"
+    url: "https://energynewsbeat.co/japan-signs-a-56-billion-energy-deal-with-the-us-boosting-ties-amid-global-uncertainty"
+    accessed: "2026-03-16"
+  - id: 28
+    title: "President Trump's National Energy Dominance Council will host the Inaugural Indo-Pacific Energy Security Ministerial and Business Forum"
+    outlet: "U.S. Department of the Interior"
+    url: "https://www.doi.gov/pressreleases/president-trumps-national-energy-dominance-council-will-host-inaugural-indo-pacific"
+    accessed: "2026-03-16"
+  - id: 29
+    title: "Asia-Pacific allies sign $57 billion in deals with U.S. firms, Burgum says"
+    outlet: "investing.com"
+    url: "https://www.investing.com/news/economy-news/asiapacific-allies-sign-57-billion-in-deals-with-us-firms-burgum-says-4561568"
+    accessed: "2026-03-16"
+  - id: 30
+    title: "Asia-Pacific nations plan $30bn in energy deals with US firms"
+    outlet: "Investment Monitor"
+    url: "https://www.investmentmonitor.ai/news/asia-pacific-nations-plan-30bn-energy-deals"
+    accessed: "2026-03-16"
+  - id: 31
+    title: "U.S. says can provide 'reliable' energy supply to Asia-Pacific"
+    outlet: "The Hindu"
+    url: "https://www.thehindu.com/news/international/us-says-can-provide-reliable-energy-supply-to-asia-pacific/article70744515.ece"
+    accessed: "2026-03-16"
+  - id: 32
+    title: "U.S. says it can provide 'reliable' energy supply to Asia-Pacific"
+    outlet: "The Japan Times"
+    url: "https://www.japantimes.co.jp/news/2026/03/14/asia-pacific/us-energy-supply-asia-pacific"
+    accessed: "2026-03-16"
+  - id: 33
+    title: "World's Longest Range Rocket Artillery System Demonstrates AI-Powered Deep Strike Capabilities in North Korean Live Fire Drill"
+    outlet: "Military Watch Magazine"
+    url: "https://militarywatchmagazine.com/article/world-longest-range-rocket-artillery-nkorea-drill"
+    accessed: "2026-03-16"
+  - id: 34
+    title: "Anduril Lands Massive $20 Billion US Army Contract"
+    outlet: "Startup Researcher"
+    url: "https://www.startupresearcher.com/news/anduril-lands-massive-20-billion-us-army-contract"
+    accessed: "2026-03-16"
+  - id: 35
+    title: "U.S. Army Signs 10-Year $20B Deal With Anduril to Consolidate 120+ Contracts Into Single AI-Powered Lattice Software Framework"
+    outlet: "en.defence-ua.com"
+    url: "https://en.defence-ua.com/weapon_and_tech/us_army_signs_10_year_20b_deal_with_anduril_to_consolidate_120_contracts_into_single_ai_powered_lattice_software_framework-17836.html"
+    accessed: "2026-03-16"
+  - id: 36
+    title: "Army awards Anduril up to $20B Contract for AI-Enabled Lattice Platform"
+    outlet: "OrangeSlices AI"
+    url: "https://orangeslices.ai/anduril-awarded-a20b-us-army-contract"
+    accessed: "2026-03-16"
+  - id: 37
+    title: "Anduril signs potential $20 billion contract with US Army"
+    outlet: "m.economictimes.com"
+    url: "https://m.economictimes.com/tech/technology/anduril-signs-potential-20-billion-contract-with-us-army/articleshow/129592723.cms"
+    accessed: "2026-03-16"
+  - id: 38
+    title: "U.S. Army awards Anduril $20B contract for AI battlefield network"
+    outlet: "Defence Blog"
+    url: "https://defence-blog.com/u-s-army-awards-anduril-20b-contract-for-ai-battlefield-network"
+    accessed: "2026-03-16"
+  - id: 39
+    title: "US Army awards $20 billion contract to Anduril to supply innovative defence technologies"
+    outlet: "Mint"
+    url: "https://www.livemint.com/news/us-news/us-army-awards-20-billion-contract-to-anduril-to-supply-innovative-defence-technologies-11773452730556.html"
+    accessed: "2026-03-16"
+  - id: 40
+    title: "14 Pakistani Soldiers Killed In Border Clashes, Says Taliban"
+    outlet: "afintl.com"
+    url: "https://www.afintl.com/en/202603147164"
+    accessed: "2026-03-16"
+  - id: 41
+    title: "Pakistan’s president says Afghan Taliban forces crossed a ‘red line’ with drone attacks on civilians"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/pakistan-afghanistan-drone-attacks-zardari-89e68a28e725c7e8f5609ec8a253796b"
+    accessed: "2026-03-16"
+  - id: 42
+    title: "2026 Afghanistan–Pakistan conflict"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Afghanistan%E2%80%93Pakistan_conflict"
+    accessed: "2026-03-16"
+  - id: 43
+    title: "Pakistan Fired Hundreds Of Rockets Into Kunar, Says Taliban Official"
+    outlet: "afintl.com"
+    url: "https://www.afintl.com/en/202603143481"
+    accessed: "2026-03-16"
+  - id: 44
+    title: "Taliban claim strike on Pakistani special forces site after airstrikes in Kandahar"
+    outlet: "amu.tv"
+    url: "https://amu.tv/230811"
+    accessed: "2026-03-16"
+  - id: 45
+    title: "Landslides in southern Ethiopia leave at least 50 people dead and 125 missing"
+    outlet: "ksat.com"
+    url: "https://www.ksat.com/news/world/2026/03/12/at-least-50-people-killed-and-125-others-reported-missing-after-landslides-sweep-ethiopia"
+    accessed: "2026-03-16"
+  - id: 46
+    title: "Ethiopia declares 3 days of mourning after landslides in the south kill 80 people"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ethiopia-landslides-death-toll-6be27e4eafc4d85b7f9f483d27b49de4"
+    accessed: "2026-03-16"
+  - id: 47
+    title: "Death toll from floods and landslides rises to more than 100"
+    outlet: "ethiopiaobserver.com"
+    url: "https://www.ethiopiaobserver.com/2026/03/12/death-toll-from-floods-and-landslides-rises-to-more-than-100"
+    accessed: "2026-03-16"
+  - id: 48
+    title: "Armed gangs kill 20 security personnel and vigilantes in Nigeria"
+    outlet: "sabcnews.com"
+    url: "https://www.sabcnews.com/sabcnews/armed-gangs-kill-20-security-personnel-and-vigilantes-in-nigeria"
+    accessed: "2026-03-16"
+  - id: 49
+    title: "Terrorists kill 20 security operatives in Plateau ambush"
+    outlet: "vanguardngr.com"
+    url: "https://www.vanguardngr.com/2026/03/terrorists-kill-20-security-operatives-in-plateau-ambush"
+    accessed: "2026-03-16"
+  - id: 50
+    title: "Gunmen kill 20 security personnel in ambush in central Nigeria"
+    outlet: "sana.sy"
+    url: "https://sana.sy/en/international/2302984"
+    accessed: "2026-03-16"
+  - id: 51
+    title: "Travel Update: Curfew in Some Provinces of Ecuador - march 2026"
+    outlet: "Boutique Hotel in Quito Historic Center | Casona 1914"
+    url: "https://hotelcasona1914.com/travel-update-curfew-in-some-provinces-of-ecuador-march-2026"
+    accessed: "2026-03-16"
+  - id: 52
+    title: "Travel advice and advisories for Ecuador"
+    outlet: "Travel.gc.ca"
+    url: "https://travel.gc.ca/destinations/ecuador"
+    accessed: "2026-03-16"
+  - id: 53
+    title: "Ecuador launches joint anti-drug operations with U.S."
+    outlet: "ctvnews.ca"
+    url: "https://www.ctvnews.ca/world/article/ecuador-launches-joint-anti-drug-operations-with-us"
+    accessed: "2026-03-16"
+  - id: 54
+    title: "Protesters in Cuba attack Communist party office in rare dissent over blackouts"
+    outlet: "The Straits Times"
+    url: "https://www.straitstimes.com/world/protesters-in-cuba-attack-communist-party-office-in-rare-riot-over-blackouts"
+    accessed: "2026-03-16"
+  - id: 55
+    title: "Protesters in Cuba attack Communist Party office in rare riot over blackouts"
+    outlet: "wtaq.com"
+    url: "https://wtaq.com/2026/03/14/protesters-in-cuba-attack-communist-party-office-in-rare-riot-over-blackouts"
+    accessed: "2026-03-16"
+  - id: 56
+    title: "Protesters Storm and Torch Communist Party Office in Morón as Cuba's Blackout Crisis Deepens"
+    outlet: "sofx.com"
+    url: "https://www.sofx.com/protesters-storm-and-torch-communist-party-office-in-moron-as-cubas-blackout-crisis-deepens"
+    accessed: "2026-03-16"
+  - id: 57
+    title: "Five arrested in Cuba after protest at local Communist party office"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/mar/14/arrests-cuba-protest-local-communist-party-office"
+    accessed: "2026-03-16"
+  - id: 58
+    title: "Cuban protesters ransack Communist office as energy crisis deepens"
+    outlet: "nz.news.yahoo.com"
+    url: "https://nz.news.yahoo.com/cuban-protesters-ransack-communist-office-175937171.html"
+    accessed: "2026-03-16"
+  - id: 59
+    title: "Explosion damages Jewish school in Amsterdam with no injuries reported, mayor says"
+    outlet: "youtube.com"
+    url: "https://www.youtube.com/watch?v=Yi5vTisCj10"
+    accessed: "2026-03-16"
+  - id: 60
+    title: "Explosion lightly damages Jewish school in Amsterdam"
+    outlet: "whbl.com"
+    url: "https://whbl.com/2026/03/14/explosion-damages-jewish-school-in-amsterdam"
+    accessed: "2026-03-16"
+  - id: 61
+    title: "Dutch police hunt suspect filmed setting off blast outside a Jewish school in Amsterdam"
+    outlet: "The Indian Express"
+    url: "https://indianexpress.com/article/world/amsterdam-jewish-school-explosion-antisemitism-rotterdam-liege-attacks-10581706"
+    accessed: "2026-03-16"
+  - id: 62
+    title: "Amsterdam officials say explosion at Jewish school was meant to ‘intimidate’"
+    outlet: "Global News"
+    url: "https://globalnews.ca/video/11731218/amsterdam-officials-say-explosion-at-jewish-school-was-meant-to-intimidate"
+    accessed: "2026-03-16"
+  - id: 63
+    title: "Australia and New Zealand Issued Travel Advisories Amidst Missile Terror of Gulf Sent Shiver Down the Spine with Unprecedented Chaos Conquering the Tourism: New Updates You Need to Know"
+    outlet: "Travel And Tour World"
+    url: "https://www.travelandtourworld.com/news/article/australia-and-new-zealand-issued-travel-advisories-amidst-missile-terror-of-gulf-sent-shiver-down-the-spine-with-unprecedented-chaos-conquering-the-tourism-new-updates-you-need-to-know"
+    accessed: "2026-03-16"
+  - id: 64
+    title: "Vietnam Joins Philippines, Malaysia, Thailand, Indonesia, Singapore, Cambodia and More in Facing Severe Tourism Setbacks as Southeast Asia Becomes the Latest Victim of the Middle East Conflict: Everything You Need To Know"
+    outlet: "travelandtourworld.com"
+    url: "https://www.travelandtourworld.com/news/article/vietnam-joins-philippines-malaysia-thailand-indonesia-singapore-cambodia-and-more-in-facing-severe-tourism-setbacks-as-southeast-asia-becomes-the-latest-victim-of-the-middle-east-conflict-everyt"
+    accessed: "2026-03-16"
+  - id: 65
+    title: "Vietnam holds general election, 93% candidates from ruling Communist Party"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/15/vietnam-holds-general-election-93-candidates-from-ruling-communist-party"
+    accessed: "2026-03-16"
+  - id: 66
+    title: "Top News Headlines In Cambodia, Indonesia, Myanmar, Philippines, Singapore, Thailand & Vietnam: March 15, 2026"
+    outlet: "asean.bernama.com"
+    url: "https://asean.bernama.com/news.php?id=2534560"
+    accessed: "2026-03-16"
+  - id: 67
+    title: "Top News Headlines In Cambodia, Indonesia, Laos, Myanmar, Philippines, Singapore, Thailand & Vietnam: March 16, 2026"
+    outlet: "asean.bernama.com"
+    url: "https://asean.bernama.com/news.php?id=2534781"
+    accessed: "2026-03-16"
+  - id: 68
+    title: "France Vs England, Rugby Six Nations 2026: Les Bleus Retain Title With Dramatic Two-Point Victory"
+    outlet: "outlookindia.com"
+    url: "https://www.outlookindia.com/sports/france-vs-england-rugby-six-nations-2026-stade-de-france-in-pics"
+    accessed: "2026-03-16"
+  - id: 69
+    title: "England narrowly beaten by France in Paris in final 2026 Six Nations match"
+    outlet: "englandrugby.com"
+    url: "https://www.englandrugby.com/follow/news-and-media/england-beaten-france-paris-final-2026-six-nations-match"
+    accessed: "2026-03-16"
+  - id: 70
+    title: "France take Championship title in unforgettable encounter with England"
+    outlet: "Six Nations Rugby"
+    url: "https://www.sixnationsrugby.com/en/m6n/news/france-v-england-report-highlights-six-nations-rugby-2026"
+    accessed: "2026-03-16"
+  - id: 71
+    title: "Five takeaways from the greatest Six Nations ever"
+    outlet: "rugbypass.com"
+    url: "https://www.rugbypass.com/news/what-we-learned-from-the-2026-guinness-six-nations"
+    accessed: "2026-03-16"
+  - id: 72
+    title: "‘So close to being a special day’: Borthwick rues agony of England’s France defeat"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/sport/2026/mar/15/steve-borthwick-england-france-six-nations-rugby-union"
+    accessed: "2026-03-16"
+  - id: 73
+    title: "Dowman becomes Premier League's youngest goalscorer EVER"
+    outlet: "premierleague.com"
+    url: "https://www.premierleague.com/en/news/4613476/dowman-becomes-premier-leagues-youngest-ever-goalscorer"
+    accessed: "2026-03-16"
+  - id: 74
+    title: "Max Dowman: Arsenal's and PL's youngest scorer | Statistics"
+    outlet: "News"
+    url: "https://www.arsenal.com/news/max-dowman-arsenals-and-pls-youngest-scorer"
+    accessed: "2026-03-16"
+  - id: 75
+    title: "Arsenal winger Max Dowman becomes youngest Premier League scorer"
+    outlet: "aninews.in"
+    url: "https://www.aninews.in/news/sports/football/arsenal-winger-max-dowman-becomes-youngest-premier-league-scorer20260315102242"
+    accessed: "2026-03-16"
+  - id: 76
+    title: "Watch: 16-year-old Max Dowman sprints down the field to score for Arsenal, becomes Premier League's youngest scorer"
+    outlet: "Mint"
+    url: "https://www.livemint.com/sports/football-news/watch-16-year-old-max-dowman-sprints-down-the-field-to-score-for-arsenal-becomes-premier-leagues-youngest-scorer-11773555044425.html"
+    accessed: "2026-03-16"
+  - id: 77
+    title: "Arsenal strengthens grip on title race as Dowman becomes youngest ever Premier League scorer"
+    outlet: "wsls.com"
+    url: "https://www.wsls.com/sports/2026/03/14/american-owned-burnley-held-to-draw-and-running-out-of-games-to-avoid-relegation-from-premier-league"
+    accessed: "2026-03-16"
+  - id: 78
+    title: "John Terry makes bold Lionel Messi comparison for Arsenal youngster Max Dowman and questions referee Paul Tierney incident"
+    outlet: "The Times of India"
+    url: "https://timesofindia.indiatimes.com/sports/international-sports/john-terry-makes-bold-lionel-messi-comparison-for-arsenal-youngster-max-dowman-and-questions-referee-paul-tierney-incident/articleshow/129595748.cms"
+    accessed: "2026-03-16"
+  - id: 79
+    title: "Iran war israel trump 03 14 2026"
+    outlet: "Associated Press"
+    url: "https://apnews.com/live/iran-war-israel-trump-03-14-2026"
+    accessed: "2026-03-14"
+  - id: 80
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/75e420ce4d6a1d52ceac5224839e2a6b"
+    accessed: "2026-03-14"
+  - id: 81
+    title: "France v england 14032026 2110"
+    outlet: "Six Nations Rugby Official"
+    url: "https://www.sixnationsrugby.com/en/m6n/fixtures/202600/france-v-england-14032026-2110"
+    accessed: "2026-03-14"
+  - id: 82
+    title: "Portal:Current events/2026 March 14"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_14&oldid=1361624400"
+    accessed: "2026-09-22"

@@ -1,0 +1,31 @@
+{
+  "match": {"0": 15, "5": 21, "6": null, "7": 23, "10": 12, "11": 17},
+  "ev": {
+    "md:0": {"i": 8}, "md:1": {"i": 9}, "md:2": {"i": 7}, "md:3": {"i": 5}, "md:4": {"i": 5}, "md:5": {"i": 6},
+    "md:6": {"i": 6}, "md:7": {"i": 7}, "md:8": {"i": 5}, "md:9": {"i": 6}, "md:10": {"i": 5}, "md:11": {"i": 5},
+    "md:12": {"i": 5}, "md:13": {"i": 3},
+    "p:0": {"h": "Iranian drone damages a Bahrain desalination plant; missile debris injures three", "i": 6, "w": 3, "st": ["Bahrain", "Iran"]},
+    "p:1": {"h": "Iranian drone strike on Sitra, Bahrain, injures 32 civilians", "i": 6, "w": 32, "pl": ["Sitra"], "st": ["Bahrain", "Iran"]},
+    "p:2": {"h": "Strike hits Kuwait's social security headquarters; no injuries reported", "i": 5, "w": 0, "pl": ["Kuwait City"], "st": ["Kuwait"],
+            "org": {"Public Institution for Social Security": "Kuwait's state pension authority"}},
+    "p:3": {"h": "CENTCOM confirms death of U.S. service member wounded in Iranian attack in Saudi Arabia", "i": 6, "k": 1, "st": ["United States", "Saudi Arabia", "Iran"],
+            "org": {"United States Central Command": "U.S. military command for the Middle East"}},
+    "p:4": {"h": "Israel and the U.S. strike oil facilities in Tehran and other Iranian cities", "i": 8, "k": 4, "pl": ["Tehran"], "st": ["Iran", "Israel", "United States"]},
+    "p:5": {"h": "Israeli sources say UAE warplanes struck targets in Iran", "i": 6, "st": ["United Arab Emirates", "Iran"],
+            "conf": {"detail_accuracy": "low"}, "unc": ["Attributed to unnamed Israeli sources; not confirmed by the UAE in the portal bullet."]},
+    "p:7": {"h": "Two Israeli soldiers killed in clashes with Hezbollah in southern Lebanon", "i": 5, "k": 2, "pl": ["Southern Lebanon"], "st": ["Israel", "Lebanon"]},
+    "p:8": {"h": "Israeli strikes in Gaza City and Nuseirat kill six", "i": 5, "k": 6, "pl": ["Gaza City", "Nuseirat refugee camp"], "st": ["Palestine", "Israel"]},
+    "p:9": {"h": "Israeli settlers shoot dead two Palestinians in Abu Falah; a third is killed by soldiers", "i": 5, "k": 3, "pl": ["Abu Falah", "West Bank"], "st": ["Palestine", "Israel"]},
+    "p:10": {"h": "Projectile strikes residential area in Al-Kharj, Saudi Arabia, killing two", "i": 5, "k": 2, "w": 12, "pl": ["Al-Kharj", "Riyadh Province"], "st": ["Saudi Arabia"]},
+    "p:13": {"h": "U.S. strike on a boat in the Pacific kills six", "i": 5, "k": 6, "pl": ["Pacific Ocean"], "st": ["United States"]},
+    "p:14": {"h": "Two arrested for throwing explosive devices at anti-Islam protest near Gracie Mansion", "i": 5, "a": 2, "pl": ["Gracie Mansion", "New York City"], "st": ["United States"]},
+    "p:16": {"h": "Bus carrying Zimbabweans collides with car in Eastern Cape, killing five", "i": 4, "k": 5, "w": 60, "pl": ["Stutterheim", "Eastern Cape"], "st": ["South Africa", "Zimbabwe"]},
+    "p:18": {"h": "Mining incident in Kyrgyzstan's Batken Region kills two", "i": 4, "k": 2, "w": 19, "pl": ["Samarkandek", "Batken Region"], "st": ["Kyrgyzstan"]},
+    "p:19": {"h": "Fire destroys historic building beside Glasgow Central station", "i": 4, "pl": ["Glasgow Central railway station", "Glasgow"], "st": ["United Kingdom"]},
+    "p:20": {"h": "Peru arrests three over Trujillo nightclub bombing", "i": 4, "a": 3, "w": 44, "pl": ["Trujillo", "La Libertad Department"], "st": ["Peru"]},
+    "p:26": {"h": "Diaspora protesters surround Iranian women's football team bus in Gold Coast", "i": 4, "pl": ["Gold Coast", "Queensland"], "st": ["Australia", "Iran"]},
+    "p:27": {"h": "Nathan Martin wins the Los Angeles Marathon in its closest-ever finish", "i": 3, "st": ["United States"],
+             "ppl": {"Nathan Martin": "American marathon runner"}}
+  },
+  "related": [["md:2", "p:7"], ["p:0", "p:1"], ["md:0", "p:4"], ["md:5", "p:21"]]
+}

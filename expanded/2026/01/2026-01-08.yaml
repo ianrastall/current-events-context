@@ -1,0 +1,3560 @@
+date: "2026-01-08"
+source_page:
+  portal: "Portal:Current events/2026 January 8"
+  language: "en"
+  wikipedia_revision_id: 1354055397
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 January 8 (revision 1354055397; seed 2026/01/2026-01-08.yaml) + deep-research report reference/deep-research/2026/01/2026-01-08a.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 8 was shaped by the continuing consequences of U.S. actions: the United States
+  moved to exit 66 international organizations including the UN climate framework, European
+  officials weighed responses to U.S. statements about acquiring Greenland, and the U.S.
+  Senate advanced a war-powers measure on Venezuela as the death toll from the Caracas raid
+  rose to 100. In the Middle East, Syria's army captured Aleppo's Ashrafieh district before
+  declaring a ceasefire with the Kurdish-led SDF, Yemeni government forces took Aden as the
+  Southern Transitional Council collapsed, and Israeli strikes in Gaza killed at least 11
+  people.
+
+  Iran's protest movement widened, with a nationwide internet blackout, a general strike in
+  Kurdish areas and clashes that killed a police officer in Malard. Other developments
+  included Russian strikes that caused blackouts in southeastern Ukraine, a migrant-boat
+  disaster off The Gambia with 39 dead, bushfires in Victoria and Patagonia, and France's
+  decision to vote against the EU–Mercosur trade deal.
+
+events:
+  - id: "evt-2026-01-08-001"
+    category: "International relations"
+    subcategory: "Multilateral institutions"
+    topics:
+      - "Multilateral institutions"
+      - "United States"
+    importance: 8
+    headline: "US moves to exit 66 international organizations, intensifying rupture with UN climate architecture"
+    summary: >
+      The United States government, led by Donald Trump, moved to withdraw from a large
+      slate of international bodies—reported as 66 organizations (31 UN-linked and 35
+      non-UN)—via a White House directive following an administration review. Among the
+      withdrawals, multiple sources highlighted departure from the United Nations Framework
+      Convention on Climate Change, a foundational treaty underpinning global climate
+      negotiations. European officials publicly criticized the step; the UN climate chief
+      warned it would harm U.S. prosperity and security, and Reuters reported the U.S. would
+      also leave climate-finance and scientific bodies connected to the UNFCCC architecture.
+    key_data: []
+    details:
+      what_happened:
+        - "The White House issued a presidential memorandum directing agencies to take steps to withdraw the U.S. from listed organizations “as soon as possible,” following findings from a review ordered by an earlier executive order."
+        - "Reuters reported the U.S. plan covered dozens of UN and non-UN entities, explicitly including the UNFCCC among those it would quit."
+        - "AP reported the administration would exit 66 organizations, agencies, and commissions, framing the move as a further retreat from global cooperation."
+        - "EU Climate Commissioner Wopke Hoekstra called the UNFCCC decision “regrettable and unfortunate.”"
+        - "Reuters reported Simon Stiell labeled the withdrawal a “colossal own goal,” and noted additional pullbacks tied to climate finance and science bodies."
+      why_it_matters:
+        - "It signals a major U.S. retrenchment from multilateral governance, affecting UN-linked technical, humanitarian, and climate systems that rely on member participation and funding."
+        - "Exiting the UNFCCC specifically reshapes global climate diplomacy by removing the second-largest emitter, prompting formal pushback from European and UN climate leadership."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "The White House"
+        - "Donald Trump"
+      secondary:
+        - "United Nations Framework Convention on Climate Change"
+        - "European Union"
+        - "Simon Stiell"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "U.S. president"
+        - name: "Wopke Hoekstra"
+          role: "EU climate commissioner"
+        - name: "Simon Stiell"
+          role: "UNFCCC executive secretary"
+      organizations:
+        - name: "United Nations"
+          description: "International organization"
+        - name: "United Nations Framework Convention on Climate Change"
+          description: "UN climate treaty"
+        - name: "The White House"
+          description: "U.S. executive office"
+        - name: "European Union"
+          description: "Supranational union"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "United Nations"
+        - "Washington"
+        - "D.C"
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "No physical damage described in sources (policy/diplomatic action)."
+    classification:
+      event_type:
+        - "multilateral-institutions"
+      tags:
+        - "multilateral-institutions"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/trump-signs-proclamation-withdrawing-international-organizations-white-house-2026-01-07"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "the United States would withdraw from dozens of international and U.N. entities… because they ‘operate contrary to U.S. national interests.’"
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/united-nations-trump-international-organizations-withdrawal-d704fb9b444dc9cf569865d391b544a6"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "will exit 66 international organizations… as it further retreats from global cooperation."
+          citation_refs: [2]
+        - id: "src-001-c"
+          outlet: "The White House"
+          url: "https://www.whitehouse.gov/presidential-actions/2026/01/withdrawing-the-united-states-from-international-organizations-conventions-and-treaties-that-are-contrary-to-the-interests-of-the-united-states"
+          publication_date: "2026-01-07"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "take immediate steps to effectuate the withdrawal… as soon as possible."
+          citation_refs: [3]
+        - id: "src-001-d"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/climate-energy/eu-regrets-us-withdrawal-un-climate-treaty-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The decision… to retreat from it is regrettable and unfortunate."
+          citation_refs: [4]
+        - id: "src-001-e"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/climate-energy/us-withdrawal-climate-treaty-is-colossal-own-goal-says-un-climate-chief-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "It is a colossal own goal."
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-002"
+    category: "International relations"
+    subcategory: "Territorial disputes"
+    topics:
+      - "Territorial disputes"
+      - "Denmark"
+      - "Greenland"
+    importance: 7
+    headline: "EU weighs response to US Greenland “acquisition” threat amid escalating transatlantic tension"
+    summary: >
+      European leaders and institutions publicly signaled heightened alarm over reported
+      U.S. deliberations on acquiring Greenland. Reuters reported that EU foreign policy
+      chief Kaja Kallas said the EU had discussed what a European response would look like
+      if the U.S. threat was real, calling the messages “extremely concerning.” Separately,
+      AP reported Marco Rubio planned talks with Danish officials the following week on U.S.
+      interest in Greenland, as European leaders voiced concern.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Kaja Kallas said the EU had already discussed potential European responses to a U.S. threat regarding Greenland."
+        - "Reuters cited White House statements describing “active discussions” around a U.S. purchase of Greenland."
+        - "AP reported Marco Rubio said he would speak with Danish officials the following week about Greenland."
+        - "Reuters (earlier reporting referenced in Reuters’ Jan 8 item) said the White House discussed options for acquiring Greenland, including potential military use, framing it as a U.S. national security priority."
+      why_it_matters:
+        - "A credible perception of coercion (economic or military) toward a NATO ally’s territory would represent a major rupture in transatlantic security assumptions."
+        - "The episode is already driving contingency planning and diplomatic engagement between Washington and European capitals."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+        - "The White House"
+      secondary:
+        - "European Union"
+        - "Denmark"
+        - "Kaja Kallas"
+        - "Marco Rubio"
+    entities:
+      people:
+        - name: "Kaja Kallas"
+          role: "EU foreign policy chief"
+        - name: "Marco Rubio"
+          role: "U.S. secretary of state"
+        - name: "Donald Trump"
+          role: "U.S. president"
+      organizations:
+        - name: "European Union"
+          description: "Supranational union"
+        - name: "The White House"
+          description: "U.S. executive office"
+      states:
+        - "Denmark"
+        - "Greenland"
+    geography:
+      countries:
+        - "Denmark"
+        - "Greenland"
+      places:
+        - "European Union"
+        - "Cairo"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "No physical damage described in sources (primarily diplomatic statements/discussion)."
+    classification:
+      event_type:
+        - "territorial-disputes"
+      tags:
+        - "territorial-disputes"
+        - "denmark"
+        - "greenland"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe-discusses-response-us-threat-greenland-eus-kallas-says-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The messages that we hear regarding Greenland are extremely concerning."
+          citation_refs: [6]
+        - id: "src-002-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/trump-european-union-greenland-denmark-rubio-frederiksen-4d18970667b130d293ccaf4c0d55c300"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Rubio plans to meet with Danish officials next week to talk about US interest in Greenland."
+          citation_refs: [7]
+        - id: "src-002-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/trump-advisers-discussing-options-acquiring-greenland-us-military-is-always-an-2026-01-06"
+          publication_date: "2026-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "including potential use of the U.S. military."
+          citation_refs: [8]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-003"
+    category: "Politics and elections"
+    subcategory: "Legislation"
+    topics:
+      - "Legislation"
+      - "United States"
+    importance: 6
+    headline: "US House passes bill to extend ACA subsidies after discharge petition, defying GOP leadership"
+    summary: >
+      The United States House of Representatives voted 230–196 to extend expired Affordable
+      Care Act-related health insurance subsidies, after a discharge petition forced floor
+      action over leadership objections. Reuters reported the vote included 17 Republicans
+      joining Democrats, and described the measure as politically notable but facing
+      uncertainty in a Senate that had previously rejected similar legislation and was
+      considering narrower options. AP similarly characterized the vote as an unusual rebuke
+      of Republican leadership, emphasizing the procedural step that bypassed the Speaker to
+      bring the bill forward.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported the House approved the subsidy extension by a 230–196 vote, with 17 Republicans voting with Democrats."
+        - "AP reported the vote came after Republicans used a discharge petition to force debate and a vote, bypassing Speaker objections."
+        - "Reuters reported the legislation would move to the Senate, where negotiators were weighing shorter or more limited extensions and other changes."
+        - "AP reported the bill’s passage increased pressure for a bipartisan compromise in the Senate."
+      why_it_matters:
+        - "The vote highlights internal congressional conflict over healthcare affordability and legislative control, with procedural tactics becoming decisive."
+        - "Senate action—or inaction—would determine whether expired subsidy support is restored broadly or via a narrower compromise."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States House of Representatives"
+      secondary:
+        - "United States Senate"
+        - "Mike Johnson"
+    entities:
+      people:
+        - name: "Mike Johnson"
+          role: "U.S. house speaker"
+      organizations:
+        - name: "United States House of Representatives"
+          description: "Lower house of U.S. congress"
+        - name: "United States Senate"
+          description: "Upper house of U.S. congress"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington"
+        - "D.C"
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "No physical damage described in sources (legislative action)."
+    classification:
+      event_type:
+        - "legislation"
+      tags:
+        - "legislation"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/healthcare-pharmaceuticals/over-republican-objections-us-house-poised-pass-health-subsidy-renewal-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The House voted 230-196… with 17 Republicans joining Democrats."
+          citation_refs: [9]
+        - id: "src-003-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/live/donald-trump-news-updates-1-8-2026"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Forcing the issue to a vote came about after… a ‘discharge petition’… bypassing objections from House Speaker Mike Johnson."
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "War powers and military oversight"
+    topics:
+      - "Operation Southern Spear"
+      - "2026 United States strikes in Venezuela"
+      - "War powers and military oversight"
+      - "United States"
+      - "Venezuela"
+    importance: 8
+    headline: "US Senate advances war-powers curb on Venezuela action as Caracas reports 100 deaths in raid that seized Maduro"
+    summary: >
+      The United States Senate advanced a war-powers resolution aimed at preventing further
+      U.S. military action against Venezuela without congressional authorization, in a rare
+      rebuke of Donald Trump after U.S. forces captured Nicolas Maduro in a raid. Reuters
+      reported the procedural vote was 52–47, with five Republicans joining Democrats. In
+      parallel, Reuters reported Venezuela’s interior minister Diosdado Cabello said 100
+      people died in the U.S. operation that removed Maduro from power; the same report said
+      Venezuela’s army posted a list of 23 names of its dead, and that Cuba said 32 members
+      of its military and intelligence services in Venezuela were killed.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.S. Senate voted 52–47 to advance a war-powers resolution restricting further U.S. action in Venezuela absent congressional authorization, Reuters reported."
+        - "Reuters reported the vote followed the capture of Maduro in a U.S. military raid in Caracas days earlier."
+        - "Venezuela’s interior minister said 100 people died in the U.S. attack that removed Maduro from power, Reuters reported."
+        - "Reuters reported Cabello also said Maduro’s wife Cilia Flores suffered a head injury and Maduro a leg injury during the raid."
+        - "Reuters reported the war-powers measure faced major hurdles (House passage and likely veto override thresholds)."
+      why_it_matters:
+        - "It underscores an acute constitutional conflict over who controls escalation decisions after a major cross-border operation."
+        - "The reported death toll and foreign fatalities raise the stakes for regional stability and the diplomatic fallout of the raid."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Senate"
+        - "Donald Trump"
+      secondary:
+        - "Nicolas Maduro"
+        - "Diosdado Cabello"
+        - "Venezuela"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "U.S. president"
+        - name: "Nicolas Maduro"
+          role: "Venezuelan president"
+        - name: "Diosdado Cabello"
+          role: "Venezuelan interior minister"
+        - name: "Cilia Flores"
+          role: "Venezuelan first lady"
+      organizations:
+        - name: "United States Senate"
+          description: "Upper house of U.S. congress"
+      states:
+        - "United States"
+        - "Venezuela"
+        - "Cuba"
+    geography:
+      countries:
+        - "United States"
+        - "Venezuela"
+        - "Cuba"
+      places:
+        - "Caracas"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 100
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not described beyond raid injuries and reported fatalities."
+    classification:
+      event_type:
+        - "war-powers-and-military-oversight"
+      tags:
+        - "operation-southern-spear"
+        - "2026-united-states-strikes-in-venezuela"
+        - "war-powers-and-military-oversight"
+        - "united-states"
+        - "venezuela"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The death toll from the U.S. airstrikes on Caracas, Venezuela, five days ago increases to 100 people, including 23 Venezuelan military personnel and 32 Cuban personnel."
+      external:
+        - id: "src-004-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/us-senate-vote-reining-trump-venezuela-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The vote… was 52 to 47."
+          citation_refs: [11]
+        - id: "src-004-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/venezuelas-interior-minister-says-100-people-died-us-attack-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "Cabello said… 100 people died in the U.S. attack."
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-01-08-032"
+    notes: ""
+  - id: "evt-2026-01-08-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone and missile strikes"
+    topics:
+      - "Drone and missile strikes"
+      - "Ukraine"
+      - "Russia"
+    importance: 7
+    headline: "Russian strikes trigger major blackouts in Ukraine’s southeast as officials report deaths and injuries in Kryvyi Rih"
+    summary: >
+      Ukrainian authorities reported that Russian drone attacks caused near-total blackouts
+      in parts of southeastern Ukraine, disrupting households, industry, and essential
+      services during a cold snap. Reuters reported Volodymyr Zelenskiy said the attacks
+      aimed to “break” Ukraine and warned, alongside the U.S. Embassy in Kyiv, of possible
+      additional mass strikes. The same Reuters report said a Russian missile attack on
+      Kryvyi Rih struck apartment buildings, killing one person and injuring 24 (including
+      six children), while also detailing widespread damage—such as 29 apartment buildings
+      damaged and tens of thousands without power in Kryvyi Rih—plus impacts on steel
+      production and port infrastructure.
+    key_data: []
+    details:
+      what_happened:
+        - "Russian drone attacks plunged two southeastern regions into near-total blackout overnight, Reuters reported."
+        - "A Russian missile attack hit apartment buildings in Kryvyi Rih, killing one and injuring 24 (including six children), Reuters reported."
+        - "Reuters reported power was restored to nearly 700,000 households by Thursday evening, though 194,000 households remained without electricity (including in Kryvyi Rih)."
+        - "Reuters reported 29 apartment buildings were damaged in Kryvyi Rih and more than 70,000 remained without power; it also reported temporary suspensions at major steel producers."
+        - "Reuters reported Ukrainian leadership and the U.S. Embassy warned of a potentially significant new air attack “at any time over the next several days.”"
+      why_it_matters:
+        - "The strikes illustrate continued targeting of energy and urban infrastructure, compounding humanitarian risk amid winter conditions."
+        - "Simultaneous warnings by Kyiv and the U.S. Embassy suggest heightened expectation of further large-scale attacks, affecting civilian behavior and critical services planning."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Russia (Russian forces, as described by Reuters)"
+        - "Ukraine (Ukrainian authorities)"
+      secondary:
+        - "Volodymyr Zelenskiy"
+        - "U.S. Embassy in Kyiv"
+    entities:
+      people:
+        - name: "Volodymyr Zelenskiy"
+          role: "Ukrainian president"
+      organizations:
+        - name: "U.S. Embassy in Kyiv"
+          description: "U.S. diplomatic mission"
+      states:
+        - "Ukraine"
+        - "Russia"
+    geography:
+      countries:
+        - "Ukraine"
+        - "Russia"
+      places:
+        - "Zaporizhzhia"
+        - "Kryvyi Rih"
+        - "Dnipro"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: 24
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "29 apartment buildings damaged in Kryvyi Rih; widespread outages affecting hundreds of thousands; industrial suspensions reported."
+    classification:
+      event_type:
+        - "drone-and-missile-strikes"
+      tags:
+        - "drone-and-missile-strikes"
+        - "ukraine"
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/ukraine-says-repairs-services-ongoing-after-russian-strikes-dnipropetrovsk-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "killing one person and injuring 24, including six children."
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Internet shutdowns"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "Internet shutdowns"
+      - "Iran"
+    importance: 8
+    headline: "Iran reports nationwide internet blackout as protests continue amid economic crisis"
+    summary: >
+      Internet monitoring group NetBlocks reported a nationwide internet blackout in Iran as
+      protests over economic hardship persisted. Reuters said witnesses described renewed
+      street gatherings and anti-government slogans in major cities, while Iranian state
+      media claimed calm. Al Jazeera separately reported NetBlocks’ assessment and linked
+      the blackout to escalating protests amid a worsening economic crisis. CBS News, citing
+      AP, framed the disruption as internet service being cut off or restricted as protests
+      reached a potential tipping point.
+    key_data: []
+    details:
+      what_happened:
+        - "NetBlocks reported Iran was “in the midst of a nationwide internet blackout,” per Reuters and NetBlocks’ own public posting."
+        - "Reuters reported witnesses saw protesters gathering again in Tehran, Mashhad, and Isfahan, while state media said cities were calm."
+        - "Al Jazeera reported the blackout occurred “amid escalating protests” linked to worsening economic conditions."
+        - "CBS News (AP) reported internet service was cut off or restricted as protests intensified."
+      why_it_matters:
+        - "Nationwide connectivity loss can sharply limit emergency communication, independent reporting, and financial activity during unrest."
+        - "The blackout indicates possible escalation in state control measures as protests broaden geographically."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "None identified"
+      secondary:
+        - "NetBlocks"
+    entities:
+      people: []
+      organizations:
+        - name: "NetBlocks"
+          description: "Internet monitoring group"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Tehran"
+        - "Mashhad"
+        - "Isfahan"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Nationwide internet outage reported; additional impacts not quantified in sources."
+    classification:
+      event_type:
+        - "internet-shutdowns"
+      tags:
+        - "2025-2026-iranian-protests"
+        - "internet-shutdowns"
+        - "iran"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "NetBlocks reports a total internet outage in Tehran and other Iranian cities, continuing the following day."
+      external:
+        - id: "src-006-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/iran-warns-suppliers-against-overpricing-or-hoarding-goods-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "A nationwide internet blackout was reported in Iran… NetBlocks said."
+          citation_refs: [14]
+        - id: "src-006-b"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/8/iran-experiencing-nationwide-internet-blackout-monitor-says"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Iran is experiencing a nationwide internet blackout… amid escalating protests."
+          citation_refs: [15]
+        - id: "src-006-c"
+          outlet: "CBS News (AP)"
+          url: "https://www.cbsnews.com/news/iran-cutting-internet-amid-deadly-protests"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Internet service in Iran cut off or restricted…"
+          citation_refs: [16]
+        - id: "src-006-d"
+          outlet: "NetBlocks (X post)"
+          url: "https://x.com/netblocks/status/2009313506726957230"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Confirmed… #Iran is now in the midst of a nationwide internet blackout."
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-01-08-022"
+      - "evt-2026-01-08-023"
+      - "evt-2026-01-08-024"
+    notes: ""
+  - id: "evt-2026-01-08-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Urban fighting and ceasefire announcements"
+    topics:
+      - "SDF–Syrian transitional government clashes"
+      - "January 2026 Aleppo clashes"
+      - "Urban fighting and ceasefire announcements"
+      - "Syria"
+      - "Turkey"
+    importance: 7
+    headline: "Syria declares Aleppo ceasefire after intensified clashes with Kurdish-led forces and mass displacement"
+    summary: >
+      Syria’s defense ministry declared a ceasefire in multiple Aleppo neighborhoods after
+      days of heavy fighting between government troops and Kurdish fighters, as shelling and
+      street combat triggered large-scale civilian flight. Reuters reported the clashes
+      drove more than 140,000 people from their homes and left at least seven civilians
+      dead, with evacuation windows and curfews announced around contested neighborhoods. A
+      separate Reuters report from Ankara said Turkey stated it was ready to assist Syria if
+      asked, while emphasizing the operation was conducted by the Syrian army without
+      Turkish involvement.
+    key_data: []
+    details:
+      what_happened:
+        - "Syria’s defense ministry announced a ceasefire in the vicinity of Sheikh Maqsoud, Ashrafiyah, and Bani Zaid, Reuters reported, with an exit window for armed groups."
+        - "Reuters reported fighting erupted earlier in the week and displaced more than 140,000 people, with at least seven civilians reported killed by Syrian authorities."
+        - "Reuters reported the army issued evacuation windows and published maps of areas it said would be targeted, alongside curfew announcements."
+        - "Turkey said it was ready to help Syria “if asked,” Reuters reported, while its defense ministry said the operation was “carried out entirely by the Syrian army.”"
+      why_it_matters:
+        - "The scale of displacement and reported civilian deaths indicate a rapid deterioration in urban security conditions in a major Syrian city."
+        - "Turkey’s public positioning underscores the risk of regional spillover and the geopolitical sensitivity of Kurdish-held areas and related security claims."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Syrian Ministry of Defense"
+        - "Syrian Democratic Forces"
+      secondary:
+        - "Turkey"
+        - "Numan Kurtulmus"
+    entities:
+      people:
+        - name: "Numan Kurtulmus"
+          role: "Turkish parliament speaker"
+      organizations:
+        - name: "Syrian Ministry of Defense"
+          description: "Syria defense ministry"
+        - name: "Syrian Democratic Forces"
+          description: "Kurdish-led armed group"
+      states:
+        - "Syria"
+        - "Turkey"
+    geography:
+      countries:
+        - "Syria"
+        - "Turkey"
+      places:
+        - "Aleppo"
+        - "Sheikh Maqsoud"
+        - "Ashrafiyah"
+        - "Ankara"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 7
+      injured: null
+      displaced: 140000
+      missing: null
+      arrest_count: null
+      damage: "Fires and destruction from shelling described; specific property counts not fully enumerated."
+    classification:
+      event_type:
+        - "urban-fighting-and-ceasefire-announcements"
+      tags:
+        - "sdf-syrian-transitional-government-clashes"
+        - "january-2026-aleppo-clashes"
+        - "urban-fighting-and-ceasefire-announcements"
+        - "syria"
+        - "turkey"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "As fighting between the Kurdish-led Syrian Democratic Forces and the Syrian Army continues in Aleppo, Syrian authorities open an evacuation corridor for tens of thousands of civilians to evacuate the city."
+      external:
+        - id: "src-007-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/syrian-army-orders-evacuations-heavy-fighting-grips-aleppos-kurdish-areas-2026-01-08"
+          publication_date: "2026-01-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material:
+            - "has driven more than 140,000 people… and left at least seven civilians dead."
+          citation_refs: [18]
+        - id: "src-007-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/turkey-ready-help-end-conflict-syrias-aleppo-parliament-speaker-says-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "If Syria requests assistance, Turkey will provide the necessary support."
+          citation_refs: [19]
+        - id: "src-007-c"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/liveblog/2026/1/8/live-syrias-army-shells-sdf-positions-in-aleppo-neighbourhoods"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "takes Aleppo’s Ashrafieh… battle with SDF continues."
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-01-08-019"
+    notes: ""
+  - id: "evt-2026-01-08-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "Gaza war"
+      - "Airstrikes"
+    importance: 6
+    headline: "Israeli strikes in Gaza kill at least 11 after failed rocket launch, highlighting ceasefire fragility"
+    summary: >
+      Reuters reported that Israeli strikes killed at least 11 Palestinians in multiple
+      locations across Gaza after Israel said it responded to a failed rocket attack from
+      the enclave; Reuters also reported Palestinian medical sources gave the 11-death toll.
+      Other outlets described a slightly higher fatality figure: The Times of Israel
+      reported Gaza’s Hamas-run civil defense agency said at least 13 were killed late
+      Thursday, while confirming that Israel’s military and security service said strikes
+      followed a “failed launch” from Gaza City toward Israel. The episode underscored the
+      instability of an already strained truce as the parties disputed ceasefire compliance
+      and attribution for the failed launch.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Israeli strikes killed at least 11 Palestinians, citing Gaza medical sources."
+        - "Reuters reported Israel said the strikes followed a “failed rocket” attack by militants inside Gaza."
+        - "Asharq Al-Awsat reported Israel said it struck a rocket launch site near Gaza City after identifying a failed launch, noting the projectile did not cross into Israeli territory."
+        - "The Times of Israel reported Gaza civil defense claimed at least 13 killed, while stating IDF/Shin Bet confirmed the strikes in response to a “failed launch”—a figure that conflicts with Reuters’ “at least 11.”"
+      why_it_matters:
+        - "Divergent casualty reporting highlights the information fog during active conflict and underscores the need to track multiple source lines rather than “averaging” claims."
+        - "Even a “failed launch” can trigger lethal escalation and undermine truce durability when broader negotiations are stalled."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Israel Defense Forces"
+      secondary:
+        - "Shin Bet"
+        - "Hamas (named in reporting context)"
+        - "Gaza Civil Defense"
+    entities:
+      people: []
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Israel military"
+        - name: "Shin Bet"
+          description: "Israel security agency"
+        - name: "Hamas"
+          description: "Palestinian militant group"
+        - name: "Gaza Civil Defense"
+          description: "Gaza emergency services"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Gaza Strip"
+        - "Gaza City"
+        - "Khan Younis"
+        - "Jabalia"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 11
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Strikes reported; detailed infrastructure damage not fully enumerated in cited sources."
+    classification:
+      event_type:
+        - "airstrikes"
+      tags:
+        - "gaza-war"
+        - "airstrikes"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Israeli military launches multiple attacks in Gaza, killing thirteen Palestinians, including five children."
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/israeli-military-says-it-hit-gaza-launch-site-following-failed-rocket-fire-2026-01-08"
+          publication_date: "2026-01-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Israeli strikes killed at least 11 Palestinians… medics said."
+          citation_refs: [21]
+        - id: "src-008-b"
+          outlet: "The Times of Israel"
+          url: "https://www.timesofisrael.com/hamas-agency-says-13-killed-by-israeli-strikes-in-gaza-after-failed-missile-launch"
+          publication_date: "2026-01-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "killed at least 13 people… in response to a ‘failed launch’."
+          citation_refs: [22]
+        - id: "src-008-c"
+          outlet: "Asharq Al-Awsat"
+          url: "https://english.aawsat.com/arab-world/5227605-israel-strikes-gaza-rocket-launch-site-ceasefire-deal-under-strain"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "carried out a targeted strike… after identifying a failed launch."
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-009"
+    category: "Business and economy"
+    subcategory: "Export controls"
+    topics:
+      - "Export controls"
+      - "China"
+      - "Japan"
+    importance: 6
+    headline: "China says dual-use export ban to Japan targets military end-users as Tokyo lodges formal protest"
+    summary: >
+      Amid deteriorating China–Japan ties, Reuters reported China said its export ban on
+      dual-use items to Japan would “only affect military firms,” with a commerce ministry
+      spokesperson stating “civilian users will not be affected,” even as uncertainty
+      persisted over whether rare earth elements were covered. Japan’s foreign ministry
+      confirmed that Vice Minister Takehiro Funakoshi strongly protested and demanded
+      withdrawal of China’s tightened export controls. China’s Ministry of Commerce also
+      published a Q&A defending the rationale for tightened controls (as reflected in its
+      English-language spokesperson remarks).
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported China said the export ban on dual-use items to Japan would only hit military end-users, with “civilian users” not affected."
+        - "Reuters reported Japan’s vice foreign minister lodged a strong protest to China’s ambassador and demanded withdrawal of the measures."
+        - "Japan’s foreign ministry press release stated it again “strongly protested” and demanded withdrawal of China’s export-control strengthening measures targeting dual-use items to Japan."
+        - "China’s Ministry of Commerce spokesperson remarks (English posting) framed the tightening as linked to national security considerations and Japan’s Taiwan-related remarks (as described in the Q&A)."
+      why_it_matters:
+        - "Dual-use export controls can disrupt complex supply chains even when framed as “military-only,” especially when coverage (e.g., rare earth categories) is unclear."
+        - "The formal diplomatic protest signals sustained escalation risk in Northeast Asian economic-security relations tied to Taiwan rhetoric and defense policy."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ministry of Commerce of the People's Republic of China"
+        - "Ministry of Foreign Affairs of Japan"
+      secondary:
+        - "Takehiro Funakoshi"
+        - "Wu Jianghao"
+    entities:
+      people:
+        - name: "Takehiro Funakoshi"
+          role: "Japan vice foreign minister"
+        - name: "Wu Jianghao"
+          role: "Chinese ambassador to japan"
+      organizations:
+        - name: "Ministry of Commerce of the People's Republic of China"
+          description: "China commerce ministry"
+        - name: "Ministry of Foreign Affairs of Japan"
+          description: "Japan foreign ministry"
+      states:
+        - "China"
+        - "Japan"
+    geography:
+      countries:
+        - "China"
+        - "Japan"
+      places:
+        - "Beijing"
+        - "Tokyo"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "No physical damage described in sources (trade/export-control measures)."
+    classification:
+      event_type:
+        - "export-controls"
+      tags:
+        - "export-controls"
+        - "china"
+        - "japan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/china-says-dual-use-export-ban-japan-will-not-affect-civilian-trade-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Civilian users will not be affected."
+          citation_refs: [24]
+        - id: "src-009-b"
+          outlet: "Japan Ministry of Foreign Affairs (Press Release)"
+          url: "https://www.mofa.go.jp/press/release/pressite_000001_01988.html"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "strongly protested and demanded the withdrawal of the recent measures."
+          citation_refs: [25]
+        - id: "src-009-c"
+          outlet: "China Ministry of Commerce (Spokesperson Remarks)"
+          url: "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2026/art_ad432d69b63545ef81b6b0c9d21c0fa1.html"
+          publication_date: "2026-01-08"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "tightening… controls on dual-use items exports to Japan."
+          citation_refs: [26]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-010"
+    category: "Science and technology"
+    subcategory: "Cyber espionage"
+    topics:
+      - "Cyber espionage"
+      - "United States"
+      - "China"
+    importance: 5
+    headline: "Reported China-linked hack hits US House committee staff emails; Beijing denounces “political disinformation”"
+    summary: >
+      The Financial Times reported that a Chinese hacking group compromised email systems
+      used by staff on powerful U.S. House committees, including committees touching foreign
+      affairs, intelligence, armed services, and China policy. Reuters relayed the FT
+      account, noting it could not independently verify the report and that the White House
+      had no immediate comment at the time. Separately, Reuters reported China’s foreign
+      ministry rejected the allegations as politically motivated “disinformation,” with
+      spokesperson Mao Ning stating China opposes hacking and opposes spreading false
+      information about China. Additional U.S. government-focused outlets summarized the FT
+      report and the alleged scope of committees affected.
+    key_data: []
+    details:
+      what_happened:
+        - "The Financial Times reported a Chinese hacking group compromised emails used by staff members of powerful U.S. House committees."
+        - "Reuters reported the FT account and noted Reuters could not immediately verify it and the White House had no immediate comment."
+        - "Reuters reported China’s foreign ministry characterized the allegations as “political disinformation,” with China opposing hacker activity and “spreading false information.”"
+        - "Nextgov summarized the FT report, listing affected committees—including foreign affairs, intelligence, and armed services."
+      why_it_matters:
+        - "If accurate, compromise of legislative communications could affect sensitive oversight and national security deliberations."
+        - "China’s categorical denial and “disinformation” framing signals escalating attribution conflict, complicating diplomatic and technical response pathways."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "None identified. (The alleged hacking group is not definitively attributed by a government source in the cited reporting.)"
+      secondary:
+        - "Financial Times"
+        - "Chinese Ministry of Foreign Affairs"
+    entities:
+      people:
+        - name: "Mao Ning"
+          role: "Chinese foreign ministry spokesperson"
+      organizations:
+        - name: "Financial Times"
+          description: "Newspaper"
+        - name: "Chinese Ministry of Foreign Affairs"
+          description: "China foreign ministry"
+      states:
+        - "United States"
+        - "China"
+    geography:
+      countries:
+        - "United States"
+        - "China"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Cyber intrusion claims; operational damage not quantified in sources."
+    classification:
+      event_type:
+        - "cyber-espionage"
+      tags:
+        - "cyber-espionage"
+        - "united-states"
+        - "china"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "Financial Times"
+          url: "https://www.ft.com/content/44f730c4-7de3-4a09-88dd-41ea9c373dcb"
+          publication_date: "2026-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "hacked the emails used by congressional staff…"
+          citation_refs: [27]
+        - id: "src-010-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/china-hacked-email-systems-us-congressional-committee-staff-ft-reports-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Reuters could not immediately verify the report."
+          citation_refs: [28]
+        - id: "src-010-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/china-against-political-disinformation-about-us-government-email-breach-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "opposed… spreading false information… for political purposes."
+          citation_refs: [29]
+        - id: "src-010-d"
+          outlet: "Nextgov"
+          url: "https://www.nextgov.com/cybersecurity/2026/01/chinese-hackers-targeted-email-systems-us-congressional-staff-people-familiar-say/410544"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "committees including foreign affairs, intelligence and armed services…"
+          citation_refs: [30]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-011"
+    category: "Business and economy"
+    subcategory: "Government procurement rules"
+    topics:
+      - "Government procurement rules"
+      - "India"
+      - "China"
+    importance: 5
+    headline: "India reportedly plans to scrap curbs blocking Chinese firms from bidding on government contracts"
+    summary: >
+      Reuters reported that India’s finance ministry planned to scrap restrictions imposed
+      in 2020 that required Chinese firms to register and obtain political and security
+      clearances to bid for government tenders, effectively barring competition for
+      contracts Reuters described as worth roughly $700–$750 billion. Reuters said the
+      move—still requiring final approval from Narendra Modi’s office—followed requests from
+      ministries facing shortages and project delays, and a recommendation by a high-level
+      committee. Indian outlets (including The Economic Times) reported the same plan,
+      citing the Reuters report and highlighting the procurement implications for capital
+      goods and infrastructure.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported India’s finance ministry planned to remove the registration requirement underpinning restrictions on Chinese bidders for government contracts."
+        - "Reuters reported the final decision would come from Modi’s office, and said the finance ministry and PMO did not respond to comment requests."
+        - "Reuters reported other ministries sought easing due to shortages and project delays linked to the restrictions."
+        - "The Economic Times reported the plan and emphasized market sensitivity to potential increased competition for large contracts."
+      why_it_matters:
+        - "It would materially alter the competitive landscape for major Indian public-sector procurement and infrastructure build-out, with national security oversight shifting from blanket curbs toward narrower controls."
+        - "The move signals potential recalibration in India–China commercial ties amid reduced border tensions, while still leaving final decision authority at the highest political level."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ministry of Finance of India"
+      secondary:
+        - "Narendra Modi"
+        - "China (Chinese firms as affected parties)"
+    entities:
+      people:
+        - name: "Narendra Modi"
+          role: "Prime minister of india"
+      organizations:
+        - name: "Ministry of Finance of India"
+          description: "India finance ministry"
+      states:
+        - "India"
+        - "China"
+    geography:
+      countries:
+        - "India"
+        - "China"
+      places:
+        - "New Delhi"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "No physical damage described in sources (policy/procurement change under consideration)."
+    classification:
+      event_type:
+        - "government-procurement-rules"
+      tags:
+        - "government-procurement-rules"
+        - "india"
+        - "china"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/india-plans-scrap-curbs-chinese-firms-bidding-government-contracts-sources-say-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "plans to scrap five-year-old restrictions…"
+          citation_refs: [31]
+        - id: "src-011-b"
+          outlet: "The Economic Times"
+          url: "https://m.economictimes.com/news/economy/foreign-trade/finance-ministry-plans-to-scrap-curbs-on-chinese-firms-bidding-for-government-contracts-sources-say/articleshow/126410937.cms"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "plans to scrap curbs… bidding for government contracts."
+          citation_refs: [32]
+        - id: "src-011-c"
+          outlet: "LiveMint"
+          url: "https://www.livemint.com/news/world/india-contemplates-to-ease-five-year-restrictions-on-chinese-firms-bidding-for-govt-contracts-report-11767866308709.html"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "contemplates to ease five-year restrictions…"
+          citation_refs: [33]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-012"
+    category: "Business and economy"
+    subcategory: "Extradition and transnational fraud"
+    topics:
+      - "Cambodia–China relations, Scam centers in Cambodia"
+      - "Extradition and transnational fraud"
+      - "Cambodia"
+      - "China"
+    importance: 6
+    headline: "Cambodia extradites Chen Zhi to China; bank liquidation ordered amid “scam centre” crackdown"
+    summary: >
+      Reuters reported Chinese state television aired footage of Chen Zhi—described as a
+      U.S.-indicted tycoon—being escorted by armed police after extradition from Cambodia to
+      China. Reuters also reported Cambodian authorities ordered liquidation of a bank Chen
+      founded, linking the action to efforts to dismantle large-scale “scam centre” networks
+      in Southeast Asia that the UN has said generate billions through online fraud. AP
+      reported the extradition as a major international law enforcement development,
+      detailing allegations in China and the U.S. about the scale and structure of the
+      alleged criminal enterprise. Separately, the U.S. Department of Justice summarized the
+      U.S. indictment against Chen.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Chen Zhi was extradited from Cambodia to China and shown on Chinese television in custody after the transfer."
+        - "Reuters reported Cambodia ordered liquidation of a bank Chen founded, linking it to the “scam centre” network allegations."
+        - "AP reported Chinese authorities accused Chen of managing a vast online criminal empire, and noted U.S. allegations/indictment context."
+        - "The U.S. DOJ stated Chen was indicted in U.S. federal court on conspiracy charges tied to alleged scam compounds and money laundering conspiracy."
+      why_it_matters:
+        - "The case represents a high-profile crackdown signal against transnational online-fraud ecosystems that have been associated with trafficking and forced labor claims in the region."
+        - "Extradition and bank liquidation demonstrate cross-border enforcement convergence between China and Cambodia amid international pressure over scam-compound operations."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Cambodia (authorities)"
+        - "China (authorities)"
+      secondary:
+        - "Chen Zhi"
+        - "United States Department of Justice"
+    entities:
+      people:
+        - name: "Chen Zhi"
+          role: "Prince group founder"
+      organizations:
+        - name: "United States Department of Justice"
+          description: "U.S. justice department"
+      states:
+        - "Cambodia"
+        - "China"
+    geography:
+      countries:
+        - "Cambodia"
+        - "China"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 1
+      damage: "Bank liquidation ordered (financial/institutional impact; asset-loss specifics not enumerated in Reuters excerpt)."
+    classification:
+      event_type:
+        - "extradition-and-transnational-fraud"
+      tags:
+        - "cambodia-china-relations-scam-centers-in-cambodia"
+        - "extradition-and-transnational-fraud"
+        - "cambodia"
+        - "china"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Cambodian central bank orders the liquidation of Prince Bank and suspends its operations after founder Chen Zhi was indicted by the United States for large-scale fraud and extradited to China."
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/china-extradited-prince-group-founder-chen-zhi-state-media-reports-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "extradition… after his extradition to China from Cambodia."
+          citation_refs: [34]
+        - id: "src-012-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/86da674adf010d75e080193592da43e6"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "extradited to China under accusations of managing a vast online criminal empire."
+          citation_refs: [35]
+        - id: "src-012-c"
+          outlet: "U.S. Department of Justice"
+          url: "https://www.justice.gov/opa/pr/chairman-prince-group-indicted-operating-cambodian-forced-labor-scam-compounds-engaged"
+          publication_date: "2025-10-14"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "charging… Chen Zhi… with wire fraud conspiracy and money laundering conspiracy…"
+          citation_refs: [36]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-013"
+    category: "Disasters and accidents"
+    subcategory: "Wildfires"
+    topics:
+      - "Wildfires"
+      - "Australia"
+    importance: 6
+    headline: "Bushfires rage in Australia’s Victoria as authorities warn of “catastrophic” conditions and mass evacuations"
+    summary: >
+      Uncontrolled bushfires burned in Victoria amid extreme heat, prompting evacuation
+      orders and warnings that Friday would bring “catastrophic” fire danger—the highest
+      rating. Reuters reported two major fires near Longwood and Walwa, saying at least two
+      structures were destroyed and that one fire generated its own weather system
+      (pyrocumulonimbus) with lightning and thunder. Australia’s ABC reported emergency
+      warnings and urged thousands in potential impact zones to leave immediately,
+      describing multiple out-of-control blazes and escalating warning levels.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported two large bushfires near Longwood and Walwa, with evacuations ordered and a “catastrophic” rating forecast for Friday."
+        - "Reuters reported the Longwood fire exceeded 25,000 hectares and at least two structures were destroyed; the Walwa fire was reported at 10,000 hectares and generated a pyrocumulonimbus cloud."
+        - "ABC reported multiple emergency warnings remained in place for Longwood and Walwa, and urged immediate evacuation for thousands in potential impact zones."
+        - "Reuters reported extensive preventive measures (total fire bans, school closures, train cancellations) as heat and wind were expected to worsen conditions."
+      why_it_matters:
+        - "“Catastrophic” fire danger updates can drive rapid population movement and strain emergency response capacity, especially when multiple large fires burn simultaneously."
+        - "Fire-generated weather systems (pyrocumulonimbus) can create unpredictable, fast-escalating hazards including lightning and sudden wind changes."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Country Fire Authority (as quoted by Reuters)"
+        - "Victoria emergency services (as described by ABC/Reuters)"
+      secondary:
+        - "Jason Heffernan"
+    entities:
+      people:
+        - name: "Jason Heffernan"
+          role: "Cfa chief officer"
+      organizations:
+        - name: "Country Fire Authority"
+          description: "Victoria fire authority"
+        - name: "Victoria emergency services"
+          description: "State emergency responders"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Victoria"
+        - "Longwood"
+        - "Walwa"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "At least two structures destroyed; fires reported at >25,000 ha (Longwood) and 10,000 ha (Walwa) at time of reporting."
+    classification:
+      event_type:
+        - "wildfires"
+      tags:
+        - "wildfires"
+        - "australia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/climate-energy/bushfires-rage-australias-southeast-authorities-warn-catastrophic-friday-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Tomorrow is a very, very dire bushfire day…"
+          citation_refs: [37]
+        - id: "src-013-b"
+          outlet: "ABC News"
+          url: "https://www.abc.net.au/news/2026-01-08/warnings-bushfire-victoria-longwood-mt-lawson-state-park/106207942"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "Thousands of Victorians… urged to leave immediately."
+          citation_refs: [38]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-014"
+    category: "Disasters and accidents"
+    subcategory: "Wildfires"
+    topics:
+      - "Wildfires"
+      - "Argentina"
+    importance: 5
+    headline: "Patagonia wildfires drive evacuations in Argentina as satellite monitoring highlights rapidly expanding burn scars"
+    summary: >
+      Wildfires in Patagonia prompted evacuations and drew international monitoring
+      attention. A ReliefWeb “ECHO Daily Flash” update reported that, as of Jan. 7, media
+      said roughly 3,000 people were evacuated from El Hoyo in Chubut province, with
+      continued risk over the following 48 hours. NASA’s MODIS “Fires in Argentina” page for
+      Jan. 8 reported that news accounts said at least 3,000 people had been evacuated from
+      a lake resort area near Lake Epuyén as firefighters worked to contain a large fire
+      that began around Jan. 5 and quickly destroyed thousands of hectares. Reuters
+      photography published Jan. 8 depicted active fires and heavy smoke in the Lago Epuyén
+      area.
+    key_data: []
+    details:
+      what_happened:
+        - "ReliefWeb reported media accounts that ~3,000 people were evacuated from El Hoyo (Chubut) as of Jan. 7, with continued concern over the next 48 hours."
+        - "NASA MODIS reported news accounts that at least 3,000 people were evacuated from a lake resort north of Lake Epuyén as large fires spread."
+        - "NASA MODIS reported the largest fire began around Jan. 5 and “destroyed thousands of hectares of forest within 24 hours,” per news reports summarized on the page."
+        - "Reuters “Pictures of the Day” showed smoke and flames rising from a wildfire in Lago Epuyén, Chubut province."
+      why_it_matters:
+        - "Large evacuations and fast fire growth indicate acute risk to settlements in a region where terrain and access can complicate suppression logistics."
+        - "Satellite monitoring and humanitarian situation reporting can shape international support and provide rapid situational awareness when local reporting is uneven."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "None identified"
+      secondary:
+        - "NASA"
+        - "European Civil Protection and Humanitarian Aid Operations"
+    entities:
+      people: []
+      organizations:
+        - name: "NASA"
+          description: "U.S. space agency"
+        - name: "European Civil Protection and Humanitarian Aid Operations"
+          description: "EU echo"
+      states:
+        - "Argentina"
+    geography:
+      countries:
+        - "Argentina"
+      places:
+        - "Patagonia"
+        - "Chubut Province"
+        - "Lake Epuyén"
+        - "El Hoyo"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 3000
+      missing: null
+      arrest_count: null
+      damage: "Thousands of hectares reported burned; active fires photographed near Lago Epuyén."
+    classification:
+      event_type:
+        - "wildfires"
+      tags:
+        - "wildfires"
+        - "argentina"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-014-a"
+          outlet: "ReliefWeb (ECHO Daily Flash)"
+          url: "https://reliefweb.int/report/argentina/argentina-wildfires-media-jrc-gwis-echo-daily-flash-8-january-2026"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "reports that 3 000 people were evacuated…"
+          citation_refs: [39]
+        - id: "src-014-b"
+          outlet: "NASA MODIS"
+          url: "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "At least 3,000 people have been evacuated…"
+          citation_refs: [40]
+        - id: "src-014-c"
+          outlet: "Reuters (photo)"
+          url: "https://www.reuters.com/pictures/pictures-day-january-8-2026-2026-01-08/RCZPIORAFJKQJAXJWZ6WNSL7F4"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [41]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-015"
+    category: "Disasters and accidents"
+    subcategory: "Maritime accidents"
+    topics:
+      - "Maritime accidents"
+      - "Gambia"
+      - "Senegal"
+    importance: 7
+    headline: "Death toll rises to 39 after migrant boat capsizes off Gambia, survivors describe “overcrowded and dilapidated” vessel"
+    summary: >
+      The death toll from a Europe-bound migrant boat tragedy off Gambia rose sharply, with
+      Reuters reporting two government officials said 39 people died after a boat capsized
+      off Gambia’s coast on New Year’s Eve; Reuters added survivors described the vessel as
+      “overcrowded and dilapidated.” Earlier reporting captured lower confirmed tolls as
+      search and rescue progressed: AFP dispatches (via BSS) reported at least 31 dead as of
+      Jan. 6, while AP reported that after the capsize, at least seven bodies were recovered
+      and more than 100 survivors were rescued.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported officials raised the confirmed death toll to 39 for the New Year’s Eve capsize, with the earlier official number having been significantly lower."
+        - "Reuters reported survivors described the boat as “overcrowded and dilapidated.”"
+        - "AFP (BSS) reported that as of Jan. 6 the government said at least 31 drowned, with “many others” missing feared dead."
+        - "AP reported the boat carried more than 200 migrants and that at least 102 survivors had been rescued in the initial phase, with seven bodies recovered and dozens missing."
+      why_it_matters:
+        - "The rising toll over multiple days highlights how fatality counts in maritime disasters often increase as searches recover bodies across borders and currents."
+        - "The incident underscores continued migration pressure on Atlantic routes and the risks of overloaded vessels."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "None identified"
+      secondary:
+        - "Gambia Defence Ministry (referenced in reporting)"
+        - "Associated Press (as reporter)"
+        - "Agence France-Presse (as reporter)"
+    entities:
+      people: []
+      organizations:
+        - name: "Gambia Defence Ministry"
+          description: "Gambia defense ministry"
+        - name: "Associated Press"
+          description: "News agency"
+        - name: "Agence France-Presse"
+          description: "News agency"
+      states:
+        - "Gambia"
+        - "Senegal"
+    geography:
+      countries:
+        - "Gambia"
+        - "Senegal"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 39
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Boat capsized; survivor rescue operations described; property damage not applicable."
+    classification:
+      event_type:
+        - "maritime-accidents"
+      tags:
+        - "maritime-accidents"
+        - "gambia"
+        - "senegal"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-015-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/thirty-nine-dead-gambia-migrant-boat-sinking-officials-say-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "key_data"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "overcrowded and dilapidated."
+          citation_refs: [42]
+        - id: "src-015-b"
+          outlet: "AFP (via BSS)"
+          url: "https://www.bssnews.net/international/348390"
+          publication_date: "2026-01-06"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "Many others (are) missing and feared dead."
+          citation_refs: [43]
+        - id: "src-015-c"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/7058d8af4f362eb299a685709d0b693a"
+          publication_date: "2026-01-01"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material:
+            - "a boat carrying over 200 migrants capsized…"
+          citation_refs: [44]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-016"
+    category: "International relations"
+    subcategory: "Humanitarian aid suspension"
+    topics:
+      - "Humanitarian aid suspension"
+      - "Somalia"
+      - "United States"
+    importance: 5
+    headline: "US pauses aid to Somalia amid dispute over demolished WFP warehouse and alleged seizure of food aid"
+    summary: >
+      Relations between Somalia and the United States deteriorated sharply after Washington
+      paused assistance benefiting Somalia’s federal government, citing allegations that
+      Somali officials demolished a U.S.-funded World Food Programme warehouse at
+      Mogadishu’s port and seized donor-funded food. Reuters reported the WFP confirmed
+      recovery of 75 metric tons of nutritional commodities, while noting Somali officials
+      disputed aspects of the U.S. account. Al Jazeera reported the U.S. State Department
+      statement on X alleging destruction of the warehouse and seizure of 76 metric tons,
+      and quoted a “zero-tolerance” policy statement. A Fortune item echoed the State
+      Department’s “paused all ongoing U.S. assistance programs” language.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported the U.S. paused assistance benefiting Somalia’s government after allegations about a demolished WFP warehouse and seized donor-funded food aid."
+        - "Reuters reported WFP confirmed that 75 metric tons of nutritional commodities were recovered; Somali officials disputed the allegation of seizure, per Reuters."
+        - "Al Jazeera reported the State Department said it was “deeply concerned” and alleged seizure of 76 metric tons, adding a “zero-tolerance policy” for waste/theft/diversion."
+        - "Fortune reported the State Department said it had “paused all ongoing U.S. assistance programs which benefit the Somali Federal Government,” tying resumption to accountability."
+      why_it_matters:
+        - "A pause of state-benefiting aid can disrupt governance support and coordination in a country facing acute humanitarian needs, especially when tied to food assistance infrastructure disputes."
+        - "Conflicting tonnage figures (75 vs. 76 metric tons) and competing narratives show the sensitivity of aid diversion allegations and the need for transparent verification mechanisms."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Department of State"
+        - "Somali Federal Government"
+      secondary:
+        - "World Food Programme"
+    entities:
+      people: []
+      organizations:
+        - name: "World Food Programme"
+          description: "UN food aid agency"
+        - name: "U.S. Department of State"
+          description: "U.S. state department"
+        - name: "Somali Federal Government"
+          description: "Somalia national government"
+      states:
+        - "Somalia"
+        - "United States"
+    geography:
+      countries:
+        - "Somalia"
+        - "United States"
+      places:
+        - "Mogadishu"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Warehouse demolition alleged; 75–76 metric tons of donor-funded food aid at issue; no casualty figures in cited reporting."
+    classification:
+      event_type:
+        - "humanitarian-aid-suspension"
+      tags:
+        - "humanitarian-aid-suspension"
+        - "somalia"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-016-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/somalia-us-relations-hit-new-low-washington-pauses-aid-government-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "pause further assistance… amid a dispute over the demolition of a World Food Programme warehouse."
+          citation_refs: [45]
+        - id: "src-016-b"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/8/us-suspends-assistance-to-somali-government-for-alleged-seizure-of-aid"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "zero-tolerance policy for waste, theft, and diversion…"
+          citation_refs: [46]
+        - id: "src-016-c"
+          outlet: "Fortune"
+          url: "https://fortune.com/2026/01/08/state-department-suspends-foreign-aid-to-somalia"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "paused all ongoing U.S. assistance programs…"
+          citation_refs: [47]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-017"
+    category: "Business and economy"
+    subcategory: "Trade agreements"
+    topics:
+      - "Trade agreements"
+      - "France"
+    importance: 6
+    headline: "France says it will vote against EU–Mercosur trade deal as farmers blockade Paris"
+    summary: >
+      Emmanuel Macron said France would vote against signing the EU’s free trade agreement
+      with Mercosur, despite what he described as “significant concessions” for EU farmers.
+      Reuters reported Macron’s statement on X, and noted Ireland would also vote against
+      the agreement, while the deal was still expected to pass with support from other
+      states. On the same day, Reuters reported French farmers brought tractors to blockade
+      roads into Paris and landmarks including the Arc de Triomphe in protest. AP reported
+      on the protests and broader European farmer concerns about trade terms and competition
+      pressures.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Macron said France would vote against signing the EU–Mercosur agreement at the scheduled Friday vote."
+        - "Reuters reported Macron said he would keep fighting to “protect our farmers” and pursue commitments he said were obtained from the European Commission."
+        - "Reuters reported French farmers blockaded roads into Paris and landmarks like the Arc de Triomphe with tractors in protest against the deal."
+        - "PBS (AP) reported farmer protests in Paris and also in Greece, emphasizing trade-deal opposition among farming groups."
+      why_it_matters:
+        - "France’s stated “no” vote reflects continued EU internal division on agricultural exposure and the political sustainability of large trade liberalization moves."
+        - "Farmer mobilization in major capitals demonstrates high public salience and potential for wider political destabilization around trade policy."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Emmanuel Macron"
+        - "France"
+      secondary:
+        - "European Commission"
+        - "Mercosur"
+        - "Coordination Rurale (as named by AP reporting context)"
+    entities:
+      people:
+        - name: "Emmanuel Macron"
+          role: "President of france"
+      organizations:
+        - name: "European Union"
+          description: "Supranational union"
+        - name: "Mercosur"
+          description: "South american trade bloc"
+        - name: "European Commission"
+          description: "EU executive body"
+        - name: "Coordination Rurale"
+          description: "French farmers union"
+      states:
+        - "France"
+    geography:
+      countries:
+        - "France"
+      places:
+        - "European Union"
+        - "Mercosur"
+        - "Paris"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Road and landmark blockades reported; no casualty figures in cited sources."
+    classification:
+      event_type:
+        - "trade-agreements"
+      tags:
+        - "trade-agreements"
+        - "france"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-017-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/france-vote-against-mercosur-trade-deal-macron-says-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "France would vote against… on Friday."
+          citation_refs: [48]
+        - id: "src-017-b"
+          outlet: "PBS NewsHour (AP)"
+          url: "https://www.pbs.org/newshour/world/farmers-drive-through-paris-and-block-traffic-in-greece-to-protest-free-trade-deal"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Dozens of angry farmers drove tractors into Paris…"
+          citation_refs: [49]
+        - id: "src-017-c"
+          outlet: "Reuters (Video)"
+          url: "https://www.reuters.com/video/watch/idRW522008012026RP1"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "blockaded roads into Paris… with tractors."
+          citation_refs: [50]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-018"
+    category: "Disasters and accidents"
+    subcategory: "Earthquakes"
+    topics:
+      - "Earthquakes"
+      - "Peru"
+    importance: 3
+    headline: "Magnitude 5.5 earthquake strikes northern Peru, seismic monitors report"
+    summary: >
+      A magnitude 5.5 earthquake struck northern Peru, with Reuters citing the German
+      Research Centre for Geosciences as reporting the quake at a depth of 10 km.
+      Separately, GDACS (a UN-linked alerting and coordination system) posted an event entry
+      describing a “strong magnitude-5.5” earthquake in the broader border-region context
+      and attributed timing/depth information to United States Geological Survey, indicating
+      international monitoring convergence even as immediate damage/casualty reporting was
+      not present in the cited items.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported a magnitude 5.5 earthquake struck northern Peru on Thursday, citing GFZ."
+        - "Reuters reported GFZ placed the quake depth at 10 km."
+        - "GDACS posted an earthquake event entry describing the quake as “strong” and attributing details to USGS."
+      why_it_matters:
+        - "Shallow earthquakes (10 km) can increase the potential for surface impacts compared with deeper events, even when early damage reports are absent."
+        - "Rapid global monitoring entries (GFZ/GDACS-USGS) support early situational awareness while local impact verification catches up."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "None identified"
+      secondary:
+        - "German Research Centre for Geosciences"
+        - "Global Disaster Alert and Coordination System"
+        - "United States Geological Survey"
+    entities:
+      people: []
+      organizations:
+        - name: "German Research Centre for Geosciences"
+          description: "Gfz"
+        - name: "United States Geological Survey"
+          description: "Usgs"
+        - name: "Global Disaster Alert and Coordination System"
+          description: "Gdacs"
+      states:
+        - "Peru"
+    geography:
+      countries:
+        - "Peru"
+      places:
+        - "Northern Peru"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Unknown (no verified damage/casualty details in cited sources)."
+    classification:
+      event_type:
+        - "earthquakes"
+      tags:
+        - "earthquakes"
+        - "peru"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-018-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/environment/magnitude-55-earthquake-strikes-northern-peru-gfz-says-2026-01-08"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "A magnitude 5.5 earthquake struck northern Peru…"
+          citation_refs: [51]
+        - id: "src-018-b"
+          outlet: "GDACS"
+          url: "https://www.gdacs.org/media.aspx?eventid=1518553&eventtype=EQ"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material:
+            - "the USGS said."
+          citation_refs: [52]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-01-08-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "January 2026 Aleppo clashes"
+    topics:
+      - "SDF–Syrian transitional government clashes"
+      - "January 2026 Aleppo clashes"
+    importance: 6
+    headline: "Syrian Army captures Aleppo's Ashrafieh neighbourhood from the SDF"
+    summary: >
+      The Syrian Army captures the Ashrafieh neighbourhood of Aleppo after three days of
+      fighting with the Syrian Democratic Forces.
+    key_data: []
+    details:
+      what_happened:
+        - "The Syrian Army captures the Ashrafieh neighbourhood of Aleppo after three days of fighting with the Syrian Democratic Forces."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Syrian Army"
+        - "Syrian Democratic Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Syrian Army"
+          description: "Army of Syria's transitional government"
+        - name: "Syrian Democratic Forces"
+          description: "Kurdish-led armed coalition in northeast Syria"
+      states:
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Ashrafieh"
+        - "Aleppo"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "sdf-syrian-transitional-government-clashes"
+        - "january-2026-aleppo-clashes"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Syrian Army captures the Ashrafieh neighbourhood of Aleppo after three days of fighting with the Syrian Democratic Forces."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-007"
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-01-08-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025 Southern Yemen offensive, Saudi-led intervention in the Yemeni civil war"
+    topics:
+      - "Yemeni civil war"
+      - "2025 Southern Yemen offensive, Saudi-led intervention in the Yemeni civil war"
+    importance: 5
+    headline: "Saudi-led coalition says STC leader al-Zoubaidi fled to the UAE via Somaliland"
+    summary: >
+      The Saudi Arabia-led coalition in Yemen claims that Southern Transitional Council
+      (STC) president Aidarus al-Zoubaidi has fled to the United Arab Emirates through
+      Somaliland.
+    key_data: []
+    details:
+      what_happened:
+        - "The Saudi Arabia-led coalition in Yemen claims that Southern Transitional Council (STC) president Aidarus al-Zoubaidi has fled to the United Arab Emirates through Somaliland."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Aidarus al-Zoubaidi"
+        - "Southern Transitional Council"
+      secondary: []
+    entities:
+      people:
+        - name: "Aidarus al-Zoubaidi"
+          role: "President of Yemen's Southern Transitional Council"
+      organizations:
+        - name: "Southern Transitional Council"
+          description: "Yemeni southern separatist movement"
+      states:
+        - "Yemen"
+        - "United Arab Emirates"
+        - "Somaliland"
+    geography:
+      countries:
+        - "Yemen"
+        - "United Arab Emirates"
+        - "Somaliland"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "yemeni-civil-war"
+        - "2025-southern-yemen-offensive-saudi-led-intervention-in-the-yemeni-civil-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Saudi Arabia-led coalition in Yemen claims that Southern Transitional Council (STC) president Aidarus al-Zoubaidi has fled to the United Arab Emirates through Somaliland."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-021"
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-01-08-021"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025 Southern Yemen offensive, Saudi-led intervention in the Yemeni civil war"
+    topics:
+      - "Yemeni civil war"
+      - "2025 Southern Yemen offensive, Saudi-led intervention in the Yemeni civil war"
+    importance: 7
+    headline: "Yemeni government forces enter Aden and seize its airport as STC forces collapse"
+    summary: >
+      Government forces enter Aden and capture Aden International Airport as STC forces
+      collapse in Aden Governorate.
+    key_data: []
+    details:
+      what_happened:
+        - "Government forces enter Aden and capture Aden International Airport as STC forces collapse in Aden Governorate."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Southern Transitional Council"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Southern Transitional Council"
+          description: "Yemeni southern separatist movement"
+      states:
+        - "Yemen"
+    geography:
+      countries:
+        - "Yemen"
+      places:
+        - "Aden"
+        - "Aden International Airport"
+        - "Aden Governorate"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "yemeni-civil-war"
+        - "2025-southern-yemen-offensive-saudi-led-intervention-in-the-yemeni-civil-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Government forces enter Aden and capture Aden International Airport as STC forces collapse in Aden Governorate."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-020"
+    notes: "Portal-derived event with no deep-research coverage; reported by AA via TRT World and Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-01-08-022"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025–2026 Iranian protests"
+    topics:
+      - "2025–2026 Iranian protests"
+    importance: 5
+    headline: "Police officer reportedly killed in clashes with protesters in Malard, Iran"
+    summary: >
+      A police officer is reportedly killed during clashes with anti-government protesters
+      in Malard, Iran, as the number of injured police officers rises to 568.
+    key_data: []
+    details:
+      what_happened:
+        - "A police officer is reportedly killed during clashes with anti-government protesters in Malard, Iran, as the number of injured police officers rises to 568."
+      why_it_matters: []
+      uncertainty_notes:
+        - "The figure of 568 injured police officers in the portal bullet is a cumulative count for the protests, not a casualty figure for this incident."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Malard"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "protest"
+      tags:
+        - "2025-2026-iranian-protests"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A police officer is reportedly killed during clashes with anti-government protesters in Malard, Iran, as the number of injured police officers rises to 568."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-006"
+      - "evt-2026-01-08-023"
+      - "evt-2026-01-08-024"
+    notes: "Portal-derived event with no deep-research coverage; reported by AA and Africa News per the Wikipedia portal."
+  - id: "evt-2026-01-08-023"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025–2026 Iranian protests"
+    topics:
+      - "2025–2026 Iranian protests"
+    importance: 5
+    headline: "Exiled Iranian opposition's call for general strike widely observed in Kurdish areas"
+    summary: >
+      The Iranian opposition in exile calls for a general strike in the Kurdish areas in
+      western Iran, which is widely observed.
+    key_data: []
+    details:
+      what_happened:
+        - "The Iranian opposition in exile calls for a general strike in the Kurdish areas in western Iran, which is widely observed."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Kurdish areas of western Iran"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "2025-2026-iranian-protests"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Iranian opposition in exile calls for a general strike in the Kurdish areas in western Iran, which is widely observed."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-006"
+      - "evt-2026-01-08-022"
+      - "evt-2026-01-08-024"
+    notes: "Portal-derived event with no deep-research coverage; reported by Die Zeit in German per the Wikipedia portal."
+  - id: "evt-2026-01-08-024"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025–2026 Iranian protests"
+    topics:
+      - "2025–2026 Iranian protests"
+    importance: 5
+    headline: "Protesters in Ilam chant against Khamenei and topple a Qasem Soleimani statue"
+    summary: >
+      Videos are shown of protesters in Ilam, Iran chanting Death to Khamenei. Additionally,
+      a statue of former Quds Force commander Qasem Soleimani, who was killed in a US
+      airstrike in 2020, is toppled.
+    key_data: []
+    details:
+      what_happened:
+        - "Videos are shown of protesters in Ilam, Iran chanting Death to Khamenei. Additionally, a statue of former Quds Force commander Qasem Soleimani, who was killed in a US airstrike in 2020, is toppled."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+        - "United States"
+      places:
+        - "Ilam"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+        - "protest"
+      tags:
+        - "2025-2026-iranian-protests"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Videos are shown of protesters in Ilam, Iran chanting Death to Khamenei. Additionally, a statue of former Quds Force commander Qasem Soleimani, who was killed in a US airstrike in 2020, is toppled."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-006"
+      - "evt-2026-01-08-022"
+      - "evt-2026-01-08-023"
+    notes: "Portal-derived event with no deep-research coverage; reported by Israel National News per the Wikipedia portal."
+  - id: "evt-2026-01-08-025"
+    category: "Disasters and accidents"
+    subcategory: "2026 Binaliw landslide"
+    topics:
+      - "2026 Binaliw landslide"
+    importance: 6
+    headline: "Landfill collapse in Cebu City kills sanitation worker; 34 missing"
+    summary: >
+      At least one sanitation worker is killed when a landfill collapses in Cebu City,
+      Philippines. Search and rescue operations are ongoing for the 34 others reported
+      missing, while 12 people are hospitalized.
+    key_data: []
+    details:
+      what_happened:
+        - "At least one sanitation worker is killed when a landfill collapses in Cebu City, Philippines. Search and rescue operations are ongoing for the 34 others reported missing, while 12 people are hospitalized."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Philippines"
+    geography:
+      countries:
+        - "Philippines"
+      places:
+        - "Binaliw"
+        - "Cebu City"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 12
+      displaced: null
+      missing: 34
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "2026-binaliw-landslide"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least one sanitation worker is killed when a landfill collapses in Cebu City, Philippines. Search and rescue operations are ongoing for the 34 others reported missing, while 12 people are hospitalized."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via The Straits Times per the Wikipedia portal."
+  - id: "evt-2026-01-08-026"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 3
+    headline: "Woman killed in shark attack off Saint Croix, U.S. Virgin Islands"
+    summary: >
+      A woman is killed in a shark attack off the coast of Saint Croix in the United States
+      Virgin Islands. The species of the shark involved is currently unknown.
+    key_data: []
+    details:
+      what_happened:
+        - "A woman is killed in a shark attack off the coast of Saint Croix in the United States Virgin Islands. The species of the shark involved is currently unknown."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Saint Croix"
+        - "United States Virgin Islands"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A woman is killed in a shark attack off the coast of Saint Croix in the United States Virgin Islands. The species of the shark involved is currently unknown."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-01-08-027"
+    category: "Law and crime"
+    subcategory: "2026 Portland shooting"
+    topics:
+      - "Shootings by U.S. immigration agents in the second Trump administration"
+      - "2026 Portland shooting"
+    importance: 5
+    headline: "Border Patrol officers shoot two people in Portland, Oregon"
+    summary: >
+      Two people are hospitalized after being shot by Border Patrol officers in Portland,
+      Oregon, United States.
+    key_data: []
+    details:
+      what_happened:
+        - "Two people are hospitalized after being shot by Border Patrol officers in Portland, Oregon, United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Border Patrol"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "U.S. Border Patrol"
+          description: "Federal border law-enforcement agency"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Portland, Oregon"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: 2
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "shootings-by-u-s-immigration-agents-in-the-second-trump-administration"
+        - "2026-portland-shooting"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two people are hospitalized after being shot by Border Patrol officers in Portland, Oregon, United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-028"
+    notes: "Portal-derived event with no deep-research coverage; reported by KPTV-TV per the Wikipedia portal."
+  - id: "evt-2026-01-08-028"
+    category: "Law and crime"
+    subcategory: "Killing of Renee Good"
+    topics:
+      - "Shootings by U.S. immigration agents in the second Trump administration"
+      - "Killing of Renee Good"
+    importance: 5
+    headline: "Protesters and police clash in Minneapolis after fatal ICE shooting"
+    summary: >
+      Protesters and police clash in Minneapolis, Minnesota, U.S., after an ICE agent
+      fatally shot a civilian woman yesterday. Pepper balls and a gas-like substance are
+      fired toward the protesters outside a federal building.
+    key_data: []
+    details:
+      what_happened:
+        - "Protesters and police clash in Minneapolis, Minnesota, U.S., after an ICE agent fatally shot a civilian woman yesterday. Pepper balls and a gas-like substance are fired toward the protesters outside a federal building."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Minneapolis"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "fire"
+        - "protest"
+      tags:
+        - "shootings-by-u-s-immigration-agents-in-the-second-trump-administration"
+        - "killing-of-renee-good"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Protesters and police clash in Minneapolis, Minnesota, U.S., after an ICE agent fatally shot a civilian woman yesterday. Pepper balls and a gas-like substance are fired toward the protesters outside a federal building."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-027"
+    notes: "Portal-derived event with no deep-research coverage; reported by CNN per the Wikipedia portal."
+  - id: "evt-2026-01-08-029"
+    category: "Law and crime"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Honduran congresswoman injured by explosive at the National Congress in Tegucigalpa"
+    summary: >
+      Honduran congresswoman Gladys Aurora López is injured after being struck in the head
+      by an explosive when entering the National Congress building in Tegucigalpa.
+    key_data: []
+    details:
+      what_happened:
+        - "Honduran congresswoman Gladys Aurora López is injured after being struck in the head by an explosive when entering the National Congress building in Tegucigalpa."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Gladys Aurora López"
+      secondary: []
+    entities:
+      people:
+        - name: "Gladys Aurora López"
+          role: "Honduran National Party lawmaker"
+      organizations: []
+      states:
+        - "Honduras"
+    geography:
+      countries:
+        - "Honduras"
+      places:
+        - "Tegucigalpa"
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: 1
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Honduran congresswoman Gladys Aurora López is injured after being struck in the head by an explosive when entering the National Congress building in Tegucigalpa."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Times Now per the Wikipedia portal."
+  - id: "evt-2026-01-08-030"
+    category: "Politics and elections"
+    subcategory: "12th Central Committee of the Lao People's Revolutionary Party"
+    topics:
+      - "12th Central Committee of the Lao People's Revolutionary Party"
+    importance: 5
+    headline: "Thongloun Sisoulith re-elected General Secretary of Laos' ruling party"
+    summary: >
+      Laos' top leader, Thongloun Sisoulith, is re-elected as the General Secretary of the
+      Lao People's Revolutionary Party, the most powerful position in the one-party state.
+    key_data: []
+    details:
+      what_happened:
+        - "Laos' top leader, Thongloun Sisoulith, is re-elected as the General Secretary of the Lao People's Revolutionary Party, the most powerful position in the one-party state."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Thongloun Sisoulith"
+        - "Lao People's Revolutionary Party"
+      secondary: []
+    entities:
+      people:
+        - name: "Thongloun Sisoulith"
+          role: "General Secretary of the Lao People's Revolutionary Party"
+      organizations:
+        - name: "Lao People's Revolutionary Party"
+          description: "Ruling party of Laos"
+      states:
+        - "Laos"
+    geography:
+      countries:
+        - "Laos"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "12th-central-committee-of-the-lao-peoples-revolutionary-party"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Laos' top leader, Thongloun Sisoulith, is re-elected as the General Secretary of the Lao People's Revolutionary Party, the most powerful position in the one-party state."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Diplomat per the Wikipedia portal."
+  - id: "evt-2026-01-08-031"
+    category: "Politics and elections"
+    subcategory: "Catholic Church sexual abuse cases in Europe"
+    topics:
+      - "Catholic Church sexual abuse cases in Europe"
+    importance: 5
+    headline: "Spain's government and bishops agree ombudsman-led compensation for time-barred clergy abuse cases"
+    summary: >
+      The Spanish Episcopal Conference and the national government agree to let the
+      ombudsman determine compensation for victims of clergy sexual abuse whose cases are
+      time-barred or whose alleged abusers are deceased, opening a one-year claims process
+      funded by the Catholic Church.
+    key_data: []
+    details:
+      what_happened:
+        - "The Spanish Episcopal Conference and the national government agree to let the ombudsman determine compensation for victims of clergy sexual abuse whose cases are time-barred or whose alleged abusers are deceased, opening a one-year claims process funded by the Catholic Church."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Spanish Episcopal Conference"
+        - "Ombudsman of Spain"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Spanish Episcopal Conference"
+          description: "Assembly of Spain's Catholic bishops"
+        - name: "Ombudsman of Spain"
+          description: "Spain's Defensor del Pueblo"
+      states:
+        - "Spain"
+    geography:
+      countries:
+        - "Spain"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "catholic-church-sexual-abuse-cases-in-europe"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Spanish Episcopal Conference and the national government agree to let the ombudsman determine compensation for victims of clergy sexual abuse whose cases are time-barred or whose alleged abusers are deceased, opening a one-year claims process funded by the Catholic Church."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-01-08-032"
+    category: "Politics and elections"
+    subcategory: "Detention of Rocío San Miguel"
+    topics:
+      - "Detention of Rocío San Miguel"
+    importance: 6
+    headline: "Venezuela releases political prisoners including rights activist Rocío San Miguel"
+    summary: >
+      Acting Venezuelan president Delcy Rodríguez's administration releases several
+      political prisoners, including human rights activist Rocío San Miguel.
+    key_data: []
+    details:
+      what_happened:
+        - "Acting Venezuelan president Delcy Rodríguez's administration releases several political prisoners, including human rights activist Rocío San Miguel."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Rocío San Miguel"
+        - "Delcy Rodríguez"
+      secondary: []
+    entities:
+      people:
+        - name: "Rocío San Miguel"
+          role: "Venezuelan human-rights activist"
+        - name: "Delcy Rodríguez"
+          role: "Acting president of Venezuela"
+      organizations: []
+      states:
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "detention-of-roc-o-san-miguel"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Acting Venezuelan president Delcy Rodríguez's administration releases several political prisoners, including human rights activist Rocío San Miguel."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-01-08-004"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Barron's per the Wikipedia portal."
+
+strategic_conclusion: >
+  The day's reporting shows several conflicts moving at once: government offensives in
+  Aleppo and Aden reshaped control on the ground, Iran's authorities cut internet access as
+  protests spread, and the Venezuela raid continued to draw legislative scrutiny in
+  Washington. U.S. withdrawal from multilateral bodies and the Greenland dispute strained
+  relations with Europe, while trade disputes between China and Japan and over EU–Mercosur
+  remained unresolved. Disasters in The Gambia, the Philippines, Australia and Argentina
+  added to the humanitarian toll.
+
+works_cited:
+  - id: 1
+    title: "Trump signs proclamation withdrawing international organizations white house"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/trump-signs-proclamation-withdrawing-international-organizations-white-house-2026-01-07"
+    accessed: "2026-01-08"
+  - id: 2
+    title: "United nations trump international organizations withdrawal"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/united-nations-trump-international-organizations-withdrawal-d704fb9b444dc9cf569865d391b544a6"
+    accessed: "2026-01-08"
+  - id: 3
+    title: "Withdrawing the united states from international organizations conventions and treaties that are contrary to the interests of the united states"
+    outlet: "The White House"
+    url: "https://www.whitehouse.gov/presidential-actions/2026/01/withdrawing-the-united-states-from-international-organizations-conventions-and-treaties-that-are-contrary-to-the-interests-of-the-united-states"
+    accessed: "2026-01-07"
+  - id: 4
+    title: "Eu regrets us withdrawal un climate treaty"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/climate-energy/eu-regrets-us-withdrawal-un-climate-treaty-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 5
+    title: "Us withdrawal climate treaty is colossal own goal says un climate chief"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/climate-energy/us-withdrawal-climate-treaty-is-colossal-own-goal-says-un-climate-chief-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 6
+    title: "Europe discusses response us threat greenland eus kallas says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe-discusses-response-us-threat-greenland-eus-kallas-says-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 7
+    title: "Trump european union greenland denmark rubio frederiksen"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/trump-european-union-greenland-denmark-rubio-frederiksen-4d18970667b130d293ccaf4c0d55c300"
+    accessed: "2026-01-08"
+  - id: 8
+    title: "Trump advisers discussing options acquiring greenland us military is always an"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/trump-advisers-discussing-options-acquiring-greenland-us-military-is-always-an-2026-01-06"
+    accessed: "2026-01-07"
+  - id: 9
+    title: "Over republican objections us house poised pass health subsidy renewal"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/healthcare-pharmaceuticals/over-republican-objections-us-house-poised-pass-health-subsidy-renewal-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 10
+    title: "Donald trump news updates 1 8 2026"
+    outlet: "Associated Press"
+    url: "https://apnews.com/live/donald-trump-news-updates-1-8-2026"
+    accessed: "2026-01-08"
+  - id: 11
+    title: "Us senate vote reining trump venezuela"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/us-senate-vote-reining-trump-venezuela-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 12
+    title: "Venezuelas interior minister says 100 people died us attack"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/venezuelas-interior-minister-says-100-people-died-us-attack-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 13
+    title: "Ukraine says repairs services ongoing after russian strikes dnipropetrovsk"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/ukraine-says-repairs-services-ongoing-after-russian-strikes-dnipropetrovsk-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 14
+    title: "Iran warns suppliers against overpricing or hoarding goods"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/iran-warns-suppliers-against-overpricing-or-hoarding-goods-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 15
+    title: "Iran experiencing nationwide internet blackout monitor says"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/8/iran-experiencing-nationwide-internet-blackout-monitor-says"
+    accessed: "2026-01-08"
+  - id: 16
+    title: "Iran cutting internet amid deadly protests"
+    outlet: "CBS News (AP)"
+    url: "https://www.cbsnews.com/news/iran-cutting-internet-amid-deadly-protests"
+    accessed: "2026-01-08"
+  - id: 17
+    title: "NetBlocks (X post) report"
+    outlet: "NetBlocks (X post)"
+    url: "https://x.com/netblocks/status/2009313506726957230"
+    accessed: "2026-01-08"
+  - id: 18
+    title: "Syrian army orders evacuations heavy fighting grips aleppos kurdish areas"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/syrian-army-orders-evacuations-heavy-fighting-grips-aleppos-kurdish-areas-2026-01-08"
+    accessed: "2026-01-09"
+  - id: 19
+    title: "Turkey ready help end conflict syrias aleppo parliament speaker says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/turkey-ready-help-end-conflict-syrias-aleppo-parliament-speaker-says-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 20
+    title: "Live syrias army shells sdf positions in aleppo neighbourhoods"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/liveblog/2026/1/8/live-syrias-army-shells-sdf-positions-in-aleppo-neighbourhoods"
+    accessed: "2026-01-08"
+  - id: 21
+    title: "Israeli military says it hit gaza launch site following failed rocket fire"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/israeli-military-says-it-hit-gaza-launch-site-following-failed-rocket-fire-2026-01-08"
+    accessed: "2026-01-09"
+  - id: 22
+    title: "Hamas agency says 13 killed by israeli strikes in gaza after failed missile launch"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/hamas-agency-says-13-killed-by-israeli-strikes-in-gaza-after-failed-missile-launch"
+    accessed: "2026-01-09"
+  - id: 23
+    title: "5227605 israel strikes gaza rocket launch site ceasefire deal under strain"
+    outlet: "Asharq Al-Awsat"
+    url: "https://english.aawsat.com/arab-world/5227605-israel-strikes-gaza-rocket-launch-site-ceasefire-deal-under-strain"
+    accessed: "2026-01-08"
+  - id: 24
+    title: "China says dual use export ban japan will not affect civilian trade"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/china-says-dual-use-export-ban-japan-will-not-affect-civilian-trade-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 25
+    title: "Japan Ministry of Foreign Affairs (Press Release) report"
+    outlet: "Japan Ministry of Foreign Affairs (Press Release)"
+    url: "https://www.mofa.go.jp/press/release/pressite_000001_01988.html"
+    accessed: "2026-01-08"
+  - id: 26
+    title: "China Ministry of Commerce (Spokesperson Remarks) report"
+    outlet: "China Ministry of Commerce (Spokesperson Remarks)"
+    url: "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2026/art_ad432d69b63545ef81b6b0c9d21c0fa1.html"
+    accessed: "2026-01-08"
+  - id: 27
+    title: "44f730c4 7de3 4a09 88dd 41ea9c373dcb"
+    outlet: "Financial Times"
+    url: "https://www.ft.com/content/44f730c4-7de3-4a09-88dd-41ea9c373dcb"
+    accessed: "2026-01-07"
+  - id: 28
+    title: "China hacked email systems us congressional committee staff ft reports"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/china-hacked-email-systems-us-congressional-committee-staff-ft-reports-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 29
+    title: "China against political disinformation about us government email breach"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/china-against-political-disinformation-about-us-government-email-breach-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 30
+    title: "Nextgov report"
+    outlet: "Nextgov"
+    url: "https://www.nextgov.com/cybersecurity/2026/01/chinese-hackers-targeted-email-systems-us-congressional-staff-people-familiar-say/410544"
+    accessed: "2026-01-08"
+  - id: 31
+    title: "India plans scrap curbs chinese firms bidding government contracts sources say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/india-plans-scrap-curbs-chinese-firms-bidding-government-contracts-sources-say-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 32
+    title: "The Economic Times report"
+    outlet: "The Economic Times"
+    url: "https://m.economictimes.com/news/economy/foreign-trade/finance-ministry-plans-to-scrap-curbs-on-chinese-firms-bidding-for-government-contracts-sources-say/articleshow/126410937.cms"
+    accessed: "2026-01-08"
+  - id: 33
+    title: "India contemplates to ease five year restrictions on chinese firms bidding for govt contracts report"
+    outlet: "LiveMint"
+    url: "https://www.livemint.com/news/world/india-contemplates-to-ease-five-year-restrictions-on-chinese-firms-bidding-for-govt-contracts-report-11767866308709.html"
+    accessed: "2026-01-08"
+  - id: 34
+    title: "China extradited prince group founder chen zhi state media reports"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/china-extradited-prince-group-founder-chen-zhi-state-media-reports-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 35
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/86da674adf010d75e080193592da43e6"
+    accessed: "2026-01-08"
+  - id: 36
+    title: "Chairman prince group indicted operating cambodian forced labor scam compounds engaged"
+    outlet: "U.S. Department of Justice"
+    url: "https://www.justice.gov/opa/pr/chairman-prince-group-indicted-operating-cambodian-forced-labor-scam-compounds-engaged"
+    accessed: "2025-10-14"
+  - id: 37
+    title: "Bushfires rage australias southeast authorities warn catastrophic friday"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/climate-energy/bushfires-rage-australias-southeast-authorities-warn-catastrophic-friday-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 38
+    title: "ABC News report"
+    outlet: "ABC News"
+    url: "https://www.abc.net.au/news/2026-01-08/warnings-bushfire-victoria-longwood-mt-lawson-state-park/106207942"
+    accessed: "2026-01-08"
+  - id: 39
+    title: "Argentina wildfires media jrc gwis echo daily flash 8 january 2026"
+    outlet: "ReliefWeb (ECHO Daily Flash)"
+    url: "https://reliefweb.int/report/argentina/argentina-wildfires-media-jrc-gwis-echo-daily-flash-8-january-2026"
+    accessed: "2026-01-08"
+  - id: 40
+    title: "NASA MODIS report"
+    outlet: "NASA MODIS"
+    url: "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-01-08"
+    accessed: "2026-01-08"
+  - id: 41
+    title: "Reuters (photo) report"
+    outlet: "Reuters (photo)"
+    url: "https://www.reuters.com/pictures/pictures-day-january-8-2026-2026-01-08/RCZPIORAFJKQJAXJWZ6WNSL7F4"
+    accessed: "2026-01-08"
+  - id: 42
+    title: "Thirty nine dead gambia migrant boat sinking officials say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/thirty-nine-dead-gambia-migrant-boat-sinking-officials-say-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 43
+    title: "AFP (via BSS) report"
+    outlet: "AFP (via BSS)"
+    url: "https://www.bssnews.net/international/348390"
+    accessed: "2026-01-06"
+  - id: 44
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/7058d8af4f362eb299a685709d0b693a"
+    accessed: "2026-01-01"
+  - id: 45
+    title: "Somalia us relations hit new low washington pauses aid government"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/somalia-us-relations-hit-new-low-washington-pauses-aid-government-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 46
+    title: "Us suspends assistance to somali government for alleged seizure of aid"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/8/us-suspends-assistance-to-somali-government-for-alleged-seizure-of-aid"
+    accessed: "2026-01-08"
+  - id: 47
+    title: "State department suspends foreign aid to somalia"
+    outlet: "Fortune"
+    url: "https://fortune.com/2026/01/08/state-department-suspends-foreign-aid-to-somalia"
+    accessed: "2026-01-08"
+  - id: 48
+    title: "France vote against mercosur trade deal macron says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/france-vote-against-mercosur-trade-deal-macron-says-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 49
+    title: "Farmers drive through paris and block traffic in greece to protest free trade deal"
+    outlet: "PBS NewsHour (AP)"
+    url: "https://www.pbs.org/newshour/world/farmers-drive-through-paris-and-block-traffic-in-greece-to-protest-free-trade-deal"
+    accessed: "2026-01-08"
+  - id: 50
+    title: "Reuters (Video) report"
+    outlet: "Reuters (Video)"
+    url: "https://www.reuters.com/video/watch/idRW522008012026RP1"
+    accessed: "2026-01-08"
+  - id: 51
+    title: "Magnitude 55 earthquake strikes northern peru gfz says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/environment/magnitude-55-earthquake-strikes-northern-peru-gfz-says-2026-01-08"
+    accessed: "2026-01-08"
+  - id: 52
+    title: "GDACS report"
+    outlet: "GDACS"
+    url: "https://www.gdacs.org/media.aspx?eventid=1518553&eventtype=EQ"
+    accessed: "2026-01-08"
+  - id: 53
+    title: "Portal:Current events/2026 January 8"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_January_8&oldid=1354055397"
+    accessed: "2026-09-22"

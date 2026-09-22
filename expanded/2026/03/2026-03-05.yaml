@@ -1,0 +1,3883 @@
+date: "2026-03-05"
+source_page:
+  portal: "Portal:Current events/2026 March 5"
+  language: "en"
+  wikipedia_revision_id: 1365299343
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 5 (revision 1365299343; seed 2026/03/2026-03-05.yaml) + deep-research report reference/deep-research/2026/03/2026-03-05a.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  On March 5, 2026, the first week of the Iran war continued to spread across the region.
+  Iranian missiles and drones targeted Bahrain, Qatar, the UAE and Azerbaijan's Nakhchivan
+  airport, most of them intercepted, while Israel signalled a second phase aimed at Iran's
+  underground missile sites and ordered the evacuation of Beirut's Dahieh suburb. Iran's
+  foreign minister said Tehran was not seeking a ceasefire or talks, and in Washington the
+  House rejected a war-powers measure on Iran. European states sent naval assets to protect
+  Cyprus, NATO raised its missile-defence posture, and Lebanon banned IRGC activity on its
+  territory.
+
+  The war's economic effects spread through oil and jet-fuel markets as Hormuz traffic was
+  disrupted, with China reportedly seeking safe passage for tankers and South Korea
+  activating a ₩100 trillion stabilization fund. Outside the Middle East, Russia and Ukraine
+  exchanged 200 prisoners each, Nepal voted in its first election since the Gen Z protests,
+  Kosovo's parliament failed to elect a president, the United States and Venezuela agreed to
+  restore relations, and President Trump dismissed Homeland Security Secretary Kristi Noem.
+
+events:
+  - id: "evt-2026-03-05-001"
+    category: "Politics and elections"
+    subcategory: "War powers and oversight"
+    topics:
+      - "War powers and oversight"
+      - "United States"
+      - "Iran"
+    importance: 7
+    headline: "U.S. House rejects war-powers measure on Iran as Trump signals role in leadership succession"
+    summary: >
+      On March 5, the U.S. House of Representatives voted down a resolution that would have
+      directed the president to remove U.S. forces from “unauthorized hostilities” in Iran,
+      effectively signaling that a narrow majority was not prepared to use the War Powers
+      framework to constrain the expanding air campaign. The vote came on the conflict’s
+      sixth day and followed similar congressional debate in the Senate the day before,
+      while U.S. officials simultaneously emphasized that operations were limited and
+      nearing completion. In parallel, Donald Trump told Reuters he believed the United
+      States “must be involved” in choosing Iran’s next leader after the Supreme Leader’s
+      death at the outset of the war—remarks that intensified scrutiny over the
+      administration’s strategy, aims, and end-state.
+    key_data: []
+    details:
+      what_happened:
+        - "The House voted 219–212 to reject a resolution directing the president (under War Powers procedures) to end “unauthorized hostilities” involving Iran."
+        - "Reuters reported the vote largely followed party lines, with a small number of cross-overs on each side."
+        - "The official House roll-call record identified the measure as H. Con. Res. 38 and showed it failed."
+        - "Trump told Reuters the U.S. “must be involved” in selecting Iran’s next leader and encouraged Iranian Kurdish forces based in Iraq to consider offensive action."
+      why_it_matters:
+        - "The vote reinforced executive latitude in the opening phase of a major overseas conflict, leaving oversight to later votes, funding leverage, or litigation."
+        - "Trump’s leadership-succession comments amplified concerns that the war’s objectives could extend beyond military targets to political change."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. House of Representatives"
+        - "Donald Trump"
+      secondary:
+        - "Office of the Clerk, U.S. House of Representatives"
+        - "Reuters"
+        - "Associated Press"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "U.S. president"
+      organizations:
+        - name: "U.S. House of Representatives"
+          description: "Lower chamber congress U.S."
+        - name: "Reuters"
+          description: "News agency"
+        - name: "Office of the Clerk, U.S. House of Representatives"
+          description: "House clerk office U.S."
+        - name: "Associated Press"
+          description: "News agency"
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+      places:
+        - "Washington"
+        - "D.C"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not applicable (legislative action and public statements)."
+    classification:
+      event_type:
+        - "war-powers-and-oversight"
+      tags:
+        - "war-powers-and-oversight"
+        - "united-states"
+        - "iran"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/us/us-house-rejects-war-powers-resolution-backs-trump-iran-war-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Office of the Clerk, U.S. House of Representatives"
+          url: "https://clerk.house.gov/Votes/202685"
+          publication_date: "2026-03-05"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+        - id: "src-001-c"
+          outlet: "Associated Press"
+          url: "https://apnews.com/live/iran-war-israel-trump-lebanon-march-05-2026"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: "src-001-d"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/trump-tells-reuters-us-will-have-role-choosing-irans-next-leader-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-05-023"
+    notes: ""
+  - id: "evt-2026-03-05-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes and missile infrastructure targeting"
+    topics:
+      - "Airstrikes and missile infrastructure targeting"
+      - "Iran"
+      - "Israel"
+    importance: 8
+    headline: "Israel signals “second phase” targeting Iran’s underground missile sites as air campaign intensifies"
+    summary: >
+      Israeli officials and sources familiar with operational planning said on March 5 that
+      Israel’s campaign in Iran was moving into a “second phase,” shifting from above-ground
+      launchers toward ballistic-missile facilities buried deep underground—targets that are
+      harder to locate, harder to damage, and typically central to Iran’s retaliatory
+      capacity. Reuters reported that Israel’s air force stated it struck an underground
+      infrastructure site used for storing ballistic missiles and missiles intended for
+      aircraft, and that underground strike announcements had not featured prominently in
+      earlier public statements. Parallel reporting described intense, near-continuous
+      sorties and broader claims that Iran’s air defenses and missile launchers had been
+      heavily degraded, even as analysts differed on how large Iran’s remaining missile
+      stock might be—an uncertainty that could shape escalation, duration, and negotiation
+      dynamics.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Israel’s Iran campaign was “entering a second phase,” with fighter jets planned to attack underground bunkers storing ballistic missiles and related equipment."
+        - "Israel’s military said it struck an underground infrastructure site used to store ballistic missiles and storage sites for missiles intended for use against aircraft."
+        - "The same Reuters report noted Israel said it had already hit hundreds of Iranian missile launchers above ground, while analysts’ estimates of Iran’s pre-war stockpile varied widely."
+        - "Separate reporting noted Israeli claims that strikes had destroyed “most” of Iran’s air defenses and missile launchers, as U.S.-Israeli pressure on Tehran continued."
+      why_it_matters:
+        - "Striking underground missile infrastructure typically signals escalation into more complex, resource-intensive targeting—often associated with longer campaigns and higher uncertainty in outcomes."
+        - "Iran’s residual missile capacity is a key variable for regional spillover risk and for any future de-escalation bargaining leverage."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Israel Defense Forces"
+      secondary:
+        - "Pete Hegseth"
+    entities:
+      people:
+        - name: "Pete Hegseth"
+          role: "U.S. defense secretary"
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Israel armed forces"
+      states:
+        - "Israel"
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+        - "Israel"
+      places:
+        - "Tehran"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Reported strikes on underground missile storage infrastructure; extent of physical destruction not quantified."
+    classification:
+      event_type:
+        - "airstrikes-and-missile-infrastructure-targeting"
+      tags:
+        - "airstrikes-and-missile-infrastructure-targeting"
+        - "iran"
+        - "israel"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/israel-attack-irans-underground-missile-sites-second-phase-war-sources-say-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [5]
+        - id: "src-002-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/iran-israel-us-march-05-2026-6a76668997a43855cc37eff7f4829615"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-003"
+    category: "Armed conflicts and attacks"
+    subcategory: "Missile and drone strikes, regional spillover"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Bahrain"
+      - "Missile and drone strikes, regional spillover"
+      - "Bahrain"
+      - "Iraq"
+    importance: 8
+    headline: "Iranian missiles and drones hit Gulf-region targets as Bahrain reports large-scale interceptions"
+    summary: >
+      As the U.S.–Israel war on Iran entered its sixth day, Gulf states reported continued
+      missile and drone activity on March 5, reflecting how quickly the conflict’s
+      operational footprint had expanded beyond Iran and Israel into airspace and
+      infrastructure across the region. The Bahrain Defence Force said its air defenses had
+      continued intercepting “successive waves” of attacks and reported cumulative
+      interception totals since the onset of Iranian strikes. In Iraq, local reporting cited
+      by Al Jazeera described a drone intercepted near a U.S. military base in the Baghdad
+      airport area, while explosions were reported in Doha amid ongoing air defense
+      activity. The combined picture underscored a sustained regional air-defense stress
+      test—one with civilian safety implications (warnings, shelter guidance, debris risk)
+      and strategic implications (deterrence signaling, pressure on U.S. basing posture, and
+      potential involvement of more states).
+    key_data: []
+    details:
+      what_happened:
+        - "The Bahrain Defence Force reported that, since the onset of attacks, it had destroyed 74 missiles and 117 drones targeting Bahrain’s airspace, territorial waters, and land."
+        - "Bahrain’s military leadership urged residents to remain indoors except when necessary and to rely on official information channels."
+        - "Al Jazeera reported that Iraqi forces shot down a drone that attempted to attack a U.S. base near Baghdad International Airport (Victoria airbase), according to local media reports."
+        - "Al Jazeera also reported loud explosions in Doha amid wider regional drone/missile activity and air-defense operations."
+      why_it_matters:
+        - "Sustained cross-border drone/missile activity increases the probability of civilian casualties from debris or misfires and can force disruptive civil-defense measures (shelter orders, flight interruptions)."
+        - "Regional targeting raises escalation risks by pressuring host nations and potentially widening the set of direct belligerents."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Bahrain Defence Force"
+      secondary:
+        - "Iraqi security forces"
+        - "Iranian military (as alleged attacker in official and media reports)"
+    entities:
+      people: []
+      organizations:
+        - name: "Bahrain Defence Force"
+          description: "Bahrain military"
+        - name: "Iraqi security forces"
+          description: "Security forces of Iraq"
+        - name: "Iranian military"
+          description: "as alleged attacker in official and media reports"
+      states:
+        - "Bahrain"
+        - "Iraq"
+        - "Qatar"
+    geography:
+      countries:
+        - "Bahrain"
+        - "Iraq"
+        - "Qatar"
+      places:
+        - "Manama area"
+        - "Baghdad area"
+        - "Doha area"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Interceptions reported; additional damage details (if any) not specified in cited materials."
+    classification:
+      event_type:
+        - "missile-and-drone-strikes-regional-spillover"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-bahrain"
+        - "missile-and-drone-strikes-regional-spillover"
+        - "bahrain"
+        - "iraq"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Bahraini military reports that 74 Iranian missiles and 117 hostile drones have been intercepted and destroyed. A missile hit an oil refinery, causing a fire."
+      external:
+        - id: "src-003-a"
+          outlet: "Qatar News Agency"
+          url: "https://qna.org.qa/en/news/news-details?id=bahrain-74-missiles-and-117-drones-destroyed-since-onset-of-iranian-attacks&date=5/03/2026"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [7]
+        - id: "src-003-b"
+          outlet: "Gulf News (WAM)"
+          url: "https://gulfnews.com/world/gulf/bahrain-defence-force-74-iranian-missiles117-hostile-drones-destroyed-1.500463658"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: "src-003-c"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/5/drone-targets-us-base-in-iraq-as-iran-attacks-hit-region-amid-us-israel-war"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-05-019"
+      - "evt-2026-03-05-020"
+      - "evt-2026-03-05-021"
+      - "evt-2026-03-05-022"
+    notes: ""
+  - id: "evt-2026-03-05-004"
+    category: "International relations"
+    subcategory: "Air and missile defense posture"
+    topics:
+      - "Air and missile defense posture"
+      - "Turkey"
+      - "Iran"
+    importance: 6
+    headline: "NATO raises missile-defense posture after Iranian missile incident near Turkish airspace"
+    summary: >
+      On March 5, NATO said it heightened its ballistic missile defense posture following an
+      interception linked to an Iranian missile incident involving Turkish airspace—an
+      episode that underscored the risk of the Iran war touching alliance territory even if
+      NATO is not a formal participant in the conflict. Reuters reported that NATO’s
+      military headquarters said the alliance identified the threat quickly and used land-
+      and sea-based systems to destroy the missile before impact, and that elevated
+      defensive measures would remain until regional missile attacks subsided. At the
+      political level, NATO’s secretary general Mark Rutte said there was no talk of
+      invoking Article 5, signaling an intent to avoid a legal/political escalatory step
+      while still demonstrating readiness and vigilance.
+    key_data: []
+    details:
+      what_happened:
+        - "NATO increased its ballistic missile defense posture after an Iranian missile was intercepted in connection with Turkish airspace, according to Reuters reporting from NATO’s military headquarters."
+        - "Reuters reported NATO described rapid threat identification and interception using land- and sea-based systems."
+        - "NATO said the elevated defensive posture would remain until Iran’s regional missile attacks subside."
+        - "Rutte said there was no discussion of triggering NATO’s Article 5 despite the incident."
+      why_it_matters:
+        - "A missile-defense interception associated with a NATO member raises risks of miscalculation and accelerates alliance planning—even if its leadership seeks to avoid formal escalation steps."
+        - "Higher defensive posture increases military tempo and resource demand at a moment of competing security priorities (including Europe’s eastern flank)."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "NATO"
+        - "Turkey"
+      secondary:
+        - "Iran (accused; Tehran denial reported by Reuters)"
+    entities:
+      people:
+        - name: "Mark Rutte"
+          role: "NATO secretary general"
+      organizations:
+        - name: "NATO"
+          description: "North atlantic treaty organization"
+      states:
+        - "Turkey"
+        - "Iran"
+    geography:
+      countries:
+        - "Turkey"
+        - "Iran"
+      places:
+        - "Eastern Mediterranean"
+        - "NATO territory"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Reuters reported no casualties; debris impacts were reported without quantified damage."
+    classification:
+      event_type:
+        - "air-and-missile-defense-posture"
+      tags:
+        - "air-and-missile-defense-posture"
+        - "turkey"
+        - "iran"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/nato-increases-missile-defence-posture-after-turkey-incident-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [10]
+        - id: "src-004-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/article-five-not-table-despite-iran-missile-incident-natos-rutte-says-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+        - id: "src-004-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/turkey-says-nato-defences-destroyed-missile-fired-iran-over-mediterranean-2026-03-04"
+          publication_date: "2026-03-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-005"
+    category: "Business and economy"
+    subcategory: "Energy supply shocks and freight disruption"
+    topics:
+      - "Energy supply shocks and freight disruption"
+      - "Singapore"
+      - "China"
+    importance: 7
+    headline: "Oil and jet-fuel prices spike as Strait-of-Hormuz disruption cascades into supply cuts and shipping reroutes"
+    summary: >
+      Energy markets reacted sharply on March 5 as the war’s impact on shipping and
+      production in the Gulf region translated into price spikes and concrete supply
+      disruptions. Reuters reported that U.S. crude futures rose faster than Brent, with WTI
+      settling up 8.51% to $81.01 and Brent up 4.93% to $85.41, amid growing concern that
+      the Strait of Hormuz had effectively stalled and that restarting production and
+      shipping would take time even if traffic resumed. Reuters also reported Iraq cut
+      nearly 1.5 million barrels per day because storage was filling without tanker
+      liftings, while Qatar halted LNG output due to shipping paralysis—developments that
+      propagated into refined products. In Asia, a Reuters commodities column highlighted
+      jet-fuel stress: Singapore jet fuel prices surged dramatically and margins signaled
+      looming shortages. Separately, Reuters reported LPG tankers redirected from Middle
+      East load plans toward U.S. terminals, illustrating rapid re-optimization of supply
+      chains under threat.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported WTI settled up 8.51% to $81.01 and Brent up 4.93% to $85.41 on supply fears and the widening Iran conflict."
+        - "Reuters reported Iraq cut nearly 1.5 million bpd as storage filled amid tanker paralysis, while Qatar shut down LNG output for similar shipping reasons."
+        - "Reuters reported U.S. diesel futures jumped about 10%, and ship-tracking data showed roughly 300 tankers remaining inside Hormuz amid near-halted traffic."
+        - "Reuters reported Singapore jet-fuel prices surged, alongside reports of operational changes and export constraints affecting Asian refiners and fuel markets."
+        - "Reuters reported LPG tankers originally positioned to load in the Middle East redirected to the U.S., with Qatar declaring force majeure on gas exports in the same period."
+      why_it_matters:
+        - "A Gulf shipping stoppage is a systemic supply shock that can rapidly become an inflation driver—especially via diesel and jet fuel with tighter inventories."
+        - "Supply cuts driven by storage constraints can outlast any near-term reopening of shipping lanes, delaying normalization across global trade flows."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Treasury Department"
+        - "major oil and LNG exporters (as reported)"
+      secondary:
+        - "Gulf-region shipping and energy operators (as reported)"
+    entities:
+      people: []
+      organizations:
+        - name: "U.S. Treasury Department"
+          description: "Finance ministry U.S."
+        - name: "Gulf-region shipping and energy operators"
+          description: "as reported"
+      states:
+        - "Singapore"
+        - "China"
+        - "India"
+    geography:
+      countries:
+        - "Singapore"
+        - "China"
+        - "India"
+      places:
+        - "Persian Gulf"
+        - "Strait of Hormuz"
+        - "U.S. Treasury Department"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Reported tanker blast/hull breach near an Iraqi port; broader supply losses via shut-ins."
+    classification:
+      event_type:
+        - "energy-supply-shocks-and-freight-disruption"
+      tags:
+        - "energy-supply-shocks-and-freight-disruption"
+        - "singapore"
+        - "china"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [13]
+        - id: "src-005-b"
+          outlet: "Reuters (Commentary)"
+          url: "https://www.reuters.com/markets/commodities/jet-fuels-huge-price-surge-points-coming-pain-iran-war-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [14]
+        - id: "src-005-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/lpg-tankers-redirect-us-iran-crisis-escalates-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-05-024"
+      - "evt-2026-03-05-032"
+    notes: ""
+  - id: "evt-2026-03-05-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Nuclear posture and alliance integration"
+    topics:
+      - "Nuclear posture and alliance integration"
+      - "Finland"
+    importance: 6
+    headline: "Finland moves to amend law to remove blanket nuclear-weapons ban, citing NATO deterrence needs"
+    summary: >
+      Finland announced on March 5 it would pursue legal amendments that would remove the
+      country’s long-standing blanket prohibition on nuclear explosives on Finnish
+      territory, a significant policy shift framed as necessary for full integration into
+      NATO’s deterrence and defense posture. Reuters reported the government planned to lift
+      the existing legislative ban embedded in Finland’s Nuclear Energy Act, which has
+      prohibited the import, manufacture, possession, and detonation of nuclear explosives
+      since 1987. In a separate Finnish government release, the Defense Ministry said it
+      would circulate a draft proposal to amend both the Nuclear Energy Act and the Criminal
+      Code, explicitly describing the objective as removing legal barriers so Finland can
+      fully utilize NATO deterrence and collective defense. Finnish public-service media
+      similarly framed the change as aligning national legislation with NATO membership
+      requirements.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Finland planned to lift its long-standing legislative ban on hosting nuclear arms by amending the Nuclear Energy Act."
+        - "The Finnish government said it would circulate for comments a draft proposal to amend the Nuclear Energy Act and Criminal Code to strengthen NATO’s deterrence and defense."
+        - "Reuters quoted Defense Minister Antti Hakkanen describing the amendment as necessary for Finland’s defense as part of NATO and use of alliance deterrence/collective defense."
+        - "Finnish media reported the government was moving to lift the blanket ban as it no longer aligned with Finland’s NATO requirements."
+      why_it_matters:
+        - "Finland’s legal shift signals deepening Nordic-NATO integration and alters regional deterrence messaging in a heightened security environment."
+        - "Legislative changes—rather than discretionary “peacetime policy”—can widen the range of wartime options and shape alliance planning assumptions."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Finland"
+        - "Antti Hakkanen"
+      secondary:
+        - "NATO"
+    entities:
+      people:
+        - name: "Antti Hakkanen"
+          role: "Finland defence minister"
+      organizations:
+        - name: "NATO"
+          description: "North atlantic treaty organization"
+      states:
+        - "Finland"
+    geography:
+      countries:
+        - "Finland"
+      places:
+        - "Helsinki"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not applicable (legislative/policy action)."
+    classification:
+      event_type:
+        - "nuclear-posture-and-alliance-integration"
+      tags:
+        - "nuclear-posture-and-alliance-integration"
+        - "finland"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-006-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/finland-lift-full-ban-hosting-nuclear-arms-government-says-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [16]
+        - id: "src-006-b"
+          outlet: "Finnish Government (Ministry of Defence press release)"
+          url: "https://valtioneuvosto.fi/en/-/236553176/finnish-government-proposes-to-amend-nuclear-energy-act-and-criminal-code-to-strengthen-nato-s-deterrence-and-defence"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [17]
+        - id: "src-006-c"
+          outlet: "Yle"
+          url: "https://yle.fi/a/74-20213983"
+          publication_date: "2026-03-06"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Prisoner exchanges and humanitarian measures"
+    topics:
+      - "Russo-Ukrainian war"
+      - "Prisoners of war in the Russo-Ukrainian war"
+      - "Prisoner exchanges and humanitarian measures"
+      - "Ukraine"
+      - "Russia"
+    importance: 6
+    headline: "Russia and Ukraine swap 200 POWs each, with larger follow-on exchange planned"
+    summary: >
+      Ukraine and Russia carried out a major prisoner-of-war exchange on March 5, releasing
+      200 POWs each, in a rare functional channel of humanitarian coordination amid stalled
+      talks on ending the four-year war. Reuters reported both governments confirmed the
+      exchange and that another, larger swap was expected the following day, with 300 more
+      to be freed by each side. Reuters also reported Ukrainian President Volodymyr
+      Zelenskiy said some of the returning POWs had been held since the early 2022 siege of
+      Mariupol, and described emotional scenes of reunions as families greeted those
+      released. Other coverage similarly presented the swap as part of a two-day plan that
+      would total 500 POWs exchanged per side, even as negotiations remained deadlocked over
+      core issues such as territory.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Ukraine and Russia exchanged 200 POWs each on March 5, with confirmations from officials on both sides."
+        - "Zelenskiy said some released POWs had been captured as far back as the 2022 siege of Mariupol."
+        - "Reuters reported officials said both sides expected a second day of exchanges, 300 POWs each, on March 6."
+        - "Additional reporting described the exchange as occurring amid stalled peace talks, highlighting the swap as one of the few areas of continued coordination."
+      why_it_matters:
+        - "Large POW exchanges can reduce immediate humanitarian suffering and serve as limited confidence-building actions even when broader negotiations are blocked."
+        - "Planned follow-on exchanges can become politically and diplomatically significant signals of third-party mediation effectiveness or breakdown."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ukraine"
+        - "Russia"
+      secondary:
+        - "Volodymyr Zelenskiy"
+    entities:
+      people:
+        - name: "Volodymyr Zelenskiy"
+          role: "Ukraine president"
+      organizations: []
+      states:
+        - "Ukraine"
+        - "Russia"
+    geography:
+      countries:
+        - "Ukraine"
+        - "Russia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not applicable (prisoner exchange)."
+    classification:
+      event_type:
+        - "prisoner-exchanges-and-humanitarian-measures"
+      tags:
+        - "russo-ukrainian-war"
+        - "prisoners-of-war-in-the-russo-ukrainian-war"
+        - "prisoner-exchanges-and-humanitarian-measures"
+        - "ukraine"
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Russia and Ukraine exchange prisoners of war, with 200 soldiers returned to each side."
+      external:
+        - id: "src-007-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/ukraine-brings-back-200-pows-latest-swap-with-russia-zelenskiy-says-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [19]
+        - id: "src-007-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/russia-ukraine-exchange-500-pows-over-coming-two-days-moscow-says-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [20]
+        - id: "src-007-c"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/5/ukraine-russia-free-200-pows-each-in-latest-swap-amid-stalled-peace-talks"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [21]
+        - id: "src-007-d"
+          outlet: "ABC News (Australia)"
+          url: "https://www.abc.net.au/news/2026-03-06/ukraine-russia-free-prisoner-of-war-in-exchange/106423070"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [22]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Ceasefire violations and diplomatic pressure"
+    topics:
+      - "Ceasefire violations and diplomatic pressure"
+      - "Democratic Republic of the Congo"
+      - "United States"
+    importance: 6
+    headline: "International partners warn of ceasefire violations in eastern DR Congo and urge return to negotiations"
+    summary: >
+      On March 5, the United States, the European Union and other international partners
+      issued sharp diplomatic messaging about “continued and recent” ceasefire violations in
+      eastern Democratic Republic of Congo, calling on parties to recommit to ending
+      hostilities and to return to negotiations. Reuters reported the joint statement
+      expressed profound concern and urged renewed adherence to ceasefires and negotiation
+      processes. Separately, a U.S. State Department releases index referencing the same
+      date described a “Joint Statement” related to the eastern DRC situation, reinforcing
+      that Washington was publicly coordinating messaging with partners via formal channels.
+      The statement-level intervention highlighted both the fragility of ceasefire
+      arrangements and the degree of external diplomatic focus on preventing renewed
+      escalation in the Great Lakes region.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported a joint statement by the U.S., EU, and others expressed profound concern about “continued and recent” ceasefire violations in eastern DRC."
+        - "The statement called on all parties to recommit to ending fighting and to return to negotiations."
+        - "A U.S. State Department releases page listed a dated (March 5) item referencing eastern DRC and a joint statement, indicating formalized partner messaging."
+        - "Reuters framed the intervention as coordinated international pressure to halt renewed violence and restart talks."
+      why_it_matters:
+        - "Public joint statements can foreshadow intensified diplomatic involvement—including mediation, conditionality in assistance, or targeted measures—when ceasefires erode."
+        - "Ceasefire breakdowns in eastern DRC have region-wide destabilization potential given cross-border dynamics in the Great Lakes."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "European Union"
+        - "International Contact Group partners (as reported)"
+      secondary:
+        - "United States"
+    entities:
+      people: []
+      organizations:
+        - name: "European Union"
+          description: "Political and economic union"
+        - name: "International Contact Group partners"
+          description: "as reported"
+      states:
+        - "Democratic Republic of the Congo"
+        - "United States"
+    geography:
+      countries:
+        - "Democratic Republic of the Congo"
+        - "United States"
+      places:
+        - "eastern provinces"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not specified in the cited statement summaries."
+    classification:
+      event_type:
+        - "ceasefire-violations-and-diplomatic-pressure"
+      tags:
+        - "ceasefire-violations-and-diplomatic-pressure"
+        - "democratic-republic-of-the-congo"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/us-others-express-concern-over-violations-ceasefires-eastern-congo-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [23]
+        - id: "src-008-b"
+          outlet: "U.S. Department of State (index page referencing dated release)"
+          url: "https://www.state.gov/remarks-and-releases-european-union"
+          publication_date: "2026-03-05"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [24]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-009"
+    category: "International relations"
+    subcategory: "Trade and strategic supply chains"
+    topics:
+      - "Trade and strategic supply chains"
+      - "Australia"
+      - "Canada"
+    importance: 5
+    headline: "Australia and Canada sign new critical-minerals cooperation deals as Carney addresses Australian Parliament"
+    summary: >
+      Australia and Canada announced a set of new critical-minerals agreements amid
+      heightened global competition over strategic resources, with Canadian Prime Minister
+      Mark Carney delivering a landmark address to Australia’s parliament and the leaders
+      presenting the deals as a “middle powers” alignment strategy. Reuters reported the
+      agreements included steps that dovetailed with a Canada-led G7 critical-minerals
+      production alliance and highlighted Australia’s plans for a dedicated
+      critical-minerals stockpile. Official statements released the same day outlined an
+      intent to deepen collaboration across investments, standards, and supply-chain
+      resilience—explicitly naming alignment between Australia’s Critical Minerals Strategic
+      Reserve and a Canadian counterpart fund/regime as a practical mechanism. The
+      agreements extended beyond minerals to include broader partnership language on defense
+      and emerging technologies, but critical minerals were positioned as a central pillar
+      of strategic cooperation aimed at diversifying supply chains.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Australia and Canada signed new deals focused on critical minerals as Carney addressed Australia’s parliament."
+        - "A joint statement outlined commitments to strengthen critical-minerals supply-chain resilience and to coordinate on emerging markets with shared standards."
+        - "The leaders confirmed closer alignment between Australia’s Critical Minerals Strategic Reserve and Canada’s critical-minerals financing/stockpiling approach."
+        - "Reuters linked the announcements to the Canada-led G7 critical-minerals production alliance and Australia’s stockpile plans."
+      why_it_matters:
+        - "Coordinated stockpiling and standards-setting can reduce vulnerability to supply interruptions in minerals essential for defense and high-tech manufacturing."
+        - "The agreements illustrate how allied producers are building resource-security frameworks that operate alongside (and sometimes in tension with) pure market pricing."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Mark Carney"
+        - "Anthony Albanese"
+      secondary:
+        - "G7"
+    entities:
+      people:
+        - name: "Mark Carney"
+          role: "Canada prime minister"
+        - name: "Anthony Albanese"
+          role: "Australia prime minister"
+      organizations:
+        - name: "G7"
+          description: "Group of seven countries"
+      states:
+        - "Australia"
+        - "Canada"
+    geography:
+      countries:
+        - "Australia"
+        - "Canada"
+      places:
+        - "Canberra"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not applicable (diplomatic/industrial policy action)."
+    classification:
+      event_type:
+        - "trade-and-strategic-supply-chains"
+      tags:
+        - "trade-and-strategic-supply-chains"
+        - "australia"
+        - "canada"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/australia-canada-sign-new-deals-critical-minerals-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [25]
+        - id: "src-009-b"
+          outlet: "Government of Canada (Joint Statement)"
+          url: "https://www.pm.gc.ca/en/news/statements/2026/03/05/joint-statement-prime-minister-mark-carney-and-prime-minister-anthony"
+          publication_date: "2026-03-05"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [26]
+        - id: "src-009-c"
+          outlet: "Australian Prime Minister’s Office (Joint Statement)"
+          url: "https://www.pm.gov.au/media/australia-canada-joint-statement"
+          publication_date: "2026-03-05"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-010"
+    category: "Science and technology"
+    subcategory: "Space launch failures"
+    topics:
+      - "Space launch failures"
+      - "Japan"
+      - "Taiwan"
+    importance: 4
+    headline: "Japan’s Space One rocket self-destructs after launch, marking third consecutive failure"
+    summary: >
+      Japan’s private rocket developer Space One suffered another major setback on March 5
+      when its Kairos rocket self-destructed shortly after liftoff, failing for the third
+      time to achieve what would have been Japan’s first entirely commercial satellite
+      launch. Reuters reported the rocket’s autonomous termination occurred 69 seconds after
+      launch at around 29 km altitude and that company officials said no significant
+      abnormalities were detected before destruction—suggesting a potential issue with the
+      flight termination system itself. The failed mission carried five experimental
+      satellites, including payloads associated with Japanese and Taiwanese entities.
+      Secondary reporting noted the launch was terminated after the company judged mission
+      success difficult, and emphasized the wider implications for Japan’s ambition to
+      expand domestic launch capacity amid growing security and commercial demand for
+      satellites.
+    key_data: []
+    details:
+      what_happened:
+        - "Space One’s Kairos rocket self-destructed 69 seconds after liftoff, failing again to reach orbit."
+        - "Reuters reported the termination occurred at roughly 29 km altitude above the Pacific and came after apparently normal early flight indications."
+        - "The rocket carried five experimental satellites, including payloads linked to Japan and Taiwan."
+        - "Reuters described the failure as Space One’s third unsuccessful Kairos attempt, following two 2024 failures."
+      why_it_matters:
+        - "Repeated failures delay Japan’s ability to field a reliable private launch option, potentially increasing dependence on foreign providers for commercial and security payloads."
+        - "Small-launch competition is intense; persistent technical setbacks can reshape investment, customer choices, and national industrial strategy."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Space One"
+      secondary:
+        - "Japan (national industrial/security context)"
+        - "Taiwan (payload-linked participant)"
+    entities:
+      people: []
+      organizations:
+        - name: "Space One"
+          description: "Japanese private rocket company"
+      states:
+        - "Japan"
+        - "Taiwan"
+    geography:
+      countries:
+        - "Japan"
+        - "Taiwan"
+      places:
+        - "Wakayama Prefecture (Kii Peninsula)"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Destruction of launch vehicle and loss of five satellites; no casualties reported."
+    classification:
+      event_type:
+        - "space-launch-failures"
+      tags:
+        - "space-launch-failures"
+        - "japan"
+        - "taiwan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/science/japans-private-rocket-maker-space-one-fails-third-kairos-launch-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [28]
+        - id: "src-010-b"
+          outlet: "space.com"
+          url: "https://www.space.com/space-exploration/private-spaceflight/japan-startup-space-one-kairos-third-launch"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [29]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-011"
+    category: "Armed conflicts and attacks"
+    subcategory: "Organized crime and corruption investigations"
+    topics:
+      - "Organized crime and corruption investigations"
+      - "Mexico"
+    importance: 5
+    headline: "Mexico expands probe into cartel-linked maritime fuel smuggling at key seaports"
+    summary: >
+      Mexico widened and intensified investigations into fuel smuggling at key seaports, a
+      corruption-linked scheme that Mexican authorities and investigative reporting have
+      tied to the financing networks of criminal organizations. Reuters reported that a
+      February government document described internal probes at the ports of Guaymas,
+      Tampico, and Ensenada, as well as within institutional structures including the navy
+      and the customs agency, under the oversight of Mexico’s anti-corruption ministry. The
+      investigation focus reflects a shift toward maritime methods for fuel theft and tax
+      evasion, including mislabeling or falsifying shipping and customs documentation to
+      import diesel and gasoline as lower-tax or tax-exempt products. Separate analysis
+      highlighted that fuel smuggling is regarded as a major revenue stream for
+      cartels—second only to narcotics in some U.S. government assessments—making it a
+      high-impact target for both fiscal integrity and security policy.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Mexico expanded investigations into fuel smuggling at major seaports, based on a government document reviewed by the outlet."
+        - "The probes were reported to include Guaymas, Tampico, and Ensenada, and to extend into official institutions including naval and customs structures."
+        - "Reuters described the common mechanism as falsifying shipping/customs paperwork to misclassify taxable fuels as tax-exempt petroleum products."
+        - "A complementary analysis noted cartel reliance on fuel smuggling as a major income source and described the investigations as part of wider anti-cartel pressure."
+      why_it_matters:
+        - "Maritime fuel fraud can deprive governments of substantial revenues while strengthening criminal organizations through diversified cash flows."
+        - "Investigations that reach into customs and maritime security institutions highlight how corruption risks can undermine border and port governance."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Claudia Sheinbaum (as referenced in Reuters context)"
+        - "Mexico government investigators"
+      secondary:
+        - "Drug cartels (as suspected beneficiaries, per reporting)"
+    entities:
+      people:
+        - name: "Claudia Sheinbaum"
+          role: "Mexico president"
+      organizations:
+        - name: "Mexico government investigators"
+          description: "Mexican federal investigators"
+        - name: "Drug cartels"
+          description: "as suspected beneficiaries, per reporting"
+      states:
+        - "Mexico"
+    geography:
+      countries:
+        - "Mexico"
+      places:
+        - "ports including Guaymas"
+        - "Tampico"
+        - "and Ensenada (as reported)"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Fiscal loss and corruption risk; physical damage not central in cited reporting."
+    classification:
+      event_type:
+        - "organized-crime-and-corruption-investigations"
+      tags:
+        - "organized-crime-and-corruption-investigations"
+        - "mexico"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/mexico-steps-up-investigations-into-fuel-smuggling-by-drug-cartels-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [30]
+        - id: "src-011-b"
+          outlet: "World Politics Review"
+          url: "https://www.worldpoliticsreview.com/mexico-fuel-smuggling-corruption"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-012"
+    category: "Law and crime"
+    subcategory: "AI liability and unauthorized practice of law"
+    topics:
+      - "AI liability and unauthorized practice of law"
+    importance: 5
+    headline: "OpenAI sued as ChatGPT is accused of acting as an unlicensed lawyer in Illinois"
+    summary: >
+      A lawsuit filed in federal court in Chicago accused OpenAI of facilitating the
+      unauthorized practice of law through its chatbot, alleging that ChatGPT provided legal
+      guidance that encouraged a claimant to reopen a settled disability case and submit a
+      wave of court filings. Reuters reported the plaintiff—Nippon Life Insurance Company of
+      America—said it incurred significant legal expenses responding to filings it alleged
+      were drafted with ChatGPT’s assistance and lacked legitimate purpose. Reuters further
+      reported the insurer sought $300,000 in compensatory damages and $10 million in
+      punitive damages, plus court relief declaring a violation of Illinois’ unauthorized
+      practice statutes. Commentary highlighted the potential significance of the case as
+      one of the first to explicitly pursue “unlicensed legal practice” claims against a
+      major generative-AI developer, with OpenAI disputing the allegations and pointing to
+      policy restrictions on legal advice.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Nippon Life Insurance Company of America sued OpenAI in federal court in Chicago alleging unauthorized legal practice via ChatGPT."
+        - "The lawsuit sought $300,000 in compensatory damages and $10 million in punitive damages, plus declaratory/injunctive relief under Illinois law."
+        - "Reuters reported the insurer claimed ChatGPT-driven filings created significant cost and procedural burden in court."
+        - "Commentary described the case as potentially precedent-setting for how AI-driven legal assistance is treated under unauthorized-practice rules."
+      why_it_matters:
+        - "If courts entertain “unlicensed legal practice” liability theories against AI developers, the result could reshape product design, disclaimers, and enterprise deployment of chatbots in legal-adjacent workflows."
+        - "The case adds pressure on regulators and bar authorities to clarify boundaries between information tools and legal advice at scale."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "OpenAI"
+        - "Nippon Life Insurance Company of America"
+      secondary:
+        - "Illinois (legal framework referenced)"
+    entities:
+      people: []
+      organizations:
+        - name: "OpenAI"
+          description: "Ai company"
+        - name: "Nippon Life Insurance Company of America"
+          description: "U.S. insurance company"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Illinois"
+        - "federal court in Chicago"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Alleged financial/legal costs; claimed court burden; no physical damage."
+    classification:
+      event_type:
+        - "ai-liability-and-unauthorized-practice-of-law"
+      tags:
+        - "ai-liability-and-unauthorized-practice-of-law"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/legal/legalindustry/openai-hit-with-lawsuit-claiming-chatgpt-acted-an-unlicensed-lawyer-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [32]
+        - id: "src-012-b"
+          outlet: "Forbes"
+          url: "https://www.forbes.com/sites/lanceeliot/2026/03/09/landmark-lawsuit-against-openai-for-allowing-chatgpt-to-provide-legal-advice-could-be-a-huge-game-changer-for-all-ai-makers"
+          publication_date: "2026-03-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [33]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-013"
+    category: "Law and crime"
+    subcategory: "National security regulation and platform governance"
+    topics:
+      - "National security regulation and platform governance"
+      - "United States"
+    importance: 5
+    headline: "Trump and Bondi sued over approval of ByteDance’s TikTok U.S. asset deal"
+    summary: >
+      A lawsuit filed on March 5 challenged the legality of the Trump administration’s
+      approval of a deal involving ByteDance to form a majority American-owned joint venture
+      for TikTok’s U.S. assets, arguing the approval did not meet the requirements of a 2024
+      law intended to compel divestiture of Chinese ownership. Reuters reported that the
+      plaintiffs—retail investors—sued Trump and U.S. Attorney General Pam Bondi, seeking to
+      undo the approval and force renegotiation of the structure (while not seeking a TikTok
+      ban outright). Reuters reported TikTok’s U.S. user base was around 200 million,
+      underscoring the political and economic stakes. A republished Reuters account
+      similarly recounted that the lawsuit contended ByteDance retained too much influence,
+      potentially undermining the law’s national security objectives.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Trump and Pam Bondi were sued over approval of a ByteDance deal for TikTok’s U.S. assets structured as a majority American-owned joint venture."
+        - "The suit argued the approval violated (or failed to satisfy) a 2024 law requiring divestiture by a January 2025 deadline."
+        - "Reuters reported the plaintiffs sought renegotiation of the transaction rather than a ban on TikTok."
+        - "Reuters reported the White House, DOJ, and TikTok did not comment in its coverage."
+      why_it_matters:
+        - "Litigation adds uncertainty to the long-running effort to reconcile platform popularity with national-security divestment mandates and executive discretion."
+        - "Outcomes could influence future foreign-ownership regulation for digital platforms and the durability of divest-or-ban style laws."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "ByteDance"
+        - "TikTok"
+        - "Pam Bondi"
+      secondary:
+        - "Donald Trump"
+    entities:
+      people:
+        - name: "Pam Bondi"
+          role: "U.S. attorney general"
+        - name: "Donald Trump"
+          role: "U.S. president"
+      organizations:
+        - name: "ByteDance"
+          description: "Chinese technology company"
+        - name: "TikTok"
+          description: "Short video platform"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "TikTok U.S. operations"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not applicable (civil litigation)."
+    classification:
+      event_type:
+        - "national-security-regulation-and-platform-governance"
+      tags:
+        - "national-security-regulation-and-platform-governance"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/trump-bondi-face-lawsuit-over-approval-bytedance-tiktok-us-asset-sale-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [34]
+        - id: "src-013-b"
+          outlet: "The Star (republishing Reuters)"
+          url: "https://www.thestar.com.my/tech/tech-news/2026/03/05/trump-bondi-face-lawsuit-over-approval-of-bytedance-tiktok-us-asset-sale"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [35]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-014"
+    category: "Health and environment"
+    subcategory: "Pharmaceuticals access and local manufacturing"
+    topics:
+      - "Pharmaceuticals access and local manufacturing"
+      - "South Africa"
+    importance: 5
+    headline: "South Africa launches push for domestic production of Gilead’s long-acting HIV prevention drug"
+    summary: >
+      South Africa moved on March 5 to accelerate access to a long-acting HIV prevention
+      medicine by seeking domestic manufacturing pathways and initiating a process to
+      identify qualified local producers. Reuters reported the government was working with
+      global health partners to identify a manufacturer and to pursue an agreement with
+      Gilead Sciences concerning lenacapavir, a twice-yearly injectable HIV prevention drug,
+      in a country with one of the world’s largest HIV burdens. On the same day, Unitaid
+      announced that the South African government—working with partners including the United
+      States Pharmacopeia—had published a call for expressions of interest to identify South
+      African pharmaceutical manufacturers capable of producing quality-assured lenacapavir,
+      framing the initiative as a pathway to strengthen supply resilience and regional
+      manufacturing capacity.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported South Africa sought local production of Gilead’s long-acting HIV prevention drug and was working with partners to identify a domestic manufacturer."
+        - "Unitaid reported South Africa published a call for expressions of interest to identify local manufacturers capable of producing quality-assured lenacapavir."
+        - "Reuters reported the initiative followed controversy over earlier licensing arrangements that did not include South African manufacturers, with Gilead indicating openness to further licensing if standards are met."
+        - "Unitaid described the effort as strengthening regional manufacturing and supply resilience, with technical/market support from Unitaid and USP."
+      why_it_matters:
+        - "Expanding local manufacturing for high-impact HIV prevention tools can improve affordability, reliability of supply, and speed of deployment in high-burden settings."
+        - "The move reflects broader post-pandemic push for regional pharmaceutical production capacity rather than dependency on distant supply chains."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "South Africa government"
+        - "Gilead Sciences"
+      secondary:
+        - "Unitaid"
+    entities:
+      people: []
+      organizations:
+        - name: "Gilead Sciences"
+          description: "Biopharmaceutical company"
+        - name: "Unitaid"
+          description: "Global health initiative"
+        - name: "South Africa government"
+          description: "Government of South Africa"
+      states:
+        - "South Africa"
+    geography:
+      countries:
+        - "South Africa"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not applicable (health policy/manufacturing initiative)."
+    classification:
+      event_type:
+        - "pharmaceuticals-access-and-local-manufacturing"
+      tags:
+        - "pharmaceuticals-access-and-local-manufacturing"
+        - "south-africa"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-014-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/healthcare-pharmaceuticals/south-africa-seeks-local-production-gileads-hiv-prevention-drug-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [36]
+        - id: "src-014-b"
+          outlet: "Unitaid"
+          url: "https://unitaid.org/news-blog/south-africa-launches-bid-to-enable-local-production-of-long-acting-hiv-prevention-drug-lenacapavir"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [37]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-015"
+    category: "Politics and elections"
+    subcategory: "Platform regulation and content enforcement"
+    topics:
+      - "Platform regulation and content enforcement"
+      - "Indonesia"
+    importance: 4
+    headline: "Indonesia issues “stern warning” to Meta over online gambling and disinformation compliance"
+    summary: >
+      Indonesia’s communications authorities escalated pressure on major social platforms on
+      March 5 by issuing a stern warning to Meta Platforms, citing insufficient action to
+      curb the spread of online gambling content and disinformation. Reuters reported the
+      ministry’s warning as a formal signal of dissatisfaction with Meta’s efforts and a
+      marker of tightening oversight in one of the world’s largest and most politically
+      consequential social-media markets. Additional reporting described the Indonesian
+      government’s concerns in quantitative terms—asserting that compliance rates for
+      removing flagged harmful content were low and implying a broader push toward
+      enforceable obligations rather than voluntary moderation commitments. The warning fit
+      a wider regional trend toward stronger content governance and platform accountability,
+      particularly on issues (gambling, disinformation) that are treated as high social-harm
+      categories by regulators.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported Indonesia’s communications ministry issued a “stern warning” to Meta over failures to curb online gambling and disinformation."
+        - "The warning emphasized alleged inadequacy of Meta’s enforcement effort against harmful content categories addressed by Indonesian regulations."
+        - "Additional reporting stated that less than 30% of flagged harmful content was removed, presenting the dispute as a compliance-rate issue."
+        - "The episode was framed as increasing regulatory pressure on large platforms operating in Indonesia’s market."
+      why_it_matters:
+        - "Formal warnings can precede stricter sanctions, operational restrictions, or mandated product changes in key growth markets, affecting platform governance and user access."
+        - "Gambling and disinformation enforcement are often politically sensitive; stricter moderation demands can influence public discourse and digital-economy policy."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Indonesia communications ministry"
+        - "Meta Platforms"
+      secondary:
+        - "None explicitly identified beyond the above in cited summaries"
+    entities:
+      people: []
+      organizations:
+        - name: "Meta Platforms"
+          description: "Social media company"
+        - name: "Indonesia communications ministry"
+          description: "Indonesian Ministry of Communication and Digital Affairs"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Jakarta"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Not applicable (regulatory warning; no physical damage described)."
+    classification:
+      event_type:
+        - "platform-regulation-and-content-enforcement"
+      tags:
+        - "platform-regulation-and-content-enforcement"
+        - "indonesia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-015-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/indonesia-gives-meta-stern-warning-over-disinformation-2026-03-05"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [38]
+        - id: "src-015-b"
+          outlet: "Times of India"
+          url: "https://timesofindia.indiatimes.com/technology/social/indonesia-gives-meta-stern-warning-about-harmful-content-on-facebook-instagram-and-whatsapp-not-even-30-of-flagged-content/articleshow/129089724.cms"
+          publication_date: "2026-03-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "key_data"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [39]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-05-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Akrotiri and Dhekelia"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Akrotiri and Dhekelia"
+    importance: 5
+    headline: "Spain sends frigate Cristóbal Colón to help protect British bases in Cyprus"
+    summary: >
+      Spain announces that the frigate Cristóbal Colón will join French aircraft carrier
+      Charles de Gaulle and Greek Navy ships to protect the British military bases in
+      Cyprus.
+    key_data: []
+    details:
+      what_happened:
+        - "Spain announces that the frigate Cristóbal Colón will join French aircraft carrier Charles de Gaulle and Greek Navy ships to protect the British military bases in Cyprus."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Spain"
+        - "Cyprus"
+        - "United Kingdom"
+        - "France"
+        - "Greece"
+    geography:
+      countries:
+        - "Spain"
+        - "Cyprus"
+        - "United Kingdom"
+        - "France"
+        - "Greece"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-akrotiri-and-dhekelia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Spain announces that the frigate Cristóbal Colón will join French aircraft carrier Charles de Gaulle and Greek Navy ships to protect the British military bases in Cyprus."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-017"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via The Straits Times per the Wikipedia portal."
+  - id: "evt-2026-03-05-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Akrotiri and Dhekelia"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Akrotiri and Dhekelia"
+    importance: 5
+    headline: "Italy and the Netherlands join European naval deployment to Cyprus"
+    summary: >
+      Italy announces that it will dispatch naval assets to Cyprus. The Dutch navy is also
+      joining the European naval task force.
+    key_data: []
+    details:
+      what_happened:
+        - "Italy announces that it will dispatch naval assets to Cyprus. The Dutch navy is also joining the European naval task force."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Italy"
+        - "Cyprus"
+        - "Netherlands"
+    geography:
+      countries:
+        - "Italy"
+        - "Cyprus"
+        - "Netherlands"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-akrotiri-and-dhekelia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Italy announces that it will dispatch naval assets to Cyprus. The Dutch navy is also joining the European naval task force."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-016"
+    notes: "Portal-derived event with no deep-research coverage; reported by Euronews per the Wikipedia portal."
+  - id: "evt-2026-03-05-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025–2026 Iran–United States negotiations"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2025–2026 Iran–United States negotiations"
+    importance: 6
+    headline: "Araghchi says Iran is not seeking a ceasefire or talks with the United States"
+    summary: >
+      Iranian foreign minister Abbas Araghchi says that Iran is not seeking a ceasefire or
+      negotiations with the United States.
+    key_data: []
+    details:
+      what_happened:
+        - "Iranian foreign minister Abbas Araghchi says that Iran is not seeking a ceasefire or negotiations with the United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Abbas Araghchi"
+      secondary: []
+    entities:
+      people:
+        - name: "Abbas Araghchi"
+          role: "Foreign Minister of Iran"
+      organizations: []
+      states:
+        - "Iran"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "fire"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2025-2026-iran-united-states-negotiations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iranian foreign minister Abbas Araghchi says that Iran is not seeking a ceasefire or negotiations with the United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by CNBC per the Wikipedia portal."
+  - id: "evt-2026-03-05-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Azerbaijan"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Azerbaijan"
+    importance: 6
+    headline: "Suspected Iranian drones strike Nakhchivan airport terminal in Azerbaijan"
+    summary: >
+      Suspected Iranian drones strike Nakhchivan International Airport in Azerbaijan,
+      targeting the passenger terminal. At least two people are injured.
+    key_data: []
+    details:
+      what_happened:
+        - "Suspected Iranian drones strike Nakhchivan International Airport in Azerbaijan, targeting the passenger terminal. At least two people are injured."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Azerbaijan"
+        - "Iran"
+    geography:
+      countries:
+        - "Azerbaijan"
+        - "Iran"
+      places:
+        - "Nakhchivan International Airport"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 2
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-azerbaijan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Suspected Iranian drones strike Nakhchivan International Airport in Azerbaijan, targeting the passenger terminal. At least two people are injured."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-003"
+      - "evt-2026-03-05-020"
+      - "evt-2026-03-05-021"
+      - "evt-2026-03-05-022"
+    notes: "Portal-derived event with no deep-research coverage; reported by Euronews and Reuters and BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-05-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Iraq"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Iraq"
+    importance: 4
+    headline: "Iraqi forces down drone targeting U.S. airbase near Baghdad"
+    summary: >
+      Iraqi forces shoot down a drone that attempted to attack the United States' airbase
+      near Baghdad.
+    key_data: []
+    details:
+      what_happened:
+        - "Iraqi forces shoot down a drone that attempted to attack the United States' airbase near Baghdad."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Iraq"
+    geography:
+      countries:
+        - "United States"
+        - "Iraq"
+      places:
+        - "Baghdad"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-iraq"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iraqi forces shoot down a drone that attempted to attack the United States' airbase near Baghdad."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-003"
+      - "evt-2026-03-05-019"
+      - "evt-2026-03-05-021"
+      - "evt-2026-03-05-022"
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-03-05-021"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Qatar"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Qatar"
+    importance: 5
+    headline: "Qatar intercepts 14 ballistic missiles and four drones launched from Iran"
+    summary: >
+      The Qatari military says that the country was targeted today by 14 ballistic missiles
+      and four drones coming from Iran; all of them were intercepted and no casualties were
+      reported.
+    key_data: []
+    details:
+      what_happened:
+        - "The Qatari military says that the country was targeted today by 14 ballistic missiles and four drones coming from Iran; all of them were intercepted and no casualties were reported."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+        - "Qatar"
+    geography:
+      countries:
+        - "Iran"
+        - "Qatar"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-qatar"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Qatari military says that the country was targeted today by 14 ballistic missiles and four drones coming from Iran; all of them were intercepted and no casualties were reported."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-003"
+      - "evt-2026-03-05-019"
+      - "evt-2026-03-05-020"
+      - "evt-2026-03-05-022"
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-03-05-022"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on the United Arab Emirates"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on the United Arab Emirates"
+    importance: 5
+    headline: "UAE intercepts six ballistic missiles and 125 drones; six injured by debris"
+    summary: >
+      The United Arab Emirates's air defence systems intercept six ballistic missiles and
+      125 drones launched by Iran. Six people were injured by falling debris over Abu Dhabi.
+    key_data: []
+    details:
+      what_happened:
+        - "The United Arab Emirates's air defence systems intercept six ballistic missiles and 125 drones launched by Iran. Six people were injured by falling debris over Abu Dhabi."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United Arab Emirates"
+        - "Iran"
+    geography:
+      countries:
+        - "United Arab Emirates"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 6
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-the-united-arab-emirates"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United Arab Emirates's air defence systems intercept six ballistic missiles and 125 drones launched by Iran. Six people were injured by falling debris over Abu Dhabi."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-003"
+      - "evt-2026-03-05-019"
+      - "evt-2026-03-05-020"
+      - "evt-2026-03-05-021"
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera and The National News per the Wikipedia portal."
+  - id: "evt-2026-03-05-023"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Kurdish rebellion in Iran"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Kurdish rebellion in Iran"
+    importance: 6
+    headline: "Trump says U.S. jets will give Kurdish forces air cover in any ground offensive against Iran"
+    summary: >
+      United States president Donald Trump says U.S. Air Force jets will provide "extensive
+      air cover" for Kurdish forces in any ground offensive against the Iranian government.
+    key_data: []
+    details:
+      what_happened:
+        - "United States president Donald Trump says U.S. Air Force jets will provide \"extensive air cover\" for Kurdish forces in any ground offensive against the Iranian government."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+      secondary: []
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations: []
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-kurdish-rebellion-in-iran"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "United States president Donald Trump says U.S. Air Force jets will provide \"extensive air cover\" for Kurdish forces in any ground offensive against the Iranian government."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-001"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Telegraph per the Wikipedia portal."
+  - id: "evt-2026-03-05-024"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 6
+    headline: "China reportedly negotiating safe passage for oil and LNG tankers through Hormuz"
+    summary: >
+      China is reportedly in talks with Iran to allow crude oil and Qatari liquefied natural
+      gas vessels safe passage through the Strait of Hormuz.
+    key_data: []
+    details:
+      what_happened:
+        - "China is reportedly in talks with Iran to allow crude oil and Qatari liquefied natural gas vessels safe passage through the Strait of Hormuz."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "China"
+        - "Iran"
+        - "Qatar"
+    geography:
+      countries:
+        - "China"
+        - "Iran"
+        - "Qatar"
+      places:
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "China is reportedly in talks with Iran to allow crude oil and Qatari liquefied natural gas vessels safe passage through the Strait of Hormuz."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-005"
+      - "evt-2026-03-05-032"
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-05-025"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Hezbollah–Israel war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Hezbollah–Israel war"
+    importance: 6
+    headline: "Israel orders evacuation of Beirut's Dahieh suburb"
+    summary: >
+      The Israeli military issues an evacuation order for Dahieh, Beirut, Lebanon, a densely
+      populated suburb which is also a stronghold of Hezbollah, telling residents to "save
+      your lives and evacuate your homes immediately". Thousands of people flee following
+      the warning.
+    key_data: []
+    details:
+      what_happened:
+        - "The Israeli military issues an evacuation order for Dahieh, Beirut, Lebanon, a densely populated suburb which is also a stronghold of Hezbollah, telling residents to \"save your lives and evacuate your homes immediately\". Thousands of people flee following the warning."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Hezbollah"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Hezbollah"
+          description: "Lebanese Shia militant group and political party"
+      states:
+        - "Lebanon"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Israel"
+      places:
+        - "Dahieh"
+        - "Beirut"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "hezbollah-israel-conflict"
+        - "2026-hezbollah-israel-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Israeli military issues an evacuation order for Dahieh, Beirut, Lebanon, a densely populated suburb which is also a stronghold of Hezbollah, telling residents to \"save your lives and evacuate your homes immediately\". Thousands of people flee following the warning."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-034"
+      - "evt-2026-03-05-035"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Times of Israel and The Los Angeles Times per the Wikipedia portal."
+  - id: "evt-2026-03-05-026"
+    category: "Armed conflicts and attacks"
+    subcategory: "Russo-Ukrainian war"
+    topics:
+      - "Russo-Ukrainian war"
+    importance: 5
+    headline: "Ukrainian Navy shoots down Russian Ka-27 helicopter over the Black Sea"
+    summary: >
+      The Ukrainian Navy shoots down a Russian Naval Aviation Kamov Ka-27 helicopter over
+      the Black Sea.
+    key_data: []
+    details:
+      what_happened:
+        - "The Ukrainian Navy shoots down a Russian Naval Aviation Kamov Ka-27 helicopter over the Black Sea."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Ukraine"
+        - "Russia"
+    geography:
+      countries:
+        - "Ukraine"
+        - "Russia"
+      places:
+        - "Black Sea"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "russo-ukrainian-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Ukrainian Navy shoots down a Russian Naval Aviation Kamov Ka-27 helicopter over the Black Sea."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by RBC-Ukraine and ASN per the Wikipedia portal."
+  - id: "evt-2026-03-05-027"
+    category: "Business and economy"
+    subcategory: "Economic impact of the 2026 Iran war"
+    topics:
+      - "Economic impact of the 2026 Iran war"
+    importance: 5
+    headline: "South Korea activates ₩100 trillion market stabilization fund"
+    summary: >
+      South Korean president Lee Jae Myung orders the activation of a ₩100 trillion (about
+      US$68 billion) stabilization fund to address volatility in the country's financial
+      markets linked to the Iran war.
+    key_data: []
+    details:
+      what_happened:
+        - "South Korean president Lee Jae Myung orders the activation of a ₩100 trillion (about US$68 billion) stabilization fund to address volatility in the country's financial markets linked to the Iran war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Lee Jae Myung"
+      secondary: []
+    entities:
+      people:
+        - name: "Lee Jae Myung"
+          role: "President of South Korea"
+      organizations: []
+      states:
+        - "Iran"
+        - "South Korea"
+    geography:
+      countries:
+        - "Iran"
+        - "South Korea"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "South Korean president Lee Jae Myung orders the activation of a ₩100 trillion (about US$68 billion) stabilization fund to address volatility in the country's financial markets linked to the Iran war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via The Economic Times per the Wikipedia portal."
+  - id: "evt-2026-03-05-028"
+    category: "Business and economy"
+    subcategory: "Tariffs in the second Trump administration"
+    topics:
+      - "Tariffs in the second Trump administration"
+    importance: 6
+    headline: "About 24 U.S. states sue over Trump's 10% global tariff"
+    summary: >
+      Around 24 U.S. states file a lawsuit against the Trump administration after president
+      Trump imposed a 10% global tariff, the first lawsuit challenging those tariffs.
+    key_data: []
+    details:
+      what_happened:
+        - "Around 24 U.S. states file a lawsuit against the Trump administration after president Trump imposed a 10% global tariff, the first lawsuit challenging those tariffs."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+        - "tariffs"
+      tags:
+        - "tariffs-in-the-second-trump-administration"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Around 24 U.S. states file a lawsuit against the Trump administration after president Trump imposed a 10% global tariff, the first lawsuit challenging those tariffs."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-05-029"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Nursing home collapse in Belo Horizonte kills at least six"
+    summary: >
+      At least six people are killed, eight others are rescued, and six are trapped when a
+      nursing home collapses in Belo Horizonte, Minas Gerais, Brazil.
+    key_data: []
+    details:
+      what_happened:
+        - "At least six people are killed, eight others are rescued, and six are trapped when a nursing home collapses in Belo Horizonte, Minas Gerais, Brazil."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Brazil"
+    geography:
+      countries:
+        - "Brazil"
+      places:
+        - "Belo Horizonte"
+        - "Minas Gerais"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least six people are killed, eight others are rescued, and six are trapped when a nursing home collapses in Belo Horizonte, Minas Gerais, Brazil."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Xinhua per the Wikipedia portal."
+  - id: "evt-2026-03-05-030"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Algerian Air Force Beechcraft 1900 crash at Boufarik kills four"
+    summary: >
+      Four people are killed and two others are injured when a Beechcraft 1900 of the
+      Algerian Air Force crashes at Boufarik Airport near Boufarik, Blida Province, Algeria.
+    key_data: []
+    details:
+      what_happened:
+        - "Four people are killed and two others are injured when a Beechcraft 1900 of the Algerian Air Force crashes at Boufarik Airport near Boufarik, Blida Province, Algeria."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Algeria"
+    geography:
+      countries:
+        - "Algeria"
+      places:
+        - "Boufarik Airport"
+        - "Blida Province"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: 2
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+        - "crash"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Four people are killed and two others are injured when a Beechcraft 1900 of the Algerian Air Force crashes at Boufarik Airport near Boufarik, Blida Province, Algeria."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by ASN per the Wikipedia portal."
+  - id: "evt-2026-03-05-031"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Indian Air Force Su-30MKI crash in Assam kills both pilots"
+    summary: >
+      An Indian Air Force Su-30MKI fighter jet crashes shortly after taking off from Jorhat
+      Airport in Karbi Anglong district, Assam, India, killing both pilots.
+    key_data: []
+    details:
+      what_happened:
+        - "An Indian Air Force Su-30MKI fighter jet crashes shortly after taking off from Jorhat Airport in Karbi Anglong district, Assam, India, killing both pilots."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "India"
+    geography:
+      countries:
+        - "India"
+      places:
+        - "Jorhat Airport"
+        - "Karbi Anglong district"
+        - "Assam"
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 2
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+        - "crash"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An Indian Air Force Su-30MKI fighter jet crashes shortly after taking off from Jorhat Airport in Karbi Anglong district, Assam, India, killing both pilots."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP and Deccan Herald per the Wikipedia portal."
+  - id: "evt-2026-03-05-032"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Explosion strikes tanker anchored off Kuwait, UKMTO reports"
+    summary: >
+      The United Kingdom Maritime Trade Operations reports that an explosion struck a tanker
+      anchored in waters about 60 kilometers off the coast of Kuwait, causing an oil spill
+      from a damaged cargo tank.
+    key_data: []
+    details:
+      what_happened:
+        - "The United Kingdom Maritime Trade Operations reports that an explosion struck a tanker anchored in waters about 60 kilometers off the coast of Kuwait, causing an oil spill from a damaged cargo tank."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United Kingdom Maritime Trade Operations"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United Kingdom Maritime Trade Operations"
+          description: "British naval maritime-security reporting centre"
+      states:
+        - "United Kingdom"
+        - "Kuwait"
+    geography:
+      countries:
+        - "United Kingdom"
+        - "Kuwait"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United Kingdom Maritime Trade Operations reports that an explosion struck a tanker anchored in waters about 60 kilometers off the coast of Kuwait, causing an oil spill from a damaged cargo tank."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-005"
+      - "evt-2026-03-05-024"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via The New Zealand Herald per the Wikipedia portal."
+  - id: "evt-2026-03-05-033"
+    category: "International relations"
+    subcategory: "Evacuations during the 2026 Iran war"
+    topics:
+      - "Evacuations during the 2026 Iran war"
+    importance: 4
+    headline: "Australia and New Zealand deploy military assets to evacuate citizens from the Middle East"
+    summary: >
+      Australia and New Zealand deploy military assets, including two RNZAF aircraft, and
+      crisis response teams to the Middle East to assist and evacuate their respective
+      nationals.
+    key_data: []
+    details:
+      what_happened:
+        - "Australia and New Zealand deploy military assets, including two RNZAF aircraft, and crisis response teams to the Middle East to assist and evacuate their respective nationals."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Australia"
+        - "New Zealand"
+    geography:
+      countries:
+        - "Australia"
+        - "New Zealand"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "evacuations-during-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Australia and New Zealand deploy military assets, including two RNZAF aircraft, and crisis response teams to the Middle East to assist and evacuate their respective nationals."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Al Arabiya per the Wikipedia portal."
+  - id: "evt-2026-03-05-034"
+    category: "International relations"
+    subcategory: "Iran–Lebanon relations"
+    topics:
+      - "Iran–Lebanon relations"
+    importance: 6
+    headline: "Lebanon bans IRGC activity and orders detention and deportation of its members"
+    summary: >
+      The Lebanese cabinet bans activities by members of Iran's Islamic Revolutionary Guard
+      Corps within Lebanon and instructs authorities to detain and deport individuals linked
+      to the group. The cabinet also introduces a visa requirement for Iranian nationals
+      entering the country.
+    key_data: []
+    details:
+      what_happened:
+        - "The Lebanese cabinet bans activities by members of Iran's Islamic Revolutionary Guard Corps within Lebanon and instructs authorities to detain and deport individuals linked to the group. The cabinet also introduces a visa requirement for Iranian nationals entering the country."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Islamic Revolutionary Guard Corps"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military and security force"
+      states:
+        - "Iran"
+        - "Lebanon"
+    geography:
+      countries:
+        - "Iran"
+        - "Lebanon"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "iran-lebanon-relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Lebanese cabinet bans activities by members of Iran's Islamic Revolutionary Guard Corps within Lebanon and instructs authorities to detain and deport individuals linked to the group. The cabinet also introduces a visa requirement for Iranian nationals entering the country."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-025"
+      - "evt-2026-03-05-035"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Al-Ahram per the Wikipedia portal."
+  - id: "evt-2026-03-05-035"
+    category: "International relations"
+    subcategory: "France–Lebanon relations"
+    topics:
+      - "France–Lebanon relations"
+    importance: 4
+    headline: "Macron pledges armored vehicles and closer cooperation with the Lebanese Armed Forces"
+    summary: >
+      French president Emmanuel Macron announces that France will strengthen its cooperation
+      with the Lebanese Armed Forces and provide them with armored transport vehicles as
+      well as operational and logistical support.
+    key_data: []
+    details:
+      what_happened:
+        - "French president Emmanuel Macron announces that France will strengthen its cooperation with the Lebanese Armed Forces and provide them with armored transport vehicles as well as operational and logistical support."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Emmanuel Macron"
+      secondary: []
+    entities:
+      people:
+        - name: "Emmanuel Macron"
+          role: "President of France"
+      organizations: []
+      states:
+        - "France"
+        - "Lebanon"
+    geography:
+      countries:
+        - "France"
+        - "Lebanon"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "france-lebanon-relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "French president Emmanuel Macron announces that France will strengthen its cooperation with the Lebanese Armed Forces and provide them with armored transport vehicles as well as operational and logistical support."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-05-025"
+      - "evt-2026-03-05-034"
+    notes: "Portal-derived event with no deep-research coverage; reported by The Times of Israel per the Wikipedia portal."
+  - id: "evt-2026-03-05-036"
+    category: "International relations"
+    subcategory: "Foreign relations of Ecuador"
+    topics:
+      - "Foreign relations of Ecuador"
+    importance: 4
+    headline: "Ecuador expels Cuba's ambassador and diplomatic staff"
+    summary: >
+      Ecuador declares Cuba's ambassador to the country a persona non grata and orders him
+      and all his diplomatic staff to leave the country within 48 hours. Shortly after the
+      announcement, a man was filmed by the Associated Press on the roof of the Cuban
+      embassy in Quito burning a bag of papers.
+    key_data: []
+    details:
+      what_happened:
+        - "Ecuador declares Cuba's ambassador to the country a persona non grata and orders him and all his diplomatic staff to leave the country within 48 hours. Shortly after the announcement, a man was filmed by the Associated Press on the roof of the Cuban embassy in Quito burning a bag of papers."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Ecuador"
+        - "Cuba"
+    geography:
+      countries:
+        - "Ecuador"
+        - "Cuba"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "foreign-relations-of-ecuador"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Ecuador declares Cuba's ambassador to the country a persona non grata and orders him and all his diplomatic staff to leave the country within 48 hours. Shortly after the announcement, a man was filmed by the Associated Press on the roof of the Cuban embassy in Quito burning a bag of papers."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-05-037"
+    category: "International relations"
+    subcategory: "United States–Venezuela relations"
+    topics:
+      - "United States–Venezuela relations"
+    importance: 6
+    headline: "United States and Venezuela agree to restore diplomatic and consular relations"
+    summary: >
+      The United States and Venezuela agree to re-establish diplomatic and consular
+      relations.
+    key_data: []
+    details:
+      what_happened:
+        - "The United States and Venezuela agree to re-establish diplomatic and consular relations."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "United States"
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "united-states-venezuela-relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States and Venezuela agree to re-establish diplomatic and consular relations."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via RFI per the Wikipedia portal."
+  - id: "evt-2026-03-05-038"
+    category: "Law and crime"
+    subcategory: "Human rights in Belarus"
+    topics:
+      - "Human rights in Belarus"
+    importance: 4
+    headline: "Lukashenko pardons 18 prisoners, including 15 convicted on political charges"
+    summary: >
+      Belarusian president Alexander Lukashenko pardons 18 political prisoners, including 15
+      for political charges and three who were convicted of unspecified crimes.
+    key_data: []
+    details:
+      what_happened:
+        - "Belarusian president Alexander Lukashenko pardons 18 political prisoners, including 15 for political charges and three who were convicted of unspecified crimes."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Alexander Lukashenko"
+      secondary: []
+    entities:
+      people:
+        - name: "Alexander Lukashenko"
+          role: "President of Belarus"
+      organizations: []
+      states:
+        - "Belarus"
+    geography:
+      countries:
+        - "Belarus"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "human-rights-in-belarus"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Belarusian president Alexander Lukashenko pardons 18 political prisoners, including 15 for political charges and three who were convicted of unspecified crimes."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-05-039"
+    category: "Politics and elections"
+    subcategory: "2026 Kosovan presidential election"
+    topics:
+      - "2026 Kosovan presidential election"
+    importance: 5
+    headline: "Kosovo's parliament fails to elect a president"
+    summary: >
+      In Kosovo, the 120 members of the Kuvendi fail to elect the president. The Kuvendi is
+      expected to dissolve, with parliamentary elections scheduled to be set within 45 days.
+    key_data: []
+    details:
+      what_happened:
+        - "In Kosovo, the 120 members of the Kuvendi fail to elect the president. The Kuvendi is expected to dissolve, with parliamentary elections scheduled to be set within 45 days."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Assembly of the Republic of Kosovo"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Assembly of the Republic of Kosovo"
+          description: "Kosovo's legislature (Kuvendi)"
+      states:
+        - "Kosovo"
+    geography:
+      countries:
+        - "Kosovo"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "election"
+      tags:
+        - "2026-kosovan-presidential-election"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In Kosovo, the 120 members of the Kuvendi fail to elect the president. The Kuvendi is expected to dissolve, with parliamentary elections scheduled to be set within 45 days."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by DTT-NET and RKS per the Wikipedia portal."
+  - id: "evt-2026-03-05-040"
+    category: "Politics and elections"
+    subcategory: "2026 Nepalese general election"
+    topics:
+      - "2026 Nepalese general election"
+    importance: 6
+    headline: "Nepal votes in general election six months after the Gen Z protests"
+    summary: >
+      Nepalis vote to elect 275 seats of the House of Representatives nearly six months
+      after the Gen Z protests.
+    key_data: []
+    details:
+      what_happened:
+        - "Nepalis vote to elect 275 seats of the House of Representatives nearly six months after the Gen Z protests."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Nepal"
+    geography:
+      countries:
+        - "Nepal"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "protest"
+      tags:
+        - "2026-nepalese-general-election"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Nepalis vote to elect 275 seats of the House of Representatives nearly six months after the Gen Z protests."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-05-041"
+    category: "Politics and elections"
+    subcategory: "Second cabinet of Donald Trump"
+    topics:
+      - "Second cabinet of Donald Trump"
+    importance: 6
+    headline: "Trump dismisses Kristi Noem as Homeland Security secretary and nominates Markwayne Mullin"
+    summary: >
+      U.S. president Donald Trump dismisses Kristi Noem as Secretary of Homeland Security
+      and nominates Oklahoma senator Markwayne Mullin to replace her.
+    key_data: []
+    details:
+      what_happened:
+        - "U.S. president Donald Trump dismisses Kristi Noem as Secretary of Homeland Security and nominates Oklahoma senator Markwayne Mullin to replace her."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Kristi Noem"
+        - "Markwayne Mullin"
+      secondary: []
+    entities:
+      people:
+        - name: "Kristi Noem"
+          role: "U.S. Secretary of Homeland Security (dismissed)"
+        - name: "Markwayne Mullin"
+          role: "U.S. Senator from Oklahoma"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "second-cabinet-of-donald-trump"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "U.S. president Donald Trump dismisses Kristi Noem as Secretary of Homeland Security and nominates Oklahoma senator Markwayne Mullin to replace her."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Independent per the Wikipedia portal."
+  - id: "evt-2026-03-05-042"
+    category: "Politics and elections"
+    subcategory: "2026 U.S. House of Representatives election in Texas district 23"
+    topics:
+      - "2026 U.S. House of Representatives election in Texas district 23"
+    importance: 3
+    headline: "Brandon Herrera becomes presumptive Republican nominee in Texas's 23rd district"
+    summary: >
+      Brandon Herrera, a gun manufacturer and youtuber presumptively becomes the GOP's
+      nominee for the district, after incumbent representative Tony Gonzales drops from the
+      race following a scandal involving a former aide.
+    key_data: []
+    details:
+      what_happened:
+        - "Brandon Herrera, a gun manufacturer and youtuber presumptively becomes the GOP's nominee for the district, after incumbent representative Tony Gonzales drops from the race following a scandal involving a former aide."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Brandon Herrera"
+        - "Tony Gonzales"
+      secondary: []
+    entities:
+      people:
+        - name: "Brandon Herrera"
+          role: "Gun manufacturer and YouTuber"
+        - name: "Tony Gonzales"
+          role: "U.S. Representative for Texas's 23rd district"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-05"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "2026-u-s-house-of-representatives-election-in-texas-district-23"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Brandon Herrera, a gun manufacturer and youtuber presumptively becomes the GOP's nominee for the district, after incumbent representative Tony Gonzales drops from the race following a scandal involving a former aide."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC per the Wikipedia portal."
+
+strategic_conclusion: >
+  The day's events show the Iran war widening geographically, drawing Gulf states,
+  Azerbaijan, Cyprus, Lebanon and NATO members into defensive or diplomatic responses, while
+  Iran publicly ruled out negotiations. Energy-market disruption was already prompting
+  emergency financial measures in Asia. Separately, elections in Nepal and a deadlocked
+  presidential vote in Kosovo, U.S.–Venezuela rapprochement and a U.S. cabinet dismissal
+  marked significant political changes unrelated to the war.
+
+works_cited:
+  - id: 1
+    title: "Us house rejects war powers resolution backs trump iran war"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/us/us-house-rejects-war-powers-resolution-backs-trump-iran-war-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 2
+    title: "Office of the Clerk, U.S. House of Representatives report"
+    outlet: "Office of the Clerk, U.S. House of Representatives"
+    url: "https://clerk.house.gov/Votes/202685"
+    accessed: "2026-03-05"
+  - id: 3
+    title: "Iran war israel trump lebanon march 05 2026"
+    outlet: "Associated Press"
+    url: "https://apnews.com/live/iran-war-israel-trump-lebanon-march-05-2026"
+    accessed: "2026-03-05"
+  - id: 4
+    title: "Trump tells reuters us will have role choosing irans next leader"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/trump-tells-reuters-us-will-have-role-choosing-irans-next-leader-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 5
+    title: "Israel attack irans underground missile sites second phase war sources say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/aerospace-defense/israel-attack-irans-underground-missile-sites-second-phase-war-sources-say-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 6
+    title: "Iran israel us march 05 2026"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/iran-israel-us-march-05-2026-6a76668997a43855cc37eff7f4829615"
+    accessed: "2026-03-05"
+  - id: 7
+    title: "Qatar News Agency report"
+    outlet: "Qatar News Agency"
+    url: "https://qna.org.qa/en/news/news-details?id=bahrain-74-missiles-and-117-drones-destroyed-since-onset-of-iranian-attacks&date=5/03/2026"
+    accessed: "2026-03-05"
+  - id: 8
+    title: "Bahrain defence force 74 iranian missiles117 hostile drones destroyed 1.500463658"
+    outlet: "Gulf News (WAM)"
+    url: "https://gulfnews.com/world/gulf/bahrain-defence-force-74-iranian-missiles117-hostile-drones-destroyed-1.500463658"
+    accessed: "2026-03-05"
+  - id: 9
+    title: "Drone targets us base in iraq as iran attacks hit region amid us israel war"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/5/drone-targets-us-base-in-iraq-as-iran-attacks-hit-region-amid-us-israel-war"
+    accessed: "2026-03-05"
+  - id: 10
+    title: "Nato increases missile defence posture after turkey incident"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/nato-increases-missile-defence-posture-after-turkey-incident-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 11
+    title: "Article five not table despite iran missile incident natos rutte says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/article-five-not-table-despite-iran-missile-incident-natos-rutte-says-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 12
+    title: "Turkey says nato defences destroyed missile fired iran over mediterranean"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/turkey-says-nato-defences-destroyed-missile-fired-iran-over-mediterranean-2026-03-04"
+    accessed: "2026-03-04"
+  - id: 13
+    title: "Oil prices rise iran conflict widens"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/oil-prices-rise-iran-conflict-widens-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 14
+    title: "Jet fuels huge price surge points coming pain iran war"
+    outlet: "Reuters (Commentary)"
+    url: "https://www.reuters.com/markets/commodities/jet-fuels-huge-price-surge-points-coming-pain-iran-war-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 15
+    title: "Lpg tankers redirect us iran crisis escalates"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/lpg-tankers-redirect-us-iran-crisis-escalates-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 16
+    title: "Finland lift full ban hosting nuclear arms government says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/aerospace-defense/finland-lift-full-ban-hosting-nuclear-arms-government-says-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 17
+    title: "Finnish government proposes to amend nuclear energy act and criminal code to strengthen nato s deterrence and defence"
+    outlet: "Finnish Government (Ministry of Defence press release)"
+    url: "https://valtioneuvosto.fi/en/-/236553176/finnish-government-proposes-to-amend-nuclear-energy-act-and-criminal-code-to-strengthen-nato-s-deterrence-and-defence"
+    accessed: "2026-03-05"
+  - id: 18
+    title: "Yle report"
+    outlet: "Yle"
+    url: "https://yle.fi/a/74-20213983"
+    accessed: "2026-03-06"
+  - id: 19
+    title: "Ukraine brings back 200 pows latest swap with russia zelenskiy says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/ukraine-brings-back-200-pows-latest-swap-with-russia-zelenskiy-says-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 20
+    title: "Russia ukraine exchange 500 pows over coming two days moscow says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/russia-ukraine-exchange-500-pows-over-coming-two-days-moscow-says-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 21
+    title: "Ukraine russia free 200 pows each in latest swap amid stalled peace talks"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/5/ukraine-russia-free-200-pows-each-in-latest-swap-amid-stalled-peace-talks"
+    accessed: "2026-03-05"
+  - id: 22
+    title: "ABC News (Australia) report"
+    outlet: "ABC News (Australia)"
+    url: "https://www.abc.net.au/news/2026-03-06/ukraine-russia-free-prisoner-of-war-in-exchange/106423070"
+    accessed: "2026-03-05"
+  - id: 23
+    title: "Us others express concern over violations ceasefires eastern congo"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/us-others-express-concern-over-violations-ceasefires-eastern-congo-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 24
+    title: "Remarks and releases european union"
+    outlet: "U.S. Department of State (index page referencing dated release)"
+    url: "https://www.state.gov/remarks-and-releases-european-union"
+    accessed: "2026-03-05"
+  - id: 25
+    title: "Australia canada sign new deals critical minerals"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/australia-canada-sign-new-deals-critical-minerals-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 26
+    title: "Joint statement prime minister mark carney and prime minister anthony"
+    outlet: "Government of Canada (Joint Statement)"
+    url: "https://www.pm.gc.ca/en/news/statements/2026/03/05/joint-statement-prime-minister-mark-carney-and-prime-minister-anthony"
+    accessed: "2026-03-05"
+  - id: 27
+    title: "Australia canada joint statement"
+    outlet: "Australian Prime Minister’s Office (Joint Statement)"
+    url: "https://www.pm.gov.au/media/australia-canada-joint-statement"
+    accessed: "2026-03-05"
+  - id: 28
+    title: "Japans private rocket maker space one fails third kairos launch"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/science/japans-private-rocket-maker-space-one-fails-third-kairos-launch-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 29
+    title: "Japan startup space one kairos third launch"
+    outlet: "space.com"
+    url: "https://www.space.com/space-exploration/private-spaceflight/japan-startup-space-one-kairos-third-launch"
+    accessed: "2026-03-05"
+  - id: 30
+    title: "Mexico steps up investigations into fuel smuggling by drug cartels"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/mexico-steps-up-investigations-into-fuel-smuggling-by-drug-cartels-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 31
+    title: "Mexico fuel smuggling corruption"
+    outlet: "World Politics Review"
+    url: "https://www.worldpoliticsreview.com/mexico-fuel-smuggling-corruption"
+    accessed: "2026-03-05"
+  - id: 32
+    title: "Openai hit with lawsuit claiming chatgpt acted an unlicensed lawyer"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/legal/legalindustry/openai-hit-with-lawsuit-claiming-chatgpt-acted-an-unlicensed-lawyer-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 33
+    title: "Landmark lawsuit against openai for allowing chatgpt to provide legal advice could be a huge game changer for all ai makers"
+    outlet: "Forbes"
+    url: "https://www.forbes.com/sites/lanceeliot/2026/03/09/landmark-lawsuit-against-openai-for-allowing-chatgpt-to-provide-legal-advice-could-be-a-huge-game-changer-for-all-ai-makers"
+    accessed: "2026-03-09"
+  - id: 34
+    title: "Trump bondi face lawsuit over approval bytedance tiktok us asset sale"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/trump-bondi-face-lawsuit-over-approval-bytedance-tiktok-us-asset-sale-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 35
+    title: "Trump bondi face lawsuit over approval of bytedance tiktok us asset sale"
+    outlet: "The Star (republishing Reuters)"
+    url: "https://www.thestar.com.my/tech/tech-news/2026/03/05/trump-bondi-face-lawsuit-over-approval-of-bytedance-tiktok-us-asset-sale"
+    accessed: "2026-03-05"
+  - id: 36
+    title: "South africa seeks local production gileads hiv prevention drug"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/healthcare-pharmaceuticals/south-africa-seeks-local-production-gileads-hiv-prevention-drug-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 37
+    title: "South africa launches bid to enable local production of long acting hiv prevention drug lenacapavir"
+    outlet: "Unitaid"
+    url: "https://unitaid.org/news-blog/south-africa-launches-bid-to-enable-local-production-of-long-acting-hiv-prevention-drug-lenacapavir"
+    accessed: "2026-03-05"
+  - id: 38
+    title: "Indonesia gives meta stern warning over disinformation"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/indonesia-gives-meta-stern-warning-over-disinformation-2026-03-05"
+    accessed: "2026-03-05"
+  - id: 39
+    title: "Times of India report"
+    outlet: "Times of India"
+    url: "https://timesofindia.indiatimes.com/technology/social/indonesia-gives-meta-stern-warning-about-harmful-content-on-facebook-instagram-and-whatsapp-not-even-30-of-flagged-content/articleshow/129089724.cms"
+    accessed: "2026-03-05"
+  - id: 40
+    title: "Portal:Current events/2026 March 5"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_5&oldid=1365299343"
+    accessed: "2026-09-22"

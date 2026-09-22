@@ -1,0 +1,26 @@
+{
+  "match": {"7": 16, "8": 12, "12": 18, "13": 8},
+  "ev": {
+    "md:0": {"i": 8}, "md:1": {"i": 6}, "md:2": {"i": 5}, "md:3": {"i": 6}, "md:4": {"i": 6}, "md:5": {"i": 6},
+    "md:6": {"i": 4}, "md:7": {"i": 6}, "md:8": {"i": 6}, "md:9": {"i": 4}, "md:10": {"i": 4}, "md:11": {"i": 5},
+    "md:12": {"i": 4}, "md:13": {"i": 6},
+    "p:0": {"h": "Iran's ambassador to Russia says Tehran is ready for 'normal' talks", "i": 4, "st": ["Iran", "Russia", "United States"],
+            "ppl": {"Kazem Jalali": "Iranian ambassador to Russia"}},
+    "p:1": {"h": "Dubai International Airport suspends operations after interception nearby", "i": 6, "pl": ["Dubai International Airport", "Dubai"], "st": ["United Arab Emirates"]},
+    "p:4": {"h": "Israeli strikes in southern Lebanon kill eight, Lebanese health ministry says", "i": 5, "k": 8, "pl": ["Southern Lebanon"], "st": ["Lebanon", "Israel"]},
+    "p:6": {"h": "Two bombings targeting police in Khyber Pakhtunkhwa kill at least four", "i": 5, "k": 4, "w": 35, "pl": ["Khyber Pakhtunkhwa"], "st": ["Pakistan"]},
+    "p:7": {"h": "Nightclub bombing in Trujillo, Peru, injures at least 33", "i": 5, "w": 33, "pl": ["Trujillo", "La Libertad Department"], "st": ["Peru"]},
+    "p:9": {"h": "Kuwait Petroleum Corporation cuts crude output and refining as a precaution", "i": 6, "st": ["Kuwait"],
+            "org": {"Kuwait Petroleum Corporation": "Kuwait's state oil company"}},
+    "p:11": {"h": "Sudan launches hepatitis B vaccination campaign for newborns", "i": 3, "st": ["Sudan"]},
+    "p:13": {"h": "Trump says U.S. formally recognizes Delcy Rodríguez's government in Venezuela", "i": 6, "st": ["United States", "Venezuela"],
+             "ppl": {"Donald Trump": "President of the United States", "Delcy Rodríguez": "Acting president of Venezuela"}},
+    "p:14": {"h": "Child murderer Ian Huntley dies after being attacked by a fellow inmate", "i": 3, "k": 1, "pl": ["HM Prison Frankland", "County Durham"], "st": ["United Kingdom"],
+             "ppl": {"Ian Huntley": "Convicted murderer (Soham murders)"}},
+    "p:15": {"h": "Explosive device detonated at protest outside NYC mayor Zohran Mamdani's residence", "i": 5, "pl": ["New York City"], "st": ["United States"],
+             "ppl": {"Zohran Mamdani": "Mayor of New York City"}},
+    "p:17": {"h": "Guinea dissolves 40 political parties, including the main opposition groups", "i": 6, "st": ["Guinea"]}
+  },
+  "related": [["md:1", "p:4"], ["md:4", "p:9"], ["md:8", "p:13"]],
+  "strategic_conclusion": "March 7 showed both escalation and first signs of hesitation in the Iran war: President Trump threatened broader strikes while Iran's president apologized to Gulf neighbours and said attacks on them would pause, even as rockets targeted the U.S. embassy in Baghdad and Dubai's airport halted operations. Energy-policy responses in Washington, Brussels and Kuwait reflected the war's economic reach. Beyond the Middle East, Russia's barrage on Kharkiv, deadly floods in Nairobi, the RSP's lead in Nepal's election, the U.S.-led Shield of the Americas launch and Guinea's dissolution of opposition parties were the day's other major developments."
+}

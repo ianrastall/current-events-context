@@ -1,0 +1,2999 @@
+date: "2026-03-07"
+source_page:
+  portal: "Portal:Current events/2026 March 7"
+  language: "en"
+  wikipedia_revision_id: 1343328007
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 7 (revision 1343328007; seed 2026/03/2026-03-07.yaml) + deep-research report reference/deep-research/2026/03/2026-03-07a.md + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  The global operating environment on March 7, 2026, was characterized by a severe
+  convergence of kinetic warfare, macroeconomic shocks, supply chain disruptions, and
+  profound geopolitical realignments. The most critical vector of instability remains the
+  rapidly escalating armed conflict between the United States, Israel, and the Islamic
+  Republic of Iran. The systemic shockwaves of this war have structurally degraded the
+  security of the Persian Gulf, triggering a cascade of asymmetric retaliatory strikes by
+  Iranian forces against the energy and transportation infrastructure of Gulf Cooperation
+  Council (GCC) states. These strikes have directly threatened global energy markets,
+  prompting the activation of force majeure clauses and aggressive energy protectionism in
+  Southeast Asia.
+
+  Concurrently, the architectural framework of global alliances is undergoing acute stress.
+  The integration of Russian satellite intelligence into Iranian targeting matrices
+  represents a definitive evolution in the Moscow-Tehran axis, effectively establishing a
+  unified front against American military hegemony. In the Western Hemisphere, the United
+  States has moved aggressively to consolidate its sphere of influence, utilizing the
+  "Shield of the Americas" summit to formalize a right-wing, militarized coalition in Latin
+  America, signaling a robust resurgence of the Monroe Doctrine. Simultaneously, the
+  intersection of national security and emerging technologies reached a historic flashpoint
+  with the unprecedented designation of a premier American artificial intelligence firm,
+  Anthropic, as a national security threat due to its refusal to integrate its advanced
+  models into kinetic and autonomous military operations.
+
+events:
+  - id: "evt-2026-03-07-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "regional escalation and de-escalation signals"
+    topics:
+      - "Iran war"
+      - "Gulf security"
+      - "regional escalation"
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "regional escalation and de-escalation signals"
+      - "Iran"
+      - "Saudi Arabia"
+    importance: 8
+    headline: "Trump threatens broader Iran strikes as Tehran says it will pause attacks on neighbours"
+    summary: >
+      As the U.S.-Israeli war on Iran entered a second week, President Donald Trump said the
+      United States was prepared to hit Iran "very hard" and signalled that he was not
+      interested in negotiations. Iranian President Masoud Pezeshkian apologised to
+      neighbouring states affected by Iranian retaliation and said the temporary leadership
+      council had agreed to suspend attacks on nearby countries unless attacks on Iran
+      originated from their territory. Reuters also reported that Saudi Arabia had warned
+      Tehran that continued attacks on the kingdom or its energy sector could trigger direct
+      Saudi retaliation, underscoring how close the conflict remained to widening across the
+      Gulf even as Iran tried to limit one front of escalation.
+    key_data: []
+    details:
+      what_happened:
+        - "Trump said Iran would be hit very hard on March 7 and raised the possibility that the war could end only when Iran no longer had functioning military leadership."
+        - "Pezeshkian said Iran's temporary leadership council had approved suspending attacks on neighbouring states unless those countries themselves launched attacks on Iran."
+        - "Saudi Arabia privately warned Tehran that further attacks on Saudi territory or energy infrastructure could push Riyadh to retaliate directly."
+        - "Reuters reported that some Iranian claims about strikes on U.S. and Gulf facilities could not be independently verified."
+      why_it_matters:
+        - "The statements showed simultaneous pressures toward wider regional war and limited de-escalation."
+        - "Any further attacks on Gulf energy infrastructure or U.S. bases risked intensifying the global oil and shipping shock already tied to the conflict."
+      uncertainty_notes:
+        - "Some battlefield claims by Iranian state-linked actors were not independently verified in the reporting."
+    actors:
+      primary:
+        - "United States"
+        - "Iran"
+        - "Saudi Arabia"
+        - "Donald Trump"
+        - "Masoud Pezeshkian"
+      secondary:
+        - "Benjamin Netanyahu"
+        - "Iran's temporary leadership council"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Masoud Pezeshkian"
+          role: "President of Iran"
+        - name: "Benjamin Netanyahu"
+          role: "Prime Minister of Israel"
+      organizations:
+        - name: "Iranian Revolutionary Guards"
+          description: "Islamic Revolutionary Guard Corps of Iran"
+        - name: "Saudi government"
+          description: "Government of Saudi Arabia"
+        - name: "White House"
+          description: "Office of the U.S. president"
+      states:
+        - "United States"
+        - "Iran"
+        - "Saudi Arabia"
+        - "Israel"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "Iran"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+        - "Israel"
+        - "United States"
+      places:
+        - "Tehran"
+        - "Abu Dhabi"
+        - "Gulf region"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "air-war"
+        - "regional-security-crisis"
+        - "retaliatory-threats"
+      tags:
+        - "iran-war"
+        - "gulf"
+        - "trump"
+        - "pezeshkian"
+        - "saudi-warning"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iranian president Masoud Pezeshkian apologizes for Iran's attacks on its Middle Eastern neighbors and states that the Interim Leadership Council had agreed not to attack them \"unless an attack on Iran originates from those countries\". The military later continues the strikes. The governments of Bahrain, Kuwait, Qatar, Saudi Arabia, and the UAE report attacks targeting their territories."
+      external:
+        - id: "src-001-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/iran-war-enters-second-week-trump-demands-unconditional-surrender-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [63]
+        - id: "src-001-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/trump-says-iran-will-be-hit-very-hard-saturday-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [64]
+        - id: "src-001-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/saudi-has-told-iran-not-attack-it-warns-possible-retaliation-sources-say-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [65]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "cross-border raid and airstrikes"
+    topics:
+      - "Lebanon"
+      - "Israel"
+      - "Hezbollah"
+      - "cross-border raid and airstrikes"
+    importance: 6
+    headline: "Israeli raid and airstrikes kill at least 16 in eastern Lebanon"
+    summary: >
+      Israel escalated operations in Lebanon on March 7 with an airborne special-forces raid
+      near Nabi Chit in the Bekaa Valley followed by heavy airstrikes, leaving at least 16
+      people dead and 35 wounded according to Lebanese authorities cited by Reuters and AP.
+      Israeli officials said troops had crossed briefly into Lebanon in an operation linked
+      to the long-missing airman Ron Arad, while Hezbollah and Lebanese officials treated
+      the incident as part of the wider regional war tied to the U.S.-Israeli campaign
+      against Iran. Israel also warned that Lebanon would pay a "very heavy price" if the
+      Lebanese state did not restrain Hezbollah, raising fears of broader escalation.
+    key_data: []
+    details:
+      what_happened:
+        - "Lebanese authorities said Israeli strikes on Nabi Chit killed at least 16 people and wounded 35."
+        - "AP reported that Israeli special forces briefly entered Lebanon in a mission tied to the remains of Israeli navigator Ron Arad."
+        - "Reuters reported that Israel warned Lebanon it would face severe consequences if Hezbollah were not reined in."
+        - "The strikes formed part of a broader expansion of hostilities linked to the regional Iran war."
+      why_it_matters:
+        - "The operation increased the risk that fighting with Hezbollah could further expand beyond the Israel-Lebanon border zone."
+        - "Israeli warnings directed at the Lebanese state, not just Hezbollah, pointed to a more dangerous level of coercion."
+      uncertainty_notes:
+        - "Casualty figures came from Lebanese authorities and could change as rescue and verification continued."
+    actors:
+      primary:
+        - "Israel"
+        - "Hezbollah"
+      secondary:
+        - "Lebanese government"
+        - "Lebanese Armed Forces"
+    entities:
+      people:
+        - name: "Ron Arad"
+          role: "Israeli Air Force navigator missing since 1986"
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Military of Israel"
+        - name: "Hezbollah"
+          description: "Lebanese Shia militant group and political party"
+        - name: "Lebanese Armed Forces"
+          description: "Military of Lebanon"
+      states:
+        - "Israel"
+        - "Lebanon"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Israel"
+      places:
+        - "Nabi Chit"
+        - "Bekaa Valley"
+        - "Beirut southern suburbs"
+        - "southern Lebanon"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 16
+      injured: 35
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Residential and urban areas around Nabi Chit were hit by repeated strikes."
+    classification:
+      event_type:
+        - "airstrikes"
+        - "special-forces-raid"
+        - "cross-border-conflict"
+      tags:
+        - "lebanon"
+        - "israel"
+        - "hezbollah"
+        - "nabi-chit"
+        - "ron-arad"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/lebanon-says-least-16-dead-israeli-strikes-eastern-town-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [66]
+        - id: "src-002-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/lebanon-israel-hezbollah-ron-arad-nabi-chit-9054b777cb2d853e9a58cd65a71adb12"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [67]
+        - id: "src-002-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/iran-war-enters-second-week-trump-demands-unconditional-surrender-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [63]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-07-017"
+    notes: ""
+  - id: "evt-2026-03-07-003"
+    category: "Armed conflicts and attacks"
+    subcategory: "rocket attack on diplomatic compound"
+    topics:
+      - "Iraq"
+      - "Baghdad"
+      - "U.S. embassy"
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "rocket attack on diplomatic compound"
+    importance: 5
+    headline: "Rockets target U.S. embassy compound in Baghdad's Green Zone"
+    summary: >
+      Katyusha rockets struck near the U.S. embassy compound in Baghdad on March 7,
+      including one that landed on a helipad, according to Iraqi security officials cited by
+      Reuters and AP. No casualties were immediately reported, but caretaker Prime Minister
+      Mohammed Shia al-Sudani called the attack a terrorist act by rogue groups and ordered
+      security forces to pursue those responsible. The incident added to signs that the Iran
+      war was spilling into Iraq, where American diplomatic and military sites remain
+      exposed to indirect fire and proxy pressure.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that Katyusha rockets targeted the U.S. embassy area in Baghdad's fortified Green Zone."
+        - "AP reported that one missile landed on a helipad inside the compound."
+        - "Iraqi caretaker Prime Minister Mohammed Shia al-Sudani ordered security agencies to pursue the perpetrators."
+        - "No casualties were immediately reported by Iraqi security officials."
+      why_it_matters:
+        - "Even a limited strike on the Baghdad embassy compound signalled that Iraq remained vulnerable to spillover from the wider regional war."
+        - "The attack carried diplomatic risk because it targeted one of the most sensitive U.S. facilities in Iraq."
+      uncertainty_notes:
+        - "The reporting did not establish a confirmed perpetrator at the time of publication."
+    actors:
+      primary:
+        - "Iraqi government"
+        - "U.S. Embassy Baghdad"
+      secondary:
+        - "Mohammed Shia al-Sudani"
+        - "unidentified attackers"
+    entities:
+      people:
+        - name: "Mohammed Shia al-Sudani"
+          role: "Prime Minister of Iraq"
+      organizations:
+        - name: "U.S. Embassy Baghdad"
+          description: "U.S. diplomatic mission in Iraq"
+        - name: "Iraqi security forces"
+          description: "Security forces of Iraq"
+      states:
+        - "Iraq"
+        - "United States"
+    geography:
+      countries:
+        - "Iraq"
+      places:
+        - "Baghdad"
+        - "Green Zone"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "A helipad area inside the embassy compound was struck."
+    classification:
+      event_type:
+        - "rocket-attack"
+        - "diplomatic-security-incident"
+      tags:
+        - "baghdad"
+        - "green-zone"
+        - "us-embassy"
+        - "iraq"
+        - "regional-spillover"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States embassy in Baghdad, Iraq, is attacked with four rockets. Iraqi prime minister Mohammed Shia al-Sudani orders the security forces to pursue the perpetrators of the \"terrorist act\"."
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/katyusha-rockets-target-us-embassy-baghdad-security-sources-say-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [68]
+        - id: "src-003-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/live/iran-war-israel-trump-03-07-2026"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [69]
+        - id: "src-003-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/iran-war-enters-second-week-trump-demands-unconditional-surrender-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [63]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "missile and drone strike"
+    topics:
+      - "Ukraine"
+      - "Kharkiv"
+      - "Russian strikes"
+      - "Russo-Ukrainian war"
+      - "Russian attacks on civilians in the Russo-Ukrainian war, Russian strikes against Ukrainian infrastructure"
+      - "missile and drone strike"
+    importance: 6
+    headline: "Russian missile and drone barrage kills at least 10 in Kharkiv"
+    summary: >
+      Russia launched a major overnight barrage of missiles and drones against Ukraine, with
+      the deadliest strike hitting Kharkiv where at least 10 people, including two children,
+      were killed when a missile hit a residential building. AP reported that 16 people were
+      wounded in the Kharkiv strike, while Reuters said the broader assault also damaged
+      energy, railway and port infrastructure in other parts of Ukraine. President Volodymyr
+      Zelenskiy renewed calls for stronger Western air-defence support as civilian areas
+      again bore the brunt of the attacks.
+    key_data: []
+    details:
+      what_happened:
+        - "A Russian missile struck a five-storey residential building in Kharkiv, killing at least 10 people including two children."
+        - "AP reported that 16 people were wounded in the Kharkiv strike."
+        - "Reuters said the wider overnight attack also damaged energy, rail and port infrastructure elsewhere in Ukraine."
+        - "Zelenskiy responded by urging more air-defence help from allies."
+      why_it_matters:
+        - "The attack highlighted Russia's continuing ability to inflict mass civilian casualties far from the front line."
+        - "Damage to infrastructure as well as housing increased both humanitarian and economic pressure on Ukraine."
+      uncertainty_notes:
+        - "Early death tolls from major strikes can rise as rescue work continues."
+    actors:
+      primary:
+        - "Russia"
+        - "Ukraine"
+      secondary:
+        - "Volodymyr Zelenskiy"
+        - "Kharkiv regional authorities"
+    entities:
+      people:
+        - name: "Volodymyr Zelenskiy"
+          role: "President of Ukraine"
+      organizations:
+        - name: "Ukrainian emergency services"
+          description: "State Emergency Service of Ukraine"
+        - name: "Kharkiv regional administration"
+          description: "Regional government of Kharkiv Oblast"
+      states:
+        - "Russia"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Ukraine"
+      places:
+        - "Kharkiv"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 10
+      injured: 16
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "A five-storey residential building was hit and infrastructure was damaged in multiple regions."
+    classification:
+      event_type:
+        - "missile-strike"
+        - "drone-attack"
+        - "civilian-area-bombardment"
+      tags:
+        - "ukraine"
+        - "kharkiv"
+        - "russia"
+        - "children-killed"
+        - "infrastructure-damage"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Kharkiv Oblast governor Oleh Syniehubov says that Russia has launched a barrage of drones and missiles on residential areas in Kharkiv, Ukraine, killing ten people, including two children and injuring ten, as well as damaging the city's power grids."
+      external:
+        - id: "src-004-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/russian-strike-kills-seven-including-two-children-ukraines-kharkiv-governor-says-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [70]
+        - id: "src-004-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/russia-ukraine-war-kharkiv-f555c370a7439a41393e74a6e603db43"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [71]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-005"
+    category: "Business and economy"
+    subcategory: "energy price shock and policy response"
+    topics:
+      - "oil"
+      - "gasoline prices"
+      - "industrial energy costs"
+      - "energy price shock and policy response"
+      - "United States"
+    importance: 6
+    headline: "Washington and Brussels move to blunt the energy-price shock from the Iran war"
+    summary: >
+      With shipping through the Strait of Hormuz badly disrupted and oil prices surging,
+      policymakers in both the United States and the European Union moved on March 7 to
+      contain the economic fallout. Reuters reported that the White House asked agencies for
+      options President Trump could take without Congress to rein in gasoline and energy
+      costs, while a European Commission draft showed Brussels exploring ways to reduce
+      network charges, taxes and carbon-related costs for industry. The parallel responses
+      reflected how quickly the Middle East war had turned into a cross-regional economic
+      shock.
+    key_data: []
+    details:
+      what_happened:
+        - "The White House sought unilateral options to address rising U.S. gasoline and energy prices amid the Iran conflict."
+        - "Reuters reported that U.S. crude had risen sharply and gasoline prices had moved above levels seen late in 2024."
+        - "A European Commission draft reviewed by Reuters proposed softer energy-bill pressure for industry through lower network and tax-related costs."
+        - "AP reported that the oil shock was tied to widening war and disruption to tanker traffic in the Strait of Hormuz."
+      why_it_matters:
+        - "Energy-price spikes can quickly transmit a regional war into inflation, industrial stress and political pressure far beyond the Middle East."
+        - "The simultaneous U.S. and EU response showed that the shock was affecting both consumers and heavy industry."
+      uncertainty_notes:
+        - "The European measures were still in draft form and the White House options had not yet been fully announced."
+    actors:
+      primary:
+        - "United States"
+        - "European Union"
+      secondary:
+        - "White House"
+        - "European Commission"
+        - "Donald Trump"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "White House"
+          description: "Office of the U.S. president"
+        - name: "European Commission"
+          description: "Executive branch of the European Union"
+        - name: "International Energy Agency"
+          description: "Intergovernmental energy agency"
+      states:
+        - "United States"
+        - "European Union members"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington"
+        - "Brussels"
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Energy prices rose sharply and policymakers moved to cushion consumers and industry."
+    classification:
+      event_type:
+        - "energy-market-shock"
+        - "economic-policy-response"
+      tags:
+        - "oil"
+        - "gasoline"
+        - "eu-industry"
+        - "hormuz"
+        - "iran-war"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/white-house-seeks-bolder-action-energy-prices-amid-iran-conflict-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [72]
+        - id: "src-005-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/boards-policy-regulation/eu-looks-soften-energy-bill-pressures-industry-document-shows-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [73]
+        - id: "src-005-c"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/iran-war-oil-gas-02339048caa3fe1f08a198eb9224de2b"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [74]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-07-020"
+    notes: ""
+  - id: "evt-2026-03-07-006"
+    category: "Disasters and accidents"
+    subcategory: "flash floods"
+    topics:
+      - "Kenya"
+      - "Nairobi"
+      - "extreme rainfall"
+      - "2026 Kenya floods"
+      - "flash floods"
+    importance: 6
+    headline: "Flash floods kill at least 23 in Nairobi and disrupt East Africa's busiest airport"
+    summary: >
+      Flash floods that began overnight in Nairobi killed at least 23 people on March 7,
+      swept away dozens of vehicles and disrupted flights at Jomo Kenyatta International
+      Airport, according to Reuters. President William Ruto said emergency responders
+      including soldiers had been deployed and that food from national reserves would be
+      released for affected families. The flooding illustrated both the immediate urban
+      vulnerability of Nairobi's river corridors and the wider pattern of increasingly
+      destructive rain events across East Africa.
+    key_data: []
+    details:
+      what_happened:
+        - "Aid workers and emergency responders recovered bodies from floodwaters across Nairobi after the Nairobi River burst its banks."
+        - "Reuters reported at least 23 deaths, dozens of cars swept away and flight disruption at Jomo Kenyatta International Airport."
+        - "President Ruto announced the deployment of responders, including soldiers, and the release of relief food."
+        - "The reporting linked the event to broader climate-driven flood pressure in East Africa."
+      why_it_matters:
+        - "The floods combined loss of life with disruption to a major regional transport hub."
+        - "Urban flood exposure in Nairobi makes intense rain events especially deadly and economically disruptive."
+      uncertainty_notes:
+        - "Fatality totals from flood disasters can rise as more bodies are recovered."
+    actors:
+      primary:
+        - "Kenya"
+        - "William Ruto"
+      secondary:
+        - "emergency responders"
+        - "aid workers"
+    entities:
+      people:
+        - name: "William Ruto"
+          role: "President of Kenya"
+      organizations:
+        - name: "Kenyan emergency services"
+          description: "Kenyan disaster responders"
+        - name: "Jomo Kenyatta International Airport"
+          description: "Main international airport of Nairobi"
+      states:
+        - "Kenya"
+    geography:
+      countries:
+        - "Kenya"
+      places:
+        - "Nairobi"
+        - "Nairobi River"
+        - "Jomo Kenyatta International Airport"
+        - "Grogan"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 23
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Dozens of vehicles were swept away and airport operations were disrupted."
+    classification:
+      event_type:
+        - "flash-flood"
+        - "weather-disaster"
+        - "transport-disruption"
+      tags:
+        - "kenya"
+        - "nairobi"
+        - "floods"
+        - "airport-disruption"
+        - "east-africa"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Flash floods in Nairobi, Kenya, disrupt flights and result in at least 23 deaths."
+      external:
+        - id: "src-006-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sustainability/climate-energy/flash-floods-nairobi-kill-10-disrupt-flights-major-airport-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [75]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-007"
+    category: "Disasters and accidents"
+    subcategory: "tornado outbreak"
+    topics:
+      - "United States"
+      - "Michigan"
+      - "severe weather"
+      - "tornado outbreak"
+    importance: 4
+    headline: "Tornadoes and severe storms kill four in southern Michigan"
+    summary: >
+      Authorities searched debris in southern Michigan on March 7 after suspected tornadoes
+      and severe storms killed four people, including a 12-year-old boy, and injured at
+      least a dozen others. Reuters reported that multiple homes were destroyed and hundreds
+      of residents were left without power, while AP said the National Weather Service
+      confirmed an EF3 tornado with winds of at least 150 mph in the Union Lake area near
+      Union City. The disaster formed part of a wider severe-weather episode stretching
+      across the U.S. midsection.
+    key_data: []
+    details:
+      what_happened:
+        - "Storms and suspected tornadoes struck southern Michigan on March 6 into March 7, killing four people."
+        - "AP reported 12 injuries in the Union Lake area and additional injuries in Cass County."
+        - "The National Weather Service confirmed at least one EF3 tornado near Union City."
+        - "Homes were flattened or heavily damaged and debris searches continued on March 7."
+      why_it_matters:
+        - "The event showed the destructive force of early-season tornado activity in heavily populated rural communities."
+        - "Confirmed EF3 intensity and repeated impacts on the same area underscored infrastructure and shelter vulnerability."
+      uncertainty_notes:
+        - "Damage surveys and injury totals were still evolving as search operations continued."
+    actors:
+      primary:
+        - "Michigan authorities"
+        - "National Weather Service"
+      secondary:
+        - "Branch County Sheriff's Office"
+        - "Cass County Sheriff's Office"
+    entities:
+      people: []
+      organizations:
+        - name: "National Weather Service"
+          description: "U.S. federal weather agency"
+        - name: "Branch County Sheriff's Office"
+          description: "County law enforcement in Michigan"
+        - name: "Cass County Sheriff's Office"
+          description: "County law enforcement in Michigan"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Michigan"
+        - "Union City"
+        - "Union Lake"
+        - "Three Rivers"
+        - "Cass County"
+        - "Branch County"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: 12
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Homes were flattened or damaged, roads were blocked by debris and power outages affected residents."
+    classification:
+      event_type:
+        - "tornado"
+        - "severe-storm"
+        - "weather-disaster"
+      tags:
+        - "michigan"
+        - "tornadoes"
+        - "union-city"
+        - "ef3"
+        - "storm-damage"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/environment/tornadoes-kill-four-injure-more-than-dozen-rural-michigan-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [76]
+        - id: "src-007-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/severe-weather-storm-tornado-midwest-oklahoma-f4666951e5ef045520e839923b788cba"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [77]
+        - id: "src-007-c"
+          outlet: "National Weather Service"
+          url: "https://www.weather.gov/iwx/03062026_LowerMichiganTornadoes"
+          publication_date: "2026-03-07"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [78]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-008"
+    category: "Politics and elections"
+    subcategory: "parliamentary election count"
+    topics:
+      - "Nepal"
+      - "election"
+      - "party realignment"
+      - "2026 Nepalese general election"
+      - "parliamentary election count"
+    importance: 6
+    headline: "Nepal's upstart Rastriya Swatantra Party surges toward a landslide"
+    summary: >
+      Early counting from Nepal's parliamentary election showed the Rastriya Swatantra Party
+      (RSP), a young anti-establishment force associated with rapper-turned-politician
+      Balendra Shah, heading toward a major breakthrough. Reuters reported that by March 6-7
+      the party was leading in 100 of 137 seats counted and was on course for a majority in
+      the 275-seat lower house, while AP described the RSP as leading the early results in
+      Nepal's first national election since the 2025 uprising. Final certification was still
+      pending, but the scale of the lead pointed to one of the sharpest democratic
+      realignments in Nepal's post-monarchy era.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that the RSP was leading in 100 of 137 seats counted and was on course to win a lower-house majority."
+        - "AP reported that the party was leading the early results in the first national election since the 2025 uprising."
+        - "Balendra Shah, a former rapper and Kathmandu mayor, was positioned as the party's prime ministerial candidate."
+        - "The surge came at the expense of long-dominant parties including the Nepali Congress and the CPN-UML."
+      why_it_matters:
+        - "A strong RSP result could reduce Nepal's chronic coalition instability and reshape domestic governance."
+        - "The result also showed how protest energy had translated into electoral change rather than only street mobilisation."
+      uncertainty_notes:
+        - "Final seat totals were not yet certified on March 7."
+    actors:
+      primary:
+        - "Rastriya Swatantra Party"
+        - "Balendra Shah"
+        - "Election Commission Nepal"
+      secondary:
+        - "Nepali Congress"
+        - "CPN-UML"
+    entities:
+      people:
+        - name: "Balendra Shah"
+          role: "Rastriya Swatantra Party leader and former Mayor of Kathmandu"
+        - name: "Rabi Lamichhane"
+          role: "Founder of the Rastriya Swatantra Party"
+        - name: "K.P. Sharma Oli"
+          role: "Former Prime Minister of Nepal; CPN-UML chairman"
+      organizations:
+        - name: "Rastriya Swatantra Party"
+          description: "Nepali political party"
+        - name: "Election Commission Nepal"
+          description: "Nepal's electoral authority"
+        - name: "Nepali Congress"
+          description: "Nepali political party"
+        - name: "CPN-UML"
+          description: "Communist Party of Nepal (Unified Marxist–Leninist)"
+      states:
+        - "Nepal"
+    geography:
+      countries:
+        - "Nepal"
+      places:
+        - "Kathmandu"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "election"
+        - "vote-count"
+        - "party-system-shift"
+      tags:
+        - "nepal"
+        - "rsp"
+        - "balendra-shah"
+        - "election"
+        - "generational-shift"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Partial preliminary results in Nepal indicate that the Rastriya Swatantra Party (RSP) won 60 of 165 first-past-the-post seats, while also leading in 61 other consituencies. In Jhapa 5, RSP prime ministerial candidate Balen Shah defeats former prime minister K. P. Sharma Oli."
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/nepals-early-vote-count-puts-ex-rappers-party-ahead-2026-03-06"
+          publication_date: "2026-03-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [79]
+        - id: "src-008-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/nepal-parliament-election-results-balendra-shah-aac242077d2dd052e7e9bdd7c088ccc9"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [80]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-009"
+    category: "International relations"
+    subcategory: "hemispheric security summit"
+    topics:
+      - "United States"
+      - "Latin America"
+      - "drug cartels"
+      - "Shield of the Americas"
+      - "hemispheric security summit"
+      - "Argentina"
+    importance: 6
+    headline: "Trump launches 'Shield of the Americas' anti-cartel coalition in Miami"
+    summary: >
+      President Donald Trump welcomed Latin American and Caribbean leaders to Miami on March
+      7 to launch the "Shield of the Americas" coalition, a new regional security initiative
+      focused on drug cartels and organised crime. Reuters reported that the summit included
+      leaders such as Javier Milei of Argentina, Nayib Bukele of El Salvador, Daniel Noboa
+      of Ecuador and Chile's president-elect Jose Antonio Kast, and that Trump suggested the
+      United States could use missiles against cartel leaders if partners requested it. The
+      gathering highlighted a more militarised U.S. posture toward Latin America at the same
+      time Washington was managing war in the Middle East.
+    key_data: []
+    details:
+      what_happened:
+        - "Trump signed a proclamation launching the coalition at the Miami summit."
+        - "Reuters reported attendance by right-leaning leaders from Argentina, Chile, Ecuador, El Salvador and other countries."
+        - "Trump framed cartels as a primary reason for increasing U.S. involvement in Latin America."
+        - "The summit also served as a forum for broader U.S. warnings about hostile foreign influence in the Western Hemisphere."
+      why_it_matters:
+        - "The coalition signalled an expansion of hard-security language and tools in inter-American relations."
+        - "Its timing suggested Washington wanted visible hemispheric alignment while other crises strained U.S. attention."
+      uncertainty_notes:
+        - "The summit launched a political coalition, but the scope of concrete military or legal commitments remained unclear."
+    actors:
+      primary:
+        - "United States"
+        - "Donald Trump"
+      secondary:
+        - "Javier Milei"
+        - "Nayib Bukele"
+        - "Daniel Noboa"
+        - "Jose Antonio Kast"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Javier Milei"
+          role: "President of Argentina"
+        - name: "Nayib Bukele"
+          role: "President of El Salvador"
+        - name: "Daniel Noboa"
+          role: "President of Ecuador"
+        - name: "Jose Antonio Kast"
+          role: "Chilean president-elect"
+      organizations:
+        - name: "White House"
+          description: "Office of the U.S. president"
+        - name: "Shield of the Americas coalition"
+          description: "U.S.-led anti-cartel coalition launched in March 2026"
+      states:
+        - "United States"
+        - "Argentina"
+        - "Chile"
+        - "Ecuador"
+        - "El Salvador"
+    geography:
+      countries:
+        - "United States"
+        - "Argentina"
+        - "Chile"
+        - "Ecuador"
+        - "El Salvador"
+      places:
+        - "Miami"
+        - "Florida"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "summit"
+        - "security-coalition"
+        - "foreign-policy-initiative"
+      tags:
+        - "miami"
+        - "trump"
+        - "latin-america"
+        - "cartels"
+        - "shield-of-the-americas"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "United States president Donald Trump meets with leaders from twelve American countries for the launching of a new multinational military cooperation initiative called Shield of the Americas, led by special envoy Kristi Noem.."
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/us/days-after-iran-strikes-trump-hosts-latin-american-leaders-with-china-focus-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [81]
+        - id: "src-009-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/trump-announces-new-military-coalition-eradicate-cartels-western-hemisphere-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [82]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-07-022"
+    notes: "Two Reuters reports were used because one focused on the summit framing and one on the coalition launch."
+  - id: "evt-2026-03-07-010"
+    category: "Business and economy"
+    subcategory: "trade dispute"
+    topics:
+      - "Indonesia"
+      - "European Union"
+      - "WTO"
+      - "trade dispute"
+    importance: 4
+    headline: "Indonesia moves to seek WTO retaliation against the EU in palm-oil dispute"
+    summary: >
+      Indonesia said on March 7 that it would file a request at the World Trade Organization
+      to suspend trade concessions against the European Union after the bloc failed to
+      comply by deadline with rulings in the long-running palm-oil dispute. Reuters reported
+      that Trade Minister Budi Santoso said the first retaliation step would focus on trade
+      in goods, while leaving open the possibility of action in other sectors. The move
+      elevated a simmering regulatory conflict into a more overt trade confrontation between
+      Jakarta and Brussels.
+    key_data: []
+    details:
+      what_happened:
+        - "Indonesia said it would ask the WTO to authorise suspension of concessions against the EU."
+        - "Trade Minister Budi Santoso said the EU had not met the deadline to adjust policy or fully comply with the ruling."
+        - "The initial retaliation focus would be trade in goods."
+        - "Jakarta did not rule out extending retaliatory action to other sectors later."
+      why_it_matters:
+        - "The case affects a politically sensitive commodity for Indonesia and tests compliance with WTO dispute rulings."
+        - "Escalation in the dispute could add friction to broader EU-Southeast Asia trade relations."
+      uncertainty_notes:
+        - "The WTO process and any eventual retaliation timetable were still subject to legal and procedural steps."
+    actors:
+      primary:
+        - "Indonesia"
+        - "European Union"
+      secondary:
+        - "Budi Santoso"
+        - "World Trade Organization"
+    entities:
+      people:
+        - name: "Budi Santoso"
+          role: "Indonesian Minister of Trade"
+      organizations:
+        - name: "World Trade Organization"
+          description: "Intergovernmental trade organization"
+        - name: "Indonesia Trade Ministry"
+          description: "Ministry of Trade of Indonesia"
+        - name: "European Commission"
+          description: "Executive branch of the European Union"
+      states:
+        - "Indonesia"
+        - "European Union members"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Jakarta"
+        - "Geneva"
+        - "Brussels"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "trade-dispute"
+        - "wto-action"
+      tags:
+        - "indonesia"
+        - "eu"
+        - "palm-oil"
+        - "wto"
+        - "trade-retaliation"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/indonesia-file-suspension-concessions-against-eu-palm-oil-dispute-wto-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [83]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-011"
+    category: "Law and crime"
+    subcategory: "maritime enforcement"
+    topics:
+      - "Baltic Sea"
+      - "shipping"
+      - "false flag"
+      - "maritime enforcement"
+      - "Sweden"
+    importance: 4
+    headline: "Sweden says a seized Baltic cargo ship sailed under a false flag"
+    summary: >
+      Swedish authorities said on March 7 that the cargo ship Caffa, boarded in the Baltic
+      Sea a day earlier, had been sailing under a false flag and that one crew member had
+      been notified of suspected offences. Reuters reported that the vessel was initially
+      treated as stateless after raising questions over its registration, and that Swedish
+      officials said it had also appeared on a Ukrainian sanctions list. The case
+      highlighted ongoing Baltic security sensitivities around shipping ownership, sanctions
+      exposure and documentation fraud.
+    key_data: []
+    details:
+      what_happened:
+        - "The Swedish coast guard boarded the freighter Caffa in the Baltic Sea on March 6 because of uncertainty about its legal status."
+        - "On March 7, Swedish police said the vessel had been using a false flag."
+        - "One crew member was notified of suspected crimes linked to the case."
+        - "Officials said the vessel's ownership and insurance arrangements were unclear and that it appeared on a Ukrainian sanctions list."
+      why_it_matters:
+        - "The incident fed wider regional concern about opaque shipping activity in the Baltic during a period of heightened security scrutiny."
+        - "False-flag operation raises both legal and sanctions-enforcement questions."
+      uncertainty_notes:
+        - "The full set of alleged offences and the eventual legal outcome were not yet public."
+    actors:
+      primary:
+        - "Sweden"
+        - "Swedish coast guard"
+        - "Swedish police"
+      secondary:
+        - "crew of the Caffa"
+        - "Ukraine"
+    entities:
+      people: []
+      organizations:
+        - name: "Swedish Coast Guard"
+          description: "Swedish maritime enforcement agency"
+        - name: "Swedish Police"
+          description: "Police of Sweden"
+        - name: "Caffa"
+          description: "Cargo ship boarded by the Swedish coast guard"
+      states:
+        - "Sweden"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Sweden"
+      places:
+        - "Baltic Sea"
+        - "Trelleborg"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "ship-seizure"
+        - "sanctions-related-investigation"
+        - "maritime-law-enforcement"
+      tags:
+        - "baltic-sea"
+        - "sweden"
+        - "caffa"
+        - "false-flag"
+        - "shipping"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/swedish-coast-guard-boards-suspected-stateless-ship-baltic-sea-2026-03-06"
+          publication_date: "2026-03-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [84]
+        - id: "src-011-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/sweden-says-ship-seized-baltic-sea-had-false-flag-one-crew-member-notified-crime-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [85]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-012"
+    category: "Politics and elections"
+    subcategory: "civil-military governance"
+    topics:
+      - "China"
+      - "PLA"
+      - "anti-corruption"
+      - "civil-military governance"
+    importance: 5
+    headline: "Xi tells China's military to stay loyal to the Party and root out corruption"
+    summary: >
+      Chinese President Xi Jinping said on March 7 that the People's Liberation Army must
+      remain loyal to the Communist Party and intensify its anti-corruption drive, according
+      to Reuters and Xinhua. The remarks came during China's annual top political meetings
+      and against the backdrop of continuing elite-level purges that have affected the
+      military and wider party apparatus. While framed as party discipline, the speech also
+      underscored Xi's continuing effort to tighten political control over the armed forces.
+    key_data: []
+    details:
+      what_happened:
+        - "Xi said there was no place for corruption to hide in the military and that the anti-corruption fight must continue."
+        - "The comments were reported during the annual meetings of China's top political bodies."
+        - "Reuters linked the remarks to a broader wave of political and military purges."
+        - "Xinhua presented the speech as guidance on political loyalty, governance and military development."
+      why_it_matters:
+        - "Statements on political loyalty from Xi are significant because they signal priorities in party control of the armed forces."
+        - "The speech suggested that military discipline and purge politics remained active at the top of the Chinese system."
+      uncertainty_notes:
+        - "Public reporting did not specify new disciplinary actions announced on March 7 itself."
+    actors:
+      primary:
+        - "Xi Jinping"
+        - "Communist Party of China"
+        - "People's Liberation Army"
+      secondary:
+        - "Xinhua"
+        - "Chinese political leadership"
+    entities:
+      people:
+        - name: "Xi Jinping"
+          role: "President of China and General Secretary of the Chinese Communist Party"
+      organizations:
+        - name: "Communist Party of China"
+          description: "Ruling party of China"
+        - name: "People's Liberation Army"
+          description: "Armed forces of China"
+        - name: "Xinhua"
+          description: "Chinese state news agency"
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "leadership-speech"
+        - "anti-corruption-campaign"
+        - "civil-military-politics"
+      tags:
+        - "china"
+        - "xi-jinping"
+        - "pla"
+        - "corruption"
+        - "party-loyalty"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/chinas-xi-says-military-must-be-politically-loyal-root-out-corruption-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [86]
+        - id: "src-012-b"
+          outlet: "Xinhua"
+          url: "https://english.news.cn/20260307/97e13075458f42ad84d1257fc4449b45/c.html"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [87]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-013"
+    category: "Sports"
+    subcategory: "Paralympics"
+    topics:
+      - "Russia"
+      - "Paralympics"
+      - "Ukraine"
+      - "2026 Winter Paralympics"
+      - "Russia at the 2026 Winter Paralympics"
+      - "Italy"
+    importance: 4
+    headline: "Russian flag returns to a Games podium at the Milano Cortina Paralympics"
+    summary: >
+      Russia's flag was raised on a Games podium for the first time in a decade on March 7
+      after Russian athletes won bronze in the men's and women's standing downhill events at
+      the Milano Cortina Paralympics. Reuters said the International Paralympic Committee's
+      decision to lift the national-symbol ban for the Paralympics had already drawn
+      criticism, and AP reported that Ukrainian athletes and officials saw the move as part
+      of a broader push to restore Russian participation in global sport despite the war in
+      Ukraine. The medals therefore carried significance beyond sport itself, reopening a
+      contentious debate over sanctions, symbolism and wartime legitimacy.
+    key_data: []
+    details:
+      what_happened:
+        - "Varvara Voronchikhina and Aleksei Bugaev won bronze medals in the women's and men's downhill standing events."
+        - "Reuters reported that this was the first time in a decade that the Russian flag had been raised on a Games podium."
+        - "The IPC had kept the ban in place for the Winter Olympics but lifted it for the Paralympics."
+        - "AP reported strong objections from Ukrainian athletes and officials."
+      why_it_matters:
+        - "The event became a symbolic test case for whether Russian national symbols are returning to major international sport."
+        - "It sharpened tensions between sporting inclusion arguments and wartime sanction politics."
+      uncertainty_notes:
+        - "The broader consequences for Olympic or other federation policy remained unsettled."
+    actors:
+      primary:
+        - "International Paralympic Committee"
+        - "Russian athletes"
+      secondary:
+        - "Ukrainian athletes"
+        - "Volodymyr Zelenskiy"
+    entities:
+      people:
+        - name: "Varvara Voronchikhina"
+          role: "Russian Paralympic alpine skier"
+        - name: "Aleksei Bugaev"
+          role: "Russian Paralympic alpine skier"
+        - name: "Volodymyr Zelenskiy"
+          role: "President of Ukraine"
+      organizations:
+        - name: "International Paralympic Committee"
+          description: "Governing body of the Paralympic movement"
+      states:
+        - "Russia"
+        - "Ukraine"
+        - "Italy"
+    geography:
+      countries:
+        - "Italy"
+      places:
+        - "Cortina d'Ampezzo"
+        - "Belluno"
+        - "Milano Cortina Paralympics"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sporting-event"
+        - "sanctions-controversy"
+      tags:
+        - "paralympics"
+        - "russia"
+        - "ukraine"
+        - "ipc"
+        - "flag"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Russia wins their first Winter Paralympics medal since 2014 after Varvara Voronchikhina and Alexey Bugaev each won a bronze medal in para alpine skiing."
+      external:
+        - id: "src-013-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sports/russian-flag-returns-games-podium-with-two-downhill-bronzes-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [88]
+        - id: "src-013-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/ukraine-russia-paralympics-milan-cortina-22cfd8ccbc6c48454017cbb0085e65e8"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [89]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "clash with armed gangs"
+    topics:
+      - "Nigeria"
+      - "Katsina"
+      - "bandit violence"
+      - "Nigerian bandit conflict"
+      - "clash with armed gangs"
+    importance: 6
+    headline: "Nigerian army says 45 attackers were killed in Katsina clashes"
+    summary: >
+      Nigerian authorities said on March 7 that the army had killed 45 armed attackers in
+      clashes in Katsina state after a failed cattle-raiding attempt escalated into a larger
+      confrontation. Reuters reported that an army captain and two soldiers were also
+      killed, while AP said a Katsina official described the attackers as bandits who
+      returned in large numbers after an earlier failed theft. The incident showed the
+      continuing lethality of northwestern Nigeria's rural armed violence, where cattle
+      raids, mass kidnappings and insurgent-style attacks often overlap.
+    key_data: []
+    details:
+      what_happened:
+        - "The clash occurred in Katsina state's Danmusa area after an attempted cattle theft on March 5 was followed by a larger return attack on March 6."
+        - "Authorities said the army killed 45 attackers in the fighting."
+        - "Reuters reported that one army captain and two soldiers were also killed."
+        - "AP said the Katsina state government described the attackers as bandits seeking revenge after the failed theft."
+      why_it_matters:
+        - "The episode underscored the scale of organised armed violence in northwestern Nigeria outside the country's better-known northeastern insurgency theatre."
+        - "Cattle-rustling violence continues to destabilise rural communities and strain state security forces."
+      uncertainty_notes:
+        - "The casualty and attacker figures were based on official accounts and were not independently verified."
+        - "The Wikipedia portal bullet reports 45 killed; the deep-research report records 48."
+    actors:
+      primary:
+        - "Nigerian army"
+        - "armed gangs in Katsina"
+      secondary:
+        - "Katsina state government"
+    entities:
+      people:
+        - name: "Nasir Mua'zu"
+          role: "Katsina State commissioner for internal security"
+      organizations:
+        - name: "Nigerian army"
+          description: "Army of Nigeria"
+        - name: "Katsina state government"
+          description: "Government of Katsina State, Nigeria"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Katsina state"
+        - "Danmusa area"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 48
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-clash"
+        - "bandit-attack"
+        - "security-operation"
+      tags:
+        - "nigeria"
+        - "katsina"
+        - "bandits"
+        - "army"
+        - "cattle-theft"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 45 bandits and three military personnel are killed in a clash between Nigerian troops and armed bandits in Dan Musa, Katsina State, Nigeria."
+      external:
+        - id: "src-014-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/nigerian-army-kills-45-katsina-clash-2026-03-07"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [90]
+        - id: "src-014-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/nigeria-militants-katsina-army-8831792a02af5d04d70706fb66776442"
+          publication_date: "2026-03-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [91]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-07-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025–2026 Iran–United States negotiations"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2025–2026 Iran–United States negotiations"
+    importance: 4
+    headline: "Iran's ambassador to Russia says Tehran is ready for 'normal' talks"
+    summary: >
+      Iranian ambassador to Russia Kazem Jalali says that Iran is ready for normal talks but
+      also rejects the current position by the United States.
+    key_data: []
+    details:
+      what_happened:
+        - "Iranian ambassador to Russia Kazem Jalali says that Iran is ready for normal talks but also rejects the current position by the United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Kazem Jalali"
+      secondary: []
+    entities:
+      people:
+        - name: "Kazem Jalali"
+          role: "Iranian ambassador to Russia"
+      organizations: []
+      states:
+        - "Russia"
+        - "Iran"
+        - "United States"
+    geography:
+      countries:
+        - "Russia"
+        - "Iran"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2025-2026-iran-united-states-negotiations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iranian ambassador to Russia Kazem Jalali says that Iran is ready for normal talks but also rejects the current position by the United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by TASS per the Wikipedia portal."
+  - id: "evt-2026-03-07-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on the United Arab Emirates"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on the United Arab Emirates"
+    importance: 6
+    headline: "Dubai International Airport suspends operations after interception nearby"
+    summary: >
+      Dubai International Airport suspends operations after an aerial interception near the
+      airport during Iranian drone and missile attacks in the region. Airport operations
+      later partially resume as the United Arab Emirates (UAE) continues responding to the
+      aerial threats.
+    key_data: []
+    details:
+      what_happened:
+        - "Dubai International Airport suspends operations after an aerial interception near the airport during Iranian drone and missile attacks in the region. Airport operations later partially resume as the United Arab Emirates (UAE) continues responding to the aerial threats."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "United Arab Emirates"
+      places:
+        - "Dubai International Airport"
+        - "Dubai"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-the-united-arab-emirates"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Dubai International Airport suspends operations after an aerial interception near the airport during Iranian drone and missile attacks in the region. Airport operations later partially resume as the United Arab Emirates (UAE) continues responding to the aerial threats."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Vanguard and AFP via The Daily Star per the Wikipedia portal."
+  - id: "evt-2026-03-07-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Hezbollah–Israel war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Hezbollah–Israel war"
+    importance: 5
+    headline: "Israeli strikes in southern Lebanon kill eight, Lebanese health ministry says"
+    summary: >
+      The Lebanese health ministry reports that Israeli airstrikes on multiple locations in
+      southern Lebanon killed eight people, including six in Kherbet Selem and two in Kfar
+      Reman.
+    key_data: []
+    details:
+      what_happened:
+        - "The Lebanese health ministry reports that Israeli airstrikes on multiple locations in southern Lebanon killed eight people, including six in Kherbet Selem and two in Kfar Reman."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Lebanon"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Israel"
+      places:
+        - "Southern Lebanon"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 8
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-hezbollah-israel-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Lebanese health ministry reports that Israeli airstrikes on multiple locations in southern Lebanon killed eight people, including six in Kherbet Selem and two in Kfar Reman."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-07-002"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Middle East Eye per the Wikipedia portal."
+  - id: "evt-2026-03-07-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "Insurgency in Khyber Pakhtunkhwa"
+    topics:
+      - "Insurgency in Khyber Pakhtunkhwa"
+    importance: 5
+    headline: "Two bombings targeting police in Khyber Pakhtunkhwa kill at least four"
+    summary: >
+      At least four people are killed, including two policemen, and more than 35 others are
+      injured, including three seriously, in two separate bombings targeting a police patrol
+      van and a market in Wana and Lakki Marwat District, Khyber Pakhtunkhwa, Pakistan.
+    key_data: []
+    details:
+      what_happened:
+        - "At least four people are killed, including two policemen, and more than 35 others are injured, including three seriously, in two separate bombings targeting a police patrol van and a market in Wana and Lakki Marwat District, Khyber Pakhtunkhwa, Pakistan."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places:
+        - "Khyber Pakhtunkhwa"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: 35
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "bombing"
+      tags:
+        - "insurgency-in-khyber-pakhtunkhwa"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least four people are killed, including two policemen, and more than 35 others are injured, including three seriously, in two separate bombings targeting a police patrol van and a market in Wana and Lakki Marwat District, Khyber Pakhtunkhwa, Pakistan."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Arab News per the Wikipedia portal."
+  - id: "evt-2026-03-07-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "Internal conflict in Peru"
+    topics:
+      - "Internal conflict in Peru"
+    importance: 5
+    headline: "Nightclub bombing in Trujillo, Peru, injures at least 33"
+    summary: >
+      At least 33 people are injured, including three minors and five others seriously, in a
+      bombing at a nightclub in Trujillo, La Libertad Department, Peru. No group has yet
+      claimed responsibility.
+    key_data: []
+    details:
+      what_happened:
+        - "At least 33 people are injured, including three minors and five others seriously, in a bombing at a nightclub in Trujillo, La Libertad Department, Peru. No group has yet claimed responsibility."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Peru"
+    geography:
+      countries:
+        - "Peru"
+      places:
+        - "Trujillo"
+        - "La Libertad Department"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 33
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "bombing"
+      tags:
+        - "internal-conflict-in-peru"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 33 people are injured, including three minors and five others seriously, in a bombing at a nightclub in Trujillo, La Libertad Department, Peru. No group has yet claimed responsibility."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-07-020"
+    category: "Business and economy"
+    subcategory: "2026 Strait of Hormuz crisis, Economic impact of the 2026 Iran war"
+    topics:
+      - "2026 Strait of Hormuz crisis, Economic impact of the 2026 Iran war"
+    importance: 6
+    headline: "Kuwait Petroleum Corporation cuts crude output and refining as a precaution"
+    summary: >
+      The Kuwait Petroleum Corporation announces a precautionary reduction in crude oil
+      production and refining operations in response to Iranian attacks and threats to
+      shipping through the Strait of Hormuz.
+    key_data: []
+    details:
+      what_happened:
+        - "The Kuwait Petroleum Corporation announces a precautionary reduction in crude oil production and refining operations in response to Iranian attacks and threats to shipping through the Strait of Hormuz."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Kuwait Petroleum Corporation"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Kuwait Petroleum Corporation"
+          description: "Kuwait's state oil company"
+      states:
+        - "Kuwait"
+    geography:
+      countries:
+        - "Kuwait"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "2026-strait-of-hormuz-crisis-economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Kuwait Petroleum Corporation announces a precautionary reduction in crude oil production and refining operations in response to Iranian attacks and threats to shipping through the Strait of Hormuz."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-07-005"
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Al-Ahram per the Wikipedia portal."
+  - id: "evt-2026-03-07-021"
+    category: "Health and environment"
+    subcategory: ""
+    topics: []
+    importance: 3
+    headline: "Sudan launches hepatitis B vaccination campaign for newborns"
+    summary: >
+      Sudan's health ministry announces that the country will launch a hepatitis B vaccine
+      campaign for newborns in 10 states.
+    key_data: []
+    details:
+      what_happened:
+        - "Sudan's health ministry announces that the country will launch a hepatitis B vaccine campaign for newborns in 10 states."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "health-and-environment"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Sudan's health ministry announces that the country will launch a hepatitis B vaccine campaign for newborns in 10 states."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Sudan Tribune per the Wikipedia portal."
+  - id: "evt-2026-03-07-022"
+    category: "International relations"
+    subcategory: "United States–Venezuela relations"
+    topics:
+      - "United States–Venezuela relations"
+    importance: 6
+    headline: "Trump says U.S. formally recognizes Delcy Rodríguez's government in Venezuela"
+    summary: >
+      At the Shield of the Americas summit, U.S. president Trump says that the United States
+      formally recognizes the Venezuelan government of Delcy Rodríguez.
+    key_data: []
+    details:
+      what_happened:
+        - "At the Shield of the Americas summit, U.S. president Trump says that the United States formally recognizes the Venezuelan government of Delcy Rodríguez."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Donald Trump"
+        - "Delcy Rodríguez"
+      secondary: []
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Delcy Rodríguez"
+          role: "Acting president of Venezuela"
+      organizations: []
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "United States"
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "united-states-venezuela-relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At the Shield of the Americas summit, U.S. president Trump says that the United States formally recognizes the Venezuelan government of Delcy Rodríguez."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-07-009"
+    notes: "Portal-derived event with no deep-research coverage; reported by Euronews per the Wikipedia portal."
+  - id: "evt-2026-03-07-023"
+    category: "Law and crime"
+    subcategory: "Soham murders"
+    topics:
+      - "Soham murders"
+    importance: 3
+    headline: "Child murderer Ian Huntley dies after being attacked by a fellow inmate"
+    summary: >
+      Child murderer Ian Huntley dies in a hospital nine days after being attacked by a
+      fellow inmate at HM Prison Frankland in County Durham, England, United Kingdom.
+    key_data: []
+    details:
+      what_happened:
+        - "Child murderer Ian Huntley dies in a hospital nine days after being attacked by a fellow inmate at HM Prison Frankland in County Durham, England, United Kingdom."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ian Huntley"
+      secondary: []
+    entities:
+      people:
+        - name: "Ian Huntley"
+          role: "Convicted murderer (Soham murders)"
+      organizations: []
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places:
+        - "HM Prison Frankland"
+        - "County Durham"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "death"
+      tags:
+        - "soham-murders"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Child murderer Ian Huntley dies in a hospital nine days after being attacked by a fellow inmate at HM Prison Frankland in County Durham, England, United Kingdom."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-07-024"
+    category: "Law and crime"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Explosive device detonated at protest outside NYC mayor Zohran Mamdani's residence"
+    summary: >
+      An improvised explosive device is detonated during a protest outside the residence of
+      mayor Zohran Mamdani in New York City, United States.
+    key_data: []
+    details:
+      what_happened:
+        - "An improvised explosive device is detonated during a protest outside the residence of mayor Zohran Mamdani in New York City, United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Zohran Mamdani"
+      secondary: []
+    entities:
+      people:
+        - name: "Zohran Mamdani"
+          role: "Mayor of New York City"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "New York City"
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "protest"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An improvised explosive device is detonated during a protest outside the residence of mayor Zohran Mamdani in New York City, United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by NBC News per the Wikipedia portal."
+  - id: "evt-2026-03-07-025"
+    category: "Politics and elections"
+    subcategory: ""
+    topics: []
+    importance: 6
+    headline: "Guinea dissolves 40 political parties, including the main opposition groups"
+    summary: >
+      Guinea dissolves 40 political parties by decree, including the three main opposition
+      groups—the Union of Democratic Forces of Guinea, the Rally of the Guinean People, and
+      the Union of Republican Forces—for failing to meet legal requirements, and orders the
+      seizure of their assets.
+    key_data: []
+    details:
+      what_happened:
+        - "Guinea dissolves 40 political parties by decree, including the three main opposition groups—the Union of Democratic Forces of Guinea, the Rally of the Guinean People, and the Union of Republican Forces—for failing to meet legal requirements, and orders the seizure of their assets."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Guinea"
+    geography:
+      countries:
+        - "Guinea"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-07"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Guinea dissolves 40 political parties by decree, including the three main opposition groups—the Union of Democratic Forces of Guinea, the Rally of the Guinean People, and the Union of Republican Forces—for failing to meet legal requirements, and orders the seizure of their assets."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+
+strategic_conclusion: >
+  March 7 showed both escalation and first signs of hesitation in the Iran war: President
+  Trump threatened broader strikes while Iran's president apologized to Gulf neighbours and
+  said attacks on them would pause, even as rockets targeted the U.S. embassy in Baghdad and
+  Dubai's airport halted operations. Energy-policy responses in Washington, Brussels and
+  Kuwait reflected the war's economic reach. Beyond the Middle East, Russia's barrage on
+  Kharkiv, deadly floods in Nairobi, the RSP's lead in Nepal's election, the U.S.-led Shield
+  of the Americas launch and Guinea's dissolution of opposition parties were the day's other
+  major developments.
+
+works_cited:
+  - id: 1
+    title: "Iran: Unlawful Strikes Across Gulf Endanger Civilians"
+    outlet: "Human Rights Watch"
+    url: "https://www.hrw.org/news/2026/03/17/iran-unlawful-strikes-across-gulf-endanger-civilians"
+    accessed: "2026-03-17"
+  - id: 2
+    title: "Fears of a Global Energy Crisis Rise as Iran Keeps Stranglehold on Shipping and Hits Dubai Airport"
+    outlet: "thenationalherald.com"
+    url: "https://www.thenationalherald.com/fears-of-a-global-energy-crisis-rise-as-iran-keeps-stranglehold-on-shipping-and-hits-dubai-airport"
+    accessed: "2026-03-17"
+  - id: 3
+    title: "Iran targets ships, Dubai airport and oil facilities as economic concerns mount"
+    outlet: "PBS News"
+    url: "https://www.pbs.org/newshour/world/iran-targets-commercial-ships-dubai-airport-and-oil-facilities-as-concerns-grow-over-global-energy"
+    accessed: "2026-03-17"
+  - id: 4
+    title: "2026 March 07 BBC One minute World News"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=dKEvziBPDpw"
+    accessed: "2026-03-17"
+  - id: 5
+    title: "Early Edition: March 17, 2026"
+    outlet: "Just Security"
+    url: "https://www.justsecurity.org/134160/early-edition-march-17-2026"
+    accessed: "2026-03-17"
+  - id: 6
+    title: "ABC World News Tonight with David Muir Full Broadcast - March 10, 2026"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=pgwcaQen0xc"
+    accessed: "2026-03-17"
+  - id: 7
+    title: "5 Big News Stories Overnight"
+    outlet: "Saturday March 7, 2026 | Go Local ..."
+    url: "https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-march-7-2026"
+    accessed: "2026-03-17"
+  - id: 8
+    title: "Middle East: All Parties to the Conflict Must Refrain from Unlawful ..."
+    outlet: "amnestyusa.org"
+    url: "https://www.amnestyusa.org/press-releases/middle-east-all-parties-to-the-conflict-must-refrain-from-unlawful-attacks-on-energy-infrastructure"
+    accessed: "2026-03-17"
+  - id: 9
+    title: "Drone strike sparks huge fire near Dubai airport; flights suspended, traffic routes closed: 10 updates"
+    outlet: "Hindustan Times"
+    url: "https://www.hindustantimes.com/world-news/drone-strike-sparks-huge-fire-near-dubai-airport-flights-suspended-traffic-routes-closed-10-updates-101773633032113.html"
+    accessed: "2026-03-17"
+  - id: 10
+    title: "Saudi Arabia intercepts 24 drones targeting Eastern Province and Shaybah oil field"
+    outlet: "Al Arabiya"
+    url: "https://english.alarabiya.net/News/saudi-arabia/2026/03/12/saudi-defense-ministry-says-intercepted-drones-headed-to-shaybah-oil-field"
+    accessed: "2026-03-17"
+  - id: 11
+    title: "Saudi military downs drones targeting Shaybah oil field in eastern region"
+    outlet: "aninews.in"
+    url: "https://www.aninews.in/news/world/middle-east/saudi-military-downs-drones-targeting-shaybah-oil-field-in-eastern-region20260312080023"
+    accessed: "2026-03-17"
+  - id: 12
+    title: "Iran targets Gulf energy installations as oil prices surge"
+    outlet: "The Hindu"
+    url: "https://www.thehindu.com/news/international/bahrains-state-oil-company-declares-force-majeure-on-its-shipments-after-iran-attack/article70721442.ece"
+    accessed: "2026-03-17"
+  - id: 13
+    title: "Bahrain's Bapco Energies declares force majeure after Iran attack on refinery"
+    outlet: "Iran International"
+    url: "https://www.iranintl.com/en/202603090204"
+    accessed: "2026-03-17"
+  - id: 14
+    title: "2026 Iranian strikes on Bahrain"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Bahrain"
+    accessed: "2026-03-17"
+  - id: 15
+    title: "News from March 7–March 13, 2026"
+    outlet: "Dictionary.com"
+    url: "https://www.dictionary.com/articles/news-from-march-7-march-13-2026"
+    accessed: "2026-03-17"
+  - id: 16
+    title: "Force majeure explained: Why Gulf countries are invoking it amid Iran vs US-Israel war"
+    outlet: "The Times of India"
+    url: "https://timesofindia.indiatimes.com/world/middle-east/force-majeure-explained-why-gulf-countries-are-invoking-it-amid-iran-vs-us-israel-war/articleshow/129580267.cms"
+    accessed: "2026-03-17"
+  - id: 17
+    title: "LIVE UPDATES: Conflict in the Middle East (March 7, 2026\\)"
+    outlet: "GMA ..."
+    url: "https://www.gmanetwork.com/news/topstories/nation/979085/live-updates-conflict-in-the-middle-east-march-7-2026/story"
+    accessed: "2026-03-17"
+  - id: 18
+    title: "Putin's actions in Iran demand a U.S. response"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/opinions/2026/03/10/putin-iran-partnership-killing-americans"
+    accessed: "2026-03-17"
+  - id: 19
+    title: "I've seen several types of warfare. This is the worst."
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/opinions/2026/03/16/iran-drone-warfare-military-ukraine"
+    accessed: "2026-03-17"
+  - id: 20
+    title: "After Iran assault, Russians say U.S. can't be trusted in Ukraine talks"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/world/2026/03/11/russia-ukraine-iran-trump-negotiations-trust"
+    accessed: "2026-03-17"
+  - id: 21
+    title: "Spotlight on Terrorism: Hezbollah Lebanon (March 2-9, 2026)"
+    outlet: "terrorism-info.org.il"
+    url: "https://www.terrorism-info.org.il/en/spotlight-on-terrorism-hezbollah-lebanon-march-2-9-2026"
+    accessed: "2026-03-17"
+  - id: 22
+    title: "Israel kills dozens in Lebanon after failed mission to find pilot's remains"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/mar/07/israel-strikes-eastern-lebanon-killing-dozens-after-raid-to-recover-idf-pilots-remains-fails"
+    accessed: "2026-03-17"
+  - id: 23
+    title: "Israel says commando raid deep in Lebanon failed to find remains of Ron Arad"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/reported-israeli-commando-raid-deep-in-lebanon-said-aimed-at-recovering-remains-of-ron-arad"
+    accessed: "2026-03-17"
+  - id: 24
+    title: "Minority condemns attack on Ghanaian peacekeepers in Lebanon, demands full investigation"
+    outlet: "Ghana Web"
+    url: "https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Minority-condemns-attack-on-Ghanaian-peacekeepers-in-Lebanon-demands-full-investigation-2025353"
+    accessed: "2026-03-17"
+  - id: 25
+    title: "US–Israel–Iran Conflict: 5 Ghanaian Peacekeepers Wounded in Lebanon Crossfire | Channel One News"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=yaiQMDF4Lq8"
+    accessed: "2026-03-17"
+  - id: 26
+    title: "Ghana peacekeeping battalion hit by missile attacks in Lebanon, Ghana army says"
+    outlet: "The Hindu"
+    url: "https://www.thehindu.com/news/international/ghana-peacekeeping-battalion-hit-by-missile-attacks-in-lebanon-ghana-army-says/article70713702.ece"
+    accessed: "2026-03-17"
+  - id: 27
+    title: "Lebanon 'dragged back into turmoil', UN envoy warns"
+    outlet: "United Nations Peacekeeping"
+    url: "https://peacekeeping.un.org/en/lebanon-dragged-back-turmoil-un-envoy-warns"
+    accessed: "2026-03-17"
+  - id: 28
+    title: "Deepening Middle East Conflict Displaces Millions; Threatens Water And Air Quality"
+    outlet: "healthpolicy-watch.news"
+    url: "https://healthpolicy-watch.news/deepening-middle-east-conflict-displaces-millions-also-threatening-water-and-air-quality"
+    accessed: "2026-03-17"
+  - id: 29
+    title: "WFP, Lebanon launch emergency cash assistance program for families affected by conflict"
+    outlet: "timeskuwait.com"
+    url: "https://timeskuwait.com/wfp-lebanon-launch-emergency-cash-assistance-program-for-families-affected-by-conflict"
+    accessed: "2026-03-17"
+  - id: 30
+    title: "News releases"
+    outlet: "World Food Programme"
+    url: "https://www.wfp.org/news"
+    accessed: "2026-03-17"
+  - id: 31
+    title: "WFP projects food insecurity could reach record levels as a result of ..."
+    outlet: "wfp.org"
+    url: "https://www.wfp.org/news/wfp-projects-food-insecurity-could-reach-record-levels-result-middle-east-escalation"
+    accessed: "2026-03-17"
+  - id: 32
+    title: "The shield of Monroism: The Angry Tide and the neo-colonial order ..."
+    outlet: "peoplesdispatch.org"
+    url: "https://peoplesdispatch.org/2026/03/17/the-shield-of-monroism-the-angry-tide-and-the-neo-colonial-order-in-latin-america"
+    accessed: "2026-03-17"
+  - id: 33
+    title: "The Pentagon Wants to Shut Anthropic Down for Being a “RADICAL ..."
+    outlet: "irinsider.org"
+    url: "https://www.irinsider.org/north-america-2/8y22avisirw1ty0w6avq6ufhs3qmpn"
+    accessed: "2026-03-17"
+  - id: 34
+    title: "Trump team applying pressure to media: Tell the war's story the way we see it"
+    outlet: "ksat.com"
+    url: "https://www.ksat.com/business/2026/03/17/trump-team-applying-pressure-to-media-tell-the-wars-story-the-way-we-see-it"
+    accessed: "2026-03-17"
+  - id: 35
+    title: "In Nepal, Gen Z Gets a Victory—and the Country May, Too"
+    outlet: "Council on Foreign Relations"
+    url: "https://www.cfr.org/articles/in-nepal-gen-z-gets-a-victory-and-the-country-may-too"
+    accessed: "2026-03-17"
+  - id: 36
+    title: "Nepal ex-rapper’s party wins election in landslide after Gen Z protests"
+    outlet: "ddnews.gov.in"
+    url: "https://ddnews.gov.in/en/nepal-ex-rappers-party-wins-election-in-landslide-after-gen-z-protests"
+    accessed: "2026-03-17"
+  - id: 37
+    title: "2026 Nepalese general election"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Nepalese_general_election"
+    accessed: "2026-03-17"
+  - id: 38
+    title: "RSP sweeps Nepal elections with historic majority, ex-rapper Balen Shah to become PM months after deadly Gen Z protests"
+    outlet: "Mint"
+    url: "https://www.livemint.com/politics/rsp-sweeps-nepal-elections-with-historic-majority-ex-rapper-balen-shah-to-become-pm-months-after-deadly-gen-z-protests-11773373166237.html"
+    accessed: "2026-03-17"
+  - id: 39
+    title: "Nepal votes for change as new political force sweeps election"
+    outlet: "Christian Daily International"
+    url: "https://www.christiandaily.com/news/nepal-votes-for-change-as-new-political-force-sweeps-election"
+    accessed: "2026-03-17"
+  - id: 40
+    title: "Former rapper's fledgling political party sweeps Nepal’s first post-revolt election"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/nepal-election-parliament-result-landslide-2cf0332dcc8f56e313c27e846b8cbed5"
+    accessed: "2026-03-17"
+  - id: 41
+    title: "As Nepal’s new PM, Balendra Shah will have to restore the state’s credibility"
+    outlet: "The Indian Express"
+    url: "https://indianexpress.com/article/opinion/columns/nepal-election-2026-balen-shah-rsp-victory-restore-credibility-10576924"
+    accessed: "2026-03-17"
+  - id: 42
+    title: "Top News Headlines In Philippines, Singapore & Thailand : March 7, 2026"
+    outlet: "BERNAMA"
+    url: "https://asean.bernama.com/news.php?id=2531442"
+    accessed: "2026-03-17"
+  - id: 43
+    title: "Royal Gazette publishes order banning fuel and LPG exports"
+    outlet: "Nation Thailand"
+    url: "https://www.nationthailand.com/blogs/news/politics/40063417"
+    accessed: "2026-03-17"
+  - id: 44
+    title: "Thailand Implements Comprehensive Ban on Petroleum Product Exports and Activates Emergency Energy Mechanism"
+    outlet: "ChemNet"
+    url: "https://news.chemnet.com/news-2667.html"
+    accessed: "2026-03-17"
+  - id: 45
+    title: "Thailand bans fuel exports amid Mideast conflict"
+    outlet: "ICIS"
+    url: "https://www.icis.com/explore/resources/news/2026/03/04/11185127/thailand-bans-fuel-exports-amid-mideast-conflict"
+    accessed: "2026-03-17"
+  - id: 46
+    title: "Vietnam braces for flight cuts from April after China, Thailand ban jet fuel exports"
+    outlet: "WHTC"
+    url: "https://whtc.com/2026/03/16/vietnam-braces-for-flight-cuts-from-april-after-china-thailand-ban-jet-fuel-exports"
+    accessed: "2026-03-17"
+  - id: 47
+    title: "Trump-Xi summit delayed as U.S. president pushes China to help open Hormuz"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/national-security/2026/03/16/trump-xi-summit-delayed-iran-hormuz-shipping"
+    accessed: "2026-03-17"
+  - id: 48
+    title: "Trump pressures NATO, China over Iran's closure of key waterway"
+    outlet: "thestandard.com.hk"
+    url: "https://www.thestandard.com.hk/world/article/326802/Trump-pressures-NATO-China-over-Irans-closure-of-key-waterway"
+    accessed: "2026-03-17"
+  - id: 49
+    title: "Trump call for Chinese warships hits sensitive topic for Xi"
+    outlet: "The Japan Times"
+    url: "https://www.japantimes.co.jp/news/2026/03/17/world/politics/trump-chinese-warships-xi"
+    accessed: "2026-03-17"
+  - id: 50
+    title: "Kyodo News Digest: March 17, 2026"
+    outlet: "Kyodo News"
+    url: "https://english.kyodonews.net/articles/-/72422"
+    accessed: "2026-03-17"
+  - id: 51
+    title: "Trump renews calls on Korea, China, Japan, others to help keep Strait of Hormuz open"
+    outlet: "koreajoongangdaily.joins.com"
+    url: "https://koreajoongangdaily.joins.com/news/2026-03-17/national/defense/Trump-renews-calls-on-Korea-China-Japan-others-to-help-keep-Strait-of-Hormuz-open/2546310"
+    accessed: "2026-03-17"
+  - id: 52
+    title: "Kenya floods: Death toll rises to 66 as rains pound country for second week"
+    outlet: "pulse.co.ke"
+    url: "https://www.pulse.co.ke/story/kenya-floods-death-toll-rises-to-66-as-rains-continue-to-pound-nairobi-other-counties-2026031515175613517"
+    accessed: "2026-03-17"
+  - id: 53
+    title: "accessed March 17, 2026"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Kenya_floods#:~:text=In%20early%20March%202026%2C%20flash,away%20vehicles%20and%20stranding%20motorists"
+    accessed: "2026-03-17"
+  - id: 54
+    title: "2026 Kenya floods"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Kenya_floods"
+    accessed: "2026-03-17"
+  - id: 55
+    title: "Death toll from Kenya flooding rises to 71"
+    outlet: "Xinhua"
+    url: "https://english.news.cn/20260317/6dcd09d2156f43a4948908b591c00a17/c.html"
+    accessed: "2026-03-17"
+  - id: 56
+    title: "NPS reports 71 flood deaths as MET warns of intensifying long rains"
+    outlet: "Capital FM"
+    url: "https://www.capitalfm.co.ke/news/2026/03/kenya-floods-71-deaths-nairobi-highest-toll"
+    accessed: "2026-03-17"
+  - id: 57
+    title: "2026 March 07 BBC 2-minute World News Audio"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=dqmQ43ZvLeM"
+    accessed: "2026-03-17"
+  - id: 58
+    title: "Tracey Emin : BBCNEWS : March 7, 2026 1:30pm-2:01pm GMT ..."
+    outlet: "Internet Archive"
+    url: "https://archive.org/details/BBCNEWS_20260307_133000_Tracey_Emin"
+    accessed: "2026-03-17"
+  - id: 59
+    title: "Two marsupials thought extinct for 6,000 years found alive in Indonesian Papua"
+    outlet: "Mongabay"
+    url: "https://news.mongabay.com/short-article/2026/03/two-marsupials-thought-extinct-for-6000-years-found-alive-in-indonesian-papua"
+    accessed: "2026-03-17"
+  - id: 60
+    title: "Two Marsupials Re-emerge in New Guinea Rainforests After Being ..."
+    outlet: "discovermagazine.com"
+    url: "https://www.discovermagazine.com/two-marsupials-re-emerge-in-new-guinea-rainforests-after-being-considered-to-be-extinct-for-6-000-years-48795"
+    accessed: "2026-03-17"
+  - id: 61
+    title: "Weird-Looking Marsupial Found Alive After 6,000 Years of Alleged 'Extinction'"
+    outlet: "Gizmodo"
+    url: "https://gizmodo.com/weird-looking-marsupial-found-alive-after-6000-years-of-alleged-extinction-2000730683"
+    accessed: "2026-03-17"
+  - id: 62
+    title: "Marsupials thought extinct for 6000 years rediscovered alive in remote rainforest"
+    outlet: "The Independent"
+    url: "https://www.independent.co.uk/asia/southeast-asia/marsupials-extinct-new-guinea-tous-b2933259.html"
+    accessed: "2026-03-17"
+  - id: 63
+    title: "Iran war enters second week trump demands unconditional surrender"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/iran-war-enters-second-week-trump-demands-unconditional-surrender-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 64
+    title: "Trump says iran will be hit very hard saturday"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/trump-says-iran-will-be-hit-very-hard-saturday-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 65
+    title: "Saudi has told iran not attack it warns possible retaliation sources say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/saudi-has-told-iran-not-attack-it-warns-possible-retaliation-sources-say-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 66
+    title: "Lebanon says least 16 dead israeli strikes eastern town"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/lebanon-says-least-16-dead-israeli-strikes-eastern-town-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 67
+    title: "Lebanon israel hezbollah ron arad nabi chit"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/lebanon-israel-hezbollah-ron-arad-nabi-chit-9054b777cb2d853e9a58cd65a71adb12"
+    accessed: "2026-03-07"
+  - id: 68
+    title: "Katyusha rockets target us embassy baghdad security sources say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/katyusha-rockets-target-us-embassy-baghdad-security-sources-say-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 69
+    title: "Iran war israel trump 03 07 2026"
+    outlet: "Associated Press"
+    url: "https://apnews.com/live/iran-war-israel-trump-03-07-2026"
+    accessed: "2026-03-07"
+  - id: 70
+    title: "Russian strike kills seven including two children ukraines kharkiv governor says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/russian-strike-kills-seven-including-two-children-ukraines-kharkiv-governor-says-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 71
+    title: "Russia ukraine war kharkiv"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/russia-ukraine-war-kharkiv-f555c370a7439a41393e74a6e603db43"
+    accessed: "2026-03-07"
+  - id: 72
+    title: "White house seeks bolder action energy prices amid iran conflict"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/white-house-seeks-bolder-action-energy-prices-amid-iran-conflict-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 73
+    title: "Eu looks soften energy bill pressures industry document shows"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/boards-policy-regulation/eu-looks-soften-energy-bill-pressures-industry-document-shows-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 74
+    title: "Iran war oil gas"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/iran-war-oil-gas-02339048caa3fe1f08a198eb9224de2b"
+    accessed: "2026-03-07"
+  - id: 75
+    title: "Flash floods nairobi kill 10 disrupt flights major airport"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sustainability/climate-energy/flash-floods-nairobi-kill-10-disrupt-flights-major-airport-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 76
+    title: "Tornadoes kill four injure more than dozen rural michigan"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/environment/tornadoes-kill-four-injure-more-than-dozen-rural-michigan-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 77
+    title: "Severe weather storm tornado midwest oklahoma"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/severe-weather-storm-tornado-midwest-oklahoma-f4666951e5ef045520e839923b788cba"
+    accessed: "2026-03-07"
+  - id: 78
+    title: "National Weather Service report"
+    outlet: "National Weather Service"
+    url: "https://www.weather.gov/iwx/03062026_LowerMichiganTornadoes"
+    accessed: "2026-03-07"
+  - id: 79
+    title: "Nepals early vote count puts ex rappers party ahead"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/nepals-early-vote-count-puts-ex-rappers-party-ahead-2026-03-06"
+    accessed: "2026-03-06"
+  - id: 80
+    title: "Nepal parliament election results balendra shah"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/nepal-parliament-election-results-balendra-shah-aac242077d2dd052e7e9bdd7c088ccc9"
+    accessed: "2026-03-07"
+  - id: 81
+    title: "Days after iran strikes trump hosts latin american leaders with china focus"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/us/days-after-iran-strikes-trump-hosts-latin-american-leaders-with-china-focus-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 82
+    title: "Trump announces new military coalition eradicate cartels western hemisphere"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/trump-announces-new-military-coalition-eradicate-cartels-western-hemisphere-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 83
+    title: "Indonesia file suspension concessions against eu palm oil dispute wto"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/indonesia-file-suspension-concessions-against-eu-palm-oil-dispute-wto-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 84
+    title: "Swedish coast guard boards suspected stateless ship baltic sea"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/swedish-coast-guard-boards-suspected-stateless-ship-baltic-sea-2026-03-06"
+    accessed: "2026-03-06"
+  - id: 85
+    title: "Sweden says ship seized baltic sea had false flag one crew member notified crime"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/sweden-says-ship-seized-baltic-sea-had-false-flag-one-crew-member-notified-crime-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 86
+    title: "Chinas xi says military must be politically loyal root out corruption"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/chinas-xi-says-military-must-be-politically-loyal-root-out-corruption-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 87
+    title: "Xinhua report"
+    outlet: "Xinhua"
+    url: "https://english.news.cn/20260307/97e13075458f42ad84d1257fc4449b45/c.html"
+    accessed: "2026-03-07"
+  - id: 88
+    title: "Russian flag returns games podium with two downhill bronzes"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sports/russian-flag-returns-games-podium-with-two-downhill-bronzes-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 89
+    title: "Ukraine russia paralympics milan cortina"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ukraine-russia-paralympics-milan-cortina-22cfd8ccbc6c48454017cbb0085e65e8"
+    accessed: "2026-03-07"
+  - id: 90
+    title: "Nigerian army kills 45 katsina clash"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/nigerian-army-kills-45-katsina-clash-2026-03-07"
+    accessed: "2026-03-07"
+  - id: 91
+    title: "Nigeria militants katsina army"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/nigeria-militants-katsina-army-8831792a02af5d04d70706fb66776442"
+    accessed: "2026-03-07"
+  - id: 92
+    title: "Portal:Current events/2026 March 7"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_7&oldid=1343328007"
+    accessed: "2026-09-22"

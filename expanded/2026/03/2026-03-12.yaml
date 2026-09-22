@@ -1,0 +1,4019 @@
+date: "2026-03-12"
+source_page:
+  portal: "Portal:Current events/2026 March 12"
+  language: "en"
+  wikipedia_revision_id: 1346742552
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 12 (revision 1346742552; seed 2026/03/2026-03-12.yaml) + deep-research report reference/deep-research/2026/03/2026-03-12a.md + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  The geopolitical, macroeconomic, and systemic landscape of March 12, 2026, represents a
+  profound and highly volatile inflection point in international relations. The global order
+  is currently characterized by the severe escalation of asymmetric warfare in the Middle
+  East, acute disruptions to trans-Pacific energy supply chains, and sweeping institutional
+  realignments across both industrialized and emerging markets. The intersection of kinetic
+  military escalation in the Persian Gulf and systemic fuel shortages in the Asia-Pacific
+  region has catalyzed emergency economic interventions, forcing governments to rapidly
+  alter trade policies and domestic consumption patterns. Simultaneously, the international
+  legal framework is experiencing unprecedented structural stress as major global powers
+  intervene in highly polarized tribunals at the International Court of Justice, reflecting
+  a deeper fragmentation of the post-war global consensus and the erosion of universal
+  humanitarian legal standards.
+
+  In the domestic spheres of multiple nations, severe demographic pressures and stark
+  economic realities are forcing dramatic political transitions and institutional responses.
+  From the youth-driven electoral revolution that has entirely dismantled the legacy
+  political establishment in Nepal, to the fragile, highly precarious attempts at democratic
+  restoration in gang-controlled Haiti, the traditional mechanisms of state power are being
+  aggressively contested. Concurrently, highly industrialized nations are pivoting toward
+  stringent protectionism, resilient supply chain architectures, and heavily militarized
+  resource defense. This is most vividly evidenced by sweeping United States trade
+  investigations targeting sixty individual economies, alongside multi-billion-dollar
+  Canadian infrastructure investments aimed at securing sovereignty in the high Arctic. This
+  comprehensive report provides an exhaustive, synthesized analysis of the day's major
+  events, examining the underlying mechanisms, causal relationships, and long-term strategic
+  implications of a rapidly shifting global order on March 12, 2026.
+
+events:
+  - id: "evt-2026-03-12-001"
+    category: "International relations"
+    subcategory: "United Nations"
+    topics:
+      - "Iran nuclear program"
+      - "UN Security Council"
+      - "Sanctions"
+      - "United Nations"
+      - "United States"
+      - "Russia"
+    importance: 6
+    headline: "U.S., Russia and China clash at the U.N. Security Council over Iran's nuclear file"
+    summary: >
+      The United States, Russia and China openly clashed at the United Nations on March 12
+      as the Security Council debated Iran's nuclear program in the middle of the expanding
+      regional war. Reuters and U.N. meeting coverage showed that Russia and China
+      challenged the legality of reviving U.N. sanctions on Iran and sought to block the
+      discussion, but were outvoted on the agenda. U.S., British and French diplomats argued
+      that Moscow and Beijing had been obstructing work in the Iran sanctions committee,
+      while Russia and China accused Washington of using the Council to legitimize military
+      pressure. The confrontation underlined how the Iran crisis was spilling simultaneously
+      into diplomacy, sanctions politics and great-power rivalry.
+    key_data: []
+    details:
+      what_happened:
+        - "The Security Council met on non-proliferation and the Iran sanctions file as fighting in the Middle East continued."
+        - "Russia and China challenged the legality of the meeting and were outvoted on the agenda in a procedural vote."
+        - "The United States, Britain and France accused Moscow and Beijing of blocking meaningful work in the committee established under U.N. Resolution 1737 on Iran."
+        - "Russian and Chinese representatives argued that Washington was trying to weaponize the Council after having withdrawn from the 2015 nuclear deal framework."
+      why_it_matters:
+        - "The dispute showed that there was no unified major-power approach to Iran even as the regional conflict was escalating."
+        - "Any future attempt to restore or tighten multilateral sanctions was likely to be contested procedurally as well as politically."
+      uncertainty_notes:
+        - "The meeting reflected diplomatic positions rather than a negotiated outcome, and no new Security Council resolution was adopted on March 12."
+    actors:
+      primary:
+        - "United States"
+        - "Russian Federation"
+        - "People's Republic of China"
+        - "United Nations Security Council"
+      secondary:
+        - "United Kingdom"
+        - "France"
+        - "Iran"
+    entities:
+      people: []
+      organizations:
+        - name: "United Nations Security Council"
+          description: "UN body responsible for international peace and security"
+      states:
+        - "United States"
+        - "Russia"
+        - "China"
+        - "Iran"
+        - "United Kingdom"
+        - "France"
+    geography:
+      countries:
+        - "United States"
+        - "Russia"
+        - "China"
+        - "Iran"
+        - "United Kingdom"
+        - "France"
+      places:
+        - "United Nations Headquarters"
+        - "New York City"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-meeting"
+        - "sanctions-dispute"
+      tags:
+        - "un"
+        - "iran"
+        - "nuclear"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/us-allies-clash-with-russia-china-over-iran-nuclear-program-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [65]
+        - id: "src-001-b"
+          outlet: "United Nations Meetings Coverage"
+          url: "https://press.un.org/en/2026/sc16316.doc.htm"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [66]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-12-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Military operation"
+    topics:
+      - "Iran-aligned armed groups"
+      - "Israel"
+      - "Iraq"
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Lebanon war"
+      - "Military operation"
+      - "Lebanon"
+    importance: 7
+    headline: "Iran-aligned groups in Lebanon and Iraq intensify attacks as the war widens"
+    summary: >
+      Iran-aligned armed groups in Lebanon and Iraq stepped up attacks on March 12,
+      underscoring the regionalization of the war around Iran. Reuters reported that
+      Hezbollah and Iran's Revolutionary Guards launched a large rocket barrage into
+      northern Israel while Iraqi armed groups accelerated strikes linked to U.S. military
+      positions and maritime traffic. The moves came even though many of Tehran's allied
+      groups had already been weakened by months of conflict and earlier Israeli attacks.
+      Israeli Prime Minister Benjamin Netanyahu also publicly threatened Iran's new supreme
+      leader, illustrating how the conflict was broadening across both rhetoric and military
+      activity.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported simultaneous or near-simultaneous attacks involving Hezbollah and Iran's Revolutionary Guards against northern Israel."
+        - "Iraqi armed groups aligned with Iran stepped up attacks connected to U.S. interests and regional shipping routes."
+        - "The attacks occurred despite assessments that several Iran-backed groups had been degraded by earlier fighting and leadership losses."
+        - "Israeli leaders publicly paired military operations with warnings directed at Iran's top leadership."
+      why_it_matters:
+        - "The escalation showed that the conflict was no longer limited to direct Israel-Iran confrontation and was instead engaging Tehran's wider regional network."
+        - "Attacks from multiple theaters increased the risk of miscalculation for Israel, the United States and neighboring states."
+      uncertainty_notes:
+        - "Operational claims and battlefield details in multi-front conflicts often shift rapidly in the first 24 hours."
+    actors:
+      primary:
+        - "Hezbollah"
+        - "Islamic Revolutionary Guard Corps"
+        - "Iraqi armed groups aligned with Iran"
+      secondary:
+        - "Israel Defense Forces"
+        - "Government of Israel"
+        - "United States Armed Forces"
+    entities:
+      people:
+        - name: "Benjamin Netanyahu"
+          role: "Prime Minister of Israel"
+      organizations:
+        - name: "Hezbollah"
+          description: "Lebanese Shia militant group and political party"
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military and security force"
+        - name: "Israel Defense Forces"
+          description: "Military of Israel"
+      states:
+        - "Iran"
+        - "Israel"
+        - "Iraq"
+        - "Lebanon"
+        - "United States"
+    geography:
+      countries:
+        - "Israel"
+        - "Lebanon"
+        - "Iraq"
+        - "Iran"
+        - "United States"
+      places:
+        - "Northern Israel"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "cross-border-attack"
+        - "rocket-attack"
+      tags:
+        - "iran"
+        - "hezbollah"
+        - "regional-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Hezbollah launches over 200 rockets and 20 UAVs at northern Israel, injuring two people."
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/irans-shiite-allies-step-up-strikes-despite-weakened-hand-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [67]
+        - id: "src-002-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/netanyahu-threatens-irans-new-supreme-leader-defends-joint-assault-with-us-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [68]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-12-019"
+      - "evt-2026-03-12-020"
+      - "evt-2026-03-12-021"
+      - "evt-2026-03-12-022"
+    notes: ""
+  - id: "evt-2026-03-12-003"
+    category: "Business and economy"
+    subcategory: "Energy"
+    topics:
+      - "LNG"
+      - "Helium"
+      - "Supply chains"
+      - "Energy"
+      - "Qatar"
+      - "United Arab Emirates"
+    importance: 7
+    headline: "Qatar LNG shutdown and force majeure declarations deepen the global gas and helium shock"
+    summary: >
+      The energy disruption tied to the Middle East war deepened on March 12 as Reuters
+      reported that the shutdown of Qatar's giant LNG complex and ensuing force majeure
+      declarations were rippling through gas and industrial supply chains. QatarEnergy had
+      halted production at its 77 million-tonne-per-year LNG facility and declared force
+      majeure on shipments, while buyers including Shell passed those declarations
+      downstream. Reuters also reported that helium prices had roughly doubled because Qatar
+      accounts for about one-third of world supply. The same day's reporting from
+      TotalEnergies confirmed related production outages in the United Arab Emirates and
+      lower output elsewhere in the region, reinforcing the sense of a wider Gulf energy
+      shock rather than a narrow shipping disruption.
+    key_data: []
+    details:
+      what_happened:
+        - "QatarEnergy's earlier halt at its 77 mtpa LNG facility continued to reverberate through the market on March 12."
+        - "Shell declared force majeure on some Qatari LNG cargoes it had agreed to sell to customers, citing the upstream disruption."
+        - "Reuters reported that helium prices had surged because Qatar is a critical supplier to the global market."
+        - "TotalEnergies said its overall output was down and confirmed outages affecting gas production in the United Arab Emirates."
+      why_it_matters:
+        - "Qatar is one of the world's most important flexible LNG suppliers, so disruption there rapidly affects both Europe and Asia."
+        - "The helium impact broadened the story beyond fuel markets into medical, industrial and scientific supply chains."
+      uncertainty_notes:
+        - "The duration of the outages and the exact timing of normalized cargo flows remained unclear."
+    actors:
+      primary:
+        - "QatarEnergy"
+        - "Shell"
+        - "TotalEnergies"
+      secondary:
+        - "Government of Qatar"
+        - "Government of the United Arab Emirates"
+    entities:
+      people: []
+      organizations:
+        - name: "QatarEnergy"
+          description: "Qatari state energy company"
+        - name: "Shell"
+          description: "British multinational energy company"
+        - name: "TotalEnergies"
+          description: "French multinational energy company"
+      states:
+        - "Qatar"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "Qatar"
+        - "United Arab Emirates"
+      places:
+        - "Ras Laffan"
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "supply-chain-disruption"
+        - "force-majeure"
+        - "market-shock"
+      tags:
+        - "lng"
+        - "qatar"
+        - "helium"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/helium-prices-soar-qatar-lng-halt-exposes-fragile-supply-chain-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [69]
+        - id: "src-003-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/shell-totalenergies-others-declare-fm-their-clients-who-take-lng-qatar-sources-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [70]
+        - id: "src-003-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/totalenergies-output-down-15-due-us-iran-war-confirms-uae-outages-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [71]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-12-013"
+      - "evt-2026-03-12-014"
+      - "evt-2026-03-12-015"
+      - "evt-2026-03-12-032"
+    notes: ""
+  - id: "evt-2026-03-12-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Sudan civil war"
+      - "Darfur"
+      - "Civilian harm"
+      - "Sudanese civil war"
+      - "Darfur campaign"
+      - "Drone strikes"
+      - "Sudan"
+      - "Chad"
+    importance: 6
+    headline: "Drone strike hits Adikong market on the Sudan-Chad border, killing civilians"
+    summary: >
+      A drone strike hit the market area of Adikong in Sudan's West Darfur region near the
+      Chadian border on March 12, killing civilians and injuring many more. Associated Press
+      reported that the strike hit fuel storage at the busy border market, causing secondary
+      explosions and sending casualties across the frontier for treatment. Médecins Sans
+      Frontières said at least four civilians were killed and more than twenty injured, and
+      it blamed the Sudanese army for the attack. The U.N. human rights office separately
+      warned on the same day about a broader surge in deadly drone attacks on civilians in
+      Sudan, placing the Adikong strike in a larger pattern of escalating air-delivered
+      violence.
+    key_data: []
+    details:
+      what_happened:
+        - "A drone strike struck Adikong market in West Darfur close to the Chad border."
+        - "The blast ignited fuel reserves, producing fires and secondary explosions in a civilian commercial area."
+        - "MSF said at least four civilians were killed and more than twenty wounded, including women and children treated across the border in Adré."
+        - "MSF attributed the strike to the Sudanese army; the military had not publicly commented in the cited reports."
+      why_it_matters:
+        - "The attack showed how drone warfare in Sudan was increasingly reaching crowded civilian spaces and cross-border humanitarian corridors."
+        - "Markets near Chad are lifelines for trade, aid and civilian survival in Darfur, so damage there has outsized humanitarian effects."
+      uncertainty_notes:
+        - "Casualty figures were preliminary on March 12 and could rise as additional victims were identified."
+        - "Responsibility was publicly alleged by MSF in the cited reporting rather than established by an independent adjudication."
+    actors:
+      primary: []
+      secondary:
+        - "Sudanese Armed Forces"
+        - "Médecins Sans Frontières"
+        - "United Nations Office of the High Commissioner for Human Rights"
+    entities:
+      people: []
+      organizations:
+        - name: "Médecins Sans Frontières"
+          description: "International medical humanitarian organization"
+        - name: "United Nations Office of the High Commissioner for Human Rights"
+          description: "UN human-rights office"
+        - name: "Sudanese Armed Forces"
+          description: "Military of Sudan"
+      states:
+        - "Sudan"
+        - "Chad"
+    geography:
+      countries:
+        - "Sudan"
+        - "Chad"
+      places:
+        - "Adikong"
+        - "West Darfur"
+        - "Adré"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: 24
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Market stalls and fuel storage were destroyed or burned."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "civilian-casualties"
+      tags:
+        - "darfur"
+        - "market"
+        - "drone-warfare"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Four people are killed and over 24 others are injured, including seven children, in a drone strike on a market near the Chad–Sudan border in Darfur, Sudan."
+      external:
+        - id: "src-004-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/0241df1e672527877fc2f2c602d48c94"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [72]
+        - id: "src-004-b"
+          outlet: "OHCHR"
+          url: "https://www.ohchr.org/en/press-releases/2026/03/sudan-turk-appalled-surge-deadly-drone-attacks-civilians-kordofan-and-white"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [73]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-016"
+    notes: "Later Reuters and MSF reporting on March 13 raised the reported toll to 11 killed and 23 injured."
+  - id: "evt-2026-03-12-005"
+    category: "Disasters and accidents"
+    subcategory: "Landslide"
+    topics:
+      - "Extreme rainfall"
+      - "Southern Ethiopia"
+      - "Rescue operations"
+      - "Landslide"
+      - "Ethiopia"
+    importance: 7
+    headline: "Landslides in southern Ethiopia kill at least 70 people and leave more missing"
+    summary: >
+      Deadly landslides in Ethiopia's southern Gamo Zone emerged as one of the day's major
+      disaster stories, with Reuters reporting on March 12 that at least 70 people had died
+      after days of heavy rain and that additional people were still missing. Associated
+      Press separately reported at least 50 deaths and 125 missing earlier in the day,
+      naming Gacho Baba, Kamba and Bonke districts as the main affected areas. The differing
+      counts reflected a fast-moving rescue and recovery operation in which bodies were
+      still being recovered from mud and debris. The disaster highlighted the severe
+      vulnerability of parts of southern Ethiopia to rain-triggered slope failures and the
+      likelihood that the toll would continue to change.
+    key_data: []
+    details:
+      what_happened:
+        - "Landslides struck multiple districts in the Gamo Zone after about a week of intense rainfall."
+        - "Reuters reported at least 70 dead, while AP earlier reported at least 50 dead and 125 missing."
+        - "The affected districts named in reporting included Gacho Baba, Kamba and Bonke."
+        - "Local officials said at least one person was pulled alive from the mud during rescue operations."
+        - "Regional authorities urged residents in vulnerable highland and flood-prone areas to move to safer ground."
+      why_it_matters:
+        - "The death toll made the landslides one of the most serious natural-disaster events of the day globally."
+        - "Continuing rain raised the risk of additional slope failures and complicated rescue efforts."
+      uncertainty_notes:
+        - "Fatality and missing-person counts differed across reports as the situation evolved through the day."
+        - "The Wikipedia portal bullet reports 102 killed; the deep-research report records 70."
+    actors:
+      primary:
+        - "Regional and local disaster authorities in Ethiopia"
+      secondary:
+        - "South Ethiopia Regional State"
+    entities:
+      people: []
+      organizations:
+        - name: "Gamo Zone disaster response authorities"
+          description: "Local disaster authorities in southern Ethiopia"
+      states:
+        - "Ethiopia"
+    geography:
+      countries:
+        - "Ethiopia"
+      places:
+        - "Gamo Zone"
+        - "Gacho Baba"
+        - "Kamba"
+        - "Bonke"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 70
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Homes, roads and hillside settlements were affected by mud and debris flows."
+    classification:
+      event_type:
+        - "landslide"
+        - "natural-disaster"
+      tags:
+        - "rainfall"
+        - "mudslide"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 102 people are killed and one person is rescued after a series of landslides in the Gamo Zone of Ethiopia."
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/landslide-southern-ethiopia-kills-52-communications-office-says-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [74]
+        - id: "src-005-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/b5cfde29f703aa1c025beb7cef1c9f57"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [75]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: "Later official updates on March 14 raised the reported toll above 100 and reported thousands displaced."
+  - id: "evt-2026-03-12-006"
+    category: "Politics and elections"
+    subcategory: "Legislation"
+    topics:
+      - "China"
+      - "National People's Congress"
+      - "Defense spending"
+      - "Legislation"
+      - "Taiwan"
+    importance: 5
+    headline: "China's National People's Congress closes after approving the 2026 budget, planning outline and new laws"
+    summary: >
+      China's annual parliamentary session ended on March 12 with the National People's
+      Congress approving the government's work report, the 2026 budget, the outline of the
+      15th Five-Year Plan, and several new legal texts, according to Xinhua. Reuters also
+      reported that China's defense budget for 2026 would rise 6.9% to 1.94 trillion yuan,
+      continuing a steady buildup in military spending. On the same day, Reuters highlighted
+      Taiwanese concern over a new ethnic unity law passed by parliament, because some of
+      its language appeared to extend beyond China's existing borders and was seen in Taipei
+      as potentially relevant to Taiwan. Together, the votes closed the annual session with
+      a mix of economic planning, state-building legislation and clear signals of continued
+      security prioritization.
+    key_data: []
+    details:
+      what_happened:
+        - "The 14th National People's Congress concluded its annual session in Beijing on March 12."
+        - "Delegates approved the government work report, the 2026 national economic and social development plan, and the central and local budgets."
+        - "Xinhua reported passage of the outline for the 15th Five-Year Plan as well as the Ecological and Environmental Code and the Ethnic Unity and Progress Promotion Law."
+        - "Reuters reported that the 2026 defense budget was set at 1.94 trillion yuan, up 6.9% from the prior year."
+        - "Taiwanese officials warned that the new ethnic unity law's wording could have implications beyond the mainland."
+      why_it_matters:
+        - "The closing votes formally locked in China's economic and fiscal priorities for 2026, including another sizable defense increase."
+        - "The ethnic unity law drew attention because its wording fed cross-strait sensitivities at a time of already elevated tension."
+      uncertainty_notes:
+        - "Interpretations of the ethnic unity law's possible application outside mainland China were politically contested."
+    actors:
+      primary:
+        - "National People's Congress"
+        - "People's Republic of China"
+      secondary:
+        - "Government of Taiwan"
+    entities:
+      people: []
+      organizations:
+        - name: "National People's Congress"
+          description: "China's national legislature"
+        - name: "People's Liberation Army"
+          description: "Armed forces of China"
+      states:
+        - "China"
+        - "Taiwan"
+    geography:
+      countries:
+        - "China"
+        - "Taiwan"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "legislation"
+        - "budget-release"
+        - "policy-announcement"
+      tags:
+        - "npc"
+        - "budget"
+        - "defense"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-006-a"
+          outlet: "Xinhua"
+          url: "https://english.news.cn/20260312/fb7b361a751d4a2290c61c6a66867996/c.html"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [76]
+        - id: "src-006-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/china-lifts-military-budget-modernize-weapons-defence-technology-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [77]
+        - id: "src-006-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/chinas-new-ethnic-unity-law-could-target-taiwanese-taipei-officials-warn-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [78]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-12-007"
+    category: "Business and economy"
+    subcategory: "International trade"
+    topics:
+      - "U.S. trade policy"
+      - "Section 301"
+      - "Overcapacity"
+      - "International trade"
+      - "United States"
+      - "China"
+    importance: 5
+    headline: "USTR formally opens new Section 301 probes into overcapacity and forced labor across dozens of trading partners"
+    summary: >
+      The United States Trade Representative formally initiated major new Section 301
+      investigations on March 12, opening one case into structural excess capacity and
+      excess production in 16 trading partners and another into forced labor practices
+      involving 60 countries. The move, described in a USTR press release and related
+      Reuters reporting, was part of the administration's effort to rebuild legal and
+      procedural foundations for future trade pressure after a court setback to broader
+      tariff powers. Reuters also reported immediate concern from targeted partners, with
+      the European Union urging Washington to treat it as an ally rather than a source of
+      the overcapacity problem, and Singapore saying it would engage with the U.S. side. No
+      new tariffs were imposed on March 12, but the investigations opened a pathway toward
+      them.
+    key_data: []
+    details:
+      what_happened:
+        - "USTR announced a Section 301 investigation into structural excess capacity and production involving 16 economies."
+        - "A separate Section 301 investigation was opened into forced labor practices involving 60 countries."
+        - "Reuters reported that the probes were part of an effort to rebuild trade leverage after a judicial decision undercut earlier tariff authorities."
+        - "The European Union publicly objected to being grouped as a source of overcapacity rather than treated as a partner."
+        - "Singapore said it would engage with USTR following inclusion in the overcapacity case."
+      why_it_matters:
+        - "Section 301 probes are a recognized legal route for the United States to justify future tariffs or other trade remedies."
+        - "The breadth of the actions risked widening trade friction not only with China but also with allies and major supply-chain partners."
+      uncertainty_notes:
+        - "The investigations had just opened on March 12, so any eventual remedies, tariff levels or negotiated outcomes remained uncertain."
+    actors:
+      primary:
+        - "Office of the United States Trade Representative"
+        - "United States"
+      secondary:
+        - "European Union"
+        - "Singapore"
+    entities:
+      people: []
+      organizations:
+        - name: "Office of the United States Trade Representative"
+          description: "U.S. trade agency"
+        - name: "European Commission"
+          description: "Executive branch of the European Union"
+      states:
+        - "United States"
+        - "China"
+        - "European Union"
+        - "Singapore"
+        - "India"
+        - "Japan"
+        - "Mexico"
+    geography:
+      countries:
+        - "United States"
+        - "China"
+        - "Singapore"
+        - "India"
+        - "Japan"
+        - "Mexico"
+      places:
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "regulatory-action"
+        - "trade-dispute"
+      tags:
+        - "ustr"
+        - "section-301"
+        - "tariffs"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "USTR"
+          url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [79]
+        - id: "src-007-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/us-opens-new-unfair-trade-probes-rebuild-trumps-tariff-pressure-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [80]
+        - id: "src-007-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/eu-urges-us-view-it-ally-tackling-overcapacity-not-source-problem-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [81]
+        - id: "src-007-d"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/singapore-engage-with-ustr-trumps-trade-probes-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [82]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The filing followed the USTR's March 11 initiation and was met by a formal Chinese response on March 13."
+  - id: "evt-2026-03-12-008"
+    category: "International relations"
+    subcategory: "Regional coordination"
+    topics:
+      - "ASEAN"
+      - "Energy security"
+      - "Shipping disruption"
+      - "Regional coordination"
+      - "Philippines"
+      - "Indonesia"
+    importance: 4
+    headline: "ASEAN schedules emergency ministerial discussions on the Middle East crisis and its economic fallout"
+    summary: >
+      Southeast Asian governments moved to coordinate on March 12 as ASEAN officials
+      announced that the Middle East crisis would dominate ministerial discussions the
+      following day. Reuters and Channel News Asia reported that the Philippines, as ASEAN
+      chair, prepared an economic ministers' retreat and a special virtual foreign
+      ministers' meeting focused on surging oil prices, shipping disruptions and the wider
+      trade and logistics consequences of the war. The announcement itself was significant
+      because it showed how quickly a conflict centered in the Gulf had become a region-wide
+      economic concern in Southeast Asia. It also highlighted ASEAN's dependence on maritime
+      trade and imported energy.
+    key_data: []
+    details:
+      what_happened:
+        - "ASEAN officials said the March 13 economic ministers' retreat and a special foreign ministers' videoconference would address the Middle East crisis."
+        - "The Philippines, serving as ASEAN chair, framed the talks around oil prices, inflation, shipping, logistics and trade disruptions."
+        - "Officials said the region could not ignore the impact of the Gulf conflict on jobs and prices."
+        - "The announcement put energy security and transport disruption at the center of the regional agenda."
+      why_it_matters:
+        - "Even before the meetings took place, the decision to convene them showed the speed with which the crisis was affecting Southeast Asian planning."
+        - "ASEAN's export-dependent economies are highly exposed to both fuel-price spikes and maritime chokepoints."
+      uncertainty_notes:
+        - "The substantive outcomes were not yet known on March 12 because the meetings were scheduled for the following day."
+    actors:
+      primary:
+        - "Association of Southeast Asian Nations"
+        - "Philippines"
+      secondary:
+        - "ASEAN economic ministers"
+        - "ASEAN foreign ministers"
+    entities:
+      people: []
+      organizations:
+        - name: "Association of Southeast Asian Nations"
+          description: "Regional organization of Southeast Asian states"
+      states:
+        - "Philippines"
+        - "Indonesia"
+        - "Malaysia"
+        - "Singapore"
+        - "Thailand"
+        - "Vietnam"
+    geography:
+      countries:
+        - "Philippines"
+        - "Indonesia"
+        - "Malaysia"
+        - "Singapore"
+        - "Thailand"
+        - "Vietnam"
+      places:
+        - "Manila"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-coordination"
+        - "policy-meeting"
+      tags:
+        - "asean"
+        - "energy-security"
+        - "trade"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/asean-ministers-hold-meetings-address-middle-east-crisis-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [83]
+        - id: "src-008-b"
+          outlet: "Channel News Asia"
+          url: "https://www.channelnewsasia.com/asia/asean-ministers-middle-east-iran-war-hold-meetings-5989031"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [84]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-12-009"
+    category: "International relations"
+    subcategory: "Security cooperation"
+    topics:
+      - "Indonesia"
+      - "Australia"
+      - "Indo-Pacific security"
+      - "Security cooperation"
+    importance: 5
+    headline: "Indonesia and Australia agree to widen security cooperation with Japan and Papua New Guinea"
+    summary: >
+      Indonesia and Australia announced on March 12 that they would broaden their security
+      cooperation to include Japan and Papua New Guinea, extending an already closer
+      bilateral relationship into a more explicitly regional framework. Reuters reported
+      that the move followed a meeting in Jakarta between the two defense ministers and
+      built on a new security treaty signed earlier in 2026. The reporting said the agenda
+      included deeper intelligence sharing, joint training and possible development of
+      military training infrastructure on Indonesia's Morotai island. The step reflected
+      growing Indo-Pacific hedging and a desire among regional states to build layered
+      security ties without relying on a single axis.
+    key_data: []
+    details:
+      what_happened:
+        - "Indonesian and Australian defense ministers met in Jakarta and announced plans to broaden existing cooperation."
+        - "Japan and Papua New Guinea were named as additional partners for the expanded framework."
+        - "The ministers discussed information sharing, training cooperation and regional defense coordination."
+        - "Reuters reported that a training facility on Morotai was among the concepts under discussion."
+      why_it_matters:
+        - "The move showed how middle powers in the Indo-Pacific were building denser overlapping security arrangements."
+        - "Including Japan and Papua New Guinea widened the initiative beyond a simple bilateral defense relationship."
+      uncertainty_notes:
+        - "The detailed institutional form and implementation timetable of the expanded framework were not yet fully public."
+    actors:
+      primary:
+        - "Government of Indonesia"
+        - "Government of Australia"
+      secondary:
+        - "Government of Japan"
+        - "Government of Papua New Guinea"
+    entities:
+      people: []
+      organizations:
+        - name: "Ministry of Defense (Indonesia)"
+          description: "Defense ministry of Indonesia"
+        - name: "Department of Defence (Australia)"
+          description: "Defence department of Australia"
+      states:
+        - "Indonesia"
+        - "Australia"
+        - "Japan"
+        - "Papua New Guinea"
+    geography:
+      countries:
+        - "Indonesia"
+        - "Australia"
+        - "Japan"
+        - "Papua New Guinea"
+      places:
+        - "Jakarta"
+        - "Morotai"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "security-agreement"
+        - "diplomatic-meeting"
+      tags:
+        - "indo-pacific"
+        - "defense"
+        - "regional-alignment"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/indonesia-australia-expand-security-cooperation-include-japan-papua-new-guinea-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [85]
+        - id: "src-009-b"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/12/indonesia-australia-to-expand-security-cooperation-with-japan-png"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [86]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-12-010"
+    category: "Law and crime"
+    subcategory: "International criminal justice"
+    topics:
+      - "Belarus"
+      - "ICC"
+      - "Crimes against humanity"
+      - "International criminal justice"
+      - "Lithuania"
+    importance: 5
+    headline: "ICC prosecutor opens Belarus investigation over alleged deportation and persecution of political opponents"
+    summary: >
+      The International Criminal Court's prosecutor opened an investigation on March 12 into
+      alleged crimes against humanity linked to Belarus, focusing on the deportation and
+      persecution of political opponents who fled into neighboring Lithuania. Reuters
+      reported that the move followed a Lithuanian referral and that prosecutors said there
+      was a reasonable basis to believe a widespread or systematic attack against a civilian
+      population had occurred. The ICC prosecutor's office simultaneously issued its own
+      statement confirming the end of its preliminary examination and the start of a full
+      investigation. The step was legally notable because Belarus is not a party to the Rome
+      Statute, but the prosecution argued the Court had jurisdiction because part of the
+      alleged criminal conduct took effect on Lithuanian territory, which is an ICC member
+      state.
+    key_data: []
+    details:
+      what_happened:
+        - "The ICC Office of the Prosecutor concluded its preliminary examination concerning Lithuania and Belarus and opened a formal investigation."
+        - "The case concerns alleged crimes against humanity involving the deportation and persecution of Belarusian opponents."
+        - "Reuters reported that prosecutors said there was a reasonable basis to believe the conduct formed part of a widespread or systematic attack on civilians."
+        - "Jurisdiction was linked to the fact that alleged victims crossed into Lithuania, a state party to the ICC."
+      why_it_matters:
+        - "The investigation represented a rare international criminal step directed at Belarus despite its non-member status."
+        - "It advanced the use of cross-border effects to establish ICC jurisdiction over alleged crimes committed by non-state parties."
+      uncertainty_notes:
+        - "Opening an investigation did not mean charges had yet been filed against any specific individual."
+    actors:
+      primary:
+        - "International Criminal Court"
+        - "Office of the Prosecutor of the ICC"
+      secondary:
+        - "Republic of Belarus"
+        - "Republic of Lithuania"
+    entities:
+      people:
+        - name: "Sviatlana Tsikhanouskaya"
+          role: "Belarusian opposition leader in exile"
+      organizations:
+        - name: "International Criminal Court"
+          description: "Permanent international court for crimes against humanity and war crimes"
+      states:
+        - "Belarus"
+        - "Lithuania"
+    geography:
+      countries:
+        - "Belarus"
+        - "Lithuania"
+      places:
+        - "The Hague"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "criminal-investigation"
+        - "international-law"
+      tags:
+        - "icc"
+        - "belarus"
+        - "lithuania"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/icc-opens-probe-into-alleged-crimes-against-humanity-by-belarus-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [87]
+        - id: "src-010-b"
+          outlet: "International Criminal Court"
+          url: "https://www.icc-cpi.int/news/icc-office-prosecutor-concludes-preliminary-examinations-venezuela-ii-and-lithuania/belarus"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [88]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-12-037"
+    notes: ""
+  - id: "evt-2026-03-12-011"
+    category: "Disasters and accidents"
+    subcategory: "Flood"
+    topics:
+      - "Ecuador"
+      - "Rainy season"
+      - "Emergency management"
+      - "Flood"
+    importance: 5
+    headline: "Ecuador declares a national emergency as heavy rains trigger floods and landslides across the country"
+    summary: >
+      Ecuador declared a national emergency on March 12 because of the severe impact of the
+      rainy season, according to the national risk-management authority. The government's
+      announcement came as humanitarian updates described widespread flooding, landslides
+      and overflowing rivers across large parts of the country. A same-day ECHO update on
+      ReliefWeb said at least eight people had died, 17 had been injured and more than
+      40,000 people had been affected, while a follow-up update stated that by March 12 at
+      least 28 rivers were overflowing and 34 more were at risk. The decision marked an
+      escalation from earlier regional emergency declarations and reflected the national
+      scale of infrastructure and humanitarian strain.
+    key_data: []
+    details:
+      what_happened:
+        - "Ecuador's national risk-management authority announced a national emergency because of the rainy season."
+        - "Humanitarian reporting described widespread floods and landslides affecting multiple provinces and transport links."
+        - "ReliefWeb's March 12 update said at least eight people had died, 17 had been injured and more than 40,000 had been affected."
+        - "A follow-up update reported that, as of March 12, 28 rivers were overflowing and 34 were at risk of overflowing."
+      why_it_matters:
+        - "The declaration signaled that the crisis had grown beyond localized flooding into a nationwide emergency-management challenge."
+        - "Floods and landslides during Ecuador's rainy season threaten homes, roads, agriculture and public health simultaneously."
+      uncertainty_notes:
+        - "Impact counts were still rising and were likely to change as field reporting expanded."
+    actors:
+      primary:
+        - "Government of Ecuador"
+        - "Secretaría Nacional de Gestión de Riesgos"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Secretaría Nacional de Gestión de Riesgos"
+          description: "Ecuador's national risk-management agency"
+      states:
+        - "Ecuador"
+    geography:
+      countries:
+        - "Ecuador"
+      places:
+        - "Quito"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 8
+      injured: 17
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Floods, landslides and overflowing rivers damaged homes, roads and local infrastructure across multiple provinces."
+    classification:
+      event_type:
+        - "natural-disaster"
+        - "flooding"
+        - "landslide"
+        - "emergency-declaration"
+      tags:
+        - "rainy-season"
+        - "floods"
+        - "landslides"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "Secretaría Nacional de Gestión de Riesgos"
+          url: "https://www.gestionderiesgos.gob.ec/category/lluvias"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [89]
+        - id: "src-011-b"
+          outlet: "ReliefWeb / ECHO Daily Flash"
+          url: "https://reliefweb.int/report/ecuador/ecuador-severe-weather-update-sngr-ifrc-copernicus-emsr-noaa-cpc-inhami-ecuador-echo-daily-flash-12-march-2026"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [90]
+        - id: "src-011-c"
+          outlet: "ReliefWeb / ECHO Daily Flash"
+          url: "https://reliefweb.int/report/ecuador/ecuador-severe-weather-update-sngr-copernicus-emsr-noaa-cpc-inamhi-echo-daily-flash-13-march-2026"
+          publication_date: "2026-03-13"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [91]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-12-012"
+    category: "International relations"
+    subcategory: "Policy announcement"
+    topics:
+      - "Canada"
+      - "Arctic"
+      - "Sovereignty"
+      - "Arctic policy of Canada, NATO Arctic Sentry, Polar Icebreaker Project"
+      - "Policy announcement"
+      - "United States"
+    importance: 5
+    headline: "Canada unveils a major Arctic defense plan centered on northern airfields and support hubs"
+    summary: >
+      Canada announced a major Arctic defense package on March 12, with Prime Minister Mark
+      Carney outlining a plan worth about C$35 billion to strengthen sovereignty and
+      military readiness in the North. Reuters reported that the package included major
+      spending on military airfields and four northern operational support hubs, and that
+      Carney said Canada could no longer assume others would defend Canada's Arctic
+      interests. The announcement underscored a more self-reliant Canadian approach to
+      northern defense at a time of growing strategic competition in the region.
+    key_data: []
+    details:
+      what_happened:
+        - "Prime Minister Mark Carney announced a roughly C$35 billion Arctic defense plan."
+        - "Reuters reported that the package included about C$32 billion for military airfields and four northern support hubs."
+        - "Carney said Canada could no longer rely on others to defend its Arctic interests."
+        - "The plan was framed around Arctic sovereignty, climate change and rising strategic competition."
+      why_it_matters:
+        - "The announcement reflected a significant reassessment of Canada's northern defense posture and alliance assumptions."
+        - "As Arctic access changes, infrastructure and logistics increasingly determine who can operate effectively in the region."
+      uncertainty_notes:
+        - "The full implementation schedule and procurement details were not fully public on March 12."
+    actors:
+      primary:
+        - "Government of Canada"
+        - "Mark Carney"
+      secondary:
+        - "Canadian Armed Forces"
+    entities:
+      people:
+        - name: "Mark Carney"
+          role: "Prime Minister of Canada"
+      organizations:
+        - name: "Canadian Armed Forces"
+          description: "Military of Canada"
+        - name: "Global Affairs Canada"
+          description: "Canada's foreign ministry"
+      states:
+        - "Canada"
+        - "United States"
+        - "Russia"
+        - "China"
+    geography:
+      countries:
+        - "Canada"
+        - "United States"
+        - "Russia"
+        - "China"
+      places:
+        - "Canadian Arctic"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "policy-announcement"
+        - "defense-spending"
+      tags:
+        - "arctic"
+        - "canada"
+        - "sovereignty"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Canadian prime minister Mark Carney announces nearly CAN$35 billion (US$25.7 ‌billion) in funding to strengthen Canada's Arctic infrastructure, including upgrades to military facilities and the construction of new icebreakers to expand the country's operational capacity in the region."
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/canada-boost-arctic-defenses-says-it-can-no-longer-rely-others-2026-03-12"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [92]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-12-013"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 8
+    headline: "Mojtaba Khamenei issues first public message, urging continued blockade of Hormuz"
+    summary: >
+      Iranian supreme leader Mojtaba Khamenei issues his first public message since his
+      election in which he says that Iran should continue blocking the Strait of Hormuz and
+      advises neighboring countries to close American military bases in their territory.
+      Khamenei also vows to "avenge the blood of our martyrs".
+    key_data: []
+    details:
+      what_happened:
+        - "Iranian supreme leader Mojtaba Khamenei issues his first public message since his election in which he says that Iran should continue blocking the Strait of Hormuz and advises neighboring countries to close American military bases in their territory. Khamenei also vows to \"avenge the blood of our martyrs\"."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Mojtaba Khamenei"
+      secondary: []
+    entities:
+      people:
+        - name: "Mojtaba Khamenei"
+          role: "Supreme Leader of Iran"
+      organizations: []
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "election"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iranian supreme leader Mojtaba Khamenei issues his first public message since his election in which he says that Iran should continue blocking the Strait of Hormuz and advises neighboring countries to close American military bases in their territory. Khamenei also vows to \"avenge the blood of our martyrs\"."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-003"
+      - "evt-2026-03-12-014"
+      - "evt-2026-03-12-015"
+      - "evt-2026-03-12-032"
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News and Los Angeles Times per the Wikipedia portal."
+  - id: "evt-2026-03-12-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 5
+    headline: "Projectile fragments hit container ship Source Blessing near Hormuz, Hapag-Lloyd says"
+    summary: >
+      German shipping company Hapag-Lloyd says that projectile ​fragments ​hit the
+      Liberia-flagged container vessel Source Blessing ⁠near the ​Strait.
+    key_data: []
+    details:
+      what_happened:
+        - "German shipping company Hapag-Lloyd says that projectile ​fragments ​hit the Liberia-flagged container vessel Source Blessing ⁠near the ​Strait."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Hapag-Lloyd"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Hapag-Lloyd"
+          description: "German container shipping company"
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Strait of Hormuz"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "German shipping company Hapag-Lloyd says that projectile ​fragments ​hit the Liberia-flagged container vessel Source Blessing ⁠near the ​Strait."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-003"
+      - "evt-2026-03-12-013"
+      - "evt-2026-03-12-015"
+      - "evt-2026-03-12-032"
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-12-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 5
+    headline: "Oman orders vessels evacuated from Mina Al Fahal oil port"
+    summary: >
+      Oman orders the evacuation of vessels from the Mina Al Fahal oil port.
+    key_data: []
+    details:
+      what_happened:
+        - "Oman orders the evacuation of vessels from the Mina Al Fahal oil port."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Oman"
+    geography:
+      countries:
+        - "Oman"
+      places:
+        - "Mina Al Fahal"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Oman orders the evacuation of vessels from the Mina Al Fahal oil port."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-003"
+      - "evt-2026-03-12-013"
+      - "evt-2026-03-12-014"
+      - "evt-2026-03-12-032"
+    notes: "Portal-derived event with no deep-research coverage; reported by Oil Price per the Wikipedia portal."
+  - id: "evt-2026-03-12-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Bahrain"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Bahrain"
+    importance: 5
+    headline: "Iranian strike hits fuel storage tanks in Bahrain's Muharraq Governorate"
+    summary: >
+      An Iranian strike hits fuel storage tanks at a facility in Muharraq Governorate,
+      Bahrain.
+    key_data: []
+    details:
+      what_happened:
+        - "An Iranian strike hits fuel storage tanks at a facility in Muharraq Governorate, Bahrain."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Bahrain"
+        - "Iran"
+    geography:
+      countries:
+        - "Bahrain"
+        - "Iran"
+      places:
+        - "Muharraq Governorate"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-bahrain"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "An Iranian strike hits fuel storage tanks at a facility in Muharraq Governorate, Bahrain."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-004"
+      - "evt-2026-03-12-017"
+      - "evt-2026-03-12-018"
+    notes: "Portal-derived event with no deep-research coverage; reported by Qatar News Agency per the Wikipedia portal."
+  - id: "evt-2026-03-12-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Kuwait"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Kuwait"
+    importance: 5
+    headline: "Drones target Kuwait International Airport, causing material damage"
+    summary: >
+      Kuwait International Airport is targeted by several drones, causing material damage
+      but no injuries.
+    key_data: []
+    details:
+      what_happened:
+        - "Kuwait International Airport is targeted by several drones, causing material damage but no injuries."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Kuwait"
+    geography:
+      countries:
+        - "Kuwait"
+      places:
+        - "Kuwait International Airport"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-kuwait"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Kuwait International Airport is targeted by several drones, causing material damage but no injuries."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-016"
+      - "evt-2026-03-12-018"
+    notes: "Portal-derived event with no deep-research coverage; reported by NDTV per the Wikipedia portal."
+  - id: "evt-2026-03-12-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Saudi Arabia"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Saudi Arabia"
+    importance: 4
+    headline: "Saudi Arabia intercepts two missiles and seven drones"
+    summary: >
+      The Saudi defense ministry announces the interception of two missiles and the
+      destruction of seven drones.
+    key_data: []
+    details:
+      what_happened:
+        - "The Saudi defense ministry announces the interception of two missiles and the destruction of seven drones."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Saudi Arabia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+        - "missile-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-saudi-arabia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Saudi defense ministry announces the interception of two missiles and the destruction of seven drones."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-016"
+      - "evt-2026-03-12-017"
+    notes: "Portal-derived event with no deep-research coverage; reported by Qatar News Agency per the Wikipedia portal."
+  - id: "evt-2026-03-12-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on the Kurdistan Region"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on the Kurdistan Region"
+    importance: 6
+    headline: "French soldier killed in Iranian drone attack on base in Erbil"
+    summary: >
+      A French soldier is killed and six others are injured in an Iranian drone attack on a
+      military base in Erbil, Iraq.
+    key_data: []
+    details:
+      what_happened:
+        - "A French soldier is killed and six others are injured in an Iranian drone attack on a military base in Erbil, Iraq."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iraq"
+        - "France"
+        - "Iran"
+    geography:
+      countries:
+        - "Iraq"
+        - "France"
+        - "Iran"
+      places:
+        - "Erbil"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: 6
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-the-kurdistan-region"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A French soldier is killed and six others are injured in an Iranian drone attack on a military base in Erbil, Iraq."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-002"
+      - "evt-2026-03-12-020"
+      - "evt-2026-03-12-021"
+      - "evt-2026-03-12-022"
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters and Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-03-12-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Lebanon war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Lebanon war"
+    importance: 6
+    headline: "Israeli strike on Beirut's Ramlet al-Baida beach kills eight"
+    summary: >
+      Eight people are killed and 31 more injured by an Israeli airstrike on the Ramlet
+      al-Baida beach in central Beirut, Lebanon. Seven more people are also killed in other
+      attacks in the country.
+    key_data: []
+    details:
+      what_happened:
+        - "Eight people are killed and 31 more injured by an Israeli airstrike on the Ramlet al-Baida beach in central Beirut, Lebanon. Seven more people are also killed in other attacks in the country."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Lebanon"
+        - "Israel"
+    geography:
+      countries:
+        - "Lebanon"
+        - "Israel"
+      places:
+        - "Ramlet al-Baida"
+        - "Beirut"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 8
+      injured: 31
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+      tags:
+        - "middle-eastern-crisis"
+        - "hezbollah-israel-conflict"
+        - "2026-lebanon-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Eight people are killed and 31 more injured by an Israeli airstrike on the Ramlet al-Baida beach in central Beirut, Lebanon. Seven more people are also killed in other attacks in the country."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-002"
+      - "evt-2026-03-12-019"
+      - "evt-2026-03-12-021"
+      - "evt-2026-03-12-022"
+    notes: "Portal-derived event with no deep-research coverage; reported by Al Jazeera per the Wikipedia portal."
+  - id: "evt-2026-03-12-021"
+    category: "Armed conflicts and attacks"
+    subcategory: "Middle Eastern crisis"
+    topics:
+      - "Middle Eastern crisis"
+    importance: 6
+    headline: "Airstrike on Popular Mobilization Forces building in Akashat, Iraq, kills at least 20"
+    summary: >
+      At least 20 people are killed in an airstrike targeting a Popular Mobilization Forces
+      building in Akashat, Iraq.
+    key_data: []
+    details:
+      what_happened:
+        - "At least 20 people are killed in an airstrike targeting a Popular Mobilization Forces building in Akashat, Iraq."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Popular Mobilization Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Popular Mobilization Forces"
+          description: "Iraqi state-sanctioned umbrella of mostly Shia militias"
+      states:
+        - "Iraq"
+    geography:
+      countries:
+        - "Iraq"
+      places:
+        - "Akashat"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 20
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+      tags:
+        - "middle-eastern-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 20 people are killed in an airstrike targeting a Popular Mobilization Forces building in Akashat, Iraq."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-002"
+      - "evt-2026-03-12-019"
+      - "evt-2026-03-12-020"
+      - "evt-2026-03-12-022"
+    notes: "Portal-derived event with no deep-research coverage; reported by Sky News per the Wikipedia portal."
+  - id: "evt-2026-03-12-022"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Missile strikes Italian military base in Erbil; no casualties reported"
+    summary: >
+      The Italian military base in Erbil, Kurdistan Region, Iraq, is struck by a missile,
+      with no casualties of injuries reported.
+    key_data: []
+    details:
+      what_happened:
+        - "The Italian military base in Erbil, Kurdistan Region, Iraq, is struck by a missile, with no casualties of injuries reported."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iraq"
+        - "Italy"
+    geography:
+      countries:
+        - "Iraq"
+        - "Italy"
+      places:
+        - "Erbil"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Italian military base in Erbil, Kurdistan Region, Iraq, is struck by a missile, with no casualties of injuries reported."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-002"
+      - "evt-2026-03-12-019"
+      - "evt-2026-03-12-020"
+      - "evt-2026-03-12-021"
+    notes: "Portal-derived event with no deep-research coverage; reported by Asharq Al-Awsat per the Wikipedia portal."
+  - id: "evt-2026-03-12-023"
+    category: "Arts and culture"
+    subcategory: ""
+    topics: []
+    importance: 3
+    headline: "Chilean architect Smiljan Radić wins the 2026 Pritzker Prize"
+    summary: >
+      Chilean architect Smiljan Radić receives the 2026 Pritzker Architecture Prize,
+      recognizing his contributions to contemporary architecture.
+    key_data: []
+    details:
+      what_happened:
+        - "Chilean architect Smiljan Radić receives the 2026 Pritzker Architecture Prize, recognizing his contributions to contemporary architecture."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Smiljan Radić"
+      secondary: []
+    entities:
+      people:
+        - name: "Smiljan Radić"
+          role: "Chilean architect"
+      organizations: []
+      states:
+        - "Chile"
+    geography:
+      countries:
+        - "Chile"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "arts-and-culture"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Chilean architect Smiljan Radić receives the 2026 Pritzker Architecture Prize, recognizing his contributions to contemporary architecture."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+  - id: "evt-2026-03-12-024"
+    category: "Business and economy"
+    subcategory: "Economic impact of the 2026 Iran war, Embargo of Russian oil during the Russo-Ukrainian war"
+    topics:
+      - "Economic impact of the 2026 Iran war, Embargo of Russian oil during the Russo-Ukrainian war"
+    importance: 5
+    headline: "U.S. Treasury licenses delivery of Russian oil already loaded at sea"
+    summary: >
+      The United States treasury department issues a temporary license permitting the
+      delivery and sale of Russian oil and petroleum products already loaded onto vessels
+      before March 12, easing sanctions on such shipments until April 11 amid rising global
+      energy prices.
+    key_data: []
+    details:
+      what_happened:
+        - "The United States treasury department issues a temporary license permitting the delivery and sale of Russian oil and petroleum products already loaded onto vessels before March 12, easing sanctions on such shipments until April 11 amid rising global energy prices."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Treasury Department"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "U.S. Treasury Department"
+          description: "U.S. finance ministry"
+      states:
+        - "United States"
+        - "Russia"
+    geography:
+      countries:
+        - "United States"
+        - "Russia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+        - "sanctions"
+      tags:
+        - "economic-impact-of-the-2026-iran-war-embargo-of-russian-oil-during-the-russo-ukrainian-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States treasury department issues a temporary license permitting the delivery and sale of Russian oil and petroleum products already loaded onto vessels before March 12, easing sanctions on such shipments until April 11 amid rising global energy prices."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Philippine Daily Inquirer per the Wikipedia portal."
+  - id: "evt-2026-03-12-025"
+    category: "Business and economy"
+    subcategory: "German economic crisis"
+    topics:
+      - "German economic crisis"
+    importance: 4
+    headline: "Lufthansa pilots announce 48-hour strike on flights from German airports"
+    summary: >
+      The Lufthansa pilot union announces a 48-hour strike for all flights departing German
+      airports until Saturday over ongoing disputes about pensions, causing major delays.
+    key_data: []
+    details:
+      what_happened:
+        - "The Lufthansa pilot union announces a 48-hour strike for all flights departing German airports until Saturday over ongoing disputes about pensions, causing major delays."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Lufthansa"
+        - "Lufthansa pilots' union"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Lufthansa"
+          description: "German airline"
+        - name: "Lufthansa pilots' union"
+          description: "Union representing Lufthansa pilots"
+      states:
+        - "Germany"
+    geography:
+      countries:
+        - "Germany"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "german-economic-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Lufthansa pilot union announces a 48-hour strike for all flights departing German airports until Saturday over ongoing disputes about pensions, causing major delays."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Independent per the Wikipedia portal."
+  - id: "evt-2026-03-12-026"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Artisanal mine collapse in Central African Republic kills eight"
+    summary: >
+      Eight people are killed after an artisanal mine collapses in Ouham-Pendé, Central
+      African Republic.
+    key_data: []
+    details:
+      what_happened:
+        - "Eight people are killed after an artisanal mine collapses in Ouham-Pendé, Central African Republic."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Central African Republic"
+    geography:
+      countries:
+        - "Central African Republic"
+      places:
+        - "Ouham-Pendé"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 8
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Eight people are killed after an artisanal mine collapses in Ouham-Pendé, Central African Republic."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-12-027"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 6
+    headline: "U.S. Air Force KC-135 tanker crash kills at least four crew"
+    summary: >
+      At least four crew members are killed when a United States Air Force Boeing KC-135
+      Stratotanker carrying six crew members crashes after an incident involving another
+      aircraft in western Iraq.
+    key_data: []
+    details:
+      what_happened:
+        - "At least four crew members are killed when a United States Air Force Boeing KC-135 Stratotanker carrying six crew members crashes after an incident involving another aircraft in western Iraq."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Air Force"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States Air Force"
+          description: "Air service of the U.S. armed forces"
+      states:
+        - "United States"
+        - "Iraq"
+    geography:
+      countries:
+        - "United States"
+        - "Iraq"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+        - "crash"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least four crew members are killed when a United States Air Force Boeing KC-135 Stratotanker carrying six crew members crashes after an incident involving another aircraft in western Iraq."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BNO News and BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-12-028"
+    category: "International relations"
+    subcategory: "South Africa's genocide case against Israel"
+    topics:
+      - "South Africa's genocide case against Israel"
+    importance: 5
+    headline: "Iceland and the Netherlands to intervene for South Africa in ICJ genocide case against Israel"
+    summary: >
+      Iceland and the Netherlands announce they will both intervene on the side of South
+      Africa in the International Court of Justice's genocide case against Israel.
+    key_data: []
+    details:
+      what_happened:
+        - "Iceland and the Netherlands announce they will both intervene on the side of South Africa in the International Court of Justice's genocide case against Israel."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "International Court of Justice"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "International Court of Justice"
+          description: "Principal judicial organ of the United Nations"
+      states:
+        - "Iceland"
+        - "Netherlands"
+        - "South Africa"
+        - "Israel"
+    geography:
+      countries:
+        - "Iceland"
+        - "Netherlands"
+        - "South Africa"
+        - "Israel"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "south-africas-genocide-case-against-israel"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iceland and the Netherlands announce they will both intervene on the side of South Africa in the International Court of Justice's genocide case against Israel."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Express Tribune per the Wikipedia portal."
+  - id: "evt-2026-03-12-029"
+    category: "International relations"
+    subcategory: "Brazil–United States relations, Arrest of Jair Bolsonaro"
+    topics:
+      - "Brazil–United States relations, Arrest of Jair Bolsonaro"
+    importance: 4
+    headline: "Justice de Moraes denies imprisoned ex-president Bolsonaro's visit request"
+    summary: >
+      Brazilian Supreme Federal Court justice Alexandre de Moraes denies a request by
+      imprisoned former president Jair Bolsonaro to receive a visit from American diplomat
+      Darren Beattie, ruling that the meeting falls outside the diplomatic purposes stated
+      in Beattie's visa authorization.
+    key_data: []
+    details:
+      what_happened:
+        - "Brazilian Supreme Federal Court justice Alexandre de Moraes denies a request by imprisoned former president Jair Bolsonaro to receive a visit from American diplomat Darren Beattie, ruling that the meeting falls outside the diplomatic purposes stated in Beattie's visa authorization."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Alexandre de Moraes"
+        - "Jair Bolsonaro"
+      secondary: []
+    entities:
+      people:
+        - name: "Alexandre de Moraes"
+          role: "Justice of Brazil's Supreme Federal Court"
+        - name: "Jair Bolsonaro"
+          role: "Former President of Brazil"
+      organizations: []
+      states:
+        - "Brazil"
+    geography:
+      countries:
+        - "Brazil"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "brazil-united-states-relations-arrest-of-jair-bolsonaro"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Brazilian Supreme Federal Court justice Alexandre de Moraes denies a request by imprisoned former president Jair Bolsonaro to receive a visit from American diplomat Darren Beattie, ruling that the meeting falls outside the diplomatic purposes stated in Beattie's visa authorization."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-12-030"
+    category: "International relations"
+    subcategory: "Cuba–Holy See relations"
+    topics:
+      - "Cuba–Holy See relations"
+    importance: 5
+    headline: "Cuba to release 51 prisoners after talks with the Holy See"
+    summary: >
+      Cuba announces plans to release 51 prisoners following discussions with the Holy See,
+      stating that the detainees have served most of their sentences and demonstrated good
+      conduct.
+    key_data: []
+    details:
+      what_happened:
+        - "Cuba announces plans to release 51 prisoners following discussions with the Holy See, stating that the detainees have served most of their sentences and demonstrated good conduct."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Cuba"
+        - "Vatican City"
+    geography:
+      countries:
+        - "Cuba"
+        - "Vatican City"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "cuba-holy-see-relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Cuba announces plans to release 51 prisoners following discussions with the Holy See, stating that the detainees have served most of their sentences and demonstrated good conduct."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Indo Premier per the Wikipedia portal."
+  - id: "evt-2026-03-12-031"
+    category: "International relations"
+    subcategory: "Hungary–Ukraine relations"
+    topics:
+      - "Hungary–Ukraine relations"
+    importance: 5
+    headline: "Hungary returns seized Ukrainian armored cars but keeps $82 million in cash and gold"
+    summary: >
+      Hungary returns two seized armored cars to Ukraine but retains approximately US$82
+      million in cash and gold as authorities investigate suspected money laundering.
+    key_data: []
+    details:
+      what_happened:
+        - "Hungary returns two seized armored cars to Ukraine but retains approximately US$82 million in cash and gold as authorities investigate suspected money laundering."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Hungary"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Hungary"
+        - "Ukraine"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "hungary-ukraine-relations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Hungary returns two seized armored cars to Ukraine but retains approximately US$82 million in cash and gold as authorities investigate suspected money laundering."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-12-032"
+    category: "International relations"
+    subcategory: "Iran–Thailand relations, 2026 Strait of Hormuz crisis"
+    topics:
+      - "Iran–Thailand relations, 2026 Strait of Hormuz crisis"
+    importance: 4
+    headline: "Thailand summons Iran's ambassador over attack on a bulk carrier in Hormuz"
+    summary: >
+      Thailand summons Iran's ambassador, demanding an apology and an explanation for the
+      attack on the bulk carrier in the waters of the Strait the previous day.
+    key_data: []
+    details:
+      what_happened:
+        - "Thailand summons Iran's ambassador, demanding an apology and an explanation for the attack on the bulk carrier in the waters of the Strait the previous day."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Thailand"
+        - "Iran"
+    geography:
+      countries:
+        - "Thailand"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "iran-thailand-relations-2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Thailand summons Iran's ambassador, demanding an apology and an explanation for the attack on the bulk carrier in the waters of the Strait the previous day."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-003"
+      - "evt-2026-03-12-013"
+      - "evt-2026-03-12-014"
+      - "evt-2026-03-12-015"
+    notes: "Portal-derived event with no deep-research coverage; reported by BERNAMA per the Wikipedia portal."
+  - id: "evt-2026-03-12-033"
+    category: "Law and crime"
+    subcategory: "2026 Old Dominion University shooting"
+    topics:
+      - "2026 Old Dominion University shooting"
+    importance: 5
+    headline: "Shooting at Old Dominion University in Norfolk, Virginia, kills two"
+    summary: >
+      Two people are killed, including the perpetrator, and two other people are critically
+      injured in a school shooting at Old Dominion University in Norfolk, Virginia, United
+      States.
+    key_data: []
+    details:
+      what_happened:
+        - "Two people are killed, including the perpetrator, and two other people are critically injured in a school shooting at Old Dominion University in Norfolk, Virginia, United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Old Dominion University"
+        - "Norfolk, Virginia"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 2
+      injured: 2
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "shooting"
+      tags:
+        - "2026-old-dominion-university-shooting"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two people are killed, including the perpetrator, and two other people are critically injured in a school shooting at Old Dominion University in Norfolk, Virginia, United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by CNN and WAVY-TV per the Wikipedia portal."
+  - id: "evt-2026-03-12-034"
+    category: "Law and crime"
+    subcategory: "Crocus City Hall attack"
+    topics:
+      - "Crocus City Hall attack"
+    importance: 5
+    headline: "Russian military court sentences 19 over the 2024 Crocus City Hall attack"
+    summary: >
+      A Russian military court sentences 19 people for their involvement in the terrorist
+      attack at the Crocus City Hall in Krasnogorsk, Moscow Oblast, in 2024. Fifteen of
+      those are sentenced to life in prison while the other four are given between 19 and 22
+      years in prison.
+    key_data: []
+    details:
+      what_happened:
+        - "A Russian military court sentences 19 people for their involvement in the terrorist attack at the Crocus City Hall in Krasnogorsk, Moscow Oblast, in 2024. Fifteen of those are sentenced to life in prison while the other four are given between 19 and 22 years in prison."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Krasnogorsk"
+        - "Moscow Oblast"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "sentencing"
+      tags:
+        - "crocus-city-hall-attack"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A Russian military court sentences 19 people for their involvement in the terrorist attack at the Crocus City Hall in Krasnogorsk, Moscow Oblast, in 2024. Fifteen of those are sentenced to life in prison while the other four are given between 19 and 22 years in prison."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-12-035"
+    category: "Law and crime"
+    subcategory: "Human rights in Indonesia"
+    topics:
+      - "Human rights in Indonesia"
+    importance: 5
+    headline: "KontraS deputy director injured in acid attack in Jakarta"
+    summary: >
+      Two unidentified men assault and injure the deputy director of KontraS, an Indonesian
+      human rights organization, in an acid attack in central Jakarta.
+    key_data: []
+    details:
+      what_happened:
+        - "Two unidentified men assault and injure the deputy director of KontraS, an Indonesian human rights organization, in an acid attack in central Jakarta."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "KontraS"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "KontraS"
+          description: "Indonesian human-rights organization"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Jakarta"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: 1
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "human-rights-in-indonesia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two unidentified men assault and injure the deputy director of KontraS, an Indonesian human rights organization, in an acid attack in central Jakarta."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via CNA and Tempo English per the Wikipedia portal."
+  - id: "evt-2026-03-12-036"
+    category: "Law and crime"
+    subcategory: "Temple Israel synagogue attack"
+    topics:
+      - "Temple Israel synagogue attack"
+    importance: 6
+    headline: "Shooting and ramming attack at Temple Israel synagogue in Michigan injures 31"
+    summary: >
+      The perpetrator is killed and 31 others are injured in a shooting and vehicle-ramming
+      attack at the Temple Israel synagogue in West Bloomfield Township, Michigan, United
+      States.
+    key_data: []
+    details:
+      what_happened:
+        - "The perpetrator is killed and 31 others are injured in a shooting and vehicle-ramming attack at the Temple Israel synagogue in West Bloomfield Township, Michigan, United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+        - "United States"
+    geography:
+      countries:
+        - "Israel"
+        - "United States"
+      places:
+        - "Temple Israel"
+        - "West Bloomfield Township, Michigan"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 31
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "shooting"
+      tags:
+        - "temple-israel-synagogue-attack"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The perpetrator is killed and 31 others are injured in a shooting and vehicle-ramming attack at the Temple Israel synagogue in West Bloomfield Township, Michigan, United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by CNN per the Wikipedia portal."
+  - id: "evt-2026-03-12-037"
+    category: "Law and crime"
+    subcategory: "Sanctions during the Venezuelan crisis"
+    topics:
+      - "Sanctions during the Venezuelan crisis"
+    importance: 4
+    headline: "ICC dismisses probe into whether U.S. sanctions on Venezuela are crimes against humanity"
+    summary: >
+      The International Criminal Court at The Hague dismisses an investigation into whether
+      U.S. sanctions against Venezuelan officials qualify as crimes against humanity.
+    key_data: []
+    details:
+      what_happened:
+        - "The International Criminal Court at The Hague dismisses an investigation into whether U.S. sanctions against Venezuelan officials qualify as crimes against humanity."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "International Criminal Court"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "International Criminal Court"
+          description: "Permanent international court for crimes against humanity and war crimes"
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "United States"
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "sanctions"
+      tags:
+        - "sanctions-during-the-venezuelan-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The International Criminal Court at The Hague dismisses an investigation into whether U.S. sanctions against Venezuelan officials qualify as crimes against humanity."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-12-010"
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-12-038"
+    category: "Law and crime"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Rabbi seriously injured in suspected terror stabbing in Ramat Gan"
+    summary: >
+      A rabbi is seriously injured in a stabbing in Ramat Gan, Israel, as local police
+      suspect a terrorist motive.
+    key_data: []
+    details:
+      what_happened:
+        - "A rabbi is seriously injured in a stabbing in Ramat Gan, Israel, as local police suspect a terrorist motive."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+    geography:
+      countries:
+        - "Israel"
+      places:
+        - "Ramat Gan"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: 1
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A rabbi is seriously injured in a stabbing in Ramat Gan, Israel, as local police suspect a terrorist motive."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Times of Israel per the Wikipedia portal."
+  - id: "evt-2026-03-12-039"
+    category: "Law and crime"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Israeli military drops charges against five soldiers in Sde Teiman abuse case"
+    summary: >
+      The Israeli military drops charges against five soldiers accused of raping a
+      Palestinian prisoner at the Sde Teiman detention camp.
+    key_data: []
+    details:
+      what_happened:
+        - "The Israeli military drops charges against five soldiers accused of raping a Palestinian prisoner at the Sde Teiman detention camp."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+        - "Palestine"
+    geography:
+      countries:
+        - "Israel"
+        - "Palestine"
+      places:
+        - "Sde Teiman"
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Israeli military drops charges against five soldiers accused of raping a Palestinian prisoner at the Sde Teiman detention camp."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
+  - id: "evt-2026-03-12-040"
+    category: "Politics and elections"
+    subcategory: "2026 Nepalese general election"
+    topics:
+      - "2026 Nepalese general election"
+    importance: 6
+    headline: "Nepal's election commission confirms RSP win with 182 seats"
+    summary: >
+      The Nepalese election commission releases the official results of the recent election,
+      with Balen Shah's Rastriya Swatantra Party winning 182 seats in the 275-member House
+      of Representatives. The result gives the party a majority in the House and places it
+      two seats short of a supermajority.
+    key_data: []
+    details:
+      what_happened:
+        - "The Nepalese election commission releases the official results of the recent election, with Balen Shah's Rastriya Swatantra Party winning 182 seats in the 275-member House of Representatives. The result gives the party a majority in the House and places it two seats short of a supermajority."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Balendra Shah"
+      secondary: []
+    entities:
+      people:
+        - name: "Balendra Shah"
+          role: "Rastriya Swatantra Party leader and former Mayor of Kathmandu"
+      organizations: []
+      states:
+        - "Nepal"
+    geography:
+      countries:
+        - "Nepal"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "election"
+      tags:
+        - "2026-nepalese-general-election"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Nepalese election commission releases the official results of the recent election, with Balen Shah's Rastriya Swatantra Party winning 182 seats in the 275-member House of Representatives. The result gives the party a majority in the House and places it two seats short of a supermajority."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via The Hindu per the Wikipedia portal."
+  - id: "evt-2026-03-12-041"
+    category: "Politics and elections"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Polish president Karol Nawrocki says he will veto law to access €43.7 billion in EU funds"
+    summary: >
+      Polish president Karol Nawrocki announces that he will veto legislation enabling
+      Poland to access €43.7 billion (US$50.3 billion) in European Union loans under the
+      Security Action for Europe program to fund military spending.
+    key_data: []
+    details:
+      what_happened:
+        - "Polish president Karol Nawrocki announces that he will veto legislation enabling Poland to access €43.7 billion (US$50.3 billion) in European Union loans under the Security Action for Europe program to fund military spending."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Karol Nawrocki"
+      secondary: []
+    entities:
+      people:
+        - name: "Karol Nawrocki"
+          role: "President of Poland"
+      organizations: []
+      states:
+        - "Poland"
+    geography:
+      countries:
+        - "Poland"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Polish president Karol Nawrocki announces that he will veto legislation enabling Poland to access €43.7 billion (US$50.3 billion) in European Union loans under the Security Action for Europe program to fund military spending."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-12-042"
+    category: "Sports"
+    subcategory: "2025–26 NBA season"
+    topics:
+      - "2025–26 NBA season"
+    importance: 3
+    headline: "Shai Gilgeous-Alexander breaks Wilt Chamberlain's record for consecutive 20-point games"
+    summary: >
+      In basketball, Oklahoma City Thunder player Shai Gilgeous-Alexander breaks the NBA
+      record set by Wilt Chamberlain for most consecutive 20-point games with 127 games.
+    key_data: []
+    details:
+      what_happened:
+        - "In basketball, Oklahoma City Thunder player Shai Gilgeous-Alexander breaks the NBA record set by Wilt Chamberlain for most consecutive 20-point games with 127 games."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Shai Gilgeous-Alexander"
+      secondary: []
+    entities:
+      people:
+        - name: "Shai Gilgeous-Alexander"
+          role: "Oklahoma City Thunder guard"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2025-26-nba-season"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In basketball, Oklahoma City Thunder player Shai Gilgeous-Alexander breaks the NBA record set by Wilt Chamberlain for most consecutive 20-point games with 127 games."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by ESPN per the Wikipedia portal."
+
+strategic_conclusion: >
+  On March 12 the war's centre of gravity shifted toward the Gulf's energy system, with
+  Iran's new Supreme Leader calling for the Hormuz blockade to continue, strikes on Bahraini
+  fuel storage and Kuwait's airport, and shipping evacuations from Omani ports, while the
+  Qatar LNG shutdown extended the shock to gas and helium supplies. Iran-aligned forces
+  widened attacks in Lebanon and Iraq, killing a French soldier in Erbil. Outside the
+  region, the ICC opened a Belarus investigation, Nepal's election result became official,
+  Canada announced a major Arctic defence programme, and landslides in southern Ethiopia
+  caused one of the year's deadliest disasters.
+
+works_cited:
+  - id: 1
+    title: "Portal:Current events/2026 March 12"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_12"
+    accessed: "2026-03-15"
+  - id: 2
+    title: "Iran Update Evening Special Report, March 12, 2026"
+    outlet: "Institute for the Study of War"
+    url: "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-12-2026"
+    accessed: "2026-03-15"
+  - id: 3
+    title: "Iran war disrupts energy supplies as Trump makes new threats"
+    outlet: "AP ..."
+    url: "https://apnews.com/article/iran-israel-us-march-12-2026-oil-prices-90e17dbf7354d1e9428994ab2a036506"
+    accessed: "2026-03-15"
+  - id: 4
+    title: "East Asian Countries Eye Russian Oil Imports Amid Global Energy Shock"
+    outlet: "themoscowtimes.com"
+    url: "https://www.themoscowtimes.com/2026/03/13/east-asian-countries-eye-russian-oil-imports-amid-global-energy-shock-a92219"
+    accessed: "2026-03-15"
+  - id: 5
+    title: "Thursday morning news: March 12, 2026 | WORLD"
+    outlet: "WNG.org"
+    url: "https://wng.org/podcasts/thursday-morning-news-march-12-2026-1773256795"
+    accessed: "2026-03-15"
+  - id: 6
+    title: "French Soldier Killed by Iranian Drone, First European Death in the Iran War"
+    outlet: "Military.com"
+    url: "https://www.military.com/daily-news/investigations-and-features/2026/03/13/french-soldier-killed-iranian-drone-first-european-death-iran-war.html"
+    accessed: "2026-03-15"
+  - id: 7
+    title: "French soldier killed in Iraq as Iranian-backed group warns of more attacks"
+    outlet: "The National"
+    url: "https://www.thenationalnews.com/news/mena/2026/03/13/french-soldier-killed-in-iraq-as-iranian-backed-group-warns-of-more-attacks"
+    accessed: "2026-03-15"
+  - id: 8
+    title: "French soldier dies after a drone attack in Iraq"
+    outlet: "defence24.com"
+    url: "https://defence24.com/geopolitics/french-soldier-dies-after-a-drone-attack-in-iraq"
+    accessed: "2026-03-15"
+  - id: 9
+    title: "March 12, 2026"
+    outlet: "fdd.org"
+    url: "https://www.fdd.org/overnight-brief/march-12-2026"
+    accessed: "2026-03-15"
+  - id: 10
+    title: "Senegal becomes latest African country to toughen punishment for ..."
+    outlet: "wsls.com"
+    url: "https://www.wsls.com/news/world/2026/03/12/senegal-lawmakers-approve-new-bill-toughening-punishment-for-homosexual-acts"
+    accessed: "2026-03-15"
+  - id: 11
+    title: "5 Big News Stories Overnight"
+    outlet: "Saturday, March 14, 2026"
+    url: "https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-march-14-2026"
+    accessed: "2026-03-15"
+  - id: 12
+    title: "CBS Evening News Full Broadcast | March 12, 2026"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=jciF2EUcQs4"
+    accessed: "2026-03-15"
+  - id: 13
+    title: "20260312-192-InterventionNetherlands-Iceland"
+    outlet: "INTERNATIONAL COURT OF JUSTICE"
+    url: "https://www.icj-cij.org/node/206224"
+    accessed: "2026-03-15"
+  - id: 14
+    title: "Declarations of intervention in the proceedings filed on 11 March 2026 by the Netherlands and by Iceland under Article 63 of the Statute of the Court"
+    outlet: "icj-cij.org"
+    url: "https://www.icj-cij.org/node/206223"
+    accessed: "2026-03-15"
+  - id: 15
+    title: "US defends Israel in new ICJ intervention in South Africa genocide case"
+    outlet: "Middle East Eye"
+    url: "https://www.middleeasteye.net/news/us-defends-israel-new-icj-interventions-south-africa-genocide-case"
+    accessed: "2026-03-15"
+  - id: 16
+    title: "US intervenes to defend Israel in SA's genocide case at the ICJ"
+    outlet: "Daily Maverick"
+    url: "https://www.dailymaverick.co.za/article/2026-03-13-pressure-mounts-as-netherlands-iceland-intervene-in-sas-genocide-case-against-israel"
+    accessed: "2026-03-15"
+  - id: 17
+    title: "US defends Israel against South Africa’s allegation of genocide in top UN court"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/us-defends-israel-against-south-africas-allegation-of-genocide-in-top-un-court"
+    accessed: "2026-03-15"
+  - id: 18
+    title: "US Joins ICJ Case to Defend Israel From Allegations of Genocide"
+    outlet: "truthout.org"
+    url: "https://truthout.org/articles/us-joins-icj-case-to-defend-israel-from-allegations-of-genocide"
+    accessed: "2026-03-15"
+  - id: 19
+    title: "4 countries file to intervene in ICJ genocide case against Israel - JURIST"
+    outlet: "News"
+    url: "https://www.jurist.org/news/2026/03/4-countries-file-to-intervene-in-icj-genocide-case-against-israel"
+    accessed: "2026-03-15"
+  - id: 20
+    title: "Asia scrambles to confront energy crisis unleashed by Iran war"
+    outlet: "with no end in sight"
+    url: "https://www.theguardian.com/world/2026/mar/12/asia-energy-crisis-iran-war"
+    accessed: "2026-03-15"
+  - id: 21
+    title: "Southeast Asia shuts offices, limits travel as oil crisis deepens"
+    outlet: "US ..."
+    url: "https://www.aljazeera.com/news/2026/3/12/southeast-asia-shuts-offices-limits-travel-as-oil-crisis-deepens"
+    accessed: "2026-03-15"
+  - id: 22
+    title: "MIDDLE EAST LIVE 12 March: Shipping attacks, rising oil prices and widening humanitarian crisis"
+    outlet: "UN News"
+    url: "https://news.un.org/en/story/2026/03/1167118"
+    accessed: "2026-03-15"
+  - id: 23
+    title: "Update on IEA collective action decision of 11 March 2026"
+    outlet: "iea.org"
+    url: "https://www.iea.org/news/update-on-iea-collective-action-decision-of-11-march-2026"
+    accessed: "2026-03-15"
+  - id: 24
+    title: "Tariffs Return, Again: USTR Expands Section 301 Push with Forced Labor Probes"
+    outlet: "clarkhill.com"
+    url: "https://www.clarkhill.com/news-events/news/tariffs-return-again-ustr-expands-section-301-push-with-forced-labor-probes"
+    accessed: "2026-03-15"
+  - id: 25
+    title: "USTR Launches Awaited Section 301 Investigations of 16 Economies for Manufacturing Overcapacity"
+    outlet: "hklaw.com"
+    url: "https://www.hklaw.com/en/insights/publications/2026/03/ustr-launches-awaited-section-301-investigations"
+    accessed: "2026-03-15"
+  - id: 26
+    title: "Foreign Ministry Spokesperson Guo Jiakun's Regular Press Conference on March 12, 2026"
+    outlet: "fmprc.gov.cn"
+    url: "https://www.fmprc.gov.cn/eng/xw/fyrbt/202603/t20260312_11873712.html"
+    accessed: "2026-03-15"
+  - id: 27
+    title: "PM Carney announces $35B investment in Arctic defence, Northern infrastructure"
+    outlet: "ctvnews.ca"
+    url: "https://www.ctvnews.ca/politics/article/pm-carney-announces-35b-investment-in-arctic-defence-northern-infrastructure"
+    accessed: "2026-03-15"
+  - id: 28
+    title: "Carney earmarks $35B to bolster defence in Canada’s North"
+    outlet: "nunatsiaq.com"
+    url: "https://nunatsiaq.com/stories/article/carney-announces-35b-plan-to-defend-arctic"
+    accessed: "2026-03-15"
+  - id: 29
+    title: "Mixed reactions in the North to Carney's $35B defence and major projects announcement"
+    outlet: "CBC News"
+    url: "https://www.cbc.ca/news/canada/north/mixed-reactions-carney-35b-defence-major-projects-announcements-9.7126958"
+    accessed: "2026-03-15"
+  - id: 30
+    title: "Prime Minister Carney announces ambitious new plan to defend, build, and transform the North"
+    outlet: "pm.gc.ca"
+    url: "https://www.pm.gc.ca/en/news/news-releases/2026/03/12/prime-minister-carney-announces-ambitious-new-plan-defend-build-and"
+    accessed: "2026-03-15"
+  - id: 31
+    title: "Detroit archbishop: Catholics 'stand in solidarity' with Jewish community after synagogue attack"
+    outlet: "ncronline.org"
+    url: "https://www.ncronline.org/news/detroit-archbishop-catholics-stand-solidarity-jewish-community-after-synagogue-attack"
+    accessed: "2026-03-15"
+  - id: 32
+    title: "Armed suspect fatally shot by security after ramming vehicle into Mich. synagogue"
+    outlet: "police1.com"
+    url: "https://www.police1.com/mich-pd-respond-to-active-shooter-report-after-truck-crashes-into-detroit-area-synagogue"
+    accessed: "2026-03-15"
+  - id: 33
+    title: "Temple Israel synagogue attack"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Temple_Israel_synagogue_attack"
+    accessed: "2026-03-15"
+  - id: 34
+    title: "FBI: Attack at Michigan Synagogue Was a 'Targeted Act of Violence Against the Jewish Community' | Chicago News"
+    outlet: "WTTW"
+    url: "https://news.wttw.com/2026/03/12/fbi-attack-michigan-synagogue-was-targeted-act-violence-against-jewish-community"
+    accessed: "2026-03-15"
+  - id: 35
+    title: "FBI calls Michigan synagogue crash a 'targeted act of violence' against Jewish community"
+    outlet: "The Indian Express"
+    url: "https://indianexpress.com/article/world/us-news/fbi-calls-michigan-synagogue-crash-a-targeted-act-of-violence-against-jewish-community-10579178"
+    accessed: "2026-03-15"
+  - id: 36
+    title: "FBI Ten Most Wanted Fugitive Charged in Double Homicide Apprehended in Mexico"
+    outlet: "U.S. Department of Justice"
+    url: "https://www.justice.gov/opa/pr/fbi-ten-most-wanted-fugitive-charged-double-homicide-apprehended-mexico"
+    accessed: "2026-03-15"
+  - id: 37
+    title: "U.S. fugitive captured in Mexico 73 minutes after being added to FBI's most wanted list, fastest arrest in history"
+    outlet: "CBS News"
+    url: "https://www.cbsnews.com/news/samuel-ramirez-jr-arrest-fbi-most-wanted-mexico"
+    accessed: "2026-03-15"
+  - id: 38
+    title: "Federal Way double murder suspect captured in Mexico"
+    outlet: "Renton Reporter"
+    url: "https://www.rentonreporter.com/2026/03/12/federal-way-double-murder-suspect-captured-in-mexico"
+    accessed: "2026-03-15"
+  - id: 39
+    title: "FBI most wanted suspect in deadly Federal Way bar shooting captured in Mexico"
+    outlet: "king5.com"
+    url: "https://www.king5.com/article/news/local/federal-way/fbi-most-wanted-suspect-in-deadly-federal-way-bar-shooting-captured-in-mexico/281-0aed4f30-a510-4220-822b-7809fac7474d"
+    accessed: "2026-03-15"
+  - id: 40
+    title: "Tornadoes kill 2 in northwestern Indiana and raze buildings in Kankakee, Illinois"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/tornado-severe-weather-illinois-indiana-midwest-dce09b60816c498aad9c2a79c18285c1"
+    accessed: "2026-03-15"
+  - id: 41
+    title: "Tornado outbreak sequence of March 5–12, 2026"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Tornado_outbreak_sequence_of_March_5%E2%80%9312,_2026"
+    accessed: "2026-03-15"
+  - id: 42
+    title: "Tornado kills 2 in Indiana with another bout of dangerous storms ongoing"
+    outlet: "KRDO"
+    url: "https://krdo.com/news/2026/03/12/tornado-kills-2-in-indiana-with-another-bout-of-dangerous-storms-ongoing"
+    accessed: "2026-03-15"
+  - id: 43
+    title: "2 dead after tornadoes in Kankakee, Illinois and Northwest Indiana overnight; NWS confirms 2 tornadoes"
+    outlet: "CBS News"
+    url: "https://www.cbsnews.com/chicago/news/kankakee-tornado-indiana-illinois-weather-2-dead"
+    accessed: "2026-03-15"
+  - id: 44
+    title: "Two killed as tornadoes sweep across US Midwest in latest extreme weather"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/11/two-killed-as-tornadoes-sweep-across-us-midwest-in-latest-extreme-weather"
+    accessed: "2026-03-15"
+  - id: 45
+    title: "2026 Nepalese general election"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Nepalese_general_election"
+    accessed: "2026-03-15"
+  - id: 46
+    title: "RSP sweeps Nepal elections with historic majority, ex-rapper Balen Shah to become PM months after deadly Gen Z protests"
+    outlet: "Mint"
+    url: "https://www.livemint.com/politics/rsp-sweeps-nepal-elections-with-historic-majority-ex-rapper-balen-shah-to-become-pm-months-after-deadly-gen-z-protests-11773373166237.html"
+    accessed: "2026-03-15"
+  - id: 47
+    title: "In Nepal, Gen Z Gets a Victory—and the Country May, Too"
+    outlet: "Council on Foreign Relations"
+    url: "https://www.cfr.org/articles/in-nepal-gen-z-gets-a-victory-and-the-country-may-too"
+    accessed: "2026-03-15"
+  - id: 48
+    title: "Rastriya Swatantra Party"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Rastriya_Swatantra_Party"
+    accessed: "2026-03-15"
+  - id: 49
+    title: "Balendra Shah's RSP makes history, registers landmark victory in Nepal election"
+    outlet: "The Hindu"
+    url: "https://www.thehindu.com/news/international/balendra-shahs-rsp-makes-history-registers-landmark-victory-in-nepal-election/article70718163.ece"
+    accessed: "2026-03-15"
+  - id: 50
+    title: "Haiti's electoral council launches registration of political parties for 2026 vote"
+    outlet: "caribbean.eclac.org"
+    url: "https://caribbean.eclac.org/node/5286"
+    accessed: "2026-03-15"
+  - id: 51
+    title: "A record number of political parties register for Haiti's first election in a decade"
+    outlet: "ClickOnDetroit"
+    url: "https://www.clickondetroit.com/news/2026/03/12/a-record-number-of-political-parties-register-for-haitis-first-election-in-a-decade"
+    accessed: "2026-03-15"
+  - id: 52
+    title: "A record number of political parties register for Haiti's first election in a decade"
+    outlet: "AP News"
+    url: "https://apnews.com/article/haiti-elections-registration-deadline-political-parties-870a26224ec31be5e664726fb7033d1c"
+    accessed: "2026-03-15"
+  - id: 53
+    title: "Latin America and the Caribbean Overview: March 2026"
+    outlet: "ACLED"
+    url: "https://acleddata.com/update/latin-america-and-caribbean-overview-march-2026"
+    accessed: "2026-03-15"
+  - id: 54
+    title: "Punishing the Crocus perpetrators: The closed-door trial over Russia’s deadliest terrorist attack in decades ends with 15 life sentences and lingering questions"
+    outlet: "Meduza"
+    url: "https://meduza.io/en/feature/2026/03/12/punishing-the-crocus-perpetrators-the-closed-door-trial-over-russia-s-deadliest-terrorist-attack-in-decades-ends-with-15-life-sentences-and-lingering-questions"
+    accessed: "2026-03-15"
+  - id: 55
+    title: "Russia Sentences 15 To Life In Prison Over Deadly 2024 Moscow Terror Attack"
+    outlet: "Radio Free Europe/Radio Liberty"
+    url: "https://www.rferl.org/a/russia-life-sentence-2024-moscow-terror-attack/33702874.html"
+    accessed: "2026-03-15"
+  - id: 56
+    title: "Crocus City Hall Gunmen Sentenced to Life in Prison"
+    outlet: "The Moscow Times"
+    url: "https://www.themoscowtimes.com/2026/03/12/crocus-city-hall-gunmen-sentenced-to-life-in-prison-a92206"
+    accessed: "2026-03-15"
+  - id: 57
+    title: "Russian court convicts 19 people over deadly 2024 Moscow concert hall attack"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/russia-court-convictions-crocus-city-hall-shooting-fb1676669f24ba7d3952b6c238591a62"
+    accessed: "2026-03-15"
+  - id: 58
+    title: "Top News Headlines In Indonesia, Philippines, Singapore & Thailand : March 12, 2026"
+    outlet: "bernama"
+    url: "https://www.bernama.com/en/news.php/world/news.php?id=2533391"
+    accessed: "2026-03-15"
+  - id: 59
+    title: "Over 150K Meta accounts taken down in Southeast Asian scam hub ..."
+    outlet: "scworld.com"
+    url: "https://www.scworld.com/brief/over-150k-meta-accounts-taken-down-in-southeast-asian-scam-hub-crackdown"
+    accessed: "2026-03-15"
+  - id: 60
+    title: "Daily News on Southeast Asia – 12 Mar 2026"
+    outlet: "ISEAS-Yusof Ishak Institute"
+    url: "https://www.iseas.edu.sg/library/blog/daily-news-alerts/260312"
+    accessed: "2026-03-15"
+  - id: 61
+    title: "Plug pulled on major music festival weeks before event"
+    outlet: "News"
+    url: "https://www.indailysa.com.au/news/just-in/2026/03/13/plug-pulled-on-major-music-festival-weeks-before-event"
+    accessed: "2026-03-15"
+  - id: 62
+    title: "PARLIAMENT SITTING | 12th March, 2026"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=lMCFCrRSTls"
+    accessed: "2026-03-15"
+  - id: 63
+    title: "Parliament Sitting | Question Time | Thursday 12th March 2026"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=Ch1ZEfzPShM"
+    accessed: "2026-03-15"
+  - id: 64
+    title: "NATIONAL PARLIAMENT SITTING | 10 AM | THURSDAY 12th MARCH, 2026"
+    outlet: "YouTube"
+    url: "https://www.youtube.com/watch?v=UICJqoOxxsU"
+    accessed: "2026-03-15"
+  - id: 65
+    title: "Us allies clash with russia china over iran nuclear program"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/us-allies-clash-with-russia-china-over-iran-nuclear-program-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 66
+    title: "United Nations Meetings Coverage report"
+    outlet: "United Nations Meetings Coverage"
+    url: "https://press.un.org/en/2026/sc16316.doc.htm"
+    accessed: "2026-03-12"
+  - id: 67
+    title: "Irans shiite allies step up strikes despite weakened hand"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/irans-shiite-allies-step-up-strikes-despite-weakened-hand-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 68
+    title: "Netanyahu threatens irans new supreme leader defends joint assault with us"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/netanyahu-threatens-irans-new-supreme-leader-defends-joint-assault-with-us-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 69
+    title: "Helium prices soar qatar lng halt exposes fragile supply chain"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/helium-prices-soar-qatar-lng-halt-exposes-fragile-supply-chain-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 70
+    title: "Shell totalenergies others declare fm their clients who take lng qatar sources"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/shell-totalenergies-others-declare-fm-their-clients-who-take-lng-qatar-sources-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 71
+    title: "Totalenergies output down 15 due us iran war confirms uae outages"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/totalenergies-output-down-15-due-us-iran-war-confirms-uae-outages-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 72
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/0241df1e672527877fc2f2c602d48c94"
+    accessed: "2026-03-12"
+  - id: 73
+    title: "Sudan turk appalled surge deadly drone attacks civilians kordofan and white"
+    outlet: "OHCHR"
+    url: "https://www.ohchr.org/en/press-releases/2026/03/sudan-turk-appalled-surge-deadly-drone-attacks-civilians-kordofan-and-white"
+    accessed: "2026-03-12"
+  - id: 74
+    title: "Landslide southern ethiopia kills 52 communications office says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/landslide-southern-ethiopia-kills-52-communications-office-says-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 75
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/b5cfde29f703aa1c025beb7cef1c9f57"
+    accessed: "2026-03-12"
+  - id: 76
+    title: "Xinhua report"
+    outlet: "Xinhua"
+    url: "https://english.news.cn/20260312/fb7b361a751d4a2290c61c6a66867996/c.html"
+    accessed: "2026-03-12"
+  - id: 77
+    title: "China lifts military budget modernize weapons defence technology"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/china-lifts-military-budget-modernize-weapons-defence-technology-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 78
+    title: "Chinas new ethnic unity law could target taiwanese taipei officials warn"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/chinas-new-ethnic-unity-law-could-target-taiwanese-taipei-officials-warn-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 79
+    title: "Ustr initiates section 301 investigations relating structural excess capacity and production"
+    outlet: "USTR"
+    url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
+    accessed: "2026-03-12"
+  - id: 80
+    title: "Us opens new unfair trade probes rebuild trumps tariff pressure"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/us-opens-new-unfair-trade-probes-rebuild-trumps-tariff-pressure-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 81
+    title: "Eu urges us view it ally tackling overcapacity not source problem"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/eu-urges-us-view-it-ally-tackling-overcapacity-not-source-problem-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 82
+    title: "Singapore engage with ustr trumps trade probes"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/singapore-engage-with-ustr-trumps-trade-probes-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 83
+    title: "Asean ministers hold meetings address middle east crisis"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/asean-ministers-hold-meetings-address-middle-east-crisis-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 84
+    title: "Asean ministers middle east iran war hold meetings"
+    outlet: "Channel News Asia"
+    url: "https://www.channelnewsasia.com/asia/asean-ministers-middle-east-iran-war-hold-meetings-5989031"
+    accessed: "2026-03-12"
+  - id: 85
+    title: "Indonesia australia expand security cooperation include japan papua new guinea"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/indonesia-australia-expand-security-cooperation-include-japan-papua-new-guinea-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 86
+    title: "Indonesia australia to expand security cooperation with japan png"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/12/indonesia-australia-to-expand-security-cooperation-with-japan-png"
+    accessed: "2026-03-12"
+  - id: 87
+    title: "Icc opens probe into alleged crimes against humanity by belarus"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/icc-opens-probe-into-alleged-crimes-against-humanity-by-belarus-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 88
+    title: "International Criminal Court report"
+    outlet: "International Criminal Court"
+    url: "https://www.icc-cpi.int/news/icc-office-prosecutor-concludes-preliminary-examinations-venezuela-ii-and-lithuania/belarus"
+    accessed: "2026-03-12"
+  - id: 89
+    title: "Secretaría Nacional de Gestión de Riesgos report"
+    outlet: "Secretaría Nacional de Gestión de Riesgos"
+    url: "https://www.gestionderiesgos.gob.ec/category/lluvias"
+    accessed: "2026-03-12"
+  - id: 90
+    title: "Ecuador severe weather update sngr ifrc copernicus emsr noaa cpc inhami ecuador echo daily flash 12 march 2026"
+    outlet: "ReliefWeb / ECHO Daily Flash"
+    url: "https://reliefweb.int/report/ecuador/ecuador-severe-weather-update-sngr-ifrc-copernicus-emsr-noaa-cpc-inhami-ecuador-echo-daily-flash-12-march-2026"
+    accessed: "2026-03-12"
+  - id: 91
+    title: "Ecuador severe weather update sngr copernicus emsr noaa cpc inamhi echo daily flash 13 march 2026"
+    outlet: "ReliefWeb / ECHO Daily Flash"
+    url: "https://reliefweb.int/report/ecuador/ecuador-severe-weather-update-sngr-copernicus-emsr-noaa-cpc-inamhi-echo-daily-flash-13-march-2026"
+    accessed: "2026-03-13"
+  - id: 92
+    title: "Canada boost arctic defenses says it can no longer rely others"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/canada-boost-arctic-defenses-says-it-can-no-longer-rely-others-2026-03-12"
+    accessed: "2026-03-12"
+  - id: 93
+    title: "Portal:Current events/2026 March 12"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_12&oldid=1346742552"
+    accessed: "2026-09-22"

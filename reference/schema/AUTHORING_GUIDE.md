@@ -4,19 +4,27 @@ This is the procedure for expanding one day's YAML file by incorporating its
 deep-research markdown report. The machine-checkable shape lives in
 [`daily-events.schema.json`](daily-events.schema.json); this document covers the
 **judgment** the schema can't enforce. Reference implementations:
-`2026/01/2026-01-01.yaml` and `2026/01/2026-01-02.yaml`.
+`expanded/2026/01/2026-01-01.yaml` and `expanded/2026/01/2026-01-02.yaml`.
 
 ## Inputs and outputs
 
 | | Path |
 |---|---|
 | Deep-research markdown (source) | `reference/deep-research/<YYYY>/<MM>/<YYYY-MM-DD>a.md` |
-| Unexpanded portal YAML (seed) | `<YYYY>/<MM>/<YYYY-MM-DD>.yaml` |
-| Output | the **same** YAML path, rewritten in schema 2.2 |
+| Portal bullets (seed) | `<YYYY>/<MM>/<YYYY-MM-DD>.yaml` |
+| Output | `expanded/<YYYY>/<MM>/<YYYY-MM-DD>.yaml` |
 
-The seed YAML has only `Date`, `Source_URI`, and
-`Intelligence_Payload.Uncategorized` (a flat list of portal bullets). You replace
-it with the full schema-2.2 document.
+The seed file is extraction output and is never rewritten by an expansion. It
+may be in the current seed shape (`source_page` and `wikipedia.categories`) or
+the legacy shape (`Date`, `Source_URI`, `Intelligence_Payload.Uncategorized`).
+Take the portal revision from its `source_page.wikipedia_revision_id` when
+present. The expansion is written to a separate file under `expanded/`; see
+`expanded/README.md`.
+
+`reference/expansion/build.py` automates the mechanical steps below: parsing
+the report, matching portal bullets, building `works_cited`, and emitting and
+validating the file. The judgment steps are recorded in per-day overlays. See
+`reference/expansion/README.md`.
 
 ## Procedure
 
@@ -102,7 +110,7 @@ Reference: `evt-2026-01-01-017` (Parmelin) and `evt-2026-01-02-014..018`.
 ## Validate
 
 ```bash
-python reference/schema/validate.py 2026/01/2026-01-02.yaml
+python reference/schema/validate.py expanded/2026/01/2026-01-02.yaml
 ```
 
 The validator checks the file against the JSON Schema **and** the cross-references
