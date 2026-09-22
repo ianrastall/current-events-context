@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Cached source payloads: keep exact bytes so recorded SHA-256 values stay valid
+reference/expansion/wikitext/*.wiki -text
