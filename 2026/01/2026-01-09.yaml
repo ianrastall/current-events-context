@@ -1,46 +1,2688 @@
-Date: '2026-01-09'
-Source_URI: Portal:Current events/2026 January 9
-Intelligence_Payload:
-  Uncategorized:
-  - Syrian conflict
-  - SDF–Syrian transitional government clashes
-  - January 2026 Aleppo clashes
-  - The Syrian defense ministry declares a ceasefire in the Ashrafiyah, Bani Zeid,
-    and Sheikh Maqsood districts of Aleppo after several days of armed conflict between
-    government forces and the Kurdish-led Syrian Democratic Forces that killed at
-    least 21 people. (AFP via Arab News)
-  - Operation Southern Spear
-  - United States oil blockade during Operation Southern Spear
-  - The United States military seizes a Timor-Leste-flagged oil tanker in the Caribbean
-    Sea, marking the fifth tanker seized as part of the blockade. (The Guardian) (The
-    Patriot-News)
-  - Russo-Ukrainian war
-  - Kyiv strikes, Russian attacks on civilians in the Russo-Ukrainian war
-  - Russian drone and missile strikes on Kyiv, Ukraine kill four people and wound
-    28 others after several high-rise apartment buildings are targeted. The Qatari
-    embassy is also damaged in the strikes. (Euronews)
-  - Russia strikes Lviv in western Ukraine with its Oreshnik intermediate-range ballistic
-    missile, reportedly targeting a critical infrastructure site. (BBC News)
-  - Yemeni civil war
-  - 2025 Southern Yemen offensive, Saudi-led intervention in the Yemeni civil war
-  - A Southern Transitional Council (STC) delegation in Riyadh announces the group's
-    dissolution following widespread territorial losses to the Saudi-backed Yemeni
-    government. The STC rejects the announcement, saying the announcement was made
-    under duress. (The New Arab)
-  - EU–Mercosur Association Agreement
-  - Twenty-one of the 27 countries of the European Union approve a trade deal with
-    Mercosur, which will create "the world's largest free trade area" after 25 years
-    of talks. The deal is expected to be formally signed in Paraguay in the near future.
-    (Politico)
-  - Fourteen people are killed and over 30 others are injured after a bus plunges
-    into a gorge near Nahan, Himachal Pradesh, India. (Hindustan Times)
-  - Nine people are killed and 10 are injured after a bus crashes between Kano and
-    Maiduguri in Borno State, Nigeria. (Daily Post)
-  - 2026 Cedarbluff shootings
-  - At least six people are killed in spree shootings at three locations across Cedarbluff,
-    Mississippi, United States. A 24-year-old man is taken into custody and charged
-    with murder. (AP via CTV News)
-  - 2025 Honduran general election
-  - The National Congress of Honduras approves a recount of the votes cast in the
-    November 2025 election, which is subsequently approved by President Xiomara Castro's
-    decree. (CNN in Spanish) (Bloomberg)
+date: "2026-01-09"
+source_page:
+  portal: "Portal:Current events/2026 January 9"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 9, 2026 combined escalation in the Russo-Ukrainian war with a deepening crisis
+  in Iran. Russia struck Lviv with its Oreshnik intermediate-range ballistic missile and
+  hit apartment blocks in Kyiv, killing four and damaging the Qatari embassy, while Iran
+  remained under a near-total internet shutdown that monitors said began on January 8,
+  with reports of lethal force against protesters in cities including Kerman and Rasht.
+  In the Americas, U.S. forces seized a fifth tanker under the Venezuela blockade and
+  President Donald Trump hosted oil executives at the White House to promote investment
+  in Venezuelan oil.
+
+  In the Middle East, the presidents of the European Commission and European Council
+  visited Damascus and announced a support package of about €620 million, even as the
+  Syrian defense ministry declared a ceasefire in Aleppo after clashes with the SDF that
+  killed at least 21 people. In Yemen, an STC delegation in Riyadh announced the group's
+  dissolution, which the STC rejected as made under duress. Twenty-one EU states
+  approved the EU-Mercosur trade agreement. Storm Goretti killed at least two people in
+  Britain and cut power to hundreds of thousands in France, and deadly bus crashes in
+  Himachal Pradesh and Borno State and a spree shooting in Cedarbluff, Mississippi,
+  added to the day's toll.
+
+events:
+  - id: "evt-2026-01-09-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Maritime seizures"
+    topics:
+      - "Operation Southern Spear"
+      - "United States oil blockade during Operation Southern Spear"
+      - "2026 United States strikes in Venezuela"
+      - "Petroleum industry in Venezuela"
+    importance: 7
+    headline: "U.S. seizes fifth tanker in Venezuela blockade as Trump hosts oil executives"
+    summary: >
+      The U.S. military seized a Timor-Leste-flagged oil tanker in the Caribbean Sea, the
+      fifth tanker seized as part of the blockade around Venezuela. President Donald
+      Trump hosted leading U.S. oil executives at the White House and said the industry
+      would invest $100 billion to rebuild Venezuela's oil sector, promising the
+      companies "total safety". The day before, the Senate had voted 52 to 47 to advance
+      a bipartisan war-powers resolution to restrict further U.S. military action in
+      Venezuela.
+    key_data:
+      - label: "Tankers seized in the blockade"
+        value: "5"
+        citation_refs: [39]
+      - label: "Flag of the seized tanker"
+        value: "Timor-Leste"
+        citation_refs: [39]
+      - label: "Investment figure cited by Trump"
+        value: "$100 billion"
+        citation_refs: [2]
+    details:
+      what_happened:
+        - "U.S. forces seized a Timor-Leste-flagged oil tanker in the Caribbean Sea, the fifth seized in the blockade."
+        - "Trump hosted U.S. oil company executives at the White House to discuss Venezuela."
+        - "Trump said the industry would invest $100 billion in Venezuelan oil operations under U.S. guarantees of safety."
+        - "Just Security noted the Senate's 52-47 vote on January 8 to advance a war-powers resolution on Venezuela."
+      why_it_matters:
+        - "Continued tanker seizures and direct White House engagement with oil companies tie the Venezuela intervention closely to control of its oil sector."
+      uncertainty_notes:
+        - "The Senate vote took place on January 8 and is recorded in evt-2026-01-08-001."
+        - "The deep-research report also restated Delcy Rodríguez's swearing-in, which occurred on January 5; it is not repeated here."
+    actors:
+      primary:
+        - "United States Armed Forces"
+        - "Donald Trump"
+      secondary:
+        - "U.S. oil executives"
+        - "United States Senate"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "United States Armed Forces"
+          description: "Force enforcing the blockade"
+      states:
+        - "United States"
+        - "Venezuela"
+        - "Timor-Leste"
+    geography:
+      countries:
+        - "United States"
+        - "Venezuela"
+      places:
+        - "Caribbean Sea"
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: "One oil tanker seized."
+    classification:
+      event_type:
+        - "maritime-seizure"
+        - "energy-policy"
+      tags:
+        - "venezuela"
+        - "oil-tankers"
+        - "operation-southern-spear"
+        - "oil-industry"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States military seizes a Timor-Leste-flagged oil tanker in the Caribbean Sea, marking the fifth tanker seized as part of the blockade. (The Guardian) (The Patriot-News)"
+      external:
+        - id: src-001-a
+          outlet: "ABC News"
+          url: "https://www.youtube.com/watch?v=oawg8Y3uXRA"
+          publication_date: "2026-01-09"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "American oil company CEOs visit White House amid tanker seizures"
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "Just Security"
+          url: "https://www.justsecurity.org/128400/early-edition-january-9-2026/"
+          publication_date: "2026-01-09"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The Senate yesterday voted 52-47 to advance a bipartisan war powers resolution aimed at restricting President Trump's ability to conduct further military action in Venezuela"
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela"
+          publication_date: "2026-01-09"
+          source_type: encyclopedia
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Vice president Delcy Rodríguez sworn in as acting president of Venezuela"
+          citation_refs: [3]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-07-001"
+      - "evt-2026-01-07-002"
+      - "evt-2026-01-08-001"
+    notes: "The portal cited The Guardian and The Patriot-News."
+
+  - id: "evt-2026-01-09-002"
+    category: "Civil unrest and protests"
+    subcategory: "Protests and state crackdowns"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "Internet censorship in Iran"
+      - "Reza Pahlavi"
+    importance: 9
+    headline: "Iran's internet shutdown continues as security forces use lethal force against protesters"
+    summary: >
+      Cloudflare reported that internet traffic from Iran had effectively dropped to zero
+      since January 8, signalling a complete shutdown, as nationwide protests triggered by
+      economic hardship continued. Reports compiled on Wikipedia described security forces
+      using live ammunition against protesters in Kerman and blocking fire trucks from
+      responding to fires in Rasht. Exiled opposition figure Reza Pahlavi urged further
+      mobilization, while the authorities vowed to punish demonstrators.
+    key_data:
+      - label: "Internet traffic from Iran"
+        value: "Effectively zero since January 8"
+        citation_refs: [4]
+    details:
+      what_happened:
+        - "Internet traffic from Iran fell to effectively zero from January 8."
+        - "Security forces were reported to have used live ammunition against protesters in Kerman."
+        - "Security forces were reported to have blocked fire trucks from responding to a fire in Rasht."
+        - "Reza Pahlavi called for protests to escalate."
+      why_it_matters:
+        - "A complete internet shutdown prevents independent verification of events and limits the ability of rights groups to document abuses."
+        - "The scale of the unrest and the state response mark one of the most serious internal challenges to Iran's leadership in decades."
+      uncertainty_notes:
+        - "Death tolls are not recorded in casualty_report because the cited figures come from later sources: HRANA's count of at least 392 killed in Rasht is cited via a Wikipedia article, Iran International reported at least 12,000 killed nationwide on January 13, and The Guardian reported on concealment of deaths on January 27. These figures cover the crackdown period and are not specific to January 9."
+        - "The Wikipedia article '2026 Iran massacres' was compiled after the events; its January 9 publication date in the deep-research report reflects the event date rather than the article's creation."
+    actors:
+      primary:
+        - "Iranian security forces"
+        - "Iranian protesters"
+      secondary:
+        - "Reza Pahlavi"
+        - "Ali Khamenei"
+    entities:
+      people:
+        - name: "Reza Pahlavi"
+          role: "Exiled son of Iran's last shah"
+        - name: "Ali Khamenei"
+          role: "Supreme Leader of Iran"
+      organizations:
+        - name: "Cloudflare"
+          description: "Internet infrastructure company that reported the traffic drop"
+        - name: "Human Rights Activists News Agency"
+          description: "Rights group cited for casualty counts"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Kerman"
+        - "Rasht"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Near-total national internet shutdown; fires in urban areas including Rasht."
+    classification:
+      event_type:
+        - "internet-shutdown"
+        - "protest-crackdown"
+      tags:
+        - "iran"
+        - "iran-protests"
+        - "internet-blackout"
+        - "human-rights"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-002-a
+          outlet: "Cloudflare Blog"
+          url: "https://blog.cloudflare.com/iran-protests-internet-shutdown/"
+          publication_date: "2026-01-09"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown"
+          citation_refs: [4]
+        - id: src-002-b
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/global-development/2026/jan/27/iran-protests-death-toll-disappeared-bodies-mass-burials-30000-dead"
+          publication_date: "2026-01-27"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Testimony from medics, morgue and graveyard staff reveals huge state effort to conceal systematic killing of protesters"
+          citation_refs: [5]
+        - id: src-002-c
+          outlet: "Iran International"
+          url: "https://www.iranintl.com/en/202601130145"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: low
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "At least 12,000 killed in Iran crackdown during internet blackout"
+          citation_refs: [6]
+        - id: src-002-d
+          outlet: "Wikipedia"
+          url: "https://en.wikipedia.org/wiki/2026_Iran_massacres"
+          publication_date: "2026-01-09"
+          source_type: encyclopedia
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Forces also blocked fire trucks from responding to the fire. According to the HRANA, at least 392 people have been killed in Rasht"
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: low
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-08-006"
+    notes: "Iran International is an opposition-aligned outlet; its casualty estimate is recorded as a claim only."
+
+  - id: "evt-2026-01-09-003"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Gaza war"
+      - "Gaza ceasefire"
+      - "Al-Mawasi"
+    importance: 6
+    headline: "Details emerge of Israeli strikes on Gaza displacement tents and shelter schools"
+    summary: >
+      Anadolu Agency and the Palestinian news agency WAFA reported that Israeli strikes on
+      January 8 killed nine Palestinians, including children, when they hit displacement
+      tents and a shelter school, with the Al-Mawasi area of Khan Younis and the Jabalia
+      refugee camp among the locations struck. The Times of Israel reported that Gaza's
+      civil defense agency put the toll at 13 and that the IDF and Shin Bet confirmed
+      strikes in response to a failed launch.
+    key_data:
+      - label: "Killed (Anadolu, WAFA)"
+        value: "9, including children"
+        citation_refs: [8, 9]
+      - label: "Killed (Gaza civil defense via The Times of Israel)"
+        value: "At least 13"
+        citation_refs: [10]
+    details:
+      what_happened:
+        - "A drone strike hit a displacement tent of the Al-Abadla family in Al-Mawasi, Khan Younis, killing at least four, including siblings Abdullah and Omar al-Abadlah."
+        - "An 11-year-old girl was killed by Israeli gunfire in Jabalia refugee camp, and strikes hit the Abu Hussein School sheltering displaced families."
+        - "A strike on a tent near Faisal Tower, north-west of Deir al-Balah, killed one person."
+        - "The IDF and Shin Bet said the strikes responded to a failed launch."
+      why_it_matters:
+        - "Strikes on designated humanitarian areas and shelters further strain the ceasefire."
+      uncertainty_notes:
+        - "The strikes occurred on January 8 and are also recorded in evt-2026-01-08-008; this entry records additional detail reported on January 9."
+        - "Death tolls range from 9 (Anadolu, WAFA) to 13 (Gaza civil defense). The casualty_report uses 13 for consistency with evt-2026-01-08-008."
+    actors:
+      primary:
+        - "Israel Defense Forces"
+      secondary:
+        - "Shin Bet"
+        - "Palestinian civilians"
+    entities:
+      people: []
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Israeli military that carried out the strikes"
+        - name: "Shin Bet"
+          description: "Israeli internal security agency"
+      states:
+        - "Israel"
+        - "State of Palestine"
+    geography:
+      countries:
+        - "State of Palestine"
+      places:
+        - "Al-Mawasi"
+        - "Khan Younis"
+        - "Jabalia"
+        - "Deir al-Balah"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 13
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Displacement tents destroyed; damage to the Abu Hussein shelter school."
+    classification:
+      event_type:
+        - "airstrike"
+        - "ceasefire-violation"
+      tags:
+        - "gaza"
+        - "israel"
+        - "al-mawasi"
+        - "civilian-casualties"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-003-a
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/middle-east/israel-kills-9-palestinians-in-gaza-amid-ceasefire-violations/3794044"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "Nine Palestinians, including two young siblings, were killed and several injured Thursday when Israeli strikes hit displacement tents and a shelter school"
+          citation_refs: [8]
+        - id: src-003-b
+          outlet: "WAFA"
+          url: "https://english.wafa.ps/Pages/Details/165977"
+          publication_date: "2026-01-08"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "Nine Palestinian citizens, including five children, were killed and dozens wounded"
+          citation_refs: [9]
+        - id: src-003-c
+          outlet: "The Times of Israel"
+          url: "https://www.timesofisrael.com/hamas-agency-says-13-killed-by-israeli-strikes-in-gaza-after-failed-missile-launch/"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "IDF and Shin Bet security service confirmed the strikes, saying they were undertaken in response to a 'failed launch'"
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-08-008"
+    notes: "WAFA is the official Palestinian news agency."
+
+  - id: "evt-2026-01-09-004"
+    category: "International relations"
+    subcategory: "Diplomatic visits"
+    topics:
+      - "European Union–Syria relations"
+      - "Ursula von der Leyen"
+      - "António Costa"
+      - "Ahmed al-Sharaa"
+    importance: 7
+    headline: "Von der Leyen and Costa visit Damascus and announce about €620 million for Syria"
+    summary: >
+      European Commission President Ursula von der Leyen and European Council President
+      António Costa visited Damascus, the first such visit by EU leaders, and met
+      President Ahmed al-Sharaa and Foreign Minister Asaad al-Shaibani. The Commission
+      announced a financial support package of around €620 million for 2026 and 2027,
+      including humanitarian aid, early recovery support and bilateral support. AP noted
+      that reconstruction aid had been blocked by sanctions under Assad, which have now
+      been lifted.
+    key_data:
+      - label: "EU support package"
+        value: "Around €620 million for 2026-2027"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "Von der Leyen and Costa visited Damascus for the first time as EU leaders."
+        - "They met President Ahmed al-Sharaa and Foreign Minister Asaad al-Shaibani."
+        - "The Commission announced about €620 million in support for 2026 and 2027."
+        - "Talks covered a new political partnership, trade and an inclusive political transition."
+      why_it_matters:
+        - "The visit marks a major step in ending Syria's diplomatic isolation from Europe after the fall of Assad."
+        - "The funding supports reconstruction that sanctions had previously blocked."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ursula von der Leyen"
+        - "António Costa"
+        - "Ahmed al-Sharaa"
+      secondary:
+        - "Asaad al-Shaibani"
+    entities:
+      people:
+        - name: "Ursula von der Leyen"
+          role: "President of the European Commission"
+        - name: "António Costa"
+          role: "President of the European Council"
+        - name: "Ahmed al-Sharaa"
+          role: "President of Syria's transitional government"
+        - name: "Asaad al-Shaibani"
+          role: "Foreign Minister of Syria"
+      organizations:
+        - name: "European Commission"
+          description: "EU executive that announced the package"
+        - name: "European Council"
+          description: "EU body of heads of state and government"
+      states:
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Damascus"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-visit"
+        - "financial-aid"
+      tags:
+        - "european-union"
+        - "syria"
+        - "reconstruction"
+        - "sanctions-relief"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-004-a
+          outlet: "European Commission"
+          url: "https://ec.europa.eu/commission/presscorner/detail/da/ip_26_61"
+          publication_date: "2026-01-09"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Financial support package of around €620 million for 2026 and 2027, which includes humanitarian aid, early recovery support and bilateral support"
+          citation_refs: [11]
+        - id: src-004-b
+          outlet: "Human Rights Watch"
+          url: "https://www.hrw.org/news/2026/01/08/eu-leaders-syria-visit-an-opportunity-to-bolster-rights"
+          publication_date: "2026-01-08"
+          source_type: ngo_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "EU Commission President Ursula von der Leyen and EU Council President Antonio Costa, are set to meet with Syrian leaders in Damascus for their first-ever visit to the country"
+          citation_refs: [12]
+        - id: src-004-c
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/syria-lebanon-eu-visit-von-der-leyen-1ed2f398ffa8f2e8668d545db20b9d89"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Aid for reconstruction was blocked by sanctions under Assad's rule, which have now been lifted"
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-09-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Ceasefires"
+    topics:
+      - "SDF–Syrian transitional government clashes"
+      - "January 2026 Aleppo clashes"
+      - "Sheikh Maqsoud"
+    importance: 7
+    headline: "Syria declares ceasefire in three Aleppo districts after clashes with SDF kill at least 21"
+    summary: >
+      The Syrian defense ministry declared a ceasefire in the Ashrafiyah, Bani Zeid and
+      Sheikh Maqsood districts of Aleppo after several days of armed conflict between
+      government forces and the Kurdish-led Syrian Democratic Forces that killed at least
+      21 people, according to the Wikipedia current-events portal citing AFP via Arab
+      News.
+    key_data:
+      - label: "Killed in several days of fighting"
+        value: "At least 21"
+        citation_refs: [39]
+      - label: "Districts covered by the ceasefire"
+        value: "Ashrafiyah, Bani Zeid, Sheikh Maqsood"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "Syrian government forces and the SDF fought for several days in Aleppo."
+        - "The fighting killed at least 21 people."
+        - "The defense ministry declared a ceasefire in Ashrafiyah, Bani Zeid and Sheikh Maqsood."
+      why_it_matters:
+        - "The fighting shows central authority remains contested in Syria's second city."
+      uncertainty_notes:
+        - "The deep-research report relied solely on the portal for this event."
+        - "Reuters reported the ceasefire declaration on January 8 (evt-2026-01-08-007); the portal lists it on January 9, possibly reflecting time zones or a renewed announcement."
+    actors:
+      primary:
+        - "Syrian Ministry of Defense"
+        - "Syrian Democratic Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Syrian Democratic Forces"
+          description: "Kurdish-led armed coalition"
+        - name: "Syrian Ministry of Defense"
+          description: "Ministry that declared the ceasefire"
+      states:
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Aleppo"
+        - "Ashrafiyah"
+        - "Bani Zeid"
+        - "Sheikh Maqsood"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 21
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "ceasefire"
+        - "urban-fighting"
+      tags:
+        - "syria"
+        - "aleppo"
+        - "sdf"
+        - "ceasefire"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Syrian defense ministry declares a ceasefire in the Ashrafiyah, Bani Zeid, and Sheikh Maqsood districts of Aleppo after several days of armed conflict between government forces and the Kurdish-led Syrian Democratic Forces that killed at least 21 people. (AFP via Arab News)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-06-012"
+      - "evt-2026-01-08-007"
+    notes: "Covered in the deep-research markdown but sourced only to the Wikipedia portal, which cited AFP via Arab News."
+
+  - id: "evt-2026-01-09-006"
+    category: "Business and economy"
+    subcategory: "Trade restrictions"
+    topics:
+      - "2025–2026 China–Japan diplomatic crisis"
+      - "Dichlorosilane"
+      - "Sanae Takaichi"
+    importance: 6
+    headline: "China adds anti-dumping probe into Japanese dichlorosilane to export curbs on Japan"
+    summary: >
+      AP reported that China escalated trade tensions with Japan by launching an
+      anti-dumping investigation into imported dichlorosilane, a chemical used in
+      semiconductor manufacturing, a day after imposing curbs on exports of dual-use goods
+      to Japan. Asia Times described the measures as curbs on more than 40% of the goods
+      Japan exports to China. The measures followed Prime Minister Sanae Takaichi's
+      suggestion of Japanese military action if China invaded Taiwan.
+    key_data:
+      - label: "Share of Japanese exports to China affected (Asia Times)"
+        value: "More than 40%"
+        citation_refs: [15]
+      - label: "Product under anti-dumping investigation"
+        value: "Dichlorosilane"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "China's commerce ministry launched an anti-dumping investigation into dichlorosilane imported from Japan."
+        - "The probe followed China's ban on exports of dual-use items to Japanese military users."
+        - "Asia Times reported the measures affect more than 40% of goods Japan exports to China."
+        - "The measures were linked to Takaichi's remarks on Taiwan and a visit to Taiwan by the sanctioned Japanese lawmaker Hei Seki."
+      why_it_matters:
+        - "Restrictions touching semiconductor inputs could disrupt technology supply chains."
+      uncertainty_notes:
+        - "The anti-dumping probe was announced on January 7 according to the AP report's date; this entry reflects its coverage in the January 9 report."
+        - "The '40%' figure is an Asia Times characterization and is not confirmed by an official source."
+    actors:
+      primary:
+        - "Ministry of Commerce of China"
+      secondary:
+        - "Sanae Takaichi"
+        - "Hei Seki"
+    entities:
+      people:
+        - name: "Sanae Takaichi"
+          role: "Prime Minister of Japan"
+        - name: "Hei Seki"
+          role: "Japanese lawmaker sanctioned by China"
+      organizations:
+        - name: "Ministry of Commerce of the People's Republic of China"
+          description: "Ministry that launched the investigation"
+      states:
+        - "China"
+        - "Japan"
+    geography:
+      countries:
+        - "China"
+        - "Japan"
+      places:
+        - "Beijing"
+        - "Tokyo"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "trade-restriction"
+        - "anti-dumping-investigation"
+      tags:
+        - "china"
+        - "japan"
+        - "semiconductors"
+        - "trade-dispute"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-006-a
+          outlet: "Associated Press via CityNews Halifax"
+          url: "https://halifax.citynews.ca/2026/01/07/china-announces-another-new-trade-measure-against-japan-as-tensions-rise/"
+          publication_date: "2026-01-07"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "China escalated its trade tensions with Japan... by launching an investigation into imported dichlorosilane... a day after it imposed curbs on the export of so-called dual-use goods"
+          citation_refs: [14]
+        - id: src-006-b
+          outlet: "Asia Times"
+          url: "https://asiatimes.com/2026/01/between-us-and-china-japan-finds-itself-friendless/"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "News on Tuesday that China is imposing curbs on more than 40% of the goods Japan Inc. exports to Xi Jinping's economy is quite sobering"
+          citation_refs: [15]
+        - id: src-006-c
+          outlet: "NAMPA / AFP"
+          url: "https://www.nampa.org/text/22827328"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+          contradicts: []
+          quoted_material:
+            - "Prime Minister Sanae Takaichi's suggestion of Japanese military action if China invaded Taiwan"
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-06-003"
+      - "evt-2026-01-08-009"
+    notes: ""
+
+  - id: "evt-2026-01-09-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Political violence"
+    topics:
+      - "National Congress of Honduras"
+      - "2025 Honduran general election"
+      - "Gladys Aurora López"
+    importance: 5
+    headline: "National Party blames ruling party affiliates for explosive that injured Honduran lawmaker"
+    summary: >
+      Further reporting on the January 8 attack at Honduras' National Congress said an
+      unidentified assailant threw what appeared to be a homemade explosive into an
+      outdoor hallway, hitting National Party deputy Gladis Aurora López in the back as
+      she spoke to reporters. Members of her conservative party alleged that the device
+      was thrown by affiliates of the ruling Liberty and Refoundation (Libre) party. The
+      attack came as lawmakers were to consider a Libre proposal for a recount of the
+      November 30 presidential election.
+    key_data:
+      - label: "Injured"
+        value: "1 (Gladis Aurora López)"
+        citation_refs: [17, 18]
+    details:
+      what_happened:
+        - "An unidentified assailant threw an apparent explosive device into an outdoor hallway of the National Congress in Tegucigalpa."
+        - "Deputy Gladis Aurora López was hit in the back."
+        - "The National Party condemned the attack and alleged that Libre affiliates were responsible."
+        - "Lawmakers were due to consider a Libre proposal to recount the November 30 presidential election."
+      why_it_matters:
+        - "The attack marks an escalation from an electoral dispute to violence against legislators ahead of the presidential transition."
+      uncertainty_notes:
+        - "The attack occurred on January 8 and is also recorded in evt-2026-01-08-024; this entry records additional detail."
+        - "The allegation of Libre involvement is made by the National Party and was not independently verified."
+        - "The portal spells her first name 'Gladys'; the deep-research sources use 'Gladis'."
+    actors:
+      primary:
+        - "Unidentified assailant"
+      secondary:
+        - "Gladis Aurora López"
+        - "National Party of Honduras"
+        - "Liberty and Refoundation"
+    entities:
+      people:
+        - name: "Gladis Aurora López"
+          role: "National Party deputy in the National Congress of Honduras"
+        - name: "Nasry Asfura"
+          role: "President-elect of Honduras"
+      organizations:
+        - name: "National Party of Honduras"
+          description: "Conservative party of the injured lawmaker"
+        - name: "Liberty and Refoundation"
+          description: "Ruling party accused by the National Party"
+      states:
+        - "Honduras"
+    geography:
+      countries:
+        - "Honduras"
+      places:
+        - "Tegucigalpa"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 1
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "attack-on-politician"
+        - "political-violence"
+      tags:
+        - "honduras"
+        - "national-congress"
+        - "election-dispute"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-007-a
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/9/conservative-lawmaker-in-honduras-injured-after-being-hit-with-explosive"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "A Honduran lawmaker has been injured after an unidentified assailant threw what appeared to be an explosive device into an outdoor hallway in the legislature"
+          citation_refs: [17]
+        - id: src-007-b
+          outlet: "Associated Press via KVUE"
+          url: "https://www.kvue.com/article/syndication/associatedpress/honduran-lawmaker-injured-in-congress-by-homemade-explosive/616-4f3a347a-2782-4812-823a-79c4d3b19204"
+          publication_date: "2026-01-08"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Deputy Gladis Aurora López was hit in the back"
+          citation_refs: [18]
+        - id: src-007-c
+          outlet: "Times of India"
+          url: "https://www.youtube.com/watch?v=7DD_ZiSZBbc"
+          publication_date: "2026-01-09"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Members of her conservative National Party allege the device was thrown by affiliates of the ruling Liberty and Refoundation (Libre) Party"
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events:
+      - "evt-2026-01-08-024"
+      - "evt-2026-01-09-021"
+    notes: ""
+
+  - id: "evt-2026-01-09-008"
+    category: "Law and crime"
+    subcategory: "Government litigation"
+    topics:
+      - "Administration for Children and Families"
+      - "Letitia James"
+      - "Rob Bonta"
+    importance: 6
+    headline: "Five states sue Trump administration over $10 billion child care and family aid freeze"
+    summary: >
+      The attorneys general of California, Colorado, Illinois, Minnesota and New York sued
+      the Trump administration to block a freeze of about $10 billion in federal funding
+      from the Administration for Children and Families for child care, social services
+      and cash assistance to low-income families. The administration cited fraud concerns
+      linked to a scheme in Minnesota. The states argue the executive branch is infringing
+      on Congress's appropriations power by declining to spend appropriated funds.
+    key_data:
+      - label: "Funding frozen"
+        value: "About $10 billion"
+        citation_refs: [21, 22]
+      - label: "Plaintiff states"
+        value: "California, Colorado, Illinois, Minnesota, New York"
+        citation_refs: [21]
+    details:
+      what_happened:
+        - "The administration froze about $10 billion in ACF funding for child care and family assistance, citing fraud concerns."
+        - "Federal officials demanded four to six years of documentation on every organization that received funds."
+        - "Five states filed a joint lawsuit arguing the freeze is unlawful and infringes Congress's appropriations power."
+      why_it_matters:
+        - "The case tests executive authority to withhold congressionally appropriated funds from states."
+        - "A prolonged freeze would affect child care and cash support for low-income families."
+      uncertainty_notes:
+        - "The deep-research report said a federal judge in the Southern District of New York halted the freeze; that is supported only by a Capitol News Illinois article dated January 16, 2026, and is not treated as a January 9 development."
+    actors:
+      primary:
+        - "Trump administration"
+        - "State attorneys general"
+      secondary:
+        - "Administration for Children and Families"
+    entities:
+      people:
+        - name: "Letitia James"
+          role: "Attorney General of New York"
+        - name: "Rob Bonta"
+          role: "Attorney General of California"
+        - name: "Kwame Raoul"
+          role: "Attorney General of Illinois"
+      organizations:
+        - name: "Administration for Children and Families"
+          description: "Federal agency whose funding was frozen"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "New York"
+        - "California"
+        - "Colorado"
+        - "Illinois"
+        - "Minnesota"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "lawsuit"
+        - "funding-freeze"
+      tags:
+        - "child-care"
+        - "federal-funding"
+        - "state-attorneys-general"
+        - "separation-of-powers"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-008-a
+          outlet: "Capitol News Illinois"
+          url: "https://capitolnewsillinois.com/news/states-say-paperwork-tied-to-10b-funding-freeze-is-an-intentionally-impossible-task/"
+          publication_date: "2026-01-16"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The government demanded four to six years' worth of documents about every organization that received funds from the state"
+          citation_refs: [20]
+        - id: src-008-b
+          outlet: "New York State Attorney General"
+          url: "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-trump-administration-protect-billions-dollars"
+          publication_date: "2026-01-09"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Joining Attorney General James in filing this lawsuit are the attorneys general of California, Colorado, Illinois, and Minnesota"
+          citation_refs: [21]
+        - id: src-008-c
+          outlet: "California Attorney General"
+          url: "https://oag.ca.gov/news/press-releases/attorney-general-bonta-sues-trump-administration-block-unlawful-freeze-10"
+          publication_date: "2026-01-09"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "The attorneys general assert that the executive branch is infringing on Congress's appropriations power by declining to expend appropriated funds"
+          citation_refs: [22]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-09-009"
+    category: "Civil unrest and protests"
+    subcategory: "Protests"
+    topics:
+      - "Killing of Renée Good"
+      - "U.S. Immigration and Customs Enforcement"
+      - "Tim Walz"
+    importance: 7
+    headline: "Video of ICE agent's fatal shooting of Renée Good released as Minneapolis protests grow"
+    summary: >
+      Newly released video showed the fatal January 7 shooting of Renée Good in
+      Minneapolis from the perspective of the ICE agent, identified as Jonathan Ross.
+      Federal officials said Good had tried to strike the agent with her car, and heated
+      protests continued in Minneapolis. Governor Tim Walz declared a day of unity to
+      honor Good, and state and local officials said they were being shut out of the
+      federal investigation.
+    key_data:
+      - label: "Agent identified"
+        value: "Jonathan Ross"
+        citation_refs: [23]
+    details:
+      what_happened:
+        - "Video from the agent's perspective of the shooting was released."
+        - "Federal officials said Good tried to strike the agent with her vehicle."
+        - "Protests continued in Minneapolis."
+        - "Governor Tim Walz declared a day of unity to honor Good."
+        - "State and local officials said they were excluded from the federal investigation."
+      why_it_matters:
+        - "The dispute over the federal account and state exclusion from the investigation deepened the conflict between Minnesota and federal authorities."
+      uncertainty_notes:
+        - "Whether Good attempted to strike the agent is the federal account and is disputed by critics."
+    actors:
+      primary:
+        - "Jonathan Ross"
+        - "U.S. Immigration and Customs Enforcement"
+      secondary:
+        - "Tim Walz"
+        - "Protesters"
+    entities:
+      people:
+        - name: "Renée Good"
+          role: "Minneapolis resident killed by an ICE agent"
+        - name: "Jonathan Ross"
+          role: "ICE agent who fired the fatal shots"
+        - name: "Tim Walz"
+          role: "Governor of Minnesota"
+      organizations:
+        - name: "U.S. Immigration and Customs Enforcement"
+          description: "Federal immigration agency"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Minneapolis"
+        - "Minnesota"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "video-release"
+        - "protest"
+      tags:
+        - "ice"
+        - "minneapolis"
+        - "renee-good"
+        - "use-of-force"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-009-a
+          outlet: "ABC News"
+          url: "https://www.youtube.com/watch?v=BlwfT03KblU"
+          publication_date: "2026-01-09"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Newly released video shows Minneapolis shooting from ICE agent's perspective"
+          citation_refs: [23]
+        - id: src-009-b
+          outlet: "WORLD Radio"
+          url: "https://wng.org/podcasts/friday-morning-news-january-9-2026-1767904846"
+          publication_date: "2026-01-09"
+          source_type: broadcast
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Heated protests have erupted in Minneapolis after a federal immigration agent shot and killed a woman that federal officials say tried to strike the agent with her car"
+          citation_refs: [24]
+        - id: src-009-c
+          outlet: "Global News"
+          url: "https://www.youtube.com/watch?v=mEDa9xlVez8"
+          publication_date: "2026-01-09"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "State and local officials are asking to be involved in the federal investigation around her death. But... they're being shut out"
+          citation_refs: [25]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-07-007"
+      - "evt-2026-01-08-023"
+    notes: "casualty_report.killed is 0 because the killing occurred on January 7 and is counted in evt-2026-01-07-007."
+
+  - id: "evt-2026-01-09-010"
+    category: "Disasters and accidents"
+    subcategory: "Severe storms"
+    topics:
+      - "Storm Goretti"
+      - "2025–26 European windstorm season"
+    importance: 6
+    headline: "Storm Goretti kills at least two in Britain and cuts power to hundreds of thousands"
+    summary: >
+      Storm Goretti brought damaging winds and heavy snow to north-western Europe. At
+      least two people were killed by falling trees in England and Wales, including a man
+      in Helston, Cornwall, whose caravan was crushed by a tree. Anadolu Agency reported
+      380,000 households without power in western France, and Watchers News reported
+      more than 250 schools closed in Scotland because of snow and runway suspensions at
+      several English airports.
+    key_data:
+      - label: "Killed"
+        value: "At least 2"
+        citation_refs: [27]
+      - label: "Households without power in France"
+        value: "380,000"
+        citation_refs: [28]
+      - label: "Peak gust reported"
+        value: "132 mph at Barfleur, France"
+        citation_refs: [27]
+    details:
+      what_happened:
+        - "At least two people were killed by falling trees in England and Wales."
+        - "A man died in Helston when a tree fell on a caravan."
+        - "380,000 households in western France lost power."
+        - "More than 250 schools in Scotland closed due to heavy snow, and runway operations were suspended at Birmingham, Bristol and East Midlands airports."
+      why_it_matters:
+        - "The storm disrupted power, transport and schools across several countries."
+      uncertainty_notes:
+        - "Power-outage totals vary: the deep-research report cited about 500,000 customers across Europe, while the Watchers News headline refers to nearly 1.2 million without power."
+        - "The Met Office report is a retrospective summary whose publication date is approximated as 2026-01-09."
+    actors:
+      primary: []
+      secondary:
+        - "Met Office"
+    entities:
+      people: []
+      organizations:
+        - name: "Met Office"
+          description: "UK national weather service"
+      states:
+        - "United Kingdom"
+        - "France"
+    geography:
+      countries:
+        - "United Kingdom"
+        - "France"
+      places:
+        - "Cornwall"
+        - "Helston"
+        - "Barfleur"
+        - "Scotland"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 2
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Fallen trees, structural damage in Cornwall, widespread power outages and transport disruption."
+    classification:
+      event_type:
+        - "windstorm"
+        - "snowstorm"
+      tags:
+        - "storm-goretti"
+        - "united-kingdom"
+        - "france"
+        - "power-outage"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-010-a
+          outlet: "Met Office"
+          url: "https://weather.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/weather/learn-about/uk-past-events/interesting/2026/2026_02_storm_goretti.pdf"
+          publication_date: "2026-01-09"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Tragically one man died in Helston when a tree fell on a caravan"
+          citation_refs: [26]
+        - id: src-010-b
+          outlet: "Watchers News"
+          url: "https://watchers.news/2026/01/09/at-least-two-dead-in-england-and-wales-as-storm-goretti-leaves-nearly-1-2-million-without-power/"
+          publication_date: "2026-01-09"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "At least two people were killed by falling trees in England and Wales... Over 250 schools in Scotland remained closed due to heavy snowfall"
+          citation_refs: [27]
+        - id: src-010-c
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/europe/storm-goretti-lashes-western-france-leaving-380-000-without-power/3794458"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Storm Goretti lashes western France, leaving 380,000 without power"
+          citation_refs: [28]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-09-011"
+    category: "Armed conflicts and attacks"
+    subcategory: "Missile strikes"
+    topics:
+      - "Russo-Ukrainian war"
+      - "Oreshnik"
+      - "Kyiv strikes"
+      - "Lviv"
+    importance: 8
+    headline: "Russia strikes Lviv with Oreshnik missile; attacks on Kyiv kill four and damage Qatari embassy"
+    summary: >
+      Russian drone and missile strikes on Kyiv killed four people and wounded 28 after
+      several high-rise apartment buildings were hit, and the Qatari embassy was damaged.
+      Russia also struck Lviv in western Ukraine with its Oreshnik intermediate-range
+      ballistic missile, reportedly targeting a critical infrastructure site. Global News
+      reported that Canadian Prime Minister Mark Carney joined European leaders in
+      condemning Russia's use of the weapon.
+    key_data:
+      - label: "Killed in Kyiv"
+        value: "4"
+        citation_refs: [39]
+      - label: "Wounded in Kyiv"
+        value: "28"
+        citation_refs: [39]
+      - label: "Weapon used on Lviv"
+        value: "Oreshnik intermediate-range ballistic missile"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "Russian drones and missiles struck high-rise apartment buildings in Kyiv, killing four and wounding 28."
+        - "The Qatari embassy in Kyiv was damaged."
+        - "An Oreshnik intermediate-range ballistic missile struck Lviv, reportedly targeting a critical infrastructure site."
+        - "Mark Carney and European leaders condemned the use of the missile."
+      why_it_matters:
+        - "Use of the nuclear-capable Oreshnik against western Ukraine is a significant escalation in the weapons Russia is prepared to employ."
+      uncertainty_notes:
+        - "The specific target in Lviv was not confirmed in the cited sources."
+    actors:
+      primary:
+        - "Russian Armed Forces"
+      secondary:
+        - "Mark Carney"
+        - "European leaders"
+    entities:
+      people:
+        - name: "Mark Carney"
+          role: "Prime Minister of Canada"
+      organizations: []
+      states:
+        - "Russia"
+        - "Ukraine"
+        - "Qatar"
+    geography:
+      countries:
+        - "Ukraine"
+      places:
+        - "Kyiv"
+        - "Lviv"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: 28
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Several high-rise apartment buildings in Kyiv hit; Qatari embassy damaged; infrastructure site in Lviv struck."
+    classification:
+      event_type:
+        - "missile-strike"
+        - "drone-strike"
+      tags:
+        - "ukraine"
+        - "russia"
+        - "oreshnik"
+        - "kyiv"
+        - "lviv"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Russian drone and missile strikes on Kyiv, Ukraine kill four people and wound 28 others after several high-rise apartment buildings are targeted. The Qatari embassy is also damaged in the strikes. (Euronews) | Russia strikes Lviv in western Ukraine with its Oreshnik intermediate-range ballistic missile, reportedly targeting a critical infrastructure site. (BBC News)"
+      external:
+        - id: src-011-a
+          outlet: "Global News"
+          url: "https://www.youtube.com/watch?v=mEDa9xlVez8"
+          publication_date: "2026-01-09"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "It involves a nuclear-capable missile that targets energy infrastructure and homes. Prime Minister Mark Carney has joined European leaders in condemning Russia's use of the powerful weapon"
+          citation_refs: [25]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-08-005"
+    notes: "The portal cited Euronews and BBC News. Two portal bullets are merged in text_fragment."
+
+  - id: "evt-2026-01-09-012"
+    category: "Politics and elections"
+    subcategory: "Presidential elections"
+    topics:
+      - "2025 Central African Republic general election"
+      - "Faustin-Archange Touadéra"
+      - "Anicet-Georges Dologuélé"
+    importance: 6
+    headline: "Central African Republic court confirms Touadéra's third-term election win"
+    summary: >
+      The Central African Republic's Constitutional Council confirmed President
+      Faustin-Archange Touadéra's victory in the December election, in which provisional
+      results gave him 76.15% of the vote against 14.66% for former prime minister
+      Anicet-Georges Dologuélé. The main opposition coalition boycotted the vote after a
+      referendum removed presidential term limits, and Dologuélé contested the results.
+    key_data:
+      - label: "Touadéra's vote share"
+        value: "76.15%"
+        citation_refs: [29]
+      - label: "Dologuélé's vote share"
+        value: "14.66%"
+        citation_refs: [29]
+    details:
+      what_happened:
+        - "The Constitutional Council confirmed Touadéra as the winner of the presidential election."
+        - "Touadéra received 76.15% and Dologuélé 14.66% of the vote."
+        - "The main opposition coalition boycotted the election over the referendum that removed term limits."
+        - "Dologuélé and Henri-Marie Dondra contested the results, alleging fraud."
+      why_it_matters:
+        - "Confirmation gives Touadéra a third term after the removal of term limits."
+      uncertainty_notes:
+        - "The deep-research report stated 2.4 million registered voters and cited Henri-Marie Dondra at 3.19%; these figures are not quoted from a cited source and are omitted from key_data."
+    actors:
+      primary:
+        - "Faustin-Archange Touadéra"
+        - "Constitutional Council of the Central African Republic"
+      secondary:
+        - "Anicet-Georges Dologuélé"
+        - "Henri-Marie Dondra"
+    entities:
+      people:
+        - name: "Faustin-Archange Touadéra"
+          role: "President of the Central African Republic"
+        - name: "Anicet-Georges Dologuélé"
+          role: "Former prime minister and runner-up candidate"
+        - name: "Henri-Marie Dondra"
+          role: "Former prime minister and presidential candidate"
+      organizations:
+        - name: "Constitutional Council of the Central African Republic"
+          description: "Court that confirmed the results"
+      states:
+        - "Central African Republic"
+    geography:
+      countries:
+        - "Central African Republic"
+      places:
+        - "Bangui"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "election-certification"
+      tags:
+        - "central-african-republic"
+        - "touadera"
+        - "presidential-election"
+        - "term-limits"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-012-a
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/5/central-african-republics-touadera-wins-third-presidential-term"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Touadera received 76.15 percent of the vote, while former Prime Minister Anicet-Georges Dologuele received 14.66 percent"
+          citation_refs: [29]
+        - id: src-012-b
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/central-african-republic-election-results-touadera-dologuele-66860f354854b90b1194f509746f190c"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The Central African Republic's Constitutional Council has confirmed President Faustin-Archange Touadéra's victory in last month's election"
+          citation_refs: [30]
+        - id: src-012-c
+          outlet: "Associated Press via KSAT"
+          url: "https://www.ksat.com/news/world/2026/01/06/central-africa-republic-president-faustin-archange-touadera-reelected-provisional-results-show/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The major opposition coalition boycotted the vote after a referendum allowed the removal of term limits"
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-09-013"
+    category: "International relations"
+    subcategory: "United Nations"
+    topics:
+      - "United Nations Human Rights Council"
+      - "Sidharto Reza Suryodipuro"
+      - "Indonesia"
+    importance: 4
+    headline: "Indonesian diplomat elected President of the UN Human Rights Council for 2026"
+    summary: >
+      The UN Human Rights Council elected Indonesian Ambassador Sidharto Reza Suryodipuro
+      as its President for 2026, the first time Indonesia has held the post. He was the
+      Asia-Pacific group's candidate, and Ecuador's Ambassador Marcelo Vázquez Bermúdez
+      was appointed a Vice-President. The Indonesian rights group INFID called the
+      presidency empty rhetoric without improvements in human rights at home.
+    key_data:
+      - label: "President elected"
+        value: "Sidharto Reza Suryodipuro (Indonesia)"
+        citation_refs: [32, 33]
+    details:
+      what_happened:
+        - "The Human Rights Council elected Sidharto Reza Suryodipuro as President for 2026."
+        - "He was the sole candidate of the Asia-Pacific group."
+        - "Marcelo Vázquez Bermúdez of Ecuador was appointed Vice-President."
+        - "INFID said the presidency is empty rhetoric without domestic human rights improvements."
+      why_it_matters:
+        - "The presidency gives Indonesia a prominent role in managing the Council's work during its 20th year."
+      uncertainty_notes:
+        - "The election took place on January 8 per UN News and OHCHR; this entry reflects its coverage together with the January 9 INFID reaction."
+    actors:
+      primary:
+        - "United Nations Human Rights Council"
+        - "Sidharto Reza Suryodipuro"
+      secondary:
+        - "INFID"
+        - "Marcelo Vázquez Bermúdez"
+    entities:
+      people:
+        - name: "Sidharto Reza Suryodipuro"
+          role: "Indonesian ambassador and President of the UN Human Rights Council for 2026"
+        - name: "Marcelo Vázquez Bermúdez"
+          role: "Ecuadorian ambassador and Council Vice-President"
+      organizations:
+        - name: "United Nations Human Rights Council"
+          description: "UN body of 47 member states"
+        - name: "INFID"
+          description: "Indonesian civil-society organization"
+      states:
+        - "Indonesia"
+        - "Ecuador"
+    geography:
+      countries:
+        - "Switzerland"
+        - "Indonesia"
+      places:
+        - "Geneva"
+        - "Jakarta"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "leadership-election"
+        - "multilateral-appointment"
+      tags:
+        - "indonesia"
+        - "un-human-rights-council"
+        - "human-rights"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-013-a
+          outlet: "UN News"
+          url: "https://news.un.org/en/story/2026/01/1166720"
+          publication_date: "2026-01-08"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The UN Human Rights Council... has elected an Indonesian diplomat to be President for 2026 in a first for the country"
+          citation_refs: [32]
+        - id: src-013-b
+          outlet: "OHCHR"
+          url: "https://www.ohchr.org/en/press-releases/2026/01/human-rights-council-elects-ambassador-sidharto-reza-suryodipuro-indonesia"
+          publication_date: "2026-01-08"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Human Rights Council elects Ambassador Sidharto Reza Suryodipuro of Indonesia as President for 2026"
+          citation_refs: [33]
+        - id: src-013-c
+          outlet: "INFID"
+          url: "https://infid.org/en/presidensi-dewan-ham-pbb-ri-retorika-kosong-tanpa-pembenahan-ham-domestik/"
+          publication_date: "2026-01-09"
+          source_type: ngo_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Indonesia's Presidency of the UN Human Rights Council is Empty Rhetoric Without Domestic Human Rights Improvements"
+          citation_refs: [34]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-09-014"
+    category: "Politics and elections"
+    subcategory: "Official inquiries"
+    topics:
+      - "Royal Commission on Antisemitism and Social Cohesion"
+      - "2025 Bondi Beach attack"
+      - "Anthony Albanese"
+      - "Virginia Bell"
+    importance: 6
+    headline: "Albanese announces Royal Commission into antisemitism after Bondi attack, led by Virginia Bell"
+    summary: >
+      SBS News reported that Prime Minister Anthony Albanese announced a Royal Commission
+      into the Bondi terror attack after weeks of resisting the idea, with former High
+      Court justice Virginia Bell as Royal Commissioner. The Royal Commission on
+      Antisemitism and Social Cohesion is required to deliver an interim report by 30 April
+      2026 and a final report by 14 December 2026.
+    key_data:
+      - label: "Royal Commissioner"
+        value: "Virginia Bell"
+        citation_refs: [35]
+      - label: "Interim report due"
+        value: "2026-04-30"
+        citation_refs: [36]
+      - label: "Final report due"
+        value: "2026-12-14"
+        citation_refs: [36]
+    details:
+      what_happened:
+        - "Albanese announced a Royal Commission into the Bondi attack and antisemitism in Australia."
+        - "Former High Court justice Virginia Bell was appointed Royal Commissioner."
+        - "The commission must deliver an interim report by 30 April and a final report by 14 December 2026."
+      why_it_matters:
+        - "A Royal Commission is Australia's most powerful form of public inquiry and can compel evidence from ministers and agencies."
+      uncertainty_notes:
+        - "The January 4 file records a royal commission announcement (evt-2026-01-04-015) sourced to an undated Guardian topic page and described as following a 'Bondi Junction' attack; SBS on January 9 describes the announcement as new, so the January 4 entry may be misdated."
+        - "The deep-research report's claim that the Senate passed whistleblower-protection legislation is sourced to a Guardian article dated 12 March 2026 and is excluded as a later development."
+        - "The Royal Commission portal is a standing page; its publication date is approximated as 2026-01-09."
+    actors:
+      primary:
+        - "Anthony Albanese"
+        - "Virginia Bell"
+      secondary:
+        - "Sussan Ley"
+        - "Sam Mostyn"
+    entities:
+      people:
+        - name: "Anthony Albanese"
+          role: "Prime Minister of Australia"
+        - name: "Virginia Bell"
+          role: "Former High Court justice and Royal Commissioner"
+        - name: "Sussan Ley"
+          role: "Leader of the Opposition of Australia"
+        - name: "Sam Mostyn"
+          role: "Governor-General of Australia"
+      organizations:
+        - name: "Royal Commission on Antisemitism and Social Cohesion"
+          description: "Federal inquiry established after the Bondi attack"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Sydney"
+        - "Bondi"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "public-inquiry"
+      tags:
+        - "australia"
+        - "royal-commission"
+        - "antisemitism"
+        - "bondi"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-014-a
+          outlet: "SBS News"
+          url: "https://www.sbs.com.au/news/podcast-episode/sbs-news-in-easy-english-9-january-2026/hpowmakyx"
+          publication_date: "2026-01-09"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Mr Albanese has announced a Royal Commission into the attack, after weeks of resisting the idea. Former High Court Virginia Bell will be the Royal Commissioner"
+          citation_refs: [35]
+        - id: src-014-b
+          outlet: "Royal Commission on Antisemitism and Social Cohesion"
+          url: "https://asc.royalcommission.gov.au/"
+          publication_date: "2026-01-09"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The Commissioner is required to produce an interim report by 30 April 2026 and a final report by 14 December 2026"
+          citation_refs: [36]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-04-015"
+    notes: ""
+
+  - id: "evt-2026-01-09-015"
+    category: "Disasters and accidents"
+    subcategory: "Animal attacks"
+    topics:
+      - "Shark attacks"
+      - "Saint Croix"
+      - "United States Virgin Islands"
+    importance: 3
+    headline: "Victim of Saint Croix shark attack identified as Minnesota tourist Arlene Lillis"
+    summary: >
+      The woman killed in the January 8 shark attack off Dorsch Beach, Saint Croix, was
+      identified as Arlene Lillis, 56, a tourist from Minnesota. Fire officials said she
+      lost an arm in the attack and later died of her injuries. CBS News reported it was
+      the second fatal shark attack in the U.S. Virgin Islands in less than a month.
+    key_data:
+      - label: "Victim"
+        value: "Arlene Lillis, 56"
+        citation_refs: [37]
+      - label: "Fatal shark attacks in the territory in under a month"
+        value: "2"
+        citation_refs: [38]
+    details:
+      what_happened:
+        - "Arlene Lillis was attacked while swimming off Dorsch Beach."
+        - "Emergency services were called at about 4:30 p.m. on January 8."
+        - "She lost an arm and died after being taken to hospital."
+      why_it_matters:
+        - "A second fatal attack in under a month raised safety concerns for local tourism."
+      uncertainty_notes:
+        - "The attack occurred on January 8 and is also recorded in evt-2026-01-08-021."
+    actors:
+      primary: []
+      secondary:
+        - "Albert Bryan Jr."
+    entities:
+      people:
+        - name: "Arlene Lillis"
+          role: "Victim of the shark attack"
+        - name: "Albert Bryan Jr."
+          role: "Governor of the U.S. Virgin Islands"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Dorsch Beach"
+        - "Saint Croix"
+        - "United States Virgin Islands"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "animal-attack"
+        - "victim-identification"
+      tags:
+        - "shark-attack"
+        - "us-virgin-islands"
+        - "saint-croix"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-015-a
+          outlet: "FOX 26 Houston"
+          url: "https://www.fox26houston.com/news/minnesota-woman-killed-shark-attack-virgin-islands"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Fire officials confirmed the woman lost an arm during the attack and later succumbed to her injuries"
+          citation_refs: [37]
+        - id: src-015-b
+          outlet: "CBS News"
+          url: "https://www.cbsnews.com/news/shark-kills-minnesota-woman-us-virgin-islands/"
+          publication_date: "2026-01-09"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "marking the second fatal shark attack in less than a month"
+          citation_refs: [38]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-08-021"
+    notes: "casualty_report.killed is 0 because the death is counted in evt-2026-01-08-021."
+
+  - id: "evt-2026-01-09-016"
+    category: "Disasters and accidents"
+    subcategory: "Road accidents"
+    topics:
+      - "Road accidents in India"
+      - "Himachal Pradesh"
+      - "Nahan"
+    importance: 6
+    headline: "Bus plunges into gorge near Nahan, Himachal Pradesh, killing 14"
+    summary: >
+      Fourteen people were killed and more than 30 injured when a bus plunged into a gorge
+      near Nahan in Himachal Pradesh, India, according to the Wikipedia current-events
+      portal citing the Hindustan Times.
+    key_data:
+      - label: "Killed"
+        value: "14"
+        citation_refs: [39]
+      - label: "Injured"
+        value: "More than 30"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "A bus fell into a gorge near Nahan, Himachal Pradesh."
+        - "Fourteen people were killed and more than 30 injured."
+      why_it_matters:
+        - "The crash is one of the deadliest road accidents in India in early 2026 and highlights the hazards of mountain roads."
+      uncertainty_notes:
+        - "The deep-research report relied solely on the portal for this event."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "India"
+    geography:
+      countries:
+        - "India"
+      places:
+        - "Nahan"
+        - "Himachal Pradesh"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 14
+      injured: 30
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Bus destroyed."
+    classification:
+      event_type:
+        - "road-accident"
+        - "mass-casualty"
+      tags:
+        - "india"
+        - "himachal-pradesh"
+        - "bus-crash"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Fourteen people are killed and over 30 others are injured after a bus plunges into a gorge near Nahan, Himachal Pradesh, India. (Hindustan Times)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Covered in the deep-research markdown but sourced only to the Wikipedia portal, which cited the Hindustan Times. casualty_report.injured records the stated minimum ('over 30')."
+
+  - id: "evt-2026-01-09-017"
+    category: "Law and crime"
+    subcategory: "Mass shootings"
+    topics:
+      - "2026 Cedarbluff shootings"
+      - "Mississippi"
+    importance: 6
+    headline: "Spree shootings at three locations in Cedarbluff, Mississippi, kill at least six"
+    summary: >
+      At least six people were killed in spree shootings at three locations across
+      Cedarbluff, Mississippi. A 24-year-old man was taken into custody and charged with
+      murder, according to the Wikipedia current-events portal citing AP via CTV News.
+    key_data:
+      - label: "Killed"
+        value: "At least 6"
+        citation_refs: [39]
+      - label: "Suspect"
+        value: "24-year-old man, charged with murder"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "Shootings took place at three locations across Cedarbluff."
+        - "At least six people were killed."
+        - "A 24-year-old man was taken into custody and charged with murder."
+      why_it_matters:
+        - "The multi-site attack is among the deadliest U.S. mass shootings of early 2026."
+      uncertainty_notes:
+        - "The deep-research report relied solely on the portal for this event."
+    actors:
+      primary:
+        - "24-year-old male suspect"
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Cedarbluff"
+        - "Mississippi"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 1
+      damage: null
+    classification:
+      event_type:
+        - "mass-shooting"
+        - "spree-killing"
+      tags:
+        - "mississippi"
+        - "cedarbluff"
+        - "gun-violence"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least six people are killed in spree shootings at three locations across Cedarbluff, Mississippi, United States. A 24-year-old man is taken into custody and charged with murder. (AP via CTV News)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Covered in the deep-research markdown but sourced only to the Wikipedia portal, which cited AP via CTV News."
+
+  - id: "evt-2026-01-09-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "Civil war"
+    topics:
+      - "Yemeni civil war"
+      - "2025 Southern Yemen offensive"
+      - "Southern Transitional Council"
+    importance: 7
+    headline: "STC delegation in Riyadh announces group's dissolution; STC rejects it as made under duress"
+    summary: >
+      A Southern Transitional Council delegation in Riyadh announced the group's
+      dissolution following widespread territorial losses to the Saudi-backed Yemeni
+      government. The STC rejected the announcement, saying it was made under duress,
+      according to the Wikipedia current-events portal citing The New Arab.
+    key_data:
+      - label: "Announcement location"
+        value: "Riyadh"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "An STC delegation in Riyadh announced the group's dissolution."
+        - "The announcement followed widespread territorial losses to government forces."
+        - "The STC rejected the announcement, saying it was made under duress."
+      why_it_matters:
+        - "The competing claims leave the future of Yemen's main southern separatist movement uncertain after its military collapse."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 9 deep-research markdown."
+    actors:
+      primary:
+        - "Southern Transitional Council"
+      secondary:
+        - "Saudi Arabia"
+        - "Yemeni government"
+    entities:
+      people: []
+      organizations:
+        - name: "Southern Transitional Council"
+          description: "Southern Yemeni separatist movement"
+      states:
+        - "Yemen"
+        - "Saudi Arabia"
+    geography:
+      countries:
+        - "Yemen"
+        - "Saudi Arabia"
+      places:
+        - "Riyadh"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "political-dissolution"
+        - "disputed-announcement"
+      tags:
+        - "yemen"
+        - "stc"
+        - "saudi-arabia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A Southern Transitional Council (STC) delegation in Riyadh announces the group's dissolution following widespread territorial losses to the Saudi-backed Yemeni government. The STC rejects the announcement, saying the announcement was made under duress. (The New Arab)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-07-005"
+      - "evt-2026-01-08-019"
+    notes: "Portal-derived event; reported by The New Arab per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-09-019"
+    category: "Business and economy"
+    subcategory: "Trade agreements"
+    topics:
+      - "EU–Mercosur Association Agreement"
+      - "European Union"
+      - "Mercosur"
+    importance: 7
+    headline: "Twenty-one EU states approve the EU-Mercosur trade agreement"
+    summary: >
+      Twenty-one of the 27 European Union member states approved a trade deal with
+      Mercosur, which will create what was described as the world's largest free trade
+      area after 25 years of talks. The deal was expected to be formally signed in
+      Paraguay, according to the Wikipedia current-events portal citing Politico.
+    key_data:
+      - label: "EU states in favour"
+        value: "21 of 27"
+        citation_refs: [39]
+      - label: "Length of negotiations"
+        value: "25 years"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "Twenty-one EU member states approved the EU-Mercosur trade deal."
+        - "The agreement concludes 25 years of negotiations."
+        - "Formal signing was expected in Paraguay."
+      why_it_matters:
+        - "The deal creates one of the world's largest free trade areas despite opposition from France and farmer protests."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 9 deep-research markdown."
+        - "The portal does not list which states voted against or abstained; France said on January 8 it would vote against (evt-2026-01-08-017)."
+    actors:
+      primary:
+        - "European Union member states"
+      secondary:
+        - "Mercosur"
+    entities:
+      people: []
+      organizations:
+        - name: "European Union"
+          description: "Supranational union party to the agreement"
+        - name: "Mercosur"
+          description: "South American trade bloc party to the agreement"
+      states:
+        - "Paraguay"
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "trade-agreement"
+        - "council-vote"
+      tags:
+        - "eu-mercosur"
+        - "european-union"
+        - "free-trade"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Twenty-one of the 27 countries of the European Union approve a trade deal with Mercosur, which will create \"the world's largest free trade area\" after 25 years of talks. The deal is expected to be formally signed in Paraguay in the near future. (Politico)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-08-017"
+    notes: "Portal-derived event; reported by Politico per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-09-020"
+    category: "Disasters and accidents"
+    subcategory: "Road accidents"
+    topics:
+      - "Road accidents in Nigeria"
+      - "Borno State"
+    importance: 5
+    headline: "Bus crash between Kano and Maiduguri in Borno State kills nine"
+    summary: >
+      Nine people were killed and 10 injured after a bus crashed between Kano and
+      Maiduguri in Borno State, Nigeria, according to the Wikipedia current-events portal
+      citing Daily Post.
+    key_data:
+      - label: "Killed"
+        value: "9"
+        citation_refs: [39]
+      - label: "Injured"
+        value: "10"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "A bus crashed on the route between Kano and Maiduguri in Borno State."
+        - "Nine people were killed and 10 injured."
+      why_it_matters:
+        - "The crash adds to a high toll of road deaths in Nigeria."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 9 deep-research markdown."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Borno State"
+        - "Kano"
+        - "Maiduguri"
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 9
+      injured: 10
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "road-accident"
+      tags:
+        - "nigeria"
+        - "borno-state"
+        - "bus-crash"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Nine people are killed and 10 are injured after a bus crashes between Kano and Maiduguri in Borno State, Nigeria. (Daily Post)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by Daily Post per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-09-021"
+    category: "Politics and elections"
+    subcategory: "Election disputes"
+    topics:
+      - "2025 Honduran general election"
+      - "National Congress of Honduras"
+      - "Xiomara Castro"
+    importance: 6
+    headline: "Honduran Congress approves recount of November 2025 election, backed by Castro decree"
+    summary: >
+      The National Congress of Honduras approved a recount of the votes cast in the
+      November 2025 election, which was subsequently approved by decree of President
+      Xiomara Castro, according to the Wikipedia current-events portal citing CNN in
+      Spanish and Bloomberg.
+    key_data:
+      - label: "Measure"
+        value: "Recount of November 2025 election votes"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "The National Congress approved a recount of the November 2025 election."
+        - "President Xiomara Castro approved the recount by decree."
+      why_it_matters:
+        - "The recount deepens the dispute over the result ahead of the presidential transition."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 9 deep-research markdown."
+    actors:
+      primary:
+        - "National Congress of Honduras"
+        - "Xiomara Castro"
+      secondary: []
+    entities:
+      people:
+        - name: "Xiomara Castro"
+          role: "President of Honduras"
+      organizations:
+        - name: "National Congress of Honduras"
+          description: "Legislature that approved the recount"
+      states:
+        - "Honduras"
+    geography:
+      countries:
+        - "Honduras"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-09"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "election-recount"
+        - "legislative-vote"
+      tags:
+        - "honduras"
+        - "election-dispute"
+        - "recount"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The National Congress of Honduras approves a recount of the votes cast in the November 2025 election, which is subsequently approved by President Xiomara Castro's decree. (CNN in Spanish) (Bloomberg)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-09-007"
+    notes: "Portal-derived event; reported by CNN in Spanish and Bloomberg per the Wikipedia portal. Not covered in the deep-research markdown."
+
+strategic_conclusion: >
+  January 9 showed escalation on two fronts. Russia's use of the Oreshnik missile
+  against Lviv and deadly strikes on Kyiv marked a step up in the weapons used against
+  Ukraine, and Iran's near-total internet shutdown obscured an increasingly violent
+  crackdown on protesters whose full toll could only be estimated later. The United
+  States continued to pair tanker seizures with courting oil investment in Venezuela,
+  while at home five states went to court over a $10 billion freeze of family-support
+  funding and protests continued over the killing of Renée Good.
+
+  Diplomacy and trade offered counterweights. EU leaders' first visit to Damascus and a
+  €620 million package signalled Europe's bet on Syria's transition even as Aleppo
+  required a ceasefire, and 21 EU states approved the Mercosur agreement over French
+  objections. Elsewhere, Yemen's STC faced a contested dissolution, the Central African
+  Republic confirmed a third term for Touadéra, Honduras moved toward a recount amid
+  violence at Congress, and Australia launched a Royal Commission into antisemitism.
+  Storm Goretti and deadly crashes in India and Nigeria underscored the day's
+  humanitarian costs.
+
+works_cited:
+  - id: 1
+    title: "American oil company CEOs visit White House amid tanker seizures"
+    outlet: "ABC News"
+    url: "https://www.youtube.com/watch?v=oawg8Y3uXRA"
+    accessed: "2026-03-27"
+  - id: 2
+    title: "Early Edition: January 9, 2026"
+    outlet: "Just Security"
+    url: "https://www.justsecurity.org/128400/early-edition-january-9-2026/"
+    accessed: "2026-03-27"
+  - id: 3
+    title: "2026 United States intervention in Venezuela"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela"
+    accessed: "2026-03-27"
+  - id: 4
+    title: "Iran protests and internet shutdown"
+    outlet: "Cloudflare Blog"
+    url: "https://blog.cloudflare.com/iran-protests-internet-shutdown/"
+    accessed: "2026-03-27"
+  - id: 5
+    title: "Iran protests death toll: disappeared bodies and mass burials"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/global-development/2026/jan/27/iran-protests-death-toll-disappeared-bodies-mass-burials-30000-dead"
+    accessed: "2026-03-27"
+  - id: 6
+    title: "At least 12,000 killed in Iran crackdown during internet blackout"
+    outlet: "Iran International"
+    url: "https://www.iranintl.com/en/202601130145"
+    accessed: "2026-03-27"
+  - id: 7
+    title: "2026 Iran massacres"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/2026_Iran_massacres"
+    accessed: "2026-03-27"
+  - id: 8
+    title: "Israel kills 9 Palestinians in Gaza amid ceasefire violations"
+    outlet: "Anadolu Agency"
+    url: "https://www.aa.com.tr/en/middle-east/israel-kills-9-palestinians-in-gaza-amid-ceasefire-violations/3794044"
+    accessed: "2026-03-27"
+  - id: 9
+    title: "Nine citizens, including five children, killed in Israeli strikes in Gaza"
+    outlet: "WAFA"
+    url: "https://english.wafa.ps/Pages/Details/165977"
+    accessed: "2026-03-27"
+  - id: 10
+    title: "Hamas agency says 13 killed by Israeli strikes in Gaza after failed missile launch"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/hamas-agency-says-13-killed-by-israeli-strikes-in-gaza-after-failed-missile-launch/"
+    accessed: "2026-03-27"
+  - id: 11
+    title: "EU leaders' visit to Syria: financial support package of around €620 million"
+    outlet: "European Commission"
+    url: "https://ec.europa.eu/commission/presscorner/detail/da/ip_26_61"
+    accessed: "2026-03-27"
+  - id: 12
+    title: "EU leaders' Syria visit an opportunity to bolster rights"
+    outlet: "Human Rights Watch"
+    url: "https://www.hrw.org/news/2026/01/08/eu-leaders-syria-visit-an-opportunity-to-bolster-rights"
+    accessed: "2026-03-27"
+  - id: 13
+    title: "EU leaders visit Syria and Lebanon"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/syria-lebanon-eu-visit-von-der-leyen-1ed2f398ffa8f2e8668d545db20b9d89"
+    accessed: "2026-03-27"
+  - id: 14
+    title: "China announces another new trade measure against Japan as tensions rise"
+    outlet: "Associated Press via CityNews Halifax"
+    url: "https://halifax.citynews.ca/2026/01/07/china-announces-another-new-trade-measure-against-japan-as-tensions-rise/"
+    accessed: "2026-03-27"
+  - id: 15
+    title: "Between US and China, Japan finds itself friendless"
+    outlet: "Asia Times"
+    url: "https://asiatimes.com/2026/01/between-us-and-china-japan-finds-itself-friendless/"
+    accessed: "2026-03-27"
+  - id: 16
+    title: "AFP report on China-Japan tensions"
+    outlet: "NAMPA / AFP"
+    url: "https://www.nampa.org/text/22827328"
+    accessed: "2026-03-27"
+  - id: 17
+    title: "Conservative lawmaker in Honduras injured after being hit with explosive"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/9/conservative-lawmaker-in-honduras-injured-after-being-hit-with-explosive"
+    accessed: "2026-03-27"
+  - id: 18
+    title: "Honduran lawmaker injured in Congress by homemade explosive"
+    outlet: "Associated Press via KVUE"
+    url: "https://www.kvue.com/article/syndication/associatedpress/honduran-lawmaker-injured-in-congress-by-homemade-explosive/616-4f3a347a-2782-4812-823a-79c4d3b19204"
+    accessed: "2026-03-27"
+  - id: 19
+    title: "Honduran lawmaker hit by explosive in Congress"
+    outlet: "Times of India"
+    url: "https://www.youtube.com/watch?v=7DD_ZiSZBbc"
+    accessed: "2026-03-27"
+  - id: 20
+    title: "States say paperwork tied to $10B funding freeze is an 'intentionally impossible task'"
+    outlet: "Capitol News Illinois"
+    url: "https://capitolnewsillinois.com/news/states-say-paperwork-tied-to-10b-funding-freeze-is-an-intentionally-impossible-task/"
+    accessed: "2026-03-27"
+  - id: 21
+    title: "Attorney General James sues Trump administration to protect billions of dollars"
+    outlet: "New York State Attorney General"
+    url: "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-trump-administration-protect-billions-dollars"
+    accessed: "2026-03-27"
+  - id: 22
+    title: "Attorney General Bonta sues Trump administration to block unlawful freeze of $10 billion"
+    outlet: "California Attorney General"
+    url: "https://oag.ca.gov/news/press-releases/attorney-general-bonta-sues-trump-administration-block-unlawful-freeze-10"
+    accessed: "2026-03-27"
+  - id: 23
+    title: "Newly released video shows Minneapolis shooting from ICE agent's perspective"
+    outlet: "ABC News"
+    url: "https://www.youtube.com/watch?v=BlwfT03KblU"
+    accessed: "2026-03-27"
+  - id: 24
+    title: "Friday morning news: January 9, 2026"
+    outlet: "WORLD Radio"
+    url: "https://wng.org/podcasts/friday-morning-news-january-9-2026-1767904846"
+    accessed: "2026-03-27"
+  - id: 25
+    title: "Global News broadcast, January 9, 2026"
+    outlet: "Global News"
+    url: "https://www.youtube.com/watch?v=mEDa9xlVez8"
+    accessed: "2026-03-27"
+  - id: 26
+    title: "Storm Goretti"
+    outlet: "Met Office"
+    url: "https://weather.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/weather/learn-about/uk-past-events/interesting/2026/2026_02_storm_goretti.pdf"
+    accessed: "2026-03-27"
+  - id: 27
+    title: "At least two dead in England and Wales as Storm Goretti leaves nearly 1.2 million without power"
+    outlet: "Watchers News"
+    url: "https://watchers.news/2026/01/09/at-least-two-dead-in-england-and-wales-as-storm-goretti-leaves-nearly-1-2-million-without-power/"
+    accessed: "2026-03-27"
+  - id: 28
+    title: "Storm Goretti lashes western France, leaving 380,000 without power"
+    outlet: "Anadolu Agency"
+    url: "https://www.aa.com.tr/en/europe/storm-goretti-lashes-western-france-leaving-380-000-without-power/3794458"
+    accessed: "2026-03-27"
+  - id: 29
+    title: "Central African Republic's Touadera wins third presidential term"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/5/central-african-republics-touadera-wins-third-presidential-term"
+    accessed: "2026-03-27"
+  - id: 30
+    title: "Central African Republic court confirms Touadéra's election victory"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/central-african-republic-election-results-touadera-dologuele-66860f354854b90b1194f509746f190c"
+    accessed: "2026-03-27"
+  - id: 31
+    title: "Central Africa Republic President Faustin-Archange Touadera reelected, provisional results show"
+    outlet: "Associated Press via KSAT"
+    url: "https://www.ksat.com/news/world/2026/01/06/central-africa-republic-president-faustin-archange-touadera-reelected-provisional-results-show/"
+    accessed: "2026-03-27"
+  - id: 32
+    title: "Human Rights Council elects Indonesian diplomat as President for 2026"
+    outlet: "UN News"
+    url: "https://news.un.org/en/story/2026/01/1166720"
+    accessed: "2026-03-27"
+  - id: 33
+    title: "Human Rights Council elects Ambassador Sidharto Reza Suryodipuro of Indonesia as President for 2026"
+    outlet: "OHCHR"
+    url: "https://www.ohchr.org/en/press-releases/2026/01/human-rights-council-elects-ambassador-sidharto-reza-suryodipuro-indonesia"
+    accessed: "2026-03-27"
+  - id: 34
+    title: "Indonesia's Presidency of the UN Human Rights Council is Empty Rhetoric Without Domestic Human Rights Improvements"
+    outlet: "INFID"
+    url: "https://infid.org/en/presidensi-dewan-ham-pbb-ri-retorika-kosong-tanpa-pembenahan-ham-domestik/"
+    accessed: "2026-03-27"
+  - id: 35
+    title: "SBS News in Easy English, 9 January 2026"
+    outlet: "SBS News"
+    url: "https://www.sbs.com.au/news/podcast-episode/sbs-news-in-easy-english-9-january-2026/hpowmakyx"
+    accessed: "2026-03-27"
+  - id: 36
+    title: "Royal Commission on Antisemitism and Social Cohesion"
+    outlet: "Australian Government"
+    url: "https://asc.royalcommission.gov.au/"
+    accessed: "2026-03-27"
+  - id: 37
+    title: "Minnesota woman killed in shark attack in Virgin Islands"
+    outlet: "FOX 26 Houston"
+    url: "https://www.fox26houston.com/news/minnesota-woman-killed-shark-attack-virgin-islands"
+    accessed: "2026-03-27"
+  - id: 38
+    title: "Shark kills Minnesota woman in U.S. Virgin Islands"
+    outlet: "CBS News"
+    url: "https://www.cbsnews.com/news/shark-kills-minnesota-woman-us-virgin-islands/"
+    accessed: "2026-03-27"
+  - id: 39
+    title: "Portal:Current events/2026 January 9"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_9"
+    accessed: "2026-03-27"
