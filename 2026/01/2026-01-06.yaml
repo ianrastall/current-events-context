@@ -1,57 +1,2844 @@
-Date: '2026-01-06'
-Source_URI: Portal:Current events/2026 January 6
-Intelligence_Payload:
-  Uncategorized:
-  - Communal conflicts in Nigeria
-  - Herder–farmer conflicts in Nigeria
-  - Five farmers are killed in a shooting attack by herders in Kwande, Benue State,
-    Nigeria. (Daily Post)
-  - Nigerian bandit conflict
-  - At least five Old Oyo National Park security personnel are killed and others injured
-    in a bandit attack in Orire, Oyo State, Nigeria. (The Guardian)
-  - Syrian conflict
-  - SDF–Syrian transitional government clashes
-  - Seven people are killed and several others are wounded in Aleppo, Syria after
-    clashes between the Syrian Armed Forces and the Syrian Democratic Forces. (Reuters)
-    (Al Jazeera)
-  - 2026 United States strikes in Venezuela
-  - Venezuela confirms that 23 members of its military were among the 80 people killed
-    during the American airstrikes on the country, including its capital Caracas,
-    three days ago. (Al Jazeera)
-  - At least 22 people are killed and 65 others are injured after a truck (lorry)
-    carrying migrant workers overturns in Semera, Afar Region, Ethiopia. (BBC News)
-  - Six people are killed and 46 others are injured after a bus and a trailer collide
-    head-on in Kericho County, Kenya. (Capital News)
-  - One person is killed and three others are injured after a bus collides with protesters
-    in Jerusalem, Israel. (The Times of Israel)
-  - The Philippine Institute of Volcanology and Seismology raises the alert level
-    of the Mayon volcano in Luzon to three, citing signs of magma intrusion and possible
-    explosive activity, and orders evacuations within a six-kilometer danger zone.
-    (Reuters)
-  - China–Japan relations
-  - 2025–2026 China–Japan diplomatic crisis
-  - China tightens export controls on dual-use technology to Japan, banning shipments
-    that could support the Japanese military, following diplomatic tensions over remarks
-    related to Taiwan. (AFP via The Sun)
-  - Afghanistan–China relations
-  - Three locals and a company employee are killed and five others are wounded in
-    clashes between residents and employees of a Chinese company contracted for ore
-    washing by the Afghan Ministry of Mining at a gold extraction site in Chah Ab
-    District, Takhar Province, Afghanistan. The company's operations are later suspended
-    pending a probe into the incident. (AP) (Tolo)
-  - Freedom of religion in China
-  - Chinese police detain six members of the unregistered Early Rain Covenant Church
-    in Chengdu, Sichuan, including its current leader, as part of ongoing actions
-    against house churches. (Reuters)
-  - Communications in Palestine
-  - Israel authorizes Palestinian mobile operators Jawwal and Ooredoo to begin upgrading
-    to 4G services in the West Bank after they sign management contracts with the
-    Swedish telecommunications firm Ericsson. (Reuters)
-  - Sexual deepfake generation on X
-  - Coimisiún na Meán says it is engaging with the European Commission on the generation
-    of sexualised images of women and minors as the sharing of non-consensual intimate
-    imagery and generation of child sexual abuse imagery is illegal and platforms
-    are illegal and platforms are legally obliged to act on reports of illegal media
-    content. (RTÉ)
-  - Ofcom announced that it had contacted X over complaints that the sites' AI took
-    Grok was generating fake images of children being sexually abused. (RTÉ)
+date: "2026-01-06"
+source_page:
+  portal: "Portal:Current events/2026 January 6"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 6, 2026 was dominated by the widening consequences of the U.S. capture of
+  Nicolás Maduro. Venezuela confirmed that 23 of its soldiers were among roughly 80
+  people killed in the January 3 strikes, the United Nations Security Council debate
+  drew Chinese condemnation, and the Trump administration's renewed talk of acquiring
+  Greenland prompted a joint statement from European leaders and Denmark defending
+  Greenland's sovereignty, alongside a Canadian pledge to open a consulate in Nuuk.
+  In East Asia, China's Ministry of Commerce banned exports of dual-use items to
+  Japanese military end users, explicitly tying the measure to Prime Minister Sanae
+  Takaichi's remarks on Taiwan.
+
+  The rest of the day mixed fragile ceasefires and internal conflicts with disasters
+  and domestic politics. Cross-border mortar fire wounded a Thai soldier and strained
+  the Thailand-Cambodia truce; Syrian government forces and the Syrian Democratic
+  Forces clashed in Aleppo even as U.S.-mediated Israel-Syria talks resumed. Road
+  crashes killed at least 22 migrant workers in Ethiopia's Afar Region and six people
+  in Kenya's Kericho County, and the Philippines raised Mayon Volcano to Alert Level 3.
+  In the United States, the fifth anniversary of the January 6 Capitol attack exposed
+  sharply divergent official narratives, and the death of Representative Doug LaMalfa
+  narrowed the Republican House majority to 218-213.
+
+events:
+  - id: "evt-2026-01-06-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Military interventions"
+    topics:
+      - "2026 United States strikes in Venezuela"
+      - "Nicolás Maduro"
+      - "Delcy Rodríguez"
+      - "United Nations Security Council"
+      - "Venezuela"
+    importance: 9
+    headline: "Venezuela confirms 23 soldiers among 80 killed as fallout from Maduro's capture widens"
+    summary: >
+      Venezuela confirmed that 23 members of its military were among the 80 people
+      killed during the U.S. strikes on the country, including its capital Caracas, on
+      January 3. The strikes accompanied a U.S. special-operations raid, reported by The
+      Guardian as lasting two hours and 28 minutes, that captured Nicolás Maduro and his
+      wife Cilia Flores, who pleaded not guilty to narcotrafficking charges in a
+      Manhattan federal court on January 5. Delcy Rodríguez was sworn in as acting
+      president, President Donald Trump discussed reviving Venezuela's oil sector with
+      U.S. oil executives, and China's foreign ministry said at a United Nations Security
+      Council emergency meeting that military means are not the solution.
+    key_data:
+      - label: "Total reported killed in U.S. strikes"
+        value: "80"
+        citation_refs: [37]
+      - label: "Venezuelan military personnel among the dead"
+        value: "23"
+        citation_refs: [37]
+      - label: "Reported duration of the capture operation"
+        value: "2 hours 28 minutes"
+        citation_refs: [2]
+      - label: "Plea entered by Maduro in Manhattan federal court"
+        value: "Not guilty"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "Venezuela confirmed that 23 members of its military were among the 80 people killed in the U.S. airstrikes three days earlier."
+        - "The Guardian reported that the U.S. mission that captured Nicolás Maduro and Cilia Flores lasted two hours and 28 minutes and relied on tactical surprise and air dominance."
+        - "Maduro appeared in a federal court in Manhattan and pleaded not guilty to narcotrafficking charges."
+        - "Delcy Rodríguez was sworn in as acting president, and Trump held discussions with U.S. oil executives about Venezuela's petroleum sector."
+        - "At a United Nations Security Council emergency meeting, China's representative stressed that military means are not the solution to problems."
+      why_it_matters:
+        - "The confirmation of military deaths is the first official Venezuelan breakdown of the casualty figure from the January 3 strikes."
+        - "The removal of a sitting head of state by U.S. military force drew condemnation at the United Nations and raised questions about international legal norms in the Western Hemisphere."
+        - "Trump's linkage of the operation to Venezuela's oil sector connects the intervention directly to global energy markets."
+      uncertainty_notes:
+        - "The 80-death figure matches the January 4 portal total; a Venezuelan official cited on January 5 gave a figure of 100, which remains unreconciled."
+        - "The deep-research report also claimed that multiple sanctioned tankers evaded a U.S. maritime blockade; that claim is omitted here because no cited source for January 6 supports it directly."
+        - "The source report was compiled on 2026-03-25 and its synthesis references later events (U.S. and Israeli strikes on Iran in March 2026); those references are excluded from this event."
+    actors:
+      primary:
+        - "United States Armed Forces"
+        - "Nicolás Maduro"
+        - "Delcy Rodríguez"
+      secondary:
+        - "Cilia Flores"
+        - "United Nations Security Council"
+        - "China"
+    entities:
+      people:
+        - name: "Nicolás Maduro"
+          role: "Captured Venezuelan president"
+        - name: "Cilia Flores"
+          role: "Wife of Nicolás Maduro, captured with him"
+        - name: "Delcy Rodríguez"
+          role: "Acting president of Venezuela"
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "United States Armed Forces"
+          description: "Force that carried out the strikes and capture operation"
+        - name: "United Nations Security Council"
+          description: "Body that held an emergency meeting on the U.S. action"
+        - name: "Ministry of Foreign Affairs of China"
+          description: "Ministry whose spokesperson reported China's remarks at the Security Council"
+      states:
+        - "United States"
+        - "Venezuela"
+        - "China"
+    geography:
+      countries:
+        - "Venezuela"
+        - "United States"
+      places:
+        - "Caracas"
+        - "New York City"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 80
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 2
+      damage: "Strikes on Caracas and surrounding areas on January 3 damaged military and air-defense infrastructure."
+    classification:
+      event_type:
+        - "military-intervention"
+        - "casualty-update"
+        - "diplomatic-response"
+      tags:
+        - "venezuela"
+        - "maduro"
+        - "delcy-rodriguez"
+        - "us-strikes"
+        - "un-security-council"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Venezuela confirms that 23 members of its military were among the 80 people killed during the American airstrikes on the country, including its capital Caracas, three days ago. (Al Jazeera)"
+      external:
+        - id: src-001-a
+          outlet: "Foundation for Defense of Democracies"
+          url: "https://www.fdd.org/overnight-brief/january-6-2026/"
+          publication_date: "2026-01-06"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Maduro appeared in a federal court in Manhattan... pleading not guilty to narcotrafficking charges."
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/jan/04/tactical-surprise-and-air-dominance-how-the-us-snatched-maduro-in-two-and-a-half-hours"
+          publication_date: "2026-01-04"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The mission, which resulted in the capture of President Nicolás Maduro and his wife... lasted exactly two hours and 28 minutes."
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "Council on Foreign Relations"
+          url: "https://www.cfr.org/global-conflict-tracker/conflict/instability-venezuela"
+          publication_date: "2026-01-06"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Trump wrote on social media that he will use money from its sale 'to benefit the people'"
+          citation_refs: [3]
+        - id: src-001-d
+          outlet: "Ministry of Foreign Affairs of the People's Republic of China"
+          url: "https://www.mfa.gov.cn/eng/xw/fyrbt/202601/t20260106_11807319.html"
+          publication_date: "2026-01-06"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "China's representative stressed in his remarks that military means are not the solution to problems"
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-001"
+      - "evt-2026-01-04-001"
+      - "evt-2026-01-04-016"
+      - "evt-2026-01-05-001"
+      - "evt-2026-01-05-017"
+    notes: "The Guardian article URL carries a January 4 date; the deep-research report listed it as January 5. The URL date is used."
+
+  - id: "evt-2026-01-06-002"
+    category: "International relations"
+    subcategory: "Diplomatic crises"
+    topics:
+      - "Greenland"
+      - "Denmark–United States relations"
+      - "NATO"
+      - "Canada"
+    importance: 8
+    headline: "European leaders and Denmark reject U.S. pressure over Greenland as Canada backs Nuuk"
+    summary: >
+      Leaders of several European states joined Denmark and Greenland in a joint
+      statement defending Greenland's sovereignty after President Donald Trump renewed
+      his interest in acquiring the Arctic territory. Greenlandic Prime Minister
+      Jens-Frederik Nielsen rejected what he called fantasies about annexation, and
+      Danish Prime Minister Mette Frederiksen warned that a U.S. attack on Greenland would
+      mean the end of NATO. Canadian Prime Minister Mark Carney said Greenland's security
+      is included in NATO and announced plans to open a Canadian consulate in Nuuk.
+    key_data:
+      - label: "Signatories reported for the joint statement"
+        value: "France, Germany, Italy, Poland, Spain, the United Kingdom, Denmark and Greenland"
+        citation_refs: [5]
+      - label: "Canadian diplomatic step"
+        value: "Planned consulate in Nuuk"
+        citation_refs: [5]
+    details:
+      what_happened:
+        - "European leaders issued a joint declaration affirming Greenland's sovereignty and supporting a stronger NATO presence in the Arctic."
+        - "Greenlandic Prime Minister Jens-Frederik Nielsen said there should be no more pressure, innuendo or fantasies about annexation."
+        - "Danish Prime Minister Mette Frederiksen warned that a U.S. military attack on Greenland would mean the end of NATO."
+        - "Canadian Prime Minister Mark Carney said Greenland's security is included in NATO and announced plans for a consulate in Nuuk."
+      why_it_matters:
+        - "Open public disagreement between the United States and several NATO allies over the territory of a NATO member exposed strains in the alliance."
+        - "Canada's diplomatic move and the European statement signal growing allied attention to Arctic security independent of Washington."
+      uncertainty_notes:
+        - "The deep-research report also cited the NATO Unity Protection Act in the U.S. Senate via an LSE blog post dated January 23, 2026; that later development is not treated as part of this January 6 event."
+    actors:
+      primary:
+        - "Donald Trump"
+        - "Jens-Frederik Nielsen"
+        - "Mette Frederiksen"
+        - "Mark Carney"
+      secondary:
+        - "NATO"
+        - "European governments"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Jens-Frederik Nielsen"
+          role: "Prime Minister of Greenland"
+        - name: "Mette Frederiksen"
+          role: "Prime Minister of Denmark"
+        - name: "Mark Carney"
+          role: "Prime Minister of Canada"
+      organizations:
+        - name: "NATO"
+          description: "Military alliance whose mutual-defense framework was invoked by Greenland's supporters"
+      states:
+        - "Denmark"
+        - "United States"
+        - "Canada"
+        - "France"
+        - "Germany"
+        - "Italy"
+        - "Poland"
+        - "Spain"
+        - "United Kingdom"
+    geography:
+      countries:
+        - "Greenland"
+        - "Denmark"
+        - "United States"
+        - "Canada"
+      places:
+        - "Nuuk"
+        - "Copenhagen"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-crisis"
+        - "joint-statement"
+      tags:
+        - "greenland"
+        - "denmark"
+        - "nato"
+        - "arctic-security"
+        - "canada"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-002-a
+          outlet: "Global News"
+          url: "https://globalnews.ca/news/11601006/mark-carney-greenland-nato-trump/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Greenland's security is included in NATO."
+          citation_refs: [5]
+        - id: src-002-b
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/jan/05/trump-must-give-up-fantasies-about-annexation-says-greenland-pm"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Enough is enough. No more pressure. No more innuendo. No more fantasies about annexation."
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-05-003"
+    notes: ""
+
+  - id: "evt-2026-01-06-003"
+    category: "International relations"
+    subcategory: "Export controls and trade disputes"
+    topics:
+      - "2025–2026 China–Japan diplomatic crisis"
+      - "China–Japan relations"
+      - "Export controls"
+      - "Sanae Takaichi"
+    importance: 8
+    headline: "China bans dual-use exports to Japanese military end users over Takaichi's Taiwan remarks"
+    summary: >
+      China's Ministry of Commerce prohibited the export of all dual-use items to Japanese
+      military users, military uses and any other end users that could enhance Japan's
+      military capabilities. Beijing tied the measure to remarks by Japanese Prime
+      Minister Sanae Takaichi about a possible Taiwan contingency. The rules also state
+      that organizations and individuals in any country that transfer Chinese-origin
+      dual-use items to Japan in violation of the ban will be held legally responsible,
+      and Japan lodged a protest demanding the measure be withdrawn.
+    key_data:
+      - label: "Scope of the ban"
+        value: "All dual-use items for Japanese military users, military uses, and end users that could enhance Japan's military capabilities"
+        citation_refs: [7, 9]
+      - label: "Third-country liability"
+        value: "Entities in any country transferring PRC-origin dual-use items to Japan in violation are liable"
+        citation_refs: [8]
+    details:
+      what_happened:
+        - "MOFCOM announced a prohibition on exports of all dual-use items to Japanese military users, military uses, and other end users that could strengthen Japan's military capabilities."
+        - "Chinese authorities linked the measure to Prime Minister Sanae Takaichi's remarks about a Taiwan contingency."
+        - "The measure includes a provision holding organizations and individuals in any country or region liable for transferring PRC-origin dual-use items to Japan in violation of the ban."
+        - "Japan lodged a diplomatic protest and called for the measure to be withdrawn."
+      why_it_matters:
+        - "The ban extends the 2025–2026 China–Japan diplomatic crisis into export controls, affecting supply chains for technology and defense-related goods."
+        - "The extraterritorial liability clause exposes third-country companies to Chinese legal risk if they re-export affected items to Japan."
+      uncertainty_notes:
+        - "The MOFCOM spokesperson remarks were dated January 8 in the deep-research report and the Greenberg Traurig analysis was published in February 2026; both are used for the content of the January 6 measure rather than as same-day reporting."
+    actors:
+      primary:
+        - "Ministry of Commerce of China"
+        - "Government of Japan"
+      secondary:
+        - "Sanae Takaichi"
+        - "Multinational technology and defense companies"
+    entities:
+      people:
+        - name: "Sanae Takaichi"
+          role: "Prime Minister of Japan"
+      organizations:
+        - name: "Ministry of Commerce of the People's Republic of China"
+          description: "Chinese ministry that issued the export ban"
+      states:
+        - "China"
+        - "Japan"
+    geography:
+      countries:
+        - "China"
+        - "Japan"
+      places:
+        - "Beijing"
+        - "Tokyo"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "export-control"
+        - "economic-coercion"
+      tags:
+        - "china"
+        - "japan"
+        - "dual-use-items"
+        - "taiwan"
+        - "sanae-takaichi"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "China tightens export controls on dual-use technology to Japan, banning shipments that could support the Japanese military, following diplomatic tensions over remarks related to Taiwan. (AFP via The Sun)"
+      external:
+        - id: src-003-a
+          outlet: "Ministry of Commerce of the People's Republic of China"
+          url: "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2026/art_ad432d69b63545ef81b6b0c9d21c0fa1.html"
+          publication_date: "2026-01-08"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "prohibit the export of all dual-use items for Japanese military users, Japanese military uses, and any other end users and uses that could contribute to enhancing Japan's military capabilities"
+          citation_refs: [7]
+        - id: src-003-b
+          outlet: "Greenberg Traurig"
+          url: "https://www.gtlaw.com/en/insights/2026/2/china-imposes-escalated-export-controls-on-dual-use-items-to-japan"
+          publication_date: "2026-02-01"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Organizations and individuals in any country/region that transfer or provide PRC-origin dual-use items to Japan in violation will be held legally responsible."
+          citation_refs: [8]
+        - id: src-003-c
+          outlet: "Brownstein Hyatt Farber Schreck"
+          url: "https://www.bhfs.com/insight/china-strengthens-export-controls-on-dual-use-items-to-japan/"
+          publication_date: "2026-01-07"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "This measure is aimed at safeguarding national security, protecting national interests and fulfilling international obligations"
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Greenberg Traurig publication date is given as the first of the month because only the month (February 2026) is known from the URL."
+
+  - id: "evt-2026-01-06-004"
+    category: "International relations"
+    subcategory: "Diplomatic negotiations"
+    topics:
+      - "Israel–Syria relations"
+      - "Ahmed al-Sharaa"
+      - "Iran"
+      - "Syrian transitional government"
+    importance: 6
+    headline: "Israel-Syria talks resume as IDF sources warn of Iranian plot against al-Sharaa"
+    summary: >
+      U.S.-mediated security talks between Israel and Syria's transitional government
+      resumed after an interruption of several months, with Damascus seeking the
+      withdrawal of Israeli forces from territory taken after the fall of Bashar
+      al-Assad. The Jerusalem Post reported IDF sources as warning that Iran was working
+      with other hostile elements to assassinate Syrian President Ahmed al-Sharaa, while
+      Syria categorically denied reports of a security incident targeting him. Israeli
+      Prime Minister Benjamin Netanyahu was reported to have used Russian President
+      Vladimir Putin to convey to Tehran that Israel was not seeking war.
+    key_data:
+      - label: "Mediator"
+        value: "United States"
+        citation_refs: [1]
+      - label: "Syrian demand"
+        value: "Withdrawal of Israeli forces from territory seized after Assad's fall"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "U.S.-mediated talks between Syria and Israel resumed after an interruption of several months."
+        - "Damascus sought the withdrawal of Israeli troops from Syrian territory seized after the fall of the Assad government."
+        - "IDF sources told The Jerusalem Post that Iran was working with other hostile elements to assassinate President Ahmed al-Sharaa."
+        - "Syria categorically denied reports of an attack targeting al-Sharaa and senior officials."
+        - "Netanyahu reportedly passed a message to Iran through Vladimir Putin that Israel does not seek war."
+      why_it_matters:
+        - "The talks are a test of whether a new security arrangement can be reached between Israel and post-Assad Syria."
+        - "Reported threats against al-Sharaa highlight the fragility of Syria's transitional leadership."
+      uncertainty_notes:
+        - "The assassination-plot claim rests on unnamed IDF sources reported by one outlet and was not independently confirmed."
+        - "The resumption of talks was first reported on January 5 and is recorded in evt-2026-01-05-015; this entry reflects continued coverage on January 6."
+    actors:
+      primary:
+        - "Government of Israel"
+        - "Syrian transitional government"
+      secondary:
+        - "United States"
+        - "Iran"
+        - "Vladimir Putin"
+    entities:
+      people:
+        - name: "Ahmed al-Sharaa"
+          role: "President of Syria's transitional government"
+        - name: "Benjamin Netanyahu"
+          role: "Prime Minister of Israel"
+        - name: "Vladimir Putin"
+          role: "President of Russia"
+      organizations:
+        - name: "Israel Defense Forces"
+          description: "Israeli military whose sources issued the assassination-plot warning"
+        - name: "Syrian Ministry of Interior"
+          description: "Ministry that denied reports of an attack on the president"
+      states:
+        - "Israel"
+        - "Syria"
+        - "Iran"
+        - "United States"
+        - "Russia"
+    geography:
+      countries:
+        - "Israel"
+        - "Syria"
+      places:
+        - "Damascus"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-negotiation"
+        - "security-threat"
+      tags:
+        - "israel"
+        - "syria"
+        - "ahmed-al-sharaa"
+        - "iran"
+        - "us-mediation"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-004-a
+          outlet: "Foundation for Defense of Democracies"
+          url: "https://www.fdd.org/overnight-brief/january-6-2026/"
+          publication_date: "2026-01-06"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "U.S.-mediated talks between Syria and Israel have resumed after an interruption of several months"
+          citation_refs: [1]
+        - id: src-004-b
+          outlet: "The Jerusalem Post"
+          url: "https://www.jpost.com/middle-east/article-882403"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Iran is working together with additional hostile elements to assassinate Syrian President Ahmed al-Sharaa, IDF sources warn."
+          citation_refs: [10]
+        - id: src-004-c
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/middle-east/syria-denies-reports-of-security-incident-targeting-president-sharaa-senior-officials/3790460"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Syria on Monday categorically denied reports about an attack targeting President Ahmad al-Sharaa."
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-05-015"
+    notes: "Anadolu Agency was listed only as January 2026 in the deep-research report; the article's reference to 'Monday' places it on 2026-01-05."
+
+  - id: "evt-2026-01-06-005"
+    category: "Law and crime"
+    subcategory: "Criminal law reform"
+    topics:
+      - "Indonesian Criminal Code"
+      - "KUHP"
+      - "KUHAP"
+      - "Civil liberties in Indonesia"
+    importance: 6
+    headline: "Indonesia's new criminal and procedural codes draw civil-society criticism after taking effect"
+    summary: >
+      Indonesia's new criminal code (KUHP) and criminal procedure code (KUHAP), which
+      replace colonial-era legislation, took effect on January 2, 2026. Officials
+      presented the reform as a shift from a retributive to a restorative justice model,
+      but civil-society groups warned that it criminalizes sex outside marriage and
+      cohabitation, penalizes insulting the president and state institutions, and
+      expands police powers. JURIST reported that minimum penalties for corruption were
+      reduced from four years to two years.
+    key_data:
+      - label: "Effective date"
+        value: "2026-01-02"
+        citation_refs: [12]
+      - label: "Minimum corruption sentence"
+        value: "Reduced from four years to two years"
+        citation_refs: [12]
+      - label: "Penalty for sex outside marriage"
+        value: "Up to one year in prison"
+        citation_refs: [14]
+      - label: "Penalty for cohabitation"
+        value: "Up to six months in prison"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "The new KUHP and KUHAP took effect, introducing restorative-justice mechanisms such as community service and mediation."
+        - "The code criminalizes sex outside marriage, punishable by up to one year in prison, and cohabitation, punishable by six months."
+        - "Articles 218 to 220 criminalize acts that 'attack the honor or dignity' of the president or vice president."
+        - "The minimum prison sentence for corruption was reduced from four years to two years."
+        - "Civil-society groups said the procedure code allows arrests, wiretaps and electronic data seizures without court orders in urgent situations."
+      why_it_matters:
+        - "The reform replaces a colonial-era legal framework in the world's fourth most populous country."
+        - "Rights groups argue that broadly worded offenses could be used against journalists, activists and minority groups."
+      uncertainty_notes:
+        - "The codes took effect on January 2; this entry reflects the deep-research report's January 6 coverage rather than a new development on January 6."
+        - "The Hivos and PBS items were dated only 'January 2026' in the deep-research report; their publication dates here are approximated as 2026-01-02, the effective date."
+        - "The reduction of the minimum corruption fine (from 200 million to 10 million rupiah) appears in the deep-research report but is not quoted from a cited source and is omitted from key_data."
+    actors:
+      primary:
+        - "Government of Indonesia"
+      secondary:
+        - "Indonesian civil-society organizations"
+    entities:
+      people:
+        - name: "Yusril Ihza Mahendra"
+          role: "Indonesian Coordinating Minister for Law, Human Rights, Immigration and Corrections"
+      organizations:
+        - name: "Hivos (EU SEE)"
+          description: "Civil-society monitoring network that issued an alert on the new codes"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Jakarta"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "legislation"
+        - "legal-reform"
+      tags:
+        - "indonesia"
+        - "criminal-code"
+        - "civil-liberties"
+        - "anti-corruption"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-005-a
+          outlet: "JURIST"
+          url: "https://www.jurist.org/news/2026/01/indonesia-enforces-new-penal-code-replacing-colonial-criminal-law/"
+          publication_date: "2026-01-02"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The major innovation brought by the new criminal code is that it shifts Indonesia's criminal system from a retributive to a restorative model"
+          citation_refs: [12]
+        - id: src-005-b
+          outlet: "Hivos EU SEE"
+          url: "https://eusee.hivos.org/alert/civil-society-raises-alarm-over-new-criminal-laws-effect-on-enabling-environment/"
+          publication_date: "2026-01-02"
+          source_type: ngo_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Articles 218–220 criminalize acts deemed to 'attack the honor or dignity' of the president or vice president"
+          citation_refs: [13]
+        - id: src-005-c
+          outlet: "PBS NewsHour"
+          url: "https://www.pbs.org/newshour/world/indonesias-new-penal-code-takes-effect-marking-historic-break-with-colonial-law"
+          publication_date: "2026-01-02"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Under the amended code, sex outside marriage is punishable by up to one year in prison, while cohabitation carries a six-month sentence."
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-06-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Police violence"
+    topics:
+      - "Mozambique"
+      - "Artisanal mining"
+      - "Police of the Republic of Mozambique"
+      - "Nampula Province"
+    importance: 7
+    headline: "NGO says Mozambican police killed at least 38 artisanal miners; police report seven dead"
+    summary: >
+      Local civil-society organizations in Mozambique, led by the NGO Kóxukhoro, said
+      police killed at least 38 people and injured at least 13 during clashes in the
+      Marraca mining area of Mogovolas district, Nampula Province, on December 28-29,
+      2025. The Police of the Republic of Mozambique gave a much lower account of seven
+      dead, including a police officer, and said its camp had been attacked by the
+      Naparamas militia and opposition supporters. Human Rights Watch later called for
+      an impartial investigation.
+    key_data:
+      - label: "Deaths claimed by civil-society groups"
+        value: "At least 38"
+        citation_refs: [15, 17]
+      - label: "Deaths reported by police"
+        value: "7, including one police officer"
+        citation_refs: [15]
+      - label: "Injured reported by the NGO"
+        value: "At least 13"
+        citation_refs: [17]
+      - label: "Arrests reported by police"
+        value: "5"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "Kóxukhoro said police fired on artisanal miners in the Marraca mining area, killing at least 38 people and injuring at least 13."
+        - "The NGO reported that 27 motorcycles were burned during the clashes."
+        - "Mozambican police said their camp was attacked by the Naparamas militia and armed opposition supporters, and reported seven deaths and five arrests."
+        - "Relatives reported family members disappearing after seeking medical treatment following the clashes."
+      why_it_matters:
+        - "The gap between the NGO and police accounts raises questions about the use of lethal force by Mozambican security forces."
+        - "The violence occurred in a country already facing an Islamic State-linked insurgency in its northern provinces."
+      uncertainty_notes:
+        - "Civil-society groups reported at least 38 deaths; police reported seven. The casualty_report records the police-confirmed figure of 7 as the minimum and the NGO figure is noted here."
+        - "The clashes took place on December 28-29, 2025; the NGO's claims were reported on January 5, 2026, and Human Rights Watch's statement was published on January 19, 2026."
+    actors:
+      primary:
+        - "Police of the Republic of Mozambique"
+        - "Artisanal miners"
+      secondary:
+        - "Kóxukhoro"
+        - "Naparamas militia"
+        - "Human Rights Watch"
+    entities:
+      people: []
+      organizations:
+        - name: "Police of the Republic of Mozambique"
+          description: "National police force accused of the killings"
+        - name: "Kóxukhoro"
+          description: "Mozambican NGO that reported the higher death toll"
+        - name: "Human Rights Watch"
+          description: "International rights group that called for an investigation"
+        - name: "Naparamas"
+          description: "Militia that police blamed for attacking their camp"
+      states:
+        - "Mozambique"
+    geography:
+      countries:
+        - "Mozambique"
+      places:
+        - "Marraca mining area"
+        - "Mogovolas district"
+        - "Nampula Province"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 7
+      injured: 13
+      displaced: null
+      missing: null
+      arrest_count: 5
+      damage: "The NGO reported 27 motorcycles burned and local mining property looted."
+    classification:
+      event_type:
+        - "police-violence"
+        - "disputed-casualties"
+      tags:
+        - "mozambique"
+        - "artisanal-mining"
+        - "nampula"
+        - "human-rights"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-006-a
+          outlet: "Human Rights Watch"
+          url: "https://www.hrw.org/news/2026/01/19/mozambique-police-linked-to-killings-of-artisanal-miners"
+          publication_date: "2026-01-19"
+          source_type: ngo_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Local civil society organizations said that the police killed at least 38 people during clashes in the Marraca mining area"
+          citation_refs: [15]
+        - id: src-006-b
+          outlet: "ACLED"
+          url: "https://acleddata.com/update/mozambique-conflict-monitor-update-28-january-2026"
+          publication_date: "2026-01-28"
+          source_type: ngo_report
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "a local civil society organization claims that police killed up to 38 people in an operation against small-scale miners"
+          citation_refs: [16]
+        - id: src-006-c
+          outlet: "Correio da Manhã"
+          url: "https://www.cmjornal.pt/mundo/detalhe/ong-denuncia-quase-40-mortos-em-confronto-entre-policia-e-populares-em-mocambique"
+          publication_date: "2026-01-05"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "The NGO reported that at least 13 people were injured"
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: low
+      actor_identification: medium
+    related_events: []
+    notes: "The quotation attributed to Correio da Manhã is an English translation provided in the deep-research report."
+
+  - id: "evt-2026-01-06-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Herder-farmer conflict"
+    topics:
+      - "Communal conflicts in Nigeria"
+      - "Herder–farmer conflicts in Nigeria"
+      - "Benue State"
+    importance: 5
+    headline: "Suspected herders kill five farmers in Kwande, Benue State"
+    summary: >
+      Five farmers were killed in a shooting attack by herders in Kwande, Benue State,
+      Nigeria. Christian Daily International reported that the attackers struck farmers
+      working in fields in Udeku Maav-Ya village at about 4 p.m. on January 6, and that
+      the chairman of the Kwande Local Government Council confirmed the killings.
+    key_data:
+      - label: "Killed"
+        value: "5"
+        citation_refs: [18, 37]
+      - label: "Reported time of attack"
+        value: "About 4 p.m."
+        citation_refs: [18]
+    details:
+      what_happened:
+        - "Attackers described as Fulani herdsmen shot farmers working in fields in Udeku Maav-Ya village."
+        - "Five farmers were killed."
+        - "The chairman of the Kwande Local Government Council confirmed the deaths."
+        - "Christian Daily International reported a separate attack the previous day in which herders killed four residents in Otukpo."
+      why_it_matters:
+        - "The attack is part of a recurring pattern of herder-farmer violence in Nigeria's Middle Belt."
+        - "Repeated attacks on farming communities threaten rural livelihoods and food production in Benue State."
+      uncertainty_notes:
+        - "The identification of the attackers as Fulani herdsmen and of the victims as Christians comes from Christian Daily International; the portal describes the attackers only as herders."
+        - "The Christian Daily article was dated only 'January 2026' in the deep-research report; the publication date here is approximated as 2026-01-07."
+    actors:
+      primary:
+        - "Herders"
+        - "Farmers in Kwande"
+      secondary:
+        - "Kwande Local Government Council"
+    entities:
+      people: []
+      organizations:
+        - name: "Kwande Local Government Council"
+          description: "Local authority that confirmed the killings"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Udeku Maav-Ya"
+        - "Kwande"
+        - "Benue State"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: true
+      time_detail: "About 4 p.m. local time"
+      ongoing: false
+    casualty_report:
+      killed: 5
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "armed-attack"
+        - "communal-violence"
+      tags:
+        - "nigeria"
+        - "benue-state"
+        - "herder-farmer-conflict"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Five farmers are killed in a shooting attack by herders in Kwande, Benue State, Nigeria. (Daily Post)"
+      external:
+        - id: src-007-a
+          outlet: "Christian Daily International"
+          url: "https://www.christiandaily.com/news/fulani-herdsmen-kill-13-christians-in-central-nigeria"
+          publication_date: "2026-01-07"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "In Kwande County, Fulani herdsmen on Jan. 6 killed five Christians as they were working on their farms in Udeku Maav-Ya village at about 4 p.m."
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "The portal cited Daily Post for this event."
+
+  - id: "evt-2026-01-06-008"
+    category: "Law and crime"
+    subcategory: "Criminal investigations"
+    topics:
+      - "Brown University shooting"
+      - "Brookline shooting"
+      - "United States Department of Justice"
+    importance: 5
+    headline: "Prosecutors release transcripts of Brown University shooter's video confessions"
+    summary: >
+      The U.S. Attorney's Office for the District of Massachusetts released translated
+      transcripts of videos recorded by Claudio Manuel Neves Valente, the man
+      responsible for the December 2025 shooting at Brown University and the killing of
+      an MIT professor in Brookline. In the videos, recovered by investigators before
+      his death, Neves Valente said he had planned the Brown shooting for a long time and
+      expressed no remorse. He denied any ideological or religious motive, and officials
+      said there was no ongoing threat to public safety.
+    key_data:
+      - label: "Recording language"
+        value: "Portuguese, released with English translation"
+        citation_refs: [19]
+      - label: "Stated motive"
+        value: "Personal grievance; ideological or religious motive denied"
+        citation_refs: [20]
+    details:
+      what_happened:
+        - "Prosecutors released English transcripts of Portuguese-language videos recorded by Neves Valente."
+        - "Neves Valente said in the videos that he had been planning the Brown University shooting for a long time."
+        - "He said he would not apologize because no one had sincerely apologized to him during his lifetime."
+        - "He denied ideological or religious motives."
+        - "Officials said the investigation into the motive continued but there was no ongoing public-safety threat."
+      why_it_matters:
+        - "The release addressed public speculation about the attacker's motives in a high-profile campus shooting."
+      uncertainty_notes:
+        - "The ABC News video was dated only 'January 2026' in the deep-research report; the publication date here is approximated as 2026-01-06."
+        - "The deep-research report gave three killed and nine injured for the December 2025 shootings; those figures refer to the earlier incidents and are not recorded in this event's casualty_report."
+    actors:
+      primary:
+        - "U.S. Attorney's Office for the District of Massachusetts"
+        - "Claudio Manuel Neves Valente"
+      secondary:
+        - "Federal Bureau of Investigation"
+    entities:
+      people:
+        - name: "Claudio Manuel Neves Valente"
+          role: "Perpetrator of the Brown University and Brookline shootings"
+      organizations:
+        - name: "U.S. Attorney's Office for the District of Massachusetts"
+          description: "Federal prosecutors who released the transcripts"
+        - name: "Brown University"
+          description: "Site of the December 2025 shooting"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Providence, Rhode Island"
+        - "Brookline, Massachusetts"
+        - "Boston"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "investigation-update"
+        - "evidence-release"
+      tags:
+        - "brown-university"
+        - "mass-shooting"
+        - "department-of-justice"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-008-a
+          outlet: "U.S. Attorney's Office, District of Massachusetts"
+          url: "https://www.justice.gov/usao-ma/pr/update-investigation-brown-university-and-brookline-shootings"
+          publication_date: "2026-01-06"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "In these videos, Neves Valente admitted that he had been planning the Brown University shooting for a long time."
+          citation_refs: [19]
+        - id: src-008-b
+          outlet: "ABC News"
+          url: "https://www.youtube.com/watch?v=PSrhmiI8i5A"
+          publication_date: "2026-01-06"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "i am not going to apologize because during my lifetime no one sincerely apologized to me"
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-06-009"
+    category: "Politics and elections"
+    subcategory: "Anniversaries and political commemorations"
+    topics:
+      - "January 6 United States Capitol attack"
+      - "Pardons for January 6 defendants"
+      - "Donald Trump"
+    importance: 6
+    headline: "Fifth anniversary of the January 6 Capitol attack marked by rival narratives"
+    summary: >
+      The fifth anniversary of the January 6, 2021 attack on the U.S. Capitol was the
+      first since President Donald Trump pardoned or commuted the sentences of nearly
+      1,600 people prosecuted in connection with the riot. A smaller crowd of his
+      supporters, including pardoned defendants, returned to the Capitol, while the
+      White House published material defending the pardons and House Democrats released
+      their own account of the attack. The Associated Press reported that the parties
+      still do not share a history of the day and that an official plaque honoring the
+      police who defended the Capitol has never been hung.
+    key_data:
+      - label: "People pardoned or granted commutations"
+        value: "Nearly 1,600"
+        citation_refs: [22]
+    details:
+      what_happened:
+        - "Pardoned January 6 defendants and other Trump supporters returned to the Capitol area on the anniversary."
+        - "The White House published a page on January 6 defending the pardons and blaming others for security failures."
+        - "House Judiciary Committee Democrats released a report titled 'January 6: Five Years Later'."
+        - "The official plaque honoring police officers who defended the Capitol remained unhung."
+      why_it_matters:
+        - "The competing official accounts reflect continued partisan division over the attack on the transfer of power."
+        - "The anniversary was the first since the mass pardons, which critics say weaken deterrence of political violence."
+      uncertainty_notes:
+        - "The White House page was dated only 'January 2026' in the deep-research report; the publication date here is approximated as 2026-01-06."
+    actors:
+      primary:
+        - "Donald Trump"
+        - "Congressional Democrats"
+      secondary:
+        - "Pardoned January 6 defendants"
+        - "United States Capitol Police"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "White House"
+          description: "Published the administration's account of January 6"
+        - name: "House Judiciary Committee Democrats"
+          description: "Published a five-year retrospective on the attack"
+        - name: "United States Capitol Police"
+          description: "Police force that defended the Capitol in 2021"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington, D.C."
+        - "United States Capitol"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "anniversary"
+        - "political-division"
+      tags:
+        - "january-6"
+        - "capitol-attack"
+        - "pardons"
+        - "united-states-politics"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-009-a
+          outlet: "PBS NewsHour"
+          url: "https://www.youtube.com/watch?v=pvjdvc5Z7kw"
+          publication_date: "2026-01-06"
+          source_type: broadcast
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "A much smaller but ardent crowd of his supporters returned to the site of the 2021 insurrection, marking the first Jan. 6 since Trump fully pardoned them"
+          citation_refs: [21]
+        - id: src-009-b
+          outlet: "The White House"
+          url: "https://www.whitehouse.gov/j6/"
+          publication_date: "2026-01-06"
+          source_type: official_release
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "President Trump issued sweeping blanket pardons and commutations for nearly 1,600 patriotic Americans prosecuted for their presence at the Capitol"
+          citation_refs: [22]
+        - id: src-009-c
+          outlet: "Associated Press via Military.com"
+          url: "https://www.military.com/daily-news/2026/01/06/fifth-anniversary-of-jan-6-brings-fresh-division-capitol.html"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "The political parties refuse to agree to a shared history of the events... And the official plaque honoring the police who defended the Capitol has never been hung."
+          citation_refs: [23]
+        - id: src-009-d
+          outlet: "House Committee on the Judiciary Democrats"
+          url: "https://democrats-judiciary.house.gov/january-6-five-years-later"
+          publication_date: "2026-01-06"
+          source_type: official_release
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [24]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "White House and House Democrats sources are partisan official publications and are cited for their own positions."
+
+  - id: "evt-2026-01-06-010"
+    category: "Disasters and accidents"
+    subcategory: "Volcanic activity"
+    topics:
+      - "Mayon Volcano"
+      - "PHIVOLCS"
+      - "Albay"
+      - "Philippines"
+    importance: 6
+    headline: "Philippines raises Mayon Volcano to Alert Level 3 and evacuates nearly 3,000 villagers"
+    summary: >
+      The Philippine Institute of Volcanology and Seismology raised Mayon Volcano's alert
+      status from Level 2 to Level 3, indicating an increased tendency towards a
+      hazardous eruption, citing signs of magma intrusion and possible explosive
+      activity. Authorities ordered evacuations within the six-kilometer Permanent Danger
+      Zone, and the Associated Press reported that nearly 3,000 villagers were evacuated
+      from the volcano's foothills in Albay province.
+    key_data:
+      - label: "Alert level"
+        value: "Raised from 2 to 3"
+        citation_refs: [25]
+      - label: "Danger zone"
+        value: "6-kilometer Permanent Danger Zone"
+        citation_refs: [25, 37]
+      - label: "Villagers evacuated"
+        value: "Nearly 3,000"
+        citation_refs: [26]
+    details:
+      what_happened:
+        - "PHIVOLCS raised Mayon's alert level from Level 2 (increasing unrest) to Level 3 (increased tendency towards a hazardous eruption)."
+        - "Authorities ordered evacuations within the six-kilometer Permanent Danger Zone."
+        - "Nearly 3,000 villagers were evacuated from the volcano's foothills."
+        - "Aircraft were advised to avoid flying close to the summit."
+        - "PHIVOLCS warned of pyroclastic density currents, lava flows and sediment-laden streamflows on the upper and middle slopes."
+      why_it_matters:
+        - "Mayon is among the most active volcanoes in the Philippines, and Level 3 signals that a hazardous eruption is possible within weeks or even days."
+        - "The evacuation requires sustained shelter and relief support for displaced residents."
+      uncertainty_notes:
+        - "The Philippine News Agency article date was not given in the deep-research report; it is approximated here as 2026-01-06."
+    actors:
+      primary:
+        - "Philippine Institute of Volcanology and Seismology"
+        - "Albay local authorities"
+      secondary:
+        - "Residents of the Permanent Danger Zone"
+    entities:
+      people: []
+      organizations:
+        - name: "Philippine Institute of Volcanology and Seismology"
+          description: "Government agency that monitors volcanoes and raised the alert level"
+      states:
+        - "Philippines"
+    geography:
+      countries:
+        - "Philippines"
+      places:
+        - "Mayon Volcano"
+        - "Albay"
+        - "Luzon"
+      coordinates:
+        - lat: 13.257
+          lon: 123.685
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 3000
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "volcanic-unrest"
+        - "evacuation"
+      tags:
+        - "mayon-volcano"
+        - "phivolcs"
+        - "philippines"
+        - "alert-level-3"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Philippine Institute of Volcanology and Seismology raises the alert level of the Mayon volcano in Luzon to three, citing signs of magma intrusion and possible explosive activity, and orders evacuations within a six-kilometer danger zone. (Reuters)"
+      external:
+        - id: src-010-a
+          outlet: "PHIVOLCS"
+          url: "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-mvo?bid=13423"
+          publication_date: "2026-01-06"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "This serves as a notice of alert level raise from Alert Level 2 (increasing unrest) to Alert Level 3 (increased tendency towards a hazardous eruption)"
+          citation_refs: [25]
+        - id: src-010-b
+          outlet: "Associated Press via WRAL"
+          url: "https://www.wral.com/news/ap/d3734-philippines-evacuates-3-000-villagers-after-volcano-activity-raises-alert-level/"
+          publication_date: "2026-01-07"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "The Philippines has evacuated nearly 3,000 villagers from a danger zone on the foothills of the Mayon Volcano"
+          citation_refs: [26]
+        - id: src-010-c
+          outlet: "Philippine News Agency"
+          url: "https://www.pna.gov.ph/articles/1266292"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Coordinates are Mayon Volcano's summit. The portal cited Reuters for this event."
+
+  - id: "evt-2026-01-06-011"
+    category: "Armed conflicts and attacks"
+    subcategory: "Border clashes"
+    topics:
+      - "Cambodia–Thailand border conflict"
+      - "Ceasefire"
+      - "Ubon Ratchathani"
+    importance: 6
+    headline: "Cross-border mortar fire wounds Thai soldier and strains Thailand-Cambodia truce"
+    summary: >
+      Mortar fire from Cambodian territory struck Thailand's Ubon Ratchathani province,
+      wounding a Thai soldier. The Thai army said the strike violated the ceasefire
+      agreed in December and warned that it was prepared to retaliate in self-defense.
+      Cambodia's military contacted a Thai unit to say there was no intention to fire
+      into Thai territory and that the incident was caused by an operational error, and
+      Prime Minister Anutin Charnvirakul said Thailand had lodged a protest.
+    key_data:
+      - label: "Soldiers wounded"
+        value: "1"
+        citation_refs: [29]
+      - label: "Cambodian explanation"
+        value: "Operational error"
+        citation_refs: [28]
+    details:
+      what_happened:
+        - "Mortar rounds fired from Cambodia struck Ubon Ratchathani province, and one Thai soldier was wounded by shrapnel."
+        - "The Thai army said the strike violated the truce and warned of retaliation in self-defense."
+        - "The Cambodian side told a Thai military unit there was no intention to fire into Thai territory and blamed an operational error."
+        - "Prime Minister Anutin Charnvirakul said Thailand had lodged a protest."
+      why_it_matters:
+        - "The incident tested a ceasefire that had halted weeks of fighting over the disputed border in late 2025."
+      uncertainty_notes:
+        - "The deep-research report described the truce as a '10-day ceasefire'; this is not independently supported by the cited sources and is omitted."
+    actors:
+      primary:
+        - "Royal Thai Army"
+        - "Royal Cambodian Armed Forces"
+      secondary:
+        - "Anutin Charnvirakul"
+    entities:
+      people:
+        - name: "Anutin Charnvirakul"
+          role: "Prime Minister of Thailand"
+      organizations:
+        - name: "Royal Thai Army"
+          description: "Thai army that reported the strike"
+        - name: "Royal Cambodian Armed Forces"
+          description: "Cambodian military that attributed the strike to an operational error"
+      states:
+        - "Thailand"
+        - "Cambodia"
+    geography:
+      countries:
+        - "Thailand"
+        - "Cambodia"
+      places:
+        - "Ubon Ratchathani Province"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: true
+      time_detail: "Morning, local time"
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 1
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "border-clash"
+        - "ceasefire-violation"
+      tags:
+        - "thailand"
+        - "cambodia"
+        - "ceasefire"
+        - "mortar-fire"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-011-a
+          outlet: "The Japan Times"
+          url: "https://www.japantimes.co.jp/news/2026/01/06/asia-pacific/thailand-cambodia-border-strike-truce/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "there was no intention to fire into Thai territory"
+            - "the incident was caused by an operational error"
+          citation_refs: [28]
+        - id: src-011-b
+          outlet: "Al Arabiya"
+          url: "https://english.alarabiya.net/News/world/2026/01/06/thai-army-says-cambodia-border-strike-wounds-soldier-violates-truce"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "One soldier was wounded by shrapnel and being evacuated for medical treatment"
+          citation_refs: [29]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-05-006"
+    notes: ""
+
+  - id: "evt-2026-01-06-012"
+    category: "Armed conflicts and attacks"
+    subcategory: "Internal armed clashes"
+    topics:
+      - "Syrian conflict"
+      - "SDF–Syrian transitional government clashes"
+      - "Aleppo"
+    importance: 6
+    headline: "Clashes between Syrian government forces and the SDF kill seven in Aleppo"
+    summary: >
+      Seven people were killed and several others wounded in Aleppo after clashes
+      between the Syrian Armed Forces and the Kurdish-led Syrian Democratic Forces. The
+      Institute for the Study of War assessed that the clashes were not likely to derail
+      ongoing negotiations on integrating the SDF into Syria's national military.
+    key_data:
+      - label: "Killed"
+        value: "7"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "Syrian government forces and the Syrian Democratic Forces clashed in Aleppo."
+        - "Seven people were killed and several others were wounded."
+        - "The clashes occurred during negotiations on integrating the SDF into the national army."
+      why_it_matters:
+        - "Fighting in Syria's largest northern city shows the difficulty of consolidating control under the transitional government."
+      uncertainty_notes:
+        - "The deep-research report relies on the portal for casualty figures; the underlying Reuters and Al Jazeera reports were not directly cited."
+    actors:
+      primary:
+        - "Syrian Armed Forces"
+        - "Syrian Democratic Forces"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Syrian Democratic Forces"
+          description: "Kurdish-led armed coalition in northeastern Syria"
+        - name: "Syrian Armed Forces"
+          description: "Military of Syria's transitional government"
+      states:
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Aleppo"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 7
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-clash"
+        - "internal-conflict"
+      tags:
+        - "syria"
+        - "aleppo"
+        - "sdf"
+        - "sdf-integration"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Seven people are killed and several others are wounded in Aleppo, Syria after clashes between the Syrian Armed Forces and the Syrian Democratic Forces. (Reuters) (Al Jazeera)"
+      external:
+        - id: src-012-a
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-january-6-2026/"
+          publication_date: "2026-01-06"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Neither the January 6 MoD-SDF clashes in Aleppo City... are likely to derail ongoing SDF integration negotiations, however."
+          citation_refs: [30]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "The portal cited Reuters and Al Jazeera for this event."
+
+  - id: "evt-2026-01-06-013"
+    category: "Disasters and accidents"
+    subcategory: "Road accidents"
+    topics:
+      - "Road accidents in Ethiopia"
+      - "Afar Region"
+      - "Migrant workers"
+    importance: 6
+    headline: "Truck carrying migrant workers overturns in Semera, Ethiopia, killing at least 22"
+    summary: >
+      At least 22 people were killed and 65 others injured after a truck carrying
+      migrant workers overturned in Semera, in Ethiopia's Afar Region, according to the
+      Wikipedia current-events portal citing BBC News.
+    key_data:
+      - label: "Killed"
+        value: "At least 22"
+        citation_refs: [37]
+      - label: "Injured"
+        value: "65"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "A truck carrying migrant workers overturned in Semera, Afar Region."
+        - "At least 22 people were killed."
+        - "65 others were injured."
+      why_it_matters:
+        - "The crash is among the deadliest road accidents of early 2026 and highlights the risks faced by migrant workers travelling in overloaded vehicles."
+      uncertainty_notes:
+        - "The deep-research report had no independent source beyond the portal for this event."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Ethiopia"
+    geography:
+      countries:
+        - "Ethiopia"
+      places:
+        - "Semera"
+        - "Afar Region"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 22
+      injured: 65
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "road-accident"
+        - "mass-casualty"
+      tags:
+        - "ethiopia"
+        - "afar-region"
+        - "migrant-workers"
+        - "truck-crash"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 22 people are killed and 65 others are injured after a truck (lorry) carrying migrant workers overturns in Semera, Afar Region, Ethiopia. (BBC News)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Covered in the deep-research markdown but sourced only to the Wikipedia portal, which cited BBC News."
+
+  - id: "evt-2026-01-06-014"
+    category: "Disasters and accidents"
+    subcategory: "Road accidents"
+    topics:
+      - "Road accidents in Kenya"
+      - "Kericho County"
+    importance: 5
+    headline: "Head-on bus and trailer collision kills six in Kericho County, Kenya"
+    summary: >
+      Six people were killed and 46 others injured when a bus and a trailer collided
+      head-on at Tunnel Mendera on the Londiani-Muhoroni road in Kericho County, Kenya.
+      Citizen Digital reported that passengers said the bus driver was speeding and that
+      the crash was part of a run of road deaths in the first days of 2026.
+    key_data:
+      - label: "Killed"
+        value: "6"
+        citation_refs: [31, 37]
+      - label: "Injured"
+        value: "46"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "A bus and a trailer collided head-on at Tunnel Mendera on the Londiani-Muhoroni road."
+        - "Six people were killed and 46 were injured."
+        - "Passengers said the bus driver was speeding."
+        - "The injured were taken to Kericho County Referral Hospital."
+      why_it_matters:
+        - "Citizen Digital reported 31 road deaths in Kenya in the first six days of 2026, increasing scrutiny of road safety enforcement."
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Kenya"
+    geography:
+      countries:
+        - "Kenya"
+      places:
+        - "Tunnel Mendera"
+        - "Londiani-Muhoroni road"
+        - "Kericho County"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: 46
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Bus and trailer heavily damaged."
+    classification:
+      event_type:
+        - "road-accident"
+      tags:
+        - "kenya"
+        - "kericho-county"
+        - "bus-crash"
+        - "road-safety"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Six people are killed and 46 others are injured after a bus and a trailer collide head-on in Kericho County, Kenya. (Capital News)"
+      external:
+        - id: src-014-a
+          outlet: "Citizen Digital"
+          url: "https://www.citizen.digital/article/31-kenyans-killed-in-road-accidents-in-the-first-six-days-of-2026-n375350"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "On Tuesday, six people died in Kericho County... Passengers said the bus driver was speeding at the time of the accident."
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: low
+    related_events: []
+    notes: "The portal cited Capital News for this event."
+
+  - id: "evt-2026-01-06-015"
+    category: "Disasters and accidents"
+    subcategory: "Road accidents"
+    topics:
+      - "Haredi conscription protests"
+      - "Jerusalem"
+      - "Israel"
+    importance: 5
+    headline: "Bus strikes Haredi anti-conscription protesters in Jerusalem, killing one"
+    summary: >
+      One person was killed and three others injured after a bus struck protesters in
+      Jerusalem. The Times of Israel reported that the protesters were ultra-Orthodox
+      demonstrators opposing military conscription and that, after the collision, young
+      demonstrators continued to block the corner of Shamgar and Yirmiyahu streets.
+    key_data:
+      - label: "Killed"
+        value: "1"
+        citation_refs: [37]
+      - label: "Injured"
+        value: "3"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "A bus collided with Haredi protesters who were blocking a road in Jerusalem."
+        - "One person was killed and three were injured."
+        - "The protest was against military conscription of ultra-Orthodox men."
+        - "Demonstrators continued blocking the corner of Shamgar and Yirmiyahu streets after the collision."
+      why_it_matters:
+        - "The death adds to tensions over the conscription of ultra-Orthodox men, a divisive issue for Israel's governing coalition."
+      uncertainty_notes:
+        - "The deep-research report framed this event against a 'broader war with Iran'; that framing reflects events after January 6 and is excluded."
+    actors:
+      primary:
+        - "Haredi demonstrators"
+      secondary:
+        - "Bus driver"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+    geography:
+      countries:
+        - "Israel"
+      places:
+        - "Jerusalem"
+        - "Shamgar Street"
+        - "Yirmiyahu Street"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 3
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "road-accident"
+        - "protest"
+      tags:
+        - "israel"
+        - "jerusalem"
+        - "haredi"
+        - "conscription"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "One person is killed and three others are injured after a bus collides with protesters in Jerusalem, Israel. (The Times of Israel)"
+      external:
+        - id: src-015-a
+          outlet: "The Times of Israel"
+          url: "https://www.timesofisrael.com/liveblog-january-6-2026/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Young Haredi demonstrators in Jerusalem continue to block the corner of Shamgar and Yirmiyahu streets, near where a bus ran over protesters"
+          citation_refs: [32]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-06-016"
+    category: "Politics and elections"
+    subcategory: "Deaths of officeholders"
+    topics:
+      - "Doug LaMalfa"
+      - "United States House of Representatives"
+      - "California's 1st congressional district"
+    importance: 6
+    headline: "Rep. Doug LaMalfa dies, narrowing the Republican House majority to 218-213"
+    summary: >
+      U.S. Representative Doug LaMalfa, a California Republican, died at 65. PBS
+      NewsHour reported that his death trimmed the Republicans' narrow House majority to
+      218 seats against Democrats' 213, and that President Donald Trump expressed
+      sorrow at the news. CalMatters reported that under California law Governor Gavin
+      Newsom must call a special election within 14 days to fill the remainder of his
+      term.
+    key_data:
+      - label: "Age at death"
+        value: "65"
+        citation_refs: [33, 34]
+      - label: "House balance after death"
+        value: "218 Republicans, 213 Democrats"
+        citation_refs: [33]
+      - label: "Deadline to call special election"
+        value: "Within 14 days"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "LaMalfa died after a medical emergency, during emergency surgery."
+        - "His death reduced the Republican House majority to 218-213."
+        - "Trump expressed sorrow at a meeting with House Republicans and praised LaMalfa's loyalty."
+        - "California law requires Governor Gavin Newsom to call a special election within 14 days."
+      why_it_matters:
+        - "The vacancy leaves House Republican leaders with an even smaller margin on party-line votes."
+        - "The special election for California's 1st district will be held while the state moves to redrawn district maps for the November midterms."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Doug LaMalfa"
+      secondary:
+        - "Donald Trump"
+        - "Gavin Newsom"
+    entities:
+      people:
+        - name: "Doug LaMalfa"
+          role: "U.S. Representative for California's 1st congressional district"
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Gavin Newsom"
+          role: "Governor of California"
+      organizations:
+        - name: "United States House of Representatives"
+          description: "Chamber whose majority margin narrowed"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "California"
+        - "Chico, California"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "death-of-officeholder"
+        - "legislative-vacancy"
+      tags:
+        - "doug-lamalfa"
+        - "house-of-representatives"
+        - "california"
+        - "special-election"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-016-a
+          outlet: "PBS NewsHour"
+          url: "https://www.pbs.org/newshour/politics/republican-rep-doug-lamalfa-of-california-dies-reducing-gops-narrow-control-of-the-house-to-218-213"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "His death trims the Republicans' narrow margin of control of the House to 218 seats to Democrats' 213."
+          citation_refs: [33]
+        - id: src-016-b
+          outlet: "CalMatters"
+          url: "https://calmatters.org/politics/2026/01/lamalfa-dies-vacancy/"
+          publication_date: "2026-01-06"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "Under California law, Gov. Gavin Newsom must call a special election within 14 days to fill the remainder of LaMalfa's term."
+          citation_refs: [34]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "casualty_report is zero because the death was from natural or medical causes, not a violent or accidental event."
+
+  - id: "evt-2026-01-06-017"
+    category: "Disasters and accidents"
+    subcategory: "Disaster recovery funding"
+    topics:
+      - "Queensland floods"
+      - "Disaster Recovery Funding Arrangements"
+      - "Anthony Albanese"
+    importance: 4
+    headline: "Australia commits A$38 million in disaster support for flood-hit north-west Queensland"
+    summary: >
+      The Australian federal government and the Queensland government committed an
+      additional $38 million for large-scale recovery in flood-affected north-west
+      Queensland under the jointly funded Disaster Recovery Funding Arrangements. The
+      package includes $21.5 million for primary producer Disaster Recovery Grants of up
+      to $75,000 and $11.5 million for repairs and flood resilience at Cloncurry Airport.
+    key_data:
+      - label: "Total package"
+        value: "A$38 million"
+        citation_refs: [35]
+      - label: "Primary producer grants"
+        value: "A$21.5 million, grants up to A$75,000"
+        citation_refs: [35, 36]
+      - label: "Cloncurry Airport repairs"
+        value: "A$11.5 million"
+        citation_refs: [35]
+    details:
+      what_happened:
+        - "The Albanese and Crisafulli governments committed an additional $38 million to disaster recovery in north-west Queensland."
+        - "$21.5 million was allocated to Disaster Recovery Grants of up to $75,000 for primary producers."
+        - "$11.5 million was allocated to repairs and flood-resilience work at Cloncurry Airport."
+      why_it_matters:
+        - "The funding supports agricultural recovery and infrastructure repair in a region hit by flooding."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Australia"
+        - "Government of Queensland"
+      secondary:
+        - "Primary producers in north-west Queensland"
+    entities:
+      people:
+        - name: "Anthony Albanese"
+          role: "Prime Minister of Australia"
+        - name: "David Crisafulli"
+          role: "Premier of Queensland"
+      organizations:
+        - name: "Queensland Rural and Industry Development Authority"
+          description: "State authority administering the Disaster Recovery Grants"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "North-west Queensland"
+        - "Cloncurry"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Flooding damaged agricultural land and infrastructure, including Cloncurry Airport."
+    classification:
+      event_type:
+        - "disaster-recovery"
+        - "government-funding"
+      tags:
+        - "australia"
+        - "queensland"
+        - "floods"
+        - "disaster-recovery-funding"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-017-a
+          outlet: "Prime Minister of Australia"
+          url: "https://www.pm.gov.au/media/38-million-disaster-support-north-west-queensland"
+          publication_date: "2026-01-06"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The Albanese and Crisafulli Governments have today committed an additional $38 million towards large-scale disaster recovery efforts"
+          citation_refs: [35]
+        - id: src-017-b
+          outlet: "Queensland Rural and Industry Development Authority"
+          url: "https://www.qrida.qld.gov.au/news/38-million-disaster-support-north-west-queensland"
+          publication_date: "2026-01-06"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "$21.5 million for primary producer Disaster Recovery Grants up to $75,000."
+          citation_refs: [36]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Amounts are in Australian dollars."
+
+  - id: "evt-2026-01-06-018"
+    category: "Business and economy"
+    subcategory: "Telecommunications"
+    topics:
+      - "Communications in Palestine"
+      - "Jawwal"
+      - "Ooredoo Palestine"
+      - "Ericsson"
+    importance: 4
+    headline: "Israel authorizes Palestinian mobile operators to upgrade to 4G in the West Bank"
+    summary: >
+      Israel authorized the Palestinian mobile operators Jawwal and Ooredoo to begin
+      upgrading to 4G services in the West Bank after they signed management contracts
+      with the Swedish telecommunications company Ericsson, according to the Wikipedia
+      current-events portal citing Reuters.
+    key_data:
+      - label: "Operators authorized"
+        value: "Jawwal and Ooredoo"
+        citation_refs: [37]
+      - label: "Technology partner"
+        value: "Ericsson"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "Israel authorized Jawwal and Ooredoo to begin upgrading to 4G services in the West Bank."
+        - "The authorization followed management contracts signed with Ericsson."
+      why_it_matters:
+        - "Faster mobile networks would expand digital services available to Palestinians in the West Bank."
+      uncertainty_notes:
+        - "The deep-research report asserted that the authorization removed restrictions that had confined Palestinian networks to 3G, but cited only the portal; that claim is omitted."
+    actors:
+      primary:
+        - "Government of Israel"
+        - "Jawwal"
+        - "Ooredoo Palestine"
+      secondary:
+        - "Ericsson"
+    entities:
+      people: []
+      organizations:
+        - name: "Jawwal"
+          description: "Palestinian mobile network operator"
+        - name: "Ooredoo Palestine"
+          description: "Palestinian mobile network operator"
+        - name: "Ericsson"
+          description: "Swedish telecommunications company"
+      states:
+        - "Israel"
+        - "State of Palestine"
+    geography:
+      countries:
+        - "Israel"
+        - "State of Palestine"
+      places:
+        - "West Bank"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "regulatory-approval"
+        - "telecommunications"
+      tags:
+        - "west-bank"
+        - "4g"
+        - "jawwal"
+        - "ooredoo"
+        - "ericsson"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Israel authorizes Palestinian mobile operators Jawwal and Ooredoo to begin upgrading to 4G services in the West Bank after they sign management contracts with the Swedish telecommunications firm Ericsson. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Covered in the deep-research markdown but sourced only to the Wikipedia portal, which cited Reuters."
+
+  - id: "evt-2026-01-06-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "Bandit attacks"
+    topics:
+      - "Nigerian bandit conflict"
+      - "Old Oyo National Park"
+      - "Oyo State"
+    importance: 5
+    headline: "Bandits kill at least five Old Oyo National Park security personnel in Oyo State"
+    summary: >
+      At least five security personnel of Old Oyo National Park were killed and others
+      injured in a bandit attack in Orire, Oyo State, Nigeria, according to the
+      Wikipedia current-events portal citing The Guardian.
+    key_data:
+      - label: "Killed"
+        value: "At least 5"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "Bandits attacked security personnel of Old Oyo National Park in Orire, Oyo State."
+        - "At least five personnel were killed and others were injured."
+      why_it_matters:
+        - "The attack indicates that bandit violence, concentrated in Nigeria's north-west, is also affecting the south-western state of Oyo."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 6 deep-research markdown."
+    actors:
+      primary:
+        - "Bandits"
+      secondary:
+        - "Old Oyo National Park security personnel"
+    entities:
+      people: []
+      organizations:
+        - name: "Old Oyo National Park"
+          description: "Nigerian national park whose security personnel were attacked"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Orire"
+        - "Oyo State"
+        - "Old Oyo National Park"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 5
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-attack"
+        - "banditry"
+      tags:
+        - "nigeria"
+        - "oyo-state"
+        - "banditry"
+        - "national-park"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least five Old Oyo National Park security personnel are killed and others injured in a bandit attack in Orire, Oyo State, Nigeria. (The Guardian)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by The Guardian (Nigeria) per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-06-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "Local clashes"
+    topics:
+      - "Afghanistan–China relations"
+      - "Takhar Province"
+      - "Gold mining in Afghanistan"
+    importance: 5
+    headline: "Clash at Chinese-run gold site in Takhar, Afghanistan, kills four"
+    summary: >
+      Three local residents and a company employee were killed and five others wounded
+      in clashes between residents and employees of a Chinese company contracted by the
+      Afghan Ministry of Mines for ore washing at a gold extraction site in Chah Ab
+      District, Takhar Province. The company's operations were later suspended pending an
+      investigation, according to the Wikipedia current-events portal citing AP and Tolo.
+    key_data:
+      - label: "Killed"
+        value: "4 (three residents and one company employee)"
+        citation_refs: [37]
+      - label: "Wounded"
+        value: "5"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "Residents clashed with employees of a Chinese company contracted for ore washing at a gold extraction site in Chah Ab District."
+        - "Three locals and one company employee were killed and five others were wounded."
+        - "The company's operations were suspended pending an investigation."
+      why_it_matters:
+        - "The clash highlights local tensions around Chinese mining ventures under Taliban-administered Afghanistan."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 6 deep-research markdown."
+        - "The portal names the contracting body as the Afghan Ministry of Mining; the ministry's official English name is not confirmed here."
+    actors:
+      primary:
+        - "Local residents of Chah Ab"
+        - "Employees of a Chinese mining contractor"
+      secondary:
+        - "Afghan Ministry of Mines"
+    entities:
+      people: []
+      organizations:
+        - name: "Afghan Ministry of Mines"
+          description: "Ministry that contracted the Chinese company"
+      states:
+        - "Afghanistan"
+        - "China"
+    geography:
+      countries:
+        - "Afghanistan"
+      places:
+        - "Chah Ab District"
+        - "Takhar Province"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: 5
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Company operations suspended pending investigation."
+    classification:
+      event_type:
+        - "local-clash"
+        - "mining-dispute"
+      tags:
+        - "afghanistan"
+        - "china"
+        - "takhar"
+        - "gold-mining"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Three locals and a company employee are killed and five others are wounded in clashes between residents and employees of a Chinese company contracted for ore washing by the Afghan Ministry of Mining at a gold extraction site in Chah Ab District, Takhar Province, Afghanistan. The company's operations are later suspended pending a probe into the incident. (AP) (Tolo)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Portal-derived event; reported by AP and Tolo News per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-06-021"
+    category: "Law and crime"
+    subcategory: "Religious freedom"
+    topics:
+      - "Freedom of religion in China"
+      - "Early Rain Covenant Church"
+      - "Chengdu"
+    importance: 5
+    headline: "Chinese police detain six members of Early Rain Covenant Church in Chengdu"
+    summary: >
+      Chinese police detained six members of the unregistered Early Rain Covenant Church
+      in Chengdu, Sichuan, including its current leader, as part of ongoing actions
+      against house churches, according to the Wikipedia current-events portal citing
+      Reuters.
+    key_data:
+      - label: "Detained"
+        value: "6, including the church's current leader"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "Police in Chengdu detained six members of the Early Rain Covenant Church."
+        - "Those detained included the church's current leader."
+      why_it_matters:
+        - "The detentions are part of continuing pressure on unregistered Protestant house churches in China."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 6 deep-research markdown."
+    actors:
+      primary:
+        - "Chinese police"
+      secondary:
+        - "Early Rain Covenant Church"
+    entities:
+      people: []
+      organizations:
+        - name: "Early Rain Covenant Church"
+          description: "Unregistered Protestant house church in Chengdu"
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places:
+        - "Chengdu"
+        - "Sichuan"
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 6
+      damage: null
+    classification:
+      event_type:
+        - "detention"
+        - "religious-persecution"
+      tags:
+        - "china"
+        - "house-churches"
+        - "early-rain-covenant-church"
+        - "religious-freedom"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Chinese police detain six members of the unregistered Early Rain Covenant Church in Chengdu, Sichuan, including its current leader, as part of ongoing actions against house churches. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by Reuters per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-06-022"
+    category: "Science and technology"
+    subcategory: "Online safety regulation"
+    topics:
+      - "Sexual deepfake generation on X"
+      - "Grok"
+      - "Coimisiún na Meán"
+      - "Ofcom"
+    importance: 6
+    headline: "Irish and UK regulators engage over sexualised Grok-generated images on X"
+    summary: >
+      Ireland's media regulator Coimisiún na Meán said it was engaging with the European
+      Commission over the generation of sexualised images of women and minors on X,
+      noting that sharing non-consensual intimate imagery and child sexual abuse imagery
+      is illegal and that platforms are obliged to act on reports of illegal content.
+      The UK regulator Ofcom said it had contacted X over complaints that its AI tool Grok
+      was generating fake sexualised images of children. Both items were reported by RTÉ
+      according to the Wikipedia current-events portal.
+    key_data:
+      - label: "Regulators involved"
+        value: "Coimisiún na Meán (Ireland) and Ofcom (United Kingdom)"
+        citation_refs: [37]
+    details:
+      what_happened:
+        - "Coimisiún na Meán said it was engaging with the European Commission about sexualised images of women and minors generated on X."
+        - "The Irish regulator said platforms are legally obliged to act on reports of illegal content."
+        - "Ofcom said it had contacted X over complaints that Grok was generating fake images of children being sexually abused."
+      why_it_matters:
+        - "The regulators' actions put pressure on X under European and UK online-safety rules over AI-generated abuse imagery."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 6 deep-research markdown."
+        - "The two portal bullets are merged here because they concern the same real-world issue."
+    actors:
+      primary:
+        - "Coimisiún na Meán"
+        - "Ofcom"
+        - "X"
+      secondary:
+        - "European Commission"
+    entities:
+      people: []
+      organizations:
+        - name: "Coimisiún na Meán"
+          description: "Irish media and online safety regulator"
+        - name: "Ofcom"
+          description: "United Kingdom communications regulator"
+        - name: "X"
+          description: "Social media platform operating the Grok AI tool"
+        - name: "European Commission"
+          description: "EU executive body engaged by the Irish regulator"
+      states:
+        - "Ireland"
+        - "United Kingdom"
+    geography:
+      countries:
+        - "Ireland"
+        - "United Kingdom"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "regulatory-action"
+        - "online-safety"
+      tags:
+        - "grok"
+        - "x"
+        - "deepfakes"
+        - "ofcom"
+        - "coimisiun-na-mean"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Coimisiún na Meán says it is engaging with the European Commission on the generation of sexualised images of women and minors as the sharing of non-consensual intimate imagery and generation of child sexual abuse imagery is illegal and platforms are illegal and platforms are legally obliged to act on reports of illegal media content. (RTÉ) | Ofcom announced that it had contacted X over complaints that the sites' AI took Grok was generating fake images of children being sexually abused. (RTÉ)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by RTÉ per the Wikipedia portal. Not covered in the deep-research markdown. The text_fragment preserves two portal bullets verbatim, separated by ' | ', including their original typos."
+
+strategic_conclusion: >
+  January 6 showed the U.S. intervention in Venezuela spreading into alliance politics
+  and international law. Venezuela's confirmation of military deaths, Chinese criticism
+  at the Security Council, and European and Canadian responses to renewed U.S. interest
+  in Greenland all reflected concern about the use of force and territorial pressure
+  by Washington. China's ban on dual-use exports to Japanese military end users added a
+  separate economic-coercion front in East Asia, with extraterritorial liability for
+  third-country companies.
+
+  Elsewhere, fragile arrangements were tested rather than broken: the Thailand-Cambodia
+  truce held after an incident Cambodia called an operational error, and SDF-government
+  fighting in Aleppo coincided with continuing integration talks and renewed
+  Israel-Syria negotiations. Violence against civilians in Nigeria and disputed police
+  killings in Mozambique, deadly road crashes in Ethiopia and Kenya, and the Mayon
+  evacuation defined the humanitarian picture. In the United States, the Capitol-attack
+  anniversary and a narrower House majority framed the domestic political calendar
+  for 2026.
+
+works_cited:
+  - id: 1
+    title: "Overnight Brief: January 6, 2026"
+    outlet: "Foundation for Defense of Democracies"
+    url: "https://www.fdd.org/overnight-brief/january-6-2026/"
+    accessed: "2026-03-25"
+  - id: 2
+    title: "Tactical surprise and air dominance: how the US snatched Maduro in two and a half hours"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/04/tactical-surprise-and-air-dominance-how-the-us-snatched-maduro-in-two-and-a-half-hours"
+    accessed: "2026-03-25"
+  - id: 3
+    title: "U.S. Confrontation With Venezuela, Global Conflict Tracker"
+    outlet: "Council on Foreign Relations"
+    url: "https://www.cfr.org/global-conflict-tracker/conflict/instability-venezuela"
+    accessed: "2026-03-25"
+  - id: 4
+    title: "Foreign Ministry Spokesperson Mao Ning's Regular Press Conference on January 6, 2026"
+    outlet: "Ministry of Foreign Affairs of the People's Republic of China"
+    url: "https://www.mfa.gov.cn/eng/xw/fyrbt/202601/t20260106_11807319.html"
+    accessed: "2026-03-25"
+  - id: 5
+    title: "Carney says Greenland's security is part of NATO amid Trump threats"
+    outlet: "Global News"
+    url: "https://globalnews.ca/news/11601006/mark-carney-greenland-nato-trump/"
+    accessed: "2026-03-25"
+  - id: 6
+    title: "US attack on Greenland would mean end of Nato, says Danish PM"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/jan/05/trump-must-give-up-fantasies-about-annexation-says-greenland-pm"
+    accessed: "2026-03-25"
+  - id: 7
+    title: "MOFCOM Spokesperson's Remarks on Tightening Controls on Dual-Use Items Exports to Japan"
+    outlet: "Ministry of Commerce of the People's Republic of China"
+    url: "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2026/art_ad432d69b63545ef81b6b0c9d21c0fa1.html"
+    accessed: "2026-03-25"
+  - id: 8
+    title: "China Imposes Escalated Export Controls on Dual-Use Items to Japan"
+    outlet: "Greenberg Traurig"
+    url: "https://www.gtlaw.com/en/insights/2026/2/china-imposes-escalated-export-controls-on-dual-use-items-to-japan"
+    accessed: "2026-03-25"
+  - id: 9
+    title: "China Strengthens Export Controls on Dual-Use Items to Japan"
+    outlet: "Brownstein Hyatt Farber Schreck"
+    url: "https://www.bhfs.com/insight/china-strengthens-export-controls-on-dual-use-items-to-japan/"
+    accessed: "2026-03-25"
+  - id: 10
+    title: "IDF sources: Iran seeking to kill Syria's Ahmed al-Sharaa"
+    outlet: "The Jerusalem Post"
+    url: "https://www.jpost.com/middle-east/article-882403"
+    accessed: "2026-03-25"
+  - id: 11
+    title: "Syria denies reports of security incident targeting President Sharaa, senior officials"
+    outlet: "Anadolu Agency"
+    url: "https://www.aa.com.tr/en/middle-east/syria-denies-reports-of-security-incident-targeting-president-sharaa-senior-officials/3790460"
+    accessed: "2026-03-25"
+  - id: 12
+    title: "Indonesia enforces new penal code replacing colonial criminal law"
+    outlet: "JURIST"
+    url: "https://www.jurist.org/news/2026/01/indonesia-enforces-new-penal-code-replacing-colonial-criminal-law/"
+    accessed: "2026-03-25"
+  - id: 13
+    title: "Civil society raises alarm over new criminal laws' effect on enabling environment"
+    outlet: "Hivos EU SEE"
+    url: "https://eusee.hivos.org/alert/civil-society-raises-alarm-over-new-criminal-laws-effect-on-enabling-environment/"
+    accessed: "2026-03-25"
+  - id: 14
+    title: "Indonesia's new penal code takes effect, marking historic break with colonial law"
+    outlet: "PBS NewsHour"
+    url: "https://www.pbs.org/newshour/world/indonesias-new-penal-code-takes-effect-marking-historic-break-with-colonial-law"
+    accessed: "2026-03-25"
+  - id: 15
+    title: "Mozambique: Police Linked to Killings of Artisanal Miners"
+    outlet: "Human Rights Watch"
+    url: "https://www.hrw.org/news/2026/01/19/mozambique-police-linked-to-killings-of-artisanal-miners"
+    accessed: "2026-03-25"
+  - id: 16
+    title: "Mozambique Conflict Monitor Update: 28 January 2026"
+    outlet: "ACLED"
+    url: "https://acleddata.com/update/mozambique-conflict-monitor-update-28-january-2026"
+    accessed: "2026-03-25"
+  - id: 17
+    title: "ONG denuncia quase 40 mortos em confronto entre polícia e populares em Moçambique"
+    outlet: "Correio da Manhã"
+    url: "https://www.cmjornal.pt/mundo/detalhe/ong-denuncia-quase-40-mortos-em-confronto-entre-policia-e-populares-em-mocambique"
+    accessed: "2026-03-25"
+  - id: 18
+    title: "Fulani herdsmen kill 13 Christians in central Nigeria"
+    outlet: "Christian Daily International"
+    url: "https://www.christiandaily.com/news/fulani-herdsmen-kill-13-christians-in-central-nigeria"
+    accessed: "2026-03-25"
+  - id: 19
+    title: "Update on Investigation into Brown University and Brookline Shootings"
+    outlet: "U.S. Attorney's Office, District of Massachusetts"
+    url: "https://www.justice.gov/usao-ma/pr/update-investigation-brown-university-and-brookline-shootings"
+    accessed: "2026-03-25"
+  - id: 20
+    title: "DOJ releases translated transcript of Brown University shooter's video confession"
+    outlet: "ABC News"
+    url: "https://www.youtube.com/watch?v=PSrhmiI8i5A"
+    accessed: "2026-03-25"
+  - id: 21
+    title: "Pardoned Jan. 6 rioters return to Capitol on 5th anniversary of insurrection"
+    outlet: "PBS NewsHour"
+    url: "https://www.youtube.com/watch?v=pvjdvc5Z7kw"
+    accessed: "2026-03-25"
+  - id: 22
+    title: "January 6: A Date Which Will Live in Infamy"
+    outlet: "The White House"
+    url: "https://www.whitehouse.gov/j6/"
+    accessed: "2026-03-25"
+  - id: 23
+    title: "Fifth Anniversary of Jan. 6 Brings Fresh Division to the Capitol"
+    outlet: "Associated Press via Military.com"
+    url: "https://www.military.com/daily-news/2026/01/06/fifth-anniversary-of-jan-6-brings-fresh-division-capitol.html"
+    accessed: "2026-03-25"
+  - id: 24
+    title: "January 6: Five Years Later"
+    outlet: "House Committee on the Judiciary Democrats"
+    url: "https://democrats-judiciary.house.gov/january-6-five-years-later"
+    accessed: "2026-03-25"
+  - id: 25
+    title: "Mayon Volcano Alert Level Bulletin"
+    outlet: "PHIVOLCS"
+    url: "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-mvo?bid=13423"
+    accessed: "2026-03-25"
+  - id: 26
+    title: "Philippines evacuates 3,000 villagers after volcano activity raises alert level"
+    outlet: "Associated Press via WRAL"
+    url: "https://www.wral.com/news/ap/d3734-philippines-evacuates-3-000-villagers-after-volcano-activity-raises-alert-level/"
+    accessed: "2026-03-25"
+  - id: 27
+    title: "Mayon Volcano's alert status raised to Level 3"
+    outlet: "Philippine News Agency"
+    url: "https://www.pna.gov.ph/articles/1266292"
+    accessed: "2026-03-25"
+  - id: 28
+    title: "Thailand says Cambodia border strike wounds soldier and violates truce"
+    outlet: "The Japan Times"
+    url: "https://www.japantimes.co.jp/news/2026/01/06/asia-pacific/thailand-cambodia-border-strike-truce/"
+    accessed: "2026-03-25"
+  - id: 29
+    title: "Thai army says Cambodia border strike wounds soldier, violates truce"
+    outlet: "Al Arabiya"
+    url: "https://english.alarabiya.net/News/world/2026/01/06/thai-army-says-cambodia-border-strike-wounds-soldier-violates-truce"
+    accessed: "2026-03-25"
+  - id: 30
+    title: "Iran Update, January 6, 2026"
+    outlet: "Institute for the Study of War"
+    url: "https://understandingwar.org/research/middle-east/iran-update-january-6-2026/"
+    accessed: "2026-03-25"
+  - id: 31
+    title: "31 Kenyans killed in road accidents in the first six days of 2026"
+    outlet: "Citizen Digital"
+    url: "https://www.citizen.digital/article/31-kenyans-killed-in-road-accidents-in-the-first-six-days-of-2026-n375350"
+    accessed: "2026-03-25"
+  - id: 32
+    title: "Liveblog, January 6, 2026"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/liveblog-january-6-2026/"
+    accessed: "2026-03-25"
+  - id: 33
+    title: "Republican Rep. Doug LaMalfa of California dies, reducing GOP's narrow control of the House to 218-213"
+    outlet: "PBS NewsHour"
+    url: "https://www.pbs.org/newshour/politics/republican-rep-doug-lamalfa-of-california-dies-reducing-gops-narrow-control-of-the-house-to-218-213"
+    accessed: "2026-03-25"
+  - id: 34
+    title: "Rep. Doug LaMalfa, a steadfast advocate for California's North State, dies at 65"
+    outlet: "CalMatters"
+    url: "https://calmatters.org/politics/2026/01/lamalfa-dies-vacancy/"
+    accessed: "2026-03-25"
+  - id: 35
+    title: "$38 million in disaster support for North-West Queensland"
+    outlet: "Prime Minister of Australia"
+    url: "https://www.pm.gov.au/media/38-million-disaster-support-north-west-queensland"
+    accessed: "2026-03-25"
+  - id: 36
+    title: "$38 million in disaster support for north-west Queensland"
+    outlet: "Queensland Rural and Industry Development Authority"
+    url: "https://www.qrida.qld.gov.au/news/38-million-disaster-support-north-west-queensland"
+    accessed: "2026-03-25"
+  - id: 37
+    title: "Portal:Current events/2026 January 6"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_6"
+    accessed: "2026-03-25"
