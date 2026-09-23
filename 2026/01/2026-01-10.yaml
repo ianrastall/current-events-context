@@ -18,72 +18,100 @@ editorial_policy:
   require_source_support: true
 
 analytical_overview: >
-  January 10, 2026 saw continued fallout from the U.S. intervention in Venezuela and
-  renewed violence in Syria. The U.S. State Department urged Americans to leave Venezuela
-  immediately after reports that armed colectivos were searching for U.S. citizens, and
-  Brazil handed back to Argentina responsibility for its embassy in Caracas. In Syria, a
-  drone of unknown origin struck the Aleppo governorate building a day after a ceasefire
-  was declared, and the U.S. military launched airstrikes against Islamic State targets
-  under Operation Hawkeye Strike. Iran's protests and crackdown continued, with the
-  deep-research report citing activist counts of about 65 dead and some 2,300 detained.
+  January 10, 2026 deepened U.S. involvement in Venezuela's post-Maduro economy and
+  Iran's crackdown reached a new stage of state terror. President Donald Trump signed
+  an executive order shielding Venezuelan oil revenue held in U.S. accounts from
+  seizure by creditors and pitched a $100 billion energy-investment plan to major oil
+  executives, though ExxonMobil's CEO called the country "uninvestable." Acting
+  president Delcy Rodríguez marked one year since Maduro's 2025 inauguration with a
+  speech vowing to secure his and Cilia Flores's release, and the State Department's
+  advisory for Americans to leave Venezuela continued amid reports of colectivo
+  roadblocks. In Iran, the attorney general threatened protesters and their helpers
+  with a capital "enemy of God" charge, the regular armed forces (Artesh) took the
+  unusual step of pledging to guard public property, and the nationwide internet
+  blackout passed 60 hours.
 
-  Elsewhere, Nicaragua released dozens of prisoners after U.S. demands, Egypt finalized
-  parliamentary results confirming a two-thirds majority for President Abdel Fattah
-  el-Sisi's allies, Honduras's military chief said the confirmed election result and
-  transfer of power would be guaranteed despite a presidential recount decree, and
-  Indonesia suspended access to the Grok chatbot. Disasters included the rising toll from
-  the Binaliw landfill collapse in Cebu, a plane crash in Colombia that killed singer
-  Yeison Jiménez and five others, deadly bushfires in south-eastern Australia and a strong
-  earthquake off Indonesia's Talaud Islands.
+  In Syria, a drone struck the Aleppo governorate building during a ministerial
+  conference a day after a ceasefire was declared, and the U.S. carried out
+  large-scale Operation Hawkeye Strike airstrikes on Islamic State targets. Indonesia
+  became the first country to block the Grok chatbot over sexualized deepfakes, and
+  sixth-tier Macclesfield eliminated FA Cup holders Crystal Palace in a historic
+  upset. The Binaliw landfill toll in Cebu rose, and a plane crash near Paipa,
+  Colombia killed singer Yeison Jiménez and five others. Egypt finalized a pro-Sisi
+  supermajority, Honduras's military backed the confirmed election result, Nicaragua
+  freed dozens of prisoners under U.S. pressure, Brazil handed back Argentina's
+  embassy in Caracas, and a weak earthquake struck off Indonesia's Talaud Islands.
 
 events:
   - id: "evt-2026-01-10-001"
-    category: "Armed conflicts and attacks"
-    subcategory: "Drone strikes"
+    category: "Business and economy"
+    subcategory: "Energy and sanctions"
     topics:
-      - "SDF–Syrian transitional government clashes"
-      - "January 2026 Aleppo clashes"
-    importance: 6
-    headline: "Drone strikes Aleppo governorate building a day after ceasefire"
+      - "2026 United States intervention in Venezuela"
+      - "Petroleum industry in Venezuela"
+      - "International Emergency Economic Powers Act"
+    importance: 8
+    headline: "Trump signs order shielding Venezuelan oil revenue as ExxonMobil calls the country 'uninvestable'"
     summary: >
-      A kamikaze drone of unknown origin struck a governorate building in Aleppo, Syria,
-      while government officials were holding a conference inside, a day after the
-      government declared a ceasefire in the city, according to the Wikipedia
-      current-events portal citing Al Jazeera. The deep-research report said the Syrian
-      government blamed the SDF, which denied involvement, and that accounts of
-      casualties conflicted.
+      President Donald Trump signed an executive order invoking the International
+      Emergency Economic Powers Act and the National Emergencies Act to shield
+      Venezuelan oil revenue held in U.S. Treasury accounts from seizure by private
+      creditors, designating the funds as sovereign Venezuelan property held for
+      governmental and diplomatic purposes. Trump also hosted energy-company
+      executives at the White House to pitch a $100 billion investment to rebuild
+      Venezuela's oil infrastructure. ExxonMobil CEO Darren Woods said the country
+      remained "uninvestable" absent legal and commercial reforms, while Treasury
+      Secretary Scott Bessent said targeted sanctions relief could come within a week.
     key_data:
-      - label: "Target"
-        value: "Aleppo governorate building"
+      - label: "Investment pitched to energy executives"
+        value: "$100 billion"
         citation_refs: [1]
+      - label: "IMF Special Drawing Rights Bessent said could be unlocked"
+        value: "$4.9 billion"
+        citation_refs: [4]
     details:
       what_happened:
-        - "A drone struck the Aleppo governorate building while officials were holding a conference inside."
-        - "The strike came a day after the government declared a ceasefire in the city."
-        - "The Syrian government blamed the SDF, which denied involvement."
+        - "Trump signed an executive order shielding Venezuelan oil revenue held in U.S. Treasury accounts from private judicial seizure."
+        - "The order designates the funds as sovereign property of Venezuela held in U.S. custody for governmental and diplomatic purposes."
+        - "Trump met energy executives, including from ExxonMobil, Chevron and ConocoPhillips, to seek up to $100 billion in investment to rebuild Venezuela's oil sector."
+        - "ExxonMobil CEO Darren Woods said Venezuela's commercial and legal framework made it 'uninvestable' today."
+        - "Treasury Secretary Scott Bessent said sanctions relief could come as soon as the following week."
       why_it_matters:
-        - "The strike threatened the newly declared ceasefire in Aleppo."
-      uncertainty_notes:
-        - "Casualty accounts conflict: Syrian state media, as relayed in the deep-research report, claimed numerous injuries, while an ACAPS/ReliefWeb analysis said there was material damage but no injuries."
-        - "The deep-research report cites Al Jazeera and ACAPS/ReliefWeb without URLs, so they are not listed as external sources."
+        - "The order subordinates creditors' claims to U.S. policy goals in Venezuela, an unusual use of emergency economic powers."
+        - "Corporate reluctance to invest highlights a gap between Washington's timeline for restarting the oil sector and private-sector risk tolerance."
+      uncertainty_notes: []
     actors:
       primary:
-        - "Unknown drone operator"
+        - "Donald Trump"
+        - "Darren Woods"
+        - "Scott Bessent"
       secondary:
-        - "Syrian transitional government"
-        - "Syrian Democratic Forces"
+        - "Chevron"
+        - "ConocoPhillips"
     entities:
-      people: []
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+        - name: "Darren Woods"
+          role: "Chief Executive Officer of ExxonMobil"
+        - name: "Scott Bessent"
+          role: "United States Secretary of the Treasury"
       organizations:
-        - name: "Syrian Democratic Forces"
-          description: "Kurdish-led armed coalition accused by the government"
+        - name: "ExxonMobil"
+          description: "Oil company that called Venezuela uninvestable"
+        - name: "Chevron"
+          description: "Oil company invited to invest in Venezuela"
+        - name: "ConocoPhillips"
+          description: "Oil company with existing expropriation claims against Venezuela"
       states:
-        - "Syria"
+        - "United States"
+        - "Venezuela"
     geography:
       countries:
-        - "Syria"
+        - "United States"
+        - "Venezuela"
       places:
-        - "Aleppo"
+        - "Washington, D.C."
       coordinates: []
     time:
       date: "2026-01-10"
@@ -91,117 +119,183 @@ events:
       ongoing: true
     casualty_report:
       killed: 0
-      injured: null
-      displaced: null
+      injured: 0
+      displaced: 0
       missing: null
       arrest_count: 0
-      damage: "Aleppo governorate building damaged, with blackened upper floors."
+      damage: null
     classification:
       event_type:
-        - "drone-strike"
-        - "ceasefire-violation"
+        - "executive-order"
+        - "sanctions-relief"
+        - "energy-investment"
       tags:
-        - "syria"
-        - "aleppo"
-        - "sdf"
-        - "drone-attack"
+        - "venezuela"
+        - "oil"
+        - "exxonmobil"
+        - "ieepa"
     sources:
       wikipedia_portal:
-        included: true
-        text_fragment: "A kamikaze drone of unknown origin strikes a governate building in Aleppo, Syria, while government officials were holding a conference inside, a day after the government declared a ceasefire in the city. (Al Jazeera)"
-      external: []
+        included: false
+        text_fragment: null
+      external:
+        - id: src-001-a
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/trump-venezuela-oil-revenue-companies-sales-bdd21181e08889d6cca93f5acc7c0ee0"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "If we look at the commercial constructs and frameworks in place today in Venezuela, today it's uninvestable."
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "MEAWW"
+          url: "https://news.meaww.com/trump-issues-executive-order-shielding-venezuelan-oil-revenue-from-us-court-seizures"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The executive order designates the funds as the 'sovereign property of Venezuela held in US custody for governmental and diplomatic purposes.'"
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "Fox Business"
+          url: "https://www.foxbusiness.com/politics/bessent-signals-potential-venezuela-sanctions-relief-soon-next-week"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Bessent... said more U.S. sanctions could be lifted 'as soon as next week.'"
+          citation_refs: [3]
+        - id: src-001-d
+          outlet: "The Standard (Hong Kong)"
+          url: "https://www.thestandard.com.hk/world/article/321263/Trump-signs-emergency-order-to-protect-US-held-revenue-from-Venezuela-oil"
+          publication_date: "2026-01-11"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "President Trump is preventing the seizure of Venezuelan oil revenue that could undermine critical U.S. efforts to ensure economic and political stability in Venezuela."
+          citation_refs: [4]
     provenance:
-      extracted_from_portal_bullet: true
+      extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: null
     confidence:
       event_existence: high
-      detail_accuracy: medium
-      actor_identification: low
+      detail_accuracy: high
+      actor_identification: high
     related_events:
-      - "evt-2026-01-08-007"
-      - "evt-2026-01-09-005"
-    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Al Jazeera."
+      - "evt-2026-01-07-002"
+      - "evt-2026-01-09-001"
+    notes: "The Standard's article carries a January 11 byline but reports on the January 10 signing."
 
   - id: "evt-2026-01-10-002"
-    category: "Armed conflicts and attacks"
-    subcategory: "Airstrikes"
+    category: "Politics and elections"
+    subcategory: "Government succession"
     topics:
-      - "Operation Hawkeye Strike"
-      - "American-led intervention in Syria"
-      - "Islamic State"
+      - "Delcy Rodríguez"
+      - "Nicolás Maduro"
+      - "2026 United States intervention in Venezuela"
     importance: 6
-    headline: "U.S. launches Operation Hawkeye Strike airstrikes on Islamic State targets in Syria"
+    headline: "Delcy Rodríguez marks a year since Maduro's inauguration, vows to secure his release"
     summary: >
-      The United States military launched airstrikes against Islamic State targets in
-      Syria, according to the Wikipedia current-events portal citing Sky News and Fox
-      News. The deep-research report said U.S. Central Command described multiple strikes
-      across Syria, conducted with partner forces including Jordan, in retaliation for a
-      December ambush in Palmyra that killed U.S. personnel, and that the Pentagon did not
-      say whether anyone was killed.
+      Speaking at the Petare Socialist Commune on the first anniversary of Nicolás
+      Maduro's January 2025 inauguration, acting Venezuelan president Delcy Rodríguez
+      pledged to secure the release of Maduro and First Lady Cilia Flores from U.S.
+      custody, condemning their removal as an abduction. Rodríguez had been sworn in
+      as acting president on January 5, days after the U.S. raid that captured Maduro.
     key_data:
-      - label: "Operation"
-        value: "Hawkeye Strike"
-        citation_refs: [1]
+      - label: "Anniversary marked"
+        value: "One year since Maduro's January 2025 inauguration"
+        citation_refs: [5]
     details:
       what_happened:
-        - "U.S. forces struck Islamic State targets across Syria."
-        - "Jordan's air force was reported to have taken part."
-        - "The strikes were described as retaliation for a December ambush in Palmyra that killed U.S. personnel."
-        - "The Pentagon did not say whether anyone was killed."
+        - "Rodríguez addressed a rally at the Petare Socialist Commune on the anniversary of Maduro's 2025 inauguration."
+        - "She pledged to secure the freedom and return of Maduro and Cilia Flores."
+        - "She characterized the U.S. operation that removed Maduro as an abduction."
       why_it_matters:
-        - "The strikes show continued U.S. military action against the Islamic State in Syria."
+        - "The speech signals the interim government's public posture toward Washington and its own political base as it seeks to project continuity."
       uncertainty_notes:
-        - "The deep-research report cites Reuters, Al Jazeera and Air & Space Forces Magazine (the last reporting about 20 aircraft, 35 targets and over 90 munitions) without URLs, so they are not listed as external sources."
+        - "Rodríguez's swearing-in as acting president took place on January 5 (see evt-2026-01-05-001); this event covers her January 10 remarks, not a repeat swearing-in."
     actors:
       primary:
-        - "United States Central Command"
+        - "Delcy Rodríguez"
       secondary:
-        - "Jordanian Armed Forces"
-        - "Islamic State"
+        - "Nicolás Maduro"
+        - "Cilia Flores"
     entities:
-      people: []
-      organizations:
-        - name: "United States Central Command"
-          description: "U.S. military command responsible for the strikes"
-        - name: "Islamic State"
-          description: "Jihadist group targeted by the strikes"
+      people:
+        - name: "Delcy Rodríguez"
+          role: "Acting president of Venezuela"
+        - name: "Nicolás Maduro"
+          role: "Captured former president of Venezuela"
+        - name: "Cilia Flores"
+          role: "Wife of Nicolás Maduro, held with him in U.S. custody"
+      organizations: []
       states:
+        - "Venezuela"
         - "United States"
-        - "Syria"
-        - "Jordan"
     geography:
       countries:
-        - "Syria"
-      places: []
+        - "Venezuela"
+      places:
+        - "Petare"
+        - "Caracas"
       coordinates: []
     time:
       date: "2026-01-10"
       time_known: false
       ongoing: true
     casualty_report:
-      killed: null
-      injured: null
+      killed: 0
+      injured: 0
       displaced: 0
       missing: null
       arrest_count: 0
-      damage: "Islamic State facilities struck."
+      damage: null
     classification:
       event_type:
-        - "airstrike"
-        - "counterterrorism"
+        - "political-speech"
       tags:
-        - "syria"
-        - "islamic-state"
-        - "us-military"
-        - "operation-hawkeye-strike"
+        - "venezuela"
+        - "delcy-rodriguez"
+        - "maduro"
     sources:
       wikipedia_portal:
-        included: true
-        text_fragment: "The United States military launches airstrikes against Islamic State targets in Syria. (Sky News) (Fox News)"
-      external: []
+        included: false
+        text_fragment: null
+      external:
+        - id: src-002-a
+          outlet: "Orinoco Tribune"
+          url: "https://orinocotribune.com/venezuelas-acting-president-rodriguez-dismisses-us-narrative-of-control-vows-to-rescue-president-maduro-legal-team/"
+          publication_date: "2026-01-11"
+          source_type: news_report
+          reliability_tier: low
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Today, January 10, one year later, we are swearing for their freedom. We will rescue them; of course we will."
+          citation_refs: [5]
     provenance:
-      extracted_from_portal_bullet: true
+      extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: null
     confidence:
@@ -209,8 +303,8 @@ events:
       detail_accuracy: medium
       actor_identification: high
     related_events:
-      - "evt-2026-01-03-015"
-    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Sky News and Fox News."
+      - "evt-2026-01-05-001"
+    notes: "Orinoco Tribune is a Venezuelan government-aligned outlet; reliability is marked low accordingly. Its report is dated January 11 but describes remarks made on January 10."
 
   - id: "evt-2026-01-10-003"
     category: "International relations"
@@ -222,23 +316,22 @@ events:
     importance: 7
     headline: "U.S. urges Americans to leave Venezuela immediately over reports of colectivos targeting them"
     summary: >
-      The U.S. State Department urged Americans to leave Venezuela immediately following
-      reports that colectivos were targeting them, according to the Wikipedia
-      current-events portal citing The Guardian. The deep-research report said the alert
-      described armed colectivos setting up roadblocks and searching vehicles for evidence
-      of U.S. citizenship or support for the United States.
+      The U.S. State Department urged Americans to leave Venezuela immediately
+      following reports that colectivos were targeting them, according to the
+      Wikipedia current-events portal citing The Guardian. Xinhua reported that the
+      advisory described armed colectivos setting up roadblocks and searching
+      vehicles for evidence of U.S. citizenship or support for the United States.
     key_data:
       - label: "Advice to U.S. citizens"
         value: "Leave Venezuela immediately"
-        citation_refs: [1]
+        citation_refs: [26]
     details:
       what_happened:
         - "The State Department urged U.S. citizens to leave Venezuela immediately."
         - "The alert cited reports that armed colectivos were setting up roadblocks and searching vehicles for U.S. citizens or supporters."
       why_it_matters:
         - "The alert signals a deteriorating security situation in Venezuela a week after Maduro's capture."
-      uncertainty_notes:
-        - "The deep-research report cites The Guardian without a URL, so it is not listed as an external source."
+      uncertainty_notes: []
     actors:
       primary:
         - "U.S. Department of State"
@@ -282,7 +375,428 @@ events:
       wikipedia_portal:
         included: true
         text_fragment: "The U.S. State Department urges Americans to leave Venezuela immediately, following reports that Colectivos were targeting them. (The Guardian)"
-      external: []
+      external:
+        - id: src-003-a
+          outlet: "Xinhua News Agency (via China Daily Hong Kong)"
+          url: "https://www.chinadailyhk.com/hk/article/626819"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "...reports of groups of armed militias, known as colectivos, setting up roadblocks and searching vehicles for evidence of US citizenship..."
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-06-001"
+    notes: "The portal cited The Guardian."
+
+  - id: "evt-2026-01-10-004"
+    category: "Civil unrest and protests"
+    subcategory: "Protests and state crackdowns"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "Islamic Revolutionary Guard Corps"
+      - "Internet censorship in Iran"
+    importance: 9
+    headline: "Iran threatens protesters with 'enemy of God' death-penalty charge as internet blackout passes 60 hours"
+    summary: >
+      Iran's Attorney General Mohammad Movahedi Azad said anti-government protesters
+      and anyone assisting them would be prosecuted as an "enemy of God" (Moharebeh),
+      a charge carrying the death penalty. Iran's conventional military, the Artesh,
+      issued an unusual public statement vowing to protect strategic infrastructure
+      and public property, a role normally left to internal security forces. NetBlocks
+      reported that the nationwide internet blackout had passed the 60-hour mark,
+      severely limiting communication amid the two-week-old uprising.
+    key_data:
+      - label: "Charge threatened against protesters and helpers"
+        value: "Moharebeh ('enemy of God'), a capital offense"
+        citation_refs: [7]
+      - label: "Duration of internet blackout reported"
+        value: "Past 60 hours"
+        citation_refs: [10]
+    details:
+      what_happened:
+        - "Attorney General Mohammad Movahedi Azad said protesters and anyone assisting them would face Moharebeh charges, which carry the death penalty."
+        - "The Artesh, Iran's conventional military, issued a statement vowing to protect national interests, strategic infrastructure and public property."
+        - "NetBlocks reported the nationwide internet blackout had passed the 60-hour mark."
+        - "The Institute for the Study of War assessed the Artesh statement as unusual for a force normally reserved for external defense."
+      why_it_matters:
+        - "Threatening capital charges for participation in or assistance to protests raises the legal stakes of the crackdown sharply."
+        - "A public role for the conventional military, rather than the IRGC and Basij alone, may indicate strain on Iran's usual internal-security forces."
+      uncertainty_notes:
+        - "The deep-research report's own synthesis states a cumulative death toll of 'at least 530 (483 protesters, 47 security personnel)' attributed to unspecified 'cumulative NGO reports', but none of its four cited sources directly states this figure with a quotable line, so it is not recorded in casualty_report. HRANA-based tallies reported elsewhere in this archive range from about 500 (January 8) to 538 (January 11) to 544 (January 12); see evt-2026-01-08-006, evt-2026-01-09-002 and evt-2026-01-11 events."
+        - "Arrest counts in the low thousands were also asserted without a directly quotable source and are omitted."
+    actors:
+      primary:
+        - "Iranian judiciary"
+        - "Artesh"
+      secondary:
+        - "Islamic Revolutionary Guard Corps"
+        - "Iranian protesters"
+        - "NetBlocks"
+    entities:
+      people:
+        - name: "Mohammad Movahedi Azad"
+          role: "Attorney General of Iran"
+      organizations:
+        - name: "Artesh"
+          description: "Iran's conventional armed forces"
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian force leading internal suppression of the protests"
+        - name: "NetBlocks"
+          description: "Internet monitoring organization"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Nationwide internet blackout exceeding 60 hours."
+    classification:
+      event_type:
+        - "protest-crackdown"
+        - "judicial-threat"
+        - "internet-shutdown"
+      tags:
+        - "iran"
+        - "iran-protests"
+        - "death-penalty"
+        - "artesh"
+        - "internet-blackout"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-004-a
+          outlet: "Associated Press via KVUE"
+          url: "https://www.kvue.com/article/syndication/associatedpress/iran-attorney-general-warns-anyone-taking-part-in-protests-will-be-considered-an-enemy-of-god-a-death-penalty-charge/616-478586e2-2c11-4df6-9a7e-9042e1629cd5"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Iran attorney general warns anyone taking part in protests will be considered an 'enemy of God,' a death-penalty charge."
+          citation_refs: [7]
+        - id: src-004-b
+          outlet: "Institute for the Study of War"
+          url: "https://understandingwar.org/research/middle-east/iran-update-january-10-2026/"
+          publication_date: "2026-01-10"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "The Artesh, which is Iran's conventional military, issued a statement on January 10 in which it vowed to protect national interests, strategic infrastructure, and public property."
+          citation_refs: [8]
+        - id: src-004-c
+          outlet: "The Times of Israel (citing NetBlocks)"
+          url: "https://www.timesofisrael.com/liveblog_entry/iran-internet-outage-in-place-for-36-hours-amid-protests-monitor/"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "metrics show the nationwide internet blackout remains in place at 36 hours"
+          citation_refs: [9]
+        - id: src-004-d
+          outlet: "CBS News"
+          url: "https://www.cbsnews.com/news/iran-protests-deaths-mount-trump-warning-pahlavi-calls-for-city-takeovers/"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "the blackout 'is now past the 60 hour mark...'"
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-08-006"
+      - "evt-2026-01-09-002"
+    notes: "Replaces the earlier draft version of this event, which had no URL-backed sources. The Times of Israel liveblog entry was updated over time; the 36-hour figure is its earliest recorded value and the CBS News report documents the later 60-hour figure."
+
+  - id: "evt-2026-01-10-005"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "SDF–Syrian transitional government clashes"
+      - "January 2026 Aleppo clashes"
+    importance: 7
+    headline: "Drone strikes Aleppo governorate building during ministerial conference, day after ceasefire"
+    summary: >
+      A drone struck the Aleppo governorate building in central Aleppo during a
+      conference attended by Syria's information and social affairs ministers and the
+      provincial governor, a day after the transitional government declared a
+      ceasefire with the Kurdish-led Syrian Democratic Forces. The Syrian government
+      blamed the SDF, which denied involvement. Despite the strike, a U.S.-brokered
+      ceasefire held and the SDF began withdrawing fighters from the Ashrafieh and
+      Sheikh Maqsoud neighborhoods.
+    key_data:
+      - label: "Target"
+        value: "Aleppo governorate building, during a ministerial conference"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "A drone struck the Aleppo governorate building while ministers and the provincial governor were meeting inside."
+        - "The Syrian government accused the SDF of launching the drone; the SDF denied involvement."
+        - "Despite the strike, the SDF agreed, through international mediation, to withdraw its fighters from Ashrafieh and Sheikh Maqsoud."
+        - "SDF commander Mazloum Abdi said the withdrawal reflected an understanding reached through international mediation."
+      why_it_matters:
+        - "The strike threatened the newly declared ceasefire but did not derail it, and the SDF's withdrawal shifted administrative control of Aleppo back to the transitional government."
+      uncertainty_notes:
+        - "Yemen Press Agency, a Houthi-aligned outlet, reported the drone as belonging to the SDF as an established fact; this report treats that as an accusation rather than a confirmed fact, consistent with Al Jazeera's more cautious framing that the SDF denied involvement."
+        - "The deep-research report cited cumulative Aleppo casualty and displacement figures (24 killed, 104 injured, 155,000 displaced 'since Tuesday') attributed to the Aleppo health office, but none of the three cited sources directly quotes these figures, so they are not recorded in casualty_report. The withdrawal itself, completed on January 11, is recorded separately with its own sourced figures."
+    actors:
+      primary:
+        - "Unknown drone operator"
+      secondary:
+        - "Syrian transitional government"
+        - "Syrian Democratic Forces"
+        - "Mazloum Abdi"
+    entities:
+      people:
+        - name: "Mazloum Abdi"
+          role: "Commander of the Syrian Democratic Forces"
+      organizations:
+        - name: "Syrian Democratic Forces"
+          description: "Kurdish-led armed coalition accused by the government"
+      states:
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Aleppo"
+        - "Ashrafieh"
+        - "Sheikh Maqsoud"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Aleppo governorate building damaged."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "ceasefire-violation"
+      tags:
+        - "syria"
+        - "aleppo"
+        - "sdf"
+        - "drone-attack"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A kamikaze drone of unknown origin strikes a governate building in Aleppo, Syria, while government officials were holding a conference inside, a day after the government declared a ceasefire in the city. (Al Jazeera)"
+      external:
+        - id: src-005-a
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/liveblog/2026/1/11/syria-live-sdf-fighters-pull-out-of-aleppo-after-deadly-battles"
+          publication_date: "2026-01-11"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The Syrian Democratic Forces (SDF) says it has agreed to pull its fighters out of the Ashrafieh and Sheikh Maqsoud neighbourhoods of Aleppo..."
+          citation_refs: [11]
+        - id: src-005-b
+          outlet: "Yemen Press Agency"
+          url: "https://en.ypagency.net/381667"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: low
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts:
+            - details.what_happened
+          quoted_material:
+            - "A drone belongs to the Syrian Democratic Forces (SDF) targeted Aleppo governorate building in the city center... where a conference was being held with the Ministers of Information and Social Affairs..."
+          citation_refs: [12]
+        - id: src-005-c
+          outlet: "DZRH News"
+          url: "https://www.dzrh.com.ph/post/last-kurdish-fighters-leave-syrias-aleppo-city-after-days-of-clashes"
+          publication_date: "2026-01-11"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "SDF commander Mazloum Abdi said in a post on X the group had reached an understanding, through international mediation, on a ceasefire..."
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events:
+      - "evt-2026-01-08-007"
+      - "evt-2026-01-09-005"
+    notes: "The portal cited Al Jazeera for the drone strike itself."
+
+  - id: "evt-2026-01-10-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "Operation Hawkeye Strike"
+      - "American-led intervention in Syria"
+      - "Islamic State"
+    importance: 6
+    headline: "U.S. launches Operation Hawkeye Strike airstrikes on Islamic State targets in Syria"
+    summary: >
+      The United States military launched large-scale airstrikes against Islamic
+      State targets across Syria under the name Operation Hawkeye Strike, authorized
+      by President Donald Trump in retaliation for a December ambush in Palmyra that
+      killed U.S. and Syrian forces. U.S. Central Command released video showing
+      land-based A-10 Thunderbolt and F-15 Eagle aircraft carrying out the strikes.
+    key_data:
+      - label: "Operation"
+        value: "Hawkeye Strike"
+        citation_refs: [14]
+      - label: "Aircraft used"
+        value: "A-10 Thunderbolt and F-15 Eagle"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "U.S. forces struck Islamic State targets across Syria under Operation Hawkeye Strike."
+        - "The operation was authorized by President Trump in response to a December ambush on U.S. and Syrian forces in Palmyra."
+        - "CENTCOM released video showing A-10 Thunderbolt and F-15 Eagle aircraft used in the strikes."
+      why_it_matters:
+        - "The strikes show continued U.S. military action against the Islamic State in Syria despite the country's broader political transition."
+      uncertainty_notes:
+        - "The Sky News report is only available via a Reddit repost rather than a primary Sky News URL; it is marked lower reliability accordingly."
+        - "Neither cited source gives a casualty figure for the strikes."
+    actors:
+      primary:
+        - "United States Central Command"
+      secondary:
+        - "Islamic State"
+        - "Donald Trump"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States, who authorized the operation"
+      organizations:
+        - name: "United States Central Command"
+          description: "U.S. military command responsible for the strikes"
+        - name: "Islamic State"
+          description: "Jihadist group targeted by the strikes"
+      states:
+        - "United States"
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Islamic State facilities struck."
+    classification:
+      event_type:
+        - "airstrike"
+        - "counterterrorism"
+      tags:
+        - "syria"
+        - "islamic-state"
+        - "us-military"
+        - "operation-hawkeye-strike"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States military launches airstrikes against Islamic State targets in Syria. (Sky News) (Fox News)"
+      external:
+        - id: src-006-a
+          outlet: "Sky News (via Reddit repost)"
+          url: "https://www.reddit.com/r/news/comments/1q9fpml/us_military_carries_out_largescale_strikes/"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: low
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Saturday's operation was part of Operation Hawkeye Strike, authorised by Donald Trump in response to an attack on US and Syrian forces in Palmyra..."
+          citation_refs: [14]
+        - id: src-006-b
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/liveblog/2026/1/10/syria-live-fighting-resumes-in-aleppo-after-ceasefire-collapses"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "US Central Command (CENTCOM) released a video in which you can see they are land-based attacks using A-10 thunderbolts... F-15 Eagle aircraft were also used in the attacks."
+          citation_refs: [15]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -292,137 +806,45 @@ events:
       detail_accuracy: medium
       actor_identification: high
     related_events:
-      - "evt-2026-01-06-001"
-    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited The Guardian."
+      - "evt-2026-01-03-015"
+    notes: "The portal cited Sky News and Fox News."
 
-  - id: "evt-2026-01-10-004"
-    category: "Civil unrest and protests"
-    subcategory: "Protests and state crackdowns"
-    topics:
-      - "2025–2026 Iranian protests"
-      - "Islamic Revolutionary Guard Corps"
-    importance: 8
-    headline: "Iran's crackdown on protests intensifies; activists report about 65 dead and 2,300 detained"
-    summary: >
-      According to the deep-research report, citing Reuters, protests over economic
-      grievances continued in cities across Iran, including Tehran, Qom and Mashhad, while
-      the Revolutionary Guards labelled demonstrators terrorists and vowed to crush armed
-      rioters. Activist and monitoring groups were reported to have counted about 50
-      protesters and 15 members of the security forces killed, with some 2,300 people
-      detained. President Donald Trump posted messages of support for the protesters.
-    key_data: []
-    details:
-      what_happened:
-        - "Protests continued in Tehran, Qom, Mashhad and other cities."
-        - "State media reported security personnel killed in clashes, including in Shiraz, Qom and Hamedan."
-        - "Activists reported about 50 protesters and 15 security personnel killed."
-        - "About 2,300 people were reported detained."
-        - "Trump posted in support of the protesters."
-      why_it_matters:
-        - "The protests are among the largest challenges to Iran's leadership in years."
-      uncertainty_notes:
-        - "The deep-research report cites Reuters without a URL; no external source is listed and figures are recorded in prose only."
-        - "The deep-research report named 'President Raisi' as an actor; Ebrahim Raisi died in 2024, so that attribution is an error and is omitted."
-        - "Casualty figures from this period are highly uncertain because of the internet shutdown; later sources gave far higher estimates (see evt-2026-01-09-002)."
-    actors:
-      primary:
-        - "Iranian security forces"
-        - "Islamic Revolutionary Guard Corps"
-      secondary:
-        - "Iranian protesters"
-        - "Donald Trump"
-    entities:
-      people:
-        - name: "Ali Khamenei"
-          role: "Supreme Leader of Iran"
-        - name: "Donald Trump"
-          role: "President of the United States"
-      organizations:
-        - name: "Islamic Revolutionary Guard Corps"
-          description: "Iranian military force leading the crackdown"
-      states:
-        - "Iran"
-    geography:
-      countries:
-        - "Iran"
-      places:
-        - "Tehran"
-        - "Qom"
-        - "Mashhad"
-        - "Shiraz"
-        - "Hamedan"
-      coordinates: []
-    time:
-      date: "2026-01-10"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 65
-      injured: null
-      displaced: null
-      missing: null
-      arrest_count: 2300
-      damage: null
-    classification:
-      event_type:
-        - "protest-crackdown"
-        - "mass-arrest"
-      tags:
-        - "iran"
-        - "iran-protests"
-        - "irgc"
-        - "human-rights"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external: []
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: high
-      detail_accuracy: low
-      actor_identification: medium
-    related_events:
-      - "evt-2026-01-08-006"
-      - "evt-2026-01-09-002"
-    notes: "Markdown-only event whose supporting citations lack URLs. A URL-backed source must be added before this event can be marked reviewed. casualty_report figures are cumulative activist counts reported around January 10, not deaths on that day."
-
-  - id: "evt-2026-01-10-005"
+  - id: "evt-2026-01-10-007"
     category: "Disasters and accidents"
     subcategory: "Landslides"
     topics:
       - "2026 Binaliw landslide"
       - "Cebu City"
     importance: 6
-    headline: "Binaliw landfill collapse death toll rises to at least four in Cebu City"
+    headline: "Rescuers detect signs of life at Cebu City landfill as death toll reaches four"
     summary: >
-      The death toll from a garbage landslide at the Binaliw landfill in Cebu City,
-      Philippines, rose to at least four, while 12 of about 50 buried sanitation workers
-      were rescued, according to the Wikipedia current-events portal citing AFP via Arab
-      News. The deep-research report said the city's mayor confirmed four deaths and 36
-      people unaccounted for.
+      Rescuers at the Binaliw landfill in Cebu City detected thermal and acoustic
+      signs of life two days after a garbage collapse buried dozens of sanitation
+      workers, prompting the deployment of a 50-ton crane. The death toll reached
+      four and 12 people had been rescued with injuries, while more than 30 of the
+      roughly 110 workers on site when the landfill collapsed remained missing.
     key_data:
       - label: "Killed"
-        value: "At least 4"
-        citation_refs: [1]
-      - label: "Workers buried"
-        value: "About 50, of whom 12 were rescued"
-        citation_refs: [1]
+        value: "4"
+        citation_refs: [16]
+      - label: "Rescued with injuries"
+        value: "12"
+        citation_refs: [16]
+      - label: "Workers on site at time of collapse"
+        value: "About 110"
+        citation_refs: [17]
+      - label: "Still missing"
+        value: "More than 30"
+        citation_refs: [17]
     details:
       what_happened:
-        - "The death toll from the landfill collapse rose to at least four."
-        - "Twelve of about 50 buried sanitation workers were rescued."
-        - "The mayor was reported to have confirmed 36 people unaccounted for."
-        - "Rescuers dealt with unstable waste piles and brought in cranes."
+        - "Rescuers detected signs of life in parts of the collapsed landfill and deployed a 50-ton crane to aid excavation."
+        - "The confirmed death toll reached four, and 12 people had been rescued with injuries."
+        - "More than 30 of the roughly 110 workers on site when the landfill collapsed on Thursday remained missing."
       why_it_matters:
-        - "The disaster highlights hazards at waste-management sites."
+        - "The disaster highlights hazards at waste-management sites and the scale of the workforce exposed to them."
       uncertainty_notes:
-        - "The deep-research report dates the collapse to January 7, while the portal first listed it on January 8 (evt-2026-01-08-020)."
-        - "Missing counts differ: 34 on January 8 per the portal and 36 per the deep-research report's account of the mayor's statement."
-        - "The deep-research report cites Reuters and AFP via Arab News without URLs, so they are not listed as external sources."
+        - "The portal's January 8 bullet gave a missing count of 34 out of about 50 buried workers; this report's sources give a higher total on-site figure of about 110 and a missing count of 'more than 30'. The two accounts are not reconciled."
     actors:
       primary:
         - "Cebu City authorities"
@@ -432,7 +854,7 @@ events:
       people: []
       organizations:
         - name: "Prime Integrated Waste Solutions"
-          description: "Operator of the Binaliw landfill, per the deep-research report"
+          description: "Operator of the Binaliw landfill"
       states:
         - "Philippines"
     geography:
@@ -450,9 +872,9 @@ events:
       killed: 4
       injured: 12
       displaced: 0
-      missing: 36
+      missing: 30
       arrest_count: 0
-      damage: "Landfill structures and a staff house crushed."
+      damage: "Landfill administrative offices and processing structures destroyed."
     classification:
       event_type:
         - "landslide"
@@ -465,7 +887,35 @@ events:
       wikipedia_portal:
         included: true
         text_fragment: "The death toll from a garbage landslide in Cebu City, Philippines, rises to at least four, while 12 of about 50 buried sanitation workers are rescued. (AFP via Arab News)"
-      external: []
+      external:
+        - id: src-007-a
+          outlet: "Arab News (AFP)"
+          url: "https://www.arabnews.com/world/filipino-rescuers-detect-signs-of-life-in-garbage-avalanche-that-killed-4-and-left-dozens-missing-2628893"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Authorities confirmed the presence of detected signs of life in specific areas, requiring continued careful excavation and the deployment of a more advanced 50-ton crane..."
+          citation_refs: [16]
+        - id: src-007-b
+          outlet: "Saudi Gazette"
+          url: "https://saudigazette.com.sa/article/658071/World/Philippines-landfill-landslide-leaves-dozens-missing-in-Cebu-City"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "More than 30 workers are still believed to be missing. Authorities said the landfill collapsed on Thursday as 110 workers were on site."
+          citation_refs: [17]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -476,9 +926,9 @@ events:
       actor_identification: medium
     related_events:
       - "evt-2026-01-08-020"
-    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited AFP via Arab News."
+    notes: "The portal cited AFP via Arab News."
 
-  - id: "evt-2026-01-10-006"
+  - id: "evt-2026-01-10-008"
     category: "Disasters and accidents"
     subcategory: "Aviation accidents"
     topics:
@@ -488,26 +938,26 @@ events:
     importance: 5
     headline: "Plane crash in Paipa, Colombia, kills singer Yeison Jiménez and five others"
     summary: >
-      Six people, including musician Yeison Jiménez, were killed when a Piper PA-31
-      Navajo crashed in Paipa, Boyacá Department, Colombia, according to the Wikipedia
-      current-events portal citing BNO News. The deep-research report said the aircraft
-      crashed shortly after takeoff on a flight to Medellín and was destroyed by fire.
+      A Piper PA-31 Navajo crashed shortly after takeoff from Juan José Rondón
+      Airport near Paipa, Boyacá Department, Colombia, killing all six people
+      aboard, including popular música popular singer Yeison Jiménez, 34.
+      Colombia's Civil Aviation Authority (Aerocivil) opened an investigation into
+      the crash.
     key_data:
       - label: "Killed"
         value: "6, including Yeison Jiménez"
-        citation_refs: [1]
+        citation_refs: [18]
       - label: "Aircraft"
         value: "Piper PA-31 Navajo"
-        citation_refs: [1]
+        citation_refs: [20]
     details:
       what_happened:
-        - "A Piper PA-31 Navajo crashed in Paipa, Boyacá."
+        - "A Piper PA-31 Navajo crashed shortly after taking off from Juan José Rondón Airport near Paipa."
         - "All six people on board were killed, including singer Yeison Jiménez."
-        - "The aircraft was reported to have been destroyed by fire after crashing shortly after takeoff."
+        - "Aerocivil's accident investigation directorate opened a formal investigation."
       why_it_matters:
-        - "The crash killed one of Colombia's best-known popular music singers."
-      uncertainty_notes:
-        - "The deep-research report cites ABC News (AP) and People magazine, both dated January 11, without URLs."
+        - "The crash killed one of Colombia's most prominent música popular singers, prompting national mourning."
+      uncertainty_notes: []
     actors:
       primary: []
       secondary:
@@ -517,8 +967,8 @@ events:
         - name: "Yeison Jiménez"
           role: "Colombian singer killed in the crash"
       organizations:
-        - name: "Colombian Civil Aviation Authority"
-          description: "Authority investigating the crash"
+        - name: "Aerocivil"
+          description: "Colombia's Civil Aviation Authority, investigating the crash"
       states:
         - "Colombia"
     geography:
@@ -550,7 +1000,46 @@ events:
       wikipedia_portal:
         included: true
         text_fragment: "Six people are killed, including musician Yeison Jiménez, when a Piper PA-31 Navajo crashes in Paipa, Boyacá Department, Colombia. (BNO News)"
-      external: []
+      external:
+        - id: src-008-a
+          outlet: "BNO News"
+          url: "https://bnonews.com/index.php/2026/01/colombian-singer-yeison-jimenez-among-6-killed-in-plane-crash-near-bogota/"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Colombian regional music singer Yeison Jiménez was among six people killed in a plane crash near Bogotá... The crash occurred on Saturday in the area between Paipa and Duitama."
+          citation_refs: [18]
+        - id: src-008-b
+          outlet: "Semana"
+          url: "https://www.semana.com/nacion/articulo/atencion-yeison-jimenez-reconocido-cantante-de-musica-popular-murio-en-un-accidente-de-una-avioneta-en-paipa/202651/"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Desde la Dirección Técnica de Investigación de Accidentes de la Aerocivil se activó el protocolo de investigación."
+          citation_refs: [19]
+        - id: src-008-c
+          outlet: "Latin American Post"
+          url: "https://latinamericanpost.com/life/entertainment-en/why-colombias-grief-for-yeison-jimenez-runs-so-deep-he-gave-voice-to-their-pain/"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "On January 10, 2026, a Piper PA-31 Navajo failed to gain altitude after takeoff from Juan José Rondón Airport, crashing near the runway."
+          citation_refs: [20]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -558,11 +1047,254 @@ events:
     confidence:
       event_existence: high
       detail_accuracy: high
-      actor_identification: medium
+      actor_identification: high
     related_events: []
-    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited BNO News."
+    notes: "The portal cited BNO News."
 
-  - id: "evt-2026-01-10-007"
+  - id: "evt-2026-01-10-009"
+    category: "Science and technology"
+    subcategory: "Internet regulation"
+    topics:
+      - "Grok"
+      - "xAI"
+      - "Sexual deepfake generation on X"
+    importance: 6
+    headline: "Indonesia becomes first country to block Grok over sexualized deepfake images"
+    summary: >
+      Indonesia became the first country to block access to xAI's Grok chatbot,
+      citing the platform's generation of non-consensual sexualized deepfakes,
+      including images depicting minors. Communications and Digital Affairs
+      Minister Meutya Hafid called the practice a serious violation of human rights
+      and dignity and summoned X executives for investigation. xAI restricted
+      Grok's image generation and editing to paying subscribers.
+    key_data:
+      - label: "Measure"
+        value: "First national block of Grok"
+        citation_refs: [21]
+    details:
+      what_happened:
+        - "Indonesia imposed a nationwide block on Grok, becoming the first country to do so."
+        - "Minister Meutya Hafid said the generation of non-consensual sexual deepfakes was a serious violation of human rights and dignity."
+        - "Indonesia summoned X executives for investigation."
+        - "xAI restricted Grok's image generation and editing features to paying subscribers."
+      why_it_matters:
+        - "The block is among the first national-level regulatory actions against a major generative AI tool over sexualized content, including imagery of minors."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Indonesia"
+        - "xAI"
+      secondary:
+        - "Meutya Hafid"
+        - "Elon Musk"
+    entities:
+      people:
+        - name: "Meutya Hafid"
+          role: "Indonesian Minister of Communication and Digital Affairs"
+        - name: "Elon Musk"
+          role: "Owner of xAI and X"
+      organizations:
+        - name: "xAI"
+          description: "Developer of the Grok chatbot"
+        - name: "Ministry of Communication and Digital Affairs of Indonesia"
+          description: "Ministry that ordered the block"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "regulatory-action"
+        - "online-safety"
+      tags:
+        - "indonesia"
+        - "grok"
+        - "xai"
+        - "deepfakes"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Indonesia suspends access to the Grok chatbot over concerns about the generation of pornographic content and summons representatives of its developer, xAI, for investigation. (Reuters)"
+      external:
+        - id: src-009-a
+          outlet: "Reuters (via The Hindu)"
+          url: "https://www.thehindu.com/news/international/indonesia-temporarily-blocks-access-to-grok-over-sexualised-images/article70493867.ece"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Indonesia temporarily blocked Elon Musk's Grok chatbot on Saturday... becoming the first country to deny access to the AI tool."
+          citation_refs: [21]
+        - id: src-009-b
+          outlet: "Business & Human Rights Resource Centre"
+          url: "https://www.business-humanrights.org/en/latest-news/indonesia-becomes-first-country-to-block-xai-tool-grok-citing-serious-violation-of-human-rights-and-dignity/"
+          publication_date: "2026-01-10"
+          source_type: ngo_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The government views the practice of non-consensual sexual deepfakes as a serious violation of human rights, dignity, and the security of citizens..."
+          citation_refs: [22]
+        - id: src-009-c
+          outlet: "UNN"
+          url: "https://unn.ua/en/news/indonesia-becomes-the-first-country-in-the-world-to-block-grok-due-to-the-spread-of-sexualized-ai-images"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "The country became the first in the world to completely block this artificial intelligence tool due to the risks of creating and disseminating pornographic content."
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-06-022"
+    notes: "The portal cited Reuters."
+
+  - id: "evt-2026-01-10-010"
+    category: "Sports"
+    subcategory: "Association football"
+    topics:
+      - "2025–26 FA Cup"
+      - "Macclesfield F.C."
+      - "Crystal Palace F.C."
+    importance: 3
+    headline: "Macclesfield knock FA Cup holders Crystal Palace out in historic upset"
+    summary: >
+      National League North side Macclesfield beat FA Cup holders Crystal Palace
+      2-1 at Macclesfield's Leasing.com Stadium, in what was described as
+      statistically the biggest upset in the competition's 155-year history.
+      Crystal Palace's Yeremy Pino scored in the 90th minute but could not force a
+      draw.
+    key_data:
+      - label: "Score"
+        value: "Macclesfield 2-1 Crystal Palace"
+        citation_refs: [24]
+      - label: "League gap between the clubs"
+        value: "117 places"
+        citation_refs: [24]
+    details:
+      what_happened:
+        - "Macclesfield beat Crystal Palace 2-1 at Leasing.com Stadium."
+        - "Crystal Palace's Yeremy Pino scored in the 90th minute, too late to force a draw."
+        - "Macclesfield sit 117 places below Crystal Palace in the English league pyramid."
+      why_it_matters:
+        - "The result was described as statistically the biggest upset in the FA Cup's 155-year history."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Macclesfield F.C."
+        - "Crystal Palace F.C."
+      secondary:
+        - "Yeremy Pino"
+    entities:
+      people:
+        - name: "Yeremy Pino"
+          role: "Crystal Palace forward who scored the consolation goal"
+      organizations:
+        - name: "Macclesfield F.C."
+          description: "National League North football club"
+        - name: "Crystal Palace F.C."
+          description: "Premier League club and FA Cup holders"
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places:
+        - "Macclesfield"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "sports-result"
+      tags:
+        - "fa-cup"
+        - "football"
+        - "macclesfield"
+        - "crystal-palace"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In association football, National League North team Macclesfield beat the FA Cup defending champions Crystal Palace 2–1, in statistically the biggest upset in the competition's 155-year history. (BBC Sport)"
+      external:
+        - id: src-010-a
+          outlet: "theScore"
+          url: "https://video.thescore.com/engfa/news/3451760/6th-tier-macclesfield-oust-holders-crystal-palace-in-all-time-fa-cup-stunner"
+          publication_date: "2026-01-10"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Macclesfield, positioned 117 places below Crystal Palace in the English league pyramid..."
+          citation_refs: [24]
+        - id: src-010-b
+          outlet: "LiveSoccerTV"
+          url: "https://www.livesoccertv.com/match/crystal-palace-vs-macclesfield/36b0xz"
+          publication_date: "2026-01-10"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "P. Dawson 43', I. Buckley 61', Y. Pino 90'... Leasing.com Stadium."
+          citation_refs: [25]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "The portal cited BBC Sport."
+
+  - id: "evt-2026-01-10-011"
     category: "International relations"
     subcategory: "Diplomatic relations"
     topics:
@@ -580,15 +1312,14 @@ events:
     key_data:
       - label: "Period of Brazilian custody"
         value: "Since 2024"
-        citation_refs: [1]
+        citation_refs: [26]
     details:
       what_happened:
         - "Brazil returned responsibility for Argentina's diplomatic representation in Venezuela to Argentina."
         - "Brazil had held custody of the Argentine embassy in Caracas since 2024."
       why_it_matters:
         - "The handover allows Argentina to resume direct diplomacy in Caracas after Maduro's removal."
-      uncertainty_notes:
-        - "The deep-research report dates Brazil's announcement to January 11 while the portal lists it on January 10."
+      uncertainty_notes: []
     actors:
       primary:
         - "Government of Brazil"
@@ -646,7 +1377,7 @@ events:
     related_events: []
     notes: "The portal cited Reuters."
 
-  - id: "evt-2026-01-10-008"
+  - id: "evt-2026-01-10-012"
     category: "Politics and elections"
     subcategory: "Election results"
     topics:
@@ -663,10 +1394,10 @@ events:
     key_data:
       - label: "Seats finalized"
         value: "49"
-        citation_refs: [1]
+        citation_refs: [26]
       - label: "Opposition and independent seats"
         value: "About 158 of 568 elected"
-        citation_refs: [1]
+        citation_refs: [26]
     details:
       what_happened:
         - "The National Elections Authority announced results for the remaining 49 seats."
@@ -675,7 +1406,7 @@ events:
       why_it_matters:
         - "A two-thirds majority is sufficient to amend Egypt's constitution."
       uncertainty_notes:
-        - "The deep-research report refers to 596 total seats while the portal gives 568 elected seats; the cited material does not explain the difference."
+        - "The Jan 10 deep-research report refers to 596 total seats while the portal gives 568 elected seats; the cited material does not explain the difference."
     actors:
       primary:
         - "National Elections Authority of Egypt"
@@ -731,7 +1462,7 @@ events:
     related_events: []
     notes: "The portal cited Reuters."
 
-  - id: "evt-2026-01-10-009"
+  - id: "evt-2026-01-10-013"
     category: "Politics and elections"
     subcategory: "Political prisoners"
     topics:
@@ -742,13 +1473,13 @@ events:
     summary: >
       Nicaragua released dozens of prisoners after the United States publicly demanded the
       release of more than 60 political prisoners, according to the Wikipedia
-      current-events portal citing Al Jazeera. The deep-research report said the government
-      did not name those released and that a Nicaraguan rights group identified 19 former
-      detainees, including former mayor Oscar Gadea and pastor Rudy Palacios.
+      current-events portal citing Al Jazeera. The government did not name those
+      released, but a Nicaraguan rights group identified 19 former detainees, including
+      former mayor Oscar Gadea and pastor Rudy Palacios.
     key_data:
       - label: "Political prisoners whose release the U.S. demanded"
         value: "More than 60"
-        citation_refs: [1]
+        citation_refs: [26]
     details:
       what_happened:
         - "The Nicaraguan government said it had released dozens of prisoners."
@@ -757,7 +1488,7 @@ events:
       why_it_matters:
         - "The releases show U.S. pressure on Nicaragua following the intervention in Venezuela."
       uncertainty_notes:
-        - "The government did not publish names or numbers; the figure of 19 identified detainees comes from the deep-research report citing Al Jazeera without a URL."
+        - "The identification of 19 detainees, including Oscar Gadea and Rudy Palacios, comes from the January 10 deep-research report citing Al Jazeera without a directly reachable URL for that specific detail."
     actors:
       primary:
         - "Government of Nicaragua"
@@ -811,96 +1542,9 @@ events:
       detail_accuracy: medium
       actor_identification: high
     related_events: []
-    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Al Jazeera."
+    notes: "The portal cited Al Jazeera."
 
-  - id: "evt-2026-01-10-010"
-    category: "Science and technology"
-    subcategory: "Internet regulation"
-    topics:
-      - "Grok"
-      - "xAI"
-      - "Pornography Act"
-      - "Sexual deepfake generation on X"
-    importance: 6
-    headline: "Indonesia suspends access to Grok over AI-generated pornographic content"
-    summary: >
-      Indonesia suspended access to the Grok chatbot over concerns about the generation of
-      pornographic content and summoned representatives of its developer, xAI, for
-      investigation, according to the Wikipedia current-events portal citing Reuters. The
-      deep-research report said Indonesia was the first country to block Grok and quoted
-      officials calling non-consensual sexual deepfakes a serious violation of rights.
-    key_data:
-      - label: "Measure"
-        value: "Temporary nationwide block of Grok"
-        citation_refs: [1]
-    details:
-      what_happened:
-        - "Indonesia suspended access to Grok."
-        - "The government summoned representatives of xAI for investigation."
-        - "Officials said non-consensual sexual deepfakes violate citizens' rights."
-      why_it_matters:
-        - "The block is an early national-level regulatory action against a generative AI tool over sexual content."
-      uncertainty_notes:
-        - "The claim that Indonesia was the first country to block Grok comes from the deep-research report citing Reuters without a URL."
-    actors:
-      primary:
-        - "Government of Indonesia"
-      secondary:
-        - "xAI"
-    entities:
-      people:
-        - name: "Elon Musk"
-          role: "Owner of xAI and X"
-      organizations:
-        - name: "xAI"
-          description: "Developer of the Grok chatbot"
-        - name: "Ministry of Communication and Digital Affairs of Indonesia"
-          description: "Ministry that ordered the block"
-      states:
-        - "Indonesia"
-    geography:
-      countries:
-        - "Indonesia"
-      places: []
-      coordinates: []
-    time:
-      date: "2026-01-10"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 0
-      injured: 0
-      displaced: 0
-      missing: null
-      arrest_count: 0
-      damage: null
-    classification:
-      event_type:
-        - "regulatory-action"
-        - "online-safety"
-      tags:
-        - "indonesia"
-        - "grok"
-        - "xai"
-        - "deepfakes"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "Indonesia suspends access to the Grok chatbot over concerns about the generation of pornographic content and summons representatives of its developer, xAI, for investigation. (Reuters)"
-      external: []
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
-    related_events:
-      - "evt-2026-01-06-022"
-    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Reuters."
-
-  - id: "evt-2026-01-10-011"
+  - id: "evt-2026-01-10-014"
     category: "Disasters and accidents"
     subcategory: "Earthquakes"
     topics:
@@ -977,91 +1621,9 @@ events:
       detail_accuracy: low
       actor_identification: high
     related_events: []
-    notes: "Markdown-only event whose supporting citation lacks a URL. A URL-backed source must be added before this event can be marked reviewed."
+    notes: "Markdown-only event whose supporting citation lacks a URL. A URL-backed source must be added before this event can be marked reviewed. The second January 10 report (2026-01-10b.md) did not cover this earthquake, so no upgrade was possible."
 
-  - id: "evt-2026-01-10-012"
-    category: "Disasters and accidents"
-    subcategory: "Wildfires"
-    topics:
-      - "2025–26 Australian bushfire season"
-      - "Victoria"
-      - "Longwood"
-    importance: 7
-    headline: "Bushfires in south-eastern Australia claim first death and destroy over 300 structures"
-    summary: >
-      According to the deep-research report, citing Reuters reporting from January 11,
-      police found human remains near Longwood, about 110 km north of Melbourne, confirming
-      the first death from bushfires that had burned more than 350,000 hectares and
-      destroyed more than 300 structures in south-eastern Australia. Victoria declared a
-      total fire ban and residents of New South Wales were warned to prepare for extreme
-      fire danger.
-    key_data: []
-    details:
-      what_happened:
-        - "Police found human remains near Longwood."
-        - "The fires had burned more than 350,000 hectares and destroyed more than 300 structures."
-        - "More than 30 fires were active, with a total fire ban in Victoria."
-      why_it_matters:
-        - "The first confirmed death and large-scale property losses mark a serious escalation of the fires reported on January 8."
-      uncertainty_notes:
-        - "The deep-research report cites Reuters (January 11) without URLs; no external source is listed."
-        - "The deep-research report's comparison to the 2019-20 Black Summer is not quoted from a source and is omitted."
-    actors:
-      primary:
-        - "Victorian emergency services"
-      secondary:
-        - "Government of Victoria"
-        - "Government of New South Wales"
-    entities:
-      people: []
-      organizations: []
-      states:
-        - "Australia"
-    geography:
-      countries:
-        - "Australia"
-      places:
-        - "Longwood"
-        - "Victoria"
-        - "New South Wales"
-      coordinates: []
-    time:
-      date: "2026-01-10"
-      time_known: false
-      ongoing: true
-    casualty_report:
-      killed: 1
-      injured: null
-      displaced: null
-      missing: null
-      arrest_count: 0
-      damage: "More than 350,000 hectares burned and more than 300 structures destroyed."
-    classification:
-      event_type:
-        - "wildfire"
-        - "fatality"
-      tags:
-        - "australia"
-        - "victoria"
-        - "bushfires"
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external: []
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: high
-      detail_accuracy: low
-      actor_identification: medium
-    related_events:
-      - "evt-2026-01-08-013"
-    notes: "Markdown-only event whose supporting citations lack URLs. A URL-backed source must be added before this event can be marked reviewed."
-
-  - id: "evt-2026-01-10-013"
+  - id: "evt-2026-01-10-015"
     category: "Politics and elections"
     subcategory: "Election disputes"
     topics:
@@ -1078,7 +1640,7 @@ events:
     key_data:
       - label: "Statement by"
         value: "Héctor Valerio, Chief of the Joint Chiefs of Staff"
-        citation_refs: [1]
+        citation_refs: [26]
     details:
       what_happened:
         - "Héctor Valerio said the confirmed election results would be respected."
@@ -1086,7 +1648,7 @@ events:
       why_it_matters:
         - "The military's position is significant in a dispute between the outgoing government and the confirmed election result."
       uncertainty_notes:
-        - "Portal-derived event not covered in the January 10 deep-research markdown."
+        - "Portal-derived event not covered by an independent, URL-backed source in either January 10 deep-research report."
     actors:
       primary:
         - "Armed Forces of Honduras"
@@ -1142,104 +1704,158 @@ events:
       actor_identification: high
     related_events:
       - "evt-2026-01-09-021"
-    notes: "Portal-derived event; reported by Tiempo per the Wikipedia portal. Not covered in the deep-research markdown."
-
-  - id: "evt-2026-01-10-014"
-    category: "Sports"
-    subcategory: "Association football"
-    topics:
-      - "2025–26 FA Cup"
-      - "Macclesfield F.C."
-      - "Crystal Palace F.C."
-    importance: 3
-    headline: "Macclesfield knock FA Cup holders Crystal Palace out in historic upset"
-    summary: >
-      National League North side Macclesfield beat FA Cup holders Crystal Palace 2-1, in
-      statistically the biggest upset in the competition's 155-year history, according to
-      the Wikipedia current-events portal citing BBC Sport.
-    key_data:
-      - label: "Score"
-        value: "Macclesfield 2-1 Crystal Palace"
-        citation_refs: [1]
-    details:
-      what_happened:
-        - "Macclesfield of the National League North beat Crystal Palace 2-1 in the FA Cup."
-        - "Crystal Palace were the defending champions."
-      why_it_matters:
-        - "The result was described as statistically the biggest upset in the FA Cup's 155-year history."
-      uncertainty_notes:
-        - "Portal-derived event not covered in the January 10 deep-research markdown."
-    actors:
-      primary:
-        - "Macclesfield F.C."
-        - "Crystal Palace F.C."
-      secondary: []
-    entities:
-      people: []
-      organizations:
-        - name: "Macclesfield F.C."
-          description: "National League North football club"
-        - name: "Crystal Palace F.C."
-          description: "Premier League club and FA Cup holders"
-      states:
-        - "United Kingdom"
-    geography:
-      countries:
-        - "United Kingdom"
-      places: []
-      coordinates: []
-    time:
-      date: "2026-01-10"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: 0
-      injured: 0
-      displaced: 0
-      missing: null
-      arrest_count: 0
-      damage: null
-    classification:
-      event_type:
-        - "sports-result"
-      tags:
-        - "fa-cup"
-        - "football"
-        - "macclesfield"
-        - "crystal-palace"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "In association football, National League North team Macclesfield beat the FA Cup defending champions Crystal Palace 2–1, in statistically the biggest upset in the competition's 155-year history. (BBC Sport)"
-      external: []
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: false
-      last_reviewed_by: null
-    confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
-    related_events: []
-    notes: "Portal-derived event; reported by BBC Sport per the Wikipedia portal. Not covered in the deep-research markdown."
+    notes: "Portal-derived event; reported by Tiempo per the Wikipedia portal."
 
 strategic_conclusion: >
-  January 10 showed the Venezuela intervention's effects spreading across the region:
-  a U.S. alert urging citizens to leave the country, Brazil's handback of Argentina's
-  embassy, and Nicaragua's release of prisoners under U.S. pressure. In Syria, a drone
-  strike on Aleppo's governorate building tested the day-old ceasefire while U.S.
-  airstrikes targeted the Islamic State. Iran's crackdown continued under an information
-  blackout, with casualty figures that later sources would revise sharply upward.
+  January 10 tied the Venezuela intervention more tightly to oil markets while Iran's
+  crackdown escalated to explicit death-penalty threats. Trump's executive order and
+  his pitch to energy executives showed Washington moving from military action to
+  managing Venezuela's economy directly, even as corporate wariness (ExxonMobil's
+  "uninvestable" verdict) exposed limits to that plan. Iran's attorney general
+  invoking a capital charge against protesters and helpers, alongside the Artesh's
+  unusual public role and a 60-hour internet blackout, marked a harder turn in the
+  crackdown than the days before it.
 
-  Domestic politics were marked by the consolidation of incumbent power in Egypt and
-  a Honduran military statement backing the confirmed election result against a
-  presidential recount decree. Indonesia's block of Grok extended the regulatory
-  response to AI-generated sexual imagery. The Cebu landfill toll, the Colombian plane
-  crash, the first bushfire death in Victoria and a strong earthquake off the Talaud
-  Islands made up the day's disasters.
+  A drone strike on Aleppo's governorate building tested but did not break a day-old
+  ceasefire, and U.S. airstrikes hit Islamic State targets under Operation Hawkeye
+  Strike. Indonesia's block of Grok set an early precedent against AI-generated
+  sexual deepfakes, and Macclesfield's FA Cup upset of Crystal Palace was, by most
+  measures, without precedent of its own. Egypt's confirmed supermajority, Honduras's
+  military-backed transfer of power, Nicaragua's prisoner releases, and Brazil's
+  embassy handback in Caracas rounded out a day otherwise dominated by Venezuela and
+  Iran. Three items reported elsewhere as "January 10" events — a Kyiv/Lviv missile
+  strike, a Nguru boat capsizing, and an Uganda broadcast ban — were excluded here
+  because they duplicate events already recorded on January 9, January 3 and January 5
+  respectively; see the notes on this repository's handoff document for how that
+  misattribution was traced to a monthly rather than daily portal source.
 
 works_cited:
   - id: 1
+    title: "Trump signs executive order to protect Venezuelan oil revenue"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/trump-venezuela-oil-revenue-companies-sales-bdd21181e08889d6cca93f5acc7c0ee0"
+    accessed: "2026-01-10"
+  - id: 2
+    title: "Trump issues executive order shielding Venezuelan oil revenue from US court seizures"
+    outlet: "MEAWW"
+    url: "https://news.meaww.com/trump-issues-executive-order-shielding-venezuelan-oil-revenue-from-us-court-seizures"
+    accessed: "2026-01-10"
+  - id: 3
+    title: "Bessent signals potential Venezuela sanctions relief 'soon,' next week"
+    outlet: "Fox Business"
+    url: "https://www.foxbusiness.com/politics/bessent-signals-potential-venezuela-sanctions-relief-soon-next-week"
+    accessed: "2026-01-10"
+  - id: 4
+    title: "Trump signs emergency order to protect US-held revenue from Venezuela oil"
+    outlet: "The Standard (Hong Kong)"
+    url: "https://www.thestandard.com.hk/world/article/321263/Trump-signs-emergency-order-to-protect-US-held-revenue-from-Venezuela-oil"
+    accessed: "2026-01-11"
+  - id: 5
+    title: "Venezuela's acting president Rodríguez dismisses US narrative of control, vows to rescue President Maduro"
+    outlet: "Orinoco Tribune"
+    url: "https://orinocotribune.com/venezuelas-acting-president-rodriguez-dismisses-us-narrative-of-control-vows-to-rescue-president-maduro-legal-team/"
+    accessed: "2026-01-11"
+  - id: 6
+    title: "Trump signs executive order to 'safeguard Venezuelan oil revenue'"
+    outlet: "Xinhua News Agency (via China Daily Hong Kong)"
+    url: "https://www.chinadailyhk.com/hk/article/626819"
+    accessed: "2026-01-10"
+  - id: 7
+    title: "Iran attorney general warns anyone taking part in protests will be considered an 'enemy of God,' a death-penalty charge"
+    outlet: "Associated Press via KVUE"
+    url: "https://www.kvue.com/article/syndication/associatedpress/iran-attorney-general-warns-anyone-taking-part-in-protests-will-be-considered-an-enemy-of-god-a-death-penalty-charge/616-478586e2-2c11-4df6-9a7e-9042e1629cd5"
+    accessed: "2026-01-10"
+  - id: 8
+    title: "Iran Update, January 10, 2026"
+    outlet: "Institute for the Study of War"
+    url: "https://understandingwar.org/research/middle-east/iran-update-january-10-2026/"
+    accessed: "2026-01-10"
+  - id: 9
+    title: "Iran internet outage in place for 36 hours amid protests, monitor says"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/liveblog_entry/iran-internet-outage-in-place-for-36-hours-amid-protests-monitor/"
+    accessed: "2026-01-10"
+  - id: 10
+    title: "Iranian protests rage as deaths mount and Trump renews warning"
+    outlet: "CBS News"
+    url: "https://www.cbsnews.com/news/iran-protests-deaths-mount-trump-warning-pahlavi-calls-for-city-takeovers/"
+    accessed: "2026-01-10"
+  - id: 11
+    title: "Syria updates: SDF fighters pull out of Aleppo after deadly battles"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/liveblog/2026/1/11/syria-live-sdf-fighters-pull-out-of-aleppo-after-deadly-battles"
+    accessed: "2026-01-11"
+  - id: 12
+    title: "Drone belonging to SDF targets Aleppo governorate building in Syria"
+    outlet: "Yemen Press Agency"
+    url: "https://en.ypagency.net/381667"
+    accessed: "2026-01-10"
+  - id: 13
+    title: "Last Kurdish fighters leave Syria's Aleppo city after days of clashes"
+    outlet: "DZRH News"
+    url: "https://www.dzrh.com.ph/post/last-kurdish-fighters-leave-syrias-aleppo-city-after-days-of-clashes"
+    accessed: "2026-01-11"
+  - id: 14
+    title: "US military carries out large-scale strikes against ISIS across Syria"
+    outlet: "Sky News (via Reddit repost)"
+    url: "https://www.reddit.com/r/news/comments/1q9fpml/us_military_carries_out_largescale_strikes/"
+    accessed: "2026-01-10"
+  - id: 15
+    title: "Syria updates: Aleppo sees relative calm, majority of SDF fighters withdraw"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/liveblog/2026/1/10/syria-live-fighting-resumes-in-aleppo-after-ceasefire-collapses"
+    accessed: "2026-01-10"
+  - id: 16
+    title: "Filipino rescuers detect 'signs of life' in garbage avalanche that killed 4 and left dozens missing"
+    outlet: "Arab News (AFP)"
+    url: "https://www.arabnews.com/world/filipino-rescuers-detect-signs-of-life-in-garbage-avalanche-that-killed-4-and-left-dozens-missing-2628893"
+    accessed: "2026-01-10"
+  - id: 17
+    title: "Rescuers race to find dozens missing after landfill landslide in Cebu City"
+    outlet: "Saudi Gazette"
+    url: "https://saudigazette.com.sa/article/658071/World/Philippines-landfill-landslide-leaves-dozens-missing-in-Cebu-City"
+    accessed: "2026-01-10"
+  - id: 18
+    title: "Colombian singer Yeison Jiménez among 6 killed in plane crash near Bogotá"
+    outlet: "BNO News"
+    url: "https://bnonews.com/index.php/2026/01/colombian-singer-yeison-jimenez-among-6-killed-in-plane-crash-near-bogota/"
+    accessed: "2026-01-10"
+  - id: 19
+    title: "Atención: Yeison Jiménez, reconocido cantante de música popular, murió en un accidente de una avioneta en Paipa"
+    outlet: "Semana"
+    url: "https://www.semana.com/nacion/articulo/atencion-yeison-jimenez-reconocido-cantante-de-musica-popular-murio-en-un-accidente-de-una-avioneta-en-paipa/202651/"
+    accessed: "2026-01-10"
+  - id: 20
+    title: "Why Colombia's grief for Yeison Jiménez runs so deep: he gave voice to their pain"
+    outlet: "Latin American Post"
+    url: "https://latinamericanpost.com/life/entertainment-en/why-colombias-grief-for-yeison-jimenez-runs-so-deep-he-gave-voice-to-their-pain/"
+    accessed: "2026-01-10"
+  - id: 21
+    title: "Indonesia temporarily blocks access to Grok over sexualised images"
+    outlet: "Reuters (via The Hindu)"
+    url: "https://www.thehindu.com/news/international/indonesia-temporarily-blocks-access-to-grok-over-sexualised-images/article70493867.ece"
+    accessed: "2026-01-10"
+  - id: 22
+    title: "Indonesia becomes first country to block xAI tool Grok citing 'serious violation of human rights and dignity'"
+    outlet: "Business & Human Rights Resource Centre"
+    url: "https://www.business-humanrights.org/en/latest-news/indonesia-becomes-first-country-to-block-xai-tool-grok-citing-serious-violation-of-human-rights-and-dignity/"
+    accessed: "2026-01-10"
+  - id: 23
+    title: "Indonesia becomes the first country in the world to block Grok due to the spread of sexualized AI images"
+    outlet: "UNN"
+    url: "https://unn.ua/en/news/indonesia-becomes-the-first-country-in-the-world-to-block-grok-due-to-the-spread-of-sexualized-ai-images"
+    accessed: "2026-01-10"
+  - id: 24
+    title: "6th-tier Macclesfield oust holders Crystal Palace in all-time FA Cup stunner"
+    outlet: "theScore"
+    url: "https://video.thescore.com/engfa/news/3451760/6th-tier-macclesfield-oust-holders-crystal-palace-in-all-time-fa-cup-stunner"
+    accessed: "2026-01-10"
+  - id: 25
+    title: "Macclesfield vs Crystal Palace match listing"
+    outlet: "LiveSoccerTV"
+    url: "https://www.livesoccertv.com/match/crystal-palace-vs-macclesfield/36b0xz"
+    accessed: "2026-01-10"
+  - id: 26
     title: "Portal:Current events/2026 January 10"
     outlet: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_10"
