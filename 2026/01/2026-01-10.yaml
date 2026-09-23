@@ -1,52 +1,1246 @@
-Date: '2026-01-10'
-Source_URI: Portal:Current events/2026 January 10
-Intelligence_Payload:
-  Uncategorized:
-  - Syrian conflict
-  - SDF–Syrian transitional government clashes
-  - January 2026 Aleppo clashes
-  - A kamikaze drone of unknown origin strikes a governate building in Aleppo, Syria,
-    while government officials were holding a conference inside, a day after the government
-    declared a ceasefire in the city. (Al Jazeera)
-  - Operation Hawkeye Strike
-  - The United States military launches airstrikes against Islamic State targets in
-    Syria. (Sky News) (Fox News)
-  - Crisis in Venezuela, War on drugs, United States–Venezuela relations
-  - 2026 United States intervention in Venezuela
-  - The U.S. State Department urges Americans to leave Venezuela immediately, following
-    reports that Colectivos were targeting them. (The Guardian)
-  - 2026 Binaliw landslide
-  - The death toll from a garbage landslide in Cebu City, Philippines, rises to at
-    least four, while 12 of about 50 buried sanitation workers are rescued. (AFP via
-    Arab News)
-  - 2026 Paipa Piper PA-31 crash
-  - Six people are killed, including musician Yeison Jiménez, when a Piper PA-31 Navajo
-    crashes in Paipa, Boyacá Department, Colombia. (BNO News)
-  - Argentina–Brazil relations, Argentina–Venezuela relations, International reactions
-    to the 2026 United States intervention in Venezuela
-  - Brazil returns responsibility to Argentina for its diplomatic representation and
-    custody of the Argentine embassy in Venezuela after overseeing the mission in
-    Caracas since 2024 following the expulsion of Argentine diplomats under the Nicolás
-    Maduro administration. (Reuters)
-  - 2025 Egyptian parliamentary election
-  - Egypt's National Elections Authority finalizes the remaining 49 parliamentary
-    seats, confirming that President Abdel Fattah el-Sisi's allies retain the two-thirds
-    supermajority needed to amend the constitution, while opposition parties and independents
-    hold about 158 of 568 elected seats. (Reuters)
-  - Nicaragua–United States relations
-  - Nicaragua releases dozens of prisoners after the United States publicly demanded
-    the release of more than 60 political prisoners. (Al Jazeera)
-  - 2025 Honduran general election
-  - The Chief of the Joint Chiefs of Staff of the Honduran Armed Forces Héctor Valerio
-    informs that the already confirmed election results and the transfer of power
-    would be guaranteed despite President Xiomara Castro's decree demanding a recount
-    of the results. (Tiempo)
-  - Pornography Act
-  - Indonesia suspends access to the Grok chatbot over concerns about the generation
-    of pornographic content and summons representatives of its developer, xAI, for
-    investigation. (Reuters)
-  - 2025–26 FA Cup
-  - Macclesfield 2–1 Crystal Palace
-  - In association football, National League North team Macclesfield beat the FA Cup
-    defending champions Crystal Palace 2–1, in statistically the biggest upset in
-    the competition's 155-year history. (BBC Sport)
+date: "2026-01-10"
+source_page:
+  portal: "Portal:Current events/2026 January 10"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 10, 2026 saw continued fallout from the U.S. intervention in Venezuela and
+  renewed violence in Syria. The U.S. State Department urged Americans to leave Venezuela
+  immediately after reports that armed colectivos were searching for U.S. citizens, and
+  Brazil handed back to Argentina responsibility for its embassy in Caracas. In Syria, a
+  drone of unknown origin struck the Aleppo governorate building a day after a ceasefire
+  was declared, and the U.S. military launched airstrikes against Islamic State targets
+  under Operation Hawkeye Strike. Iran's protests and crackdown continued, with the
+  deep-research report citing activist counts of about 65 dead and some 2,300 detained.
+
+  Elsewhere, Nicaragua released dozens of prisoners after U.S. demands, Egypt finalized
+  parliamentary results confirming a two-thirds majority for President Abdel Fattah
+  el-Sisi's allies, Honduras's military chief said the confirmed election result and
+  transfer of power would be guaranteed despite a presidential recount decree, and
+  Indonesia suspended access to the Grok chatbot. Disasters included the rising toll from
+  the Binaliw landfill collapse in Cebu, a plane crash in Colombia that killed singer
+  Yeison Jiménez and five others, deadly bushfires in south-eastern Australia and a strong
+  earthquake off Indonesia's Talaud Islands.
+
+events:
+  - id: "evt-2026-01-10-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "SDF–Syrian transitional government clashes"
+      - "January 2026 Aleppo clashes"
+    importance: 6
+    headline: "Drone strikes Aleppo governorate building a day after ceasefire"
+    summary: >
+      A kamikaze drone of unknown origin struck a governorate building in Aleppo, Syria,
+      while government officials were holding a conference inside, a day after the
+      government declared a ceasefire in the city, according to the Wikipedia
+      current-events portal citing Al Jazeera. The deep-research report said the Syrian
+      government blamed the SDF, which denied involvement, and that accounts of
+      casualties conflicted.
+    key_data:
+      - label: "Target"
+        value: "Aleppo governorate building"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "A drone struck the Aleppo governorate building while officials were holding a conference inside."
+        - "The strike came a day after the government declared a ceasefire in the city."
+        - "The Syrian government blamed the SDF, which denied involvement."
+      why_it_matters:
+        - "The strike threatened the newly declared ceasefire in Aleppo."
+      uncertainty_notes:
+        - "Casualty accounts conflict: Syrian state media, as relayed in the deep-research report, claimed numerous injuries, while an ACAPS/ReliefWeb analysis said there was material damage but no injuries."
+        - "The deep-research report cites Al Jazeera and ACAPS/ReliefWeb without URLs, so they are not listed as external sources."
+    actors:
+      primary:
+        - "Unknown drone operator"
+      secondary:
+        - "Syrian transitional government"
+        - "Syrian Democratic Forces"
+    entities:
+      people: []
+      organizations:
+        - name: "Syrian Democratic Forces"
+          description: "Kurdish-led armed coalition accused by the government"
+      states:
+        - "Syria"
+    geography:
+      countries:
+        - "Syria"
+      places:
+        - "Aleppo"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Aleppo governorate building damaged, with blackened upper floors."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "ceasefire-violation"
+      tags:
+        - "syria"
+        - "aleppo"
+        - "sdf"
+        - "drone-attack"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A kamikaze drone of unknown origin strikes a governate building in Aleppo, Syria, while government officials were holding a conference inside, a day after the government declared a ceasefire in the city. (Al Jazeera)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events:
+      - "evt-2026-01-08-007"
+      - "evt-2026-01-09-005"
+    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Al Jazeera."
+
+  - id: "evt-2026-01-10-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Airstrikes"
+    topics:
+      - "Operation Hawkeye Strike"
+      - "American-led intervention in Syria"
+      - "Islamic State"
+    importance: 6
+    headline: "U.S. launches Operation Hawkeye Strike airstrikes on Islamic State targets in Syria"
+    summary: >
+      The United States military launched airstrikes against Islamic State targets in
+      Syria, according to the Wikipedia current-events portal citing Sky News and Fox
+      News. The deep-research report said U.S. Central Command described multiple strikes
+      across Syria, conducted with partner forces including Jordan, in retaliation for a
+      December ambush in Palmyra that killed U.S. personnel, and that the Pentagon did not
+      say whether anyone was killed.
+    key_data:
+      - label: "Operation"
+        value: "Hawkeye Strike"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "U.S. forces struck Islamic State targets across Syria."
+        - "Jordan's air force was reported to have taken part."
+        - "The strikes were described as retaliation for a December ambush in Palmyra that killed U.S. personnel."
+        - "The Pentagon did not say whether anyone was killed."
+      why_it_matters:
+        - "The strikes show continued U.S. military action against the Islamic State in Syria."
+      uncertainty_notes:
+        - "The deep-research report cites Reuters, Al Jazeera and Air & Space Forces Magazine (the last reporting about 20 aircraft, 35 targets and over 90 munitions) without URLs, so they are not listed as external sources."
+    actors:
+      primary:
+        - "United States Central Command"
+      secondary:
+        - "Jordanian Armed Forces"
+        - "Islamic State"
+    entities:
+      people: []
+      organizations:
+        - name: "United States Central Command"
+          description: "U.S. military command responsible for the strikes"
+        - name: "Islamic State"
+          description: "Jihadist group targeted by the strikes"
+      states:
+        - "United States"
+        - "Syria"
+        - "Jordan"
+    geography:
+      countries:
+        - "Syria"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Islamic State facilities struck."
+    classification:
+      event_type:
+        - "airstrike"
+        - "counterterrorism"
+      tags:
+        - "syria"
+        - "islamic-state"
+        - "us-military"
+        - "operation-hawkeye-strike"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United States military launches airstrikes against Islamic State targets in Syria. (Sky News) (Fox News)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-03-015"
+    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Sky News and Fox News."
+
+  - id: "evt-2026-01-10-003"
+    category: "International relations"
+    subcategory: "Travel advisories"
+    topics:
+      - "2026 United States intervention in Venezuela"
+      - "Colectivo (Venezuela)"
+      - "United States–Venezuela relations"
+    importance: 7
+    headline: "U.S. urges Americans to leave Venezuela immediately over reports of colectivos targeting them"
+    summary: >
+      The U.S. State Department urged Americans to leave Venezuela immediately following
+      reports that colectivos were targeting them, according to the Wikipedia
+      current-events portal citing The Guardian. The deep-research report said the alert
+      described armed colectivos setting up roadblocks and searching vehicles for evidence
+      of U.S. citizenship or support for the United States.
+    key_data:
+      - label: "Advice to U.S. citizens"
+        value: "Leave Venezuela immediately"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "The State Department urged U.S. citizens to leave Venezuela immediately."
+        - "The alert cited reports that armed colectivos were setting up roadblocks and searching vehicles for U.S. citizens or supporters."
+      why_it_matters:
+        - "The alert signals a deteriorating security situation in Venezuela a week after Maduro's capture."
+      uncertainty_notes:
+        - "The deep-research report cites The Guardian without a URL, so it is not listed as an external source."
+    actors:
+      primary:
+        - "U.S. Department of State"
+      secondary:
+        - "Colectivos"
+    entities:
+      people: []
+      organizations:
+        - name: "U.S. Department of State"
+          description: "Department that issued the alert"
+        - name: "Colectivos"
+          description: "Armed pro-government groups in Venezuela"
+      states:
+        - "United States"
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "travel-advisory"
+        - "security-alert"
+      tags:
+        - "venezuela"
+        - "colectivos"
+        - "us-citizens"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The U.S. State Department urges Americans to leave Venezuela immediately, following reports that Colectivos were targeting them. (The Guardian)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-06-001"
+    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited The Guardian."
+
+  - id: "evt-2026-01-10-004"
+    category: "Civil unrest and protests"
+    subcategory: "Protests and state crackdowns"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "Islamic Revolutionary Guard Corps"
+    importance: 8
+    headline: "Iran's crackdown on protests intensifies; activists report about 65 dead and 2,300 detained"
+    summary: >
+      According to the deep-research report, citing Reuters, protests over economic
+      grievances continued in cities across Iran, including Tehran, Qom and Mashhad, while
+      the Revolutionary Guards labelled demonstrators terrorists and vowed to crush armed
+      rioters. Activist and monitoring groups were reported to have counted about 50
+      protesters and 15 members of the security forces killed, with some 2,300 people
+      detained. President Donald Trump posted messages of support for the protesters.
+    key_data: []
+    details:
+      what_happened:
+        - "Protests continued in Tehran, Qom, Mashhad and other cities."
+        - "State media reported security personnel killed in clashes, including in Shiraz, Qom and Hamedan."
+        - "Activists reported about 50 protesters and 15 security personnel killed."
+        - "About 2,300 people were reported detained."
+        - "Trump posted in support of the protesters."
+      why_it_matters:
+        - "The protests are among the largest challenges to Iran's leadership in years."
+      uncertainty_notes:
+        - "The deep-research report cites Reuters without a URL; no external source is listed and figures are recorded in prose only."
+        - "The deep-research report named 'President Raisi' as an actor; Ebrahim Raisi died in 2024, so that attribution is an error and is omitted."
+        - "Casualty figures from this period are highly uncertain because of the internet shutdown; later sources gave far higher estimates (see evt-2026-01-09-002)."
+    actors:
+      primary:
+        - "Iranian security forces"
+        - "Islamic Revolutionary Guard Corps"
+      secondary:
+        - "Iranian protesters"
+        - "Donald Trump"
+    entities:
+      people:
+        - name: "Ali Khamenei"
+          role: "Supreme Leader of Iran"
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "Islamic Revolutionary Guard Corps"
+          description: "Iranian military force leading the crackdown"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Tehran"
+        - "Qom"
+        - "Mashhad"
+        - "Shiraz"
+        - "Hamedan"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 65
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 2300
+      damage: null
+    classification:
+      event_type:
+        - "protest-crackdown"
+        - "mass-arrest"
+      tags:
+        - "iran"
+        - "iran-protests"
+        - "irgc"
+        - "human-rights"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: low
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-08-006"
+      - "evt-2026-01-09-002"
+    notes: "Markdown-only event whose supporting citations lack URLs. A URL-backed source must be added before this event can be marked reviewed. casualty_report figures are cumulative activist counts reported around January 10, not deaths on that day."
+
+  - id: "evt-2026-01-10-005"
+    category: "Disasters and accidents"
+    subcategory: "Landslides"
+    topics:
+      - "2026 Binaliw landslide"
+      - "Cebu City"
+    importance: 6
+    headline: "Binaliw landfill collapse death toll rises to at least four in Cebu City"
+    summary: >
+      The death toll from a garbage landslide at the Binaliw landfill in Cebu City,
+      Philippines, rose to at least four, while 12 of about 50 buried sanitation workers
+      were rescued, according to the Wikipedia current-events portal citing AFP via Arab
+      News. The deep-research report said the city's mayor confirmed four deaths and 36
+      people unaccounted for.
+    key_data:
+      - label: "Killed"
+        value: "At least 4"
+        citation_refs: [1]
+      - label: "Workers buried"
+        value: "About 50, of whom 12 were rescued"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "The death toll from the landfill collapse rose to at least four."
+        - "Twelve of about 50 buried sanitation workers were rescued."
+        - "The mayor was reported to have confirmed 36 people unaccounted for."
+        - "Rescuers dealt with unstable waste piles and brought in cranes."
+      why_it_matters:
+        - "The disaster highlights hazards at waste-management sites."
+      uncertainty_notes:
+        - "The deep-research report dates the collapse to January 7, while the portal first listed it on January 8 (evt-2026-01-08-020)."
+        - "Missing counts differ: 34 on January 8 per the portal and 36 per the deep-research report's account of the mayor's statement."
+        - "The deep-research report cites Reuters and AFP via Arab News without URLs, so they are not listed as external sources."
+    actors:
+      primary:
+        - "Cebu City authorities"
+      secondary:
+        - "Prime Integrated Waste Solutions"
+    entities:
+      people: []
+      organizations:
+        - name: "Prime Integrated Waste Solutions"
+          description: "Operator of the Binaliw landfill, per the deep-research report"
+      states:
+        - "Philippines"
+    geography:
+      countries:
+        - "Philippines"
+      places:
+        - "Binaliw"
+        - "Cebu City"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 4
+      injured: 12
+      displaced: 0
+      missing: 36
+      arrest_count: 0
+      damage: "Landfill structures and a staff house crushed."
+    classification:
+      event_type:
+        - "landslide"
+        - "casualty-update"
+      tags:
+        - "philippines"
+        - "cebu"
+        - "landfill-collapse"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The death toll from a garbage landslide in Cebu City, Philippines, rises to at least four, while 12 of about 50 buried sanitation workers are rescued. (AFP via Arab News)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-08-020"
+    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited AFP via Arab News."
+
+  - id: "evt-2026-01-10-006"
+    category: "Disasters and accidents"
+    subcategory: "Aviation accidents"
+    topics:
+      - "2026 Paipa Piper PA-31 crash"
+      - "Yeison Jiménez"
+      - "Boyacá Department"
+    importance: 5
+    headline: "Plane crash in Paipa, Colombia, kills singer Yeison Jiménez and five others"
+    summary: >
+      Six people, including musician Yeison Jiménez, were killed when a Piper PA-31
+      Navajo crashed in Paipa, Boyacá Department, Colombia, according to the Wikipedia
+      current-events portal citing BNO News. The deep-research report said the aircraft
+      crashed shortly after takeoff on a flight to Medellín and was destroyed by fire.
+    key_data:
+      - label: "Killed"
+        value: "6, including Yeison Jiménez"
+        citation_refs: [1]
+      - label: "Aircraft"
+        value: "Piper PA-31 Navajo"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "A Piper PA-31 Navajo crashed in Paipa, Boyacá."
+        - "All six people on board were killed, including singer Yeison Jiménez."
+        - "The aircraft was reported to have been destroyed by fire after crashing shortly after takeoff."
+      why_it_matters:
+        - "The crash killed one of Colombia's best-known popular music singers."
+      uncertainty_notes:
+        - "The deep-research report cites ABC News (AP) and People magazine, both dated January 11, without URLs."
+    actors:
+      primary: []
+      secondary:
+        - "Colombian Civil Aviation Authority"
+    entities:
+      people:
+        - name: "Yeison Jiménez"
+          role: "Colombian singer killed in the crash"
+      organizations:
+        - name: "Colombian Civil Aviation Authority"
+          description: "Authority investigating the crash"
+      states:
+        - "Colombia"
+    geography:
+      countries:
+        - "Colombia"
+      places:
+        - "Paipa"
+        - "Boyacá Department"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Aircraft destroyed by fire."
+    classification:
+      event_type:
+        - "aviation-accident"
+      tags:
+        - "colombia"
+        - "plane-crash"
+        - "yeison-jimenez"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Six people are killed, including musician Yeison Jiménez, when a Piper PA-31 Navajo crashes in Paipa, Boyacá Department, Colombia. (BNO News)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: medium
+    related_events: []
+    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited BNO News."
+
+  - id: "evt-2026-01-10-007"
+    category: "International relations"
+    subcategory: "Diplomatic relations"
+    topics:
+      - "Argentina–Brazil relations"
+      - "Argentina–Venezuela relations"
+      - "International reactions to the 2026 United States intervention in Venezuela"
+    importance: 4
+    headline: "Brazil returns custody of Argentina's embassy in Venezuela to Argentina"
+    summary: >
+      Brazil returned to Argentina responsibility for its diplomatic representation and
+      custody of the Argentine embassy in Venezuela, after overseeing the mission in
+      Caracas since 2024 following the expulsion of Argentine diplomats under the Nicolás
+      Maduro administration, according to the Wikipedia current-events portal citing
+      Reuters.
+    key_data:
+      - label: "Period of Brazilian custody"
+        value: "Since 2024"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "Brazil returned responsibility for Argentina's diplomatic representation in Venezuela to Argentina."
+        - "Brazil had held custody of the Argentine embassy in Caracas since 2024."
+      why_it_matters:
+        - "The handover allows Argentina to resume direct diplomacy in Caracas after Maduro's removal."
+      uncertainty_notes:
+        - "The deep-research report dates Brazil's announcement to January 11 while the portal lists it on January 10."
+    actors:
+      primary:
+        - "Government of Brazil"
+      secondary:
+        - "Government of Argentina"
+    entities:
+      people: []
+      organizations:
+        - name: "Ministry of Foreign Affairs of Brazil"
+          description: "Ministry that announced the handover"
+      states:
+        - "Brazil"
+        - "Argentina"
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+        - "Brazil"
+        - "Argentina"
+      places:
+        - "Caracas"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-handover"
+      tags:
+        - "brazil"
+        - "argentina"
+        - "venezuela"
+        - "embassy"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Brazil returns responsibility to Argentina for its diplomatic representation and custody of the Argentine embassy in Venezuela after overseeing the mission in Caracas since 2024 following the expulsion of Argentine diplomats under the Nicolás Maduro administration. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "The portal cited Reuters."
+
+  - id: "evt-2026-01-10-008"
+    category: "Politics and elections"
+    subcategory: "Election results"
+    topics:
+      - "2025 Egyptian parliamentary election"
+      - "Abdel Fattah el-Sisi"
+    importance: 6
+    headline: "Egypt finalizes parliamentary results as Sisi's allies keep two-thirds supermajority"
+    summary: >
+      Egypt's National Elections Authority finalized the remaining 49 parliamentary seats,
+      confirming that President Abdel Fattah el-Sisi's allies retain the two-thirds
+      supermajority needed to amend the constitution, while opposition parties and
+      independents hold about 158 of 568 elected seats, according to the Wikipedia
+      current-events portal citing Reuters.
+    key_data:
+      - label: "Seats finalized"
+        value: "49"
+        citation_refs: [1]
+      - label: "Opposition and independent seats"
+        value: "About 158 of 568 elected"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "The National Elections Authority announced results for the remaining 49 seats."
+        - "Sisi's allies retained a two-thirds supermajority."
+        - "Opposition parties and independents hold about 158 of 568 elected seats."
+      why_it_matters:
+        - "A two-thirds majority is sufficient to amend Egypt's constitution."
+      uncertainty_notes:
+        - "The deep-research report refers to 596 total seats while the portal gives 568 elected seats; the cited material does not explain the difference."
+    actors:
+      primary:
+        - "National Elections Authority of Egypt"
+      secondary:
+        - "Abdel Fattah el-Sisi"
+        - "Egyptian opposition parties"
+    entities:
+      people:
+        - name: "Abdel Fattah el-Sisi"
+          role: "President of Egypt"
+      organizations:
+        - name: "National Elections Authority"
+          description: "Egyptian body that announced the results"
+      states:
+        - "Egypt"
+    geography:
+      countries:
+        - "Egypt"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "election-results"
+      tags:
+        - "egypt"
+        - "parliamentary-election"
+        - "sisi"
+        - "supermajority"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Egypt's National Elections Authority finalizes the remaining 49 parliamentary seats, confirming that President Abdel Fattah el-Sisi's allies retain the two-thirds supermajority needed to amend the constitution, while opposition parties and independents hold about 158 of 568 elected seats. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "The portal cited Reuters."
+
+  - id: "evt-2026-01-10-009"
+    category: "Politics and elections"
+    subcategory: "Political prisoners"
+    topics:
+      - "Nicaragua–United States relations"
+      - "Political prisoners in Nicaragua"
+    importance: 5
+    headline: "Nicaragua releases dozens of prisoners after U.S. demand"
+    summary: >
+      Nicaragua released dozens of prisoners after the United States publicly demanded the
+      release of more than 60 political prisoners, according to the Wikipedia
+      current-events portal citing Al Jazeera. The deep-research report said the government
+      did not name those released and that a Nicaraguan rights group identified 19 former
+      detainees, including former mayor Oscar Gadea and pastor Rudy Palacios.
+    key_data:
+      - label: "Political prisoners whose release the U.S. demanded"
+        value: "More than 60"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "The Nicaraguan government said it had released dozens of prisoners."
+        - "The U.S. had publicly demanded the release of more than 60 political prisoners."
+        - "A rights group identified at least 19 of those released."
+      why_it_matters:
+        - "The releases show U.S. pressure on Nicaragua following the intervention in Venezuela."
+      uncertainty_notes:
+        - "The government did not publish names or numbers; the figure of 19 identified detainees comes from the deep-research report citing Al Jazeera without a URL."
+    actors:
+      primary:
+        - "Government of Nicaragua"
+      secondary:
+        - "United States"
+    entities:
+      people:
+        - name: "Oscar Gadea"
+          role: "Former mayor reported among those released"
+        - name: "Rudy Palacios"
+          role: "Pastor reported among those released"
+      organizations: []
+      states:
+        - "Nicaragua"
+        - "United States"
+    geography:
+      countries:
+        - "Nicaragua"
+      places:
+        - "Managua"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "prisoner-release"
+      tags:
+        - "nicaragua"
+        - "political-prisoners"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Nicaragua releases dozens of prisoners after the United States publicly demanded the release of more than 60 political prisoners. (Al Jazeera)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Al Jazeera."
+
+  - id: "evt-2026-01-10-010"
+    category: "Science and technology"
+    subcategory: "Internet regulation"
+    topics:
+      - "Grok"
+      - "xAI"
+      - "Pornography Act"
+      - "Sexual deepfake generation on X"
+    importance: 6
+    headline: "Indonesia suspends access to Grok over AI-generated pornographic content"
+    summary: >
+      Indonesia suspended access to the Grok chatbot over concerns about the generation of
+      pornographic content and summoned representatives of its developer, xAI, for
+      investigation, according to the Wikipedia current-events portal citing Reuters. The
+      deep-research report said Indonesia was the first country to block Grok and quoted
+      officials calling non-consensual sexual deepfakes a serious violation of rights.
+    key_data:
+      - label: "Measure"
+        value: "Temporary nationwide block of Grok"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "Indonesia suspended access to Grok."
+        - "The government summoned representatives of xAI for investigation."
+        - "Officials said non-consensual sexual deepfakes violate citizens' rights."
+      why_it_matters:
+        - "The block is an early national-level regulatory action against a generative AI tool over sexual content."
+      uncertainty_notes:
+        - "The claim that Indonesia was the first country to block Grok comes from the deep-research report citing Reuters without a URL."
+    actors:
+      primary:
+        - "Government of Indonesia"
+      secondary:
+        - "xAI"
+    entities:
+      people:
+        - name: "Elon Musk"
+          role: "Owner of xAI and X"
+      organizations:
+        - name: "xAI"
+          description: "Developer of the Grok chatbot"
+        - name: "Ministry of Communication and Digital Affairs of Indonesia"
+          description: "Ministry that ordered the block"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "regulatory-action"
+        - "online-safety"
+      tags:
+        - "indonesia"
+        - "grok"
+        - "xai"
+        - "deepfakes"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Indonesia suspends access to the Grok chatbot over concerns about the generation of pornographic content and summons representatives of its developer, xAI, for investigation. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-06-022"
+    notes: "Enriched from the deep-research report, whose citations lack URLs; the portal cited Reuters."
+
+  - id: "evt-2026-01-10-011"
+    category: "Disasters and accidents"
+    subcategory: "Earthquakes"
+    topics:
+      - "Earthquakes in Indonesia"
+      - "Talaud Islands"
+    importance: 4
+    headline: "Strong earthquake strikes off Indonesia's Talaud Islands; no tsunami threat"
+    summary: >
+      According to the deep-research report, citing Reuters, an earthquake of magnitude
+      6.8 according to the GFZ German Research Centre for Geosciences struck off
+      Indonesia's Talaud Islands. Indonesia's meteorological agency BMKG said there was no
+      tsunami potential, and no damage or casualties were immediately reported.
+    key_data: []
+    details:
+      what_happened:
+        - "A strong earthquake struck off the Talaud Islands."
+        - "BMKG said there was no tsunami potential."
+        - "No damage or casualties were immediately reported."
+      why_it_matters:
+        - "The quake is a reminder of seismic risk in eastern Indonesia."
+      uncertainty_notes:
+        - "Magnitude and depth differ: GFZ reported 6.8 at about 77 km, while the deep-research report says BMKG logged 7.1 at 17 km."
+        - "The deep-research report cites Reuters without a URL; no external source is listed."
+    actors:
+      primary: []
+      secondary:
+        - "BMKG"
+        - "GFZ German Research Centre for Geosciences"
+    entities:
+      people: []
+      organizations:
+        - name: "BMKG"
+          description: "Indonesia's Meteorology, Climatology and Geophysical Agency"
+        - name: "GFZ German Research Centre for Geosciences"
+          description: "German seismological research centre"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Talaud Islands"
+        - "North Sulawesi"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "earthquake"
+      tags:
+        - "indonesia"
+        - "earthquake"
+        - "talaud-islands"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: medium
+      detail_accuracy: low
+      actor_identification: high
+    related_events: []
+    notes: "Markdown-only event whose supporting citation lacks a URL. A URL-backed source must be added before this event can be marked reviewed."
+
+  - id: "evt-2026-01-10-012"
+    category: "Disasters and accidents"
+    subcategory: "Wildfires"
+    topics:
+      - "2025–26 Australian bushfire season"
+      - "Victoria"
+      - "Longwood"
+    importance: 7
+    headline: "Bushfires in south-eastern Australia claim first death and destroy over 300 structures"
+    summary: >
+      According to the deep-research report, citing Reuters reporting from January 11,
+      police found human remains near Longwood, about 110 km north of Melbourne, confirming
+      the first death from bushfires that had burned more than 350,000 hectares and
+      destroyed more than 300 structures in south-eastern Australia. Victoria declared a
+      total fire ban and residents of New South Wales were warned to prepare for extreme
+      fire danger.
+    key_data: []
+    details:
+      what_happened:
+        - "Police found human remains near Longwood."
+        - "The fires had burned more than 350,000 hectares and destroyed more than 300 structures."
+        - "More than 30 fires were active, with a total fire ban in Victoria."
+      why_it_matters:
+        - "The first confirmed death and large-scale property losses mark a serious escalation of the fires reported on January 8."
+      uncertainty_notes:
+        - "The deep-research report cites Reuters (January 11) without URLs; no external source is listed."
+        - "The deep-research report's comparison to the 2019-20 Black Summer is not quoted from a source and is omitted."
+    actors:
+      primary:
+        - "Victorian emergency services"
+      secondary:
+        - "Government of Victoria"
+        - "Government of New South Wales"
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Longwood"
+        - "Victoria"
+        - "New South Wales"
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "More than 350,000 hectares burned and more than 300 structures destroyed."
+    classification:
+      event_type:
+        - "wildfire"
+        - "fatality"
+      tags:
+        - "australia"
+        - "victoria"
+        - "bushfires"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external: []
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: low
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-08-013"
+    notes: "Markdown-only event whose supporting citations lack URLs. A URL-backed source must be added before this event can be marked reviewed."
+
+  - id: "evt-2026-01-10-013"
+    category: "Politics and elections"
+    subcategory: "Election disputes"
+    topics:
+      - "2025 Honduran general election"
+      - "Armed Forces of Honduras"
+      - "Xiomara Castro"
+    importance: 6
+    headline: "Honduran military chief says confirmed election result and transfer of power will be guaranteed"
+    summary: >
+      The Chief of the Joint Chiefs of Staff of the Honduran Armed Forces, Héctor Valerio,
+      said the already confirmed election results and the transfer of power would be
+      guaranteed despite President Xiomara Castro's decree demanding a recount, according
+      to the Wikipedia current-events portal citing Tiempo.
+    key_data:
+      - label: "Statement by"
+        value: "Héctor Valerio, Chief of the Joint Chiefs of Staff"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "Héctor Valerio said the confirmed election results would be respected."
+        - "He said the transfer of power would be guaranteed despite the presidential recount decree."
+      why_it_matters:
+        - "The military's position is significant in a dispute between the outgoing government and the confirmed election result."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 10 deep-research markdown."
+    actors:
+      primary:
+        - "Armed Forces of Honduras"
+      secondary:
+        - "Xiomara Castro"
+    entities:
+      people:
+        - name: "Héctor Valerio"
+          role: "Chief of the Joint Chiefs of Staff of the Honduran Armed Forces"
+        - name: "Xiomara Castro"
+          role: "President of Honduras"
+      organizations:
+        - name: "Armed Forces of Honduras"
+          description: "Honduran military"
+      states:
+        - "Honduras"
+    geography:
+      countries:
+        - "Honduras"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "military-statement"
+        - "election-dispute"
+      tags:
+        - "honduras"
+        - "armed-forces"
+        - "transfer-of-power"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Chief of the Joint Chiefs of Staff of the Honduran Armed Forces Héctor Valerio informs that the already confirmed election results and the transfer of power would be guaranteed despite President Xiomara Castro's decree demanding a recount of the results. (Tiempo)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-09-021"
+    notes: "Portal-derived event; reported by Tiempo per the Wikipedia portal. Not covered in the deep-research markdown."
+
+  - id: "evt-2026-01-10-014"
+    category: "Sports"
+    subcategory: "Association football"
+    topics:
+      - "2025–26 FA Cup"
+      - "Macclesfield F.C."
+      - "Crystal Palace F.C."
+    importance: 3
+    headline: "Macclesfield knock FA Cup holders Crystal Palace out in historic upset"
+    summary: >
+      National League North side Macclesfield beat FA Cup holders Crystal Palace 2-1, in
+      statistically the biggest upset in the competition's 155-year history, according to
+      the Wikipedia current-events portal citing BBC Sport.
+    key_data:
+      - label: "Score"
+        value: "Macclesfield 2-1 Crystal Palace"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "Macclesfield of the National League North beat Crystal Palace 2-1 in the FA Cup."
+        - "Crystal Palace were the defending champions."
+      why_it_matters:
+        - "The result was described as statistically the biggest upset in the FA Cup's 155-year history."
+      uncertainty_notes:
+        - "Portal-derived event not covered in the January 10 deep-research markdown."
+    actors:
+      primary:
+        - "Macclesfield F.C."
+        - "Crystal Palace F.C."
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Macclesfield F.C."
+          description: "National League North football club"
+        - name: "Crystal Palace F.C."
+          description: "Premier League club and FA Cup holders"
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "sports-result"
+      tags:
+        - "fa-cup"
+        - "football"
+        - "macclesfield"
+        - "crystal-palace"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In association football, National League North team Macclesfield beat the FA Cup defending champions Crystal Palace 2–1, in statistically the biggest upset in the competition's 155-year history. (BBC Sport)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by BBC Sport per the Wikipedia portal. Not covered in the deep-research markdown."
+
+strategic_conclusion: >
+  January 10 showed the Venezuela intervention's effects spreading across the region:
+  a U.S. alert urging citizens to leave the country, Brazil's handback of Argentina's
+  embassy, and Nicaragua's release of prisoners under U.S. pressure. In Syria, a drone
+  strike on Aleppo's governorate building tested the day-old ceasefire while U.S.
+  airstrikes targeted the Islamic State. Iran's crackdown continued under an information
+  blackout, with casualty figures that later sources would revise sharply upward.
+
+  Domestic politics were marked by the consolidation of incumbent power in Egypt and
+  a Honduran military statement backing the confirmed election result against a
+  presidential recount decree. Indonesia's block of Grok extended the regulatory
+  response to AI-generated sexual imagery. The Cebu landfill toll, the Colombian plane
+  crash, the first bushfire death in Victoria and a strong earthquake off the Talaud
+  Islands made up the day's disasters.
+
+works_cited:
+  - id: 1
+    title: "Portal:Current events/2026 January 10"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_10"
+    accessed: "2026-03-27"
