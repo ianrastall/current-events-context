@@ -1,6 +1,6 @@
 # Handoff: January 2026 deep-context expansion
 
-Last updated: 2026-09-23
+Last updated: 2026-09-23 (review pass)
 
 ## Goal
 
@@ -20,11 +20,33 @@ Do not use `llm_agent_prompt.txt` or `generate_prompts.py` for conversion as the
 | Days | Research report | YAML | Status |
 | --- | --- | --- | --- |
 | 01-05 | Yes | Schema 2.2 | `reviewed` |
-| 06-09 | Yes | Schema 2.2 | `draft`, converted 2026-09-23 |
-| 10 | Yes, but no source URLs | Schema 2.2 | `draft`, weak sourcing, re-run recommended |
+| 06-09 | Yes | Schema 2.2 | `reviewed` (review pass 2026-09-23, see below) |
+| 10 | Yes, but no source URLs | Schema 2.2 | `draft`, weak sourcing, re-run in progress |
 | 11-31 | No | Portal stub | Needs a deep-research run |
 
 All of 01-10 pass `validate.py` with `jsonschema` installed, and every `related_events` link across 01-10 resolves.
+
+## Review pass on 06-09 (2026-09-23)
+
+Before flipping `status`/`reviewed`/`mode` to reviewed, ran automated checks against each day's source report (`reference/deep-research/2026/01/2026-01-DDa.md`):
+
+- Every `quoted_material` string in every external source verified to appear verbatim in that day's report (136 quotes across 06-09; the checker's first pass flagged 13 false positives from incomplete curly-quote/ellipsis normalization — all 13 confirmed present by direct `grep`).
+- Every cited `url` verified to appear verbatim in that day's report (0 mismatches).
+- Headlines verified sentence case, `tags`/`event_type` verified kebab-case, `time.date` verified to match the file date — all clean.
+- `validate.py` schema + cross-reference checks still pass after the flip.
+
+Day 10 was deliberately left in `draft`: its source report cites outlets by name with no URLs at all (`grep -n "lack URLs\|lack a URL"` in that file shows the gaps), so several of its events can't be attributed to a checkable source. A re-run with a real deep-research tool (browser-based) is underway; see the improved prompt below.
+
+## Deep-research prompt (in use as of 2026-09-23)
+
+`llm_prompt.txt` at the repo root is the base prompt. Two lines were added to its FACT RULES to close the two failure modes actually observed in days 06-10 (future-event leakage from reports compiled in March, and day 10's total lack of URLs):
+
+```
+- Report only events that occurred on DATE_ISO or were first reported on DATE_ISO. Do not include events from later dates, even if you find later sources discussing them.
+- Every source must include a full, working URL — no citation is valid without one.
+```
+
+These are being used for the day-11 and day-10-rerun requests but not yet written back into `llm_prompt.txt` itself — do that once a couple of days confirm the wording holds up.
 
 ## Decisions made in the 06-10 conversion
 

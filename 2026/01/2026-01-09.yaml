@@ -6,9 +6,9 @@ source_page:
 dataset:
   schema_version: "2.2"
   compiler:
-    mode: "llm_deep_research_broad_snapshot"
-    status: "draft"
-    reviewed: false
+    mode: "llm_deep_research_broad_snapshot_reviewed"
+    status: "reviewed"
+    reviewed: true
   scope:
     seed_source: "Broad global news sweep"
     enrichment_sources_expected: true
