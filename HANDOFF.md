@@ -1,6 +1,6 @@
 # Handoff: January 2026 deep-context expansion
 
-Last updated: 2026-09-24 (Jan 10 rebuild, Jan 11-12 builds)
+Last updated: 2026-09-24 (Jan 10 rebuild, Jan 11-14 builds)
 
 ## Goal
 
@@ -24,9 +24,11 @@ Do not use `llm_agent_prompt.txt` or `generate_prompts.py` for conversion as the
 | 10 | Yes (`2026-01-10b.md`, real URLs) | Schema 2.2 | `draft`, rebuilt 2026-09-24, see below |
 | 11 | Yes (`2026-01-11b.md`) | Schema 2.2 | `draft`, built 2026-09-24 |
 | 12 | Yes (`2026-01-12b.md`) | Schema 2.2 | `draft`, built 2026-09-24 |
-| 13-31 | No | Portal stub | Needs a deep-research run |
+| 13 | Yes (`2026-01-13a.md`) | Schema 2.2 | `draft`, built 2026-09-24 |
+| 14 | Yes (`2026-01-14a.md`) | Schema 2.2 | `draft`, built 2026-09-24, see below |
+| 15-31 | No | Portal stub | Needs a deep-research run |
 
-All of 01-12 pass `validate.py` with `jsonschema` installed, and every `related_events` link across 01-12 resolves. Days 10-12 are `draft`/`reviewed: false` pending the same human-review pass already done for 01-09 — they have not been machine-verified beyond the quote/URL/schema checks described below.
+All of 01-14 pass `validate.py` with `jsonschema` installed, and every `related_events` link across 01-14 resolves. Days 10-14 are `draft`/`reviewed: false` pending the same human-review pass already done for 01-09 — they have not been machine-verified beyond the quote/URL/schema checks described below.
 
 ## Jan 10 rebuild and the monthly-vs-daily portal misattribution (2026-09-24)
 
@@ -52,6 +54,25 @@ Jan 12's initial validation failed on three `sources.external[].supports` entrie
 Both days needed a few cross-day disambiguations, resolved by matching exact dated phrasing in the sources: the Noem ICE-surge officer deployment and the Victoria bushfire's first confirmed death both belong to Jan 11, not Jan 10 as originally guessed; Jan 12's press-conference coverage of that same bushfire death is recorded as a separate, zero-casualty Jan 12 event cross-linked to the Jan 11 death record so the death itself isn't double-counted.
 
 All three days' `related_events` links were checked against Jan 1-12 for accidental duplicates (recurring stories like the Cambodia scam-center crackdowns and Venezuela prisoner releases are cross-linked rather than duplicated); no unflagged duplicates were found.
+
+## Jan 13 and Jan 14 builds (2026-09-24)
+
+The user supplied `2026-01-13a.md` and `2026-01-14a.md`; both are saved under `reference/deep-research/2026/01/` with the user's `a` suffix. They are different in kind:
+
+- **Jan 13** is a clean, URL-sourced report (16 events, 33 references) that stays on the day. Built as 21 events: the 16 report events (5 merged with portal bullets) plus 5 portal-only events (Argentina inflation, Mali ferry, Walikale landslide, Tren de Aragua arrests, X restored in Venezuela). The Kharkiv postal-facility strike deliberately deferred from `evt-2026-01-12-011` is recorded here as `evt-2026-01-13-002`. The Iran toll event records both attributions of the 2,000 figure (an Iranian official via Reuters; HRAI via the portal) and marks the UN's "hundreds" and AP's activist figure above 2,500 as contradicting sources.
+- **Jan 14** is a Gemini-style "intelligence report" with the same monthly-portal problem found on Jan 10. Built as 15 events. Excluded, each confirmed against existing YAML or its own cited dates:
+  - Syrian SDF withdrawal from Aleppo: duplicate of `evt-2026-01-11-006` (see also 01-08-007, 01-09-005).
+  - U.S. strike toll of 100 in Caracas, 32 Cubans killed, FAA Caribbean ban lifted: duplicates of `evt-2026-01-04-016/017/018` and `evt-2026-01-08-001`.
+  - STC collapse in Aden, airport captured, al-Zoubaidi fled via Somaliland: duplicate of `evt-2026-01-08-019`.
+  - Iran items: Malard police death and 568 injured police (`evt-2026-01-08-006`), first Starlink shutdown (`evt-2026-01-11-002`), HRAI 483/47 count (`evt-2026-01-11-001`), and a cumulative 3,428 figure sourced to an RFE/RL live blog whose slug belongs to the later Iran war. Only the Jan 14 Kurdish-infiltration portal bullet is kept (`evt-2026-01-14-011`).
+  - Luigi Mangione federal murder/weapons charges dismissed: the report's own source dates it January 30. Place it on Jan 30 when that day is researched.
+  - DOJ release of 3 million Epstein pages: the final large tranche is a January 30 event, not January 14. Place it on Jan 30.
+  - The Sudan section's headline item, the return to Khartoum, is already `evt-2026-01-11-012`; only the January 14 Cairo meeting (The National) is kept as `evt-2026-01-14-003`, with Decree No. 83 recorded with an undated-source caveat.
+- One Jan 14 event is taken from a works-cited entry rather than a report section: the AP live page for January 14 is headlined "Senate rejects Venezuela war powers resolution as 2 Republicans flip". It is recorded as `evt-2026-01-14-005` with `detail_accuracy: low` and a note that it rests on that headline alone. A reviewer should confirm the vote tally and names.
+- Several Jan 14 report sources are the Wikipedia portal itself ("via Wikipedia Current Events"). Those events (Brazil raid, Copernicus, gold record) are treated as portal-derived with `external: []`, matching earlier days' handling.
+- The Danish/Greenlandic ministers' talks in Washington, scheduled for Jan 14 per the Jan 13 sources, are not covered by either the report or the portal. That is a gap a re-run could fill.
+
+Verification: a script checked every `quoted_material` string and every `url` against the day's report (after stripping Markdown escapes such as `\_` and `\&` and normalizing curly quotes), every `text_fragment` against the original portal bullets from git, and every `related_events` id against the archive. Result: zero mismatches on both days. The only portal line not used on Jan 14 is a topic header. Quotations that come from a headline in the report's reference list rather than its body are marked as such in that event's `notes`.
 
 ## Review pass on 06-09 (2026-09-23)
 
@@ -101,7 +122,8 @@ The deep-research reports were compiled in late March 2026, and several leaked l
 ## Open issues
 
 - `2026-01-04.yaml`, `evt-2026-01-04-015` (royal commission) is probably misdated. Its only source is an undated Guardian topic page, and it says "Bondi Junction". SBS reported the announcement as new on Jan 9 (see `evt-2026-01-09-014`). Not changed because Jan 4 is already marked reviewed.
-- The Benin election results excluded from Jan 9 should be placed on the correct mid-January day when that day is researched.
+- The Benin election results excluded from Jan 9 should be placed on the correct mid-January day when that day is researched. Neither the Jan 13 nor the Jan 14 report covers them.
+- Jan 30 should pick up the Mangione federal-charge dismissal and the 3-million-page Epstein release excluded from Jan 14.
 - `2026-01-10a.md` (the original, URL-less report) is still on disk alongside `2026-01-10b.md` (the rebuild source). No cleanup requested or performed; `2026-01-10.yaml`'s `notes` fields cite `b` throughout.
 - `copilot_prompts/` holds prompts for 01-01 to 01-10 built from the schema 2.1 template. They are now stale; left in place pending the owner's decision.
 - `llm_agent_prompt.txt` and `llm_review_prompt.txt` still embed the schema 2.1 template.
@@ -117,7 +139,7 @@ To cut down on leakage of later events, consider adding to the FACT RULES in `ll
 
 ## Next steps
 
-1. Human-review 10-12 and flip them to `reviewed` (same pass already done for 01-09).
-2. Run deep research for 13-31, saving each report as `reference/deep-research/2026/01/2026-01-DDb.md` (use the "b" suffix going forward, since "a" now means "the original, possibly weaker report" by precedent) — explicitly instruct the tool to use the daily portal page, not the monthly index, per the Jan 10 lesson above.
+1. Human-review 10-14 and flip them to `reviewed` (same pass already done for 01-09).
+2. Run deep research for 15-31, saving each report as `reference/deep-research/2026/01/2026-01-DDb.md` (use the "b" suffix going forward, since "a" now means "the original, possibly weaker report" by precedent) — explicitly instruct the tool to use the daily portal page, not the monthly index, per the Jan 10 lesson above.
 3. Convert each day, validate, verify quotes/URLs against the source report, and link `related_events` to prior days.
 4. Once all 31 days are expanded, build the January 2026 summary from the YAML files, deduplicating follow-up events via `related_events`.
