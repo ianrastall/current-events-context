@@ -1,41 +1,2583 @@
-Date: '2026-01-13'
-Source_URI: Portal:Current events/2026 January 13
-Intelligence_Payload:
-  Uncategorized:
-  - 2025–2026 Iranian protests
-  - 2026 Iran massacres
-  - The U.S.-based non-governmental organization HRAI reports that at least 2,000
-    people have been killed during nationwide protests in Iran. Meanwhile, independent
-    activist sources contend that the nationwide crackdown has resulted in at least
-    12,000 to 20,000 people killed. (CBS News) (AP)
-  - Insurgency in Chad
-  - At least six people are killed, including three soldiers and three attackers,
-    and 12 others are injured, including two other attackers, in clashes between a
-    rebel group and the Chadian National Army in Korbol, Moyen-Chari, Chad. (Africanews)
-  - Adelaide Writers' Week boycott
-  - Adelaide Writers' Week in Adelaide, Australia, cancels its 2026 festival after
-    director Louise Adler resigned and more than 180 writers withdrew in protest over
-    the board's decision to disinvite Palestinian Australian author Randa Abdel-Fattah.
-    (Reuters)
-  - 2018–present Argentine monetary crisis
-  - Argentina records a 31.5% annual inflation rate in December, the lowest end-year
-    level since 2017, while monthly prices rise 2.8%, driven mainly by transport,
-    housing, and fuel. (AFP via Barron's)
-  - At least 38 people are killed when a ferry strikes rocks and sinks on the Niger
-    River in Diré, Tombouctou Region, Mali. (AP)
-  - At least 19 people are killed, four are seriously injured and over 30 others are
-    missing following a landslide triggered by hours of heavy rain in Walikale Territory,
-    North Kivu, Democratic Republic of the Congo. (AP) (Prensa Latina)
-  - Philippines–United Arab Emirates relations
-  - The Philippines and the United Arab Emirates sign a free trade agreement. (The
-    Star)
-  - Mexican drug war, Mexico–Venezuela relations
-  - Mexican police arrest six alleged Tren de Aragua members operating in Mexico City
-    on charges of drug trafficking, extortion, and human trafficking. (AP)
-  - 2026 Ugandan general election, Human rights in Uganda
-  - Uganda orders a nationwide internet shutdown two days before its general election,
-    with the communications regulator directing service providers to suspend access
-    to curb alleged misinformation and incitement. (AFP via Le Monde) (Al Jazeera)
-  - Censorship in Venezuela
-  - Venezuelans regain access to the social network X after more than a year of blockage
-    under de jure president Nicolás Maduro. (AFP via CP24)
+date: "2026-01-13"
+source_page:
+  portal: "Portal:Current events/2026 January 13"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 13, 2026 was dominated by the scale of killing in Iran. An Iranian official
+  told Reuters that about 2,000 people, including security personnel, had died in the
+  nationwide protests, the U.S.-based rights group HRAI reported a toll of at least
+  2,000, and activist sources cited on the Wikipedia portal put the figure far higher.
+  The UN human rights chief condemned the "violent repression" as some international
+  phone calls resumed while the internet stayed down. Overnight, Russia fired nearly
+  300 drones and 25 missiles at Ukraine, killing four people at a postal facility in
+  the Kharkiv region and forcing emergency power cuts in freezing weather. Uganda cut
+  public internet access two days before its general election and ordered two rights
+  groups to stop work.
+
+  In Western capitals, Greenland's prime minister said the territory would choose
+  Denmark over the United States on the eve of talks in Washington, and central bank
+  governors from Europe, the Americas and Asia issued a joint statement of solidarity
+  with Federal Reserve Chair Jerome Powell as U.S. data showed December consumer
+  prices up 2.7% on the year. Diplomatic activity also included a Japan-South Korea
+  summit in Nara, Indian and Pakistani military talks over alleged drone
+  intrusions, Bangladesh's protest to Myanmar over cross-border gunfire, and two UAE
+  trade pacts signed in Abu Dhabi, with the Philippines and Nigeria. Israel cut
+  contact with three more international bodies as a UN warning over UNRWA became
+  public. Other stories included Venezuela's disputed prisoner-release figures and the
+  restoration of X there, a ferry sinking on the Niger River in Mali, a landslide in
+  eastern Congo, clashes in southern Chad, Argentina's lowest year-end inflation since
+  2017, and the cancellation of Adelaide Writers' Week.
+
+events:
+  - id: "evt-2026-01-13-001"
+    category: "Civil unrest and protests"
+    subcategory: "Government crackdown"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "2026 Iran massacres"
+    importance: 9
+    headline: "Iranian official puts protest death toll at about 2,000 as UN condemns crackdown"
+    summary: >
+      An Iranian official told Reuters that about 2,000 people, including security
+      personnel, had been killed during the nationwide protests, blaming "terrorists"
+      for the deaths and giving no breakdown between protesters and security forces.
+      The U.S.-based rights group HRAI separately reported at least 2,000 deaths,
+      while activist sources cited on the Wikipedia portal put the crackdown's toll at
+      12,000 to 20,000. The UN human rights chief, Volker Türk, condemned the violence
+      against protesters and urged an end to "violent repression", with his office
+      citing its own reports of hundreds killed. Some Iranians were able to make
+      international phone calls again for the first time in days, but internet access
+      remained restricted.
+    key_data:
+      - label: "Toll given by an Iranian official"
+        value: "About 2,000 dead, including security personnel"
+        citation_refs: [1]
+      - label: "HRAI reported toll"
+        value: "At least 2,000 killed"
+        citation_refs: [34]
+      - label: "Activist-source estimate on the portal"
+        value: "12,000 to 20,000 killed"
+        citation_refs: [34]
+      - label: "UN human rights office account"
+        value: "Hundreds killed, based on its own sources"
+        citation_refs: [2]
+    details:
+      what_happened:
+        - "An Iranian official gave Reuters an approximate toll of 2,000 dead, without distinguishing protesters from security personnel, and blamed 'terrorists' for the deaths."
+        - "HRAI reported that at least 2,000 people had been killed during the nationwide protests, per the Wikipedia portal citing CBS News and AP."
+        - "UN High Commissioner for Human Rights Volker Türk condemned mounting violence against peaceful demonstrators and called for accountability."
+        - "Some mobile calls abroad resumed after days of communications restrictions; internet access stayed restricted."
+      why_it_matters:
+        - "The acknowledgment by an Iranian official sharply raised the publicly stated toll compared with the roughly 500 to 544 deaths recorded by HRANA-based counts on January 11 and 12."
+        - "The communications blackout continued to prevent independent verification of any figure."
+      uncertainty_notes:
+        - "The figures are differently sourced and not reconciled: about 2,000 from an Iranian official (Reuters); at least 2,000 from HRAI (portal, citing CBS News and AP); hundreds from the UN human rights office; 12,000 to 20,000 from activist sources (portal). AP's January 13 headline reported activists saying the toll surpassed 2,500."
+        - "casualty_report records 2,000 because an Iranian official and HRAI independently gave that figure; it is not a verified final toll."
+        - "The Reuters account gives no breakdown between protesters and security personnel."
+    actors:
+      primary:
+        - "Iranian authorities and security forces"
+        - "Iranian protesters"
+      secondary:
+        - "UN Office of the High Commissioner for Human Rights"
+        - "HRAI"
+    entities:
+      people:
+        - name: "Volker Türk"
+          role: "UN High Commissioner for Human Rights"
+      organizations:
+        - name: "Office of the UN High Commissioner for Human Rights"
+          description: "UN body that condemned the crackdown and cited its own reports of hundreds killed"
+        - name: "Human Rights Activists (HRAI/HRANA)"
+          description: "U.S.-based rights group tracking the protest toll"
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 2000
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Nationwide internet restrictions remained in place; some international calls restored."
+    classification:
+      event_type:
+        - "protest-crackdown"
+        - "casualty-update"
+      tags:
+        - "iran"
+        - "iran-protests"
+        - "ohchr"
+        - "communications-blackout"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The U.S.-based non-governmental organization HRAI reports that at least 2,000 people have been killed during nationwide protests in Iran. Meanwhile, independent activist sources contend that the nationwide crackdown has resulted in at least 12,000 to 20,000 people killed. (CBS News) (AP)"
+      external:
+        - id: src-001-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/about-2000-killed-iran-protests-official-says-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Around 2,000 people were killed."
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "UN Human Rights Office"
+          url: "https://www.ohchr.org/en/press-releases/2026/01/iran-un-human-rights-chief-urges-authorities-end-violent-repression-and"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "violent repression"
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/5bba9c01c439da1265afe7d2eafaea5c"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "make phone calls abroad"
+          citation_refs: [3]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: low
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-11-001"
+      - "evt-2026-01-11-002"
+      - "evt-2026-01-12-001"
+    notes: "The portal attributes the 2,000 figure to HRAI; the deep-research report attributes it to an Iranian official speaking to Reuters. Both are recorded. The UN's 'hundreds' and AP's activist figure above 2,500 are marked as contradicting sources."
+
+  - id: "evt-2026-01-13-002"
+    category: "Armed conflicts and attacks"
+    subcategory: "Missile and drone strikes"
+    topics:
+      - "Russian invasion of Ukraine"
+      - "Attacks on Ukrainian energy infrastructure"
+    importance: 7
+    headline: "Russian missile and drone barrage kills four at Kharkiv-region postal facility and cuts power"
+    summary: >
+      Russia struck Ukraine overnight into January 13 with what President Volodymyr
+      Zelenskyy said were nearly 300 drones, 18 ballistic missiles and seven cruise
+      missiles across eight regions. A strike on a postal facility in the Kharkiv
+      region killed four people. Attacks on energy-generation facilities and
+      substations led Ukraine's energy ministry to impose emergency power cuts in Kyiv
+      and six other regions during severe winter cold, and energy company DTEK
+      reported heavy damage to equipment at a thermal power plant.
+    key_data:
+      - label: "Weapons launched, per Zelenskyy"
+        value: "Nearly 300 drones, 18 ballistic missiles, 7 cruise missiles"
+        citation_refs: [4]
+      - label: "Regions targeted"
+        value: "8"
+        citation_refs: [4]
+      - label: "Killed at Kharkiv-region postal facility"
+        value: "4"
+        citation_refs: [4, 5]
+    details:
+      what_happened:
+        - "Zelenskyy reported nearly 300 drones, 18 ballistic missiles and seven cruise missiles launched overnight."
+        - "Four people were killed at a postal facility in the Kharkiv region."
+        - "Ukraine's energy ministry introduced emergency power cuts in Kyiv and six named regions."
+        - "DTEK reported heavy damage to equipment at a thermal power plant."
+        - "ABC News Australia reported that hundreds of thousands of homes lost electricity."
+      why_it_matters:
+        - "Damage to power and heating infrastructure put civilians under additional strain during freezing weather."
+        - "The strike continued a pattern of large Russian attacks on Ukraine's grid through early January."
+      uncertainty_notes:
+        - "The cited accounts report injuries but give no consistent nationwide count."
+        - "The attack spanned the night of January 12-13; this strike was deliberately left out of evt-2026-01-12-011 and is recorded here."
+    actors:
+      primary:
+        - "Russian Armed Forces"
+      secondary:
+        - "Ukrainian air defense"
+        - "Ukrainian emergency services"
+        - "DTEK"
+        - "Ministry of Energy of Ukraine"
+    entities:
+      people:
+        - name: "Volodymyr Zelenskyy"
+          role: "President of Ukraine"
+      organizations:
+        - name: "DTEK"
+          description: "Ukrainian private energy company that reported damage to a thermal plant"
+        - name: "Ministry of Energy of Ukraine"
+          description: "Imposed emergency power cuts"
+      states:
+        - "Russia"
+        - "Ukraine"
+    geography:
+      countries:
+        - "Ukraine"
+      places:
+        - "Kharkiv Oblast"
+        - "Kyiv"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: true
+      time_detail: "Overnight into January 13"
+      ongoing: false
+    casualty_report:
+      killed: 4
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Postal facility struck; thermal-plant equipment damaged; emergency power cuts in Kyiv and six regions; hundreds of thousands of homes reported without electricity."
+    classification:
+      event_type:
+        - "missile-strike"
+        - "drone-strike"
+        - "infrastructure-attack"
+      tags:
+        - "ukraine"
+        - "russia"
+        - "kharkiv"
+        - "energy-grid"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-002-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/aerospace-defense/russian-missiles-strike-kyiv-one-dead-kharkiv-ukrainian-officials-say-2026-01-12/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "knocking out heat and power"
+          citation_refs: [4]
+        - id: src-002-b
+          outlet: "ABC News Australia"
+          url: "https://www.abc.net.au/news/2026-01-13/russia-launches-another-major-attack-on-ukraine-power-grid/106226640"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "energy-generation facilities and substations"
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-11-007"
+      - "evt-2026-01-12-011"
+    notes: "The Reuters URL carries a January 12 slug but the report dates the account of the overnight attack to January 13."
+
+  - id: "evt-2026-01-13-003"
+    category: "Politics and elections"
+    subcategory: "Communications shutdown"
+    topics:
+      - "2026 Ugandan general election"
+      - "Human rights in Uganda"
+    importance: 7
+    headline: "Uganda shuts down public internet two days before general election"
+    summary: >
+      The Uganda Communications Commission directed providers to suspend public
+      internet access and selected mobile services from 6 p.m. on January 13, two days
+      before presidential and parliamentary elections, citing misinformation,
+      electoral fraud and incitement. A Reuters witness saw access go out at the
+      stated time. The directive also halted new SIM-card sales and registration and
+      outbound data roaming. Authorities separately ordered two local rights
+      organizations to stop work, adding to concern about scrutiny of an election in
+      which President Yoweri Museveni is seeking another term.
+    key_data:
+      - label: "Shutdown start"
+        value: "6 p.m. local time, January 13"
+        citation_refs: [6, 7]
+      - label: "Days before polling"
+        value: "2"
+        citation_refs: [6]
+      - label: "Rights groups ordered to halt work"
+        value: "2"
+        citation_refs: [6]
+    details:
+      what_happened:
+        - "The Uganda Communications Commission ordered providers to suspend public internet access from 6 p.m. local time."
+        - "The directive also covered new SIM-card sales and registration and outbound data roaming."
+        - "A Reuters witness confirmed internet access went out at 6 p.m."
+        - "Authorities ordered two local rights groups to cease operations."
+      why_it_matters:
+        - "The restrictions limited public communication and independent monitoring immediately before voting."
+        - "The measure followed an earlier ban on live broadcasts of protests ahead of the vote."
+      uncertainty_notes:
+        - "The report does not name the two rights organizations."
+    actors:
+      primary:
+        - "Uganda Communications Commission"
+        - "Government of Uganda"
+      secondary:
+        - "Internet service providers"
+        - "Ugandan rights organizations"
+        - "Yoweri Museveni"
+    entities:
+      people:
+        - name: "Yoweri Museveni"
+          role: "President of Uganda, seeking re-election"
+      organizations:
+        - name: "Uganda Communications Commission"
+          description: "Communications regulator that ordered the shutdown"
+      states:
+        - "Uganda"
+    geography:
+      countries:
+        - "Uganda"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: true
+      time_detail: "18:00 local time (EAT)"
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: "Nationwide loss of public internet access and restrictions on selected mobile services."
+    classification:
+      event_type:
+        - "internet-shutdown"
+        - "election-restriction"
+      tags:
+        - "uganda"
+        - "uganda-election-2026"
+        - "internet-shutdown"
+        - "civil-society"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Uganda orders a nationwide internet shutdown two days before its general election, with the communications regulator directing service providers to suspend access to curb alleged misinformation and incitement. (AFP via Le Monde) (Al Jazeera)"
+      external:
+        - id: src-003-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/uganda-orders-two-rights-groups-halt-work-days-before-election-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "went out at 6 p.m."
+          citation_refs: [6]
+        - id: src-003-b
+          outlet: "Uganda Radio Network"
+          url: "https://ugandaradionetwork.net/a/story/ucc-orders-shutdown-of-public-internet-ahead-of-elections"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "temporarily suspend public internet access"
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-05-019"
+    notes: "The Reuters report was first published January 13 and updated January 14. The portal cited AFP via Le Monde and Al Jazeera."
+
+  - id: "evt-2026-01-13-004"
+    category: "Armed conflicts and attacks"
+    subcategory: "Army-rebel clash"
+    topics:
+      - "Insurgency in Chad"
+    importance: 5
+    headline: "Clash between Chadian army and MPRD rebels in Korbol kills six"
+    summary: >
+      Fighting broke out on the morning of January 13 in the Korbol area of
+      Moyen-Chari in southern Chad between the army and fighters that news reporting
+      identified as the Movement for Peace, Reconstruction and Development (MPRD).
+      The army said three soldiers were killed and 10 wounded; MPRD leader Luc Beyam
+      Bebha said three of the group's fighters were killed and two wounded. The two
+      sides described the opposing force differently: the army referred to armed
+      bandits, while the MPRD identified its own fighters and losses.
+    key_data:
+      - label: "Killed"
+        value: "6 (3 soldiers, 3 MPRD fighters, per the respective sides)"
+        citation_refs: [8]
+      - label: "Wounded"
+        value: "12 (10 soldiers, 2 fighters)"
+        citation_refs: [8]
+    details:
+      what_happened:
+        - "The clash began on Tuesday morning in the Korbol area."
+        - "The army reported three soldiers killed and 10 wounded."
+        - "MPRD leader Luc Beyam Bebha reported three of the group's fighters killed and two wounded."
+        - "The army later confirmed the clash, describing its adversaries as groups of armed bandits."
+      why_it_matters:
+        - "The fighting marked a renewed armed confrontation in southern Chad near the border with the Central African Republic."
+      uncertainty_notes:
+        - "Each side's casualty figure comes from that side; neither was independently verified."
+        - "The army's description of 'armed bandits' differs from news reporting and the MPRD's own identification as a rebel group."
+    actors:
+      primary:
+        - "Chadian National Army"
+        - "Movement for Peace, Reconstruction and Development (MPRD)"
+      secondary: []
+    entities:
+      people:
+        - name: "Luc Beyam Bebha"
+          role: "Leader of the MPRD"
+      organizations:
+        - name: "Movement for Peace, Reconstruction and Development"
+          description: "Chadian armed group active in the south"
+        - name: "Chadian National Army"
+          description: "Chad's armed forces"
+      states:
+        - "Chad"
+    geography:
+      countries:
+        - "Chad"
+      places:
+        - "Korbol"
+        - "Moyen-Chari"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: true
+      time_detail: "Morning"
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: 12
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-clash"
+        - "insurgency"
+      tags:
+        - "chad"
+        - "mprd"
+        - "moyen-chari"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least six people are killed, including three soldiers and three attackers, and 12 others are injured, including two other attackers, in clashes between a rebel group and the Chadian National Army in Korbol, Moyen-Chari, Chad. (Africanews)"
+      external:
+        - id: src-004-a
+          outlet: "Africanews / AFP"
+          url: "https://www.africanews.com/amp/2026/01/14/chad-at-least-six-killed-in-fighting-between-rebel-group-and-armed-forces/"
+          publication_date: "2026-01-14"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "erupted Tuesday morning in Korbol"
+          citation_refs: [8]
+        - id: src-004-b
+          outlet: "African Press Agency"
+          url: "https://apanews.net/chadian-army-confirms-clash-with-rebel-group/"
+          publication_date: "2026-01-15"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "groups of armed bandits"
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Both sources were published after the January 13 clash (January 14 and 15)."
+
+  - id: "evt-2026-01-13-005"
+    category: "International relations"
+    subcategory: "Territorial sovereignty"
+    topics:
+      - "Greenland crisis"
+      - "Denmark–United States relations"
+    importance: 7
+    headline: "Greenland's prime minister says the territory chooses Denmark over the United States"
+    summary: >
+      At a joint news conference in Copenhagen with Danish Prime Minister Mette
+      Frederiksen, Greenlandic Prime Minister Jens-Frederik Nielsen said that if
+      Greenland had to choose between Denmark and the United States, it would choose
+      Denmark, and rejected U.S. ownership or government of the island. The statement
+      came a day before Danish and Greenlandic foreign ministers were due to hold talks
+      in Washington about President Donald Trump's push to acquire Greenland.
+    key_data:
+      - label: "Venue"
+        value: "Joint news conference, Copenhagen"
+        citation_refs: [10]
+      - label: "Next step"
+        value: "Danish and Greenlandic ministers due for talks in Washington on January 14"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "Nielsen said Greenland would choose Denmark if required to choose between it and the United States."
+        - "He rejected U.S. ownership and governance of Greenland."
+        - "The statement preceded planned talks involving the Danish and Greenlandic foreign ministers and senior U.S. officials."
+      why_it_matters:
+        - "The direct statement from Greenland's head of government set out the territory's position ahead of talks affecting relations within NATO."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Jens-Frederik Nielsen"
+        - "Government of Greenland"
+      secondary:
+        - "Mette Frederiksen"
+        - "Government of Denmark"
+        - "Trump administration"
+    entities:
+      people:
+        - name: "Jens-Frederik Nielsen"
+          role: "Prime Minister of Greenland"
+        - name: "Mette Frederiksen"
+          role: "Prime Minister of Denmark"
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations: []
+      states:
+        - "Denmark"
+        - "Greenland"
+        - "United States"
+    geography:
+      countries:
+        - "Denmark"
+        - "Greenland"
+      places:
+        - "Copenhagen"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-statement"
+        - "sovereignty-dispute"
+      tags:
+        - "greenland"
+        - "denmark"
+        - "united-states"
+        - "nato"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-005-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/greenland-chooses-denmark-over-us-prime-minister-nielsen-says-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "chooses Denmark over the United States"
+          citation_refs: [10]
+        - id: src-005-b
+          outlet: "TIME"
+          url: "https://time.com/7345949/greenland-denmark-trump/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "we choose Denmark"
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-05-003"
+      - "evt-2026-01-06-002"
+      - "evt-2026-01-08-003"
+      - "evt-2026-01-11-009"
+    notes: ""
+
+  - id: "evt-2026-01-13-006"
+    category: "Business and economy"
+    subcategory: "Central bank independence"
+    topics:
+      - "Federal Reserve"
+      - "Jerome Powell"
+    importance: 7
+    headline: "Central bank governors issue joint statement backing Fed Chair Powell"
+    summary: >
+      Central bank leaders from Europe, the Americas, Asia and international bodies
+      issued a joint statement expressing solidarity with Federal Reserve Chair Jerome
+      Powell after the Trump administration threatened him with a criminal
+      indictment. The statement, published by the European Central Bank and signed by
+      ECB President Christine Lagarde and the heads of institutions including the
+      Bank of England, Bank of Canada, Bank of Korea and the Bank for International
+      Settlements, said central bank independence underpins price, financial and
+      economic stability. It was a collective response to the earlier threat, not a
+      new charge.
+    key_data:
+      - label: "Publisher"
+        value: "European Central Bank"
+        citation_refs: [12]
+      - label: "Named signatory institutions (partial)"
+        value: "ECB, Bank of England, Bank of Canada, Bank of Korea, Bank for International Settlements"
+        citation_refs: [12, 13]
+    details:
+      what_happened:
+        - "The ECB published the joint statement on January 13."
+        - "Signatories explicitly backed Powell and the Federal Reserve System."
+        - "Leaders of institutions including the Bank of England, Bank of Canada, Bank of Korea and the BIS signed it."
+      why_it_matters:
+        - "The unusually broad statement showed the dispute over the Fed chair being treated as a matter for international financial governance, not only U.S. politics."
+      uncertainty_notes:
+        - "The report does not list every signatory; only the institutions named above are recorded."
+    actors:
+      primary:
+        - "Signatory central bank governors"
+        - "European Central Bank"
+      secondary:
+        - "Jerome Powell"
+        - "Trump administration"
+    entities:
+      people:
+        - name: "Jerome Powell"
+          role: "Chair of the Federal Reserve"
+        - name: "Christine Lagarde"
+          role: "President of the European Central Bank"
+      organizations:
+        - name: "European Central Bank"
+          description: "Published the joint statement"
+        - name: "Bank of England"
+          description: "Signatory institution"
+        - name: "Bank of Canada"
+          description: "Signatory institution"
+        - name: "Bank of Korea"
+          description: "Signatory institution"
+        - name: "Bank for International Settlements"
+          description: "Signatory institution"
+        - name: "Federal Reserve System"
+          description: "U.S. central bank whose chair faces a DOJ investigation"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "joint-statement"
+        - "central-bank-independence"
+      tags:
+        - "federal-reserve"
+        - "jerome-powell"
+        - "ecb"
+        - "central-banks"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-006-a
+          outlet: "European Central Bank"
+          url: "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260113~ec4630b9fa.en.html"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "We stand in full solidarity"
+          citation_refs: [12]
+        - id: src-006-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/global-central-bank-chiefs-plan-statement-support-feds-powell-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "rare joint statement"
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-11-004"
+      - "evt-2026-01-12-003"
+    notes: ""
+
+  - id: "evt-2026-01-13-007"
+    category: "Business and economy"
+    subcategory: "Inflation data"
+    topics:
+      - "Consumer Price Index"
+      - "Inflation in the United States"
+    importance: 6
+    headline: "U.S. consumer prices rise 2.7% over the year to December"
+    summary: >
+      The U.S. Bureau of Labor Statistics reported that the Consumer Price Index rose
+      0.3% in December 2025 on a seasonally adjusted basis and 2.7% over the previous
+      12 months, matching November's annual rate. Shelter, up 0.4% in the month, was
+      the largest contributor to the monthly increase, and food prices rose 0.7%. The
+      data fed expectations about the Federal Reserve's next rate decision amid the
+      separate dispute over the central bank's independence.
+    key_data:
+      - label: "CPI, December (seasonally adjusted, monthly)"
+        value: "+0.3%"
+        citation_refs: [14]
+      - label: "CPI, 12 months to December"
+        value: "+2.7%"
+        citation_refs: [14, 15]
+      - label: "Shelter, monthly"
+        value: "+0.4%"
+        citation_refs: [14]
+      - label: "Food, monthly"
+        value: "+0.7%"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "The BLS released the December 2025 CPI report on January 13."
+        - "The all-items index rose 0.3% in December and 2.7% over 12 months."
+        - "Shelter rose 0.4% and food rose 0.7% during the month."
+      why_it_matters:
+        - "The release was a key input for the Federal Reserve's next interest-rate decision."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "U.S. Bureau of Labor Statistics"
+      secondary:
+        - "Federal Reserve"
+    entities:
+      people: []
+      organizations:
+        - name: "Bureau of Labor Statistics"
+          description: "U.S. statistical agency that publishes the CPI"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "economic-data-release"
+      tags:
+        - "united-states"
+        - "inflation"
+        - "cpi"
+        - "bls"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-007-a
+          outlet: "U.S. Bureau of Labor Statistics"
+          url: "https://www.bls.gov/news.release/archives/cpi_01132026.htm"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "increased 2.7 percent"
+          citation_refs: [14]
+        - id: src-007-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/us-consumer-prices-increase-expected-december-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "matched November’s gain"
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-13-008"
+    category: "International relations"
+    subcategory: "Bilateral summit"
+    topics:
+      - "Japan–South Korea relations"
+    importance: 6
+    headline: "Takaichi and Lee hold Japan-South Korea summit in Nara"
+    summary: >
+      Japanese Prime Minister Sanae Takaichi and South Korean President Lee Jae Myung
+      held about 90 minutes of small-group and plenary talks in Nara. According to Japan's foreign ministry, they discussed the strategic
+      importance of bilateral ties, regional stability and security coordination with
+      the United States, as well as economic cooperation. Japan described the visit as
+      the year's first opportunity for reciprocal "shuttle diplomacy" visits between
+      the two leaders.
+    key_data:
+      - label: "Length of talks"
+        value: "About 90 minutes (small-group and plenary)"
+        citation_refs: [16]
+      - label: "Venue"
+        value: "Nara, Japan"
+        citation_refs: [16, 17]
+    details:
+      what_happened:
+        - "The leaders held about 90 minutes of small-group and plenary talks."
+        - "They discussed Japan-South Korea security coordination and cooperation with the United States."
+        - "Takaichi welcomed Lee to Nara and called for stronger bilateral relations."
+      why_it_matters:
+        - "Cooperation between the two U.S. allies shapes regional responses to shared security and economic challenges."
+      uncertainty_notes:
+        - "The report does not describe any signed agreements or joint statement."
+    actors:
+      primary:
+        - "Sanae Takaichi"
+        - "Lee Jae Myung"
+      secondary:
+        - "Japanese and South Korean government delegations"
+    entities:
+      people:
+        - name: "Sanae Takaichi"
+          role: "Prime Minister of Japan"
+        - name: "Lee Jae Myung"
+          role: "President of South Korea"
+      organizations:
+        - name: "Ministry of Foreign Affairs of Japan"
+          description: "Published the summit readout"
+      states:
+        - "Japan"
+        - "South Korea"
+    geography:
+      countries:
+        - "Japan"
+      places:
+        - "Nara"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "bilateral-summit"
+      tags:
+        - "japan"
+        - "south-korea"
+        - "shuttle-diplomacy"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-008-a
+          outlet: "Ministry of Foreign Affairs of Japan"
+          url: "https://www.mofa.go.jp/a_o/na/kr/pageite_000001_01454.html"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "shuttle diplomacy"
+          citation_refs: [16]
+        - id: src-008-b
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/japans-takaichi-south-koreas-lee-meet-discuss-security-economic-ties-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "bolster security and economic cooperation"
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-13-009"
+    category: "International relations"
+    subcategory: "Border drone incidents"
+    topics:
+      - "India–Pakistan relations"
+    importance: 5
+    headline: "Indian army chief says India told Pakistan to stop drone intrusions"
+    summary: >
+      At his annual news conference ahead of India's Army Day, army chief General
+      Upendra Dwivedi said the two countries' directors general of military
+      operations had spoken on January 13 about drones he said had crossed from
+      Pakistan into India, and that India had told Pakistan to stop the intrusions.
+      The drone sightings themselves were reported in preceding days, around the
+      Jammu border area; the new development was the military-to-military call and
+      its public disclosure. Reuters reported no immediate Pakistani response.
+    key_data:
+      - label: "Channel"
+        value: "Call between the two militaries' operations chiefs, January 13"
+        citation_refs: [18]
+    details:
+      what_happened:
+        - "Dwivedi described the drone activity at his annual pre-Army Day news conference."
+        - "He said the two countries' military-operations chiefs spoke by phone on January 13."
+        - "India said the alleged intrusions were unacceptable and should stop."
+      why_it_matters:
+        - "The exchange showed continued sensitivity along the border after the two countries' fighting in 2025."
+      uncertainty_notes:
+        - "The intrusions are Indian allegations; Pakistan had made no reported response."
+    actors:
+      primary:
+        - "Indian Army"
+      secondary:
+        - "Pakistan Army"
+    entities:
+      people:
+        - name: "Upendra Dwivedi"
+          role: "Chief of the Army Staff, India"
+      organizations:
+        - name: "Indian Army"
+          description: "Raised the alleged drone intrusions with Pakistan"
+      states:
+        - "India"
+        - "Pakistan"
+    geography:
+      countries:
+        - "India"
+        - "Pakistan"
+      places:
+        - "Jammu"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "military-communication"
+        - "border-incident"
+      tags:
+        - "india"
+        - "pakistan"
+        - "drones"
+        - "jammu"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-009-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/india/india-has-told-pakistan-control-drone-intrusions-indian-army-chief-says-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "please put a stop to it"
+          citation_refs: [18]
+        - id: src-009-b
+          outlet: "Hindustan Times"
+          url: "https://www.hindustantimes.com/india-news/control-indian-armys-word-of-caution-to-pakistan-over-drone-sightings-101768291051765.html"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Lagaam lagaiye"
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "The Hindustan Times quoted_material is taken from that article's headline as listed in the report's reference list."
+
+  - id: "evt-2026-01-13-010"
+    category: "International relations"
+    subcategory: "Border spillover"
+    topics:
+      - "Bangladesh–Myanmar relations"
+      - "Myanmar civil war"
+    importance: 5
+    headline: "Bangladesh summons Myanmar's ambassador over cross-border gunfire"
+    summary: >
+      Bangladesh's foreign ministry summoned Myanmar's ambassador, U Kyaw Soe Moe, to
+      protest gunfire crossing the border during fighting in Myanmar's Rakhine State.
+      A 12-year-old Bangladeshi girl had been wounded by a stray bullet and a man
+      injured by a landmine near the frontier in the Teknaf area. Bangladesh called
+      the firing a violation of international law and asked Myanmar to stop fighting
+      on its side of the border from harming Bangladeshi residents.
+    key_data:
+      - label: "Envoy summoned"
+        value: "U Kyaw Soe Moe, Myanmar's ambassador"
+        citation_refs: [20]
+      - label: "Prior injuries cited"
+        value: "2 (a girl by gunfire, a man by a landmine)"
+        citation_refs: [20]
+    details:
+      what_happened:
+        - "Myanmar's ambassador was summoned to Bangladesh's foreign ministry."
+        - "Bangladesh raised the cross-border gunfire and requested measures to stop it."
+        - "The protest followed a bullet injury to a 12-year-old girl and a landmine injury to a man near the border."
+      why_it_matters:
+        - "Fighting inside Myanmar was endangering people across an international border and opened a direct diplomatic dispute."
+      uncertainty_notes:
+        - "The injuries occurred before January 13; the summons is the day's event."
+    actors:
+      primary:
+        - "Ministry of Foreign Affairs of Bangladesh"
+        - "U Kyaw Soe Moe"
+      secondary:
+        - "Armed groups fighting in Rakhine State"
+    entities:
+      people:
+        - name: "U Kyaw Soe Moe"
+          role: "Myanmar's ambassador to Bangladesh"
+      organizations:
+        - name: "Ministry of Foreign Affairs of Bangladesh"
+          description: "Summoned the ambassador"
+      states:
+        - "Bangladesh"
+        - "Myanmar"
+    geography:
+      countries:
+        - "Bangladesh"
+        - "Myanmar"
+      places:
+        - "Dhaka"
+        - "Teknaf"
+        - "Cox's Bazar"
+        - "Rakhine State"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 2
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-protest"
+        - "border-spillover"
+      tags:
+        - "bangladesh"
+        - "myanmar"
+        - "rakhine"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-010-a
+          outlet: "The New Indian Express / AFP"
+          url: "https://www.newindianexpress.com/world/2026/Jan/13/bangladesh-summons-myanmar-envoy-after-border-clashes"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - casualty_report
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "summoned the ambassador of Myanmar"
+          citation_refs: [20]
+        - id: src-010-b
+          outlet: "The Daily Star"
+          url: "https://www.thedailystar.net/news/foreign-ministry-summons-myanmar-envoy-4080291"
+          publication_date: "2026-01-14"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "blatant violation of international law"
+          citation_refs: [21]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-12-016"
+    notes: "casualty_report.injured counts the two earlier injuries cited as the reason for the summons, not new injuries on January 13. The Daily Star report displays a January 14 publication date."
+
+  - id: "evt-2026-01-13-011"
+    category: "Business and economy"
+    subcategory: "Free trade agreements"
+    topics:
+      - "Philippines–United Arab Emirates relations"
+    importance: 5
+    headline: "Philippines and UAE sign Comprehensive Economic Partnership Agreement"
+    summary: >
+      The Philippines and the United Arab Emirates signed a Comprehensive Economic
+      Partnership Agreement in Abu Dhabi during President Ferdinand Marcos Jr.'s visit,
+      alongside Abu Dhabi Sustainability Week. Philippine Trade Secretary Cristina
+      Aldeguer-Roque and UAE Foreign Trade Minister Thani bin Ahmed Al Zeyoudi signed
+      it, with Marcos and UAE President Sheikh Mohamed bin Zayed Al Nahyan attending.
+      Officials described it as the Philippines' first free trade agreement with a
+      Middle Eastern country, aimed at cutting tariffs and trade barriers and widening
+      investment.
+    key_data:
+      - label: "Agreement"
+        value: "Comprehensive Economic Partnership Agreement (CEPA)"
+        citation_refs: [22, 23]
+      - label: "Significance"
+        value: "First Philippine free trade agreement with a Middle Eastern country"
+        citation_refs: [22]
+    details:
+      what_happened:
+        - "Aldeguer-Roque and Al Zeyoudi signed the agreement in Abu Dhabi."
+        - "Marcos and Sheikh Mohamed bin Zayed witnessed the ceremony."
+        - "The governments cited tariff reduction, investment and market access among its purposes."
+      why_it_matters:
+        - "The agreement extends the Philippines' formal trade relationships into the Gulf."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of the Philippines"
+        - "Government of the United Arab Emirates"
+      secondary:
+        - "Philippine and Emirati businesses"
+    entities:
+      people:
+        - name: "Ferdinand Marcos Jr."
+          role: "President of the Philippines"
+        - name: "Mohamed bin Zayed Al Nahyan"
+          role: "President of the United Arab Emirates"
+        - name: "Cristina Aldeguer-Roque"
+          role: "Philippine Secretary of Trade and Industry"
+        - name: "Thani bin Ahmed Al Zeyoudi"
+          role: "UAE Minister of Foreign Trade"
+      organizations: []
+      states:
+        - "Philippines"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "United Arab Emirates"
+      places:
+        - "Abu Dhabi"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "trade-agreement"
+      tags:
+        - "philippines"
+        - "uae"
+        - "cepa"
+        - "abu-dhabi-sustainability-week"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Philippines and the United Arab Emirates sign a free trade agreement. (The Star)"
+      external:
+        - id: src-011-a
+          outlet: "Presidential Communications Office (Philippines)"
+          url: "https://pco.gov.ph/news_releases/ph-uae-ink-historic-free-trade-agreement/"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "free trade agreement"
+          citation_refs: [22]
+        - id: src-011-b
+          outlet: "Emirates News Agency (WAM)"
+          url: "https://www.wam.ae/en/article/by7hbpm-uae-philippines-begin-new-chapter-trade-investment"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "reduce tariffs and unnecessary barriers to trade"
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-13-012"
+    notes: "The portal cited The Star."
+
+  - id: "evt-2026-01-13-012"
+    category: "Business and economy"
+    subcategory: "Bilateral trade agreements"
+    topics:
+      - "Nigeria–United Arab Emirates relations"
+    importance: 5
+    headline: "Nigeria and UAE sign economic partnership agreement in Abu Dhabi"
+    summary: >
+      Nigeria and the United Arab Emirates signed a separate Comprehensive Economic
+      Partnership Agreement in Abu Dhabi, with Presidents Bola Tinubu and Sheikh
+      Mohamed bin Zayed Al Nahyan attending during Abu Dhabi Sustainability Week.
+      Nigerian minister Jumoke Oduwole and UAE minister Thani bin Ahmed Al Zeyoudi
+      signed it. Both governments presented it as a means of expanding trade and
+      investment; Nigeria also named renewable energy, infrastructure, logistics and
+      digital trade as areas for cooperation. Tinubu announced that Nigeria would
+      co-host the Investopia investment event with the UAE in Lagos in February.
+    key_data:
+      - label: "Agreement"
+        value: "Comprehensive Economic Partnership Agreement (CEPA)"
+        citation_refs: [24, 25]
+      - label: "Follow-on event"
+        value: "Investopia, co-hosted in Lagos in February"
+        citation_refs: [24]
+    details:
+      what_happened:
+        - "Oduwole and Al Zeyoudi signed the agreement."
+        - "Tinubu and Sheikh Mohamed attended the ceremony."
+        - "Nigeria announced plans to co-host Investopia with the UAE in Lagos."
+      why_it_matters:
+        - "The pact sets a framework for broader commercial ties between a major African economy and the Gulf."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Nigeria"
+        - "Government of the United Arab Emirates"
+      secondary:
+        - "Nigerian and Emirati investors"
+    entities:
+      people:
+        - name: "Bola Tinubu"
+          role: "President of Nigeria"
+        - name: "Mohamed bin Zayed Al Nahyan"
+          role: "President of the United Arab Emirates"
+        - name: "Jumoke Oduwole"
+          role: "Nigerian Minister of Industry, Trade and Investment"
+        - name: "Thani bin Ahmed Al Zeyoudi"
+          role: "UAE Minister of Foreign Trade"
+      organizations:
+        - name: "Investopia"
+          description: "UAE-backed investment platform; Nigeria to co-host an edition in Lagos"
+      states:
+        - "Nigeria"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "United Arab Emirates"
+        - "Nigeria"
+      places:
+        - "Abu Dhabi"
+        - "Lagos"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "trade-agreement"
+      tags:
+        - "nigeria"
+        - "uae"
+        - "cepa"
+        - "investopia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-012-a
+          outlet: "State House, Nigeria"
+          url: "https://statehouse.gov.ng/president-tinubu-nigeria-to-co-host-investopia-with-uae-in-february-seals-trade-pact/"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "concluded a Comprehensive Economic Partnership Agreement"
+          citation_refs: [24]
+        - id: src-012-b
+          outlet: "Emirates News Agency (WAM)"
+          url: "https://www.wam.ae/en/article/by7hbym-uae-nigeria-forge-stronger-economic-ties-with"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "new chapter of increased trade and investment"
+          citation_refs: [25]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-13-011"
+    notes: ""
+
+  - id: "evt-2026-01-13-013"
+    category: "Arts and culture"
+    subcategory: "Festival cancellation"
+    topics:
+      - "Adelaide Writers' Week boycott"
+    importance: 5
+    headline: "Adelaide Writers' Week cancelled after more than 180 writers withdraw"
+    summary: >
+      Organizers cancelled the 2026 Adelaide Writers' Week after more than 180 writers
+      and speakers withdrew over the Adelaide Festival board's decision to disinvite
+      Palestinian Australian author Randa Abdel-Fattah. Director Louise Adler resigned
+      in opposition to the decision and the remaining board members said they would
+      step down. The board had cited cultural sensitivities after the December Bondi
+      Beach mass shooting; Abdel-Fattah called her exclusion censorship.
+    key_data:
+      - label: "Participants who withdrew"
+        value: "More than 180"
+        citation_refs: [27]
+    details:
+      what_happened:
+        - "More than 180 scheduled participants withdrew after Abdel-Fattah's disinvitation."
+        - "Louise Adler resigned as festival director."
+        - "The board announced that the 2026 Writers' Week would not go ahead, and remaining board members said they would step down."
+      why_it_matters:
+        - "The cancellation became part of Australia's wider debate about speech after the Bondi attack."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Adelaide Festival board"
+      secondary:
+        - "Randa Abdel-Fattah"
+        - "Louise Adler"
+        - "Withdrawing writers and speakers"
+    entities:
+      people:
+        - name: "Randa Abdel-Fattah"
+          role: "Palestinian Australian author who was disinvited"
+        - name: "Louise Adler"
+          role: "Director of Adelaide Writers' Week, resigned"
+      organizations:
+        - name: "Adelaide Festival"
+          description: "Organizer of Adelaide Writers' Week"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Adelaide"
+        - "South Australia"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: "The 2026 Writers' Week program was cancelled."
+    classification:
+      event_type:
+        - "event-cancellation"
+        - "boycott"
+      tags:
+        - "australia"
+        - "adelaide-writers-week"
+        - "free-speech"
+        - "bondi-attack-aftermath"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Adelaide Writers' Week in Adelaide, Australia, cancels its 2026 festival after director Louise Adler resigned and more than 180 writers withdrew in protest over the board's decision to disinvite Palestinian Australian author Randa Abdel-Fattah. (Reuters)"
+      external:
+        - id: src-013-a
+          outlet: "ABC News Australia"
+          url: "https://www.abc.net.au/news/2026-01-13/adelaide-writers-week-cancelled-randa-abdel-fattah-controversy/106225170"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "has been cancelled"
+          citation_refs: [26]
+        - id: src-013-b
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/ea353861a4a466b76c8ebd689441f33c"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "more than 180 writers and speakers withdrew"
+          citation_refs: [27]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "The portal cited Reuters."
+
+  - id: "evt-2026-01-13-014"
+    category: "Politics and government"
+    subcategory: "Prisoner releases"
+    topics:
+      - "Political prisoners in Venezuela"
+    importance: 6
+    headline: "Venezuela's assembly chief claims over 400 prisoners freed as rights groups count far fewer"
+    summary: >
+      National Assembly president Jorge Rodríguez said during a parliamentary session
+      that more than 400 prisoners had been released in an ongoing process, but gave
+      Reuters no timeframe for the figure. Rights groups reported far fewer recent
+      releases: Reuters cited estimates of roughly 60 to 70 in recent days, and El País
+      reported that Foro Penal had verified 54. The government rejects the term
+      political prisoners, which opposition figures and rights groups use.
+    key_data:
+      - label: "Releases claimed by Jorge Rodríguez"
+        value: "More than 400 (no timeframe given)"
+        citation_refs: [28, 29]
+      - label: "Recent releases per rights groups (Reuters)"
+        value: "Roughly 60 to 70"
+        citation_refs: [28]
+      - label: "Recent releases verified by Foro Penal (El País)"
+        value: "54"
+        citation_refs: [29]
+    details:
+      what_happened:
+        - "Rodríguez announced a figure above 400 during a parliamentary session."
+        - "Reuters reported rights groups' estimates of roughly 60 to 70 releases in recent days."
+        - "El País reported that Foro Penal had verified 54 recent releases."
+        - "Rodríguez did not give Reuters a timeframe for his figure."
+      why_it_matters:
+        - "The gap between the figures left families without a reliable public account of how many promised releases had happened."
+      uncertainty_notes:
+        - "The official figure and the NGO counts are not comparable because the official figure has no stated timeframe."
+    actors:
+      primary:
+        - "Jorge Rodríguez"
+        - "Venezuelan authorities"
+      secondary:
+        - "Foro Penal"
+        - "Detainees and their families"
+    entities:
+      people:
+        - name: "Jorge Rodríguez"
+          role: "President of Venezuela's National Assembly"
+      organizations:
+        - name: "Foro Penal"
+          description: "Venezuelan rights group that tracks political prisoners"
+        - name: "National Assembly of Venezuela"
+          description: "Venezuela's legislature"
+      states:
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places:
+        - "Caracas"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "prisoner-release"
+        - "disputed-figures"
+      tags:
+        - "venezuela"
+        - "political-prisoners"
+        - "foro-penal"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-014-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/venezuelas-government-says-over-400-people-freed-prison-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "no specific timeline"
+          citation_refs: [28]
+        - id: src-014-b
+          outlet: "El País"
+          url: "https://elpais.com/america/2026-01-13/venezuela-asegura-que-ha-liberado-a-mas-de-400-presos.html"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "más de 400"
+          citation_refs: [29]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-08-027"
+      - "evt-2026-01-12-027"
+    notes: "The Reuters report was updated January 14."
+
+  - id: "evt-2026-01-13-015"
+    category: "International relations"
+    subcategory: "Multilateral organizations"
+    topics:
+      - "Israel and the United Nations"
+    importance: 5
+    headline: "Israel cuts contact with three more international bodies"
+    summary: >
+      Israel's foreign ministry said it would immediately sever contact with UN
+      Energy, the UN Alliance of Civilizations and the Global Forum on Migration and
+      Development. The announcement also listed four UN-related bodies with which
+      Israel had already cut ties, which led some outlets to report a break with seven
+      bodies; the new action covered three. Foreign Minister Gideon Sa'ar also ordered a
+      review of cooperation with other organizations.
+    key_data:
+      - label: "Bodies newly cut off"
+        value: "3 (UN Energy, UN Alliance of Civilizations, Global Forum on Migration and Development)"
+        citation_refs: [30]
+      - label: "Bodies listed in the announcement"
+        value: "7, including 4 cut off earlier"
+        citation_refs: [31]
+    details:
+      what_happened:
+        - "The ministry named three bodies for immediate severance of contact."
+        - "It also referenced four bodies from which Israel had previously withdrawn or cut ties."
+        - "Sa'ar directed officials to review other organizational relationships."
+      why_it_matters:
+        - "The move further reduced Israel's participation in international forums."
+      uncertainty_notes:
+        - "Headlines citing seven bodies combine the three new breaks with four earlier ones; this event counts three."
+    actors:
+      primary:
+        - "Ministry of Foreign Affairs of Israel"
+        - "Gideon Sa'ar"
+      secondary:
+        - "UN Energy"
+        - "UN Alliance of Civilizations"
+        - "Global Forum on Migration and Development"
+    entities:
+      people:
+        - name: "Gideon Sa'ar"
+          role: "Foreign Minister of Israel"
+      organizations:
+        - name: "UN Energy"
+          description: "UN inter-agency energy mechanism"
+        - name: "UN Alliance of Civilizations"
+          description: "UN initiative on intercultural dialogue"
+        - name: "Global Forum on Migration and Development"
+          description: "State-led forum on migration policy"
+      states:
+        - "Israel"
+    geography:
+      countries:
+        - "Israel"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-withdrawal"
+      tags:
+        - "israel"
+        - "united-nations"
+        - "multilateralism"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-015-a
+          outlet: "Euronews"
+          url: "https://www.euronews.com/2026/01/13/israel-cuts-ties-with-three-global-bodies-after-us-withdrawal-foreign-ministry-says"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "severing ties with three international organisations"
+          citation_refs: [30]
+        - id: src-015-b
+          outlet: "The Times of Israel"
+          url: "https://www.timesofisrael.com/liveblog_entry/foreign-ministry-severs-jerusalems-ties-with-7-un-agencies-citing-anti-israel-bias/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts:
+            - key_data
+          quoted_material:
+            - "already cut ties"
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "The Times of Israel headline counts seven agencies; its body notes that ties with at least one had already been cut. Euronews ties the move to a prior U.S. withdrawal from international bodies."
+
+  - id: "evt-2026-01-13-016"
+    category: "International relations"
+    subcategory: "UN agency dispute"
+    topics:
+      - "UNRWA"
+      - "Israel and the United Nations"
+    importance: 6
+    headline: "Guterres letter warning Israel of possible ICJ referral over UNRWA laws is reported"
+    summary: >
+      Reuters reported that UN Secretary-General António Guterres had written to
+      Israeli Prime Minister Benjamin Netanyahu warning that he could refer Israel to
+      the International Court of Justice unless it reversed laws targeting UNRWA, the
+      UN agency for Palestinian refugees, and returned seized property. The letter was
+      dated January 8; the January 13 development was its public disclosure. Israel's
+      UN ambassador Danny Danon rejected the warning and repeated Israel's
+      allegations about UNRWA staff.
+    key_data:
+      - label: "Letter date"
+        value: "January 8, 2026"
+        citation_refs: [32]
+      - label: "Possible forum"
+        value: "International Court of Justice"
+        citation_refs: [32, 33]
+    details:
+      what_happened:
+        - "The letter called for repeal of measures targeting UNRWA and return of seized assets."
+        - "Guterres raised the possibility of referring the dispute to the ICJ."
+        - "Danon publicly dismissed the warning on January 13."
+      why_it_matters:
+        - "The exchange escalated a legal and diplomatic dispute over an agency that serves Palestinian refugees."
+      uncertainty_notes:
+        - "The letter predates January 13; this event records its disclosure and Israel's response."
+    actors:
+      primary:
+        - "António Guterres"
+        - "Government of Israel"
+      secondary:
+        - "UNRWA"
+        - "Danny Danon"
+        - "Benjamin Netanyahu"
+    entities:
+      people:
+        - name: "António Guterres"
+          role: "UN Secretary-General"
+        - name: "Benjamin Netanyahu"
+          role: "Prime Minister of Israel"
+        - name: "Danny Danon"
+          role: "Israel's ambassador to the UN"
+      organizations:
+        - name: "UNRWA"
+          description: "UN Relief and Works Agency for Palestine Refugees"
+        - name: "International Court of Justice"
+          description: "UN court to which Guterres said he could refer the dispute"
+      states:
+        - "Israel"
+    geography:
+      countries:
+        - "Israel"
+        - "Palestine"
+      places:
+        - "New York"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: "Concerns previously seized UNRWA property; no new damage reported."
+    classification:
+      event_type:
+        - "diplomatic-dispute"
+        - "legal-threat"
+      tags:
+        - "unrwa"
+        - "israel"
+        - "united-nations"
+        - "icj"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-016-a
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/un-chief-warns-he-could-refer-israel-world-court-over-action-against-un-2026-01-13/"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "without delay"
+          citation_refs: [32]
+        - id: src-016-b
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/13/un-chief-warns-he-could-refer-israel-to-icj-over-laws-targetting-unrwa"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "International Court of Justice"
+          citation_refs: [33]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-13-017"
+    category: "Business and economy"
+    subcategory: "Inflation data"
+    topics:
+      - "2018–present Argentine monetary crisis"
+    importance: 5
+    headline: "Argentina's annual inflation falls to 31.5%, lowest year-end level since 2017"
+    summary: >
+      Argentina recorded annual inflation of 31.5% in December, the lowest year-end
+      level since 2017, while monthly prices rose 2.8%, driven mainly by transport,
+      housing and fuel, according to the Wikipedia current-events portal citing AFP
+      via Barron's.
+    key_data:
+      - label: "Annual inflation, December"
+        value: "31.5%"
+        citation_refs: [34]
+      - label: "Monthly inflation, December"
+        value: "2.8%"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "Argentina's annual inflation rate for December was 31.5%, the lowest year-end level since 2017."
+        - "Monthly prices rose 2.8%, driven mainly by transport, housing and fuel."
+      why_it_matters:
+        - "The figure marks the lowest year-end inflation in Argentina since 2017."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 13 deep-research report."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Argentina"
+    geography:
+      countries:
+        - "Argentina"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "economic-data-release"
+      tags:
+        - "argentina"
+        - "inflation"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Argentina records a 31.5% annual inflation rate in December, the lowest end-year level since 2017, while monthly prices rise 2.8%, driven mainly by transport, housing, and fuel. (AFP via Barron's)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by AFP via Barron's per the Wikipedia portal."
+
+  - id: "evt-2026-01-13-018"
+    category: "Disasters and accidents"
+    subcategory: "Maritime accidents"
+    topics:
+      - "Niger River"
+    importance: 7
+    headline: "Ferry sinks on the Niger River near Diré, Mali, killing at least 38"
+    summary: >
+      At least 38 people were killed when a ferry struck rocks and sank on the Niger
+      River in Diré, Tombouctou Region, Mali, according to the Wikipedia
+      current-events portal citing AP.
+    key_data:
+      - label: "Killed"
+        value: "At least 38"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "A ferry struck rocks and sank on the Niger River in Diré, Tombouctou Region."
+        - "At least 38 people were killed."
+      why_it_matters:
+        - "At 38 dead, the sinking was the deadliest accident recorded on the portal for the day."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 13 deep-research report. The number of passengers and missing is not given."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Mali"
+    geography:
+      countries:
+        - "Mali"
+      places:
+        - "Diré"
+        - "Tombouctou Region"
+        - "Niger River"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 38
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Ferry sank."
+    classification:
+      event_type:
+        - "maritime-accident"
+      tags:
+        - "mali"
+        - "ferry-sinking"
+        - "niger-river"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 38 people are killed when a ferry strikes rocks and sinks on the Niger River in Diré, Tombouctou Region, Mali. (AP)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by AP per the Wikipedia portal."
+
+  - id: "evt-2026-01-13-019"
+    category: "Disasters and accidents"
+    subcategory: "Landslides"
+    topics:
+      - "North Kivu"
+    importance: 6
+    headline: "Rain-triggered landslide in Walikale, eastern DR Congo, kills at least 19"
+    summary: >
+      At least 19 people were killed, four seriously injured and more than 30 others
+      missing after a landslide triggered by hours of heavy rain in Walikale
+      Territory, North Kivu, Democratic Republic of the Congo, according to the
+      Wikipedia current-events portal citing AP and Prensa Latina.
+    key_data:
+      - label: "Killed"
+        value: "At least 19"
+        citation_refs: [34]
+      - label: "Seriously injured"
+        value: "4"
+        citation_refs: [34]
+      - label: "Missing"
+        value: "More than 30"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "Hours of heavy rain triggered a landslide in Walikale Territory."
+        - "At least 19 people were killed, four were seriously injured and more than 30 were missing."
+      why_it_matters:
+        - "With more than 30 people missing, the death toll could rise."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 13 deep-research report. casualty_report.missing records the portal's 'over 30' as 30."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Democratic Republic of the Congo"
+    geography:
+      countries:
+        - "Democratic Republic of the Congo"
+      places:
+        - "Walikale Territory"
+        - "North Kivu"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 19
+      injured: 4
+      displaced: null
+      missing: 30
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "natural-disaster"
+        - "landslide"
+      tags:
+        - "dr-congo"
+        - "north-kivu"
+        - "walikale"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 19 people are killed, four are seriously injured and over 30 others are missing following a landslide triggered by hours of heavy rain in Walikale Territory, North Kivu, Democratic Republic of the Congo. (AP) (Prensa Latina)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by AP and Prensa Latina per the Wikipedia portal."
+
+  - id: "evt-2026-01-13-020"
+    category: "Law and crime"
+    subcategory: "Organized crime arrests"
+    topics:
+      - "Mexican drug war"
+      - "Mexico–Venezuela relations"
+      - "Tren de Aragua"
+    importance: 4
+    headline: "Mexico City police arrest six alleged Tren de Aragua members"
+    summary: >
+      Mexican police arrested six alleged members of the Venezuelan gang Tren de
+      Aragua operating in Mexico City on charges of drug trafficking, extortion and
+      human trafficking, according to the Wikipedia current-events portal citing AP.
+    key_data:
+      - label: "Arrested"
+        value: "6"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "Police in Mexico City arrested six alleged Tren de Aragua members."
+        - "The charges include drug trafficking, extortion and human trafficking."
+      why_it_matters:
+        - "The arrests reflect the gang's reported spread beyond Venezuela into Mexico."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 13 deep-research report."
+    actors:
+      primary:
+        - "Mexican police"
+      secondary:
+        - "Tren de Aragua"
+    entities:
+      people: []
+      organizations:
+        - name: "Tren de Aragua"
+          description: "Venezuelan transnational criminal organization"
+      states:
+        - "Mexico"
+        - "Venezuela"
+    geography:
+      countries:
+        - "Mexico"
+      places:
+        - "Mexico City"
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 6
+      damage: null
+    classification:
+      event_type:
+        - "arrest"
+        - "organized-crime"
+      tags:
+        - "mexico"
+        - "tren-de-aragua"
+        - "mexico-city"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Mexican police arrest six alleged Tren de Aragua members operating in Mexico City on charges of drug trafficking, extortion, and human trafficking. (AP)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "Portal-derived event; reported by AP per the Wikipedia portal."
+
+  - id: "evt-2026-01-13-021"
+    category: "Politics and government"
+    subcategory: "Censorship"
+    topics:
+      - "Censorship in Venezuela"
+    importance: 5
+    headline: "Venezuelans regain access to X after more than a year of blocking"
+    summary: >
+      Venezuelans regained access to the social network X after more than a year in
+      which it had been blocked under Nicolás Maduro, according to the Wikipedia
+      current-events portal citing AFP via CP24.
+    key_data:
+      - label: "Duration of block"
+        value: "More than a year"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "Access to X was restored in Venezuela after more than a year of blocking under Maduro."
+      why_it_matters:
+        - "The restoration came ten days after Maduro's capture by U.S. forces on January 3 and ended a block imposed under his government."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 13 deep-research report. The portal does not say whether the restoration was ordered by the authorities."
+    actors:
+      primary:
+        - "Venezuelan authorities"
+      secondary:
+        - "X"
+    entities:
+      people:
+        - name: "Nicolás Maduro"
+          role: "Former Venezuelan president, captured by U.S. forces on January 3"
+      organizations:
+        - name: "X"
+          description: "Social network, formerly Twitter"
+      states:
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: 0
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "censorship-lifted"
+      tags:
+        - "venezuela"
+        - "x"
+        - "internet-freedom"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Venezuelans regain access to the social network X after more than a year of blockage under de jure president Nicolás Maduro. (AFP via CP24)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-03-001"
+    notes: "Portal-derived event; reported by AFP via CP24 per the Wikipedia portal."
+
+strategic_conclusion: >
+  January 13 showed how far the Iranian crackdown had outrun earlier counts. Within a
+  day, publicly cited tolls moved from the 500s recorded on January 11 and 12 to about
+  2,000 from both an Iranian official and HRAI, with activist figures much higher and
+  the UN citing hundreds; the communications blackout meant none could be checked.
+  Uganda's pre-election internet shutdown and the order halting two rights groups
+  showed a second government limiting scrutiny at a sensitive moment, and Russia's
+  overnight barrage kept up the pressure on Ukraine's grid in midwinter.
+
+  Among Western allies, Greenland's leader and a broad group of central bankers took
+  public positions against U.S. pressure, over the territory's future and over the
+  Federal Reserve's independence, while the December CPI showed inflation steady at
+  2.7%. Across Asia and the Gulf, the Nara summit and the two UAE trade agreements
+  with the Philippines and Nigeria pointed to active economic and security diplomacy.
+  India's drone complaint to Pakistan and Bangladesh's protest to Myanmar showed
+  neighbours' conflicts spilling across borders. Israel's further withdrawal from
+  international bodies and the disclosure of Guterres's UNRWA warning deepened its
+  dispute with the UN system. The day's disasters, the Mali ferry sinking and the
+  Walikale landslide, killed at least 57 people between them.
+
+works_cited:
+  - id: 1
+    title: "About 2,000 killed in Iran protests, official says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/about-2000-killed-iran-protests-official-says-2026-01-13/"
+    accessed: "2026-01-13"
+  - id: 2
+    title: "Iran: UN Human Rights Chief urges authorities to end violent repression"
+    outlet: "UN Human Rights Office"
+    url: "https://www.ohchr.org/en/press-releases/2026/01/iran-un-human-rights-chief-urges-authorities-end-violent-repression-and"
+    accessed: "2026-01-13"
+  - id: 3
+    title: "The Latest: Iran eases some communications restrictions as activists say death toll surpasses 2,500"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/5bba9c01c439da1265afe7d2eafaea5c"
+    accessed: "2026-01-13"
+  - id: 4
+    title: "Russian strikes on Ukraine kill four, knock out heat and power"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/aerospace-defense/russian-missiles-strike-kyiv-one-dead-kharkiv-ukrainian-officials-say-2026-01-12/"
+    accessed: "2026-01-13"
+  - id: 5
+    title: "Russia launches another major attack on Ukraine's power grid"
+    outlet: "ABC News Australia"
+    url: "https://www.abc.net.au/news/2026-01-13/russia-launches-another-major-attack-on-ukraine-power-grid/106226640"
+    accessed: "2026-01-13"
+  - id: 6
+    title: "Uganda shuts down internet ahead of election, orders rights groups to halt work"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/uganda-orders-two-rights-groups-halt-work-days-before-election-2026-01-13/"
+    accessed: "2026-01-14"
+  - id: 7
+    title: "UCC Orders Shutdown of Public Internet Ahead of Elections"
+    outlet: "Uganda Radio Network"
+    url: "https://ugandaradionetwork.net/a/story/ucc-orders-shutdown-of-public-internet-ahead-of-elections"
+    accessed: "2026-01-13"
+  - id: 8
+    title: "Chad: at least six killed in fighting between rebel group and armed forces"
+    outlet: "Africanews / AFP"
+    url: "https://www.africanews.com/amp/2026/01/14/chad-at-least-six-killed-in-fighting-between-rebel-group-and-armed-forces/"
+    accessed: "2026-01-14"
+  - id: 9
+    title: "Chadian army confirms clash with rebel group"
+    outlet: "African Press Agency"
+    url: "https://apanews.net/chadian-army-confirms-clash-with-rebel-group/"
+    accessed: "2026-01-15"
+  - id: 10
+    title: "Greenland chooses Denmark over the US, Prime Minister Nielsen says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/greenland-chooses-denmark-over-us-prime-minister-nielsen-says-2026-01-13/"
+    accessed: "2026-01-13"
+  - id: 11
+    title: "In Rebuke of Trump, Greenland Declares: 'We Choose Denmark'"
+    outlet: "TIME"
+    url: "https://time.com/7345949/greenland-denmark-trump/"
+    accessed: "2026-01-13"
+  - id: 12
+    title: "International central bankers on the statement by Federal Reserve Chair Powell on 11 January 2026"
+    outlet: "European Central Bank"
+    url: "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260113~ec4630b9fa.en.html"
+    accessed: "2026-01-13"
+  - id: 13
+    title: "Central bank chiefs, bank CEOs back Fed's Powell after Trump administration threat"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/global-central-bank-chiefs-plan-statement-support-feds-powell-2026-01-13/"
+    accessed: "2026-01-13"
+  - id: 14
+    title: "Consumer Price Index News Release, December 2025"
+    outlet: "U.S. Bureau of Labor Statistics"
+    url: "https://www.bls.gov/news.release/archives/cpi_01132026.htm"
+    accessed: "2026-01-13"
+  - id: 15
+    title: "US consumer inflation increases steadily, but households paying more for food and rents"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/us-consumer-prices-increase-expected-december-2026-01-13/"
+    accessed: "2026-01-13"
+  - id: 16
+    title: "Japan-ROK Summit Meeting"
+    outlet: "Ministry of Foreign Affairs of Japan"
+    url: "https://www.mofa.go.jp/a_o/na/kr/pageite_000001_01454.html"
+    accessed: "2026-01-13"
+  - id: 17
+    title: "Japan's Takaichi, South Korea's Lee meet to discuss security, economic ties"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/japans-takaichi-south-koreas-lee-meet-discuss-security-economic-ties-2026-01-13/"
+    accessed: "2026-01-13"
+  - id: 18
+    title: "India has told Pakistan to control 'drone intrusions', Indian army chief says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/india/india-has-told-pakistan-control-drone-intrusions-indian-army-chief-says-2026-01-13/"
+    accessed: "2026-01-13"
+  - id: 19
+    title: "'Lagaam lagaiye': Indian Army's warning to Pakistan over drone sightings"
+    outlet: "Hindustan Times"
+    url: "https://www.hindustantimes.com/india-news/control-indian-armys-word-of-caution-to-pakistan-over-drone-sightings-101768291051765.html"
+    accessed: "2026-01-13"
+  - id: 20
+    title: "Bangladesh summons Myanmar envoy after border clashes"
+    outlet: "The New Indian Express / AFP"
+    url: "https://www.newindianexpress.com/world/2026/Jan/13/bangladesh-summons-myanmar-envoy-after-border-clashes"
+    accessed: "2026-01-13"
+  - id: 21
+    title: "Foreign ministry summons Myanmar envoy"
+    outlet: "The Daily Star"
+    url: "https://www.thedailystar.net/news/foreign-ministry-summons-myanmar-envoy-4080291"
+    accessed: "2026-01-14"
+  - id: 22
+    title: "PH, UAE ink historic free trade agreement"
+    outlet: "Presidential Communications Office (Philippines)"
+    url: "https://pco.gov.ph/news_releases/ph-uae-ink-historic-free-trade-agreement/"
+    accessed: "2026-01-13"
+  - id: 23
+    title: "UAE, Philippines begin new chapter of trade, investment cooperation with signing of CEPA"
+    outlet: "Emirates News Agency (WAM)"
+    url: "https://www.wam.ae/en/article/by7hbpm-uae-philippines-begin-new-chapter-trade-investment"
+    accessed: "2026-01-13"
+  - id: 24
+    title: "President Tinubu: Nigeria to co-host Investopia with UAE in February, seals trade pact"
+    outlet: "State House, Nigeria"
+    url: "https://statehouse.gov.ng/president-tinubu-nigeria-to-co-host-investopia-with-uae-in-february-seals-trade-pact/"
+    accessed: "2026-01-13"
+  - id: 25
+    title: "UAE, Nigeria forge stronger economic ties with signing of Comprehensive Economic Partnership Agreement"
+    outlet: "Emirates News Agency (WAM)"
+    url: "https://www.wam.ae/en/article/by7hbym-uae-nigeria-forge-stronger-economic-ties-with"
+    accessed: "2026-01-13"
+  - id: 26
+    title: "Adelaide Writers' Week cancelled amid controversy over disinvitation of author Randa Abdel-Fattah"
+    outlet: "ABC News Australia"
+    url: "https://www.abc.net.au/news/2026-01-13/adelaide-writers-week-cancelled-randa-abdel-fattah-controversy/106225170"
+    accessed: "2026-01-13"
+  - id: 27
+    title: "Adelaide Writers Week canceled as 180 speakers withdraw after the exclusion of a Palestinian writer"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ea353861a4a466b76c8ebd689441f33c"
+    accessed: "2026-01-13"
+  - id: 28
+    title: "Venezuela's top lawmaker says over 400 prisoners freed, NGOs say numbers much lower"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/venezuelas-government-says-over-400-people-freed-prison-2026-01-13/"
+    accessed: "2026-01-14"
+  - id: 29
+    title: "Venezuela asegura que ha liberado a más de 400 presos"
+    outlet: "El País"
+    url: "https://elpais.com/america/2026-01-13/venezuela-asegura-que-ha-liberado-a-mas-de-400-presos.html"
+    accessed: "2026-01-13"
+  - id: 30
+    title: "Israel cuts ties with three global bodies after US withdrawal, foreign ministry says"
+    outlet: "Euronews"
+    url: "https://www.euronews.com/2026/01/13/israel-cuts-ties-with-three-global-bodies-after-us-withdrawal-foreign-ministry-says"
+    accessed: "2026-01-13"
+  - id: 31
+    title: "Foreign Ministry severs Jerusalem's ties with 7 UN agencies, citing anti-Israel bias"
+    outlet: "The Times of Israel"
+    url: "https://www.timesofisrael.com/liveblog_entry/foreign-ministry-severs-jerusalems-ties-with-7-un-agencies-citing-anti-israel-bias/"
+    accessed: "2026-01-13"
+  - id: 32
+    title: "UN chief warns he could refer Israel to world court over action against UN Palestinian refugee agency"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/un-chief-warns-he-could-refer-israel-world-court-over-action-against-un-2026-01-13/"
+    accessed: "2026-01-13"
+  - id: 33
+    title: "UN chief warns he could refer Israel to ICJ over laws targeting UNRWA"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/13/un-chief-warns-he-could-refer-israel-to-icj-over-laws-targetting-unrwa"
+    accessed: "2026-01-13"
+  - id: 34
+    title: "Portal:Current events/2026 January 13"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_13"
+    accessed: "2026-01-13"
