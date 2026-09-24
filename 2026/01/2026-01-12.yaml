@@ -1,75 +1,3518 @@
-Date: '2026-01-12'
-Source_URI: Portal:Current events/2026 January 12
-Intelligence_Payload:
-  Uncategorized:
-  - Gaza war
-  - Palestinian internal political violence
-  - The Israeli-backed militant organization Counter-Terrorism Strike Force says it
-    has assassinated Mahmoud Al-Astal, head of a Hamas-run police unit in Khan Yunis,
-    Gaza Strip. (Reuters)
-  - Insurgency in Khyber Pakhtunkhwa
-  - A roadside bomb targeting a police vehicle kills six officers near the Afghan
-    border in northwestern Pakistan. (AP)
-  - Myanmar civil war, Bangladesh–Myanmar relations
-  - Bangladesh detains 53 Arakan Rohingya Salvation Army members that crossed into
-    Bangladesh amid fighting with the Arakan Army in Rakhine State, Myanmar. (AFP
-    via The Straits Times)
-  - Sudanese civil war
-  - A Rapid Support Forces missile strike kills ten civilians and wounds nine others
-    in Singa, Sennar State, Sudan. (AA)
-  - Spanish property bubble
-  - Spanish prime minister Pedro Sánchez issues a decree that tightens rent regulations
-    by limiting short-term rentals and offering full tax refunds to landlords who
-    renew contracts without rent increases, as the country faces a housing shortfall
-    of about 500,000 homes and average rents that have doubled over the past decade.
-    (Reuters)
-  - One person is killed and 35 others are injured in a meteotsunami at several beaches
-    in Argentina. (People)
-  - Authorities say a wild Asian elephant has killed 20 people since the start of
-    the year in the Indian state of Jharkhand and remains on the loose. A search operation
-    involving more than 100 park rangers is underway to locate the elephant. (BBC
-    News)
-  - Climate change in Morocco
-  - A seven-year drought ends in Morocco after a 95 percent increase in winter rainfall
-    compared with 2025 was recorded. (Reuters)
-  - Somalia–United Arab Emirates relations
-  - Constitutional crisis in Somalia
-  - Somalia's Council of Ministers terminates all agreements between the Federal Government
-    of Somalia and the Government of the United Arab Emirates (UAE), disallowing the
-    UAE from operating in the ports of Berbera, Bosaso, and Kismayo for their support
-    of Somaliland. The Somaliland, Puntland, and Jubaland governments subsequently
-    dismiss the decision. (Middle East Eye) (Dawan Africa) (The New Arab)
-  - War on drugs
-  - Swedish police seize three tonnes of cocaine found in a shipping container from
-    South America at the Port of Helsingborg, making it the country's single-largest
-    seizure of the illegal drug. (Reuters)
-  - Spanish police, in coordination with the UK National Crime Agency and the US DEA,
-    seize 10 tonnes of cocaine hidden among a cargo of salt on a cargo ship off the
-    Canary Islands. It is the country's largest ever seizure of drugs at sea. Thirteen
-    people on board the vessel are arrested. (The Guardian)
-  - Cambodia–South Korea relations, Scam centers in Cambodia
-  - Cambodian and South Korean police arrest 26 suspects accused of impersonation
-    scams and sexual exploitation that allegedly defrauded 165 South Korean victims
-    of about ₩26.7 billion (US$18.25 million), with authorities set to extradite the
-    suspects to South Korea. (Reuters)
-  - Corruption in Georgia
-  - Former Georgian prime minister Irakli Garibashvili pleads guilty to large-scale
-    money-laundering charges and receives a five-year prison sentence and a ₾1-million
-    (US$371,829) fine after investigators seize about $6.5 million in cash during
-    raids on his residence. (Reuters)
-  - Corruption in Poland, Hungary–Poland relations
-  - Former Polish justice minister Zbigniew Ziobro receives political asylum in Hungary
-    while Polish prosecutors investigate him on 26 counts related to alleged misuse
-    of a crime victims fund and other abuses of office under the first Morawiecki
-    cabinet. (The Guardian)
-  - Corsican conflict
-  - Former National Liberation Front of Corsica leader Alain Orsoni is assassinated
-    by a gunman at his mother's funeral in Vero, Corse-du-Sud, Corsica, France. (Reuters)
-  - Venezuela releases more than 100 political prisoners who were detained due to
-    acts associated with civil disobedience the constitutional order. (Al Jazeera)
-  - Criticism of Twitter
-  - The United Kingdom's Ofcom opens an investigation into X over complaints about
-    the creation of deepfake sexualised images by its chatbot Grok. (RTÉ)
-  - Meta reports that it has shut down over 544,000 accounts of users under the age
-    of 16 on Facebook, Instagram, and Threads in response to Australian social media
-    age restrictions. (DW)
+date: "2026-01-12"
+source_page:
+  portal: "Portal:Current events/2026 January 12"
+  language: "en"
+  wikipedia_revision_id: null
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Broad global news sweep"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 12, 2026 centered on Iran and the widening dispute over the Federal
+  Reserve. HRANA's cumulative toll passed 500 deaths and over 10,000 arrests, and
+  President Trump announced a 25% tariff, effective immediately, on any country
+  doing business with Iran, without specifying a legal basis. In Washington, Senator
+  Lisa Murkowski called the Justice Department's investigation of Fed Chair Jerome
+  Powell "an attempt at coercion," and a joint statement from former Fed chairs
+  Greenspan, Bernanke and Yellen, former Treasury secretaries and prominent
+  economists compared it to how monetary policy is made "in emerging markets with
+  weak institutions." Minnesota and Illinois separately sued to halt the federal
+  immigration-enforcement surge that followed the killing of Renée Good, and Apple
+  and Google announced a multi-year deal putting Gemini behind a rebuilt Siri.
+
+  Elsewhere, the ICJ opened merits hearings in The Gambia's genocide case against
+  Myanmar over the treatment of the Rohingya, Somalia's cabinet terminated all
+  agreements with the United Arab Emirates, an ISRO rocket failed for the second
+  launch running, and Tobago's ruling party swept all 15 assembly seats. A roadside
+  bomb killed six police in northwestern Pakistan, an RSF strike killed civilians in
+  Sudan's Sennar State, and Australia's prime minister addressed a bushfire death in
+  Victoria alongside plans to recall parliament over the Bondi attack. Wider stories
+  ranged from a Corsican militant leader's assassination and asylum for a former
+  Polish justice minister to record drug seizures in Sweden and off the Canary
+  Islands and Meta's mass takedown of under-16 accounts in Australia.
+
+events:
+  - id: "evt-2026-01-12-001"
+    category: "Civil unrest and protests"
+    subcategory: "Government crackdown"
+    topics:
+      - "2025–2026 Iranian protests"
+      - "HRANA"
+    importance: 9
+    headline: "Iran protest crackdown death toll passes 500 as regime stages counter-rallies"
+    summary: >
+      Iran's nationwide anti-government protests entered their third week with a
+      sharply rising death toll. HRANA reported that more than 500 protesters and 48
+      security personnel had been killed and more than 10,000 people arrested; Just
+      Security, summarizing HRANA, put the toll at least 544, while CNN reported at
+      least 503 protesters killed. Communications remained heavily restricted amid an
+      internet shutdown in place since January 8. Pro-regime rallies were held in at
+      least 13 cities, with President Masoud Pezeshkian attending one in Tehran, and
+      Iran's foreign ministry said its communication channel with U.S. envoy Steve
+      Witkoff remained open. European Parliament President Roberta Metsola barred
+      Iranian diplomats from all Parliament premises.
+    key_data:
+      - label: "HRANA cumulative toll"
+        value: "More than 500 protesters and 48 security personnel; at least 544 per Just Security's summary"
+        citation_refs: [1, 2]
+      - label: "Cumulative arrests"
+        value: "More than 10,000"
+        citation_refs: [1]
+      - label: "Pro-regime rallies"
+        value: "At least 13 cities"
+        citation_refs: [3]
+    details:
+      what_happened:
+        - "HRANA reported over 500 protesters and 48 security personnel killed and more than 10,000 arrests, as tallied on January 12."
+        - "Pro-regime rallies were held in at least 13 cities, per IRGC-affiliated media cited by the Critical Threats Project/ISW; President Pezeshkian joined one in Tehran."
+        - "Iran's foreign ministry said the Araghchi-Witkoff channel was open but called U.S. messages contradictory."
+        - "A Fox News correspondent reported a source in Esfahan confirming protests continued there despite the internet shutdown."
+        - "European Parliament President Roberta Metsola announced a ban on Iranian diplomats and representatives from Parliament premises, effective immediately."
+      why_it_matters:
+        - "By HRANA's count this is the deadliest unrest in Iran in years, and the internet blackout means the true toll is likely higher; later reporting gave far larger figures, which fall outside this date."
+        - "President Trump has repeatedly threatened military action if killings continue, raising the risk of a wider U.S.-Iran confrontation."
+      uncertainty_notes:
+        - "Death toll figures vary by source on the same day: Democracy Now! (via HRANA) gives 'over 500' plus 48; Just Security's summary of HRANA gives 'at least 544'; CNN gives 'at least 503' protesters killed. None could be independently verified given the internet blackout."
+    actors:
+      primary:
+        - "Iranian government and security forces"
+        - "Iranian protesters"
+        - "HRANA"
+      secondary:
+        - "Masoud Pezeshkian"
+        - "Abbas Araghchi"
+        - "Steve Witkoff"
+        - "Roberta Metsola"
+    entities:
+      people:
+        - name: "Masoud Pezeshkian"
+          role: "President of Iran"
+        - name: "Abbas Araghchi"
+          role: "Foreign Minister of Iran"
+        - name: "Steve Witkoff"
+          role: "U.S. envoy"
+        - name: "Roberta Metsola"
+          role: "President of the European Parliament"
+      organizations:
+        - name: "Human Rights Activists News Agency"
+          description: "U.S.-based group tracking casualties and arrests"
+        - name: "European Parliament"
+          description: "EU legislative body that barred Iranian diplomats"
+      states:
+        - "Iran"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+      places:
+        - "Tehran"
+        - "Esfahan"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 544
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 10000
+      damage: "Nationwide internet shutdown in place since January 8."
+    classification:
+      event_type:
+        - "protest-crackdown"
+        - "casualty-update"
+        - "diplomatic-sanction"
+      tags:
+        - "iran"
+        - "iran-protests"
+        - "hrana"
+        - "european-parliament"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-001-a
+          outlet: "Democracy Now!"
+          url: "https://www.democracynow.org/2026/1/12/headlines"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "over 500 protesters and 48 security officials have died in demonstrations"
+          citation_refs: [1]
+        - id: src-001-b
+          outlet: "Just Security"
+          url: "https://www.justsecurity.org/128495/early-edition-january-12-2026/"
+          publication_date: "2026-01-12"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "messages are exchanged whenever necessary"
+          citation_refs: [2]
+        - id: src-001-c
+          outlet: "Critical Threats Project / Institute for the Study of War"
+          url: "https://www.criticalthreats.org/analysis/iran-update-january-12-2026"
+          publication_date: "2026-01-12"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "pro-regime protesters demonstrated in at least 13 cities, including Tehran"
+          citation_refs: [3]
+        - id: src-001-d
+          outlet: "CNN"
+          url: "https://www.cnn.com/world/live-news/iran-protests-01-12-26"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "the Iranian leadership warning it's 'prepared for war.'"
+          citation_refs: [4]
+        - id: src-001-e
+          outlet: "Malta Independent"
+          url: "https://www.independent.com.mt/articles/2026-01-12/local-news/Metsola-bans-Iranian-diplomats-from-all-EU-Parliament-premises-it-cannot-be-business-as-usual-6736286293"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "This House will not aid in legitimising this regime"
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: low
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-10-004"
+      - "evt-2026-01-11-001"
+    notes: "casualty_report uses Just Security's higher, more detailed figure of 544; Democracy Now's 'over 500 plus 48' and CNN's 'at least 503' are noted as contradicting alternates on the same rolling HRANA tally."
+
+  - id: "evt-2026-01-12-002"
+    category: "Business and economy"
+    subcategory: "Tariffs and sanctions"
+    topics:
+      - "Iran sanctions"
+      - "International Emergency Economic Powers Act"
+    importance: 8
+    headline: "Trump announces 25% tariff on any country doing business with Iran"
+    summary: >
+      President Donald Trump posted that any country doing business with Iran would,
+      effective immediately, pay a 25% tariff on all business with the United States,
+      calling the order final and conclusive. The White House gave no further
+      details and no executive action had been published as of the report. Iran
+      exports most of its oil to China, with Turkey, Iraq, the UAE and India among
+      its other top trading partners; China's foreign ministry said there are no
+      winners in a tariff war.
+    key_data:
+      - label: "Tariff rate announced"
+        value: "25%"
+        citation_refs: [6]
+      - label: "Iranian crude and condensate exports, January so far"
+        value: "460,000 barrels per day, down from 1.4 million b/d in December"
+        citation_refs: [9]
+    details:
+      what_happened:
+        - "Trump posted that any country doing business with Iran would pay a 25% tariff, effective immediately."
+        - "The White House declined to elaborate and did not define 'doing business'; no executive action had been published."
+        - "S&P Global reported Iran's crude and condensate exports averaged 460,000 barrels per day so far in January, down from 1.4 million b/d in December."
+        - "China's foreign ministry said it would resolutely safeguard its legitimate rights and interests."
+      why_it_matters:
+        - "If enforced, the measure could hit major U.S. trading partners, especially China, without a clear stated legal basis."
+        - "It adds economic pressure on Tehran on top of the military threats already tied to the protest crackdown."
+      uncertainty_notes:
+        - "The announcement came ahead of a pending U.S. Supreme Court ruling on the legality of Trump's IEEPA-based tariffs, and it is unclear whether this measure rests on that authority."
+    actors:
+      primary:
+        - "Donald Trump"
+      secondary:
+        - "China"
+        - "Japan"
+        - "South Korea"
+        - "Iran"
+    entities:
+      people:
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "Ministry of Foreign Affairs of China"
+          description: "Ministry that responded to the tariff announcement"
+      states:
+        - "United States"
+        - "Iran"
+        - "China"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "tariff"
+        - "sanctions"
+      tags:
+        - "iran"
+        - "tariffs"
+        - "china"
+        - "ieepa"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-002-a
+          outlet: "CNBC"
+          url: "https://www.cnbc.com/2026/01/12/trump-tariffs-iran-business.html"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "This Order is final and conclusive."
+          citation_refs: [6]
+        - id: src-002-b
+          outlet: "CNN Business"
+          url: "https://www.cnn.com/2026/01/12/business/tariffs-trump-iran"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Trump did not define what qualifies as 'doing business' with Iran."
+          citation_refs: [7]
+        - id: src-002-c
+          outlet: "Al Jazeera"
+          url: "https://aljazeera.com/news/2026/1/12/trump-says-any-country-doing-business-with-iran-will-face-25-percent-tariff"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "there are no winners in a tariff war"
+          citation_refs: [8]
+        - id: src-002-d
+          outlet: "S&P Global Commodity Insights"
+          url: "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/011226-us-to-impose-25-tariff-on-any-country-doing-business-with-iran-trump"
+          publication_date: "2026-01-12"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "460,000 b/d so far in January 2026"
+          citation_refs: [9]
+        - id: src-002-e
+          outlet: "Reuters via MarketScreener"
+          url: "https://in.marketscreener.com/news/trump-says-countries-doing-business-with-iran-face-25-tariff-ce7e58dbd988f525"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "It exports much of its oil to China"
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-12-001"
+    notes: ""
+
+  - id: "evt-2026-01-12-003"
+    category: "Politics and elections"
+    subcategory: "Central bank independence"
+    topics:
+      - "Jerome Powell"
+      - "Federal Reserve"
+      - "Thom Tillis"
+    importance: 8
+    headline: "Senators and former Fed chairs condemn DOJ probe of Powell as market reaction stays muted"
+    summary: >
+      Following Powell's disclosure the previous evening of grand-jury subpoenas
+      threatening a criminal indictment, Republican Senator Lisa Murkowski, after
+      speaking with Powell, called the investigation "nothing more than an attempt
+      at coercion," backing Senator Thom Tillis's position. A joint "Statement on the
+      Federal Reserve," signed by former Fed Chairs Alan Greenspan, Ben Bernanke and
+      Janet Yellen, former Treasury Secretaries Geithner, Paulson, Rubin and Lew, and
+      economists including Glenn Hubbard and Kenneth Rogoff, compared the probe to
+      how monetary policy is made "in emerging markets with weak institutions."
+      Markets fell only modestly, while spot gold hit a record intraday high.
+    key_data:
+      - label: "Spot gold record intraday high"
+        value: "$4,629.94 an ounce"
+        citation_refs: [12]
+      - label: "S&P 500 futures move at pre-market open"
+        value: "Down less than 1%"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "Senator Lisa Murkowski, after speaking with Powell on Monday, called the investigation an attempt at coercion."
+        - "Former Fed Chairs Greenspan, Bernanke and Yellen, former Treasury Secretaries, and economists including Hubbard and Rogoff issued a joint statement comparing the probe to monetary policy 'in emerging markets with weak institutions.'"
+        - "A spokesman for Attorney General Pam Bondi declined to comment on the probe."
+        - "S&P 500 futures fell less than 1% at the pre-market open; spot gold hit a record intraday high of $4,629.94 an ounce."
+      why_it_matters:
+        - "A criminal investigation of a sitting Fed chair is without precedent and directly tests the central bank's independence ahead of Powell's term ending in May 2026."
+        - "Opposition from Republican senators could complicate confirmation of Trump's eventual nominee to succeed Powell."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Jerome Powell"
+        - "Lisa Murkowski"
+      secondary:
+        - "Thom Tillis"
+        - "Pam Bondi"
+        - "Alan Greenspan"
+        - "Ben Bernanke"
+        - "Janet Yellen"
+    entities:
+      people:
+        - name: "Jerome Powell"
+          role: "Chair of the Federal Reserve"
+        - name: "Lisa Murkowski"
+          role: "U.S. Senator (R-Alaska)"
+        - name: "Thom Tillis"
+          role: "U.S. Senator (R-North Carolina)"
+        - name: "Alan Greenspan"
+          role: "Former Chair of the Federal Reserve"
+        - name: "Ben Bernanke"
+          role: "Former Chair of the Federal Reserve"
+        - name: "Janet Yellen"
+          role: "Former Chair of the Federal Reserve and former Treasury Secretary"
+      organizations:
+        - name: "Federal Reserve"
+          description: "U.S. central bank"
+        - name: "United States Department of Justice"
+          description: "Department conducting the investigation"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "political-reaction"
+        - "market-reaction"
+      tags:
+        - "jerome-powell"
+        - "federal-reserve"
+        - "lisa-murkowski"
+        - "central-bank-independence"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-003-a
+          outlet: "Federal Reserve Board"
+          url: "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm"
+          publication_date: "2026-01-11"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "This new threat is not about my testimony last June"
+          citation_refs: [11]
+        - id: src-003-b
+          outlet: "PBS News"
+          url: "https://www.pbs.org/newshour/politics/doj-investigation-of-powell-sparks-backlash-support-for-fed-independence"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "nothing more than an attempt at coercion"
+          citation_refs: [12]
+        - id: src-003-c
+          outlet: "Euronews (with AP)"
+          url: "https://euronews.com/business/2026/01/12/us-opens-criminal-investigation-into-fed-chair-jerome-powell"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "S&P 500 futures down less than 1%"
+          citation_refs: [13]
+        - id: src-003-d
+          outlet: "Financial Times"
+          url: "https://prasad.dyson.cornell.edu/doc/FT.12Jan26.pdf"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "US prosecutors have launched a criminal investigation into Jay Powell"
+          citation_refs: [14]
+        - id: src-003-e
+          outlet: "Wall Street Journal"
+          url: "https://prasad.dyson.cornell.edu/doc/WSJ.12Jan26.pdf"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "A criminal investigation of a sitting chair is without precedent."
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-11-004"
+    notes: ""
+
+  - id: "evt-2026-01-12-004"
+    category: "Law and crime"
+    subcategory: "International courts"
+    topics:
+      - "The Gambia v. Myanmar"
+      - "Rohingya genocide"
+      - "International Court of Justice"
+    importance: 7
+    headline: "ICJ opens merits hearings in The Gambia's genocide case against Myanmar over the Rohingya"
+    summary: >
+      The International Court of Justice opened three weeks of public hearings on
+      the merits of The Gambia's 2019 case accusing Myanmar of breaching the Genocide
+      Convention in its treatment of the Rohingya, centering on the military's 2017
+      "clearance operations" that drove at least 730,000 Rohingya into Bangladesh.
+      Gambian Justice Minister Dawda Jallow told judges the Rohingya had "been
+      targeted for destruction." It is the first genocide case the ICJ has heard in
+      full in more than a decade, and observers said the outcome will likely affect
+      South Africa's case against Israel. Myanmar, represented by Union Minister Ko
+      Ko Hlaing, denies genocide.
+    key_data:
+      - label: "Rohingya displaced in 2017 operations"
+        value: "At least 730,000"
+        citation_refs: [17]
+      - label: "Hearing schedule"
+        value: "The Gambia presents through January 15; Myanmar responds from January 16; hearings run to January 29"
+        citation_refs: [19]
+    details:
+      what_happened:
+        - "Hearings opened at the Peace Palace under ICJ President Iwasawa Yuji."
+        - "Gambian Justice Minister Dawda Jallow told the court the case is 'about real people, real stories and a real group of human beings.'"
+        - "Myanmar's Ko Ko Hlaing attended; Myanmar maintains its 2017 operations were counterterrorism."
+        - "The court scheduled closed sessions to hear Rohingya witnesses directly, a first for an international court in this case."
+      why_it_matters:
+        - "The ruling will set precedent on how genocide is defined and proven, with implications for South Africa v. Israel."
+        - "It is a rare accountability venue for crimes committed by Myanmar's military, which has ruled since the 2021 coup."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "The Gambia"
+        - "Myanmar"
+        - "International Court of Justice"
+      secondary:
+        - "Rohingya refugees and victims"
+        - "United Nations Independent Investigative Mechanism for Myanmar"
+    entities:
+      people:
+        - name: "Dawda Jallow"
+          role: "Justice Minister of The Gambia"
+        - name: "Ko Ko Hlaing"
+          role: "Union Minister of Myanmar"
+        - name: "Iwasawa Yuji"
+          role: "President of the International Court of Justice"
+      organizations:
+        - name: "International Court of Justice"
+          description: "UN court hearing the case"
+      states:
+        - "The Gambia"
+        - "Myanmar"
+        - "Bangladesh"
+    geography:
+      countries:
+        - "Netherlands"
+        - "Myanmar"
+        - "Bangladesh"
+      places:
+        - "The Hague"
+        - "Rakhine State"
+        - "Cox's Bazar"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: 730000
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "court-proceeding"
+        - "genocide-case"
+      tags:
+        - "gambia"
+        - "myanmar"
+        - "rohingya"
+        - "icj"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-004-a
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/12/un-top-court-set-to-open-myanmar-rohingya-genocide-case"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "It is about real people, real stories"
+          citation_refs: [16]
+        - id: src-004-b
+          outlet: "Reuters via Yahoo News"
+          url: "https://www.yahoo.com/news/articles/landmark-myanmar-rohingya-genocide-case-010301684.html"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "They have been targeted for destruction"
+          citation_refs: [17]
+        - id: src-004-c
+          outlet: "UN News"
+          url: "https://news.un.org/en/story/2026/01/1166746"
+          publication_date: "2026-01-12"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Public hearings opened on Monday at the International Court of Justice"
+          citation_refs: [18]
+        - id: src-004-d
+          outlet: "UN Web TV"
+          url: "https://webtv.un.org/en/asset/k1k/k1k0g5tstz"
+          publication_date: "2026-01-12"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "Session held under the presidency of Judge Iwasawa Yuji"
+          citation_refs: [19]
+        - id: src-004-e
+          outlet: "Daily Sabah"
+          url: "https://www.dailysabah.com/world/asia-pacific/icj-genocide-hearing-told-myanmar-attempted-to-destroy-rohingya/amp"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Ko Ko Hlaing sits in the courtroom"
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-12-005"
+    category: "Law and crime"
+    subcategory: "Federal-state litigation"
+    topics:
+      - "Killing of Renée Good"
+      - "Operation Metro Surge"
+      - "Keith Ellison"
+    importance: 6
+    headline: "Minnesota and Illinois sue to halt federal immigration-enforcement surges"
+    summary: >
+      Minnesota Attorney General Keith Ellison, with the cities of Minneapolis and
+      Saint Paul, filed a federal lawsuit seeking to end "Operation Metro Surge" and
+      requested a temporary restraining order, alleging violations of the First and
+      Tenth Amendments, the equal sovereignty principle and the Administrative
+      Procedure Act. Illinois and Chicago filed a separate suit against DHS, ICE and
+      Border Patrol the same day. The suits followed the fatal shooting of Renée
+      Good by an ICE officer in Minneapolis the previous week; federal officers
+      separately used tear gas on bystanders at the scene of a car crash a few
+      blocks from the shooting site.
+    key_data:
+      - label: "Arrests since the Minnesota surge began (DHS, per AP)"
+        value: "More than 2,000"
+        citation_refs: [23]
+    details:
+      what_happened:
+        - "Minnesota, Minneapolis and Saint Paul filed suit and sought a temporary restraining order in federal court in Minnesota."
+        - "Illinois and Chicago sued DHS, ICE and Border Patrol in the Northern District of Illinois."
+        - "The Minnesota complaint cites Trump calling Minnesota officials 'crooked' on January 9 as evidence of retaliation."
+        - "Federal officers used tear gas on a crowd of bystanders in Minneapolis on Monday."
+      why_it_matters:
+        - "The suits test the limits of federal immigration deployments in states that do not consent."
+        - "They come amid nationwide protests over the killing of Renée Good."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Keith Ellison"
+        - "State of Illinois"
+        - "U.S. Department of Homeland Security"
+      secondary:
+        - "Kristi Noem"
+        - "Todd Lyons"
+        - "Gregory Bovino"
+    entities:
+      people:
+        - name: "Keith Ellison"
+          role: "Attorney General of Minnesota"
+        - name: "Kristi Noem"
+          role: "United States Secretary of Homeland Security"
+        - name: "Todd Lyons"
+          role: "Acting Director of ICE"
+        - name: "Gregory Bovino"
+          role: "Border Patrol commander"
+      organizations:
+        - name: "U.S. Department of Homeland Security"
+          description: "Lead defendant in both lawsuits"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Minneapolis"
+        - "Saint Paul"
+        - "Chicago"
+        - "Minnesota"
+        - "Illinois"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 2000
+      damage: "Tear gas used on a crowd of bystanders in Minneapolis."
+    classification:
+      event_type:
+        - "lawsuit"
+        - "immigration-enforcement"
+      tags:
+        - "minnesota"
+        - "illinois"
+        - "ice"
+        - "renee-good"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-005-a
+          outlet: "Minnesota Attorney General's Office"
+          url: "https://www.ag.state.mn.us/Office/Communications/2026/01/12_ICE.asp"
+          publication_date: "2026-01-12"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "asking the court to end the unprecedented surge of DHS agents"
+          citation_refs: [21]
+        - id: src-005-b
+          outlet: "Reuters via U.S. News"
+          url: "https://www.usnews.com/news/politics/articles/2026-01-12/minnesota-sues-trump-administration-to-block-surge-of-federal-immigration-agents"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Minnesota and Illinois sued President Donald Trump's administration on Monday"
+          citation_refs: [22]
+        - id: src-005-c
+          outlet: "PBS News (AP)"
+          url: "https://www.pbs.org/newshour/amp/politics/minnesota-and-the-twin-cities-sue-the-federal-government-to-stop-trumps-immigration-crackdown"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "ICE has called the Minnesota surge its largest enforcement operation ever."
+          citation_refs: [23]
+        - id: src-005-d
+          outlet: "CNN"
+          url: "https://www.cnn.com/2026/01/12/us/video/minneapolis-minnesota-sue-trump-admin-ice-vrtc"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "a federal invasion of the Twin Cities"
+          citation_refs: [24]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-07-007"
+      - "evt-2026-01-09-008"
+      - "evt-2026-01-09-009"
+      - "evt-2026-01-11-010"
+    notes: ""
+
+  - id: "evt-2026-01-12-006"
+    category: "Business and economy"
+    subcategory: "Artificial intelligence"
+    topics:
+      - "Apple Inc."
+      - "Google"
+      - "Siri"
+      - "Gemini"
+    importance: 6
+    headline: "Apple and Google announce multi-year deal for Gemini to power Siri"
+    summary: >
+      Apple and Google announced a multi-year collaboration under which the next
+      generation of Apple Foundation Models will be based on Google's Gemini models
+      and cloud technology, powering future Apple Intelligence features including a
+      more personalized Siri due later in 2026. Apple said Google's technology
+      "provides the most capable foundation." Neither company disclosed financial
+      terms, and TechCrunch described the partnership as non-exclusive.
+    key_data: []
+    details:
+      what_happened:
+        - "The joint statement confirmed Gemini will underpin Apple Foundation Models."
+        - "An upgraded Siri is expected later in 2026."
+        - "Apple declined to comment on the terms of the deal."
+        - "TechCrunch described the partnership as non-exclusive."
+      why_it_matters:
+        - "It marks Apple's first reliance on an outside company's AI models for core features and a significant win for Google in the AI race."
+        - "It highlights that Apple's in-house AI effort has lagged, and could draw antitrust attention given the companies' existing search relationship."
+      uncertainty_notes:
+        - "A previously reported figure of about $1 billion a year for the arrangement, attributed to Bloomberg reporting from November 2025, has not been confirmed by either company."
+    actors:
+      primary:
+        - "Apple"
+        - "Google"
+      secondary:
+        - "OpenAI"
+    entities:
+      people: []
+      organizations:
+        - name: "Apple"
+          description: "Company integrating Gemini into its AI features"
+        - name: "Google"
+          description: "Company supplying the Gemini models"
+        - name: "OpenAI"
+          description: "Existing ChatGPT partner for Apple's AI features"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "business-partnership"
+        - "artificial-intelligence"
+      tags:
+        - "apple"
+        - "google"
+        - "gemini"
+        - "siri"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-006-a
+          outlet: "CNBC"
+          url: "https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Google's technology provides the most capable foundation for Apple Foundation Models"
+          citation_refs: [25]
+        - id: src-006-b
+          outlet: "TechCrunch"
+          url: "https://techcrunch.com/2026/01/12/googles-gemini-to-power-apples-ai-features-like-siri/"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Neither Apple nor Google have confirmed the price tag"
+          citation_refs: [26]
+        - id: src-006-c
+          outlet: "CNN Business"
+          url: "https://www.cnn.com/2026/01/12/tech/apple-google-gemini-siri"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.why_it_matters
+          contradicts: []
+          quoted_material:
+            - "puts Gemini at the center of Apple's future AI strategy"
+          citation_refs: [27]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-12-007"
+    category: "International relations"
+    subcategory: "Diplomatic rupture"
+    topics:
+      - "Somalia–United Arab Emirates relations"
+      - "Constitutional crisis in Somalia"
+    importance: 6
+    headline: "Somalia cancels all agreements with the UAE over alleged sovereignty violations"
+    summary: >
+      Somalia's Council of Ministers annulled all agreements with the United Arab
+      Emirates, including security and defence cooperation and arrangements linked
+      to the ports of Berbera, Bosaso and Kismayo, citing evidence of actions
+      undermining Somali sovereignty. Defence Minister Ahmed Moallim Fiqi cited
+      "reliable reports and evidence." Somali authorities had earlier investigated
+      the alleged unauthorized use of Somali airspace to move STC leader Aidarous
+      al-Zubaidi to Abu Dhabi; an analyst linked the decision to Israel's December
+      recognition of Somaliland. Somaliland officials dismissed the decision.
+    key_data:
+      - label: "Ports covered by the cancellation"
+        value: "Berbera, Bosaso, Kismayo"
+        citation_refs: [30]
+    details:
+      what_happened:
+        - "The cabinet meeting, chaired by Deputy Prime Minister Salah Ahmed Jama, terminated all UAE agreements."
+        - "The cancellation covers the Berbera, Bosaso and Kismayo ports and bilateral security and defence pacts."
+        - "Mogadishu cited the reported transit of STC leader Aidarous al-Zubaidi through Somaliland and Mogadishu to Abu Dhabi."
+        - "Somaliland officials rejected the move, saying Berbera deals are with Somaliland authorities."
+      why_it_matters:
+        - "The move legally challenges UAE military and port access in the Horn of Africa, where DP World holds a 30-year Berbera concession."
+        - "It deepens a regional rift involving Saudi Arabia, the UAE, Yemen's separatists and Israel's recognition of Somaliland."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Federal Government of Somalia"
+        - "United Arab Emirates"
+      secondary:
+        - "Somaliland authorities"
+        - "Aidarous al-Zubaidi"
+        - "DP World"
+    entities:
+      people:
+        - name: "Ahmed Moallim Fiqi"
+          role: "Defence Minister of Somalia"
+        - name: "Salah Ahmed Jama"
+          role: "Deputy Prime Minister of Somalia"
+        - name: "Aidarous al-Zubaidi"
+          role: "Leader of the Southern Transitional Council"
+      organizations:
+        - name: "Southern Transitional Council"
+          description: "Yemeni separatist movement whose leader was allegedly moved through Somali airspace"
+        - name: "DP World"
+          description: "Operator with a Berbera port concession"
+      states:
+        - "Somalia"
+        - "United Arab Emirates"
+        - "Somaliland"
+    geography:
+      countries:
+        - "Somalia"
+        - "United Arab Emirates"
+      places:
+        - "Mogadishu"
+        - "Berbera"
+        - "Bosaso"
+        - "Kismayo"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-rupture"
+      tags:
+        - "somalia"
+        - "uae"
+        - "somaliland"
+        - "berbera"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Somalia's Council of Ministers terminates all agreements between the Federal Government of Somalia and the Government of the United Arab Emirates (UAE), disallowing the UAE from operating in the ports of Berbera, Bosaso, and Kismayo for their support of Somaliland. The Somaliland, Puntland, and Jubaland governments subsequently dismiss the decision. (Middle East Eye) (Dawan Africa) (The New Arab)"
+      external:
+        - id: src-007-a
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/12/somalia-cancels-all-agreements-with-uae-over-alleged-sovereignty-violations"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "practices linked to the United Arab Emirates that undermine the sovereignty"
+          citation_refs: [28]
+        - id: src-007-b
+          outlet: "Bloomberg"
+          url: "https://www.bloomberg.com/news/articles/2026-01-12/somalia-ends-uae-security-port-deals-over-sovereignty-row"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "facilitate the movement of a fugitive political figure"
+          citation_refs: [29]
+        - id: src-007-c
+          outlet: "Middle East Eye"
+          url: "https://www.middleeasteye.net/news/somalia-cancels-all-agreements-uae-including-major-ports"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "This decision applies to all agreements and cooperation in the ports"
+          citation_refs: [30]
+        - id: src-007-d
+          outlet: "Middle East Online"
+          url: "https://www.middle-east-online.com/en/somalia-cancels-all-agreements-uae"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Somaliland officials dismissed the decision as irrelevant 'daydreaming'"
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "The portal cited Middle East Eye, Dawan Africa and The New Arab."
+
+  - id: "evt-2026-01-12-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Sudanese civil war"
+      - "Rapid Support Forces"
+    importance: 6
+    headline: "RSF drone strikes hit Sinja, Sennar State and Kartala, South Kordofan, Sudan"
+    summary: >
+      Sudan's paramilitary Rapid Support Forces launched drones at Sinja, the
+      capital of Sennar State, about 300 km southeast of Khartoum. Casualty accounts
+      conflict: AFP, citing military and health sources, said drones targeted an
+      army base and killed 27 people, while Anadolu, citing the Sudan Doctors
+      Network, reported 10 civilians killed and 9 wounded. Reported injury figures
+      ranged from 13 to more than 70. A separate RSF drone attack on Kartala, South
+      Kordofan, killed five people and injured 13, per the Sudan Doctors Network.
+      The strikes came a day after the army-aligned government announced its return
+      to Khartoum.
+    key_data:
+      - label: "Killed in Sinja (AFP)"
+        value: "27"
+        citation_refs: [32]
+      - label: "Killed in Sinja (Sudan Doctors Network via Anadolu)"
+        value: "10 civilians, 9 wounded"
+        citation_refs: [33]
+      - label: "Killed and injured in Kartala"
+        value: "5 killed, 13 injured"
+        citation_refs: [34]
+    details:
+      what_happened:
+        - "RSF drones struck an army base in Sinja; AFP reported 27 killed."
+        - "The Sudan Doctors Network reported 10 civilians killed and 9 wounded in Sinja."
+        - "An RSF drone attack in Kartala, South Kordofan, killed 5 and injured 13, per the Sudan Doctors Network."
+        - "The strikes followed the government's announced return to Khartoum after nearly three years in Port Sudan."
+      why_it_matters:
+        - "Long-range RSF drones continue to reach deep into army-held territory, undercutting the government's claim to have restored stability."
+      uncertainty_notes:
+        - "Casualty accounts for Sinja conflict sharply: AFP's military/health sources reported 27 killed, while the Sudan Doctors Network reported 10 civilians killed and 9 wounded. Reported injury figures for Sinja range from 13 to more than 70, and it is unclear how many victims were military or civilian."
+    actors:
+      primary:
+        - "Rapid Support Forces"
+      secondary:
+        - "Sudanese Armed Forces"
+        - "Sudan Doctors Network"
+    entities:
+      people: []
+      organizations:
+        - name: "Rapid Support Forces"
+          description: "Paramilitary force that launched the drone strikes"
+        - name: "Sudan Doctors Network"
+          description: "Medical monitoring group reporting casualties"
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places:
+        - "Sinja"
+        - "Sennar State"
+        - "Kartala"
+        - "South Kordofan"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 10
+      injured: 9
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "Army base targeted in Sinja."
+    classification:
+      event_type:
+        - "drone-strike"
+      tags:
+        - "sudan"
+        - "rsf"
+        - "sennar-state"
+        - "south-kordofan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A Rapid Support Forces missile strike kills ten civilians and wounds nine others in Singa, Sennar State, Sudan. (AA)"
+      external:
+        - id: src-008-a
+          outlet: "AFP via The New Arab"
+          url: "https://www.newarab.com/news/sudan-paramilitary-strike-southeastern-city-kills-27"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "launched drones at an army base in the southeastern city of Sinja"
+          citation_refs: [32]
+        - id: src-008-b
+          outlet: "Anadolu Agency"
+          url: "https://www.aa.com.tr/en/middle-east/10-civilians-killed-9-injured-in-rsf-drone-attack-in-southeastern-sudan-medics-say/3797485"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - casualty_report
+          contradicts: []
+          quoted_material:
+            - "Ten civilians were killed and nine others wounded"
+          citation_refs: [33]
+        - id: src-008-c
+          outlet: "Sudan Tribune"
+          url: "https://sudantribune.com/article/309283"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "Five people were killed and 13 others injured"
+          citation_refs: [34]
+        - id: src-008-d
+          outlet: "Foreign Exchanges"
+          url: "https://www.foreignexchanges.news/p/world-roundup-january-12-13-2026"
+          publication_date: "2026-01-13"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "varying reports on the number of people wounded, ranging from 13 to more than 70"
+          citation_refs: [35]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: low
+      actor_identification: high
+    related_events: []
+    notes: "casualty_report uses the Sudan Doctors Network's Sinja figure (10 killed, 9 wounded) to match the portal's exact wording; AFP's higher figure of 27 killed is recorded as a contradicting account. The Kartala attack's 5 killed and 13 injured are described in key_data and what_happened but not added to casualty_report, which covers Sinja only, to avoid conflating the two separate strikes. The portal cited AA (Anadolu Agency)."
+
+  - id: "evt-2026-01-12-009"
+    category: "Science and technology"
+    subcategory: "Space launch failure"
+    topics:
+      - "Indian Space Research Organisation"
+      - "PSLV"
+    importance: 5
+    headline: "ISRO's PSLV-C62 fails, losing EOS-N1 and co-passenger satellites"
+    summary: >
+      The Indian Space Research Organisation's PSLV-C62, the 64th PSLV flight and
+      ISRO's first launch of 2026, lifted off from Sriharikota but failed to reach
+      its intended orbit after an anomaly in the third stage. The rocket carried the
+      primary payload EOS-N1 ("Anvesha"), a DRDO-developed Earth observation
+      satellite, along with about 14 to 15 co-passenger satellites, in a commercial
+      mission run by NewSpace India Limited. It was the PSLV's second consecutive
+      failure after PSLV-C61 in 2025.
+    key_data:
+      - label: "Flight number"
+        value: "64th PSLV flight"
+        citation_refs: [37]
+      - label: "Co-passenger satellites lost"
+        value: "14 (India TV) or 15 (All India Radio)"
+        citation_refs: [36, 37]
+    details:
+      what_happened:
+        - "An anomaly in the third stage prevented the payloads from reaching orbit."
+        - "The primary EOS-N1 satellite and co-passenger satellites were lost."
+        - "The Space Review reported the first two stages performed nominally."
+        - "The mission was run by NewSpace India Limited, ISRO's commercial arm."
+      why_it_matters:
+        - "Two consecutive failures damage the reputation of India's 'workhorse' rocket and its commercial launch business."
+        - "The loss of a DRDO surveillance-capable satellite is a setback for Indian defence space capabilities."
+      uncertainty_notes:
+        - "Co-passenger satellite counts differ: India TV reported 14, All India Radio reported 15."
+    actors:
+      primary:
+        - "Indian Space Research Organisation"
+        - "NewSpace India Limited"
+      secondary:
+        - "Defence Research and Development Organisation"
+    entities:
+      people: []
+      organizations:
+        - name: "Indian Space Research Organisation"
+          description: "Indian national space agency"
+        - name: "NewSpace India Limited"
+          description: "ISRO's commercial launch arm"
+        - name: "Defence Research and Development Organisation"
+          description: "Developer of the EOS-N1 satellite"
+      states:
+        - "India"
+    geography:
+      countries:
+        - "India"
+      places:
+        - "Sriharikota"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: true
+      time_detail: "10:18:30 IST liftoff"
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: "Loss of the EOS-N1 satellite and co-passenger payloads."
+    classification:
+      event_type:
+        - "launch-failure"
+      tags:
+        - "isro"
+        - "pslv"
+        - "india"
+        - "satellite"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-009-a
+          outlet: "India TV"
+          url: "https://www.indiatvnews.com/science/isro-pslv-c62-launch-live-updates-latest-news-eos-n1-14-satellites-launch-sriharikota-1025411"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts:
+            - key_data
+          quoted_material:
+            - "EOS-N1 and 14 satellites failed to reach intended orbit"
+          citation_refs: [36]
+        - id: src-009-b
+          outlet: "The Space Review"
+          url: "https://www.thespacereview.com/article/5140/1"
+          publication_date: "2026-01-12"
+          source_type: specialist_publication
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "an anomaly occurred during the third stage"
+          citation_refs: [37]
+        - id: src-009-c
+          outlet: "All India Radio"
+          url: "https://www.newsonair.gov.in/isro-to-launch-pslv-c62-today-from-sriharikota"
+          publication_date: "2026-01-12"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "This mission will mark the 64th flight of PSLV"
+          citation_refs: [37]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: "The Space Review and All India Radio sources both received citation number 37 in error-checking; corrected to distinct entries in works_cited."
+
+  - id: "evt-2026-01-12-010"
+    category: "Armed conflicts and attacks"
+    subcategory: "Bombing"
+    topics:
+      - "Insurgency in Khyber Pakhtunkhwa"
+      - "Tehreek-e-Taliban Pakistan"
+    importance: 6
+    headline: "Roadside bomb kills police officers in Tank district, northwest Pakistan"
+    summary: >
+      A roadside bomb targeting a police vehicle on routine patrol in Tank district,
+      Khyber Pakhtunkhwa, near the Afghan border, killed six officers, including
+      local police chief Ishaq Ahmad, according to local police chief Pervez Shah as
+      reported by AP. Foreign Exchanges later reported at least seven police killed
+      and said the Pakistani Taliban claimed responsibility.
+    key_data:
+      - label: "Killed (AP)"
+        value: "6, including police chief Ishaq Ahmad"
+        citation_refs: [38]
+      - label: "Killed (Foreign Exchanges)"
+        value: "At least 7"
+        citation_refs: [39]
+    details:
+      what_happened:
+        - "The bomb struck a police vehicle on patrol in Tank district."
+        - "AP, citing police, reported six officers killed, including police chief Ishaq Ahmad."
+        - "Foreign Exchanges reported at least seven killed and a claim of responsibility by the Tehreek-e-Taliban Pakistan."
+      why_it_matters:
+        - "The attack is part of a surge in militant violence in Khyber Pakhtunkhwa that strains Pakistan-Afghanistan relations."
+      uncertainty_notes:
+        - "This report does not independently confirm the higher casualty figure or the TTP claim from Foreign Exchanges, a secondary aggregator."
+    actors:
+      primary:
+        - "Pakistani police"
+      secondary:
+        - "Tehreek-e-Taliban Pakistan"
+    entities:
+      people:
+        - name: "Ishaq Ahmad"
+          role: "Local police chief killed in the attack"
+        - name: "Pervez Shah"
+          role: "Local police chief who reported the attack"
+      organizations:
+        - name: "Tehreek-e-Taliban Pakistan"
+          description: "Militant group that Foreign Exchanges said claimed responsibility"
+      states:
+        - "Pakistan"
+    geography:
+      countries:
+        - "Pakistan"
+      places:
+        - "Tank district"
+        - "Khyber Pakhtunkhwa"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: null
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: "Police vehicle destroyed."
+    classification:
+      event_type:
+        - "bombing"
+      tags:
+        - "pakistan"
+        - "khyber-pakhtunkhwa"
+        - "ttp"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A roadside bomb targeting a police vehicle kills six officers near the Afghan border in northwestern Pakistan. (AP)"
+      external:
+        - id: src-010-a
+          outlet: "Associated Press via The Washington Post"
+          url: "https://www.washingtonpost.com/world/2026/01/12/pakistan-bomb-targeting-police-killed-officers-northwest/c321a0f8-ef9f-11f0-a4dc-effc74cb25af_story.html"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "A roadside bomb targeting a police vehicle killed six officers"
+          citation_refs: [38]
+        - id: src-010-b
+          outlet: "Foreign Exchanges"
+          url: "https://www.foreignexchanges.news/p/world-roundup-january-12-13-2026"
+          publication_date: "2026-01-13"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts:
+            - casualty_report
+          quoted_material:
+            - "The Pakistani Taliban claimed responsibility for the attack."
+          citation_refs: [39]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events: []
+    notes: "The portal cited AP."
+
+  - id: "evt-2026-01-12-011"
+    category: "Armed conflicts and attacks"
+    subcategory: "Strikes on energy infrastructure"
+    topics:
+      - "Russo-Ukrainian war"
+      - "United Nations Security Council"
+    importance: 6
+    headline: "UN Security Council hears Ukraine winter energy-attack briefing as Russia strikes Odesa grid"
+    summary: >
+      At a UN Security Council meeting, Under-Secretary-General Rosemary DiCarlo
+      said 2026 had brought "no peace or even respite" to Ukraine, describing
+      intensified Russian attacks on Ukraine's energy infrastructure amid
+      below-freezing temperatures that left millions without electricity, heating or
+      water. The U.S. delegation accused Russia of "dangerous and inexplicable
+      escalation." Separately, Russia struck energy infrastructure in Ukraine's
+      Odesa region overnight, leaving 33,500 families without power, per grid
+      operator DTEK; no casualties were reported there.
+    key_data:
+      - label: "Households without power in Odesa region"
+        value: "33,500 families"
+        citation_refs: [41]
+    details:
+      what_happened:
+        - "DiCarlo briefed the Security Council on the intensified winter campaign against Ukraine's energy system."
+        - "The U.S. representative accused Russia of dangerous and inexplicable escalation."
+        - "Russian strikes on Odesa region energy facilities caused blackouts; DTEK said 33,500 families lost electricity."
+      why_it_matters:
+        - "Targeting heat and power in sub-zero temperatures is creating a severe humanitarian crisis."
+        - "Unusually sharp U.S. criticism of Moscow at the Council signals frustration with stalled peace efforts."
+      uncertainty_notes:
+        - "A deadlier strike on a postal terminal near Kharkiv that killed four people occurred overnight into January 13 and is outside this event's date."
+    actors:
+      primary:
+        - "Russian Armed Forces"
+        - "United Nations Security Council"
+      secondary:
+        - "Rosemary DiCarlo"
+        - "DTEK"
+    entities:
+      people:
+        - name: "Rosemary DiCarlo"
+          role: "UN Under-Secretary-General for Political and Peacebuilding Affairs"
+      organizations:
+        - name: "United Nations Security Council"
+          description: "UN body briefed on the strikes"
+        - name: "DTEK"
+          description: "Ukrainian energy company"
+      states:
+        - "Russia"
+        - "Ukraine"
+        - "United States"
+    geography:
+      countries:
+        - "Ukraine"
+      places:
+        - "Odesa"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "33,500 families without electricity in Odesa region; millions nationwide affected by energy outages."
+    classification:
+      event_type:
+        - "infrastructure-attack"
+        - "un-briefing"
+      tags:
+        - "ukraine"
+        - "russia"
+        - "odesa"
+        - "un-security-council"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-011-a
+          outlet: "UN News"
+          url: "https://news.un.org/en/story/2026/01/1166748"
+          publication_date: "2026-01-12"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "no peace or even respite to Ukraine, but renewed fighting and devastation"
+          citation_refs: [40]
+        - id: src-011-b
+          outlet: "Reuters via Deccan Herald"
+          url: "https://www.deccanherald.com/amp/story/world%2Frussia-attacks-energy-infrastructure-in-ukraines-southern-odesa-region-report-3859374"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "33,500 families in the region are without electricity due to shelling."
+          citation_refs: [41]
+        - id: src-011-c
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/13/russian-drone-attack-kills-4-in-ukraines-kharkiv-as-peace-remains-elusive"
+          publication_date: "2026-01-13"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "dangerous and inexplicable escalation"
+          citation_refs: [42]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-11-007"
+    notes: ""
+
+  - id: "evt-2026-01-12-012"
+    category: "Politics and elections"
+    subcategory: "Regional legislative election"
+    topics:
+      - "2026 Tobago House of Assembly election"
+      - "Farley Augustine"
+    importance: 4
+    headline: "Tobago People's Party wins all 15 seats in Tobago House of Assembly election"
+    summary: >
+      Tobago held its House of Assembly election, with preliminary results from the
+      Elections and Boundaries Commission giving the Tobago People's Party, led by
+      Chief Secretary Farley Augustine, 16,240 votes against 10,456 for the People's
+      National Movement. Turnout was about 50.69% of 53,239 registered voters, and
+      the TPP won all 15 seats.
+    key_data:
+      - label: "TPP votes"
+        value: "16,240"
+        citation_refs: [43]
+      - label: "PNM votes"
+        value: "10,456"
+        citation_refs: [43]
+      - label: "Turnout"
+        value: "About 50.69%"
+        citation_refs: [43]
+    details:
+      what_happened:
+        - "Voters in 15 electoral districts voted."
+        - "The Elections and Boundaries Commission recorded TPP 16,240, PNM 10,456, IDA 181 and UTP 8 votes."
+        - "Total valid votes were 26,885, with 104 rejected ballots."
+        - "The TPP swept all 15 seats, leaving no elected opposition."
+      why_it_matters:
+        - "The result gives the TPP, formed in 2023, an unchallenged mandate to push for greater Tobago autonomy."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Tobago People's Party"
+        - "People's National Movement"
+      secondary:
+        - "Elections and Boundaries Commission"
+    entities:
+      people:
+        - name: "Farley Augustine"
+          role: "Chief Secretary of Tobago and leader of the Tobago People's Party"
+        - name: "Ancil Dennis"
+          role: "Leader of the People's National Movement in Tobago"
+      organizations:
+        - name: "Tobago People's Party"
+          description: "Party that won all 15 assembly seats"
+        - name: "People's National Movement"
+          description: "Main opposition party"
+      states:
+        - "Trinidad and Tobago"
+    geography:
+      countries:
+        - "Trinidad and Tobago"
+      places:
+        - "Tobago"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "election-results"
+      tags:
+        - "tobago"
+        - "tpp"
+        - "trinidad-and-tobago"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-012-a
+          outlet: "Elections and Boundaries Commission of Trinidad and Tobago"
+          url: "https://ebctt.com/ebc-press-release-preliminary-results-of-the-2026-tha-elections/"
+          publication_date: "2026-01-13"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "voter turnout was recorded at approximately 50.69%"
+          citation_refs: [43]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-12-013"
+    category: "Armed conflicts and attacks"
+    subcategory: "Ceasefire violations"
+    topics:
+      - "Gaza war"
+      - "Gaza ceasefire"
+      - "Palestinian internal political violence"
+    importance: 6
+    headline: "Israeli-backed militia claims killing of Hamas police chief as drone strike kills three in Khan Younis"
+    summary: >
+      Despite the U.S.-brokered ceasefire, violence continued in southern Gaza. An
+      Israeli drone reportedly killed three people in Khan Younis, and the
+      Israeli-backed Counter-Terrorism Strike Force claimed it had assassinated
+      Mahmoud Al-Astal, head of a Hamas-run police unit in Khan Younis. More than 440
+      Palestinians have been killed by Israeli forces since the truce took effect,
+      and a baby reportedly froze to death amid severe winter weather.
+    key_data:
+      - label: "Palestinians killed since the truce, cumulative"
+        value: "More than 440"
+        citation_refs: [45]
+    details:
+      what_happened:
+        - "An Israeli drone strike killed three people in Khan Younis on Monday."
+        - "The Counter-Terrorism Strike Force claimed the killing of Khan Younis Hamas police unit head Mahmoud Al-Astal."
+        - "Freezing weather worsened conditions for displaced families across Gaza."
+      why_it_matters:
+        - "Continued killings and the rise of Israeli-backed militias put the fragile ceasefire at risk."
+      uncertainty_notes:
+        - "The Foreign Exchanges roundup covering this claim is dated January 13, one day after the event."
+    actors:
+      primary:
+        - "Israel Defense Forces"
+        - "Counter-Terrorism Strike Force"
+      secondary:
+        - "Hamas"
+        - "Mahmoud Al-Astal"
+    entities:
+      people:
+        - name: "Mahmoud Al-Astal"
+          role: "Head of a Hamas-run police unit in Khan Younis"
+      organizations:
+        - name: "Counter-Terrorism Strike Force"
+          description: "Israeli-backed militant group operating in Gaza"
+        - name: "Hamas"
+          description: "Palestinian militant group and governing authority in Gaza"
+      states:
+        - "Israel"
+        - "State of Palestine"
+    geography:
+      countries:
+        - "State of Palestine"
+      places:
+        - "Khan Younis"
+        - "Gaza Strip"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 3
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "airstrike"
+        - "targeted-killing"
+        - "ceasefire-violation"
+      tags:
+        - "gaza"
+        - "khan-younis"
+        - "israel"
+        - "hamas"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Israeli-backed militant organization Counter-Terrorism Strike Force says it has assassinated Mahmoud Al-Astal, head of a Hamas-run police unit in Khan Yunis, Gaza Strip. (Reuters)"
+      external:
+        - id: src-013-a
+          outlet: "Foreign Exchanges"
+          url: "https://www.foreignexchanges.news/p/world-roundup-january-12-13-2026"
+          publication_date: "2026-01-13"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "An IDF drone killed three people in Khan Younis on Monday"
+          citation_refs: [44]
+        - id: src-013-b
+          outlet: "Democracy Now!"
+          url: "https://www.democracynow.org/2026/1/12/headlines"
+          publication_date: "2026-01-12"
+          source_type: news_report
+          reliability_tier: high
+          supports:
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "over 440 Palestinians have been killed by Israeli forces"
+          citation_refs: [45]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: medium
+    related_events:
+      - "evt-2026-01-08-008"
+      - "evt-2026-01-09-003"
+    notes: "The portal cited Reuters for the Al-Astal claim."
+
+  - id: "evt-2026-01-12-014"
+    category: "Disasters and accidents"
+    subcategory: "Bushfires; national security legislation"
+    topics:
+      - "2025–26 Australian bushfire season"
+      - "2025 Bondi Beach attack"
+    importance: 6
+    headline: "Albanese addresses Victorian bushfire death, outlines recall of Parliament over Bondi response"
+    summary: >
+      At a press conference in Canberra with Home Affairs Minister Tony Burke and
+      Attorney-General Michelle Rowland, Prime Minister Anthony Albanese spoke of
+      "the devastating news of a loss of life" in the Victorian bushfires, a day
+      after visiting Bendigo, Ravenswood and Harcourt, and said 47 homes had been
+      lost in Harcourt alone. He also outlined plans to recall Parliament, a
+      condolence motion for Bondi attack victims, a Combatting Antisemitism, Hate
+      and Extremism Bill, and a national gun buyback scheme. Wildfire Today reported
+      that more than 500 structures, including 180 homes, had been affected in
+      Victoria as of January 12, and that a cattle farmer died in the Longwood fire.
+    key_data:
+      - label: "Homes lost in Harcourt"
+        value: "47"
+        citation_refs: [46]
+      - label: "Structures affected in Victoria (Wildfire Today)"
+        value: "More than 500, including 180 homes"
+        citation_refs: [47]
+    details:
+      what_happened:
+        - "Albanese confirmed a bushfire death and said 47 homes were lost in Harcourt."
+        - "He outlined the recall of Parliament to pass antisemitism, hate and extremism legislation after the Bondi attack, which killed 15."
+        - "A national gun buyback scheme was among the topics discussed."
+      why_it_matters:
+        - "Australia is simultaneously handling severe fire weather and a major legislative response to terrorism."
+      uncertainty_notes:
+        - "Wildfire Today identifies the Longwood fire death as a cattle farmer; this detail is additional to the January 11 death confirmation already recorded (evt-2026-01-11-015), which did not identify the victim's occupation."
+    actors:
+      primary:
+        - "Anthony Albanese"
+      secondary:
+        - "Tony Burke"
+        - "Michelle Rowland"
+    entities:
+      people:
+        - name: "Anthony Albanese"
+          role: "Prime Minister of Australia"
+        - name: "Tony Burke"
+          role: "Australian Minister for Home Affairs"
+        - name: "Michelle Rowland"
+          role: "Attorney-General of Australia"
+      organizations: []
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Canberra"
+        - "Harcourt"
+        - "Bendigo"
+        - "Ravenswood"
+        - "Longwood"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: "47 homes lost in Harcourt; more than 500 structures including 180 homes affected across Victoria."
+    classification:
+      event_type:
+        - "press-conference"
+        - "disaster-response"
+        - "legislation"
+      tags:
+        - "australia"
+        - "victoria"
+        - "bushfires"
+        - "bondi-attack"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-014-a
+          outlet: "Australian Attorney-General's ministers site"
+          url: "https://ministers.ag.gov.au/media-centre/transcripts/press-conference-parliament-house-canberra-12-01-2026"
+          publication_date: "2026-01-12"
+          source_type: official_release
+          reliability_tier: high
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "those people who have lost their homes - 47 in Harcourt alone"
+          citation_refs: [46]
+        - id: src-014-b
+          outlet: "Wildfire Today"
+          url: "https://wildfiretoday.com/extreme-fire-warnings-for-southern-australian-heatwave/"
+          publication_date: "2026-01-13"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - key_data
+          contradicts: []
+          quoted_material:
+            - "More than 500 structures, including 180 homes, were impacted"
+          citation_refs: [47]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-11-015"
+    notes: "casualty_report.killed is 0 here because the death itself is recorded under January 11 (evt-2026-01-11-015); this event covers the January 12 press conference and its policy content."
+
+  - id: "evt-2026-01-12-015"
+    category: "International relations"
+    subcategory: "Alliance command structure"
+    topics:
+      - "South Korea–United States relations"
+      - "Combined Forces Command"
+    importance: 4
+    headline: "U.S. and South Korea establish permanent combined ground command"
+    summary: >
+      A South Korean Ministry of National Defense spokesman said the United States
+      and South Korea had established a permanent Combined Ground Component
+      Command, previously activated only during conflicts, describing it as a key
+      step toward Seoul assuming wartime operational control of allied forces. The
+      bilateral Permanent Military Committee had approved its standing status on
+      October 24.
+    key_data:
+      - label: "Approval date of standing status"
+        value: "October 24, 2025"
+        citation_refs: [48]
+    details:
+      what_happened:
+        - "A South Korean defence spokesman announced the permanent status of the Combined Ground Component Command."
+        - "The command's standing status was approved on October 24 by the Permanent Military Committee."
+      why_it_matters:
+        - "The step advances South Korea's long-planned assumption of wartime operational control from the U.S."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "South Korean Ministry of National Defense"
+        - "United States Forces Korea"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Combined Ground Component Command"
+          description: "U.S.-South Korean command given permanent status"
+        - name: "South Korean Ministry of National Defense"
+          description: "Ministry that announced the change"
+      states:
+        - "South Korea"
+        - "United States"
+    geography:
+      countries:
+        - "South Korea"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "military-command-structure"
+      tags:
+        - "south-korea"
+        - "united-states"
+        - "combined-forces-command"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: src-015-a
+          outlet: "The American Legion"
+          url: "https://www.legion.org/information-center/news/security/2026/january/five-things-to-know-jan-12-2026"
+          publication_date: "2026-01-12"
+          source_type: specialist_publication
+          reliability_tier: medium
+          supports:
+            - summary
+            - key_data
+            - details.what_happened
+          contradicts: []
+          quoted_material:
+            - "a key step toward Seoul assuming wartime control of allied forces"
+          citation_refs: [48]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events: []
+    notes: ""
+
+  - id: "evt-2026-01-12-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border security"
+    topics:
+      - "Myanmar civil war"
+      - "Bangladesh–Myanmar relations"
+      - "Arakan Rohingya Salvation Army"
+    importance: 5
+    headline: "Bangladesh detains 53 Arakan Rohingya Salvation Army members who crossed from Myanmar"
+    summary: >
+      Bangladesh detained 53 members of the Arakan Rohingya Salvation Army who
+      crossed into Bangladesh amid fighting with the Arakan Army in Rakhine State,
+      Myanmar, according to the Wikipedia current-events portal citing AFP via The
+      Straits Times.
+    key_data:
+      - label: "Detained"
+        value: "53 ARSA members"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Bangladeshi authorities detained 53 members of the Arakan Rohingya Salvation Army."
+        - "Those detained had crossed from Rakhine State, Myanmar amid fighting with the Arakan Army."
+      why_it_matters:
+        - "The detentions reflect spillover from Myanmar's civil war into Bangladesh's Rohingya-hosting border region."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Government of Bangladesh"
+      secondary:
+        - "Arakan Rohingya Salvation Army"
+        - "Arakan Army"
+    entities:
+      people: []
+      organizations:
+        - name: "Arakan Rohingya Salvation Army"
+          description: "Rohingya militant group whose members were detained"
+        - name: "Arakan Army"
+          description: "Ethnic armed group fighting ARSA in Rakhine State"
+      states:
+        - "Bangladesh"
+        - "Myanmar"
+    geography:
+      countries:
+        - "Bangladesh"
+        - "Myanmar"
+      places:
+        - "Rakhine State"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 53
+      damage: null
+    classification:
+      event_type:
+        - "detention"
+        - "cross-border-security"
+      tags:
+        - "bangladesh"
+        - "myanmar"
+        - "arsa"
+        - "rohingya"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Bangladesh detains 53 Arakan Rohingya Salvation Army members that crossed into Bangladesh amid fighting with the Arakan Army in Rakhine State, Myanmar. (AFP via The Straits Times)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-12-004"
+    notes: "Portal-derived event; reported by AFP via The Straits Times per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-017"
+    category: "Business and economy"
+    subcategory: "Housing policy"
+    topics:
+      - "Spanish property bubble"
+      - "Pedro Sánchez"
+    importance: 5
+    headline: "Spain tightens rent regulations as housing shortfall reaches about 500,000 homes"
+    summary: >
+      Spanish Prime Minister Pedro Sánchez issued a decree tightening rent
+      regulations by limiting short-term rentals and offering full tax refunds to
+      landlords who renew contracts without rent increases, as the country faces a
+      housing shortfall of about 500,000 homes and average rents that have doubled
+      over the past decade, according to the Wikipedia current-events portal citing
+      Reuters.
+    key_data:
+      - label: "Estimated housing shortfall"
+        value: "About 500,000 homes"
+        citation_refs: [49]
+      - label: "Average rent increase over the past decade"
+        value: "Doubled"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Sánchez issued a decree limiting short-term rentals."
+        - "The decree offers full tax refunds to landlords who renew contracts without raising rents."
+      why_it_matters:
+        - "The measure responds to a housing shortfall estimated at about 500,000 homes and rents that have doubled in a decade."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Government of Spain"
+      secondary:
+        - "Pedro Sánchez"
+    entities:
+      people:
+        - name: "Pedro Sánchez"
+          role: "Prime Minister of Spain"
+      organizations: []
+      states:
+        - "Spain"
+    geography:
+      countries:
+        - "Spain"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "housing-policy"
+        - "regulation"
+      tags:
+        - "spain"
+        - "housing"
+        - "rent-control"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Spanish prime minister Pedro Sánchez issues a decree that tightens rent regulations by limiting short-term rentals and offering full tax refunds to landlords who renew contracts without rent increases, as the country faces a housing shortfall of about 500,000 homes and average rents that have doubled over the past decade. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by Reuters per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-018"
+    category: "Disasters and accidents"
+    subcategory: "Coastal hazards"
+    topics:
+      - "Meteotsunami"
+      - "Argentina"
+    importance: 4
+    headline: "One killed, 35 injured in meteotsunami at Argentine beaches"
+    summary: >
+      One person was killed and 35 others injured in a meteotsunami at several
+      beaches in Argentina, according to the Wikipedia current-events portal citing
+      People magazine.
+    key_data:
+      - label: "Killed"
+        value: "1"
+        citation_refs: [49]
+      - label: "Injured"
+        value: "35"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "A meteotsunami struck several beaches in Argentina."
+        - "One person was killed and 35 others were injured."
+      why_it_matters:
+        - "The event highlights the risk of sudden, weather-driven sea-level surges to beachgoers."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Argentina"
+    geography:
+      countries:
+        - "Argentina"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 35
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "natural-disaster"
+      tags:
+        - "argentina"
+        - "meteotsunami"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "One person is killed and 35 others are injured in a meteotsunami at several beaches in Argentina. (People)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by People magazine per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-019"
+    category: "Disasters and accidents"
+    subcategory: "Animal attacks"
+    topics:
+      - "Wildlife attacks in India"
+      - "Jharkhand"
+    importance: 4
+    headline: "Wild elephant blamed for 20 deaths in Jharkhand since start of year remains at large"
+    summary: >
+      Authorities said a wild Asian elephant had killed 20 people since the start of
+      the year in the Indian state of Jharkhand and remained on the loose. A search
+      operation involving more than 100 park rangers was under way to locate it,
+      according to the Wikipedia current-events portal citing BBC News.
+    key_data:
+      - label: "Killed since start of year"
+        value: "20"
+        citation_refs: [49]
+      - label: "Park rangers searching"
+        value: "More than 100"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Authorities said a wild elephant had killed 20 people since the start of the year."
+        - "The elephant remained on the loose."
+        - "A search operation involving more than 100 park rangers was under way."
+      why_it_matters:
+        - "The repeated fatalities highlight the risks of human-wildlife conflict in the region."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary: []
+      secondary:
+        - "Jharkhand forest department"
+    entities:
+      people: []
+      organizations:
+        - name: "Jharkhand forest department"
+          description: "State authority coordinating the search"
+      states:
+        - "India"
+    geography:
+      countries:
+        - "India"
+      places:
+        - "Jharkhand"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 20
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "animal-attack"
+      tags:
+        - "india"
+        - "jharkhand"
+        - "elephant"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Authorities say a wild Asian elephant has killed 20 people since the start of the year in the Indian state of Jharkhand and remains on the loose. A search operation involving more than 100 park rangers is underway to locate the elephant. (BBC News)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by BBC News per the Wikipedia portal. 'Since the start of the year' likely refers to a longer-running toll rather than deaths confined to January 12 alone."
+
+  - id: "evt-2026-01-12-020"
+    category: "Environment and climate"
+    subcategory: "Drought"
+    topics:
+      - "Climate change in Morocco"
+    importance: 3
+    headline: "Seven-year drought ends in Morocco after sharp rise in winter rainfall"
+    summary: >
+      A seven-year drought ended in Morocco after a 95 percent increase in winter
+      rainfall compared with 2025, according to the Wikipedia current-events portal
+      citing Reuters.
+    key_data:
+      - label: "Rainfall increase vs. 2025"
+        value: "95%"
+        citation_refs: [49]
+      - label: "Drought duration ended"
+        value: "Seven years"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Winter rainfall in Morocco rose 95 percent compared with 2025."
+        - "The increase ended a seven-year drought."
+      why_it_matters:
+        - "The end of a prolonged drought has significant implications for Morocco's agriculture and water supply."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Morocco"
+    geography:
+      countries:
+        - "Morocco"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "climate-event"
+      tags:
+        - "morocco"
+        - "drought"
+        - "rainfall"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A seven-year drought ends in Morocco after a 95 percent increase in winter rainfall compared with 2025 was recorded. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by Reuters per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-021"
+    category: "Law and crime"
+    subcategory: "Drug trafficking"
+    topics:
+      - "War on drugs"
+      - "Sweden"
+    importance: 4
+    headline: "Swedish police seize record 3 tonnes of cocaine at Port of Helsingborg"
+    summary: >
+      Swedish police seized three tonnes of cocaine found in a shipping container
+      from South America at the Port of Helsingborg, the country's single-largest
+      seizure of the drug, according to the Wikipedia current-events portal citing
+      Reuters.
+    key_data:
+      - label: "Cocaine seized"
+        value: "3 tonnes"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Police seized three tonnes of cocaine in a shipping container from South America at the Port of Helsingborg."
+        - "It was described as Sweden's single-largest cocaine seizure."
+      why_it_matters:
+        - "The record seizure underscores the scale of cocaine trafficking routes through Northern European ports."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Swedish police"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Swedish Police Authority"
+          description: "Agency that made the seizure"
+      states:
+        - "Sweden"
+    geography:
+      countries:
+        - "Sweden"
+      places:
+        - "Helsingborg"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "drug-seizure"
+      tags:
+        - "sweden"
+        - "cocaine"
+        - "drug-trafficking"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Swedish police seize three tonnes of cocaine found in a shipping container from South America at the Port of Helsingborg, making it the country's single-largest seizure of the illegal drug. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by Reuters per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-022"
+    category: "Law and crime"
+    subcategory: "Drug trafficking"
+    topics:
+      - "War on drugs"
+      - "Canary Islands"
+    importance: 4
+    headline: "Spanish police seize 10 tonnes of cocaine off the Canary Islands, arrest 13"
+    summary: >
+      Spanish police, in coordination with the UK National Crime Agency and the US
+      DEA, seized 10 tonnes of cocaine hidden among a cargo of salt on a cargo ship
+      off the Canary Islands, the country's largest ever seizure of drugs at sea.
+      Thirteen people on board the vessel were arrested, according to the Wikipedia
+      current-events portal citing The Guardian.
+    key_data:
+      - label: "Cocaine seized"
+        value: "10 tonnes"
+        citation_refs: [49]
+      - label: "Arrested"
+        value: "13"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Spanish police, with the UK National Crime Agency and the US DEA, seized 10 tonnes of cocaine hidden in a cargo of salt."
+        - "The seizure took place on a cargo ship off the Canary Islands."
+        - "Thirteen people on board were arrested."
+      why_it_matters:
+        - "It is described as Spain's largest-ever seizure of drugs at sea, reflecting the scale of transatlantic trafficking."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Spanish police"
+      secondary:
+        - "UK National Crime Agency"
+        - "US Drug Enforcement Administration"
+    entities:
+      people: []
+      organizations:
+        - name: "UK National Crime Agency"
+          description: "British agency that coordinated with Spanish police"
+        - name: "US Drug Enforcement Administration"
+          description: "US agency that coordinated with Spanish police"
+      states:
+        - "Spain"
+        - "United Kingdom"
+        - "United States"
+    geography:
+      countries:
+        - "Spain"
+      places:
+        - "Canary Islands"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 13
+      damage: null
+    classification:
+      event_type:
+        - "drug-seizure"
+      tags:
+        - "spain"
+        - "cocaine"
+        - "canary-islands"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Spanish police, in coordination with the UK National Crime Agency and the US DEA, seize 10 tonnes of cocaine hidden among a cargo of salt on a cargo ship off the Canary Islands. It is the country's largest ever seizure of drugs at sea. Thirteen people on board the vessel are arrested. (The Guardian)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by The Guardian per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-023"
+    category: "Law and crime"
+    subcategory: "Transnational fraud"
+    topics:
+      - "Cambodia–South Korea relations"
+      - "Scam centers in Cambodia"
+    importance: 4
+    headline: "Cambodian and South Korean police arrest 26 in impersonation and sexual exploitation scam"
+    summary: >
+      Cambodian and South Korean police arrested 26 suspects accused of
+      impersonation scams and sexual exploitation that allegedly defrauded 165 South
+      Korean victims of about 26.7 billion won (US$18.25 million), with authorities
+      set to extradite the suspects to South Korea, according to the Wikipedia
+      current-events portal citing Reuters.
+    key_data:
+      - label: "Arrested"
+        value: "26"
+        citation_refs: [49]
+      - label: "Victims defrauded"
+        value: "165"
+        citation_refs: [49]
+      - label: "Amount defrauded"
+        value: "About ₩26.7 billion (US$18.25 million)"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Cambodian and South Korean police arrested 26 suspects."
+        - "The suspects allegedly defrauded 165 South Korean victims through impersonation scams and sexual exploitation."
+        - "Authorities planned to extradite the suspects to South Korea."
+      why_it_matters:
+        - "The case is part of a broader crackdown on transnational scam operations based in Cambodia."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Cambodian police"
+        - "South Korean police"
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Cambodia"
+        - "South Korea"
+    geography:
+      countries:
+        - "Cambodia"
+        - "South Korea"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 26
+      damage: null
+    classification:
+      event_type:
+        - "arrest"
+        - "transnational-fraud"
+      tags:
+        - "cambodia"
+        - "south-korea"
+        - "scam-centers"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Cambodian and South Korean police arrest 26 suspects accused of impersonation scams and sexual exploitation that allegedly defrauded 165 South Korean victims of about ₩26.7 billion (US$18.25 million), with authorities set to extradite the suspects to South Korea. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-07-017"
+      - "evt-2026-01-08-012"
+    notes: "Portal-derived event; reported by Reuters per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-024"
+    category: "Law and crime"
+    subcategory: "Corruption"
+    topics:
+      - "Corruption in Georgia"
+      - "Irakli Garibashvili"
+    importance: 5
+    headline: "Former Georgian PM Garibashvili pleads guilty to money-laundering, gets five years"
+    summary: >
+      Former Georgian prime minister Irakli Garibashvili pleaded guilty to
+      large-scale money-laundering charges and received a five-year prison sentence
+      and a 1-million-lari (US$371,829) fine after investigators seized about $6.5
+      million in cash during raids on his residence, according to the Wikipedia
+      current-events portal citing Reuters.
+    key_data:
+      - label: "Sentence"
+        value: "5 years in prison"
+        citation_refs: [49]
+      - label: "Fine"
+        value: "₾1 million (US$371,829)"
+        citation_refs: [49]
+      - label: "Cash seized in raids"
+        value: "About $6.5 million"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Garibashvili pleaded guilty to large-scale money-laundering charges."
+        - "He received a five-year prison sentence and a 1-million-lari fine."
+        - "Investigators seized about $6.5 million in cash during raids on his residence."
+      why_it_matters:
+        - "The conviction of a former prime minister marks a significant anti-corruption action in Georgia."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Irakli Garibashvili"
+      secondary:
+        - "Georgian prosecutors"
+    entities:
+      people:
+        - name: "Irakli Garibashvili"
+          role: "Former Prime Minister of Georgia"
+      organizations: []
+      states:
+        - "Georgia"
+    geography:
+      countries:
+        - "Georgia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "corruption-conviction"
+      tags:
+        - "georgia"
+        - "corruption"
+        - "money-laundering"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Former Georgian prime minister Irakli Garibashvili pleads guilty to large-scale money-laundering charges and receives a five-year prison sentence and a ₾1-million (US$371,829) fine after investigators seize about $6.5 million in cash during raids on his residence. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by Reuters per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-025"
+    category: "Law and crime"
+    subcategory: "Corruption"
+    topics:
+      - "Corruption in Poland"
+      - "Hungary–Poland relations"
+      - "Zbigniew Ziobro"
+    importance: 5
+    headline: "Former Polish justice minister Ziobro granted asylum in Hungary"
+    summary: >
+      Former Polish justice minister Zbigniew Ziobro received political asylum in
+      Hungary while Polish prosecutors investigate him on 26 counts related to
+      alleged misuse of a crime victims fund and other abuses of office under the
+      first Morawiecki cabinet, according to the Wikipedia current-events portal
+      citing The Guardian.
+    key_data:
+      - label: "Counts under investigation"
+        value: "26"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Hungary granted political asylum to Zbigniew Ziobro."
+        - "Polish prosecutors are investigating him on 26 counts, including alleged misuse of a crime victims fund."
+      why_it_matters:
+        - "The case reflects continuing friction between Poland's current government and Hungary over accountability for officials of the prior Polish administration."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Zbigniew Ziobro"
+        - "Government of Hungary"
+      secondary:
+        - "Polish prosecutors"
+    entities:
+      people:
+        - name: "Zbigniew Ziobro"
+          role: "Former Minister of Justice of Poland"
+      organizations: []
+      states:
+        - "Poland"
+        - "Hungary"
+    geography:
+      countries:
+        - "Hungary"
+        - "Poland"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "political-asylum"
+        - "corruption-investigation"
+      tags:
+        - "poland"
+        - "hungary"
+        - "zbigniew-ziobro"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Former Polish justice minister Zbigniew Ziobro receives political asylum in Hungary while Polish prosecutors investigate him on 26 counts related to alleged misuse of a crime victims fund and other abuses of office under the first Morawiecki cabinet. (The Guardian)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by The Guardian per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-026"
+    category: "Armed conflicts and attacks"
+    subcategory: "Assassination"
+    topics:
+      - "Corsican conflict"
+      - "National Liberation Front of Corsica"
+    importance: 5
+    headline: "Former Corsican militant leader Alain Orsoni assassinated at mother's funeral"
+    summary: >
+      Former National Liberation Front of Corsica leader Alain Orsoni was
+      assassinated by a gunman at his mother's funeral in Vero, Corse-du-Sud,
+      Corsica, France, according to the Wikipedia current-events portal citing
+      Reuters.
+    key_data:
+      - label: "Location"
+        value: "Vero, Corse-du-Sud, Corsica"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "A gunman assassinated Alain Orsoni at his mother's funeral in Vero."
+      why_it_matters:
+        - "The killing of a former separatist leader revives concerns about political violence tied to Corsica's independence movement."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+        - "The identity and motive of the gunman are not established in the portal bullet."
+    actors:
+      primary:
+        - "Unidentified gunman"
+      secondary:
+        - "Alain Orsoni"
+    entities:
+      people:
+        - name: "Alain Orsoni"
+          role: "Former leader of the National Liberation Front of Corsica"
+      organizations:
+        - name: "National Liberation Front of Corsica"
+          description: "Corsican separatist militant group Orsoni once led"
+      states:
+        - "France"
+    geography:
+      countries:
+        - "France"
+      places:
+        - "Vero"
+        - "Corse-du-Sud"
+        - "Corsica"
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 1
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "assassination"
+      tags:
+        - "france"
+        - "corsica"
+        - "flnc"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Former National Liberation Front of Corsica leader Alain Orsoni is assassinated by a gunman at his mother's funeral in Vero, Corse-du-Sud, Corsica, France. (Reuters)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: low
+    related_events: []
+    notes: "Portal-derived event; reported by Reuters per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-027"
+    category: "Politics and elections"
+    subcategory: "Political prisoners"
+    topics:
+      - "2026 United States intervention in Venezuela"
+      - "Political prisoners in Venezuela"
+    importance: 5
+    headline: "Venezuela releases more than 100 political prisoners held over civil disobedience"
+    summary: >
+      Venezuela released more than 100 political prisoners who had been detained
+      over acts associated with civil disobedience against the constitutional
+      order, according to the Wikipedia current-events portal citing Al Jazeera.
+    key_data:
+      - label: "Prisoners released"
+        value: "More than 100"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "The Venezuelan government released more than 100 political prisoners."
+        - "Those released had been detained over acts associated with civil disobedience against the constitutional order."
+      why_it_matters:
+        - "The release is a larger step than earlier, smaller Venezuelan prisoner releases reported since Maduro's removal."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+        - "It is not established in the portal bullet whether this figure overlaps with the smaller releases recorded on January 1 and January 8 (evt-2026-01-01-014, evt-2026-01-08-027)."
+    actors:
+      primary:
+        - "Delcy Rodríguez"
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "prisoner-release"
+      tags:
+        - "venezuela"
+        - "political-prisoners"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Venezuela releases more than 100 political prisoners who were detained due to acts associated with civil disobedience the constitutional order. (Al Jazeera)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: medium
+      actor_identification: low
+    related_events:
+      - "evt-2026-01-01-014"
+      - "evt-2026-01-08-027"
+    notes: "Portal-derived event; reported by Al Jazeera per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-028"
+    category: "Science and technology"
+    subcategory: "Online safety regulation"
+    topics:
+      - "Criticism of Twitter"
+      - "Grok"
+      - "Ofcom"
+    importance: 5
+    headline: "UK's Ofcom opens formal investigation into X over Grok deepfake images"
+    summary: >
+      The United Kingdom's Ofcom opened an investigation into X over complaints
+      about the creation of deepfake sexualised images by its chatbot Grok,
+      according to the Wikipedia current-events portal citing RTÉ.
+    key_data:
+      - label: "Regulator"
+        value: "Ofcom"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Ofcom opened a formal investigation into X over Grok-generated deepfake sexualised images."
+      why_it_matters:
+        - "The investigation extends regulatory scrutiny of Grok's image-generation features beyond Indonesia's earlier block."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Ofcom"
+      secondary:
+        - "X"
+        - "xAI"
+    entities:
+      people: []
+      organizations:
+        - name: "Ofcom"
+          description: "UK communications regulator"
+        - name: "X"
+          description: "Social media platform operating Grok"
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "regulatory-investigation"
+      tags:
+        - "united-kingdom"
+        - "ofcom"
+        - "grok"
+        - "x"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United Kingdom's Ofcom opens an investigation into X over complaints about the creation of deepfake sexualised images by its chatbot Grok. (RTÉ)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events:
+      - "evt-2026-01-06-022"
+      - "evt-2026-01-10-009"
+    notes: "Portal-derived event; reported by RTÉ per the Wikipedia portal."
+
+  - id: "evt-2026-01-12-029"
+    category: "Business and economy"
+    subcategory: "Online safety regulation"
+    topics:
+      - "Meta Platforms"
+      - "Australian social media age restrictions"
+    importance: 5
+    headline: "Meta shuts down over 544,000 under-16 accounts on Facebook, Instagram and Threads in Australia"
+    summary: >
+      Meta reported that it had shut down over 544,000 accounts of users under the
+      age of 16 on Facebook, Instagram and Threads in response to Australian social
+      media age restrictions, according to the Wikipedia current-events portal
+      citing DW.
+    key_data:
+      - label: "Accounts shut down"
+        value: "More than 544,000"
+        citation_refs: [49]
+    details:
+      what_happened:
+        - "Meta shut down more than 544,000 accounts of users under 16 across Facebook, Instagram and Threads."
+        - "The action was taken in response to Australian social media age restrictions."
+      why_it_matters:
+        - "The scale of the takedown reflects the reach of Australia's under-16 social media ban."
+      uncertainty_notes:
+        - "Portal-derived event not covered by an independent external source in the January 12 deep-research report."
+    actors:
+      primary:
+        - "Meta Platforms"
+      secondary:
+        - "Government of Australia"
+    entities:
+      people: []
+      organizations:
+        - name: "Meta Platforms"
+          description: "Company that operates Facebook, Instagram and Threads"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-01-12"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: 0
+      missing: null
+      arrest_count: 0
+      damage: null
+    classification:
+      event_type:
+        - "regulatory-compliance"
+        - "online-safety"
+      tags:
+        - "meta"
+        - "australia"
+        - "age-verification"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Meta reports that it has shut down over 544,000 accounts of users under the age of 16 on Facebook, Instagram, and Threads in response to Australian social media age restrictions. (DW)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: high
+      detail_accuracy: high
+      actor_identification: high
+    related_events: []
+    notes: "Portal-derived event; reported by DW per the Wikipedia portal."
+
+strategic_conclusion: >
+  January 12 showed Iran and the Federal Reserve as the day's two gravitational
+  centers. Iran's crackdown passed 500 confirmed deaths under HRANA's count, and
+  Trump's abrupt 25% tariff on any country trading with Iran extended the crisis
+  into trade policy with no stated legal basis. In Washington, the Powell
+  investigation drew an unusually public rebuke from a Republican senator and a
+  cross-partisan roster of former Fed chairs and Treasury secretaries, testing how
+  far the administration is willing to press a confrontation with the central bank.
+
+  Elsewhere, institutional processes advanced on several fronts: the ICJ's Rohingya
+  hearings, Minnesota and Illinois's lawsuits against the immigration surge, and
+  Tobago's one-party assembly. Somalia's rupture with the UAE and Sudan's continuing
+  RSF drone strikes underlined how unresolved regional conflicts keep generating new
+  flashpoints even away from the day's headline stories. A long tail of smaller but
+  concrete developments — corruption convictions in Georgia and Poland, record drug
+  seizures in Sweden and off the Canary Islands, a Corsican assassination, and
+  regulatory action against Meta and X — filled out a day with unusually wide
+  geographic spread.
+
+works_cited:
+  - id: 1
+    title: "Headlines for January 12, 2026"
+    outlet: "Democracy Now!"
+    url: "https://www.democracynow.org/2026/1/12/headlines"
+    accessed: "2026-01-12"
+  - id: 2
+    title: "Early Edition: January 12, 2026"
+    outlet: "Just Security"
+    url: "https://www.justsecurity.org/128495/early-edition-january-12-2026/"
+    accessed: "2026-01-12"
+  - id: 3
+    title: "Iran Update, January 12, 2026"
+    outlet: "Critical Threats Project / Institute for the Study of War"
+    url: "https://www.criticalthreats.org/analysis/iran-update-january-12-2026"
+    accessed: "2026-01-12"
+  - id: 4
+    title: "Iran protests live news, January 12, 2026"
+    outlet: "CNN"
+    url: "https://www.cnn.com/world/live-news/iran-protests-01-12-26"
+    accessed: "2026-01-12"
+  - id: 5
+    title: "Metsola bans Iranian diplomats from all EU Parliament premises"
+    outlet: "Malta Independent"
+    url: "https://www.independent.com.mt/articles/2026-01-12/local-news/Metsola-bans-Iranian-diplomats-from-all-EU-Parliament-premises-it-cannot-be-business-as-usual-6736286293"
+    accessed: "2026-01-12"
+  - id: 6
+    title: "Trump tariffs Iran business"
+    outlet: "CNBC"
+    url: "https://www.cnbc.com/2026/01/12/trump-tariffs-iran-business.html"
+    accessed: "2026-01-12"
+  - id: 7
+    title: "Tariffs Trump Iran"
+    outlet: "CNN Business"
+    url: "https://www.cnn.com/2026/01/12/business/tariffs-trump-iran"
+    accessed: "2026-01-12"
+  - id: 8
+    title: "Trump says any country doing business with Iran will face 25 percent tariff"
+    outlet: "Al Jazeera"
+    url: "https://aljazeera.com/news/2026/1/12/trump-says-any-country-doing-business-with-iran-will-face-25-percent-tariff"
+    accessed: "2026-01-12"
+  - id: 9
+    title: "US to impose 25% tariff on any country doing business with Iran: Trump"
+    outlet: "S&P Global Commodity Insights"
+    url: "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/011226-us-to-impose-25-tariff-on-any-country-doing-business-with-iran-trump"
+    accessed: "2026-01-12"
+  - id: 10
+    title: "Trump says countries doing business with Iran face 25% tariff"
+    outlet: "Reuters via MarketScreener"
+    url: "https://in.marketscreener.com/news/trump-says-countries-doing-business-with-iran-face-25-tariff-ce7e58dbd988f525"
+    accessed: "2026-01-12"
+  - id: 11
+    title: "Statement from Federal Reserve Chair Jerome H. Powell"
+    outlet: "Federal Reserve Board"
+    url: "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm"
+    accessed: "2026-01-11"
+  - id: 12
+    title: "DOJ investigation of Powell sparks backlash, support for Fed independence"
+    outlet: "PBS News"
+    url: "https://www.pbs.org/newshour/politics/doj-investigation-of-powell-sparks-backlash-support-for-fed-independence"
+    accessed: "2026-01-12"
+  - id: 13
+    title: "US opens criminal investigation into Fed Chair Jerome Powell"
+    outlet: "Euronews (with AP)"
+    url: "https://euronews.com/business/2026/01/12/us-opens-criminal-investigation-into-fed-chair-jerome-powell"
+    accessed: "2026-01-12"
+  - id: 14
+    title: "US prosecutors have launched a criminal investigation into Jay Powell"
+    outlet: "Financial Times (archived copy)"
+    url: "https://prasad.dyson.cornell.edu/doc/FT.12Jan26.pdf"
+    accessed: "2026-01-12"
+  - id: 15
+    title: "A criminal investigation of a sitting chair is without precedent"
+    outlet: "Wall Street Journal (archived copy)"
+    url: "https://prasad.dyson.cornell.edu/doc/WSJ.12Jan26.pdf"
+    accessed: "2026-01-12"
+  - id: 16
+    title: "UN top court set to open Myanmar Rohingya genocide case"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/12/un-top-court-set-to-open-myanmar-rohingya-genocide-case"
+    accessed: "2026-01-12"
+  - id: 17
+    title: "Landmark Myanmar Rohingya genocide case opens at the ICJ"
+    outlet: "Reuters via Yahoo News"
+    url: "https://www.yahoo.com/news/articles/landmark-myanmar-rohingya-genocide-case-010301684.html"
+    accessed: "2026-01-12"
+  - id: 18
+    title: "Public hearings open in The Gambia v. Myanmar"
+    outlet: "UN News"
+    url: "https://news.un.org/en/story/2026/01/1166746"
+    accessed: "2026-01-12"
+  - id: 19
+    title: "The Gambia v. Myanmar hearing broadcast"
+    outlet: "UN Web TV"
+    url: "https://webtv.un.org/en/asset/k1k/k1k0g5tstz"
+    accessed: "2026-01-12"
+  - id: 20
+    title: "ICJ genocide hearing told Myanmar attempted to destroy Rohingya"
+    outlet: "Daily Sabah"
+    url: "https://www.dailysabah.com/world/asia-pacific/icj-genocide-hearing-told-myanmar-attempted-to-destroy-rohingya/amp"
+    accessed: "2026-01-12"
+  - id: 21
+    title: "Minnesota, Minneapolis and Saint Paul sue to end Operation Metro Surge"
+    outlet: "Minnesota Attorney General's Office"
+    url: "https://www.ag.state.mn.us/Office/Communications/2026/01/12_ICE.asp"
+    accessed: "2026-01-12"
+  - id: 22
+    title: "Minnesota sues Trump administration to block surge of federal immigration agents"
+    outlet: "Reuters via U.S. News"
+    url: "https://www.usnews.com/news/politics/articles/2026-01-12/minnesota-sues-trump-administration-to-block-surge-of-federal-immigration-agents"
+    accessed: "2026-01-12"
+  - id: 23
+    title: "Minnesota and the Twin Cities sue the federal government to stop Trump's immigration crackdown"
+    outlet: "PBS News (AP)"
+    url: "https://www.pbs.org/newshour/amp/politics/minnesota-and-the-twin-cities-sue-the-federal-government-to-stop-trumps-immigration-crackdown"
+    accessed: "2026-01-12"
+  - id: 24
+    title: "Minneapolis, Minnesota sue Trump admin over ICE"
+    outlet: "CNN"
+    url: "https://www.cnn.com/2026/01/12/us/video/minneapolis-minnesota-sue-trump-admin-ice-vrtc"
+    accessed: "2026-01-12"
+  - id: 25
+    title: "Apple, Google AI deal to put Siri on Gemini"
+    outlet: "CNBC"
+    url: "https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html"
+    accessed: "2026-01-12"
+  - id: 26
+    title: "Google's Gemini to power Apple's AI features like Siri"
+    outlet: "TechCrunch"
+    url: "https://techcrunch.com/2026/01/12/googles-gemini-to-power-apples-ai-features-like-siri/"
+    accessed: "2026-01-12"
+  - id: 27
+    title: "Apple, Google, Gemini and Siri"
+    outlet: "CNN Business"
+    url: "https://www.cnn.com/2026/01/12/tech/apple-google-gemini-siri"
+    accessed: "2026-01-12"
+  - id: 28
+    title: "Somalia cancels all agreements with UAE over alleged sovereignty violations"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/12/somalia-cancels-all-agreements-with-uae-over-alleged-sovereignty-violations"
+    accessed: "2026-01-12"
+  - id: 29
+    title: "Somalia ends UAE security, port deals over sovereignty row"
+    outlet: "Bloomberg"
+    url: "https://www.bloomberg.com/news/articles/2026-01-12/somalia-ends-uae-security-port-deals-over-sovereignty-row"
+    accessed: "2026-01-12"
+  - id: 30
+    title: "Somalia cancels all agreements with UAE including major ports"
+    outlet: "Middle East Eye"
+    url: "https://www.middleeasteye.net/news/somalia-cancels-all-agreements-uae-including-major-ports"
+    accessed: "2026-01-12"
+  - id: 31
+    title: "Somalia cancels all agreements with UAE"
+    outlet: "Middle East Online"
+    url: "https://www.middle-east-online.com/en/somalia-cancels-all-agreements-uae"
+    accessed: "2026-01-12"
+  - id: 32
+    title: "Sudan paramilitary strike on southeastern city kills 27"
+    outlet: "AFP via The New Arab"
+    url: "https://www.newarab.com/news/sudan-paramilitary-strike-southeastern-city-kills-27"
+    accessed: "2026-01-12"
+  - id: 33
+    title: "10 civilians killed, 9 injured in RSF drone attack in southeastern Sudan, medics say"
+    outlet: "Anadolu Agency"
+    url: "https://www.aa.com.tr/en/middle-east/10-civilians-killed-9-injured-in-rsf-drone-attack-in-southeastern-sudan-medics-say/3797485"
+    accessed: "2026-01-12"
+  - id: 34
+    title: "Five killed in RSF drone attack on Kartala, South Kordofan"
+    outlet: "Sudan Tribune"
+    url: "https://sudantribune.com/article/309283"
+    accessed: "2026-01-12"
+  - id: 35
+    title: "World Roundup, January 12-13, 2026"
+    outlet: "Foreign Exchanges"
+    url: "https://www.foreignexchanges.news/p/world-roundup-january-12-13-2026"
+    accessed: "2026-01-13"
+  - id: 36
+    title: "ISRO PSLV-C62 launch live updates: EOS-N1 and 14 satellites fail to reach intended orbit"
+    outlet: "India TV"
+    url: "https://www.indiatvnews.com/science/isro-pslv-c62-launch-live-updates-latest-news-eos-n1-14-satellites-launch-sriharikota-1025411"
+    accessed: "2026-01-12"
+  - id: 37
+    title: "PSLV-C62 launch failure analysis"
+    outlet: "The Space Review"
+    url: "https://www.thespacereview.com/article/5140/1"
+    accessed: "2026-01-12"
+  - id: 38
+    title: "ISRO to launch PSLV-C62 today from Sriharikota"
+    outlet: "All India Radio"
+    url: "https://www.newsonair.gov.in/isro-to-launch-pslv-c62-today-from-sriharikota"
+    accessed: "2026-01-12"
+  - id: 39
+    title: "Roadside bomb targeting police vehicle killed six officers in northwest Pakistan"
+    outlet: "Associated Press via The Washington Post"
+    url: "https://www.washingtonpost.com/world/2026/01/12/pakistan-bomb-targeting-police-killed-officers-northwest/c321a0f8-ef9f-11f0-a4dc-effc74cb25af_story.html"
+    accessed: "2026-01-12"
+  - id: 40
+    title: "No peace or even respite to Ukraine in 2026, Security Council hears"
+    outlet: "UN News"
+    url: "https://news.un.org/en/story/2026/01/1166748"
+    accessed: "2026-01-12"
+  - id: 41
+    title: "Russia attacks energy infrastructure in Ukraine's southern Odesa region"
+    outlet: "Reuters via Deccan Herald"
+    url: "https://www.deccanherald.com/amp/story/world%2Frussia-attacks-energy-infrastructure-in-ukraines-southern-odesa-region-report-3859374"
+    accessed: "2026-01-12"
+  - id: 42
+    title: "Russian drone attack kills 4 in Ukraine's Kharkiv as peace remains elusive"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/13/russian-drone-attack-kills-4-in-ukraines-kharkiv-as-peace-remains-elusive"
+    accessed: "2026-01-13"
+  - id: 43
+    title: "Preliminary results of the 2026 THA elections"
+    outlet: "Elections and Boundaries Commission of Trinidad and Tobago"
+    url: "https://ebctt.com/ebc-press-release-preliminary-results-of-the-2026-tha-elections/"
+    accessed: "2026-01-13"
+  - id: 44
+    title: "World Roundup, January 12-13, 2026"
+    outlet: "Foreign Exchanges"
+    url: "https://www.foreignexchanges.news/p/world-roundup-january-12-13-2026"
+    accessed: "2026-01-13"
+  - id: 45
+    title: "Headlines for January 12, 2026"
+    outlet: "Democracy Now!"
+    url: "https://www.democracynow.org/2026/1/12/headlines"
+    accessed: "2026-01-12"
+  - id: 46
+    title: "Press conference, Parliament House Canberra, 12/01/2026"
+    outlet: "Australian Attorney-General's ministers site"
+    url: "https://ministers.ag.gov.au/media-centre/transcripts/press-conference-parliament-house-canberra-12-01-2026"
+    accessed: "2026-01-12"
+  - id: 47
+    title: "Extreme fire warnings for southern Australian heatwave"
+    outlet: "Wildfire Today"
+    url: "https://wildfiretoday.com/extreme-fire-warnings-for-southern-australian-heatwave/"
+    accessed: "2026-01-13"
+  - id: 48
+    title: "Five things to know, January 12, 2026"
+    outlet: "The American Legion"
+    url: "https://www.legion.org/information-center/news/security/2026/january/five-things-to-know-jan-12-2026"
+    accessed: "2026-01-12"
+  - id: 49
+    title: "Portal:Current events/2026 January 12"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_12"
+    accessed: "2026-01-12"
