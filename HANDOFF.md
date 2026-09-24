@@ -1,6 +1,6 @@
 # Handoff: January 2026 deep-context expansion
 
-Last updated: 2026-09-24 (Jan 10 rebuild, Jan 11-14 builds)
+Last updated: 2026-09-24 (Jan 10 rebuild, Jan 11-15 builds)
 
 ## Goal
 
@@ -26,9 +26,10 @@ Do not use `llm_agent_prompt.txt` or `generate_prompts.py` for conversion as the
 | 12 | Yes (`2026-01-12b.md`) | Schema 2.2 | `draft`, built 2026-09-24 |
 | 13 | Yes (`2026-01-13a.md`) | Schema 2.2 | `draft`, built 2026-09-24 |
 | 14 | Yes (`2026-01-14a.md`) | Schema 2.2 | `draft`, built 2026-09-24, see below |
-| 15-31 | No | Portal stub | Needs a deep-research run |
+| 15 | Yes (`2026-01-15a.md`, first run of the rewritten prompt) | Schema 2.2 | `draft`, built 2026-09-24, see below |
+| 16-31 | No | Portal stub | Needs a deep-research run |
 
-All of 01-14 pass `validate.py` with `jsonschema` installed, and every `related_events` link across 01-14 resolves. Days 10-14 are `draft`/`reviewed: false` pending the same human-review pass already done for 01-09 — they have not been machine-verified beyond the quote/URL/schema checks described below.
+All of 01-15 pass `validate.py` with `jsonschema` installed, and every `related_events` link across 01-15 resolves. Days 10-15 are `draft`/`reviewed: false` pending the same human-review pass already done for 01-09 — they have not been machine-verified beyond the quote/URL/schema checks described below.
 
 ## Jan 10 rebuild and the monthly-vs-daily portal misattribution (2026-09-24)
 
@@ -54,6 +55,27 @@ Jan 12's initial validation failed on three `sources.external[].supports` entrie
 Both days needed a few cross-day disambiguations, resolved by matching exact dated phrasing in the sources: the Noem ICE-surge officer deployment and the Victoria bushfire's first confirmed death both belong to Jan 11, not Jan 10 as originally guessed; Jan 12's press-conference coverage of that same bushfire death is recorded as a separate, zero-casualty Jan 12 event cross-linked to the Jan 11 death record so the death itself isn't double-counted.
 
 All three days' `related_events` links were checked against Jan 1-12 for accidental duplicates (recurring stories like the Cambodia scam-center crackdowns and Venezuela prisoner releases are cross-linked rather than duplicated); no unflagged duplicates were found.
+
+## Jan 15 build (2026-09-24)
+
+`2026-01-15a.md` (uploaded as `January_2026_Daily_News_Record.md`) is the first report made with the rewritten `llm_prompt.txt`. It stayed on the day much better than the Jan 14 report. It covered all 12 daily-portal bullets, added 3 non-portal events (Maharashtra municipal elections, Carney in Beijing, Trump's Insurrection Act threat), and gave `Date Check` lines and an excluded-items list. Built as 15 events.
+
+The prompt was only partly followed, and the same kinds of error still got through:
+
+- Footnote numbers glued to sentences, summary tables and speculative "Why It Matters" prose were still present. A Wikipedia article and a children's-encyclopedia mirror (kiddle.co) were cited. Quotes carried zero-width characters (U+200B/C/D), which the verifier now strips.
+- **Conflated incidents:** the Insurrection Act section described the Jan 14 Minneapolis shooting as fatal and attached Vance's "a tragedy of her own making" remarks "on Thursday". The Jan 14 shooting was non-fatal (`evt-2026-01-14-015`), and Vance's remarks concern Renée Good and appear to date from Thursday Jan 8. Only Trump's threat and AP's federal-agent figures are kept. The Vance remarks are not recorded anywhere in the archive yet; a reviewer may want to add them to Jan 8 with a source.
+- **Wrong name:** the Greenland section named Mute Egede as Greenland's prime minister; it is Jens-Frederik Nielsen (`evt-2026-01-13-005`). That claim was dropped.
+- **Later information:** the Uganda section mixed in later counting (provisional >70%/19%, and a final 24.7% for Bobi Wine). The final figure was dropped; the provisional tally is kept with a note that it probably reflects Jan 16 counting. Check this when building Jan 16-17 to avoid double counting.
+- **Wrong-date source:** the Maharashtra section's 3.48 crore voter figure was sourced to a December 2025 article and was dropped.
+- Weak sources kept but rated `low`: AffairsCloud (Yemen PM), World Socialist Web Site (Japan-Philippines $6 million figure), BCIT News (Carney quotes).
+
+The report's "Excluded or uncertain items", for placement on later days:
+- A Canadian dying "at the hands of the Iranian authorities" (Jan 15; its only source was BCIT News).
+- The attack on Bobi Wine's wife (Jan 24).
+- Erfan Soltani released on bail in Iran (date unknown).
+- Coordinated Balochistan Liberation Army attacks with 33 killed (date unknown).
+
+Arctic Endurance: `evt-2026-01-14-006` left its start date open; `evt-2026-01-15-006` records Macron saying on Jan 15 that it had already begun.
 
 ## Jan 13 and Jan 14 builds (2026-09-24)
 
@@ -133,7 +155,7 @@ The deep-research reports were compiled in late March 2026, and several leaked l
 
 ## Next steps
 
-1. Human-review 10-14 and flip them to `reviewed` (same pass already done for 01-09).
-2. Run deep research for 15-31 with `llm_prompt.txt` as it now stands (only the `DATE_ISO` line needs editing), saving each report as `reference/deep-research/2026/01/2026-01-DDa.md`. Use the next free letter if a day is re-run. Check the report's "Excluded or uncertain items" list against this file's open issues (Benin results, and the Jan 30 Mangione and Epstein items).
+1. Human-review 10-15 and flip them to `reviewed` (same pass already done for 01-09).
+2. Run deep research for 16-31 with `llm_prompt.txt` as it now stands (only the `DATE_ISO` line needs editing), saving each report as `reference/deep-research/2026/01/2026-01-DDa.md`. Use the next free letter if a day is re-run. Check the report's "Excluded or uncertain items" list against this file's open issues (Benin results, and the Jan 30 Mangione and Epstein items).
 3. Convert each day, validate, verify quotes/URLs against the source report, and link `related_events` to prior days.
 4. Once all 31 days are expanded, build the January 2026 summary from the YAML files, deduplicating follow-up events via `related_events`.
