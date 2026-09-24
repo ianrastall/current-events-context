@@ -1,30 +1,77 @@
-**PHASE 1: RESEARCH**
-[cite_start]Conduct a broad global news sweep for the date given in INPUTS[cite: 2].
-[cite_start]Identify the day's biggest events worldwide using strong, high-confidence sources[cite: 3].
-[cite_start]Deliberately check for major developments in: North America, Latin America and the Caribbean, Europe, Middle East and North Africa, Sub-Saharan Africa, South Asia, East Asia, Southeast Asia, and Oceania[cite: 4].
-[cite_start]Do not force equal regional representation, but actively check for major events that may be underrepresented in Western coverage[cite: 5].
+You are compiling a source-grounded news record for a single calendar day. The output will be converted into a structured dataset, and every fact, quote, and URL in it will be checked mechanically against your report. Accuracy and correct dating matter more than length or style.
 
-**PHASE 2: OUTPUT**
-Output a highly structured Markdown report. [cite_start]Do NOT output YAML[cite: 6].
-[cite_start]For each event (aim for 12 to 18 major events), provide the following strictly formatted sections[cite: 7].
-[cite_start]Do not deviate from these headers[cite: 8]. Maintain exact string matches for programmatic parsing.
+The day to cover is DATE_ISO, given under INPUTS at the end of this prompt.
 
-## Event: [Headline]
-* [cite_start]**Category & Subcategory:** [e.g., Armed conflicts and attacks / Drone strikes] [cite: 8]
-* [cite_start]**Geography:** [Countries], [Places] [cite: 8]
-* [cite_start]**Summary:** A robust, substantial 1-paragraph summary. [cite: 8] If a detail is not explicitly in the text, do not include it.
-* [cite_start]**What Happened:** Exactly 3 to 5 highly specific bullet points. [cite: 9]
-* [cite_start]**Why It Matters:** 1 to 3 bullet points explaining broader significance. [cite: 10]
-* [cite_start]**Actors:** * Primary: [Only if explicitly supported by sources. [cite: 11] If none, write "None identified."]
-    * [cite_start]Secondary: [If applicable. [cite: 11] If none, write "None identified."]
-* [cite_start]**Casualties/Damage:** [Killed: X, Injured: X, Displaced: X, Arrest Count: X, Damage Descriptions. [cite: 11] [cite_start]Use "Unknown" if genuinely unavailable. [cite: 12] Do not estimate or infer numbers.]
-* [cite_start]**Sources:** [For each source, provide: Outlet Name, URL, Publication Date, and a brief list of claims this specific source supports, including a short direct quote for critical claims. [cite: 12] [cite_start]Prefer 2 to 5 direct, high-confidence sources per event. [cite: 13]]
+**PHASE 1: FIND THE DAY'S EVENTS**
 
-**FACT RULES:**
-- Be factual, neutral, and source-grounded. [cite_start]Do not guess. [cite: 13]
-- If source information is conflicting, state the conflict explicitly rather than synthesizing a middle ground.
-- [cite_start]Merge duplicate reporting about the same real-world event into one event section. [cite: 14]
-- [cite_start]Do not pad with background articles or explainers. [cite: 15]
+1. Start from the Wikipedia Current Events page for that exact day, not the monthly index. The daily page has the form:
+   https://en.wikipedia.org/wiki/Portal:Current_events/YYYY_Month_D
+   (month written in full, day without a leading zero; for example, 2026-01-14 is Portal:Current_events/2026_January_14).
+   Do NOT use Portal:Current_events/Month_YYYY or any page listing a whole month. Monthly pages mix many days together, and items taken from them are almost always misdated.
+2. Then run a broad global news sweep for the same day. Deliberately check North America, Latin America and the Caribbean, Europe, the Middle East and North Africa, Sub-Saharan Africa, South Asia, East Asia, Southeast Asia, and Oceania. Do not force equal regional coverage, but look actively for major events that Western outlets underreport.
+3. Aim for 12 to 20 events. Prefer the day's most consequential events; include lesser portal items only if you can source them properly.
+
+**PHASE 2: DATE CHECK (apply to every candidate event)**
+
+- Include an event only if it happened on DATE_ISO, or if it was first reported on DATE_ISO.
+- Exclude anything that happened after DATE_ISO, even if you find later articles discussing it. Later sources may be used only to confirm facts about DATE_ISO itself.
+- Exclude recaps of earlier events. An ongoing story (a war, a protest movement, a crisis) qualifies only if something new happened on DATE_ISO: a new strike, a new casualty figure, a new decision, statement, vote, or document. State plainly what was new that day.
+- If an event spans midnight (for example an overnight attack), say which night it was.
+- If you are unsure of an event's date, leave it out of the main list and put it in the "Excluded or uncertain items" section below with your reason.
+
+**PHASE 3: SOURCE RULES**
+
+- Every source must have a full, working URL to the original article, release, or document. A citation without a URL is not valid.
+- Wikipedia is never a source. If you found an item on the Wikipedia portal, follow it to the outlet the portal cites (or another outlet covering the same fact) and cite that outlet's URL. If you cannot find any non-Wikipedia source, do not write an event section for it; list it under "Portal items not covered" instead.
+- Prefer 2 to 5 direct, high-confidence sources per event: wire services, major newspapers and broadcasters, official releases, and established local outlets. Avoid aggregators, SEO rewrite sites, and pages whose title does not match the story.
+- Give each source's actual publication date. Prefer sources published on DATE_ISO or within two days after it. If you rely on a source published more than a week later, say so next to it.
+- Quotes must be copied exactly, character for character, from the body of the source: 5 to 30 words, no paraphrase, no stitched fragments. If the only available wording is the article's headline, label it "Headline:" rather than "Quote:".
+- Write URLs as plain text exactly as they appear in a browser: no Markdown escaping (no backslashes before _ & ( ) or other characters), no tracking parameters such as utm_source, and no shortened links.
+- Do not include citation tokens, reference markers, footnote numbers, embedded images, or data URIs anywhere in the report.
+
+**PHASE 4: FACT RULES**
+
+- Be factual, neutral, and source-grounded. Do not guess.
+- Every figure (deaths, injuries, arrests, money, votes) must be attributed to a named source. When sources give different figures, list each figure with its source and time of reporting. Do not average them or pick one silently.
+- Do not estimate, infer, or round numbers. Use "Unknown" when a figure is genuinely unavailable.
+- Distinguish claims from confirmed facts. Write "the army said", "the group claimed", or "according to X" wherever a figure or attribution comes from one party.
+- Merge duplicate reporting about the same real-world event into one event section.
+- Do not pad with background explainers, forecasts, risk ratings, or strategic analysis. "Why It Matters" should state concrete, sourced significance in plain language, not predictions.
+
+**PHASE 5: OUTPUT FORMAT**
+
+Output a Markdown report. Do NOT output YAML. Do not add an executive summary, overview table, risk matrix, conclusion, or forecast. Use exactly the headers and field labels below so the report can be parsed.
+
+Start with one line:
+
+# News record for DATE_ISO
+
+Then, for each event:
+
+## Event: [Headline in sentence case, stating what happened]
+* **Category & Subcategory:** [e.g., Armed conflicts and attacks / Drone strikes]
+* **Geography:** [Countries]; [Places]
+* **Date Check:** [One sentence: what happened on DATE_ISO specifically, and, for an ongoing story, what was new that day.]
+* **Summary:** One substantial paragraph. Include only details that appear in the cited sources.
+* **What Happened:**
+  * 3 to 5 specific bullet points.
+* **Why It Matters:**
+  * 1 to 3 bullet points of concrete, sourced significance.
+* **Actors:**
+  * Primary: [Named people, governments, groups. If none, write "None identified."]
+  * Secondary: [If none, write "None identified."]
+* **Casualties/Damage:** Killed: X; Injured: X; Displaced: X; Missing: X; Arrested: X; Damage: [description]. Use "Unknown" where genuinely unavailable and "None" where the event involves no casualties. If sources disagree, give each figure with its source.
+* **Sources:**
+  * [Outlet] | [Full URL] | [Publication date YYYY-MM-DD] | Supports: [which claims above this source supports] | Quote: "[exact words from the article body]"
+  * (repeat for each source; use "Headline:" instead of "Quote:" only when no body text is available)
+
+After the last event, add these two sections:
+
+## Portal items not covered
+List each bullet from the day's Wikipedia Current Events page that does not have its own event section above, copied as written on the portal, with the outlet the portal cites and a short reason (for example, "no non-Wikipedia source found" or "minor; not researched"). Write "None" if every portal bullet is covered.
+
+## Excluded or uncertain items
+List any story you found but left out because of a date problem (happened before or after DATE_ISO, recap of an earlier event, or date unclear). One line each: the story, the date you believe it belongs to, and why. Write "None" if there are none.
 
 **INPUTS:**
 DATE_ISO = [insert date]

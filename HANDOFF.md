@@ -85,16 +85,19 @@ Before flipping `status`/`reviewed`/`mode` to reviewed, ran automated checks aga
 
 Day 10 was deliberately left in `draft`: its source report cites outlets by name with no URLs at all (`grep -n "lack URLs\|lack a URL"` in that file shows the gaps), so several of its events can't be attributed to a checkable source. A re-run with a real deep-research tool (browser-based) is underway; see the improved prompt below.
 
-## Deep-research prompt (in use as of 2026-09-23)
+## Deep-research prompt (rewritten 2026-09-24)
 
-`llm_prompt.txt` at the repo root is the base prompt. Two lines were added to its FACT RULES to close the two failure modes actually observed in days 06-10 (future-event leakage from reports compiled in March, and day 10's total lack of URLs):
+`llm_prompt.txt` was rewritten from scratch so a fresh run does not need extra instructions. It now covers every failure mode seen in days 06-14:
 
-```
-- Report only events that occurred on DATE_ISO or were first reported on DATE_ISO. Do not include events from later dates, even if you find later sources discussing them.
-- Every source must include a full, working URL — no citation is valid without one.
-```
+- It names the daily Wikipedia page (`Portal:Current_events/YYYY_Month_D`) and forbids the monthly index. This caused the Jan 10 and Jan 14 duplicates.
+- A date check for every event: only things that happened, or were first reported, on the day. It excludes later events and recaps of earlier ones, and each event gets a `Date Check` line stating what was new that day. This addresses the March leakage into 06-09 and the Jan 30 items in the Jan 14 report.
+- Wikipedia is never a source. Portal items must be traced to the outlet the portal cites, or listed as not covered. Some Jan 14 events cited only "via Wikipedia".
+- Every source needs a full URL, its publication date, and an exact quote from the article body. Headlines must be labelled `Headline:`. The Jan 10a report had no URLs, and Jan 13-14 had headline-only quotes.
+- URLs must be plain text: no Markdown escaping, tracking parameters or citation tokens. Jan 14 had `\_`/`\&` escapes, embedded images and `utm_source` links.
+- No executive summary, risk matrix, forecasts or strategic conclusion. The Jan 14 report's speculative framing had to be stripped.
+- The report ends with two sections used during conversion. "Portal items not covered" becomes portal-only events. "Excluded or uncertain items" goes into this handoff for placement on the right day.
 
-These are being used for the day-11 and day-10-rerun requests but not yet written back into `llm_prompt.txt` itself — do that once a couple of days confirm the wording holds up.
+The `## Event:` layout and field labels are unchanged, apart from the new `Date Check` field, a `Missing` casualty field, and one-line pipe-separated source entries. The conversion procedure in `reference/schema/AUTHORING_GUIDE.md` still applies.
 
 ## Decisions made in the 06-10 conversion
 
@@ -128,18 +131,9 @@ The deep-research reports were compiled in late March 2026, and several leaked l
 - `copilot_prompts/` holds prompts for 01-01 to 01-10 built from the schema 2.1 template. They are now stale; left in place pending the owner's decision.
 - `llm_agent_prompt.txt` and `llm_review_prompt.txt` still embed the schema 2.1 template.
 
-## Recommended addition to the deep-research prompt
-
-To cut down on leakage of later events, consider adding to the FACT RULES in `llm_prompt.txt`:
-
-```text
-- Report only events that occurred on DATE_ISO or were first reported on DATE_ISO. Do not include events from later dates, even if later sources discuss them.
-- Every source must include a full URL. Prefer sources published on DATE_ISO or within two days after it; flag any source published more than a week later.
-```
-
 ## Next steps
 
 1. Human-review 10-14 and flip them to `reviewed` (same pass already done for 01-09).
-2. Run deep research for 15-31, saving each report as `reference/deep-research/2026/01/2026-01-DDb.md` (use the "b" suffix going forward, since "a" now means "the original, possibly weaker report" by precedent) — explicitly instruct the tool to use the daily portal page, not the monthly index, per the Jan 10 lesson above.
+2. Run deep research for 15-31 with `llm_prompt.txt` as it now stands (only the `DATE_ISO` line needs editing), saving each report as `reference/deep-research/2026/01/2026-01-DDa.md`. Use the next free letter if a day is re-run. Check the report's "Excluded or uncertain items" list against this file's open issues (Benin results, and the Jan 30 Mangione and Epstein items).
 3. Convert each day, validate, verify quotes/URLs against the source report, and link `related_events` to prior days.
 4. Once all 31 days are expanded, build the January 2026 summary from the YAML files, deduplicating follow-up events via `related_events`.

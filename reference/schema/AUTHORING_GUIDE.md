@@ -26,6 +26,10 @@ it with the full schema-2.2 document.
    "Global News Sweep" with `entity[...]` markup and `citeturn...` reference
    tokens (Jan 2 style). **Strip `entity[...]` wrappers and `citeturn...` tokens**;
    keep only clean prose and real URLs.
+   Reports produced with the current `llm_prompt.txt` also carry a `Date Check`
+   line per event and end with "Portal items not covered" (convert each into a
+   portal-only event) and "Excluded or uncertain items" (do not convert; record
+   them in `HANDOFF.md` so they can be placed on the right day).
 
 2. **Build the event list as a union of two sets:**
    - **One event per markdown `## Event:` section**, fully enriched.
