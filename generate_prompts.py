@@ -1,74 +1,49 @@
-import os
-import re
+"""Generate schema-2.2 conversion prompts from explicit synthesis inputs."""
+import argparse
+import json
+import sys
+from pathlib import Path
 
-# --- Configuration ---
-repo_root = r"D:\GitHub\current-events-context"
-md_base_dir = os.path.join(repo_root, "reference", "deep-research")
-output_dir = os.path.join(repo_root, "copilot_prompts")
-template_path = os.path.join(repo_root, "llm_agent_prompt.txt") # Your master instruction file
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT / "reference" / "expansion"))
+import inputs
 
-size_threshold_kb = 10 
-pattern = re.compile(r"^\d{4}-\d{2}-\d{2}[a-zA-Z]?$")
 
-# Ensure output directory exists
-os.makedirs(output_dir, exist_ok=True)
+def generate(dates, output_dir, *, include_reviewed=False):
+    template = (ROOT / "llm_agent_prompt.txt").read_text(encoding="utf-8")
+    schema = (ROOT / "reference/schema/daily-events.schema.json").read_text(encoding="utf-8")
+    output_dir = Path(output_dir).resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    written = []
+    for day in dates:
+        selected = inputs.selection(day)
+        target = ROOT / "expanded" / day[:4] / day[5:7] / (day + ".yaml")
+        if selected["mode"] == "authored_snapshot":
+            import yaml
+            doc = yaml.safe_load(inputs.resolve(selected["snapshot"]).read_bytes())
+            if doc["dataset"]["compiler"]["reviewed"] and not include_reviewed:
+                continue
+        report = inputs.resolve(selected["report"]).read_text(encoding="utf-8")
+        text = template.replace("DATE_ISO = [insert date]", f"DATE_ISO = {day}")
+        text = text.replace("[Insert Markdown Report Here]", report)
+        text += f"\nTARGET OUTPUT FILE: {target}\nSELECTED INPUT: {selected['report']}\n"
+        text += "\nCANONICAL SCHEMA 2.2:\n" + schema + "\n"
+        path = output_dir / f"agent_prompt_{day}.txt"
+        path.write_text(text, encoding="utf-8", newline="\n")
+        written.append(path)
+    return written
 
-# Read the master prompt template
-try:
-    with open(template_path, 'r', encoding='utf-8') as t_file:
-        master_template = t_file.read()
-except FileNotFoundError:
-    print(f"Error: Could not find the prompt template at {template_path}")
-    exit(1)
 
-stub_count = 0
-print("Scanning directories and building self-contained agent prompts...")
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("dates", nargs="*")
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "copilot_prompts")
+    parser.add_argument("--include-reviewed", action="store_true")
+    args = parser.parse_args(argv)
+    days = args.dates or sorted(json.loads(inputs.MANIFEST.read_text(encoding="utf-8")))
+    for path in generate(days, args.output_dir, include_reviewed=args.include_reviewed):
+        print(path.relative_to(ROOT) if path.is_relative_to(ROOT) else path)
 
-for root, dirs, files in os.walk(md_base_dir):
-    for file in files:
-        if file.endswith(".md"):
-            base_name = os.path.splitext(file)[0]
-            
-            if pattern.match(base_name):
-                md_full_path = os.path.join(root, file)
-                clean_name = re.sub(r'[a-zA-Z]$', '', base_name) # e.g., 2026-03-07
-                
-                # Calculate parallel YAML path
-                rel_dir = os.path.relpath(root, md_base_dir)
-                yaml_folder = repo_root if rel_dir == '.' else os.path.join(repo_root, rel_dir)
-                yaml_path = os.path.join(yaml_folder, f"{clean_name}.yaml")
-                
-                # Check if YAML exists and is a stub
-                if os.path.exists(yaml_path):
-                    size_kb = os.path.getsize(yaml_path) / 1024.0
-                    
-                    if size_kb < size_threshold_kb:
-                        # 1. Read the actual Markdown content
-                        with open(md_full_path, 'r', encoding='utf-8') as md_file:
-                            md_content = md_file.read()
-                        
-                        # 2. Inject data into the template
-                        # Replaces the placeholders defined in your llm_agent_prompt.txt
-                        final_prompt = master_template.replace(
-                            "DATE_ISO = [insert date]", 
-                            f"DATE_ISO = {clean_name}"
-                        )
-                        final_prompt = final_prompt.replace(
-                            "[Insert Markdown Report Here]", 
-                            md_content
-                        )
-                        
-                        # Add a final directive pointing to the target YAML file
-                        final_prompt += f"\n\n*** TARGET OUTPUT FILE ***\nPlease save the generated YAML to: {yaml_path}"
-                        
-                        # 3. Write the self-contained prompt to disk
-                        prompt_output_path = os.path.join(output_dir, f"agent_prompt_{clean_name}.txt")
-                        with open(prompt_output_path, 'w', encoding='utf-8') as out_file:
-                            out_file.write(final_prompt)
-                            
-                        print(f"Built complete prompt for {clean_name} ({size_kb:.2f} KB stub)")
-                        stub_count += 1
-                else:
-                    print(f"Notice: Missing YAML equivalent for {file} in {yaml_folder}")
 
-print(f"\nSuccess. Generated {stub_count} agent-ready prompts in {output_dir}.")
+if __name__ == "__main__":
+    main()

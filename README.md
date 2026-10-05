@@ -1,39 +1,63 @@
 # current-events-context
 
-This repository provides a daily, structured summary of global news and events in YAML format. Its primary purpose is to offer rich, machine-readable context for Large Language Models (LLMs) and AI Agents, especially for periods that fall outside their training data or knowledge cutoff dates.
+Daily current-events context for LLMs. Source extraction and researched
+synthesis have separate provenance and are stored separately.
 
-## Project Status & Structure
+| Path | Purpose |
+|---|---|
+| `<YYYY>/<MM>/<YYYY-MM-DD>.yaml` | Wikipedia seed archive; some later files still use the legacy shape |
+| `expanded/<YYYY>/<MM>/<YYYY-MM-DD>.yaml` | Schema-2.2 researched synthesis |
+| `reference/deep-research/` | Source research reports |
+| `reference/expansion/inputs.json` | Explicit report/snapshot identities |
+| `reference/schema/` | Synthesis contract, authoring guide and validator |
+| `seed/` | Collection CLI and archival migration tools |
 
-The repository is actively maintained and organized chronologically by year and month (e.g., `/2026/03/`). Each file is named by its ISO date: `YYYY-MM-DD.yaml` (e.g., `2026-03-14.yaml`).
+The repository is transitioning from published mixed daily paths to separate
+layers. See `reference/reconciliation/README.md` before publication. Imported
+review states preserve prior work; draft research still needs factual review.
 
-Currently, the files fall into two distinct tiers of detail:
+## Setup and verification
 
-* **Daily Snapshots (First-Draft, ~5 KB):** The vast majority of the archive consists of these baseline files. They contain a brief, scraped summary of the day's key events categorized by topic. 
-* **Deep Context (Reviewed-Draft, ~50 KB):** These are expanded, heavily researched files. They include rigorous factual support, background information on key players, geographical coordinates, causality reports, and source URLs. 
+Requires Python 3.10 or later and Git for optional Git workflows.
 
-**The ongoing goal of this project is to incrementally upgrade all the 5KB "Daily Snapshots" into 50KB "Deep Context" files.**
+```
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python reference/schema/validate.py --archive-root expanded expanded/2026/01/2026-01-15.yaml
+```
 
-## How to Contribute (LLM Deep Research)
+## Collection
 
-This is an open project, and contributions to expand the context engine are highly appreciated! The only contributions we are currently looking for are **LLM deep research projects** to upgrade existing 5KB Daily Snapshots into 50KB Deep Context files.
+```
+python -m seed plan 2026-01-01 2026-01-31
+python -m seed date 2026-10-04 --no-overwrite
+python -m seed range 2026-01-01 2026-01-31 --no-gdelt
+```
 
-Because the repository creator is currently running automated scripts to backfill the archive from **2002 moving backwards**, please avoid the 2001–2004 era as the foundational architecture for those years is still being structured.
+`date` overwrites by default; `range` skips existing dates by default. These
+commands acquire network data and are not parser-replay commands. GDELT is
+optional live enrichment. Never use a full refetch to repair historical
+extraction or add `--commit`/`--push` to provisional runs.
 
-To minimize the chances of two contributors picking the exact same day at the exact same time, we ask that you pick dates entirely at random.
+## Research and synthesis
 
-**Please adhere to the following workflow:**
+Start a research run with `llm_prompt.txt` and the exact daily date. Save the
+report under `reference/deep-research/<YYYY>/<MM>/`, then register it:
 
-1. **Pick a Random Date in the Middle:** Choose an existing, unexpanded `YYYY-MM-DD.yaml` Daily Snapshot completely at random from the middle of our available time period (e.g., anywhere between 2005 and 2025). Using a random number generator to pick a year and month is highly recommended!
-2. **Do Not Generate New Dates:** Please DO NOT backfill or create new YAML files for missing dates. The skeleton of the repository and daily file generation is handled via automated backend scripts. Only edit existing files.
-3. **Check for Duplication:** Before you start your LLM deep research, check the repository's open Pull Requests to ensure someone else hasn't already submitted an expansion for your randomly selected date.
-4. **Submit Your Expansion:**
-    * **Fork** this repository.
-    * Make your deep-context additions to the existing YAML file, ensuring you adhere to the project's strict YAML schema. 
-    * Submit a **Pull Request**. 
+```
+python reference/expansion/inputs.py 2026-01-16 --report reference/deep-research/2026/01/2026-01-16a.md
+python generate_prompts.py 2026-01-16
+```
 
-## Getting Started (for Local Use)
+Follow `reference/schema/AUTHORING_GUIDE.md`. Write synthesis under
+`expanded/`; never replace a seed with model prose. Corrections belong in
+durable guarded overlays, followed by regeneration and validation. Check
+original publishers for dates, facts, quotations and source disagreements.
+Size does not determine whether a file is complete or reviewed.
 
-You can browse the YAML files directly on GitHub. To use them programmatically in your own LLM pipelines or RAG applications, clone the repository:
+January 1-9 preserve published reviewed status; January 10-15 are draft.
+January 16-31 await research. A monthly summary should be generated only
+from completed daily inputs, with related developments deduplicated.
 
-```bash
-git clone [https://github.com/ianrastall/current-events-context.git](https://github.com/ianrastall/current-events-context.git)
+The archive is offered under the repository's license; cached Wikipedia
+source material retains its CC BY-SA attribution obligations.

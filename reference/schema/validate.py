@@ -14,6 +14,7 @@ Checks:
 Exit code is non-zero if any file fails.
 """
 import json
+import argparse
 import re
 import sys
 from pathlib import Path
@@ -30,23 +31,28 @@ def schema_errors(doc):
     try:
         from jsonschema import Draft202012Validator
     except ImportError:
-        return ["(skipped JSON Schema check: `pip install jsonschema` to enable)"]
+        return ["JSON Schema validation requires jsonschema; install requirements.txt"]
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     v = Draft202012Validator(schema)
     out = []
-    for e in sorted(v.iter_errors(doc), key=lambda e: list(e.path)):
+    for e in sorted(v.iter_errors(doc), key=lambda e: tuple(str(p) for p in e.path)):
         loc = "/".join(str(p) for p in e.path) or "(root)"
         out.append(f"{loc}: {e.message}")
     return out
 
 
 def cross_ref_errors(doc):
+    if not isinstance(doc, dict):
+        return ["Document must be an object"]
     errs = []
     date = doc.get("date", "")
     events = doc.get("events", []) or []
 
     expected = 1
     for e in events:
+        if not isinstance(e, dict):
+            errs.append("Event must be an object")
+            continue
         want = f"evt-{date}-{expected:03d}"
         if e.get("id") != want:
             errs.append(f"event #{expected}: id is {e.get('id')!r}, expected {want!r}")
@@ -65,6 +71,8 @@ def cross_ref_errors(doc):
                 errs.append(f"{where}: citation_ref {r} has no works_cited entry")
 
     for e in events:
+        if not isinstance(e, dict):
+            continue
         for kd in e.get("key_data", []) or []:
             check_refs(kd.get("citation_refs"), f"{e.get('id')} key_data[{kd.get('label')!r}]")
         for s in e.get("sources", {}).get("external", []) or []:
@@ -72,16 +80,43 @@ def cross_ref_errors(doc):
     return errs
 
 
-def validate(path):
-    doc = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
-    errs = schema_errors(doc) + cross_ref_errors(doc)
-    real = [e for e in errs if not e.startswith("(skipped")]
-    skipped = [e for e in errs if e.startswith("(skipped")]
-    for s in skipped:
-        print(f"  note: {s}")
-    if real:
-        print(f"FAIL  {path}  ({len(real)} issue(s))")
-        for e in real:
+def related_errors(doc, archive_root):
+    errors = []
+    loaded = {}
+    for event in doc.get("events", []):
+        for ref in event.get("related_events", []):
+            match = re.fullmatch(r"evt-(\d{4})-(\d{2})-(\d{2})-\d{3}", ref)
+            if not match:
+                errors.append(f"Invalid related event id: {ref}")
+                continue
+            year, month, day = match.groups()
+            date = f"{year}-{month}-{day}"
+            if date not in loaded:
+                p = Path(archive_root) / year / month / (date + ".yaml")
+                try:
+                    other = yaml.safe_load(p.read_text(encoding="utf-8"))
+                    loaded[date] = {e["id"] for e in other["events"]}
+                except (OSError, yaml.YAMLError, KeyError, TypeError):
+                    loaded[date] = set()
+            if ref not in loaded[date]:
+                errors.append(f"{event['id']}: unresolved related_events id {ref}")
+    return errors
+
+
+def validate(path, archive_root=None):
+    try:
+        doc = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
+        errors = schema_errors(doc)
+        # Cross-reference checks require schema-shaped data.
+        if not errors:
+            errors += cross_ref_errors(doc)
+            if archive_root is not None:
+                errors += related_errors(doc, archive_root)
+    except (OSError, yaml.YAMLError, TypeError, KeyError, AttributeError) as exc:
+        errors = [str(exc)]
+    if errors:
+        print(f"FAIL  {path}  ({len(errors)} issue(s))")
+        for e in errors:
             print(f"    - {e}")
         return False
     n = len(doc.get("events", []))
@@ -90,10 +125,11 @@ def validate(path):
 
 
 def main(argv):
-    if not argv:
-        sys.exit(__doc__)
-    # List, not generator: all() would stop at the first failing file.
-    ok = all([validate(p) for p in argv])
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--archive-root", type=Path)
+    parser.add_argument("paths", nargs="+", type=Path)
+    args = parser.parse_args(argv)
+    ok = all([validate(p, args.archive_root) for p in args.paths])
     sys.exit(0 if ok else 1)
 
 

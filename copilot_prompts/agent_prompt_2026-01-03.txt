@@ -1,108 +1,34 @@
-### SYSTEM INSTRUCTION: DATA TRANSFORMATION & REPOSITORY VALIDATOR
+Convert the supplied research report and exact daily Wikipedia source into
+schema-2.2 synthesis following reference/schema/AUTHORING_GUIDE.md and
+reference/schema/daily-events.schema.json. The canonical schema is appended
+to generated prompts. It is the authoritative contract; do not use schema 2.1.
 
-[cite_start]You are an expert data-transformation engine and validator for a repository of daily global news snapshots in YAML format[cite: 16, 38]. 
+Read both sources fully. Capture all events from the correct day. Preserve
+every unmatched portal event and distinguish topic headers from events.
+Check report dates and recurring stories against earlier expanded days.
+Exclude misdated reports with an explanation in a durable judgment input.
+Never infer a historical revision from a current page or another expansion.
 
-[cite_start]Your task is to take a provided Markdown research report (located between `RESEARCH_REPORT_START` and `RESEARCH_REPORT_END`) and translate it into a single, valid, highly accurate YAML document while ensuring it aligns with the existing repository context[cite: 38].
+Verify factual claims, quotations, actual publication dates and URLs against
+original sources. Record conflicting reports and unknown values explicitly.
+Do not invent facts, URLs, dates, entities or review status. Fresh synthesis
+uses status:draft, reviewed:false, mode:llm_deep_research_broad_snapshot.
+Keep reviewed inputs reviewed only when replaying an unchanged authored input.
 
-#### WORKFLOW & PRIORITY MATRIX
-1. [cite_start]**Data Translation:** Map the Markdown fields directly to their corresponding YAML keys according to the schema template[cite: 40]. [cite_start]Output ONLY valid YAML[cite: 39]. [cite_start]If you cannot write directly to the file system, output the corrected YAML in markdown blocks with the intended filename indicated[cite: 25].
-2. [cite_start]**Immediate Context Review:** Before finalizing the YAML, consult the most recent 1-2 existing Deep Context (`reviewed_draft`) files in the repository[cite: 20]. [cite_start]Use these ONLY to ensure cross-day continuity for ongoing events (e.g., consistent naming conventions, updated casualty figures, and proper `related_events` linking)[cite: 21]. [cite_start]Ignore older archive files unless a specific reference link requires verification[cite: 22, 23]. [cite_start]Do not modify older files unless absolutely necessary to fix a broken reference linking to the new file[cite: 26].
-3. [cite_start]**Factual Validation:** Verify that every claim mapped to `summary` and `what_happened` is supported by the `sources.external` list[cite: 27]. [cite_start]If a source is missing a URL or publication date, perform a strictly targeted web search to find the exact article[cite: 28]. [cite_start]Do not add new events[cite: 29].
+Write only to expanded/<YYYY>/<MM>/<DATE_ISO>.yaml. Ordinary date paths are
+extraction output. For an existing immutable authored snapshot, record any
+corrections in a guarded overlay rather than editing the snapshot or output.
+Register a new report explicitly using reference/expansion/inputs.py; neither
+suffix precedence nor file size selects a report. Preserve selected input
+identity, model identity when known, exclusions and review evidence outside
+generated output. Do not silently rerun old positional overlays on new input.
 
-#### STRICT FORMATTING & DATA RULES
-* [cite_start]**IDs:** Ensure every event gets a unique, sequential ID (e.g., "evt-DATE_ISO-001") and every source gets a unique ID within its event (e.g., "src-001"), with no gaps[cite: 30, 41, 42].
-* [cite_start]**Empty Fields:** Use `[]` only when list information is genuinely unavailable[cite: 34, 43]. [cite_start]Use `null` for unknown or missing scalar values[cite: 35, 43]. [cite_start]Do not invent data to fill empty fields[cite: 35, 43].
-* [cite_start]**Syntax:** Ensure headlines use sentence case[cite: 32, 44]. [cite_start]Ensure `tags` are lowercase and hyphenated[cite: 32, 44]. [cite_start]Confirm the final output parses correctly and contains all required schema fields[cite: 31]. 
-
-#### OUTPUT SUMMARY REPORT
-After processing and writing the YAML file, provide a brief conversational summary including:
-* [cite_start]The file(s) processed and their tier status[cite: 35].
-* [cite_start]Major categories of corrections made during the translation (e.g., fixed URLs, added missing dates, adjusted event IDs)[cite: 36].
-* [cite_start]Any unresolved issues (e.g., unverified sources, missing links)[cite: 37].
-* [cite_start]A specific note on which cross-day files were consulted (if any) and how they influenced the new file[cite: 37].
-
-#### YAML SCHEMA TEMPLATE:
-date: "DATE_ISO"
-source_page:
-  portal: null
-  language: "en"
-  wikipedia_revision_id: null
-
-dataset:
-  schema_version: "2.1"
-  compiler:
-    mode: "llm_deep_research_broad_snapshot_reviewed"
-    status: "reviewed_draft"
-    reviewed: true
-  scope:
-    seed_source: "Broad global news sweep"
-    enrichment_sources_expected: true
-
-events:
-  - id: "evt-DATE_ISO-001"
-    category: ""
-    subcategory: null
-    topics: []
-    importance: null
-    headline: ""
-    summary: >
-      ...
-    details:
-      what_happened: []
-      why_it_matters: []
-      uncertainty_notes: []
-    actors:
-      primary: []
-      secondary: []
-    entities:
-      people: []
-      organizations: []
-      states: []
-    geography:
-      countries: []
-      places: []
-      coordinates: []
-    time:
-      date: "DATE_ISO"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type: []
-      tags: []
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: ""
-          url: null
-          publication_date: null
-          source_type: ""
-          reliability_tier: ""
-          supports: []
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
+Run reference/schema/validate.py with jsonschema installed, including the
+expanded archive for related-event checks. Schema success does not establish
+factual correctness. Report unresolved issues and checks actually performed.
 
 INPUTS:
 DATE_ISO = 2026-01-03
-
 RESEARCH_REPORT_START
 # Global News Sweep for 2026-01-03
 
@@ -350,6 +276,436 @@ RESEARCH_REPORT_START
   - **Reuters**, `https://www.reuters.com/world/us/fire-engulfs-denver-apartment-building-under-construction-causing-power-outages-2026-01-03/`, January 3, 2026 — Supports: (1) fire location and context (under-construction apartment); (2) power outages. Quote: “causing power outages.” citeturn12search1
 RESEARCH_REPORT_END
 
+TARGET OUTPUT FILE: D:\dev\proj\current-events-context\expanded\2026\01\2026-01-03.yaml
+SELECTED INPUT: reference/deep-research/2026/01/2026-01-03a.md
 
-*** TARGET OUTPUT FILE ***
-Please save the generated YAML to: D:\GitHub\current-events-context\2026\01\2026-01-03.yaml
+CANONICAL SCHEMA 2.2:
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/current-events-context/reference/schema/daily-events.schema.json",
+  "title": "Daily Events Dataset",
+  "description": "Schema 2.2 for an expanded daily current-events YAML file (e.g. 2026/01/2026-01-02.yaml), produced by enriching the Wikipedia Current Events portal bullets with a deep-research markdown report.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "date",
+    "source_page",
+    "dataset",
+    "editorial_policy",
+    "analytical_overview",
+    "events",
+    "strategic_conclusion",
+    "works_cited"
+  ],
+  "properties": {
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "ISO date of the day this file covers."
+    },
+    "source_page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["portal", "language", "wikipedia_revision_id"],
+      "properties": {
+        "portal": { "type": "string", "description": "e.g. 'Portal:Current events/2026 January 2'." },
+        "language": { "type": "string", "default": "en" },
+        "wikipedia_revision_id": { "type": ["integer", "null"] }
+      }
+    },
+    "dataset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "compiler", "scope"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "2.2" },
+        "compiler": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "status", "reviewed"],
+          "description": "status, reviewed, and the mode suffix all encode review state and must stay consistent (enforced by the allOf rules below): a 'draft' file is reviewed:false with mode '...snapshot'; a 'reviewed' file is reviewed:true with mode '...snapshot_reviewed'.",
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": [
+                "llm_deep_research_broad_snapshot",
+                "llm_deep_research_broad_snapshot_reviewed"
+              ]
+            },
+            "status": { "type": "string", "enum": ["draft", "reviewed"] },
+            "reviewed": { "type": "boolean" }
+          },
+          "allOf": [
+            {
+              "if": { "required": ["status"], "properties": { "status": { "const": "reviewed" } } },
+              "then": {
+                "properties": {
+                  "reviewed": { "const": true },
+                  "mode": { "const": "llm_deep_research_broad_snapshot_reviewed" }
+                }
+              }
+            },
+            {
+              "if": { "required": ["status"], "properties": { "status": { "const": "draft" } } },
+              "then": {
+                "properties": {
+                  "reviewed": { "const": false },
+                  "mode": { "const": "llm_deep_research_broad_snapshot" }
+                }
+              }
+            }
+          ]
+        },
+        "scope": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["seed_source", "enrichment_sources_expected"],
+          "properties": {
+            "seed_source": { "type": "string" },
+            "enrichment_sources_expected": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "editorial_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary_style", "allow_inference", "require_source_support"],
+      "properties": {
+        "summary_style": { "type": "string" },
+        "allow_inference": { "type": "boolean" },
+        "require_source_support": { "type": "boolean" }
+      }
+    },
+    "analytical_overview": {
+      "type": "string",
+      "description": "1-2 paragraph synthesis of the day, grounded in the events below."
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/event" }
+    },
+    "strategic_conclusion": {
+      "type": "string",
+      "description": "Closing synthesis: cross-cutting themes and outlook, grounded in the events."
+    },
+    "works_cited": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/work" },
+      "description": "Numbered bibliography. Every citation_refs integer used anywhere must resolve to a work id here."
+    }
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "subcategory",
+        "topics",
+        "importance",
+        "headline",
+        "summary",
+        "key_data",
+        "details",
+        "actors",
+        "entities",
+        "geography",
+        "time",
+        "casualty_report",
+        "classification",
+        "sources",
+        "provenance",
+        "confidence",
+        "related_events",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^evt-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{3}$",
+          "description": "evt-YYYY-MM-DD-NNN, NNN zero-padded, sequential from 001."
+        },
+        "category": {
+          "type": "string",
+          "description": "Top-level Wikipedia portal category. Common values: 'Armed conflicts and attacks', 'Business and economy', 'Disasters and accidents', 'Environment and climate', 'Law and crime', 'Politics and elections'. Open vocabulary — new values allowed."
+        },
+        "subcategory": { "type": "string" },
+        "topics": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Short topic tags / linked-article titles."
+        },
+        "importance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Editorial significance, 1 (minor) to 10 (historic)."
+        },
+        "headline": { "type": "string" },
+        "summary": { "type": "string", "description": "Folded scalar (>) prose summary." },
+        "key_data": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "value", "citation_refs"],
+            "properties": {
+              "label": { "type": "string" },
+              "value": { "type": "string" },
+              "citation_refs": { "$ref": "#/$defs/citation_refs" }
+            }
+          }
+        },
+        "details": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["what_happened", "why_it_matters", "uncertainty_notes"],
+          "properties": {
+            "what_happened": { "type": "array", "items": { "type": "string" } },
+            "why_it_matters": { "type": "array", "items": { "type": "string" } },
+            "uncertainty_notes": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Record disputed figures / conflicting reports here. Pair with source-level 'contradicts'."
+            }
+          }
+        },
+        "actors": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": { "type": "array", "items": { "type": "string" } },
+            "secondary": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "entities": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["people", "organizations", "states"],
+          "properties": {
+            "people": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["name", "role"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "role": { "type": "string" }
+                }
+              }
+            },
+            "organizations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["name", "description"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "description": { "type": "string" }
+                }
+              }
+            },
+            "states": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "geography": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["countries", "places", "coordinates"],
+          "properties": {
+            "countries": { "type": "array", "items": { "type": "string" } },
+            "places": { "type": "array", "items": { "type": "string" } },
+            "coordinates": {
+              "type": "array",
+              "description": "Usually empty []. If present, items are {lat, lon} pairs.",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["lat", "lon"],
+                "properties": {
+                  "lat": { "type": "number" },
+                  "lon": { "type": "number" }
+                }
+              }
+            }
+          }
+        },
+        "time": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["date", "time_known", "ongoing"],
+          "properties": {
+            "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+            "time_known": { "type": "boolean" },
+            "time_detail": {
+              "type": "string",
+              "description": "Only present when time_known is true."
+            },
+            "ongoing": { "type": "boolean" }
+          },
+          "if": { "properties": { "time_known": { "const": true } } },
+          "then": { "required": ["time_detail"] }
+        },
+        "casualty_report": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["killed", "injured", "displaced", "missing", "arrest_count", "damage"],
+          "properties": {
+            "killed": { "type": ["integer", "null"], "minimum": 0 },
+            "injured": { "type": ["integer", "null"], "minimum": 0 },
+            "displaced": { "type": ["integer", "null"], "minimum": 0 },
+            "missing": { "type": ["integer", "null"], "minimum": 0 },
+            "arrest_count": { "type": ["integer", "null"], "minimum": 0 },
+            "damage": { "type": ["string", "null"] }
+          }
+        },
+        "classification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["event_type", "tags"],
+          "properties": {
+            "event_type": { "type": "array", "items": { "type": "string" }, "description": "kebab-case type slugs." },
+            "tags": { "type": "array", "items": { "type": "string" }, "description": "kebab-case free tags." }
+          }
+        },
+        "sources": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["wikipedia_portal", "external"],
+          "properties": {
+            "wikipedia_portal": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["included", "text_fragment"],
+              "properties": {
+                "included": {
+                  "type": "boolean",
+                  "description": "true if this event maps to a portal bullet; false for markdown-only events."
+                },
+                "text_fragment": {
+                  "type": ["string", "null"],
+                  "description": "The verbatim portal bullet text when included is true; null otherwise."
+                }
+              },
+              "if": { "properties": { "included": { "const": true } } },
+              "then": { "properties": { "text_fragment": { "type": "string" } } }
+            },
+            "external": {
+              "type": "array",
+              "description": "May be [] for portal-only events that were not enriched.",
+              "items": { "$ref": "#/$defs/external_source" }
+            }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["extracted_from_portal_bullet", "enriched_manually", "last_reviewed_by"],
+          "properties": {
+            "extracted_from_portal_bullet": { "type": "boolean" },
+            "enriched_manually": { "type": "boolean" },
+            "last_reviewed_by": { "type": ["string", "null"] }
+          }
+        },
+        "confidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["event_existence", "detail_accuracy", "actor_identification"],
+          "properties": {
+            "event_existence": { "$ref": "#/$defs/confidence_level" },
+            "detail_accuracy": { "$ref": "#/$defs/confidence_level" },
+            "actor_identification": { "$ref": "#/$defs/confidence_level" }
+          }
+        },
+        "related_events": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^evt-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{3}$"
+          },
+          "description": "Cross-references to other event ids (same or other day files)."
+        },
+        "notes": { "type": "string", "description": "Free text; \"\" if none." }
+      }
+    },
+    "external_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "outlet",
+        "url",
+        "publication_date",
+        "source_type",
+        "reliability_tier",
+        "supports",
+        "contradicts",
+        "quoted_material",
+        "citation_refs"
+      ],
+      "properties": {
+        "id": { "type": "string", "description": "Local id, e.g. src-001-a." },
+        "outlet": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "publication_date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "news_report",
+            "official_release",
+            "encyclopedia",
+            "broadcast",
+            "ngo_report",
+            "advocacy_organization",
+            "specialist_publication",
+            "trade_publication"
+          ]
+        },
+        "reliability_tier": { "type": "string", "enum": ["high", "medium", "low"] },
+        "supports": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["summary", "key_data", "casualty_report", "details.what_happened", "details.why_it_matters"]
+          }
+        },
+        "contradicts": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["summary", "key_data", "casualty_report", "details.what_happened", "details.why_it_matters"]
+          },
+          "description": "Fields this source disputes — used for conflicting casualty figures."
+        },
+        "quoted_material": { "type": "array", "items": { "type": "string" } },
+        "citation_refs": { "$ref": "#/$defs/citation_refs" }
+      }
+    },
+    "work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "outlet", "url", "accessed"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string" },
+        "outlet": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "accessed": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+      }
+    },
+    "citation_refs": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "description": "Integers referencing works_cited[].id."
+    },
+    "confidence_level": { "type": "string", "enum": ["high", "medium", "low"] }
+  }
+}
+

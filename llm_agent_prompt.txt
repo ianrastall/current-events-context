@@ -1,108 +1,34 @@
-### SYSTEM INSTRUCTION: DATA TRANSFORMATION & REPOSITORY VALIDATOR
+Convert the supplied research report and exact daily Wikipedia source into
+schema-2.2 synthesis following reference/schema/AUTHORING_GUIDE.md and
+reference/schema/daily-events.schema.json. The canonical schema is appended
+to generated prompts. It is the authoritative contract; do not use schema 2.1.
 
-[cite_start]You are an expert data-transformation engine and validator for a repository of daily global news snapshots in YAML format[cite: 16, 38]. 
+Read both sources fully. Capture all events from the correct day. Preserve
+every unmatched portal event and distinguish topic headers from events.
+Check report dates and recurring stories against earlier expanded days.
+Exclude misdated reports with an explanation in a durable judgment input.
+Never infer a historical revision from a current page or another expansion.
 
-[cite_start]Your task is to take a provided Markdown research report (located between `RESEARCH_REPORT_START` and `RESEARCH_REPORT_END`) and translate it into a single, valid, highly accurate YAML document while ensuring it aligns with the existing repository context[cite: 38].
+Verify factual claims, quotations, actual publication dates and URLs against
+original sources. Record conflicting reports and unknown values explicitly.
+Do not invent facts, URLs, dates, entities or review status. Fresh synthesis
+uses status:draft, reviewed:false, mode:llm_deep_research_broad_snapshot.
+Keep reviewed inputs reviewed only when replaying an unchanged authored input.
 
-#### WORKFLOW & PRIORITY MATRIX
-1. [cite_start]**Data Translation:** Map the Markdown fields directly to their corresponding YAML keys according to the schema template[cite: 40]. [cite_start]Output ONLY valid YAML[cite: 39]. [cite_start]If you cannot write directly to the file system, output the corrected YAML in markdown blocks with the intended filename indicated[cite: 25].
-2. [cite_start]**Immediate Context Review:** Before finalizing the YAML, consult the most recent 1-2 existing Deep Context (`reviewed_draft`) files in the repository[cite: 20]. [cite_start]Use these ONLY to ensure cross-day continuity for ongoing events (e.g., consistent naming conventions, updated casualty figures, and proper `related_events` linking)[cite: 21]. [cite_start]Ignore older archive files unless a specific reference link requires verification[cite: 22, 23]. [cite_start]Do not modify older files unless absolutely necessary to fix a broken reference linking to the new file[cite: 26].
-3. [cite_start]**Factual Validation:** Verify that every claim mapped to `summary` and `what_happened` is supported by the `sources.external` list[cite: 27]. [cite_start]If a source is missing a URL or publication date, perform a strictly targeted web search to find the exact article[cite: 28]. [cite_start]Do not add new events[cite: 29].
+Write only to expanded/<YYYY>/<MM>/<DATE_ISO>.yaml. Ordinary date paths are
+extraction output. For an existing immutable authored snapshot, record any
+corrections in a guarded overlay rather than editing the snapshot or output.
+Register a new report explicitly using reference/expansion/inputs.py; neither
+suffix precedence nor file size selects a report. Preserve selected input
+identity, model identity when known, exclusions and review evidence outside
+generated output. Do not silently rerun old positional overlays on new input.
 
-#### STRICT FORMATTING & DATA RULES
-* [cite_start]**IDs:** Ensure every event gets a unique, sequential ID (e.g., "evt-DATE_ISO-001") and every source gets a unique ID within its event (e.g., "src-001"), with no gaps[cite: 30, 41, 42].
-* [cite_start]**Empty Fields:** Use `[]` only when list information is genuinely unavailable[cite: 34, 43]. [cite_start]Use `null` for unknown or missing scalar values[cite: 35, 43]. [cite_start]Do not invent data to fill empty fields[cite: 35, 43].
-* [cite_start]**Syntax:** Ensure headlines use sentence case[cite: 32, 44]. [cite_start]Ensure `tags` are lowercase and hyphenated[cite: 32, 44]. [cite_start]Confirm the final output parses correctly and contains all required schema fields[cite: 31]. 
-
-#### OUTPUT SUMMARY REPORT
-After processing and writing the YAML file, provide a brief conversational summary including:
-* [cite_start]The file(s) processed and their tier status[cite: 35].
-* [cite_start]Major categories of corrections made during the translation (e.g., fixed URLs, added missing dates, adjusted event IDs)[cite: 36].
-* [cite_start]Any unresolved issues (e.g., unverified sources, missing links)[cite: 37].
-* [cite_start]A specific note on which cross-day files were consulted (if any) and how they influenced the new file[cite: 37].
-
-#### YAML SCHEMA TEMPLATE:
-date: "DATE_ISO"
-source_page:
-  portal: null
-  language: "en"
-  wikipedia_revision_id: null
-
-dataset:
-  schema_version: "2.1"
-  compiler:
-    mode: "llm_deep_research_broad_snapshot_reviewed"
-    status: "reviewed_draft"
-    reviewed: true
-  scope:
-    seed_source: "Broad global news sweep"
-    enrichment_sources_expected: true
-
-events:
-  - id: "evt-DATE_ISO-001"
-    category: ""
-    subcategory: null
-    topics: []
-    importance: null
-    headline: ""
-    summary: >
-      ...
-    details:
-      what_happened: []
-      why_it_matters: []
-      uncertainty_notes: []
-    actors:
-      primary: []
-      secondary: []
-    entities:
-      people: []
-      organizations: []
-      states: []
-    geography:
-      countries: []
-      places: []
-      coordinates: []
-    time:
-      date: "DATE_ISO"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type: []
-      tags: []
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: ""
-          url: null
-          publication_date: null
-          source_type: ""
-          reliability_tier: ""
-          supports: []
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
+Run reference/schema/validate.py with jsonschema installed, including the
+expanded archive for related-event checks. Schema success does not establish
+factual correctness. Report unresolved issues and checks actually performed.
 
 INPUTS:
 DATE_ISO = [insert date]
-
 RESEARCH_REPORT_START
 [Insert Markdown Report Here]
 RESEARCH_REPORT_END

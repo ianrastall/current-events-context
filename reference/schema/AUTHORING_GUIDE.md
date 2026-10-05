@@ -8,6 +8,14 @@ deep-research markdown report. The machine-checkable shape lives in
 
 ## Inputs and outputs
 
+The authoritative input selection is `reference/expansion/inputs.json`.
+Replacement `b.md` reports are explicitly selected for January 10-12.
+Never use filename precedence or a size threshold to choose a source.
+January 1-15 replay immutable authored snapshots imported from GitHub;
+the older positional overlays do not apply to those inputs. Preserve review
+state only for an unchanged replay; new or corrected synthesis is draft until
+its factual review is recorded.
+
 | | Path |
 |---|---|
 | Deep-research markdown (source) | `reference/deep-research/<YYYY>/<MM>/<YYYY-MM-DD>a.md` |
@@ -120,3 +128,7 @@ python reference/schema/validate.py expanded/2026/01/2026-01-02.yaml
 The validator checks the file against the JSON Schema **and** the cross-references
 the schema can't express (sequential event ids, every `citation_refs` resolving to
 a `works_cited` id). Fix all errors before considering a day done.
+
+Install `requirements.txt` first; missing `jsonschema` is an error, never a
+successful partial check. To check cross-day links, also pass
+`--archive-root expanded`. Batch validation reports every supplied file.

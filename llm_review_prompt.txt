@@ -1,95 +1,22 @@
-You are a strict data-transformation engine. Your only job is to take the provided Markdown research report (RESEARCH_REPORT_START to RESEARCH_REPORT_END) and translate it into a single, valid YAML document according to the schema provided below.
+Review a schema-2.2 synthesis file under expanded/ using the canonical schema
+at reference/schema/daily-events.schema.json and the authoring guide beside it.
+Read the registered source report, pinned portal input when available, and
+relevant preceding expanded days. Never overwrite ordinary daily seed paths.
 
-INSTRUCTIONS:
-1. Output ONLY valid YAML. Do not include markdown formatting like ```yaml. Do not include introductory or concluding conversational text.
-2. Map the Markdown fields directly to their corresponding YAML keys. 
-3. Ensure every event gets a unique, sequential ID (e.g., "evt-DATE_ISO-001", "evt-DATE_ISO-002").
-4. Ensure every source gets a unique ID within its event (e.g., "src-001").
-5. Use `[]` for empty lists and `null` for missing scalar values. Do not invent data to fill empty fields.
-6. Ensure headlines use sentence case and `tags` are lowercase and hyphenated.
+Check the event's date against original publishers, distinguish publication
+from occurrence dates, and separate cumulative figures from new daily totals.
+Verify quotations exactly and follow every citation to its original source.
+Preserve uncertainty and disagreement. Treat the report as model output,
+not proof that its claims or sources are correct. Check unmatched portal
+coverage and links to earlier developments; avoid duplicating casualties.
 
-YAML SCHEMA TEMPLATE:
-date: "DATE_ISO"
-source_page:
-  portal: null
-  language: "en"
-  wikipedia_revision_id: null
+Record corrections in a durable guarded overlay or a separately identified
+new authored source. Never edit immutable inputs or repair generated YAML
+by hand. Review status changes require documented review evidence and all
+three compiler fields must agree. A schema pass alone is not factual review.
 
-dataset:
-  schema_version: "2.1"
-  compiler:
-    mode: "llm_deep_research_broad_snapshot_reviewed"
-    status: "reviewed_draft"
-    reviewed: true
-  scope:
-    seed_source: "Broad global news sweep"
-    enrichment_sources_expected: true
+Validate with:
+python reference/schema/validate.py --archive-root expanded expanded/YYYY/MM/DATE_ISO.yaml
 
-events:
-  - id: "evt-DATE_ISO-001"
-    category: ""
-    subcategory: null
-    topics: []
-    importance: null
-    headline: ""
-    summary: >
-      ...
-    details:
-      what_happened: []
-      why_it_matters: []
-      uncertainty_notes: []
-    actors:
-      primary: []
-      secondary: []
-    entities:
-      people: []
-      organizations: []
-      states: []
-    geography:
-      countries: []
-      places: []
-      coordinates: []
-    time:
-      date: "DATE_ISO"
-      time_known: false
-      ongoing: null
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      arrest_count: null
-      damage: null
-    classification:
-      event_type: []
-      tags: []
-    sources:
-      wikipedia_portal:
-        included: false
-        text_fragment: null
-      external:
-        - id: "src-001"
-          outlet: ""
-          url: null
-          publication_date: null
-          source_type: ""
-          reliability_tier: ""
-          supports: []
-          contradicts: []
-          quoted_material_used: false
-    provenance:
-      extracted_from_portal_bullet: false
-      enriched_manually: true
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: ""
-
-INPUTS:
-DATE_ISO = [insert date]
-
-RESEARCH_REPORT_START
-[Insert Markdown Report Here]
-RESEARCH_REPORT_END
+Report findings, source access, changed inputs, rebuilt outputs, validation
+results and unresolved issues. Do not approve publication or push changes.
