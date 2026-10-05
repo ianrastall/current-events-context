@@ -92,7 +92,8 @@ def validate(path):
 def main(argv):
     if not argv:
         sys.exit(__doc__)
-    ok = all(validate(p) for p in argv)
+    # List, not generator: all() would stop at the first failing file.
+    ok = all([validate(p) for p in argv])
     sys.exit(0 if ok else 1)
 
 
