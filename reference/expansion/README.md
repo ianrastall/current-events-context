@@ -17,6 +17,23 @@ been checked across `PYTHONHASHSEED` values.
 
 ## Inputs
 
+`inputs.json` is the authoritative report selector. It names the exact report
+and checks its SHA-256 after CRLF/LF normalization; neither suffix ordering nor
+file size selects a report. January 1-15 replay the newer published authored
+snapshots with their review state unchanged. Historical positional overlays
+for those days are retained as evidence but do not apply to these snapshots.
+Changing a registered report requires an explicit, reviewed manifest change.
+
+Register a new day after saving its report:
+
+```
+python reference/expansion/inputs.py 2026-01-16 --report reference/deep-research/2026/01/2026-01-16a.md
+```
+
+Authored snapshots are immutable source inputs imported from a pinned Git
+commit. Building them preserves their exact bytes. They are synthesis inputs,
+not Wikipedia source caches. Their null revision IDs remain unknown.
+
 | Path | Content |
 |---|---|
 | `wikitext/<date>.wiki`, `.json` | Raw portal wikitext at the revision recorded in the seed file, with title, revision ID, revision timestamp and SHA-256. Fetched once on 2026-09-22 by revision ID. Wikipedia text is CC BY-SA 4.0. |

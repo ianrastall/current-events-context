@@ -20,6 +20,7 @@ HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 import wikiportal  # noqa: E402
 import entities  # noqa: E402
+import inputs  # noqa: E402
 
 REPO = HERE.resolve().parents[1]
 DR = REPO / "reference" / "deep-research"
@@ -976,12 +977,7 @@ def deep_merge(base, patch):
 
 
 def md_path_for(date):
-    y, m = date[:4], date[5:7]
-    for name in (f"{date}a.md", f"{date}.md"):
-        p = DR / y / m / name
-        if p.exists():
-            return p
-    return None
+    return inputs.resolve(inputs.selection(date)["report"])
 
 
 def git_added_date(path):
@@ -994,6 +990,16 @@ def git_added_date(path):
 
 
 def build(date, report_only=False):
+    selected = inputs.selection(date)
+    if selected["mode"] == "authored_snapshot":
+        if report_only:
+            print(f"{date}: replay authored snapshot from {selected['source_commit']} "
+                  f"with {selected['report']}; historical positional overlays are inactive")
+            return None
+        doc = yaml.safe_load(inputs.resolve(selected["snapshot"]).read_bytes())
+        if doc["date"] != date:
+            raise ValueError(f"Snapshot date mismatch: {date}")
+        return doc
     overlay_path = OVERLAYS / f"{date}.json"
     ov = json.loads(overlay_path.read_text(encoding="utf-8")) if overlay_path.exists() else {}
     meta, portal = wikiportal.parse(date)
@@ -1405,7 +1411,18 @@ def dump(doc):
 
 def write(date):
     doc = build(date)
-    text = dump(doc)
+    selected = inputs.selection(date)
+    if selected["mode"] == "authored_snapshot":
+        text = inputs.resolve(selected["snapshot"]).read_bytes().decode("utf-8")
+    else:
+        text = dump(doc)
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("expansion_validator", REPO / "reference/schema/validate.py")
+    validator = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(validator)
+    errors = validator.schema_errors(doc) + validator.cross_ref_errors(doc)
+    if errors:
+        raise ValueError(f"{date}: invalid synthesis: {errors}")
     back = yaml.safe_load(text)
     norm = json.loads(json.dumps(doc))
     for k in ("analytical_overview", "strategic_conclusion"):
