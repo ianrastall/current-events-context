@@ -16,6 +16,9 @@ these acquisition pointers are generated provenance rather than raw inputs.
 files. `--skip-unpinned` explicitly records legacy or missing dates without
 choosing current revisions for them. `acquisition-report.json` describes the
 initial bulk acquisition. Offline reparse never queries current pages or GDELT.
+`--capture-unpinned` is the explicit alternative: capture current revisions
+as new inputs, preserve the old daily files, and record the identities in
+`current-captures-report.json`. The original unpinned revision remains unknown.
 Never hand-edit cache data or metadata. Reacquire erroneous inputs through the
 acquisition path, keeping any prior identity intact.
 
