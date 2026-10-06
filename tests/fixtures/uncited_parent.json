@@ -47,7 +47,9 @@
         2
       ],
       "An attack occurs."
-    ]
+    ],
+    ["Politics", "topic", 1, [3], null, "Linked header"],
+    ["Politics", "event", 2, [3, 1], [3], "A cited child occurs."]
   ],
   "warnings": [
     "AMBIGUOUS_ROLE"

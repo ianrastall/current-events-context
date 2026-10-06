@@ -224,14 +224,18 @@ def extract(raw, *, date, source, overrides=None):
         category_depth = len(re.match(r"^\s*([*:]*)", current.get("raw", "")).group(1))
         if entry["depth"] > (parent["depth"] + 1 if parent else category_depth + 1):
             warn("DEPTH_JUMP", "Missing intermediate list depth; actual depth retained", category=current["name"], entry=entry)
-        label_remainder = re.sub(r"\[\[.*?\]\]", "", re.sub(r"^\s*[*:]+", "", entry["raw"]))
+        label_markup = re.sub(r"<!--.*?-->", "", entry["raw"], flags=re.S)
+        label_markup = re.sub(r"<ref\b[^>]*(?:/>|>.*?</ref\s*>)", "", label_markup, flags=re.S | re.I)
+        for citation in entry["citations"]:
+            label_markup = label_markup.replace(citation["raw"], "")
+        label_remainder = re.sub(r"\[\[.*?\]\]", "", re.sub(r"^\s*[*:]+", "", label_markup))
         label_remainder = re.sub(r"\b(?:and|in|of|during|at)\b", "", label_remainder)
-        pure_links = bool(entry["links"]) and not entry["citations"] and not re.sub(r"[\s,:;'\"()&/\-–—]", "", label_remainder)
+        pure_links = bool(entry["links"]) and not re.sub(r"[\s,:;'\"()&/\-–—]", "", label_remainder)
         if children and pure_links:
             entry["role"] = "topic"
-        elif entry["text"].endswith(":") and not entry["citations"]:
+        elif entry["text"].endswith(":"):
             entry["role"] = "topic"
-        elif pure_links:
+        elif pure_links and not entry["citations"]:
             warn("AMBIGUOUS_ROLE", "Childless link-only bullet may be a topic or an event; requires an override", category=current["name"], entry=entry)
         elif children and not entry["citations"]:
             warn("AMBIGUOUS_ROLE", "Uncited parent contains prose or unsupported label markup; child depth alone does not establish a topic role", category=current["name"], entry=entry)

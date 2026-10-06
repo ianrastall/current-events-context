@@ -38,6 +38,8 @@ Unmarked parents with prose or unsupported label markup retain an unknown
 role and a warning. Linked labels may include simple connective words and
 punctuation; explicit colon labels remain topics. Manual interpretation must
 use guarded overrides or tested general rules before public replacement.
+Comments and citation annotations do not change a visible linked label into
+prose or turn a topic header into an event; their raw content remains stored.
 
 Warnings include date, exact source identity, category, source path, raw
 fragment, code, interpretation and message. Overrides must guard the payload
