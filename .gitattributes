@@ -5,3 +5,6 @@
 reference/expansion/wikitext/*.wiki -text
 reference/expansion/authored/**/*.yaml -text
 reference/reconciliation/published-HANDOFF.md -text
+reference/sources/wikipedia/wikitext/*.wiki -text
+reference/sources/wikipedia/rendered_html/*.html -text
+reference/sources/wikipedia/** -text
