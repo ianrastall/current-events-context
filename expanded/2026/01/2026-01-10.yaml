@@ -512,8 +512,9 @@ events:
       attended by Syria's information and social affairs ministers and the provincial
       governor, a day after the transitional government declared a ceasefire with the
       Kurdish-led Syrian Democratic Forces. The Syrian government blamed the SDF, which
-      denied involvement. Despite the strike, a U.S.-brokered ceasefire held and the SDF
-      began withdrawing fighters from the Ashrafieh and Sheikh Maqsoud neighborhoods.
+      denied involvement. Later reporting described continued clashes on January 10 and
+      completion of the Kurdish withdrawal on January 11; those developments are
+      distinguished from this drone incident.
     key_data:
       - label: "Target"
         value: "Aleppo governorate building, during a ministerial conference"
@@ -522,13 +523,13 @@ events:
       what_happened:
         - "A drone struck the Aleppo governorate building while ministers and the provincial governor were meeting inside."
         - "The Syrian government accused the SDF of launching the drone; the SDF denied involvement."
-        - "Despite the strike, the SDF agreed, through international mediation, to withdraw its fighters from Ashrafieh and Sheikh Maqsoud."
-        - "SDF commander Mazloum Abdi said the withdrawal reflected an understanding reached through international mediation."
+        - "January 11 reporting described the eventual evacuation agreement and completion of the withdrawal; it also reported continued combat and disputed evacuations on January 10."
       why_it_matters:
-        - "The strike threatened the newly declared ceasefire but did not derail it, and the SDF's withdrawal shifted administrative control of Aleppo back to the transitional government."
+        - "The incident threatened an already contested ceasefire. Later withdrawal reporting does not establish that the ceasefire held uninterrupted on January 10."
       uncertainty_notes:
         - "Yemen Press Agency, a Houthi-aligned outlet, reported the drone as belonging to the SDF as an established fact; this report treats that as an accusation rather than a confirmed fact, consistent with Al Jazeera's more cautious framing that the SDF denied involvement."
         - "The deep-research report cited cumulative Aleppo casualty and displacement figures (24 killed, 104 injured, 155,000 displaced 'since Tuesday') attributed to the Aleppo health office, but none of the three cited sources directly quotes these figures, so they are not recorded in casualty_report. The withdrawal itself, completed on January 11, is recorded separately with its own sourced figures."
+        - "The later Reuters report has a January 10 dateline but explicitly places the final withdrawal on Sunday, January 11. Do not assign the final departure or an uninterrupted ceasefire to January 10."
     actors:
       primary:
         - "Unknown drone operator"
@@ -629,7 +630,7 @@ events:
     related_events:
       - "evt-2026-01-08-007"
       - "evt-2026-01-09-005"
-    notes: "The portal cited Al Jazeera for the drone strike itself."
+    notes: "The portal cites the drone incident. January 11 follow-up reporting is retained as dated context, rather than a January 10 completed withdrawal."
   - id: "evt-2026-01-10-006"
     category: "Armed conflicts and attacks"
     subcategory: "Airstrikes"
@@ -1636,17 +1637,17 @@ events:
 
 strategic_conclusion: >
   January 10 tied the Venezuela intervention more tightly to oil markets while Iran's
-  crackdown escalated to explicit death-penalty threats. Trump's executive order and his
-  pitch to energy executives showed Washington moving from military action to managing
-  Venezuela's economy directly, even as corporate wariness (ExxonMobil's "uninvestable"
-  verdict) exposed limits to that plan. Iran's attorney general invoking a capital charge
-  against protesters and helpers, alongside the Artesh's unusual public role and a 60-hour
-  internet blackout, marked a harder turn in the crackdown than the days before it. A drone
-  strike on Aleppo's governorate building tested but did not break a day-old ceasefire, and
-  U.S. airstrikes hit Islamic State targets under Operation Hawkeye Strike. Indonesia's
-  block of Grok set an early precedent against AI-generated sexual deepfakes, and
-  Macclesfield's FA Cup upset of Crystal Palace was, by most measures, without precedent of
-  its own. Egypt's confirmed supermajority, Honduras's military-backed transfer of power,
+  crackdown escalated to explicit death-penalty threats. Trump's January 9 executive order
+  and his January 9 pitch to energy executives showed Washington moving from military action
+  to managing Venezuela's economy directly, even as corporate wariness (ExxonMobil's
+  "uninvestable" verdict) exposed limits to that plan. Iran's attorney general invoking a
+  capital charge against protesters and helpers, alongside the Artesh's unusual public role
+  and a 60-hour internet blackout, marked a harder turn in the crackdown than the days
+  before it. A drone strike on Aleppo's governorate building occurred amid a contested
+  ceasefire, and U.S. airstrikes hit Islamic State targets under Operation Hawkeye Strike.
+  Indonesia's block of Grok set an early precedent against AI-generated sexual deepfakes,
+  and Macclesfield's FA Cup upset of Crystal Palace was, by most measures, without precedent
+  of its own. Egypt's confirmed supermajority, Honduras's military-backed transfer of power,
   Nicaragua's prisoner releases, and Brazil's embassy handback in Caracas rounded out a day
   otherwise dominated by Venezuela and Iran. Three items reported elsewhere as "January 10"
   events — a Kyiv/Lviv missile strike, a Nguru boat capsizing, and an Uganda broadcast ban —
