@@ -20,8 +20,8 @@ The following facts are confirmed by the supplied `seed` code. Inspect the repos
 | Primary language | Python |
 | Collection package | `seed` |
 | Documented CLI | `python -m seed` |
-| CLI commands | `date`, `plan`, `range` |
-| Wikipedia collector/parser | `seed.wikipedia` |
+| CLI commands | `date`, `plan`, `range`, `cache`, `reparse` |
+| Wikipedia collector/parser | `seed.wikipedia` acquisition; `seed.extract` / `seed.rendered` extraction |
 | GDELT collector | `seed.gdelt` |
 | Seed document builder/writer | `seed.merge` |
 | Rate-limit handling | `seed.ratelimit` |
@@ -31,10 +31,10 @@ The following facts are confirmed by the supplied `seed` code. Inspect the repos
 | Current Wikipedia result shape | `dict[str, list[str]]` categories/events |
 | Current seed content | Wikipedia block plus optional GDELT block |
 | Current Wikipedia fetch | MediaWiki API by page title; returns the revision current at fetch time |
-| Persistent raw-source cache in supplied code | None |
-| Existing cache in supplied code | In-memory monthly fallback cache only; not persistent |
+| Persistent raw-source cache | Immutable payload/metadata pairs under `reference/sources/wikipedia/`, verified by hash |
+| Existing expansion source cache | `reference/expansion/wikitext/`; imported without changing raw bytes |
 | Pre-2004 fallback | Rendered monthly-page HTML; `wikipedia_revision_id` is currently `null` |
-| Python libraries visibly required | `requests`, `mwparserfromhell`, `PyYAML` |
+| Python libraries visibly required | `requests`, `mwparserfromhell`, `PyYAML`, `jsonschema`; direct versions in `requirements.txt` |
 | External executable visibly required | `git` for `--commit` / `--push` workflows |
 
 The supplied code references `daily-events.schema.json` and a "schema-2.2 rework" stage. That schema and any broader repository plan must be inspected before changing the output contract.
@@ -322,13 +322,17 @@ The following additional facts were checked by repository inspection on
   Its output is `expanded/<YYYY>/<MM>/<YYYY-MM-DD>.yaml`.
 - The expansion tool has its own pinned wikitext inputs under
   `reference/expansion/wikitext/`, with revision metadata and payload hashes.
-  This does not provide source replay for the `seed` acquisition pipeline.
+  The source cache in `seed.source` also imports these inputs. `cache` acquires
+  explicit recorded oldids; `reparse` consumes cached inputs without acquisition.
+  `reference/schema/extraction.schema.json` defines the separate candidate
+  extraction contract. Candidates never replace canonical daily paths.
 - `reference/schema/AUTHORING_GUIDE.md` and `expanded/README.md` describe the
   local synthesis workflow. A generator run must use the correct research
   input explicitly; filename suffixes alone are not a reliable selection rule.
-- The repository is operated directly from Python source. No packaging
-  metadata, dependency lock/requirements file, test suite, or lint/format
-  configuration was found in the inspected local tree. Do not claim those
-  checks ran; record any ad hoc verification in the handoff.
+- The repository is operated directly from Python source. `requirements.txt`
+  pins direct dependencies; `tests/` uses unittest and checked-in golden
+  fixtures. `.github/workflows/verify.yaml` runs offline tests and synthesis
+  validation. No packaging metadata or lint/format configuration is present.
+  Record checks actually executed in the handoff.
 - No monthly-summary generator was found. Summary generation remains a
   separate synthesis task.

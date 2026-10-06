@@ -1,0 +1,2667 @@
+date: "2026-03-11"
+source_page:
+  portal: "Portal:Current events/2026 March 11"
+  language: "en"
+  wikipedia_revision_id: 1367199351
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 11 (revision 1367199351; seed 2026/03/2026-03-11.yaml) + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: ""
+
+events:
+  - id: "evt-2026-03-11-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border attack"
+    topics:
+      - "Middle East war"
+      - "Shipping disruption"
+      - "Energy infrastructure"
+      - "Middle Eastern crisis"
+      - "Cross-border attack"
+      - "Iran"
+      - "Iraq"
+    importance: 10
+    headline: "Iranian attacks hit Gulf transport and energy infrastructure as shipping disruption deepens"
+    summary: >
+      Iran's campaign against Gulf transport and energy infrastructure escalated on March
+      11, with attacks reported near Dubai International Airport, Basra port, Khor
+      Al-Zubair, and Oman's Port of Salalah while maritime traffic through and around the
+      Strait of Hormuz remained badly disrupted. Associated Press reported that an attack on
+      Iraq's Basra port killed at least one person and halted operations at Iraq's oil
+      terminals, while two Iranian drones wounded four people near Dubai airport. Reuters
+      separately reported strikes on shipping and port facilities, the use of naval drones
+      against tankers, and intelligence indicating Iran had laid about a dozen mines in the
+      strait, underscoring a deliberate effort to threaten commercial navigation and energy
+      flows across the Gulf.
+    key_data: []
+    details:
+      what_happened:
+        - "An attack at Iraq's Basra port killed at least one person and forced a halt to operations at the country's oil terminals, according to AP and Iraqi port officials."
+        - "AP reported that two Iranian drones struck near Dubai International Airport, wounding four people, while Reuters and Omani authorities reported a major fire at fuel tanks in Salalah after drone strikes."
+        - "Reuters reported attacks on commercial vessels and said maritime security firms assessed that naval drones had been used against tankers and other ships in Gulf waters."
+        - "Reuters also reported that Iran had deployed roughly a dozen mines in the Strait of Hormuz, complicating any reopening of the waterway."
+        - "Maersk said fuel flows and shipping operations were being disrupted, with vessels stranded in the Gulf and operations at Salalah paused."
+      why_it_matters:
+        - "The attacks extended the war's impact beyond direct military targets and into civilian transport, ports, merchant shipping, and global energy logistics."
+        - "Disruption in and around the Strait of Hormuz threatened a major share of globally traded oil and gas, amplifying market volatility and policy responses."
+      uncertainty_notes:
+        - "Reuters said Iran was suspected in some ship attacks, but responsibility for every individual maritime incident was not independently verified."
+    actors:
+      primary:
+        - "Iran"
+      secondary:
+        - "Iraqi port authorities"
+        - "Maersk"
+        - "United States military"
+    entities:
+      people: []
+      organizations:
+        - name: "General Company for Ports of Iraq"
+          description: ""
+        - name: "Maersk"
+          description: ""
+      states:
+        - "Iran"
+        - "Iraq"
+        - "Oman"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "Iran"
+        - "Iraq"
+        - "Oman"
+        - "United Arab Emirates"
+      places:
+        - "Strait of Hormuz"
+        - "Basra"
+        - "Khor Al-Zubair"
+        - "Port of Salalah"
+        - "Dubai International Airport"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 1
+      injured: 4
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Port fires, halted operations at Iraqi oil terminals, vessel damage, and continued disruption of Gulf shipping."
+    classification:
+      event_type:
+        - "maritime-attack"
+        - "infrastructure-attack"
+        - "geopolitical-conflict"
+      tags:
+        - "strait-of-hormuz"
+        - "gulf-shipping"
+        - "oil-markets"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Four people are injured in the United Arab Emirates after two drones fall near Dubai International Airport."
+      external:
+        - id: "src-001-a"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/sea-drones-target-oil-tankers-middle-east-conflict-risks-widen-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+        - id: "src-001-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/iran-has-laid-about-dozen-mines-strait-hormuz-sources-say-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: "src-001-d"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/oil-storage-facilities-hit-omans-salalah-port-ambrey-state-tv-say-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+        - id: "src-001-e"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/maersk-redistributing-ship-fuel-ensure-supplies-iran-war-disrupts-supply-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-11-018"
+      - "evt-2026-03-11-019"
+    notes: ""
+  - id: "evt-2026-03-11-002"
+    category: "International relations"
+    subcategory: "United Nations"
+    topics:
+      - "United Nations"
+      - "Middle East diplomacy"
+      - "Regional security"
+      - "Reactions to the 2026 Iran war"
+      - "United States"
+      - "Iran"
+    importance: 9
+    headline: "UN Security Council adopts Resolution 2817 condemning Iran's attacks on Gulf neighbors"
+    summary: >
+      The United Nations Security Council adopted Resolution 2817 on March 11, condemning
+      Iran's "egregious attacks" on its regional neighbors and demanding that those attacks
+      stop. The Bahrain-backed measure passed 13-0, with Russia and China abstaining,
+      reflecting unusually broad backing inside the Council despite disagreement over how
+      the wider war began. UN coverage and AP reporting both described the resolution as a
+      direct response to Iranian strikes on Gulf states and Jordan, while Iranian and
+      Russian representatives argued the text was unbalanced because it did not address the
+      U.S.-Israeli strikes that triggered the broader conflict. The vote marked one of the
+      clearest multilateral diplomatic responses of the day to the spreading Gulf crisis.
+    key_data: []
+    details:
+      what_happened:
+        - "The Security Council adopted Resolution 2817 on March 11, condemning Iran's attacks against regional neighbors."
+        - "The resolution passed with 13 votes in favor and abstentions from Russia and China."
+        - "UN coverage described the measure as Bahrain-led and focused on Iranian attacks on Gulf states and Jordan."
+        - "AP reported the resolution demanded a halt to Iran's attacks on its Gulf neighbors as the war widened."
+      why_it_matters:
+        - "The vote signaled broad international alarm over the spread of the conflict into Gulf states critical to global trade and energy supply."
+        - "It also highlighted the diplomatic isolation facing Iran on this specific issue, even as major powers remained divided over the wider war."
+      uncertainty_notes:
+        - "Russia and China said the resolution did not adequately address the strikes on Iran that preceded the Gulf attacks."
+    actors:
+      primary:
+        - "United Nations Security Council"
+      secondary:
+        - "Bahrain"
+        - "Iran"
+        - "Russia"
+        - "China"
+    entities:
+      people:
+        - name: "Amir Saeid Iravani"
+          role: ""
+        - name: "Vassily Nebenzia"
+          role: ""
+      organizations:
+        - name: "United Nations Security Council"
+          description: "UN body responsible for international peace and security"
+      states:
+        - "Iran"
+        - "Bahrain"
+        - "Jordan"
+        - "Kuwait"
+        - "Oman"
+        - "Qatar"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+        - "Russia"
+        - "China"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+        - "Bahrain"
+        - "Jordan"
+        - "Kuwait"
+        - "Oman"
+        - "Qatar"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+      places:
+        - "United Nations Headquarters"
+        - "New York City"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "resolution"
+        - "diplomatic-action"
+      tags:
+        - "unsc"
+        - "resolution-2817"
+        - "gulf-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The United Nations Security Council approves a resolution condemning Iran's attacks on the Gulf Cooperation Council states and Jordan. The text, presented by Bahrain and co-sponsored by 135 countries, is passed with 13 votes in favor and the abstentions of Russia and China."
+      external:
+        - id: "src-002-a"
+          outlet: "United Nations"
+          url: "https://press.un.org/en/2026/sc16315.doc.htm"
+          publication_date: "2026-03-11"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [6]
+        - id: "src-002-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-003"
+    category: "Business and econony"
+    subcategory: "Energy"
+    topics:
+      - "Oil reserves"
+      - "Strategic stockpiles"
+      - "Energy security"
+      - "Economic impact of the 2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+      - "Energy"
+    importance: 9
+    headline: "IEA member countries agree record 400-million-barrel emergency oil release"
+    summary: >
+      The International Energy Agency and its member countries agreed on March 11 to make
+      400 million barrels of oil available to the market in response to supply disruptions
+      from the Middle East war, the largest coordinated emergency release in the agency's
+      history. Reuters reported the announcement during the market shock, while a later IEA
+      update detailed how Asia-Oceania stocks would be made available immediately and stocks
+      in the Americas and Europe from the end of March. The release included government and
+      industry-held stocks and was intended to cushion the loss of flows tied to the
+      disruption of Gulf shipping routes rather than solve the underlying security crisis.
+      The measure underscored how rapidly the conflict had moved from military escalation
+      into systemic energy-market intervention.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported on March 11 that the IEA was moving toward an emergency release from strategic reserves as oil markets reeled from the conflict."
+        - "Later reporting and the IEA's own update confirmed a 400 million barrel coordinated release, the largest such action in the agency's history."
+        - "The IEA said Asia-Oceania member stocks would be made available immediately, while stocks in the Americas and Europe would start flowing from the end of March."
+        - "The IEA said committed volumes included both government-held and industry-held stocks."
+      why_it_matters:
+        - "The size of the release showed that policymakers viewed the Hormuz-related supply shock as severe enough to justify extraordinary intervention."
+        - "Even with reserve releases, the IEA and analysts indicated that market stability still depended on restoring safe energy and shipping flows."
+      uncertainty_notes:
+        - "The release was designed as a temporary buffer and did not eliminate uncertainty over how long Gulf disruptions would last."
+    actors:
+      primary:
+        - "International Energy Agency"
+      secondary:
+        - "IEA member countries"
+        - "G7"
+    entities:
+      people:
+        - name: "Fatih Birol"
+          role: ""
+      organizations:
+        - name: "International Energy Agency"
+          description: "Intergovernmental energy agency"
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economic-intervention"
+        - "strategic-reserve-release"
+      tags:
+        - "iea"
+        - "oil-reserves"
+        - "energy-shock"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The International Energy Agency agrees to discharge 400 million barrels of oil from its members’ strategic reserves, its largest-ever release, to counter soaring global energy prices due to the war. Despite the measure, the price of the crude barrel rises above US$100 again in international markets."
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/iea-proposes-largest-ever-oil-release-strategic-reserves-wsj-reports-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [7]
+        - id: "src-003-b"
+          outlet: "International Energy Agency"
+          url: "https://www.iea.org/news/update-on-iea-collective-action-decision-of-11-march-2026"
+          publication_date: "2026-03-15"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: "src-003-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/iea-recommend-release-strategic-oil-stocks-iran-war-sources-say-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The release followed the March 10 G7-EU consultations and preceded national reserve actions such as Australia's March 13 drawdown."
+  - id: "evt-2026-03-11-004"
+    category: "Business and economy"
+    subcategory: "International trade"
+    topics:
+      - "Tariffs"
+      - "Manufacturing"
+      - "Section 301"
+      - "International trade"
+      - "United States"
+    importance: 8
+    headline: "United States launches Section 301 investigations into 16 economies over industrial overcapacity"
+    summary: >
+      The Office of the United States Trade Representative announced a new round of Section
+      301 investigations into 16 economies on March 11, arguing that foreign industrial
+      overcapacity and production practices were harming U.S. manufacturing. The move
+      targeted a broad mix of partners and competitors, including China, the European Union,
+      Japan, India, South Korea, Mexico, and multiple Southeast Asian economies. Reuters
+      reported that the investigations reopened a major tariff pathway after a separate
+      Supreme Court setback to parts of the administration's earlier tariff program, and
+      USTR said consultations had been requested with every economy named. The action
+      signaled a renewed escalation in unilateral U.S. trade pressure with potential
+      consequences across automotive, electronics, metals, and other industrial sectors.
+    key_data: []
+    details:
+      what_happened:
+        - "USTR said the investigations concerned acts, policies, and practices relating to structural excess capacity and production in manufacturing sectors."
+        - "The 16 targeted economies were China, the European Union, Singapore, Switzerland, Norway, Indonesia, Malaysia, Cambodia, Thailand, Korea, Vietnam, Taiwan, Bangladesh, Mexico, Japan, and India."
+        - "USTR said a docket for comments would open on March 17, written submissions were due by April 15, and hearings would begin on May 5."
+        - "Reuters reported the probes could open the way to new tariffs after the administration lost major elements of a previous tariff regime in court."
+      why_it_matters:
+        - "The action widened U.S. trade confrontation well beyond China and signaled that allies and major Asian manufacturing hubs were also in scope."
+        - "Any resulting tariff action could further disrupt supply chains already under strain from the Middle East crisis."
+      uncertainty_notes:
+        - "The investigations had just begun, so the specific remedies and any final tariff actions were not yet determined."
+    actors:
+      primary:
+        - "Office of the United States Trade Representative"
+      secondary:
+        - "Jamieson Greer"
+        - "Donald Trump"
+    entities:
+      people:
+        - name: "Jamieson Greer"
+          role: "U.S. Trade Representative"
+        - name: "Donald Trump"
+          role: "President of the United States"
+      organizations:
+        - name: "Office of the United States Trade Representative"
+          description: "U.S. trade agency"
+      states:
+        - "United States of America"
+        - "China"
+        - "European Union"
+        - "Singapore"
+        - "Switzerland"
+        - "Norway"
+        - "Indonesia"
+        - "Malaysia"
+        - "Cambodia"
+        - "Thailand"
+        - "Republic of Korea"
+        - "Vietnam"
+        - "Taiwan"
+        - "Bangladesh"
+        - "Mexico"
+        - "Japan"
+        - "India"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Washington, D.C."
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "trade-action"
+        - "policy-announcement"
+      tags:
+        - "section-301"
+        - "tariffs"
+        - "industrial-policy"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "United States Trade Representative"
+          url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
+          publication_date: "2026-03-11"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [10]
+        - id: "src-004-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/china/us-opens-new-unfair-trade-probes-rebuild-trumps-tariff-pressure-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The March 11 USTR action was followed by a broader March 12 filing and China's public response on March 13."
+  - id: "evt-2026-03-11-005"
+    category: "Politics and elections"
+    subcategory: "Government formation"
+    topics:
+      - "Chile"
+      - "Presidential inauguration"
+      - "Latin American politics"
+      - "2025 Chilean general election"
+      - "Government formation"
+    importance: 8
+    headline: "José Antonio Kast is sworn in as president of Chile amid protests and a sharp rightward shift"
+    summary: >
+      José Antonio Kast was sworn in as Chile's president on March 11 in Valparaíso,
+      completing what Reuters and AP described as the country's sharpest move to the right
+      in decades. In his first address, Kast cast his administration as an "emergency
+      government" for a country beset by organized crime, weak finances, and public
+      insecurity, and he immediately signed decrees aimed at border security and state
+      audits. Reuters also reported anti-Kast protests in Valparaíso and Santiago that were
+      dispersed by police, underscoring the polarized environment surrounding the transfer
+      of power from Gabriel Boric. The inauguration was regionally important because it
+      marked a decisive ideological shift in one of Latin America's most prominent
+      democracies at a moment of wider rightward gains in the region.
+    key_data: []
+    details:
+      what_happened:
+        - "Kast was sworn in on March 11 and formally took over from outgoing president Gabriel Boric."
+        - "Reuters reported that Kast described his administration as an emergency government and promised audits and crackdowns on crime, immigration, and corruption."
+        - "He signed decrees focused on border security in Chile's north and a broader review of state finances."
+        - "Protests took place in Valparaíso and Santiago, with clashes and crowd dispersal by police reported by Reuters."
+      why_it_matters:
+        - "The transfer marked a major ideological shift in Chilean politics after years of unrest, security concerns, and economic anxiety."
+        - "Kast's program indicated likely changes in migration policy, public security strategy, and Chile's external alignments."
+      uncertainty_notes:
+        - "Kast still faced a divided Congress, leaving uncertainty over how quickly his legislative agenda could advance."
+    actors:
+      primary:
+        - "José Antonio Kast"
+      secondary:
+        - "Gabriel Boric"
+        - "Government of Chile"
+    entities:
+      people:
+        - name: "José Antonio Kast"
+          role: "President of Chile"
+        - name: "Gabriel Boric"
+          role: ""
+        - name: "Jeannette Jara"
+          role: ""
+      organizations:
+        - name: "National Congress of Chile"
+          description: ""
+      states:
+        - "Chile"
+    geography:
+      countries:
+        - "Chile"
+      places:
+        - "Valparaíso"
+        - "Santiago"
+        - "La Moneda Palace"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "political-inauguration"
+        - "power-transition"
+      tags:
+        - "chile"
+        - "kast"
+        - "inauguration"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "José Antonio Kast is sworn in as President of Chile, succeeding Gabriel Boric."
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/chiles-kast-take-office-biggest-right-wing-shift-decades-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [12]
+        - id: "src-005-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/00d398c96e0ff25378838dc8831dcbe8"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Sudan war"
+      - "Drone warfare"
+      - "Attacks on schools and clinics"
+      - "Sudanese civil war"
+      - "Drone strikes"
+      - "Sudan"
+    importance: 8
+    headline: "Drone strike hits school and clinic in Sudan's White Nile State, killing at least 17 civilians"
+    summary: >
+      A drone strike hit a secondary school and a primary health clinic in Shukeiri village
+      in Sudan's White Nile State on March 11, reportedly killing at least 17 civilians and
+      injuring others. OHCHR said the area had come under heavy Rapid Support Forces drone
+      attacks since March 4 and reported that at least one health worker was among the dead,
+      while UNICEF separately said at least eight students and a health worker were killed
+      in the school compound attack. AP, quoting local medical sources, reported that the
+      dead included mostly schoolgirls as well as teachers and medical staff. The incident
+      highlighted the widening use of drones against civilian sites in Sudan's war and the
+      collapse of protection for basic education and healthcare facilities.
+    key_data: []
+    details:
+      what_happened:
+        - "A drone struck a secondary school and a health clinic in Shukeiri village in White Nile State on March 11."
+        - "OHCHR reported at least 17 civilians killed, while UNICEF separately reported at least eight students and a health worker among the dead."
+        - "AP reported that local medical sources said the dead included mostly schoolgirls, along with teachers and health personnel."
+        - "OHCHR said White Nile State had been under heavy RSF drone attack since March 4 and condemned the broader surge in drone attacks on civilians."
+      why_it_matters:
+        - "The attack showed how the war's drone phase was reaching schools and clinics, not only front-line military targets."
+        - "Repeated strikes on civilian infrastructure deepened Sudan's humanitarian emergency and undermined access to education and medical care."
+      uncertainty_notes:
+        - "International reporting linked the area to RSF drone attacks, but independent forensic confirmation of responsibility for this specific strike remained limited."
+    actors:
+      primary:
+        - "Rapid Support Forces (RSF)"
+      secondary:
+        - "Sudanese Armed Forces (SAF)"
+        - "UNICEF"
+        - "Office of the United Nations High Commissioner for Human Rights"
+    entities:
+      people: []
+      organizations:
+        - name: "UNICEF"
+          description: ""
+        - name: "OHCHR"
+          description: ""
+        - name: "Sudan Doctors Network"
+          description: ""
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places:
+        - "Shukeiri"
+        - "White Nile State"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 17
+      injured: 10
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "A secondary school and a primary health clinic were struck."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "civilian-attack"
+      tags:
+        - "sudan"
+        - "white-nile"
+        - "school-strike"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least 17 people are killed in a drone strike on a secondary school and a health center in Shukeiri, White Nile State, Sudan. Local authorities and the Sudan Doctors Union blame the Rapid Support Forces."
+      external:
+        - id: "src-006-a"
+          outlet: "OHCHR"
+          url: "https://www.ohchr.org/en/press-releases/2026/03/sudan-turk-appalled-surge-deadly-drone-attacks-civilians-kordofan-and-white"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [14]
+        - id: "src-006-b"
+          outlet: "UNICEF"
+          url: "https://www.unicef.org/press-releases/least-8-students-and-health-worker-reportedly-killed-attack-school-compound-sudans"
+          publication_date: "2026-03-12"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [15]
+        - id: "src-006-c"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/e1e102861f0d4cc193a51669f297c670"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-007"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "DRC conflict"
+      - "Drone strikes"
+      - "Aid workers"
+      - "Kivu conflict"
+      - "Democratic Republic of the Congo"
+    importance: 7
+    headline: "Drone strikes hit rebel-held Goma and kill at least three, including a French UNICEF worker"
+    summary: >
+      Drone strikes hit Goma in eastern Democratic Republic of the Congo on March 11,
+      killing at least three people including a French UNICEF worker, in what Reuters
+      described as the first such attack on the city since AFC/M23 rebels seized it the
+      previous year. Reuters and AP both reported that the attack struck a residence used by
+      relief workers in a city already destabilized by the conflict between the Congolese
+      state and M23. AFC/M23 blamed the Congolese army, while the army initially declined to
+      comment and the government later said an investigation was under way, leaving
+      responsibility contested. The killing of a humanitarian worker and the U.N. warning
+      that attacks on U.N. personnel could amount to war crimes elevated the incident beyond
+      a routine battlefield strike.
+    key_data: []
+    details:
+      what_happened:
+        - "Drone strikes hit Goma on March 11 and killed at least three people, including a French national working for UNICEF."
+        - "Reuters reported it was the first such attack on Goma since AFC/M23 seized the city the previous year."
+        - "AFC/M23 said the Congolese army launched drones into a densely populated urban area, while the army at first declined to comment."
+        - "The U.N. peacekeeping mission confirmed a U.N. staff member and two other civilians were killed and warned the attack might amount to a war crime."
+      why_it_matters:
+        - "The attack showed the eastern Congo conflict penetrating an urban center already under rebel control, with civilians and aid personnel exposed."
+        - "Because a humanitarian worker was killed, the incident drew international condemnation and heightened scrutiny of compliance with humanitarian law."
+      uncertainty_notes:
+        - "Responsibility for the strike was disputed on March 11 and remained under investigation."
+    actors:
+      primary: []
+      secondary:
+        - "AFC/M23"
+        - "Congolese armed forces"
+        - "MONUSCO"
+        - "UNICEF"
+    entities:
+      people:
+        - name: "Emmanuel Macron"
+          role: ""
+      organizations:
+        - name: "UNICEF"
+          description: ""
+        - name: "MONUSCO"
+          description: ""
+      states:
+        - "Democratic Republic of the Congo"
+    geography:
+      countries:
+        - "Democratic Republic of the Congo"
+      places:
+        - "Goma"
+        - "North Kivu"
+        - "Lake Kivu"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 3
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Residential property used by relief staff was struck in Goma."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "civilian-attack"
+      tags:
+        - "goma"
+        - "drc"
+        - "aid-worker"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A United Nations aid worker from France is killed in a series of explosions caused by drone strikes in Goma, Democratic Republic of the Congo, with the occupying M23 rebels blaming the Congolese government."
+      external:
+        - id: "src-007-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/africa/drones-hit-east-congos-biggest-city-killing-french-aid-worker-rebels-un-say-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [17]
+        - id: "src-007-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/606b7feba8685436d1f757de65d4efce"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-008"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border attack"
+    topics:
+      - "Russia-Ukraine war"
+      - "Drone strikes"
+      - "Missile plant"
+      - "Cross-border attack"
+      - "Ukraine"
+      - "Russia"
+    importance: 8
+    headline: "Russia and Ukraine trade deadly strikes in Kharkiv and Bryansk as long-range attacks continue"
+    summary: >
+      Russia and Ukraine traded deadly strikes around the war zone and across the border on
+      March 11. In Kharkiv, Reuters reported that a Russian drone hit a civilian business,
+      killing two people and injuring five. In Russia, officials said the toll from
+      Ukraine's March 10 strike on Bryansk rose to seven dead and more than 40 injured,
+      while the Kremlin and foreign ministry accused Britain of involvement because Moscow
+      said British-supplied Storm Shadow missiles were used. Ukraine said it had targeted
+      the Kremniy El plant, a key producer of missile components, illustrating Kyiv's
+      continued effort to strike Russia's military-industrial base even as Moscow portrayed
+      the attack as a deliberate assault on civilians.
+    key_data: []
+    details:
+      what_happened:
+        - "A Russian drone struck a civilian business in Kharkiv, killing two people and injuring five, according to local Ukrainian officials cited by Reuters."
+        - "Russian officials said the death toll from the Bryansk strike had risen to seven and that 42 people were injured."
+        - "The Kremlin and Russian foreign ministry alleged British involvement because they said British-made Storm Shadow missiles were used in the Bryansk attack."
+        - "Ukraine said it had struck the Kremniy El plant in Bryansk, which produces missile-related electronics and components."
+      why_it_matters:
+        - "The incidents showed both the continued vulnerability of Ukrainian cities to Russian drone attacks and Ukraine's capacity to hit military-industrial targets inside Russia."
+        - "Russian allegations about Western-supplied missiles underlined the risk of broader confrontation around support to Ukraine."
+      uncertainty_notes:
+        - "Russian casualty claims and the allegation of British operational involvement were not independently verified by Reuters."
+    actors:
+      primary:
+        - "Russian Armed Forces"
+        - "Ukrainian Armed Forces"
+      secondary:
+        - "Kremlin"
+        - "United Kingdom"
+    entities:
+      people:
+        - name: "Ihor Terekhov"
+          role: ""
+        - name: "Oleh Syniehubov"
+          role: ""
+        - name: "Dmitry Peskov"
+          role: ""
+        - name: "Volodymyr Zelenskyy"
+          role: "President of Ukraine"
+      organizations:
+        - name: "Kremniy El"
+          description: ""
+      states:
+        - "Russia"
+        - "Ukraine"
+        - "United Kingdom"
+    geography:
+      countries:
+        - "Ukraine"
+        - "Russia"
+      places:
+        - "Kharkiv"
+        - "Bryansk"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "A civilian business in Kharkiv was set on fire and the Bryansk missile-component plant was reported struck."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "cross-border-attack"
+      tags:
+        - "kharkiv"
+        - "bryansk"
+        - "storm-shadow"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/russian-drone-strike-ukraines-kharkiv-kills-two-officials-say-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [19]
+        - id: "src-008-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/kremlin-says-britain-was-involved-ukraines-missile-strike-russia-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [20]
+        - id: "src-008-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/russia-accuses-ukraine-britain-terrorist-attack-border-city-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [21]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-009"
+    category: "Disasters and accidents"
+    subcategory: "Aviation accident"
+    topics:
+      - "Air crash inquiry"
+      - "Airport safety"
+      - "South Korea"
+      - "Aviation accident"
+    importance: 7
+    headline: "South Korean audit finds long-running safety failures at Muan airport crash site and seven other airports"
+    summary: >
+      South Korea's Board of Audit and Inspection said the transport ministry had cut costs
+      and wrongly approved unsafe airport structures for more than two decades, findings
+      released as scrutiny continued over the 2024 Jeju Air crash at Muan that killed 179
+      people. Reuters and KBS reported that 14 localizer installations at eight airports had
+      been built on rigid concrete structures rather than impact-breakable ones required by
+      standards, and that the ministry had kept certifying them for up to 22 years. The
+      audit also cited broader failings in bird-strike prevention and notified authorities
+      of 30 cases of wrongdoing or procedural failure. Although the deadly crash itself
+      happened earlier, the audit was a major March 11 governance event because it shifted
+      responsibility toward long-term regulatory and construction decisions.
+    key_data: []
+    details:
+      what_happened:
+        - "The state auditor said the ministry built and approved non-compliant localizer support structures at eight airports, including Muan."
+        - "Reuters and KBS said 14 localizer installations were placed on rigid concrete mounds or embankments contrary to frangibility standards."
+        - "The audit said the ministry had wrongly certified such structures during inspections for up to 22 years."
+        - "Authorities were notified of 30 cases of wrongdoing or procedural failure, including wider weaknesses in bird-strike prevention."
+      why_it_matters:
+        - "The findings turned the post-crash debate from pilot and bird-strike factors toward systemic infrastructure and oversight failures."
+        - "Because the audit covered eight airports, it raised questions about aviation safety practices beyond the Muan crash site."
+      uncertainty_notes:
+        - "A full investigative report into the Jeju Air crash itself was still pending."
+    actors:
+      primary:
+        - "Board of Audit and Inspection of Korea"
+      secondary:
+        - "Ministry of Land, Infrastructure and Transport"
+        - "Korea Airports Corporation"
+        - "Jeju Air"
+    entities:
+      people: []
+      organizations:
+        - name: "Board of Audit and Inspection of Korea"
+          description: ""
+        - name: "Ministry of Land, Infrastructure and Transport"
+          description: ""
+        - name: "Korea Airports Corporation"
+          description: ""
+        - name: "Jeju Air"
+          description: ""
+      states:
+        - "South Korea"
+    geography:
+      countries:
+        - "South Korea"
+      places:
+        - "Muan International Airport"
+        - "Gimhae"
+        - "Jeju"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "investigation-report"
+        - "aviation-safety"
+      tags:
+        - "jeju-air"
+        - "muan"
+        - "audit"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/south-korea-auditor-finds-cost-cutting-faulty-approvals-jeju-air-crash-site-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [22]
+        - id: "src-009-b"
+          outlet: "KBS World"
+          url: "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=199975&lang=e"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [23]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-010"
+    category: "Law and crime"
+    subcategory: "Organized crime"
+    topics:
+      - "Waste trafficking"
+      - "Pollution crime"
+      - "International law enforcement"
+      - "Organized crime"
+    importance: 7
+    headline: "Europol-led Operation Custos Viridis reports 337 arrests in global environmental crime crackdown"
+    summary: >
+      Europol, joined by authorities from 71 countries and multiple international partners,
+      announced the results of Operation Custos Viridis on March 11, describing a year-long
+      crackdown on organized crime networks involved in waste trafficking and pollution
+      crime. Europol, Reuters, and the U.S. Justice Department all reported 337 arrests,
+      1,048 inspections, and large seizures including 127,149 tons of waste, 398 tons of
+      fluorinated gases, 2.3 tons of mercury, and millions in cash and bank assets. The
+      operation targeted criminal flows stretching from Europe into Africa, Asia, and Latin
+      America and linked environmental crime to money laundering, corruption, and other
+      transnational offences. The scale of the operation made it one of the most substantial
+      coordinated law-enforcement actions of the day outside war zones.
+    key_data: []
+    details:
+      what_happened:
+        - "Europol said Operation Custos Viridis ran between January and December 2025 and was led with partners from 71 countries and international organizations."
+        - "Authorities conducted 1,048 inspections and arrested 337 individuals connected to waste and pollution crime."
+        - "Seizures included 127,149 tons of waste, 602 tons of polluting agents, 398 tons of F-gases, 75 tons of plant protection products, and 2.3 tons of mercury."
+        - "DOJ said the operation also recovered over $10 million in cash and bank accounts, along with vehicles, heavy machinery, firearms, apartments, and companies."
+      why_it_matters:
+        - "The results illustrated the scale and profitability of environmental crime networks operating across continents."
+        - "The operation showed that waste trafficking and pollution offences are increasingly treated as organized crime rather than regulatory infractions."
+      uncertainty_notes:
+        - "Reuters described the arrests as more than 330 across 70 countries, while Europol and DOJ detailed 337 arrests with partners from 71 countries and organizations."
+    actors:
+      primary:
+        - "Europol"
+      secondary:
+        - "United States Department of Justice"
+        - "Environmental law enforcement agencies"
+    entities:
+      people: []
+      organizations:
+        - name: "Europol"
+          description: ""
+        - name: "United States Department of Justice"
+          description: ""
+        - name: "U.S. Environmental Protection Agency"
+          description: ""
+      states: []
+    geography:
+      countries: []
+      places:
+        - "Global"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: 337
+      damage: null
+    classification:
+      event_type:
+        - "law-enforcement-operation"
+        - "arrest"
+      tags:
+        - "europol"
+        - "waste-trafficking"
+        - "environmental-crime"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Europol reports that more than 330 people in 70 countries have been arrested during an international operation against organized networks suspected of trafficking illegal waste within Europe and exporting it to Africa, Asia, and Latin America, with large quantities of dangerous goods and nearly €10 million (US$11.6 million) in assets seized."
+      external:
+        - id: "src-010-a"
+          outlet: "Europol"
+          url: "https://www.europol.europa.eu/media-press/newsroom/news/europol-leads-international-operation-against-environmental-crime-and-waste-trafficking"
+          publication_date: "2026-03-11"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [24]
+        - id: "src-010-b"
+          outlet: "United States Department of Justice"
+          url: "https://www.justice.gov/opa/pr/justice-department-assists-global-operation-targeting-environmental-crime-and-waste"
+          publication_date: "2026-03-11"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [25]
+        - id: "src-010-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/more-than-330-arrested-europol-led-operation-against-illicit-waste-trade-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [26]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-011"
+    category: "International relations"
+    subcategory: "Diplomacy"
+    topics:
+      - "Spain"
+      - "Israel"
+      - "Diplomatic downgrade"
+      - "Israel–Spain relations"
+      - "Diplomacy"
+    importance: 7
+    headline: "Spain permanently withdraws its ambassador from Israel as bilateral rift deepens"
+    summary: >
+      Spain permanently withdrew its ambassador from Israel on March 11, formalizing a
+      diplomatic downgrade that Reuters said was driven by Spain's opposition to the
+      U.S.-Israeli strikes on Iran and by longer-running disputes over Gaza and arms
+      transit. Reuters reported that Madrid published the termination of the ambassador's
+      post in the official gazette and said the embassy in Tel Aviv would be led by a chargé
+      d'affaires for the foreseeable future. The move came after the ambassador had already
+      been recalled in September and reflected the steady deterioration of Spain-Israel ties
+      since Spain recognized a Palestinian state and restricted transit of arms to Israel.
+      The decision gave Europe another concrete sign that the widening Middle East war was
+      producing direct diplomatic fractures among U.S. partners.
+    key_data: []
+    details:
+      what_happened:
+        - "Spain formally terminated its ambassador's posting and said its embassy in Tel Aviv would be led by a chargé d'affaires."
+        - "Reuters said the decision followed Spain's opposition to the U.S.-Israeli attacks on Iran."
+        - "The ambassador had already been recalled in September during a dispute over Spain's restrictions on aircraft and ships carrying weapons to Israel."
+        - "Israel's embassy in Spain was also being run by a chargé d'affaires after earlier diplomatic retaliation."
+      why_it_matters:
+        - "The move represented a formal downgrade in relations rather than a temporary recall."
+        - "It showed that the widening Middle East conflict was fracturing diplomatic relations among countries not directly fighting each other."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Spain"
+      secondary:
+        - "Israel"
+    entities:
+      people:
+        - name: "Pedro Sánchez"
+          role: ""
+        - name: "Gideon Sa'ar"
+          role: ""
+      organizations:
+        - name: "Ministry of Foreign Affairs of Spain"
+          description: ""
+      states:
+        - "Spain"
+        - "Israel"
+    geography:
+      countries:
+        - "Spain"
+        - "Israel"
+      places:
+        - "Madrid"
+        - "Tel Aviv"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "diplomatic-action"
+      tags:
+        - "spain"
+        - "israel"
+        - "ambassador"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Spain permanently withdraws its ambassador to Israel and terminates the position after bilateral diplomatic relations worsened this week."
+      external:
+        - id: "src-011-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/spain-removes-ambassador-israel-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+        - id: "src-011-b"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/3/11/spain-removes-ambassador-from-israel-as-opposes-war-on-iran-gaza-genocide"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [28]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-012"
+    category: "Armed conflicts and attacks"
+    subcategory: "Terrorism"
+    topics:
+      - "Embassy security"
+      - "Bombing investigation"
+      - "Norway"
+      - "Terrorism in Norway"
+      - "Terrorism"
+    importance: 7
+    headline: "Norwegian police arrest three brothers over bombing at U.S. Embassy in Oslo"
+    summary: >
+      Norwegian police said on March 11 that they had arrested three brothers suspected of
+      carrying out the March 8 bombing at the U.S. Embassy in Oslo, an attack investigators
+      described as terrorism. Reuters reported that the blast from an improvised explosive
+      device damaged the entrance to the embassy's consular section but caused no injuries,
+      and police said the suspects were Norwegian citizens in their 20s. Investigators said
+      they believed one man planted the bomb while the other two were complicit, and both
+      Reuters and the Guardian reported that police were also examining whether the attack
+      could have been ordered by a government entity. The arrests turned an otherwise
+      isolated security incident into a wider counter-terrorism case with international
+      implications because of the target and the tense global security environment.
+    key_data: []
+    details:
+      what_happened:
+        - "Police said three brothers had been apprehended over the bombing at the U.S. Embassy in Oslo."
+        - "The March 8 blast damaged the entrance to the consular section but caused no injuries."
+        - "Reuters reported police said one suspect likely planted the bomb and the other two were complicit."
+        - "Investigators said they were still examining motive and whether any government entity had directed the attack."
+      why_it_matters:
+        - "The case involved a direct attack on a U.S. diplomatic facility in Europe during a period of heightened international tensions."
+        - "Police comments about possible state direction raised the stakes well beyond an ordinary criminal bombing investigation."
+      uncertainty_notes:
+        - "As of March 11, motive and any foreign direction remained under investigation."
+    actors:
+      primary:
+        - "Norwegian Police Service"
+      secondary:
+        - "United States Embassy in Oslo"
+    entities:
+      people:
+        - name: "Christian Hatlo"
+          role: ""
+      organizations:
+        - name: "Norwegian Police Service"
+          description: ""
+        - name: "United States Embassy in Oslo"
+          description: ""
+      states:
+        - "Norway"
+        - "United States of America"
+    geography:
+      countries:
+        - "Norway"
+      places:
+        - "Oslo"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 0
+      injured: 0
+      displaced: null
+      missing: null
+      arrest_count: 3
+      damage: "The entrance to the embassy's consular section was damaged by an improvised explosive device."
+    classification:
+      event_type:
+        - "arrest"
+        - "terrorism-investigation"
+      tags:
+        - "oslo"
+        - "u-s-embassy"
+        - "ied"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Norwegian police arrest three brothers on suspicion of involvement in a bombing outside the U.S. embassy in Oslo on 8 March that caused minor damage but no injuries. A terrorist motive is suspected."
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/norway-police-apprehend-three-suspects-us-embassy-bombing-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [29]
+        - id: "src-012-b"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2026/mar/11/three-norwegian-brothers-arrested-us-embassy-blast-oslo"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [30]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-013"
+    category: "Politics and elections"
+    subcategory: "Election"
+    topics:
+      - "Guatemala"
+      - "Judicial overhaul"
+      - "Election oversight"
+      - "Election"
+    importance: 6
+    headline: "Guatemala's Congress appoints new Supreme Electoral Tribunal magistrates amid corruption concerns"
+    summary: >
+      Guatemala's opposition-controlled Congress selected new magistrates for the Supreme
+      Electoral Tribunal on March 11 as part of a broader judicial reshuffle that Reuters
+      reported had drawn warnings from international observers about possible capture by
+      corruption and criminal networks. The appointments covered five titular and five
+      alternate magistrates for the 2026-2032 term, and the new tribunal will oversee the
+      2027 general election to choose a successor to President Bernardo Arévalo. Reuters
+      linked the decision to a wider struggle over judicial independence, corruption, and
+      the future of anti-corruption reform in Guatemala after years of institutional
+      rollback. Although not as immediately dramatic as war or market shocks, the
+      appointment was a consequential governance development in Central America because it
+      affected the body that will certify the country's next national election.
+    key_data: []
+    details:
+      what_happened:
+        - "Congress elected five titular and five alternate magistrates for the Supreme Electoral Tribunal for the 2026-2032 term."
+        - "The new tribunal will oversee the 2027 general election that will replace President Bernardo Arévalo."
+        - "Reuters reported the appointments were part of a wider judicial overhaul involving top courts and the prosecutor's office."
+        - "Observers and advocates warned the selection process was vulnerable to corruption networks and criminal influence."
+      why_it_matters:
+        - "Control and credibility of the election tribunal will shape confidence in Guatemala's next presidential vote."
+        - "The appointments fed into the broader contest between anti-corruption reformers and entrenched judicial and political interests."
+      uncertainty_notes:
+        - "The long-term independence of the new tribunal could only be judged through its future actions."
+    actors:
+      primary:
+        - "Congress of Guatemala"
+      secondary:
+        - "Supreme Electoral Tribunal of Guatemala"
+        - "Bernardo Arévalo"
+    entities:
+      people:
+        - name: "Bernardo Arévalo"
+          role: "President"
+        - name: "Consuelo Porras"
+          role: ""
+        - name: "Margaret Satterthwaite"
+          role: ""
+      organizations:
+        - name: "Supreme Electoral Tribunal of Guatemala"
+          description: ""
+        - name: "Washington Office on Latin America"
+          description: ""
+      states:
+        - "Guatemala"
+    geography:
+      countries:
+        - "Guatemala"
+      places:
+        - "Guatemala City"
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "institutional-appointment"
+        - "election-governance"
+      tags:
+        - "guatemala"
+        - "tse"
+        - "judicial-overhaul"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/guatemala-appoints-new-election-tribunal-amid-corruption-fears-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [31]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-11-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "2025–2026 Iran–United States negotiations"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2025–2026 Iran–United States negotiations"
+    importance: 5
+    headline: "Iranian president Masoud Pezeshkian lists preconditions for ending the war between Iran, Israel, and"
+    summary: >
+      Iranian president Masoud Pezeshkian lists preconditions for ending the war between
+      Iran, Israel, and the United States. The conditions include recognizing Iran's
+      legitimate rights, payment of reparations, and firm international guarantees against
+      future aggression.
+    key_data: []
+    details:
+      what_happened:
+        - "Iranian president Masoud Pezeshkian lists preconditions for ending the war between Iran, Israel, and the United States. The conditions include recognizing Iran's legitimate rights, payment of reparations, and firm international guarantees against future aggression."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+        - "Israel"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+        - "Israel"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2025-2026-iran-united-states-negotiations"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iranian president Masoud Pezeshkian lists preconditions for ending the war between Iran, Israel, and the United States. The conditions include recognizing Iran's legitimate rights, payment of reparations, and firm international guarantees against future aggression."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Xinhua per the Wikipedia portal."
+  - id: "evt-2026-03-11-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 5
+    headline: "The Thailand-flagged bulk carrier {{ship|MV|Mayuree Naree|2007|6}} is hit by two Iranian missiles sh"
+    summary: >
+      The Thailand-flagged bulk carrier {{ship|MV|Mayuree Naree|2007|6}} is hit by two
+      Iranian missiles shortly after passing the Strait of Hormuz. Twenty people are rescued
+      and three are reported missing after the vessel catches on fire.
+    key_data: []
+    details:
+      what_happened:
+        - "The Thailand-flagged bulk carrier {{ship|MV|Mayuree Naree|2007|6}} is hit by two Iranian missiles shortly after passing the Strait of Hormuz. Twenty people are rescued and three are reported missing after the vessel catches on fire."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: 3
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+        - "fire"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Thailand-flagged bulk carrier {{ship|MV|Mayuree Naree|2007|6}} is hit by two Iranian missiles shortly after passing the Strait of Hormuz. Twenty people are rescued and three are reported missing after the vessel catches on fire."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-11-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 5
+    headline: "Two cargo vessels, the Marshall Islands-flagged Star Gwyneth, operated by Star Bulk Carriers, and th"
+    summary: >
+      Two cargo vessels, the Marshall Islands-flagged Star Gwyneth, operated by Star Bulk
+      Carriers, and the Japan-flagged ONE Majesty, operated by Mitsui OSK Lines, are struck
+      by unknown projectiles, with no casualties reported.
+    key_data: []
+    details:
+      what_happened:
+        - "Two cargo vessels, the Marshall Islands-flagged Star Gwyneth, operated by Star Bulk Carriers, and the Japan-flagged ONE Majesty, operated by Mitsui OSK Lines, are struck by unknown projectiles, with no casualties reported."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two cargo vessels, the Marshall Islands-flagged Star Gwyneth, operated by Star Bulk Carriers, and the Japan-flagged ONE Majesty, operated by Mitsui OSK Lines, are struck by unknown projectiles, with no casualties reported."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Kathimerini per the Wikipedia portal."
+  - id: "evt-2026-03-11-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 5
+    headline: "A bulk carrier is hit by an unknown projectile 50NM northwest of Dubai, United Arab Emirates."
+    summary: >
+      A bulk carrier is hit by an unknown projectile 50NM northwest of Dubai, United Arab
+      Emirates.
+    key_data: []
+    details:
+      what_happened:
+        - "A bulk carrier is hit by an unknown projectile 50NM northwest of Dubai, United Arab Emirates."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "United Arab Emirates"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A bulk carrier is hit by an unknown projectile 50NM northwest of Dubai, United Arab Emirates."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by UKMTO per the Wikipedia portal."
+  - id: "evt-2026-03-11-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iranian strikes on Oman"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on Oman"
+    importance: 5
+    headline: "Iran drones strike oil storage facilities at the port of Salalah, causing several fuel tanks to burs"
+    summary: >
+      Iran drones strike oil storage facilities at the port of Salalah, causing several fuel
+      tanks to burst into flames.
+    key_data: []
+    details:
+      what_happened:
+        - "Iran drones strike oil storage facilities at the port of Salalah, causing several fuel tanks to burst into flames."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "2026-iranian-strikes-on-oman"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iran drones strike oil storage facilities at the port of Salalah, causing several fuel tanks to burst into flames."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-11-001"
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters and Oil Price per the Wikipedia portal."
+  - id: "evt-2026-03-11-019"
+    category: "Armed conflicts and attacks"
+    subcategory: "Iraq in the 2026 Iran war"
+    topics:
+      - "Middle Eastern crisis"
+      - "2026 Iran war"
+      - "Iraq in the 2026 Iran war"
+    importance: 5
+    headline: "Two tankers carrying Iraqi oil and gas, Marshall Islands-flagged Safesea Vishnu and Malta-flagged Ze"
+    summary: >
+      Two tankers carrying Iraqi oil and gas, Marshall Islands-flagged Safesea Vishnu and
+      Malta-flagged Zefyros, catch fire after being struck in Iraqi territorial waters off
+      Khor Al Zubair Port and near the Al-Faw port area. An Indian member of the first crew
+      is killed in the attack.
+    key_data: []
+    details:
+      what_happened:
+        - "Two tankers carrying Iraqi oil and gas, Marshall Islands-flagged Safesea Vishnu and Malta-flagged Zefyros, catch fire after being struck in Iraqi territorial waters off Khor Al Zubair Port and near the Al-Faw port area. An Indian member of the first crew is killed in the attack."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "fire"
+      tags:
+        - "middle-eastern-crisis"
+        - "2026-iran-war"
+        - "iraq-in-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Two tankers carrying Iraqi oil and gas, Marshall Islands-flagged Safesea Vishnu and Malta-flagged Zefyros, catch fire after being struck in Iraqi territorial waters off Khor Al Zubair Port and near the Al-Faw port area. An Indian member of the first crew is killed in the attack."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-11-001"
+    notes: "Portal-derived event with no deep-research coverage; reported by Oil Price and Deccan Herald per the Wikipedia portal."
+  - id: "evt-2026-03-11-020"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Lebanon war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Lebanon war"
+    importance: 5
+    headline: "Seven people are killed and 23 others are injured after an Israeli strike on Temnine Et Tahta, Baalb"
+    summary: >
+      Seven people are killed and 23 others are injured after an Israeli strike on Temnine
+      Et Tahta, Baalbek-Hermel Governorate, Lebanon. Five people are also injured after a
+      strike on the nearby village of Aali en Nahri.
+    key_data: []
+    details:
+      what_happened:
+        - "Seven people are killed and 23 others are injured after an Israeli strike on Temnine Et Tahta, Baalbek-Hermel Governorate, Lebanon. Five people are also injured after a strike on the nearby village of Aali en Nahri."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Lebanon"
+    geography:
+      countries:
+        - "Lebanon"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 7
+      injured: 23
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "hezbollah-israel-conflict"
+        - "2026-lebanon-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Seven people are killed and 23 others are injured after an Israeli strike on Temnine Et Tahta, Baalbek-Hermel Governorate, Lebanon. Five people are also injured after a strike on the nearby village of Aali en Nahri."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-11-021"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Lebanon war"
+    topics:
+      - "Middle Eastern crisis"
+      - "Hezbollah–Israel conflict"
+      - "2026 Lebanon war"
+    importance: 5
+    headline: "Hezbollah launches over 100 rockets at Israel, injuring five civilians in Upper Galilee."
+    summary: >
+      Hezbollah launches over 100 rockets at Israel, injuring five civilians in Upper
+      Galilee.
+    key_data: []
+    details:
+      what_happened:
+        - "Hezbollah launches over 100 rockets at Israel, injuring five civilians in Upper Galilee."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Israel"
+    geography:
+      countries:
+        - "Israel"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+        - "hezbollah-israel-conflict"
+        - "2026-lebanon-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Hezbollah launches over 100 rockets at Israel, injuring five civilians in Upper Galilee."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by The Jerusalem Post per the Wikipedia portal."
+  - id: "evt-2026-03-11-022"
+    category: "Armed conflicts and attacks"
+    subcategory: "Sudanese civil war"
+    topics:
+      - "Sudanese civil war"
+    importance: 6
+    headline: "Over 20 people are killed and 23 others injured in a Sudanese Armed Forces drone strike in Abu Zabad"
+    summary: >
+      Over 20 people are killed and 23 others injured in a Sudanese Armed Forces drone
+      strike in Abu Zabad, West Kordofan, Sudan.
+    key_data: []
+    details:
+      what_happened:
+        - "Over 20 people are killed and 23 others injured in a Sudanese Armed Forces drone strike in Abu Zabad, West Kordofan, Sudan."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 20
+      injured: 23
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "sudanese-civil-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Over 20 people are killed and 23 others injured in a Sudanese Armed Forces drone strike in Abu Zabad, West Kordofan, Sudan."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Dabanga Sudan per the Wikipedia portal."
+  - id: "evt-2026-03-11-023"
+    category: "Business and econony"
+    subcategory: "Economic impact of the 2026 Iran war"
+    topics:
+      - "Economic impact of the 2026 Iran war"
+    importance: 4
+    headline: "Wynn Resorts says it plans to resume construction on the upcoming Al Marjan Island resort in Ras Al "
+    summary: >
+      Wynn Resorts says it plans to resume construction on the upcoming Al Marjan Island
+      resort in Ras Al Khaimah following a short pause amidst the war.
+    key_data: []
+    details:
+      what_happened:
+        - "Wynn Resorts says it plans to resume construction on the upcoming Al Marjan Island resort in Ras Al Khaimah following a short pause amidst the war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "business-and-econony"
+      tags:
+        - "economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Wynn Resorts says it plans to resume construction on the upcoming Al Marjan Island resort in Ras Al Khaimah following a short pause amidst the war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters and Khaleej Times per the Wikipedia portal."
+  - id: "evt-2026-03-11-024"
+    category: "International relations"
+    subcategory: "Romania–United States relations, 2026 Iran war"
+    topics:
+      - "Romania–United States relations, 2026 Iran war"
+    importance: 4
+    headline: "Romania authorizes the United States to use its air bases to refuel aircraft and deploy monitoring a"
+    summary: >
+      Romania authorizes the United States to use its air bases to refuel aircraft and
+      deploy monitoring and satellite communications equipment in support of military
+      operations related to the Iran war, following approval by the Romanian parliament and
+      the Supreme Council of National Defence.
+    key_data: []
+    details:
+      what_happened:
+        - "Romania authorizes the United States to use its air bases to refuel aircraft and deploy monitoring and satellite communications equipment in support of military operations related to the Iran war, following approval by the Romanian parliament and the Supreme Council of National Defence."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Romania"
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "Romania"
+        - "United States"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "romania-united-states-relations-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Romania authorizes the United States to use its air bases to refuel aircraft and deploy monitoring and satellite communications equipment in support of military operations related to the Iran war, following approval by the Romanian parliament and the Supreme Council of National Defence."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Al Arabiya per the Wikipedia portal."
+  - id: "evt-2026-03-11-025"
+    category: "Law and crime"
+    subcategory: "Censorship of TikTok, Mass media in Albania"
+    topics:
+      - "Censorship of TikTok, Mass media in Albania"
+    importance: 4
+    headline: "The Albanian constitutional court rules that the government's ban on the social media platform TikTo"
+    summary: >
+      The Albanian constitutional court rules that the government's ban on the social media
+      platform TikTok violated constitutional protections for freedom of expression and
+      press freedom, after authorities blocked the service in 2025 following a fatal
+      stabbing linked to a dispute on the platform.
+    key_data: []
+    details:
+      what_happened:
+        - "The Albanian constitutional court rules that the government's ban on the social media platform TikTok violated constitutional protections for freedom of expression and press freedom, after authorities blocked the service in 2025 following a fatal stabbing linked to a dispute on the platform."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "censorship-of-tiktok-mass-media-in-albania"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Albanian constitutional court rules that the government's ban on the social media platform TikTok violated constitutional protections for freedom of expression and press freedom, after authorities blocked the service in 2025 following a fatal stabbing linked to a dispute on the platform."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+  - id: "evt-2026-03-11-026"
+    category: "Sports"
+    subcategory: "2026 FIFA World Cup, Iran at the FIFA World Cup"
+    topics:
+      - "2026 FIFA World Cup, Iran at the FIFA World Cup"
+    importance: 4
+    headline: "Iranian sports minister Ahmad Donyamali states that Iran will not participate in the 2026 FIFA World"
+    summary: >
+      Iranian sports minister Ahmad Donyamali states that Iran will not participate in the
+      2026 FIFA World Cup to be hosted by Canada, Mexico, and the United States, citing
+      security concerns amid the Iran war.
+    key_data: []
+    details:
+      what_happened:
+        - "Iranian sports minister Ahmad Donyamali states that Iran will not participate in the 2026 FIFA World Cup to be hosted by Canada, Mexico, and the United States, citing security concerns amid the Iran war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+        - "Canada"
+        - "Mexico"
+        - "United States"
+    geography:
+      countries:
+        - "Iran"
+        - "Canada"
+        - "Mexico"
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-11"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2026-fifa-world-cup-iran-at-the-fifa-world-cup"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Iranian sports minister Ahmad Donyamali states that Iran will not participate in the 2026 FIFA World Cup to be hosted by Canada, Mexico, and the United States, citing security concerns amid the Iran war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+
+strategic_conclusion: ""
+
+works_cited:
+  - id: 1
+    title: "Iran israel us march 11 2026 oil prices"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/iran-israel-us-march-11-2026-oil-prices-24243b5c1e1f32ea8ff52b9a02822396"
+    accessed: "2026-03-11"
+  - id: 2
+    title: "Sea drones target oil tankers middle east conflict risks widen"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/sea-drones-target-oil-tankers-middle-east-conflict-risks-widen-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 3
+    title: "Iran has laid about dozen mines strait hormuz sources say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/iran-has-laid-about-dozen-mines-strait-hormuz-sources-say-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 4
+    title: "Oil storage facilities hit omans salalah port ambrey state tv say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/oil-storage-facilities-hit-omans-salalah-port-ambrey-state-tv-say-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 5
+    title: "Maersk redistributing ship fuel ensure supplies iran war disrupts supply"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/maersk-redistributing-ship-fuel-ensure-supplies-iran-war-disrupts-supply-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 6
+    title: "United Nations report"
+    outlet: "United Nations"
+    url: "https://press.un.org/en/2026/sc16315.doc.htm"
+    accessed: "2026-03-11"
+  - id: 7
+    title: "Iea proposes largest ever oil release strategic reserves wsj reports"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/iea-proposes-largest-ever-oil-release-strategic-reserves-wsj-reports-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 8
+    title: "Update on iea collective action decision of 11 march 2026"
+    outlet: "International Energy Agency"
+    url: "https://www.iea.org/news/update-on-iea-collective-action-decision-of-11-march-2026"
+    accessed: "2026-03-15"
+  - id: 9
+    title: "Iea recommend release strategic oil stocks iran war sources say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/iea-recommend-release-strategic-oil-stocks-iran-war-sources-say-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 10
+    title: "Ustr initiates section 301 investigations relating structural excess capacity and production"
+    outlet: "United States Trade Representative"
+    url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
+    accessed: "2026-03-11"
+  - id: 11
+    title: "Us opens new unfair trade probes rebuild trumps tariff pressure"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/china/us-opens-new-unfair-trade-probes-rebuild-trumps-tariff-pressure-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 12
+    title: "Chiles kast take office biggest right wing shift decades"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/chiles-kast-take-office-biggest-right-wing-shift-decades-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 13
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/00d398c96e0ff25378838dc8831dcbe8"
+    accessed: "2026-03-11"
+  - id: 14
+    title: "Sudan turk appalled surge deadly drone attacks civilians kordofan and white"
+    outlet: "OHCHR"
+    url: "https://www.ohchr.org/en/press-releases/2026/03/sudan-turk-appalled-surge-deadly-drone-attacks-civilians-kordofan-and-white"
+    accessed: "2026-03-12"
+  - id: 15
+    title: "Least 8 students and health worker reportedly killed attack school compound sudans"
+    outlet: "UNICEF"
+    url: "https://www.unicef.org/press-releases/least-8-students-and-health-worker-reportedly-killed-attack-school-compound-sudans"
+    accessed: "2026-03-12"
+  - id: 16
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/e1e102861f0d4cc193a51669f297c670"
+    accessed: "2026-03-11"
+  - id: 17
+    title: "Drones hit east congos biggest city killing french aid worker rebels un say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/africa/drones-hit-east-congos-biggest-city-killing-french-aid-worker-rebels-un-say-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 18
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/606b7feba8685436d1f757de65d4efce"
+    accessed: "2026-03-11"
+  - id: 19
+    title: "Russian drone strike ukraines kharkiv kills two officials say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/russian-drone-strike-ukraines-kharkiv-kills-two-officials-say-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 20
+    title: "Kremlin says britain was involved ukraines missile strike russia"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/kremlin-says-britain-was-involved-ukraines-missile-strike-russia-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 21
+    title: "Russia accuses ukraine britain terrorist attack border city"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/russia-accuses-ukraine-britain-terrorist-attack-border-city-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 22
+    title: "South korea auditor finds cost cutting faulty approvals jeju air crash site"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/south-korea-auditor-finds-cost-cutting-faulty-approvals-jeju-air-crash-site-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 23
+    title: "KBS World report"
+    outlet: "KBS World"
+    url: "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=199975&lang=e"
+    accessed: "2026-03-10"
+  - id: 24
+    title: "Europol leads international operation against environmental crime and waste trafficking"
+    outlet: "Europol"
+    url: "https://www.europol.europa.eu/media-press/newsroom/news/europol-leads-international-operation-against-environmental-crime-and-waste-trafficking"
+    accessed: "2026-03-11"
+  - id: 25
+    title: "Justice department assists global operation targeting environmental crime and waste"
+    outlet: "United States Department of Justice"
+    url: "https://www.justice.gov/opa/pr/justice-department-assists-global-operation-targeting-environmental-crime-and-waste"
+    accessed: "2026-03-11"
+  - id: 26
+    title: "More than 330 arrested europol led operation against illicit waste trade"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/more-than-330-arrested-europol-led-operation-against-illicit-waste-trade-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 27
+    title: "Spain removes ambassador israel"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/spain-removes-ambassador-israel-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 28
+    title: "Spain removes ambassador from israel as opposes war on iran gaza genocide"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/3/11/spain-removes-ambassador-from-israel-as-opposes-war-on-iran-gaza-genocide"
+    accessed: "2026-03-11"
+  - id: 29
+    title: "Norway police apprehend three suspects us embassy bombing"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/norway-police-apprehend-three-suspects-us-embassy-bombing-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 30
+    title: "Three norwegian brothers arrested us embassy blast oslo"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2026/mar/11/three-norwegian-brothers-arrested-us-embassy-blast-oslo"
+    accessed: "2026-03-11"
+  - id: 31
+    title: "Guatemala appoints new election tribunal amid corruption fears"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/guatemala-appoints-new-election-tribunal-amid-corruption-fears-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 32
+    title: "Portal:Current events/2026 March 11"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_11&oldid=1367199351"
+    accessed: "2026-09-22"

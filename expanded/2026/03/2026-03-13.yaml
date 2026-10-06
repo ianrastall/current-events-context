@@ -785,8 +785,7 @@ events:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
-    related_events:
-      - "evt-2026-03-13-023"
+    related_events: []
     notes: "The event centered on the public confirmation of talks, not on any announced agreement."
   - id: "evt-2026-03-13-007"
     category: "Law and crime"
@@ -2097,11 +2096,67 @@ events:
     notes: "Portal-derived event with no deep-research coverage; reported by Saudi Gazette per the Wikipedia portal."
   - id: "evt-2026-03-13-021"
     category: "Armed conflicts and attacks"
+    subcategory: "Middle Eastern crisis"
+    topics:
+      - "Middle Eastern crisis"
+    importance: 5
+    headline: ""
+    summary: ""
+    key_data: []
+    details:
+      what_happened:
+        - ""
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "middle-eastern-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: ""
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by an outlet cited per the Wikipedia portal."
+  - id: "evt-2026-03-13-022"
+    category: "Armed conflicts and attacks"
     subcategory: "Nigerian bandit conflict"
     topics:
       - "Nigerian bandit conflict"
-    importance: 6
-    headline: "Ambush in Plateau State, Nigeria, kills 20 security personnel"
+    importance: 7
+    headline: "Saudi Arabia cuts oil production by 20% after shutting two offshore fields"
     summary: >
       Armed men ambush and kill twenty security personnel, including two senior military
       officers, in Plateau State, Nigeria.
@@ -2119,18 +2174,20 @@ events:
       organizations: []
       states:
         - "Nigeria"
+        - "Saudi Arabia"
     geography:
       countries:
         - "Nigeria"
+        - "Saudi Arabia"
       places:
-        - "Plateau State"
+        - "Safaniya oil field"
       coordinates: []
     time:
       date: "2026-03-13"
       time_known: false
       ongoing: true
     casualty_report:
-      killed: 20
+      killed: null
       injured: null
       displaced: null
       missing: null
@@ -2154,15 +2211,17 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "medium"
-    related_events: []
+    related_events:
+      - "evt-2026-03-13-001"
+      - "evt-2026-03-13-017"
     notes: "Portal-derived event with no deep-research coverage; reported by AP per the Wikipedia portal."
-  - id: "evt-2026-03-13-022"
+  - id: "evt-2026-03-13-023"
     category: "Business and economy"
     subcategory: "Economic impact of the 2026 Iran war"
     topics:
       - "Economic impact of the 2026 Iran war"
-    importance: 7
-    headline: "Saudi Arabia cuts oil production by 20% after shutting two offshore fields"
+    importance: 4
+    headline: "Saudi Arabia cuts oil production by 20% after the shutdown of two offshore oil fields, including Saf"
     summary: >
       Saudi Arabia cuts oil production by 20% after the shutdown of two offshore oil fields,
       including Safaniya.
@@ -2183,8 +2242,7 @@ events:
     geography:
       countries:
         - "Saudi Arabia"
-      places:
-        - "Safaniya oil field"
+      places: []
       coordinates: []
     time:
       date: "2026-03-13"
@@ -2215,17 +2273,15 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "medium"
-    related_events:
-      - "evt-2026-03-13-001"
-      - "evt-2026-03-13-017"
+    related_events: []
     notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
-  - id: "evt-2026-03-13-023"
+  - id: "evt-2026-03-13-024"
     category: "International relations"
     subcategory: "El Salvador–United States relations, Nuclear power in El Salvador"
     topics:
       - "El Salvador–United States relations, Nuclear power in El Salvador"
     importance: 5
-    headline: "El Salvador and the U.S. sign a nuclear cooperation Agreement 123"
+    headline: "Bolivia arrests suspected Uruguayan cartel leader Sebastián Marset"
     summary: >
       El Salvador and the United States sign Agreement 123 under the Atomic Energy Act of
       1954 to build a nuclear power plant in El Salvador that is planned to be operational
@@ -2237,19 +2293,27 @@ events:
       why_it_matters: []
       uncertainty_notes: []
     actors:
-      primary: []
+      primary:
+        - "Sebastián Marset"
       secondary: []
     entities:
-      people: []
+      people:
+        - name: "Sebastián Marset"
+          role: "Uruguayan alleged drug-trafficking leader"
       organizations: []
       states:
         - "El Salvador"
         - "United States"
+        - "Bolivia"
+        - "Uruguay"
     geography:
       countries:
         - "El Salvador"
         - "United States"
-      places: []
+        - "Bolivia"
+        - "Uruguay"
+      places:
+        - "Santa Cruz de la Sierra"
       coordinates: []
     time:
       date: "2026-03-13"
@@ -2260,7 +2324,7 @@ events:
       injured: null
       displaced: null
       missing: null
-      arrest_count: null
+      arrest_count: 1
       damage: null
     classification:
       event_type:
@@ -2280,92 +2344,24 @@ events:
       event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "medium"
-    related_events:
-      - "evt-2026-03-13-006"
+    related_events: []
     notes: "Portal-derived event with no deep-research coverage; reported by El Mundo in Spanish per the Wikipedia portal."
-  - id: "evt-2026-03-13-024"
+  - id: "evt-2026-03-13-025"
     category: "Law and crime"
     subcategory: "Illegal drug trade in Latin America"
     topics:
       - "Illegal drug trade in Latin America"
     importance: 5
-    headline: "Bolivia arrests suspected Uruguayan cartel leader Sebastián Marset"
-    summary: >
-      Bolivian authorities arrest suspected Uruguayan drug cartel leader during a police
-      operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and
-      has a US$2 million reward linked to money laundering allegations, is detained along
-      with four other individuals.
-    key_data: []
-    details:
-      what_happened:
-        - "Bolivian authorities arrest suspected Uruguayan drug cartel leader during a police operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and has a US$2 million reward linked to money laundering allegations, is detained along with four other individuals."
-      why_it_matters: []
-      uncertainty_notes: []
-    actors:
-      primary:
-        - "Sebastián Marset"
-      secondary: []
-    entities:
-      people:
-        - name: "Sebastián Marset"
-          role: "Uruguayan alleged drug-trafficking leader"
-      organizations: []
-      states:
-        - "Bolivia"
-        - "Uruguay"
-    geography:
-      countries:
-        - "Bolivia"
-        - "Uruguay"
-      places:
-        - "Santa Cruz de la Sierra"
-      coordinates: []
-    time:
-      date: "2026-03-13"
-      time_known: false
-      ongoing: false
-    casualty_report:
-      killed: null
-      injured: null
-      displaced: null
-      missing: null
-      arrest_count: 1
-      damage: null
-    classification:
-      event_type:
-        - "law-and-crime"
-        - "arrest"
-      tags:
-        - "illegal-drug-trade-in-latin-america"
-    sources:
-      wikipedia_portal:
-        included: true
-        text_fragment: "Bolivian authorities arrest suspected Uruguayan drug cartel leader during a police operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and has a US$2 million reward linked to money laundering allegations, is detained along with four other individuals."
-      external: []
-    provenance:
-      extracted_from_portal_bullet: true
-      enriched_manually: false
-      last_reviewed_by: null
-    confidence:
-      event_existence: "high"
-      detail_accuracy: "medium"
-      actor_identification: "medium"
-    related_events: []
-    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
-  - id: "evt-2026-03-13-025"
-    category: "Politics and elections"
-    subcategory: "2025–2026 Iranian protests"
-    topics:
-      - "2025–2026 Iranian protests"
-    importance: 5
     headline: "IRGC warns of a stronger response to any new protests"
     summary: >
-      The Islamic Revolutionary Guard Corps warns of a stronger response than in January if
-      new protests against the regime erupt.
+      Bolivian authorities arrest suspected Uruguayan drug cartel leader {{ill|Sebastián
+      Marset|es}} during a police operation in Santa Cruz de la Sierra. Marset, who is
+      wanted by several countries and has a US$2 million reward linked to money laundering
+      allegations, is detained along with four other individuals.
     key_data: []
     details:
       what_happened:
-        - "The Islamic Revolutionary Guard Corps warns of a stronger response than in January if new protests against the regime erupt."
+        - "Bolivian authorities arrest suspected Uruguayan drug cartel leader {{ill|Sebastián Marset|es}} during a police operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and has a US$2 million reward linked to money laundering allegations, is detained along with four other individuals."
       why_it_matters: []
       uncertainty_notes: []
     actors:
@@ -2382,6 +2378,65 @@ events:
     geography:
       countries:
         - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-13"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "arrest"
+      tags:
+        - "illegal-drug-trade-in-latin-america"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Bolivian authorities arrest suspected Uruguayan drug cartel leader {{ill|Sebastián Marset|es}} during a police operation in Santa Cruz de la Sierra. Marset, who is wanted by several countries and has a US$2 million reward linked to money laundering allegations, is detained along with four other individuals."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via France 24 per the Wikipedia portal."
+  - id: "evt-2026-03-13-026"
+    category: "Politics and elections"
+    subcategory: "2025–2026 Iranian protests"
+    topics:
+      - "2025–2026 Iranian protests"
+    importance: 4
+    headline: "The Islamic Revolutionary Guard Corps warns of a stronger response than in January if new protests a"
+    summary: >
+      The Islamic Revolutionary Guard Corps warns of a stronger response than in January if
+      new protests against the regime erupt.
+    key_data: []
+    details:
+      what_happened:
+        - "The Islamic Revolutionary Guard Corps warns of a stronger response than in January if new protests against the regime erupt."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
       places: []
       coordinates: []
     time:

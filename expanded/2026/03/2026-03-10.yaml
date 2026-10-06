@@ -1,0 +1,3041 @@
+date: "2026-03-10"
+source_page:
+  portal: "Portal:Current events/2026 March 10"
+  language: "en"
+  wikipedia_revision_id: 1352721905
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "Portal:Current events/2026 March 10 (revision 1352721905; seed 2026/03/2026-03-10.yaml) + schema-2.1 expansion from commit 0f5cbef6"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: ""
+
+events:
+  - id: "evt-2026-03-10-001"
+    category: "Armed conflicts and attacks"
+    subcategory: "Cross-border attack"
+    topics:
+      - "Airstrikes"
+      - "Maritime security"
+      - "Energy infrastructure"
+      - "2026 Iran war"
+      - "2026 Iranian strikes on the United Arab Emirates"
+      - "Cross-border attack"
+      - "Iran"
+      - "Israel"
+    importance: 7
+    headline: "U.S.-Israeli war on Iran widens with strikes on naval assets and a drone hit on a major UAE industrial site"
+    summary: >
+      The U.S.-Israeli campaign against Iran intensified on March 10, with Washington saying
+      it had destroyed 16 Iranian mine-laying vessels and prepared the heaviest day of
+      strikes so far, while Israeli officials said the war would continue until Israel and
+      the United States decided it should end. Iran kept up retaliatory attacks and threats
+      against Gulf oil exports. In the United Arab Emirates, a drone strike caused a fire at
+      the Ruwais Industrial Complex, a major ADNOC downstream site, underscoring how the
+      conflict had expanded from direct military targets to commercial and energy
+      infrastructure across the region.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.S. military said it had destroyed 16 Iranian mine-laying vessels as part of efforts to blunt threats to shipping in and around the Gulf."
+        - "Top U.S. military officials said March 10 would be the most intensive day of U.S. strikes inside Iran up to that point in the war."
+        - "Israeli Foreign Minister Gideon Saar said the war would continue until Israel and the United States judged that their objectives had been met."
+        - "A drone strike caused a fire at the Ruwais Industrial Complex in Abu Dhabi emirate, where ADNOC operates major refining and petrochemical facilities."
+      why_it_matters:
+        - "The fighting was no longer confined to Iran and Israel, but was directly affecting Gulf commercial and energy infrastructure."
+        - "Mine-laying threats and attacks on energy sites heightened risks to oil exports, shipping insurance, and regional escalation."
+      uncertainty_notes:
+        - "The sources confirmed the destruction of vessels and the Ruwais fire, but did not provide a single verified battlefield-wide casualty total for March 10."
+    actors:
+      primary:
+        - "United States"
+        - "Israel"
+        - "Iran"
+      secondary:
+        - "Abu Dhabi National Oil Company (ADNOC)"
+    entities:
+      people:
+        - name: "Gideon Saar"
+          role: "Israeli Foreign Minister"
+      organizations:
+        - name: "U.S. military"
+          description: ""
+        - name: "Abu Dhabi National Oil Company (ADNOC)"
+          description: ""
+      states:
+        - "United States"
+        - "Israel"
+        - "Iran"
+        - "United Arab Emirates"
+    geography:
+      countries:
+        - "Iran"
+        - "Israel"
+        - "United Arab Emirates"
+      places:
+        - "Strait of Hormuz"
+        - "Ruwais Industrial Complex"
+        - "Abu Dhabi emirate"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Fire damage at the Ruwais Industrial Complex and destruction of Iranian naval assets reported by the United States."
+    classification:
+      event_type:
+        - "military-operation"
+        - "airstrike"
+        - "maritime-security-incident"
+      tags:
+        - "iran-war"
+        - "strait-of-hormuz"
+        - "ruwais"
+        - "gulf-escalation"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Ruwais refinery in Al Dhannah, Abu Dhabi Emirate, United Arab Emirates, shuts down after a drone strike that causes a fire."
+      external:
+        - id: "src-001-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/us-military-striking-iranian-mine-laying-vessels-top-us-general-says-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/israel-not-seeking-endless-war-with-iran-foreign-minister-says-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [2]
+        - id: "src-001-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [3]
+        - id: "src-001-d"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/acf2af139d179fbef62927a8bf9bea55"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-002"
+    category: "Business and economy"
+    subcategory: "Energy"
+    topics:
+      - "Oil refining"
+      - "Airlines"
+      - "Fuel prices"
+      - "Energy"
+      - "Bahrain"
+      - "Iraq"
+    importance: 6
+    headline: "Iran war disrupts Gulf refining and pushes airlines to raise fares and fuel surcharges"
+    summary: >
+      The economic shock from the Iran war deepened on March 10 as consultancy IIR estimated
+      that about 1.9 million barrels per day of Gulf refining capacity had been shut, while
+      carriers in Asia and Europe began raising fares, adding fuel surcharges, or reworking
+      schedules in response to surging jet fuel prices and disrupted flight corridors.
+      Reuters reported that Qantas and Air New Zealand were among the first airlines to
+      react publicly, while broader industry warnings pointed to a worsening squeeze on
+      margins, ticket prices, and cargo flows if the conflict persisted.
+    key_data: []
+    details:
+      what_happened:
+        - "Consultancy IIR said around 1.9 million barrels per day of Gulf refining capacity was shut because of the conflict, affecting facilities across Bahrain, Iraq, Kuwait, Qatar, Saudi Arabia, and the UAE."
+        - "Reuters reported that airlines in Asia and Europe were raising fares or adding fuel surcharges as jet fuel prices spiked sharply."
+        - "Qantas said it would raise international fares, and Air New Zealand also moved to increase prices because of higher fuel costs."
+        - "Carriers including Cathay Pacific and Finnair were adjusting routes and warning of further impacts from constrained airspace and fuel availability."
+      why_it_matters:
+        - "The conflict was transmitting quickly into household and business costs through fuel, freight, and air-travel prices."
+        - "Refining outages and aviation disruptions signaled that the war's economic effects extended well beyond the immediate combat zone."
+      uncertainty_notes:
+        - "The reported refinery outages were point-in-time estimates and could change quickly with further strikes, repairs, or policy intervention."
+    actors:
+      primary:
+        - "Airlines in Asia and Europe"
+        - "Gulf refiners"
+      secondary:
+        - "Qantas Airways"
+        - "Air New Zealand"
+        - "IIR"
+    entities:
+      people: []
+      organizations:
+        - name: "Qantas Airways"
+          description: ""
+        - name: "Air New Zealand"
+          description: "New Zealand national airline"
+        - name: "Cathay Pacific"
+          description: ""
+        - name: "Finnair"
+          description: ""
+        - name: "IIR"
+          description: ""
+      states:
+        - "Bahrain"
+        - "Iraq"
+        - "Kuwait"
+        - "Qatar"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+        - "Australia"
+        - "New Zealand"
+    geography:
+      countries:
+        - "Bahrain"
+        - "Iraq"
+        - "Kuwait"
+        - "Qatar"
+        - "Saudi Arabia"
+        - "United Arab Emirates"
+        - "Australia"
+        - "New Zealand"
+      places:
+        - "Gulf region"
+        - "Asia"
+        - "Europe"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Refining shutdowns, higher airline operating costs, and widespread transport disruption."
+    classification:
+      event_type:
+        - "economic-disruption"
+        - "energy-shock"
+        - "transport-disruption"
+      tags:
+        - "oil-prices"
+        - "airfares"
+        - "jet-fuel"
+        - "gulf-refineries"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/around-19-million-bpd-oil-refining-capacity-shut-due-iran-war-gulf-iir-says-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [5]
+        - id: "src-002-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/middle-east/airlines-begin-hike-fares-due-higher-fuel-prices-shares-stabilise-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [6]
+        - id: "src-002-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/qantas-hikes-fares-international-routes-fuel-costs-surge-mideast-conflict-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-003"
+    category: "Law and crime"
+    subcategory: "International criminal justice"
+    topics:
+      - "Ukraine war"
+      - "Crimes against humanity"
+      - "Children"
+      - "International criminal justice"
+      - "Russia"
+      - "Ukraine"
+    importance: 6
+    headline: "U.N. inquiry says Russia's deportation and transfer of Ukrainian children amount to crimes against humanity"
+    summary: >
+      The United Nations' Independent International Commission of Inquiry on Ukraine said on
+      March 10 that Russia's deportation and transfer of Ukrainian children, as well as
+      their enforced disappearance, amounted to crimes against humanity. Reuters reported
+      that the finding drew on thousands of documents and more than 200 interviews. The
+      commission said many children had not been returned, while Russia rejected the
+      accusations and maintained that it had evacuated civilians voluntarily from a war
+      zone.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.N. commission concluded that deportation and forcible transfer of Ukrainian children by Russian authorities amounted to crimes against humanity."
+        - "The inquiry also cited enforced disappearance of children among the violations documented in its latest report."
+        - "Reuters said the commission's work drew on thousands of documents and more than 200 interviews."
+        - "Ukraine welcomed the findings and urged more international pressure, while Russia denied wrongdoing."
+      why_it_matters:
+        - "The report elevated one of the most contested aspects of the Ukraine war from political accusation to a formal U.N. crimes-against-humanity finding."
+        - "The conclusions reinforced separate international legal pressure, including previous ICC arrest warrants tied to child deportations."
+      uncertainty_notes:
+        - "Russia rejected the allegations and said children had been moved voluntarily for safety."
+    actors:
+      primary:
+        - "Russia"
+      secondary:
+        - "Independent International Commission of Inquiry on Ukraine"
+        - "Ukraine"
+        - "United Nations Human Rights Council"
+    entities:
+      people: []
+      organizations:
+        - name: "Independent International Commission of Inquiry on Ukraine"
+          description: ""
+        - name: "United Nations Human Rights Council"
+          description: ""
+        - name: "International Criminal Court"
+          description: "Permanent international court for crimes against humanity and war crimes"
+      states:
+        - "Russia"
+        - "Ukraine"
+        - "Belarus"
+    geography:
+      countries:
+        - "Russia"
+        - "Ukraine"
+        - "Belarus"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Long-term harm to children through deportation, transfer, and disappearance documented by the inquiry."
+    classification:
+      event_type:
+        - "un-finding"
+        - "war-crimes-investigation"
+        - "human-rights-report"
+      tags:
+        - "ukraine"
+        - "russia"
+        - "children"
+        - "crimes-against-humanity"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/europe/russias-deportations-ukrainian-children-amount-crimes-against-humanity-un-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [8]
+        - id: "src-003-b"
+          outlet: "OHCHR"
+          url: "https://www.ohchr.org/en/press-releases/2026/03/un-commission-concludes-deportation-and-forcible-transfer-ukrainian-children"
+          publication_date: "2026-03-10"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-004"
+    category: "Politics and elections"
+    subcategory: "Legislation"
+    topics:
+      - "United Kingdom"
+      - "House of Lords"
+      - "Constitutional reform"
+      - "Legislation"
+    importance: 6
+    headline: "Britain's parliament approves legislation to remove hereditary peers from the House of Lords"
+    summary: >
+      Britain's parliament approved legislation removing the remaining hereditary peers from
+      the House of Lords, completing the final parliamentary stage of a reform first begun
+      in 1999. The bill ended the right of the last 92 hereditary peers to sit and vote in
+      the upper chamber and fulfilled a manifesto pledge of Prime Minister Keir Starmer's
+      Labour government. Official parliamentary and government material described the vote
+      as one of the biggest reforms to Parliament and UK democracy in a generation.
+    key_data: []
+    details:
+      what_happened:
+        - "The House of Lords completed the final stage of the Hereditary Peers Bill on March 10 after consideration of Commons reasons in legislative 'ping pong'."
+        - "The measure removes the remaining 92 hereditary peers from the Lords, ending their automatic right to sit and vote by inheritance."
+        - "The bill was presented by the government as a major constitutional reform and a manifesto commitment of the Labour administration."
+      why_it_matters:
+        - "The change removed one of the most visible hereditary features of the British legislature."
+        - "It marked the completion of a reform process left unfinished when most hereditary peers were removed in 1999."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Parliament of the United Kingdom"
+        - "Labour government"
+      secondary:
+        - "House of Lords"
+        - "House of Commons"
+    entities:
+      people:
+        - name: "Keir Starmer"
+          role: "Prime Minister"
+        - name: "Angela Smith"
+          role: ""
+      organizations:
+        - name: "Parliament of the United Kingdom"
+          description: ""
+        - name: "House of Lords"
+          description: ""
+        - name: "House of Commons"
+          description: ""
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places:
+        - "London"
+        - "Westminster"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "legislative-vote"
+        - "constitutional-reform"
+      tags:
+        - "house-of-lords"
+        - "hereditary-peers"
+        - "uk-politics"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "UK Government"
+          url: "https://www.gov.uk/government/news/hereditary-peers-bill-passes-in-house-of-lords-paving-the-way-for-further-reform"
+          publication_date: "2026-03-10"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [10]
+        - id: "src-004-b"
+          outlet: "Parliament of the United Kingdom"
+          url: "https://www.parliament.uk/business/news/2026/march-2026/hereditary-peers-bill-ping-pong"
+          publication_date: "2026-03-11"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [11]
+        - id: "src-004-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/uk/uk-ends-centuries-old-hereditary-seats-parliament-upper-chamber-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2026-03-10-030"
+    notes: ""
+  - id: "evt-2026-03-10-005"
+    category: "Politics and elections"
+    subcategory: ""
+    topics:
+      - "Kosovo"
+      - "Snap elections"
+      - "Court ruling"
+    importance: 6
+    headline: "Kosovo court blocks the president from setting a snap election date"
+    summary: >
+      Kosovo's Constitutional Court temporarily barred President Vjosa Osmani from
+      announcing a date for a snap election, deepening an institutional crisis that followed
+      the dissolution of parliament after lawmakers failed to elect a president. Reuters
+      reported that the ruling held until March 31 and also froze parliament's effort to
+      elect a president, intensifying a power struggle between Osmani and Prime Minister
+      Albin Kurti over whether the dissolution was constitutional.
+    key_data: []
+    details:
+      what_happened:
+        - "The Constitutional Court ordered a temporary halt on President Vjosa Osmani's move to set a date for snap elections."
+        - "The ruling followed Osmani's dissolution of parliament after lawmakers failed to elect a new president by the constitutional deadline."
+        - "Reuters reported that the court also froze parliament's effort to elect a president while it considered the dispute."
+        - "Prime Minister Albin Kurti, once an ally of Osmani, challenged the dissolution in court."
+      why_it_matters:
+        - "The decision prolonged Kosovo's political paralysis and delayed a path out of the crisis."
+        - "It underscored the fragility of Kosovo's constitutional arrangements for electing a president and maintaining government continuity."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Constitutional Court of Kosovo"
+        - "Vjosa Osmani"
+      secondary:
+        - "Albin Kurti"
+        - "Government of Kosovo"
+    entities:
+      people:
+        - name: "Vjosa Osmani"
+          role: "President"
+        - name: "Albin Kurti"
+          role: "Prime Minister"
+      organizations:
+        - name: "Constitutional Court of Kosovo"
+          description: ""
+        - name: "Government of Kosovo"
+          description: ""
+        - name: "Parliament of Kosovo"
+          description: ""
+      states:
+        - "Kosovo"
+    geography:
+      countries:
+        - "Kosovo"
+      places:
+        - "Pristina"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "court-ruling"
+        - "election-crisis"
+      tags:
+        - "kosovo"
+        - "constitutional-court"
+        - "snap-election"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/court-bars-kosovo-president-announcing-snap-election-date-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "This March 10 follow-up clarified that the injunction also blocked the president from announcing a snap election date."
+  - id: "evt-2026-03-10-006"
+    category: "Armed conflicts and attacks"
+    subcategory: "Drone strikes"
+    topics:
+      - "Sudan"
+      - "Drone warfare"
+      - "Civilian deaths"
+      - "Sudanese civil war"
+      - "Drone strikes"
+    importance: 7
+    headline: "Drone strike on a truck carrying mourners kills 40 in Sudan's West Kordofan"
+    summary: >
+      A drone strike hit a pick-up truck carrying mourners to a funeral on the road between
+      Abu Zabad and El-Fula in Sudan's West Kordofan, killing 40 people, most of them women,
+      according to a medical source cited by AFP. Subsequent reporting described the attack
+      as part of a widening pattern of drone warfare against civilians in Sudan's Kordofan
+      and nearby regions. The available sources confirmed the deaths and location but did
+      not firmly attribute responsibility for this specific strike.
+    key_data: []
+    details:
+      what_happened:
+        - "A pick-up truck carrying civilians to a funeral was struck by a drone on the road between Abu Zabad and El-Fula in West Kordofan."
+        - "AFP, citing a medical source at Abu Zabad Hospital, reported that 40 people were killed and that most of the dead were women."
+        - "The attack occurred amid escalating drone warfare in Sudan's broader civil conflict."
+      why_it_matters:
+        - "The strike highlighted the growing lethality of drone attacks against civilians in Sudan."
+        - "It added to evidence that the Kordofan front was becoming one of the war's most dangerous zones for noncombatants."
+      uncertainty_notes:
+        - "The sources reviewed did not conclusively identify the force responsible for this specific strike."
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places:
+        - "Abu Zabad"
+        - "El-Fula"
+        - "West Kordofan"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 40
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "Destruction of a civilian transport vehicle."
+    classification:
+      event_type:
+        - "drone-strike"
+        - "mass-casualty-incident"
+      tags:
+        - "sudan"
+        - "west-kordofan"
+        - "funeral-mourners"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Forty people are killed in a drone strike on a truck carrying funeralgoers near Abu Zabad, West Kordofan, Sudan."
+      external:
+        - id: "src-006-a"
+          outlet: "Nampa / AFP"
+          url: "https://www.nampa.org/text/22884913"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [14]
+        - id: "src-006-b"
+          outlet: "TRT Afrika"
+          url: "https://www.trtafrika.com/english/article/0018867661dd"
+          publication_date: "2026-03-12"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-007"
+    category: "Law and crime"
+    subcategory: ""
+    topics:
+      - "Public transport"
+      - "Switzerland"
+      - "Mass casualty fire"
+      - "2026 Kerzers bus fire"
+    importance: 6
+    headline: "Bus fire in Kerzers, Switzerland, kills six people"
+    summary: >
+      A fire on a regional PostBus in Kerzers, Switzerland, killed six people and injured
+      five others on March 10. Swiss authorities said the blaze was likely the result of a
+      deliberate act by a passenger who apparently set himself alight with a flammable
+      substance, while ruling out any initial indication of terrorism. Reuters and AP both
+      reported that the incident triggered a criminal investigation and shocked the local
+      community.
+    key_data: []
+    details:
+      what_happened:
+        - "The bus caught fire in Kerzers in Fribourg canton on Tuesday evening, killing six people."
+        - "Five other people were injured, with several taken to hospital by emergency services."
+        - "Swiss authorities said the most likely scenario was that a passenger set himself on fire using a flammable substance and that he was believed to be among the dead."
+        - "Police said they found no indication of a terror motive and opened a criminal investigation."
+      why_it_matters:
+        - "The fire caused one of Switzerland's deadliest public-transport incidents in recent memory."
+        - "The case raised immediate public-safety concerns while remaining, at least initially, outside a terrorism framework."
+      uncertainty_notes:
+        - "The final reconstruction of motive and sequence remained under criminal investigation."
+    actors:
+      primary:
+        - "Fribourg cantonal police"
+      secondary:
+        - "PostBus"
+    entities:
+      people:
+        - name: "Guy Parmelin"
+          role: ""
+      organizations:
+        - name: "Fribourg cantonal police"
+          description: ""
+        - name: "PostBus"
+          description: ""
+      states:
+        - "Switzerland"
+    geography:
+      countries:
+        - "Switzerland"
+      places:
+        - "Kerzers"
+        - "Fribourg canton"
+        - "Bern"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 6
+      injured: 5
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: "The PostBus was destroyed by fire."
+    classification:
+      event_type:
+        - "transport-fire"
+        - "mass-casualty-incident"
+        - "criminal-investigation"
+      tags:
+        - "switzerland"
+        - "kerzers"
+        - "bus-fire"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Six people are killed and five others are injured in a suspected arson attack on a postal bus in Kerzers, Fribourg Canton, Switzerland."
+      external:
+        - id: "src-007-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/least-six-people-die-coach-fire-switzerland-local-police-say-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [16]
+        - id: "src-007-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/9bb42b64495d16ffb11f3298f5b354dd"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-008"
+    category: "Business and economy"
+    subcategory: "International trade"
+    topics:
+      - "China"
+      - "Exports"
+      - "Trade surplus"
+      - "International trade"
+      - "United States"
+    importance: 6
+    headline: "China's January-February exports surge far above forecasts"
+    summary: >
+      China reported a much stronger-than-expected start to 2026 trade, with exports up
+      about 22% in January and February and the trade surplus reaching $213.6 billion.
+      Reuters and AP both said demand for electronics, semiconductors, autos, and other
+      manufactured goods drove the increase, while exports to the United States still fell.
+      The data strengthened perceptions that external demand was helping stabilize China's
+      economy even as domestic weakness and geopolitical risks persisted.
+    key_data: []
+    details:
+      what_happened:
+        - "Reuters reported that China's exports rose about 22% year-on-year in the first two months of 2026, well above analyst forecasts."
+        - "The combined January-February trade surplus reached $213.6 billion."
+        - "AP reported especially strong gains in semiconductors, autos, and other electronics-related exports."
+        - "Exports to the United States declined even as shipments to Europe, Latin America, and other Asian markets rose."
+      why_it_matters:
+        - "The figures suggested China's manufacturers entered 2026 with strong momentum despite domestic economic strains."
+        - "The results also highlighted how trade patterns were shifting away from the U.S. and toward other markets."
+      uncertainty_notes:
+        - "Analysts cited in coverage warned that conflict-related shipping and energy shocks could still weaken trade later in the year."
+    actors:
+      primary:
+        - "China"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "General Administration of Customs of China"
+          description: ""
+      states:
+        - "China"
+        - "United States"
+    geography:
+      countries:
+        - "China"
+        - "United States"
+      places:
+        - "Beijing"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economic-data-release"
+        - "trade-report"
+      tags:
+        - "china-exports"
+        - "trade-surplus"
+        - "customs-data"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/asia-pacific/chinas-exports-turbocharge-into-2026-after-record-breaking-year-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [18]
+        - id: "src-008-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/b25cf7991025e8efd49afc8b17a1295f"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-009"
+    category: "Law and crime"
+    subcategory: "International criminal justice"
+    topics:
+      - "El Salvador"
+      - "State of emergency"
+      - "Crimes against humanity"
+      - "International criminal justice"
+    importance: 6
+    headline: "International jurists accuse El Salvador of likely crimes against humanity under the state of emergency"
+    summary: >
+      A group of international jurists filed a report with the Inter-American Commission on
+      Human Rights arguing that Salvadoran authorities had likely committed crimes against
+      humanity during the country's prolonged state of emergency. Reuters reported that the
+      filing accused the government of systematic torture, murder, forced disappearances,
+      and other abuses linked to anti-gang policies. An accompanying release from the
+      International Commission of Jurists described the allegations as the product of a
+      state policy rather than isolated misconduct.
+    key_data: []
+    details:
+      what_happened:
+        - "International jurists submitted a report to the Inter-American Commission on Human Rights on March 10."
+        - "The filing alleged systematic abuses under El Salvador's state of emergency, including torture, killings, forced disappearances, sexual violence, and persecution."
+        - "The report argued there were reasonable grounds to believe crimes against humanity were being committed."
+      why_it_matters:
+        - "The filing intensified international legal scrutiny of President Nayib Bukele's high-profile anti-gang security model."
+        - "It framed the alleged abuses as systematic and state-directed, raising the stakes beyond ordinary human-rights criticism."
+      uncertainty_notes:
+        - "The allegations were presented in a filing and had not been adjudicated by the commission on March 10."
+    actors:
+      primary:
+        - "International Commission of Jurists"
+      secondary:
+        - "Government of El Salvador"
+        - "Inter-American Commission on Human Rights"
+    entities:
+      people:
+        - name: "Nayib Bukele"
+          role: "President of El Salvador"
+      organizations:
+        - name: "Inter-American Commission on Human Rights"
+          description: ""
+        - name: "International Commission of Jurists"
+          description: ""
+      states:
+        - "El Salvador"
+    geography:
+      countries:
+        - "El Salvador"
+      places:
+        - "San Salvador"
+        - "Geneva"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "human-rights-filing"
+        - "legal-complaint"
+      tags:
+        - "el-salvador"
+        - "state-of-emergency"
+        - "human-rights"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/americas/el-salvador-likely-committed-crimes-against-humanity-during-state-emergency-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [20]
+        - id: "src-009-b"
+          outlet: "International Commission of Jurists"
+          url: "https://www.icj.org/el-salvador-crimes-against-humanity-within-the-framework-of-public-security-policy"
+          publication_date: "2026-03-11"
+          source_type: "ngo_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [21]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-010"
+    category: "Sports"
+    subcategory: ""
+    topics:
+      - "World Baseball Classic"
+      - "Upset"
+      - "Pool B"
+      - "United States"
+    importance: 6
+    headline: "Italy shocks the United States 8-6 in the World Baseball Classic"
+    summary: >
+      Italy delivered one of the biggest upsets of the 2026 World Baseball Classic by
+      beating the United States 8-6 in Houston and moving to 3-0 in Pool B. Italy built an
+      8-0 lead with early power hitting before holding off a late American comeback. AP,
+      Reuters, and Olympics coverage all said the defeat left the heavily favored United
+      States dependent on the result of Italy's next game and tournament tiebreakers to
+      reach the quarterfinals.
+    key_data: []
+    details:
+      what_happened:
+        - "Italy beat the United States 8-6 at Daikin Park in Houston."
+        - "Italy raced to an 8-0 advantage, powered by home runs from Kyle Teel, Sam Antonacci, and Jac Caglianone."
+        - "The United States rallied late behind home runs from Gunnar Henderson and Pete Crow-Armstrong but could not complete the comeback."
+        - "The result put Italy atop Pool B and left the United States needing help from subsequent results to advance."
+      why_it_matters:
+        - "The game was one of the tournament's biggest shocks and reshaped the quarterfinal picture."
+        - "It underscored the competitive depth of the international field beyond the traditional favorites."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Italy national baseball team"
+        - "United States national baseball team"
+      secondary: []
+    entities:
+      people:
+        - name: "Kyle Teel"
+          role: ""
+        - name: "Sam Antonacci"
+          role: ""
+        - name: "Jac Caglianone"
+          role: ""
+        - name: "Gunnar Henderson"
+          role: ""
+        - name: "Pete Crow-Armstrong"
+          role: ""
+        - name: "Aaron Judge"
+          role: ""
+        - name: "Michael Lorenzen"
+          role: ""
+      organizations:
+        - name: "World Baseball Classic"
+          description: ""
+      states:
+        - "Italy"
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Daikin Park"
+        - "Houston, Texas"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports-result"
+        - "tournament-upset"
+      tags:
+        - "world-baseball-classic"
+        - "italy"
+        - "united-states"
+        - "baseball"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "Olympics.com"
+          url: "https://www.olympics.com/en/news/2026-world-baseball-classic-italy-stun-united-states"
+          publication_date: "2026-03-10"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [22]
+        - id: "src-010-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/wbc-united-states-quarterfinals-derosa-2c51274b1dbe46d091d0a80f237aa542"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [23]
+        - id: "src-010-c"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/sports/usa-stunned-by-italy-needs-help-reach-wbc-quarterfinals--flm-2026-03-11"
+          publication_date: "2026-03-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [24]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-011"
+    category: "Arts and culture"
+    subcategory: "Arts"
+    topics:
+      - "Italy"
+      - "Caravaggio"
+      - "Museum collection"
+      - "Arts"
+    importance: 6
+    headline: "Italy acquires a rare Caravaggio portrait for the Palazzo Barberini"
+    summary: >
+      Italy announced the purchase of a rare Caravaggio portrait of Monsignor Maffeo
+      Barberini for 30 million euros, one of the largest amounts the state has paid for a
+      single artwork. Reuters and AP reported that the painting, created around 1598 and now
+      destined for the Palazzo Barberini in Rome, had been in a private Florentine
+      collection and was publicly shown only recently. The acquisition was presented as a
+      major effort to keep an important work by one of Italy's most influential painters in
+      the public domain and on public display.
+    key_data: []
+    details:
+      what_happened:
+        - "Italy bought the 'Portrait of Monsignor Maffeo Barberini' for 30 million euros."
+        - "The painting depicts the future Pope Urban VIII and dates to around 1598."
+        - "After a year of negotiations, the work was acquired from a private collection and assigned to the Palazzo Barberini in Rome."
+      why_it_matters:
+        - "The purchase kept a rare and highly valuable Caravaggio in a public Italian collection."
+        - "It was one of the state's largest single-artwork acquisitions and reinforced the cultural significance of the Palazzo Barberini collection."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Italian Ministry of Culture"
+      secondary:
+        - "Palazzo Barberini"
+    entities:
+      people:
+        - name: "Caravaggio"
+          role: ""
+        - name: "Maffeo Barberini"
+          role: ""
+        - name: "Alessandro Giuli"
+          role: ""
+      organizations:
+        - name: "Italian Ministry of Culture"
+          description: ""
+        - name: "Palazzo Barberini"
+          description: ""
+      states:
+        - "Italy"
+    geography:
+      countries:
+        - "Italy"
+      places:
+        - "Rome"
+        - "Palazzo Barberini"
+        - "Florence"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "state-acquisition"
+        - "museum-announcement"
+      tags:
+        - "caravaggio"
+        - "art"
+        - "italy"
+        - "palazzo-barberini"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/lifestyle/italy-buys-rare-caravaggio-portrait-after-yearlong-talks-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [25]
+        - id: "src-011-b"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/52d739100b450709b88c7e74f761de22"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [26]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2026-03-10-012"
+    category: "International relations"
+    subcategory: "Regional coordination"
+    topics:
+      - "G7"
+      - "Strategic reserves"
+      - "Iran crisis"
+      - "Regional coordination"
+      - "France"
+      - "United States"
+    importance: 6
+    headline: "G7 energy ministers stop short of an emergency oil release as leaders prepare a crisis call"
+    summary: >
+      Governments moved to coordinate a political response to the energy shock from the Iran
+      war, but without immediate consensus on releasing strategic reserves. Reuters reported
+      that G7 energy ministers and the European Union discussed soaring prices on March 10
+      and asked the International Energy Agency to study options instead of authorizing an
+      immediate drawdown. Later the same day, France said President Emmanuel Macron would
+      host a G7 leaders' call for March 11 focused on the Iran crisis and rising energy
+      prices.
+    key_data: []
+    details:
+      what_happened:
+        - "G7 energy ministers and EU officials held talks on March 10 about the economic effects of the Iran war."
+        - "They stopped short of approving an immediate release of strategic oil reserves and instead asked the IEA to assess available options."
+        - "France announced that President Emmanuel Macron would convene a call with G7 leaders the next day to address the crisis and energy prices."
+      why_it_matters:
+        - "The discussions showed that the conflict had become a major multilateral economic-security issue for advanced economies."
+        - "The lack of immediate agreement highlighted divisions over how quickly to intervene in oil markets."
+      uncertainty_notes:
+        - "The ministers asked the IEA to study options on March 10; the historic coordinated release came later."
+    actors:
+      primary:
+        - "G7 energy ministers"
+        - "European Union"
+        - "International Energy Agency"
+      secondary:
+        - "France"
+    entities:
+      people:
+        - name: "Emmanuel Macron"
+          role: "President"
+      organizations:
+        - name: "G7"
+          description: "Group of Seven major advanced economies"
+        - name: "European Union"
+          description: "Political and economic union of 27 European states"
+        - name: "International Energy Agency"
+          description: "Intergovernmental energy agency"
+      states:
+        - "France"
+        - "United States"
+        - "Canada"
+        - "Japan"
+        - "Italy"
+        - "United Kingdom"
+        - "Germany"
+    geography:
+      countries:
+        - "France"
+        - "United States"
+        - "Canada"
+        - "Japan"
+        - "Italy"
+        - "United Kingdom"
+        - "Germany"
+      places:
+        - "Paris"
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "emergency-meeting"
+        - "diplomatic-coordination"
+        - "energy-policy-response"
+      tags:
+        - "g7"
+        - "iea"
+        - "oil-reserves"
+        - "energy-crisis"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-012-a"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/business/energy/g7-eu-hold-calls-soaring-energy-prices-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+        - id: "src-012-b"
+          outlet: "Reuters"
+          url: "https://www.reuters.com/world/macron-host-g7-leaders-call-iran-crisis-energy-prices-2026-03-10"
+          publication_date: "2026-03-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [28]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: "The next day, IEA member countries approved a record emergency oil release after the March 10 consultations stopped short of an immediate drawdown."
+  - id: "evt-2026-03-10-013"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Strait of Hormuz crisis"
+    topics:
+      - "2026 Iran war"
+      - "2026 Strait of Hormuz crisis"
+    importance: 5
+    headline: "United States intelligence sources report that Iran has started to deploy underwater mines in the St"
+    summary: >
+      United States intelligence sources report that Iran has started to deploy underwater
+      mines in the Strait of Hormuz. The Central Command says that American forces have sunk
+      several Iranian ships, including 16 minelaying vessels.
+    key_data: []
+    details:
+      what_happened:
+        - "United States intelligence sources report that Iran has started to deploy underwater mines in the Strait of Hormuz. The Central Command says that American forces have sunk several Iranian ships, including 16 minelaying vessels."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Iran"
+    geography:
+      countries:
+        - "United States"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "2026-iran-war"
+        - "2026-strait-of-hormuz-crisis"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "United States intelligence sources report that Iran has started to deploy underwater mines in the Strait of Hormuz. The Central Command says that American forces have sunk several Iranian ships, including 16 minelaying vessels."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by CNN and CNBC per the Wikipedia portal."
+  - id: "evt-2026-03-10-014"
+    category: "Armed conflicts and attacks"
+    subcategory: "United Kingdom involvement in the 2026 Iran war"
+    topics:
+      - "2026 Iran war"
+      - "United Kingdom involvement in the 2026 Iran war"
+    importance: 5
+    headline: "Royal Navy warship HMS Dragon leaves Portsmouth and heads to Cyprus in response to a drone strike on"
+    summary: >
+      Royal Navy warship HMS Dragon leaves Portsmouth and heads to Cyprus in response to a
+      drone strike on the United Kingdom's RAF Akrotiri base.
+    key_data: []
+    details:
+      what_happened:
+        - "Royal Navy warship HMS Dragon leaves Portsmouth and heads to Cyprus in response to a drone strike on the United Kingdom's RAF Akrotiri base."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Cyprus"
+        - "United Kingdom"
+    geography:
+      countries:
+        - "Cyprus"
+        - "United Kingdom"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "2026-iran-war"
+        - "united-kingdom-involvement-in-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Royal Navy warship HMS Dragon leaves Portsmouth and heads to Cyprus in response to a drone strike on the United Kingdom's RAF Akrotiri base."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC News per the Wikipedia portal."
+  - id: "evt-2026-03-10-015"
+    category: "Armed conflicts and attacks"
+    subcategory: "2026 Iran war"
+    topics:
+      - "2026 Iran war"
+    importance: 5
+    headline: "According to Iran International, American and Israeli airstrikes have killed many Islamic Revolution"
+    summary: >
+      According to Iran International, American and Israeli airstrikes have killed many
+      Islamic Revolutionary Guard Corps commanders and generals, including Basij chief
+      Asadollah Badfar. Prior to his reported death, Badfar was involved in crackdowns
+      against the 2025–2026 protests.
+    key_data: []
+    details:
+      what_happened:
+        - "According to Iran International, American and Israeli airstrikes have killed many Islamic Revolutionary Guard Corps commanders and generals, including Basij chief Asadollah Badfar. Prior to his reported death, Badfar was involved in crackdowns against the 2025–2026 protests."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iran"
+    geography:
+      countries:
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "airstrike"
+        - "protest"
+      tags:
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "According to Iran International, American and Israeli airstrikes have killed many Islamic Revolutionary Guard Corps commanders and generals, including Basij chief Asadollah Badfar. Prior to his reported death, Badfar was involved in crackdowns against the 2025–2026 protests."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Iran International and Jerusalem Post per the Wikipedia portal."
+  - id: "evt-2026-03-10-016"
+    category: "Armed conflicts and attacks"
+    subcategory: "Attacks in Russia during the Russo-Ukrainian war"
+    topics:
+      - "Russo-Ukrainian war"
+      - "Attacks in Russia during the Russo-Ukrainian war"
+    importance: 5
+    headline: "Six people are killed and 37 others are injured in a Ukrainian missile attack in Bryansk, Russia."
+    summary: >
+      Six people are killed and 37 others are injured in a Ukrainian missile attack in
+      Bryansk, Russia.
+    key_data: []
+    details:
+      what_happened:
+        - "Six people are killed and 37 others are injured in a Ukrainian missile attack in Bryansk, Russia."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: 6
+      injured: 37
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "missile-strike"
+      tags:
+        - "russo-ukrainian-war"
+        - "attacks-in-russia-during-the-russo-ukrainian-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Six people are killed and 37 others are injured in a Ukrainian missile attack in Bryansk, Russia."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Xinhua per the Wikipedia portal."
+  - id: "evt-2026-03-10-017"
+    category: "Armed conflicts and attacks"
+    subcategory: "Russo-Ukrainian war"
+    topics:
+      - "Russo-Ukrainian war"
+    importance: 5
+    headline: "The Ukrainian Special Operations Forces announce several overnight drone strikes on Russian electron"
+    summary: >
+      The Ukrainian Special Operations Forces announce several overnight drone strikes on
+      Russian electronic warfare stations and warehouses in Donetsk and Makiivka, Donetsk
+      Oblast, Ukraine.
+    key_data: []
+    details:
+      what_happened:
+        - "The Ukrainian Special Operations Forces announce several overnight drone strikes on Russian electronic warfare stations and warehouses in Donetsk and Makiivka, Donetsk Oblast, Ukraine."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Ukraine"
+    geography:
+      countries:
+        - "Ukraine"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "russo-ukrainian-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Ukrainian Special Operations Forces announce several overnight drone strikes on Russian electronic warfare stations and warehouses in Donetsk and Makiivka, Donetsk Oblast, Ukraine."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Ukrainska Pravda per the Wikipedia portal."
+  - id: "evt-2026-03-10-018"
+    category: "Armed conflicts and attacks"
+    subcategory: "Sudanese civil war"
+    topics:
+      - "Sudanese civil war"
+    importance: 5
+    headline: "Seven people, including three children, are killed and 13 others are injured in a Rapid Support Forc"
+    summary: >
+      Seven people, including three children, are killed and 13 others are injured in a
+      Rapid Support Forces drone strike in Dilling, South Kordofan, Sudan.
+    key_data: []
+    details:
+      what_happened:
+        - "Seven people, including three children, are killed and 13 others are injured in a Rapid Support Forces drone strike in Dilling, South Kordofan, Sudan."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: 13
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+        - "drone-strike"
+      tags:
+        - "sudanese-civil-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Seven people, including three children, are killed and 13 others are injured in a Rapid Support Forces drone strike in Dilling, South Kordofan, Sudan."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Daily Sabah per the Wikipedia portal."
+  - id: "evt-2026-03-10-019"
+    category: "Business and economy"
+    subcategory: "2026 Strait of Hormuz crisis, Economic impact of the 2026 Iran war"
+    topics:
+      - "2026 Strait of Hormuz crisis, Economic impact of the 2026 Iran war"
+    importance: 4
+    headline: "The price of West Texas Intermediate crude oil rises by more than five percent to US$87.65 per barre"
+    summary: >
+      The price of West Texas Intermediate crude oil rises by more than five percent to
+      US$87.65 per barrel after United States president Donald Trump escalated threats
+      related to the Strait of Hormuz.
+    key_data: []
+    details:
+      what_happened:
+        - "The price of West Texas Intermediate crude oil rises by more than five percent to US$87.65 per barrel after United States president Donald Trump escalated threats related to the Strait of Hormuz."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "2026-strait-of-hormuz-crisis-economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The price of West Texas Intermediate crude oil rises by more than five percent to US$87.65 per barrel after United States president Donald Trump escalated threats related to the Strait of Hormuz."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via SpaceWar.com per the Wikipedia portal."
+  - id: "evt-2026-03-10-020"
+    category: "Business and economy"
+    subcategory: "2026 Strait of Hormuz crisis, Economic impact of the 2026 Iran war"
+    topics:
+      - "2026 Strait of Hormuz crisis, Economic impact of the 2026 Iran war"
+    importance: 4
+    headline: "Thai prime minister Anutin Charnvirakul orders remote work and the suspension of official internatio"
+    summary: >
+      Thai prime minister Anutin Charnvirakul orders remote work and the suspension of
+      official international trips for government officials, and reduced electricity use in
+      government buildings amid supply concerns linked to the Iranian war.
+    key_data: []
+    details:
+      what_happened:
+        - "Thai prime minister Anutin Charnvirakul orders remote work and the suspension of official international trips for government officials, and reduced electricity use in government buildings amid supply concerns linked to the Iranian war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy"
+      tags:
+        - "2026-strait-of-hormuz-crisis-economic-impact-of-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Thai prime minister Anutin Charnvirakul orders remote work and the suspension of official international trips for government officials, and reduced electricity use in government buildings amid supply concerns linked to the Iranian war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-10-021"
+    category: "Disasters and accidents"
+    subcategory: "Tornadoes of 2026"
+    topics:
+      - "Tornadoes of 2026"
+    importance: 4
+    headline: "At least two are killed and six are injured after a hailstorm and four possible tornadoes strike the"
+    summary: >
+      At least two are killed and six are injured after a hailstorm and four possible
+      tornadoes strike the vicinity of Kankakee, Illinois, and Wheatfield, Indiana, United
+      States.
+    key_data: []
+    details:
+      what_happened:
+        - "At least two are killed and six are injured after a hailstorm and four possible tornadoes strike the vicinity of Kankakee, Illinois, and Wheatfield, Indiana, United States."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 2
+      injured: 6
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+        - "storm"
+      tags:
+        - "tornadoes-of-2026"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "At least two are killed and six are injured after a hailstorm and four possible tornadoes strike the vicinity of Kankakee, Illinois, and Wheatfield, Indiana, United States."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by WLS-TV per the Wikipedia portal."
+  - id: "evt-2026-03-10-022"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "The Indonesian rescue agency ends search and rescue operations after a garbage landslide at the Bant"
+    summary: >
+      The Indonesian rescue agency ends search and rescue operations after a garbage
+      landslide at the Bantar Gebang landfill in Bekasi, West Java, on March 8 killed seven
+      people, with all individuals previously reported missing accounted for.
+    key_data: []
+    details:
+      what_happened:
+        - "The Indonesian rescue agency ends search and rescue operations after a garbage landslide at the Bantar Gebang landfill in Bekasi, West Java, on March 8 killed seven people, with all individuals previously reported missing accounted for."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Indonesian rescue agency ends search and rescue operations after a garbage landslide at the Bantar Gebang landfill in Bekasi, West Java, on March 8 killed seven people, with all individuals previously reported missing accounted for."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-10-023"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics: []
+    importance: 5
+    headline: "Five people are killed and eleven others are injured when a bus collides with a truck on the Kampala"
+    summary: >
+      Five people are killed and eleven others are injured when a bus collides with a truck
+      on the Kampala–Gulu Highway near Bweyale Town, Kiryandongo District, Uganda.
+    key_data: []
+    details:
+      what_happened:
+        - "Five people are killed and eleven others are injured when a bus collides with a truck on the Kampala–Gulu Highway near Bweyale Town, Kiryandongo District, Uganda."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Uganda"
+    geography:
+      countries:
+        - "Uganda"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: 5
+      injured: 11
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+        - "collision"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Five people are killed and eleven others are injured when a bus collides with a truck on the Kampala–Gulu Highway near Bweyale Town, Kiryandongo District, Uganda."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Daily Monitor per the Wikipedia portal."
+  - id: "evt-2026-03-10-024"
+    category: "Health and environment"
+    subcategory: "Arctic sea ice decline"
+    topics:
+      - "Arctic sea ice decline"
+    importance: 4
+    headline: "The U.S. National Snow and Ice Data Center reports that Arctic sea ice reached about 14.22 million s"
+    summary: >
+      The U.S. National Snow and Ice Data Center reports that Arctic sea ice reached about
+      14.22 million square kilometers, which is among the lowest yearly high points recorded
+      in more than four decades of satellite monitoring.
+    key_data: []
+    details:
+      what_happened:
+        - "The U.S. National Snow and Ice Data Center reports that Arctic sea ice reached about 14.22 million square kilometers, which is among the lowest yearly high points recorded in more than four decades of satellite monitoring."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "health-and-environment"
+      tags:
+        - "arctic-sea-ice-decline"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The U.S. National Snow and Ice Data Center reports that Arctic sea ice reached about 14.22 million square kilometers, which is among the lowest yearly high points recorded in more than four decades of satellite monitoring."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via RFI per the Wikipedia portal."
+  - id: "evt-2026-03-10-025"
+    category: "International relations"
+    subcategory: "Australia–Iran relations, Defection of Iran women's national football team"
+    topics:
+      - "Australia–Iran relations, Defection of Iran women's national football team"
+    importance: 4
+    headline: "Australia grants humanitarian visas to five Iranian women football players who sought asylum, includ"
+    summary: >
+      Australia grants humanitarian visas to five Iranian women football players who sought
+      asylum, including captain Zahra Ghanbari, Mona Hamoudi, Fatemeh Pasandideh, Atefeh
+      Ramezanizadeh, and Zahra Sarbali, citing fears of persecution after refusing to sing
+      Iran's national anthem before an Asian Cup match in Gold Coast, Queensland.
+    key_data: []
+    details:
+      what_happened:
+        - "Australia grants humanitarian visas to five Iranian women football players who sought asylum, including captain Zahra Ghanbari, Mona Hamoudi, Fatemeh Pasandideh, Atefeh Ramezanizadeh, and Zahra Sarbali, citing fears of persecution after refusing to sing Iran's national anthem before an Asian Cup match in Gold Coast, Queensland."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Australia"
+        - "Iran"
+    geography:
+      countries:
+        - "Australia"
+        - "Iran"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "australia-iran-relations-defection-of-iran-womens-national-football-team"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Australia grants humanitarian visas to five Iranian women football players who sought asylum, including captain Zahra Ghanbari, Mona Hamoudi, Fatemeh Pasandideh, Atefeh Ramezanizadeh, and Zahra Sarbali, citing fears of persecution after refusing to sing Iran's national anthem before an Asian Cup match in Gold Coast, Queensland."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Reuters per the Wikipedia portal."
+  - id: "evt-2026-03-10-026"
+    category: "International relations"
+    subcategory: "Azerbaijan–Netherlands relations, Iran–Netherlands relations, Reactions to the 2026 Iran war"
+    topics:
+      - "Azerbaijan–Netherlands relations, Iran–Netherlands relations, Reactions to the 2026 Iran war"
+    importance: 4
+    headline: "Dutch foreign minister Tom Berendsen announces the temporary relocation of staff and operations of t"
+    summary: >
+      Dutch foreign minister Tom Berendsen announces the temporary relocation of staff and
+      operations of the Netherlands' embassy in Tehran to Baku, Azerbaijan, citing security
+      risks to personnel amid the Iranian war.
+    key_data: []
+    details:
+      what_happened:
+        - "Dutch foreign minister Tom Berendsen announces the temporary relocation of staff and operations of the Netherlands' embassy in Tehran to Baku, Azerbaijan, citing security risks to personnel amid the Iranian war."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Netherlands"
+        - "Azerbaijan"
+    geography:
+      countries:
+        - "Netherlands"
+        - "Azerbaijan"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "azerbaijan-netherlands-relations-iran-netherlands-relations-reactions-to-the-2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Dutch foreign minister Tom Berendsen announces the temporary relocation of staff and operations of the Netherlands' embassy in Tehran to Baku, Azerbaijan, citing security risks to personnel amid the Iranian war."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via Al Arabiya per the Wikipedia portal."
+  - id: "evt-2026-03-10-027"
+    category: "International relations"
+    subcategory: "China–North Korea relations, Impact of the COVID-19 pandemic on public transport"
+    topics:
+      - "China–North Korea relations, Impact of the COVID-19 pandemic on public transport"
+    importance: 4
+    headline: "Train services between Beijing, China, and Pyongyang, North Korea, are announced to resume for the f"
+    summary: >
+      Train services between Beijing, China, and Pyongyang, North Korea, are announced to
+      resume for the first time since it was suspended six years ago due to the COVID-19
+      pandemic.
+    key_data: []
+    details:
+      what_happened:
+        - "Train services between Beijing, China, and Pyongyang, North Korea, are announced to resume for the first time since it was suspended six years ago due to the COVID-19 pandemic."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "China"
+        - "North Korea"
+    geography:
+      countries:
+        - "China"
+        - "North Korea"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "china-north-korea-relations-impact-of-the-covid-19-pandemic-on-public-transport"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Train services between Beijing, China, and Pyongyang, North Korea, are announced to resume for the first time since it was suspended six years ago due to the COVID-19 pandemic."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by Yonhap per the Wikipedia portal."
+  - id: "evt-2026-03-10-028"
+    category: "Law and crime"
+    subcategory: "2026 Iran war"
+    topics:
+      - "2026 Iran war"
+    importance: 4
+    headline: "The Iranian intelligence ministry announces the arrest of 30 individuals, including one unidentified"
+    summary: >
+      The Iranian intelligence ministry announces the arrest of 30 individuals, including
+      one unidentified foreign national, on allegations of espionage during the war,
+      accusing the foreign suspect of providing information on the locations and movements
+      of Iranian security forces and military facilities to hostile parties.
+    key_data: []
+    details:
+      what_happened:
+        - "The Iranian intelligence ministry announces the arrest of 30 individuals, including one unidentified foreign national, on allegations of espionage during the war, accusing the foreign suspect of providing information on the locations and movements of Iranian security forces and military facilities to hostile parties."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "arrest"
+      tags:
+        - "2026-iran-war"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Iranian intelligence ministry announces the arrest of 30 individuals, including one unidentified foreign national, on allegations of espionage during the war, accusing the foreign suspect of providing information on the locations and movements of Iranian security forces and military facilities to hostile parties."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AFP via SpaceWar.com per the Wikipedia portal."
+  - id: "evt-2026-03-10-029"
+    category: "Law and crime"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Shots are fired at the United States consulate in Toronto, Ontario, Canada, with no casualties. Poli"
+    summary: >
+      Shots are fired at the United States consulate in Toronto, Ontario, Canada, with no
+      casualties. Police are investigating the shooting as a national security incident.
+    key_data: []
+    details:
+      what_happened:
+        - "Shots are fired at the United States consulate in Toronto, Ontario, Canada, with no casualties. Police are investigating the shooting as a national security incident."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United States"
+        - "Canada"
+    geography:
+      countries:
+        - "United States"
+        - "Canada"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+        - "shooting"
+        - "fire"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Shots are fired at the United States consulate in Toronto, Ontario, Canada, with no casualties. Police are investigating the shooting as a national security incident."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by CBS News per the Wikipedia portal."
+  - id: "evt-2026-03-10-030"
+    category: "Politics and elections"
+    subcategory: "Reform of the House of Lords"
+    topics:
+      - "Reform of the House of Lords"
+    importance: 4
+    headline: "Members of the House of Lords vote to pass a bill to remove hereditary peers and heads to King Charl"
+    summary: >
+      Members of the House of Lords vote to pass a bill to remove hereditary peers and heads
+      to King Charles III for royal assent.
+    key_data: []
+    details:
+      what_happened:
+        - "Members of the House of Lords vote to pass a bill to remove hereditary peers and heads to King Charles III for royal assent."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "reform-of-the-house-of-lords"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Members of the House of Lords vote to pass a bill to remove hereditary peers and heads to King Charles III for royal assent."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2026-03-10-004"
+    notes: "Portal-derived event with no deep-research coverage; reported by NPR per the Wikipedia portal."
+  - id: "evt-2026-03-10-031"
+    category: "Politics and elections"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Cardinal Louis Sako, the Patriarch of the Chaldean Catholic Church, based in Iraq, retires at the ag"
+    summary: >
+      Cardinal Louis Sako, the Patriarch of the Chaldean Catholic Church, based in Iraq,
+      retires at the age of 76.
+    key_data: []
+    details:
+      what_happened:
+        - "Cardinal Louis Sako, the Patriarch of the Chaldean Catholic Church, based in Iraq, retires at the age of 76."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Iraq"
+    geography:
+      countries:
+        - "Iraq"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Cardinal Louis Sako, the Patriarch of the Chaldean Catholic Church, based in Iraq, retires at the age of 76."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP and Vatican News per the Wikipedia portal."
+  - id: "evt-2026-03-10-032"
+    category: "Politics and elections"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Malagasy interim president and military leader Michael Randrianirina removes prime minister Herintsa"
+    summary: >
+      Malagasy interim president and military leader Michael Randrianirina removes prime
+      minister Herintsalama Rajaonarivelo from power and dissolves the entire Cabinet
+      without explanation, five months after they were assigned following the 2025 protests.
+    key_data: []
+    details:
+      what_happened:
+        - "Malagasy interim president and military leader Michael Randrianirina removes prime minister Herintsalama Rajaonarivelo from power and dissolves the entire Cabinet without explanation, five months after they were assigned following the 2025 protests."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "protest"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Malagasy interim president and military leader Michael Randrianirina removes prime minister Herintsalama Rajaonarivelo from power and dissolves the entire Cabinet without explanation, five months after they were assigned following the 2025 protests."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by DW per the Wikipedia portal."
+  - id: "evt-2026-03-10-033"
+    category: "Politics and elections"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Tibetans protest worldwide after 67 years of China's occupation of Tibet."
+    summary: >
+      Tibetans protest worldwide after 67 years of China's occupation of Tibet.
+    key_data: []
+    details:
+      what_happened:
+        - "Tibetans protest worldwide after 67 years of China's occupation of Tibet."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "China"
+    geography:
+      countries:
+        - "China"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+        - "protest"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Tibetans protest worldwide after 67 years of China's occupation of Tibet."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by CNBC TV18 per the Wikipedia portal."
+  - id: "evt-2026-03-10-034"
+    category: "Sports"
+    subcategory: "Bam Adebayo's 83-point game"
+    topics:
+      - "2025–26 NBA season"
+      - "Bam Adebayo's 83-point game"
+    importance: 4
+    headline: "In basketball, Miami Heat player Bam Adebayo scores 83 points in a 150–129 win over the Washington W"
+    summary: >
+      In basketball, Miami Heat player Bam Adebayo scores 83 points in a 150–129 win over
+      the Washington Wizards, marking the second-most points in a game in NBA history and
+      most since Wilt Chamberlain's 100-point game in 1962. Adebayo’s 36 free throws and 43
+      attempts also set single-game NBA records.
+    key_data: []
+    details:
+      what_happened:
+        - "In basketball, Miami Heat player Bam Adebayo scores 83 points in a 150–129 win over the Washington Wizards, marking the second-most points in a game in NBA history and most since Wilt Chamberlain's 100-point game in 1962. Adebayo’s 36 free throws and 43 attempts also set single-game NBA records."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "2025-26-nba-season"
+        - "bam-adebayos-83-point-game"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In basketball, Miami Heat player Bam Adebayo scores 83 points in a 150–129 win over the Washington Wizards, marking the second-most points in a game in NBA history and most since Wilt Chamberlain's 100-point game in 1962. Adebayo’s 36 free throws and 43 attempts also set single-game NBA records."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by AP and ESPN per the Wikipedia portal."
+  - id: "evt-2026-03-10-035"
+    category: "Sports"
+    subcategory: "Brazil at the 2026 Winter Paralympics"
+    topics:
+      - "2026 Winter Paralympics"
+      - "Brazil at the 2026 Winter Paralympics"
+    importance: 4
+    headline: "Brazilian skier Cristian Ribera wins Brazil's, Latin America's and South America's first ever medal "
+    summary: >
+      Brazilian skier Cristian Ribera wins Brazil's, Latin America's and South America's
+      first ever medal at the Winter Paralympics.
+    key_data: []
+    details:
+      what_happened:
+        - "Brazilian skier Cristian Ribera wins Brazil's, Latin America's and South America's first ever medal at the Winter Paralympics."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "Brazil"
+    geography:
+      countries:
+        - "Brazil"
+      places: []
+      coordinates: []
+    time:
+      date: "2026-03-10"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+        - "competition-result"
+      tags:
+        - "2026-winter-paralympics"
+        - "brazil-at-the-2026-winter-paralympics"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Brazilian skier Cristian Ribera wins Brazil's, Latin America's and South America's first ever medal at the Winter Paralympics."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by BBC per the Wikipedia portal."
+
+strategic_conclusion: ""
+
+works_cited:
+  - id: 1
+    title: "Us military striking iranian mine laying vessels top us general says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/us-military-striking-iranian-mine-laying-vessels-top-us-general-says-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 2
+    title: "Israel not seeking endless war with iran foreign minister says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/israel-not-seeking-endless-war-with-iran-foreign-minister-says-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 3
+    title: "Fire hits site housing abu dhabi national oil company operations after drone"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 4
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/acf2af139d179fbef62927a8bf9bea55"
+    accessed: "2026-03-10"
+  - id: 5
+    title: "Around 19 million bpd oil refining capacity shut due iran war gulf iir says"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/around-19-million-bpd-oil-refining-capacity-shut-due-iran-war-gulf-iir-says-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 6
+    title: "Airlines begin hike fares due higher fuel prices shares stabilise"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/middle-east/airlines-begin-hike-fares-due-higher-fuel-prices-shares-stabilise-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 7
+    title: "Qantas hikes fares international routes fuel costs surge mideast conflict"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/qantas-hikes-fares-international-routes-fuel-costs-surge-mideast-conflict-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 8
+    title: "Russias deportations ukrainian children amount crimes against humanity un"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/europe/russias-deportations-ukrainian-children-amount-crimes-against-humanity-un-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 9
+    title: "Un commission concludes deportation and forcible transfer ukrainian children"
+    outlet: "OHCHR"
+    url: "https://www.ohchr.org/en/press-releases/2026/03/un-commission-concludes-deportation-and-forcible-transfer-ukrainian-children"
+    accessed: "2026-03-10"
+  - id: 10
+    title: "Hereditary peers bill passes in house of lords paving the way for further reform"
+    outlet: "UK Government"
+    url: "https://www.gov.uk/government/news/hereditary-peers-bill-passes-in-house-of-lords-paving-the-way-for-further-reform"
+    accessed: "2026-03-10"
+  - id: 11
+    title: "Hereditary peers bill ping pong"
+    outlet: "Parliament of the United Kingdom"
+    url: "https://www.parliament.uk/business/news/2026/march-2026/hereditary-peers-bill-ping-pong"
+    accessed: "2026-03-11"
+  - id: 12
+    title: "Uk ends centuries old hereditary seats parliament upper chamber"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/uk/uk-ends-centuries-old-hereditary-seats-parliament-upper-chamber-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 13
+    title: "Court bars kosovo president announcing snap election date"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/court-bars-kosovo-president-announcing-snap-election-date-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 14
+    title: "Nampa / AFP report"
+    outlet: "Nampa / AFP"
+    url: "https://www.nampa.org/text/22884913"
+    accessed: "2026-03-11"
+  - id: 15
+    title: "TRT Afrika report"
+    outlet: "TRT Afrika"
+    url: "https://www.trtafrika.com/english/article/0018867661dd"
+    accessed: "2026-03-12"
+  - id: 16
+    title: "Least six people die coach fire switzerland local police say"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/least-six-people-die-coach-fire-switzerland-local-police-say-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 17
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/9bb42b64495d16ffb11f3298f5b354dd"
+    accessed: "2026-03-11"
+  - id: 18
+    title: "Chinas exports turbocharge into 2026 after record breaking year"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/asia-pacific/chinas-exports-turbocharge-into-2026-after-record-breaking-year-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 19
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/b25cf7991025e8efd49afc8b17a1295f"
+    accessed: "2026-03-10"
+  - id: 20
+    title: "El salvador likely committed crimes against humanity during state emergency"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/americas/el-salvador-likely-committed-crimes-against-humanity-during-state-emergency-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 21
+    title: "El salvador crimes against humanity within the framework of public security policy"
+    outlet: "International Commission of Jurists"
+    url: "https://www.icj.org/el-salvador-crimes-against-humanity-within-the-framework-of-public-security-policy"
+    accessed: "2026-03-11"
+  - id: 22
+    title: "2026 world baseball classic italy stun united states"
+    outlet: "Olympics.com"
+    url: "https://www.olympics.com/en/news/2026-world-baseball-classic-italy-stun-united-states"
+    accessed: "2026-03-10"
+  - id: 23
+    title: "Wbc united states quarterfinals derosa"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/wbc-united-states-quarterfinals-derosa-2c51274b1dbe46d091d0a80f237aa542"
+    accessed: "2026-03-11"
+  - id: 24
+    title: "Usa stunned by italy needs help reach wbc quarterfinals flm"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/sports/usa-stunned-by-italy-needs-help-reach-wbc-quarterfinals--flm-2026-03-11"
+    accessed: "2026-03-11"
+  - id: 25
+    title: "Italy buys rare caravaggio portrait after yearlong talks"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/lifestyle/italy-buys-rare-caravaggio-portrait-after-yearlong-talks-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 26
+    title: "Associated Press report"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/52d739100b450709b88c7e74f761de22"
+    accessed: "2026-03-10"
+  - id: 27
+    title: "G7 eu hold calls soaring energy prices"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/business/energy/g7-eu-hold-calls-soaring-energy-prices-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 28
+    title: "Macron host g7 leaders call iran crisis energy prices"
+    outlet: "Reuters"
+    url: "https://www.reuters.com/world/macron-host-g7-leaders-call-iran-crisis-energy-prices-2026-03-10"
+    accessed: "2026-03-10"
+  - id: 29
+    title: "Portal:Current events/2026 March 10"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_10&oldid=1352721905"
+    accessed: "2026-09-22"

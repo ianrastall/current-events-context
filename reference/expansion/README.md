@@ -20,7 +20,8 @@ been checked across `PYTHONHASHSEED` values.
 `inputs.json` is the authoritative report selector. It names the exact report
 and checks its SHA-256 after CRLF/LF normalization; neither suffix ordering nor
 file size selects a report. January 1-15 replay the newer published authored
-snapshots with their review state unchanged. Historical positional overlays
+snapshots; unchanged replay preserves review state, while guarded corrections
+reset review state to draft. Historical positional overlays
 for those days are retained as evidence but do not apply to these snapshots.
 Changing a registered report requires an explicit, reviewed manifest change.
 
@@ -31,7 +32,8 @@ python reference/expansion/inputs.py 2026-01-16 --report reference/deep-research
 ```
 
 Authored snapshots are immutable source inputs imported from a pinned Git
-commit. Building them preserves their exact bytes. They are synthesis inputs,
+commit. Building them preserves their exact bytes unless an explicit authored correction
+applies. They are synthesis inputs,
 not Wikipedia source caches. Their null revision IDs remain unknown.
 
 | Path | Content |
@@ -43,9 +45,11 @@ not Wikipedia source caches. Their null revision IDs remain unknown.
 | `overlays/<date>.json` | Per-day judgment layer (below) |
 | `roles.json` | Shared roles and descriptions for people and organizations; `__as_org__` reclassifies names the heuristics mistake for people |
 
-This wikitext cache serves only this build. It is not the persistent source
-cache planned for the seed parser rewrite (see `HANDOFF.md`), although it
-records the same identity fields.
+The seed source cache under `reference/sources/wikipedia/` imports these exact
+inputs and holds additional pinned revisions, including March 10-11. Neither
+source cache may be hand-edited. `legacy-fixes.json` guards the original Git
+blob and the corrected legacy interpretation. `inputs.json` guards both source
+identities and parsed sequences before applying any positional overlay.
 
 ## Overlay keys
 
@@ -63,5 +67,41 @@ exclusion) and `p:<n>` for the n-th portal bullet in the pinned revision.
 | `related` | groups of event keys to cross-link in `related_events` |
 | `analytical_overview`, `strategic_conclusion` | replace the text taken from the report |
 
-To correct a generated file, change its overlay or `roles.json` and rebuild.
-Do not edit files in `expanded/` by hand.
+## Authored corrections
+
+January authored snapshots use stable event IDs, not positional overlays.
+Print a guarded locator for the event you intend to correct:
+
+```
+python reference/expansion/corrections.py 2026-01-10 --event-id evt-2026-01-10-001
+```
+
+Save one or more locator objects as a JSON array in
+`authored-overlays/2026-01-10.json`. Supply a factual `reason` and a nonempty
+`patch` containing the synthesis fields to change. The builder verifies the
+snapshot hash, selected report hash, event ID and full original event hash.
+It rejects drift, duplicate event patches and event-ID changes, validates the
+result and resets all three review fields to draft. Corrections require source evidence; an unresolved review lead alone does not
+justify a patch. `--document` prints a whole-snapshot guard for a coordinated
+prose, bibliography or event change. Such a record must be the sole record in
+its overlay and guards the entire original document. The corrected document
+passes schema and reference validation before writing.
+
+For historical March build overlays, changing an overlay requires explicit
+review of its hashes in `inputs.json`. The portal and parsed-event hashes must
+still identify the intended source positions. Never blindly update hashes to
+bypass a drift failure. New registered days without historical overlays can
+build normally from their explicitly selected report and pinned portal.
+Do not edit files in `expanded/` or immutable authored inputs by hand.
+
+## Machine review queue
+
+```
+python reference/expansion/review.py 2026-01-10 2026-01-11 --output reference/reconciliation/january-review-queue.json
+```
+
+Supply every intended date; the command regenerates its output. It checks
+URLs and quotations against selected reports and records portal-only events
+and later publication dates for publisher review. It does not mark any file
+reviewed. Bibliography validation also requires each external reference to
+identify the source URL, rather than an unrelated existing entry.

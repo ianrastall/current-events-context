@@ -27,14 +27,17 @@ def selection(date):
     if date not in records:
         raise ValueError(f"No explicit input for {date}; register it with inputs.py")
     record = records[date]
-    report = resolve(record["report"])
-    if digest(report, text=True) != record["report_sha256"]:
-        raise ValueError(f"Research input drift for {date}: {report.name}")
+    if record.get("report"):
+        report = resolve(record["report"])
+        if digest(report, text=True) != record["report_sha256"]:
+            raise ValueError(f"Research input drift for {date}: {report.name}")
+    elif record["mode"] != "legacy_build":
+        raise ValueError(f"Missing selected research report for {date}")
     if record["mode"] == "authored_snapshot":
         snapshot = resolve(record["snapshot"])
         if digest(snapshot) != record["snapshot_sha256"]:
             raise ValueError(f"Authored snapshot drift for {date}")
-    elif record["mode"] != "build":
+    elif record["mode"] not in ("build", "legacy_build"):
         raise ValueError(f"Unsupported input mode for {date}")
     return record
 

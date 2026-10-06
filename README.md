@@ -10,6 +10,8 @@ synthesis have separate provenance and are stored separately.
 | `reference/deep-research/` | Source research reports |
 | `reference/expansion/inputs.json` | Explicit report/snapshot identities |
 | `reference/schema/` | Synthesis contract, authoring guide and validator |
+| `reference/sources/wikipedia/` | Exact immutable source payloads and provenance |
+| `provisional/extraction-v1/` | Separate, locally regenerated extraction candidates |
 | `seed/` | Collection CLI and archival migration tools |
 
 The repository is transitioning from published mixed daily paths to separate
@@ -39,6 +41,25 @@ commands acquire network data and are not parser-replay commands. GDELT is
 optional live enrichment. Never use a full refetch to repair historical
 extraction or add `--commit`/`--push` to provisional runs.
 
+## Offline source replay
+
+```
+python -m seed cache 2026-01-01 2026-01-31
+python -m seed reparse 2026-01-01 2026-01-31 --output-root provisional/extraction-v1
+```
+
+`cache` acquires the oldids already recorded in seeds. For legacy daily files
+without an oldid, `cache --capture-unpinned` explicitly records current revisions
+as new inputs without changing their daily files; it cannot recover their
+original capture. `--skip-unpinned` instead leaves them out. These policies are
+mutually exclusive. `reparse` never acquires network data and fails on missing
+inputs by default. `--cached-only` explicitly
+permits a partial run with every skipped date recorded in `report.json`.
+Candidates retain hierarchy, raw fragments, links, citations and warnings.
+See `reference/schema/EXTRACTION_MIGRATION.md` for the public replacement gate.
+New network captures also save their raw input and a structured artifact under
+`provisional/captures/`; optional Git workflows include the capture's inputs.
+
 ## Research and synthesis
 
 Start a research run with `llm_prompt.txt` and the exact daily date. Save the
@@ -55,7 +76,8 @@ durable guarded overlays, followed by regeneration and validation. Check
 original publishers for dates, facts, quotations and source disagreements.
 Size does not determine whether a file is complete or reviewed.
 
-January 1-9 preserve published reviewed status; January 10-15 are draft.
+Unchanged January 2-3 and 5-7 preserve published reviewed status. January 1,
+4, 8-9 and 10-15 are draft after import or guarded corrections.
 January 16-31 await research. A monthly summary should be generated only
 from completed daily inputs, with related developments deduplicated.
 

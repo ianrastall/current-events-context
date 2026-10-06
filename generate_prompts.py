@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "reference" / "expansion"))
 import inputs
+import corrections
 
 
 def generate(dates, output_dir, *, include_reviewed=False):
@@ -17,10 +18,15 @@ def generate(dates, output_dir, *, include_reviewed=False):
     written = []
     for day in dates:
         selected = inputs.selection(day)
+        if selected["mode"] == "legacy_build":
+            print(f"Skipped {day}: legacy synthesis is not a report-conversion input")
+            continue
         target = ROOT / "expanded" / day[:4] / day[5:7] / (day + ".yaml")
         if selected["mode"] == "authored_snapshot":
             import yaml
             doc = yaml.safe_load(inputs.resolve(selected["snapshot"]).read_bytes())
+            overlay = corrections.path(day)
+            doc = corrections.apply(doc, selected, json.loads(overlay.read_text(encoding="utf-8")) if overlay.exists() else [])
             if doc["dataset"]["compiler"]["reviewed"] and not include_reviewed:
                 continue
         report = inputs.resolve(selected["report"]).read_text(encoding="utf-8")

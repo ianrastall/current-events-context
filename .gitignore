@@ -400,3 +400,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Reproducible migration candidates stay separate from the canonical corpus.
+/provisional/extraction-v*/

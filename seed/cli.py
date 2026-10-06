@@ -1,5 +1,5 @@
 """
-seed.cli — `python -m seed <date|range|plan> ...`
+seed.cli — `python -m seed <date|range|plan|cache|reparse> ...`
 
 Replaces update_data.py (daily cron), backfill_history.py (bulk forward/
 backward CLI), and backfill_batches.py (git-aware batch runner) with one
@@ -89,6 +89,12 @@ def fetch_and_save_day(
         categories=wiki_result.categories,
         gdelt_block=gdelt_block,
     )
+    if wiki_result.source_meta is not None:
+        from seed.source import capture
+        capture(day.isoformat(), wiki_result.source_meta)
+    if wiki_result.archive is not None:
+        from seed.replay import save_capture
+        save_capture(day.isoformat(), wiki_result.archive, gdelt_block)
     save(day, doc)
     return True, wiki_result.source_title, {
         "revision_id": wiki_result.revision_id,
@@ -208,12 +214,13 @@ class ProcessResult:
     saved: list[Path]
     skipped: int = 0
     missing: int = 0
+    acquisition_paths: list[Path] | None = None
 
 
 def process_items(
     items: list[WorkItem], *, batch: str, report: RunReport | None, no_gdelt: bool, monthly_cache: MonthlyCache
 ) -> ProcessResult:
-    result = ProcessResult(saved=[])
+    result = ProcessResult(saved=[], acquisition_paths=[])
 
     for item in items:
         size_before = item.path.stat().st_size if item.path.exists() else None
@@ -231,6 +238,8 @@ def process_items(
 
         after = item.path.read_text(encoding="utf-8") if item.path.exists() else None
         size_after = item.path.stat().st_size if item.path.exists() else None
+        from seed.source import capture_paths
+        result.acquisition_paths.extend(capture_paths(item.day.isoformat()))
 
         if before != after:
             result.saved.append(item.path)
@@ -298,7 +307,7 @@ def run_range(args: argparse.Namespace) -> int:
             totals.missing += result.missing
 
             if args.commit:
-                committed = commit_paths(result.saved, f"Seed current events {label}")
+                committed = commit_paths(list(dict.fromkeys(result.saved + result.acquisition_paths)), f"Seed current events {label}")
                 if committed and args.push:
                     from seed.gitops import push_with_retry
                     push_with_retry(args.branch, args.token_env, args.push_attempts)
@@ -333,6 +342,24 @@ def build_parser() -> argparse.ArgumentParser:
         description="Fetch Wikipedia Current Events + GDELT and write seed YAML files.",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
+
+    from seed.replay import run_cache, run_reparse
+    cache_cmd = subparsers.add_parser("cache", help="Import existing cache and explicitly acquire recorded oldids.")
+    cache_cmd.add_argument("start", nargs="?", type=parse_iso_date)
+    cache_cmd.add_argument("end", nargs="?", type=parse_iso_date)
+    cache_cmd.add_argument("--batch-size", type=int, choices=range(1, 51), default=50)
+    policy = cache_cmd.add_mutually_exclusive_group()
+    policy.add_argument("--skip-unpinned", action="store_true", help="Report legacy/missing days without assigning a new source")
+    policy.add_argument("--capture-unpinned", action="store_true", help="Explicitly capture current revisions as new inputs for unpinned daily seeds")
+    cache_cmd.set_defaults(func=run_cache)
+    replay_cmd = subparsers.add_parser("reparse", help="Generate separate extraction candidates offline.")
+    replay_cmd.add_argument("start", type=parse_iso_date)
+    replay_cmd.add_argument("end", type=parse_iso_date)
+    replay_cmd.add_argument("--output-root", type=Path, required=True)
+    replay_cmd.add_argument("--cached-only", action="store_true", help="Explicit partial run; report uncached/missing dates.")
+    replay_cmd.add_argument("--verify", action="store_true", help="Repeat each parse and verify bytes, structural round trip and source locations.")
+    replay_cmd.add_argument("--overrides", type=Path)
+    replay_cmd.set_defaults(func=run_reparse)
 
     date_cmd = subparsers.add_parser("date", help="Fetch one day (default: yesterday UTC).")
     date_cmd.add_argument("date", nargs="?", type=parse_iso_date, default=None)

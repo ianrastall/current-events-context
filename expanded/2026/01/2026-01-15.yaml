@@ -18,29 +18,26 @@ editorial_policy:
   require_source_support: true
 
 analytical_overview: >
-  January 15, 2026 was a day of elections, disasters and follow-through on stories
-  from earlier in the week. Ugandans voted for president and parliament under the
-  internet shutdown imposed two days earlier, with President Yoweri Museveni seeking
-  another term against Bobi Wine, and Maharashtra held municipal elections in 29
-  cities including Mumbai. In Thailand a second construction crane in two days fell
-  onto a road, killing two people on Rama II Road near Bangkok; the transport
-  minister said the same contractor was behind both accidents and the government
-  moved against its contracts. Explosions and fire collapsed buildings in central
-  Utrecht, injuring at least four, and floods in northern South Africa reached a
-  toll of 19 dead and forced helicopter evacuations from Kruger National Park.
-
-  In security and diplomacy, U.S. forces seized another sanctioned tanker, the
-  Guyanese-flagged Veronica, in the Caribbean. President Emmanuel Macron said
-  France would send more forces to Greenland and join the Danish-organized
-  exercise Arctic Endurance. Japan and the Philippines signed a military logistics
-  pact, and Canadian Prime Minister Mark Carney began a visit to Beijing with an
-  energy agreement. President Trump threatened to invoke the Insurrection Act over
-  protests against immigration agents in Minneapolis. In Yemen, the prime minister
-  resigned and was replaced by the foreign minister as the last UAE-backed member
-  was removed from the Presidential Leadership Council. Singapore's prime minister
-  formally removed Pritam Singh as Leader of the Opposition, the Crew-11 astronauts
-  returned to Earth after the first medical evacuation from the ISS, and a
-  Frigidaire mini-fridge recall was expanded by 330,000 units.
+  January 15, 2026 was a day of elections, disasters and follow-through on stories from
+  earlier in the week. Ugandans voted for president and parliament under the internet
+  shutdown imposed two days earlier, with President Yoweri Museveni seeking another term
+  against Bobi Wine, and Maharashtra held municipal elections in 29 cities including Mumbai.
+  In Thailand a second construction crane in two days fell onto a road, killing two people
+  on Rama II Road near Bangkok; the transport minister said the same contractor was behind
+  both accidents and the government moved against its contracts. Explosions and fire
+  collapsed buildings in central Utrecht, injuring at least four, and floods in northern
+  South Africa reached a toll of 19 dead and forced helicopter evacuations from Kruger
+  National Park. In security and diplomacy, U.S. forces seized another sanctioned tanker,
+  the Guyanese-flagged Veronica, in the Caribbean. President Emmanuel Macron said France
+  would send more forces to Greenland and join the Danish-organized exercise Arctic
+  Endurance. Japan and the Philippines signed a military logistics pact, and Canadian Prime
+  Minister Mark Carney began a visit to Beijing with an energy agreement. President Trump
+  threatened to invoke the Insurrection Act over protests against immigration agents in
+  Minneapolis. In Yemen, the prime minister resigned and was replaced by the foreign
+  minister as the last UAE-backed member was removed from the Presidential Leadership
+  Council. Singapore's prime minister formally removed Pritam Singh as Leader of the
+  Opposition, the Crew-11 astronauts returned to Earth after the first medical evacuation
+  from the ISS, and a Frigidaire mini-fridge recall was expanded by 330,000 units.
 
 events:
   - id: "evt-2026-01-15-001"
@@ -52,14 +49,14 @@ events:
     importance: 7
     headline: "U.S. forces seize Guyanese-flagged tanker Veronica in the Caribbean"
     summary: >
-      Before dawn on January 15, Marines and sailors of Joint Task Force Southern
-      Spear, acting in support of the Department of Homeland Security, launched from
-      the aircraft carrier USS Gerald R. Ford and seized the sanctioned motor tanker
-      Veronica in the Caribbean without incident. According to gCaptain, the ship
-      previously sailed as Pegas under a Russian flag, is now listed as
-      Guyanese-flagged, and has a record in the "shadow fleet" carrying Iranian and
-      Venezuelan oil. A Coast Guard tactical team took part in the seizure, and the
-      cutter Mohawk turned back to the Caribbean to escort the tanker.
+      Before dawn on January 15, Marines and sailors of Joint Task Force Southern Spear,
+      acting in support of the Department of Homeland Security, launched from the aircraft
+      carrier USS Gerald R. Ford and seized the sanctioned motor tanker Veronica in the
+      Caribbean without incident. According to gCaptain, the ship previously sailed as Pegas
+      under a Russian flag, is now listed as Guyanese-flagged, and has a record in the
+      "shadow fleet" carrying Iranian and Venezuelan oil. A Coast Guard tactical team took
+      part in the seizure, and the cutter Mohawk turned back to the Caribbean to escort the
+      tanker.
     key_data:
       - label: "Vessel"
         value: "Motor tanker Veronica (ex-Pegas), Aframax, Guyanese flag"
@@ -133,42 +130,42 @@ events:
         included: true
         text_fragment: "The United States Coast Guard boards and seizes a Guyanese-flagged tanker in the Caribbean Sea that had been sanctioned by the U.S. government. (The Guardian)"
       external:
-        - id: src-001-a
+        - id: "src-001-a"
           outlet: "U.S. Southern Command"
           url: "https://www.southcom.mil/News/PressReleases/Article/4380252/maritime-interdiction-operation-jan-15-2026/"
           publication_date: "2026-01-15"
-          source_type: official_release
-          reliability_tier: high
+          source_type: "official_release"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "In another pre-dawn action, Marines and Sailors from Joint Task Force Southern Spear, in support of the Department of Homeland Security, launched from USS Gerald R. Ford (CVN 78) and apprehended Motor/Tanker Veronica without incident."
           citation_refs: [1]
-        - id: src-001-b
+        - id: "src-001-b"
           outlet: "gCaptain"
           url: "https://gcaptain.com/u-s-seizes-mt-veronica-in-caribbean-expanding-operation-southern-spear-against-venezuelas-shadow-fleet/"
           publication_date: "2026-01-15"
-          source_type: trade_publication
-          reliability_tier: high
+          source_type: "trade_publication"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
+            - "summary"
+            - "key_data"
           contradicts: []
           quoted_material:
             - "At the time, the vessel was registered in Russia, but current databases list it latest flag-state registration as Guyana."
           citation_refs: [2]
-        - id: src-001-c
+        - id: "src-001-c"
           outlet: "U.S. Coast Guard News"
           url: "https://www.news.uscg.mil/Press-Releases/Article/4407352/coast-guard-cutter-mohawk-returns-home-from-60-day-patrol-after-escorting-two-o/"
           publication_date: "2026-02-17"
-          source_type: official_release
-          reliability_tier: high
+          source_type: "official_release"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "On Jan. 15, a Coast Guard tactical team with DoW support intercepted and seized the Venezuelan-linked, Aframax motor tanker Veronica, prompting Mohawk's crew to quickly transit back to the Caribbean Sea and provide escort duties."
@@ -178,14 +175,13 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-07-001"
       - "evt-2026-01-09-001"
     notes: "The portal cited The Guardian. evt-2026-01-09-001 recorded the fifth tanker seizure; seizures between January 10 and 14, if any, are not in the archive, so this one is not numbered."
-
   - id: "evt-2026-01-15-002"
     category: "Business and economy"
     subcategory: "Product recalls"
@@ -195,14 +191,13 @@ events:
     importance: 4
     headline: "Frigidaire mini-fridge recall expanded by 330,000 units over fire risk"
     summary: >
-      Curtis International, the distributor of Frigidaire-brand mini-fridges, expanded
-      an earlier recall by about 330,000 units of the 6-can model EFMIS121, the U.S.
-      Consumer Product Safety Commission announced. The CPSC said the units' internal
-      electrical components can short-circuit and ignite the plastic housing; six
-      fires causing property damage were reported for this model. The fridges were
-      sold only at Target stores and Target.com from January 2020 to October 2023 for
-      about $30. With the earlier recall of 634,000 units, the total approaches one
-      million.
+      Curtis International, the distributor of Frigidaire-brand mini-fridges, expanded an
+      earlier recall by about 330,000 units of the 6-can model EFMIS121, the U.S. Consumer
+      Product Safety Commission announced. The CPSC said the units' internal electrical
+      components can short-circuit and ignite the plastic housing; six fires causing
+      property damage were reported for this model. The fridges were sold only at Target
+      stores and Target.com from January 2020 to October 2023 for about $30. With the
+      earlier recall of 634,000 units, the total approaches one million.
     key_data:
       - label: "Units added"
         value: "About 330,000 (model EFMIS121)"
@@ -274,41 +269,41 @@ events:
         included: true
         text_fragment: "Frigidaire issues a recall for 330,000 mini-fridges for fire risks, after previously recalling 634,000 last year. (AP)"
       external:
-        - id: src-002-a
+        - id: "src-002-a"
           outlet: "U.S. Consumer Product Safety Commission"
           url: "https://www.cpsc.gov/Recalls/2026/Curtis-International-Expands-Recall-of-Frigidaire-brand-Minifridges-Due-to-Fire-and-Burn-Hazards"
           publication_date: "2026-01-15"
-          source_type: official_release
-          reliability_tier: high
+          source_type: "official_release"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "The minifridges' internal electrical components can short circuit and ignite the surrounding plastic housing, posing fire and burn hazards."
           citation_refs: [4]
-        - id: src-002-b
+        - id: "src-002-b"
           outlet: "CBS News"
           url: "https://www.cbsnews.com/news/frigidaire-minifridge-recall-target-1-million/"
           publication_date: "2026-01-16"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
+            - "key_data"
           contradicts: []
           quoted_material:
             - "Curtis International, which manufactures and distributes electronic and appliances, is recalling 330,000 minifridges, adding to the 634,000 minifridges it recalled in July 2024"
           citation_refs: [5]
-        - id: src-002-c
+        - id: "src-002-c"
           outlet: "Fast Company"
           url: "https://www.fastcompany.com/91476527/frigidaire-recall-964000-minifridges-sold-at-target-pose-serious-risk"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: medium
+          source_type: "news_report"
+          reliability_tier: "medium"
           supports:
-            - summary
-            - key_data
+            - "summary"
+            - "key_data"
           contradicts: []
           quoted_material:
             - "The mini-fridges were sold exclusively at Target stores nationwide and online at Target.com from January 2020 through October 2023, for around $30."
@@ -318,12 +313,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "The portal cited AP."
-
   - id: "evt-2026-01-15-003"
     category: "Disasters and accidents"
     subcategory: "Explosions"
@@ -334,11 +328,10 @@ events:
     summary: >
       A series of explosions just before 3:30 p.m. set off a major fire in the
       Visscherssteeg alley near Mariaplaats in central Utrecht, collapsing at least one
-      building and damaging others. At least four people were injured. The regional
-      safety authority raised the response to a GRIP 2 regional emergency, UMC Utrecht
-      activated its calamity hospital, and nearby homes and a parking garage were
-      evacuated. Authorities suspected a gas explosion. Mayor Sharon Dijksma went to
-      the scene.
+      building and damaging others. At least four people were injured. The regional safety
+      authority raised the response to a GRIP 2 regional emergency, UMC Utrecht activated
+      its calamity hospital, and nearby homes and a parking garage were evacuated.
+      Authorities suspected a gas explosion. Mayor Sharon Dijksma went to the scene.
     key_data:
       - label: "Injured"
         value: "At least 4"
@@ -412,30 +405,30 @@ events:
         included: true
         text_fragment: "At least four people are injured and several buildings collapse following an explosion in the Utrecht city centre in the Netherlands. Authorities suspect it to be a gas explosion. (NOS in Dutch) (AFP via Al Arabiya) (BBC News)"
       external:
-        - id: src-003-a
+        - id: "src-003-a"
           outlet: "NL Times"
           url: "https://nltimes.nl/2026/01/15/video-four-wounded-explosions-fire-utrecht-city-center-flames-spreading"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: medium
+          source_type: "news_report"
+          reliability_tier: "medium"
           supports:
-            - summary
-            - key_data
-            - casualty_report
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "casualty_report"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "At least four people were injured in the incident, which started just before 3:30 p.m."
           citation_refs: [7]
-        - id: src-003-b
+        - id: "src-003-b"
           outlet: "NL Times"
           url: "https://nltimes.nl/2026/01/15/explosion-rocks-utrecht-city-center-firefighters-battling-blaze-least-one-hurt"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: medium
+          source_type: "news_report"
+          reliability_tier: "medium"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Authorities scaled the call to a Grip 2 regional emergency, a protocol where all responding personnel report to a single commanding officer at the scene"
@@ -445,12 +438,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events: []
     notes: "The portal cited NOS, AFP via Al Arabiya, and BBC News."
-
   - id: "evt-2026-01-15-004"
     category: "Disasters and accidents"
     subcategory: "Floods"
@@ -460,12 +452,12 @@ events:
     importance: 7
     headline: "Floods in northern South Africa kill 19 and force evacuations from Kruger National Park"
     summary: >
-      Weeks of torrential rain caused flooding in Limpopo and Mpumalanga provinces
-      that had killed 19 people, according to South Africa's disaster management
-      authorities. On January 15 Kruger National Park suspended visits and evacuated
-      some guests and staff by helicopter. The military rescued people stranded in
-      the region, and the weather service issued its highest-level warning with a
-      further 100 to 200 millimetres of rain forecast.
+      Weeks of torrential rain caused flooding in Limpopo and Mpumalanga provinces that had
+      killed 19 people, according to South Africa's disaster management authorities. On
+      January 15 Kruger National Park suspended visits and evacuated some guests and staff
+      by helicopter. The military rescued people stranded in the region, and the weather
+      service issued its highest-level warning with a further 100 to 200 millimetres of rain
+      forecast.
     key_data:
       - label: "Killed"
         value: "19"
@@ -541,17 +533,17 @@ events:
         included: true
         text_fragment: "At least 19 people are killed and hundreds are evacuated across South Africa in flooding caused by torrential rains in several provinces, including Limpopo and Mpumalanga. (AP)"
       external:
-        - id: src-004-a
+        - id: "src-004-a"
           outlet: "Associated Press"
           url: "https://apnews.com/article/south-africa-floods-weather-kruger-national-park-rains-4611db4d92141aa5f071a1efea626424"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - casualty_report
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "casualty_report"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Flooding caused by weeks of torrential rains in northern South Africa forced the famed Kruger National Park to suspend visits and evacuate some guests and staff members by helicopter on Thursday."
@@ -561,12 +553,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "casualty_report.displaced is null because the portal's 'hundreds' has no exact figure."
-
   - id: "evt-2026-01-15-005"
     category: "Disasters and accidents"
     subcategory: "Construction accidents"
@@ -576,13 +567,12 @@ events:
     importance: 6
     headline: "Second crane collapse in two days kills two on Thailand's Rama II Road"
     summary: >
-      A construction crane on an elevated expressway project collapsed onto Rama II
-      Road in Samut Sakhon province, crushing two vehicles and killing two people;
-      police said five others were injured. Transport Minister Phiphat
-      Ratchakitprakarn said Italian-Thai Development was the contractor at this site
-      and at the Sikhio rail site where a crane fell on a train the previous day. The
-      government moved to cancel the firm's contracts, blacklist it, and suspend about
-      a dozen of its state projects.
+      A construction crane on an elevated expressway project collapsed onto Rama II Road in
+      Samut Sakhon province, crushing two vehicles and killing two people; police said five
+      others were injured. Transport Minister Phiphat Ratchakitprakarn said Italian-Thai
+      Development was the contractor at this site and at the Sikhio rail site where a crane
+      fell on a train the previous day. The government moved to cancel the firm's contracts,
+      blacklist it, and suspend about a dozen of its state projects.
     key_data:
       - label: "Killed"
         value: "2"
@@ -652,31 +642,31 @@ events:
         included: true
         text_fragment: "Two people are killed when a construction crane collapses onto the Rama II Road in Samut Sakhon, Thailand, while the Thai government moves to cancel contracts, blacklist the same contractor, and suspend about a dozen of its state projects following a separate crane accident the previous day. (BBC News) (Reuters)"
       external:
-        - id: src-005-a
+        - id: "src-005-a"
           outlet: "The Hindu (Reuters)"
           url: "https://www.thehindu.com/news/international/thailand-crane-accident-collapse-samut-sakhon/article70512275.ece"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - casualty_report
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "casualty_report"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "A crane collapsed in Thailand on Thursday (January 15, 2026), crushing two vehicles and killing two people, police said"
           citation_refs: [10]
-        - id: src-005-b
+        - id: "src-005-b"
           outlet: "The Japan Times (AFP-Jiji)"
           url: "https://www.japantimes.co.jp/news/2026/01/15/asia-pacific/crime-legal/fatal-crane-failures-thai-firm/"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - casualty_report
-            - details.what_happened
+            - "key_data"
+            - "casualty_report"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Another police official from the station said that five people had also been injured in the accident."
@@ -686,13 +676,12 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-14-002"
     notes: "Zero-width characters present in the report's copies of both quotations were removed. The portal cited BBC News and Reuters."
-
   - id: "evt-2026-01-15-006"
     category: "International relations"
     subcategory: "Military deployments"
@@ -703,12 +692,12 @@ events:
     importance: 7
     headline: "Macron says France will send more forces to Greenland for Danish-led exercise"
     summary: >
-      President Emmanuel Macron announced after a Defense Council meeting that France
-      would deploy additional military forces to Greenland and take part in joint
-      exercises organized by Denmark under the name Arctic Endurance, which he said
-      had already begun, with the first French units on their way. The announcement
-      followed France's January 14 decision to open a consulate in Greenland and came
-      amid President Trump's campaign to bring the island under U.S. control.
+      President Emmanuel Macron announced after a Defense Council meeting that France would
+      deploy additional military forces to Greenland and take part in joint exercises
+      organized by Denmark under the name Arctic Endurance, which he said had already begun,
+      with the first French units on their way. The announcement followed France's January
+      14 decision to open a consulate in Greenland and came amid President Trump's campaign
+      to bring the island under U.S. control.
     key_data:
       - label: "Exercise"
         value: "Arctic Endurance, organized by Denmark"
@@ -777,28 +766,28 @@ events:
         included: true
         text_fragment: "French president Emmanuel Macron announces the deployment of additional military forces to Greenland after a Defense Council meeting. (France 24 in French)"
       external:
-        - id: src-006-a
+        - id: "src-006-a"
           outlet: "RBC-Ukraine"
           url: "https://newsukraine.rbc.ua/news/france-to-deploy-troops-to-greenland-macron-1768455103.html"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: medium
+          source_type: "news_report"
+          reliability_tier: "medium"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "French President Emmanuel Macron announced that France will participate in joint military exercises organized by Denmark in Greenland. According to Macron, the operation, named Arctic Endurance, has already begun"
           citation_refs: [12]
-        - id: src-006-b
+        - id: "src-006-b"
           outlet: "Sharjah24"
           url: "https://sharjah24.ae/en/Articles/2026/01/15/Macron-France-to-send-more-forces-to-Greenland"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: medium
+          source_type: "news_report"
+          reliability_tier: "medium"
           supports:
-            - summary
+            - "summary"
           contradicts: []
           quoted_material:
             - "Macron: France to send more forces to Greenland"
@@ -808,14 +797,13 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-13-005"
       - "evt-2026-01-14-006"
     notes: "The Sharjah24 quoted_material is the article headline as listed in the report's works cited. The portal cited France 24. This event supplies the January 15 date for Arctic Endurance that evt-2026-01-14-006 left open."
-
   - id: "evt-2026-01-15-007"
     category: "International relations"
     subcategory: "Defense agreements"
@@ -825,12 +813,12 @@ events:
     importance: 6
     headline: "Japan and the Philippines sign military logistics-sharing agreement"
     summary: >
-      Japanese Foreign Minister Toshimitsu Motegi and Philippine Foreign Affairs
-      Secretary Ma. Theresa Lazaro signed an Acquisition and Cross-Servicing Agreement
-      in Manila. It lets the Japan Self-Defense Forces and the Armed Forces of the
-      Philippines supply each other with ammunition, fuel, food and other supplies and
-      services on a tax-free basis, and complements the Reciprocal Access Agreement
-      that allows each country's forces to deploy on the other's territory.
+      Japanese Foreign Minister Toshimitsu Motegi and Philippine Foreign Affairs Secretary
+      Ma. Theresa Lazaro signed an Acquisition and Cross-Servicing Agreement in Manila. It
+      lets the Japan Self-Defense Forces and the Armed Forces of the Philippines supply each
+      other with ammunition, fuel, food and other supplies and services on a tax-free basis,
+      and complements the Reciprocal Access Agreement that allows each country's forces to
+      deploy on the other's territory.
     key_data:
       - label: "Agreement"
         value: "Acquisition and Cross-Servicing Agreement (reciprocal provision of supplies and services)"
@@ -902,29 +890,29 @@ events:
         included: true
         text_fragment: "Japan and the Philippines sign a defense pact to mutually allow tax-free provision of ammunition, fuel, food, and other forms of aid. (AP)"
       external:
-        - id: src-007-a
+        - id: "src-007-a"
           outlet: "Ministry of Foreign Affairs of Japan"
           url: "https://www.mofa.go.jp/s_sa/sea2/ph/pageite_000001_01456.html"
           publication_date: "2026-01-15"
-          source_type: official_release
-          reliability_tier: high
+          source_type: "official_release"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "On January 15, in Manila, the capital of the Republic of the Philippines, the Agreement between the Government of Japan and the Government of the Republic of the Philippines Concerning Reciprocal Provision of Supplies and Services"
           citation_refs: [14]
-        - id: src-007-b
+        - id: "src-007-b"
           outlet: "World Socialist Web Site"
           url: "https://www.wsws.org/en/articles/2026/01/22/cead-j22.html"
           publication_date: "2026-01-22"
-          source_type: news_report
-          reliability_tier: low
+          source_type: "news_report"
+          reliability_tier: "low"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "The ACSA enables the Japanese Self-Defense Forces and the Armed Forces of the Philippines (AFP) to provide each other with ammunition, fuel, food and other supplies on a tax-free basis"
@@ -934,12 +922,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "WSWS is an openly partisan outlet and is rated low; its description of the supplies matches the portal's AP-sourced bullet. The portal cited AP."
-
   - id: "evt-2026-01-15-008"
     category: "Politics and government"
     subcategory: "Government changes"
@@ -949,12 +936,11 @@ events:
     importance: 6
     headline: "Yemen's prime minister resigns; foreign minister Shaea al-Zindani appointed in his place"
     summary: >
-      Yemeni Prime Minister Salem Saleh bin Braik resigned, and the Presidential
-      Leadership Council headed by Rashad al-Alimi appointed Foreign Minister Shaea
-      Muhssin Mohammed al-Zindani as prime minister. Al-Zindani is a career diplomat
-      who had served as foreign minister since 2024 and previously as ambassador to
-      Saudi Arabia. The change came on the same day the council removed its last
-      UAE-backed member.
+      Yemeni Prime Minister Salem Saleh bin Braik resigned, and the Presidential Leadership
+      Council headed by Rashad al-Alimi appointed Foreign Minister Shaea Muhssin Mohammed
+      al-Zindani as prime minister. Al-Zindani is a career diplomat who had served as
+      foreign minister since 2024 and previously as ambassador to Saudi Arabia. The change
+      came on the same day the council removed its last UAE-backed member.
     key_data:
       - label: "Outgoing prime minister"
         value: "Salem Saleh bin Braik"
@@ -1021,28 +1007,28 @@ events:
         included: true
         text_fragment: "Yemeni prime minister Salem Saleh bin Braik resigns, and president Rashad al-Alimi appoints Shaea Muhssin to be the new prime minister. (Jerusalem Post)"
       external:
-        - id: src-008-a
+        - id: "src-008-a"
           outlet: "AffairsCloud"
           url: "https://affairscloud.com/current-affairs-20-january-2026/"
           publication_date: "2026-01-20"
-          source_type: specialist_publication
-          reliability_tier: low
+          source_type: "specialist_publication"
+          reliability_tier: "low"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "On January 15, 2026, Yemen's Presidential Leadership Council (PLC) appointed Shaea Muhssin Mohammed Al-Zindani"
           citation_refs: [16]
-        - id: src-008-b
+        - id: "src-008-b"
           outlet: "The Times of Israel"
           url: "https://www.timesofisrael.com/liveblog-january-16-2026/"
           publication_date: "2026-01-16"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Prime Minister Salem Saleh bin Braik will be replaced by Dr Shaya Mohsen"
@@ -1052,14 +1038,13 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-15-015"
       - "evt-2026-01-07-005"
     notes: "The portal cited the Jerusalem Post. No same-day external source was found by the report."
-
   - id: "evt-2026-01-15-009"
     category: "Politics and elections"
     subcategory: "National elections"
@@ -1068,33 +1053,22 @@ events:
     importance: 8
     headline: "Uganda votes for president and parliament under an internet shutdown"
     summary: >
-      Ugandans voted to elect a president and 529 members of parliament, with public
-      internet access cut since January 13 and reports of biometric voter-verification
-      failures. President Yoweri Museveni, 81, sought to extend his four-decade rule
-      against his main challenger, Robert Kyagulanyi, known as Bobi Wine, of the
-      National Unity Platform. AP later reported provisional results from half of the
-      polling stations giving Museveni more than 70% and Kyagulanyi 19%; Kyagulanyi
-      rejected the results, and police reported arresting more than 20 opposition
-      supporters.
+      Ugandans voted for president and parliament under an internet shutdown and widespread
+      polling delays. AP reported failures of biometric verification machines on January 15.
+      President Yoweri Museveni faced opposition challenger Robert Kyagulanyi, known as Bobi
+      Wine.
     key_data:
       - label: "Parliamentary seats"
         value: "529"
         citation_refs: [30]
-      - label: "Provisional results, half of polling stations (AP)"
-        value: "Museveni above 70%, Kyagulanyi 19%"
-        citation_refs: [18]
     details:
       what_happened:
-        - "Voting took place nationwide under the internet shutdown ordered on January 13."
-        - "The report cites AP on failures of biometric verification machines at polling stations."
-        - "Provisional results from half of polling stations showed Museveni above 70% and Kyagulanyi at 19%."
-        - "Kyagulanyi rejected the results and said his polling agents had been abducted; police reported more than 20 arrests of opposition supporters."
+        - "Voting took place under the internet shutdown ordered on January 13."
+        - "Biometric verification failures caused delays; officials reverted to paper registration records."
       why_it_matters:
         - "The vote was held with communications cut and opposition activity restricted, which limited independent scrutiny of the count."
       uncertainty_notes:
-        - "The provisional tallies, Kyagulanyi's rejection, the arrests and the Kampala clashes described by the report probably date from counting on January 16 rather than polling day; AP's article publication date is given by the report as January 15 but its content reflects later counting."
-        - "The report's final figure for Kyagulanyi (24.7%) comes from later results and is not recorded here."
-        - "The report's mention of 'several' deaths in parliamentary-race clashes has no source and is not recorded."
+        - "Provisional tallies and reported post-vote arrests belong to AP coverage dated January 16 and are excluded from this polling-day record."
     actors:
       primary:
         - "Yoweri Museveni"
@@ -1134,7 +1108,7 @@ events:
       injured: null
       displaced: 0
       missing: null
-      arrest_count: 20
+      arrest_count: null
       damage: null
     classification:
       event_type:
@@ -1150,33 +1124,31 @@ events:
         included: true
         text_fragment: "Ugandans vote to elect their president and 529 members of parliament. (AP)"
       external:
-        - id: src-009-a
+        - id: "src-009-a"
           outlet: "Associated Press"
-          url: "https://apnews.com/article/uganda-election-yoweri-museveni-bobi-wine-81719cda953ef03e365d7b6409d4ff8b"
+          url: "https://apnews.com/article/8231b6ec57cf93cc67bcfd0ea4a46136"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
-          quoted_material:
-            - "Provisional results from half of the polling stations tallied so far showed Museveni with more than 70% of the vote while his main challenger Robert Kyagulanyi, the musician-turned-opposition leader best known as Bobi Wine, had 19%"
+          quoted_material: []
           citation_refs: [18]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-13-003"
       - "evt-2026-01-05-019"
-    notes: "arrest_count records the 'more than 20' reported by police as 20. Post-vote developments should be checked against the January 16 and 17 builds to avoid double counting."
-
+    notes: "Guarded review excludes later results and arrests. The January 16-17 research should cover counting separately. Prepared by GPT-6 (Codex), 2026-10-05."
   - id: "evt-2026-01-15-010"
     category: "Politics and elections"
     subcategory: "Parliamentary proceedings"
@@ -1186,12 +1158,12 @@ events:
     importance: 5
     headline: "Prime Minister Wong removes Pritam Singh as Leader of the Opposition"
     summary: >
-      A day after parliament found him unsuitable to continue in the role, Prime
-      Minister Lawrence Wong wrote to the Workers' Party removing its chief Pritam
-      Singh as Leader of the Opposition, following Singh's conviction for lying to a
-      parliamentary committee. Wong invited the party to nominate another elected MP
-      who had not been implicated in the Committee of Privileges findings. The post
-      carries extra resources and access to confidential government briefings.
+      A day after parliament found him unsuitable to continue in the role, Prime Minister
+      Lawrence Wong wrote to the Workers' Party removing its chief Pritam Singh as Leader of
+      the Opposition, following Singh's conviction for lying to a parliamentary committee.
+      Wong invited the party to nominate another elected MP who had not been implicated in
+      the Committee of Privileges findings. The post carries extra resources and access to
+      confidential government briefings.
     key_data:
       - label: "Position removed"
         value: "Leader of the Opposition"
@@ -1250,16 +1222,16 @@ events:
         included: true
         text_fragment: "Singaporean prime minister Lawrence Wong rescinds Workers' Party MP Pritam Singh's position as the de jure Leader of the Opposition. (CNA)"
       external:
-        - id: src-010-a
+        - id: "src-010-a"
           outlet: "CNA"
           url: "https://www.channelnewsasia.com/singapore/wp-chief-pritam-singh-removed-leader-opposition-5858676"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Workers' Party chief Pritam Singh has been removed as the Leader of the Opposition, a day after parliament voted that he was unsuitable to continue in the role following his conviction for lying to a parliamentary committee."
@@ -1269,13 +1241,12 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-14-008"
     notes: "The portal cited CNA."
-
   - id: "evt-2026-01-15-011"
     category: "Science and technology"
     subcategory: "Spaceflight"
@@ -1285,13 +1256,13 @@ events:
     importance: 6
     headline: "Crew-11 returns to Earth a month early after first medical evacuation from the ISS"
     summary: >
-      The SpaceX Crew Dragon carrying NASA's Zena Cardman and Mike Fincke, Japan's
-      Kimiya Yui and Russian cosmonaut Oleg Platonov splashed down in the Pacific off
-      San Diego at 3:41 a.m. EST, ending the first medical evacuation in the history of
-      the International Space Station. The crew returned about a month early because of
-      an undisclosed medical issue affecting one member; NASA said the astronaut was
-      stable and that the return was not an emergency deorbit. The crew had docked at
-      the station in August 2025, and their departure left three people aboard.
+      The SpaceX Crew Dragon carrying NASA's Zena Cardman and Mike Fincke, Japan's Kimiya
+      Yui and Russian cosmonaut Oleg Platonov splashed down in the Pacific off San Diego at
+      3:41 a.m. EST, ending the first medical evacuation in the history of the International
+      Space Station. The crew returned about a month early because of an undisclosed medical
+      issue affecting one member; NASA said the astronaut was stable and that the return was
+      not an emergency deorbit. The crew had docked at the station in August 2025, and their
+      departure left three people aboard.
     key_data:
       - label: "Splashdown"
         value: "3:41 a.m. EST, Pacific Ocean off San Diego"
@@ -1377,29 +1348,29 @@ events:
         included: true
         text_fragment: "The members of NASA commercial Crew-11, who had been docked at the International Space Station (ISS) since August 2025, land on Earth one month early following the first-ever medical evacuation from the ISS. (Space) (NPR)"
       external:
-        - id: src-011-a
+        - id: "src-011-a"
           outlet: "Space.com"
           url: "https://www.space.com/space-exploration/international-space-station/spacex-crew-11-astronauts-return-to-earth-after-1st-ever-medical-evacuation-of-iss"
           publication_date: "2026-01-15"
-          source_type: specialist_publication
-          reliability_tier: high
+          source_type: "specialist_publication"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "A SpaceX Crew Dragon capsule carrying NASA's Mike Fincke and Zena Cardman, Japan's Kimiya Yui and cosmonaut Oleg Platonov splashed down in the Pacific Ocean off the coast of San Diego today (Jan. 15) at 3:41 a.m. EST"
           citation_refs: [20]
-        - id: src-011-b
+        - id: "src-011-b"
           outlet: "Space.com"
           url: "https://www.space.com/space-exploration/human-spaceflight/this-is-nasa-at-its-finest-crew-11-astronauts-in-good-shape-after-smooth-medical-evacuation-and-splashdown-agency-says"
           publication_date: "2026-01-15"
-          source_type: specialist_publication
-          reliability_tier: high
+          source_type: "specialist_publication"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "The four astronauts of SpaceX's Crew-11 mission to the International Space Station are doing fine after the first-ever medical evaluation from the orbital lab, NASA says."
@@ -1409,12 +1380,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "The second Space.com quotation says 'medical evaluation' where 'evacuation' is evidently meant; it is reproduced verbatim. The portal cited Space.com and NPR."
-
   - id: "evt-2026-01-15-012"
     category: "Politics and elections"
     subcategory: "Local elections"
@@ -1424,13 +1394,13 @@ events:
     importance: 5
     headline: "Maharashtra votes in municipal elections for 29 corporations including Mumbai's BMC"
     summary: >
-      Voters in Maharashtra elected councils for 29 municipal corporations, including
-      the Brihanmumbai Municipal Corporation, India's richest civic body, where polling
-      ran from 7:30 a.m. to 5:30 p.m. across 227 wards. About 15,931 candidates
-      contested around 2,869 seats statewide. The Indian Express reported Mumbai
-      turnout of about 41% by the afternoon, confusion over multiple ballots in
-      multi-member wards, and exit polls projecting a win for the BJP and Shiv Sena
-      (Shinde) alliance in the BMC. Results were due on January 16.
+      Voters in Maharashtra elected councils for 29 municipal corporations, including the
+      Brihanmumbai Municipal Corporation, India's richest civic body, where polling ran from
+      7:30 a.m. to 5:30 p.m. across 227 wards. About 15,931 candidates contested around
+      2,869 seats statewide. The Indian Express reported Mumbai turnout of about 41% by the
+      afternoon, confusion over multiple ballots in multi-member wards, and exit polls
+      projecting a win for the BJP and Shiv Sena (Shinde) alliance in the BMC. Results were
+      due on January 16.
     key_data:
       - label: "Candidates and seats statewide"
         value: "About 15,931 candidates for about 2,869 seats"
@@ -1505,41 +1475,41 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-012-a
+        - id: "src-012-a"
           outlet: "The Indian Express"
           url: "https://indianexpress.com/article/cities/mumbai/mumbai-bmc-elections-2026-voting-live-updates-bjp-shiv-sena-congress-ncp-10473333/"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Voting for the keenly watched Brihanmumbai Municipal Corporation (BMC) took place on Thursday, with results set to be declared on Friday, January 16."
           citation_refs: [22]
-        - id: src-012-b
+        - id: "src-012-b"
           outlet: "The Indian Express"
           url: "https://indianexpress.com/article/cities/mumbai/bmc-polls-bjp-shiv-sena-mns-ubt-10474673/"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
+            - "key_data"
           contradicts: []
           quoted_material:
             - "Around 15,931 candidates are in the fray for around 2,869 seats."
           citation_refs: [23]
-        - id: src-012-c
+        - id: "src-012-c"
           outlet: "The Indian Express"
           url: "https://indianexpress.com/article/cities/mumbai/bmc-election-2026-full-schedule-voting-day-and-time-results-date-and-other-key-details-10461803/"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Voting for the BMC election 2026 will be held on January 15 from 7:30 am to 5:30 pm across all 227 wards of Mumbai"
@@ -1549,12 +1519,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events: []
     notes: "The schedule article was likely published before polling day; the report gives January 15."
-
   - id: "evt-2026-01-15-013"
     category: "International relations"
     subcategory: "Bilateral visits"
@@ -1563,13 +1532,12 @@ events:
     importance: 6
     headline: "Carney begins Beijing visit with Canada-China energy cooperation agreement"
     summary: >
-      On the first day of talks in Beijing, Canadian Prime Minister Mark Carney
-      witnessed the signing of an agreement to cooperate with China on clean and
-      conventional energy. He met Zhao Leji, chairman of the National People's
-      Congress Standing Committee, and said recent progress would set both countries up
-      "for the new world order". The first day brought no breakthrough on the two
-      countries' tariff dispute; Carney was due to meet President Xi Jinping on
-      January 16.
+      On the first day of talks in Beijing, Canadian Prime Minister Mark Carney witnessed
+      the signing of an agreement to cooperate with China on clean and conventional energy.
+      He met Zhao Leji, chairman of the National People's Congress Standing Committee, and
+      said recent progress would set both countries up "for the new world order". The first
+      day brought no breakthrough on the two countries' tariff dispute; Carney was due to
+      meet President Xi Jinping on January 16.
     key_data:
       - label: "Agreement"
         value: "Cooperation on clean and conventional energy"
@@ -1636,29 +1604,29 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-013-a
+        - id: "src-013-a"
           outlet: "CBC News"
           url: "https://subscriptions.cbc.ca/newsletter_static/messages/top-headlines-morning/2026-01-15/"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Prime Minister Mark Carney witnessed the signing of an agreement to co-operate more with China on clean and conventional energy the first day of talks in Beijing on Thursday"
           citation_refs: [25]
-        - id: src-013-b
+        - id: "src-013-b"
           outlet: "BCIT News"
           url: "https://bcitnews.com/daily-headlines-january-15-2026/"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: low
+          source_type: "news_report"
+          reliability_tier: "low"
           supports:
-            - summary
-            - details.what_happened
+            - "summary"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Carney says the progress in recent months will set both countries up “for the new world order.”"
@@ -1668,12 +1636,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events: []
     notes: "The CBC source is its morning-headlines newsletter dated January 15. BCIT News is a student newsroom and is rated low."
-
   - id: "evt-2026-01-15-014"
     category: "Politics and government"
     subcategory: "Domestic military deployment"
@@ -1683,14 +1650,13 @@ events:
     importance: 7
     headline: "Trump threatens to invoke the Insurrection Act over Minneapolis protests against ICE"
     summary: >
-      President Donald Trump threatened to invoke the Insurrection Act so that he could
-      send U.S. military forces to Minnesota, where protests against the federal
-      immigration-enforcement surge had continued since an ICE agent killed Renée Good
-      on January 7 and intensified after an ICE officer shot and wounded a man in
-      Minneapolis on January 14. AP reported that roughly 2,000 to 3,000 federal agents
-      were operating in the area, compared with fewer than 600 Minneapolis police
-      officers. The administration rejected demands from Minnesota Democrats to
-      withdraw federal agents.
+      President Donald Trump threatened to invoke the Insurrection Act so that he could send
+      U.S. military forces to Minnesota, where protests against the federal
+      immigration-enforcement surge had continued since an ICE agent killed Renée Good on
+      January 7 and intensified after an ICE officer shot and wounded a man in Minneapolis
+      on January 14. AP reported that roughly 2,000 to 3,000 federal agents were operating
+      in the area, compared with fewer than 600 Minneapolis police officers. The
+      administration rejected demands from Minnesota Democrats to withdraw federal agents.
     key_data:
       - label: "Federal agents in the area (AP)"
         value: "About 2,000 to 3,000"
@@ -1758,17 +1724,17 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-014-a
+        - id: "src-014-a"
           outlet: "Associated Press"
           url: "https://apnews.com/article/trump-insurrection-act-history-fdr-minneapolis-901631b98c96a425dc0c9b10a041bdac"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
-            - details.why_it_matters
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
+            - "details.why_it_matters"
           contradicts: []
           quoted_material:
             - "Donald Trump would not be the first president to invoke the Insurrection Act, as he has threatened, so that he can send U.S. military forces to Minnesota."
@@ -1778,16 +1744,15 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-07-007"
       - "evt-2026-01-11-010"
       - "evt-2026-01-12-005"
       - "evt-2026-01-14-015"
     notes: "The report's second AP source (Vance's remarks) was dropped as probably misdated; see uncertainty_notes and HANDOFF.md."
-
   - id: "evt-2026-01-15-015"
     category: "Politics and government"
     subcategory: "Government changes"
@@ -1797,11 +1762,11 @@ events:
     importance: 6
     headline: "Faraj al-Bahsani removed from Yemen's Presidential Leadership Council, the last UAE-backed member"
     summary: >
-      Yemen's Presidential Leadership Council dismissed Faraj al-Bahsani, leaving the
-      body without any member backed by the United Arab Emirates. His removal followed
-      the earlier dismissal of Southern Transitional Council leader Aidarous
-      al-Zubaidi and was part of the power struggle between the Saudi-backed government
-      and UAE-aligned southern forces.
+      Yemen's Presidential Leadership Council dismissed Faraj al-Bahsani, leaving the body
+      without any member backed by the United Arab Emirates. His removal followed the
+      earlier dismissal of Southern Transitional Council leader Aidarous al-Zubaidi and was
+      part of the power struggle between the Saudi-backed government and UAE-aligned
+      southern forces.
     key_data:
       - label: "UAE-backed members remaining on the council"
         value: "None"
@@ -1866,27 +1831,27 @@ events:
         included: true
         text_fragment: "Faraj Al-Bahsani is dismissed from Yemen's Presidential Leadership Council, becoming the last United Arab Emirates-backed member to leave the body. (The New Arab)"
       external:
-        - id: src-015-a
+        - id: "src-015-a"
           outlet: "The National"
           url: "https://www.thenationalnews.com/news/mena/2026/01/15/yemens-stc-loses-second-seat-on-ruling-council-after-power-struggle/"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - details.what_happened
+            - "summary"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Faraj Al Bahsani follows secessionist group's chief Aidarous Al Zubaidi in being dismissed from Yemeni leadership."
           citation_refs: [28]
-        - id: src-015-b
+        - id: "src-015-b"
           outlet: "Saudi Gazette"
           url: "https://saudigazette.com.sa/article/658207/World/Yemen-presidential-council-removes-Faraj-Al-Bahsani-over-unlawful-military-actions"
           publication_date: "2026-01-15"
-          source_type: news_report
-          reliability_tier: medium
+          source_type: "news_report"
+          reliability_tier: "medium"
           supports:
-            - details.what_happened
+            - "details.what_happened"
           contradicts: []
           quoted_material: []
           citation_refs: [29]
@@ -1895,9 +1860,9 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-07-005"
       - "evt-2026-01-08-019"
@@ -1905,22 +1870,20 @@ events:
     notes: "The portal cited The New Arab. Saudi Gazette's publication date is not given in the report and is assumed to be January 15."
 
 strategic_conclusion: >
-  January 15 combined scheduled political events with the aftermath of earlier
-  crises. Uganda's vote went ahead with the internet down and the opposition
-  constrained, while Maharashtra's municipal polls tested the balance between the
-  ruling alliance and a divided opposition in Mumbai. Thailand's second fatal crane
-  collapse in two days turned the Sikhio disaster into a wider case against one
-  contractor, and Utrecht and South Africa added a gas-suspected blast and
-  deadly floods to the day's toll.
-
-  The Greenland dispute moved further from diplomacy toward military presence, with
-  France joining Denmark's Arctic Endurance exercise a day after announcing a
-  consulate. The U.S. continued seizing sanctioned tankers in the Caribbean, and at
-  home the president's Insurrection Act threat raised the stakes of the Minneapolis
-  confrontation. In Yemen, the removal of the last UAE-backed council member and a
-  new prime minister completed a rapid consolidation by the Saudi-backed
-  government. Elsewhere, Japan and the Philippines deepened military cooperation,
-  Canada sought a reset with China, and Singapore finalized Pritam Singh's removal.
+  January 15 combined scheduled political events with the aftermath of earlier crises.
+  Uganda's vote went ahead with the internet down and the opposition constrained, while
+  Maharashtra's municipal polls tested the balance between the ruling alliance and a divided
+  opposition in Mumbai. Thailand's second fatal crane collapse in two days turned the Sikhio
+  disaster into a wider case against one contractor, and Utrecht and South Africa added a
+  gas-suspected blast and deadly floods to the day's toll. The Greenland dispute moved
+  further from diplomacy toward military presence, with France joining Denmark's Arctic
+  Endurance exercise a day after announcing a consulate. The U.S. continued seizing
+  sanctioned tankers in the Caribbean, and at home the president's Insurrection Act threat
+  raised the stakes of the Minneapolis confrontation. In Yemen, the removal of the last
+  UAE-backed council member and a new prime minister completed a rapid consolidation by the
+  Saudi-backed government. Elsewhere, Japan and the Philippines deepened military
+  cooperation, Canada sought a reset with China, and Singapore finalized Pritam Singh's
+  removal.
 
 works_cited:
   - id: 1
@@ -2009,10 +1972,10 @@ works_cited:
     url: "https://www.timesofisrael.com/liveblog-january-16-2026/"
     accessed: "2026-01-16"
   - id: 18
-    title: "Uganda's president leads in tense election"
+    title: "Delays plague voting in Uganda's presidential election"
     outlet: "Associated Press"
-    url: "https://apnews.com/article/uganda-election-yoweri-museveni-bobi-wine-81719cda953ef03e365d7b6409d4ff8b"
-    accessed: "2026-01-16"
+    url: "https://apnews.com/article/8231b6ec57cf93cc67bcfd0ea4a46136"
+    accessed: "2026-10-05"
   - id: 19
     title: "PM Wong removes Pritam Singh as Leader of the Opposition, invites WP to nominate another MP"
     outlet: "CNA"

@@ -35,7 +35,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests mwparserfromhell pyyaml
+          python -m pip install -r requirements.txt
 
       - name: Resolve Target Date
         id: target
@@ -103,6 +103,17 @@ jobs:
           output_file="$year/$month/$TARGET_DATE.yaml"
 
           git add -- "$output_file"
+          # Preserve exact acquisition inputs and structured candidates alongside
+          # the compatibility seed. Stage only this capture's provenance/output.
+          python - <<'PY'
+          import os, subprocess
+          from seed.source import capture_paths
+          day = os.environ['TARGET_DATE']
+          paths = capture_paths(day)
+          if not paths:
+              raise ValueError('Missing capture provenance')
+          subprocess.run(['git', 'add', '--', *map(str, paths)], check=True)
+          PY
           if git diff --staged --quiet; then
             echo "No changes for $TARGET_DATE. Skipping commit."
             exit 0

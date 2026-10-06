@@ -44,11 +44,13 @@ import time
 from dataclasses import dataclass
 from datetime import date
 from html.parser import HTMLParser
+from pathlib import Path
 
 import mwparserfromhell
 import requests
 
 from seed.ratelimit import RateLimitError, WIKIPEDIA_POLICY, call_with_backoff
+from seed import source
 
 log = logging.getLogger(__name__)
 
@@ -68,9 +70,10 @@ REQUEST_DELAY_SECS = 1.5
 class WikiFetch:
     content: str
     revision_id: int | None
+    source_meta: dict | None = None
 
 
-def _fetch_wikitext_once(page_title: str, user_agent: str) -> WikiFetch | None:
+def _fetch_wikitext_once(page_title: str, user_agent: str, revision_id=None) -> WikiFetch | None:
     """
     Return (wikitext, revision_id) for *page_title*, or None if the page
     doesn't exist. Raises RateLimitError on HTTP 429 for the caller to retry.
@@ -81,12 +84,15 @@ def _fetch_wikitext_once(page_title: str, user_agent: str) -> WikiFetch | None:
         "action":        "query",
         "prop":          "revisions",
         "titles":        page_title,
-        "rvprop":        "content|ids",
+        "rvprop":        "content|ids|timestamp",
         "rvslots":       "main",
         "format":        "json",
         "formatversion": "2",
         "redirects":     "true",
     }
+    if revision_id is not None:
+        params.pop("titles")
+        params["revids"] = str(revision_id)
 
     try:
         r = _session.get("https://en.wikipedia.org/w/api.php", params=params, timeout=20)
@@ -113,20 +119,26 @@ def _fetch_wikitext_once(page_title: str, user_agent: str) -> WikiFetch | None:
             return None
 
         revision   = revisions[0]
-        revision_id = revision.get("revid")
+        obtained_id = revision.get("revid")
+        if revision_id is not None and obtained_id != revision_id:
+            raise ValueError("Wikipedia returned a different revision from the requested oldid")
         content = revision.get("slots", {}).get("main", {}).get("content", "")
         if not content:
             log.warning("Revision content is empty: %s", page_title)
             return None
 
-        log.debug("Fetched %d chars (rev %s) for: %s", len(content), revision_id, page_title)
-        return WikiFetch(content=content, revision_id=revision_id)
+        log.debug("Fetched %d chars (rev %s) for: %s", len(content), obtained_id, page_title)
+        meta = source.store(content.encode("utf-8"), title=page.get("title", page_title),
+                            revision_id=obtained_id, timestamp=revision.get("timestamp"))
+        return WikiFetch(content=content, revision_id=obtained_id, source_meta=meta)
 
     except RateLimitError:
         raise
     except requests.RequestException as e:
         log.error("Network error fetching %s: %s", page_title, e)
         return None
+    except ValueError:
+        raise  # source identity/hash conflicts must never trigger another source
     except Exception as e:
         log.error("Unexpected error fetching %s: %s", page_title, e)
         return None
@@ -139,6 +151,51 @@ def fetch_wikitext(page_title: str, user_agent: str) -> WikiFetch | None:
         policy=WIKIPEDIA_POLICY,
         label=page_title,
     )
+
+
+def acquire_revision(page_title: str, revision_id: int, user_agent: str) -> WikiFetch:
+    """Explicit acquisition of an existing oldid, never current page state."""
+    fetched = call_with_backoff(
+        lambda: _fetch_wikitext_once(page_title, user_agent, revision_id),
+        policy=WIKIPEDIA_POLICY, label=f"{page_title} oldid={revision_id}")
+    if fetched is None:
+        raise RuntimeError(f"Could not acquire pinned revision {revision_id}")
+    return fetched
+
+
+def acquire_revision_batch(revision_ids, user_agent):
+    """Acquire at most 50 explicit oldids in one MediaWiki request."""
+    wanted = set(revision_ids)
+    if not wanted or len(wanted) > 50:
+        raise ValueError("Revision batches must contain 1-50 explicit oldids")
+
+    def fetch():
+        response = _session.get("https://en.wikipedia.org/w/api.php",
+            params={"action": "query", "prop": "revisions", "revids": "|".join(map(str, sorted(wanted))),
+                    "rvprop": "content|ids|timestamp", "rvslots": "main", "format": "json", "formatversion": "2"},
+            headers={"User-Agent": user_agent}, timeout=60)
+        if response.status_code == 429:
+            raise RateLimitError(int(response.headers.get("Retry-After", 0)))
+        response.raise_for_status()
+        result = {}
+        for page in response.json().get("query", {}).get("pages", []):
+            for revision in page.get("revisions", []):
+                rev = revision["revid"]
+                if rev not in wanted:
+                    raise ValueError("MediaWiki returned an unrequested revision")
+                content = revision.get("slots", {}).get("main", {}).get("content")
+                if content is None:
+                    continue
+                result[rev] = source.store(content.encode("utf-8"), title=page["title"],
+                    revision_id=rev, timestamp=revision.get("timestamp"))
+        if set(result) != wanted:
+            raise ValueError(f"Missing or suppressed pinned oldids: {sorted(wanted - set(result))}")
+        return result
+
+    result = call_with_backoff(fetch, policy=WIKIPEDIA_POLICY, label=f"{len(wanted)} pinned oldids")
+    if result is None:
+        raise RuntimeError("Pinned revision batch exhausted acquisition retries")
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -176,7 +233,7 @@ def _clean(raw_text: str) -> str:
 # Parser
 # ---------------------------------------------------------------------------
 
-def parse_events(raw_wikitext: str, page_title: str = "") -> dict:
+def parse_events_legacy(raw_wikitext: str, page_title: str = "", *, trace=None) -> dict:
     """
     Parse raw wikitext into {category: [event, ...]} respecting the full
     4-level hierarchy. See module docstring for rules.
@@ -196,8 +253,10 @@ def parse_events(raw_wikitext: str, page_title: str = "") -> dict:
     def add_event(key: str, text: str) -> None:
         ensure(key)
         result[key].append(text)
+        if trace is not None:
+            trace.append({"line": line_number, "raw": raw_line, "category": key, "text": text})
 
-    for raw_line in event_wikitext.split("\n"):
+    for line_number, raw_line in enumerate(event_wikitext.split("\n"), 1):
         stripped = raw_line.strip()
         if not stripped:
             continue
@@ -253,6 +312,14 @@ def parse_events(raw_wikitext: str, page_title: str = "") -> dict:
         log.debug("Parsed %d categories, %d events from %s", len(final), total, page_title)
 
     return final
+
+
+def parse_events(raw_wikitext: str, page_title: str = "", *, day="1970-01-01") -> dict:
+    """Compatibility projection of the hierarchy parser; use extract for archives."""
+    from seed.extract import extract, fingerprint, legacy_view
+    identity = {"page": page_title, "revision_id": None, "revision_timestamp": None,
+                "source_mode": "wikitext", "source_sha256": fingerprint(raw_wikitext)}
+    return legacy_view(extract(raw_wikitext, date=day, source=identity))
 
 
 # ---------------------------------------------------------------------------
@@ -400,7 +467,13 @@ def _fetch_rendered_html_once(page_title: str, user_agent: str) -> str | None:
         data = r.json()
         if data.get("error"):
             return None
-        return data.get("parse", {}).get("text")
+        parsed = data.get("parse", {})
+        html = parsed.get("text")
+        if html:
+            _rendered_sources[page_title] = source.store(html.encode("utf-8"),
+                title=parsed.get("title", page_title), revision_id=parsed.get("revid"),
+                timestamp=None, mode="rendered_html")
+        return html
     except RateLimitError:
         raise
     except requests.RequestException:
@@ -417,6 +490,7 @@ def fetch_rendered_html(page_title: str, user_agent: str) -> str | None:
 
 # Cache type: (year, month) -> (matched_title | None, {day: [events]})
 MonthlyCache = dict[tuple[int, int], tuple[str | None, dict[int, list[str]]]]
+_rendered_sources: dict[str, dict] = {}
 
 
 def _load_monthly_events(
@@ -465,6 +539,8 @@ class WikiDayResult:
     categories: dict[str, list[str]]
     source_title: str
     revision_id: int | None   # None when sourced from the monthly-HTML fallback
+    source_meta: dict | None = None
+    archive: dict | None = None
 
 
 def fetch_day(
@@ -484,11 +560,18 @@ def fetch_day(
         if not fetched:
             continue
 
-        events = parse_events(fetched.content, title)
-        if events:
+        from seed.extract import extract, legacy_view
+        meta = fetched.source_meta
+        if meta is None:
+            raise ValueError("Acquired Wikipedia source has no cache identity")
+        identity = {k: meta[k] for k in ("page", "revision_id", "revision_timestamp", "source_mode", "source_sha256")}
+        archive = extract(fetched.content, date=date(year, month, day).isoformat(), source=identity)
+        events = legacy_view(archive)
+        if any(c["entries"] for c in archive["categories"]) or archive["warnings"]:
             if i > 0:
                 log.info("Fallback title succeeded for %d %s %d: %s", year, month_name, day, title)
-            return WikiDayResult(categories=events, source_title=title, revision_id=fetched.revision_id)
+            return WikiDayResult(categories=events, source_title=title, revision_id=fetched.revision_id,
+                                 source_meta=fetched.source_meta, archive=archive)
 
         log.info("Parsed 0 events from %s — trying next candidate / monthly fallback.", title)
 
@@ -496,7 +579,16 @@ def fetch_day(
     target = date(year, month, day)
     monthly_title, monthly_events = monthly_fallback_for_day(target, user_agent, cache)
     if monthly_events:
-        return WikiDayResult(categories=monthly_events, source_title=monthly_title or "", revision_id=None)
+        meta = _rendered_sources.get((monthly_title or "").split("#")[0])
+        if meta is None:
+            raise ValueError("Rendered source has no exact acquisition identity")
+        _, payload = source.load(source.CACHE / "rendered_html" / Path(meta["payload"]).stem,
+                                 mode="rendered_html")
+        from seed.extract import extract, legacy_view
+        identity = {k: meta[k] for k in ("page", "revision_id", "revision_timestamp", "source_mode", "source_sha256")}
+        archive = extract(payload.decode("utf-8"), date=target.isoformat(), source=identity)
+        return WikiDayResult(categories=monthly_events, source_title=monthly_title or "", revision_id=None,
+                             source_meta=meta, archive=archive)
 
     if year < 2004:
         log.warning(

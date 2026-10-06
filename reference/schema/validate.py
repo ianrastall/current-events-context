@@ -64,6 +64,7 @@ def cross_ref_errors(doc):
     if len(work_ids) != len(set(work_ids)):
         errs.append("works_cited contains duplicate ids")
     valid = set(work_ids)
+    urls = {w.get("id"): w.get("url") for w in doc.get("works_cited", []) or []}
 
     def check_refs(refs, where):
         for r in refs or []:
@@ -77,6 +78,8 @@ def cross_ref_errors(doc):
             check_refs(kd.get("citation_refs"), f"{e.get('id')} key_data[{kd.get('label')!r}]")
         for s in e.get("sources", {}).get("external", []) or []:
             check_refs(s.get("citation_refs"), f"{e.get('id')} source {s.get('id')}")
+            if not any(urls.get(ref) == s.get("url") for ref in s.get("citation_refs", [])):
+                errs.append(f"{e.get('id')} source {s.get('id')}: bibliography refs do not identify the cited URL")
     return errs
 
 

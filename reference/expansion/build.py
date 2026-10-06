@@ -21,6 +21,8 @@ sys.path.insert(0, str(HERE))
 import wikiportal  # noqa: E402
 import entities  # noqa: E402
 import inputs  # noqa: E402
+import corrections  # noqa: E402
+import references  # noqa: E402
 
 REPO = HERE.resolve().parents[1]
 DR = REPO / "reference" / "deep-research"
@@ -33,6 +35,11 @@ LEGACY_FIX = HERE / "legacy_fix"
 def legacy_doc(date):
     rel = f"{date[:4]}/{date[5:7]}/{date}.yaml"
     if (LEGACY_FIX / rel).exists():
+        import hashlib
+        guard = json.loads((HERE / "legacy-fixes.json").read_text(encoding="utf-8"))[date]
+        original = subprocess.check_output(["git", "-C", str(REPO), "show", f"{guard['commit']}:{rel}"])
+        if hashlib.sha256(original).hexdigest() != guard["original_sha256"] or inputs.digest(LEGACY_FIX / rel, text=True) != guard["corrected_sha256"]:
+            raise ValueError(f"Legacy interpretation input drift for {date}")
         return yaml.safe_load((LEGACY_FIX / rel).read_text(encoding="utf-8"))
     text = subprocess.run(["git", "-C", str(REPO), "show", f"{LEGACY_COMMIT}:{rel}"],
                           capture_output=True, check=True).stdout.decode("utf-8")
@@ -977,7 +984,8 @@ def deep_merge(base, patch):
 
 
 def md_path_for(date):
-    return inputs.resolve(inputs.selection(date)["report"])
+    report = inputs.selection(date).get("report")
+    return inputs.resolve(report) if report else None
 
 
 def git_added_date(path):
@@ -999,12 +1007,32 @@ def build(date, report_only=False):
         doc = yaml.safe_load(inputs.resolve(selected["snapshot"]).read_bytes())
         if doc["date"] != date:
             raise ValueError(f"Snapshot date mismatch: {date}")
-        return doc
+        correction = corrections.path(date)
+        records = json.loads(correction.read_text(encoding="utf-8")) if correction.exists() else []
+        return corrections.apply(doc, selected, records)
     overlay_path = OVERLAYS / f"{date}.json"
     ov = json.loads(overlay_path.read_text(encoding="utf-8")) if overlay_path.exists() else {}
     meta, portal = wikiportal.parse(date)
+    if selected.get("portal_sha256") and meta["sha256"] != selected["portal_sha256"]:
+        raise ValueError(f"Pinned portal source drift for {date}")
+    if overlay_path.exists() and not all(k in selected for k in ("portal_sha256", "portal_items_sha256", "overlay_sha256")):
+        raise ValueError(f"Positional overlay for {date} has no source/interpretation guards")
+    if ov.get("drop_portal"):
+        raise ValueError("Portal events cannot be silently excluded by a synthesis overlay")
     mdp = md_path_for(date)
     md = parse_md(mdp) if mdp else None
+    if "portal_items_sha256" in selected:
+        import hashlib
+        digest = hashlib.sha256(json.dumps(portal, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()
+        if digest != selected["portal_items_sha256"]:
+            raise ValueError(f"Portal interpretation drift for {date}; positional overlay requires review")
+    if "report_events_sha256" in selected:
+        import hashlib
+        digest = hashlib.sha256(json.dumps(md["events"], ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()
+        if digest != selected["report_events_sha256"]:
+            raise ValueError(f"Research event interpretation drift for {date}; positional overlay requires review")
+    if "overlay_sha256" in selected and inputs.digest(overlay_path, text=True) != selected["overlay_sha256"]:
+        raise ValueError(f"Overlay drift for {date}; update its guarded identity explicitly")
     mode = ov.get("mode") or ("md" if md and md["events"] else "legacy")
     accessed_default = git_added_date(mdp) if mdp else date
 
@@ -1331,6 +1359,7 @@ def build(date, report_only=False):
         "strategic_conclusion": conclusion,
         "works_cited": works_list,
     }
+    references.reconcile(doc, FETCHED)
     return doc
 
 
@@ -1412,7 +1441,7 @@ def dump(doc):
 def write(date):
     doc = build(date)
     selected = inputs.selection(date)
-    if selected["mode"] == "authored_snapshot":
+    if selected["mode"] == "authored_snapshot" and not corrections.path(date).exists():
         text = inputs.resolve(selected["snapshot"]).read_bytes().decode("utf-8")
     else:
         text = dump(doc)
