@@ -1128,3 +1128,16 @@ remaining checks. Re-review the changed earlier drafts before marking any day
 reviewed. January 16 remains the next unresearched date. Canonical extraction
 replacement, unknown-role resolution and historical backfill still require
 the separate decisions described in the prior work pass.
+
+### CI follow-up
+
+The synthesis follow-up was pushed as `b8cb854e`; run `37404538403`
+passed. Its annotations exposed deprecated action runtimes and a pending
+`ubuntu-latest` image transition. Both workflows now use the documented
+`actions/checkout@v7` and `actions/setup-python@v7` Node 24 actions, with
+`ubuntu-24.04` selected explicitly. The upstream action definitions and tags
+were verified through official GitHub web/API reads. Workflow YAML and both
+embedded Python blocks were parsed, and `git diff --check` passed. The
+scheduled publishing workflow was not dispatched for this check; doing so
+would acquire and publish new daily data. This small follow-up changes only
+the two workflow files and this handoff; no corpus or source inputs change.
