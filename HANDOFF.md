@@ -1034,4 +1034,3 @@ no flat output was hand-edited to hide warnings.
 5. Live GDELT queries remain non-reproducible unless their complete inputs
    are cached. The artlist/theme limitation is unchanged and outside this
    Wikipedia migration. No push, PR publication or deployment was performed.
-
