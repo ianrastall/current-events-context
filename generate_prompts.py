@@ -18,6 +18,8 @@ def generate(dates, output_dir, *, include_reviewed=False):
     written = []
     for day in dates:
         selected = inputs.selection(day)
+        overlay = corrections.path(day)
+        records = json.loads(overlay.read_text(encoding="utf-8")) if overlay.exists() else []
         if selected["mode"] == "legacy_build":
             print(f"Skipped {day}: legacy synthesis is not a report-conversion input")
             continue
@@ -25,14 +27,16 @@ def generate(dates, output_dir, *, include_reviewed=False):
         if selected["mode"] == "authored_snapshot":
             import yaml
             doc = yaml.safe_load(inputs.resolve(selected["snapshot"]).read_bytes())
-            overlay = corrections.path(day)
-            doc = corrections.apply(doc, selected, json.loads(overlay.read_text(encoding="utf-8")) if overlay.exists() else [])
+            doc = corrections.apply(doc, selected, records)
             if doc["dataset"]["compiler"]["reviewed"] and not include_reviewed:
                 continue
         report = inputs.resolve(selected["report"]).read_text(encoding="utf-8")
         text = template.replace("DATE_ISO = [insert date]", f"DATE_ISO = {day}")
         text = text.replace("[Insert Markdown Report Here]", report)
-        text += f"\nTARGET OUTPUT FILE: {target}\nSELECTED INPUT: {selected['report']}\n"
+        text += f"\nTARGET OUTPUT FILE (repository-relative): {target.relative_to(ROOT).as_posix()}\nSELECTED INPUT: {selected['report']}\n"
+        if records:
+            text += "\nGUARDED SYNTHESIS CORRECTIONS:\nThese durable corrections supersede the corresponding original report claims. Preserve them during conversion; use the recorded evidence and keep the result draft pending review.\n"
+            text += json.dumps(records, ensure_ascii=False, indent=2) + "\n"
         text += "\nCANONICAL SCHEMA 2.2:\n" + schema + "\n"
         path = output_dir / f"agent_prompt_{day}.txt"
         path.write_text(text, encoding="utf-8", newline="\n")

@@ -107,7 +107,10 @@ class PipelineTests(unittest.TestCase):
             text = written[0].read_text(encoding="utf-8")
             self.assertIn("2026-01-10b.md", text)
             self.assertIn('"const": "2.2"', text)
-            self.assertIn(str(ROOT / "expanded/2026/01/2026-01-10.yaml"), text)
+            self.assertIn("expanded/2026/01/2026-01-10.yaml", text)
+            self.assertNotIn(str(ROOT), text)
+            self.assertIn("GUARDED SYNTHESIS CORRECTIONS", text)
+            self.assertIn("Executive Order", text)
             self.assertNotIn('schema_version: "2.1"', text)
             self.assertNotIn("D:\\GitHub", text)
 
