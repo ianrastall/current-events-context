@@ -58,6 +58,12 @@ def dump(doc):
                           default_flow_style=False, line_break="\n").rstrip("\n") + "\n"
 
 
+def write_if_changed(path, text):
+    payload = text.encode("utf-8")
+    if not path.exists() or path.read_bytes() != payload:
+        path.write_bytes(payload)
+
+
 def save_capture(day, archive, gdelt=None):
     """New acquisitions retain a hierarchy artifact without replacing old output."""
     doc = copy.deepcopy(archive)
@@ -234,8 +240,8 @@ def run_reparse(args):
     for day, result in prepared:
         path = output / day[:4] / day[5:7] / (day + ".yaml")
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(dump(result), encoding="utf-8", newline="\n")
-        path.with_suffix(".warnings.jsonl").write_text("".join(json.dumps(w, ensure_ascii=False) + "\n" for w in result["warnings"]), encoding="utf-8", newline="\n")
+        write_if_changed(path, dump(result))
+        write_if_changed(path.with_suffix(".warnings.jsonl"), "".join(json.dumps(w, ensure_ascii=False) + "\n" for w in result["warnings"]))
     report = {"complete": not missing, "requested_range": [str(args.start), str(args.end)],
               "verified_idempotence_and_round_trip": getattr(args, "verify", False),
               "generated": len(prepared), "missing": missing, "reconciliation": checks}

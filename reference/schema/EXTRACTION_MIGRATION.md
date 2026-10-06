@@ -33,6 +33,12 @@ Container entries remain distinct from event leaves. Empty headers remain
 present with a warning. Unsupported or ambiguous material remains raw with
 a warning; no model classifies it. Source order is authoritative.
 
+Child depth does not by itself make an uncited prose paragraph a topic.
+Unmarked parents with prose or unsupported label markup retain an unknown
+role and a warning. Linked labels may include simple connective words and
+punctuation; explicit colon labels remain topics. Manual interpretation must
+use guarded overrides or tested general rules before public replacement.
+
 Warnings include date, exact source identity, category, source path, raw
 fragment, code, interpretation and message. Overrides must guard the payload
 hash, path and raw-fragment hash; mismatches fail. A warning resolution belongs

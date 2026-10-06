@@ -12,8 +12,11 @@ def summarize(candidate_root, destination):
     report_bytes = (root / "report.json").read_bytes()
     report = json.loads(report_bytes)
     checks = report["reconciliation"]
+    selected_dates = {c["date"] for c in checks}
     counts, samples, unresolved = Counter(), defaultdict(list), []
     for path in sorted(root.glob("20*/*/*.warnings.jsonl")):
+        if path.name.removesuffix(".warnings.jsonl") not in selected_dates:
+            continue
         for line in path.read_text(encoding="utf-8").splitlines():
             warning = json.loads(line)
             counts[warning["code"]] += 1
@@ -24,6 +27,8 @@ def summarize(candidate_root, destination):
     totals = {key: sum(c[key] or 0 for c in checks) for key in (
         "source_bullets", "represented_bullets", "prior_flat_items", "legacy_replayed_items",
         "events", "topics", "event_leaves", "event_containers", "unknown", "warnings")}
+    if sum(counts.values()) != totals["warnings"]:
+        raise ValueError("Warning files do not match the completed replay report")
     mismatch = [c["date"] for c in checks if not c["baseline_matches_legacy_replay"]]
     summary = {
         "schema": "extraction-1.0", "generated": report["generated"], "complete": report["complete"],

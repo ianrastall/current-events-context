@@ -1,6 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+# Generated synthesis and verification artifacts have an explicit LF contract.
+expanded/**/*.yaml text eol=lf
+provisional/captures/**/*.yaml text eol=lf
+reference/reconciliation/extraction-report.json -text
+
 # Cached source payloads: keep exact bytes so recorded SHA-256 values stay valid
 reference/expansion/wikitext/*.wiki -text
 reference/expansion/authored/**/*.yaml -text
