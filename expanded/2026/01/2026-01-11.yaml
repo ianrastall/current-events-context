@@ -18,27 +18,24 @@ editorial_policy:
   require_source_support: true
 
 analytical_overview: >
-  January 11, 2026 brought a sharp domestic escalation in the United States over the
-  Federal Reserve and continued fallout from the Venezuela intervention abroad. Fed
-  Chair Jerome Powell disclosed that the Justice Department had served the central
-  bank with grand-jury subpoenas threatening a criminal indictment tied to his June
-  testimony, which he called a pretext for pressuring the Fed over interest rates;
-  Senator Thom Tillis said he would oppose any Fed nominee until the matter was
-  resolved. President Trump separately demanded a deal with Cuba and threatened to
-  cut off Venezuelan oil and money reaching Havana, while Homeland Security announced
-  hundreds more federal officers for Minnesota after the fatal ICE shooting of Renée
-  Good. Iran's death toll, per HRANA, reached a cumulative 538, and parliament speaker
-  Mohammad Bagher Qalibaf warned that a US attack would make US bases and Israel
-  targets for retaliation.
-
-  In Syria, Kurdish forces completed their withdrawal from Aleppo under an
-  internationally mediated ceasefire. Russia launched 154 drones at Ukraine overnight
-  and a Ukrainian drone attack on Voronezh killed a Russian woman. European officials
-  pushed back on US pressure over Greenland, Sudan's government returned to Khartoum,
-  and Myanmar and Benin both held elections. Coordinated attacks hit petrol stations
-  in southern Thailand, a gas explosion killed eight at a wedding in Islamabad, and
-  the first bushfire death was confirmed in Victoria, Australia, as the toll there
-  passed 300 destroyed structures.
+  January 11, 2026 brought a sharp domestic escalation in the United States over the Federal
+  Reserve and continued fallout from the Venezuela intervention abroad. Fed Chair Jerome
+  Powell disclosed that the Justice Department had served the central bank with grand-jury
+  subpoenas threatening a criminal indictment tied to his June testimony, which he called a
+  pretext for pressuring the Fed over interest rates; Senator Thom Tillis said he would
+  oppose any Fed nominee until the matter was resolved. President Trump separately demanded
+  a deal with Cuba and threatened to cut off Venezuelan oil and money reaching Havana, while
+  Homeland Security announced hundreds more federal officers for Minnesota after the fatal
+  ICE shooting of Renée Good. Iran's death toll, per HRANA, reached a cumulative 538, and
+  parliament speaker Mohammad Bagher Qalibaf warned that a US attack would make US bases and
+  Israel targets for retaliation. In Syria, Kurdish forces completed their withdrawal from
+  Aleppo under an internationally mediated ceasefire. Russia launched 154 drones at Ukraine
+  overnight and a Ukrainian drone attack on Voronezh killed a Russian woman. European
+  officials pushed back on US pressure over Greenland, Sudan's government returned to
+  Khartoum, and Myanmar and Benin both held elections. Coordinated attacks hit petrol
+  stations in southern Thailand, a gas explosion killed eight at a wedding in Islamabad, and
+  the first bushfire death was confirmed in Victoria, Australia, as the toll there passed
+  300 destroyed structures.
 
 events:
   - id: "evt-2026-01-11-001"
@@ -51,14 +48,14 @@ events:
     importance: 9
     headline: "HRANA puts Iran protest deaths at 538 as Qalibaf warns of retaliation against a U.S. attack"
     summary: >
-      The U.S.-based Human Rights Activists News Agency reported a cumulative toll of
-      538 deaths in Iran's protest crackdown, comprising 490 protesters and 48 security
-      personnel, and more than 10,600 detentions, though AP and Reuters said the
-      figures could not be independently verified amid severe communications
-      restrictions. Parliament Speaker Mohammad Bagher Qalibaf warned that a U.S.
-      attack on Iran would make U.S. military installations and Israel targets for
-      retaliation. President Masoud Pezeshkian said the government would address public
-      grievances while condemning people he described as rioters.
+      The U.S.-based Human Rights Activists News Agency reported a cumulative toll of 538
+      deaths in Iran's protest crackdown, comprising 490 protesters and 48 security
+      personnel, and more than 10,600 detentions, though AP and Reuters said the figures
+      could not be independently verified amid severe communications restrictions.
+      Parliament Speaker Mohammad Bagher Qalibaf warned that a U.S. attack on Iran would
+      make U.S. military installations and Israel targets for retaliation. President Masoud
+      Pezeshkian said the government would address public grievances while condemning people
+      he described as rioters.
     key_data:
       - label: "HRANA cumulative death toll"
         value: "538 (490 protesters, 48 security personnel)"
@@ -134,30 +131,30 @@ events:
         included: true
         text_fragment: "Non-governmental organization HRAI verifies the deaths of 483 protesters and 47 security personnel in Iran since the start of the protests. (Sky News) (Reuters)"
       external:
-        - id: src-001-a
+        - id: "src-001-a"
           outlet: "Associated Press via The Week"
           url: "https://www.theweek.in/wire-updates/international/2026/01/11/death-toll-in-crackdown-on-protests-in-iran-spikes-to-at-least-538-activists-say.amp.html"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "490 are protesters and 48 are members of the security forces."
           citation_refs: [1]
-        - id: src-001-b
+        - id: "src-001-b"
           outlet: "Reuters via Onmanorama"
           url: "https://www.onmanorama.com/news/world/2026/01/11/iran-protest-death-toll-us-trump.amp.html"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - details.what_happened
-            - details.why_it_matters
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
           contradicts: []
           quoted_material:
             - "Reuters was unable to independently verify the tolls."
@@ -167,13 +164,12 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: low
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "low"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-10-004"
     notes: "The portal's 'HRAI' is treated as a rendering of HRANA. The portal cited Sky News and Reuters for its slightly lower running count."
-
   - id: "evt-2026-01-11-002"
     category: "Business and economy"
     subcategory: "Internet regulation"
@@ -184,9 +180,9 @@ events:
     importance: 6
     headline: "Iran shuts down Starlink internet access for the first time amid blackout"
     summary: >
-      Amid the ongoing nationwide internet blackout, the Iranian government
-      successfully shut down Starlink satellite internet access for the first time,
-      according to the Wikipedia current-events portal citing The Times of Israel.
+      Amid the ongoing nationwide internet blackout, the Iranian government successfully
+      shut down Starlink satellite internet access for the first time, according to the
+      Wikipedia current-events portal citing The Times of Israel.
     key_data:
       - label: "Service shut down"
         value: "Starlink (first time)"
@@ -243,13 +239,12 @@ events:
       enriched_manually: false
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-11-001"
     notes: "Portal-derived event; reported by The Times of Israel per the Wikipedia portal."
-
   - id: "evt-2026-01-11-003"
     category: "Armed conflicts and attacks"
     subcategory: "Vehicle-ramming attacks"
@@ -259,11 +254,10 @@ events:
     importance: 5
     headline: "Two injured as U-Haul truck strikes protesters at anti-Iran-government rally in Los Angeles"
     summary: >
-      Two people were injured in a suspected vehicle-ramming attack when a U-Haul
-      truck struck multiple people during an anti-Iranian-government protest in Los
-      Angeles, California, after protesters struck the vehicle with hands and flags.
-      No one was hospitalized, according to the Wikipedia current-events portal
-      citing BNO News.
+      Two people were injured in a suspected vehicle-ramming attack when a U-Haul truck
+      struck multiple people during an anti-Iranian-government protest in Los Angeles,
+      California, after protesters struck the vehicle with hands and flags. No one was
+      hospitalized, according to the Wikipedia current-events portal citing BNO News.
     key_data:
       - label: "Injured"
         value: "2"
@@ -324,13 +318,12 @@ events:
       enriched_manually: false
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: low
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
     related_events:
       - "evt-2026-01-11-001"
     notes: "Portal-derived event; reported by BNO News per the Wikipedia portal."
-
   - id: "evt-2026-01-11-004"
     category: "Business and economy"
     subcategory: "Central banking and criminal investigations"
@@ -341,13 +334,13 @@ events:
     importance: 8
     headline: "Fed Chair Powell discloses grand-jury subpoenas, calls probe pressure over interest rates"
     summary: >
-      Federal Reserve Chair Jerome Powell disclosed that the Justice Department served
-      the central bank with grand-jury subpoenas on January 9, threatening a criminal
-      indictment connected to his June 2025 congressional testimony about renovations
-      of Federal Reserve buildings. Powell attributed the threat to disagreement over
-      monetary policy. President Trump denied knowing about the investigation, and
-      Republican Senator Thom Tillis said he would oppose confirmation of any Federal
-      Reserve nominee until the matter was resolved.
+      Federal Reserve Chair Jerome Powell disclosed that the Justice Department served the
+      central bank with grand-jury subpoenas on January 9, threatening a criminal indictment
+      connected to his June 2025 congressional testimony about renovations of Federal
+      Reserve buildings. Powell attributed the threat to disagreement over monetary policy.
+      President Trump denied knowing about the investigation, and Republican Senator Thom
+      Tillis said he would oppose confirmation of any Federal Reserve nominee until the
+      matter was resolved.
     key_data:
       - label: "Subpoenas served"
         value: "January 9, 2026"
@@ -421,29 +414,29 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-004-a
+        - id: "src-004-a"
           outlet: "Federal Reserve Board"
           url: "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm"
           publication_date: "2026-01-11"
-          source_type: official_release
-          reliability_tier: high
+          source_type: "official_release"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "served the Federal Reserve with grand jury subpoenas."
           citation_refs: [3]
-        - id: src-004-b
+        - id: "src-004-b"
           outlet: "ABC News"
           url: "https://abcnews.com/Politics/doj-launches-criminal-investigation-fed-chair-jerome-powell/story?id=129114228"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - details.what_happened
-            - details.why_it_matters
+            - "details.what_happened"
+            - "details.why_it_matters"
           contradicts: []
           quoted_material:
             - "oppose the confirmation of any nominee."
@@ -453,12 +446,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: ""
-
   - id: "evt-2026-01-11-005"
     category: "International relations"
     subcategory: "Economic pressure and energy supplies"
@@ -469,12 +461,12 @@ events:
     importance: 6
     headline: "Trump demands a deal with Cuba, threatens to cut off Venezuelan oil and money to Havana"
     summary: >
-      President Donald Trump demanded that Cuba reach a deal with Washington,
-      declaring that Venezuelan oil and financial support would no longer reach the
-      island, without specifying the terms of the proposed agreement. Cuban President
-      Miguel Díaz-Canel rejected the pressure, and Foreign Minister Bruno Rodríguez
-      disputed Trump's description of Cuba's security relationship with Venezuela and
-      defended Cuba's right to obtain fuel from willing suppliers.
+      President Donald Trump demanded that Cuba reach a deal with Washington, declaring that
+      Venezuelan oil and financial support would no longer reach the island, without
+      specifying the terms of the proposed agreement. Cuban President Miguel Díaz-Canel
+      rejected the pressure, and Foreign Minister Bruno Rodríguez disputed Trump's
+      description of Cuba's security relationship with Venezuela and defended Cuba's right
+      to obtain fuel from willing suppliers.
     key_data: []
     details:
       what_happened:
@@ -538,27 +530,27 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-005-a
+        - id: "src-005-a"
           outlet: "Associated Press via WSLS"
           url: "https://www.wsls.com/news/politics/2026/01/11/with-cuban-ally-maduro-ousted-trump-warns-havana-to-make-a-deal-before-its-too-late/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - details.what_happened
+            - "summary"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "He did not explain what kind of deal."
           citation_refs: [5]
-        - id: src-005-b
+        - id: "src-005-b"
           outlet: "AFP via Channels Television"
           url: "https://www.channelstv.com/2026/01/11/trump-tells-cuba-to-make-a-deal-before-it-is-too-late/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - details.what_happened
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "never received monetary or material compensation"
@@ -568,12 +560,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: ""
-
   - id: "evt-2026-01-11-006"
     category: "Armed conflicts and attacks"
     subcategory: "Ceasefires and military withdrawals"
@@ -583,13 +574,12 @@ events:
     importance: 7
     headline: "Kurdish forces complete withdrawal from Aleppo under mediated ceasefire"
     summary: >
-      Kurdish forces withdrew from Aleppo following an internationally mediated
-      ceasefire with the Syrian government. SDF commander Mazloum Abdi confirmed an
-      agreement allowing fighters, civilians and wounded people to evacuate toward
-      northern and eastern Syria. Government forces took control of the affected
-      districts, and Syrian state media put the cumulative displacement from days of
-      fighting at more than 150,000, while DW reported a lower figure of more than
-      140,000 and at least 22 killed.
+      Kurdish forces withdrew from Aleppo following an internationally mediated ceasefire
+      with the Syrian government. SDF commander Mazloum Abdi confirmed an agreement allowing
+      fighters, civilians and wounded people to evacuate toward northern and eastern Syria.
+      Government forces took control of the affected districts, and Syrian state media put
+      the cumulative displacement from days of fighting at more than 150,000, while DW
+      reported a lower figure of more than 140,000 and at least 22 killed.
     key_data:
       - label: "Killed (cumulative, DW)"
         value: "At least 22"
@@ -662,33 +652,33 @@ events:
         included: true
         text_fragment: "The Syrian Democratic Forces withdraw from Aleppo following negotiations with the Syrian transitional government. (Al Jazeera)"
       external:
-        - id: src-006-a
+        - id: "src-006-a"
           outlet: "Deutsche Welle"
           url: "https://amp.dw.com/en/syria-kurdish-forces-leave-aleppo-after-days-of-fighting/a-75463086"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
-            - casualty_report
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
+            - "casualty_report"
           contradicts:
-            - casualty_report
+            - "casualty_report"
           quoted_material:
             - "At least 22 people were killed."
           citation_refs: [7]
-        - id: src-006-b
+        - id: "src-006-b"
           outlet: "The National"
           url: "https://www.thenationalnews.com/news/mena/2026/01/11/syria-says-calm-returns-to-aleppo-after-sdf-says-understanding-reached/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
-            - casualty_report
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
+            - "casualty_report"
           contradicts: []
           quoted_material:
             - "More than 150,000 people have been displaced."
@@ -698,15 +688,14 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-08-007"
       - "evt-2026-01-09-005"
       - "evt-2026-01-10-005"
     notes: "The portal cited Al Jazeera."
-
   - id: "evt-2026-01-11-007"
     category: "Armed conflicts and attacks"
     subcategory: "Drone and missile strikes"
@@ -716,14 +705,13 @@ events:
     importance: 7
     headline: "Russia launches 154 drones at Ukraine overnight, damaging railways and power facilities"
     summary: >
-      Ukrainian authorities reported a 154-drone Russian attack spanning the evening
-      of January 10 into the morning of January 11, with 125 drones intercepted or
-      suppressed. Residential areas, railway infrastructure and power facilities were
-      damaged, and more than 1,000 apartment buildings in Kyiv remained without
-      heating late on January 11. Reports gave different casualty figures for
-      different reporting windows: Euronews said four were killed and 20 injured
-      overnight, while the Kyiv Independent reported five killed and 24 injured over
-      the preceding day.
+      Ukrainian authorities reported a 154-drone Russian attack spanning the evening of
+      January 10 into the morning of January 11, with 125 drones intercepted or suppressed.
+      Residential areas, railway infrastructure and power facilities were damaged, and more
+      than 1,000 apartment buildings in Kyiv remained without heating late on January 11.
+      Reports gave different casualty figures for different reporting windows: Euronews said
+      four were killed and 20 injured overnight, while the Kyiv Independent reported five
+      killed and 24 injured over the preceding day.
     key_data:
       - label: "Drones launched"
         value: "154"
@@ -801,45 +789,45 @@ events:
         included: true
         text_fragment: "At least four people are killed and 20 others are injured in overnight Russian drone attacks across Ukraine. (Euronews)"
       external:
-        - id: src-007-a
+        - id: "src-007-a"
           outlet: "RFE/RL"
           url: "https://www.rferl.org/a/zelenskyy-russia-cynical-terror-kyiv-heat-freezing-electricity/33645291.html"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "more than 1,000 apartment buildings ... remain without heating."
           citation_refs: [9]
-        - id: src-007-b
+        - id: "src-007-b"
           outlet: "The Kyiv Independent"
           url: "https://kyivindependent.com/russia-launches-over-100-drones-overnight/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - details.what_happened
-            - casualty_report
+            - "details.what_happened"
+            - "casualty_report"
           contradicts:
-            - casualty_report
+            - "casualty_report"
           quoted_material:
             - "at least five civilians and injured at least 24 others."
           citation_refs: [10]
-        - id: src-007-c
+        - id: "src-007-c"
           outlet: "Euronews"
           url: "https://www.euronews.com/my-europe/2026/01/11/four-killed-and-20-more-injured-in-overnight-russian-attacks-across-ukraine"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - casualty_report
+            - "key_data"
+            - "casualty_report"
           contradicts:
-            - casualty_report
+            - "casualty_report"
           quoted_material:
             - "killing at least four people and injuring 20 more."
           citation_refs: [11]
@@ -848,14 +836,13 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-08-005"
       - "evt-2026-01-09-011"
     notes: "The portal cited Euronews for the overnight figure of four killed and 20 injured; this report uses the Kyiv Independent's five-killed, 24-injured figure in casualty_report as the more complete preceding-day account, noting the Euronews figure as a differing subset in contradicts."
-
   - id: "evt-2026-01-11-008"
     category: "Armed conflicts and attacks"
     subcategory: "Drone attacks"
@@ -865,10 +852,10 @@ events:
     importance: 5
     headline: "Woman dies after Ukrainian drone attack on Voronezh, Russia"
     summary: >
-      Voronezh Governor Alexander Gusev said a woman died overnight following a
-      Ukrainian drone attack on the Russian city, with three other people injured and
-      about a dozen residential buildings damaged. Reuters said it could not
-      independently verify the governor's account.
+      Voronezh Governor Alexander Gusev said a woman died overnight following a Ukrainian
+      drone attack on the Russian city, with three other people injured and about a dozen
+      residential buildings damaged. Reuters said it could not independently verify the
+      governor's account.
     key_data:
       - label: "Killed"
         value: "1"
@@ -927,28 +914,28 @@ events:
         included: true
         text_fragment: "A woman is killed and around a dozen residential buildings are damaged in an overnight Ukrainian drone attack on Voronezh, Russia. (Reuters)"
       external:
-        - id: src-008-a
+        - id: "src-008-a"
           outlet: "Reuters"
           url: "https://www.reuters.com/world/ukrainian-drone-attack-injures-four-damages-buildings-russias-voronezh-governor-2026-01-10/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Reuters could not independently verify the reports."
           citation_refs: [12]
-        - id: src-008-b
+        - id: "src-008-b"
           outlet: "Associated Press via ClickOrlando"
           url: "https://www.clickorlando.com/news/world/2026/01/11/ukrainian-drone-attack-in-russia-kills-1-following-moscows-intense-bombardment/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - details.what_happened
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "A young woman died overnight."
@@ -958,12 +945,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: medium
-      detail_accuracy: medium
-      actor_identification: medium
+      event_existence: "medium"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
     related_events: []
     notes: "The portal cited Reuters."
-
   - id: "evt-2026-01-11-009"
     category: "International relations"
     subcategory: "Territorial sovereignty and NATO"
@@ -976,10 +962,9 @@ events:
     summary: >
       Speaking at Sweden's annual security conference, Prime Minister Ulf Kristersson
       criticized the Trump administration's rhetoric toward Greenland and Denmark and
-      defended Denmark's record as a U.S. ally. In Iceland, German Foreign Minister
-      Johann Wadephul said North Atlantic security concerns should be addressed within
-      NATO, and Icelandic Foreign Minister Thorgerdur Katrin Gunnarsdottir urged allied
-      cohesion.
+      defended Denmark's record as a U.S. ally. In Iceland, German Foreign Minister Johann
+      Wadephul said North Atlantic security concerns should be addressed within NATO, and
+      Icelandic Foreign Minister Thorgerdur Katrin Gunnarsdottir urged allied cohesion.
     key_data: []
     details:
       what_happened:
@@ -1048,27 +1033,27 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-009-a
+        - id: "src-009-a"
           outlet: "Reuters via StreetInsider"
           url: "https://www.streetinsider.com/Reuters/Sweden+%27highly+critical%27+of+US+rhetoric+on+Greenland+and+Denmark%2C+says+PM/25832629.html"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - details.what_happened
+            - "summary"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "the United States should thank Denmark."
           citation_refs: [14]
-        - id: src-009-b
+        - id: "src-009-b"
           outlet: "Reuters Connect"
           url: "https://www.reutersconnect.com/item/us-should-discuss-northern-atlantic-security-concerns-within-nato-says-german-foreign-minister/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNTkzMTExMDEyMDI2UlAx"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - details.what_happened
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "But please, in the NATO framework."
@@ -1078,13 +1063,12 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-08-003"
     notes: ""
-
   - id: "evt-2026-01-11-010"
     category: "Law and crime"
     subcategory: "Immigration enforcement"
@@ -1095,12 +1079,11 @@ events:
     importance: 6
     headline: "DHS announces hundreds more federal officers for Minnesota amid ICE shooting fallout"
     summary: >
-      Homeland Security Secretary Kristi Noem said in a Sunday television interview
-      that hundreds of additional federal officers would be sent to Minnesota to
-      protect immigration and Border Patrol personnel already operating there,
-      following protests over the fatal shooting of Renée Good. Federal officials
-      maintained the agent acted in self-defense, while Minnesota officials disputed
-      that account.
+      Homeland Security Secretary Kristi Noem said in a Sunday television interview that
+      hundreds of additional federal officers would be sent to Minnesota to protect
+      immigration and Border Patrol personnel already operating there, following protests
+      over the fatal shooting of Renée Good. Federal officials maintained the agent acted in
+      self-defense, while Minnesota officials disputed that account.
     key_data:
       - label: "Additional officers announced"
         value: "Hundreds"
@@ -1111,12 +1094,12 @@ events:
     details:
       what_happened:
         - "Noem announced the additional deployment in a Sunday television interview."
-        - "Arrivals were planned for Sunday and Monday."
         - "About 2,000 federal officers had already been dispatched to Minnesota, Reuters reported."
         - "Federal and state officials remained divided over the circumstances of the shooting."
       why_it_matters:
         - "The deployment expands an already large immigration operation amid substantial public opposition."
-      uncertainty_notes: []
+      uncertainty_notes:
+        - "The precise Sunday/Monday arrival schedule formerly attributed to CBS Minnesota was not independently confirmed and is excluded."
     actors:
       primary:
         - "Kristi Noem"
@@ -1170,46 +1153,33 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-010-a
+        - id: "src-010-a"
           outlet: "Reuters via Gulf Times"
           url: "https://www.gulf-times.com/article/718398/international/uslatin-america/dhs-to-send-hundreds-more-officers-to-minnesota-noem/amp"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "sending 'hundreds' more officers."
           citation_refs: [16]
-        - id: src-010-b
-          outlet: "CBS Minnesota"
-          url: "https://www.cbsnews.com/amp/minnesota/news/hundreds-more-federal-immigration-agents-minneapolis-dhs/"
-          publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
-          supports:
-            - details.what_happened
-          contradicts: []
-          quoted_material:
-            - "more agents will arrive in the metro Sunday and Monday."
-          citation_refs: [17]
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-07-007"
       - "evt-2026-01-08-023"
       - "evt-2026-01-09-009"
     notes: "Supersedes the deployment claim previously noted under January 10 (evt-2026-01-10-003's related event), which the January 10 report had misdated; Noem's own account places the TV interview announcement on Sunday, January 11."
-
   - id: "evt-2026-01-11-011"
     category: "Politics and elections"
     subcategory: "Parliamentary elections"
@@ -1219,12 +1189,12 @@ events:
     importance: 6
     headline: "Myanmar holds second phase of military-run election amid civil war"
     summary: >
-      Myanmar held the second phase of its general election, with polling opening in
-      100 of the country's 330 townships, including parts of Yangon and Mandalay. The
+      Myanmar held the second phase of its general election, with polling opening in 100 of
+      the country's 330 townships, including parts of Yangon and Mandalay. The
       military-backed Union Solidarity and Development Party entered the round with a
-      commanding lead from the first phase, while major opposition parties, including
-      Aung San Suu Kyi's National League for Democracy, had been dissolved. A final
-      voting phase remained scheduled for January 25.
+      commanding lead from the first phase, while major opposition parties, including Aung
+      San Suu Kyi's National League for Democracy, had been dissolved. A final voting phase
+      remained scheduled for January 25.
     key_data:
       - label: "Townships voting in this phase"
         value: "100 of 330"
@@ -1292,28 +1262,28 @@ events:
         included: true
         text_fragment: "Citizens of Myanmar vote in the second phase to elect the nation's bicameral legislature. One more phase of voting is expected in late January. (AP)"
       external:
-        - id: src-011-a
+        - id: "src-011-a"
           outlet: "Deutsche Welle"
           url: "https://amp.dw.com/en/myanmar-holds-second-phase-of-election-with-military-junta-facing-no-opposition-as-civil-war-rages/a-75463631"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "100 of Myanmar's 330 townships."
           citation_refs: [18]
-        - id: src-011-b
+        - id: "src-011-b"
           outlet: "Reuters via AsiaOne"
           url: "https://www.asiaone.com/asia/myanmar-votes-2nd-phase-military-run-election"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - details.why_it_matters
+            - "details.why_it_matters"
           contradicts: []
           quoted_material:
             - "neither free, fair nor credible."
@@ -1323,12 +1293,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "The portal cited AP."
-
   - id: "evt-2026-01-11-012"
     category: "Politics and governance"
     subcategory: "Wartime government relocation"
@@ -1338,11 +1307,11 @@ events:
     importance: 5
     headline: "Sudan's government announces return to Khartoum after nearly three years in Port Sudan"
     summary: >
-      Prime Minister Kamil Idris announced that Sudan's government had returned to
-      Khartoum after operating from Port Sudan for nearly three years of the civil
-      war. He described the relocation as comprehensive, though some departments were
-      still completing their transfers, and offices were reopening in temporary
-      premises because major buildings remained unusable.
+      Prime Minister Kamil Idris announced that Sudan's government had returned to Khartoum
+      after operating from Port Sudan for nearly three years of the civil war. He described
+      the relocation as comprehensive, though some departments were still completing their
+      transfers, and offices were reopening in temporary premises because major buildings
+      remained unusable.
     key_data: []
     details:
       what_happened:
@@ -1398,28 +1367,28 @@ events:
         included: true
         text_fragment: "Sudanese prime minister Kamil Idris announces that the government will return to the capital of Khartoum after previously operating out of Port Sudan for much of the conflict. (Al Jazeera)"
       external:
-        - id: src-012-a
+        - id: "src-012-a"
           outlet: "Sudan Tribune"
           url: "https://sudantribune.com/article/309246"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - details.what_happened
+            - "summary"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "final and comprehensive."
           citation_refs: [20]
-        - id: src-012-b
+        - id: "src-012-b"
           outlet: "AFP via Arab News Pakistan"
           url: "https://www.arabnews.pk/middle-east/sudan-pm-announces-govt-return-to-khartoum-from-wartime-capital-2628969"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - details.what_happened
+            - "summary"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Today, we return."
@@ -1429,12 +1398,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "The portal cited Al Jazeera."
-
   - id: "evt-2026-01-11-013"
     category: "Politics and elections"
     subcategory: "Parliamentary and municipal elections"
@@ -1444,11 +1412,11 @@ events:
     importance: 5
     headline: "Benin votes in parliamentary and municipal elections a month after failed coup"
     summary: >
-      Beninese voters went to the polls to choose the 109-member National Assembly
-      and municipal councils covering 77 communes, about one month after a failed
-      coup attempt. The main opposition Democrats party contested the parliamentary
-      race but was excluded from municipal contests. Domestic observers described
-      generally calm conditions by midday, with some polling stations opening late.
+      Beninese voters went to the polls to choose the 109-member National Assembly and
+      municipal councils covering 77 communes, about one month after a failed coup attempt.
+      The main opposition Democrats party contested the parliamentary race but was excluded
+      from municipal contests. Domestic observers described generally calm conditions by
+      midday, with some polling stations opening late.
     key_data:
       - label: "National Assembly seats contested"
         value: "109"
@@ -1518,29 +1486,29 @@ events:
         included: true
         text_fragment: "Citizens in Benin vote to elect the 109 members of the National Assembly more than one month after a thwarted coup attempt. (RFI)"
       external:
-        - id: src-013-a
+        - id: "src-013-a"
           outlet: "AFP via Punch"
           url: "https://punchng.com/benin-heads-to-polls-after-foiled-coup-attempt/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "109 seats in the National Assembly."
           citation_refs: [22]
-        - id: src-013-b
+        - id: "src-013-b"
           outlet: "La Nouvelle Tribune"
           url: "https://lanouvelletribune.info/2026/01/benin-un-vote-calme-et-bien-engage-a-mi-journee-selon-le-cape-et-le-coscep/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: medium
+          source_type: "news_report"
+          reliability_tier: "medium"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "un climat calme et ordonné"
@@ -1550,12 +1518,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "The portal cited RFI. This election was mistakenly leaked into the January 9 deep-research report as a January 9 event and excluded there; this report confirms it took place on January 11."
-
   - id: "evt-2026-01-11-014"
     category: "Armed conflicts and attacks"
     subcategory: "Bombings and arson"
@@ -1565,11 +1532,11 @@ events:
     importance: 6
     headline: "Coordinated bomb and arson attacks strike 11 petrol stations in southern Thailand"
     summary: >
-      Coordinated bomb and arson attacks hit 11 petrol stations across Thailand's
-      southern border provinces of Narathiwat, Pattani and Yala shortly after
-      midnight, injuring four people, according to the army. Narathiwat imposed an
-      overnight curfew, and Prime Minister Anutin Charnvirakul said security agencies
-      believed the attacks were a signal connected to local elections held that day.
+      Coordinated bomb and arson attacks hit 11 petrol stations across Thailand's southern
+      border provinces of Narathiwat, Pattani and Yala shortly after midnight, injuring four
+      people, according to the army. Narathiwat imposed an overnight curfew, and Prime
+      Minister Anutin Charnvirakul said security agencies believed the attacks were a signal
+      connected to local elections held that day.
     key_data:
       - label: "Petrol stations attacked"
         value: "11"
@@ -1639,29 +1606,29 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-014-a
+        - id: "src-014-a"
           outlet: "AFP via Arab News"
           url: "https://www.arabnews.com/world/bomb-attacks-on-thailand-petrol-stations-injure-4-army-2628945"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "none with serious injuries."
           citation_refs: [24]
-        - id: src-014-b
+        - id: "src-014-b"
           outlet: "The Nation Thailand"
           url: "https://www.nationthailand.com/news/general/40061072"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "a curfew from 9pm to 5am, effective immediately."
@@ -1671,12 +1638,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: low
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "low"
     related_events: []
     notes: ""
-
   - id: "evt-2026-01-11-015"
     category: "Disasters and accidents"
     subcategory: "Wildfires"
@@ -1688,12 +1654,11 @@ events:
     headline: "First bushfire death confirmed in Victoria as destruction passes 300 structures"
     summary: >
       Victoria Police confirmed the discovery of human remains near a vehicle in the
-      Longwood fire area on Sunday, the first confirmed death of the bushfire season.
-      More than 350,000 hectares had burned across Victoria and more than 300
-      structures had been destroyed, with over 30 fires still active. Prime Minister
-      Anthony Albanese and Victorian Premier Jacinta Allan announced a A$19.5 million
-      support package, including direct payments to affected households and help
-      distributing livestock fodder.
+      Longwood fire area on Sunday, the first confirmed death of the bushfire season. More
+      than 350,000 hectares had burned across Victoria and more than 300 structures had been
+      destroyed, with over 30 fires still active. Prime Minister Anthony Albanese and
+      Victorian Premier Jacinta Allan announced a A$19.5 million support package, including
+      direct payments to affected households and help distributing livestock fodder.
     key_data:
       - label: "Structures destroyed"
         value: "More than 300"
@@ -1768,29 +1733,29 @@ events:
         included: true
         text_fragment: "One person is killed and at least 300 properties are destroyed by wildfires across Victoria and New South Wales, Australia. A state of emergency is declared in Victoria with thousands of firefighters and more than 70 aircraft deployed to combat the fires. (BBC News)"
       external:
-        - id: src-015-a
+        - id: "src-015-a"
           outlet: "Australian Associated Press via The Queenslander"
           url: "https://theqldr.com.au/economy-business-and-finance/2026/01/11/bushfires_vic-28/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "Police confirmed the death on Sunday."
           citation_refs: [26]
-        - id: src-015-b
+        - id: "src-015-b"
           outlet: "Reuters via The Kathmandu Post"
           url: "https://kathmandupost.com/world/2026/01/11/human-remains-found-amid-australia-bushfires-police-say"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
-            - details.what_happened
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "destroying more than 300 structures."
@@ -1800,13 +1765,12 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events:
       - "evt-2026-01-08-013"
     notes: "The portal cited BBC News. This event replaces a speculative, unsourced version previously recorded under January 10 (see the notes on evt-2026-01-10 in the repository handoff document); the sourced report here confirms the death was announced on Sunday, January 11."
-
   - id: "evt-2026-01-11-016"
     category: "International relations"
     subcategory: "Border incidents and military tensions"
@@ -1816,12 +1780,11 @@ events:
     importance: 5
     headline: "North Korea demands explanation for alleged drone incursions; Seoul promises investigation"
     summary: >
-      Kim Yo-jong demanded a detailed South Korean explanation for drones that North
-      Korea alleged had crossed its border, acknowledging Seoul's denial of military
-      involvement but arguing that civilian responsibility would not remove the
-      sovereignty issue. South Korea's presidential office reiterated it had no
-      intention of provoking the North and pledged a joint military-police
-      investigation with public disclosure of its findings.
+      Kim Yo-jong demanded a detailed South Korean explanation for drones that North Korea
+      alleged had crossed its border, acknowledging Seoul's denial of military involvement
+      but arguing that civilian responsibility would not remove the sovereignty issue. South
+      Korea's presidential office reiterated it had no intention of provoking the North and
+      pledged a joint military-police investigation with public disclosure of its findings.
     key_data: []
     details:
       what_happened:
@@ -1880,27 +1843,27 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: src-016-a
+        - id: "src-016-a"
           outlet: "Yonhap News Agency"
           url: "https://en.yna.co.kr/view/AEN20260111000452315"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - details.what_happened
+            - "summary"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "a detail explanation should be made."
           citation_refs: [28]
-        - id: src-016-b
+        - id: "src-016-b"
           outlet: "Yonhap News Agency"
           url: "https://en.yna.co.kr/view/AEN20260111002051315"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - details.what_happened
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "a joint military-police probe and promptly disclose its results."
@@ -1910,12 +1873,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
     related_events: []
     notes: ""
-
   - id: "evt-2026-01-11-017"
     category: "Disasters and accidents"
     subcategory: "Gas explosion and building collapse"
@@ -1926,11 +1888,10 @@ events:
     headline: "Gas explosion at Islamabad wedding house kills eight, including newlyweds"
     summary: >
       Eight people, including a newly married couple, were killed in a gas-cylinder
-      explosion at a house hosting a wedding gathering in Islamabad's G-7/2 sector.
-      The blast collapsed the house and damaged neighboring properties. Authorities
-      attributed it to a gas leak and opened an investigation; published injury
-      counts differed, with Geo News reporting seven and Dawn and a witness
-      interviewed by Reuters reporting 12.
+      explosion at a house hosting a wedding gathering in Islamabad's G-7/2 sector. The
+      blast collapsed the house and damaged neighboring properties. Authorities attributed
+      it to a gas leak and opened an investigation; published injury counts differed, with
+      Geo News reporting seven and Dawn and a witness interviewed by Reuters reporting 12.
     key_data:
       - label: "Killed"
         value: "8, including the bride and groom"
@@ -1994,41 +1955,41 @@ events:
         included: true
         text_fragment: "Eight people are killed and 12 others are injured in an explosion during wedding festivities at a house in Islamabad, Pakistan. (Dawn)"
       external:
-        - id: src-017-a
+        - id: "src-017-a"
           outlet: "Geo News"
           url: "https://www.geo.tv/latest/644423-bride-groom-among-six-killed-in-cylinder-blast-at-wedding-house-in-islamabad"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts:
-            - casualty_report
+            - "casualty_report"
           quoted_material:
             - "four houses were affected."
           citation_refs: [30]
-        - id: src-017-b
+        - id: "src-017-b"
           outlet: "Dawn"
           url: "https://www.dawn.com/news/1966363/bride-and-groom-among-6-dead-in-explosion-at-islamabad-house-11-others-injured-officials"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - casualty_report
+            - "casualty_report"
           contradicts: []
           quoted_material:
             - "12 others injured."
           citation_refs: [31]
-        - id: src-017-c
+        - id: "src-017-c"
           outlet: "Reuters Connect"
           url: "https://www.reutersconnect.com/item/newlyweds-among-eight-killed-in-pakistan-gas-cylinder-blast/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNTk0MTExMDEyMDI2UlAx"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - casualty_report
+            - "casualty_report"
           contradicts: []
           quoted_material:
             - "12 people are injured and have been hospitalised."
@@ -2038,12 +1999,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: low
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
     related_events: []
     notes: "The portal cited Dawn."
-
   - id: "evt-2026-01-11-018"
     category: "Business and economy"
     subcategory: "Renewable energy and industrial investment"
@@ -2054,13 +2014,12 @@ events:
     importance: 4
     headline: "Egypt signs $1.8 billion renewable-energy and manufacturing deals with Norway and China"
     summary: >
-      Egypt signed renewable-energy and manufacturing agreements involving Norway's
-      Scatec and China's Sungrow, with combined investment reported at about $1.8
-      billion. Prime Minister Mostafa Madbouly attended the signings, which include
-      Scatec's Energy Valley solar and battery-storage project in Minya and a Sungrow
-      battery-storage manufacturing facility in the Suez Canal Economic Zone, part of
-      Egypt's push to diversify electricity supply amid pressure on domestic
-      natural-gas production.
+      Egypt signed renewable-energy and manufacturing agreements involving Norway's Scatec
+      and China's Sungrow, with combined investment reported at about $1.8 billion. Prime
+      Minister Mostafa Madbouly attended the signings, which include Scatec's Energy Valley
+      solar and battery-storage project in Minya and a Sungrow battery-storage manufacturing
+      facility in the Suez Canal Economic Zone, part of Egypt's push to diversify
+      electricity supply amid pressure on domestic natural-gas production.
     key_data:
       - label: "Combined investment reported"
         value: "About $1.8 billion"
@@ -2126,28 +2085,28 @@ events:
         included: true
         text_fragment: "Egypt signs renewable energy agreements worth US$1.8 billion with China and Norway. (Al Arabiya)"
       external:
-        - id: src-018-a
+        - id: "src-018-a"
           outlet: "Al Manassa"
           url: "https://almanassa.com/en/news/29667"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - summary
-            - key_data
-            - details.what_happened
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
           contradicts: []
           quoted_material:
             - "combined investments exceeding $1.8 billion."
           citation_refs: [33]
-        - id: src-018-b
+        - id: "src-018-b"
           outlet: "The National"
           url: "https://www.thenationalnews.com/business/energy/2026/01/11/egypt-signs-renewable-energy-deals-worth-18-billion/"
           publication_date: "2026-01-11"
-          source_type: news_report
-          reliability_tier: high
+          source_type: "news_report"
+          reliability_tier: "high"
           supports:
-            - key_data
+            - "key_data"
           contradicts: []
           quoted_material:
             - "renewable energy deals worth $1.8 billion."
@@ -2157,12 +2116,11 @@ events:
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "The portal cited Al Arabiya."
-
   - id: "evt-2026-01-11-019"
     category: "Culture and entertainment"
     subcategory: "Awards"
@@ -2171,11 +2129,10 @@ events:
     importance: 2
     headline: "Hamnet and One Battle After Another win top Golden Globe film awards"
     summary: >
-      At the 83rd Golden Globe Awards, Hamnet won Best Motion Picture, Drama, and One
-      Battle After Another won Best Motion Picture, Musical or Comedy. In television,
-      The Pitt won Best Drama Series and The Studio won Best Musical or Comedy
-      Series, according to the Wikipedia current-events portal citing the Los
-      Angeles Times.
+      At the 83rd Golden Globe Awards, Hamnet won Best Motion Picture, Drama, and One Battle
+      After Another won Best Motion Picture, Musical or Comedy. In television, The Pitt won
+      Best Drama Series and The Studio won Best Musical or Comedy Series, according to the
+      Wikipedia current-events portal citing the Los Angeles Times.
     key_data:
       - label: "Best Drama film"
         value: "Hamnet"
@@ -2240,12 +2197,11 @@ events:
       enriched_manually: false
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "Portal-derived event; reported by the Los Angeles Times per the Wikipedia portal."
-
   - id: "evt-2026-01-11-020"
     category: "Disasters and accidents"
     subcategory: "Avalanches"
@@ -2255,9 +2211,9 @@ events:
     importance: 5
     headline: "French Alps avalanche death toll rises to six after weekend skier deaths"
     summary: >
-      The death toll from avalanches in the French Alps over the weekend rose to six
-      as three more skiers were killed, according to the Wikipedia current-events
-      portal citing AFP via the South China Morning Post.
+      The death toll from avalanches in the French Alps over the weekend rose to six as
+      three more skiers were killed, according to the Wikipedia current-events portal citing
+      AFP via the South China Morning Post.
     key_data:
       - label: "Cumulative killed"
         value: "6"
@@ -2315,12 +2271,11 @@ events:
       enriched_manually: false
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: low
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
     related_events: []
     notes: "Portal-derived event; reported by AFP via the South China Morning Post per the Wikipedia portal."
-
   - id: "evt-2026-01-11-021"
     category: "Disasters and accidents"
     subcategory: "Road accidents"
@@ -2330,9 +2285,9 @@ events:
     importance: 4
     headline: "Head-on car collision in Bolton, Greater Manchester, kills four"
     summary: >
-      Four people were killed and five others injured after two cars collided
-      head-on in Bolton, Greater Manchester, United Kingdom, according to the
-      Wikipedia current-events portal citing BBC News.
+      Four people were killed and five others injured after two cars collided head-on in
+      Bolton, Greater Manchester, United Kingdom, according to the Wikipedia current-events
+      portal citing BBC News.
     key_data:
       - label: "Killed"
         value: "4"
@@ -2391,12 +2346,11 @@ events:
       enriched_manually: false
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: low
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
     related_events: []
     notes: "Portal-derived event; reported by BBC News per the Wikipedia portal."
-
   - id: "evt-2026-01-11-022"
     category: "Law and crime"
     subcategory: "Prison violence"
@@ -2406,10 +2360,9 @@ events:
     importance: 5
     headline: "Three inmates killed, 14 injured in prison fight at Washington State Prison, Georgia"
     summary: >
-      Three inmates were killed and 14 others injured, including a corrections
-      officer, in a prison fight at the Washington State Prison in Davisboro,
-      Georgia, United States, according to the Wikipedia current-events portal
-      citing AP.
+      Three inmates were killed and 14 others injured, including a corrections officer, in a
+      prison fight at the Washington State Prison in Davisboro, Georgia, United States,
+      according to the Wikipedia current-events portal citing AP.
     key_data:
       - label: "Killed"
         value: "3"
@@ -2473,12 +2426,11 @@ events:
       enriched_manually: false
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: medium
-      actor_identification: low
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "low"
     related_events: []
     notes: "Portal-derived event; reported by AP per the Wikipedia portal."
-
   - id: "evt-2026-01-11-023"
     category: "Sports"
     subcategory: "Tennis"
@@ -2487,9 +2439,9 @@ events:
     importance: 2
     headline: "Poland win first United Cup title, beating Switzerland in Sydney final"
     summary: >
-      Poland won their first United Cup tennis title, defeating Switzerland 2-1 in
-      the final at Ken Rosewall Arena in Sydney, Australia, according to the
-      Wikipedia current-events portal citing Reuters.
+      Poland won their first United Cup tennis title, defeating Switzerland 2-1 in the final
+      at Ken Rosewall Arena in Sydney, Australia, according to the Wikipedia current-events
+      portal citing Reuters.
     key_data:
       - label: "Final result"
         value: "Poland defeated Switzerland 2-1"
@@ -2550,28 +2502,25 @@ events:
       enriched_manually: false
       last_reviewed_by: null
     confidence:
-      event_existence: high
-      detail_accuracy: high
-      actor_identification: high
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
     related_events: []
     notes: "Portal-derived event; reported by Reuters per the Wikipedia portal."
 
 strategic_conclusion: >
-  January 11 pushed two of the month's central stories further: Iran's crackdown
-  moved into a higher and more legally armored register (HRANA's 538-death tally,
-  Qalibaf's retaliation warning, the first Starlink shutdown), while the Powell
-  investigation opened a domestic confrontation over central-bank independence that
-  drew bipartisan-adjacent pushback in the Senate. Trump's pressure on Cuba extended
-  the Venezuela intervention's reach into the wider Caribbean, and the Noem
-  announcement showed the Minneapolis enforcement operation still expanding rather
-  than de-escalating.
-
-  Syria's Aleppo crisis reached a resolution, at least for now, with the SDF's
-  mediated withdrawal, even as Russia's overnight drone barrage and the Voronezh
-  strike kept the Ukraine war's civilian toll climbing on both sides of the border.
-  Elections in Myanmar and Benin, Sudan's return to Khartoum, and European pushback
-  on Greenland filled out the day's institutional news, while Thailand's petrol
-  station attacks, the Islamabad gas explosion and Victoria's first confirmed
+  January 11 pushed two of the month's central stories further: Iran's crackdown moved into
+  a higher and more legally armored register (HRANA's 538-death tally, Qalibaf's retaliation
+  warning, the first Starlink shutdown), while the Powell investigation opened a domestic
+  confrontation over central-bank independence that drew bipartisan-adjacent pushback in the
+  Senate. Trump's pressure on Cuba extended the Venezuela intervention's reach into the
+  wider Caribbean, and the Noem announcement showed the Minneapolis enforcement operation
+  still expanding rather than de-escalating. Syria's Aleppo crisis reached a resolution, at
+  least for now, with the SDF's mediated withdrawal, even as Russia's overnight drone
+  barrage and the Voronezh strike kept the Ukraine war's civilian toll climbing on both
+  sides of the border. Elections in Myanmar and Benin, Sudan's return to Khartoum, and
+  European pushback on Greenland filled out the day's institutional news, while Thailand's
+  petrol station attacks, the Islamabad gas explosion and Victoria's first confirmed
   bushfire death were its deadliest discrete incidents.
 
 works_cited:

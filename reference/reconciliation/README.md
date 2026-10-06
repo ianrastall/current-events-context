@@ -13,8 +13,9 @@ revision IDs. January review states and null provenance remain as published;
 importing a snapshot does not claim it has been independently reviewed.
 
 The two layers must be published together under a documented migration:
-ordinary paths hold extraction; `expanded/` holds synthesis. This branch has
-not been pushed. Before publication, reconcile candidate extraction against
+ordinary paths hold extraction; `expanded/` holds synthesis. The repair branch
+was pushed on October 5, 2026; the default branch has not been replaced or
+merged. Before canonical publication, reconcile candidate extraction against
 cached sources and review the exact corpus/path changes. The checkpoint is
 preservation, not schema approval.
 
@@ -42,3 +43,9 @@ The 637 unknown entries remain explicit rather than receiving guessed roles.
 `verification.json` records executed checks and their limits, with cross-process
 serialization results in `cross-process-check.json`. The final work-pass section
 in `HANDOFF.md` lists changed files, commands, source access, and next steps.
+
+`publisher-review/` records scoped publisher observations, source access
+limits and hashes of the corrected events. These ledgers are partial factual
+checks, separate from the machine queue and human-reviewed status. CBS claim
+support is independently assessed under the authoring guide's source policy;
+historical CBS references remain in immutable inputs and bibliography evidence.

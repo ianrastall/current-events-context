@@ -33,6 +33,10 @@ def review(days):
                 flags.append({"code": "PORTAL_ONLY", "message": "Review the original publisher linked by the portal; no external article is recorded."})
             for source in sources:
                 url = source["url"]
+                host = (urlsplit(url).hostname or "").lower()
+                if host == "cbsnews.com" or host.endswith(".cbsnews.com") or "cbs" in source["outlet"].lower():
+                    flags.append({"code": "INDEPENDENT_CORROBORATION_REQUIRED", "source_id": source["id"], "url": url,
+                                  "message": "CBS receives no assumed reliability; document independent claim support in the publisher review ledger."})
                 if url not in plain and unquote(url) not in unquote(plain) and url not in evidence:
                     flags.append({"code": "URL_NOT_IN_SELECTED_INPUT", "source_id": source["id"], "url": url})
                 if urlsplit(url).path in ("", "/"):

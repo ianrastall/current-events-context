@@ -5,7 +5,7 @@
     "report_sha256": "b4cd9f796f7be732066e59c72d259d0b48185ce9bacfb33f479241a542848c63",
     "event_id": null,
     "event_sha256": "de2293f50562024fb2721357aad724fa226e83d3cd654f6bfea2b414f964bd5f",
-    "reason": "Add the official January 8 announcement as distinct from January 4 calls and January 9 formal establishment.",
+    "reason": "Add the official January 8 announcement as distinct from January 4 calls and January 9 formal establishment. Independently corroborate claims formerly supported by CBS; remove unsupported specifics and preserve dated source disagreement.",
     "patch": {
       "events": [
         {
@@ -969,8 +969,7 @@
               "label": "Internet status",
               "value": "Nationwide blackout",
               "citation_refs": [
-                14,
-                17
+                55
               ]
             },
             {
@@ -994,7 +993,8 @@
               "The shutdown signals an escalation in state control measures as protests spread."
             ],
             "uncertainty_notes": [
-              "The police death and injury figures come from Iranian official reporting relayed via the portal and were not independently verified."
+              "The police death and injury figures come from Iranian official reporting relayed via the portal and were not independently verified.",
+              "The AP dispatch independently reports the Thursday-night communications outage; its accessible copy was updated January 9. Other police figures remain attributed, not independently confirmed."
             ]
           },
           "actors": {
@@ -1103,24 +1103,6 @@
                 ]
               },
               {
-                "id": "src-006-c",
-                "outlet": "CBS News (AP)",
-                "url": "https://www.cbsnews.com/news/iran-cutting-internet-amid-deadly-protests/",
-                "publication_date": "2026-01-08",
-                "source_type": "news_report",
-                "reliability_tier": "high",
-                "supports": [
-                  "details.what_happened"
-                ],
-                "contradicts": [],
-                "quoted_material": [
-                  "Internet service in Iran cut off or restricted"
-                ],
-                "citation_refs": [
-                  16
-                ]
-              },
-              {
                 "id": "src-006-d",
                 "outlet": "NetBlocks",
                 "url": "https://x.com/netblocks/status/2009313506726957230",
@@ -1136,6 +1118,24 @@
                 ],
                 "citation_refs": [
                   17
+                ]
+              },
+              {
+                "id": "src-006-ap",
+                "outlet": "Associated Press via CityNews Halifax",
+                "url": "https://halifax.citynews.ca/2026/01/08/protests-in-iran-sparked-by-economic-woes-now-nationwide-activists-say/",
+                "publication_date": "2026-01-08",
+                "source_type": "news_report",
+                "reliability_tier": "high",
+                "supports": [
+                  "summary",
+                  "key_data",
+                  "details.what_happened"
+                ],
+                "contradicts": [],
+                "quoted_material": [],
+                "citation_refs": [
+                  55
                 ]
               }
             ]
@@ -4879,6 +4879,13 @@
           "outlet": "Prime Minister of Australia",
           "url": "https://www.pm.gov.au/media/establishment-royal-commission-antisemitism-and-social-cohesion",
           "accessed": "2026-10-05"
+        },
+        {
+          "id": 55,
+          "title": "Internet and phones cut in Iran as protesters heed exiled prince's call for mass demonstration",
+          "outlet": "Associated Press via CityNews Halifax",
+          "url": "https://halifax.citynews.ca/2026/01/08/protests-in-iran-sparked-by-economic-woes-now-nationwide-activists-say/",
+          "accessed": "2026-10-05"
         }
       ],
       "analytical_overview": "January 8, 2026 brought the first institutional pushback in Washington against the Venezuela operation: the U.S. Senate advanced a war-powers resolution by 52 to 47 as Venezuela's interior minister put the death toll from the raid that seized Nicolás Maduro at 100. The House passed an extension of Affordable Care Act subsidies over its leadership's objections, European officials reacted to the U.S. exit from the UN climate treaty and discussed a response to U.S. talk of acquiring Greenland, and a reported Chinese hack of House committee staff emails drew a denial from Beijing. China also said its dual-use export ban on Japan would affect only military users, while Japan formally protested.\nConflict and unrest intensified in several places. Fighting in Aleppo between Syrian government forces and the SDF displaced more than 140,000 people before the government declared a ceasefire and captured the Ashrafieh neighbourhood; Iran experienced a nationwide internet blackout as protests continued; Israeli strikes in Gaza killed at least 11 to 13 people after a failed rocket launch; and Russian strikes caused major blackouts in south-eastern Ukraine. In Yemen, government forces took Aden airport as STC forces collapsed. Disasters included catastrophic bushfire warnings in Victoria, Patagonian wildfires, a landfill collapse in Cebu, and a revised toll of 39 dead from the New Year's Eve migrant boat capsizing off Gambia.\n Australia announced a federal royal commission following the Bondi Beach attack.",
@@ -4887,8 +4894,9 @@
     "generating_model": "GPT-6 (Codex)",
     "verified_at": "2026-10-05",
     "evidence": [
-      "https://www.pm.gov.au/media/establishment-royal-commission-antisemitism-and-social-cohesion",
-      "https://asc.royalcommission.gov.au/publications/letters-patent-royal-commission-antisemitism-and-social-cohesion"
+      "https://asc.royalcommission.gov.au/publications/letters-patent-royal-commission-antisemitism-and-social-cohesion",
+      "https://halifax.citynews.ca/2026/01/08/protests-in-iran-sparked-by-economic-woes-now-nationwide-activists-say/",
+      "https://www.pm.gov.au/media/establishment-royal-commission-antisemitism-and-social-cohesion"
     ]
   }
 ]

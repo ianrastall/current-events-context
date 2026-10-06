@@ -1033,4 +1033,98 @@ no flat output was hand-edited to hide warnings.
    provenance policy before historical backfill.
 5. Live GDELT queries remain non-reproducible unless their complete inputs
    are cached. The artlist/theme limitation is unchanged and outside this
-   Wikipedia migration. No push, PR publication or deployment was performed.
+   Wikipedia migration. No push, PR publication or deployment was performed
+   during that repair pass; subsequent branch publication is recorded below.
+
+## October 5, 2026: branch publication and scoped publisher review
+
+### Publication and changed scope
+
+The completed repair work was pushed to `codex/repository-repairs`, at
+`66a7d2bb9133773adf3ad71bfbf7873801d66c3b`. GitHub Actions run
+`37402556671` succeeded. The remote default branch was not merged or
+replaced. Provisional extraction remains separate and unpublished.
+
+This follow-up changes seven synthesis outputs: January 4, 8, 9, 10, 11,
+15 and March 18, 2026. Corresponding guarded overlays, the March overlay
+manifest hash, authoring guidance, three prompt templates, all 15 January
+conversion prompts, the review queue and publisher ledgers change with them.
+`build.py` now accepts explicit additional bibliography records with actual
+access dates; its regression check verifies the new March references.
+January 11 uses one event guard, preserving the other events logically;
+regeneration also normalizes its former authored serialization. The exact
+semantic event changes are listed in `publisher-review/verification.json`.
+No ordinary daily extraction, raw source cache, authored snapshot or original
+research report was changed. Event IDs and counts remain unchanged.
+
+### Findings and durable corrections
+
+- CBS and affiliates receive no assumed reliability in synthesis. The
+  authoring guide and prompts require independent material-claim support,
+  distinguish wire copies from independent reporting, and retain uncertainty.
+  The machine queue flags future active CBS citations for corroboration.
+  Seven previously active CBS citations have been replaced by independently
+  assessed support. Historical CBS bibliography and immutable input evidence
+  remain preserved; this policy does not presume every CBS statement false.
+- January 10 now has observations for all 15 events. Corrections qualify
+  blackout observation times, publisher dates, strike chronology, Cebu counts,
+  crash-cause uncertainty, xAI attribution, future embassy handback, projected
+  parliamentary figures, earthquake agency differences and the recirculated
+  December Honduran pledge. Its overview and conclusion regenerate with those
+  corrections. January 10 remains a draft, with access and quote checks pending.
+- Focused checks of the other CBS-linked events corroborate victim
+  identification, the Iran outage, the Minnesota deployment and recall counts.
+  The unsupported repeated-fatal-attack claim and exact officer-arrival schedule
+  are excluded. The two primary recall notices disagree on the earlier recall
+  date; that disagreement is explicit, and Target exclusivity applies only to
+  the new model. The March arrest entry now distinguishes allegations from
+  guilt, leaves legal transfer status unspecified and records conflicting
+  arrest-site accounts instead of asserting operational effects.
+
+### Commands, checks and source access actually performed
+
+- `git fetch origin`, `git push --set-upstream origin codex/repository-repairs`,
+  remote-head checks and `gh run list`: original repairs pushed; CI succeeded.
+- `python reference/expansion/build.py` for the seven dates above: all outputs
+  rebuilt with schema/reference validation and structural YAML round trips.
+- `python generate_prompts.py` for January 1-15 with `--include-reviewed`:
+  prompts refreshed; January 11 regenerated again after narrowing its guard.
+- `python reference/expansion/review.py` for January 10-15: 118 event leads,
+  30 portal-only flags and 21 later-publication flags. These are review leads,
+  not defect certifications. Corrected files remain draft.
+- `python -m unittest discover -s tests -v`: all 20 methods passed, including
+  16 golden fixtures, offline extraction/replay, drift guards, bibliography
+  support and the new actual-access-date regression check.
+- Batch `reference/schema/validate.py` with `--archive-root expanded`: all
+  29 synthesis files passed schema, bibliography and related-event validation.
+- An inline verification harness blocked socket connections and requests,
+  built the seven changed dates in separate processes with hash seeds 1 and
+  777, and matched every output byte hash. It checked 22 ledger event guards,
+  unchanged event IDs/counts, no active CBS synthesis source records and no
+  changes to immutable or ordinary daily input paths. Results are recorded in
+  `reference/reconciliation/publisher-review/verification.json`.
+- `git diff --check` passed. The full 8,891-date extraction replay was not
+  repeated because extraction code and inputs did not change in this pass.
+
+Network access comprised GitHub fetch/push/status and publisher/government
+web reads, including AP, Reuters syndications, CPSC, VIPD and other sources
+named in the ledgers. No Wikipedia reacquisition or GDELT query occurred.
+Publisher pages were read live; no full articles or new exact quotation
+strings were copied into the repository. The ledgers distinguish article
+reads, indexed-only retrieval, inaccessible pages and sources not checked.
+
+### Limits and next work
+
+The January 10 publisher pass is partial: inaccessible articles, exact quote
+comparisons, the original Honduras video and several independently unverified
+claims remain open. The CBS assessment is a focused core-claim check, not
+complete review of those days. No human-reviewed status was granted.
+Parser warning totals are unchanged; new synthesis uncertainty notes expose
+remaining date, attribution and source conflicts. Publisher pages may change;
+these dated observations are not immutable publisher replay inputs.
+
+Continue the complete January 11-15 publisher review and finish January 10's
+remaining checks. Re-review the changed earlier drafts before marking any day
+reviewed. January 16 remains the next unresearched date. Canonical extraction
+replacement, unknown-role resolution and historical backfill still require
+the separate decisions described in the prior work pass.

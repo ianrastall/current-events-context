@@ -5,7 +5,7 @@
     "report_sha256": "9b3eac503bc27caa4305ec02c3a7b890cde7a1de7ed5fcd1012e86c68c4b6eca",
     "event_id": null,
     "event_sha256": "89d18cee00e79a07dc1fb3948a81e35dc670ed4d48e14e37c95b9e0b26dfe1c4",
-    "reason": "Separate the January 8 announcement from the January 9 establishment and follow-up interview; remove the unresolved January 4 allegation. The White House also dates Executive Order 14373 January 9, so its signing is recorded here.",
+    "reason": "Separate the January 8 announcement from the January 9 establishment and follow-up interview; remove the unresolved January 4 allegation. The White House also dates Executive Order 14373 January 9, so its signing is recorded here. Independently corroborate claims formerly supported by CBS; remove unsupported specifics and preserve dated source disagreement.",
     "patch": {
       "events": [
         {
@@ -2593,34 +2593,28 @@
           ],
           "importance": 3,
           "headline": "Victim of Saint Croix shark attack identified as Minnesota tourist Arlene Lillis",
-          "summary": "The woman killed in the January 8 shark attack off Dorsch Beach, Saint Croix, was identified as Arlene Lillis, 56, a tourist from Minnesota. Fire officials said she lost an arm in the attack and later died of her injuries. CBS News reported it was the second fatal shark attack in the U.S. Virgin Islands in less than a month.\n",
+          "summary": "January 9 reporting of a Virgin Islands Police Department statement identified the woman killed off Dorsch Beach on January 8 as Arlene Lillis, 56, of Minnesota. The official statement confirms the identity, loss of an arm and subsequent death.\n",
           "key_data": [
             {
               "label": "Victim",
               "value": "Arlene Lillis, 56",
               "citation_refs": [
-                37
-              ]
-            },
-            {
-              "label": "Fatal shark attacks in the territory in under a month",
-              "value": "2",
-              "citation_refs": [
-                38
+                41
               ]
             }
           ],
           "details": {
             "what_happened": [
               "Arlene Lillis was attacked while swimming off Dorsch Beach.",
-              "Emergency services were called at about 4:30 p.m. on January 8.",
+              "The VIPD statement dates the emergency calls to approximately 4:28 p.m. on January 8.",
               "She lost an arm and died after being taken to hospital."
             ],
             "why_it_matters": [
-              "A second fatal attack in under a month raised safety concerns for local tourism."
+              "This identity update follows the January 8 fatality; it records no additional death."
             ],
             "uncertainty_notes": [
-              "The attack occurred on January 8 and is also recorded in evt-2026-01-08-021."
+              "The attack occurred on January 8 and is also recorded in evt-2026-01-08-021.",
+              "The former claim of two fatal attacks in the territory within a month is unsupported and excluded. The VIPD page has no visible publication date; January 9 is supplied by indexed local republication, whose full page was unavailable."
             ]
           },
           "actors": {
@@ -2707,22 +2701,21 @@
                 ]
               },
               {
-                "id": "src-015-b",
-                "outlet": "CBS News",
-                "url": "https://www.cbsnews.com/news/shark-kills-minnesota-woman-us-virgin-islands/",
+                "id": "src-015-vipd",
+                "outlet": "284 Media (VIPD statement)",
+                "url": "https://www.284media.com/environment/2026/01/09/vipd-responds-to-shark-attack-at-dorsch-beach/",
                 "publication_date": "2026-01-09",
                 "source_type": "news_report",
                 "reliability_tier": "high",
                 "supports": [
+                  "summary",
                   "key_data",
-                  "details.why_it_matters"
+                  "details.what_happened"
                 ],
                 "contradicts": [],
-                "quoted_material": [
-                  "marking the second fatal shark attack in less than a month"
-                ],
+                "quoted_material": [],
                 "citation_refs": [
-                  38
+                  41
                 ]
               }
             ]
@@ -2740,7 +2733,7 @@
           "related_events": [
             "evt-2026-01-08-021"
           ],
-          "notes": "casualty_report.killed is 0 because the death is counted in evt-2026-01-08-021."
+          "notes": "The official VIPD statement was read directly. The January 9 republication was available as indexed text only; FOX 26 is a later January 10 report."
         },
         {
           "id": "evt-2026-01-09-016",
@@ -3679,6 +3672,13 @@
           "outlet": "The White House",
           "url": "https://www.whitehouse.gov/presidential-actions/2026/01/safeguarding-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people/",
           "accessed": "2026-10-05"
+        },
+        {
+          "id": 41,
+          "title": "VIPD Responds to Shark Attack at Dorsch Beach",
+          "outlet": "284 Media (VIPD statement)",
+          "url": "https://www.284media.com/environment/2026/01/09/vipd-responds-to-shark-attack-at-dorsch-beach/",
+          "accessed": "2026-10-05"
         }
       ],
       "analytical_overview": "January 9, 2026 combined escalation in the Russo-Ukrainian war with a deepening crisis in Iran. Russia struck Lviv with its Oreshnik intermediate-range ballistic missile and hit apartment blocks in Kyiv, killing four and damaging the Qatari embassy, while Iran remained under a near-total internet shutdown that monitors said began on January 8, with reports of lethal force against protesters in cities including Kerman and Rasht. In the Americas, U.S. forces seized a fifth tanker under the Venezuela blockade and President Donald Trump hosted oil executives at the White House to promote investment in Venezuelan oil.\nIn the Middle East, the presidents of the European Commission and European Council visited Damascus and announced a support package of about €620 million, even as the Syrian defense ministry declared a ceasefire in Aleppo after clashes with the SDF that killed at least 21 people. In Yemen, an STC delegation in Riyadh announced the group's dissolution, which the STC rejected as made under duress. Twenty-one EU states approved the EU-Mercosur trade agreement. Storm Goretti killed at least two people in Britain and cut power to hundreds of thousands in France, and deadly bus crashes in Himachal Pradesh and Borno State and a spree shooting in Cedarbluff, Mississippi, added to the day's toll.\n",
@@ -3687,9 +3687,11 @@
     "generating_model": "GPT-6 (Codex)",
     "verified_at": "2026-10-05",
     "evidence": [
+      "https://asc.royalcommission.gov.au/publications/letters-patent-royal-commission-antisemitism-and-social-cohesion",
+      "https://vipd.vi.gov/news/vipd-respond-to-suspected-shark-attack-at-dorsch-beach/",
+      "https://www.284media.com/environment/2026/01/09/vipd-responds-to-shark-attack-at-dorsch-beach/",
       "https://www.pm.gov.au/media/establishment-royal-commission-antisemitism-and-social-cohesion",
       "https://www.pm.gov.au/media/television-interview-today-show-26",
-      "https://asc.royalcommission.gov.au/publications/letters-patent-royal-commission-antisemitism-and-social-cohesion",
       "https://www.whitehouse.gov/presidential-actions/2026/01/safeguarding-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people/"
     ]
   }

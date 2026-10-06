@@ -1876,26 +1876,23 @@ events:
     importance: 3
     headline: "Victim of Saint Croix shark attack identified as Minnesota tourist Arlene Lillis"
     summary: >
-      The woman killed in the January 8 shark attack off Dorsch Beach, Saint Croix, was
-      identified as Arlene Lillis, 56, a tourist from Minnesota. Fire officials said she
-      lost an arm in the attack and later died of her injuries. CBS News reported it was the
-      second fatal shark attack in the U.S. Virgin Islands in less than a month.
+      January 9 reporting of a Virgin Islands Police Department statement identified the
+      woman killed off Dorsch Beach on January 8 as Arlene Lillis, 56, of Minnesota. The
+      official statement confirms the identity, loss of an arm and subsequent death.
     key_data:
       - label: "Victim"
         value: "Arlene Lillis, 56"
-        citation_refs: [37]
-      - label: "Fatal shark attacks in the territory in under a month"
-        value: "2"
-        citation_refs: [38]
+        citation_refs: [41]
     details:
       what_happened:
         - "Arlene Lillis was attacked while swimming off Dorsch Beach."
-        - "Emergency services were called at about 4:30 p.m. on January 8."
+        - "The VIPD statement dates the emergency calls to approximately 4:28 p.m. on January 8."
         - "She lost an arm and died after being taken to hospital."
       why_it_matters:
-        - "A second fatal attack in under a month raised safety concerns for local tourism."
+        - "This identity update follows the January 8 fatality; it records no additional death."
       uncertainty_notes:
         - "The attack occurred on January 8 and is also recorded in evt-2026-01-08-021."
+        - "The former claim of two fatal attacks in the territory within a month is unsupported and excluded. The VIPD page has no visible publication date; January 9 is supplied by indexed local republication, whose full page was unavailable."
     actors:
       primary: []
       secondary:
@@ -1955,19 +1952,19 @@ events:
           quoted_material:
             - "Fire officials confirmed the woman lost an arm during the attack and later succumbed to her injuries"
           citation_refs: [37]
-        - id: "src-015-b"
-          outlet: "CBS News"
-          url: "https://www.cbsnews.com/news/shark-kills-minnesota-woman-us-virgin-islands/"
+        - id: "src-015-vipd"
+          outlet: "284 Media (VIPD statement)"
+          url: "https://www.284media.com/environment/2026/01/09/vipd-responds-to-shark-attack-at-dorsch-beach/"
           publication_date: "2026-01-09"
           source_type: "news_report"
           reliability_tier: "high"
           supports:
+            - "summary"
             - "key_data"
-            - "details.why_it_matters"
+            - "details.what_happened"
           contradicts: []
-          quoted_material:
-            - "marking the second fatal shark attack in less than a month"
-          citation_refs: [38]
+          quoted_material: []
+          citation_refs: [41]
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
@@ -1978,7 +1975,7 @@ events:
       actor_identification: "high"
     related_events:
       - "evt-2026-01-08-021"
-    notes: "casualty_report.killed is 0 because the death is counted in evt-2026-01-08-021."
+    notes: "The official VIPD statement was read directly. The January 9 republication was available as indexed text only; FOX 26 is a later January 10 report."
   - id: "evt-2026-01-09-016"
     category: "Disasters and accidents"
     subcategory: "Road accidents"
@@ -2674,4 +2671,9 @@ works_cited:
     title: "Executive Order 14373, January 9, 2026"
     outlet: "The White House"
     url: "https://www.whitehouse.gov/presidential-actions/2026/01/safeguarding-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people/"
+    accessed: "2026-10-05"
+  - id: 41
+    title: "VIPD Responds to Shark Attack at Dorsch Beach"
+    outlet: "284 Media (VIPD statement)"
+    url: "https://www.284media.com/environment/2026/01/09/vipd-responds-to-shark-attack-at-dorsch-beach/"
     accessed: "2026-10-05"

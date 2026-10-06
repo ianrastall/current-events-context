@@ -877,42 +877,32 @@ events:
       - "Mexico"
       - "Colombia"
     importance: 5
-    headline: "Capture of Ecuadorian \"Los Lobos\" Cartel Leader in Mexico City"
+    headline: "Mexico arrests suspect wanted in Villavicencio assassination investigation"
     summary: >
-      Transnational law enforcement achieved a highly significant tactical victory with the
-      capture of Ángel Esteban Aguilar Morales, alias "Lobo Menor," a premier ringleader of
-      the Ecuadorian terrorist organization "Los Lobos." Wanted on an Interpol Red Notice
-      for orchestrating the brazen 2023 assassination of Ecuadorian presidential candidate
-      Fernando Villavicencio, Aguilar was apprehended in Mexico City in a coordinated
-      intelligence operation that relied heavily on real-time tracking data provided by
-      Colombian authorities. His immediate transfer to Bogota highlights the deeply
-      integrated and cooperative intelligence-sharing frameworks now required to combat the
-      sprawling, multinational reach of Latin American drug cartels, which increasingly
-      utilize Mexico as a logistical safe haven for managing South American criminal
-      enterprises.
+      Authorities reported that Angel Esteban Aguilar Morales, known as Lobo Menor, was
+      arrested in Mexico City and transferred to Colombia. He is wanted in connection with
+      the 2023 killing of Ecuadorian candidate Fernando Villavicencio.
     key_data: []
     details:
       what_happened:
-        - "Ángel Esteban Aguilar Morales, alias \"Lobo Menor,\" was arrested by Mexican security forces in Mexico City after being placed under real-time surveillance the moment he entered the country."
-        - "The apprehension operation was executed seamlessly and without violence, relying on pinpoint intelligence and tracking provided by the Colombian government to Mexican Security Minister Omar Garcia Harfuch."
-        - "Following his arrest, Aguilar was transferred to the custody of the National Migration Institute and subsequently deported to Bogota, Colombia, where he was intercepted at El Dorado Airport by migration authorities."
-        - "Aguilar is recognized as a principal leader of the \"Los Lobos\" criminal gang—recently designated a terrorist organization by the U.S.—and is wanted in connection with the August 2023 assassination of Ecuadorian presidential candidate Fernando Villavicencio in Quito."
+        - "Authorities reported an arrest in Mexico and arrival in Bogota on March 18."
+        - "Aguilar is an alleged Los Lobos leader wanted in the Villavicencio investigation."
       why_it_matters:
-        - "The arrest decapitates a crucial node of leadership within \"Los Lobos,\" severely disrupting the operational capabilities of a gang that has pushed Ecuador into an unprecedented state of internal armed conflict and institutional decay."
-        - "The seamless, multi-agency cooperation between Mexico, Colombia, and Ecuador demonstrates a maturing regional framework for tracking and extraditing high-value cartel targets across porous Latin American borders, denying criminal syndicates historical safe havens."
-      uncertainty_notes: []
+        - "The arrest concerns the Villavicencio murder investigation."
+      uncertainty_notes:
+        - "AP leaves the formal extradition or deportation status unspecified. Reuters places the arrest at an airport; other accounts place it in Polanco. Exact location remains unresolved."
     actors:
       primary:
-        - "Ángel Esteban Aguilar Morales"
-        - "Mexican Security Ministry"
-        - "Colombian Migration Authorities"
+        - "Angel Esteban Aguilar Morales"
+        - "Mexican security authorities"
+        - "Colombian migration authorities"
       secondary:
         - "Interpol"
         - "\"Los Lobos\" Cartel"
     entities:
       people:
-        - name: "Ángel Esteban Aguilar Morales"
-          role: "Leader in Ecuador's Los Lobos gang, alias \"Lobo Menor\""
+        - name: "Angel Esteban Aguilar Morales"
+          role: "Suspect known as Lobo Menor"
       organizations:
         - name: "Mexican Security Ministry"
           description: "Mexico's Secretariat of Security and Citizen Protection"
@@ -956,28 +946,40 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: "src-007-a"
-          outlet: "CBS News"
-          url: "https://www.cbsnews.com/news/fugitive-wanted-assassination-ecuador-presidential-candidate-arrested-mexico"
+        - id: "src-007-ap"
+          outlet: "Associated Press"
+          url: "https://apnews.com/article/ecuador-villavicencio-suspect-arrested-mexico-colombia-fe490bd5f2b2bf5ee7040e8c96af6d95"
           publication_date: "2026-03-18"
           source_type: "news_report"
-          reliability_tier: "medium"
+          reliability_tier: "high"
           supports:
             - "summary"
             - "details.what_happened"
           contradicts: []
           quoted_material: []
-          citation_refs: [26]
+          citation_refs: [72]
+        - id: "src-007-reuters"
+          outlet: "Reuters via Investing.com"
+          url: "https://www.investing.com/news/world-news/leader-of-ecuadors-los-lobos-crime-group-arrested-in-mexico-city-4569068"
+          publication_date: "2026-03-18"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [73]
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: "medium"
+      event_existence: "high"
       detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
-    notes: ""
+    notes: "Independent wires replace CBS support; allegations remain attributed."
   - id: "evt-2026-03-18-008"
     category: "Armed conflicts and attacks"
     subcategory: "Drone strikes"
@@ -3841,3 +3843,13 @@ works_cited:
     outlet: "Wikipedia"
     url: "https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_18&oldid=1364057916"
     accessed: "2026-09-22"
+  - id: 72
+    title: "Mexico arrests suspect wanted in the 2023 killing of Ecuadorian candidate and sends him to Colombia"
+    outlet: "Associated Press"
+    url: "https://apnews.com/article/ecuador-villavicencio-suspect-arrested-mexico-colombia-fe490bd5f2b2bf5ee7040e8c96af6d95"
+    accessed: "2026-10-05"
+  - id: 73
+    title: "Leader of Ecuador's Los Lobos crime group arrested in Mexico City"
+    outlet: "Reuters via Investing.com"
+    url: "https://www.investing.com/news/world-news/leader-of-ecuadors-los-lobos-crime-group-arrested-in-mexico-city-4569068"
+    accessed: "2026-10-05"

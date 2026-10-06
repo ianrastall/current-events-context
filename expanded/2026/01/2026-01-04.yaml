@@ -1054,18 +1054,17 @@ events:
     importance: 6
     headline: "Authorities identify all victims of Crans-Montana bar fire"
     summary: >
-      Swiss authorities identified all 40 deceased victims of the Crans-Montana bar fire,
-      and mourners held silent commemorations as families received official confirmation.
-      CBS, The Guardian, and SWI swissinfo all reported that the victim identification
-      process had been completed, marking a shift in the disaster's aftermath from
-      uncertainty to mourning and legal accountability.
+      Valais authorities announced on January 4 that all 40 people killed in the
+      Crans-Montana bar fire had been identified. Keystone-SDA reporting carried by SWI
+      swissinfo confirms the Sunday-evening announcement; its English article was published
+      January 5.
     key_data:
       - label: "Identified deceased victims"
         value: "40"
-        citation_refs: [21, 22, 23]
+        citation_refs: [23]
       - label: "Location"
         value: "Crans-Montana, Valais, Switzerland"
-        citation_refs: [21, 22, 23]
+        citation_refs: [23]
     details:
       what_happened:
         - "Authorities reported that all deceased victims of the Crans-Montana bar fire had been identified."
@@ -1076,6 +1075,7 @@ events:
         - "The aftermath continues to shape Switzerland's public-safety and legal response to the fire."
       uncertainty_notes:
         - "January 1 and January 2 files cite a later converged toll of 41, while January 3 and January 4 reporting here cites 40 identified deceased victims."
+        - "The linked English SWI article is later publication evidence for the January 4 announcement, not a January 4 publication."
     actors:
       primary:
         - "Swiss authorities"
@@ -1122,21 +1122,6 @@ events:
         included: false
         text_fragment: null
       external:
-        - id: "src-008-a"
-          outlet: "CBS News"
-          url: "https://www.cbsnews.com/news/fire-switzerland-crans-montana-ski-resort-bar-le-constellation-mass/"
-          publication_date: "2026-01-04"
-          source_type: "news_report"
-          reliability_tier: "high"
-          supports:
-            - "summary"
-            - "key_data"
-            - "details.what_happened"
-          contradicts:
-            - "casualty_report"
-          quoted_material:
-            - "All 40 Swiss bar fire victims identified"
-          citation_refs: [21]
         - id: "src-008-b"
           outlet: "The Guardian"
           url: "https://www.theguardian.com/world/2026/jan/04/crans-montana-fire-victims-identified-silent-procession"
@@ -1146,22 +1131,20 @@ events:
           supports:
             - "summary"
             - "details.what_happened"
-          contradicts:
-            - "casualty_report"
+          contradicts: []
           quoted_material:
             - "Last 16 victims"
           citation_refs: [22]
         - id: "src-008-c"
-          outlet: "SWI swissinfo.ch"
+          outlet: "Keystone-SDA via SWI swissinfo.ch"
           url: "https://www.swissinfo.ch/eng/various/all-fatalities-in-crans-montana-vs-have-been-identified/90725361"
-          publication_date: "2026-01-04"
+          publication_date: "2026-01-05"
           source_type: "news_report"
           reliability_tier: "high"
           supports:
             - "summary"
             - "key_data"
-          contradicts:
-            - "casualty_report"
+          contradicts: []
           quoted_material:
             - "All 40 deceased victims"
           citation_refs: [23]

@@ -18,24 +18,15 @@ editorial_policy:
   require_source_support: true
 
 analytical_overview: >
-  January 10, 2026 deepened U.S. involvement in Venezuela's post-Maduro economy and Iran's
-  crackdown reached a new stage of state terror. Reporting covered President Donald Trump's
-  January 9 order shielding Venezuelan oil revenue and the previous day's oil-executive
-  meeting. Acting president Delcy Rodríguez marked one year since Maduro's 2025 inauguration
-  with a speech vowing to secure his and Cilia Flores's release, and the State Department's
-  advisory for Americans to leave Venezuela continued amid reports of colectivo roadblocks.
-  In Iran, the attorney general threatened protesters and their helpers with a capital
-  "enemy of God" charge, the regular armed forces (Artesh) took the unusual step of pledging
-  to guard public property, and the nationwide internet blackout passed 60 hours. In Syria,
-  a drone struck the Aleppo governorate building during a ministerial conference a day after
-  a ceasefire was declared, and the U.S. carried out large-scale Operation Hawkeye Strike
-  airstrikes on Islamic State targets. Indonesia became the first country to block the Grok
-  chatbot over sexualized deepfakes, and sixth-tier Macclesfield eliminated FA Cup holders
-  Crystal Palace in a historic upset. The Binaliw landfill toll in Cebu rose, and a plane
-  crash near Paipa, Colombia killed singer Yeison Jiménez and five others. Egypt finalized a
-  pro-Sisi supermajority, Honduras's military backed the confirmed election result,
-  Nicaragua freed dozens of prisoners under U.S. pressure, Brazil handed back Argentina's
-  embassy in Caracas, and a weak earthquake struck off Indonesia's Talaud Islands.
+  January 10 reporting covered Venezuela's oil-revenue policy, the State Department's alert
+  to Americans, and Delcy Rodriguez's call for Maduro's release. Iran's attorney general
+  threatened capital charges while the communications blackout continued. In Syria, a drone
+  hit Aleppo's governorate building and U.S. forces conducted further Operation Hawkeye
+  Strike airstrikes. Rescue efforts continued in Cebu, and a Paipa plane crash killed six.
+  Indonesia blocked Grok; Macclesfield defeated Crystal Palace. Egypt announced the final
+  parliamentary seats; Brazil confirmed a future embassy handback. Nicaragua reported
+  prisoner releases. Agency records confirm the Talaud earthquake. A later fact-check dates
+  the circulated Honduran military pledge to December rather than January 10.
 
 events:
   - id: "evt-2026-01-10-001"
@@ -323,7 +314,7 @@ events:
         - id: "src-003-a"
           outlet: "Xinhua News Agency (via China Daily Hong Kong)"
           url: "https://www.chinadailyhk.com/hk/article/626819"
-          publication_date: "2026-01-10"
+          publication_date: "2026-01-11"
           source_type: "news_report"
           reliability_tier: "medium"
           supports:
@@ -344,7 +335,7 @@ events:
       actor_identification: "high"
     related_events:
       - "evt-2026-01-06-001"
-    notes: "The portal cited The Guardian."
+    notes: "The January 11 Xinhua report describes the State Department's Saturday, January 10 alert. The portal cited The Guardian."
   - id: "evt-2026-01-10-004"
     category: "Civil unrest and protests"
     subcategory: "Protests and state crackdowns"
@@ -353,34 +344,30 @@ events:
       - "Islamic Revolutionary Guard Corps"
       - "Internet censorship in Iran"
     importance: 9
-    headline: "Iran threatens protesters with 'enemy of God' death-penalty charge as internet blackout passes 60 hours"
+    headline: "Iran threatens protesters with capital charge as nationwide internet blackout continues"
     summary: >
-      Iran's Attorney General Mohammad Movahedi Azad said anti-government protesters and
-      anyone assisting them would be prosecuted as an "enemy of God" (Moharebeh), a charge
-      carrying the death penalty. Iran's conventional military, the Artesh, issued an
-      unusual public statement vowing to protect strategic infrastructure and public
-      property, a role normally left to internal security forces. NetBlocks reported that
-      the nationwide internet blackout had passed the 60-hour mark, severely limiting
-      communication amid the two-week-old uprising.
+      Iran's Attorney General Mohammad Movahedi Azad threatened protesters and their helpers
+      with a capital charge. The conventional armed forces, the Artesh, pledged to protect
+      infrastructure and public property. AFP's January 10 morning report cited a 36-hour
+      internet blackout; the day's CTP-ISW update described over 48 hours.
     key_data:
       - label: "Charge threatened against protesters and helpers"
         value: "Moharebeh ('enemy of God'), a capital offense"
         citation_refs: [7]
-      - label: "Duration of internet blackout reported"
-        value: "Past 60 hours"
-        citation_refs: [10]
+      - label: "Internet blackout, January 10 morning report"
+        value: "36 hours"
+        citation_refs: [9]
     details:
       what_happened:
         - "Attorney General Mohammad Movahedi Azad said protesters and anyone assisting them would face Moharebeh charges, which carry the death penalty."
         - "The Artesh, Iran's conventional military, issued a statement vowing to protect national interests, strategic infrastructure and public property."
-        - "NetBlocks reported the nationwide internet blackout had passed the 60-hour mark."
-        - "The Institute for the Study of War assessed the Artesh statement as unusual for a force normally reserved for external defense."
+        - "AFP reported a 36-hour blackout on January 10 morning; CTP-ISW later reported over 48 hours."
+        - "CTP-ISW noted the Artesh's historically limited role in domestic unrest."
       why_it_matters:
-        - "Threatening capital charges for participation in or assistance to protests raises the legal stakes of the crackdown sharply."
-        - "A public role for the conventional military, rather than the IRGC and Basij alone, may indicate strain on Iran's usual internal-security forces."
+        - "The capital-charge threat and prolonged communications shutdown accompanied the government's crackdown."
       uncertainty_notes:
-        - "The deep-research report's own synthesis states a cumulative death toll of 'at least 530 (483 protesters, 47 security personnel)' attributed to unspecified 'cumulative NGO reports', but none of its four cited sources directly states this figure with a quotable line, so it is not recorded in casualty_report. HRANA-based tallies reported elsewhere in this archive range from about 500 (January 8) to 538 (January 11) to 544 (January 12); see evt-2026-01-08-006, evt-2026-01-09-002 and evt-2026-01-11 events."
-        - "Arrest counts in the low thousands were also asserted without a directly quotable source and are omitted."
+        - "CBS's 60-hour figure describes Sunday morning in Iran, January 11, despite its January 10 U.S. update timestamp. It is excluded from this local-date record."
+        - "Casualty and arrest totals are not established by this review."
     actors:
       primary:
         - "Iranian judiciary"
@@ -417,7 +404,7 @@ events:
       displaced: null
       missing: null
       arrest_count: null
-      damage: "Nationwide internet blackout exceeding 60 hours."
+      damage: "Nationwide internet blackout."
     classification:
       event_type:
         - "protest-crackdown"
@@ -474,19 +461,30 @@ events:
           quoted_material:
             - "metrics show the nationwide internet blackout remains in place at 36 hours"
           citation_refs: [9]
-        - id: "src-004-d"
-          outlet: "CBS News"
-          url: "https://www.cbsnews.com/news/iran-protests-deaths-mount-trump-warning-pahlavi-calls-for-city-takeovers/"
+        - id: "src-004-review-5"
+          outlet: "CTP-ISW (Critical Threats Project)"
+          url: "https://www.criticalthreats.org/analysis/iran-update-january-10-2026"
+          publication_date: "2026-01-10"
+          source_type: "specialist_publication"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [27]
+        - id: "src-004-review-6"
+          outlet: "Associated Press via The Times of Israel"
+          url: "https://www.timesofisrael.com/iran-warns-protesters-could-face-death-penalty-as-regime-crackdown-intensifies/"
           publication_date: "2026-01-10"
           source_type: "news_report"
           reliability_tier: "high"
           supports:
-            - "key_data"
+            - "summary"
             - "details.what_happened"
           contradicts: []
-          quoted_material:
-            - "the blackout 'is now past the 60 hour mark...'"
-          citation_refs: [10]
+          quoted_material: []
+          citation_refs: [28]
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
@@ -498,7 +496,7 @@ events:
     related_events:
       - "evt-2026-01-08-006"
       - "evt-2026-01-09-002"
-    notes: "Replaces the earlier draft version of this event, which had no URL-backed sources. The Times of Israel liveblog entry was updated over time; the 36-hour figure is its earliest recorded value and the CBS News report documents the later 60-hour figure."
+    notes: "Blackout durations use Iran's local event date. Original report assertions remain preserved in the immutable inputs. CBS is retained only in the original research input and historical bibliography; it supplies no supporting citation in the corrected event."
   - id: "evt-2026-01-10-005"
     category: "Armed conflicts and attacks"
     subcategory: "Drone strikes"
@@ -639,30 +637,25 @@ events:
       - "American-led intervention in Syria"
       - "Islamic State"
     importance: 6
-    headline: "U.S. launches Operation Hawkeye Strike airstrikes on Islamic State targets in Syria"
+    headline: "U.S. and partner forces conduct further Operation Hawkeye Strike airstrikes in Syria"
     summary: >
-      The United States military launched large-scale airstrikes against Islamic State
-      targets across Syria under the name Operation Hawkeye Strike, authorized by President
-      Donald Trump in retaliation for a December ambush in Palmyra that killed U.S. and
-      Syrian forces. U.S. Central Command released video showing land-based A-10 Thunderbolt
-      and F-15 Eagle aircraft carrying out the strikes.
+      U.S. and partner forces struck Islamic State targets across Syria on January 10.
+      CENTCOM said the strikes continued Operation Hawkeye Strike, launched December 19
+      after the December 13 Palmyra ambush that killed two U.S. soldiers and a U.S. civilian
+      interpreter.
     key_data:
       - label: "Operation"
-        value: "Hawkeye Strike"
-        citation_refs: [14]
-      - label: "Aircraft used"
-        value: "A-10 Thunderbolt and F-15 Eagle"
-        citation_refs: [15]
+        value: "Hawkeye Strike, continuing since December 19, 2025"
+        citation_refs: [29]
     details:
       what_happened:
-        - "U.S. forces struck Islamic State targets across Syria under Operation Hawkeye Strike."
-        - "The operation was authorized by President Trump in response to a December ambush on U.S. and Syrian forces in Palmyra."
-        - "CENTCOM released video showing A-10 Thunderbolt and F-15 Eagle aircraft used in the strikes."
+        - "U.S. and partner forces conducted strikes at approximately 12:30 p.m. Eastern Time."
+        - "The operation began December 19, 2025; January 10 was a subsequent strike round."
+        - "The December 13 attack killed two American soldiers and one U.S. civilian interpreter."
       why_it_matters:
-        - "The strikes show continued U.S. military action against the Islamic State in Syria despite the country's broader political transition."
+        - "The strikes continued the U.S. response to the December 13 ambush."
       uncertainty_notes:
-        - "The Sky News report is only available via a Reddit repost rather than a primary Sky News URL; it is marked lower reliability accordingly."
-        - "Neither cited source gives a casualty figure for the strikes."
+        - "Strike casualties and aircraft types are not established by the directly accessed releases. The older liveblog aircraft claim is excluded."
     actors:
       primary:
         - "United States Central Command"
@@ -711,33 +704,30 @@ events:
         included: true
         text_fragment: "The United States military launches airstrikes against Islamic State targets in Syria. (Sky News) (Fox News)"
       external:
-        - id: "src-006-a"
-          outlet: "Sky News (via Reddit repost)"
-          url: "https://www.reddit.com/r/news/comments/1q9fpml/us_military_carries_out_largescale_strikes/"
-          publication_date: "2026-01-10"
-          source_type: "news_report"
-          reliability_tier: "low"
-          supports:
-            - "summary"
-            - "key_data"
-            - "details.what_happened"
-          contradicts: []
-          quoted_material:
-            - "Saturday's operation was part of Operation Hawkeye Strike, authorised by Donald Trump in response to an attack on US and Syrian forces in Palmyra..."
-          citation_refs: [14]
-        - id: "src-006-b"
-          outlet: "Al Jazeera"
-          url: "https://www.aljazeera.com/news/liveblog/2026/1/10/syria-live-fighting-resumes-in-aleppo-after-ceasefire-collapses"
+        - id: "src-006-review-1"
+          outlet: "Sky News"
+          url: "https://news.sky.com/story/us-military-carries-out-large-scale-strikes-against-isis-across-syria-13491264"
           publication_date: "2026-01-10"
           source_type: "news_report"
           reliability_tier: "high"
           supports:
-            - "key_data"
+            - "summary"
             - "details.what_happened"
           contradicts: []
-          quoted_material:
-            - "US Central Command (CENTCOM) released a video in which you can see they are land-based attacks using A-10 thunderbolts... F-15 Eagle aircraft were also used in the attacks."
-          citation_refs: [15]
+          quoted_material: []
+          citation_refs: [29]
+        - id: "src-006-review-2"
+          outlet: "U.S. Central Command"
+          url: "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4375251/us-partner-forces-strike-isis-targets-in-syria/"
+          publication_date: "2026-01-10"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [30]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -748,7 +738,7 @@ events:
       actor_identification: "high"
     related_events:
       - "evt-2026-01-03-015"
-    notes: "The portal cited Sky News and Fox News."
+    notes: "Direct Sky News reporting and CENTCOM's indexed release replace the Reddit repost and inaccessible liveblog. The full CENTCOM page was unavailable to direct opening; its indexed release text was accessible."
   - id: "evt-2026-01-10-007"
     category: "Disasters and accidents"
     subcategory: "Landslides"
@@ -758,11 +748,10 @@ events:
     importance: 6
     headline: "Rescuers detect signs of life at Cebu City landfill as death toll reaches four"
     summary: >
-      Rescuers at the Binaliw landfill in Cebu City detected thermal and acoustic signs of
-      life two days after a garbage collapse buried dozens of sanitation workers, prompting
-      the deployment of a 50-ton crane. The death toll reached four and 12 people had been
-      rescued with injuries, while more than 30 of the roughly 110 workers on site when the
-      landfill collapsed remained missing.
+      Rescuers detected signs of life at Cebu City's Binaliw landfill following its January
+      8 collapse. January 10 reports recorded four dead and twelve injured survivors. AFP
+      cited a city councillor's morning count of 34 missing; other reports described more
+      than 30 missing without an updated exact count.
     key_data:
       - label: "Killed"
         value: "4"
@@ -773,9 +762,9 @@ events:
       - label: "Workers on site at time of collapse"
         value: "About 110"
         citation_refs: [17]
-      - label: "Still missing"
-        value: "More than 30"
-        citation_refs: [17]
+      - label: "Missing, AFP's January 10 morning count"
+        value: "34"
+        citation_refs: [31]
     details:
       what_happened:
         - "Rescuers detected signs of life in parts of the collapsed landfill and deployed a 50-ton crane to aid excavation."
@@ -785,6 +774,7 @@ events:
         - "The disaster highlights hazards at waste-management sites and the scale of the workforce exposed to them."
       uncertainty_notes:
         - "The portal's January 8 bullet gave a missing count of 34 out of about 50 buried workers; this report's sources give a higher total on-site figure of about 110 and a missing count of 'more than 30'. The two accounts are not reconciled."
+        - "The 34 missing count is a dated morning snapshot. AP did not supply an updated exact missing count; 30 must not be treated as an exact total."
     actors:
       primary:
         - "Cebu City authorities"
@@ -812,7 +802,7 @@ events:
       killed: 4
       injured: 12
       displaced: 0
-      missing: 30
+      missing: 34
       arrest_count: 0
       damage: "Landfill administrative offices and processing structures destroyed."
     classification:
@@ -829,7 +819,7 @@ events:
         text_fragment: "The death toll from a garbage landslide in Cebu City, Philippines, rises to at least four, while 12 of about 50 buried sanitation workers are rescued. (AFP via Arab News)"
       external:
         - id: "src-007-a"
-          outlet: "Arab News (AFP)"
+          outlet: "Associated Press via Arab News"
           url: "https://www.arabnews.com/world/filipino-rescuers-detect-signs-of-life-in-garbage-avalanche-that-killed-4-and-left-dozens-missing-2628893"
           publication_date: "2026-01-10"
           source_type: "news_report"
@@ -856,6 +846,18 @@ events:
           quoted_material:
             - "More than 30 workers are still believed to be missing. Authorities said the landfill collapsed on Thursday as 110 workers were on site."
           citation_refs: [17]
+        - id: "src-007-review-3"
+          outlet: "AFP via Arab News"
+          url: "https://www.arabnews.com/node/2628837/world"
+          publication_date: "2026-01-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "key_data"
+            - "casualty_report"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [31]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -866,7 +868,7 @@ events:
       actor_identification: "medium"
     related_events:
       - "evt-2026-01-08-020"
-    notes: "The portal cited AFP via Arab News."
+    notes: "Distinguish AP's signs-of-life report from the separate AFP report linked by the portal. Both describe the January 10 rescue effort."
   - id: "evt-2026-01-10-008"
     category: "Disasters and accidents"
     subcategory: "Aviation accidents"
@@ -877,10 +879,9 @@ events:
     importance: 5
     headline: "Plane crash in Paipa, Colombia, kills singer Yeison Jiménez and five others"
     summary: >
-      A Piper PA-31 Navajo crashed shortly after takeoff from Juan José Rondón Airport near
-      Paipa, Boyacá Department, Colombia, killing all six people aboard, including popular
-      música popular singer Yeison Jiménez, 34. Colombia's Civil Aviation Authority
-      (Aerocivil) opened an investigation into the crash.
+      A Piper PA-31 Navajo crashed near Juan Jose Rondon Airport at Paipa, Colombia, killing
+      six people including singer Yeison Jimenez. Semana's January 10 report cites
+      Aerocivil's activation of its accident investigation.
     key_data:
       - label: "Killed"
         value: "6, including Yeison Jiménez"
@@ -890,12 +891,13 @@ events:
         citation_refs: [20]
     details:
       what_happened:
-        - "A Piper PA-31 Navajo crashed shortly after taking off from Juan José Rondón Airport near Paipa."
+        - "The aircraft crashed near Juan Jose Rondon Airport, in the Paipa-Duitama area."
         - "All six people on board were killed, including singer Yeison Jiménez."
         - "Aerocivil's accident investigation directorate opened a formal investigation."
       why_it_matters:
         - "The crash killed one of Colombia's most prominent música popular singers, prompting national mourning."
-      uncertainty_notes: []
+      uncertainty_notes:
+        - "Latin American Post's retrospective is dated January 25, not January 10. Its takeoff explanation is not treated as a same-day established cause."
     actors:
       primary: []
       secondary:
@@ -968,7 +970,7 @@ events:
         - id: "src-008-c"
           outlet: "Latin American Post"
           url: "https://latinamericanpost.com/life/entertainment-en/why-colombias-grief-for-yeison-jimenez-runs-so-deep-he-gave-voice-to-their-pain/"
-          publication_date: "2026-01-10"
+          publication_date: "2026-01-25"
           source_type: "news_report"
           reliability_tier: "medium"
           supports:
@@ -984,10 +986,10 @@ events:
       last_reviewed_by: null
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
-    notes: "The portal cited BNO News."
+    notes: "The core accident is corroborated by Semana. The BNO article was unavailable during this review; its quotation remains unverified."
   - id: "evt-2026-01-10-009"
     category: "Science and technology"
     subcategory: "Internet regulation"
@@ -1001,9 +1003,9 @@ events:
       Indonesia became the first country to block access to xAI's Grok chatbot, citing the
       platform's generation of non-consensual sexualized deepfakes, including images
       depicting minors. Communications and Digital Affairs Minister Meutya Hafid called the
-      practice a serious violation of human rights and dignity and summoned X executives for
-      investigation. xAI restricted Grok's image generation and editing to paying
-      subscribers.
+      practice a serious violation of human rights and dignity and summoned xAI
+      representatives for investigation. A subscriber restriction announced earlier that
+      week provides background.
     key_data:
       - label: "Measure"
         value: "First national block of Grok"
@@ -1012,11 +1014,12 @@ events:
       what_happened:
         - "Indonesia imposed a nationwide block on Grok, becoming the first country to do so."
         - "Minister Meutya Hafid said the generation of non-consensual sexual deepfakes was a serious violation of human rights and dignity."
-        - "Indonesia summoned X executives for investigation."
-        - "xAI restricted Grok's image generation and editing features to paying subscribers."
+        - "Indonesia summoned representatives of xAI."
+        - "The subscriber restriction was announced earlier in the week, rather than as a January 10 action."
       why_it_matters:
         - "The block is among the first national-level regulatory actions against a major generative AI tool over sexualized content, including imagery of minors."
-      uncertainty_notes: []
+      uncertainty_notes:
+        - "Business & Human Rights Resource Centre republishes Reuters reporting; UNN also cites Reuters. These are not three independent confirmations."
     actors:
       primary:
         - "Government of Indonesia"
@@ -1218,6 +1221,19 @@ events:
           quoted_material:
             - "P. Dawson 43', I. Buckley 61', Y. Pino 90'... Leasing.com Stadium."
           citation_refs: [25]
+        - id: "src-010-review-3"
+          outlet: "The Football Association"
+          url: "https://www.thefa.com/news/2026/jan/10/emirates-fa-cup-third-round-wrap-saturday-20261001"
+          publication_date: "2026-01-10"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [32]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -1236,23 +1252,23 @@ events:
       - "Argentina–Venezuela relations"
       - "International reactions to the 2026 United States intervention in Venezuela"
     importance: 4
-    headline: "Brazil returns custody of Argentina's embassy in Venezuela to Argentina"
+    headline: "Brazil confirms plans to return custody of Argentina's embassy in Venezuela"
     summary: >
-      Brazil returned to Argentina responsibility for its diplomatic representation and
-      custody of the Argentine embassy in Venezuela, after overseeing the mission in Caracas
-      since 2024 following the expulsion of Argentine diplomats under the Nicolás Maduro
-      administration, according to the Wikipedia current-events portal citing Reuters.
+      Brazil's foreign ministry confirmed late Saturday that it would return responsibility
+      for Argentina's diplomatic representation and embassy in Venezuela. Reuters reported
+      that confirmation on January 11. Brazil had overseen the mission since 2024.
     key_data:
       - label: "Period of Brazilian custody"
         value: "Since 2024"
         citation_refs: [26]
     details:
       what_happened:
-        - "Brazil returned responsibility for Argentina's diplomatic representation in Venezuela to Argentina."
+        - "The foreign ministry confirmed its decision late Saturday, January 10."
         - "Brazil had held custody of the Argentine embassy in Caracas since 2024."
       why_it_matters:
-        - "The handover allows Argentina to resume direct diplomacy in Caracas after Maduro's removal."
-      uncertainty_notes: []
+        - "The decision ends Brazil's announced custodial role; it does not establish that Argentine diplomats resumed operations that day."
+      uncertainty_notes:
+        - "Reuters describes a future handback; an effective transfer date is not supplied."
     actors:
       primary:
         - "Government of Brazil"
@@ -1298,17 +1314,29 @@ events:
       wikipedia_portal:
         included: true
         text_fragment: "Brazil returns responsibility to Argentina for its diplomatic representation and custody of the Argentine embassy in Venezuela after overseeing the mission in Caracas since 2024 following the expulsion of Argentine diplomats under the Nicolás Maduro administration. (Reuters)"
-      external: []
+      external:
+        - id: "src-011-review-1"
+          outlet: "Reuters via Investing.com"
+          url: "https://br.investing.com/news/politics-news/brasil-devolvera-a-representacao-diplomatica-argentina-na-venezuela-1796190"
+          publication_date: "2026-01-12"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [33]
     provenance:
       extracted_from_portal_bullet: true
-      enriched_manually: false
+      enriched_manually: true
       last_reviewed_by: null
     confidence:
       event_existence: "high"
-      detail_accuracy: "high"
+      detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
-    notes: "The portal cited Reuters."
+    notes: "The syndicated page is dated January 12 and carries Reuters' January 11 dispatch explicitly describing Saturday's confirmation."
   - id: "evt-2026-01-10-012"
     category: "Politics and elections"
     subcategory: "Election results"
@@ -1318,27 +1346,26 @@ events:
     importance: 6
     headline: "Egypt finalizes parliamentary results as Sisi's allies keep two-thirds supermajority"
     summary: >
-      Egypt's National Elections Authority finalized the remaining 49 parliamentary seats,
-      confirming that President Abdel Fattah el-Sisi's allies retain the two-thirds
-      supermajority needed to amend the constitution, while opposition parties and
-      independents hold about 158 of 568 elected seats, according to the Wikipedia
-      current-events portal citing Reuters.
+      Egypt's election authority announced the final 49 parliamentary seats on January 10.
+      Reuters said Sisi's supporters retained a constitutional-amendment supermajority. The
+      preceding week's government projection put opposition and independent members at 158
+      of 568 elected seats. Appointed seats bring the chamber to 596.
     key_data:
       - label: "Seats finalized"
         value: "49"
         citation_refs: [26]
-      - label: "Opposition and independent seats"
+      - label: "Prior-week projection for opposition and independent elected members"
         value: "About 158 of 568 elected"
         citation_refs: [26]
     details:
       what_happened:
         - "The National Elections Authority announced results for the remaining 49 seats."
         - "Sisi's allies retained a two-thirds supermajority."
-        - "Opposition parties and independents hold about 158 of 568 elected seats."
+        - "The 158-of-568 figure was a preceding-week government projection; final party affiliations were not listed by the election authority."
       why_it_matters:
         - "A two-thirds majority is sufficient to amend Egypt's constitution."
       uncertainty_notes:
-        - "The Jan 10 deep-research report refers to 596 total seats while the portal gives 568 elected seats; the cited material does not explain the difference."
+        - "568 counts elected seats; presidential appointments bring the total to 596. Reuters does not present 158 as a newly verified final tally."
     actors:
       primary:
         - "National Elections Authority of Egypt"
@@ -1382,17 +1409,29 @@ events:
       wikipedia_portal:
         included: true
         text_fragment: "Egypt's National Elections Authority finalizes the remaining 49 parliamentary seats, confirming that President Abdel Fattah el-Sisi's allies retain the two-thirds supermajority needed to amend the constitution, while opposition parties and independents hold about 158 of 568 elected seats. (Reuters)"
-      external: []
+      external:
+        - id: "src-012-review-1"
+          outlet: "Reuters via StreetInsider"
+          url: "https://www.streetinsider.com/Reuters/Egypt%2Bannounces%2Bresults%2Bof%2Blast%2Bseats%2Bin%2Bparliament%2Bvote%2Bthat%2Bgave%2BSisi%2Bstrong%2Bmajority/25832526.html?classic=1"
+          publication_date: "2026-01-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [34]
     provenance:
       extracted_from_portal_bullet: true
-      enriched_manually: false
+      enriched_manually: true
       last_reviewed_by: null
     confidence:
       event_existence: "high"
       detail_accuracy: "high"
       actor_identification: "high"
     related_events: []
-    notes: "The portal cited Reuters."
+    notes: "The Reuters dispatch was read through its syndicated copy; the original Reuters URL was unavailable."
   - id: "evt-2026-01-10-013"
     category: "Politics and elections"
     subcategory: "Political prisoners"
@@ -1419,7 +1458,7 @@ events:
       why_it_matters:
         - "The releases show U.S. pressure on Nicaragua following the intervention in Venezuela."
       uncertainty_notes:
-        - "The identification of 19 detainees, including Oscar Gadea and Rudy Palacios, comes from the January 10 deep-research report citing Al Jazeera without a directly reachable URL for that specific detail."
+        - "Exact release total and detainee classification remain unspecified."
     actors:
       primary:
         - "Government of Nicaragua"
@@ -1463,7 +1502,17 @@ events:
       wikipedia_portal:
         included: true
         text_fragment: "Nicaragua releases dozens of prisoners after the United States publicly demanded the release of more than 60 political prisoners. (Al Jazeera)"
-      external: []
+      external:
+        - id: "src-013-review-1"
+          outlet: "Al Jazeera"
+          url: "https://www.aljazeera.com/news/2026/1/10/nicaragua-frees-dozens-of-prisoners-amid-pressure-from-trump-administration"
+          publication_date: "2026-01-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports: []
+          contradicts: []
+          quoted_material: []
+          citation_refs: [35]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -1473,7 +1522,7 @@ events:
       detail_accuracy: "medium"
       actor_identification: "high"
     related_events: []
-    notes: "The portal cited Al Jazeera."
+    notes: "The portal's publisher URL was accessible. It supports the existing report attribution, with the government's exact total still unspecified."
   - id: "evt-2026-01-10-014"
     category: "Disasters and accidents"
     subcategory: "Earthquakes"
@@ -1481,23 +1530,20 @@ events:
       - "Earthquakes in Indonesia"
       - "Talaud Islands"
     importance: 4
-    headline: "Strong earthquake strikes off Indonesia's Talaud Islands; no tsunami threat"
+    headline: "Earthquake strikes Indonesia's Talaud Islands; agency magnitude estimates vary"
     summary: >
-      According to the deep-research report, citing Reuters, an earthquake of magnitude 6.8
-      according to the GFZ German Research Centre for Geosciences struck off Indonesia's
-      Talaud Islands. Indonesia's meteorological agency BMKG said there was no tsunami
-      potential, and no damage or casualties were immediately reported.
+      An earthquake struck the Talaud Islands region on January 10 at 14:58 UTC. GEOFON's
+      accessible alert records magnitude 6.4, while a contemporaneous tsunami bulletin used
+      preliminary magnitude 6.7. Earlier report estimates remain provisional.
     key_data: []
     details:
       what_happened:
-        - "A strong earthquake struck off the Talaud Islands."
-        - "BMKG said there was no tsunami potential."
-        - "No damage or casualties were immediately reported."
+        - "An earthquake occurred in the Talaud Islands region at 14:58 UTC."
+        - "The archived NTWC message said there was no tsunami threat to American Samoa; that geographic qualification is retained."
       why_it_matters:
         - "The quake is a reminder of seismic risk in eastern Indonesia."
       uncertainty_notes:
-        - "Magnitude and depth differ: GFZ reported 6.8 at about 77 km, while the deep-research report says BMKG logged 7.1 at 17 km."
-        - "The deep-research report cites Reuters without a URL; no external source is listed."
+        - "The selected report's 6.8/7.1 values and BMKG claim lack a directly verified article. GEOFON's current alert text may contain revisions and is not an immutable capture of its initial estimate. Casualties are unknown rather than confirmed zero."
     actors:
       primary: []
       secondary:
@@ -1524,8 +1570,8 @@ events:
       time_known: false
       ongoing: false
     casualty_report:
-      killed: 0
-      injured: 0
+      killed: null
+      injured: null
       displaced: 0
       missing: null
       arrest_count: 0
@@ -1541,17 +1587,41 @@ events:
       wikipedia_portal:
         included: false
         text_fragment: null
-      external: []
+      external:
+        - id: "src-014-review-1"
+          outlet: "GEOFON / GFZ"
+          url: "https://geofon.gfz.de/forum/t/m-6-4-talaud-islands-indonesia-2026-01-10-1423/38580"
+          publication_date: "2026-01-10"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [36]
+        - id: "src-014-review-2"
+          outlet: "NTWC bulletin via GDACS"
+          url: "https://www.gdacs.org/gts_single.aspx?eventid=1518867&eventtype=EQ&gtsname=WEZS42PHEB101504"
+          publication_date: "2026-01-10"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [37]
     provenance:
       extracted_from_portal_bullet: false
       enriched_manually: true
       last_reviewed_by: null
     confidence:
-      event_existence: "medium"
+      event_existence: "high"
       detail_accuracy: "low"
       actor_identification: "high"
     related_events: []
-    notes: "Markdown-only event whose supporting citation lacks a URL. A URL-backed source must be added before this event can be marked reviewed. The second January 10 report (2026-01-10b.md) did not cover this earthquake, so no upgrade was possible."
+    notes: "URL-backed agency records establish existence and date. This does not certify a final magnitude or the unverified BMKG claims."
   - id: "evt-2026-01-10-015"
     category: "Politics and elections"
     subcategory: "Election disputes"
@@ -1560,24 +1630,21 @@ events:
       - "Armed Forces of Honduras"
       - "Xiomara Castro"
     importance: 6
-    headline: "Honduran military chief says confirmed election result and transfer of power will be guaranteed"
+    headline: "January 10 reporting recirculates a Honduran military pledge made in December"
     summary: >
-      The Chief of the Joint Chiefs of Staff of the Honduran Armed Forces, Héctor Valerio,
-      said the already confirmed election results and the transfer of power would be
-      guaranteed despite President Xiomara Castro's decree demanding a recount, according to
-      the Wikipedia current-events portal citing Tiempo.
-    key_data:
-      - label: "Statement by"
-        value: "Héctor Valerio, Chief of the Joint Chiefs of Staff"
-        citation_refs: [26]
+      January 10 reporting presented Hector Valerio's pledge to respect election results as
+      current. La Prensa's January 11 verification traced the circulated video to the armed
+      forces' December 20, 2025 post. The pledge is not established as a new January 10
+      speech.
+    key_data: []
     details:
       what_happened:
-        - "Héctor Valerio said the confirmed election results would be respected."
-        - "He said the transfer of power would be guaranteed despite the presidential recount decree."
+        - "A military pledge circulated in January 10 reporting."
+        - "A subsequent local fact-check identified its original video as a December 20 post."
       why_it_matters:
-        - "The military's position is significant in a dispute between the outgoing government and the confirmed election result."
+        - "The recording predates the recount dispute and must not be represented as a new response to it."
       uncertainty_notes:
-        - "Portal-derived event not covered by an independent, URL-backed source in either January 10 deep-research report."
+        - "The portal wording is preserved in the extraction input. This synthesis records the misdated report, not a newly verified January 10 military intervention. The original TikTok recording was not independently viewed."
     actors:
       primary:
         - "Armed Forces of Honduras"
@@ -1612,7 +1679,7 @@ events:
       damage: null
     classification:
       event_type:
-        - "military-statement"
+        - "media-report"
         - "election-dispute"
       tags:
         - "honduras"
@@ -1622,10 +1689,21 @@ events:
       wikipedia_portal:
         included: true
         text_fragment: "The Chief of the Joint Chiefs of Staff of the Honduran Armed Forces Héctor Valerio informs that the already confirmed election results and the transfer of power would be guaranteed despite President Xiomara Castro's decree demanding a recount of the results. (Tiempo)"
-      external: []
+      external:
+        - id: "src-015-review-1"
+          outlet: "La Prensa Verifica"
+          url: "https://www.laprensa.hn/verifica/bulos/respaldo-nuevo-jefe-militar-declaratoria-cne-grabado-diciembre-2025-FL28895473"
+          publication_date: "2026-01-11"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [38]
     provenance:
       extracted_from_portal_bullet: true
-      enriched_manually: false
+      enriched_manually: true
       last_reviewed_by: null
     confidence:
       event_existence: "high"
@@ -1633,27 +1711,15 @@ events:
       actor_identification: "high"
     related_events:
       - "evt-2026-01-09-021"
-    notes: "Portal-derived event; reported by Tiempo per the Wikipedia portal."
+    notes: "Later verification corrects the date interpretation. No cached Wikipedia text or portal fragment is changed."
 
 strategic_conclusion: >
-  January 10 tied the Venezuela intervention more tightly to oil markets while Iran's
-  crackdown escalated to explicit death-penalty threats. Trump's January 9 executive order
-  and his January 9 pitch to energy executives showed Washington moving from military action
-  to managing Venezuela's economy directly, even as corporate wariness (ExxonMobil's
-  "uninvestable" verdict) exposed limits to that plan. Iran's attorney general invoking a
-  capital charge against protesters and helpers, alongside the Artesh's unusual public role
-  and a 60-hour internet blackout, marked a harder turn in the crackdown than the days
-  before it. A drone strike on Aleppo's governorate building occurred amid a contested
-  ceasefire, and U.S. airstrikes hit Islamic State targets under Operation Hawkeye Strike.
-  Indonesia's block of Grok set an early precedent against AI-generated sexual deepfakes,
-  and Macclesfield's FA Cup upset of Crystal Palace was, by most measures, without precedent
-  of its own. Egypt's confirmed supermajority, Honduras's military-backed transfer of power,
-  Nicaragua's prisoner releases, and Brazil's embassy handback in Caracas rounded out a day
-  otherwise dominated by Venezuela and Iran. Three items reported elsewhere as "January 10"
-  events — a Kyiv/Lviv missile strike, a Nguru boat capsizing, and an Uganda broadcast ban —
-  were excluded here because they duplicate events already recorded on January 9, January 3
-  and January 5 respectively; see the notes on this repository's handoff document for how
-  that misattribution was traced to a monthly rather than daily portal source.
+  The day's records connect Venezuela-related announcements, Iran's crackdown and continuing
+  conflict in Syria. The oil order's signing and executive meeting remain January 9
+  background. The blackout duration, casualty counts and embassy handback are recorded with
+  their temporal or evidentiary limits. The Honduras item preserves the report's circulation
+  while explaining its earlier recording date. Earlier Kyiv/Lviv, Nguru and Uganda items
+  excluded as duplicates remain documented in HANDOFF.md.
 
 works_cited:
   - id: 1
@@ -1733,7 +1799,7 @@ works_cited:
     accessed: "2026-01-10"
   - id: 16
     title: "Filipino rescuers detect 'signs of life' in garbage avalanche that killed 4 and left dozens missing"
-    outlet: "Arab News (AFP)"
+    outlet: "Associated Press via Arab News"
     url: "https://www.arabnews.com/world/filipino-rescuers-detect-signs-of-life-in-garbage-avalanche-that-killed-4-and-left-dozens-missing-2628893"
     accessed: "2026-01-10"
   - id: 17
@@ -1786,3 +1852,63 @@ works_cited:
     outlet: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_10"
     accessed: "2026-03-27"
+  - id: 27
+    title: "Iran Update, January 10, 2026"
+    outlet: "CTP-ISW (Critical Threats Project)"
+    url: "https://www.criticalthreats.org/analysis/iran-update-january-10-2026"
+    accessed: "2026-10-05"
+  - id: 28
+    title: "Iran warns protesters could face death penalty as regime crackdown intensifies"
+    outlet: "Associated Press via The Times of Israel"
+    url: "https://www.timesofisrael.com/iran-warns-protesters-could-face-death-penalty-as-regime-crackdown-intensifies/"
+    accessed: "2026-10-05"
+  - id: 29
+    title: "US military carries out large-scale strikes against Islamic State targets across Syria"
+    outlet: "Sky News"
+    url: "https://news.sky.com/story/us-military-carries-out-large-scale-strikes-against-isis-across-syria-13491264"
+    accessed: "2026-10-05"
+  - id: 30
+    title: "U.S., Partner Forces Strike ISIS Targets in Syria"
+    outlet: "U.S. Central Command"
+    url: "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4375251/us-partner-forces-strike-isis-targets-in-syria/"
+    accessed: "2026-10-05"
+  - id: 31
+    title: "Death toll climbs after trash site collapse buries dozens in Philippines"
+    outlet: "AFP via Arab News"
+    url: "https://www.arabnews.com/node/2628837/world"
+    accessed: "2026-10-05"
+  - id: 32
+    title: "Superb Macclesfield FC knock out Crystal Palace in greatest Emirates FA Cup upset"
+    outlet: "The Football Association"
+    url: "https://www.thefa.com/news/2026/jan/10/emirates-fa-cup-third-round-wrap-saturday-20261001"
+    accessed: "2026-10-05"
+  - id: 33
+    title: "Brasil devolvera a representacao diplomatica argentina na Venezuela"
+    outlet: "Reuters via Investing.com"
+    url: "https://br.investing.com/news/politics-news/brasil-devolvera-a-representacao-diplomatica-argentina-na-venezuela-1796190"
+    accessed: "2026-10-05"
+  - id: 34
+    title: "Egypt announces results of last seats in parliament vote that gave Sisi strong majority"
+    outlet: "Reuters via StreetInsider"
+    url: "https://www.streetinsider.com/Reuters/Egypt%2Bannounces%2Bresults%2Bof%2Blast%2Bseats%2Bin%2Bparliament%2Bvote%2Bthat%2Bgave%2BSisi%2Bstrong%2Bmajority/25832526.html?classic=1"
+    accessed: "2026-10-05"
+  - id: 35
+    title: "Nicaragua frees dozens of prisoners amid pressure from Trump administration"
+    outlet: "Al Jazeera"
+    url: "https://www.aljazeera.com/news/2026/1/10/nicaragua-frees-dozens-of-prisoners-amid-pressure-from-trump-administration"
+    accessed: "2026-10-05"
+  - id: 36
+    title: "M=6.4 Talaud Islands, Indonesia [2026-01-10 14:58:23]"
+    outlet: "GEOFON / GFZ"
+    url: "https://geofon.gfz.de/forum/t/m-6-4-talaud-islands-indonesia-2026-01-10-1423/38580"
+    accessed: "2026-10-05"
+  - id: 37
+    title: "2026-01-10 15:06 NTWC message"
+    outlet: "NTWC bulletin via GDACS"
+    url: "https://www.gdacs.org/gts_single.aspx?eventid=1518867&eventtype=EQ&gtsname=WEZS42PHEB101504"
+    accessed: "2026-10-05"
+  - id: 38
+    title: "Este respaldo del nuevo jefe militar a la declaratoria del CNE fue grabado en diciembre de 2025"
+    outlet: "La Prensa Verifica"
+    url: "https://www.laprensa.hn/verifica/bulos/respaldo-nuevo-jefe-militar-declaratoria-cne-grabado-diciembre-2025-FL28895473"
+    accessed: "2026-10-05"

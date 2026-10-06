@@ -1359,6 +1359,12 @@ def build(date, report_only=False):
         "strategic_conclusion": conclusion,
         "works_cited": works_list,
     }
+    for work in ov.get("additional_works", []):
+        if set(work) != {"title", "outlet", "url", "accessed"}:
+            raise ValueError("Additional bibliography entries need title, outlet, URL and actual access date")
+        if any(existing["url"] == work["url"] for existing in doc["works_cited"]):
+            raise ValueError("Additional bibliography URL already exists")
+        doc["works_cited"].append({"id": max(w["id"] for w in doc["works_cited"]) + 1, **work})
     references.reconcile(doc, FETCHED)
     return doc
 

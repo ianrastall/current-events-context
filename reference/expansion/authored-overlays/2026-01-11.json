@@ -1,0 +1,171 @@
+[
+  {
+    "date": "2026-01-11",
+    "snapshot_sha256": "569be63a45f3d03caf63d0870cd962edbb65e8f82967fde57290b29cd2c9fc10",
+    "report_sha256": "f765b48098056faa91b5e3fbfededb9e7166beaec5d4032d10fe488631fbe128",
+    "event_id": "evt-2026-01-11-010",
+    "event_sha256": "bb0a6cefd06a8d057cfd67ac8c48457a6acd819aaa7a1b983904f4b5d00ba7d2",
+    "reason": "Independently corroborate claims formerly supported by CBS; remove unsupported specifics and preserve dated source disagreement.",
+    "patch": {
+      "category": "Law and crime",
+      "subcategory": "Immigration enforcement",
+      "topics": [
+        "Killing of Renée Good",
+        "U.S. Immigration and Customs Enforcement",
+        "Kristi Noem"
+      ],
+      "importance": 6,
+      "headline": "DHS announces hundreds more federal officers for Minnesota amid ICE shooting fallout",
+      "summary": "Homeland Security Secretary Kristi Noem said in a Sunday television interview that hundreds of additional federal officers would be sent to Minnesota to protect immigration and Border Patrol personnel already operating there, following protests over the fatal shooting of Renée Good. Federal officials maintained the agent acted in self-defense, while Minnesota officials disputed that account.\n",
+      "key_data": [
+        {
+          "label": "Additional officers announced",
+          "value": "Hundreds",
+          "citation_refs": [
+            16
+          ]
+        },
+        {
+          "label": "Officers already deployed",
+          "value": "About 2,000",
+          "citation_refs": [
+            16
+          ]
+        }
+      ],
+      "details": {
+        "what_happened": [
+          "Noem announced the additional deployment in a Sunday television interview.",
+          "About 2,000 federal officers had already been dispatched to Minnesota, Reuters reported.",
+          "Federal and state officials remained divided over the circumstances of the shooting."
+        ],
+        "why_it_matters": [
+          "The deployment expands an already large immigration operation amid substantial public opposition."
+        ],
+        "uncertainty_notes": [
+          "The precise Sunday/Monday arrival schedule formerly attributed to CBS Minnesota was not independently confirmed and is excluded."
+        ]
+      },
+      "actors": {
+        "primary": [
+          "Kristi Noem",
+          "U.S. Department of Homeland Security"
+        ],
+        "secondary": [
+          "Minnesota officials",
+          "Protesters"
+        ]
+      },
+      "entities": {
+        "people": [
+          {
+            "name": "Kristi Noem",
+            "role": "United States Secretary of Homeland Security"
+          }
+        ],
+        "organizations": [
+          {
+            "name": "U.S. Department of Homeland Security",
+            "description": "Department announcing the additional officers"
+          },
+          {
+            "name": "U.S. Immigration and Customs Enforcement",
+            "description": "Agency whose agent shot Renée Good"
+          },
+          {
+            "name": "U.S. Border Patrol",
+            "description": "Agency also deployed in Minnesota"
+          }
+        ],
+        "states": [
+          "United States"
+        ]
+      },
+      "geography": {
+        "countries": [
+          "United States"
+        ],
+        "places": [
+          "Minneapolis",
+          "Saint Paul",
+          "Minnesota"
+        ],
+        "coordinates": []
+      },
+      "time": {
+        "date": "2026-01-11",
+        "time_known": false,
+        "ongoing": true
+      },
+      "casualty_report": {
+        "killed": 0,
+        "injured": 0,
+        "displaced": 0,
+        "missing": null,
+        "arrest_count": null,
+        "damage": null
+      },
+      "classification": {
+        "event_type": [
+          "immigration-enforcement",
+          "troop-deployment"
+        ],
+        "tags": [
+          "minnesota",
+          "ice",
+          "kristi-noem",
+          "renee-good"
+        ]
+      },
+      "sources": {
+        "wikipedia_portal": {
+          "included": false,
+          "text_fragment": null
+        },
+        "external": [
+          {
+            "id": "src-010-a",
+            "outlet": "Reuters via Gulf Times",
+            "url": "https://www.gulf-times.com/article/718398/international/uslatin-america/dhs-to-send-hundreds-more-officers-to-minnesota-noem/amp",
+            "publication_date": "2026-01-11",
+            "source_type": "news_report",
+            "reliability_tier": "high",
+            "supports": [
+              "summary",
+              "key_data",
+              "details.what_happened"
+            ],
+            "contradicts": [],
+            "quoted_material": [
+              "sending 'hundreds' more officers."
+            ],
+            "citation_refs": [
+              16
+            ]
+          }
+        ]
+      },
+      "provenance": {
+        "extracted_from_portal_bullet": false,
+        "enriched_manually": true,
+        "last_reviewed_by": null
+      },
+      "confidence": {
+        "event_existence": "high",
+        "detail_accuracy": "high",
+        "actor_identification": "high"
+      },
+      "related_events": [
+        "evt-2026-01-07-007",
+        "evt-2026-01-08-023",
+        "evt-2026-01-09-009"
+      ],
+      "notes": "Supersedes the deployment claim previously noted under January 10 (evt-2026-01-10-003's related event), which the January 10 report had misdated; Noem's own account places the TV interview announcement on Sunday, January 11."
+    },
+    "evidence": [
+      "https://www.gulf-times.com/article/718398/international/uslatin-america/dhs-to-send-hundreds-more-officers-to-minnesota-noem/amp"
+    ],
+    "generating_model": "GPT-6 (Codex)",
+    "verified_at": "2026-10-05"
+  }
+]

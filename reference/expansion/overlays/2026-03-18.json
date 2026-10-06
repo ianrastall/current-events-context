@@ -1,37 +1,490 @@
 {
-  "match": {"0": 0},
-  "ev": {
-    "md:0": {"i": 9}, "md:1": {"i": 8}, "md:2": {"i": 7}, "md:3": {"i": 5}, "md:4": {"i": 5}, "md:5": {"i": 6},
-    "md:6": {"i": 5}, "md:7": {"i": 7}, "md:8": {"i": 5}, "md:9": {"i": 6}, "md:10": {"i": 6}, "md:11": {"i": 4},
-    "md:12": {"i": 4}, "md:13": {"i": 5}, "md:14": {"i": 4}, "md:15": {"i": 5},
-    "p:1": {"h": "Iranian cluster munition kills a Thai worker in Moshav Adanim, Israel", "i": 5, "k": 1, "pl": ["Moshav Adanim"], "st": ["Israel", "Thailand", "Iran"]},
-    "p:2": {"h": "Iranian missiles strike Qatar's Ras Laffan LNG complex, causing extensive damage", "i": 9, "pl": ["Ras Laffan Industrial City"], "st": ["Qatar", "Iran"]},
-    "p:3": {"h": "Saudi air defences intercept drones targeting Eastern Province energy sites", "i": 5, "pl": ["Eastern Province"], "st": ["Saudi Arabia"]},
-    "p:4": {"h": "Kata'ib Hezbollah offers to halt attacks in Iraq on conditions", "i": 5, "st": ["Iraq"],
-            "org": {"Kata'ib Hezbollah": "Iraqi Shia militia aligned with Iran"}},
-    "p:7": {"h": "Falling Iranian missile fragments kill four Palestinians in Beit Awwa", "i": 5, "k": 4, "w": 6, "pl": ["Beit Awwa", "West Bank"], "st": ["Palestine"]},
-    "p:8": {"h": "Twelve regional foreign ministers meeting in Riyadh call on Iran to halt its attacks", "i": 7, "pl": ["Riyadh"],
-            "st": ["Azerbaijan", "Bahrain", "Egypt", "Jordan", "Kuwait", "Lebanon", "Pakistan", "Qatar", "Saudi Arabia", "Syria", "Turkey", "United Arab Emirates", "Iran"]},
-    "p:9": {"h": "Israeli airstrike on a Beirut building kills at least 20", "i": 7, "k": 20, "pl": ["Beirut"], "st": ["Lebanon", "Israel"]},
-    "p:11": {"h": "Chad's president orders retaliation against Sudanese belligerents after drone strike", "i": 7, "st": ["Chad", "Sudan"],
-             "ppl": {"Mahamat Déby": "President of Chad"}},
-    "p:12": {"h": "Sudan Doctors Network says RSF killed 12 civilians in North Kordofan", "i": 5, "k": 12, "pl": ["North Kordofan"], "st": ["Sudan"],
-             "org": {"Sudan Doctors Network": "Sudanese medical monitoring group", "Rapid Support Forces": "Sudanese paramilitary force at war with the Sudanese army"}},
-    "p:13": {"h": "Sudanese army says it shot down a Bayraktar drone coming from Ethiopia", "i": 5, "pl": ["North Kordofan"], "st": ["Sudan", "Ethiopia"]},
-    "p:14": {"h": "Pakistan and Afghanistan agree to pause hostilities for Eid al-Fitr", "i": 6, "st": ["Pakistan", "Afghanistan"]},
-    "p:15": {"h": "Nigerian army says more than 60 Boko Haram and Islamic State insurgents killed in Abadam", "i": 6, "k": 60, "pl": ["Abadam", "Borno State"], "st": ["Nigeria"]},
-    "p:17": {"h": "Aramco restarts Ras Tanura refinery after a 16-day closure", "i": 5, "pl": ["Ras Tanura"], "st": ["Saudi Arabia"],
-             "org": {"Saudi Aramco": "Saudi state oil company"}},
-    "p:18": {"h": "Building fire near Delhi's Palam metro station kills nine", "i": 5, "k": 9, "pl": ["Palam", "Delhi"], "st": ["India"]},
-    "p:19": {"h": "Explosion and fire at a residential building in Indore kills seven", "i": 5, "k": 7, "w": 3, "pl": ["Indore", "Madhya Pradesh"], "st": ["India"]},
-    "p:20": {"h": "Cable car cabin crash in Engelberg, Switzerland, kills one", "i": 4, "k": 1, "pl": ["Engelberg", "Obwalden"], "st": ["Switzerland"]},
-    "p:21": {"h": "Meningococcal vaccine rollout begins at the University of Kent", "i": 3, "pl": ["University of Kent"], "st": ["United Kingdom"]},
-    "p:22": {"h": "Qatar expels Iran's military and security attachés", "i": 6, "st": ["Qatar", "Iran"]},
-    "p:23": {"h": "Sweden says Iran has executed a Swedish citizen", "i": 5, "st": ["Sweden", "Iran"],
-             "ppl": {"Maria Malmer Stenergard": "Foreign Minister of Sweden"}},
-    "p:24": {"h": "Delcy Rodríguez replaces Venezuela's long-serving defence minister Padrino López", "i": 5, "st": ["Venezuela"],
-             "ppl": {"Gustavo González López": "Venezuelan general appointed Minister of Defense", "Vladimir Padrino López": "Venezuelan Minister of Defense since 2014"}}
+  "match": {
+    "0": 0
   },
-  "related": [["md:0", "p:2", "p:3", "p:17", "p:22"], ["md:7", "p:11"], ["p:12", "p:13"], ["md:1", "p:8"]],
-  "strategic_conclusion": "March 18 marked a turn toward direct attacks on energy infrastructure: strikes on Iran's South Pars field were followed by Iranian missiles on Qatar's Ras Laffan LNG complex, Qatar's expulsion of Iranian attachés, and a joint call by twelve regional foreign ministers for Iran to stop its attacks. Israel's campaign against Iranian leadership continued with the killing of the intelligence minister. The Sudan war crossed into Chad, prompting Chadian retaliation orders, while Pakistan and Afghanistan agreed an Eid pause. Arrests of senior cartel figures in Mexico and major announcements in U.S. sport and computing made up much of the rest of the day's record."
+  "ev": {
+    "md:0": {
+      "i": 9
+    },
+    "md:1": {
+      "i": 8
+    },
+    "md:2": {
+      "i": 7
+    },
+    "md:3": {
+      "i": 5
+    },
+    "md:4": {
+      "i": 5
+    },
+    "md:5": {
+      "i": 6
+    },
+    "md:6": {
+      "i": 5
+    },
+    "md:7": {
+      "i": 7
+    },
+    "md:8": {
+      "i": 5
+    },
+    "md:9": {
+      "i": 6
+    },
+    "md:10": {
+      "i": 6
+    },
+    "md:11": {
+      "i": 4
+    },
+    "md:12": {
+      "i": 4
+    },
+    "md:13": {
+      "i": 5
+    },
+    "md:14": {
+      "i": 4
+    },
+    "md:15": {
+      "i": 5
+    },
+    "p:1": {
+      "h": "Iranian cluster munition kills a Thai worker in Moshav Adanim, Israel",
+      "i": 5,
+      "k": 1,
+      "pl": [
+        "Moshav Adanim"
+      ],
+      "st": [
+        "Israel",
+        "Thailand",
+        "Iran"
+      ]
+    },
+    "p:2": {
+      "h": "Iranian missiles strike Qatar's Ras Laffan LNG complex, causing extensive damage",
+      "i": 9,
+      "pl": [
+        "Ras Laffan Industrial City"
+      ],
+      "st": [
+        "Qatar",
+        "Iran"
+      ]
+    },
+    "p:3": {
+      "h": "Saudi air defences intercept drones targeting Eastern Province energy sites",
+      "i": 5,
+      "pl": [
+        "Eastern Province"
+      ],
+      "st": [
+        "Saudi Arabia"
+      ]
+    },
+    "p:4": {
+      "h": "Kata'ib Hezbollah offers to halt attacks in Iraq on conditions",
+      "i": 5,
+      "st": [
+        "Iraq"
+      ],
+      "org": {
+        "Kata'ib Hezbollah": "Iraqi Shia militia aligned with Iran"
+      }
+    },
+    "p:7": {
+      "h": "Falling Iranian missile fragments kill four Palestinians in Beit Awwa",
+      "i": 5,
+      "k": 4,
+      "w": 6,
+      "pl": [
+        "Beit Awwa",
+        "West Bank"
+      ],
+      "st": [
+        "Palestine"
+      ]
+    },
+    "p:8": {
+      "h": "Twelve regional foreign ministers meeting in Riyadh call on Iran to halt its attacks",
+      "i": 7,
+      "pl": [
+        "Riyadh"
+      ],
+      "st": [
+        "Azerbaijan",
+        "Bahrain",
+        "Egypt",
+        "Jordan",
+        "Kuwait",
+        "Lebanon",
+        "Pakistan",
+        "Qatar",
+        "Saudi Arabia",
+        "Syria",
+        "Turkey",
+        "United Arab Emirates",
+        "Iran"
+      ]
+    },
+    "p:9": {
+      "h": "Israeli airstrike on a Beirut building kills at least 20",
+      "i": 7,
+      "k": 20,
+      "pl": [
+        "Beirut"
+      ],
+      "st": [
+        "Lebanon",
+        "Israel"
+      ]
+    },
+    "p:11": {
+      "h": "Chad's president orders retaliation against Sudanese belligerents after drone strike",
+      "i": 7,
+      "st": [
+        "Chad",
+        "Sudan"
+      ],
+      "ppl": {
+        "Mahamat Déby": "President of Chad"
+      }
+    },
+    "p:12": {
+      "h": "Sudan Doctors Network says RSF killed 12 civilians in North Kordofan",
+      "i": 5,
+      "k": 12,
+      "pl": [
+        "North Kordofan"
+      ],
+      "st": [
+        "Sudan"
+      ],
+      "org": {
+        "Sudan Doctors Network": "Sudanese medical monitoring group",
+        "Rapid Support Forces": "Sudanese paramilitary force at war with the Sudanese army"
+      }
+    },
+    "p:13": {
+      "h": "Sudanese army says it shot down a Bayraktar drone coming from Ethiopia",
+      "i": 5,
+      "pl": [
+        "North Kordofan"
+      ],
+      "st": [
+        "Sudan",
+        "Ethiopia"
+      ]
+    },
+    "p:14": {
+      "h": "Pakistan and Afghanistan agree to pause hostilities for Eid al-Fitr",
+      "i": 6,
+      "st": [
+        "Pakistan",
+        "Afghanistan"
+      ]
+    },
+    "p:15": {
+      "h": "Nigerian army says more than 60 Boko Haram and Islamic State insurgents killed in Abadam",
+      "i": 6,
+      "k": 60,
+      "pl": [
+        "Abadam",
+        "Borno State"
+      ],
+      "st": [
+        "Nigeria"
+      ]
+    },
+    "p:17": {
+      "h": "Aramco restarts Ras Tanura refinery after a 16-day closure",
+      "i": 5,
+      "pl": [
+        "Ras Tanura"
+      ],
+      "st": [
+        "Saudi Arabia"
+      ],
+      "org": {
+        "Saudi Aramco": "Saudi state oil company"
+      }
+    },
+    "p:18": {
+      "h": "Building fire near Delhi's Palam metro station kills nine",
+      "i": 5,
+      "k": 9,
+      "pl": [
+        "Palam",
+        "Delhi"
+      ],
+      "st": [
+        "India"
+      ]
+    },
+    "p:19": {
+      "h": "Explosion and fire at a residential building in Indore kills seven",
+      "i": 5,
+      "k": 7,
+      "w": 3,
+      "pl": [
+        "Indore",
+        "Madhya Pradesh"
+      ],
+      "st": [
+        "India"
+      ]
+    },
+    "p:20": {
+      "h": "Cable car cabin crash in Engelberg, Switzerland, kills one",
+      "i": 4,
+      "k": 1,
+      "pl": [
+        "Engelberg",
+        "Obwalden"
+      ],
+      "st": [
+        "Switzerland"
+      ]
+    },
+    "p:21": {
+      "h": "Meningococcal vaccine rollout begins at the University of Kent",
+      "i": 3,
+      "pl": [
+        "University of Kent"
+      ],
+      "st": [
+        "United Kingdom"
+      ]
+    },
+    "p:22": {
+      "h": "Qatar expels Iran's military and security attachés",
+      "i": 6,
+      "st": [
+        "Qatar",
+        "Iran"
+      ]
+    },
+    "p:23": {
+      "h": "Sweden says Iran has executed a Swedish citizen",
+      "i": 5,
+      "st": [
+        "Sweden",
+        "Iran"
+      ],
+      "ppl": {
+        "Maria Malmer Stenergard": "Foreign Minister of Sweden"
+      }
+    },
+    "p:24": {
+      "h": "Delcy Rodríguez replaces Venezuela's long-serving defence minister Padrino López",
+      "i": 5,
+      "st": [
+        "Venezuela"
+      ],
+      "ppl": {
+        "Gustavo González López": "Venezuelan general appointed Minister of Defense",
+        "Vladimir Padrino López": "Venezuelan Minister of Defense since 2014"
+      }
+    }
+  },
+  "related": [
+    [
+      "md:0",
+      "p:2",
+      "p:3",
+      "p:17",
+      "p:22"
+    ],
+    [
+      "md:7",
+      "p:11"
+    ],
+    [
+      "p:12",
+      "p:13"
+    ],
+    [
+      "md:1",
+      "p:8"
+    ]
+  ],
+  "strategic_conclusion": "March 18 marked a turn toward direct attacks on energy infrastructure: strikes on Iran's South Pars field were followed by Iranian missiles on Qatar's Ras Laffan LNG complex, Qatar's expulsion of Iranian attachés, and a joint call by twelve regional foreign ministers for Iran to stop its attacks. Israel's campaign against Iranian leadership continued with the killing of the intelligence minister. The Sudan war crossed into Chad, prompting Chadian retaliation orders, while Pakistan and Afghanistan agreed an Eid pause. Arrests of senior cartel figures in Mexico and major announcements in U.S. sport and computing made up much of the rest of the day's record.",
+  "events": {
+    "md:6": {
+      "category": "Law and crime",
+      "subcategory": "Arrests",
+      "topics": [
+        "Arrests",
+        "Mexico",
+        "Colombia"
+      ],
+      "importance": 5,
+      "headline": "Mexico arrests suspect wanted in Villavicencio assassination investigation",
+      "summary": "Authorities reported that Angel Esteban Aguilar Morales, known as Lobo Menor, was arrested in Mexico City and transferred to Colombia. He is wanted in connection with the 2023 killing of Ecuadorian candidate Fernando Villavicencio.\n",
+      "key_data": [],
+      "details": {
+        "what_happened": [
+          "Authorities reported an arrest in Mexico and arrival in Bogota on March 18.",
+          "Aguilar is an alleged Los Lobos leader wanted in the Villavicencio investigation."
+        ],
+        "why_it_matters": [
+          "The arrest concerns the Villavicencio murder investigation."
+        ],
+        "uncertainty_notes": [
+          "AP leaves the formal extradition or deportation status unspecified. Reuters places the arrest at an airport; other accounts place it in Polanco. Exact location remains unresolved."
+        ]
+      },
+      "actors": {
+        "primary": [
+          "Angel Esteban Aguilar Morales",
+          "Mexican security authorities",
+          "Colombian migration authorities"
+        ],
+        "secondary": [
+          "Interpol",
+          "\"Los Lobos\" Cartel"
+        ]
+      },
+      "entities": {
+        "people": [
+          {
+            "name": "Angel Esteban Aguilar Morales",
+            "role": "Suspect known as Lobo Menor"
+          }
+        ],
+        "organizations": [
+          {
+            "name": "Mexican Security Ministry",
+            "description": "Mexico's Secretariat of Security and Citizen Protection"
+          },
+          {
+            "name": "Colombian Migration Authorities",
+            "description": "Migración Colombia"
+          },
+          {
+            "name": "Interpol",
+            "description": "International police cooperation organization"
+          },
+          {
+            "name": "\"Los Lobos\" Cartel",
+            "description": "Ecuadorian criminal organization"
+          }
+        ],
+        "states": [
+          "Mexico",
+          "Colombia",
+          "Ecuador"
+        ]
+      },
+      "geography": {
+        "countries": [
+          "Mexico",
+          "Colombia",
+          "Ecuador"
+        ],
+        "places": [],
+        "coordinates": []
+      },
+      "time": {
+        "date": "2026-03-18",
+        "time_known": false,
+        "ongoing": false
+      },
+      "casualty_report": {
+        "killed": 0,
+        "injured": 0,
+        "displaced": 0,
+        "missing": null,
+        "arrest_count": 1,
+        "damage": null
+      },
+      "classification": {
+        "event_type": [
+          "arrests"
+        ],
+        "tags": [
+          "arrests",
+          "mexico",
+          "colombia"
+        ]
+      },
+      "sources": {
+        "wikipedia_portal": {
+          "included": false,
+          "text_fragment": null
+        },
+        "external": [
+          {
+            "id": "src-007-ap",
+            "outlet": "Associated Press",
+            "url": "https://apnews.com/article/ecuador-villavicencio-suspect-arrested-mexico-colombia-fe490bd5f2b2bf5ee7040e8c96af6d95",
+            "publication_date": "2026-03-18",
+            "source_type": "news_report",
+            "reliability_tier": "high",
+            "supports": [
+              "summary",
+              "details.what_happened"
+            ],
+            "contradicts": [],
+            "quoted_material": [],
+            "citation_refs": []
+          },
+          {
+            "id": "src-007-reuters",
+            "outlet": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/leader-of-ecuadors-los-lobos-crime-group-arrested-in-mexico-city-4569068",
+            "publication_date": "2026-03-18",
+            "source_type": "news_report",
+            "reliability_tier": "high",
+            "supports": [
+              "summary",
+              "details.what_happened"
+            ],
+            "contradicts": [],
+            "quoted_material": [],
+            "citation_refs": []
+          }
+        ]
+      },
+      "provenance": {
+        "extracted_from_portal_bullet": false,
+        "enriched_manually": true,
+        "last_reviewed_by": null
+      },
+      "confidence": {
+        "event_existence": "high",
+        "detail_accuracy": "medium",
+        "actor_identification": "high"
+      },
+      "notes": "Independent wires replace CBS support; allegations remain attributed."
+    }
+  },
+  "source_review": {
+    "reviewed_at": "2026-10-05",
+    "generating_model": "GPT-6 (Codex)",
+    "event_key": "md:6",
+    "event_id": "evt-2026-03-18-007",
+    "evidence": [
+      "https://apnews.com/article/ecuador-villavicencio-suspect-arrested-mexico-colombia-fe490bd5f2b2bf5ee7040e8c96af6d95",
+      "https://www.investing.com/news/world-news/leader-of-ecuadors-los-lobos-crime-group-arrested-in-mexico-city-4569068"
+    ],
+    "reason": "Independently corroborate former CBS support; distinguish allegations, unknown legal transfer status and conflicting arrest location."
+  },
+  "additional_works": [
+    {
+      "title": "Mexico arrests suspect wanted in the 2023 killing of Ecuadorian candidate and sends him to Colombia",
+      "outlet": "Associated Press",
+      "url": "https://apnews.com/article/ecuador-villavicencio-suspect-arrested-mexico-colombia-fe490bd5f2b2bf5ee7040e8c96af6d95",
+      "accessed": "2026-10-05"
+    },
+    {
+      "title": "Leader of Ecuador's Los Lobos crime group arrested in Mexico City",
+      "outlet": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/world-news/leader-of-ecuadors-los-lobos-crime-group-arrested-in-mexico-city-4569068",
+      "accessed": "2026-10-05"
+    }
+  ]
 }

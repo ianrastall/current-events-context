@@ -1,0 +1,376 @@
+{
+  "date": "2026-01-10",
+  "reviewed_at": "2026-10-05",
+  "reviewer": "GPT-6 (Codex)",
+  "scope": "Scoped publisher observations, not full event certification or human approval. No full publisher articles are stored.",
+  "generated_output_sha256": "d152e89b73f3bd40eaf0e52370e98d5d53b2116804696b88fa8ef7067fba195d",
+  "events": [
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-001",
+      "event_sha256": "b482a293a658653c67f822a425b334b289f0ce09aff354093f807fd9cf41f58f",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Order publication confirmed; signing and executive meeting remain January 9 background.",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/trump-venezuela-oil-revenue-companies-sales-bdd21181e08889d6cca93f5acc7c0ee0",
+          "access": "article_or_record_text_read",
+          "quotation_status": "existing_report_quotation_compared_to_publisher"
+        }
+      ],
+      "remaining_checks": [
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-002",
+      "event_sha256": "3b9b1cb0989a4b6550dfa4d71e3f559f86b71d27105fa17fa900d514f9d80ad7",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "The outlet reports a January 10 commune appearance; its attribution is retained.",
+      "sources": [
+        {
+          "url": "https://orinocotribune.com/venezuelas-acting-president-rodriguez-dismisses-us-narrative-of-control-vows-to-rescue-president-maduro-legal-team/",
+          "access": "article_or_record_text_read",
+          "quotation_status": "existing_report_quotation_compared_to_publisher"
+        }
+      ],
+      "remaining_checks": [
+        "Independent confirmation of the partisan outlet's account remains pending.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-003",
+      "event_sha256": "67867acb66d959042ac9db0d2a55401f788b8d237c2ed27a39cf67eaa33fa67e",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "The colectivos section is present; article publication is January 11.",
+      "sources": [
+        {
+          "url": "https://www.chinadailyhk.com/hk/article/626819",
+          "access": "article_or_record_text_read",
+          "quotation_status": "existing_report_quotation_compared_to_publisher"
+        }
+      ],
+      "remaining_checks": [
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-004",
+      "event_sha256": "6997e582e66aa657f6c8b900ee7286414f52238c34992eea11515ef1b5a11388",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Capital-charge warning corroborated; blackout figures refer to different reporting times.",
+      "sources": [
+        {
+          "url": "https://www.kvue.com/article/syndication/associatedpress/iran-attorney-general-warns-anyone-taking-part-in-protests-will-be-considered-an-enemy-of-god-a-death-penalty-charge/616-478586e2-2c11-4df6-9a7e-9042e1629cd5",
+          "access": "unavailable",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://understandingwar.org/research/middle-east/iran-update-january-10-2026/",
+          "access": "unavailable",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/iran-internet-outage-in-place-for-36-hours-amid-protests-monitor/",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/iran-update-january-10-2026",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.timesofisrael.com/iran-warns-protesters-could-face-death-penalty-as-regime-crackdown-intensifies/",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "KVUE and original ISW URL unavailable; accessible primary mirror and wire copy checked.",
+        "Military/protester claims remain attributed; no independently confirmed daily casualty total.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-005",
+      "event_sha256": "635b3aae2af6ad4206bb1eb92d2612732d6837ebdbc07376aa7b6c6ebd46820a",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "January 10 drone incident distinguished from January 11 final withdrawal.",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/liveblog/2026/1/11/syria-live-sdf-fighters-pull-out-of-aleppo-after-deadly-battles",
+          "access": "unavailable",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://en.ypagency.net/381667",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.dzrh.com.ph/post/last-kurdish-fighters-leave-syrias-aleppo-city-after-days-of-clashes",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "Al Jazeera liveblog body unavailable; Reuters and YPA checked.",
+        "Drone responsibility is disputed.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-006",
+      "event_sha256": "e4586741c768a1a8d02ee07a3f8514550517a581c2216d45586db810bf4f732a",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "January 10 strikes corroborated; operation began December 19.",
+      "sources": [
+        {
+          "url": "https://news.sky.com/story/us-military-carries-out-large-scale-strikes-against-isis-across-syria-13491264",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4375251/us-partner-forces-strike-isis-targets-in-syria/",
+          "access": "indexed_text_only",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "CENTCOM release retrieved as indexed text; direct page unavailable.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-007",
+      "event_sha256": "154effa8270f7dc445ae2fb6f8f87126cc59715e5a5ac9b244c18a460b08c5a2",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Morning AFP tally: four dead, 34 missing, 12 rescued.",
+      "sources": [
+        {
+          "url": "https://www.arabnews.com/world/filipino-rescuers-detect-signs-of-life-in-garbage-avalanche-that-killed-4-and-left-dozens-missing-2628893",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://saudigazette.com.sa/article/658071/World/Philippines-landfill-landslide-leaves-dozens-missing-in-Cebu-City",
+          "access": "unavailable",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.arabnews.com/node/2628837/world",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "Saudi Gazette copy was unavailable.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-008",
+      "event_sha256": "7b10f50ca0288473e1f49a3cf23c2471a6da22650a047ab53c74454b8b17b053",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Six occupants killed; takeoff-failure cause remains unestablished.",
+      "sources": [
+        {
+          "url": "https://bnonews.com/index.php/2026/01/colombian-singer-yeison-jimenez-among-6-killed-in-plane-crash-near-bogota/",
+          "access": "unavailable",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.semana.com/nacion/articulo/atencion-yeison-jimenez-reconocido-cantante-de-musica-popular-murio-en-un-accidente-de-una-avioneta-en-paipa/202651/",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://latinamericanpost.com/life/entertainment-en/why-colombias-grief-for-yeison-jimenez-runs-so-deep-he-gave-voice-to-their-pain/",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "BNO inaccessible; exact cause not independently established.",
+        "Latin American Post is January 25 retrospective evidence.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-009",
+      "event_sha256": "98276839c3a7f98d3bec9d9a60f6239e89bb6ddfe7cbae99df807b79594a22bb",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Reuters dispatch corroborates the block and xAI summons; copies are one source.",
+      "sources": [
+        {
+          "url": "https://www.thehindu.com/news/international/indonesia-temporarily-blocks-access-to-grok-over-sexualised-images/article70493867.ece",
+          "access": "unavailable",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.business-humanrights.org/en/latest-news/indonesia-becomes-first-country-to-block-xai-tool-grok-citing-serious-violation-of-human-rights-and-dignity/",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://unn.ua/en/news/indonesia-becomes-the-first-country-in-the-world-to-block-grok-due-to-the-spread-of-sexualized-ai-images",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "The Hindu and direct Reuters URLs unavailable.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-010",
+      "event_sha256": "2f0b1595289432d600f71f51f46930f7bbc97c99f214c24e7acb7157cfc186ec",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "FA confirms the 2-1 result and 117-place league gap.",
+      "sources": [
+        {
+          "url": "https://video.thescore.com/engfa/news/3451760/6th-tier-macclesfield-oust-holders-crystal-palace-in-all-time-fa-cup-stunner",
+          "access": "unavailable",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.livesoccertv.com/match/crystal-palace-vs-macclesfield/36b0xz",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.thefa.com/news/2026/jan/10/emirates-fa-cup-third-round-wrap-saturday-20261001",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "theScore article inaccessible.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-011",
+      "event_sha256": "958b39de2d54fe0226d6ba379a5bcd522a9e25ec7fd310fdb607d2b9672e0a3c",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Confirmation on January 10 concerned a planned handback, not completed transfer.",
+      "sources": [
+        {
+          "url": "https://br.investing.com/news/politics-news/brasil-devolvera-a-representacao-diplomatica-argentina-na-venezuela-1796190",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "Direct Reuters inaccessible; syndicated dispatch published January 12 describes January 11 confirmation of a late-Saturday decision.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-012",
+      "event_sha256": "0bbaa6d4133026fa63ad00b38f50dd025da97ce923b42c5fba4ee7550b05f45b",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Final 49 seats distinguished from an earlier opposition-seat projection.",
+      "sources": [
+        {
+          "url": "https://www.streetinsider.com/Reuters/Egypt%2Bannounces%2Bresults%2Bof%2Blast%2Bseats%2Bin%2Bparliament%2Bvote%2Bthat%2Bgave%2BSisi%2Bstrong%2Bmajority/25832526.html?classic=1",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "Direct Reuters inaccessible; syndicated copy read.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-013",
+      "event_sha256": "ea6389f5321b47056c853dc317ce9d24c5aa1a1f7be871668df44f5e6709d1bc",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "January 10 release corroborated; exact count remains unspecified.",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/1/10/nicaragua-frees-dozens-of-prisoners-amid-pressure-from-trump-administration",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "Release count and detainee classification unresolved.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-014",
+      "event_sha256": "61832ba577eb7c2efd4676071abecd2cbf8950c51003cd240c5204ee93f8c82d",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Agency event and bulletin located; final magnitude and BMKG claims unverified.",
+      "sources": [
+        {
+          "url": "https://geofon.gfz.de/forum/t/m-6-4-talaud-islands-indonesia-2026-01-10-1423/38580",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        },
+        {
+          "url": "https://www.gdacs.org/gts_single.aspx?eventid=1518867&eventtype=EQ&gtsname=WEZS42PHEB101504",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "No verified BMKG release; agency solutions may be updated.",
+        "NTWC bulletin scope is American Samoa, not a worldwide all-clear.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "event_id": "evt-2026-01-10-015",
+      "event_sha256": "3f0f4534e343995d8d87ac2a8bf0e8a4226493c81a2e62cc3711cd32731b8590",
+      "hash_basis": "Canonical build.build event object; corrections.event_hash",
+      "status": "partial_publisher_check",
+      "observation": "Fact-check dates the circulated pledge to December; original video unviewed.",
+      "sources": [
+        {
+          "url": "https://www.laprensa.hn/verifica/bulos/respaldo-nuevo-jefe-militar-declaratoria-cne-grabado-diciembre-2025-FL28895473",
+          "access": "article_or_record_text_read",
+          "quotation_status": "pending_exact_comparison"
+        }
+      ],
+      "remaining_checks": [
+        "Original TikTok video not independently viewed; original Tiempo page unavailable.",
+        "Finish exact quotation comparison and complete human factual review."
+      ]
+    }
+  ]
+}

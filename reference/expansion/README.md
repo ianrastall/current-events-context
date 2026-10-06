@@ -64,6 +64,7 @@ exclusion) and `p:<n>` for the n-th portal bullet in the pinned revision.
 | `legacy_extra` | 2.1 events carried forward alongside the report's events |
 | `ev` | per-event shorthand: `h` headline, `i` importance, `k`/`w`/`m`/`a`/`d` killed, injured, missing, arrests, displaced, `pl` places, `st` states, `org`/`ppl` entities, `unc` uncertainty notes, `conf` confidence, `note`, `sub`, `cat`, `tags`, `et`, `topics`, `why`, `act`, `act2`, `ongoing` |
 | `events` | full deep-merge patches, if shorthand is not enough |
+| `additional_works` | new bibliography entries with `title`, `outlet`, `url`, and actual `accessed` date; IDs are assigned deterministically and duplicate URLs fail |
 | `related` | groups of event keys to cross-link in `related_events` |
 | `analytical_overview`, `strategic_conclusion` | replace the text taken from the report |
 

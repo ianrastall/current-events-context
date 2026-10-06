@@ -188,6 +188,14 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual([], validator.schema_errors(doc) + validator.cross_ref_errors(doc))
             self.assertEqual("draft", doc["dataset"]["compiler"]["status"])
             self.assertEqual([], validator.related_errors(doc, ROOT / "expanded"))
+        doc = build.build("2026-03-18")
+        event = next(e for e in doc["events"] if e["id"] == "evt-2026-03-18-007")
+        works = {w["id"]: w for w in doc["works_cited"]}
+        for source_record in event["sources"]["external"]:
+            work = works[source_record["citation_refs"][0]]
+            self.assertEqual("2026-10-05", work["accessed"])
+            self.assertEqual(source_record["url"], work["url"])
+            self.assertNotIn("title not recorded", work["title"])
 
 
 if __name__ == "__main__":

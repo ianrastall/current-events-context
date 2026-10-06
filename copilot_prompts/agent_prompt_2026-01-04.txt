@@ -11,6 +11,9 @@ Never infer a historical revision from a current page or another expansion.
 
 Verify factual claims, quotations, actual publication dates and URLs against
 original sources. Record conflicting reports and unknown values explicitly.
+CBS News and affiliates receive no assumed reliability: corroborate material
+claims independently or keep them uncertain. Check the original wire for
+syndicated articles; republications of one dispatch are not independent sources.
 Do not invent facts, URLs, dates, entities or review status. Fresh synthesis
 uses status:draft, reviewed:false, mode:llm_deep_research_broad_snapshot.
 Keep reviewed inputs reviewed only when replaying an unchanged authored input.
@@ -587,7 +590,7 @@ These durable corrections supersede the corresponding original report claims. Pr
     "report_sha256": "cf7dda28ea6e52350821228622e0f980b4ebe977b3e019018a415287743f8f8d",
     "event_id": null,
     "event_sha256": "437d653d459476bbbc65be288dc91e45872dc21580d5a9d7da319bf75bd12e9b",
-    "reason": "The federal announcement was January 8. January 4 instead records the documented public appeal; Bondi Beach replaces Bondi Junction.",
+    "reason": "The federal announcement was January 8. January 4 instead records the documented public appeal; Bondi Beach replaces Bondi Junction. Independently corroborate claims formerly supported by CBS; remove unsupported specifics and preserve dated source disagreement.",
     "patch": {
       "events": [
         {
@@ -2034,14 +2037,12 @@ These durable corrections supersede the corresponding original report claims. Pr
           ],
           "importance": 6,
           "headline": "Authorities identify all victims of Crans-Montana bar fire",
-          "summary": "Swiss authorities identified all 40 deceased victims of the Crans-Montana bar fire, and mourners held silent commemorations as families received official confirmation. CBS, The Guardian, and SWI swissinfo all reported that the victim identification process had been completed, marking a shift in the disaster's aftermath from uncertainty to mourning and legal accountability.\n",
+          "summary": "Valais authorities announced on January 4 that all 40 people killed in the Crans-Montana bar fire had been identified. Keystone-SDA reporting carried by SWI swissinfo confirms the Sunday-evening announcement; its English article was published January 5.\n",
           "key_data": [
             {
               "label": "Identified deceased victims",
               "value": "40",
               "citation_refs": [
-                21,
-                22,
                 23
               ]
             },
@@ -2049,8 +2050,6 @@ These durable corrections supersede the corresponding original report claims. Pr
               "label": "Location",
               "value": "Crans-Montana, Valais, Switzerland",
               "citation_refs": [
-                21,
-                22,
                 23
               ]
             }
@@ -2066,7 +2065,8 @@ These durable corrections supersede the corresponding original report claims. Pr
               "The aftermath continues to shape Switzerland's public-safety and legal response to the fire."
             ],
             "uncertainty_notes": [
-              "January 1 and January 2 files cite a later converged toll of 41, while January 3 and January 4 reporting here cites 40 identified deceased victims."
+              "January 1 and January 2 files cite a later converged toll of 41, while January 3 and January 4 reporting here cites 40 identified deceased victims.",
+              "The linked English SWI article is later publication evidence for the January 4 announcement, not a January 4 publication."
             ]
           },
           "actors": {
@@ -2133,28 +2133,6 @@ These durable corrections supersede the corresponding original report claims. Pr
             },
             "external": [
               {
-                "id": "src-008-a",
-                "outlet": "CBS News",
-                "url": "https://www.cbsnews.com/news/fire-switzerland-crans-montana-ski-resort-bar-le-constellation-mass/",
-                "publication_date": "2026-01-04",
-                "source_type": "news_report",
-                "reliability_tier": "high",
-                "supports": [
-                  "summary",
-                  "key_data",
-                  "details.what_happened"
-                ],
-                "contradicts": [
-                  "casualty_report"
-                ],
-                "quoted_material": [
-                  "All 40 Swiss bar fire victims identified"
-                ],
-                "citation_refs": [
-                  21
-                ]
-              },
-              {
                 "id": "src-008-b",
                 "outlet": "The Guardian",
                 "url": "https://www.theguardian.com/world/2026/jan/04/crans-montana-fire-victims-identified-silent-procession",
@@ -2165,9 +2143,7 @@ These durable corrections supersede the corresponding original report claims. Pr
                   "summary",
                   "details.what_happened"
                 ],
-                "contradicts": [
-                  "casualty_report"
-                ],
+                "contradicts": [],
                 "quoted_material": [
                   "Last 16 victims"
                 ],
@@ -2177,18 +2153,16 @@ These durable corrections supersede the corresponding original report claims. Pr
               },
               {
                 "id": "src-008-c",
-                "outlet": "SWI swissinfo.ch",
+                "outlet": "Keystone-SDA via SWI swissinfo.ch",
                 "url": "https://www.swissinfo.ch/eng/various/all-fatalities-in-crans-montana-vs-have-been-identified/90725361",
-                "publication_date": "2026-01-04",
+                "publication_date": "2026-01-05",
                 "source_type": "news_report",
                 "reliability_tier": "high",
                 "supports": [
                   "summary",
                   "key_data"
                 ],
-                "contradicts": [
-                  "casualty_report"
-                ],
+                "contradicts": [],
                 "quoted_material": [
                   "All 40 deceased victims"
                 ],
@@ -4177,7 +4151,8 @@ These durable corrections supersede the corresponding original report claims. Pr
     "verified_at": "2026-10-05",
     "evidence": [
       "https://www.abc.net.au/news/2026-01-04/sport-stars-call-for-federal-royal-commission/106197406",
-      "https://www.pm.gov.au/media/establishment-royal-commission-antisemitism-and-social-cohesion"
+      "https://www.pm.gov.au/media/establishment-royal-commission-antisemitism-and-social-cohesion",
+      "https://www.swissinfo.ch/eng/various/all-fatalities-in-crans-montana-vs-have-been-identified/90725361"
     ]
   }
 ]

@@ -92,7 +92,23 @@ A portal bullet with no deep-research coverage still becomes a full event, but:
 
 Reference: `evt-2026-01-01-017` (Parmelin) and `evt-2026-01-02-014..018`.
 
-## Conventions
+## Source assessment
+
+CBS News and its affiliates receive no assumed reliability in synthesis.
+Corroborate material claims through independent reporting or an appropriate
+primary record before treating them as established. For syndicated stories,
+identify the original wire and check its copy; multiple republications of one
+dispatch are one reporting source. Record inaccessible sources and unresolved
+claims explicitly. This policy does not presume every CBS claim false.
+Preserve historical reports, authored inputs and Wikipedia extraction as
+archival evidence; apply corrections through guarded synthesis overlays.
+
+Publisher review evidence belongs under
+`reference/reconciliation/publisher-review/`. Record the exact event hash,
+URLs, access limits, checked claims and remaining checks. An automated or
+partial publisher pass does not confer human-reviewed status.
+
+## Field conventions
 
 - **`importance` (1–10):** mass-casualty disasters, wars, and systemic
   economic/political shifts rank highest (8–10); routine accidents and
@@ -106,8 +122,11 @@ Reference: `evt-2026-01-01-017` (Parmelin) and `evt-2026-01-02-014..018`.
 - **`source_type`**: one of the schema enum
   (`news_report`, `official_release`, `encyclopedia`, `broadcast`, `ngo_report`,
   `advocacy_organization`, `specialist_publication`, `trade_publication`).
-- **`reliability_tier`**: `high` for major wires/official releases, `medium` for
-  local/specialist outlets, `low` if questionable.
+- **`reliability_tier`**: assess the cited article and its reporting basis.
+  Major wires and appropriate official records can warrant `high`; local or
+  specialist reporting may warrant `medium`; questionable support warrants
+  `low`. An outlet name alone does not establish reliability. Official
+  statements establish what an authority said, not necessarily disputed facts.
 - **Review state — three fields that must move together.** `status`, `reviewed`,
   and the `mode` suffix all encode the same thing, so set them as a unit
   (the validator enforces this):

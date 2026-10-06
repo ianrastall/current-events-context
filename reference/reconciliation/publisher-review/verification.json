@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-10-05",
+  "scope": "Follow-up synthesis policy and publisher review pass",
+  "unit_tests": {
+    "methods": 20,
+    "golden_fixtures": 16,
+    "passed": true
+  },
+  "validated_synthesis_files": 29,
+  "cross_process": {
+    "python_hash_seeds": [
+      1,
+      777
+    ],
+    "network_disabled": true,
+    "sha256": {
+      "2026-01-04": "ef90e7df044af13fdb10c6e8d7bde9e45ca8fabb77f0e181d6a8a3d219ae8823",
+      "2026-01-08": "8b5e7670431db80765018764e152fff4367b269b4cc8ae539d97a2a4df0fe9a8",
+      "2026-01-09": "3501973bd4b8b2070b8287572411eee253af8b341ac4d3881091b56aaac12513",
+      "2026-01-10": "d152e89b73f3bd40eaf0e52370e98d5d53b2116804696b88fa8ef7067fba195d",
+      "2026-01-11": "94b302bd48e3697597c04c444dd35d9d2c4663fb03392cbae3f6ef1bb948eb31",
+      "2026-01-15": "3b7e655ddc33f2aa6b024ab907cff7a9a1923c267c1fe760f33e54c3cf0fc998",
+      "2026-03-18": "38a869a1d977adb2ad96839d5e862e8a1d000cc47d070d925ce1f1516220ff39"
+    },
+    "matches_generated_bytes": true
+  },
+  "ledger_event_guards_checked": 22,
+  "active_cbs_synthesis_sources": [],
+  "immutable_source_paths_unchanged": true,
+  "event_ids_and_counts_unchanged": true,
+  "semantic_event_changes": {
+    "2026-01-04": [
+      "evt-2026-01-04-008"
+    ],
+    "2026-01-08": [
+      "evt-2026-01-08-006"
+    ],
+    "2026-01-09": [
+      "evt-2026-01-09-015"
+    ],
+    "2026-01-10": [
+      "evt-2026-01-10-003",
+      "evt-2026-01-10-004",
+      "evt-2026-01-10-006",
+      "evt-2026-01-10-007",
+      "evt-2026-01-10-008",
+      "evt-2026-01-10-009",
+      "evt-2026-01-10-010",
+      "evt-2026-01-10-011",
+      "evt-2026-01-10-012",
+      "evt-2026-01-10-013",
+      "evt-2026-01-10-014",
+      "evt-2026-01-10-015"
+    ],
+    "2026-01-11": [
+      "evt-2026-01-11-010"
+    ],
+    "2026-01-15": [
+      "evt-2026-01-15-002"
+    ],
+    "2026-03-18": [
+      "evt-2026-03-18-007"
+    ]
+  },
+  "machine_queue": {
+    "events": 118,
+    "flags": {
+      "LATER_PUBLICATION": 21,
+      "PORTAL_ONLY": 30
+    }
+  },
+  "not_repeated": [
+    "Full 8891-date extraction replay; extraction inputs and code unchanged"
+  ],
+  "remaining": [
+    "Full publisher and exact quotation review remains incomplete.",
+    "All corrected outputs remain draft; no human approval inferred.",
+    "Publisher pages can change; observations are dated checks, not cached replay inputs."
+  ]
+}

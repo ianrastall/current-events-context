@@ -11,6 +11,9 @@ Never infer a historical revision from a current page or another expansion.
 
 Verify factual claims, quotations, actual publication dates and URLs against
 original sources. Record conflicting reports and unknown values explicitly.
+CBS News and affiliates receive no assumed reliability: corroborate material
+claims independently or keep them uncertain. Check the original wire for
+syndicated articles; republications of one dispatch are not independent sources.
 Do not invent facts, URLs, dates, entities or review status. Fresh synthesis
 uses status:draft, reviewed:false, mode:llm_deep_research_broad_snapshot.
 Keep reviewed inputs reviewed only when replaying an unchanged authored input.
@@ -575,7 +578,7 @@ These durable corrections supersede the corresponding original report claims. Pr
     "report_sha256": "7fe9598ddba133dc1182a0ac825ed07476aa75d04f8bedd59df15f8b5efec5b5",
     "event_id": null,
     "event_sha256": "05705d66874fad97406a5f6933b9a133eb2e552c71c70a71b1bb29688098effc",
-    "reason": "AP dates the provisional-tally story January 16. Exclude those results and arrests from January 15; retain polling-day evidence.",
+    "reason": "AP dates the provisional-tally story January 16. Exclude those results and arrests from January 15; retain polling-day evidence. Independently corroborate claims formerly supported by CBS; remove unsupported specifics and preserve dated source disagreement.",
     "patch": {
       "events": [
         {
@@ -791,22 +794,22 @@ These durable corrections supersede the corresponding original report claims. Pr
               "label": "Units added",
               "value": "About 330,000 (model EFMIS121)",
               "citation_refs": [
-                4,
-                5
+                4
               ]
             },
             {
               "label": "Earlier recall",
               "value": "634,000 units",
               "citation_refs": [
-                5
+                31
               ]
             },
             {
               "label": "Combined total",
               "value": "About 964,000",
               "citation_refs": [
-                6
+                4,
+                31
               ]
             },
             {
@@ -825,11 +828,11 @@ These durable corrections supersede the corresponding original report claims. Pr
               "Owners were told to unplug the units, cut the power cords and register for a refund."
             ],
             "why_it_matters": [
-              "The expansion brings the recall across Frigidaire mini-fridge models to nearly one million units sold through a single retailer."
+              "The two notices cover about 964,000 units across different models and retailers; Target exclusivity applies to the added EFMIS121 units."
             ],
             "uncertainty_notes": [
-              "CBS dates the earlier 634,000-unit recall to July 2024; the portal says it was 'last year' (2025).",
-              "The report's figure of more than $700,000 in property damage across all models is attributed to CBS News without a quotation and is not recorded in key_data."
+              "The January 15 notice describes the prior recall as July 2024, but the prior notice it links is dated July 24, 2025. The source discrepancy remains explicit.",
+              "The prior notice covers 634,000 units sold through Walmart, Amazon and other retailers; its damage and injury reports do not describe newly reported EFMIS121 incidents."
             ]
           },
           "actors": {
@@ -920,24 +923,6 @@ These durable corrections supersede the corresponding original report claims. Pr
                 ]
               },
               {
-                "id": "src-002-b",
-                "outlet": "CBS News",
-                "url": "https://www.cbsnews.com/news/frigidaire-minifridge-recall-target-1-million/",
-                "publication_date": "2026-01-16",
-                "source_type": "news_report",
-                "reliability_tier": "high",
-                "supports": [
-                  "key_data"
-                ],
-                "contradicts": [],
-                "quoted_material": [
-                  "Curtis International, which manufactures and distributes electronic and appliances, is recalling 330,000 minifridges, adding to the 634,000 minifridges it recalled in July 2024"
-                ],
-                "citation_refs": [
-                  5
-                ]
-              },
-              {
                 "id": "src-002-c",
                 "outlet": "Fast Company",
                 "url": "https://www.fastcompany.com/91476527/frigidaire-recall-964000-minifridges-sold-at-target-pose-serious-risk",
@@ -954,6 +939,23 @@ These durable corrections supersede the corresponding original report claims. Pr
                 ],
                 "citation_refs": [
                   6
+                ]
+              },
+              {
+                "id": "src-002-prior",
+                "outlet": "U.S. Consumer Product Safety Commission",
+                "url": "https://www.cpsc.gov/Recalls/2025/Curtis-International-Recalls-Frigidaire-brand-Minifridges-Due-to-Fire-and-Burn-Hazards-More-Than-700-000-Reported-in-Property-Damage",
+                "publication_date": "2025-07-24",
+                "source_type": "official_release",
+                "reliability_tier": "high",
+                "supports": [
+                  "summary",
+                  "key_data"
+                ],
+                "contradicts": [],
+                "quoted_material": [],
+                "citation_refs": [
+                  31
                 ]
               }
             ]
@@ -3360,6 +3362,13 @@ These durable corrections supersede the corresponding original report claims. Pr
           "outlet": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_January_15",
           "accessed": "2026-01-15"
+        },
+        {
+          "id": 31,
+          "title": "Curtis International recalls Frigidaire-brand minifridges; more than $700,000 reported in property damage",
+          "outlet": "U.S. Consumer Product Safety Commission",
+          "url": "https://www.cpsc.gov/Recalls/2025/Curtis-International-Recalls-Frigidaire-brand-Minifridges-Due-to-Fire-and-Burn-Hazards-More-Than-700-000-Reported-in-Property-Damage",
+          "accessed": "2026-10-05"
         }
       ],
       "analytical_overview": "January 15, 2026 was a day of elections, disasters and follow-through on stories from earlier in the week. Ugandans voted for president and parliament under the internet shutdown imposed two days earlier, with President Yoweri Museveni seeking another term against Bobi Wine, and Maharashtra held municipal elections in 29 cities including Mumbai. In Thailand a second construction crane in two days fell onto a road, killing two people on Rama II Road near Bangkok; the transport minister said the same contractor was behind both accidents and the government moved against its contracts. Explosions and fire collapsed buildings in central Utrecht, injuring at least four, and floods in northern South Africa reached a toll of 19 dead and forced helicopter evacuations from Kruger National Park.\nIn security and diplomacy, U.S. forces seized another sanctioned tanker, the Guyanese-flagged Veronica, in the Caribbean. President Emmanuel Macron said France would send more forces to Greenland and join the Danish-organized exercise Arctic Endurance. Japan and the Philippines signed a military logistics pact, and Canadian Prime Minister Mark Carney began a visit to Beijing with an energy agreement. President Trump threatened to invoke the Insurrection Act over protests against immigration agents in Minneapolis. In Yemen, the prime minister resigned and was replaced by the foreign minister as the last UAE-backed member was removed from the Presidential Leadership Council. Singapore's prime minister formally removed Pritam Singh as Leader of the Opposition, the Crew-11 astronauts returned to Earth after the first medical evacuation from the ISS, and a Frigidaire mini-fridge recall was expanded by 330,000 units.\n",
@@ -3368,8 +3377,10 @@ These durable corrections supersede the corresponding original report claims. Pr
     "generating_model": "GPT-6 (Codex)",
     "verified_at": "2026-10-05",
     "evidence": [
+      "https://apnews.com/article/81719cda953ef03e365d7b6409d4ff8b",
       "https://apnews.com/article/8231b6ec57cf93cc67bcfd0ea4a46136",
-      "https://apnews.com/article/81719cda953ef03e365d7b6409d4ff8b"
+      "https://www.cpsc.gov/Recalls/2025/Curtis-International-Recalls-Frigidaire-brand-Minifridges-Due-to-Fire-and-Burn-Hazards-More-Than-700-000-Reported-in-Property-Damage",
+      "https://www.cpsc.gov/Recalls/2026/Curtis-International-Expands-Recall-of-Frigidaire-brand-Minifridges-Due-to-Fire-and-Burn-Hazards"
     ]
   }
 ]

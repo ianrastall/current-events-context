@@ -727,7 +727,7 @@ events:
     key_data:
       - label: "Internet status"
         value: "Nationwide blackout"
-        citation_refs: [14, 17]
+        citation_refs: [55]
       - label: "Injured police officers reported"
         value: "568"
         citation_refs: [53]
@@ -743,6 +743,7 @@ events:
         - "The shutdown signals an escalation in state control measures as protests spread."
       uncertainty_notes:
         - "The police death and injury figures come from Iranian official reporting relayed via the portal and were not independently verified."
+        - "The AP dispatch independently reports the Thursday-night communications outage; its accessible copy was updated January 9. Other police figures remain attributed, not independently confirmed."
     actors:
       primary:
         - "Government of Iran"
@@ -819,18 +820,6 @@ events:
           quoted_material:
             - "Iran is experiencing a nationwide internet blackout... amid escalating protests."
           citation_refs: [15]
-        - id: "src-006-c"
-          outlet: "CBS News (AP)"
-          url: "https://www.cbsnews.com/news/iran-cutting-internet-amid-deadly-protests/"
-          publication_date: "2026-01-08"
-          source_type: "news_report"
-          reliability_tier: "high"
-          supports:
-            - "details.what_happened"
-          contradicts: []
-          quoted_material:
-            - "Internet service in Iran cut off or restricted"
-          citation_refs: [16]
         - id: "src-006-d"
           outlet: "NetBlocks"
           url: "https://x.com/netblocks/status/2009313506726957230"
@@ -843,6 +832,19 @@ events:
           quoted_material:
             - "Confirmed... #Iran is now in the midst of a nationwide internet blackout."
           citation_refs: [17]
+        - id: "src-006-ap"
+          outlet: "Associated Press via CityNews Halifax"
+          url: "https://halifax.citynews.ca/2026/01/08/protests-in-iran-sparked-by-economic-woes-now-nationwide-activists-say/"
+          publication_date: "2026-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "key_data"
+            - "details.what_happened"
+          contradicts: []
+          quoted_material: []
+          citation_refs: [55]
     provenance:
       extracted_from_portal_bullet: true
       enriched_manually: true
@@ -3536,4 +3538,9 @@ works_cited:
     title: "Establishment of Royal Commission on Antisemitism and Social Cohesion"
     outlet: "Prime Minister of Australia"
     url: "https://www.pm.gov.au/media/establishment-royal-commission-antisemitism-and-social-cohesion"
+    accessed: "2026-10-05"
+  - id: 55
+    title: "Internet and phones cut in Iran as protesters heed exiled prince's call for mass demonstration"
+    outlet: "Associated Press via CityNews Halifax"
+    url: "https://halifax.citynews.ca/2026/01/08/protests-in-iran-sparked-by-economic-woes-now-nationwide-activists-say/"
     accessed: "2026-10-05"
