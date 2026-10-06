@@ -1,0 +1,35 @@
+{
+  "scope": "Available captured sources; historical gaps and public migration remain incomplete.",
+  "network_disabled": true,
+  "cache_unchanged_during_full_offline_run": true,
+  "unittest_methods_passed": 20,
+  "golden_fixture_cases": 16,
+  "validated_synthesis_documents": 29,
+  "verified_candidates": 8891,
+  "missing_historical_days": 152,
+  "legacy_emissions_by_structured_role": {
+    "event": 118570,
+    "topic": 52719,
+    "unknown": 623,
+    "category": 0,
+    "unmapped": 0
+  },
+  "event_items_recovered_from_legacy_omissions": 28,
+  "original_pinned_baselines_replayed_exactly": 8831,
+  "legacy_original_git_blobs_preserved": 58,
+  "verified_code_blobs": {
+    "seed/extract.py": "d030c0958a70aca8761253793379ae6297102560",
+    "seed/replay.py": "a9703533a2df5ea16b5b686b7854f6c11e70c191",
+    "seed/source.py": "bb45cb1a10c51df76868f6417c6c7a36fa7ae51b",
+    "seed/rendered.py": "c122b5f252db05eceef4ad7d7fed8ad7cbf9949f",
+    "reference/schema/extraction.schema.json": "9c02bcb02470f1ba8b51d50ff8dfff7751b33ac6",
+    "requirements.txt": "1f816997c1809e7972961c94243affb6cee9cb54"
+  },
+  "skipped": [
+    "Complete January publisher/factual review",
+    "Real historical monthly-source acquisition",
+    "Canonical extraction replacement",
+    "GitHub Actions execution",
+    "Publication/push"
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "counts": {
+    "AMBIGUOUS_ROLE": 637,
+    "DEPTH_JUMP": 26,
+    "INLINE_TEMPLATE": 4091,
+    "MALFORMED_MARKUP": 5,
+    "ORPHAN_CATEGORY": 3,
+    "ORPHAN_TOPIC": 5,
+    "UNSUPPORTED_CITATION": 2,
+    "UNSUPPORTED_CONTENT": 339
+  },
+  "samples": {
+    "AMBIGUOUS_ROLE": [
+      {
+        "code": "AMBIGUOUS_ROLE",
+        "date": "2002-04-21",
+        "source_page": "Portal:Current events/2002 April 21",
+        "revision_id": 1211681688,
+        "source_sha256": "f2267360191f766136db70c0839fb6c3a9d97ad9b66bfe2f969715fdb1a7628e",
+        "category": null,
+        "source_path": [
+          1
+        ],
+        "line": 3,
+        "raw": "*Extreme-right candidate [[Jean-Marie Le Pen]] qualifies for second round of [[French presidential election, 2002|French Presidential Elections]]. Right-wing incumbent [[Jacques Chirac]] places first. Socialist prime minister [[Lionel Jospin]] places third and announces his retirement from politics. Thousands take to the street all over France to protest against Le Pen.",
+        "interpretation": "unknown",
+        "message": "Uncited parent contains prose or unsupported label markup; child depth alone does not establish a topic role",
+        "resolution": null
+      },
+      {
+        "code": "AMBIGUOUS_ROLE",
+        "date": "2002-07-30",
+        "source_page": "Portal:Current events/2002 July 30",
+        "revision_id": 1174814563,
+        "source_sha256": "abe39281282b09a247e14550c1d0bc1589f66fad279967c62c27d07a22f2b620",
+        "category": null,
+        "source_path": [
+          3
+        ],
+        "line": 5,
+        "raw": "* [[2002 Glasgow floods]]",
+        "interpretation": "unknown",
+        "message": "Childless link-only bullet may be a topic or an event; requires an override",
+        "resolution": null
+      },
+      {
+        "code": "AMBIGUOUS_ROLE",
+        "date": "2002-09-22",
+        "source_page": "Portal:Current events/2002 September 22",
+        "revision_id": 1174814259,
+        "source_sha256": "edd4b297f5ed664566c03cbcc4a118e0df2198f94ab57602810da144291af213",
+        "category": null,
+        "source_path": [
+          2
+        ],
+        "line": 4,
+        "raw": "* A new [[Bundestag]] (German parliament) is chosen. In a very tight election, [[Gerhard Schröder]] defeats [[Edmund Stoiber]] to remain [[Chancellor of Germany (Federal Republic)|Chancellor]]. The [[German Green Party]] does very well. The coalition between the [[Social Democratic Party of Germany|SPD]] and the [[German Green Party]] continue with [[Joschka Fischer]] as vice chancellor.",
+        "interpretation": "unknown",
+        "message": "Uncited parent contains prose or unsupported label markup; child depth alone does not establish a topic role",
+        "resolution": null
+      },
+      {
+        "code": "AMBIGUOUS_ROLE",
+        "date": "2002-09-22",
+        "source_page": "Portal:Current events/2002 September 22",
+        "revision_id": 1174814259,
+        "source_sha256": "edd4b297f5ed664566c03cbcc4a118e0df2198f94ab57602810da144291af213",
+        "category": null,
+        "source_path": [
+          2,
+          1
+        ],
+        "line": 5,
+        "raw": "** [[Politics of Germany]], [[Bundestag]], [[List of political parties in Germany]] ([[Social Democratic Party of Germany|SPD]], [[Christian Democratic Union of Germany|CDU]]/[[Christian Social Union in Bavaria|CSU]], [[German Green Party|Greens]], [[Free Democratic Party of Germany|FDP]], [[The Left Party.PDS|PDS]])",
+        "interpretation": "unknown",
+        "message": "Childless link-only bullet may be a topic or an event; requires an override",
+        "resolution": null
+      },
+      {
+        "code": "AMBIGUOUS_ROLE",
+        "date": "2003-03-20",
+        "source_page": "Portal:Current events/2003 March 20",
+        "revision_id": 1343228697,
+        "source_sha256": "236fcf4c1d389eec1361fbb6efc3bdc6043a2482a713827caa7dbc70deff8314",
+        "category": null,
+        "source_path": [
+          5
+        ],
+        "line": 7,
+        "raw": "* [[March 20, 2003 anti-war protest]]",
+        "interpretation": "unknown",
+        "message": "Childless link-only bullet may be a topic or an event; requires an override",
+        "resolution": null
+      }
+    ],
+    "INLINE_TEMPLATE": [
+      {
+        "code": "INLINE_TEMPLATE",
+        "date": "2002-08-05",
+        "source_page": "Portal:Current events/2002 August 5",
+        "revision_id": 1174814554,
+        "source_sha256": "e29891fed93a5a9d55d7af849008b91d5803cfc9417fe06673f1f10ef620ee74",
+        "category": null,
+        "source_path": [
+          5
+        ],
+        "line": 7,
+        "raw": "* The gun turret of the {{USS|Monitor}} was raised from the sea bottom off the coast of [[North Carolina]], where it had lain since sinking in 1869.",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "INLINE_TEMPLATE",
+        "date": "2002-08-17",
+        "source_page": "Portal:Current events/2002 August 17",
+        "revision_id": 1174814528,
+        "source_sha256": "73fa6f69358e7d97f4e0b779bdc704bb48bffe38b5abff6cf2242c345e829308",
+        "category": null,
+        "source_path": [
+          1
+        ],
+        "line": 3,
+        "raw": "* [[Extreme weather]]: The [[Elbe]] crests at [[Dresden]] at the record height of {{convert|30.84|ft|m}}. 30,000 Germans are evacuated along the river's path.",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "INLINE_TEMPLATE",
+        "date": "2002-08-19",
+        "source_page": "Portal:Current events/2002 August 19",
+        "revision_id": 1174814485,
+        "source_sha256": "c39d809747acd64379326f250f98bd116fa9a5a91571dc1f4a3d43b905df1f42",
+        "category": null,
+        "source_path": [
+          3
+        ],
+        "line": 5,
+        "raw": "* [[Extreme weather]]: The flooding death toll in Europe reaches 109. The [[Danube]] peaks at [[Budapest]] at a record {{convert|28.3|ft|m}}, mostly contained by the walls along the river. [[Dessau]] is flooded. Overall damage in the Czech Republic is expected to cost {{Nowrap|$2.8 billion}}.",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "INLINE_TEMPLATE",
+        "date": "2002-10-09",
+        "source_page": "Portal:Current events/2002 October 9",
+        "revision_id": 1352728108,
+        "source_sha256": "f07a45ea2aed2dfb5bcf1758c3dd11470c91297bc361a80b2127f65a13d05863",
+        "category": "Business and economy",
+        "source_path": [
+          1
+        ],
+        "line": 4,
+        "raw": "* Public Interest group [[Harvardwatch]] released a [http://www.people.fas.harvard.edu/~skomarov/harvardwatch/harken_memo_full.pdf/ report]{{Dead link|date=August 2019 |bot=InternetArchiveBot |fix-attempted=yes }} on [[Harken Energy scandal|Harken's]] partnership with [[Harvard University]].",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "INLINE_TEMPLATE",
+        "date": "2002-12-30",
+        "source_page": "Portal:Current events/2002 December 30",
+        "revision_id": 1174813888,
+        "source_sha256": "099c9a0015eed55b07c0802fe1dfd547401d7bf23acebcbd95f631703c239606",
+        "category": null,
+        "source_path": [
+          4
+        ],
+        "line": 6,
+        "raw": "*A tanker, the ''Amazonian Explorer'', arrived in [[Puerto la Cruz]], [[Venezuela]], 200 kilometers east of [[Caracas]], the capital.  President [[Hugo Chávez]] traveled to the port to supervise the unloading of {{convert|525000|oilbbl|m3}} of gasoline.  Gasoline is restricted due to a strike at [[Petroleos de Venezuela SA]] (PdVSA), the state-owned oil company, which is aimed at forcing President Chávez to call early elections.",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      }
+    ],
+    "UNSUPPORTED_CITATION": [
+      {
+        "code": "UNSUPPORTED_CITATION",
+        "date": "2003-03-06",
+        "source_page": "Portal:Current events/2003 March 6",
+        "revision_id": 1335406613,
+        "source_sha256": "4873465553d73d739a2b112014af3e4624e725b32d4c283ad9e3c1dfbd5b20a1",
+        "category": null,
+        "source_path": [
+          3
+        ],
+        "line": 5,
+        "raw": "* ''New Scientist'' magazine reports a paper by Robert R. Caldwell, Marc Kamionkowski and Nevin N. Weinberg which puts forward the hypothesis that the [[end of the Universe]] may possibly occur as a \"[[Big Rip]]\", which will shred the physical structure of the Universe.<ref>{{cite journal|last1=Caldwell |first1=Robert R. |last2=Kamionkowski |first2=Marc |last3=Weinberg |first3=Nevin N. |title= Phantom Energy: Dark Energy with<math>w</math>Causes a Cosmic Doomsday|journal=Physical Review Letters |doi=10.1103/PhysRevLett.91.071301 |date=2003-02-25 |volume=91 |issue=7 |article-number=071301 |pmid=12935004 |arxiv=astro-ph/0302506 }}</ref>",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "UNSUPPORTED_CITATION",
+        "date": "2011-04-22",
+        "source_page": "Portal:Current events/2011 April 22",
+        "revision_id": 1275783939,
+        "source_sha256": "709cdaefd32aa060663a5a9ba6ff41bc0bec33d9e391aee9d0b6f42066ac058a",
+        "category": "Disasters",
+        "source_path": [
+          4
+        ],
+        "line": 26,
+        "raw": "*[[Tornado outbreak sequence of April 19–24, 2011|Tornado outbreak sequence of April 19-24, 2011:]]<ref>[[2011 St. Louis tornado]]</ref>{{Circular reference|date=February 2025}}",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      }
+    ],
+    "UNSUPPORTED_CONTENT": [
+      {
+        "code": "UNSUPPORTED_CONTENT",
+        "date": "2003-03-10",
+        "source_page": "Portal:Current events/2003 March 10",
+        "revision_id": 1305721826,
+        "source_sha256": "dd953a25b68681277f9124ea6eb902ed52c7f7cff55e27fab61f900c955cc188",
+        "category": null,
+        "source_path": null,
+        "line": 7,
+        "raw": "storyID=3200105&thesection=news&thesubsection=world</ref>",
+        "interpretation": null,
+        "message": "Unrecognized structural content retained in warning",
+        "resolution": null
+      },
+      {
+        "code": "UNSUPPORTED_CONTENT",
+        "date": "2003-07-28",
+        "source_page": "Portal:Current events/2003 July 28",
+        "revision_id": 1174813208,
+        "source_sha256": "8079192b3daba9833d522278ebb4f2a471e51af6d147956c415c44bb36c5f537",
+        "category": null,
+        "source_path": null,
+        "line": 4,
+        "raw": "Pirate of the Caribbean has come out",
+        "interpretation": null,
+        "message": "Unrecognized structural content retained in warning",
+        "resolution": null
+      },
+      {
+        "code": "UNSUPPORTED_CONTENT",
+        "date": "2005-01-08",
+        "source_page": "Portal:Current events/2005 January 8",
+        "revision_id": 1108351260,
+        "source_sha256": "62f8f8b3cbd806ba76eb396a4eadb6e97ea31ee93fc3ce732e3fa29955bf68b5",
+        "category": null,
+        "source_path": null,
+        "line": 1,
+        "raw": "<!-- All news items below this line -->{{Current events header|2005|01|08}}",
+        "interpretation": null,
+        "message": "Unrecognized structural content retained in warning",
+        "resolution": null
+      },
+      {
+        "code": "UNSUPPORTED_CONTENT",
+        "date": "2005-01-08",
+        "source_page": "Portal:Current events/2005 January 8",
+        "revision_id": 1108351260,
+        "source_sha256": "62f8f8b3cbd806ba76eb396a4eadb6e97ea31ee93fc3ce732e3fa29955bf68b5",
+        "category": null,
+        "source_path": null,
+        "line": 13,
+        "raw": "<!-- All news items above this line -->{{Current events footer}}",
+        "interpretation": null,
+        "message": "Unrecognized structural content retained in warning",
+        "resolution": null
+      },
+      {
+        "code": "UNSUPPORTED_CONTENT",
+        "date": "2005-04-27",
+        "source_page": "Portal:Current events/2005 April 27",
+        "revision_id": 1283661068,
+        "source_sha256": "036d1c4332611aaf5772ed176a3e2c1035dc9e52dadbc91b0852f40f68a4c3d1",
+        "category": null,
+        "source_path": null,
+        "line": 3,
+        "raw": "[[Image:Sandstorm in Al Asad, Iraq.jpg|thumb|200px|right|A sandstorm in Iraq on April 27, 2005]]",
+        "interpretation": null,
+        "message": "Unrecognized structural content retained in warning",
+        "resolution": null
+      }
+    ],
+    "ORPHAN_TOPIC": [
+      {
+        "code": "ORPHAN_TOPIC",
+        "date": "2004-03-11",
+        "source_page": "Portal:Current events/2004 March 11",
+        "revision_id": 1076722516,
+        "source_sha256": "f172d415d73f6f2d2fceda8795f5ceb2e4020a323b8b60de955da755ebf7c025",
+        "category": null,
+        "source_path": [
+          1
+        ],
+        "line": 3,
+        "raw": "* [[March 11, 2004 Madrid attacks]]: 10 bombs on [[Madrid]] [[commuter train]]s kill at least 190 people and wound more than 1247, the largest toll in any bombing in Europe (the 1988 [[Lockerbie bombing]] killed more but wounded fewer). [https://www.washingtonpost.com/wp-dyn/articles/A48577-2004Mar11.html (Washington Post)] {{Webarchive|url=https://web.archive.org/web/20121019201313/http://www.washingtonpost.com/wp-dyn/articles/A48577-2004Mar11.html |date=2012-10-19 }} [http://news.bbc.co.uk/2/hi/europe/3500452.stm (BBC)] [https://web.archive.org/web/20040314212011/http://www.lavanguardia.es/web/20040311/51152856332.html (La Vanguardia)] [http://www.cincodias.com/solotexto/articulo.html?xref=20040311cdscdspor_1&amp;anchor=cdscdspor&amp;type=Tes&amp;d_date=20040311 (CincoDías)] [https://web.archive.org/web/20081012034907/http://www.elsemanaldigital.com/articulos.asp?idarticulo=13735 (El Semanal)] [http://comunicacion.renfe.es/renfe/front/jsp/index.jsp?idsite=9837933386810 (Renfe)] [https://web.archive.org/web/20051130075233/http://www.lemonde.fr/web/article/0,1-0@2-3214,36-356247,0.html (Le Monde)] [http://www.cbc.ca/stories/2004/03/11/world/madrid_blasts040311 (CBC)] [https://www.reuters.com/newsArticle.jhtml?type=businessNews&storyID=4546463&section=news (Reuters)] {{Webarchive|url=https://archive.today/20130201131300/http://www.reuters.com/newsArticle.jhtml?type=businessNews&storyID=4546463&section=news |date=2013-02-01 }} [http://www.cnn.com/2004/WORLD/europe/03/11/spain.blasts/index.html (CNN)] Purported al-Qaida statement: [https://web.archive.org/web/20060821032346/http://english.aljazeera.net/NR/exeres/2CDD53D6-7AF7-40C7-AF88-32A16072F81B.htm (Al-Jazeera)]",
+        "interpretation": "topic",
+        "message": "Topic has no child; preserved",
+        "resolution": null
+      },
+      {
+        "code": "ORPHAN_TOPIC",
+        "date": "2005-10-13",
+        "source_page": "Portal:Current events/2005 October 13",
+        "revision_id": 1323285105,
+        "source_sha256": "464ede024fadacbbc3a7a513e562e9e5d49fc887fd4f973ade3135b8cb5871a3",
+        "category": null,
+        "source_path": [
+          5
+        ],
+        "line": 7,
+        "raw": "* Scores of suspected [[Chechens|Chechen]] [[separatism|separatist]] rebels [[2005 Nalchik raid|attack the southern]] [[Russia]]n city of [[Nalchik]] in a coordinated operation against Russian security forces, killing dozens of people. [http://news.bbc.co.uk/1/hi/world/europe/4337100.stm BBC]  85 killed and map: [https://www.washingtonpost.com/wp-dyn/content/article/2005/10/14/AR2005101400206.html (Washington Post)]",
+        "interpretation": "topic",
+        "message": "Topic has no child; preserved",
+        "resolution": null
+      },
+      {
+        "code": "ORPHAN_TOPIC",
+        "date": "2010-07-18",
+        "source_page": "Portal:Current events/2010 July 18",
+        "revision_id": 1131266841,
+        "source_sha256": "7132827032538a92d6842e9bbca05dba907b6329addd1c73b17047d9502a9e45",
+        "category": "Armed conflicts and attacks",
+        "source_path": [
+          1
+        ],
+        "line": 4,
+        "raw": "*[[War in Afghanistan (2001–2021)]]:",
+        "interpretation": "topic",
+        "message": "Topic has no child; preserved",
+        "resolution": null
+      },
+      {
+        "code": "ORPHAN_TOPIC",
+        "date": "2010-09-01",
+        "source_page": "Portal:Current events/2010 September 1",
+        "revision_id": 1287002282,
+        "source_sha256": "c3b0661dd09f2b122d72d9dee5b902e16f67042daf77732975378ed454b09748",
+        "category": "Television",
+        "source_path": [
+          1
+        ],
+        "line": 57,
+        "raw": "*Nuevos Canales en [[AT&T U-verse]]:",
+        "interpretation": "topic",
+        "message": "Topic has no child; preserved",
+        "resolution": null
+      },
+      {
+        "code": "ORPHAN_TOPIC",
+        "date": "2011-06-22",
+        "source_page": "Portal:Current events/2011 June 22",
+        "revision_id": 1358598911,
+        "source_sha256": "6130559395419fb82cf28e9d5aa37bea7223e7638bd14509d2d459244fcc3072",
+        "category": "Armed conflict and attacks",
+        "source_path": [
+          5
+        ],
+        "line": 10,
+        "raw": "*[[War in Afghanistan (2001–2021)]]:",
+        "interpretation": "topic",
+        "message": "Topic has no child; preserved",
+        "resolution": null
+      }
+    ],
+    "MALFORMED_MARKUP": [
+      {
+        "code": "MALFORMED_MARKUP",
+        "date": "2007-02-23",
+        "source_page": "Portal:Current events/2007 February 23",
+        "revision_id": 1219153345,
+        "source_sha256": "d8afdce6ac889bc4363d9655d3c0dd07fa7f2a851d738c6b750aadb55d186de0",
+        "category": null,
+        "source_path": [
+          9
+        ],
+        "line": 12,
+        "raw": "* [[Pakistan]] successfully tests a new version of its [[Shaheen-II]] missile]] capable of carrying [[nuclear warheads]]. [http://edition.cnn.com/2007/WORLD/asiapcf/02/23/pakistan.missile.ap/ (AP via CNN)]",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "MALFORMED_MARKUP",
+        "date": "2007-04-18",
+        "source_page": "Portal:Current events/2007 April 18",
+        "revision_id": 1344817850,
+        "source_sha256": "3e722fa509d25b26a875caa7dac3081bf4b5fa8c7f7030a36459c0e9c700e1ac",
+        "category": null,
+        "source_path": [
+          11
+        ],
+        "line": 18,
+        "raw": "* The [[People's Republic of China]] begins a new service of [[[[High-speed rail in China|high-speed rail]]",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "MALFORMED_MARKUP",
+        "date": "2012-10-12",
+        "source_page": "Portal:Current events/2012 October 12",
+        "revision_id": 1087335956,
+        "source_sha256": "0fa9e0199e8ae3515501174fdb29a666e9f818fce53c1749da5a4dfcf34d058a",
+        "category": "International relations",
+        "source_path": [
+          1
+        ],
+        "line": 14,
+        "raw": "*The [[European Union]] wins the [[2012 Nobel Peace Prize|2012]] [[Nobel Peace Prize]; \"for over six decades [having] contributed to the advancement of peace and reconciliation, democracy and human rights in Europe\". [https://www.telegraph.co.uk/news/worldnews/europe/eu/9603745/EU-awarded-Nobel-Peace-Prize.html (''The Telegraph'')]",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "MALFORMED_MARKUP",
+        "date": "2014-11-11",
+        "source_page": "Portal:Current events/2014 November 11",
+        "revision_id": 1301649812,
+        "source_sha256": "ad1b5e06e9ceb15ca689046687f1267c0f800378b76824e51a999859322a7952",
+        "category": "Health",
+        "source_path": [
+          1
+        ],
+        "line": 22,
+        "raw": "*Eleven women have died and at least twenty are in a critical condition after undergoing [[Sterilization (medicine)|sterilization]] surgery in [[Bilaspur district, Chhattisgarh|Bilaspur]], [[Chhattisgarh]], as part of India]]'s state-run mass sterilization campaign. [https://www.bbc.co.uk/news/world-asia-india-29999874 (BBC)]",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      },
+      {
+        "code": "MALFORMED_MARKUP",
+        "date": "2024-02-23",
+        "source_page": "Portal:Current events/2024 February 23",
+        "revision_id": 1279154633,
+        "source_sha256": "2b553b62e2a48e3bdb9ad6b8841546feeac257ea53aff0a41ca9b1c574f8378e",
+        "category": "Armed conflicts and attacks",
+        "source_path": [
+          4,
+          1
+        ],
+        "line": 11,
+        "raw": "**Two civilian paramedics and a Hezbollah militant killed in an Israeli strike on a Hezbollah-funded clinic in Blida]], [[southern Lebanon]].[https://www.barrons.com/news/hezbollah-says-2-paramedics-fighter-dead-in-israeli-strike-on-lebanon-632e6ec8 (Barrons)]",
+        "interpretation": "event",
+        "message": "Unknown or malformed markup retained verbatim",
+        "resolution": null
+      }
+    ],
+    "ORPHAN_CATEGORY": [
+      {
+        "code": "ORPHAN_CATEGORY",
+        "date": "2008-01-31",
+        "source_page": "Portal:Current events/2008 January 31",
+        "revision_id": 1311118676,
+        "source_sha256": "7e419623b57c920864dcb7dd9a5ea935ff1a509c88d4769d2a2d81cd148a2386",
+        "category": "NBA",
+        "source_path": null,
+        "line": 20,
+        "raw": ";NBA ",
+        "interpretation": null,
+        "message": "Category has no child; preserved",
+        "resolution": null
+      },
+      {
+        "code": "ORPHAN_CATEGORY",
+        "date": "2012-08-21",
+        "source_page": "Portal:Current events/2012 August 21",
+        "revision_id": 1265109675,
+        "source_sha256": "b685c90bc0a2704af1d0e9f07af4f7072e1698dfbbff36e39f4061fdc8e8676a",
+        "category": "Science",
+        "source_path": null,
+        "line": 31,
+        "raw": ";Science",
+        "interpretation": null,
+        "message": "Category has no child; preserved",
+        "resolution": null
+      },
+      {
+        "code": "ORPHAN_CATEGORY",
+        "date": "2022-11-02",
+        "source_page": "Portal:Current events/2022 November 2",
+        "revision_id": 1320454160,
+        "source_sha256": "510febeeddab66639510abdb6763eef745286c48a8deae736ef3a8d0abe7cea3",
+        "category": "Music and media",
+        "source_path": null,
+        "line": 38,
+        "raw": "'''Music and media'''",
+        "interpretation": null,
+        "message": "Category has no child; preserved",
+        "resolution": null
+      }
+    ],
+    "DEPTH_JUMP": [
+      {
+        "code": "DEPTH_JUMP",
+        "date": "2010-12-18",
+        "source_page": "Portal:Current events/2010 December 18",
+        "revision_id": 1139683639,
+        "source_sha256": "c9abb014f4c1eacecd2ff43df32344acd0b083ac4254732c70a2c674a32b1530",
+        "category": "Armed conflicts and attacks",
+        "source_path": [
+          1
+        ],
+        "line": 4,
+        "raw": "**[[War in Afghanistan (2001–2021)]]",
+        "interpretation": "unknown",
+        "message": "Missing intermediate list depth; actual depth retained",
+        "resolution": null
+      },
+      {
+        "code": "DEPTH_JUMP",
+        "date": "2011-05-28",
+        "source_page": "Portal:Current events/2011 May 28",
+        "revision_id": 1115476817,
+        "source_sha256": "7f0f98635cfd5015ef398788a26ee6a80ec2c4d2247fe310adc65cf0ba79e1db",
+        "category": "Sport",
+        "source_path": [
+          1
+        ],
+        "line": 22,
+        "raw": "**[[FC Barcelona]] wins the [[2010–11 UEFA Champions League|2010-11]] [[UEFA Champions League]] beating [[Manchester United F.C.]] 3-1 in the [[2011 UEFA Champions League Final]]. [https://web.archive.org/web/20110601193707/http://nbcsports.msnbc.com/id/43204662/ns/sports-soccer (AP via MSNBC)]",
+        "interpretation": "event",
+        "message": "Missing intermediate list depth; actual depth retained",
+        "resolution": null
+      },
+      {
+        "code": "DEPTH_JUMP",
+        "date": "2016-06-27",
+        "source_page": "Portal:Current events/2016 June 27",
+        "revision_id": 1076139209,
+        "source_sha256": "0f8a785a3dbcc414d817d3a08835bba0dab744028eb818d213595ac8489f485c",
+        "category": "Disasters and accidents",
+        "source_path": [
+          1
+        ],
+        "line": 19,
+        "raw": "**A [[Singapore Airlines]] [[Boeing 777-300ER]] en route to [[Milan]]'s [[Milan–Malpensa Airport|Malpensa Airport]] makes an emergency landing at [[Singapore]]'s [[Changi Airport]] after the pilots received an engine oil warning message, whereafter the plane's right engine caught fire. Singapore Changi Airport's [[aircraft rescue and firefighting]] services extinguished the fire and Singapore Airlines confirmed that all 222 passengers and 19 crew members evacuated safely. [http://edition.cnn.com/2016/06/27/asia/singapore-airlines-engine-fire/index.html (CNN)] [http://www.smh.com.au/business/aviation/singapore-airlines-boeing-in-flames-at-changi-after-turnback-from-milan-flight-20160627-gpsl5n.html (''The Sydney Morning Herald'')]",
+        "interpretation": "event",
+        "message": "Missing intermediate list depth; actual depth retained",
+        "resolution": null
+      },
+      {
+        "code": "DEPTH_JUMP",
+        "date": "2017-06-20",
+        "source_page": "Portal:Current events/2017 June 20",
+        "revision_id": 1303807075,
+        "source_sha256": "6d34a6e031674924dd9acaa522eda439d394a9a6f57b2dc5771a3be4d74d6166",
+        "category": "Disasters and accidents",
+        "source_path": [
+          1
+        ],
+        "line": 21,
+        "raw": "**A [[heat wave]] strikes the [[Western United States|Western U.S.]] states of [[Arizona]], [[California]], and [[Nevada]]. It is predicted to last until June 23. [http://www.cnn.com/2017/06/20/us/weather-west-heat-wave/index.html (CNN)]",
+        "interpretation": "event",
+        "message": "Missing intermediate list depth; actual depth retained",
+        "resolution": null
+      },
+      {
+        "code": "DEPTH_JUMP",
+        "date": "2017-06-21",
+        "source_page": "Portal:Current events/2017 June 21",
+        "revision_id": 1090363670,
+        "source_sha256": "ee9dfcd0807746c1f84ef3a27634e00978021fe12854c22b039595fed36314c2",
+        "category": "Disasters and accidents",
+        "source_path": [
+          1
+        ],
+        "line": 18,
+        "raw": "** The United Kingdom experiences its first early summer heat wave in over 20 years, and the highest recorded June temperatures in over 40 years with a reading of 34.5C (94F) recorded at [[Heathrow Airport]]. [https://www.bbc.com/news/uk-40353118 (BBC)]",
+        "interpretation": "event",
+        "message": "Missing intermediate list depth; actual depth retained",
+        "resolution": null
+      }
+    ]
+  }
+}

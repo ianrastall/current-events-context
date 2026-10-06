@@ -1,3 +1,5 @@
+Latest status: see the October 5, 2026 repair pass at the end of this file. Earlier inspection findings are retained as history.
+
 # HANDOFF: Wikipedia extraction and seed-schema rewrite
 
 Latest inspection: see **Repository and January research inspection
@@ -880,3 +882,156 @@ Recommended order:
 
 The immediate next unresearched date is **2026-01-16**. The immediate
 repository task is **baseline reconciliation**, not a fresh bulk regeneration.
+
+## October 5, 2026 repair pass
+
+Engineering repairs and confirmed synthesis corrections are implemented on
+`codex/repository-repairs`. This branch is local and has not been pushed.
+The extraction migration remains a candidate migration: unknown roles,
+source-change reconciliation, historical gaps, and the public layout/schema
+replacement gate remain open. Full publisher review is also incomplete.
+Earlier audit sections above are retained as historical findings.
+
+### Changes and files
+
+- Preserved the older local corpus and research at
+  `codex/checkpoint-before-repairs` (`4d198b05`), then reconciled the published
+  history without discarding pinned local seeds. Published January 1-15
+  synthesis is preserved as immutable authored inputs under
+  `reference/expansion/authored/` and replayed under `expanded/`.
+- Fixed explicit report selection in `reference/expansion/inputs.json` and
+  its builder: January 10-12 select their replacement `b.md` reports.
+  Guarded synthesis overlays and legacy repairs reject source drift.
+  All 29 synthesis files reproduce from their registered inputs.
+- Aligned the conversion/review prompts, `generate_prompts.py`, all 15 January
+  Copilot prompts, and authoring documentation with schema 2.2 and separate
+  synthesis paths. Generated prompts use portable repository-relative paths
+  and include durable corrections that supersede original report claims.
+- Added pinned direct dependencies in `requirements.txt`, mandatory schema
+  validation, complete batch validation, cited-URL/bibliography checks,
+  cross-day related-event checks, and `.github/workflows/verify.yaml`.
+  Daily/range Git workflows include each acquisition's exact input,
+  metadata, pointer, structured artifact and warnings.
+- Added immutable source storage and offline replay in `seed/source.py`,
+  `seed/replay.py`, `seed/extract.py`, `seed/rendered.py`, and CLI wiring.
+  `reference/schema/extraction.schema.json` and `EXTRACTION_MIGRATION.md`
+  define candidate extraction-1.0, ordering/null semantics, serialization,
+  enrichment preservation and the replacement gate. Headings and entries
+  retain raw text, structured links and citations. Unknown structures warn.
+- Cached 8891 exact Wikipedia inputs under
+  `reference/sources/wikipedia/`. Existing recorded oldids remain pinned.
+  For the 58 unpinned August 7-October 4 daily files, the selected policy
+  captures current revisions as new inputs. Their original published Git
+  blobs are unchanged; their original capture revisions remain unknown.
+  `unpinned-source-plan.json` and `current-captures-report.json` record this.
+- Filled November 18, 2014 and September 22, 2026 from explicitly new current
+  captures, without GDELT. The former contains colon-indented lists that the
+  old collector missed. Existing daily files were not bulk-regenerated.
+- Repaired confirmed January chronology and bibliography problems through
+  `reference/expansion/authored-overlays/`, then regenerated January 1, 4,
+  8-10, 12 and 15. Corrections distinguish the commission appeal,
+  announcement and formal establishment; January 9 oil-policy actions;
+  later Aleppo withdrawal; and later Uganda counting. Unsupported homepage
+  citation claims are cleared. Changed snapshots remain draft.
+- Regenerated March 10-11 as schema-2.2 drafts and made the March 18 YAML
+  repair durable. March citation pointer repairs also regenerate.
+  Original reports, authored snapshots and cached inputs remain preserved.
+- Added `tests/`, per-date corpus reconciliation, warning/unknown queues,
+  nine era spot checks and cross-process verification artifacts under
+  `reference/reconciliation/`. Reproducible candidates remain locally under
+  `provisional/extraction-v1/`, separate from canonical output.
+
+### Commands and verification actually run
+
+- `python -m unittest discover -s tests -v`: 20 methods passed, including
+  16 golden fixture cases, hierarchy/parent/order checks, citation hazards,
+  guarded drift rejection, immutable cache checks, GDELT carry-through,
+  offline replay, complete validator behavior and prompt contract checks.
+  Early implementation/test failures were repaired before this final pass.
+- `python -m seed cache 2002-01-01 2026-10-04 --skip-unpinned` acquired the
+  existing recorded revisions, using explicit oldid batches. The initial
+  acquisition report remains preserved. The two missing-date captures used
+  the collection path with GDELT disabled.
+- `python -m seed cache 2026-08-07 2026-10-04 --capture-unpinned` captured
+  the selected 58 current revisions without changing those daily outputs.
+  A Git-blob comparison verified all 58 original files were preserved.
+- `reparse 2002-01-01 2026-10-04 --cached-only --verify --output-root
+  provisional/extraction-v1`, invoked with both socket connections and
+  `requests.Session.request` disabled: 8891 candidates
+  verified, 152 missing dates explicitly reported.
+  Every input was parsed twice; serialized bytes and canonical YAML round
+  trips matched. Ordering and parent checks passed. All cache file hashes
+  matched before and after the complete run. Preliminary runs were stopped
+  to repair heading metadata and uncited-parent role classification; only the
+  final run supplies these totals.
+- Independent source-location coverage accounted for all
+  175,996 relevant bullets. The candidates contain
+  118,598 events (118,459 leaves,
+  139 event containers), 56,539 topics, and
+  637 unknown entries. Every legacy emission maps to a retained
+  source location; none is unmapped. `extraction-report.json` explains count
+  deltas per date, including role promotions and omitted-depth recovery.
+- All 8,831 original pinned baselines equal legacy replay. The 60 baseline
+  mismatches are exactly the 58 new current-source captures and the two
+  newly filled dates. New-source differences still need semantic review
+  before canonical replacement; they are not all parser regressions.
+- All 29 synthesis files passed schema, bibliography and related-event
+  validation. Regeneration matched their parsed content. After the final
+  Aleppo overlay, its file was regenerated and validated again.
+- Separate processes using Python hash seeds 1 and 777 produced identical
+  bytes for 29 synthesis documents and all 16 fixtures. The changed January
+  10 output was rechecked after its last correction.
+- AST checks passed for collection, synthesis, generator, test and
+  reconciliation code. Workflow YAML and two embedded Python scripts
+  parsed successfully. `git diff --check` passed for staged repair changes.
+  GitHub Actions itself was not run. No lint/format command is configured.
+- `python reference/reconciliation/summarize.py provisional/extraction-v1`
+  generated the final report summary and queues. Real daily-page era spot
+  checks cover flat, listed-category, semicolon, colon and bold formats;
+  monthly rendered handling has a fixture, not a real historical capture.
+
+### Source/network access and warnings
+
+GitHub connector reads and `git fetch` supplied the published baseline.
+Wikipedia acquisition used exact recorded oldids, the two newly filled
+current-source dates, and the 58 explicitly selected current captures.
+Publisher/government web reads verified focused synthesis corrections;
+`publisher-spot-checks.json` records additional checks and access limits.
+No GDELT query was performed. All parser tests and final corpus replay were
+offline; no cached payload was edited.
+
+The final parser emits 5,108 warning records: {"AMBIGUOUS_ROLE": 637, "DEPTH_JUMP": 26, "INLINE_TEMPLATE": 4091, "MALFORMED_MARKUP": 5, "ORPHAN_CATEGORY": 3, "ORPHAN_TOPIC": 5, "UNSUPPORTED_CITATION": 2, "UNSUPPORTED_CONTENT": 339}.
+These expose formerly silent unsupported content rather than remove it.
+`unresolved-roles.json` holds 655 warning records associated with 637 unknown
+entries. Uncited prose parents are not assumed to be topic headers. Hidden
+comments and citation annotations do not alter visible linked-header roles.
+Source spelling/errors remain untouched. Orphan headings remain present and
+warned about. General rules or guarded overrides must resolve interpretations;
+no flat output was hand-edited to hide warnings.
+
+### Remaining risks and next work
+
+1. Finish the original-publisher review of January 10-15. The machine queue
+   covers 118 events, including 35 portal-only entries and 18 later-publication
+   flags. These are review leads, not proof that each flagged event is wrong.
+   Quotations are matched to selected reports, not fully verified against
+   publishers. Al Jazeera's liveblog body was unavailable in the focused
+   check. No daily review status was promoted by this pass.
+2. Re-review changed earlier January drafts. Only unchanged January 2-3 and
+   5-7 retain their published reviewed status. January 1, 4, 8-9 and 10-15
+   remain draft. January 16 is the next unresearched date; continue through
+   January 31 before building a model-attributed monthly summary.
+3. Resolve unknown extraction roles and material warnings, inspect source
+   differences for the 58 new captures, and approve the exact public
+   layout/schema and replacement range before replacing canonical output.
+   Side-by-side generation and pinned-source mapping are complete for the
+   available corpus, but this is not approval of public replacement.
+4. The remaining 152 missing dates are 142 in 2002 and 10 in 2003. Their
+   historical monthly-source acquisition/interpretation is a separate gap;
+   the selected 58-date current-source policy does not settle it. Prefer
+   pinned raw monthly input where possible and document any rendered-only
+   provenance policy before historical backfill.
+5. Live GDELT queries remain non-reproducible unless their complete inputs
+   are cached. The artlist/theme limitation is unchanged and outside this
+   Wikipedia migration. No push, PR publication or deployment was performed.
+
