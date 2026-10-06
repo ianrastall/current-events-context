@@ -24,7 +24,9 @@ and do not have the reproducibility guarantees of raw wikitext. Unknown
 red-link state remains null. Link targets are preserved as written.
 
 Categories have a name (null before any category) and ordered entries in
-source preorder. Entries contain a role (`topic`, `event`, `unknown`), actual
+source preorder. Category headings also preserve structured links and citations,
+and unsupported heading markup produces a warning. Entries contain a role
+(`topic`, `event`, `unknown`), actual
 depth, original list marker (`*`/`:` or their sequence), source list path, parent path (null for root), original line/raw
 fragment, rendered text, structured wikilinks and external citations.
 Container entries remain distinct from event leaves. Empty headers remain

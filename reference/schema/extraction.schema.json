@@ -207,11 +207,19 @@
           },
           "raw": {
             "type": "string"
+          },
+          "links": {
+            "$ref": "#/properties/categories/items/properties/entries/items/properties/links"
+          },
+          "citations": {
+            "$ref": "#/properties/categories/items/properties/entries/items/properties/citations"
           }
         },
         "required": [
           "name",
-          "entries"
+          "entries",
+          "links",
+          "citations"
         ]
       }
     },

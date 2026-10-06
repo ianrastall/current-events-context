@@ -1,0 +1,121 @@
+{
+  "scope": "Manual raw-source and structured-output spot checks; real daily-page sources. Monthly rendered coverage uses a fixture only, not a real historical acquisition.",
+  "dates": [
+    {
+      "date": "2002-01-01",
+      "source": {
+        "page": "Portal:Current events/2002 January 1",
+        "revision_id": 1284116182,
+        "revision_timestamp": "2025-04-05T17:34:12Z",
+        "source_mode": "wikitext",
+        "source_sha256": "8c2a794ef2894a3b90b257946cc633c1b1666cf529c6a09848c4d87e4e3c06d1"
+      },
+      "checked": "Early flat list: one parentless euro event, with raw wikilinks retained.",
+      "warnings": []
+    },
+    {
+      "date": "2003-03-20",
+      "source": {
+        "page": "Portal:Current events/2003 March 20",
+        "revision_id": 1343228697,
+        "revision_timestamp": "2026-03-13T02:19:29Z",
+        "source_mode": "wikitext",
+        "source_sha256": "236fcf4c1d389eec1361fbb6efc3bdc6043a2482a713827caa7dbc70deff8314"
+      },
+      "checked": "Early flat list with adjacent citation templates; the childless protest link remains explicitly unknown.",
+      "warnings": [
+        "AMBIGUOUS_ROLE"
+      ]
+    },
+    {
+      "date": "2003-11-07",
+      "source": {
+        "page": "Portal:Current events/2003 November 7",
+        "revision_id": 1076732297,
+        "revision_timestamp": "2022-03-12T17:06:56Z",
+        "source_mode": "wikitext",
+        "source_sha256": "b6aa8b5ee8b59ecf9ffe1fa0999f3c9fef95c74b91ab5920bb2e945605fa7663"
+      },
+      "checked": "Historical listed category: original depth-two event roots and category wikilinks retained.",
+      "warnings": []
+    },
+    {
+      "date": "2005-01-01",
+      "source": {
+        "page": "Portal:Current events/2005 January 1",
+        "revision_id": 1076639942,
+        "revision_timestamp": "2022-03-12T05:13:05Z",
+        "source_mode": "wikitext",
+        "source_sha256": "f3039a16e9849f5bf742cbd2dfb7b2b9bca7fe37d53902ecce0302269ce8ca0f"
+      },
+      "checked": "Semicolon categories: Israeli-Palestinian topic and its child events remain nested.",
+      "warnings": []
+    },
+    {
+      "date": "2010-01-01",
+      "source": {
+        "page": "Portal:Current events/2010 January 1",
+        "revision_id": 1359660400,
+        "revision_timestamp": "2026-06-16T13:35:26Z",
+        "source_mode": "wikitext",
+        "source_sha256": "5befc07e3069234be6c0c5ad9d78c99bbb6082beed0c8831fe41755ea76073a6"
+      },
+      "checked": "Semicolon categories with standalone parentless events and multiple adjacent publisher citations.",
+      "warnings": [
+        "INLINE_TEMPLATE"
+      ]
+    },
+    {
+      "date": "2014-11-18",
+      "source": {
+        "page": "Portal:Current events/2014 November 18",
+        "revision_id": 1116052967,
+        "revision_timestamp": "2022-10-14T15:12:56Z",
+        "source_mode": "wikitext",
+        "source_sha256": "546814a8ad01a1acfd47a3387c0b32151d3922b5ce510f7b6ae6ced6dccac26d"
+      },
+      "checked": "Colon-indented lists: topic/event hierarchy preserved; 15 events recovered from a source the old collector treated as empty.",
+      "warnings": []
+    },
+    {
+      "date": "2015-01-01",
+      "source": {
+        "page": "Portal:Current events/2015 January 1",
+        "revision_id": 1099713482,
+        "revision_timestamp": "2022-07-22T06:27:36Z",
+        "source_mode": "wikitext",
+        "source_sha256": "05fa8b9d848dc1cde75e9e4063dc5f1a9d99cc9dae6e2dc449833a27ea57996f"
+      },
+      "checked": "Semicolon categories: nested topic followed by a standalone sibling; AFP via Business Standard remains a structured citation.",
+      "warnings": []
+    },
+    {
+      "date": "2026-01-06",
+      "source": {
+        "page": "Portal:Current events/2026 January 6",
+        "revision_id": 1338974083,
+        "revision_timestamp": "2026-02-18T07:30:06Z",
+        "source_mode": "wikitext",
+        "source_sha256": "c7af8fb2d9a7e3bf2bf55350afccc0105c000f4fe173a8a14be0368a99beaecf"
+      },
+      "checked": "Modern bold categories: three-level Nigeria hierarchy and standalone events remain distinct.",
+      "warnings": []
+    },
+    {
+      "date": "2026-08-07",
+      "source": {
+        "page": "Portal:Current events/2026 August 7",
+        "revision_id": 1370511106,
+        "revision_timestamp": "2026-08-21T15:05:13Z",
+        "source_mode": "wikitext",
+        "source_sha256": "9c95d4f85dc239bd7804719ad0b851a1868feceff77b614b31a7c520a7bdcb4a"
+      },
+      "checked": "Explicit new current capture: five-level hierarchy retained; differences from legacy output may include revision changes.",
+      "warnings": [
+        "UNSUPPORTED_CONTENT",
+        "UNSUPPORTED_CONTENT",
+        "INLINE_TEMPLATE"
+      ]
+    }
+  ]
+}

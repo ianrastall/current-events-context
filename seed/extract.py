@@ -142,7 +142,7 @@ def extract(raw, *, date, source, overrides=None):
         groups = parse_day(raw, date)
         warn("RENDERED_SOURCE", "Rendered HTML preserves this acquisition; it is not raw-wikitext extraction")
         for group in groups:
-            category = {"name": None, "entries": group}
+            category = {"name": None, "links": [], "citations": [], "entries": group}
             doc["categories"].append(category)
             for entry in group:
                 if entry.pop("_malformed", False):
@@ -166,7 +166,11 @@ def extract(raw, *, date, source, overrides=None):
         cat = re.fullmatch(r"(?:;\s*(.+)|'''(.+?)'''|==+\s*(.+?)\s*==+)", stripped)
         if cat:
             name = next(g for g in cat.groups() if g is not None)
-            current = {"name": fragment(name)[0].rstrip(":"), "entries": [], "line": lineno, "raw": line}
+            text, links, cites, unknown = fragment(name)
+            current = {"name": text.rstrip(":"), "links": links, "citations": cites,
+                       "entries": [], "line": lineno, "raw": line}
+            for code, raw_fragment in unknown:
+                warn(code, "Unrecognized category markup retained", category=current["name"], raw=raw_fragment, line=lineno)
             tokens.append(("category", current))
             continue
         bullet = re.match(r"^\s*([*:]+)\s*(.*)$", line)
@@ -200,12 +204,15 @@ def extract(raw, *, date, source, overrides=None):
         # an explicit section. Elsewhere colon lines remain topic headers.
         bullet_category_mode = current is None or current.get("raw", "").lstrip().startswith(("*", ":"))
         if bullet_category_mode and entry["depth"] == 1 and entry["text"].endswith(":") and children:
-            current = {"name": entry["text"][:-1], "entries": [], "line": entry["line"], "raw": entry["raw"]}
+            current = {"name": entry["text"][:-1], "links": entry["links"], "citations": entry["citations"],
+                       "entries": [], "line": entry["line"], "raw": entry["raw"]}
+            for code, raw_fragment in unknown:
+                warn(code, "Unrecognized category markup retained", category=current["name"], raw=raw_fragment, line=entry["line"])
             doc["categories"].append(current)
             stack, counters = [], {}
             continue
         if current is None:
-            current = {"name": None, "entries": []}
+            current = {"name": None, "links": [], "citations": [], "entries": []}
             doc["categories"].append(current)
         while stack and stack[-1]["depth"] >= entry["depth"]:
             stack.pop()
@@ -277,6 +284,6 @@ def legacy_view(doc):
 
 
 def canonical(doc):
-    return [{"category": c["name"], "raw": c.get("raw"), "entries": [
+    return [{"category": c["name"], "raw": c.get("raw"), "links": c["links"], "citations": c["citations"], "entries": [
         dict({k: e[k] for k in ("role", "depth", "source_path", "parent_path", "raw", "links", "citations")}, list_marker=e.get("list_marker"))
         for e in c["entries"]]} for c in doc["categories"]]

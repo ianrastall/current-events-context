@@ -8,9 +8,12 @@ source_page:
   source_sha256: 74fee1601280265ce0783b5370fed70bf6d0004439af1c284660424989bb2a40
 categories:
 - name: Armed conflicts and attacks
+  links: []
+  citations: []
   entries:
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 1
     parent_path: null
@@ -25,6 +28,7 @@ categories:
     citations: []
   - role: topic
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 1
@@ -41,6 +45,7 @@ categories:
     citations: []
   - role: event
     depth: 3
+    list_marker: '***'
     source_path:
     - 1
     - 1
@@ -77,6 +82,7 @@ categories:
       raw: '[https://www.bbc.com/news/articles/cry8zwwq21pxo (BBC News)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 2
     parent_path: null
@@ -91,6 +97,7 @@ categories:
     citations: []
   - role: topic
     depth: 2
+    list_marker: '**'
     source_path:
     - 2
     - 1
@@ -107,6 +114,7 @@ categories:
     citations: []
   - role: topic
     depth: 3
+    list_marker: '***'
     source_path:
     - 2
     - 1
@@ -125,6 +133,7 @@ categories:
     citations: []
   - role: event
     depth: 4
+    list_marker: '****'
     source_path:
     - 2
     - 1
@@ -163,6 +172,7 @@ categories:
       raw: '[https://www.channelnewsasia.com/world/houthis-saudi-arabia-strike-yemen-key-port-city-6402761 (AFP via CNA)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 3
     parent_path: null
@@ -177,6 +187,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 3
     - 1
@@ -220,9 +231,12 @@ categories:
   line: 3
   raw: '''''''Armed conflicts and attacks'''''''
 - name: Arts and culture
+  links: []
+  citations: []
   entries:
   - role: event
     depth: 1
+    list_marker: '*'
     source_path:
     - 1
     parent_path: null
@@ -264,9 +278,12 @@ categories:
   line: 14
   raw: '''''''Arts and culture'''''''
 - name: Disasters and accidents
+  links: []
+  citations: []
   entries:
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 1
     parent_path: null
@@ -281,6 +298,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 1
@@ -315,6 +333,7 @@ categories:
       raw: '[https://www.independent.co.uk/weather/hurricane-polo-mexico-category-5-b3054471.html (''''The Independent'''')]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 2
     parent_path: null
@@ -329,6 +348,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 2
     - 1
@@ -363,6 +383,7 @@ categories:
       raw: '[https://www.taipeitimes.com/News/front/archives/2026/09/23/2003864735 (AFP via ''''Taipei Times'''')]'
   - role: event
     depth: 1
+    list_marker: '*'
     source_path:
     - 3
     parent_path: null
@@ -404,9 +425,12 @@ categories:
   line: 17
   raw: '''''''Disasters and accidents'''''''
 - name: Health and environment
+  links: []
+  citations: []
   entries:
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 1
     parent_path: null
@@ -421,6 +445,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 1
@@ -455,6 +480,7 @@ categories:
       raw: '[https://www.accuweather.com/en/hurricane/atlantic-goes-without-a-hurricane-through-sept-21-breaking-112-year-record/1932278 (AccuWeather)]'
   - role: event
     depth: 1
+    list_marker: '*'
     source_path: &id001
     - 2
     parent_path: null
@@ -496,9 +522,12 @@ categories:
   line: 24
   raw: '''''''Health and environment'''''''
 - name: International relations
+  links: []
+  citations: []
   entries:
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 1
     parent_path: null
@@ -513,6 +542,7 @@ categories:
     citations: []
   - role: topic
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 1
@@ -529,6 +559,7 @@ categories:
     citations: []
   - role: topic
     depth: 3
+    list_marker: '***'
     source_path:
     - 1
     - 1
@@ -547,6 +578,7 @@ categories:
     citations: []
   - role: event
     depth: 4
+    list_marker: '****'
     source_path:
     - 1
     - 1
@@ -625,6 +657,7 @@ categories:
       raw: '[https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us (''''The Guardian'''')]'
   - role: topic
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 2
@@ -641,6 +674,7 @@ categories:
     citations: []
   - role: event
     depth: 3
+    list_marker: '***'
     source_path:
     - 1
     - 2
@@ -689,6 +723,7 @@ categories:
       raw: '[https://www.afp.com/en/us-refuses-give-sudans-de-facto-leader-visa-un (AFP)]'
   - role: topic
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 3
@@ -705,6 +740,7 @@ categories:
     citations: []
   - role: event
     depth: 3
+    list_marker: '***'
     source_path:
     - 1
     - 3
@@ -753,6 +789,7 @@ categories:
       raw: '[https://www.france24.com/en/live-news/20260923-trump-met-with-venezuela-s-interim-leader-at-un (AFP via France 24)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 2
     parent_path: null
@@ -767,6 +804,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 2
     - 1
@@ -797,6 +835,7 @@ categories:
       raw: '[https://www.trend.az/casia/turkmenistan/4226595.html (Trend News Agency)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 3
     parent_path: null
@@ -811,6 +850,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 3
     - 1
@@ -853,6 +893,7 @@ categories:
       raw: '[https://www.reuters.com/world/africa/belgium-rwanda-resume-diplomatic-relations-after-drc-conflict-dispute-2026-09-22/ (Reuters)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 4
     parent_path: null
@@ -867,6 +908,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 4
     - 1
@@ -920,9 +962,12 @@ categories:
   line: 29
   raw: '''''''International relations'''''''
 - name: Law and crime
+  links: []
+  citations: []
   entries:
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 1
     parent_path: null
@@ -937,6 +982,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 1
@@ -967,6 +1013,7 @@ categories:
       raw: '[https://www.bbc.com/news/articles/crgjqxzl097eo (BBC News)]'
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 1
     - 2
@@ -997,6 +1044,7 @@ categories:
       raw: '[https://www.capetownetc.com/news/three-killed-in-gugulethu-shooting-at-ktc/ (Cape Town ETC)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 2
     parent_path: null
@@ -1011,6 +1059,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 2
     - 1
@@ -1041,6 +1090,7 @@ categories:
       raw: '[https://www.aljazeera.com/amp/news/2026/9/22/sri-lanka-court-convicts-14-over-deadly-easter-bombings (Al Jazeera)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 3
     parent_path: null
@@ -1055,6 +1105,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 3
     - 1
@@ -1089,6 +1140,7 @@ categories:
       raw: '[https://www.aljazeera.com/news/2026/9/22/gunman-wounds-eight-in-shooting-near-high-school-in-western-turkiye (Al Jazeera)]'
   - role: topic
     depth: 1
+    list_marker: '*'
     source_path:
     - 4
     parent_path: null
@@ -1103,6 +1155,7 @@ categories:
     citations: []
   - role: event
     depth: 2
+    list_marker: '**'
     source_path:
     - 4
     - 1
@@ -1149,6 +1202,7 @@ categories:
       raw: '[https://www.straitstimes.com/world/papua-new-guinea-police-bust-human-trafficking-ring-rescue-39-indonesians (AFP via ''''The Straits Times'''')]'
   - role: event
     depth: 1
+    list_marker: '*'
     source_path:
     - 5
     parent_path: null
@@ -1199,6 +1253,7 @@ categories:
       raw: '[https://www.cbsnews.com/losangeles/news/six-flags-x2-roller-coaster-lawsuit/ (CBS Los Angeles)]'
   - role: event
     depth: 1
+    list_marker: '*'
     source_path:
     - 6
     parent_path: null
@@ -1231,6 +1286,7 @@ categories:
       raw: '[https://www.reuters.com/world/shinyhunters-hackers-say-they-breached-federal-bureau-investigation-no-immediate-2026-09-22/ (Reuters)]'
   - role: event
     depth: 1
+    list_marker: '*'
     source_path:
     - 7
     parent_path: null
@@ -1264,9 +1320,12 @@ categories:
   line: 45
   raw: '''''''Law and crime'''''''
 - name: Science and technology
+  links: []
+  citations: []
   entries:
   - role: event
     depth: 1
+    list_marker: '*'
     source_path:
     - 1
     parent_path: null

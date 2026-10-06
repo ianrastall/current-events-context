@@ -56,6 +56,20 @@ class GoldenTests(unittest.TestCase):
         doc = extract(raw, date="2002-01-01", source=identity(raw))
         self.assertIn("consituency", doc["categories"][0]["entries"][0]["text"])
 
+    def test_category_markup_is_structured_and_unsupported_content_warned(self):
+        for raw in [";[[Politics|Political news]] [https://a.test (Agency)]\n*An event.\n",
+                    "*[[Politics|Political news]] [https://a.test (Agency)]:\n**An event.\n"]:
+            doc = extract(raw, date="2002-01-01", source=identity(raw))
+            category = doc["categories"][0]
+            self.assertEqual("Politics", category["links"][0]["target"])
+            self.assertEqual("Political news", category["links"][0]["surface"])
+            self.assertEqual("https://a.test", category["citations"][0]["url"])
+            self.assertEqual(canonical(doc), canonical(yaml.safe_load(dump(doc))))
+        raw = ";News {{unknown|Exact}}\n*An event.\n"
+        doc = extract(raw, date="2002-01-01", source=identity(raw))
+        self.assertEqual("INLINE_TEMPLATE", doc["warnings"][0]["code"])
+        self.assertEqual("{{unknown|Exact}}", doc["warnings"][0]["raw"])
+
     def test_guarded_override_and_drift(self):
         raw = ";Politics\n*[[Topic]]\n"
         guard = {"date": "2002-01-01", "source_sha256": fingerprint(raw), "category": "Politics",
