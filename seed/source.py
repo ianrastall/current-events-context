@@ -73,7 +73,13 @@ def load(base, *, mode="wikitext") -> tuple[dict, bytes]:
 
 
 def revision(revision_id, *, cache=CACHE):
-    meta, payload = load(Path(cache) / "wikitext" / str(revision_id))
+    base = Path(cache) / "wikitext" / str(revision_id)
+    # An incomplete cache pair remains an error; only an absent pair may be
+    # served from a verified annual edition. Explicit test/custom caches stay isolated.
+    if not base.with_suffix('.json').exists() and not base.with_suffix('.wiki').exists() and Path(cache) == CACHE:
+        from seed import archive_access
+        return archive_access.revision(revision_id, ROOT)
+    meta, payload = load(base)
     if meta["revision_id"] != revision_id:
         raise ValueError("Cached revision identity mismatch")
     return meta, payload

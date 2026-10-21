@@ -53,6 +53,12 @@ def parse(date):
 
 
 def parse_structured(date):
+    from seed import archive_access
+    if archive_access.published_path(date) is not None:
+        acquired, _ = archive_access.wikipedia(date)
+        meta = {"title": acquired["page"], "revid": acquired["revision_id"],
+                "timestamp": acquired["revision_timestamp"], "sha256": acquired["source_sha256"]}
+        return _structured_events(meta, archive_access.extraction(date))
     if (WT / f"{date}.json").exists():
         meta = json.loads((WT / f"{date}.json").read_text(encoding="utf-8"))
         payload = (WT / f"{date}.wiki").read_bytes()
@@ -117,6 +123,10 @@ def parse_structured(date):
     identity = {"page": meta["title"], "revision_id": meta["revid"], "revision_timestamp": meta.get("timestamp"),
                 "source_mode": "wikitext", "source_sha256": meta["sha256"]}
     doc = extract(payload.decode("utf-8"), date=date, source=identity)
+    return _structured_events(meta, doc)
+
+
+def _structured_events(meta, doc):
     if any(w["code"] in ("AMBIGUOUS_ROLE", "AMBIGUOUS_DAY", "UNSUPPORTED_CONTENT") and w["resolution"] is None for w in doc["warnings"]):
         raise ValueError(f"Unresolved portal structure for {date}; requires a guarded extraction interpretation")
     events = []

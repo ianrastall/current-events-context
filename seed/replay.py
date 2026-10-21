@@ -17,7 +17,17 @@ def seed_path(day):
 
 
 def seed_doc(day):
-    return yaml.load(seed_path(day).read_text(encoding="utf-8"), Loader=getattr(yaml, "CSafeLoader", yaml.SafeLoader))
+    if seed_path(day).exists():
+        payload = seed_path(day).read_bytes()
+    else:
+        from seed.archive_access import legacy_bytes
+        payload = legacy_bytes(day, REPO_ROOT)
+    return yaml.load(payload, Loader=getattr(yaml, "CSafeLoader", yaml.SafeLoader))
+
+
+def seed_exists(day):
+    from seed.archive_access import published_path
+    return seed_path(day).exists() or published_path(day, REPO_ROOT) is not None
 
 
 @lru_cache(maxsize=1)
@@ -43,6 +53,11 @@ def cached_input(day, doc):
 
 
 def candidate(day, *, overrides=None):
+    from seed.archive_access import published_path, extraction
+    if published_path(day, REPO_ROOT) is not None:
+        if overrides:
+            raise ValueError('Published annual extraction requires an explicit migration for new overrides')
+        return extraction(day, REPO_ROOT)
     doc = seed_doc(day)
     meta, raw = cached_input(day, doc)
     identity = {k: meta[k] for k in ("page", "revision_id", "revision_timestamp", "source_mode", "source_sha256")}
@@ -89,7 +104,7 @@ def run_cache(args):
     from datetime import datetime, timezone
     pending, skipped, current = [], [], []
     for day in iter_days(args.start, args.end or args.start):
-        if not seed_path(day.isoformat()).exists():
+        if not seed_exists(day.isoformat()):
             skipped.append({"date": str(day), "reason": "missing_seed"})
             continue
         doc = seed_doc(day.isoformat())
@@ -159,7 +174,7 @@ def run_reparse(args):
     prepared, missing, checks = [], [], []
     for day_obj in iter_days(args.start, args.end):
         day = day_obj.isoformat()
-        if not seed_path(day).exists():
+        if not seed_exists(day):
             missing.append({"date": day, "reason": "missing_seed"})
             continue
         try:

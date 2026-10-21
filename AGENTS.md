@@ -43,6 +43,27 @@ Still inspect and record: repository layout, packaging/build metadata, exact `__
 
 ## Pipeline layers
 
+### Annual preservation publication
+
+The primary purpose includes long-term preservation. A published annual
+source-preservation edition uses `archive/<YYYY>.sqlite` as its authoritative
+source and `archive/<YYYY>.md` as a readable projection. Follow the active
+`reference/schema/PRESERVATION_RELEASE.md` contract. Exact pinned inputs,
+lossless transfer, deterministic extraction, attribution and disclosed source
+errors are publication requirements. Independent checking of every event is
+optional further research, not a prerequisite for source preservation.
+Never describe an archival publication as independently fact-checked or
+guaranteed exhaustive/impartial. Historical candidate/draft gate reports stay
+preserved, with their superseding publication policy recorded explicitly.
+
+Published years are protected from daily refetch/writes. Consumers use
+`seed.archive_access` for embedded source and legacy inputs. Retire filesystem
+duplicates only against the embedded exact-byte manifest and Git checkpoint;
+keep shared inputs needed elsewhere. Do not rebuild over research or silently
+replace embedded implementation snapshots. New editorial research and changed
+extraction require an explicit successor edition/migration. Current published
+years and remaining work belong in `HANDOFF.md`.
+
 Keep these concerns separate even if the current seed YAML stores more than one of them together.
 
 ### 1. Source acquisition

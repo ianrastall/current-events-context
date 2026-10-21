@@ -40,7 +40,8 @@ def output_path(day: date) -> Path:
 
 
 def already_saved(day: date) -> bool:
-    return output_path(day).exists()
+    from seed.archive_access import published_path
+    return output_path(day).exists() or published_path(str(day), REPO_ROOT) is not None
 
 
 def should_query_gdelt(day: date) -> bool:
@@ -75,6 +76,9 @@ def build_seed_doc(
 
 
 def save(day: date, doc: dict) -> Path:
+    from seed.archive_access import published_path
+    if published_path(str(day), REPO_ROOT) is not None:
+        raise ValueError(f'{day} is in a published annual archive; use an explicit archive migration')
     path = output_path(day)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:

@@ -68,6 +68,10 @@ def fetch_and_save_day(
     Returns (success, source_title_or_reason, info) where info carries
     extra detail for reporting (e.g. gdelt article count).
     """
+    from seed.archive_access import published_path
+    from seed.merge import REPO_ROOT
+    if published_path(str(day), REPO_ROOT) is not None:
+        raise ValueError(f'{day} is in a published annual archive; acquisition requires an explicit archive migration')
     wiki_result: WikiDayResult | None = fetch_day(
         day.year, day.month, day.day, USER_AGENT, monthly_cache=monthly_cache
     )
@@ -143,6 +147,10 @@ def iter_days(start: date, end: date):
 def discover_work(*, start: date, end: date, target: str, max_bytes: int) -> list[WorkItem]:
     items: list[WorkItem] = []
     for day in iter_days(start, end):
+        from seed.archive_access import published_path
+        from seed.merge import REPO_ROOT
+        if published_path(str(day), REPO_ROOT) is not None:
+            continue
         path = output_path(day)
         exists = path.exists()
         size = path.stat().st_size if exists else None

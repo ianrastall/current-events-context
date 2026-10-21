@@ -1608,3 +1608,116 @@ single companion. Prioritize unresolved partial findings and the existing
 source reliability/research leads as well. Do not delete daily files or caches
 until all events meet the user's requirement and the other migration gates
 pass. A final Markdown yearbook and optional PDF follow that gate.
+
+## 2026-10-21: 2025 preservation edition and filesystem cutover
+
+This section supersedes the preceding exhaustive-check publication gate.
+The approved priority is long-term source preservation. Independent checking
+of every event is optional follow-up research, not a prerequisite for publishing
+the verified source archive. Exact provenance, extraction coverage, source-error
+preservation, attribution and honest disclosure remain required. Publication
+does not claim exhaustive, impartial or independently verified news coverage.
+
+### Publication, files and compatibility
+
+- `archive/2025.sqlite` and `archive/2025.md` are now the 2025 preservation
+  edition. The Markdown has every event assertion, original citations,
+  pinned source links and separate editorial accounts. Its front matter
+  discloses incomplete independent review. All 17 earlier scoped findings,
+  evidence access limits and uncertainties are also rendered for readers.
+- Added `seed/archive_release.py`, `seed/archive_access.py` and
+  `reference/schema/PRESERVATION_RELEASE.md`. The additive publication contract
+  is `preservation-release-1.0`; the extraction, annual container and earlier
+  draft-review contracts retain their original immutable inputs. Historical
+  `replacement_ready=false` reports are retained as prior-policy evidence;
+  `archive_checks.preservation_publication` records the active preservation
+  verification and its explicit non-exhaustive-review policy.
+- The embedded immutable `publication/2025.json` manifest identifies checkpoint
+  `7b3bc18c`, publication policy, all preserved/retired paths, byte lengths,
+  hashes and shared-source checks. It embeds 730 old local provisional files
+  before their removal. Retired files: 365 daily YAML files under `2025/`,
+  730 dedicated Wikipedia cache payload/metadata files and 730 ignored local
+  extraction candidates under `provisional/extraction-v1/2025/`: 1,825 in total.
+  There were no cache pairs shared by another daily seed, expansion input or
+  capture pointer in this set. Other years and shared cache infrastructure
+  remain intact. Git records 1,095 tracked deletions; the 730 provisional
+  candidates were ignored and never tracked.
+- Retirement verified every remaining listed file against its embedded exact
+  bytes before unlinking any. No computed directory was recursively deleted.
+  All 1,825 originals are recoverable from the SQLite input/blob tables.
+  Checkpoint comparison additionally found 730 byte-exact Git cache files and
+  365 legacy YAML files differing only in Git's LF versus original working-tree
+  CRLF convention. The database retains the actual original YAML bytes; Git
+  supplies a content-equivalent additional checkpoint.
+- `seed/source.py`, `seed/replay.py`, `seed/merge.py`, `seed/cli.py`,
+  `reference/expansion/wikiportal.py` and `reference/expansion/build.py` now
+  recognize published annual inputs. Source revisions and legacy inputs are
+  served read-only from SQLite after cache retirement. Offline candidates use
+  the canonical annual extraction. Expansion preserves topic hierarchy and
+  cites the annual location. Planning treats annual dates as present, and
+  acquisition/writes refuse a published year before fetching or recreating
+  daily outputs. Explicit custom caches remain isolated.
+- Added `tests/test_archive_release.py`, updated `.github/workflows/verify.yaml`
+  to verify and reproduce preservation editions, and updated README, AGENTS.md
+  and `.gitattributes`. The frozen draft renderer remains available as historical
+  implementation evidence; use `seed.archive_release render` for publication.
+
+### Verification, access and limits
+
+No new publisher research, source capture or GDELT queries were made. Network
+access was Git fetch, followed by the explicitly requested branch push. Source
+facts, all 17 earlier scoped findings, the eight editorial records and their
+review states were preserved. There are still five complete full-event reviews
+and three partial reviews; publication has not relabeled the remainder reviewed.
+No extraction warning was introduced or silently resolved by the policy change.
+Known source errors, the unreliable military claim, rolling casualty-count
+limits and unclassified football passage remain disclosed.
+
+Commands and checks:
+
+- `python -m unittest discover -s tests -p test_archive_release.py -v` passed
+  after its first run exposed Windows SQLite backup handles left open during
+  atomic replacement. Explicit connection closing fixed this before real
+  cutover. Tests cover guarded retirement, changed originals, shared caches,
+  read-only recovery, pre-network write protection and honest review status.
+- `python -m unittest discover -s tests -v`: all 44 tests passed before and
+  after cutover, including existing 2000/2026 synthesis compatibility.
+- `python -X utf8 -m seed.archive_release prepare archive/2025.sqlite`:
+  staged, verified and atomically installed the preservation edition.
+- `python -X utf8 -m seed.archive_release render archive/2025.sqlite`:
+  generated the published companion after complete offline verification.
+- `python -X utf8 -m seed.archive_release retire archive/2025.sqlite`:
+  verified preservation and removed exactly 1,825 listed files.
+- Independent Git blob and embedded-input comparison accounted for all 1,095
+  tracked deletions and all 1,825 preserved identities, with only the legacy
+  newline distinction described above. Git checkpoint source-cache bytes
+  matched exactly. No source or original seed content was lost.
+- After retirement, a separate socket-blocked verification passed full annual
+  replay, publication manifest checks, editorial guards and byte-identical
+  Markdown regeneration (365 day headings and 5,453 event anchors). Expansion
+  parsing across all 365 dates returned all 5,453 events from SQLite. The full
+  2025 `replay.run_reparse()` with verification wrote temporary external outputs:
+  365 dates, zero missing inputs, 5,453 event leaves. These temporary outputs
+  were removed by the test's owned temporary-directory cleanup. All-range
+  collection planning returned no work for 2025. All 40 existing synthesis
+  files passed `reference/schema/validate.py --archive-root expanded` with
+  their explicit paths. No archived source tree was needed for these checks.
+
+Edition identities:
+
+- SQLite: 39,067,648 bytes, SHA-256
+  `5b21f969460809b03b64a21be2c638023cde5abfe321fac9ead653964eb373bd`.
+- Markdown: 2,655,719 UTF-8 bytes, SHA-256
+  `a780e95180a948d08866e1cfcbc5ae112d6494078bc642ab8387a65720941117`.
+
+### Remaining work
+
+The source-preservation edition is publishable; a finished historical
+interpretation/yearbook is separate work. PDF production is deferred until
+after this publication and can begin with text, navigation and source notes;
+illustrations need not be commissioned or acquired first. Optional factual
+research should focus on recorded discrepancies and uncertainty, rather than
+an obligatory pass over every statement. Future extraction/editorial changes
+must use an explicit successor edition, preserving immutable implementation
+snapshots and earlier research. Publish to `codex/repository-repairs`; do not
+silently merge the unrelated daily-update divergence on `origin/main`.
