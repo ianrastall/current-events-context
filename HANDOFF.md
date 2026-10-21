@@ -1967,3 +1967,49 @@ headings. Repeated builds are byte-identical
 owner's request `dist/2025-yearbook.pdf` is committed despite the `/dist/`
 ignore rule. Fonts (Source Serif 4 4.005, Source Sans 3 3.052, OFL) are not
 committed. This is a presentation of the archive, not a researched history.
+
+
+## Annual 2023 source-preservation cutover — 2026-10-21
+
+- Added `archive/2023.sqlite` (31,178,752 bytes; SHA-256
+  `da47abd202bdad798fd4a1e60114fc8434b63aa32ec8b14c88e444e2e8928071`)
+  and `archive/2023.md` (2,136,527 bytes; SHA-256
+  `c8de5edfc968066b5e6099f511ed0d33e48f6372ca2870640d34a1ce4ae72b7d`).
+- All 365 dates, 4,686 event assertions (4,685 leaves), original source evidence,
+  links/citations and exact daily/cached/prior-candidate bytes are preserved.
+  No unresolved structural warnings or unexplained candidate/legacy differences.
+- Seven guarded topic interpretations follow the approved standing rule.
+  The December 30 orphan topic and unbulleted military claim remain explicit;
+  the latter is unclassified research material, not an invented event.
+  A depth gap and citation-needed tag remain visibly preserved.
+- Seven originally uncited assertions have separate opened-source editorial
+  records: two complete wording reviews and five partial reviews. Important
+  limits include evolving Hezbollah casualty reports, a possible car/ambulance
+  conflation, the early Kaczynski cause-of-death report and an unmatched precise
+  Pakistan injury count. Original source facts are never silently corrected.
+- Retired exactly 1,825 byte-matched duplicates: 365 daily YAML, 365 source
+  metadata, 365 wikitext and 730 ignored prior candidates. The publication
+  manifest records checkpoint `fb126eda`. Git evidence: 730 source inputs
+  byte-identical, 365 YAML inputs equivalent after Git LF normalization;
+  original CRLF bytes remain in SQLite.
+- Added `seed/annual_series.py`, frozen profile documentation and year-specific
+  guarded configuration, exact source fixtures and six fixture tests. Earlier
+  annual implementations and annual file bytes remain unchanged. The new
+  profile also supports explicitly approved nested assertions and actual
+  commented-out non-events; an inline comment does not suppress a live bullet.
+- Commands run: `python -m unittest discover -s tests -q` (59 passed),
+  `python -m seed.annual_series build/prepare/retire` for 2023 and temporary
+  offline cutover QA. Full 365-date replay with sockets disabled, expansion
+  recovery, every revision fallback, exact Markdown regeneration, published-year
+  planning skip and write protection passed after retirement. Every source event
+  appears in Markdown. Publication checks passed before and after retirement.
+- Network: Git active-branch pull (already current), scoped publisher/calendar/
+  NTSB research for uncited assertions; no Wikipedia or GDELT acquisition.
+  Existing 2024/2025 release assets were published and API digest/size checked:
+  `archive-2024-v1`, `archive-2025-v1`.
+- Risks: independent review remains incomplete, publisher articles are linked
+  rather than captured, and source selection is not guaranteed comprehensive.
+  PDF production remains a separate concurrent workstream.
+- Next: finish the already-built 2022 and 2021 annual pairs, then continue
+  backward. All 2004–2023 calendars have pinned local inputs; 2003/2002 are
+  partial and require an explicit policy before claiming full annual coverage.

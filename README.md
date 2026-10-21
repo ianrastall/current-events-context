@@ -28,6 +28,7 @@ Each published year has a self-contained database and readable companion:
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2023 | [2023.sqlite](archive/2023.sqlite) | [2023.md](archive/2023.md) | 365 | 4,686 |
 | 2024 | [2024.sqlite](archive/2024.sqlite) | [2024.md](archive/2024.md) | 366 | 5,305 |
 | 2025 | [2025.sqlite](archive/2025.sqlite) | [2025.md](archive/2025.md) | 365 | 5,453 |
 
@@ -67,6 +68,21 @@ source form; an explicit category heading followed by a comment is recognized.
 See [successor annual profiles](reference/schema/ANNUAL_EDITIONS.md) for the
 pinned 2024 interpretation and year-appropriate renderer. The frozen 2025
 implementation and annual file bytes remain unchanged.
+
+The 2023 edition preserves 4,686 assertions and the December 30 unbulleted
+military claim as unclassified source material. Seven uncited assertions have
+separate evidence accounts: two complete reviews and five partial reviews.
+Use the [annual series dispatcher](reference/schema/ANNUAL_SERIES.md) for
+current and earlier editions; the 2024/2025 implementations remain frozen.
+
+Tagged [2024](https://github.com/ianrastall/current-events-context/releases/tag/archive-2024-v1)
+and [2025](https://github.com/ianrastall/current-events-context/releases/tag/archive-2025-v1)
+releases distribute the committed pairs with SHA-256 checksums.
+
+```powershell
+python -m seed.annual_series verify archive/2023.sqlite
+python -m seed.annual_series render archive/2023.sqlite
+```
 
 ```powershell
 python -m seed.annual_editions verify archive/2024.sqlite

@@ -1,0 +1,138 @@
+{
+  "version": "annual-series-1.0",
+  "year": 2023,
+  "edition_date": "2026-10-21",
+  "roles": [
+    {
+      "date": "2023-01-17",
+      "source_sha256": "e22a8a99a25beebc1e8d0d95b72d89308e26aaafdd9b8a58ad63219558ca6053",
+      "category": "Disasters and accidents",
+      "source_path": [
+        1
+      ],
+      "raw_sha256": "c8ce077b15c45a16ffe8f29447f9369ca088741bf4499bc0d2e43b5e05b1e5c4",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2023-03-29",
+      "source_sha256": "fb5a432eb5489e682e478d29b726d3205c69c79c65f23a5cadc4936cd2b812c9",
+      "category": "Disasters and accidents",
+      "source_path": [
+        1
+      ],
+      "raw_sha256": "6d430a3fa929c648e07135789b7cd828f90d1d5b3e9b8beba3c7fafc4c0d96fa",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2023-04-05",
+      "source_sha256": "1ce431fd881209e16dfd5c31d16554cd75c638bd2176723bbacaab279e1aa203",
+      "category": "International relations",
+      "source_path": [
+        1
+      ],
+      "raw_sha256": "4426c195f5beb1dbf000039e8fce93a57b652978127b61e5884a749c6e4618d6",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2023-07-04",
+      "source_sha256": "a23cad5a98ee662ae6e60d5ce332da74a27a269bee70c156725e9fda9e0e211c",
+      "category": "Law and crime",
+      "source_path": [
+        4,
+        1
+      ],
+      "raw_sha256": "02b1c08e01311117c00ac822b5ee890cde6a24aa4cff0ff14e5007744e31be9e",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2023-09-21",
+      "source_sha256": "d60e5e6e16a3382aa26cad8499eed1c035ab3b2758bf1f6b12ae3a4ac8ab4c99",
+      "category": "International relations",
+      "source_path": [
+        1,
+        1
+      ],
+      "raw_sha256": "99254c469814db867708f59e2195f3cb7d20b091d5b3441663d45a4a0c91a84b",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2023-10-02",
+      "source_sha256": "16946309629b13e0f5988e0949057e58b9492f1247955e318c1ea757fe856cac",
+      "category": "Science and technology",
+      "source_path": [
+        2
+      ],
+      "raw_sha256": "3fc8b6c4be9aee25eb1f09a51ecf199b864d5eafce6a219492dacc01d078bf22",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2023-12-30",
+      "source_sha256": "6fcd1dd06b1143d71653e72cd84c6859570e46b799d7db3cdf32d510102e61de",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        3
+      ],
+      "raw_sha256": "2377e181980517ff4b5935a2d33c11e06c322710373d04f4d71407ddf64a93ef",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    }
+  ],
+  "notices": [
+    {
+      "date": "2023-01-29",
+      "source_sha256": "7917a4b8c9678951bdfccc67307f26d873e3acc6a3322c8e9723e80b323cb45e",
+      "category": "Disasters and accidents",
+      "source_path": [
+        1
+      ],
+      "line": 20,
+      "code": "DEPTH_JUMP",
+      "raw_sha256": "4ed2d294954b2486bdaa974b6f3a84b61c059afd917c44a90cf27ebadedaa22c",
+      "action": "preserve_notice",
+      "reason": "Preserve the actual source list depth and parent relationship without inventing a missing intermediate bullet."
+    },
+    {
+      "date": "2023-08-10",
+      "source_sha256": "57317370f7e18e8cc3841c579d0487bfc6c89f57218fcf3b06cbfa699a58d1a5",
+      "category": "Politics and elections",
+      "source_path": [
+        1
+      ],
+      "line": 49,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "1ea42ef0726ff26d78d0072790dfcb2343019659097bff09ece1c4f591c69aa6",
+      "action": "retain_template",
+      "reason": "Retain the original citation-needed template and its September 2025 annotation verbatim. This is an explicit source reliability flag, not permission to remove or independently approve the claim."
+    },
+    {
+      "date": "2023-12-30",
+      "source_sha256": "6fcd1dd06b1143d71653e72cd84c6859570e46b799d7db3cdf32d510102e61de",
+      "category": "Armed conflicts and attacks",
+      "source_path": null,
+      "line": 14,
+      "code": "UNSUPPORTED_CONTENT",
+      "raw_sha256": "6ec7fa9facc7f3a1a6c5cfcaced0550055ca71369e086b03539a76430d8063b2",
+      "action": "unclassified",
+      "reason": "Standing user-approved handling: retain the unbulleted military claim and its citation as unclassified source material and a research lead; do not invent an event, category assignment or missing bullet."
+    },
+    {
+      "date": "2023-12-30",
+      "source_sha256": "6fcd1dd06b1143d71653e72cd84c6859570e46b799d7db3cdf32d510102e61de",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        3
+      ],
+      "line": 13,
+      "code": "ORPHAN_TOPIC",
+      "raw_sha256": "2377e181980517ff4b5935a2d33c11e06c322710373d04f4d71407ddf64a93ef",
+      "action": "preserve_notice",
+      "reason": "Standing user-approved handling: preserve the bare topic as childless and visibly flagged; the unbulleted following paragraph is not silently made its child."
+    }
+  ]
+}

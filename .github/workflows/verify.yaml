@@ -20,15 +20,15 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          from seed import annual_archive as annual, archive_access, annual_editions, yearbook
+          from seed import annual_archive as annual, archive_access, annual_series, yearbook
           for path in sorted(Path('archive').glob('*.sqlite')):
               conn = annual.connect(path, readonly=True)
               try:
                   if archive_access.publication(conn):
-                      report = annual_editions.verify(conn)
-                      expected = annual_editions.render(conn, annual.digest(path.read_bytes()))
+                      report = annual_series.verify(conn)
+                      expected = annual_series.render(conn, annual.digest(path.read_bytes()))
                   else:
-                      annual_editions.verify(conn)
+                      annual_series.verify(conn)
                       report = yearbook.review_report(conn)
                       expected = yearbook.render(conn, annual.digest(path.read_bytes()))
                   assert path.with_suffix('.md').read_bytes() == expected, f'Stale Markdown: {path}'
