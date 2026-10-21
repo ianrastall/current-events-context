@@ -28,6 +28,7 @@ Each published year has a self-contained database and readable companion:
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2019 | [2019.sqlite](archive/2019.sqlite) | [2019.md](archive/2019.md) | 365 | 3,841 |
 | 2020 | [2020.sqlite](archive/2020.sqlite) | [2020.md](archive/2020.md) | 366 | 7,393 |
 | 2021 | [2021.sqlite](archive/2021.sqlite) | [2021.md](archive/2021.md) | 365 | 8,350 |
 | 2022 | [2022.sqlite](archive/2022.sqlite) | [2022.md](archive/2022.md) | 365 | 5,324 |
@@ -71,6 +72,12 @@ source form; an explicit category heading followed by a comment is recognized.
 See [successor annual profiles](reference/schema/ANNUAL_EDITIONS.md) for the
 pinned 2024 interpretation and year-appropriate renderer. The frozen 2025
 implementation and annual file bytes remain unchanged.
+
+The 2019 edition preserves 3,841 assertions and a source editorial comment
+without treating it as an event. Six uncited assertions have separate evidence
+accounts: two complete and four partial. The early COVID-19 first-case claim
+remains explicitly unverified; the Aigle Azur date and corporate-merger wording
+are qualified separately from the unchanged source accounts.
 
 The 2020 edition preserves 7,393 assertions across the leap year. The two
 approved prose bullets remain assertions at their original depth, with visible

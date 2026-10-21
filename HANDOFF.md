@@ -2135,3 +2135,43 @@ committed. This is a presentation of the archive, not a researched history.
 all revision fallbacks and expansion consumers recovered 7,393 assertions,
 Markdown regenerated identically, planning skipped the published year and daily
 writes were refused. The publication manifest has no remaining duplicate files.
+
+
+## Annual 2019 source-preservation cutover — 2026-10-21
+
+- Added `archive/2019.sqlite` (26,955,776 bytes; SHA-256
+  `fb7e557f4330c6e0a23df831c8cc292a5cc6a73e1c4d31f59281a356f1c5168d`)
+  and `archive/2019.md` (1,927,336 bytes; SHA-256
+  `ca2f7804df6b1f185a41babb96501a74cada2013571f3f4059c29f50d8570ed3`).
+- All 365 dates, 3,841 assertions (3,838 leaves) and 2,295 topics retained.
+  Eight nominal-label interpretations are guarded. A source editorial HTML
+  comment, depth gap and unsupported templates remain explicit. In particular,
+  the February 23 inline comment does not suppress the adjacent live event.
+  Zero unresolved structural warnings and no unexplained baseline differences.
+- Six uncited assertions have separate editorial accounts (two complete,
+  four partial). The November 17 first-COVID-case assertion remains unverified;
+  the opened WHO-convened report describes a later earliest onset in its reviewed
+  records and explicitly cannot exclude earlier circulation. Aigle Azur's
+  announcement/flight-stopping dates and CBS/Viacom corporate-merger wording
+  are qualified without replacing source text. Precise conflict chronology,
+  unnamed heat records and hurricane-order/rounding claims remain partial.
+- Exact-byte and batched Git comparisons passed for all 1,825 retirements:
+  365 YAML (original CRLF retained), 365 source metadata, 365 wikitext and
+  730 ignored extraction candidates. All live prose/citations occur in Markdown.
+  The lossless inputs, retirement manifest and prior Git checkpoint are embedded.
+- Commands run: annual-series build/prepare/retire, temporary byte/Git/Markdown
+  preflight and full post-retirement offline replay/recovery QA. The same frozen
+  parser profile is used; the 59-test fixture suite was previously passed.
+- Network: opened NWS, City of Paris, Reuters via Geo News, La Tribune,
+  WHO-convened study and SEC filing for scoped uncited-event review. Some NASA/
+  NHC links failed or redirected and were not claimed as opened event evidence.
+  Active branch pull was current. No Wikipedia/GDELT acquisition or PDF changes.
+- 2021 CI passed and release `archive-2021-v1` asset digests/sizes were verified.
+  2020 commit `2f766c56` is pushed and CI verification is followed separately.
+- Risks: independent checking is incomplete and uncertain clauses remain labeled;
+  publisher articles are linked rather than captured. Next: finish this year's
+  publication, complete the prepared 2018 pair, and continue backward.
+
+2019 post-retirement checks passed: 365 offline reparse dates, 3,841 expansion
+assertions, every revision fallback, exact Markdown regeneration, plan skipping,
+write protection and manifest retirement checks. No daily outputs remain.
