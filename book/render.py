@@ -130,7 +130,14 @@ def figure_data(year_dir, sources_dir):
     customs = [{'month': r['record_date'][:7], 'billions': round(float(r['current_month_net_rcpt_amt']) / 1e9, 2)}
                for r in sorted(rows, key=lambda r: r['record_date'])
                if r['classification_desc'].strip() == 'Customs Duties' and r['record_date'][:4] in ('2024', '2025')]
+    jobs = []
+    bls = Path(sources_dir) / 'bls-federal.json'
+    if bls.exists():
+        series = json.loads(bls.read_text())['Results']['series'][0]['data']
+        jobs = [{'month': f"{x['year']}-{x['period'][1:]}", 'thousands': int(x['value'])}
+                for x in sorted(series, key=lambda x: (x['year'], x['period']))]
     return {
+        'federal_jobs': jobs,
         'customs': customs,
         # Additional US duty on most Chinese goods (fentanyl + reciprocal), by effective date.
         'us_on_china': [['2025-01-01', 0], ['2025-02-04', 10], ['2025-03-03', 20], ['2025-04-09', 104],
@@ -167,9 +174,12 @@ def main():
                  'notes': len(claims), 'sources': len(cited), 'words': len(NOTE.sub('', (cdir / 'chapter.txt').read_text(encoding='utf-8')).split()),
                  'chapter_sha256': hashlib.sha256((cdir / 'chapter.txt').read_bytes()).hexdigest(),
                  'dossier_sha256': hashlib.sha256((cdir / 'dossier.json').read_bytes()).hexdigest(),
-                 'date': dt.date.today().isoformat()},
+                 'date': dt.date.today().isoformat(),
+                 **({'verified_on': pretty((v := json.loads((cdir / 'verification.json').read_text(encoding='utf-8')))['checked_on']),
+                     'verification': v['result']} if (cdir / 'verification.json').exists() else {})},
         'bibliography': [{'tier': b['tier'], 'text': typographic(f'{b["publisher"]}. \u201c{b["title"]}.\u201d {pretty(b.get("published"))}.'), 'url': b['url']} for b in bib],
         'portraits': [{**v, 'credit': typographic(v['credit'])} for v in portraits.values()],
+        'used_portraits': re.findall(r'\{\{portrait:([\w-]+)\}\}', (cdir / 'chapter.txt').read_text(encoding='utf-8')),
         'figures': figure_data(year_dir, a.sources_dir),
     }
     with tempfile.TemporaryDirectory(prefix='cec-chapter-') as folder:

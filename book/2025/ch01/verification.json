@@ -1,0 +1,108 @@
+{
+ "checked_on": "2026-10-21",
+ "checker": "Claude, in a separate verification pass after drafting; not a human check, and by the same model that drafted the text.",
+ "method": "Each noted sentence was compared with the full text of its cited sources, all cached from originals except the BLS release (quoted web extract; the site blocks scripted download). Targeted searches confirmed wording, names, figures and dates; a script confirmed every number in a noted sentence appears in the findings.",
+ "result": "All 44 noted sentences are supported as now worded, after eleven changes.",
+ "corrections": [
+  {
+   "kind": "factual",
+   "was": "Yet the Supreme Court also ... allowed the Guard to stay federalized in California",
+   "problem": "The stay in California was granted by the Ninth Circuit, not the Supreme Court.",
+   "now": "an appeals court allowed the Guard to stay federalized in California",
+   "sources": [
+    "S069"
+   ]
+  },
+  {
+   "kind": "factual",
+   "was": "Between September and October federal employment fell from 2,914,000 to 2,748,000 ... the drop of 162,000",
+   "problem": "Mixed data vintages: the current series shows 166,000; the first BLS estimate was 162,000.",
+   "now": "Both figures given and dated: current series; first estimate published in December.",
+   "sources": [
+    "S077",
+    "S078"
+   ]
+  },
+  {
+   "kind": "wording",
+   "was": "The efficiency organization became the public face of an effort to shrink the federal government ... the effect that could be measured was on the workforce",
+   "problem": "Implied that DOGE caused the job losses; BLS attributes the largest fall to deferred resignations.",
+   "now": "Order described from its text; workforce change stated without attribution to DOGE.",
+   "sources": [
+    "S061",
+    "S077",
+    "S078"
+   ]
+  },
+  {
+   "kind": "wording",
+   "was": "Whatever else the effort achieved, the federal civilian workforce ended 2025 nearly a tenth smaller",
+   "problem": "Same implied causation.",
+   "now": "Federal employment ended 2025 nearly a tenth lower than it began.",
+   "sources": [
+    "S077"
+   ]
+  },
+  {
+   "kind": "wording",
+   "was": "accepted a deferred resignation offer earlier in the year",
+   "problem": "Timing of acceptance not in the source.",
+   "now": "phrase removed",
+   "sources": [
+    "S078"
+   ]
+  },
+  {
+   "kind": "wording",
+   "was": "Immigration was the field in which presidential power was pressed hardest.",
+   "problem": "Unsupported judgment stated as fact.",
+   "now": "sentence removed",
+   "sources": []
+  },
+  {
+   "kind": "wording",
+   "was": "The deployment of troops on American streets was the year's starkest assertion of executive power at home.",
+   "problem": "Unsupported judgment stated as fact.",
+   "now": "sentence removed",
+   "sources": []
+  },
+  {
+   "kind": "wording",
+   "was": "Its most visible failure was the budget itself.",
+   "problem": "Judgment; replaced with the sourced fact.",
+   "now": "It did not pass the annual budget on time.",
+   "sources": [
+    "S074"
+   ]
+  },
+  {
+   "kind": "wording",
+   "was": "a law funding most of the government until 30 January 2026 and passing three full-year appropriations bills",
+   "problem": "\"Most\" not supported.",
+   "now": "funded three groups of agencies for the full year and the rest of the government until 30 January 2026",
+   "sources": [
+    "S073",
+    "S074"
+   ]
+  },
+  {
+   "kind": "wording",
+   "was": "On one subject Congress acted almost unanimously.",
+   "problem": "Only the House vote is sourced.",
+   "now": "On one subject the House acted almost unanimously.",
+   "sources": [
+    "S076"
+   ]
+  },
+  {
+   "kind": "wording",
+   "was": "demanded the return of a wrongly deported man",
+   "problem": "The Supreme Court required the government to facilitate his release, not to return him.",
+   "now": "required the government to facilitate the return of a man it had deported illegally",
+   "sources": [
+    "S066"
+   ]
+  }
+ ],
+ "not_checked": "Unnoted sentences and the chapter's opening and closing argument are interpretation. Protests and the year's other pardons appear in the archive but are not yet sourced, so this draft leaves them out."
+}

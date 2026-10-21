@@ -151,11 +151,25 @@
     ..rows.map(r => align(center, text(font: sans, size: 5.4pt, fill: muted, if r.month.ends-with("-01") { r.month.slice(0, 4) } else { "" }))))
 }
 
+#let jobs-chart = {
+  let rows = data.figures.federal_jobs
+  let lo = 2650
+  let hi = 3050
+  let h = 1.3in
+  let bw = 0.135in
+  grid(columns: rows.len() * (bw,), column-gutter: 1.6pt, align: bottom,
+    ..rows.map(r => box(width: bw, height: h, align(bottom, rect(width: 100%, height: h * (r.thousands - lo) / (hi - lo),
+      fill: if r.month.starts-with("2025") { accent.lighten(15%) } else { faint }, stroke: none)))),
+    ..rows.map(r => align(center, text(font: sans, size: 5.4pt, fill: muted, if r.month.ends-with("-01") { r.month.slice(0, 4) } else { "" }))))
+}
+
 #let figure-block(id) = {
   if id == "china-rates" {
     fig-frame([Additional tariffs on each other's goods, 2025], [Additional duty on most Chinese goods charged by the United States (fentanyl and reciprocal orders combined) and China's across-the-board duty on American goods, by effective date; the March increase is placed at the order's date, 3 March. Excludes sector tariffs and China's selective February and March duties. Sources: Executive Orders 14195, 14228, 14259, 14266, 14357; Geneva joint statement; Customs Tariff Commission announcements.], china-chart)
   } else if id == "deficit-shift" {
     fig-frame([Change in the US goods deficit, 2025 over 2024 (\$ billion)], [First annual estimate, balance-of-payments basis. Source: Census Bureau and BEA, December and Annual 2025 release.], deficit-chart)
+  } else if id == "federal-jobs" {
+    fig-frame([Federal government employment, 2024–2025 (thousands)], [Monthly, seasonally adjusted; 2024 in grey, 2025 in red. The axis starts at 2,650,000, not at zero, to show the change. Source: Bureau of Labor Statistics, Current Employment Statistics, series CES9091000001.], jobs-chart)
   } else if id == "customs" {
     fig-frame([Net customs receipts by month, 2024–2025 (\$ billion)], [Monthly net customs duties; 2024 in grey, 2025 in red. Source: Monthly Treasury Statement, Table 4, via the Treasury Fiscal Data API.], customs-chart)
   }
@@ -184,7 +198,7 @@
   #v(6pt)
   This chapter was drafted with Claude, an AI system, from a research dossier of opened primary documents, official statistics and analyses, and is presented to its editor for review. Every footnoted sentence rests on recorded findings; nothing is cited to Wikipedia, which served only as a finding aid. Sources are limited to those published by #meta.cutoff.
 
-  Status: every footnoted sentence has been checked against the full text of the sources it cites, in a separate verification pass on 21 October 2026; fourteen corrections followed, and all 97 noted sentences are now supported as worded. That pass was made by the same AI system, not by a person. The editor's review and sign-off have not yet taken place, and the text should be treated as a draft.
+  #if "verification" in meta [Status: every footnoted sentence has been checked against the full text of the sources it cites, in a separate verification pass on #meta.verified_on. #meta.verification That pass was made by the same AI system, not by a person. The editor's review and sign-off have not yet taken place, and the text should be treated as a draft.] else [Status: the notes have not yet been verified against their sources, and the text should be treated as a draft.]
 
   Portraits are engraving-style renderings made by line hatching from the photographs credited at the end, not photographs and not evidence. Figures are drawn from the official data named beneath them.
 
@@ -221,7 +235,7 @@
     }
   }
   block(above: 1.4em, below: 0.6em, label-text([Illustrations], size: 6.6pt))
-  for p in data.portraits.filter(p => p.id in ("trump", "xi", "sheinbaum")) {
+  for p in data.portraits.filter(p => p.id in data.used_portraits) {
     par[#p.name. #p.credit. #p.licence. Rendered as line engraving. #link(p.source)[#text(fill: muted, size: 6.8pt, p.source)]]
   }
 }
