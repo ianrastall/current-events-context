@@ -1735,3 +1735,97 @@ round-trip assertions. This changes the test only, not the published archive,
 its frozen implementation or its Markdown checksum. Local passing results
 above did not catch this clean-checkout dependency; the failed remote run is
 recorded rather than represented as successful verification.
+
+## Preservation exports and print layer (2026-10-21)
+
+The adopted direction separates canonical annual SQLite/Markdown from derived
+release assets. Keep the current annual paths; do not recreate daily outputs or
+move the unrelated January 2000 databases as part of this pass. The authoritative
+2025 database and Markdown bytes and source/review policies remain unchanged.
+
+Added `PRIMER.txt`, `tools/build_tiers.py`, `tools/PRESERVATION.md` and
+`tests/test_preservation_bundle.py`. The new `preservation-bundle-1.0` export
+contract is a separate derivative, not an annual database schema change.
+The exporter copies the exact annual pair, reads SQLite with `mode=ro` and
+`query_only`, and creates UTF-8 SQL plus reversible typed TSV. NULL, empty text,
+empty BLOB, binary bytes, embedded controls and Unicode remain distinct. It
+exports 29 logical tables and eight reading views for 2025; FTS5 shadow tables
+are rebuilt from logical rows. Unsupported virtual-table configurations fail.
+
+The exporter restores both SQL and TSV into temporary databases and compares
+all logical table/view row hashes and counts, schema and header pragmas. It
+also runs database integrity, foreign-key and FTS integrity checks. Source
+hashes must remain unchanged. An explicitly allowlisted USTAR includes the
+original pair, recovery scripts/instructions, schema, typed exports, verification
+report, standard SHA-256 manifest and a size/CRC-32/SHA-256 TSV manifest. Both
+manifests exclude themselves and each other. Every other TAR member is covered
+and verified before atomic installation. No repository-wide file sweep occurs.
+
+One generated annual TAR remains under ignored `dist/`; temporary expanded
+exports/restores are cleaned up. SQL and TSV are deliberately distributed in
+the release bundle instead of committing large duplicate representations.
+The base 2025 bundle is 173,537,280 bytes. Checksums detect damage, not repair
+or authenticate it. Recovery SQL/scripts must come from trusted bundles.
+
+Added optional `reference/yearbook/build.py`, `verify.py`, `requirements.txt`
+and `README.md`. The existing print work is retained as a release derivative,
+with a complete 888-page 2025 reference chronicle, original event prose,
+separate editorial notes, calendars/charts, printed evidence registers and a
+subject index. It preserves 5,453 source assertions, prints 6,564 publisher
+URLs and covers 13,878 event/topic-ancestor wikilink targets. It includes all
+365 pinned source revision/hash records, 21 bookmarks and embedded used font
+subsets. It is not claimed to be PDF/A or independently checked history.
+PDF output defaults to ignored `dist/`; previews and visual QA stay under
+ignored `tmp/pdfs/`. Optional print dependencies do not change collection
+requirements. Windows font defaults and explicit portable font options are
+documented. The PDF remains a reading projection, not a complete binary backup.
+
+Updated README, `.gitignore`, `.gitattributes` and verification CI. CI runs the
+real annual bundle build and both recovery checks, in addition to existing
+offline tests, annual replay/Markdown verification and synthesis validation.
+No generated TAR, PDF, private consultation material or font files are staged.
+
+Checks executed:
+
+- `python -m unittest discover -s tests -v`: all 47 tests passed in 23.774s.
+  Three new tests cover typed control/binary/null distinctions, SQL/TSV and
+  FTS restoration, identical repeated bundle builds, source byte preservation,
+  network-blocked operation, checksum-detected damage and unsupported FTS.
+- `python tools/build_tiers.py build archive/2025.sqlite`: full 2025 SQL and
+  TSV restores passed, all 29 tables/eight views matched, source pair unchanged.
+- `python tools/build_tiers.py verify dist/2025-preservation.tar`: all 46
+  payload members and both manifest coverages passed.
+- The complete print verifier passed for 888 pages, every event assertion,
+  event ID, publisher URL, pinned source record, index subject, embedded used
+  font and bookmark. A verifier defect that discarded multi-line fragments
+  using their visitor coordinates was fixed by removing the builder's checked
+  four-line furniture prefix instead. Earlier failed checks were verifier
+  failures, not established losses of printed source prose.
+- Print QA included Poppler-rendered chapter/boundary/reference/index pages
+  and full-book geometric bounds checks. Earlier repeated print generation
+  was byte-identical. A final rebuild records the current generator hash.
+- `git diff --check` passed. Existing extraction warnings, scoped findings
+  and factual-review limits were unchanged; no new archival data was collected.
+
+Network access in this pass was technical verification against SQLite and
+Library of Congress documentation, plus Git publication/CI checks. No publisher
+research, GDELT query, source revision change or new acquisition service occurred.
+
+Deferred deliberately: page rasters, recovery barcodes, PAR2 recovery blocks,
+C bootstrap reader, inscription digest/layout and equipment-specific G-code.
+Do not call Group 4 TIFF uncompressed, claim universal machine compatibility,
+guaranteed media lifetimes or tested physical recovery without actual tests.
+Next: distribute the verified annual bundle and optional print derivative as
+release assets; retain the small canonical annual pair in Git. Physical layers
+can then be developed as explicit, tested build stages without another data
+format migration or multiplication of permanent daily files.
+
+Final local derivative checks passed after rebuilding with the current print
+generator: PDF 4,451,552 bytes, SHA-256
+`b82b61b133381b1ba0d0d8d4478b2703dc4de61c8ef8ddb81a5ed16752b8d40f`.
+Its changed colophon was rendered and visually checked. The bundle including
+that PDF is 177,991,680 bytes, SHA-256
+`29672ea6af1e22aee002d7a6fe61325cf2448cc88acae67b8db72cf6e23f30e4`.
+Both SQL/TSV restores and the final bundle's manifests passed again. Files are
+`dist/2025.pdf` and `dist/2025-preservation.tar`, prepared locally rather than
+uploaded to a new GitHub release.

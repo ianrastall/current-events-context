@@ -8,6 +8,7 @@ guaranteed impartial news coverage.
 | Path | Purpose |
 |---|---|
 | `archive/<YYYY>.sqlite` and `archive/<YYYY>.md` | Annual preservation database and readable chronicle |
+| `dist/` (ignored) | Reproducible preservation bundles and optional print derivatives |
 | `<YYYY>/<MM>/<YYYY-MM-DD>.yaml` | Unmigrated daily seeds; some files retain the legacy shape |
 | `expanded/<YYYY>/<MM>/<YYYY-MM-DD>.yaml` | Schema-2.2 researched synthesis |
 | `reference/deep-research/` | Source research reports |
@@ -50,7 +51,7 @@ documented discrepancies. Seventeen earlier scoped findings and access limits
 are disclosed too. Five full-event reviews are complete and three remain partial;
 the rest are not represented as checked. Source text remains unchanged.
 This is an archival reference edition, with further historical interpretation
-and a PDF yearbook possible as later work.
+and further researched yearbook interpretation possible as later work.
 
 ```powershell
 python -m seed.archive_release verify archive/2025.sqlite
@@ -79,8 +80,23 @@ WHERE archive_events_fts MATCH 'earthquake' ORDER BY date;
 Offline replay and synthesis obtain 2025 inputs from the annual database.
 Planning treats those dates as present; acquisition and writers refuse to
 recreate daily files. Shared cache entries still used elsewhere remain on disk.
-PDF production can follow a named archive edition; images are optional and
-their research need not delay preservation.
+Preservation exports are generated as release assets rather than multiplying
+canonical files. The offline builder produces one uncompressed annual TAR
+containing the original SQLite/Markdown pair, a SQL dump, reversible typed TSV,
+schema, recovery instructions, checksums and restore-verification results.
+Both SQL and TSV are restored and compared before installation. No network
+access or modification of the source database is required.
+
+```powershell
+python tools/build_tiers.py build archive/2025.sqlite
+```
+
+Read [the plain-text primer](PRIMER.txt) and [preservation build instructions](tools/PRESERVATION.md).
+An optional [print builder](reference/yearbook/README.md) produces a complete
+reference chronicle with charts, citations and a subject index. Generated PDFs,
+page images and recovery parity belong in release assets under ignored `dist/`.
+Physical inscription remains a separate digest and equipment-specific production
+task; it must not be mistaken for a complete copy of the archive.
 
 ## Setup and verification
 

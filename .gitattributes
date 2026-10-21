@@ -17,6 +17,8 @@ reference/sources/wikipedia/** -text
 # Annual database containers retain exact binary bytes.
 archive/*.sqlite -text
 archive/*.md text eol=lf
+reference/yearbook/*.py text eol=lf
+reference/yearbook/*.txt text eol=lf
 
 # Replay checks compare embedded implementation bytes across platforms.
 seed/*.py text eol=lf
@@ -30,3 +32,6 @@ reference/overrides/*.json text eol=lf
 # This historical acquisition module has mixed line endings in the captured
 # pipeline; preserve them until an explicit pipeline migration normalizes it.
 seed/wikipedia.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tools/*.py text eol=lf
+PRIMER.txt text eol=lf

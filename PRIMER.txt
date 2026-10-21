@@ -1,0 +1,48 @@
+CURRENT EVENTS CONTEXT - PRESERVATION PRIMER
+==========================================
+
+Start with archive/YYYY.md. It is readable UTF-8 plain text. The matching
+archive/YYYY.sqlite is the authoritative annual preservation container.
+Both retain source accounts and disclose research limits. Archived claims
+are not necessarily true, complete, independent or politically neutral.
+
+The database includes exact source payloads, provenance, structured events,
+citations and separately recorded editorial findings. Do not silently edit
+its source records or replace its immutable implementation snapshots.
+
+Preservation layers:
+1. SQLite: structured records and original bytes, with their provenance.
+2. Markdown and release SQL/TSV: readable text and recoverable data.
+3. Optional PDF: a printable reference with navigation and source notes.
+4. Future physical inscription: a deliberately selected, labeled digest.
+   A digest cannot preserve the complete archive. Machine control files
+   require known equipment and a tested production process.
+
+Only the annual SQLite and Markdown pair is canonical. Generated bundles,
+PDFs, page images and parity files belong in release assets, not the source
+tree. The programs and format instructions belong in version control.
+There is no requirement to create extra files for every archived day.
+
+Build an offline preservation bundle with Python 3.11+ and SQLite 3.37+:
+  python tools/build_tiers.py build archive/2025.sqlite
+Read tools/PRESERVATION.md for the exact format and verification commands.
+The builder does not change the source database or acquire network data.
+
+Bundles are uncompressed USTAR archives. Extract with a standard tar tool.
+MANIFEST.sha256 uses conventional SHA-256 checksums; CHECKSUMS.tsv also
+records byte lengths and CRC-32. The manifests exclude themselves and each
+other. Checksums detect changes; they cannot repair damaged content.
+Keep independently stored copies and periodically verify them. Recovery
+parity may supplement those copies; it does not replace them.
+
+SQL is UTF-8 SQLite SQL, including BLOBs encoded as hexadecimal literals.
+It reconstructs logical data, not an identical database file layout. TSV
+preserves null, empty text, bytes, numbers, tabs, newlines and backslashes.
+Its typed escaping is described inside every bundle in FORMAT.txt.
+Full-text indexes are rebuilt from logical rows, not copied as opaque
+internal index pages. Restores require SQLite with FTS5 and JSON support.
+
+Printed URLs identify evidence; they do not preserve publisher articles.
+A PDF does not reproduce all binary archival inputs. Page images and
+physical inscription are additional derivatives, not substitutes for the
+original digital archive. No particular medium has a guaranteed lifespan.

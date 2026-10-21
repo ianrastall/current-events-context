@@ -411,3 +411,9 @@ FodyWeavers.xsd
 /archive/*.sqlite-journal
 /archive/*.sqlite-wal
 /archive/*.sqlite-shm
+
+# Print-design proofs and rendered QA pages are not annual publications.
+/tmp/pdfs/
+
+# Derived preservation and print release assets.
+/dist/

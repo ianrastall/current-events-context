@@ -36,6 +36,17 @@ jobs:
               finally:
                   conn.close()
           PY
+      - name: Verify annual preservation recovery exports
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from tempfile import TemporaryDirectory
+          from tools import build_tiers
+          with TemporaryDirectory() as temporary:
+              for database in sorted(Path('archive').glob('*.sqlite')):
+                  report = build_tiers.build(database, Path(temporary) / (database.stem + '.tar'))
+                  print(database, report)
+          PY
       - name: Validate complete synthesis archive
         run: |
           python - <<'PY'
