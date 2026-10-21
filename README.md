@@ -28,6 +28,7 @@ Each published year has a self-contained database and readable companion:
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2021 | [2021.sqlite](archive/2021.sqlite) | [2021.md](archive/2021.md) | 365 | 8,350 |
 | 2022 | [2022.sqlite](archive/2022.sqlite) | [2022.md](archive/2022.md) | 365 | 5,324 |
 | 2023 | [2023.sqlite](archive/2023.sqlite) | [2023.md](archive/2023.md) | 365 | 4,686 |
 | 2024 | [2024.sqlite](archive/2024.sqlite) | [2024.md](archive/2024.md) | 366 | 5,305 |
@@ -69,6 +70,12 @@ source form; an explicit category heading followed by a comment is recognized.
 See [successor annual profiles](reference/schema/ANNUAL_EDITIONS.md) for the
 pinned 2024 interpretation and year-appropriate renderer. The frozen 2025
 implementation and annual file bytes remain unchanged.
+
+The 2021 edition preserves 8,350 live assertions and four explicitly labeled
+commented-out entries, excluded from the event tally. Original indentation and
+comment text remain available. Its one uncited live assertion has a separate
+complete FIA-based editorial account. Unsupported source templates and orphan
+labels remain visible with guarded handling notes.
 
 The 2022 edition preserves 5,324 assertions, including two explicitly nested
 earthquake assertions, an empty marker and two unbulleted research fragments.

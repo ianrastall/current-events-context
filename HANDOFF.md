@@ -1,4 +1,4 @@
-Latest status: see the October 20, 2026 pass at the end of this file. Earlier inspection and repair passes are retained as history.
+Latest status: see the annual preservation passes dated 2026-10-21 at the end of this file. Earlier inspection and repair passes are retained as history.
 
 # HANDOFF: Wikipedia extraction and seed-schema rewrite
 
@@ -2051,3 +2051,43 @@ committed. This is a presentation of the archive, not a researched history.
   unsupported details explicitly. Next: publish verified 2022, finish 2021,
   then continue backward. 2020 has two prose-role questions pending; its
   canonical files have not been changed.
+
+
+## Annual 2021 source-preservation cutover — 2026-10-21
+
+- Added `archive/2021.sqlite` (55,431,168 bytes; SHA-256
+  `a31266b879d359a6e605567b8511e56ffc8f3440b75cf2adb8daf9cd930e4864`)
+  and `archive/2021.md` (4,195,578 bytes; SHA-256
+  `80b48e5a9c59a8b124b897199c32fde96bba27ea1fbcd8c11347403a688f6f74`).
+- Preserves all 365 dates, 17,159 structural entries and 8,350 live assertions
+  (8,349 leaves), 8,805 topics and four commented-out non-events. The four
+  non-events are July 2 Operation Alula and its child assertion, August 14
+  Russia COVID-19 and August 17 Serbia booster assertions. Three former event
+  assertions are now excluded from the event tally; the remaining former topic
+  is also explicitly non-event source material. Nothing was silently dropped.
+- The approved comment rule retains every original field and actual source
+  indentation, source comments, links/citations and raw evidence. Inline comments
+  attached to live events do not suppress those events. Known commented entries
+  are accounted separately from unresolved headings. All 41 nominal-label roles
+  are guarded, with original wrappers, templates, orphans and depth gaps retained.
+- One originally uncited live assertion has a complete FIA-based editorial
+  account. The other 8,349 events are not represented as independently checked.
+- Retired 1,825 byte-matched originals: 365 YAML, 365 metadata, 365 wikitext and
+  730 ignored candidates. All are embedded losslessly with the exact manifest
+  and prior Git checkpoint. All live assertion text and 8,783 live event citation
+  occurrences were checked present in Markdown; commented evidence is in the
+  handling notes rather than ordinary event lists.
+- Commands/checks: annual-series build/prepare/retire; batched Git and byte
+  preflight; temporary full post-retirement QA. Complete 365-date offline verified
+  reparse, exact Markdown regeneration, all revision fallbacks, expansion recovery
+  of 8,350 events, plan skipping and write protection passed with sockets disabled.
+  No new parser implementation changes; the 59-test fixture suite already passed.
+- Source/network: scoped FIA research for the sole uncited assertion; active
+  branch pull was current. No Wikipedia/GDELT acquisition or PDF changes.
+  2022 commit `562f3ef1` passed GitHub CI and release `archive-2022-v1` assets
+  were uploaded with verified digests and sizes.
+- Risks: independent factual review remains incomplete. Publisher articles are
+  linked, not reproduced. Source selection/wording retain the original limits.
+- Next: commit/push/release this verified year and finish 2020. Its two complete
+  sentences were explicitly approved as nested assertions with misleading-nesting
+  notes. The 2019 side-by-side build is also underway; no 2019 originals retired.
