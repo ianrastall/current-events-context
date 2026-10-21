@@ -1,0 +1,1849 @@
+date: "2000-01-06"
+source_page:
+  portal: "2000"
+  language: "en"
+  wikipedia_revision_id: 1380003199
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "2000 (revision 1380003199; seed 2000/01/2000-01-06.yaml) + deep-research report reference/deep-research/2000/01/2000-01-06a.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  On Thursday, January 6, 2000, the fourth day of the Israeli–Syrian peace summit in
+  Shepherdstown, West Virginia, escalating legal and street confrontations in Miami and
+  Havana over the INS order to return six-year-old Elián González to Cuba, and an Orthodox
+  Christmas Eve ceasefire announcement in Grozny combined with a historic wildlife
+  extinction in the Spanish Pyrenees and counterterrorism arrests in India. In
+  Shepherdstown, U.S. President Bill Clinton presented Israeli Prime Minister Ehud Barak and
+  Syrian Foreign Minister Farouk al-Sharaa with a seven-page American working paper
+  outlining areas of convergence and remaining gaps on borders, security, water, and normal
+  relations. In Florida and Washington, Cuban-American demonstrators staged rolling street
+  blockades across Miami while Governor Jeb Bush and congressional Republicans petitioned
+  Attorney General Janet Reno to overturn the January 5 INS custody ruling, even as hundreds
+  of thousands of Cubans marched in Havana demanding the boy's immediate return.
+
+  In Russia, Acting President Vladimir Putin ordered federal forces in Chechnya to suspend
+  offensive air and artillery strikes in Grozny overnight for Orthodox Christmas while
+  Russia's Central Electoral Commission formally set the early presidential election for
+  March 26, 2000. In South Asia, Mumbai police announced the arrest of four suspected
+  Harkat-ul-Mujahideen operatives linked to the December 1999 hijacking of Indian Airlines
+  Flight 814, while Sri Lankan security forces detained more than 1,200 Tamil residents
+  during sweeps across Colombo following the previous day's twin assassinations. Meanwhile,
+  in Spain's Ordesa y Monte Perdido National Park, park rangers discovered the body of
+  Celia, the last living Pyrenean ibex (Capra pyrenaica pyrenaica), crushed beneath a fallen
+  beech tree—marking the formal extinction of the subspecies—while a magnitude 6.2
+  earthquake off Luzon, Philippines and a magnitude 6.1 earthquake in Southeast Alaska led
+  14 global `M4.5+` seismic events.
+
+events:
+  - id: "evt-2000-01-06-001"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "United States"
+      - "Israel"
+    importance: 8
+    headline: "U.S. President Bill Clinton tables a seven-page American bridging document at the Shepherdstown peace summit between Israel and Syria"
+    summary: >
+      On January 6, 2000—the fourth day of the Shepherdstown peace negotiations—U.S.
+      President Bill Clinton and Secretary of State Madeleine Albright presented Israeli
+      Prime Minister Ehud Barak and Syrian Foreign Minister Farouk al-Sharaa with a draft
+      seven-page American "working paper" summarizing Israeli and Syrian positions on the
+      four core issues of borders, security arrangements, water rights, and normal
+      diplomatic relations in an effort to accelerate substantive trade-offs.
+    key_data:
+      - label: "Length of draft U.S. working paper tabled on January 6, 2000"
+        value: "7 pages covering borders, security, water, and normal relations"
+        citation_refs: [1]
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Israel / Jerusalem)"
+        value: "70 mentions across 56 articles"
+        citation_refs: [1]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "After four days of procedural wrangling over which working committees should meet first—with Syria demanding priority for defining the June 4, 1967 border line and Israel insisting on simultaneous progress on security arrangements, early-warning stations, and diplomatic normalization—U.S. mediators led by President Bill Clinton and Secretary of State Madeleine Albright submitted a formal seven-page U.S. working document to both delegations at the Clarion Hotel in Shepherdstown on Thursday, January 6, 2000."
+        - "The working paper bracketed points of disagreement between Israel and Syria while proposing a synchronized framework for phased Israeli withdrawal from the Golan Heights, demilitarized zones, monitoring on Mount Hermon, and water-sharing guarantees around the Sea of Galilee and upper Jordan River."
+      why_it_matters:
+        - "The January 6 U.S. working paper became the central negotiating text of the Shepherdstown round; its subsequent leak to the Israeli daily Haaretz a week later exposed the exact depth of the concessions under discussion and contributed to Damascus suspending the second round of talks."
+        - "Under the strict news blackout imposed by the State Department at Shepherdstown, the exact text of the working paper remained confidential on January 6 until its publication by Haaretz on January 13, 2000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Bill Clinton"
+        - "Madeleine Albright"
+        - "Ehud Barak"
+        - "Farouk al-Sharaa"
+        - "Sandy Berger"
+        - "U.S. Department of State"
+      secondary: []
+    entities:
+      people:
+        - name: "Bill Clinton"
+          role: "President of the United States"
+        - name: "Madeleine Albright"
+          role: "United States Secretary of State"
+        - name: "Ehud Barak"
+          role: "Prime Minister of Israel"
+        - name: "Farouk al-Sharaa"
+          role: "Minister of Foreign Affairs of Syria"
+        - name: "Sandy Berger"
+          role: "United States National Security Advisor"
+      organizations:
+        - name: "U.S. Department of State"
+          description: "U.S. foreign ministry"
+      states:
+        - "United States"
+        - "Israel"
+        - "Syria"
+    geography:
+      countries:
+        - "United States"
+        - "Israel"
+        - "Syria"
+      places:
+        - "Shepherdstown"
+        - "West Virginia"
+        - "Golan Heights"
+        - "Jerusalem"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "united-states"
+        - "israel"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/middle_east/593112.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "United States mediators at the Middle East peace talks in Shepherdstown have presented Israeli and Syrian negotiators with a working document designed to bridge differences over the Golan Heights."
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/07/012r-010700-idx.html"
+          publication_date: "2000-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "U.S. officials yesterday handed Israeli and Syrian negotiators a draft working paper outlining the two sides' positions on borders, security, water and peace."
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-02-002"
+      - "evt-2000-01-03-002"
+      - "evt-2000-01-04-003"
+      - "evt-2000-01-05-005"
+    notes: ""
+  - id: "evt-2000-01-06-002"
+    category: "Law and crime"
+    subcategory: ""
+    topics:
+      - "United States"
+      - "Cuba"
+    importance: 8
+    headline: "Miami protesters block streets and congressional Republicans subpoena Elián González as Cuba mobilizes mass rallies following INS ruling"
+    summary: >
+      On January 6, 2000, the day after the U.S. Immigration and Naturalization Service
+      (`INS`) ordered six-year-old Elián González returned to his father in Cuba by January
+      14, hundreds of Cuban-American demonstrators blocked intersections and traffic lanes
+      across Miami—leading to more than 100 arrests—while U.S. Attorney General Janet Reno
+      rejected immediate demands by Florida Governor Jeb Bush to reverse the decision and
+      House Government Reform Committee Chairman Dan Burton prepared a congressional
+      subpoena to keep the boy in the United States.
+    key_data:
+      - label: "Demonstrators arrested in Miami street protests on January 6"
+        value: "Over 100 arrested by Miami-Dade and city police"
+        citation_refs: [3]
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Havana / Fidel Castro)"
+        value: "57 mentions across 46 articles"
+        citation_refs: [4]
+      - label: "Casualties"
+        value: "None; over 100 protesters arrested"
+        citation_refs: [3]
+    details:
+      what_happened:
+        - "Beginning at dawn on Thursday, January 6, 2000, Cuban-American exiles formed human chains across downtown Miami intersections, Biscayne Boulevard, and entrances to the Port of Miami to protest INS Commissioner Doris Meissner's January 5 ruling recognizing Juan Miguel González's parental custody; police arrested more than 100 protesters for disorderly conduct and obstructing traffic."
+        - "At her weekly Justice Department briefing in Washington on January 6, Attorney General Janet Reno backed Meissner's legal authority and declined requests from Florida Governor Jeb Bush to intervene immediately, while Republican Representative Dan Burton announced plans to issue a congressional subpoena compelling six-year-old Elián to testify before Congress in February."
+        - "In Havana, President Fidel Castro's government organized mass marches and youth rallies welcoming the INS ruling as a partial victory while demanding that the boy be returned to Cuba immediately without legal delay."
+      why_it_matters:
+        - "The January 6 clashes in Miami and legal maneuvers by congressional Republicans transformed an administrative immigration decision into a full-scale constitutional and political confrontation between federal authorities, Florida state courts, and Congress."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Janet Reno"
+        - "Jeb Bush"
+        - "Dan Burton"
+        - "Elián González"
+        - "Juan Miguel González"
+        - "Fidel Castro"
+        - "U.S. Department of Justice"
+      secondary: []
+    entities:
+      people:
+        - name: "Janet Reno"
+          role: "Attorney General of the United States"
+        - name: "Jeb Bush"
+          role: "Governor of Florida"
+        - name: "Dan Burton"
+          role: "House Government Reform Committee Chairman"
+        - name: "Elián González"
+          role: "Six-year-old Cuban castaway at the center of the 1999–2000 U.S.–Cuba custody dispute"
+        - name: "Juan Miguel González"
+          role: "Father of Elián González"
+        - name: "Fidel Castro"
+          role: "President of Cuba"
+      organizations:
+        - name: "U.S. Department of Justice"
+          description: "Federal executive department of the United States responsible for law enforcement and administration of justice"
+      states:
+        - "United States"
+        - "Cuba"
+    geography:
+      countries:
+        - "United States"
+        - "Cuba"
+      places:
+        - "Miami"
+        - "Washington"
+        - "D.C"
+        - "Havana"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "united-states"
+        - "cuba"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/americas/593280.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Police in Miami have arrested more than 100 Cuban-American protesters who blocked streets in anger at the US decision to send six-year-old Elian Gonzalez back to Cuba."
+          citation_refs: [3]
+        - id: "src-002-b"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/07/095r-010700-idx.html"
+          publication_date: "2000-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Cuban Americans paralyzed traffic in parts of Miami yesterday while lawyers and Republican lawmakers scrambled to block the Immigration and Naturalization Service from returning 6-year-old Elian Gonzalez to Cuba."
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-03-012"
+      - "evt-2000-01-05-002"
+    notes: ""
+  - id: "evt-2000-01-06-003"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Russia"
+    importance: 8
+    headline: "Russian military announces Orthodox Christmas pause in Grozny bombardment as Chechen war command is reorganized"
+    summary: >
+      On January 6, 2000—Orthodox Christmas Eve—Russian military commanders in the North
+      Caucasus announced a temporary overnight halt to heavy aerial and artillery
+      bombardment of Grozny to allow trapped civilians to flee via humanitarian corridors,
+      even as fierce ground skirmishes persisted along the city's approaches and Moscow
+      reorganized its internal security command in Chechnya following heavy casualties at
+      Alkhan-Kala.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Moscow / Russia)"
+        value: "81 mentions across 44 articles (highest global cluster on Jan 6)"
+        citation_refs: [5]
+      - label: "Estimated civilians remaining trapped in Grozny basements"
+        value: "15,000–40,000 civilians"
+        citation_refs: [5]
+      - label: "Casualties"
+        value: "Ongoing combat fatalities around Grozny and Alkhan-Kala"
+        citation_refs: [5]
+    details:
+      what_happened:
+        - "On Thursday, January 6, 2000, the eve of Russian Orthodox Christmas (celebrated on January 7 under the Julian calendar), the Russian military headquarters at Mozdok announced a temporary suspension of heavy bombing and artillery shelling in Grozny beginning at 10:00 local time on January 7 to encourage remaining residents to evacuate through designated checkpoints."
+        - "Despite the announced pause, Chechen fighters continued hit-and-run attacks against federal positions in Staropromyslovsky district, Alkhan-Kala, and Achkhoy-Martan, while Russian Defense Minister Marshal Igor Sergeyev and Interior Minister Vladimir Rushailo tightened coordination between Army and Interior Ministry (`MVD`) units after Western television footage exposed unacknowledged federal losses."
+      why_it_matters:
+        - "The brief Orthodox Christmas pause proved short-lived: within 48 hours Chechen forces launched their largest coordinated counteroffensive of the war against Argun, Shali, and Gudermes, shattering any illusion that Chechen resistance outside Grozny had been pacified."
+        - "Both Russian and Chechen commanders accused the other side of violating the Christmas pause and firing on civilian exit routes."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Vladimir Putin"
+        - "Igor Sergeyev"
+        - "Vladimir Rushailo"
+        - "Armed Forces of the Russian Federation"
+      secondary: []
+    entities:
+      people:
+        - name: "Vladimir Putin"
+          role: "Acting President and Prime Minister of Russia"
+        - name: "Igor Sergeyev"
+          role: "Minister of Defence of Russia"
+        - name: "Vladimir Rushailo"
+          role: "Interior Minister"
+      organizations:
+        - name: "Armed Forces of the Russian Federation"
+          description: "Military forces of the Russian Federation"
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Grozny"
+        - "Mozdok"
+        - "Chechnya"
+        - "Moscow"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/593418.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Russian forces in Chechnya have announced a temporary halt to bombing and shelling in the capital, Grozny, to mark Orthodox Christmas."
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-001"
+      - "evt-2000-01-02-001"
+      - "evt-2000-01-03-007"
+      - "evt-2000-01-04-006"
+      - "evt-2000-01-05-006"
+      - "evt-2000-01-06-004"
+    notes: ""
+  - id: "evt-2000-01-06-004"
+    category: "Politics and elections"
+    subcategory: ""
+    topics:
+      - "Russia"
+    importance: 8
+    headline: "Russian Central Electoral Commission formally confirms March 26, 2000 presidential election schedule as campaign opens"
+    summary: >
+      On January 6, 2000, Russia's Central Electoral Commission (`CEC`), chaired by
+      Alexander Veshnyakov, formally published the election calendar and
+      signature-collection rules following the Federation Council's confirmation of March
+      26, 2000 as the date for Russia's early presidential election, requiring each
+      presidential nominee to gather 500,000 voter signatures by February 13 under the
+      shortened post-Yeltsin campaign timetable.
+    key_data:
+      - label: "Scheduled date of the 2000 Russian presidential election"
+        value: "March 26, 2000"
+        citation_refs: [6]
+      - label: "Voter signatures required for candidate registration (shortened schedule)"
+        value: "500,000 signatures (halved from 1,000,000 for an early election)"
+        citation_refs: [6]
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Moscow Electoral Commission)"
+        value: "41 mentions across 41 articles"
+        citation_refs: [6]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [6]
+    details:
+      what_happened:
+        - "Following President Boris Yeltsin's surprise resignation on December 31, 1999 and the Federation Council's January 5 vote scheduling the early presidential election for Sunday, March 26, 2000, Central Electoral Commission Chairman Alexander Veshnyakov outlined the compressed statutory timetable in Moscow on January 6, 2000."
+        - "Under Russia's Law on Presidential Elections, because the vote was called early within three months of a presidential vacancy, the signature threshold for nominating initiative groups was reduced by half from one million to 500,000 signatures, with a submission deadline of February 13, 2000."
+        - "Communist Party (`KPRF`) leader Gennady Zyuganov was endorsed by his party plenum on January 6 as the main opposition challenger to Acting President Vladimir Putin, while Yabloko leader Grigory Yavlinsky and Liberal Democratic Party leader Vladimir Zhirinovsky also prepared nomination filings."
+      why_it_matters:
+        - "The compressed three-month election calendar—moving the vote forward from June to March 2000—prevented centrist rivals such as Yevgeny Primakov and Yuri Luzhkov from mounting viable campaigns and enabled Vladimir Putin to win an outright first-round majority (`52.9%`) on March 26, 2000."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Vladimir Putin"
+        - "Alexander Veshnyakov"
+        - "Gennady Zyuganov"
+        - "Grigory Yavlinsky"
+        - "Central Election Commission of Russia"
+      secondary: []
+    entities:
+      people:
+        - name: "Vladimir Putin"
+          role: "Acting President and Prime Minister of Russia"
+        - name: "Alexander Veshnyakov"
+          role: "Central Electoral Commission Chairman"
+        - name: "Gennady Zyuganov"
+          role: "Leader of the Communist Party of the Russian Federation"
+        - name: "Grigory Yavlinsky"
+          role: "Leader of the Yabloko party of Russia"
+      organizations:
+        - name: "Central Election Commission of Russia"
+          description: "Federal election management body of Russia"
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Moscow"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/06/russia.ianblack"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Russia's upper house of parliament yesterday set March 26 as the date for the presidential election that is almost certain to confirm Vladimir Putin as Boris Yeltsin's elected successor."
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-06-003"
+    notes: ""
+  - id: "evt-2000-01-06-005"
+    category: "Law and crime"
+    subcategory: ""
+    topics:
+      - "India"
+      - "Pakistan"
+    importance: 8
+    headline: "Indian police in Mumbai arrest four suspected Harkat-ul-Mujahideen operatives linked to the hijacking of Indian Airlines Flight 814"
+    summary: >
+      On January 6, 2000, Indian police in Mumbai and Home Minister Lal Krishna Advani in
+      New Delhi announced the arrest of four Harkat-ul-Mujahideen operatives—including two
+      Pakistani nationals, a Nepali national, and an Indian collaborator—who had operated a
+      safe house in suburban Jogeshwari, Mumbai to procure fake Indian passports, airline
+      tickets, and funds for the five hijackers of Indian Airlines Flight 814 (`IC 814`).
+    key_data:
+      - label: "Suspected Harkat-ul-Mujahideen operatives arrested in Mumbai"
+        value: "4 operatives (Mohammed Rehan, Mohammed Iqbal, Yusuf Nepali, Abdul Latif)"
+        citation_refs: [7]
+      - label: "Weapons and explosives recovered at Jogeshwari safe house"
+        value: "Hand grenades, rocket launchers, automatic pistols, and detonators"
+        citation_refs: [7]
+      - label: "Casualties"
+        value: "None; 4 suspects arrested"
+        citation_refs: [7]
+    details:
+      what_happened:
+        - "Acting on intercepted satellite-phone and pager communications between the hijackers in Kandahar and handlers in Pakistan and Mumbai, Mumbai Police crime branch officers raided an apartment in Jogeshwari, northwest Mumbai, arresting four Harkat-ul-Mujahideen operatives—Indian national Abdul Latif (who had obtained fraudulent passports and driven the hijackers' weapons to Kathmandu), Pakistani nationals Mohammed Rehan and Mohammed Iqbal, and Nepali national Yusuf Nepali."
+        - "Presenting the breakthrough on Thursday, January 6, 2000, Mumbai Police Commissioner R. H. Mendonca and Union Home Minister L. K. Advani stated that interrogation of the four men proved that all five hijackers of `IC 814` were Pakistani nationals directed from Karachi and Rawalpindi with support from Pakistan's Inter-Services Intelligence (`ISI`)."
+      why_it_matters:
+        - "The January 6 Mumbai arrests provided India's Central Bureau of Investigation (`CBI`) with the forensic evidence and confessions used to identify the five `IC 814` hijackers (including Ibrahim Athar, brother of released cleric Masood Azhar) and to convict Abdul Latif and Yusuf Nepali to life imprisonment."
+        - "Pakistan's Foreign Ministry rejected India's allegations that the arrested men had official Pakistani state backing."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Lal Krishna Advani"
+        - "Harkat-ul-Mujahideen"
+        - "Central Bureau of Investigation"
+      secondary: []
+    entities:
+      people:
+        - name: "Lal Krishna Advani"
+          role: "Home Minister"
+      organizations:
+        - name: "Harkat-ul-Mujahideen"
+          description: "Pakistan-based Kashmiri Islamist militant organization"
+        - name: "Central Bureau of Investigation"
+          description: "Premier domestic crime investigation agency of India"
+      states:
+        - "India"
+        - "Pakistan"
+        - "Nepal"
+    geography:
+      countries:
+        - "India"
+        - "Pakistan"
+        - "Nepal"
+      places:
+        - "Mumbai"
+        - "New Delhi"
+        - "Kathmandu"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "india"
+        - "pakistan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "India arrests four Kashmiri terrorists in connection with the week-long hijacking in December."
+      external:
+        - id: "src-005-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/south_asia/593195.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Police in the Indian city of Bombay say they have arrested four militants who helped the hijackers of the Indian Airlines plane last month."
+          citation_refs: [7]
+        - id: "src-005-b"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/07/india.kashmir"
+          publication_date: "2000-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "India yesterday claimed a breakthrough in its investigation into the Christmas Eve hijacking when Bombay police announced the arrest of four militant accomplices."
+          citation_refs: [8]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-003"
+      - "evt-2000-01-02-004"
+      - "evt-2000-01-03-006"
+    notes: ""
+  - id: "evt-2000-01-06-006"
+    category: "Health and environment"
+    subcategory: ""
+    topics:
+      - "Spain"
+    importance: 7
+    headline: "The last living Pyrenean ibex (Celia) is found crushed by a fallen tree in Spain's Ordesa National Park, rendering the subspecies extinct"
+    summary: >
+      On January 6, 2000, Spanish wildlife biologists and park rangers in Ordesa y Monte
+      Perdido National Park in Huesca, Aragon discovered the body of Celia, a 13-year-old
+      female Pyrenean ibex (Capra pyrenaica pyrenaica) and the last known living individual
+      ("endling") of the subspecies, after her radio collar emitted a mortality signal; she
+      had been killed by a falling beech tree, marking the official extinction of the
+      Pyrenean ibex in the wild.
+    key_data:
+      - label: "Age of Celia, the last Pyrenean ibex (Capra pyrenaica pyrenaica)"
+        value: "13 years old"
+        citation_refs: [9]
+      - label: "Location of discovery"
+        value: "Ordesa y Monte Perdido National Park, Huesca, Aragon, Spain"
+        citation_refs: [9]
+      - label: "Casualties"
+        value: "1 animal fatality (extinction of subspecies Capra pyrenaica pyrenaica)"
+        citation_refs: [9]
+    details:
+      what_happened:
+        - "Decimated by centuries of overhunting and competition with domestic livestock across the Pyrenees, the population of the Pyrenean ibex (bucardo, Capra pyrenaica pyrenaica) had dwindled by the late 1990s to a single elderly female named Celia in the Ordesa valley of northern Spain."
+        - "In April 1999, Spanish wildlife veterinarians led by Alberto Fernández-Arias had captured Celia, preserved skin-biopsy cells in liquid nitrogen at laboratories in Zaragoza and Madrid for future somatic-cell cloning attempts, and fitted her with a radio-telemetry collar before releasing her back into Ordesa y Monte Perdido National Park."
+        - "On Thursday, January 6, 2000, rangers tracking a sustained mortality beep from Celia's radio collar found her crushed beneath a fallen beech tree with a fractured skull, formally ending the natural existence of the subspecies."
+      why_it_matters:
+        - "Celia's death on January 6, 2000 became one of the milestones of modern conservation biology: using her cryopreserved skin cells acquired nine months earlier, a Franco-Spanish scientific team in 2003 cloned a live female Pyrenean ibex calf that survived for seven minutes before dying of a lung defect, making the Pyrenean ibex the first taxon in history to undergo \"de-extinction\" and become extinct twice."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Government of Aragon"
+        - "Ordesa y Monte Perdido National Park"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Government of Aragon"
+          description: "Devolved regional government of Aragon, Spain"
+        - name: "Ordesa y Monte Perdido National Park"
+          description: "Protected national park in the Pyrenees of Huesca, Aragon, Spain"
+      states:
+        - "Spain"
+    geography:
+      countries:
+        - "Spain"
+      places:
+        - "Huesca"
+        - "Zaragoza"
+        - "Aragon"
+        - "Pyrenees"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "health-and-environment"
+      tags:
+        - "spain"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The last naturally conceived Pyrenean ibex is found dead, presumed to have been killed by a falling tree."
+      external:
+        - id: "src-006-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/594120.stm"
+          publication_date: "2000-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The last surviving member of the Pyrenean ibex, a type of Spanish mountain goat, has been found dead in the northern region of Aragon after being crushed by a falling tree."
+          citation_refs: [9]
+        - id: "src-006-b"
+          outlet: "National Geographic"
+          url: "https://www.nationalgeographic.com/science/article/the-species-that-went-extinct-twice"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "On January 6, 2000, the last Pyrenean ibex, a 13-year-old female named Celia, was found dead beneath a fallen tree in Spain's Ordesa National Park."
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-06-007"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Sri Lanka"
+    importance: 7
+    headline: "Sri Lankan security forces detain more than 1,200 Tamil residents in Colombo cordon-and-search sweeps after twin assassinations"
+    summary: >
+      On January 6, 2000, Sri Lankan police and soldiers lifted the emergency daytime curfew
+      in Colombo after rounding up more than 1,200 Tamil men and women during overnight
+      cordon-and-search operations triggered by the January 5 LTTE suicide bombing outside
+      the Prime Minister's office and the assassination of Tamil politician Kumar
+      Ponnambalam, while Tamil political parties accused pro-government elements of
+      Ponnambalam's murder.
+    key_data:
+      - label: "Tamil residents detained for questioning in Colombo sweeps"
+        value: "Over 1,200 detained (most released after identity verification)"
+        citation_refs: [11]
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Colombo / Tamil)"
+        value: "31 mentions across 31 articles"
+        citation_refs: [11]
+      - label: "Casualties"
+        value: "None on January 6; 1,200+ detained"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "During a 21-hour curfew imposed across Colombo and Gampaha district from midday on January 5 until the morning of Thursday, January 6, 2000, thousands of Sri Lankan troops and police searched Tamil boarding houses, lodges, and residential neighborhoods in Wellawatte, Kotahena, and Pettah, detaining more than 1,200 Tamils for questioning over suspected links to Liberation Tigers of Tamil Eelam (`LTTE`) suicide cells."
+        - "President Chandrika Kumaratunga ordered a special police investigation into the killing of All Ceylon Tamil Congress (`ACTC`) leader Kumar Ponnambalam after Tamil members of parliament and international human rights observers rejected claims by the previously unknown \"National Front Against Tigers\" and demanded an independent inquiry."
+      why_it_matters:
+        - "The mass detentions of Tamil civilians in Colombo deepened ethnic polarization in the Sri Lankan capital and drew scrutiny from human rights organizations over emergency detention practices under the Prevention of Terrorism Act."
+        - "Most of the 1,200 detainees were released within 48 hours after police registration, while several dozen suspects were held for further interrogation."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Chandrika Kumaratunga"
+        - "Kumar Ponnambalam"
+        - "Liberation Tigers of Tamil Eelam"
+        - "All Ceylon Tamil Congress"
+      secondary: []
+    entities:
+      people:
+        - name: "Chandrika Kumaratunga"
+          role: "President of Sri Lanka"
+        - name: "Kumar Ponnambalam"
+          role: "Sri Lankan Tamil human rights lawyer and President of the All Ceylon Tamil Congress (1938–2000)"
+      organizations:
+        - name: "Liberation Tigers of Tamil Eelam"
+          description: "Tamil militant separatist organization in Sri Lanka (LTTE)"
+        - name: "All Ceylon Tamil Congress"
+          description: "Oldest Tamil political party in Sri Lanka (ACTC)"
+      states:
+        - "Sri Lanka"
+    geography:
+      countries:
+        - "Sri Lanka"
+      places:
+        - "Colombo"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "sri-lanka"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/south_asia/592950.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Police in the Sri Lankan capital, Colombo, have detained more than 1,200 Tamils for questioning during a curfew imposed after Wednesday's suicide bombing and the murder of a Tamil politician."
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-05-001"
+    notes: ""
+  - id: "evt-2000-01-06-008"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "Russia"
+      - "Jordan"
+    importance: 7
+    headline: "King Abdullah II of Jordan holds talks in Moscow with Acting Russian President Vladimir Putin on Middle East peace and Iraq"
+    summary: >
+      On January 6, 2000, King Abdullah II of Jordan paid a working visit to Moscow for his
+      first face-to-face summit with Acting Russian President Vladimir Putin at the
+      Kremlin—Putin's first meeting with a foreign head of state since Boris Yeltsin's
+      resignation—discussing the Israeli–Syrian and Israeli–Palestinian peace tracks, United
+      Nations sanctions on Iraq, and Russian–Jordanian defense cooperation.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Jordanian <-> Russian in Moscow)"
+        value: "92 combined mentions across 64 articles"
+        citation_refs: [12]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "Arriving in Moscow on a brief working visit on Thursday, January 6, 2000, King Abdullah II of Jordan met with Acting President Vladimir Putin and Foreign Minister Igor Ivanov at the Kremlin, becoming the first foreign monarch or head of state to hold talks with Putin following his December 31 assumption of the Russian presidency."
+        - "Putin reaffirmed Russia's role as formal co-sponsor of the Madrid Middle East peace process alongside the United States, while the two leaders discussed coordinating positions on the Shepherdstown Israeli–Syrian talks, the Palestinian final-status track, the humanitarian impact of UN sanctions on Iraq, and potential Jordanian procurement of Russian military equipment."
+      why_it_matters:
+        - "The January 6 Kremlin summit allowed Acting President Putin to project diplomatic continuity on the international stage within days of taking office while strengthening Moscow's outreach to moderate Arab states."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Abdullah II of Jordan"
+        - "Vladimir Putin"
+        - "Igor Ivanov"
+      secondary: []
+    entities:
+      people:
+        - name: "Abdullah II of Jordan"
+          role: "King of Jordan"
+        - name: "Vladimir Putin"
+          role: "Acting President and Prime Minister of Russia"
+        - name: "Igor Ivanov"
+          role: "Foreign Minister"
+      organizations: []
+      states:
+        - "Russia"
+        - "Jordan"
+    geography:
+      countries:
+        - "Russia"
+        - "Jordan"
+      places:
+        - "Moscow"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "russia"
+        - "jordan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/middle_east/593340.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "King Abdullah of Jordan has held talks in Moscow with Russia's acting President, Vladimir Putin, on the Middle East peace process and bilateral ties."
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-06-009"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "Israel"
+      - "Palestine"
+    importance: 6
+    headline: "Ecumenical Patriarch Bartholomew I and Orthodox leaders celebrate millennial Epiphany services in the Holy Land"
+    summary: >
+      On January 6, 2000—the feast of the Epiphany on the Western and revised Julian
+      calendars and Christmas Eve on the traditional Julian calendar—Ecumenical Patriarch
+      Bartholomew I of Constantinople joined Eastern Orthodox patriarchs and Christian
+      pilgrims in Jerusalem, Bethlehem, and the Jordan River to mark the 2,000th anniversary
+      of the birth and baptism of Jesus Christ while calling for inter-Orthodox unity and
+      peace in the Middle East.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Constantinople / Jerusalem)"
+        value: "30 mentions across 21 articles"
+        citation_refs: [13]
+      - label: "Heads of autocephalous Orthodox churches assembled in the Holy Land"
+        value: "12 Orthodox patriarchs and primates"
+        citation_refs: [13]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [13]
+    details:
+      what_happened:
+        - "On Thursday, January 6, 2000, Ecumenical Patriarch Bartholomew I of Constantinople—the spiritual \"first among equals\" of the world's 250 million Eastern Orthodox Christians—led millennial Epiphany and Christmas Eve ceremonies in Jerusalem and Bethlehem alongside Patriarch Diodoros I of Jerusalem, Russian Orthodox Patriarch Alexy II of Moscow, and nine other heads of autocephalous Orthodox churches."
+        - "Palestinian Authority President Yasser Arafat hosted the Orthodox leaders in Bethlehem for the traditional Julian Christmas Eve procession to the Church of the Nativity, which was also attended by Russian former President Boris Yeltsin on his first foreign trip since resigning on New Year's Eve."
+      why_it_matters:
+        - "The January 6–7 gathering of twelve Orthodox patriarchs and primates in Bethlehem and Jerusalem was the largest summit of Eastern Orthodox church leaders in the Holy Land in centuries, combining millennial religious commemorations with high-level political diplomacy."
+        - "Jurisdictional tensions between the Moscow Patriarchate and the Ecumenical Patriarchate over the Estonian Orthodox Church persisted behind the scenes despite the joint liturgy in Bethlehem."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Bartholomew I of Constantinople"
+        - "Alexy II of Moscow"
+        - "Boris Yeltsin"
+        - "Yasser Arafat"
+      secondary: []
+    entities:
+      people:
+        - name: "Bartholomew I of Constantinople"
+          role: "Ecumenical Patriarch of Constantinople"
+        - name: "Alexy II of Moscow"
+          role: "Patriarch of Moscow and all Rus'"
+        - name: "Boris Yeltsin"
+          role: "Former President of Russia"
+        - name: "Yasser Arafat"
+          role: "President of the Palestinian National Authority and Chairman of the Palestine Liberation Organization"
+      organizations: []
+      states:
+        - "Israel"
+        - "Palestine"
+    geography:
+      countries:
+        - "Israel"
+        - "Palestine"
+      places:
+        - "Bethlehem"
+        - "Jerusalem"
+        - "West Bank"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "israel"
+        - "palestine"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/middle_east/593510.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Orthodox Christian leaders from around the world have gathered in Bethlehem and Jerusalem to celebrate the millennium Christmas and Epiphany."
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-06-010"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Nigeria"
+    importance: 7
+    headline: "Nigerian police deploy armored patrols across Lagos and arrest scores of suspected OPC militants after presidential warning"
+    summary: >
+      On January 6, 2000, reinforced units of the Nigeria Police Force backed by armored
+      personnel carriers swept through the Mushin, Bariga, and Somolu districts of Lagos,
+      arresting nearly 100 suspected members of the militant Yoruba nationalist Oodua
+      People's Congress (`OPC`) after the murder of a senior police officer and days of
+      street clashes that killed more than 30 people.
+    key_data:
+      - label: "Suspected OPC militia members arrested in Lagos sweeps"
+        value: "~100 suspects detained by January 6, 2000"
+        citation_refs: [14]
+      - label: "Bounty offered by Nigerian police for militant OPC leader Gani Adams"
+        value: "100,000 naira (~$1,000 USD)"
+        citation_refs: [14]
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Lagos armed battle)"
+        value: "77 combined mentions across 61 articles"
+        citation_refs: [14]
+      - label: "Casualties"
+        value: "Over 30 killed in early January Lagos violence; ~100 arrested on Jan 6"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "Following the abduction and killing of Bariga Divisional Police Officer Afolabi Amao—whose body was dumped in the Lagos Lagoon after he attempted to negotiate the release of detainees held by militants—Lagos State Police Commissioner Mike Okiro deployed mobile police (\"Kill and Go\") units across Mushin and Bariga on Thursday, January 6, 2000."
+        - "Police arrested nearly 100 suspected OPC fighters and declared factional leader Gani Adams wanted for murder and treason, while moderate OPC founder Dr. Frederick Fasehun distanced his wing from the killings and Lagos State Governor Bola Tinubu urged federal authorities to address severe understaffing in the state's police force."
+      why_it_matters:
+        - "The January 6 police sweep foreshadowed President Olusegun Obasanjo's controversial January 13 letter threatening to declare a federal state of emergency in Lagos State if Governor Tinubu failed to curb OPC vigilantism."
+        - "Human rights groups in Lagos accused mobile police units of arbitrary arrests and summary shootings during the Mushin and Bariga raids."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Olusegun Obasanjo"
+        - "Bola Tinubu"
+        - "Oodua People's Congress"
+        - "Nigeria Police Force"
+      secondary: []
+    entities:
+      people:
+        - name: "Olusegun Obasanjo"
+          role: "President of Nigeria"
+        - name: "Bola Tinubu"
+          role: "Governor of Lagos State, Nigeria"
+      organizations:
+        - name: "Oodua People's Congress"
+          description: "Yoruba nationalist organization in southwestern Nigeria (OPC)"
+        - name: "Nigeria Police Force"
+          description: "Principal national law enforcement and police agency of Nigeria"
+      states:
+        - "Nigeria"
+    geography:
+      countries:
+        - "Nigeria"
+      places:
+        - "Lagos"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "nigeria"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/07/nigeria"
+          publication_date: "2000-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Nigerian police backed by armoured cars patrolled the streets of Lagos yesterday and arrested scores of suspected ethnic Yoruba militia members after days of clashes that left more than 30 people dead."
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-05-008"
+    notes: ""
+  - id: "evt-2000-01-06-011"
+    category: "Law and crime"
+    subcategory: ""
+    topics:
+      - "Cambodia"
+    importance: 6
+    headline: "Cambodian Prime Minister Hun Sen defends draft Khmer Rouge tribunal law linking domestic judicial majority to sovereignty"
+    summary: >
+      On January 6, 2000, Cambodian Prime Minister Hun Sen announced that his Cabinet had
+      finalized a draft law to establish a special tribunal to try surviving senior leaders
+      of the Khmer Rouge for the 1975–1979 genocide, insisting that Cambodian judges hold a
+      majority on the bench despite warnings from United Nations legal experts that a
+      domestic majority without international safeguards failed UN standards.
+    key_data:
+      - label: "Estimated deaths under the Khmer Rouge regime (1975–1979)"
+        value: "~1.7 million people"
+        citation_refs: [15]
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Cambodia -> Judge)"
+        value: "41 mentions across 17 articles"
+        citation_refs: [15]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "With only two senior Khmer Rouge figures—military commander Ta Mok (\"The Butcher\") and Tuol Sleng (`S-21`) prison chief Kaing Guek Eav (\"Duch\")—in Cambodian military custody following Pol Pot's death in 1998, Prime Minister Hun Sen's Council of Ministers approved a draft Khmer Rouge trial bill in Phnom Penh on January 6, 2000 for submission to the National Assembly."
+        - "Under the Cambodian draft, Cambodian judges and prosecutors would outnumber UN-appointed foreign judges, but any conviction or acquittal would require a \"supermajority\" vote including at least one foreign judge—a formula that UN Secretary-General Kofi Annan's legal counsel Hans Corell continued to scrutinize over fears of political interference."
+      why_it_matters:
+        - "The \"supermajority\" compromise introduced in Cambodia's January 2000 draft law ultimately became the institutional foundation of the Extraordinary Chambers in the Courts of Cambodia (`ECCC`), which convicted Duch, Nuon Chea, and Khieu Samphan of crimes against humanity and genocide."
+        - "Years of additional negotiations between Phnom Penh and the United Nations were required before the `ECCC` agreement was finally signed in June 2003."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Hun Sen"
+        - "Kofi Annan"
+        - "Ta Mok"
+        - "Kaing Guek Eav"
+        - "United Nations"
+      secondary: []
+    entities:
+      people:
+        - name: "Hun Sen"
+          role: "Cambodian Prime Minister"
+        - name: "Kofi Annan"
+          role: "Secretary-General of the United Nations"
+        - name: "Ta Mok"
+          role: "Former Khmer Rouge military commander (Brother Number Four)"
+        - name: "Kaing Guek Eav"
+          role: "Former commandant of the Khmer Rouge Tuol Sleng (S-21) interrogation center"
+      organizations:
+        - name: "United Nations"
+          description: "Intergovernmental organization"
+      states:
+        - "Cambodia"
+    geography:
+      countries:
+        - "Cambodia"
+      places:
+        - "Phnom Penh"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "cambodia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/asia-pacific/593045.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The Cambodian cabinet has approved a draft law for a tribunal to try former leaders of the Khmer Rouge for genocide, with Cambodian judges in the majority."
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-06-012"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics:
+      - "Norway"
+    importance: 6
+    headline: "Norwegian rail authorities suspend services on lines without automatic train brakes and overhaul traffic control after Åsta crash"
+    summary: >
+      On January 6, 2000, two days after the head-on collision of two passenger trains at
+      Åsta that killed 19 people, Norwegian State Railways (`NSB`) and the National Rail
+      Administration (Jernbaneverket) suspended several regional passenger services on
+      single-track lines lacking Automatic Train Control (`ATC`) and ordered two traffic
+      controllers on duty in Hamar after investigators confirmed that visual and audible
+      computer alarms had been missed.
+    key_data:
+      - label: "Confirmed death toll in the January 4 Åsta collision"
+        value: "19 killed, 67 injured"
+        citation_refs: [16]
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Engineer / Norway in Oslo)"
+        value: "70 combined mentions across 40 articles"
+        citation_refs: [16]
+      - label: "Casualties"
+        value: "None on January 6 (19 killed in Jan 4 crash)"
+        citation_refs: [16]
+    details:
+      what_happened:
+        - "On Thursday, January 6, 2000, Norwegian Transport Minister Dag Jostein Fjærvoll and railway executives announced emergency operating restrictions across Norway's non-ATC single-track rail network after data from the Hamar traffic control center showed that northbound train 2369 had triggered a track-circuit occupancy warning when leaving Rudstad station against a red light, which went unnoticed for more than three minutes while a single controller managed multiple lines."
+        - "Jernbaneverket ordered immediate double-staffing at traffic control centers, mandatory direct telephone verification between train conductors and dispatchers at passing loops on lines without `ATC`, and an accelerated timetable to install `ATC` and `GSM-R` cab radio across the Røros and Rauma lines."
+      why_it_matters:
+        - "The January 6 emergency safety directives permanently transformed Norwegian railway operations and led to the resignation of `NSB` Chief Executive Osmund Ueland later in the year."
+        - "The exact reason northbound train 2369 passed the Rudstad exit signal—whether driver error or a temporary signal relay fault—remained under investigation by the royal commission."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Norwegian State Railways"
+        - "Kjell Magne Bondevik"
+      secondary: []
+    entities:
+      people:
+        - name: "Kjell Magne Bondevik"
+          role: "Prime Minister of Norway"
+      organizations:
+        - name: "Norwegian State Railways"
+          description: "State-owned national railway operator of Norway (NSB)"
+      states:
+        - "Norway"
+    geography:
+      countries:
+        - "Norway"
+      places:
+        - "Oslo"
+        - "Hamar"
+        - "Åsta"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "norway"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-012-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/593210.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Norwegian railway authorities have introduced emergency safety measures and suspended services on some lines after Tuesday's train crash in which 19 people died."
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-04-001"
+      - "evt-2000-01-05-010"
+    notes: ""
+  - id: "evt-2000-01-06-013"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Afghanistan"
+    importance: 6
+    headline: "Taliban and Northern Alliance forces clash in winter offensives across Badghis and northern Afghanistan"
+    summary: >
+      On January 6, 2000, Taliban forces and Northern Alliance (United Islamic Front)
+      fighters led by Commander Ahmad Shah Massoud and Ismail Khan's western commanders
+      clashed in winter fighting around the mountain district of Jawand in Badghis Province
+      and along front lines in Samangan and Takhar provinces, with both sides claiming
+      territorial gains and dozens of casualties despite heavy snow.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000106`, Jawand, Badghis, Afghanistan)"
+        value: "32 mentions across 14 articles"
+        citation_refs: [17]
+      - label: "Casualties"
+        value: "Dozens killed and captured reported by rival spokesmen in Badghis and Samangan"
+        citation_refs: [17]
+    details:
+      what_happened:
+        - "Defying the traditional winter lull across the Hindu Kush, anti-Taliban resistance fighters in the rugged Jawand district of Badghis Province in northwestern Afghanistan and in Dara-i-Suf district of Samangan Province fought pitched battles with Taliban units on January 5–6, 2000."
+        - "Northern Alliance spokesmen reported repelling Taliban assaults in Badghis and capturing dozens of Taliban fighters, while Taliban radio in Kabul claimed its forces had cleared opposition pockets in Jawand and along the Salang approaches north of Kabul."
+      why_it_matters:
+        - "The winter battles in Badghis and Samangan kept pressure on Taliban supply lines in northern and western Afghanistan while worsening the humanitarian plight of tens of thousands of internally displaced civilians trapped in snowbound valleys."
+        - "Independent verification of battlefield claims in remote Badghis Province was impossible due to winter road closures and the absence of foreign journalists."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Taliban"
+        - "Northern Alliance"
+        - "Ahmad Shah Massoud"
+      secondary: []
+    entities:
+      people:
+        - name: "Ahmad Shah Massoud"
+          role: "Commander"
+      organizations:
+        - name: "Taliban"
+          description: "De facto ruling movement of the Islamic Emirate of Afghanistan"
+        - name: "Northern Alliance"
+          description: "United Islamic Front for the Salvation of Afghanistan anti-Taliban coalition"
+      states:
+        - "Afghanistan"
+    geography:
+      countries:
+        - "Afghanistan"
+      places:
+        - "Jawand"
+        - "Badghis Province"
+        - "Kabul"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "afghanistan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/south_asia/593390.stm"
+          publication_date: "2000-01-06"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Heavy fighting has been reported in northwestern and northern Afghanistan between the ruling Taleban movement and opposition forces despite severe winter weather."
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-06-014"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics:
+      - "Philippines"
+      - "United States"
+    importance: 6
+    headline: "Magnitude 6.2 earthquake off Luzon, Philippines and magnitude 6.1 earthquake in Southeast Alaska lead 14 global M4.5+ events"
+    summary: >
+      On January 6, 2000, two strong `M6.0+` earthquakes struck the Pacific Rim within an
+      11-hour span: a shallow magnitude 6.1 strike-slip earthquake (`usp0009ktq`, depth 1.0
+      km) 35 km west-southwest of Elfin Cove in Southeast Alaska at 10:42:25 UTC, followed
+      at 21:31:06 UTC by a magnitude 6.2 subduction earthquake (`usp0009kub`, depth 33.0 km)
+      off the western coast of Luzon, Philippines, which was felt across Pangasinan,
+      Zambales, and Metro Manila.
+    key_data:
+      - label: "Luzon, Philippines earthquake (`usp0009kub`)"
+        value: "M 6.2 at 21:31:06 UTC (16.095°N, 119.484°E, depth 33.0 km)"
+        citation_refs: [18]
+      - label: "Elfin Cove, Southeast Alaska earthquake (`usp0009ktq`)"
+        value: "M 6.1 at 10:42:25 UTC (58.040°N, 136.870°W, depth 1.0 km)"
+        citation_refs: [19]
+      - label: "Gili Air / Lombok, Indonesia earthquake (`usp0009ktf`)"
+        value: "M 5.4 at 04:31:58 UTC (8.293°S, 116.071°E, depth 33.0 km)"
+        citation_refs: [18]
+      - label: "Total global M4.5+ earthquakes on January 6, 2000"
+        value: "14 earthquakes recorded in USGS ANSS ComCat"
+        citation_refs: [18]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [18]
+    details:
+      what_happened:
+        - "At 10:42:25 UTC on Thursday, January 6, 2000, a shallow magnitude 6.1 earthquake (`usp0009ktq`) ruptured along the Queen Charlotte–Fairweather fault system 35 km west-southwest of Elfin Cove on Chichagof Island in Southeast Alaska (followed at 11:36:45 UTC by an `M4.6` aftershock `usp0009ktv`), shaking communities across Glacier Bay, Pelican, Sitka, and Juneau without causing structural damage."
+        - "Nearly 11 hours later, at 21:31:06 UTC on January 6 (05:31 PST on January 7 in the Philippines), a magnitude 6.2 earthquake (`usp0009kub`) struck along the Manila Trench off Bolinao, Pangasinan in western Luzon, waking residents across western and central Luzon and swaying high-rise buildings in Manila."
+        - "Earlier on January 6, a magnitude 5.4 earthquake (`usp0009ktf`) struck 7 km north of Gili Air off Lombok, Indonesia at 04:31:58 UTC, alongside a magnitude 5.2 event (`usp0009ku9`) in the Northern Mariana Islands and a magnitude 5.1 event (`usp0009kte`) near Singkil, Sumatra."
+      why_it_matters:
+        - "Pairing two `M6.0+` earthquakes on opposite sides of the northern Pacific Basin within 11 hours, January 6 continued the heightened circum-Pacific seismic sequence that culminated two days later in the `M7.2` Tonga earthquake of January 8, 2000."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Geological Survey"
+        - "Philippine Institute of Volcanology and Seismology"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States Geological Survey"
+          description: "Scientific agency of the United States government for earth sciences and seismology"
+        - name: "Philippine Institute of Volcanology and Seismology"
+          description: "Philippine national institution monitoring volcanoes, earthquakes, and tsunamis"
+      states:
+        - "Philippines"
+        - "United States"
+        - "Indonesia"
+    geography:
+      countries:
+        - "Philippines"
+        - "United States"
+        - "Indonesia"
+      places:
+        - "Luzon"
+        - "Manila"
+        - "Elfin Cove"
+        - "Juneau"
+        - "Lombok"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "philippines"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-014-a"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kub"
+          publication_date: "2000-01-06"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 6.2 - Luzon, Philippines, 2000-01-06 21:31:06 UTC (16.095°N, 119.484°E, depth 33.0 km)."
+          citation_refs: [18]
+        - id: "src-014-b"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009ktq"
+          publication_date: "2000-01-06"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 6.1 - 35 km WSW of Elfin Cove, Alaska, 2000-01-06 10:42:25 UTC (58.040°N, 136.870°W, depth 1.0 km)."
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-05-015"
+    notes: ""
+  - id: "evt-2000-01-06-015"
+    category: "Sports"
+    subcategory: ""
+    topics:
+      - "Russia"
+    importance: 4
+    headline: "Russian chess grandmaster and 1989 Soviet co-champion Alexey Vyzmanavin is found dead in Moscow at age 40"
+    summary: >
+      On January 6, 2000, Russian chess grandmaster Alexey Vyzmanavin—three-time Moscow
+      champion, joint winner of the 57th USSR Chess Championship in 1990, and gold medalist
+      with the Russian national team at the 1992 Manila Chess Olympiad—was found dead of a
+      heart attack in his Moscow apartment at the age of 40.
+    key_data:
+      - label: "Age of Grandmaster Alexey Vyzmanavin at death"
+        value: "40 years old (born January 1, 1960 in Moscow)"
+        citation_refs: [20]
+      - label: "Peak FIDE world ranking"
+        value: "World No. 21 (January 1993, Elo rating 2620)"
+        citation_refs: [20]
+      - label: "Casualties"
+        value: "1 death (natural causes / heart failure)"
+        citation_refs: [20]
+    details:
+      what_happened:
+        - "Born on New Year's Day 1960 in Moscow, Alexey Borisovich Vyzmanavin rose through the Soviet military sports system as one of the sharpest tacticians and fastest blitz players of the late Soviet era, winning the Moscow Chess Championship in 1984 and 1986, earning the Grandmaster title in 1989, and sharing first place with Alexander Beliavsky, Leonid Yudasin, and Evgeny Bareev in the final Leningrad USSR Championship in 1990."
+        - "After helping Russia win team gold at the 30th Chess Olympiad in Manila in 1992 and reaching the final of the 1993 PCA Groningen rapid tournament against Viswanathan Anand, Vyzmanavin retired from tournament chess in 1997; he was found dead in his Moscow apartment on January 6, 2000 after living alone for several days following a fatal heart attack."
+      why_it_matters:
+        - "Vyzmanavin's premature death at age 40 was mourned across the international chess world as a symbol of the economic and personal hardships faced by many elite post-Soviet grandmasters during the 1990s transition."
+        - "Because Vyzmanavin lived alone in Moscow, coroner estimates indicated he died around New Year's Day 2000 before his body was discovered on January 6, 2000, which is recorded as his official date of death."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Alexey Vyzmanavin"
+        - "International Chess Federation"
+      secondary: []
+    entities:
+      people:
+        - name: "Alexey Vyzmanavin"
+          role: "Russian chess grandmaster and two-time Soviet chess champion"
+      organizations:
+        - name: "International Chess Federation"
+          description: "World governing body of international chess competition (FIDE)"
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Moscow"
+      coordinates: []
+    time:
+      date: "2000-01-06"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Alexey Vyzmanavin, chess grandmaster (b. 1960)"
+      external:
+        - id: "src-015-a"
+          outlet: "The Week in Chess (TWIC 271)"
+          url: "https://theweekinchess.com/html/twic271.html"
+          publication_date: "2000-01-17"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Russian Grandmaster Alexey Vyzmanavin was found dead in his apartment in Moscow on January 6th 2000 aged just 40."
+          citation_refs: [20]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+strategic_conclusion: >
+  January 6, 2000 demonstrated the interplay of high-stakes diplomacy, domestic legal
+  mobilization, and irreversible environmental loss at the close of the first week of the
+  new millennium. In Shepherdstown, President Clinton's tabling of a comprehensive
+  seven-page American working paper pushed Israel and Syria toward concrete engagement on
+  borders and security; in Miami and Havana, the Elián González custody ruling triggered
+  street protests and congressional intervention; in Moscow and Grozny, Acting President
+  Vladimir Putin combined an Orthodox Christmas bombing pause with a compressed March 26
+  election schedule; in Mumbai, police arrests exposed the support cell behind the Flight
+  814 hijacking; and in the Spanish Pyrenees, the death of Celia, the last Pyrenean ibex,
+  marked a historic wildlife extinction that soon catalyzed the birth of de-extinction
+  cloning science.
+
+works_cited:
+  - id: 1
+    title: "US tables draft document at Middle East peace talks"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/middle_east/593112.stm"
+    accessed: "2000-01-06"
+  - id: 2
+    title: "U.S. Hands Draft Working Paper to Israeli, Syrian Negotiators"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/07/012r-010700-idx.html"
+    accessed: "2000-01-07"
+  - id: 3
+    title: "Over 100 arrested in Miami protests over Cuban boy"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/americas/593280.stm"
+    accessed: "2000-01-06"
+  - id: 4
+    title: "Protesters Block Miami Traffic Over INS Ruling on Cuban Boy"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/07/095r-010700-idx.html"
+    accessed: "2000-01-07"
+  - id: 5
+    title: "Russia halts Grozny bombing for Orthodox Christmas"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/593418.stm"
+    accessed: "2000-01-06"
+  - id: 6
+    title: "Russian presidential election set for March 26"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/06/russia.ianblack"
+    accessed: "2000-01-06"
+  - id: 7
+    title: "Bombay police arrest four over Indian Airlines hijack"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/south_asia/593195.stm"
+    accessed: "2000-01-06"
+  - id: 8
+    title: "India claims breakthrough with arrest of four hijack accomplices in Bombay"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/07/india.kashmir"
+    accessed: "2000-01-07"
+  - id: 9
+    title: "Last Spanish mountain goat killed by falling tree"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/594120.stm"
+    accessed: "2000-01-07"
+  - id: 10
+    title: "The Species That Went Extinct Twice"
+    outlet: "National Geographic"
+    url: "https://www.nationalgeographic.com/science/article/the-species-that-went-extinct-twice"
+    accessed: "2000-01-06"
+  - id: 11
+    title: "Over 1,200 Tamils detained in Colombo security sweep"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/south_asia/592950.stm"
+    accessed: "2000-01-06"
+  - id: 12
+    title: "Jordan's King Abdullah holds talks with Putin in Moscow"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/middle_east/593340.stm"
+    accessed: "2000-01-06"
+  - id: 13
+    title: "Orthodox leaders gather in Bethlehem for millennium Christmas"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/middle_east/593510.stm"
+    accessed: "2000-01-06"
+  - id: 14
+    title: "Nigerian police arrest scores in Lagos militia crackdown"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/07/nigeria"
+    accessed: "2000-01-07"
+  - id: 15
+    title: "Cambodian cabinet approves Khmer Rouge trial draft law"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/asia-pacific/593045.stm"
+    accessed: "2000-01-06"
+  - id: 16
+    title: "Norway introduces emergency rail safety rules after crash"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/593210.stm"
+    accessed: "2000-01-06"
+  - id: 17
+    title: "Winter fighting flares in northern and western Afghanistan"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/south_asia/593390.stm"
+    accessed: "2000-01-06"
+  - id: 18
+    title: "M 6.2 Earthquake - Luzon, Philippines"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kub"
+    accessed: "2000-01-06"
+  - id: 19
+    title: "M 6.1 Earthquake - 35 km WSW of Elfin Cove, Alaska"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009ktq"
+    accessed: "2000-01-06"
+  - id: 20
+    title: "Grandmaster Alexey Vyzmanavin (1960–2000)"
+    outlet: "The Week in Chess (TWIC 271)"
+    url: "https://theweekinchess.com/html/twic271.html"
+    accessed: "2000-01-17"
+  - id: 21
+    title: "2000"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=2000&oldid=1380003199"
+    accessed: "2026-09-22"

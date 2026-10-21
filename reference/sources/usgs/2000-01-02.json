@@ -1,0 +1,88 @@
+{
+  "date": "2000-01-02",
+  "earthquakes": [
+    {
+      "depth_km": 33,
+      "id": "usp0009kng",
+      "latitude": 51.447,
+      "longitude": -175.558,
+      "mag": 5.8,
+      "place": "88 km ESE of Adak, Alaska",
+      "time_utc": "2000-01-02T12:58:42Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kng"
+    },
+    {
+      "depth_km": 33,
+      "id": "usp0009knu",
+      "latitude": -20.771,
+      "longitude": -174.236,
+      "mag": 5.8,
+      "place": "95 km ENE of Kolonga, Tonga",
+      "time_utc": "2000-01-02T15:16:32Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009knu"
+    },
+    {
+      "depth_km": 582.3,
+      "id": "usp0009knd",
+      "latitude": -17.943,
+      "longitude": -178.476,
+      "mag": 5.5,
+      "place": "234 km E of Levuka, Fiji",
+      "time_utc": "2000-01-02T12:14:39Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009knd"
+    },
+    {
+      "depth_km": 33,
+      "id": "usp0009knz",
+      "latitude": 51.499,
+      "longitude": -175.52,
+      "mag": 5.2,
+      "place": "87 km ESE of Adak, Alaska",
+      "time_utc": "2000-01-02T17:25:30Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009knz"
+    },
+    {
+      "depth_km": 33,
+      "id": "usp0009kn5",
+      "latitude": 27.559,
+      "longitude": 92.498,
+      "mag": 5,
+      "place": "33 km NNE of Bomdila, India",
+      "time_utc": "2000-01-02T10:23:58Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kn5"
+    },
+    {
+      "depth_km": 73.7,
+      "id": "usp0009knf",
+      "latitude": 5.642,
+      "longitude": 125.14,
+      "mag": 4.9,
+      "place": "15 km WSW of Burias, Philippines",
+      "time_utc": "2000-01-02T12:46:58Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009knf"
+    },
+    {
+      "depth_km": 151.6,
+      "id": "usp0009kmj",
+      "latitude": 19.149,
+      "longitude": 145.565,
+      "mag": 4.7,
+      "place": "Maug Islands region, Northern Mariana Islands",
+      "time_utc": "2000-01-02T01:51:40Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kmj"
+    },
+    {
+      "depth_km": 33,
+      "id": "usp0009kmq",
+      "latitude": -17.133,
+      "longitude": -172.941,
+      "mag": 4.5,
+      "place": "159 km SE of Hihifo, Tonga",
+      "time_utc": "2000-01-02T03:25:39Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kmq"
+    }
+  ],
+  "endpoint": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+  "fetched_at": "2026-10-21T02:03:27Z",
+  "minmagnitude": 4.5
+}

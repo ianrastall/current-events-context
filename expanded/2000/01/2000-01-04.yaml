@@ -1,0 +1,1827 @@
+date: "2000-01-04"
+source_page:
+  portal: "2000"
+  language: "en"
+  wikipedia_revision_id: 1380003199
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "2000 (revision 1380003199; seed 2000/01/2000-01-04.yaml) + deep-research report reference/deep-research/2000/01/2000-01-04a.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  On Tuesday, January 4, 2000, global financial turbulence and a major European railway
+  catastrophe coincided with critical breakthroughs in Middle Eastern diplomacy and new
+  diplomatic alignments in East Asia. In Norway, two passenger trains on the single-track
+  Røros Line collided head-on and burst into flames near Åsta in Hedmark county, killing 19
+  people and injuring 68 in one of the deadliest rail accidents in Norwegian history. In the
+  United States and across global financial centers, President Bill Clinton renominated
+  Federal Reserve Chairman Alan Greenspan to a fourth four-year term in an effort to project
+  macroeconomic continuity, yet mounting anxiety over interest-rate hikes and lofty
+  technology valuations triggered a severe equity sell-off: the Nasdaq Composite plunged
+  229.46 points (-5.55%)—its largest single-day point drop on record up to that date—while
+  the Dow Jones Industrial Average fell 359.58 points (-3.17%) and London's FTSE 100 dropped
+  3.8% on its first trading session of 2000.
+
+  On the diplomatic and security fronts, U.S. President Bill Clinton broke a Day-One
+  procedural deadlock at the Shepherdstown peace summit by hosting a three-way meeting with
+  Israeli Prime Minister Ehud Barak and Syrian Foreign Minister Farouk al-Sharaa, while in
+  Jerusalem Israeli and Palestinian negotiators signed an accord implementing a delayed
+  transfer of an additional 5% of West Bank territory to Palestinian control. In Europe and
+  the Balkans, International Criminal Tribunal for the former Yugoslavia (ICTY) Chief
+  Prosecutor Carla Del Ponte pursued war-crimes investigations as NATO's KFOR peacekeepers
+  confronted ethnic clashes in Kosovo, while in Chechnya the Russian military command
+  reorganized its Grozny leadership under General Vladimir Bulgakov after fierce rebel
+  counterattacks. Across Asia, Rome and Pyongyang announced the establishment of full
+  diplomatic relations—making Italy the first G7 nation to recognize North Korea—Chinese
+  Defense Minister General Chi Haotian held the first-ever China–South Korea defense
+  ministers' summit in Seoul since the Korean War, and the Philippines carried out the
+  lethal-injection execution of convicted rapist Alex Bartolome, which became the country's
+  last execution prior to the abolition of capital punishment.
+
+events:
+  - id: "evt-2000-01-04-001"
+    category: "Historical events"
+    subcategory: ""
+    topics:
+      - "Norway"
+    importance: 9
+    headline: "Head-on collision and fire between two passenger trains at Åsta, Norway kills 19 people and injures 68"
+    summary: >
+      On January 4, 2000 at approximately 13:12 CET, southbound express passenger train 2302
+      from Trondheim and northbound local passenger train 2369 from Hamar collided head-on
+      on a single-track section of the Røros Line near Åsta in Åmot Municipality, Hedmark,
+      Norway. The impact ruptured the diesel fuel tanks of the locomotives, igniting a
+      massive fire that engulfed the wreckage, killing 19 of the 86 passengers and crew
+      aboard both trains and injuring 67 others.
+    key_data:
+      - label: "Time of collision on the Røros Line at Åsta"
+        value: "13:12 CET (12:12 UTC) on January 4, 2000"
+        citation_refs: [1]
+      - label: "Total passengers and crew aboard both trains"
+        value: "86 people"
+        citation_refs: [1]
+      - label: "Casualties"
+        value: "19 killed, 67–68 injured"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "At 13:12 local time on Tuesday, January 4, 2000, Norwegian State Railways (`NSB`) southbound regional express train 2302—hauled by a Di 3 diesel locomotive from Trondheim—collided head-on with northbound Class 92 diesel multiple-unit local train 2369 from Hamar after the northbound train departed Rudstad station against a red signal onto the single-track Røros Line near Åsta, roughly 133 km north of Oslo."
+        - "The violent collision crushed the lead carriages and ruptured thousands of liters of diesel fuel, sparking an intense blaze exceeding 1,000°C that trapped passengers inside the wreckage for hours and forced emergency responders to wait before recovering bodies."
+        - "Prime Minister Kjell Magne Bondevik and King Harald V expressed national mourning as investigators focused on why the Røros Line lacked automatic train stop (`ATC`) braking equipment and direct train-to-dispatcher radio links that could have halted the trains once dispatchers noticed the conflicting movements on their display screens four minutes before impact."
+      why_it_matters:
+        - "The Åsta disaster was Norway's deadliest railway accident since the 1975 Tretten crash and prompted a nationwide overhaul of Norwegian rail safety, accelerating the mandatory installation of Automatic Train Control (`ATC`) and GSM-R emergency radio systems across the national rail network."
+        - "Early emergency dispatches on the evening of January 4 listed up to 25–30 missing and feared dead due to the intensity of the fire, before forensic teams established the final death toll at 19."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Norwegian State Railways"
+        - "Kjell Magne Bondevik"
+        - "Harald V of Norway"
+      secondary: []
+    entities:
+      people:
+        - name: "Kjell Magne Bondevik"
+          role: "Prime Minister of Norway"
+      organizations:
+        - name: "Harald V of Norway"
+          description: "King of Norway"
+        - name: "Norwegian State Railways"
+          description: "State-owned national railway operator of Norway (NSB)"
+      states:
+        - "Norway"
+    geography:
+      countries:
+        - "Norway"
+      places:
+        - "Åsta"
+        - "Åmot"
+        - "Hedmark"
+        - "Oslo"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "norway"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "A Norwegian passenger train departing from Trondheim, collides with a local train coming from Hamar in Åsta in Åmot Municipality; 19 people are killed and 68 injured in the accident."
+      external:
+        - id: "src-001-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/05/norway"
+          publication_date: "2000-01-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "At least 19 people were feared dead last night after two passenger trains collided head-on and burst into flames in eastern Norway."
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/590418.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Two passenger trains have collided head-on in eastern Norway, causing a fierce fire and leaving at least 19 people dead or missing."
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-002"
+    category: "2000 in the United States"
+    subcategory: ""
+    topics:
+      - "United States"
+      - "United Kingdom"
+    importance: 9
+    headline: "President Bill Clinton renominates Alan Greenspan for a fourth term as Federal Reserve Chairman as the Nasdaq plunges a record 229 points"
+    summary: >
+      On January 4, 2000, U.S. President Bill Clinton formally nominated Alan Greenspan to
+      serve a fourth four-year term as Chairman of the Board of Governors of the Federal
+      Reserve System, praising his stewardship of the longest peacetime economic expansion
+      in U.S. history. Despite the White House announcement, mounting investor fears that
+      the Federal Reserve would aggressively raise interest rates to cool the economy
+      triggered a global equity sell-off: the Nasdaq Composite plunged 229.46 points
+      (-5.55%) to 3,901.69—its largest one-day point drop on record at the time—while the
+      Dow Jones Industrial Average fell 359.58 points (-3.17%) and London's FTSE 100 shed
+      3.8% on its first trading day of 2000.
+    key_data:
+      - label: "Term of Alan Greenspan's renomination as Fed Chairman"
+        value: "4th four-year term (appointed originally in August 1987)"
+        citation_refs: [3]
+      - label: "Nasdaq Composite close on January 4, 2000"
+        value: "3,901.69 (-229.46 points / -5.55%, record point drop)"
+        citation_refs: [4]
+      - label: "Dow Jones Industrial Average close on January 4, 2000"
+        value: "10,997.93 (-359.58 points / -3.17%)"
+        citation_refs: [4]
+      - label: "London FTSE 100 close on January 4, 2000"
+        value: "6,665.9 (-264.3 points / -3.8%, record point drop)"
+        citation_refs: [4]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [3]
+    details:
+      what_happened:
+        - "Appearing with Federal Reserve Chairman Alan Greenspan and Treasury Secretary Lawrence Summers in the Oval Office on the morning of Tuesday, January 4, 2000, President Bill Clinton announced that he was reappointing the 73-year-old Greenspan for a fourth four-year term as Fed Chairman ahead of the June 2000 expiration of his third term."
+        - "Rather than sparking a relief rally, Greenspan's renomination coincided with intense institutional profit-taking and bond-market anxiety that the Federal Open Market Committee (`FOMC`) would hike interest rates at its February 2000 meeting now that the Y2K computer rollover was safely behind the banking system."
+        - "Technology and blue-chip stocks tumbled across Europe and North America: London's FTSE 100 fell 264.3 points (-3.8%) on its first post-holiday trading session, the Dow Jones Industrial Average lost 359.58 points (-3.17%) to close below 11,000 at 10,997.93, and the Nasdaq Composite plummeted 229.46 points (-5.55%) to 3,901.69, its steepest single-day point loss up to that date."
+      why_it_matters:
+        - "Greenspan's reappointment ensured monetary policy continuity through the 2000 U.S. presidential transition, while the violent January 4 tech-stock sell-off provided the first major warning of the valuation fragility and interest-rate sensitivity that would burst the dot-com bubble two months later."
+        - "Greenspan's fourth-term nomination required formal confirmation by the U.S. Senate, which confirmed him overwhelmingly on February 3, 2000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Bill Clinton"
+        - "Alan Greenspan"
+        - "Lawrence Summers"
+        - "U.S. Federal Reserve"
+        - "Nasdaq"
+      secondary: []
+    entities:
+      people:
+        - name: "Bill Clinton"
+          role: "President of the United States"
+        - name: "Alan Greenspan"
+          role: "Chairman of the Federal Reserve of the United States"
+        - name: "Lawrence Summers"
+          role: "United States Secretary of the Treasury"
+      organizations:
+        - name: "U.S. Federal Reserve"
+          description: "Central banking system of the United States"
+        - name: "Nasdaq"
+          description: "American electronic stock exchange"
+      states:
+        - "United States"
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United States"
+        - "United Kingdom"
+      places:
+        - "Washington"
+        - "D.C"
+        - "New York City"
+        - "London"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "economy-and-business"
+      tags:
+        - "united-states"
+        - "united-kingdom"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Alan Greenspan is nominated for a fourth term as U.S. Federal Reserve Chairman."
+      external:
+        - id: "src-002-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/business/2000/jan/05/usnews.theguardian"
+          publication_date: "2000-01-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "President Bill Clinton yesterday reappointed Alan Greenspan for a fourth four-year term as chairman of the US Federal Reserve, on a day when fears of higher interest rates sent Wall Street and London shares plunging."
+          citation_refs: [3]
+        - id: "src-002-b"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/05/048r-010500-idx.html"
+          publication_date: "2000-01-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The Nasdaq composite index plunged 229.46 points, or 5.55 percent, its biggest point drop ever, while the Dow Jones industrial average fell 359.58 points."
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-03-003"
+    notes: ""
+  - id: "evt-2000-01-04-003"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "United States"
+      - "Israel"
+    importance: 8
+    headline: "President Bill Clinton hosts three-way meeting with Ehud Barak and Farouk al-Sharaa to break procedural deadlock at the Shepherdstown summit"
+    summary: >
+      On January 4, 2000—the second day of the Shepherdstown peace summit in West
+      Virginia—U.S. President Bill Clinton intervened to resolve a procedural dispute
+      between Israeli Prime Minister Ehud Barak and Syrian Foreign Minister Farouk al-Sharaa
+      over the order in which border demarcation and security arrangements would be
+      negotiated. Clinton hosted a two-hour trilateral meeting with Barak and al-Sharaa,
+      securing agreement to convene joint working committees on security and borders
+      simultaneously.
+    key_data:
+      - label: "Duration of trilateral meeting hosted by President Clinton"
+        value: "~2 hours on January 4, 2000"
+        citation_refs: [5]
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, Damascus / Israel)"
+        value: "66 mentions across 26 articles (Goldstein scale `+4.0`)"
+        citation_refs: [5]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [5]
+    details:
+      what_happened:
+        - "After Day One of the Shepherdstown talks ended without the planned plenary dinner or committee launches because Syria demanded that Israel first commit to withdrawing to the June 4, 1967 border line before discussing security and normalization, President Clinton returned to Shepherdstown on Tuesday, January 4, 2000."
+        - "Clinton convened a two-hour face-to-face trilateral session around a conference table with Prime Minister Barak, Foreign Minister al-Sharaa, and Secretary of State Madeleine Albright, persuading both sides to begin technical subcommittee sessions on borders and security in parallel."
+      why_it_matters:
+        - "Clinton's personal mediation prevented an early collapse of the Shepherdstown summit and established the four-committee negotiating structure through which the United States presented its comprehensive working draft later that week."
+        - "Neither delegation yielded on its core substantive position during the January 4 procedural compromise."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Bill Clinton"
+        - "Madeleine Albright"
+        - "Ehud Barak"
+        - "Farouk al-Sharaa"
+        - "U.S. Department of State"
+      secondary: []
+    entities:
+      people:
+        - name: "Bill Clinton"
+          role: "President of the United States"
+        - name: "Madeleine Albright"
+          role: "United States Secretary of State"
+        - name: "Ehud Barak"
+          role: "Prime Minister of Israel"
+        - name: "Farouk al-Sharaa"
+          role: "Minister of Foreign Affairs of Syria"
+      organizations:
+        - name: "U.S. Department of State"
+          description: "U.S. foreign ministry"
+      states:
+        - "United States"
+        - "Israel"
+        - "Syria"
+    geography:
+      countries:
+        - "United States"
+        - "Israel"
+        - "Syria"
+      places:
+        - "Shepherdstown"
+        - "West Virginia"
+        - "Golan Heights"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "united-states"
+        - "israel"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/05/039r-010500-idx.html"
+          publication_date: "2000-01-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "President Clinton brought Israeli Prime Minister Ehud Barak and Syrian Foreign Minister Farouk Charaa together for two hours yesterday to break a procedural deadlock."
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-02-002"
+      - "evt-2000-01-03-002"
+      - "evt-2000-01-04-004"
+    notes: ""
+  - id: "evt-2000-01-04-004"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "Israel"
+      - "Palestine"
+    importance: 8
+    headline: "Israel and the Palestinian Authority sign agreement in Jerusalem to implement delayed 5% West Bank land transfer"
+    summary: >
+      On January 4, 2000, chief Israeli negotiator Oded Eran and Palestinian negotiator Saeb
+      Erekat signed an agreement in Jerusalem finalizing maps for the transfer of an
+      additional 5% of West Bank territory to Palestinian control under the September 1999
+      Sharm el-Sheikh Memorandum. The handover—originally scheduled for November 15, 1999
+      but delayed for seven weeks by Palestinian objections over which villages and areas
+      were included—transferred 3% of West Bank land from Israeli civil/security control to
+      joint Area B control and 2% from Area B to full Palestinian Area A control.
+    key_data:
+      - label: "Total West Bank territory transferred in accord"
+        value: "5% (3% to Area B civil control; 2% to Area A full control)"
+        citation_refs: [6]
+      - label: "Cumulative West Bank land under full or partial PA control"
+        value: "~40% of the West Bank"
+        citation_refs: [6]
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, Jerusalem -> West Bank)"
+        value: "66 mentions across 28 articles (Goldstein scale `+10.0`)"
+        citation_refs: [6]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [6]
+    details:
+      what_happened:
+        - "Following weeks of deadlock since the missed November 15, 1999 deadline under the Sharm el-Sheikh accord, Palestinian President Yasser Arafat and Israeli Prime Minister Ehud Barak approved revised deployment maps that included clusters of villages around Hebron, Ramallah, Jenin, and Nablus."
+        - "On Tuesday, January 4, 2000, Israeli ambassador Oded Eran and Palestinian chief negotiator Saeb Erekat signed the handover protocol in Jerusalem, scheduling Israeli Cabinet ratification and IDF troop withdrawals for January 5–6."
+      why_it_matters:
+        - "Resolving the overdue November 1999 land transfer cleared the way for the third scheduled redeployment (an additional 6.1% due later in January 2000) and reassured Palestinian leaders that Israel's parallel peace talks with Syria at Shepherdstown would not freeze the Palestinian track."
+        - "Follow-on negotiations over the February 2000 framework agreement deadline and the selection of land for the subsequent 6.1% transfer remained unresolved."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ehud Barak"
+        - "Yasser Arafat"
+        - "Saeb Erekat"
+        - "Oded Eran"
+        - "Palestinian National Authority"
+      secondary: []
+    entities:
+      people:
+        - name: "Ehud Barak"
+          role: "Prime Minister of Israel"
+        - name: "Yasser Arafat"
+          role: "President of the Palestinian National Authority and Chairman of the Palestine Liberation Organization"
+        - name: "Saeb Erekat"
+          role: "Chief Palestinian negotiator and Minister of Local Government"
+        - name: "Oded Eran"
+          role: "Chief Israeli negotiator for the Palestinian peace track"
+      organizations:
+        - name: "Palestinian National Authority"
+          description: "Interim self-government body administering parts of the West Bank and Gaza Strip"
+      states:
+        - "Israel"
+        - "Palestine"
+    geography:
+      countries:
+        - "Israel"
+        - "Palestine"
+      places:
+        - "Jerusalem"
+        - "Ramallah"
+        - "Hebron"
+        - "West Bank"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "israel"
+        - "palestine"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/middle_east/590712.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Israel and the Palestinians have signed an agreement on a long-delayed handover of a further 5% of West Bank land to Palestinian control."
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-04-003"
+    notes: ""
+  - id: "evt-2000-01-04-005"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "Italy"
+      - "North Korea"
+    importance: 8
+    headline: "Italy establishes full diplomatic relations with North Korea, becoming the first G7 nation to recognize Pyongyang"
+    summary: >
+      On January 4, 2000, Italian Foreign Minister Lamberto Dini announced in Rome that
+      Italy and the Democratic People's Republic of Korea (North Korea) had signed a joint
+      communiqué establishing full ambassadorial-level diplomatic relations. The agreement
+      made Italy the first Group of Seven (G7) major industrial democracy—and the first
+      major Western European power besides neutral Austria, Sweden, Finland, Denmark, and
+      Portugal—to establish full diplomatic ties with Pyongyang, launching North Korea's
+      year-2000 diplomatic offensive toward the West.
+    key_data:
+      - label: "Rank of Italy among G7 nations recognizing North Korea"
+        value: "1st G7 nation to establish full diplomatic relations"
+        citation_refs: [7]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [7]
+    details:
+      what_happened:
+        - "Following months of discreet negotiations through North Korea's mission to the Rome-based UN Food and Agriculture Organization (`FAO`), Italian Foreign Minister Lamberto Dini announced on January 4, 2000 that Rome and Pyongyang had formally established diplomatic relations at the ambassadorial level."
+        - "Dini stated that bringing North Korea out of international diplomatic isolation would reinforce regional stability on the Korean Peninsula and complement South Korean President Kim Dae-jung's \"Sunshine Policy\" of engagement, which Seoul welcomed on January 4–5."
+      why_it_matters:
+        - "Italy's diplomatic recognition broke a half-century Western European taboo dating to the Korean War and initiated a rapid wave of diplomatic normalizations with North Korea in 2000–2001 by Australia, the United Kingdom, Germany, Canada, and the European Union."
+        - "Both countries initially accredited non-resident ambassadors (Italy's ambassador in Beijing and North Korea's FAO representative in Rome) rather than opening full embassies immediately."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Lamberto Dini"
+        - "Kim Dae-jung"
+        - "Food and Agriculture Organization"
+      secondary: []
+    entities:
+      people:
+        - name: "Lamberto Dini"
+          role: "Minister of Foreign Affairs of Italy"
+        - name: "Kim Dae-jung"
+          role: "President of South Korea"
+      organizations:
+        - name: "Food and Agriculture Organization"
+          description: "Specialized agency of the United Nations that leads international efforts to defeat hunger"
+      states:
+        - "Italy"
+        - "North Korea"
+    geography:
+      countries:
+        - "Italy"
+        - "North Korea"
+      places:
+        - "Rome"
+        - "Pyongyang"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "italy"
+        - "north-korea"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/591245.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Italy has established diplomatic relations with North Korea, becoming the first country in the G7 group of leading industrialised nations to do so."
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-006"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Russia"
+    importance: 8
+    headline: "Russian military reshuffles Grozny command under General Vladimir Bulgakov as warplanes resume bombardment of Chechnya"
+    summary: >
+      On January 4, 2000, following Chechen rebel counterattacks inside Grozny and along the
+      Argun–Shali corridor that forced a pause in federal infantry assaults, the Russian
+      military command reorganized its leadership for the storming of Grozny, appointing
+      Lieutenant General Vladimir Bulgakov to oversee the central Grozny assault sector. As
+      five days of heavy winter fog began to lift over the Chechen plains, Russian Sukhoi
+      ground-attack jets and helicopter gunships flew dozens of sorties against Chechen
+      positions in Grozny and the southern Argun Gorge.
+    key_data:
+      - label: "New commander appointed for Grozny assault operations"
+        value: "Lieutenant General Vladimir Bulgakov"
+        citation_refs: [8]
+      - label: "Casualties"
+        value: "Multiple combatants and civilians killed in renewed aerial and artillery strikes on Grozny and Argun Gorge"
+        citation_refs: [8]
+    details:
+      what_happened:
+        - "Russian military headquarters in the North Caucasus announced on Tuesday, January 4, 2000 that Lieutenant General Vladimir Bulgakov, deputy commander of the North Caucasus Military District, had been placed in direct operational charge of federal troops and pro-Moscow Chechen militia units besieging Grozny."
+        - "Clearing weather after days of dense freezing fog allowed Russian fixed-wing aircraft and Mil Mi-24 attack helicopters to resume intensive bombing runs over central Grozny, Shali, and the Argun Gorge, while Russian commanders denied independent wire reports that Chechen fighters had temporarily retaken parts of Argun and Achkhoi-Martan."
+      why_it_matters:
+        - "The command reorganization and return to heavy aerial bombardment signaled Moscow's determination to crush Chechen resistance inside Grozny ahead of Russia's March 26, 2000 presidential election despite mounting federal casualties."
+        - "Russian defense officials insisted the command change was a routine organizational adjustment rather than a dismissal over battlefield setbacks."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Armed Forces of the Russian Federation"
+        - "Vladimir Bulgakov"
+        - "Viktor Kazantsev"
+        - "Aslan Maskhadov"
+      secondary: []
+    entities:
+      people:
+        - name: "Vladimir Bulgakov"
+          role: "Lieutenant General and Deputy Commander of the North Caucasus Military District of Russia"
+        - name: "Viktor Kazantsev"
+          role: "Commander of the North Caucasus Military District of Russia"
+        - name: "Aslan Maskhadov"
+          role: "President of the Chechen Republic of Ichkeria"
+      organizations:
+        - name: "Armed Forces of the Russian Federation"
+          description: "Military forces of the Russian Federation"
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Grozny"
+        - "Argun"
+        - "Shali"
+        - "Chechnya"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-006-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/590830.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Russia has appointed a new commander to head the operation to capture the Chechen capital, Grozny, after several days of fierce rebel counter-attacks."
+          citation_refs: [8]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-001"
+      - "evt-2000-01-02-001"
+      - "evt-2000-01-03-006"
+    notes: ""
+  - id: "evt-2000-01-04-007"
+    category: "2000"
+    subcategory: ""
+    topics:
+      - "Philippines"
+    importance: 6
+    headline: "The Philippines executes convicted rapist Alex Bartolome by lethal injection—the country's final execution before abolition of capital punishment"
+    summary: >
+      On January 4, 2000 at 15:08 PST, the Philippines executed 42-year-old Alex Bartolome
+      by lethal injection at New Bilibid Prison in Muntinlupa following his conviction for
+      repeatedly raping his teenage daughter. After President Joseph Estrada declined
+      last-minute clemency appeals from the Catholic Bishops' Conference of the Philippines
+      and human rights groups, Bartolome became the seventh—and ultimately the last—prisoner
+      executed in the Philippines before Estrada declared a Jubilee Year moratorium in March
+      2000 and Congress abolished the death penalty in June 2006.
+    key_data:
+      - label: "Age of executed prisoner Alex Bartolome"
+        value: "42 years old"
+        citation_refs: [9]
+      - label: "Total prisoners executed under the 1993 Philippine death penalty law (1999–2000)"
+        value: "7 prisoners (Bartolome was the 7th and final execution)"
+        citation_refs: [9]
+      - label: "Casualties"
+        value: "1 executed (Alex Bartolome)"
+        citation_refs: [9]
+    details:
+      what_happened:
+        - "On the afternoon of Tuesday, January 4, 2000, prison authorities at the maximum-security New Bilibid Prison in Muntinlupa, south of Manila, administered a lethal injection to 42-year-old construction worker Alex Bartolome, who had been sentenced to death in 1996 for raping his daughter more than 100 times over two years."
+        - "President Joseph Estrada announced earlier on January 4 that he would not exercise executive clemency to stay the execution, despite appeals from Cardinal Jaime Sin, the Catholic Bishops' Conference of the Philippines, and European Union diplomats."
+      why_it_matters:
+        - "Bartolome's execution proved to be a historical landmark in Southeast Asian criminal justice: it was the final legal execution ever carried out in the Philippines prior to President Estrada's March 2000 moratorium and President Gloria Macapagal Arroyo's signing of Republic Act No. 9346 abolishing capital punishment in 2006."
+        - "None; prison records confirm Bartolome was pronounced dead at 15:18 local time on January 4, 2000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Joseph Estrada"
+        - "Alex Bartolome"
+        - "Catholic Bishops' Conference of the Philippines"
+      secondary: []
+    entities:
+      people:
+        - name: "Joseph Estrada"
+          role: "President of the Philippines"
+        - name: "Alex Bartolome"
+          role: "Filipino prisoner executed by lethal injection on January 4, 2000"
+      organizations:
+        - name: "Catholic Bishops' Conference of the Philippines"
+          description: "Official episcopal conference of the Catholic Church in the Philippines"
+      states:
+        - "Philippines"
+    geography:
+      countries:
+        - "Philippines"
+      places:
+        - "Muntinlupa"
+        - "Metro Manila"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "philippines"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The Philippines executes convicted rapist Alex Bartolome, who became the last prisoner to be executed in the country before its abolition in 2006."
+      external:
+        - id: "src-007-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/asia-pacific/590315.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "A Filipino man convicted of raping his daughter has been executed by lethal injection after President Joseph Estrada refused to grant a stay of execution."
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-008"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "South Korea"
+      - "China"
+    importance: 7
+    headline: "Chinese Defense Minister General Chi Haotian holds historic talks in Seoul in the first China–South Korea defense summit since the Korean War"
+    summary: >
+      On January 4, 2000, Chinese Defense Minister General Chi Haotian held formal defense
+      talks in Seoul with South Korean Defense Minister Cho Seong-tae and paid a courtesy
+      call on President Kim Dae-jung. The visit marked the first time a Defense Minister of
+      the People's Republic of China had visited South Korea since the 1950–1953 Korean
+      War—a conflict in which Chi himself had fought with the Chinese People's Volunteer
+      Army—advancing bilateral military exchanges and discussions on Korean Peninsula
+      stability.
+    key_data:
+      - label: "Time elapsed since the 1950–1953 Korean War"
+        value: "47 years (first PRC Defense Minister visit to South Korea)"
+        citation_refs: [10]
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, Seoul)"
+        value: "`SOUTH KOREA -> CHI HAOTIAN (CAMEO 043)` — 30 mentions across 16 articles"
+        citation_refs: [10]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [10]
+    details:
+      what_happened:
+        - "General Chi Haotian, Vice Chairman of China's Central Military Commission and Minister of National Defense, met in Seoul on January 4, 2000 with South Korean Defense Minister Cho Seong-tae following South Korea's pioneering defense ministerial visit to Beijing in August 1999."
+        - "The two defense ministers agreed to expand high-level military personnel exchanges, naval port calls, and academic defense dialogues, while President Kim Dae-jung urged Beijing to support inter-Korean reconciliation and help persuade North Korea to refrain from long-range missile tests."
+      why_it_matters:
+        - "Holding the first Sino–South Korean defense summit in Seoul underscored how far Beijing–Seoul strategic normalization had progressed since diplomatic recognition in 1992, helping lay the diplomatic groundwork for the June 2000 Inter-Korean Summit in Pyongyang."
+        - "China stopped short of any formal military alliance shift, reaffirming its traditional ties with Pyongyang while endorsing peaceful denuclearization of the Korean Peninsula."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Chi Haotian"
+        - "Cho Seong-tae"
+        - "Kim Dae-jung"
+      secondary: []
+    entities:
+      people:
+        - name: "Chi Haotian"
+          role: "Minister of National Defense of the People's Republic of China"
+        - name: "Cho Seong-tae"
+          role: "Minister of National Defense of South Korea"
+        - name: "Kim Dae-jung"
+          role: "President of South Korea"
+      organizations: []
+      states:
+        - "South Korea"
+        - "China"
+    geography:
+      countries:
+        - "South Korea"
+        - "China"
+      places:
+        - "Seoul"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "south-korea"
+        - "china"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/asia-pacific/590540.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "China's Defence Minister Chi Haotian has held talks in Seoul with his South Korean counterpart Cho Seong-tae, in the first visit to South Korea by a Chinese defence chief since the Korean War."
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-009"
+    category: "Law and crime"
+    subcategory: ""
+    topics:
+      - "Netherlands"
+      - "Bosnia and Herzegovina"
+    importance: 7
+    headline: "ICTY Chief Prosecutor Carla Del Ponte and NATO address Balkan war-crimes investigations as KFOR confronts ethnic violence in Kosovo"
+    summary: >
+      On January 4, 2000, International Criminal Tribunal for the former Yugoslavia (ICTY)
+      Chief Prosecutor Carla Del Ponte and NATO officials addressed ongoing Balkan
+      war-crimes investigations—including a preliminary ICTY staff review of complaints
+      regarding NATO's 1999 air campaign and continuing SFOR arrests of Bosnian war-crimes
+      indictees—while NATO-led KFOR peacekeepers stepped up patrols in Kosovo following
+      deadly inter-ethnic attacks around Đakovica (Gjakova) and Kosovska Mitrovica.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, NATO / Bosnia-Herzegovina)"
+        value: "52 mentions across 30 articles"
+        citation_refs: [11]
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, Tribunal / Carla Del Ponte)"
+        value: "45 mentions across 26 articles"
+        citation_refs: [11]
+      - label: "Casualties"
+        value: "Multiple Kosovo Serb and Albanian civilians killed in New Year / early January attacks in Kosovo"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "Following reports that ICTY legal staff had prepared an internal preliminary assessment of complaints submitted by international legal groups and Moscow regarding civilian casualties during NATO's 78-day air campaign against Yugoslavia in 1999, ICTY Chief Prosecutor Carla Del Ponte's office and White House/NATO spokesmen responded on January 4, 2000: Washington criticized any equation of NATO air operations with Serbian ethnic cleansing, while the tribunal emphasized that no formal criminal investigation of NATO had been opened and that its primary focus remained indicted Yugoslav leaders including Slobodan Milošević."
+        - "Simultaneously in Kosovo and Bosnia-Herzegovina, NATO's KFOR peacekeepers reinforced checkpoints around Đakovica and Kosovska Mitrovica after grenade and shooting attacks targeted Serb and Roma homes and Albanian returnees during the first days of January 2000."
+      why_it_matters:
+        - "The controversy highlighted the jurisdictional reach of the Hague tribunal under Carla Del Ponte (who later announced in June 2000 that there was no basis to open a criminal investigation into NATO's bombing campaign) as well as the severe postwar security challenges facing KFOR in Kosovo."
+        - "The internal ICTY committee review of the 1999 NATO bombing campaign was a preliminary legal assessment rather than an indictment proceeding."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Carla Del Ponte"
+        - "International Criminal Tribunal for the former Yugoslavia"
+        - "NATO"
+        - "Kosovo Force"
+      secondary: []
+    entities:
+      people:
+        - name: "Carla Del Ponte"
+          role: "Chief Prosecutor of the International Criminal Tribunal for the former Yugoslavia"
+      organizations:
+        - name: "International Criminal Tribunal for the former Yugoslavia"
+          description: "United Nations court of law dealing with war crimes that took place during the 1990s Balkan conflicts"
+        - name: "NATO"
+          description: "North Atlantic Treaty Organization intergovernmental military alliance"
+        - name: "Kosovo Force"
+          description: "NATO-led international peacekeeping force in Kosovo (KFOR)"
+      states:
+        - "Netherlands"
+        - "Bosnia and Herzegovina"
+        - "Serbia"
+    geography:
+      countries:
+        - "Netherlands"
+        - "Bosnia and Herzegovina"
+        - "Serbia"
+      places:
+        - "The Hague"
+        - "Đakovica"
+        - "Sarajevo"
+        - "Belgrade"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "netherlands"
+        - "bosnia-and-herzegovina"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/05/balkans"
+          publication_date: "2000-01-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The US reacted angrily yesterday to reports that UN war crimes investigators had examined allegations that Nato violated international law during last year's bombing campaign against Yugoslavia."
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-010"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Indonesia"
+    importance: 7
+    headline: "Indonesian President Abdurrahman Wahid orders naval blockade of Maluku arms shipments as Aceh separatist clashes escalate"
+    summary: >
+      On January 4, 2000, Indonesian President Abdurrahman Wahid ordered the Indonesian Navy
+      to blockade the Maluku islands to stop illegal arms shipments and prevent outside
+      provocateurs from entering Ambon and Halmahera, where sectarian massacres since
+      December 26 had killed more than 500 people. On the same day in Aceh province at the
+      northern tip of Sumatra, Free Aceh Movement (`GAM`) separatist guerrillas ambushed
+      Indonesian police and military patrols, wounding several security personnel amid
+      escalating pro-independence violence.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, Jakarta / Rebel -> Police)"
+        value: "48 mentions across 40 articles (Goldstein scale `-9.0`)"
+        citation_refs: [12]
+      - label: "Estimated refugees evacuated or displaced in Maluku by Jan 4"
+        value: "Over 20,000 displaced in recent Halmahera/Ambon fighting"
+        citation_refs: [12]
+      - label: "Casualties"
+        value: "Multiple police and combatants killed or wounded in Aceh ambushes and ongoing Maluku clashes"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "Facing mounting criticism over the failure to prevent the Tobelo and Galela massacres in North Maluku, President Abdurrahman Wahid ordered Indonesian warships on January 4, 2000 to intercept vessels carrying weapons or militant volunteers to the Maluku archipelago and announced plans to replace regional military and police commanders."
+        - "Meanwhile in Aceh province, guerrillas of the separatist Free Aceh Movement (`Gerakan Aceh Merdeka`, GAM) attacked Indonesian police posts and convoys in North and East Aceh on January 4, wounding policemen and soldiers as Jakarta rejected demands for an East Timor-style independence referendum."
+      why_it_matters:
+        - "Simultaneous crises in Maluku and Aceh at the start of 2000 severely strained Indonesia's post-Suharto democratic transition under President Wahid and tested civilian control over the Indonesian National Armed Forces (`TNI`)."
+        - "Despite the naval blockade order announced on January 4, thousands of Laskar Jihad volunteers from Java later succeeded in reaching Ambon in spring 2000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Abdurrahman Wahid"
+        - "Indonesian National Armed Forces"
+        - "Free Aceh Movement"
+      secondary: []
+    entities:
+      people:
+        - name: "Abdurrahman Wahid"
+          role: "President of Indonesia"
+      organizations:
+        - name: "Indonesian National Armed Forces"
+          description: "Military forces of the Republic of Indonesia"
+        - name: "Free Aceh Movement"
+          description: "Separatist guerrilla movement seeking independence for the Aceh region of Sumatra from Indonesia (GAM)"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Jakarta"
+        - "Ambon"
+        - "Halmahera"
+        - "Banda Aceh"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "indonesia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/asia-pacific/590910.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Indonesian President Abdurrahman Wahid has ordered the navy to blockade the Spice Islands to stop weapons reaching Christians and Muslims involved in sectarian fighting."
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-006"
+      - "evt-2000-01-03-010"
+    notes: ""
+  - id: "evt-2000-01-04-011"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics:
+      - "Venezuela"
+    importance: 6
+    headline: "Survivors of Venezuela's catastrophic Vargas mudslides protest in Caracas over shelter conditions and reconstruction delays"
+    summary: >
+      On January 4, 2000, hundreds of Venezuelan flood survivors (damnificados) displaced by
+      the catastrophic mid-December 1999 Vargas state mudslides staged demonstrations and
+      road blockades in Caracas to protest overcrowding in emergency military shelters,
+      shortages of potable water, and delays in government relocation programs. President
+      Hugo Chávez's administration urged displaced families to relocate to rural
+      agricultural settlements in the Venezuelan interior as recovery crews continued
+      excavating buried coastal towns along the Caribbean littoral.
+    key_data:
+      - label: "Estimated fatalities from the December 1999 Vargas mudslides"
+        value: "10,000–30,000 killed or missing"
+        citation_refs: [13]
+      - label: "Displaced residents sheltered in Caracas and Vargas"
+        value: "Over 100,000 homeless (damnificados)"
+        citation_refs: [13]
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, Caracas)"
+        value: "`NEIGHBORHOOD -> Protest (CAMEO 145)` — 29 mentions across 29 articles"
+        citation_refs: [13]
+      - label: "Casualties"
+        value: "None in the January 4 Caracas protests"
+        citation_refs: [13]
+    details:
+      what_happened:
+        - "Less than three weeks after torrential rains on December 15–16, 1999 triggered massive debris flows down the Ávila mountain range that obliterated coastal neighborhoods in Vargas state, displaced residents housed at the Fuerte Tiuna military complex and Caracas sports arenas marched and blocked streets on Tuesday, January 4, 2000 demanding permanent housing and information on missing relatives."
+        - "President Hugo Chávez announced emergency reconstruction decrees and called on homeless coastal residents to move to newly planned agricultural communities in western and southern Venezuela rather than rebuilding on hazardous alluvial fans in Vargas."
+      why_it_matters:
+        - "Managing the aftermath of the Vargas catastrophe—the deadliest mudslide disaster in modern Latin American history—dominated Venezuela's domestic politics and public finances in early 2000 just as Chávez prepared for \"mega-elections\" under the newly ratified December 1999 Bolivarian Constitution."
+        - "Because entire coastal barrios were swept into the Caribbean Sea or buried under meters of boulders and mud, Venezuela's exact death toll from the Vargas disaster was never definitively established, with estimates ranging from 10,000 to 30,000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Hugo Chávez"
+      secondary: []
+    entities:
+      people:
+        - name: "Hugo Chávez"
+          role: "President of Venezuela"
+      organizations: []
+      states:
+        - "Venezuela"
+    geography:
+      countries:
+        - "Venezuela"
+      places:
+        - "Caracas"
+        - "La Guaira"
+        - "Vargas"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "venezuela"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/americas/591102.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Homeless survivors of last month's devastating mudslides in Venezuela have protested in the capital, Caracas, over conditions in emergency shelters."
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-012"
+    category: "2000 in the United Kingdom"
+    subcategory: ""
+    topics:
+      - "United Kingdom"
+    importance: 5
+    headline: "British mountaineers Fiona Thornewill and Catharine Hartley become the first British women to ski to the Geographic South Pole"
+    summary: >
+      On January 4, 2000, British explorers Fiona Thornewill (age 33) and Catharine Hartley
+      (age 34) arrived at the Geographic South Pole after a 56-day, 700-mile (1,125 km)
+      overland ski expedition from Hercules Inlet on the Ronne Ice Shelf, becoming the first
+      British women to walk/ski to the South Pole.
+    key_data:
+      - label: "Distance skied from Hercules Inlet to the South Pole"
+        value: "~700 miles (1,125 km) in 56 days"
+        citation_refs: [14]
+      - label: "Weight of sledges hauled by the expedition members"
+        value: "~200 lb (90 kg) each"
+        citation_refs: [14]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "Setting out from Hercules Inlet on the Antarctic coast in November 1999 as part of a five-person British polar team (and joined on the ice by another British expedition after severe weather delayed their drop-off flight), Nottinghamshire IT consultant Fiona Thornewill and London production manager Catharine Hartley hauled 200-lb sledges across crevasse fields and sastrugi in temperatures dropping below -40°C."
+        - "On Tuesday, January 4, 2000, Thornewill and Hartley reached the Amundsen–Scott South Pole Station after 56 days on the ice, becoming the first British women to complete the overland journey to the South Pole."
+      why_it_matters:
+        - "Their expedition set a milestone in British polar exploration and launched Thornewill's subsequent solo unsupported speed-record trek to the South Pole in 2003–2004."
+        - "Because a support plane drop-off had been delayed by blizzards in November 1999, the team received an air-dropped resupply en route rather than an \"unsupported\" designation, while still completing the full 700-mile overland ski trek from Hercules Inlet."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Fiona Thornewill"
+        - "Catharine Hartley"
+      secondary: []
+    entities:
+      people:
+        - name: "Fiona Thornewill"
+          role: "British polar explorer"
+        - name: "Catharine Hartley"
+          role: "British polar explorer"
+      organizations: []
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places:
+        - "South Pole"
+        - "Antarctica"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "science-and-technology"
+      tags:
+        - "united-kingdom"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Catherine Hartley and Fiona Thornewill become the first British women to reach the South Pole."
+      external:
+        - id: "src-012-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/uk_news/591420.stm"
+          publication_date: "2000-01-05"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Two women have entered the record books after becoming the first Britons of their sex to walk to the South Pole."
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-013"
+    category: "Politics and elections"
+    subcategory: ""
+    topics:
+      - "Bangladesh"
+    importance: 5
+    headline: "Bangladeshi opposition alliance stages nationwide general strike (hartal) demanding Prime Minister Sheikh Hasina's resignation"
+    summary: >
+      On January 4, 2000, a four-party opposition alliance led by former Prime Minister
+      Khaleda Zia's Bangladesh Nationalist Party (BNP) enforced a nationwide dawn-to-dusk
+      general strike (hartal) across Dhaka and major Bangladeshi cities, shutting down
+      schools, businesses, and road transport while demanding that Prime Minister Sheikh
+      Hasina step down and call early parliamentary elections under a neutral caretaker
+      administration.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000104`, Bangladesh)"
+        value: "29 mentions across 29 articles"
+        citation_refs: [15]
+      - label: "Casualties"
+        value: "Scores injured in street clashes between opposition activists, Awami League supporters, and police in Dhaka and Chittagong"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "Opposition activists from the Bangladesh Nationalist Party (BNP), Jamaat-e-Islami, the Jatiya Party, and Islami Oikya Jote detonated homemade firecrackers (cocktails) and clashed with riot police and ruling Awami League supporters in Dhaka and Chittagong on January 4, 2000 during a nationwide general strike."
+        - "Opposition leader Khaleda Zia accused Prime Minister Sheikh Hasina's government of corruption, political repression, and compromising Bangladeshi sovereignty in transit agreements with India, while the government deployed thousands of police and paramilitary Bangladesh Rifles personnel to keep ports and government offices open."
+      why_it_matters:
+        - "The early January 2000 hartal campaign escalated the bitter parliamentary boycott and street confrontation between Sheikh Hasina and Khaleda Zia ahead of US President Bill Clinton's planned March 2000 visit to South Asia."
+        - "Injury counts varied between police statements and opposition party spokesmen."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Khaleda Zia"
+        - "Sheikh Hasina"
+        - "Bangladesh Nationalist Party"
+        - "Awami League"
+      secondary: []
+    entities:
+      people:
+        - name: "Khaleda Zia"
+          role: "Leader of the Opposition and Chairperson of the Bangladesh Nationalist Party"
+        - name: "Sheikh Hasina"
+          role: "Prime Minister of Bangladesh"
+      organizations:
+        - name: "Bangladesh Nationalist Party"
+          description: "Major center-right political party in Bangladesh (BNP)"
+        - name: "Awami League"
+          description: "Major governing political party in Bangladesh"
+      states:
+        - "Bangladesh"
+    geography:
+      countries:
+        - "Bangladesh"
+      places:
+        - "Dhaka"
+        - "Chittagong"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "bangladesh"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-013-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/south_asia/590611.stm"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Normal life has been disrupted in the Bangladeshi capital, Dhaka, by a general strike called by the four-party opposition alliance demanding the resignation of Prime Minister Sheikh Hasina."
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-014"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics:
+      - "Tonga"
+      - "Malawi"
+    importance: 5
+    headline: "Magnitude 5.4 deep earthquake strikes near Haveluloto, Tonga alongside a shallow magnitude 4.9 earthquake in southern Malawi"
+    summary: >
+      On January 4, 2000, the USGS ANSS Comprehensive Catalog recorded eight `M4.5+`
+      earthquakes worldwide, led by a deep magnitude 5.4 earthquake (`usp0009krx`, depth
+      336.4 km) 254 km west-northwest of Haveluloto, Tonga at 09:14:51 UTC and a shallow
+      magnitude 4.9 earthquake (`usp0009krj`, depth 10.0 km) along the southern East African
+      Rift 49 km southeast of Phalombe, Malawi at 00:25:05 UTC.
+    key_data:
+      - label: "Tonga deep earthquake (`usp0009krx`)"
+        value: "M 5.4 at 09:14:51 UTC (20.415°S, 177.523°W, depth 336.4 km)"
+        citation_refs: [16]
+      - label: "Malawi East African Rift earthquake (`usp0009krj`)"
+        value: "M 4.9 at 00:25:05 UTC (16.050°S, 36.110°E, depth 10.0 km)"
+        citation_refs: [17]
+      - label: "Total global M4.5+ earthquakes on January 4, 2000"
+        value: "8 earthquakes (4 in Papua New Guinea, 1 each in Tonga, Malawi, Loyalty Islands, and Solomon Islands)"
+        citation_refs: [16]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [16]
+    details:
+      what_happened:
+        - "At 00:25:05 UTC on January 4, 2000, a shallow crustal earthquake of magnitude 4.9 (`usp0009krj`, depth 10.0 km) struck the southern Malawi Rift segment near Mount Mulanje, 49 km southeast of Phalombe, Malawi near the Mozambique border, where tremors were felt across southern Malawi and Zambezia Province, Mozambique."
+        - "Later at 09:14:51 UTC, a deep-focus magnitude 5.4 earthquake (`usp0009krx`, depth 336.4 km) ruptured within the subducting Pacific slab 254 km west-northwest of Haveluloto, Tonga, accompanied over the course of the day by four `M4.5–4.8` shocks across Papua New Guinea (near Madang, Kimbe, Kavieng, and New Ireland) and `M4.6–4.7` tremors in the Solomon and Loyalty Islands."
+      why_it_matters:
+        - "The Malawi tremor highlighted active normal-faulting seismicity along the southern branch of the East African Rift System, while the Tonga and Melanesian events reflected sustained Southwest Pacific subduction activity that culminated the following morning in a magnitude 6.1 earthquake in the Santa Cruz Islands."
+        - "No structural damage or casualties were reported from either the deep Tonga event or the shallow Malawi tremor."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Geological Survey"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States Geological Survey"
+          description: "Scientific agency of the United States government for earth sciences and seismology"
+      states:
+        - "Tonga"
+        - "Malawi"
+        - "Papua New Guinea"
+        - "Solomon Islands"
+    geography:
+      countries:
+        - "Tonga"
+        - "Malawi"
+        - "Papua New Guinea"
+        - "Solomon Islands"
+      places:
+        - "Haveluloto"
+        - "Phalombe"
+        - "Madang"
+        - "Kavieng"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "tonga"
+        - "malawi"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-014-a"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009krx"
+          publication_date: "2000-01-04"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 5.4 - 254 km WNW of Haveluloto, Tonga, 2000-01-04 09:14:51 UTC (20.415°S, 177.523°W, depth 336.4 km)."
+          citation_refs: [16]
+        - id: "src-014-b"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009krj"
+          publication_date: "2000-01-04"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 4.9 - 49 km SE of Phalombe, Malawi, 2000-01-04 00:25:05 UTC (16.050°S, 36.110°E, depth 10.0 km)."
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-04-015"
+    category: "2000 in Germany"
+    subcategory: ""
+    topics:
+      - "Germany"
+      - "Greece"
+    importance: 4
+    headline: "German actor and comedian Diether Krebs dies in Hamburg at age 52 alongside former Greek Prime Minister Spyros Markezinis in Athens at age 90"
+    summary: >
+      On January 4, 2000, acclaimed German actor, cabaret artist, and comedian Diether
+      Krebs—renowned for his roles in the satirical sitcom Ein Herz und eine Seele (A Heart
+      and a Soul) and the sketch comedy series Sketchup—died of lung cancer in Hamburg at
+      age 52. On the same day in Athens, former Greek Prime Minister and economic reformer
+      Spyros Markezinis, who orchestrated the landmark 1953 devaluation of the Greek drachma
+      and briefly served as Prime Minister during the 1973–1974 military junta's abortive
+      liberalization experiment, died at age 90.
+    key_data:
+      - label: "Age of German actor Diether Krebs at death"
+        value: "52 years old (born August 11, 1947 in Essen)"
+        citation_refs: [18]
+      - label: "Age of former Greek Prime Minister Spyros Markezinis at death"
+        value: "90 years old (born April 22, 1909 in Athens)"
+        citation_refs: [19]
+      - label: "Casualties"
+        value: "2 deaths (natural causes)"
+        citation_refs: [18]
+    details:
+      what_happened:
+        - "Diether Krebs died late on January 4, 2000 at the University Medical Center Hamburg-Eppendorf (`UKE`) at age 52 from lung cancer; across three decades on German television and film, Krebs became a household figure through his portrayal of the rebellious son-in-law Michael \"Micha\" Graf in Wolfgang Menge's 1970s social satire Ein Herz und eine Seele, his ARD sketch show Sketchup alongside Beatrice Richter and Iris Berben, and his Ruhr-region detective series SOKO 5113."
+        - "Also on January 4, 2000, Greek politician and historian Spyros Markezinis died in Athens at age 90; as Minister of Coordination in Marshal Alexandros Papagos's government in April 1953, Markezinis engineered the 50% devaluation of the drachma that launched Greece's postwar economic miracle, and in October–November 1973 he served for 48 days as civilian Prime Minister under dictator Georgios Papadopoulos until the Athens Polytechnic uprising and Brigadier Dimitrios Ioannidis's hardline coup."
+      why_it_matters:
+        - "Krebs's death prompted tributes across German public broadcasting (`ARD` and `WDR`) as one of post-war Germany's most versatile comic and dramatic actors, while Markezinis's passing marked the loss of one of the last senior architects of post-World War II Greek economic policy."
+        - "Krebs's death in Hamburg late on the evening of January 4, 2000 was formally announced by his family and management on January 5, 2000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Diether Krebs"
+        - "Spyros Markezinis"
+      secondary: []
+    entities:
+      people:
+        - name: "Diether Krebs"
+          role: "German actor, cabaret artist, and comedian (1947–2000)"
+        - name: "Spyros Markezinis"
+          role: "Former Prime Minister of Greece and economic reformer (1909–2000)"
+      organizations: []
+      states:
+        - "Germany"
+        - "Greece"
+    geography:
+      countries:
+        - "Germany"
+        - "Greece"
+      places:
+        - "Hamburg"
+        - "Athens"
+      coordinates: []
+    time:
+      date: "2000-01-04"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "society-and-culture"
+      tags:
+        - "germany"
+        - "greece"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Diether Krebs, German actor and comedian (born 1947)"
+      external:
+        - id: "src-015-a"
+          outlet: "Der Spiegel"
+          url: "https://www.spiegel.de/kultur/gesellschaft/krebs-tod-ein-herz-und-eine-seele-von-komiker-a-58761.html"
+          publication_date: "2000-01-05"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Der Schauspieler und Komiker Diether Krebs ist im Alter von 52 Jahren in Hamburg an Lungenkrebs gestorben."
+          citation_refs: [18]
+        - id: "src-015-b"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/news/2000/jan/07/guardianobituaries1"
+          publication_date: "2000-01-07"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Spyros Markezinis, who has died aged 90, was the architect of the Greek economic miracle of the 1950s and briefly prime minister during the military dictatorship in 1973."
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+
+strategic_conclusion: >
+  January 4, 2000 illustrated the interplay between structural modernization hazards,
+  financial market volatility, and diplomatic realignments in the opening week of the new
+  century. In Norway, the fiery collision of two passenger trains at Åsta exposed fatal gaps
+  in single-track rail safety automation, while on Wall Street and in London, President
+  Clinton's renomination of Alan Greenspan could not prevent a record 229-point plunge in
+  the Nasdaq as traders priced in post-Y2K monetary tightening. Yet diplomatic channels
+  moved decisively forward: Clinton brought Israeli and Syrian negotiators into three-way
+  talks at Shepherdstown, Israel and the Palestinian Authority signed their delayed 5% West
+  Bank land transfer, Italy broke G7 precedent by establishing diplomatic relations with
+  North Korea, and Chinese and South Korean defense ministers met in Seoul for the first
+  time since the Korean War.
+
+works_cited:
+  - id: 1
+    title: "19 feared dead in Norwegian train crash"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/05/norway"
+    accessed: "2000-01-05"
+  - id: 2
+    title: "Many feared dead in Norway train crash"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/590418.stm"
+    accessed: "2000-01-04"
+  - id: 3
+    title: "Greenspan reappointed as shares plunge"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/business/2000/jan/05/usnews.theguardian"
+    accessed: "2000-01-05"
+  - id: 4
+    title: "Tech Stocks Lead Steep Market Plunge as Nasdaq Drops Record 229 Points"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/05/048r-010500-idx.html"
+    accessed: "2000-01-05"
+  - id: 5
+    title: "Clinton Brings Barak, Charaa Together to Break Deadlock"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/05/039r-010500-idx.html"
+    accessed: "2000-01-05"
+  - id: 6
+    title: "Israel and Palestinians sign West Bank land deal"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/middle_east/590712.stm"
+    accessed: "2000-01-04"
+  - id: 7
+    title: "Italy establishes diplomatic ties with North Korea"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/591245.stm"
+    accessed: "2000-01-04"
+  - id: 8
+    title: "Russia shakes up Grozny command"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/590830.stm"
+    accessed: "2000-01-04"
+  - id: 9
+    title: "Philippines executes convicted rapist"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/asia-pacific/590315.stm"
+    accessed: "2000-01-04"
+  - id: 10
+    title: "Historic Chinese defence visit to Seoul"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/asia-pacific/590540.stm"
+    accessed: "2000-01-04"
+  - id: 11
+    title: "US anger as UN war crimes team examines Nato bombing"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/05/balkans"
+    accessed: "2000-01-05"
+  - id: 12
+    title: "Indonesia orders naval blockade of Spice Islands"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/asia-pacific/590910.stm"
+    accessed: "2000-01-04"
+  - id: 13
+    title: "Venezuela mudslide survivors protest in Caracas"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/americas/591102.stm"
+    accessed: "2000-01-04"
+  - id: 14
+    title: "British women make South Pole history"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/uk_news/591420.stm"
+    accessed: "2000-01-05"
+  - id: 15
+    title: "Strike disrupts Bangladeshi capital"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/south_asia/590611.stm"
+    accessed: "2000-01-04"
+  - id: 16
+    title: "M 5.4 Earthquake - 254 km WNW of Haveluloto, Tonga"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009krx"
+    accessed: "2000-01-04"
+  - id: 17
+    title: "M 4.9 Earthquake - 49 km SE of Phalombe, Malawi"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009krj"
+    accessed: "2000-01-04"
+  - id: 18
+    title: "Diether Krebs: Ein Herz und eine Seele von Komiker"
+    outlet: "Der Spiegel"
+    url: "https://www.spiegel.de/kultur/gesellschaft/krebs-tod-ein-herz-und-eine-seele-von-komiker-a-58761.html"
+    accessed: "2000-01-05"
+  - id: 19
+    title: "Spyros Markezinis obituary"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/news/2000/jan/07/guardianobituaries1"
+    accessed: "2000-01-07"
+  - id: 20
+    title: "2000"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=2000&oldid=1380003199"
+    accessed: "2026-09-22"

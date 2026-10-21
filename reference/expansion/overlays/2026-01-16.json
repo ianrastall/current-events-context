@@ -1,0 +1,34 @@
+{
+  "ev": {
+    "md:0": {"i": 7, "ongoing": false},
+    "md:1": {"i": 8},
+    "md:2": {"i": 8, "topics": ["Taiwan–United States relations", "Tariffs in the second Trump administration", "Bilateral trade and investment", "United States", "Taiwan"], "tags": ["taiwan-united-states-relations", "tariffs-in-the-second-trump-administration", "bilateral-trade-and-investment", "semiconductors", "united-states", "taiwan"]},
+    "md:3": {"i": 8},
+    "md:4": {"i": 6},
+    "md:5": {"i": 7},
+    "md:6": {"i": 7},
+    "md:7": {"i": 8},
+    "md:8": {"i": 7},
+    "md:9": {"i": 7},
+    "md:10": {"i": 7},
+    "md:11": {"i": 7},
+    "md:12": {"i": 6},
+    "md:13": {"i": 6}
+  },
+  "events": {
+    "md:1": {"related_events": ["evt-2026-01-15-013"]},
+    "md:2": {"=topics": ["Taiwan–United States relations", "Tariffs in the second Trump administration", "Bilateral trade and investment", "United States", "Taiwan"]},
+    "md:3": {"related_events": ["evt-2026-01-15-004"]},
+    "md:4": {"related_events": ["evt-2026-01-08-006", "evt-2026-01-11-001", "evt-2026-01-13-001"]},
+    "md:5": {"related_events": ["evt-2026-01-15-009"], "time": {"date": "2026-01-16", "time_known": true, "time_detail": "Around 3:00 a.m. EAT", "ongoing": false}},
+    "md:6": {"related_events": ["evt-2026-01-15-009"], "time": {"date": "2026-01-16", "time_known": true, "time_detail": "Friday evening", "ongoing": false}},
+    "md:7": {"related_events": ["evt-2026-01-02-008"], "=entities": {"people": [{"name": "Yoon Suk Yeol", "role": "Former President of South Korea"}], "organizations": [{"name": "Seoul Central District Court", "description": "District court in Seoul, South Korea"}, {"name": "Presidential Security Service", "description": "South Korean agency responsible for presidential protection"}, {"name": "Corruption Investigation Office for High-ranking Officials", "description": "Independent South Korean anti-corruption investigating agency"}], "states": ["South Korea"]}},
+    "md:8": {"related_events": ["evt-2026-01-08-005"]},
+    "md:9": {"related_events": ["evt-2026-01-06-001", "evt-2026-01-14-010", "evt-2026-01-15-006"]},
+    "md:10": {"related_events": ["evt-2026-01-03-001", "evt-2026-01-05-002", "evt-2026-01-14-009"]},
+    "md:11": {"related_events": ["evt-2026-01-14-007"], "=entities": {"people": [{"name": "Donald Trump", "role": "President of the United States"}, {"name": "Nikolay Mladenov", "role": "High Representative for Gaza; former UN Special Coordinator for the Middle East Peace Process"}, {"name": "Ali Shaath", "role": "Chief Commissioner of the National Committee for the Administration of Gaza"}, {"name": "Marco Rubio", "role": "U.S. Secretary of State"}, {"name": "Steve Witkoff", "role": "U.S. Special Envoy to the Middle East"}, {"name": "Jared Kushner", "role": "Former White House senior adviser and Gaza Board of Peace executive board member"}, {"name": "Tony Blair", "role": "Former Prime Minister of the United Kingdom and Gaza Board of Peace executive board member"}, {"name": "Ajay Banga", "role": "President of the World Bank"}, {"name": "Jasper Jeffers", "role": "U.S. Army Major General named commander of the International Stabilization Force for Gaza"}], "organizations": [{"name": "The White House", "description": "Executive Office of the President of the United States"}], "states": ["Palestine", "Israel", "United States"]}},
+    "md:13": {"time": {"date": "2026-01-16", "time_known": true, "time_detail": "8:39 p.m. PST (11:39 p.m. EST)", "ongoing": false}}
+  },
+  "related": [["md:5", "md:6"]]
+}
+

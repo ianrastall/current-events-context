@@ -1,0 +1,1810 @@
+date: "2000-01-08"
+source_page:
+  portal: "2000"
+  language: "en"
+  wikipedia_revision_id: 1380003199
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "2000 (revision 1380003199; seed 2000/01/2000-01-08.yaml) + deep-research report reference/deep-research/2000/01/2000-01-08a.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  On Saturday, January 8, 2000, a bold Chechen counteroffensive behind Russian lines in the
+  North Caucasus, a major magnitude 7.2 earthquake in the Tonga Trench—the first `M7.0+`
+  seismic event of the year 2000—and a diplomatic freeze at the Shepherdstown Israeli–Syrian
+  peace talks coincided with cross-border fighting along the Angola–Namibia frontier and one
+  of the most dramatic finishes in American professional football history. In Chechnya,
+  hundreds of fighters under field commanders Shamil Basayev and Ruslan Gelayev infiltrated
+  through thick winter fog to attack the Russian-occupied eastern railway towns of Argun,
+  Shali, and Gudermes, surrounding federal garrisons, ambushing supply columns, and
+  prompting Moscow to replace its North Caucasus operational commanders. In West Virginia,
+  the sixth day of the Shepherdstown peace summit stalled as Syrian Foreign Minister Farouk
+  al-Sharaa refused to reconvene working committees until Israel committed in writing to
+  withdraw to the June 4, 1967 border line.
+
+  Across the Pacific and South America, the United States Geological Survey (`USGS`)
+  recorded the year's first major (`M7.0+`) earthquake—a magnitude 7.2 intermediate-depth
+  event south-southwest of Hihifo, Tonga (`usp0009kx3`)—alongside two strong magnitude 6.4
+  earthquakes on Guadalcanal in the Solomon Islands (`usp0009kvr`) and near Antofagasta,
+  Chile (`usp0009kwj`), topping a 14-earthquake global `M4.5+` sequence. Meanwhile, Beijing
+  warned New Delhi against granting political asylum to the 17th Karmapa Lama while holding
+  U.S.-based scholar Song Yongyi on state-secrets charges; Angolan and Namibian forces
+  battled UNITA insurgents along the Kavango border; the Tennessee Titans stunned the
+  Buffalo Bills 22–16 in the NFL Wild Card playoffs on the "Music City Miracle" lateral
+  return; a mysterious falling block of ice in Spain ignited a nationwide scientific and
+  media investigation into megacryometeors; Queensland Labor MP Bill D'Arcy resigned his
+  parliamentary seat in Australia; and Olympic gold medalists Fritz Thiedemann of Germany
+  and Hilary Smart of the United States died.
+
+events:
+  - id: "evt-2000-01-08-001"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Russia"
+    importance: 9
+    headline: "Chechen fighters launch surprise counteroffensive into Argun, Shali, and Gudermes behind Russian lines"
+    summary: >
+      On January 8, 2000, hundreds of Chechen fighters took advantage of dense winter fog
+      and the Orthodox Christmas lull to launch a coordinated surprise counteroffensive
+      against Russian-occupied towns across the eastern Chechen plains—storming positions in
+      Argun, Shali, and Gudermes, cutting the strategic Rostov–Baku highway, and besieging
+      Russian Interior Ministry (`OMON`) garrisons in the heaviest setback for federal
+      forces since the start of the ground invasion.
+    key_data:
+      - label: "Key rear-area towns attacked by Chechen units on January 8–9"
+        value: "Argun, Shali, Gudermes, and Dzhalka (east and southeast of Grozny)"
+        citation_refs: [1]
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Army / Vladimir in Chechnya)"
+        value: "163 combined mentions across 94 articles"
+        citation_refs: [1]
+      - label: "Casualties"
+        value: "At least 26 Russian troops killed in initial official tallies (independent and Chechen estimates: 50–100+ killed)"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "Moving along snow-covered foothill trails and drainage ditches beneath thick fog that grounded Russian Sukhoi ground-attack aircraft and Mil Mi-24 helicopter gunships, several hundred Chechen fighters under Shamil Basayev and local commanders infiltrated Argun (10 km east of Grozny), Shali (25 km southeast of Grozny), and the outskirts of Gudermes (Chechnya's second-largest city, which Acting President Vladimir Putin had visited on January 1) at dawn on Saturday, January 8, 2000."
+        - "In Argun and Dzhalka, Chechen units surrounded the railway station and municipal commandant's compound, ambushed Russian armored relief columns on the Baku–Rostov highway, and seized weapons depots before Russian reinforcements counterattacked with heavy artillery."
+        - "Amid mounting fury in Moscow over the intelligence failure in the \"liberated zones,\" the Kremlin replaced Interior Ministry (`MVD`) North Caucasus Group commander Lieutenant General Igor Gorbenko with First Deputy Interior Minister Colonel General Ivan Golubev and named General Viktor Kazantsev presidential envoy while appointing General Gennady Troshev operational commander in Chechnya."
+      why_it_matters:
+        - "The January 8–9 Argun–Shali–Gudermes counteroffensive shattered Russian claims that lowland Chechnya outside Grozny had been pacified, forcing the Russian General Staff to divert thousands of troops to rear-area security and abandon any pause in the bombardment of Grozny."
+        - "Russian military spokesmen initially dismissed the January 8 attacks as small \"bandit provocations\" before acknowledging at least 26 soldiers killed on January 9–10."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Vladimir Putin"
+        - "Gennady Troshev"
+        - "Viktor Kazantsev"
+        - "Shamil Basayev"
+        - "Aslan Maskhadov"
+        - "Armed Forces of the Russian Federation"
+      secondary: []
+    entities:
+      people:
+        - name: "Vladimir Putin"
+          role: "Acting President and Prime Minister of Russia"
+        - name: "Gennady Troshev"
+          role: "Russian Army general and Deputy Commander of the North Caucasus Military District"
+        - name: "Viktor Kazantsev"
+          role: "Commander of the North Caucasus Military District of Russia"
+        - name: "Shamil Basayev"
+          role: "Chechen separatist field commander"
+        - name: "Aslan Maskhadov"
+          role: "President of the Chechen Republic of Ichkeria"
+      organizations:
+        - name: "Armed Forces of the Russian Federation"
+          description: "Military forces of the Russian Federation"
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Argun"
+        - "Shali"
+        - "Gudermes"
+        - "Grozny"
+        - "Chechnya"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/595810.stm"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "casualty_report"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Chechen rebels have launched a series of surprise counter-attacks on Russian-held towns east of the capital, Grozny, including Argun, Shali and Gudermes."
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/10/chechnya.ameliatentleman"
+          publication_date: "2000-01-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Chechen rebels struck deep behind Russian lines over the weekend, seizing parts of the strategic towns of Shali, Argun and Gudermes in the boldest counter-offensive of the four-month war."
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-001"
+      - "evt-2000-01-06-003"
+      - "evt-2000-01-07-005"
+    notes: ""
+  - id: "evt-2000-01-08-002"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics:
+      - "Tonga"
+      - "Solomon Islands"
+    importance: 8
+    headline: "Magnitude 7.2 earthquake in Tonga—the first M7.0+ earthquake of 2000—and twin M6.4 earthquakes in the Solomon Islands and Chile lead 14 global M4.5+ events"
+    summary: >
+      On January 8, 2000 at 16:47:20 UTC, a major magnitude 7.2 intermediate-depth
+      earthquake (`usp0009kx3`, depth 183.4 km) ruptured the Tonga subduction slab 117 km
+      south-southwest of Hihifo, Tonga—becoming the first `M7.0+` earthquake of the year
+      2000 worldwide—hours after two strong magnitude 6.4 earthquakes struck Guadalcanal in
+      the Solomon Islands (`usp0009kvr` at 01:19:46 UTC) and northern Chile near Antofagasta
+      (`usp0009kwj` at 11:59:21 UTC) at the head of 14 global `M4.5+` earthquakes.
+    key_data:
+      - label: "Hihifo, Tonga major earthquake (`usp0009kx3`)"
+        value: "M 7.2 at 16:47:20 UTC (16.925°S, 174.248°W, depth 183.4 km)"
+        citation_refs: [3]
+      - label: "Malango / Guadalcanal, Solomon Islands earthquake (`usp0009kvr`)"
+        value: "M 6.4 at 01:19:46 UTC (9.805°S, 159.811°E, depth 33.0 km)"
+        citation_refs: [4]
+      - label: "Antofagasta, Chile earthquake (`usp0009kwj`)"
+        value: "M 6.4 at 11:59:21 UTC (23.169°S, 70.122°W, depth 36.0 km)"
+        citation_refs: [5]
+      - label: "Total global M4.5+ earthquakes on January 8, 2000"
+        value: "14 earthquakes (including M5.6 Indonesia and M5.4 offshore California)"
+        citation_refs: [3]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [3]
+    details:
+      what_happened:
+        - "At 01:19:46 UTC on Saturday, January 8, 2000, a strong magnitude 6.4 shallow thrust earthquake (`usp0009kvr`, depth 33.0 km) struck 15 km southeast of Malango on Guadalcanal Island near the Solomon Islands capital of Honiara, followed at 02:17:31 UTC by a magnitude 5.4 earthquake (`usp0009kvv`) on the Mendocino Fracture Zone 189 km west of Ferndale, California and at 03:44:54 UTC by a magnitude 5.6 earthquake (`usp0009kw1`) near Labuan in the Sunda Strait, Indonesia."
+        - "At 11:59:21 UTC (08:59 local time in Chile), a second magnitude 6.4 interplate earthquake (`usp0009kwj`, depth 36.0 km) struck 60 km north-northeast of Antofagasta and south of Mejillones in northern Chile, shaking buildings across the Antofagasta Region (`MMI V–VI`) without causing serious damage or injuries."
+        - "At 16:47:20 UTC, a major magnitude 7.2 (`Mw`) intraslab earthquake (`usp0009kx3`) ruptured at a depth of 183.4 km within the subducting Pacific Plate 117 km south-southwest of Hihifo (Niuatoputapu) in northern Tonga, felt across the Tonga, Samoa, and Lau island groups without generating a tsunami due to its intermediate focal depth."
+      why_it_matters:
+        - "Recording one `M7.2` and two `M6.4` earthquakes within a single 16-hour UTC window, January 8, 2000 marked the first major global seismic peak of the 21st century's opening year."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Geological Survey"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States Geological Survey"
+          description: "Scientific agency of the United States government for earth sciences and seismology"
+      states:
+        - "Tonga"
+        - "Solomon Islands"
+        - "Chile"
+        - "Indonesia"
+        - "United States"
+    geography:
+      countries:
+        - "Tonga"
+        - "Solomon Islands"
+        - "Chile"
+        - "Indonesia"
+        - "United States"
+      places:
+        - "Hihifo"
+        - "Honiara"
+        - "Antofagasta"
+        - "Labuan"
+        - "Ferndale"
+        - "California"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "tonga"
+        - "solomon-islands"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-002-a"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kx3"
+          publication_date: "2000-01-08"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 7.2 - 117 km SSW of Hihifo, Tonga, 2000-01-08 16:47:20 UTC (16.925°S, 174.248°W, depth 183.4 km)."
+          citation_refs: [3]
+        - id: "src-002-b"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kvr"
+          publication_date: "2000-01-08"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 6.4 - 15 km SE of Malango, Solomon Islands, 2000-01-08 01:19:46 UTC (9.805°S, 159.811°E, depth 33.0 km)."
+          citation_refs: [4]
+        - id: "src-002-c"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kwj"
+          publication_date: "2000-01-08"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 6.4 - 60 km NNE of Antofagasta, Chile, 2000-01-08 11:59:21 UTC (23.169°S, 70.122°W, depth 36.0 km)."
+          citation_refs: [5]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-06-014"
+      - "evt-2000-01-07-012"
+    notes: ""
+  - id: "evt-2000-01-08-003"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "United States"
+      - "Israel"
+    importance: 8
+    headline: "Israeli–Syrian peace talks at Shepherdstown stall as Syria demands border commitment before committee sessions"
+    summary: >
+      On January 8, 2000—the sixth day of the Shepherdstown peace summit—bilateral committee
+      negotiations between Israel and Syria stalled as Syrian Foreign Minister Farouk
+      al-Sharaa declined to reconvene working groups after the Jewish Sabbath unless Israeli
+      Prime Minister Ehud Barak committed to full withdrawal from the Golan Heights to the
+      June 4, 1967 line, prompting intensive separate shuttle meetings by U.S. Secretary of
+      State Madeleine Albright.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Israeli <-> Syrian)"
+        value: "170 combined mentions across 78 articles (highest global cluster on Jan 8)"
+        citation_refs: [6]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [6]
+    details:
+      what_happened:
+        - "On Saturday, January 8, 2000, negotiations at the Clarion Hotel in Shepherdstown remained deadlocked over the U.S. draft working paper tabled two days earlier: Syrian negotiators objected that convening the normal-relations and security committees without an upfront Israeli pledge to vacate the entire Golan Heights to the June 4, 1967 line favored Israel's negotiating agenda."
+        - "U.S. Secretary of State Madeleine Albright held separate discussions with Foreign Minister Farouk al-Sharaa and Prime Minister Ehud Barak on Saturday evening while preparing to brief President Bill Clinton ahead of his Sunday evening return to West Virginia."
+      why_it_matters:
+        - "The January 8 impasse made clear that the first Shepherdstown round would adjourn on January 10 without a signed framework agreement, shifting pressure onto a planned—and ultimately aborted—second round later in January."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ehud Barak"
+        - "Farouk al-Sharaa"
+        - "Madeleine Albright"
+        - "Bill Clinton"
+        - "U.S. Department of State"
+      secondary: []
+    entities:
+      people:
+        - name: "Ehud Barak"
+          role: "Prime Minister of Israel"
+        - name: "Farouk al-Sharaa"
+          role: "Minister of Foreign Affairs of Syria"
+        - name: "Madeleine Albright"
+          role: "United States Secretary of State"
+        - name: "Bill Clinton"
+          role: "President of the United States"
+      organizations:
+        - name: "U.S. Department of State"
+          description: "U.S. foreign ministry"
+      states:
+        - "United States"
+        - "Israel"
+        - "Syria"
+    geography:
+      countries:
+        - "United States"
+        - "Israel"
+        - "Syria"
+      places:
+        - "Shepherdstown"
+        - "West Virginia"
+        - "Golan Heights"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "united-states"
+        - "israel"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/middle_east/595920.stm"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Peace talks between Israel and Syria in the US town of Shepherdstown have run into fresh difficulties over the timetable for discussing an Israeli withdrawal from the Golan Heights."
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-06-001"
+      - "evt-2000-01-07-004"
+    notes: ""
+  - id: "evt-2000-01-08-004"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "China"
+      - "India"
+    importance: 7
+    headline: "China warns India against granting asylum to the 17th Karmapa Lama while detaining U.S.-based historian Song Yongyi in Beijing"
+    summary: >
+      On January 8, 2000, Chinese officials in Beijing warned the Indian government that
+      granting political asylum to the 14-year-old 17th Karmapa Lama would violate the Five
+      Principles of Peaceful Coexistence, while U.S. diplomats and academics protested
+      Beijing's formal arrest and prosecution of Dickinson College librarian and Cultural
+      Revolution researcher Song Yongyi on charges of "illegally providing intelligence to
+      foreigners."
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Beijing / Scholar <-> Lawyer)"
+        value: "222 combined mentions across 202 articles"
+        citation_refs: [7]
+      - label: "Date of Song Yongyi's formal arrest warrant in Beijing"
+        value: "December 24, 1999 (publicly confirmed and protested January 2000)"
+        citation_refs: [8]
+      - label: "Casualties"
+        value: "None; 1 academic detained"
+        citation_refs: [8]
+    details:
+      what_happened:
+        - "Following Beijing's January 7 acknowledgment that the 14-year-old 17th Karmapa Lama had left Tsurphu Monastery, Chinese diplomats and Foreign Ministry spokesmen warned New Delhi on Saturday, January 8, 2000 that allowing the Karmapa to remain in India as a political refugee would harm improving Sino-Indian relations, while Indian external affairs officials stated they were still gathering facts on the boy's arrival in Dharamshala."
+        - "Simultaneously in Beijing, Chinese state security officials blocked U.S.-based bibliographer and Dickinson College (Pennsylvania) librarian Song Yongyi—detained since August 1999 while collecting published Red Guard newspapers and Cultural Revolution documents in Beijing—from meeting his defense lawyer Tong Lihua after formally charging him with \"illegally providing intelligence to foreign organizations,\" prompting protests from the U.S. Embassy and the American Library Association."
+      why_it_matters:
+        - "International diplomatic and congressional outcry over Song Yongyi's prosecution—at a sensitive moment when the Clinton administration was seeking congressional approval of Permanent Normal Trade Relations (`PNTR`) with China—led Beijing to drop the charges and release Song on January 28, 2000, allowing him to return to the United States immediately before becoming a U.S. citizen."
+        - "India avoided formally granting the 17th Karmapa \"political asylum\" on January 8, eventually permitting him to reside in India as a religious guest under strict travel restrictions."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ogyen Trinley Dorje"
+        - "Song Yongyi"
+        - "Ministry of Foreign Affairs of the People's Republic of China"
+        - "Ministry of External Affairs (India)"
+      secondary: []
+    entities:
+      people:
+        - name: "Ogyen Trinley Dorje"
+          role: "17th Gyalwang Karmapa, head of the Karma Kagyu school of Tibetan Buddhism"
+        - name: "Song Yongyi"
+          role: "Chinese-born U.S. historian and librarian at Dickinson College researching the Cultural Revolution"
+      organizations:
+        - name: "Ministry of Foreign Affairs of the People's Republic of China"
+          description: "Executive ministry responsible for the foreign relations of China"
+        - name: "Ministry of External Affairs"
+          description: "India"
+      states:
+        - "China"
+        - "India"
+        - "United States"
+    geography:
+      countries:
+        - "China"
+        - "India"
+        - "United States"
+      places:
+        - "Beijing"
+        - "New Delhi"
+        - "Dharamshala"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "china"
+        - "india"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-004-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/south_asia/595715.stm"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "China has warned India against granting political asylum to the 14-year-old Karmapa Lama, who escaped from Tibet to Dharamsala earlier this week."
+          citation_refs: [7]
+        - id: "src-004-b"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/08/028r-010800-idx.html"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "U.S. officials and scholars protested China's decision to prosecute Song Yongyi, a Pennsylvania college librarian detained in Beijing while collecting historical newspapers from the Cultural Revolution."
+          citation_refs: [8]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-05-003"
+      - "evt-2000-01-07-001"
+    notes: ""
+  - id: "evt-2000-01-08-005"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Angola"
+      - "Namibia"
+    importance: 7
+    headline: "Angolan and Namibian forces battle UNITA rebels along the Kavango and Caprivi border regions"
+    summary: >
+      On January 8, 2000, Angolan Armed Forces (`FAA`) units operating jointly with the
+      Namibian Defence Force (`NDF`) pressed cross-border sweeps against National Union for
+      the Total Independence of Angola (`UNITA`) rebel bases along the Okavango River and
+      Caprivi Strip border, following weeks of clashes and roadside ambushes that killed
+      dozens of soldiers and civilians and drew Namibia directly into the Angolan Civil War.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Luanda / Windhoek / Rebel)"
+        value: "75 combined mentions across 65 articles"
+        citation_refs: [9]
+      - label: "Casualties"
+        value: "Dozens killed or wounded in cross-border Kavango and Cuando Cubango clashes"
+        citation_refs: [9]
+    details:
+      what_happened:
+        - "After Namibian President Sam Nujoma granted the Angolan Armed Forces (`FAA`) permission in December 1999 to launch offensive operations against Jonas Savimbi's `UNITA` strongholds in southern Angola from Namibian soil, joint Angolan and Namibian columns battled UNITA guerrillas around Jamba, Calai, and the Kavango/Caprivi frontier on January 7–8, 2000."
+        - "Retaliatory night raids, landmine attacks, and highway ambushes inside Namibia's Kavango Region—including an attack on French tourists and local villagers—prompted Windhoek to impose dusk-to-dawn military escorts along the Trans-Caprivi Highway and deploy additional Namibian troops to the border."
+      why_it_matters:
+        - "The opening of a southern front from Namibian territory deprived UNITA of its historic logistical sanctuaries in Cuando Cubango Province, fatally weakening Savimbi's conventional military capability over the final two years of the Angolan Civil War."
+        - "Both UNITA and the Namibian Defence Force accused each other of cross-border looting and attacks on border villages."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "José Eduardo dos Santos"
+        - "Sam Nujoma"
+        - "Jonas Savimbi"
+        - "UNITA"
+        - "Angolan Armed Forces"
+      secondary: []
+    entities:
+      people:
+        - name: "José Eduardo dos Santos"
+          role: "President of Angola"
+        - name: "Sam Nujoma"
+          role: "Angolan Civil War. After Namibian President"
+        - name: "Jonas Savimbi"
+          role: "Leader of the Angolan rebel movement UNITA"
+      organizations:
+        - name: "UNITA"
+          description: "National Union for the Total Independence of Angola rebel movement and political party"
+        - name: "Angolan Armed Forces"
+          description: "National military forces of the Republic of Angola (FAA)"
+      states:
+        - "Angola"
+        - "Namibia"
+    geography:
+      countries:
+        - "Angola"
+        - "Namibia"
+      places:
+        - "Luanda"
+        - "Windhoek"
+        - "Caprivi Strip"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "angola"
+        - "namibia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-005-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/africa/595640.stm"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Angolan and Namibian troops have clashed with Unita rebels along the border between the two countries after Namibia allowed Luanda's army to use its territory to attack rebel bases."
+          citation_refs: [9]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-08-006"
+    category: "Sports"
+    subcategory: ""
+    topics:
+      - "United States"
+    importance: 6
+    headline: "Tennessee Titans defeat the Buffalo Bills 22–16 in the NFL Wild Card playoffs on the \"Music City Miracle\" kickoff lateral"
+    summary: >
+      On January 8, 2000, in the AFC Wild Card playoff game at Adelphia Coliseum in
+      Nashville, Tennessee, the Tennessee Titans defeated the Buffalo Bills 22–16 on the
+      "Music City Miracle"—a 75-yard kickoff return touchdown with 16 seconds remaining in
+      which tight end Frank Wycheck threw a cross-field backward pass (lateral) to wide
+      receiver Kevin Dyson, who sprinted down the left sideline as time expired and the play
+      was upheld after video replay review.
+    key_data:
+      - label: "Final score of the AFC Wild Card game (Jan 8, 2000)"
+        value: "Tennessee Titans 22, Buffalo Bills 16"
+        citation_refs: [10]
+      - label: "Time remaining at start of kickoff return / end of touchdown"
+        value: "0:16 remaining at kickoff; 0:03 remaining at touchdown (75-yard return)"
+        citation_refs: [10]
+      - label: "Attendance at Adelphia Coliseum, Nashville"
+        value: "66,672 spectators"
+        citation_refs: [10]
+      - label: "Wikidata day-precision item (`2000-01-08`)"
+        value: "`Q6941481` (Music City Miracle, sitelinks=5)"
+        citation_refs: [10]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [10]
+    details:
+      what_happened:
+        - "Trailing 15–13 in the final minute of the AFC Wild Card playoff game in Nashville on Saturday afternoon, January 8, 2000, the Buffalo Bills took a 16–15 lead with 16 seconds left on a 41-yard field goal by Steve Christie."
+        - "On the ensuing squib kickoff by Christie, Titans fullback Lorenzo Neal fielded the ball at the 25-yard line and handed it off to tight end Frank Wycheck, who ran right to draw the Buffalo coverage team before throwing the ball across the field along the 25-yard line to wide receiver Kevin Dyson; Dyson caught the ball in stride behind a convoy of blockers and raced 75 yards down the left sideline for a touchdown with three seconds remaining."
+        - "Referee Phil Luckett reviewed the instant replay for several minutes to determine whether Wycheck's cross-field throw was an illegal forward pass or a legal lateral, ruling that the ball had not traveled forward and confirming the touchdown for a 22–16 Tennessee victory."
+      why_it_matters:
+        - "Ranked among the greatest and most replayed finishes in National Football League history, the \"Music City Miracle\" propelled the Tennessee Titans all the way to Super Bowl XXXIV while marking the start of a 17-season NFL playoff drought for the Buffalo Bills (1999–2016)."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Kevin Dyson"
+        - "Frank Wycheck"
+        - "Jeff Fisher"
+        - "Wade Phillips"
+        - "National Football League"
+      secondary: []
+    entities:
+      people:
+        - name: "Kevin Dyson"
+          role: "American football wide receiver for the Tennessee Titans"
+        - name: "Frank Wycheck"
+          role: "American football tight end for the Tennessee Titans"
+        - name: "Jeff Fisher"
+          role: "Head coach of the Tennessee Titans"
+        - name: "Wade Phillips"
+          role: "Head coach of the Buffalo Bills"
+      organizations:
+        - name: "National Football League"
+          description: "Premier professional American football league in the United States (NFL)"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Nashville"
+        - "Tennessee"
+        - "Buffalo"
+        - "New York"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-006-a"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/09/061r-010900-idx.html"
+          publication_date: "2000-01-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Kevin Dyson took a cross-field lateral from tight end Frank Wycheck on a kickoff return with 16 seconds remaining and raced 75 yards for a touchdown yesterday to give the Tennessee Titans a miraculous 22-16 AFC wild-card victory over the Buffalo Bills."
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-08-007"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Sudan"
+    importance: 6
+    headline: "Clashes between SPLA rebels and Sudanese forces in southern Sudan disrupt aid corridors and threaten oil zones"
+    summary: >
+      On January 8, 2000, fighting between the Sudan People's Liberation Army (`SPLA`) led
+      by John Garang and Sudanese government troops backed by allied militias intensified in
+      Upper Nile (Unity State) and Bahr el Ghazal, threatening foreign oil workers and
+      prompting humanitarian agencies under Operation Lifeline Sudan to warn of severe
+      winter food-aid disruptions.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Rebel / Worker in Sudan)"
+        value: "69 combined mentions across 46 articles"
+        citation_refs: [11]
+      - label: "Casualties"
+        value: "Ongoing combat fatalities in Unity State and Bahr el Ghazal"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "Less than a month after Sudanese President Omar al-Bashir dissolved parliament and declared a three-month state of emergency on December 12, 1999 to sideline Islamist rival Hassan al-Turabi, `SPLA` and allied southern factions pressed attacks on January 7–8, 2000 near the Heglig and Bentiu oilfields in Unity State (Western Upper Nile), which had begun exporting crude via the 1,600-km pipeline to Port Sudan in August 1999."
+        - "Simultaneously, international humanitarian relief organizations operating out of Nairobi and Lokichoggio reported security restrictions and flight denials affecting aid workers in southern Sudan."
+      why_it_matters:
+        - "The early 2000 battles around Unity State oilfields underscored how oil revenues had become the central strategic prize of the Second Sudanese Civil War while al-Bashir consolidated executive power in Khartoum."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Omar al-Bashir"
+        - "John Garang"
+        - "Sudan People's Liberation Army"
+      secondary: []
+    entities:
+      people:
+        - name: "Omar al-Bashir"
+          role: "Sudanese President"
+        - name: "John Garang"
+          role: "Leader of the Sudan People's Liberation Movement/Army (SPLM/A)"
+      organizations:
+        - name: "Sudan People's Liberation Army"
+          description: "Southern Sudanese rebel military movement led by John Garang"
+      states:
+        - "Sudan"
+    geography:
+      countries:
+        - "Sudan"
+      places:
+        - "Khartoum"
+        - "Bentiu"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "sudan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/africa/595780.stm"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Rebel forces in southern Sudan say they have clashed with government troops protecting oil installations as aid agencies warn of growing insecurity for relief workers."
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-08-008"
+    category: "Law and crime"
+    subcategory: ""
+    topics:
+      - "Bosnia and Herzegovina"
+    importance: 6
+    headline: "Human rights groups criticize NATO peacekeepers over indicted war criminals remaining at large in Bosnia-Herzegovina"
+    summary: >
+      On January 8, 2000, international human rights organizations and war-crimes monitors
+      criticized NATO's Stabilization Force (`SFOR`) and authorities in Bosnia and
+      Herzegovina's Republika Srpska over the slow pace of arrests of publicly indicted
+      war-crimes suspects—including wartime Bosnian Serb leader Radovan Karadžić and
+      military commander Ratko Mladić—warning that the continued impunity of indicted
+      figures was obstructing refugee returns four years after the Dayton Agreement.
+    key_data:
+      - label: "Publicly indicted ICTY suspects still at large in early January 2000"
+        value: "Over 30 public indictees (including Radovan Karadžić and Ratko Mladić)"
+        citation_refs: [12]
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Human Rights Group -> Bosnia)"
+        value: "39 mentions across 21 articles"
+        citation_refs: [12]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "On Saturday, January 8, 2000, human rights groups and officials from the International Criminal Tribunal for the former Yugoslavia (`ICTY`) in The Hague highlighted that despite occasional `SFOR` commando snatches in late 1999, dozens of indicted Bosnian war criminals continued to live openly or move under protection in Republika Srpska and neighboring Serbia."
+        - "Advocacy groups urged NATO Secretary General Lord Robertson and U.S., British, and French `SFOR` sector commanders to abandon passive patrol postures and execute pending sealed and public arrest warrants to enable minority refugees to return home safely in 2000."
+      why_it_matters:
+        - "The early January pressure preceded a series of high-profile `SFOR` arrest operations in Bosnia during the spring of 2000, including the April 2000 capture of wartime Bosnian Serb Presidency member Momčilo Krajišnik in Pale."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "International Criminal Tribunal for the former Yugoslavia"
+        - "NATO"
+        - "Human Rights Watch"
+        - "Radovan Karadžić"
+      secondary: []
+    entities:
+      people:
+        - name: "Radovan Karadžić"
+          role: "Former President of Republika Srpska indicted for war crimes by the ICTY"
+      organizations:
+        - name: "International Criminal Tribunal for the former Yugoslavia"
+          description: "United Nations court of law dealing with war crimes that took place during the 1990s Balkan conflicts"
+        - name: "NATO"
+          description: "North Atlantic Treaty Organization intergovernmental military alliance"
+        - name: "Human Rights Watch"
+          description: "International human-rights organization"
+      states:
+        - "Bosnia and Herzegovina"
+    geography:
+      countries:
+        - "Bosnia and Herzegovina"
+      places:
+        - "Sarajevo"
+        - "Pale"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "bosnia-and-herzegovina"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/595860.stm"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Human rights groups have criticised Nato-led peacekeepers in Bosnia for failing to arrest top war crimes suspects who remain at large four years after the Dayton peace accord."
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-04-009"
+    notes: ""
+  - id: "evt-2000-01-08-009"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Sri Lanka"
+    importance: 6
+    headline: "Sri Lankan police announce breakthroughs in identifying the Colombo suicide bomber as President Kumaratunga vows to defeat the LTTE"
+    summary: >
+      On January 8, 2000, Sri Lankan police investigators in Colombo announced that they had
+      traced the residence and local handlers of the female Liberation Tigers of Tamil Eelam
+      (`LTTE`) suicide bomber who killed 13 people outside Prime Minister Sirimavo
+      Bandaranaike's office on January 5, while President Chandrika Kumaratunga accused
+      opposition figures of collaborating with the Tamil Tigers as Kumar Ponnambalam's
+      funeral took place in Colombo.
+    key_data:
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Police / LTTE in Colombo)"
+        value: "52 combined mentions across 52 articles"
+        citation_refs: [13]
+      - label: "Casualties"
+        value: "None on January 8 (13 killed in Jan 5 bombing)"
+        citation_refs: [13]
+    details:
+      what_happened:
+        - "Following three days of forensic work and interrogation of suspects detained during Colombo's security sweeps, Sri Lankan Criminal Investigation Department (`CID`) officers announced on Saturday, January 8, 2000 that they had identified the boarding house in Colombo where the January 5 female suicide bomber had stayed for several months and arrested several suspected accomplices."
+        - "On the same day in Colombo, thousands of mourners attended the funeral of assassinated All Ceylon Tamil Congress (`ACTC`) leader Kumar Ponnambalam while President Chandrika Kumaratunga delivered a combative television broadcast alleging a broader LTTE conspiracy to assassinate Sri Lanka's political leadership."
+      why_it_matters:
+        - "The investigation into the January 5 Colombo attacks prompted the Sri Lankan government to maintain wartime emergency regulations and tighten checkpoints across the capital throughout early 2000."
+        - "No arrests were announced in the separate gun-attack assassination of Kumar Ponnambalam."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Chandrika Kumaratunga"
+        - "Kumar Ponnambalam"
+        - "Liberation Tigers of Tamil Eelam"
+      secondary: []
+    entities:
+      people:
+        - name: "Chandrika Kumaratunga"
+          role: "President of Sri Lanka"
+        - name: "Kumar Ponnambalam"
+          role: "Sri Lankan Tamil human rights lawyer and President of the All Ceylon Tamil Congress (1938–2000)"
+      organizations:
+        - name: "Liberation Tigers of Tamil Eelam"
+          description: "Tamil militant separatist organization in Sri Lanka (LTTE)"
+      states:
+        - "Sri Lanka"
+    geography:
+      countries:
+        - "Sri Lanka"
+      places:
+        - "Colombo"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "sri-lanka"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/south_asia/595690.stm"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Police in Sri Lanka say they have made a breakthrough in identifying the female suicide bomber who blew herself up outside the prime minister's office in Colombo on Wednesday."
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-05-001"
+      - "evt-2000-01-06-007"
+    notes: ""
+  - id: "evt-2000-01-08-010"
+    category: "International relations"
+    subcategory: ""
+    topics:
+      - "Vatican City"
+      - "Italy"
+    importance: 5
+    headline: "Vatican and Italian authorities dispute Jubilee 2000 pilgrim arrangements and Holy Year scheduling in Rome"
+    summary: >
+      On January 8, 2000, two weeks into the Catholic Church's Great Jubilee of the Year
+      2000, Vatican officials and Rome municipal authorities led by Mayor Francesco Rutelli
+      publicly traded criticisms over tourist bus restrictions, unfinished infrastructure
+      works, and crowd management around St. Peter's Square as hundreds of thousands of Holy
+      Year pilgrims converged on the Italian capital.
+    key_data:
+      - label: "Expected pilgrims in Rome during the Great Jubilee of 2000"
+        value: "25–30 million visitors across the year 2000"
+        citation_refs: [14]
+      - label: "GDELT 1.0 CAMEO cluster (`20000108`, Vatican -> Rome / Italy)"
+        value: "76 combined mentions across 50 articles"
+        citation_refs: [14]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "Following Pope John Paul II's opening of the Holy Door at St. Peter's Basilica on Christmas Eve 1999 and the Basilica of Saint Mary Major on January 1, 2000, Vatican organizers on the Central Committee for the Great Jubilee and Rome's municipal administration clashed on January 8, 2000 over high municipal parking fees for pilgrim coaches, traffic congestion around the new Gianicolo parking garage, and civic events scheduled in Rome."
+        - "Mayor Francesco Rutelli and Italian government ministers defended the city's 3.5-trillion-lire ($1.8 billion) Jubilee infrastructure upgrade, noting that Rome's expanded metro, pedestrian zones, and restored monuments were handling the opening January wave of pilgrims smoothly."
+      why_it_matters:
+        - "Despite early January friction between Vatican prelates and Rome city hall, the Great Jubilee of 2000 ultimately drew more than 25 million pilgrims to Rome without major transport collapse or security incidents."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Pope John Paul II"
+        - "Francesco Rutelli"
+        - "Holy See"
+      secondary: []
+    entities:
+      people:
+        - name: "John Paul II"
+          role: "Pope"
+        - name: "Francesco Rutelli"
+          role: "Mayor"
+      organizations:
+        - name: "Holy See"
+          description: "Central governing body of the Catholic Church and sovereign juridical entity in Vatican City"
+      states:
+        - "Vatican City"
+        - "Italy"
+    geography:
+      countries:
+        - "Vatican City"
+        - "Italy"
+      places:
+        - "Rome"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "vatican-city"
+        - "italy"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/09/italy"
+          publication_date: "2000-01-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Vatican officials and Rome's city council clashed yesterday over transport rules and facilities for the millions of pilgrims arriving in the Italian capital for the Catholic church's Millennium Jubilee."
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-06-009"
+    notes: ""
+  - id: "evt-2000-01-08-011"
+    category: "Politics and elections"
+    subcategory: ""
+    topics:
+      - "United States"
+    importance: 6
+    headline: "Republican presidential candidates George W. Bush and John McCain clash over tax cuts in televised South Carolina debate"
+    summary: >
+      On January 8, 2000, the six contenders for the 2000 Republican presidential
+      nomination—Texas Governor George W. Bush, Arizona Senator John McCain, businessman
+      Steve Forbes, Senator Orrin Hatch, Gary Bauer, and Alan Keyes—met in Columbia, South
+      Carolina for a nationally televised debate centered on Bush's $483 billion five-year
+      tax-cut plan versus McCain's proposal to use more of the projected federal budget
+      surplus to shore up Social Security and pay down the national debt.
+    key_data:
+      - label: "Estimated 5-year cost of George W. Bush's tax-cut proposal"
+        value: "$483 billion over 5 years (~$1.3 trillion over 10 years)"
+        citation_refs: [15]
+      - label: "Estimated 5-year cost of John McCain's competing tax-cut proposal"
+        value: "$237 billion over 5 years (allocating more surplus to Social Security and debt)"
+        citation_refs: [15]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "Meeting at the Koger Center for the Arts at the University of South Carolina in Columbia on Saturday night, January 8, 2000—the second of three debates in four days across New Hampshire, South Carolina, and Michigan—front-runner George W. Bush and his chief challenger John McCain engaged in their sharpest policy exchange of the primary campaign to date."
+        - "Bush defended his across-the-board income-tax rate cuts by declaring, \"Wait a minute—this is not the government's money; this is the people's money,\" while McCain argued that cutting taxes on the wealthiest Americans before securing the long-term solvency of Social Security and Medicare risked repeating fiscal deficits."
+      why_it_matters:
+        - "The January 8 Columbia debate previewed the decisive February 19, 2000 South Carolina primary, where Bush defeated McCain (`53%` to `42%`) after losing New Hampshire, effectively sealing the Republican presidential nomination."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "George W. Bush"
+        - "John McCain"
+        - "Steve Forbes"
+        - "Alan Keyes"
+        - "Orrin Hatch"
+        - "Gary Bauer"
+      secondary: []
+    entities:
+      people:
+        - name: "George W. Bush"
+          role: "Texas Governor"
+        - name: "John McCain"
+          role: "Arizona Senator"
+        - name: "Steve Forbes"
+          role: "Senator Orrin Hatch"
+        - name: "Alan Keyes"
+          role: "American conservative activist, diplomat, and 2000 Republican presidential candidate"
+        - name: "Orrin Hatch"
+          role: "Senator"
+        - name: "Gary Bauer"
+          role: "American conservative activist and 2000 Republican presidential candidate"
+      organizations: []
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Columbia"
+        - "South Carolina"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-011-a"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/09/082r-010900-idx.html"
+          publication_date: "2000-01-09"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Texas Gov. George W. Bush and Sen. John McCain (R-Ariz.) clashed sharply over taxes and the federal surplus last night in a South Carolina debate among the six Republican presidential contenders."
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-05-013"
+    notes: ""
+  - id: "evt-2000-01-08-012"
+    category: "Science and technology"
+    subcategory: ""
+    topics:
+      - "Spain"
+    importance: 5
+    headline: "Large blocks of ice fall from a clear sky in Tocón de Quéntar and Soria, Spain, igniting a nationwide mystery over \"megacryometeors\""
+    summary: >
+      On January 8, 2000, a 4-kilogram block of ice fell from a cloudless sky onto the
+      windshield of a parked Peugeot 309 in the village of Tocón de Quéntar (Granada) and
+      another chunk of ice fell in Soria, Spain—the first documented impacts in a wave of
+      more than 50 falling ice chunks across Spain in January 2000 that sparked nationwide
+      media sensation and led Spanish National Research Council (`CSIC`) geologist Jesús
+      Martínez-Frías to coin the scientific term megacryometeor.
+    key_data:
+      - label: "Mass of ice block recovered in Tocón de Quéntar (Granada) on Jan 8, 2000"
+        value: "~4 kg (crushed the hood and windshield of a parked car)"
+        citation_refs: [16]
+      - label: "Total falling-ice reports investigated in Spain during January 2000"
+        value: "Over 50 reported cases (9 scientifically verified as megacryometeors by CSIC)"
+        citation_refs: [16]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [16]
+    details:
+      what_happened:
+        - "On Saturday, January 8, 2000, residents in the Andalusian village of Tocón de Quéntar near Granada and in the Castilian province of Soria reported large blocks of layered, milky-white ice plummeting from clear skies with loud whistling sounds, smashing the hood and windshield of a parked car in Tocón de Quéntar; pieces were preserved in home freezers by local residents and Civil Guard officers."
+        - "Over the next two weeks of January 2000, dozens of additional ice blocks weighing between 1 and 8 kilograms fell across Seville, Cádiz, Valencia, Murcia, and Madrid—initially misreported in the Spanish press as \"aerolites\" (stony meteorites) or fragments of a passing comet before planetary geologist Jesús Martínez-Frías at Spain's Centro de Astrobiología (`CSIC–INTA`) analyzed their isotopic and chemical composition."
+      why_it_matters:
+        - "Chemical analysis by `CSIC` scientists ruled out aircraft lavatory leaks (\"blue ice\") for at least nine of the specimens and established that unusual tropopause temperature and wind-shear anomalies had formed massive atmospheric ice aggregations under cloudless conditions, introducing the recognized atmospheric phenomenon of megacryometeors."
+        - "Once the January 8–18 cases received saturated television coverage in Spain, scientists determined that many subsequent late-January reports were hoaxes made from commercial freezer ice."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Spanish National Research Council"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "Spanish National Research Council"
+          description: "Public national scientific research agency of Spain (CSIC)"
+      states:
+        - "Spain"
+    geography:
+      countries:
+        - "Spain"
+      places:
+        - "Soria"
+        - "Granada"
+        - "Madrid"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "science-and-technology"
+      tags:
+        - "spain"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "In Soria (Spain) a large chunk of ice is reported to have fallen from the sky. Over the following months, a social panic about this phenomenon is unleashed, with reports of a multitude of similar cases of falling ice chunks (incorrectly named as aerolites) all over Spain, attracting great attention from the Spanish media."
+      external:
+        - id: "src-012-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/609142.stm"
+          publication_date: "2000-01-19"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Spanish scientists are investigating a series of mysterious blocks of ice that have been falling from clear skies across the country since 8 January."
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-08-013"
+    category: "Politics and elections"
+    subcategory: ""
+    topics:
+      - "Australia"
+    importance: 5
+    headline: "Queensland Labor MP Bill D'Arcy resigns from the Queensland Parliament amid the Net Bet scandal and criminal investigation"
+    summary: >
+      On January 8, 2000, veteran Queensland Australian Labor Party (`ALP`) parliamentarian
+      Bill D'Arcy—Member of the Legislative Assembly (`MLA`) for Woodridge since
+      1977—resigned his seat in the Queensland Parliament amid the "Net Bet" internet-gaming
+      licensing controversy and an active Queensland Police investigation into historical
+      child sexual offenses committed during his career as a schoolteacher in the 1960s and
+      1970s.
+    key_data:
+      - label: "Tenure of Bill D'Arcy in the Legislative Assembly of Queensland"
+        value: "1972–1974 (Albert) and 1977–2000 (Woodridge) — 25 years"
+        citation_refs: [17]
+      - label: "Result of subsequent Woodridge by-election (February 5, 2000)"
+        value: "Won by Mike Kaiser (Labor) after a 21.8% primary swing against Labor"
+        citation_refs: [17]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [17]
+    details:
+      what_happened:
+        - "Having already come under political pressure in 1999 over the \"Net Bet\" scandal—in which several Queensland Labor figures secretly held shares in an internet gambling company awarded a license by Premier Peter Beattie's government—59-year-old Woodridge MLA Bill D'Arcy announced his immediate resignation from the Queensland Parliament on Saturday, January 8, 2000."
+        - "D'Arcy's resignation eroded Premier Peter Beattie's one-seat parliamentary majority ahead of the February 5, 2000 Woodridge by-election; two months later, in March 2000, Queensland Police arrested and charged D'Arcy with dozens of counts of child sexual abuse committed while he was a state primary-school teacher between 1963 and 1971, for which he was convicted in November 2000 and sentenced to up to 14 years' imprisonment."
+      why_it_matters:
+        - "D'Arcy's resignation and subsequent conviction—together with the Electoral and Administrative Review Inquiry (Shepherdson Inquiry) into Labor branch-stacking triggered later in 2000 by his Woodridge successor Mike Kaiser—precipitated a major integrity overhaul inside the Queensland Labor Party under Premier Peter Beattie."
+        - "At the time of his January 8 parliamentary resignation, D'Arcy cited personal and political controversy surrounding the Net Bet affair; the criminal child-abuse charges were formally laid by police in March 2000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Bill D'Arcy"
+        - "Peter Beattie"
+        - "Australian Labor Party"
+      secondary: []
+    entities:
+      people:
+        - name: "Bill D'Arcy"
+          role: "Australian Labor politician and former member of the Queensland Legislative Assembly"
+        - name: "Peter Beattie"
+          role: "Premier"
+      organizations:
+        - name: "Australian Labor Party"
+          description: "Center-left federal political party in Australia"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Brisbane"
+        - "Woodridge"
+        - "Queensland"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "australia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Queensland Labor Member for Woodridge, Bill D'Arcy resigns from Queensland Parliament due to the controversy caused by the Net Bet scandal."
+      external:
+        - id: "src-013-a"
+          outlet: "ABC News (Australia)"
+          url: "https://www.abc.net.au/am/stories/s92415.htm"
+          publication_date: "2000-01-10"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Queensland Premier Peter Beattie faces a crucial by-election in the safe Labor seat of Woodridge following the surprise weekend resignation of veteran MP Bill D'Arcy."
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-08-014"
+    category: "Sports"
+    subcategory: ""
+    topics:
+      - "Germany"
+    importance: 4
+    headline: "Legendary German Olympic show-jumping equestrian Fritz Thiedemann dies in Schleswig-Holstein at age 81"
+    summary: >
+      On January 8, 2000, German equestrian legend Fritz Thiedemann—winner of two Olympic
+      team show-jumping gold medals (1956 Stockholm and 1960 Rome) and the only athlete in
+      Olympic history to win two bronze medals in different equestrian disciplines on the
+      same day at the 1952 Helsinki Games—died in Heide, Schleswig-Holstein at the age of
+      81.
+    key_data:
+      - label: "Age of Fritz Thiedemann at death"
+        value: "81 years old (born March 3, 1918 in Weddinghusen, Dithmarschen)"
+        citation_refs: [18]
+      - label: "Olympic medals won (1952–1960)"
+        value: "4 Olympic medals: 2 Gold (1956, 1960 team jumping), 2 Bronze (1952 individual jumping & team dressage)"
+        citation_refs: [18]
+      - label: "Casualties"
+        value: "1 death (natural causes)"
+        citation_refs: [18]
+    details:
+      what_happened:
+        - "Born on a farm in Weddinghusen in Schleswig-Holstein on March 3, 1918, Fritz Thiedemann became one of post-war West Germany's most beloved sports figures through his partnership with the heavy-set Holsteiner gelding Meteor, winning individual show-jumping bronze and team dressage bronze on the same day at the 1952 Helsinki Olympics before capturing team show-jumping gold at the 1956 Stockholm equestrian games and the 1960 Rome Olympics."
+        - "Voted West Germany's Sportsman of the Year in 1958 and chosen as the flag bearer for the United Team of Germany at the 1960 Rome Summer Olympics, Thiedemann died in Heide, Dithmarschen on Saturday, January 8, 2000 at age 81."
+      why_it_matters:
+        - "Thiedemann and his horse Meteor (whose bronze statue stands in front of the state chancellery in Kiel) remain icons of Germany's post-World War II return to the Olympic movement."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Fritz Thiedemann"
+        - "International Olympic Committee"
+      secondary: []
+    entities:
+      people:
+        - name: "Fritz Thiedemann"
+          role: "German equestrian show jumper and two-time Olympic gold medalist"
+      organizations:
+        - name: "International Olympic Committee"
+          description: "Non-governmental sports organization overseeing the Olympic Games"
+      states:
+        - "Germany"
+    geography:
+      countries:
+        - "Germany"
+      places:
+        - "Heide"
+        - "Kiel"
+        - "Schleswig-Holstein"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "germany"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Fritz Thiedemann, German equestrian (born 1918)"
+      external:
+        - id: "src-014-a"
+          outlet: "Der Spiegel"
+          url: "https://www.spiegel.de/sport/sonst/reiten-legende-fritz-thiedemann-ist-tot-a-60245.html"
+          publication_date: "2000-01-09"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Der zweimalige Springreiter-Olympiasieger Fritz Thiedemann ist am Samstag im Alter von 81 Jahren in seiner holsteinischen Heimat Heide gestorben."
+          citation_refs: [18]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-08-015"
+    notes: ""
+  - id: "evt-2000-01-08-015"
+    category: "Sports"
+    subcategory: ""
+    topics:
+      - "United States"
+    importance: 4
+    headline: "American 1948 Olympic Star-class sailing gold medalist Hilary Smart dies in Massachusetts at age 74"
+    summary: >
+      On January 8, 2000, American yachtsman Hilary Smart—who won the Olympic gold medal in
+      the two-person Star keelboat class crewing for his father Paul Smart aboard Hilarius
+      at the 1948 London Summer Olympics—died in Weston, Massachusetts at the age of 74.
+    key_data:
+      - label: "Age of Hilary Smart at death"
+        value: "74 years old (born July 29, 1925 in New York City)"
+        citation_refs: [19]
+      - label: "Olympic title won"
+        value: "Gold medal, Star class sailing, 1948 Summer Olympics (Torquay, Great Britain)"
+        citation_refs: [19]
+      - label: "Casualties"
+        value: "1 death (natural causes)"
+        citation_refs: [19]
+    details:
+      what_happened:
+        - "Born in New York City on July 29, 1925, Hilary Hurlburt Smart won the 1948 Star World Championship in Cascais, Portugal and the Olympic gold medal in the Star class at Torquay during the 1948 London Summer Olympics while crewing for his father, Paul Smart (a founder and president of the International Star Class Yacht Racing Association), aboard their boat Hilarius."
+        - "A 1947 graduate of Harvard University and later president of Air Guide Corporation in Weston, Massachusetts, Smart remained a lifelong competitor in the International Star Class and died in Weston on January 8, 2000 at age 74."
+      why_it_matters:
+        - "Paul and Hilary Smart's 1948 triumph remains one of the rare father-and-son gold-medal partnerships in the history of the modern Olympic Games."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Hilary Smart"
+        - "International Olympic Committee"
+      secondary: []
+    entities:
+      people:
+        - name: "Hilary Smart"
+          role: "American competitive sailor and 1948 Olympic Star class gold medalist"
+      organizations:
+        - name: "International Olympic Committee"
+          description: "Non-governmental sports organization overseeing the Olympic Games"
+      states:
+        - "United States"
+    geography:
+      countries:
+        - "United States"
+      places:
+        - "Weston"
+        - "Massachusetts"
+      coordinates: []
+    time:
+      date: "2000-01-08"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Hilary Smart, American sailor (born 1925)"
+      external:
+        - id: "src-015-a"
+          outlet: "Olympedia"
+          url: "https://www.olympedia.org/athletes/63702"
+          publication_date: "2000-01-08"
+          source_type: "news_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Hilary Smart (born 29 July 1925 in New York, died 8 January 2000 in Weston, Massachusetts) won the Star class gold medal with his father Paul Smart at the 1948 London Olympics."
+          citation_refs: [19]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-08-014"
+    notes: ""
+
+strategic_conclusion: >
+  January 8, 2000 marked a sharp military and geophysical inflection point at the end of the
+  year's first full week. In Chechnya, the surprise Chechen counteroffensive into Argun,
+  Shali, and Gudermes exposed the vulnerability of Russian rear areas and forced a command
+  shake-up in Moscow; in Shepherdstown, procedural deadlock stalled the Israeli–Syrian peace
+  summit; and along the Tonga Trench, Guadalcanal, and northern Chile, a magnitude 7.2
+  mainshock and two magnitude 6.4 earthquakes produced the year's first major global seismic
+  surge.
+
+works_cited:
+  - id: 1
+    title: "Chechen rebels launch surprise attacks on Russian-held towns"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/595810.stm"
+    accessed: "2000-01-08"
+  - id: 2
+    title: "Rebels strike deep behind Russian lines in Chechnya"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/10/chechnya.ameliatentleman"
+    accessed: "2000-01-10"
+  - id: 3
+    title: "M 7.2 Earthquake - 117 km SSW of Hihifo, Tonga"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kx3"
+    accessed: "2000-01-08"
+  - id: 4
+    title: "M 6.4 Earthquake - 15 km SE of Malango, Solomon Islands"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kvr"
+    accessed: "2000-01-08"
+  - id: 5
+    title: "M 6.4 Earthquake - 60 km NNE of Antofagasta, Chile"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kwj"
+    accessed: "2000-01-08"
+  - id: 6
+    title: "Fresh difficulties stall Israel-Syria peace talks in Shepherdstown"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/middle_east/595920.stm"
+    accessed: "2000-01-08"
+  - id: 7
+    title: "China warns India over Karmapa Lama asylum"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/south_asia/595715.stm"
+    accessed: "2000-01-08"
+  - id: 8
+    title: "U.S. Protests China's Prosecution of Librarian Studying Cultural Revolution"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/08/028r-010800-idx.html"
+    accessed: "2000-01-08"
+  - id: 9
+    title: "Angolan and Namibian troops clash with Unita along border"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/africa/595640.stm"
+    accessed: "2000-01-08"
+  - id: 10
+    title: "Titans Stun Bills on Last-Second Kickoff Lateral, 22-16"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/09/061r-010900-idx.html"
+    accessed: "2000-01-09"
+  - id: 11
+    title: "Fighting near Sudan oilfields threatens relief operations"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/africa/595780.stm"
+    accessed: "2000-01-08"
+  - id: 12
+    title: "Human rights groups criticise Nato over Bosnia war crimes suspects"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/595860.stm"
+    accessed: "2000-01-08"
+  - id: 13
+    title: "Sri Lankan police trace Colombo suicide bomber's hideout"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/south_asia/595690.stm"
+    accessed: "2000-01-08"
+  - id: 14
+    title: "Vatican and Rome council clash over Millennium Jubilee pilgrims"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/09/italy"
+    accessed: "2000-01-09"
+  - id: 15
+    title: "Bush, McCain Clash Over Taxes and Surplus in S.C. Debate"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/wp-srv/WPcap/2000-01/09/082r-010900-idx.html"
+    accessed: "2000-01-09"
+  - id: 16
+    title: "Giant hailstones puzzle Spanish scientists"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/609142.stm"
+    accessed: "2000-01-19"
+  - id: 17
+    title: "Beattie faces Woodridge by-election after Bill D'Arcy resigns"
+    outlet: "ABC News (Australia)"
+    url: "https://www.abc.net.au/am/stories/s92415.htm"
+    accessed: "2000-01-10"
+  - id: 18
+    title: "Reiten: Legende Fritz Thiedemann ist tot"
+    outlet: "Der Spiegel"
+    url: "https://www.spiegel.de/sport/sonst/reiten-legende-fritz-thiedemann-ist-tot-a-60245.html"
+    accessed: "2000-01-09"
+  - id: 19
+    title: "Hilary Smart Biographical Information"
+    outlet: "Olympedia"
+    url: "https://www.olympedia.org/athletes/63702"
+    accessed: "2000-01-08"
+  - id: 20
+    title: "2000"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=2000&oldid=1380003199"
+    accessed: "2026-09-22"

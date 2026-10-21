@@ -1,0 +1,68 @@
+{
+  "date": "2000-01-09",
+  "earthquakes": [
+    {
+      "depth_km": 33,
+      "id": "usp0009kz2",
+      "latitude": -18.823,
+      "longitude": 174.37,
+      "mag": 6.5,
+      "place": "Fiji region",
+      "time_utc": "2000-01-09T21:54:40Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kz2"
+    },
+    {
+      "depth_km": 10,
+      "id": "usp0009kyd",
+      "latitude": -2.476,
+      "longitude": 140.35,
+      "mag": 5.5,
+      "place": "34 km WNW of Abepura, Indonesia",
+      "time_utc": "2000-01-09T10:48:30Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kyd"
+    },
+    {
+      "depth_km": 56,
+      "id": "usp0009kxw",
+      "latitude": 37.28,
+      "longitude": 141.515,
+      "mag": 5.4,
+      "place": "50 km ESE of Namie, Japan",
+      "time_utc": "2000-01-09T04:02:23Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kxw"
+    },
+    {
+      "depth_km": 33,
+      "id": "usp0009kyv",
+      "latitude": -11.043,
+      "longitude": 165.279,
+      "mag": 5.1,
+      "place": "66 km WSW of Lata, Solomon Islands",
+      "time_utc": "2000-01-09T19:07:42Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kyv"
+    },
+    {
+      "depth_km": 33,
+      "id": "usp0009kxt",
+      "latitude": -10.621,
+      "longitude": 111.82,
+      "mag": 4.6,
+      "place": "276 km S of Boyolangu, Indonesia",
+      "time_utc": "2000-01-09T03:01:01Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kxt"
+    },
+    {
+      "depth_km": 10,
+      "id": "usp0009kyt",
+      "latitude": -49.446,
+      "longitude": 116.885,
+      "mag": 4.5,
+      "place": "western Indian-Antarctic Ridge",
+      "time_utc": "2000-01-09T18:24:07Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kyt"
+    }
+  ],
+  "endpoint": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+  "fetched_at": "2026-10-21T04:51:04Z",
+  "minmagnitude": 4.5
+}

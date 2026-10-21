@@ -60,7 +60,57 @@ def parse_structured(date):
             raise ValueError(f"Pinned portal payload drift for {date}")
     else:
         import yaml
-        seed = Path(__file__).resolve().parents[2] / date[:4] / date[5:7] / (date + ".yaml")
+        repo_root = Path(__file__).resolve().parents[2]
+        seed = repo_root / date[:4] / date[5:7] / (date + ".yaml")
+        if not seed.exists():
+            retro_manifest = repo_root / "reference" / "sources" / "wikipedia_retrospective" / f"{date[:4]}.json"
+            if retro_manifest.exists():
+                from seed import multisource
+                manifest = json.loads(retro_manifest.read_text(encoding="utf-8"))
+                year_page = next((p for p in manifest["pages"] if p["page"] == date[:4]), manifest["pages"][0])
+                rev = year_page["revision_id"]
+                acquired, payload = source.revision(rev)
+                if source.sha256(payload) != year_page["source_sha256"]:
+                    raise ValueError(f"Pinned retrospective payload drift for {date}")
+                meta = {
+                    "title": acquired["page"],
+                    "revid": rev,
+                    "timestamp": acquired.get("revision_timestamp"),
+                    "sha256": acquired["source_sha256"],
+                }
+                _, feed_items = multisource.extract_wikipedia_retrospective_day(date)
+                events = []
+                for idx, item in enumerate(feed_items, 1):
+                    raw_info = json.loads(item["raw_json"])
+                    cites = [
+                        {"url": c["url"], "outlet": (c.get("publisher") or c.get("display") or "").strip().strip("()").strip()}
+                        for c in raw_info.get("citations", [])
+                    ]
+                    if date >= "2000-01-06":
+                        words_new = {w.lower() for w in re.findall(r"[A-Za-z0-9]{4,}", item["title"])}
+                        dup = False
+                        for prev in events:
+                            words_prev = {w.lower() for w in re.findall(r"[A-Za-z0-9]{4,}", prev["text"])}
+                            if words_new and words_prev and len(words_new & words_prev) / min(len(words_new), len(words_prev)) >= 0.6:
+                                existing_urls = {c["url"] for c in prev["cites"]}
+                                for c in cites:
+                                    if c["url"] not in existing_urls:
+                                        prev["cites"].append(c)
+                                dup = True
+                                break
+                        if dup:
+                            continue
+                    events.append(
+                        {
+                            "category": item["category"],
+                            "topics": [],
+                            "text": item["title"],
+                            "cites": cites,
+                            "depth": 2,
+                            "line": len(events) + 1,
+                        }
+                    )
+                return meta, events
         rev = yaml.safe_load(seed.read_text(encoding="utf-8"))["source_page"]["wikipedia_revision_id"]
         acquired, payload = source.revision(rev)
         meta = {"title": acquired["page"], "revid": rev, "timestamp": acquired["revision_timestamp"], "sha256": acquired["source_sha256"]}

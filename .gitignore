@@ -403,3 +403,5 @@ FodyWeavers.xsd
 
 # Reproducible migration candidates stay separate from the canonical corpus.
 /provisional/extraction-v*/
+/provisional/*.sqlite
+/provisional/views/

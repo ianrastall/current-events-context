@@ -1,0 +1,78 @@
+{
+  "date": "2000-01-07",
+  "earthquakes": [
+    {
+      "depth_km": 10,
+      "id": "usp0009kvk",
+      "latitude": -54.326,
+      "longitude": -55.126,
+      "mag": 5.5,
+      "place": "Falkland Islands region",
+      "time_utc": "2000-01-07T23:37:20Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kvk"
+    },
+    {
+      "depth_km": 144.4,
+      "id": "usp0009kuf",
+      "latitude": -28.21,
+      "longitude": -67.351,
+      "mag": 4.8,
+      "place": "Catamarca-La Rioja region, Argentina",
+      "time_utc": "2000-01-07T01:08:19Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kuf"
+    },
+    {
+      "depth_km": 336,
+      "id": "usp0009kur",
+      "latitude": -22.056,
+      "longitude": -178.249,
+      "mag": 4.7,
+      "place": "south of the Fiji Islands",
+      "time_utc": "2000-01-07T06:05:30Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kur"
+    },
+    {
+      "depth_km": 620.9,
+      "id": "usp0009kvf",
+      "latitude": -20.82,
+      "longitude": -178.971,
+      "mag": 4.7,
+      "place": "Fiji region",
+      "time_utc": "2000-01-07T21:45:49Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kvf"
+    },
+    {
+      "depth_km": 160.2,
+      "id": "usp0009kuw",
+      "latitude": -21.865,
+      "longitude": -176.626,
+      "mag": 4.6,
+      "place": "166 km WSW of Haveluloto, Tonga",
+      "time_utc": "2000-01-07T09:14:59Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kuw"
+    },
+    {
+      "depth_km": 183.6,
+      "id": "usp0009kuj",
+      "latitude": -56.482,
+      "longitude": -28.152,
+      "mag": 4.5,
+      "place": "South Sandwich Islands region",
+      "time_utc": "2000-01-07T03:07:24Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kuj"
+    },
+    {
+      "depth_km": 33,
+      "id": "usp0009kva",
+      "latitude": 15.957,
+      "longitude": 119.459,
+      "mag": 4.5,
+      "place": "32 km W of Ilioilio, Philippines",
+      "time_utc": "2000-01-07T16:00:02Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kva"
+    }
+  ],
+  "endpoint": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+  "fetched_at": "2026-10-21T04:51:03Z",
+  "minmagnitude": 4.5
+}

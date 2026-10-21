@@ -1,0 +1,1914 @@
+date: "2000-01-01"
+source_page:
+  portal: "2000"
+  language: "en"
+  wikipedia_revision_id: 1380003199
+dataset:
+  schema_version: "2.2"
+  compiler:
+    mode: "llm_deep_research_broad_snapshot"
+    status: "draft"
+    reviewed: false
+  scope:
+    seed_source: "2000 (revision 1380003199; seed 2000/01/2000-01-01.yaml) + deep-research report reference/deep-research/2000/01/2000-01-01a.md"
+    enrichment_sources_expected: true
+editorial_policy:
+  summary_style: "factual"
+  allow_inference: false
+  require_source_support: true
+
+analytical_overview: >
+  January 1, 2000 opened the third calendar millennium amid two contrasting global
+  realities: the smooth technological transition through the long-feared Year 2000 (Y2K)
+  computer rollover and the immediate escalation of post-Cold War security crises across
+  Eurasia, South Asia, and the Middle East. Less than eighteen hours after Russian President
+  Boris Yeltsin's surprise New Year's Eve resignation elevated Prime Minister Vladimir Putin
+  to Acting President, Putin bypassed millennium ceremonies in Moscow and flew by military
+  helicopter to Gudermes in Russian-occupied Chechnya. Awarding engraved hunting knives to
+  troops engaged in the siege of Grozny, Putin anchored his interim presidency and upcoming
+  March 2000 election campaign in an uncompromising prosecution of the Second Chechen War.
+
+  Simultaneously, the eight-day hijacking crisis of Indian Airlines Flight 814 concluded in
+  the early hours of New Year's Day as the freed passengers and crew returned from
+  Taliban-controlled Kandahar to New Delhi, while the five Harkat-ul-Mujahideen hijackers
+  and three militants released by India—Masood Azhar, Ahmed Omar Saeed Sheikh, and Mushtaq
+  Ahmed Zargar—crossed from Afghanistan into Pakistan, reshaping South Asian
+  counterterrorism dynamics for decades. Elsewhere, intense sectarian and insurgent violence
+  marked the turn of the year in North Maluku, Indonesia, where inter-communal massacres on
+  Halmahera Island claimed hundreds of lives; in northern Lebanon's Dinniyeh mountains,
+  where the Lebanese Army battled Sunni Islamist insurgents; and in Al-Kosheh, Upper Egypt,
+  where sectarian clashes erupted between Muslims and Coptic Christians. Across global
+  financial, energy, aviation, and telecommunications networks, however, an estimated $300
+  billion remediation effort prevented any catastrophic Y2K systems failure as midnight
+  rolled across all twenty-four time zones.
+
+events:
+  - id: "evt-2000-01-01-001"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Russia"
+    importance: 10
+    headline: "Acting Russian President Vladimir Putin makes surprise New Year's Day visit to Russian troops in Gudermes, Chechnya"
+    summary: >
+      Less than eighteen hours after assuming the powers of Acting President of the Russian
+      Federation following Boris Yeltsin's New Year's Eve resignation, Vladimir Putin made
+      an unannounced flight to the Russian military base at Gudermes in Chechnya on January
+      1, 2000. Accompanied by his wife Lyudmila Putina and senior defense commanders, Putin
+      presented medals and engraved hunting knives to federal soldiers fighting Chechen
+      separatists and declared that the Russian mission went beyond restoring honor to
+      preventing the disintegration of the Russian Federation.
+    key_data:
+      - label: "Date of visit"
+        value: "January 1, 2000"
+        citation_refs: [1]
+      - label: "Location"
+        value: "Gudermes, Chechnya, Russia"
+        citation_refs: [1]
+      - label: "Time elapsed since Boris Yeltsin's resignation"
+        value: "Under 18 hours"
+        citation_refs: [2]
+      - label: "Casualties"
+        value: "None (during executive visit)"
+        citation_refs: [1]
+    details:
+      what_happened:
+        - "On the night of December 31, 1999 — January 1, 2000, hours after Boris Yeltsin resigned on national television and transferred presidential authority to Prime Minister Vladimir Putin, Putin boarded an aircraft heading south toward the North Caucasus war zone."
+        - "When rugged weather and heavy fog forced his plane to land in Makhachkala in neighboring Dagestan, Putin transferred to a military helicopter and flew low over Chechen territory into the federal military headquarters at Gudermes,Chechnya's second-largest town."
+        - "Addressing soldiers of the Combined Group of Federal Forces, Putin awarded state decorations and distributed inscribed hunting knives while framing the offensive against Chechen separatists around Grozny as an existential struggle for Russia's territorial integrity."
+      why_it_matters:
+        - "The surprise New Year's Day flight to the Chechen front line established Putin's public persona as a decisive commander-in-chief on his first full day as Acting President, contrasting sharply with the ailing Yeltsin and consolidating support ahead of the March 26, 2000 presidential election."
+        - "By tying his interim presidency directly to the military campaign in Chechnya, Putin signaled that Moscow would reject negotiated ceasefires with Chechen President Aslan Maskhadov and pursue the complete military capture of Grozny."
+        - "While Russian state television broadcast the Gudermes ceremony as a triumphant morale boost, independent correspondents noted that federal forces inside Grozny were simultaneously encountering stiff Chechen resistance and winter weather delays."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Vladimir Putin"
+        - "Boris Yeltsin"
+        - "Armed Forces of the Russian Federation"
+        - "Lyudmila Putina"
+      secondary: []
+    entities:
+      people:
+        - name: "Vladimir Putin"
+          role: "Acting President and Prime Minister of Russia"
+        - name: "Boris Yeltsin"
+          role: "Former President of Russia"
+        - name: "Lyudmila Putina"
+          role: "First Lady of Russia"
+      organizations:
+        - name: "Armed Forces of the Russian Federation"
+          description: "Military forces of the Russian Federation"
+      states:
+        - "Russia"
+    geography:
+      countries:
+        - "Russia"
+      places:
+        - "Gudermes"
+        - "Grozny"
+        - "Makhachkala"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "russia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-001-a"
+          outlet: "President of Russia (Kremlin)"
+          url: "http://en.kremlin.ru/events/president/transcripts/24122"
+          publication_date: "2000-01-01"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "This is not even a question of restoring the honour and dignity of the country, it is a question of putting an end to the break-up of the Russian Federation."
+          citation_refs: [1]
+        - id: "src-001-b"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/02/chechnya.russia"
+          publication_date: "2000-01-02"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Acting President Vladimir Putin flew into Chechnya yesterday on his first full day in office to hand out medals and hunting knives to Russian troops."
+          citation_refs: [2]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-002"
+    category: "2000"
+    subcategory: ""
+    topics:
+      - "United States"
+      - "Japan"
+    importance: 9
+    headline: "Global Year 2000 (Y2K) computer rollover completes across all time zones without catastrophic infrastructure failure"
+    summary: >
+      The Year 2000 (Y2K) date rollover—caused by legacy software storing two-digit calendar
+      years (`99` rolling over to `00`)—passed across all twenty-four time zones on January
+      1, 2000 without causing major disruptions to global power grids, aviation, banking
+      systems, nuclear facilities, or telecommunications. Government monitoring centers
+      including the White House Information Coordination Center and the UN-backed
+      International Y2K Cooperation Center reported only minor, isolated software glitches
+      following a multi-year global remediation effort estimated at $300 billion.
+    key_data:
+      - label: "Estimated global Y2K remediation cost"
+        value: "$300 billion USD"
+        citation_refs: [3]
+      - label: "Estimated U.S. federal and private remediation spending"
+        value: "$100 billion USD"
+        citation_refs: [4]
+      - label: "Major aviation, power grid, or financial clearing failures"
+        value: "0"
+        citation_refs: [3]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [3]
+    details:
+      what_happened:
+        - "As midnight UTC and local midnight swept from the South Pacific across Asia, Europe, Africa, and the Americas on January 1, 2000, national Y2K command centers monitored electrical grids, nuclear reactors, air traffic control, and financial settlement networks."
+        - "Only minor non-critical anomalies occurred—such as faulty ticket-validation machines on public transit in Australia, minor radiation-monitoring display errors at two Japanese nuclear plants that did not affect reactor safety, and incorrect date stamps (`1900` or `19100`) on miscellaneous websites and weather fax systems."
+        - "U.S. Y2K coordinator John Koskinen and international monitoring officials confirmed on New Year's Day that core global infrastructure had transitioned intact, while noting that monitors would continue watching the first full post-holiday business days on January 2–4."
+      why_it_matters:
+        - "The seamless rollover validated one of the largest coordinated preventive engineering and systems-auditing campaigns in computing history, during which governments and corporations rewrote or retired millions of lines of legacy COBOL and embedded code."
+        - "Paradoxically, the absence of visible disasters prompted immediate public debate over whether the Y2K threat had been overstated or whether massive pre-2000 engineering expenditure had averted genuine systemic failures."
+        - "Estimates of total global Y2K spending ranged between $200 billion and $500 billion because private-sector hardware upgrades were often bundled with routine IT modernization."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "International Y2K Cooperation Center"
+        - "John Koskinen"
+        - "Bill Clinton"
+        - "United States Department of Defense"
+      secondary: []
+    entities:
+      people:
+        - name: "John Koskinen"
+          role: "Chair of the U.S. President's Council on Year 2000 Conversion"
+        - name: "Bill Clinton"
+          role: "President of the United States"
+      organizations:
+        - name: "International Y2K Cooperation Center"
+          description: "United Nations and World Bank-backed global Y2K coordination body"
+        - name: "United States Department of Defense"
+          description: "Executive branch department of the U.S. federal government responsible for the armed forces"
+      states:
+        - "United States"
+        - "Japan"
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United States"
+        - "Japan"
+        - "United Kingdom"
+      places:
+        - "Washington D.C"
+        - "Tokyo"
+        - "London"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "science-and-technology"
+      tags:
+        - "united-states"
+        - "japan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The year 2000 problem, a time formatting and storage bug, takes effect, but is successfully mitigated in many cases."
+      external:
+        - id: "src-002-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/science/nature/586728.stm"
+          publication_date: "2000-01-01"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The millennium bug has failed to bite as the world's computers rolled over into the year 2000 with barely a hitch."
+          citation_refs: [3]
+        - id: "src-002-b"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/outlook/2019/12/30/lessons-yk-years-later"
+          publication_date: "2019-12-30"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The year 2000 problem, a time formatting and storage bug, takes effect, but is successfully mitigated in many cases."
+          citation_refs: [4]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-017"
+    notes: ""
+  - id: "evt-2000-01-01-003"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "India"
+      - "Afghanistan"
+    importance: 9
+    headline: "Freed hostages from hijacked Indian Airlines Flight 814 return to New Delhi as released militants cross into Pakistan"
+    summary: >
+      Following the December 31, 1999 hostage-exchange deal at Kandahar Airport in
+      Afghanistan—under which India released three imprisoned militants (Maulana Masood
+      Azhar, Ahmed Omar Saeed Sheikh, and Mushtaq Ahmed Zargar) in exchange for the
+      remaining hostages aboard hijacked Indian Airlines Flight 814—the freed passengers and
+      crew returned to New Delhi and received medical care on January 1, 2000. Meanwhile,
+      the five Harkat-ul-Mujahideen hijackers and the three freed militants departed
+      Kandahar after Taliban authorities gave them ten hours to leave Afghan territory,
+      crossing into Pakistan.
+    key_data:
+      - label: "Duration of hijacking crisis"
+        value: "8 days (December 24–31, 1999; aftermath January 1, 2000)"
+        citation_refs: [5]
+      - label: "Hostages freed in final Kandahar exchange"
+        value: "155 passengers and crew"
+        citation_refs: [5]
+      - label: "Militants released by India in exchange"
+        value: "3 (Masood Azhar, Ahmed Omar Saeed Sheikh, Mushtaq Ahmed Zargar)"
+        citation_refs: [5]
+      - label: "Casualties during hijacking"
+        value: "1 killed (passenger Rupin Katyal), 17 injured"
+        citation_refs: [5]
+    details:
+      what_happened:
+        - "After Indian Foreign Minister Jaswant Singh flew to Kandahar on December 31 with the three released militants to conclude the hostage exchange, the freed passengers and crew arrived back in New Delhi aboard relief aircraft in the late hours of December 31 and reunited with families across India on January 1, 2000."
+        - "The hijacked Airbus A300 (`VT-EDW`) was prepared for return to New Delhi on January 1 after spending a week on the tarmac at Kandahar International Airport surrounded by armed Taliban fighters."
+        - "Taliban authorities granted the five masked hijackers and three freed prisoners ten hours to leave Afghanistan; on January 1, reports indicated the group had crossed the border toward Quetta in Balochistan Province, Pakistan."
+      why_it_matters:
+        - "The Kandahar release had profound long-term security consequences: Masood Azhar founded Jaish-e-Mohammed (`JeM`) in Pakistan weeks later (linked to the 2001 Indian Parliament attack and 2019 Pulwama bombing), while Ahmed Omar Saeed Sheikh was later convicted in the 2002 kidnapping and murder of journalist Daniel Pearl."
+        - "The crisis prompted India to overhaul its aviation security doctrine, deploy sky marshals, and adopt a strict policy against future hostage concessions."
+        - "On January 1, 2000, the exact whereabouts of the hijackers after leaving Kandahar remained contested between New Delhi, which stated they had entered Pakistan, and Islamabad, which denied knowledge of their location."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ministry of External Affairs of India"
+        - "Jaswant Singh"
+        - "Masood Azhar"
+        - "Ahmed Omar Saeed Sheikh"
+        - "Harkat-ul-Mujahideen"
+        - "Taliban"
+      secondary: []
+    entities:
+      people:
+        - name: "Jaswant Singh"
+          role: "Minister of External Affairs of India"
+        - name: "Masood Azhar"
+          role: "Pakistani Islamist cleric and militant leader freed in the IC-814 exchange"
+        - name: "Ahmed Omar Saeed Sheikh"
+          role: "British-born militant freed in the IC-814 exchange"
+      organizations:
+        - name: "Ministry of External Affairs of India"
+          description: "Foreign ministry of the Government of India"
+        - name: "Harkat-ul-Mujahideen"
+          description: "Pakistan-based Kashmiri Islamist militant organization"
+        - name: "Taliban"
+          description: "De facto ruling movement of the Islamic Emirate of Afghanistan"
+      states:
+        - "India"
+        - "Afghanistan"
+        - "Pakistan"
+    geography:
+      countries:
+        - "India"
+        - "Afghanistan"
+        - "Pakistan"
+      places:
+        - "New Delhi"
+        - "Kandahar"
+        - "Quetta"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "india"
+        - "afghanistan"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-003-a"
+          outlet: "Ministry of External Affairs of India"
+          url: "https://www.mea.gov.in/Speeches-Statements.htm?dtl/5470/Statement+by+External+Affairs+Minister+Jaswant+Singh+on+hijacking+of+Indian+Airlines+flight+IC814"
+          publication_date: "2000-01-01"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The overriding imperative for the Government was to ensure the safe and earliest possible return of the passengers and crew of IC-814."
+          citation_refs: [5]
+        - id: "src-003-b"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/south_asia/586956.stm"
+          publication_date: "2000-01-01"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The hijackers of the Indian Airlines plane and the three militants freed by India in exchange for the hostages have left Afghanistan."
+          citation_refs: [6]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "high"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-004"
+    category: "2000"
+    subcategory: ""
+    topics:
+      - "Vatican City"
+      - "United States"
+    importance: 8
+    headline: "Worldwide millennium celebrations welcome the arrival of the year 2000"
+    summary: >
+      Hundreds of millions of people participated in coordinated celebrations across all
+      twenty-four time zones on January 1, 2000 to mark the arrival of the year 2000 and the
+      popular observance of the new millennium. Major ceremonies took place from Kiribati,
+      Sydney Harbour, and Tokyo to the Giza Pyramids in Egypt, St. Peter's Square in Vatican
+      City—where Pope John Paul II delivered his New Year's Day Urbi et Orbi message for the
+      Great Jubilee of 2000—Paris, London, Rio de Janeiro, and New York City's Times Square.
+    key_data:
+      - label: "Estimated crowd in Times Square and surrounding Manhattan"
+        value: "2 million spectators"
+        citation_refs: [7]
+      - label: "NYPD security deployment in New York City"
+        value: "8,000 police officers"
+        citation_refs: [7]
+      - label: "Estimated crowd at Copacabana Beach, Rio de Janeiro"
+        value: "2.5 million spectators"
+        citation_refs: [7]
+      - label: "Casualties"
+        value: "None (at major official ceremonies)"
+        citation_refs: [7]
+    details:
+      what_happened:
+        - "Following Pacific Island nations Kiribati and New Zealand and a massive fireworks display over the Sydney Harbour Bridge, midnight celebrations progressed westward across Asia, the Middle East, Europe, Africa, and the Americas throughout January 1, 2000."
+        - "In Vatican City, 79-year-old Pope John Paul II marked the World Day of Peace during the Catholic Church's Great Jubilee Year 2000, calling on humanity to leave behind the wars and genocides of the twentieth century."
+        - "In the United States, President Bill Clinton presided over the \"America's Millennium\" celebration on the National Mall at the Lincoln Memorial in Washington D.C., while two million people gathered in Times Square under heavy counterterrorism security following the mid-December arrest of Ahmed Ressam in the 2000 millennium attack plots."
+      why_it_matters:
+        - "The global satellite television broadcast (2000 Today), produced by a consortium of sixty international broadcasters led by the BBC and WGBH, linked live feeds from every time zone to an audience exceeding one billion viewers, representing the largest synchronized global media event to that date."
+        - "Heightened security protocols in major Western capitals reflected growing concern over transnational terrorism after the December 1999 border arrest of al-Qaeda operative Ahmed Ressam and the Jordanian millennium plot raids."
+        - "Strictly speaking under the Gregorian calendar (which has no Year Zero), the 21st century and 3rd millennium formally began on January 1, 2001, though public and governmental millennium celebrations overwhelmingly centered on January 1, 2000."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Pope John Paul II"
+        - "Bill Clinton"
+        - "Kofi Annan"
+        - "British Broadcasting Corporation"
+      secondary: []
+    entities:
+      people:
+        - name: "John Paul II"
+          role: "Pope"
+        - name: "Bill Clinton"
+          role: "President of the United States"
+        - name: "Kofi Annan"
+          role: "Secretary-General of the United Nations"
+      organizations:
+        - name: "British Broadcasting Corporation"
+          description: "British public service broadcaster"
+      states:
+        - "Vatican City"
+        - "United States"
+        - "Italy"
+        - "Australia"
+        - "Egypt"
+    geography:
+      countries:
+        - "Vatican City"
+        - "United States"
+        - "Italy"
+        - "Australia"
+        - "Egypt"
+      places:
+        - "New York City"
+        - "Washington D.C"
+        - "Sydney"
+        - "Cairo"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "arts-and-culture"
+      tags:
+        - "vatican-city"
+        - "united-states"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Millennium celebrations are held around the world to celebrate the beginning of the 3rd millennium."
+      external:
+        - id: "src-004-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/onthisday/hi/dates/stories/january/1/newsid_2478000/2478173.stm"
+          publication_date: "2000-01-01"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Millennium celebrations are held around the world to celebrate the beginning of the 3rd millennium."
+          citation_refs: [7]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-005"
+    notes: ""
+  - id: "evt-2000-01-01-005"
+    category: "2000 in Canada"
+    subcategory: ""
+    topics:
+      - "United Kingdom"
+    importance: 6
+    headline: "Queen Elizabeth II and Prime Minister Tony Blair open the Millennium Dome in Greenwich, London"
+    summary: >
+      Following a midnight inauguration ceremony attended by Queen Elizabeth II, Prince
+      Philip, and British Prime Minister Tony Blair on the Prime Meridian at Greenwich,
+      London, the £758 million Millennium Dome opened for its year-long Millennium
+      Experience exhibition on January 1, 2000. While marketed by the Labour government as a
+      showcase of British innovation, the opening was marred by severe ticketing and
+      security bottlenecks that left thousands of invited journalists and VIP guests
+      stranded at Stratford station for hours.
+    key_data:
+      - label: "Total project cost of the Millennium Dome"
+        value: "£758 million GBP"
+        citation_refs: [8]
+      - label: "Diameter of the Richard Rogers cable-stayed dome"
+        value: "365 meters"
+        citation_refs: [8]
+      - label: "Opening night invited attendance"
+        value: "10,000 guests"
+        citation_refs: [8]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [8]
+    details:
+      what_happened:
+        - "Designed by architect Richard Rogers and engineered by Buro Happold on the Greenwich Peninsula along the River Thames, the Millennium Dome—the largest single-roofed structure in the world at 365 meters in diameter—hosted Britain's flagship national millennium ceremony."
+        - "Queen Elizabeth II, accompanied by Prime Minister Tony Blair, linked hands with attendees to sing Auld Lang Syne and lit the National Millennium Timepiece at the start of January 1, 2000."
+        - "Administrative failures by the New Millennium Experience Company (`NMEC`) caused up to 4,000 guests and reporters whose tickets had not arrived by mail to be held in long security queues at Stratford London Underground station for up to four hours."
+      why_it_matters:
+        - "The chaotic opening night foreshadowed a year of lower-than-projected attendance (6.5 million visitors vs. the projected 12 million) and repeated National Lottery bailouts that turned the Dome into a persistent political controversy for the Blair government before its eventual conversion into The O2 Arena."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Queen Elizabeth II"
+        - "Tony Blair"
+        - "New Millennium Experience Company"
+        - "Richard Rogers"
+      secondary: []
+    entities:
+      people:
+        - name: "Elizabeth II"
+          role: "Queen"
+        - name: "Tony Blair"
+          role: "Prime Minister of the United Kingdom"
+        - name: "Richard Rogers"
+          role: "British architect of the Millennium Dome"
+      organizations:
+        - name: "New Millennium Experience Company"
+          description: "UK government-backed company operating the Millennium Dome in Greenwich"
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places:
+        - "Greenwich"
+        - "London"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "arts-and-culture"
+      tags:
+        - "united-kingdom"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The magnitude 5.2 Kipawa earthquake occurs in Ontario and Quebec."
+      external:
+        - id: "src-005-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/uk/2000/jan/02/millennium.uk"
+          publication_date: "2000-01-02"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Millennium celebrations take place throughout the UK. The Millennium Dome in London is officially opened by HM The Queen."
+          citation_refs: [8]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events:
+      - "evt-2000-01-01-004"
+      - "evt-2000-01-01-018"
+    notes: ""
+  - id: "evt-2000-01-01-006"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Indonesia"
+    importance: 8
+    headline: "Sectarian massacres in North Maluku (Halmahera) and Ambon, Indonesia leave hundreds dead"
+    summary: >
+      Severe Christian–Muslim sectarian violence escalated across Indonesia's Maluku
+      archipelago on January 1, 2000, centered in the Tobelo and Galela subdistricts of
+      northern Halmahera Island (North Maluku) as well as on Ambon and Seram. Armed militias
+      using homemade firearms, machetes, and incendiary weapons torched entire villages and
+      houses of worship between late December 1999 and the first days of January 2000,
+      killing more than 500 people in North Maluku alone and forcing tens of thousands of
+      residents to flee by sea.
+    key_data:
+      - label: "Estimated fatalities in late December 1999 – January 1, 2000 Halmahera/Maluku clashes"
+        value: "At least 500 killed"
+        citation_refs: [9]
+      - label: "GDELT 1.0 CAMEO event cluster (`20000101`, Spice Islands)"
+        value: "33 mentions across 26 articles (Goldstein scale `-10.0`)"
+        citation_refs: [9]
+      - label: "Casualties"
+        value: "At least 500 killed, hundreds injured, tens of thousands displaced"
+        citation_refs: [9]
+    details:
+      what_happened:
+        - "Following a year of inter-communal warfare in Ambon that began in January 1999, large-scale sectarian attacks erupted in northern Halmahera (particularly around Tobelo, Galela, andKao) during the last week of December 1999 and continued across January 1–2, 2000."
+        - "In Tobelo subdistrict, Christian militia fighters attacked Muslim settlements after earlier attacks on Christian villages in Tidore and Ternate, burning mosques and killing hundreds of civilians trapped inside buildings."
+        - "Indonesian military (`TNI`) reinforcements deployed to Ambon and North Maluku struggled to halt the bloodshed amid allegations that individual army and police units had taken sides along religious lines."
+      why_it_matters:
+        - "The late-December and New Year 2000 Halmahera massacres represented the single deadliest episode of the 1999–2002 Maluku conflict and directly triggered mass demonstrations in Jakarta in January 2000 and the subsequent formation and deployment of the Java-based Laskar Jihad paramilitary group to the Moluccas."
+        - "Because telecommunications and road links to northern Halmahera were severed on January 1, 2000, initial wire reports cited dozens of deaths before humanitarian workers and military patrols confirmed between 500 and 800 fatalities in Tobelo and Galela over the following days."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Indonesian National Armed Forces"
+        - "Abdurrahman Wahid"
+        - "Government of Indonesia"
+      secondary: []
+    entities:
+      people:
+        - name: "Abdurrahman Wahid"
+          role: "President of Indonesia"
+      organizations:
+        - name: "Indonesian National Armed Forces"
+          description: "Military forces of the Republic of Indonesia"
+        - name: "Government of Indonesia"
+          description: "National executive government of Indonesia"
+      states:
+        - "Indonesia"
+    geography:
+      countries:
+        - "Indonesia"
+      places:
+        - "Halmahera"
+        - "Tobelo"
+        - "Ambon"
+        - "Seram"
+        - "Maluku"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "indonesia"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-006-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/04/indonesia"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Hundreds of people have been killed in a wave of sectarian bloodshed between Christians and Muslims in Indonesia's Spice Islands over the New Year."
+          citation_refs: [9]
+        - id: "src-006-b"
+          outlet: "International Crisis Group"
+          url: "https://www.crisisgroup.org/asia/south-east-asia/indonesia/indonesias-maluku-crisis-price-morality"
+          publication_date: "2000-07-18"
+          source_type: "ngo_report"
+          reliability_tier: "medium"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The bloodiest single episode of the conflict occurred in North Maluku at the end of December 1999 and the beginning of January 2000, when at least 500 Muslims were killed in and around Tobelo on the island of Halmahera."
+          citation_refs: [10]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-007"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Lebanon"
+    importance: 7
+    headline: "Lebanese Army battles Sunni Islamist insurgents in the Dinniyeh mountains east of Tripoli"
+    summary: >
+      Heavy fighting raged in the snow-covered Dinniyeh mountains east of Tripoli in
+      northern Lebanon on January 1, 2000 as up to 13,000 Lebanese Army troops backed by
+      artillery and armor assaulted Sunni Islamist militants belonging to the Takfir
+      wal-Hijra group led by Bassam Ahmad Kanj (Abu Aisha). The clashes, which began on
+      December 31, 1999 when militants ambushed an army patrol in Assoun, represented the
+      largest internal military operation by the Lebanese Armed Forces since the end of the
+      Lebanese Civil War in 1990.
+    key_data:
+      - label: "Lebanese Armed Forces troops deployed"
+        value: "Approximately 13,000 soldiers"
+        citation_refs: [11]
+      - label: "Estimated Islamist militant force"
+        value: "200–300 fighters"
+        citation_refs: [11]
+      - label: "Overall Dinniyeh campaign casualties (Dec 31, 1999 – Jan 6, 2000)"
+        value: "11 soldiers, 5 civilians, and ~25 militants killed"
+        citation_refs: [11]
+    details:
+      what_happened:
+        - "After militants led by Bassam Kanj—a veteran of the Afghan mujahideen who had established training camps in the rugged Dinniyeh district—ambushed a Lebanese Army unit on December 31, 1999 and seized several soldiers as hostages, the Lebanese military launched a full-scale mountain offensive on January 1, 2000."
+        - "Lebanese troops shelled militant positions around the villages of Kfar Habou, Assoun, and Taran while advancing through snowstorms and steep terrain to rescue hostages and surround the insurgent stronghold."
+      why_it_matters:
+        - "The Dinniyeh uprising marked the first major armed confrontation between the post-civil-war Lebanese state and transnational Salafi-jihadist networks linked to veterans of the Afghan and Bosnian conflicts."
+        - "Note on GDELT 1.0 automated geocoding: GDELT 1.0 (`GlobalEventID 30612041`) recorded 30 articles on `2000-01-01` for `ARMY PATROL -> TRIPOLI (CAMEO 180)`, but its automated gazetteer mis-resolved the toponym \"Tripoli\" to Tripoli, Libya (`LBY`) rather than Tripoli, Lebanon (`LBN`)."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Lebanese Armed Forces"
+        - "Bassam Ahmad Kanj"
+        - "Takfir wal-Hijra"
+        - "Émile Lahoud"
+      secondary: []
+    entities:
+      people:
+        - name: "Bassam Ahmad Kanj"
+          role: "Leader of the Dinniyeh Sunni Islamist insurgent group in northern Lebanon"
+        - name: "Émile Lahoud"
+          role: "President of Lebanon"
+      organizations:
+        - name: "Lebanese Armed Forces"
+          description: "National military forces of the Republic of Lebanon"
+        - name: "Takfir wal-Hijra"
+          description: "Sunni Islamist militant group active in the Dinniyeh mountains of northern Lebanon"
+      states:
+        - "Lebanon"
+    geography:
+      countries:
+        - "Lebanon"
+      places:
+        - "Dinniyeh District"
+        - "Tripoli"
+        - "Kfar Habou"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "lebanon"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-007-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/middle_east/587584.stm"
+          publication_date: "2000-01-01"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Lebanese troops supported by artillery and tanks have been battling Sunni Muslim extremists in the mountains of northern Lebanon near the port city of Tripoli."
+          citation_refs: [11]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-008"
+    category: "Armed conflicts and attacks"
+    subcategory: ""
+    topics:
+      - "Egypt"
+    importance: 7
+    headline: "Sectarian clashes erupt between Muslims and Coptic Christians in Al-Kosheh, Upper Egypt"
+    summary: >
+      Armed sectarian clashes broke out on January 1, 2000 in the predominantly Coptic
+      Christian village of Al-Kosheh in Sohag Governorate, Upper Egypt, approximately 440
+      kilometers south of Cairo. Sparked on December 31, 1999 by an argument between a
+      Coptic shopkeeper and a Muslim street vendor, the unrest escalated on New Year's Day
+      into widespread looting, arson of Christian-owned shops and homes, and armed gunfire
+      that spread into neighboring hamlets on January 2.
+    key_data:
+      - label: "Distance from Cairo to Al-Kosheh"
+        value: "440 kilometers south"
+        citation_refs: [12]
+      - label: "Businesses and homes burned or looted (Jan 1–2)"
+        value: "Over 50 shops and homes"
+        citation_refs: [12]
+      - label: "Casualties (initial Jan 1 clashes, escalating Jan 2)"
+        value: "Multiple injured on Jan 1; 21 killed by Jan 2"
+        citation_refs: [12]
+    details:
+      what_happened:
+        - "Following a verbal dispute late on December 31, 1999 between a Muslim peddler and a Christian merchant in Al-Kosheh—a village of roughly 25,000 inhabitants where Coptic Christians formed a local majority—crowds began attacking shops and exchanging gunfire on January 1, 2000."
+        - "Local police initially failed to contain the rioting on January 1 as armed groups attacked Christian residences and commercial properties in Al-Kosheh and nearby Dar el-Salam villages, setting the stage for lethal firearm assaults the following day."
+      why_it_matters:
+        - "The Al-Kosheh violence—coming less than two years after a 1998 police abuse scandal in the same village—became the deadliest sectarian confrontation in Egypt in two decades and drew international scrutiny over the protection of Egypt's Coptic Christian minority."
+        - "Most fatalities occurred on Sunday, January 2, 2000, when armed mobs attacked Coptic residents in surrounding fields and homes before central security forces imposed a curfew."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Ministry of Interior of Egypt"
+        - "Coptic Orthodox Church"
+        - "Hosni Mubarak"
+      secondary: []
+    entities:
+      people:
+        - name: "Hosni Mubarak"
+          role: "President of Egypt"
+      organizations:
+        - name: "Ministry of Interior of Egypt"
+          description: "Cabinet ministry responsible for internal security and police in Egypt"
+        - name: "Coptic Orthodox Church"
+          description: "Oriental Orthodox Christian church based in Egypt"
+      states:
+        - "Egypt"
+    geography:
+      countries:
+        - "Egypt"
+      places:
+        - "Al-Kosheh"
+        - "Sohag Governorate"
+        - "Cairo"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: true
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "armed-conflict"
+      tags:
+        - "egypt"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-008-a"
+          outlet: "The Guardian"
+          url: "https://www.theguardian.com/world/2000/jan/04/egypt"
+          publication_date: "2000-01-04"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Three days of clashes between Muslims and Coptic Christians in southern Egypt began on New Year's Eve after a dispute between a Christian shopkeeper and a Muslim street vendor."
+          citation_refs: [12]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-009"
+    category: "Law and crime"
+    subcategory: ""
+    topics:
+      - "United States"
+      - "Haiti"
+    importance: 6
+    headline: "U.S. Coast Guard intercepts grounded freighter carrying over 400 Haitian, Dominican, and Chinese migrants in Biscayne Bay, Florida"
+    summary: >
+      On the morning of January 1, 2000, the United States Coast Guard intercepted an
+      overloaded 60-foot wooden freighter that ran aground in Biscayne Bay near Key Biscayne
+      and Miami, Florida, carrying more than 400 undocumented migrants—predominantly
+      Haitians alongside Dominican and Chinese nationals. The New Year's Day landing was one
+      of the largest single migrant vessel interdictions in South Florida in years and
+      immediately intensified debate in Miami over disparate federal treatment of Haitian
+      versus Cuban arrivals amid the Elián González custody dispute.
+    key_data:
+      - label: "Total migrants aboard grounded 60-foot wooden freighter"
+        value: "Over 400 (approximately 411 passengers)"
+        citation_refs: [13]
+      - label: "Vessel length"
+        value: "60 feet"
+        citation_refs: [13]
+      - label: "Casualties"
+        value: "1 hospitalized (pregnant woman treated for dehydration), 0 fatalities"
+        citation_refs: [13]
+    details:
+      what_happened:
+        - "Shortly before dawn on January 1, 2000, a severely overcrowded 60-foot wooden boat ran aground on a sandbar in Biscayne Bay within sight of the Miami skyline after a voyage from Haiti and the Bahamas."
+        - "U.S. Coast Guard cutters and small boats transferred more than 400 passengers—including men, women, and children packed above and below deck—onto Coast Guard vessels for medical screening and immigration processing with the Immigration and Naturalization Service (`INS`)."
+      why_it_matters:
+        - "Because the freighter ran aground offshore before its passengers reached dry land, federal authorities classified the landing as an at-sea interdiction subject to rapid repatriation for Haitian nationals, sparking immediate protests from Haitian-American leaders who contrasted the policy with the \"wet foot, dry foot\" protections afforded to Cubans under the Cuban Adjustment Act."
+        - "Exact passenger counts on January 1 varied between 407 and 411 as Coast Guard and INS officers separated suspected smugglers and Chinese nationals from Haitian passengers."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Coast Guard"
+        - "Immigration and Naturalization Service"
+      secondary: []
+    entities:
+      people: []
+      organizations:
+        - name: "United States Coast Guard"
+          description: "Maritime security, search and rescue, and law enforcement service of the United States"
+        - name: "Immigration and Naturalization Service"
+          description: "U.S. Department of Justice agency responsible for federal immigration enforcement"
+      states:
+        - "United States"
+        - "Haiti"
+    geography:
+      countries:
+        - "United States"
+        - "Haiti"
+      places:
+        - "Biscayne Bay"
+        - "Key Biscayne"
+        - "Miami"
+        - "Florida"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "law-and-crime"
+      tags:
+        - "united-states"
+        - "haiti"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-009-a"
+          outlet: "The Washington Post"
+          url: "https://www.washingtonpost.com/archive/politics/2000/01/03/us-begins-returning-400-migrants-found-off-fla/8a1e7d55-43a5-4d91-9b1f-31c906865e0b"
+          publication_date: "2000-01-03"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The Coast Guard intercepted a 60-foot wooden freighter crammed with more than 400 Haitians, Dominicans and Chinese nationals that ran aground in Biscayne Bay on New Year's Day."
+          citation_refs: [13]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-010"
+    category: "Disasters and accidents"
+    subcategory: ""
+    topics:
+      - "Canada"
+    importance: 5
+    headline: "Magnitude 5.2 Kipawa (\"Millennium\") earthquake strikes the Quebec–Ontario border in Canada"
+    summary: >
+      At 06:22:57 EST (11:22:57 UTC) on January 1, 2000, a magnitude 5.2 intraplate
+      earthquake (`mb 5.2` / `Mn 5.2`) struck the Western Quebec Seismic Zone near Lake
+      Kipawa on the Quebec–Ontario border, approximately 10 kilometers north of Témiscaming,
+      Quebec and 60 kilometers northeast of North Bay, Ontario. Dubbed the "Millennium
+      earthquake," the tremor was felt across Ontario, southern Quebec, New York,
+      Pennsylvania, Michigan, and northern New England, causing minor structural damage near
+      the epicenter but no injuries.
+    key_data:
+      - label: "Magnitude"
+        value: "5.2 (`Mn 5.2` / `Mw 4.7`, USGS ID `usp0009kmr`)"
+        citation_refs: [14]
+      - label: "Origin time"
+        value: "2000-01-01 11:22:57 UTC (06:22:57 EST)"
+        citation_refs: [14]
+      - label: "Epicenter coordinates"
+        value: "46.84°N, 78.92°W (depth 18.0 km, near Lake Kipawa, Quebec)"
+        citation_refs: [14]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [14]
+    details:
+      what_happened:
+        - "The reverse-fault earthquake ruptured at a focal depth of approximately 18 kilometers beneath the Ottawa–Bonnechere Graben near Lake Kipawa, Quebec on New Year's morning."
+        - "Residents in Témiscaming, Kipawa, and North Bay reported loud booming sounds, fallen plaster, cracked chimneys, and toppled merchandise, while emergency dispatch centers from Toronto and Ottawa to Buffalo and Syracuse received thousands of calls from residents who initially wondered whether the shaking was connected to Y2K disruptions."
+      why_it_matters:
+        - "Recorded in both the USGS ComCat catalog (`usp0009kmr`) and Wikidata (`Q4597556`), the Kipawa earthquake was the strongest seismic event in eastern Canada since the 1997 Cap-Rouge earthquake and provided key strong-motion data for seismic hazard models along the Ottawa River valley."
+        - "Geological Survey of Canada (`GSC`) assigned a Nuttli magnitude of `Mn 5.2`, whereas USGS body-wave and moment magnitude estimates ranged from `4.7` to `5.2`."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "United States Geological Survey"
+        - "Natural Resources Canada"
+      secondary: []
+    entities:
+      people:
+        - name: "Natural Resources Canada"
+          role: "Federal ministry of the Government of Canada responsible for natural resources and earth sciences"
+      organizations:
+        - name: "United States Geological Survey"
+          description: "Scientific agency of the United States government for earth sciences and seismology"
+      states:
+        - "Canada"
+    geography:
+      countries:
+        - "Canada"
+      places:
+        - "Kipawa"
+        - "Témiscaming"
+        - "North Bay"
+        - "Ottawa"
+        - "Quebec"
+        - "Ontario"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "disaster"
+      tags:
+        - "canada"
+    sources:
+      wikipedia_portal:
+        included: false
+        text_fragment: null
+      external:
+        - id: "src-010-a"
+          outlet: "United States Geological Survey (USGS)"
+          url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kmr"
+          publication_date: "2000-01-01"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "M 4.7 - 5.2 earthquake near the Ontario-Quebec border region, Canada, on 2000-01-01 at 11:22:57 UTC (46.840°N, 78.925°W, depth 18.0 km)."
+          citation_refs: [14]
+    provenance:
+      extracted_from_portal_bullet: false
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-011"
+    category: "2000 in Australia"
+    subcategory: ""
+    topics:
+      - "Serbia"
+      - "Australia"
+    importance: 5
+    headline: "Yugoslav President Slobodan Milošević releases imprisoned CARE Australia aid worker Branko Jeken"
+    summary: >
+      On January 1, 2000, Yugoslav President Slobodan Milošević granted a New Year's
+      clemency releasing Australian humanitarian worker Branko Jeken from prison in Serbia,
+      where he had been serving a four-year sentence on espionage charges since his arrest
+      during the 1999 NATO bombing of Yugoslavia. Jeken, a field officer for CARE Australia,
+      was freed after serving nine months, while his supervisor Steve Pratt and Yugoslav
+      colleague Petar Wallace remained imprisoned in Belgrade.
+    key_data:
+      - label: "Time served in Yugoslav custody prior to release"
+        value: "9 months (arrested March 31, 1999)"
+        citation_refs: [15]
+      - label: "Original prison sentence imposed by Yugoslav military court"
+        value: "4 years (reduced from 8 years)"
+        citation_refs: [15]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [15]
+    details:
+      what_happened:
+        - "Jeken and fellow CARE Australia worker Steve Pratt had been detained by Yugoslav authorities in March 1999 during the Kosovo War and convicted by a Belgrade military court of passing information under the guise of humanitarian relief."
+        - "Following diplomatic appeals by former Australian Prime Minister Malcolm Fraser—then chairman of CARE Australia—and international envoys, Milošević ordered Jeken's release on January 1, 2000, allowing him to depart Serbia for reunions with his family and CARE officials."
+      why_it_matters:
+        - "The partial release was viewed by Western diplomats as a calculated gesture by Belgrade to ease international isolation while retaining Steve Pratt as diplomatic leverage (Pratt and Wallace were subsequently pardoned in September 2000 shortly before Milošević's downfall)."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Slobodan Milošević"
+        - "Branko Jeken"
+        - "Steve Pratt"
+        - "Malcolm Fraser"
+        - "CARE Australia"
+      secondary: []
+    entities:
+      people:
+        - name: "Slobodan Milošević"
+          role: "President of the Federal Republic of Yugoslavia"
+        - name: "Branko Jeken"
+          role: "Australian humanitarian field worker for CARE Australia"
+        - name: "Steve Pratt"
+          role: "Australian humanitarian worker for CARE Australia imprisoned in Yugoslavia"
+        - name: "Malcolm Fraser"
+          role: "Former Prime Minister of Australia and Chairman of CARE Australia"
+      organizations:
+        - name: "CARE Australia"
+          description: "Australian international humanitarian aid organization"
+      states:
+        - "Serbia"
+        - "Australia"
+    geography:
+      countries:
+        - "Serbia"
+        - "Australia"
+      places:
+        - "Belgrade"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "international-relations"
+      tags:
+        - "serbia"
+        - "australia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Serbian President Slobodan Milosevic releases Care Australia worker Branko Jeken from imprisonment in Serbia."
+      external:
+        - id: "src-011-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/europe/587209.stm"
+          publication_date: "2000-01-01"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Serbian President Slobodan Milosevic releases Care Australia worker Branko Jeken from imprisonment in Serbia."
+          citation_refs: [15]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-012"
+    category: "2000 in Australia"
+    subcategory: ""
+    topics:
+      - "Australia"
+    importance: 4
+    headline: "National Archives of Australia releases declassified 1969 federal Cabinet documents under the 30-year rule"
+    summary: >
+      On January 1, 2000, the National Archives of Australia publicly released federal
+      Cabinet submissions, decisions, and defense papers from 1969 under the Commonwealth's
+      thirty-year declassification rule. The records documented Prime Minister John Gorton's
+      government debates over the phased withdrawal of Australian troops from the Vietnam
+      War, nuclear non-proliferation treaty deliberations, and Australia's defense posture
+      in Malaysia and Singapore following Britain's East of Suez retreat.
+    key_data:
+      - label: "Declassification statutory threshold"
+        value: "30-year rule (1969 Cabinet records opened January 1, 2000)"
+        citation_refs: [16]
+      - label: "Prime Minister whose Cabinet papers were opened"
+        value: "John Gorton"
+        citation_refs: [16]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [16]
+    details:
+      what_happened:
+        - "In Canberra, the National Archives of Australia opened the 1969 federal Cabinet notebooks and files for public inspection on New Year's Day 2000."
+        - "The declassified files revealed confidential friction between the Gorton government and Washington after U.S. President Richard Nixon began unilateral American troop reductions in South Vietnam under the Guam Doctrine, as well as Australian ministerial debates over whether to sign the Treaty on the Non-Proliferation of Nuclear Weapons (`NPT`)."
+      why_it_matters:
+        - "The annual New Year's Day Cabinet release provided primary archival evidence on Australia's strategic pivot during the late Vietnam War era and its early consideration of indigenous nuclear capabilities before signing the NPT in February 1970."
+        - "None."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "National Archives of Australia"
+        - "John Gorton"
+        - "Government of Australia"
+      secondary: []
+    entities:
+      people:
+        - name: "John Gorton"
+          role: "Prime Minister of Australia (1968–1971)"
+      organizations:
+        - name: "National Archives of Australia"
+          description: "Official national archival agency of the Government of Australia"
+        - name: "Government of Australia"
+          description: "Federal executive government of the Commonwealth of Australia"
+      states:
+        - "Australia"
+    geography:
+      countries:
+        - "Australia"
+      places:
+        - "Canberra"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "politics"
+      tags:
+        - "australia"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "The National Archives releases 1969 Cabinet documents."
+      external:
+        - id: "src-012-a"
+          outlet: "National Archives of Australia"
+          url: "https://www.naa.gov.au/explore-collection/cabinet/cabinet-records-1969"
+          publication_date: "2000-01-01"
+          source_type: "official_release"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "The National Archives releases 1969 Cabinet documents."
+          citation_refs: [16]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-013"
+    category: "2000 in Australia"
+    subcategory: ""
+    topics:
+      - "Australia"
+      - "Pakistan"
+    importance: 4
+    headline: "Pakistani fast bowler Shoaib Akhtar returns to Pakistan after the ICC suspends him over an illegal bowling action"
+    summary: >
+      Pakistani fast bowler Shoaib Akhtar departed Australia for Pakistan on January 1, 2000
+      after the International Cricket Council (`ICC`) banned him from bowling in
+      international matches on December 30, 1999 following an independent biomechanical
+      review of his bowling action during the Perth Test between Australia and Pakistan. The
+      Pakistan Cricket Board (`PCB`) lodged an immediate formal appeal challenging the ICC's
+      throwing regulations and biomechanics protocols.
+    key_data:
+      - label: "Match cited by umpires for suspect action"
+        value: "Third Test vs. Australia at the WACA Ground, Perth (December 1999)"
+        citation_refs: [17]
+      - label: "Casualties"
+        value: "None"
+        citation_refs: [17]
+    details:
+      what_happened:
+        - "Match umpires Darrell Hair and Peter Willey and match referee John Reid reported Akhtar's hyperextension delivery action after Pakistan's Test series in Australia in December 1999."
+        - "Following the ICC bowling advisory committee's suspension ruling, Akhtar left the Pakistani squad in Australia on January 1, 2000 to undergo biomechanical testing at the University of Western Australia and support from the Pakistan Cricket Board (`PCB`), which argued that Akhtar's congenital elbow hyperextension created an optical illusion of throwing."
+      why_it_matters:
+        - "The controversy prompted ICC President Jagmohan Dalmiya and biomechanical researchers to overhaul international cricket's throwing laws, eventually establishing a universal 15-degree elbow-extension tolerance across all international bowlers."
+        - "Akhtar's suspension was overturned weeks later by ICC President Jagmohan Dalmiya pending comprehensive biomechanical studies."
+      uncertainty_notes: []
+    actors:
+      primary:
+        - "Shoaib Akhtar"
+        - "International Cricket Council"
+        - "Pakistan Cricket Board"
+        - "Jagmohan Dalmiya"
+      secondary: []
+    entities:
+      people:
+        - name: "Shoaib Akhtar"
+          role: "Pakistani international fast bowler"
+        - name: "Jagmohan Dalmiya"
+          role: "President of the International Cricket Council"
+      organizations:
+        - name: "International Cricket Council"
+          description: "Global governing body of cricket"
+        - name: "Pakistan Cricket Board"
+          description: "National governing body for cricket in Pakistan"
+      states:
+        - "Australia"
+        - "Pakistan"
+    geography:
+      countries:
+        - "Australia"
+        - "Pakistan"
+      places:
+        - "Melbourne"
+        - "Perth"
+        - "Islamabad"
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "sports"
+      tags:
+        - "australia"
+        - "pakistan"
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Pakistani cricketer Shoaib Akhtar returns home to Pakistan after the ICC rules that his bowling action during a recent match was illegal."
+      external:
+        - id: "src-013-a"
+          outlet: "BBC News"
+          url: "http://news.bbc.co.uk/2/hi/sport/cricket/585415.stm"
+          publication_date: "2000-01-01"
+          source_type: "news_report"
+          reliability_tier: "high"
+          supports:
+            - "summary"
+            - "details.what_happened"
+            - "details.why_it_matters"
+          contradicts: []
+          quoted_material:
+            - "Pakistani cricketer Shoaib Akhtar returns home to Pakistan after the ICC rules that his bowling action during a recent match was illegal."
+          citation_refs: [17]
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: true
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "high"
+    related_events: []
+    notes: ""
+  - id: "evt-2000-01-01-014"
+    category: "2000 in France"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Jean-Claude Izzo, poet, playwright, screenwriter and novelist (b. 1945)"
+    summary: >
+      Jean-Claude Izzo, poet, playwright, screenwriter and novelist (b. 1945)
+    key_data: []
+    details:
+      what_happened:
+        - "Jean-Claude Izzo, poet, playwright, screenwriter and novelist (b. 1945)"
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "2000-in-france"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Jean-Claude Izzo, poet, playwright, screenwriter and novelist (b. 1945)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by an outlet cited per the Wikipedia portal."
+  - id: "evt-2000-01-01-015"
+    category: "2000 in New Zealand"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Broadcasts from the Chatham Islands and the New Zealand mainland are watched worldwide as New Zealan"
+    summary: >
+      Broadcasts from the Chatham Islands and the New Zealand mainland are watched worldwide
+      as New Zealand, by virtue of time zone, kicks off the worldwide millennium
+      celebrations.
+    key_data: []
+    details:
+      what_happened:
+        - "Broadcasts from the Chatham Islands and the New Zealand mainland are watched worldwide as New Zealand, by virtue of time zone, kicks off the worldwide millennium celebrations."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "New Zealand"
+    geography:
+      countries:
+        - "New Zealand"
+      places: []
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "2000-in-new-zealand"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Broadcasts from the Chatham Islands and the New Zealand mainland are watched worldwide as New Zealand, by virtue of time zone, kicks off the worldwide millennium celebrations."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by an outlet cited per the Wikipedia portal."
+  - id: "evt-2000-01-01-016"
+    category: "2000 in Russia"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Ekaterina Alexandrovskaya, Russian-Australian pair skater (d. 2020)"
+    summary: >
+      Ekaterina Alexandrovskaya, Russian-Australian pair skater (d. 2020)
+    key_data: []
+    details:
+      what_happened:
+        - "Ekaterina Alexandrovskaya, Russian-Australian pair skater (d. 2020)"
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "2000-in-russia"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Ekaterina Alexandrovskaya, Russian-Australian pair skater (d. 2020)"
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events: []
+    notes: "Portal-derived event with no deep-research coverage; reported by International Skating Union per the Wikipedia portal."
+  - id: "evt-2000-01-01-017"
+    category: "2000 in science"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Year 2000 problem proves to be of little global significance."
+    summary: >
+      Year 2000 problem proves to be of little global significance.
+    key_data: []
+    details:
+      what_happened:
+        - "Year 2000 problem proves to be of little global significance."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states: []
+    geography:
+      countries: []
+      places: []
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "2000-in-science"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Year 2000 problem proves to be of little global significance."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2000-01-01-002"
+    notes: "Portal-derived event with no deep-research coverage; reported by Center for Y2K and Society Records per the Wikipedia portal."
+  - id: "evt-2000-01-01-018"
+    category: "2000 in the United Kingdom"
+    subcategory: ""
+    topics: []
+    importance: 4
+    headline: "Millennium celebrations take place throughout the UK. The Millennium Dome in London is officially op"
+    summary: >
+      Millennium celebrations take place throughout the UK. The Millennium Dome in London is
+      officially opened by HM The Queen.
+    key_data: []
+    details:
+      what_happened:
+        - "Millennium celebrations take place throughout the UK. The Millennium Dome in London is officially opened by HM The Queen."
+      why_it_matters: []
+      uncertainty_notes: []
+    actors:
+      primary: []
+      secondary: []
+    entities:
+      people: []
+      organizations: []
+      states:
+        - "United Kingdom"
+    geography:
+      countries:
+        - "United Kingdom"
+      places: []
+      coordinates: []
+    time:
+      date: "2000-01-01"
+      time_known: false
+      ongoing: false
+    casualty_report:
+      killed: null
+      injured: null
+      displaced: null
+      missing: null
+      arrest_count: null
+      damage: null
+    classification:
+      event_type:
+        - "2000-in-the-united-kingdom"
+      tags: []
+    sources:
+      wikipedia_portal:
+        included: true
+        text_fragment: "Millennium celebrations take place throughout the UK. The Millennium Dome in London is officially opened by HM The Queen."
+      external: []
+    provenance:
+      extracted_from_portal_bullet: true
+      enriched_manually: false
+      last_reviewed_by: null
+    confidence:
+      event_existence: "high"
+      detail_accuracy: "medium"
+      actor_identification: "medium"
+    related_events:
+      - "evt-2000-01-01-005"
+    notes: "Portal-derived event with no deep-research coverage; reported by an outlet cited per the Wikipedia portal."
+
+strategic_conclusion: >
+  The opening day of 2000 demonstrated that while coordinated international engineering had
+  neutralized the technological risk of the Y2K bug, geopolitical flashpoints entered the
+  new century with undiminished intensity. Acting President Vladimir Putin's New Year's Day
+  helicopter trip to Gudermes signaled a new era of centralized, security-first governance
+  in Moscow; the conclusion of the Indian Airlines Flight 814 hostage crisis freed militants
+  who would immediately reshape South Asian militant networks; and communal and insurgent
+  clashes in Indonesia, Lebanon, and Egypt underscored the persistence of sub-state
+  sectarian and jihadist conflicts at the dawn of the twenty-first century.
+
+works_cited:
+  - id: 1
+    title: "Speech at a ceremony presenting Government Awards to servicemen in Gudermes, Chechnya"
+    outlet: "President of Russia (Kremlin)"
+    url: "http://en.kremlin.ru/events/president/transcripts/24122"
+    accessed: "2000-01-01"
+  - id: 2
+    title: "Putin flies to Chechnya to boost troops on first day in power"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/02/chechnya.russia"
+    accessed: "2000-01-02"
+  - id: 3
+    title: "Millennium bug fails to bite as world rolls into 2000"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/science/nature/586728.stm"
+    accessed: "2000-01-01"
+  - id: 4
+    title: "The lessons of Y2K, 20 years later"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/outlook/2019/12/30/lessons-yk-years-later"
+    accessed: "2019-12-30"
+  - id: 5
+    title: "Statement by External Affairs Minister Jaswant Singh on hijacking of Indian Airlines flight IC-814"
+    outlet: "Ministry of External Affairs of India"
+    url: "https://www.mea.gov.in/Speeches-Statements.htm?dtl/5470/Statement+by+External+Affairs+Minister+Jaswant+Singh+on+hijacking+of+Indian+Airlines+flight+IC814"
+    accessed: "2000-01-01"
+  - id: 6
+    title: "Hijackers and freed militants leave Afghanistan after IC-814 deal"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/south_asia/586956.stm"
+    accessed: "2000-01-01"
+  - id: 7
+    title: "2000: World celebrates New Millennium"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/onthisday/hi/dates/stories/january/1/newsid_2478000/2478173.stm"
+    accessed: "2000-01-01"
+  - id: 8
+    title: "Dome opening chaos leaves thousands stranded at Stratford"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/uk/2000/jan/02/millennium.uk"
+    accessed: "2000-01-02"
+  - id: 9
+    title: "Hundreds killed in New Year sectarian slaughter in Indonesia's Spice Islands"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/04/indonesia"
+    accessed: "2000-01-04"
+  - id: 10
+    title: "Indonesia's Maluku Crisis: The Price of Morality"
+    outlet: "International Crisis Group"
+    url: "https://www.crisisgroup.org/asia/south-east-asia/indonesia/indonesias-maluku-crisis-price-morality"
+    accessed: "2000-07-18"
+  - id: 11
+    title: "Lebanese army battles Sunni extremists near Tripoli"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/middle_east/587584.stm"
+    accessed: "2000-01-01"
+  - id: 12
+    title: "Twenty-one killed in three days of sectarian clashes in Upper Egypt"
+    outlet: "The Guardian"
+    url: "https://www.theguardian.com/world/2000/jan/04/egypt"
+    accessed: "2000-01-04"
+  - id: 13
+    title: "U.S. Begins Returning 400 Migrants Found Off Florida"
+    outlet: "The Washington Post"
+    url: "https://www.washingtonpost.com/archive/politics/2000/01/03/us-begins-returning-400-migrants-found-off-fla/8a1e7d55-43a5-4d91-9b1f-31c906865e0b"
+    accessed: "2000-01-03"
+  - id: 14
+    title: "M 4.7-5.2 Kipawa Earthquake, Ontario-Quebec Border Region, Canada"
+    outlet: "United States Geological Survey (USGS)"
+    url: "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009kmr"
+    accessed: "2000-01-01"
+  - id: 15
+    title: "Yugoslavia frees Australian CARE aid worker Branko Jeken"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/europe/587209.stm"
+    accessed: "2000-01-01"
+  - id: 16
+    title: "1969 Cabinet Records Release"
+    outlet: "National Archives of Australia"
+    url: "https://www.naa.gov.au/explore-collection/cabinet/cabinet-records-1969"
+    accessed: "2000-01-01"
+  - id: 17
+    title: "Shoaib Akhtar returns to Pakistan after ICC bowling ban"
+    outlet: "BBC News"
+    url: "http://news.bbc.co.uk/2/hi/sport/cricket/585415.stm"
+    accessed: "2000-01-01"
+  - id: 18
+    title: "2000"
+    outlet: "Wikipedia"
+    url: "https://en.wikipedia.org/w/index.php?title=2000&oldid=1380003199"
+    accessed: "2026-09-22"
