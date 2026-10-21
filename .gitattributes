@@ -17,6 +17,9 @@ reference/sources/wikipedia/** -text
 # Annual database containers retain exact binary bytes.
 archive/*.sqlite -text
 archive/*.md text eol=lf
+/[0-9][0-9][0-9][0-9]/*.sqlite -text
+/[0-9][0-9][0-9][0-9]/*.md text eol=lf
+/[0-9][0-9][0-9][0-9]/SHA256SUMS text eol=lf
 reference/yearbook/*.py text eol=lf
 reference/yearbook/*.txt text eol=lf
 

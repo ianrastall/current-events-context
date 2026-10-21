@@ -1,8 +1,8 @@
 CURRENT EVENTS CONTEXT - PRESERVATION PRIMER
 ==========================================
 
-Start with archive/YYYY.md. It is readable UTF-8 plain text. The matching
-archive/YYYY.sqlite is the authoritative annual preservation container.
+Start with YYYY/YYYY.md. It is readable UTF-8 plain text. The matching
+YYYY/YYYY.sqlite is the authoritative annual preservation container.
 Both retain source accounts and disclose research limits. Archived claims
 are not necessarily true, complete, independent or politically neutral.
 
@@ -18,13 +18,14 @@ Preservation layers:
    A digest cannot preserve the complete archive. Machine control files
    require known equipment and a tested production process.
 
-Only the annual SQLite and Markdown pair is canonical. Generated bundles,
-PDFs, page images and parity files belong in release assets, not the source
-tree. The programs and format instructions belong in version control.
+Only the annual SQLite and Markdown pair is canonical. Generated TAR bundles
+live beside the pair in the year folder as ignored release assets. PDFs, page
+images and parity files stay in ignored working output directories. The
+programs and format instructions belong in version control.
 There is no requirement to create extra files for every archived day.
 
 Build an offline preservation bundle with Python 3.11+ and SQLite 3.37+:
-  python tools/build_tiers.py build archive/2025.sqlite
+  python tools/build_tiers.py build 2025/2025.sqlite
 Read tools/PRESERVATION.md for the exact format and verification commands.
 The builder does not change the source database or acquire network data.
 

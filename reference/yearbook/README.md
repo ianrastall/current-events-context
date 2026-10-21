@@ -38,8 +38,8 @@ Optional PDF dependencies are separate from the collection dependencies:
 
 ```powershell
 python -m pip install -r reference/yearbook/requirements.txt
-python reference/yearbook/build.py archive/2025.sqlite --edition-date 2026-10-21 --output dist/2025.pdf
-python reference/yearbook/verify.py archive/2025.sqlite dist/2025.pdf
+python reference/yearbook/build.py 2025/2025.sqlite --edition-date 2026-10-21 --output dist/2025.pdf
+python reference/yearbook/verify.py 2025/2025.sqlite dist/2025.pdf
 ```
 
 The builder is offline. It reads SQLite directly and never acquires sources,
@@ -71,7 +71,7 @@ layout proof using selected dates, including dense pages and editorial notes.
 It is not the final complete book. Keep proofs, contact sheets and QA renders
 under ignored `tmp/pdfs/`; keep final PDFs in ignored `dist/` for release distribution.
 Include a verified PDF in a bundle with `python tools/build_tiers.py build
-archive/2025.sqlite --pdf dist/2025.pdf`. Generated PDFs and raster pages do not
+2025/2025.sqlite --pdf dist/2025.pdf`. Generated PDFs and raster pages do not
 become additional canonical repository files.
 
 ## Verification and printing

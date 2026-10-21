@@ -7,7 +7,7 @@ import unittest
 from unittest.mock import patch
 
 import yaml
-from seed import annual_archive as annual, archive_access, archive_release, cli, merge, replay, source
+from seed import annual_archive as annual, annual_access as archive_access, archive_release, cli, merge, replay, source
 
 
 class PreservationReleaseTests(unittest.TestCase):
@@ -15,7 +15,7 @@ class PreservationReleaseTests(unittest.TestCase):
         temp = tempfile.TemporaryDirectory()
         self.addCleanup(temp.cleanup)
         self.root = Path(temp.name)
-        self.database = self.root / 'archive/2025.sqlite'
+        self.database = self.root / '2025/2025.sqlite'
         self.database.parent.mkdir()
         self.day = '2025-01-01'
         self.raw = b';News\n*A reported event. [https://example.test (Publisher)]\n'
@@ -73,6 +73,19 @@ class PreservationReleaseTests(unittest.TestCase):
             archive_release.retire(self.database, self.root)
         self.assertTrue((self.root / 'reference/sources/wikipedia/wikitext/123.wiki').exists())
         self.assertTrue(self.seed.exists())
+
+    def test_year_folder_discovery_and_legacy_layout_fallback(self):
+        archive_release.prepare(self.database, self.root)
+        old = self.root / 'archive/2025.sqlite'
+        old.parent.mkdir()
+        old.write_bytes(self.database.read_bytes())
+        self.assertEqual([self.database], archive_access.annual_paths(self.root))
+        self.assertEqual(self.database, archive_access.published_path(self.day, self.root))
+        self.database.unlink()
+        self.assertEqual([old], archive_access.annual_paths(self.root))
+        self.assertEqual(old, archive_access.published_path(self.day, self.root))
+        self.assertEqual(self.raw, archive_access.revision(123, self.root)[1])
+        self.assertEqual(self.legacy, archive_access.legacy_bytes(self.day, self.root))
 
     def test_shared_cache_stays_and_publication_does_not_claim_factual_verification(self):
         another = self.root / '2024/12/2024-12-31.yaml'

@@ -7,8 +7,9 @@ guaranteed impartial news coverage.
 
 | Path | Purpose |
 |---|---|
-| `archive/<YYYY>.sqlite` and `archive/<YYYY>.md` | Annual preservation database and readable chronicle |
-| `dist/` (ignored) | Reproducible preservation bundles and optional print derivatives |
+| `<YYYY>/<YYYY>.sqlite` and `<YYYY>/<YYYY>.md` | Annual preservation database and readable chronicle |
+| `<YYYY>/<YYYY>-preservation.tar` (ignored) | Optional preservation bundle, built beside the annual pair |
+| `dist/` (ignored) | Working build outputs and optional print derivatives |
 | `<YYYY>/<MM>/<YYYY-MM-DD>.yaml` | Unmigrated daily seeds; some files retain the legacy shape |
 | `expanded/<YYYY>/<MM>/<YYYY-MM-DD>.yaml` | Schema-2.2 researched synthesis |
 | `reference/deep-research/` | Source research reports |
@@ -26,17 +27,25 @@ review states preserve prior work; draft research still needs factual review.
 
 Each published year has a self-contained database and readable companion:
 
+Annual assets live directly in their year folder, for example
+`2025/2025.sqlite` and `2025/2025.md`. Release checksums and notes live beside
+them. Existing local TAR bundles and audit/uncited JSON reports are also kept
+with their year; generated bundles and working reports remain ignored by Git.
+Older embedded contracts and historical handoffs refer to `archive/`; that
+was the previous location. This relocation preserves edition bytes and all
+embedded source paths and implementation snapshots.
+
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
-| 2017 | [2017.sqlite](archive/2017.sqlite) | [2017.md](archive/2017.md) | 365 | 3,791 |
-| 2018 | [2018.sqlite](archive/2018.sqlite) | [2018.md](archive/2018.md) | 365 | 4,653 |
-| 2019 | [2019.sqlite](archive/2019.sqlite) | [2019.md](archive/2019.md) | 365 | 3,841 |
-| 2020 | [2020.sqlite](archive/2020.sqlite) | [2020.md](archive/2020.md) | 366 | 7,393 |
-| 2021 | [2021.sqlite](archive/2021.sqlite) | [2021.md](archive/2021.md) | 365 | 8,350 |
-| 2022 | [2022.sqlite](archive/2022.sqlite) | [2022.md](archive/2022.md) | 365 | 5,324 |
-| 2023 | [2023.sqlite](archive/2023.sqlite) | [2023.md](archive/2023.md) | 365 | 4,686 |
-| 2024 | [2024.sqlite](archive/2024.sqlite) | [2024.md](archive/2024.md) | 366 | 5,305 |
-| 2025 | [2025.sqlite](archive/2025.sqlite) | [2025.md](archive/2025.md) | 365 | 5,453 |
+| 2017 | [2017.sqlite](2017/2017.sqlite) | [2017.md](2017/2017.md) | 365 | 3,791 |
+| 2018 | [2018.sqlite](2018/2018.sqlite) | [2018.md](2018/2018.md) | 365 | 4,653 |
+| 2019 | [2019.sqlite](2019/2019.sqlite) | [2019.md](2019/2019.md) | 365 | 3,841 |
+| 2020 | [2020.sqlite](2020/2020.sqlite) | [2020.md](2020/2020.md) | 366 | 7,393 |
+| 2021 | [2021.sqlite](2021/2021.sqlite) | [2021.md](2021/2021.md) | 365 | 8,350 |
+| 2022 | [2022.sqlite](2022/2022.sqlite) | [2022.md](2022/2022.md) | 365 | 5,324 |
+| 2023 | [2023.sqlite](2023/2023.sqlite) | [2023.md](2023/2023.md) | 365 | 4,686 |
+| 2024 | [2024.sqlite](2024/2024.sqlite) | [2024.md](2024/2024.md) | 366 | 5,305 |
+| 2025 | [2025.sqlite](2025/2025.sqlite) | [2025.md](2025/2025.md) | 365 | 5,453 |
 
 These editions replace their old daily YAML files and dedicated cached-source copies.
 The originals, metadata and prior local extraction candidates remain embedded
@@ -121,19 +130,19 @@ and [2025](https://github.com/ianrastall/current-events-context/releases/tag/arc
 releases distribute the committed pairs with SHA-256 checksums.
 
 ```powershell
-python -m seed.annual_series verify archive/2023.sqlite
-python -m seed.annual_series render archive/2023.sqlite
+python -m seed.annual_series verify 2023/2023.sqlite
+python -m seed.annual_series render 2023/2023.sqlite
 ```
 
 ```powershell
-python -m seed.annual_editions verify archive/2024.sqlite
-python -m seed.annual_editions render archive/2024.sqlite
+python -m seed.annual_editions verify 2024/2024.sqlite
+python -m seed.annual_editions render 2024/2024.sqlite
 ```
 
 ```powershell
-python -m seed.archive_release verify archive/2025.sqlite
-python -m seed.archive_release render archive/2025.sqlite
-python -m seed.yearbook queue archive/2025.sqlite --month 2025-01 --limit 10
+python -m seed.archive_release verify 2025/2025.sqlite
+python -m seed.archive_release render 2025/2025.sqlite
+python -m seed.yearbook queue 2025/2025.sqlite --month 2025-01 --limit 10
 ```
 
 Verification reparses embedded inputs offline, checks structural coverage and
@@ -154,18 +163,21 @@ SELECT date, category, text FROM archive_events_fts
 WHERE archive_events_fts MATCH 'earthquake' ORDER BY date;
 ```
 
-Offline replay and synthesis obtain published-year inputs from their annual databases.
+Offline replay and synthesis use `seed.annual_access` to obtain published-year
+inputs from their annual databases. The frozen `seed.archive_access` remains
+for historical implementation verification; the current accessor also supports
+the old `archive/` layout for existing checkouts.
 Planning treats those dates as present; acquisition and writers refuse to
 recreate daily files. Shared cache entries still used elsewhere remain on disk.
-Preservation exports are generated as release assets rather than multiplying
-canonical files. The offline builder produces one uncompressed annual TAR
+Preservation exports are generated beside the annual pair as ignored release
+assets. The offline builder produces one uncompressed annual TAR
 containing the original SQLite/Markdown pair, a SQL dump, reversible typed TSV,
 schema, recovery instructions, checksums and restore-verification results.
 Both SQL and TSV are restored and compared before installation. No network
 access or modification of the source database is required.
 
 ```powershell
-python tools/build_tiers.py build archive/2025.sqlite
+python tools/build_tiers.py build 2025/2025.sqlite
 ```
 
 Read [the plain-text primer](PRIMER.txt) and [preservation build instructions](tools/PRESERVATION.md).

@@ -20,13 +20,13 @@ def seed_doc(day):
     if seed_path(day).exists():
         payload = seed_path(day).read_bytes()
     else:
-        from seed.archive_access import legacy_bytes
+        from seed.annual_access import legacy_bytes
         payload = legacy_bytes(day, REPO_ROOT)
     return yaml.load(payload, Loader=getattr(yaml, "CSafeLoader", yaml.SafeLoader))
 
 
 def seed_exists(day):
-    from seed.archive_access import published_path
+    from seed.annual_access import published_path
     return seed_path(day).exists() or published_path(day, REPO_ROOT) is not None
 
 
@@ -53,7 +53,7 @@ def cached_input(day, doc):
 
 
 def candidate(day, *, overrides=None):
-    from seed.archive_access import published_path, extraction
+    from seed.annual_access import published_path, extraction
     if published_path(day, REPO_ROOT) is not None:
         if overrides:
             raise ValueError('Published annual extraction requires an explicit migration for new overrides')

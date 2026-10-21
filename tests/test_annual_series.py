@@ -10,7 +10,7 @@ from unittest.mock import patch
 
 import mwparserfromhell as mw
 import yaml
-from seed import annual_archive as annual, annual_editions, annual_series as series, archive_access, source
+from seed import annual_archive as annual, annual_editions, annual_series as series, annual_access as archive_access, source
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -112,7 +112,7 @@ class AnnualSeriesTests(unittest.TestCase):
         # This fixture exercises real staged publication and retirement safely.
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            database = root / 'archive/2023.sqlite'
+            database = root / '2023/2023.sqlite'
             database.parent.mkdir()
             raw = b';News\n*A reported event. [https://example.test (Publisher)]\n'
             source.store(raw, title='Portal:Current events/2023 January 1', revision_id=123,

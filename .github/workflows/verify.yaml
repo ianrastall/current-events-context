@@ -20,8 +20,8 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          from seed import annual_archive as annual, archive_access, annual_legacy, yearbook
-          for path in sorted(Path('archive').glob('*.sqlite')):
+          from seed import annual_archive as annual, archive_access, annual_legacy, yearbook, annual_access
+          for path in annual_access.annual_paths():
               conn = annual.connect(path, readonly=True)
               try:
                   if archive_access.publication(conn):
@@ -45,8 +45,9 @@ jobs:
           from pathlib import Path
           from tempfile import TemporaryDirectory
           from tools import build_tiers
+          from seed import annual_access
           with TemporaryDirectory() as temporary:
-              for database in sorted(Path('archive').glob('*.sqlite')):
+              for database in annual_access.annual_paths():
                   report = build_tiers.build(database, Path(temporary) / (database.stem + '.tar'))
                   print(database, report)
           PY

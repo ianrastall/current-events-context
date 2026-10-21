@@ -1342,9 +1342,9 @@ def build(date, report_only=False):
                                                      (md["intro"][-1] if mode == "legacy" and md and len(md["intro"]) > 2 else ""))
     rel_md = str(mdp.relative_to(REPO)).replace("\\", "/") if mdp else None
     seed_rel = f"{date[:4]}/{date[5:7]}/{date}.yaml"
-    from seed import archive_access
+    from seed import annual_access as archive_access
     if archive_access.published_path(date) is not None:
-        seed_rel = f"archive/{date[:4]}.sqlite, embedded legacy input {seed_rel}"
+        seed_rel = f"{date[:4]}/{date[:4]}.sqlite, embedded legacy input {seed_rel}"
     seed_source = f"{meta['title']} (revision {meta['revid']}; seed {seed_rel})"
     if rel_md:
         seed_source += f" + deep-research report {rel_md}"

@@ -393,7 +393,7 @@ def main():
     p.add_argument('output', type=Path)
     args = parser.parse_args()
     if args.command == 'build':
-        result = build(args.database, args.output or ROOT / 'dist' / (args.database.stem + '-preservation.tar'), args.pdf)
+        result = build(args.database, args.output or args.database.parent / (args.database.stem + '-preservation.tar'), args.pdf)
         print(json.dumps(result, indent=2))
     elif args.command == 'restore-tsv':
         metadata = restore_tsv(args.folder, args.output)

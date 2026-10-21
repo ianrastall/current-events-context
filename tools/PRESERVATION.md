@@ -1,8 +1,9 @@
 # Preservation exports
 
-The authoritative annual files stay at `archive/YYYY.sqlite` and
-`archive/YYYY.md`. Derived formats are built offline into ignored `dist/` for
-release distribution or independent backups. The exact database is copied;
+The authoritative annual files stay at `YYYY/YYYY.sqlite` and
+`YYYY/YYYY.md`. Preservation TARs are built offline beside that pair as
+ignored release assets for distribution or independent backups. Optional print
+work stays in `dist/`. The exact database is copied;
 it is never vacuumed, re-journaled or rewritten by the exporter. Existing
 daily archives, including January 2000, are not migrated by this tool.
 
@@ -18,8 +19,8 @@ Use Python 3.11+ with SQLite 3.37+, FTS5 and JSON support. No extra dependencies
 or network service is required for the bundle tool.
 
 ```powershell
-python tools/build_tiers.py build archive/2025.sqlite
-python tools/build_tiers.py verify dist/2025-preservation.tar
+python tools/build_tiers.py build 2025/2025.sqlite
+python tools/build_tiers.py verify 2025/2025-preservation.tar
 ```
 
 The single uncompressed USTAR contains the original annual pair, `PRIMER.txt`,
@@ -79,8 +80,8 @@ The optional [PDF builder](../reference/yearbook/README.md) creates a complete
 printable chronicle. Verify it before including it in a bundle:
 
 ```powershell
-python reference/yearbook/verify.py archive/2025.sqlite dist/2025.pdf
-python tools/build_tiers.py build archive/2025.sqlite --pdf dist/2025.pdf
+python reference/yearbook/verify.py 2025/2025.sqlite dist/2025.pdf
+python tools/build_tiers.py build 2025/2025.sqlite --pdf dist/2025.pdf
 ```
 
 PDFs and any future TIFF/PBM pages are release assets. TIFF Group 4 is compressed;

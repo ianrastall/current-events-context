@@ -417,3 +417,12 @@ FodyWeavers.xsd
 
 # Derived preservation and print release assets.
 /dist/
+
+# Annual derivatives live beside the canonical pair but remain release assets.
+/[0-9][0-9][0-9][0-9]/*-preservation.tar
+/[0-9][0-9][0-9][0-9]/*-audit.json
+/[0-9][0-9][0-9][0-9]/*-uncited.json
+/[0-9][0-9][0-9][0-9]/.*.sqlite*
+/[0-9][0-9][0-9][0-9]/*.sqlite-journal
+/[0-9][0-9][0-9][0-9]/*.sqlite-wal
+/[0-9][0-9][0-9][0-9]/*.sqlite-shm

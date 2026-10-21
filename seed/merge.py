@@ -40,7 +40,7 @@ def output_path(day: date) -> Path:
 
 
 def already_saved(day: date) -> bool:
-    from seed.archive_access import published_path
+    from seed.annual_access import published_path
     return output_path(day).exists() or published_path(str(day), REPO_ROOT) is not None
 
 
@@ -76,7 +76,7 @@ def build_seed_doc(
 
 
 def save(day: date, doc: dict) -> Path:
-    from seed.archive_access import published_path
+    from seed.annual_access import published_path
     if published_path(str(day), REPO_ROOT) is not None:
         raise ValueError(f'{day} is in a published annual archive; use an explicit archive migration')
     path = output_path(day)

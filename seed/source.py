@@ -77,7 +77,7 @@ def revision(revision_id, *, cache=CACHE):
     # An incomplete cache pair remains an error; only an absent pair may be
     # served from a verified annual edition. Explicit test/custom caches stay isolated.
     if not base.with_suffix('.json').exists() and not base.with_suffix('.wiki').exists() and Path(cache) == CACHE:
-        from seed import archive_access
+        from seed import annual_access as archive_access
         return archive_access.revision(revision_id, ROOT)
     meta, payload = load(base)
     if meta["revision_id"] != revision_id:

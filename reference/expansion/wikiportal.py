@@ -53,7 +53,7 @@ def parse(date):
 
 
 def parse_structured(date):
-    from seed import archive_access
+    from seed import annual_access as archive_access
     if archive_access.published_path(date) is not None:
         acquired, _ = archive_access.wikipedia(date)
         meta = {"title": acquired["page"], "revid": acquired["revision_id"],

@@ -2,7 +2,7 @@
 
 `book/` holds the research layer for *2025: A History*, a narrative history built
 on the annual archive. It is separate from the preservation edition. The archive
-(`archive/2025.sqlite`) is referenced by SHA-256 and never modified. The plan and
+(`2025/2025.sqlite`) is referenced by SHA-256 and never modified. The plan and
 chapter outline are in the review doc shared on 21 October 2026.
 
 Decisions: a separate book database, sources published on or before 31 October 2026,
@@ -39,7 +39,7 @@ are research notes and are not cited in print.
 ## Commands
 
 ```powershell
-python book/tool.py candidates archive/2025.sqlite "tariff|trade war"
+python book/tool.py candidates 2025/2025.sqlite "tariff|trade war"
 python book/tool.py build book/2025
 python book/tool.py dossier book/2025 ch02
 ```

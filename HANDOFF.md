@@ -2286,3 +2286,55 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   No 2016 Markdown, retirement or release is claimed. Next publication unit is
   2016, followed by earlier complete years. Partial 2003/2002 coverage still
   requires an explicit policy before any complete-calendar publication claim.
+
+
+## Annual assets moved into year folders — 2026-10-21
+
+- Layout-only relocation: the published 2017–2025 pairs now live at
+  `<YYYY>/<YYYY>.sqlite` and `<YYYY>/<YYYY>.md`. All 18 files are byte-identical
+  to their former `archive/` files and Git HEAD blobs. No annual database,
+  extraction, embedded implementation snapshot or source path was rewritten.
+- Moved 45 files total, verifying SHA-256 before and after: the 18 canonical
+  files, nine release checksum manifests, nine release notes, eight local
+  audit/uncited JSON reports (2017–2020), and the existing 2025 preservation TAR.
+  Generated TAR/working JSON remain ignored release/working assets; checksum
+  manifests and notes are now beside their annual pairs. No other year's
+  candidate or research input was moved. Removed 108 empty month directories
+  in published years without deleting files. PDF assets remain untouched.
+- Added `seed/annual_access.py` for current year-folder lookup and discovery,
+  retaining old-layout fallback and preferring the year folder if both exist.
+  The frozen `seed/archive_access.py`, all frozen annual engines, and embedded
+  publication contracts remain unchanged. Updated CLI, merge, replay, source
+  fallback and expansion consumers to use the new accessor.
+- Updated `.github/workflows/verify.yaml` discovery, `tools/build_tiers.py`
+  default TAR destination, `.gitattributes`, `.gitignore`, root documentation,
+  AGENTS.md, book/2025/book.json and related instructions. Added archive/README.md
+  as a relocation notice. Historical schema documents and handoff entries retain
+  their original paths. The frozen low-level builder's historical default is
+  unchanged; current annual dispatcher builds already require explicit output.
+- Checks/commands: `python -m unittest discover -s tests -q` passed 61 tests
+  before the added compatibility case. `python -m unittest discover -s tests
+  -p test_archive_release.py -q` passed all four publication/access tests.
+  Complete unittest discovery then passed all 62 tests with socket connections
+  blocked. Fixture coverage includes year-folder access, old-layout fallback,
+  duplicate discovery preference, source/revision recovery and write protection.
+- `python tools/build_tiers.py verify 2025/2025-preservation.tar` passed all
+  47 members; its existing bytes/hash were retained. All nine SHA256SUMS
+  manifests and all 18 README annual links passed. `git diff --check` passed.
+  SHA-256 comparisons covered all 45 moves; local `git show HEAD:archive/...`
+  byte comparisons covered all 18 published files.
+- Source/network: local files and local Git only; no network calls, acquisition,
+  source cache edits, GDELT queries, model synthesis or PDF work. No parser
+  warning introduced or resolved. Full SQL/TSV bundles were not rebuilt for
+  every year in this layout pass; existing exporter recovery tests and CI remain.
+- Scope/risk: local reorganization only, uncommitted and unpublished. Old
+  repository file URLs require the new paths; release downloads and embedded
+  historical provenance are unchanged. JSON reports and the existing TAR remain
+  local ignored assets, not new canonical publications. Next: review/commit
+  this layout change before publishing it; further annual migrations remain
+  separate from this cleanup.
+- Final full annual check passed for all nine relocated editions, 2017–2025:
+  pinned-dispatcher full offline replay and byte-identical Markdown rendering;
+  lookup of every published calendar date (3,287 dates total); per-year pinned
+  source/revision recovery, replay seed availability, planning presence and
+  daily-write refusal. All ran with socket connections blocked.

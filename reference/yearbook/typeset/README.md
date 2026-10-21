@@ -38,7 +38,7 @@ letter, and underscores become spaces.
 
 ```powershell
 python -m pip install -r reference/yearbook/typeset/requirements.txt
-python reference/yearbook/typeset/book.py archive/2025.sqlite --edition-date 2026-10-21 `
+python reference/yearbook/typeset/book.py 2025/2025.sqlite --edition-date 2026-10-21 `
     --font-dir path/to/source-fonts --keep-json tmp/pdfs/2025-yearbook.json `
     --output dist/2025-yearbook.pdf
 python reference/yearbook/typeset/verify.py tmp/pdfs/2025-yearbook.json dist/2025-yearbook.pdf

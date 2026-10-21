@@ -13,7 +13,7 @@ import tool  # noqa: E402
 class BookRecordsTest(unittest.TestCase):
     def test_2025_records_validate(self):
         book, records = tool.validate(ROOT / 'book' / '2025')
-        self.assertEqual(book['archive'], 'archive/2025.sqlite')
+        self.assertEqual(book['archive'], '2025/2025.sqlite')
         inv, dos = records['ch02']
         self.assertTrue(inv['events'])
         self.assertTrue(all(s['access'] == 'opened' for s in dos['sources'] if any(f['source_id'] == s['id'] for f in dos['findings'])))
