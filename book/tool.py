@@ -158,6 +158,20 @@ def build(year_dir):
             for f in dos['findings']:
                 conn.execute('INSERT INTO findings VALUES (?,?,?,?,?,?,?)',
                              (f['id'], cid, f['question_id'], f['source_id'], f['locator'], f['finding'], f.get('quotation')))
+            claims_path, ver_path = year_dir / cid / 'claims.json', year_dir / cid / 'verification.json'
+            if claims_path.exists():
+                verified = ver_path.exists()
+                for n, c in enumerate(load(claims_path)):
+                    claim_id = f'{cid}-C{n:03d}'
+                    # Rough type from the wording; the claim plan's finer types are assigned by hand later.
+                    kind = 'quotation' if '"' in c['claim'] else 'quantity' if re.search(r'\d', c['claim']) else 'action'
+                    conn.execute('INSERT INTO claims VALUES (?,?,?,?,?,?,?,?)',
+                                 (claim_id, cid, c['section'], kind, c['claim'], None,
+                                  'reviewed' if verified else 'draft', 'supported' if verified else None))
+                    for k, item in enumerate(p.strip() for p in c['sources'].split('|')):
+                        sid, _, loc = item.partition(' ')
+                        conn.execute('INSERT INTO claim_evidence VALUES (?,?,?,?,?,?)',
+                                     (claim_id, k, sid, 'supports', loc.strip(), None))
         conn.commit()
         problems = conn.execute('PRAGMA foreign_key_check').fetchall()
         conn.close()

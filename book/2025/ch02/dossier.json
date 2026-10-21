@@ -844,6 +844,30 @@
    "accessed": "2026-10-21",
    "access": "opened",
    "note": "Living collection page; consulted 21 October 2026."
+  },
+  {
+   "id": "S059",
+   "tier": 1,
+   "kind": "executive order",
+   "publisher": "Office of the Federal Register (GovInfo)",
+   "title": "Executive Order 14197: Progress on the Situation at Our Northern Border (90 FR 9183)",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2025-02-10/pdf/2025-02478.pdf",
+   "published": "2025-02-10",
+   "accessed": "2026-10-21",
+   "access": "opened",
+   "note": "Signed 3 February 2025. Cached PDF SHA-256 c601fe871f04e4348f5c6a446d0f3d3744c5023ecf2189dd4e5584674e1df18b."
+  },
+  {
+   "id": "S060",
+   "tier": 1,
+   "kind": "government announcement",
+   "publisher": "Ministry of Commerce, PRC",
+   "title": "Announcement No. 61 of 2025: export control on relevant overseas rare earth items",
+   "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_7fc9bff0fb4546ecb02f66ee77d0e5f6.html",
+   "published": "2025-10-09",
+   "accessed": "2026-10-21",
+   "access": "opened",
+   "note": "Chinese. Cached page SHA-256 4f66d3db14dc4778d260d794f3c83593e1f64aceb80e466a0f0e1977f45f630c."
   }
  ],
  "findings": [
@@ -1598,6 +1622,54 @@
    "locator": "Preamble, Proclamation 10896",
    "finding": "The steel proclamation rests on section 232 of the Trade Expansion Act of 1962, under which the Commerce Secretary investigates whether imports threaten to impair national security and the President may adjust them.",
    "quotation": "section 232 of the Trade Expansion Act of 1962"
+  },
+  {
+   "id": "F095",
+   "question_id": "Q3a",
+   "source_id": "S059",
+   "locator": "Sec. 2, EO 14197",
+   "finding": "Executive Order 14197 (3 February 2025) paused the Canadian tariffs until 12:01 a.m. on 4 March 2025.",
+   "quotation": "paused and will not take effect until March 4, 2025, at 12:01 a"
+  },
+  {
+   "id": "F096",
+   "question_id": "Q5b",
+   "source_id": "S060",
+   "locator": "Articles 1 and 8",
+   "finding": "China's Announcement No. 61 of 9 October 2025 required licences for foreign-made items containing Chinese-origin rare-earth items worth 0.1 per cent or more of their value, and for items made abroad with Chinese rare-earth mining, separation, metallurgy, magnet or recycling technology; these parts were to apply from 1 December 2025.",
+   "quotation": "价值比例达到0.1%及以上"
+  },
+  {
+   "id": "F097",
+   "question_id": "Q3b",
+   "source_id": "S029",
+   "locator": "Communiqué, 31 July 2025",
+   "finding": "The 31 July agreement followed a telephone conversation between President Sheinbaum and President Trump.",
+   "quotation": "en su conversación telefónica con el presidente de Estados Unidos, Donald Trump, se logró un buen acuerdo"
+  },
+  {
+   "id": "F098",
+   "question_id": "Q6b",
+   "source_id": "S001",
+   "locator": "Annex I, 90 FR 15049-15050",
+   "finding": "In the April annex Switzerland was set at 31 per cent, Laos at 48 and Myanmar at 44.",
+   "quotation": null
+  },
+  {
+   "id": "F099",
+   "question_id": "Q3a",
+   "source_id": "S004",
+   "locator": "Sec. 2(g), EO 14194; Sec. 2(g), EO 14195",
+   "finding": "The Mexico and China orders of 1 February also withdrew duty-free de minimis treatment for the goods they covered.",
+   "quotation": "duty-free de minimis treatment under 19 U.S.C. 1321 shall not be available"
+  },
+  {
+   "id": "F100",
+   "question_id": "Q6c",
+   "source_id": "S041",
+   "locator": "Recitals 4-5, Proclamation 10947",
+   "finding": "Proclamation 10895 of 10 February 2025 had raised the aluminium tariff to 25 per cent on imports from all countries.",
+   "quotation": null
   }
  ]
 }

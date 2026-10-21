@@ -184,7 +184,7 @@
   #v(6pt)
   This chapter was drafted with Claude, an AI system, from a research dossier of opened primary documents, official statistics and analyses, and is presented to its editor for review. Every footnoted sentence rests on recorded findings; nothing is cited to Wikipedia, which served only as a finding aid. Sources are limited to those published by #meta.cutoff.
 
-  Status: the notes and their numbers have been checked mechanically against the dossier. The independent claim-by-claim verification and the editor's sign-off described in the book plan have not yet taken place, and the text should be treated as a draft.
+  Status: every footnoted sentence has been checked against the full text of the sources it cites, in a separate verification pass on 21 October 2026; fourteen corrections followed, and all 97 noted sentences are now supported as worded. That pass was made by the same AI system, not by a person. The editor's review and sign-off have not yet taken place, and the text should be treated as a draft.
 
   Portraits are engraving-style renderings made by line hatching from the photographs credited at the end, not photographs and not evidence. Figures are drawn from the official data named beneath them.
 
