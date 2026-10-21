@@ -64,7 +64,7 @@ replace embedded implementation snapshots. New editorial research and changed
 extraction require an explicit successor edition/migration. Current published
 years and remaining work belong in `HANDOFF.md`.
 
-Use `seed.annual_series` to verify/render annual editions. It dispatches each
+Use `seed.annual_legacy` to verify/render annual editions. It dispatches each
 pinned profile, including the frozen 2024/2025 implementations.
 It delegates unprofiled editions to their frozen original implementation.
 An explicit profile records its implementation/override snapshots and selects

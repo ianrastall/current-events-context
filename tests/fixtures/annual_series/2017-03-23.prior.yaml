@@ -1,0 +1,491 @@
+schema_version: extraction-1.0
+date: '2017-03-23'
+source_page:
+  page: Portal:Current events/2017 March 23
+  revision_id: 1242330060
+  revision_timestamp: '2024-08-26T08:02:00Z'
+  source_mode: wikitext
+  source_sha256: b6b5ef538c5d9f73aab51cf8c27d797b958a50e7ee8dca1ed57051ab6679a36f
+categories:
+- name: null
+  links: []
+  citations: []
+  entries:
+  - role: event
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 1
+    parent_path: null
+    line: 4
+    raw: '*'
+    text: ''
+    links: []
+    citations: []
+- name: Armed conflicts and attacks
+  links: []
+  citations: []
+  entries:
+  - role: topic
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 1
+    parent_path: null
+    line: 6
+    raw: '*[[2017 Westminster attack]]'
+    text: 2017 Westminster attack
+    links:
+    - surface: 2017 Westminster attack
+      target: 2017 Westminster attack
+      red_link: null
+      raw: '[[2017 Westminster attack]]'
+    citations: []
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 1
+    - 1
+    parent_path:
+    - 1
+    line: 7
+    raw: '**Authorities arrest at least eight people in connection with yesterday''s attack. [http://www.foxnews.com/world/2017/03/23/london-attack-british-police-reportedly-make-arrests-in-raid-on-home.html (Fox News)] '
+    text: Authorities arrest at least eight people in connection with yesterday's attack.
+    links: []
+    citations:
+    - url: http://www.foxnews.com/world/2017/03/23/london-attack-british-police-reportedly-make-arrests-in-raid-on-home.html
+      display: (Fox News)
+      publisher: Fox News
+      via: null
+      language: null
+      raw: '[http://www.foxnews.com/world/2017/03/23/london-attack-british-police-reportedly-make-arrests-in-raid-on-home.html (Fox News)]'
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 1
+    - 2
+    parent_path:
+    - 1
+    line: 8
+    raw: '**London''s [[Metropolitan Police Service]] announces that the attacker is [[United Kingdom|British]]-born Khalid Masood, previously questioned by British authorities for connections to terrorism. [https://www.reuters.com/article/us-britain-security-attacker-idUSKBN16U26E (Reuters)] '
+    text: London's Metropolitan Police Service announces that the attacker is British-born Khalid Masood, previously questioned by British authorities for connections to terrorism.
+    links:
+    - surface: Metropolitan Police Service
+      target: Metropolitan Police Service
+      red_link: null
+      raw: '[[Metropolitan Police Service]]'
+    - surface: British
+      target: United Kingdom
+      red_link: null
+      raw: '[[United Kingdom|British]]'
+    citations:
+    - url: https://www.reuters.com/article/us-britain-security-attacker-idUSKBN16U26E
+      display: (Reuters)
+      publisher: Reuters
+      via: null
+      language: null
+      raw: '[https://www.reuters.com/article/us-britain-security-attacker-idUSKBN16U26E (Reuters)]'
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 1
+    - 3
+    parent_path:
+    - 1
+    line: 9
+    raw: '**The [[Islamic State of Iraq and the Levant]] claims responsibility. [https://www.telegraph.co.uk/news/2017/03/23/london-attack-seven-arrested-police-raid-properties-linked-islamist/ (''''The Telegraph'''')]'
+    text: The Islamic State of Iraq and the Levant claims responsibility.
+    links:
+    - surface: Islamic State of Iraq and the Levant
+      target: Islamic State of Iraq and the Levant
+      red_link: null
+      raw: '[[Islamic State of Iraq and the Levant]]'
+    citations:
+    - url: https://www.telegraph.co.uk/news/2017/03/23/london-attack-seven-arrested-police-raid-properties-linked-islamist/
+      display: (The Telegraph)
+      publisher: The Telegraph
+      via: null
+      language: null
+      raw: '[https://www.telegraph.co.uk/news/2017/03/23/london-attack-seven-arrested-police-raid-properties-linked-islamist/ (''''The Telegraph'''')]'
+  - role: event
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 2
+    parent_path: null
+    line: 10
+    raw: '*A former Ukrainian soldier assassinates former [[Russian Duma]] deputy [[Denis Voronenkov]] in the [[Ukraine|Ukrainian]] capital [[Kiev]]. In December 2016, he received Ukrainian citizenship. [[Ilya Ponomarev]] says Voronenkov was heading to a meeting with him. [https://themoscowtimes.com/news/breaking-former-russian-parliamentarian-and-putin-critic-shot-dead-in-kiev-57513 (''''The Moscow Times'''')]'
+    text: A former Ukrainian soldier assassinates former Russian Duma deputy Denis Voronenkov in the Ukrainian capital Kiev. In December 2016, he received Ukrainian citizenship. Ilya Ponomarev says Voronenkov was heading to a meeting with him.
+    links:
+    - surface: Russian Duma
+      target: Russian Duma
+      red_link: null
+      raw: '[[Russian Duma]]'
+    - surface: Denis Voronenkov
+      target: Denis Voronenkov
+      red_link: null
+      raw: '[[Denis Voronenkov]]'
+    - surface: Ukrainian
+      target: Ukraine
+      red_link: null
+      raw: '[[Ukraine|Ukrainian]]'
+    - surface: Kiev
+      target: Kiev
+      red_link: null
+      raw: '[[Kiev]]'
+    - surface: Ilya Ponomarev
+      target: Ilya Ponomarev
+      red_link: null
+      raw: '[[Ilya Ponomarev]]'
+    citations:
+    - url: https://themoscowtimes.com/news/breaking-former-russian-parliamentarian-and-putin-critic-shot-dead-in-kiev-57513
+      display: (The Moscow Times)
+      publisher: The Moscow Times
+      via: null
+      language: null
+      raw: '[https://themoscowtimes.com/news/breaking-former-russian-parliamentarian-and-putin-critic-shot-dead-in-kiev-57513 (''''The Moscow Times'''')]'
+  - role: topic
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 3
+    parent_path: null
+    line: 11
+    raw: '*[[War in Afghanistan (2001–2021)]]'
+    text: War in Afghanistan (2001–2021)
+    links:
+    - surface: War in Afghanistan (2001–2021)
+      target: War in Afghanistan (2001–2021)
+      red_link: null
+      raw: '[[War in Afghanistan (2001–2021)]]'
+    citations: []
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 3
+    - 1
+    parent_path:
+    - 3
+    line: 12
+    raw: '**[[Taliban]] insurgents seize control of the strategic town of [[Sangin]] in the southern [[Helmand Province]] after a year-long battle with [[Afghanistan|Afghan]] security forces. [https://www.bbc.co.uk/news/world-asia-39365330 (BBC)]'
+    text: Taliban insurgents seize control of the strategic town of Sangin in the southern Helmand Province after a year-long battle with Afghan security forces.
+    links:
+    - surface: Taliban
+      target: Taliban
+      red_link: null
+      raw: '[[Taliban]]'
+    - surface: Sangin
+      target: Sangin
+      red_link: null
+      raw: '[[Sangin]]'
+    - surface: Helmand Province
+      target: Helmand Province
+      red_link: null
+      raw: '[[Helmand Province]]'
+    - surface: Afghan
+      target: Afghanistan
+      red_link: null
+      raw: '[[Afghanistan|Afghan]]'
+    citations:
+    - url: https://www.bbc.co.uk/news/world-asia-39365330
+      display: (BBC)
+      publisher: BBC
+      via: null
+      language: null
+      raw: '[https://www.bbc.co.uk/news/world-asia-39365330 (BBC)]'
+  - role: topic
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 4
+    parent_path: null
+    line: 13
+    raw: '*[[Vehicle-ramming attack|2017 Antwerp attack]]'
+    text: 2017 Antwerp attack
+    links:
+    - surface: 2017 Antwerp attack
+      target: Vehicle-ramming attack
+      red_link: null
+      raw: '[[Vehicle-ramming attack|2017 Antwerp attack]]'
+    citations: []
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 4
+    - 1
+    parent_path:
+    - 4
+    line: 14
+    raw: '**A man drives into a crowd of pedestrians in [[Antwerp]], [[Belgium]], injuring several people. Police arrest the man, who is believed to be North African born and living in [[France]]. [https://www.nytimes.com/2017/03/23/world/europe/antwerp-belgium-car-attack.html?_r=0 (''''The New York Times'''')]'
+    text: A man drives into a crowd of pedestrians in Antwerp, Belgium, injuring several people. Police arrest the man, who is believed to be North African born and living in France.
+    links:
+    - surface: Antwerp
+      target: Antwerp
+      red_link: null
+      raw: '[[Antwerp]]'
+    - surface: Belgium
+      target: Belgium
+      red_link: null
+      raw: '[[Belgium]]'
+    - surface: France
+      target: France
+      red_link: null
+      raw: '[[France]]'
+    citations:
+    - url: https://www.nytimes.com/2017/03/23/world/europe/antwerp-belgium-car-attack.html?_r=0
+      display: (The New York Times)
+      publisher: The New York Times
+      via: null
+      language: null
+      raw: '[https://www.nytimes.com/2017/03/23/world/europe/antwerp-belgium-car-attack.html?_r=0 (''''The New York Times'''')]'
+  line: 5
+  raw: ;Armed conflicts and attacks
+- name: Arts and culture
+  links: []
+  citations: []
+  entries:
+  - role: event
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 1
+    parent_path: null
+    line: 17
+    raw: '*The [[United States|American]] city of [[Fort Collins, Colorado]], announces its intention to appeal a federal judge''s ruling that blocked the city’s ban on women appearing topless in public. [https://web.archive.org/web/20170325202317/http://www.msn.com/en-us/news/us/city-vows-to-appeal-ruling-that-allows-women-to-go-topless/ar-BByBZSi?li=BBnbfcL&ocid=iehp (''''USA Today'''' via MSN)]'
+    text: The American city of Fort Collins, Colorado, announces its intention to appeal a federal judge's ruling that blocked the city’s ban on women appearing topless in public.
+    links:
+    - surface: American
+      target: United States
+      red_link: null
+      raw: '[[United States|American]]'
+    - surface: Fort Collins, Colorado
+      target: Fort Collins, Colorado
+      red_link: null
+      raw: '[[Fort Collins, Colorado]]'
+    citations:
+    - url: https://web.archive.org/web/20170325202317/http://www.msn.com/en-us/news/us/city-vows-to-appeal-ruling-that-allows-women-to-go-topless/ar-BByBZSi?li=BBnbfcL&ocid=iehp
+      display: (USA Today via MSN)
+      publisher: USA Today
+      via: MSN
+      language: null
+      raw: '[https://web.archive.org/web/20170325202317/http://www.msn.com/en-us/news/us/city-vows-to-appeal-ruling-that-allows-women-to-go-topless/ar-BByBZSi?li=BBnbfcL&ocid=iehp (''''USA Today'''' via MSN)]'
+  - role: event
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 2
+    parent_path: null
+    line: 18
+    raw: '*Cardinal [[William H. Keeler|William Henry Keeler]], who was [[Roman Catholic Archdiocese of Baltimore|Archbishop of Baltimore]] from 1989 to 2007, dies at the age of 86. At the [[United States Conference of Catholic Bishops]] (USCCB), he served as the moderator for [[Catholic Church and Judaism|Catholic-Jewish relations]] as well as the Chair for the Bishops’ Committee for [[Committee on Ecumenical and Interreligious Affairs|Ecumenical and Interreligious Affairs]] between 1984 and 1987. [https://www.catholicnewsagency.com/news/baltimore-mourns-cardinal-keeler-former-archbishop-81157 (Catholic News Agency)]'
+    text: Cardinal William Henry Keeler, who was Archbishop of Baltimore from 1989 to 2007, dies at the age of 86. At the United States Conference of Catholic Bishops (USCCB), he served as the moderator for Catholic-Jewish relations as well as the Chair for the Bishops’ Committee for Ecumenical and Interreligious Affairs between 1984 and 1987.
+    links:
+    - surface: William Henry Keeler
+      target: William H. Keeler
+      red_link: null
+      raw: '[[William H. Keeler|William Henry Keeler]]'
+    - surface: Archbishop of Baltimore
+      target: Roman Catholic Archdiocese of Baltimore
+      red_link: null
+      raw: '[[Roman Catholic Archdiocese of Baltimore|Archbishop of Baltimore]]'
+    - surface: United States Conference of Catholic Bishops
+      target: United States Conference of Catholic Bishops
+      red_link: null
+      raw: '[[United States Conference of Catholic Bishops]]'
+    - surface: Catholic-Jewish relations
+      target: Catholic Church and Judaism
+      red_link: null
+      raw: '[[Catholic Church and Judaism|Catholic-Jewish relations]]'
+    - surface: Ecumenical and Interreligious Affairs
+      target: Committee on Ecumenical and Interreligious Affairs
+      red_link: null
+      raw: '[[Committee on Ecumenical and Interreligious Affairs|Ecumenical and Interreligious Affairs]]'
+    citations:
+    - url: https://www.catholicnewsagency.com/news/baltimore-mourns-cardinal-keeler-former-archbishop-81157
+      display: (Catholic News Agency)
+      publisher: Catholic News Agency
+      via: null
+      language: null
+      raw: '[https://www.catholicnewsagency.com/news/baltimore-mourns-cardinal-keeler-former-archbishop-81157 (Catholic News Agency)]'
+  line: 16
+  raw: ;Arts and culture
+- name: Disasters and accidents
+  links: []
+  citations: []
+  entries:
+  - role: event
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 1
+    parent_path: null
+    line: 21
+    raw: '*A series of explosions on a military base near the [[Ukraine|Ukrainian]] city of [[Balakliya]] forces thousands to be evacuated from their homes. [https://www.bbc.com/news/world-europe-39363416 (BBC)]'
+    text: A series of explosions on a military base near the Ukrainian city of Balakliya forces thousands to be evacuated from their homes.
+    links:
+    - surface: Ukrainian
+      target: Ukraine
+      red_link: null
+      raw: '[[Ukraine|Ukrainian]]'
+    - surface: Balakliya
+      target: Balakliya
+      red_link: null
+      raw: '[[Balakliya]]'
+    citations:
+    - url: https://www.bbc.com/news/world-europe-39363416
+      display: (BBC)
+      publisher: BBC
+      via: null
+      language: null
+      raw: '[https://www.bbc.com/news/world-europe-39363416 (BBC)]'
+  - role: topic
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 2
+    parent_path: null
+    line: 22
+    raw: '*[[Sinking of MV Sewol]]'
+    text: Sinking of MV Sewol
+    links:
+    - surface: Sinking of MV Sewol
+      target: Sinking of MV Sewol
+      red_link: null
+      raw: '[[Sinking of MV Sewol]]'
+    citations: []
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 2
+    - 1
+    parent_path:
+    - 2
+    line: 23
+    raw: '**The [[South Korea]]n government raises the wreckage of the [[MV Sewol|MV ''''Sewol'''']] from the sea near the South Korean island of [[Donggeochado]]. The ferry sank in April 2014, killing 304 people. [https://www.bbc.co.uk/news/world-asia-39361944 (BBC)]'
+    text: The South Korean government raises the wreckage of the MV Sewol from the sea near the South Korean island of Donggeochado. The ferry sank in April 2014, killing 304 people.
+    links:
+    - surface: South Korea
+      target: South Korea
+      red_link: null
+      raw: '[[South Korea]]'
+    - surface: MV Sewol
+      target: MV Sewol
+      red_link: null
+      raw: '[[MV Sewol|MV ''''Sewol'''']]'
+    - surface: Donggeochado
+      target: Donggeochado
+      red_link: null
+      raw: '[[Donggeochado]]'
+    citations:
+    - url: https://www.bbc.co.uk/news/world-asia-39361944
+      display: (BBC)
+      publisher: BBC
+      via: null
+      language: null
+      raw: '[https://www.bbc.co.uk/news/world-asia-39361944 (BBC)]'
+  line: 20
+  raw: ;Disasters and accidents
+- name: Politics and elections
+  links: []
+  citations: []
+  entries:
+  - role: topic
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 1
+    parent_path: null
+    line: 26
+    raw: '*[[American Health Care Act of 2017]]'
+    text: American Health Care Act of 2017
+    links:
+    - surface: American Health Care Act of 2017
+      target: American Health Care Act of 2017
+      red_link: null
+      raw: '[[American Health Care Act of 2017]]'
+    citations: []
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 1
+    - 1
+    parent_path:
+    - 1
+    line: 27
+    raw: '**The [[United States House of Representatives]] approaches a vote on a replacement plan for the [[Patient Protection and Affordable Care Act]] (aka Obamacare). [http://www.cnn.com/2017/03/22/politics/house-health-care-bill/ (CNN)]'
+    text: The United States House of Representatives approaches a vote on a replacement plan for the Patient Protection and Affordable Care Act (aka Obamacare).
+    links:
+    - surface: United States House of Representatives
+      target: United States House of Representatives
+      red_link: null
+      raw: '[[United States House of Representatives]]'
+    - surface: Patient Protection and Affordable Care Act
+      target: Patient Protection and Affordable Care Act
+      red_link: null
+      raw: '[[Patient Protection and Affordable Care Act]]'
+    citations:
+    - url: http://www.cnn.com/2017/03/22/politics/house-health-care-bill/
+      display: (CNN)
+      publisher: CNN
+      via: null
+      language: null
+      raw: '[http://www.cnn.com/2017/03/22/politics/house-health-care-bill/ (CNN)]'
+  - role: event
+    depth: 2
+    list_marker: '**'
+    source_path:
+    - 1
+    - 2
+    parent_path:
+    - 1
+    line: 28
+    raw: '**The U.S. House postpones the vote due to a lack of support and slow progress in dealmaking. [http://www.cnn.com/2017/03/23/politics/house-health-care-vote/ (CNN)]'
+    text: The U.S. House postpones the vote due to a lack of support and slow progress in dealmaking.
+    links: []
+    citations:
+    - url: http://www.cnn.com/2017/03/23/politics/house-health-care-vote/
+      display: (CNN)
+      publisher: CNN
+      via: null
+      language: null
+      raw: '[http://www.cnn.com/2017/03/23/politics/house-health-care-vote/ (CNN)]'
+  line: 25
+  raw: ;Politics and elections
+- name: Science and environment
+  links: []
+  citations: []
+  entries:
+  - role: event
+    depth: 1
+    list_marker: '*'
+    source_path:
+    - 1
+    parent_path: null
+    line: 31
+    raw: '*The [[night parrot]] is confirmed sighted (and photographed) in [[Western Australia]] for first time in nearly 100 years. [https://www.theguardian.com/environment/2017/mar/23/night-parrot-sighting-confirmed-in-western-australia-for-first-time-in-100-years (''''The Guardian'''')]'
+    text: The night parrot is confirmed sighted (and photographed) in Western Australia for first time in nearly 100 years.
+    links:
+    - surface: night parrot
+      target: night parrot
+      red_link: null
+      raw: '[[night parrot]]'
+    - surface: Western Australia
+      target: Western Australia
+      red_link: null
+      raw: '[[Western Australia]]'
+    citations:
+    - url: https://www.theguardian.com/environment/2017/mar/23/night-parrot-sighting-confirmed-in-western-australia-for-first-time-in-100-years
+      display: (The Guardian)
+      publisher: The Guardian
+      via: null
+      language: null
+      raw: '[https://www.theguardian.com/environment/2017/mar/23/night-parrot-sighting-confirmed-in-western-australia-for-first-time-in-100-years (''''The Guardian'''')]'
+  line: 30
+  raw: ;Science and environment
+warnings: []

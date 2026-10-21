@@ -2218,3 +2218,71 @@ write protection and manifest retirement checks. No daily outputs remain.
 fallback, 4,653 expansion assertions, exact Markdown regeneration, manifest
 retirement, plan skipping and daily write protection. Releases for both 2020
 and 2019 were uploaded and their committed file digests/sizes verified.
+
+
+## Annual 2017 source-preservation cutover and legacy adapter — 2026-10-21
+
+- Added `archive/2017.sqlite` (26,382,336 bytes; SHA-256
+  `75e28959e2e4a4880f5b06a17d265f27a1a0ec5c90bb5242634c6ae5c19dac7a`)
+  and `archive/2017.md` (1,861,751 bytes; SHA-256
+  `0a20f16364c3712a0ae053a3c98c7194765463f3d3442df4742a9621f9cb1aa3`).
+- Preserves all 365 dates, 3,791 assertions (3,787 leaves), 2,777 topics and one
+  empty marker. The marker before the first category on March 23 remains a
+  non-event, decreasing the prior candidate's assertion tally by one. Its unnamed
+  category has no invented heading or category source location.
+- Added `seed/annual_legacy.py`, profile `annual-series-1.1`, documentation,
+  exact March 23 source/prior-candidate fixtures and two tests. The adapter loads
+  the frozen 1.0 engine into an isolated namespace and adjusts comparison copies
+  only for matching absent unnamed-category locations. One-sided changes fail.
+  All earlier implementations and annual bytes remain unchanged.
+- Current dispatcher: `python -m seed.annual_legacy`. CI uses it for all annuals.
+  Each published renderer already performs full verification; removed the CI
+  call that redundantly repeated that same full replay immediately beforehand.
+  Exact Markdown comparison, full replay, SQL/TSV recovery and synthesis checks
+  remain required. The unpublished-candidate branch still verifies explicitly.
+- Seventeen uncited child assertions have separate guarded evidence records:
+  ten complete and seven partial. Some citations were originally on parent or
+  neighboring assertions; original citation placement is preserved. Raj Shah
+  vs source Rajiv Shah and formal staff roles are clarified separately. Avalanche
+  injuries/rankings, government formation, precise international protest coverage
+  and some diplomatic statements remain partial; inaccessible UN primary URLs
+  are not represented as opened evidence.
+- Exact source/byte and batched Git checkpoint comparisons passed before retiring
+  1,825 duplicates: 365 YAML (original CRLF retained), 365 metadata, 365 wikitext
+  and 730 ignored candidates. Every live assertion/citation occurs in Markdown.
+- Commands/checks: `python -m unittest discover -s tests -q` (61 passed),
+  annual-legacy build/prepare/retire, temporary preflight and full post-retirement
+  offline replay/recovery QA. All 365 dates replayed with sockets disabled;
+  all revision fallbacks, expansion recovery (3,791 events), exact Markdown,
+  plan skipping, write protection and manifest retirement checks passed.
+  The first 1.0 build failed safely on an absent category line; no output was
+  replaced. The 1.1 full build and fixture explain that exact difference.
+- Network: active repair-branch pull; scoped opened UCSB transition release,
+  PTI, Italian Civil Protection, Liechtenstein election results, Nintendo,
+  Hall of Fame directory, AP and Reuters evidence. No Wikipedia/GDELT acquisition.
+  Existing PDF/book work was not staged or changed by this migration.
+- 2018 commit `5c82bf2b` passed CI; its release upload is followed separately.
+  All 2019–2025 releases are already published with verified committed assets.
+- Remaining risk: source selection and independent factual review are incomplete;
+  partial accounts and source errors remain explicitly visible.
+
+### Prepared 2016 candidate; no cutover
+
+- `reference/overrides/2016-series.json` records 24 inspected nominal-label
+  interpretations and guarded notices for original templates/depth. Version 1.1.
+- The local ignored `provisional/2016-series-final.sqlite` passed full offline
+  build/reconciliation: all 366 dates, 5,233 assertions (5,208 leaves), no unknown
+  roles, unresolved warnings or unexplained baseline differences. It has no
+  publication manifest. All original daily files and cached inputs remain intact.
+- Twenty-six uncited assertions need separate editorial evidence. One partial
+  record is already stored locally: `2016-afghanistan-withdrawal-claim`, guarding
+  the December 31 line-10 assertion. The opened July 6 Obama statement explicitly
+  planned approximately 8,400 troops into 2017, rather than a total 2016 withdrawal:
+  https://obamawhitehouse.archives.gov/the-press-office/2016/07/06/statement-president-afghanistan/
+  The record preserves the source and requires a separate check of actual
+  year-end deployment. The other 25 uncited assertions have no review yet.
+- Do not rebuild over that local research input. Continue its evidence queue,
+  or explicitly transfer the guarded review before building a new candidate.
+  No 2016 Markdown, retirement or release is claimed. Next publication unit is
+  2016, followed by earlier complete years. Partial 2003/2002 coverage still
+  requires an explicit policy before any complete-calendar publication claim.
