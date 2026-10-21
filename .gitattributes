@@ -35,3 +35,7 @@ seed/wikipedia.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr
 
 tools/*.py text eol=lf
 PRIMER.txt text eol=lf
+
+# Successor annual edition snapshots and exact source fixtures.
+reference/schema/ANNUAL_EDITIONS.md text eol=lf
+tests/fixtures/annual_2024/** -text

@@ -1829,3 +1829,125 @@ that PDF is 177,991,680 bytes, SHA-256
 Both SQL/TSV restores and the final bundle's manifests passed again. Files are
 `dist/2025.pdf` and `dist/2025-preservation.tar`, prepared locally rather than
 uploaded to a new GitHub release.
+
+
+## 2024 SQLite/Markdown preservation cutover (2026-10-21)
+
+Published annual pair: `archive/2024.sqlite` and `archive/2024.md`. This pass
+concerns those two layers only. All 366 leap-year dates were already present,
+with exact recorded Wikipedia revisions cached and a prior extraction candidate
+for every day. No GDELT blocks or researched synthesis existed for this year.
+The daily files matched the remote repair branch before migration. No source
+revision was refetched or changed.
+
+Contents and identities:
+
+- 5,305 event assertions (5,303 leaves plus two event containers), 4,563 topic
+  entries, 9,868 total structural entries and 6,198 citation occurrences.
+- SQLite: 35,426,304 bytes, SHA-256
+  `33e38d946c5b2c064a900398491e3e8db54d4ad7eb709544f871963ae796c445`.
+- Markdown: 2,483,469 UTF-8 bytes, SHA-256
+  `df48dd90efab91b5a429a91a63a47f862d25e6735cbbb31ba17099f16c5eea2c`.
+- All original 9,865 flat items are traced to preserved source entries. The
+  remaining three source bullets were topic material omitted by the flat parser;
+  no event assertions were dropped. Annual candidate comparison records all
+  hierarchy/template/citation/category interpretation changes.
+
+Added `seed/annual_editions.py`, `reference/schema/ANNUAL_EDITIONS.md`, two
+2024 guarded override files and three exact-source fixtures with metadata under
+`tests/fixtures/annual_2024/`, plus `tests/test_annual_editions.py`. The named
+`preservation-extraction-2024-1.0` implementation profile retains the approved
+annual, extraction and publication schemas. Its exact implementation, renderer
+and override bytes are embedded and checked during replay. Scoped single-thread
+compatibility contexts leave the original 2025 engine unchanged. The 2025
+SQLite and Markdown checksums remain unchanged, and the new dispatcher reproduces
+its original Markdown byte-for-byte. Use `python -m seed.annual_editions` for
+profiled editions; do not use the frozen low-level verifier alone on 2024.
+Updated verification CI, README, AGENTS.md and exact-byte Git attributes.
+
+Source interpretations are durable and explicit:
+
+- Literal display of additional measurement/range, currency, ship-name,
+  station-name, chemical-formula and Mww template arguments, without computed
+  counterparts, live template expansion, inferred links or factual correction.
+- User-selected orphan topic handling for the bare January 27 Marlin Luanda
+  label and May 5 Iran/Israel/Hezbollah labels. Both remain childless with
+  visible notices; following events retain their actual depth and parent.
+- Four source-depth gaps and February 23 unmatched brackets remain verbatim.
+- The explicit February 26 Law and crime heading has a trailing HTML comment.
+  Recognizing it gives its one following original bullet the correct source
+  category/path; all its prose, links, citations and absolute source identity
+  remain unchanged. The prior candidate delta records this category repair.
+- Citation continuation recovers the original February 5 publisher links; this
+  reduces the older candidate's seven uncited assertions to six.
+
+Separate editorial evidence covers those six remaining uncited entries.
+Four full-event reviews are complete: Atlas Air (aircraft model wording),
+Joliet (fatal/nonfatal locations and dates), February tornadoes (season wording),
+and the Women's FA Cup. Two remain partial: Gonda derailment reporting-time
+casualty differences and an August 8 Lebanon entry whose exact date/injury count
+was not corroborated. The latter's similar August 7 report is explicitly a lead,
+not proof of identical incident identity. Participant/organizer evidence is
+identified. Original source wording and dates remain visible. The six immutable
+review inputs, opened URLs, passage locators, dispositions and honest states
+are embedded in the database. This does not certify the remaining 5,299 events.
+
+Verified and retired exactly 1,830 filesystem duplicates: 366 daily YAML files,
+366 source metadata files, 366 wikitext files and 732 ignored prior extraction
+files. All exact original bytes and identities are embedded in SQLite and
+checked against the publication manifest before deletion. None of the cached
+revisions was shared with other seeds, expansion inputs or capture pointers.
+Checkpoint `7079cdbcdacbcc1141f6db2f3fad886648ef74f9` preserves all 1,098 tracked
+originals. Its 732 raw-cache blobs are byte-exact; its 366 YAML files have Git LF
+versus original filesystem CRLF. SQLite retains the exact CRLF originals too.
+Two owned temporary annual SQLite candidates and the temporary editorial input
+aggregate were removed only after their preserved inputs/records were checked.
+
+Commands and verification actually run:
+
+- `python -m seed.annual_archive build 2024 --output provisional/2024-annual.sqlite`
+  established an offline side-by-side baseline; its unresolved warnings were
+  recorded and resolved by the named successor profile, not erased manually.
+- `python -m unittest discover -s tests -p test_annual_editions.py -v`: four
+  new fixture tests passed, including category/evidence preservation, approved
+  orphan roles/depth, guard drift, unhandled warnings, literal projections and
+  restoration of the original engine after errors.
+- `python -m seed.annual_editions build 2024 --output provisional/2024-preservation.sqlite`:
+  all 366 dates passed full offline replay, repeated parsing, source/schema/
+  structural round trips, bullet/leaf coverage and candidate reconciliation.
+  Zero unresolved warnings, unknown roles or unexplained baseline differences.
+- Six guarded `yearbook.record_review()` imports passed. `annual_editions.prepare()`
+  embedded/rechecked the original candidates, implementation and retirement
+  manifest. `render()` generated the canonical Markdown from the closed edition.
+- Independent Markdown checks passed: 366 date headings, 5,305 unique event
+  anchors, every original event's prose and every original event citation.
+  January 1, February 29, July 3, December 1 and December 31 were spot-checked,
+  including content-template and separate top/bottom-wrapper source forms.
+- Independent Git blob/embedded-input comparisons accounted for all 1,098
+  tracked originals and their newline distinction; all 1,830 original files
+  matched preserved bytes/hashes/lengths before cutover.
+- `python -m seed.annual_editions retire archive/2024.sqlite` removed exactly
+  the listed 1,830 files. Post-retirement full offline verification and exact
+  Markdown regeneration passed using embedded inputs alone.
+- Socket-blocked `replay.run_reparse()` after deletion recovered 366 dates,
+  zero missing inputs and 5,305 assertions in an owned temporary directory.
+  Expansion parsing across all dates returned all 5,305 events. All 366 missing
+  cache revisions were served from the annual database. Planning returned no
+  work for 2024, and an attempted leap-day daily write was rejected.
+- `python -m unittest discover -s tests -v`: all 51 tests passed before cutover
+  (24.224s) and afterward (20.353s). `git diff --check` passed.
+
+Network access: Git fetch/publication checks and targeted publisher/primary-source
+research for six uncited assertions. Evidence used Reuters via Investing.com,
+ABC News, US National Weather Service, Manchester United, the Football
+Association, Deccan Herald, the Indian parliamentary Ministry of Railways reply
+and Arab News. Some AP/PBS and other pages were inaccessible; these were not
+recorded as opened supporting evidence. No new feed/service, source capture,
+GDELT request, PDF generation or picture acquisition was performed.
+
+No unresolved extraction warnings remain. Source notices and the two partial
+editorial reviews remain disclosed. Future corrections require an explicit
+successor edition; do not modify embedded inputs or rebuild over research.
+The recommended next archive is 2023, using the same inspect/build/verify/retire
+sequence and the same source-preservation policy. Current PDF production is
+separate from this annual SQLite/Markdown cutover.

@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2024-01-15",
+    "source_sha256": "dba8d2cefe3acbfe616ee74ac893337c08e3abb25b2c2d25fd991589764deed1",
+    "category": "Armed conflicts and attacks",
+    "source_path": [
+      1,
+      2,
+      1
+    ],
+    "line": 12,
+    "raw_sha256": "71be32cf83aa24833764fbc13186d014907e555c4889a3a841e99b07415f770a",
+    "code": "DEPTH_JUMP",
+    "resolution": "actual_source_depth_preserved",
+    "reason": "Retain the exact source depth and nearest actual shallower ancestor; do not insert a missing intermediate level."
+  },
+  {
+    "date": "2024-01-27",
+    "source_sha256": "8dabf4b2237cc469d263ea5abbaad7968d4e556ed93d9a8f88e663da20c0eff5",
+    "category": "Armed conflicts and attacks",
+    "source_path": [
+      2,
+      1
+    ],
+    "line": 9,
+    "raw_sha256": "7f605b9d0a394b9e28484d4fd1365055fe5542bb786361f4714efd757d7f38e5",
+    "code": "ORPHAN_TOPIC",
+    "resolution": "approved_orphan_topic_preserved",
+    "reason": "User-approved childless topic remains visible as a source-handling note; no child event or parent relation is invented."
+  },
+  {
+    "date": "2024-02-23",
+    "source_sha256": "2b553b62e2a48e3bdb9ad6b8841546feeac257ea53aff0a41ca9b1c574f8378e",
+    "category": "Armed conflicts and attacks",
+    "source_path": [
+      4,
+      1
+    ],
+    "line": 11,
+    "raw_sha256": "cd78ef16550a65facd94cd607d31d4dd05bb5fcd18f7ad7fd015fa555ae7d0af",
+    "code": "MALFORMED_MARKUP",
+    "resolution": "source_markup_error_preserved",
+    "reason": "Retain the unmatched closing brackets and original source prose verbatim; this is a source markup error, not permission to repair the source."
+  },
+  {
+    "date": "2024-02-26",
+    "source_sha256": "e236a8e3496bc2273632b47494a0b54180202cce9fdb87daafc83c7a268c2b71",
+    "category": "International relations",
+    "source_path": null,
+    "line": 14,
+    "raw_sha256": "d976ff857d284823bd1431263edda43c19086df55e146c58a60910e52346c45a",
+    "code": "UNSUPPORTED_CONTENT",
+    "resolution": "source_category_comment_recognized",
+    "reason": "The literal bold Law and crime heading is followed by an HTML comment. Recognize the explicit category, retain the complete source line/comment and move its one original following bullet without changing prose or citations.",
+    "action": "category_comment",
+    "name": "Law and crime"
+  },
+  {
+    "date": "2024-05-05",
+    "source_sha256": "7c5c6903b8861b3c39df9ba0b7022905daca4457e695546bb7431b43b01e279f",
+    "category": "Armed conflicts and attacks",
+    "source_path": [
+      1,
+      1
+    ],
+    "line": 6,
+    "raw_sha256": "9078c29eb3e1b02bfb2edd6e3e468168a00d01808f034ac17bbdfe389d0d356c",
+    "code": "DEPTH_JUMP",
+    "resolution": "actual_source_depth_preserved",
+    "reason": "Retain the exact source depth and nearest actual shallower ancestor; do not insert a missing intermediate level."
+  },
+  {
+    "date": "2024-05-05",
+    "source_sha256": "7c5c6903b8861b3c39df9ba0b7022905daca4457e695546bb7431b43b01e279f",
+    "category": "Armed conflicts and attacks",
+    "source_path": [
+      1,
+      1
+    ],
+    "line": 6,
+    "raw_sha256": "9078c29eb3e1b02bfb2edd6e3e468168a00d01808f034ac17bbdfe389d0d356c",
+    "code": "ORPHAN_TOPIC",
+    "resolution": "approved_orphan_topic_preserved",
+    "reason": "User-approved childless topic remains visible as a source-handling note; no child event or parent relation is invented."
+  },
+  {
+    "date": "2024-05-05",
+    "source_sha256": "7c5c6903b8861b3c39df9ba0b7022905daca4457e695546bb7431b43b01e279f",
+    "category": "Armed conflicts and attacks",
+    "source_path": [
+      1,
+      2
+    ],
+    "line": 7,
+    "raw_sha256": "53e2e6653e5ad0a596f10f9ae37d60e96a9a90c85d48f2ae2ca0680df9292bd0",
+    "code": "DEPTH_JUMP",
+    "resolution": "actual_source_depth_preserved",
+    "reason": "Retain the exact source depth and nearest actual shallower ancestor; do not insert a missing intermediate level."
+  },
+  {
+    "date": "2024-07-03",
+    "source_sha256": "8e19b0839881a85d5d99cc6fb8ca67fc89832e532d532cd14264a223659df7be",
+    "category": "Armed conflicts and attacks",
+    "source_path": [
+      3,
+      1
+    ],
+    "line": 20,
+    "raw_sha256": "4c301cc90b687b7bca349a167b3eb1f08e85af019762f646d8f581b5aef98a1c",
+    "code": "DEPTH_JUMP",
+    "resolution": "actual_source_depth_preserved",
+    "reason": "Retain the exact source depth and nearest actual shallower ancestor; do not insert a missing intermediate level."
+  }
+]

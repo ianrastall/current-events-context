@@ -24,14 +24,19 @@ review states preserve prior work; draft research still needs factual review.
 
 ## Annual preservation editions
 
-The yearly pair is a self-contained database and its readable companion:
-[2025.sqlite](archive/2025.sqlite) and [2025.md](archive/2025.md). The 2025
-edition replaces its old daily YAML files and dedicated cached-source copies.
+Each published year has a self-contained database and readable companion:
+
+| Year | SQLite | Markdown | Dates | Event assertions |
+|---|---|---|---:|---:|
+| 2024 | [2024.sqlite](archive/2024.sqlite) | [2024.md](archive/2024.md) | 366 | 5,305 |
+| 2025 | [2025.sqlite](archive/2025.sqlite) | [2025.md](archive/2025.md) | 365 | 5,453 |
+
+These editions replace their old daily YAML files and dedicated cached-source copies.
 The originals, metadata and prior local extraction candidates remain embedded
 as exact bytes inside the database, with hashes, a retirement manifest and
 a Git checkpoint. Other years retain their existing formats until migrated.
 
-The edition preserves 365 dates, 5,453 event assertions and 10,096 structural
+The 2025 edition preserves 365 dates, 5,453 event assertions and 10,096 structural
 entries. Exact pinned Wikipedia inputs, category/topic hierarchy, original
 text, links, citations, source errors and existing GDELT content are retained.
 No collection refetch was performed for cutover. An empty marker and five
@@ -52,6 +57,21 @@ are disclosed too. Five full-event reviews are complete and three remain partial
 the rest are not represented as checked. Source text remains unchanged.
 This is an archival reference edition, with further historical interpretation
 and further researched yearbook interpretation possible as later work.
+
+The 2024 edition preserves 9,868 structural entries. Six separately cited
+editorial accounts cover its originally uncited entries: four full-event
+reviews are complete and two remain partial. Original reporting limits remain
+visible. The two approved orphan topic labels are retained with warnings in
+both formats. Four source-depth gaps and malformed markup retain the exact
+source form; an explicit category heading followed by a comment is recognized.
+See [successor annual profiles](reference/schema/ANNUAL_EDITIONS.md) for the
+pinned 2024 interpretation and year-appropriate renderer. The frozen 2025
+implementation and annual file bytes remain unchanged.
+
+```powershell
+python -m seed.annual_editions verify archive/2024.sqlite
+python -m seed.annual_editions render archive/2024.sqlite
+```
 
 ```powershell
 python -m seed.archive_release verify archive/2025.sqlite
@@ -77,7 +97,7 @@ SELECT date, category, text FROM archive_events_fts
 WHERE archive_events_fts MATCH 'earthquake' ORDER BY date;
 ```
 
-Offline replay and synthesis obtain 2025 inputs from the annual database.
+Offline replay and synthesis obtain published-year inputs from their annual databases.
 Planning treats those dates as present; acquisition and writers refuse to
 recreate daily files. Shared cache entries still used elsewhere remain on disk.
 Preservation exports are generated as release assets rather than multiplying

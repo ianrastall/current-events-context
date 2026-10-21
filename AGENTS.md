@@ -64,6 +64,13 @@ replace embedded implementation snapshots. New editorial research and changed
 extraction require an explicit successor edition/migration. Current published
 years and remaining work belong in `HANDOFF.md`.
 
+Use `seed.annual_editions` to verify/render successor-profile annual editions.
+It delegates unprofiled editions to their frozen original implementation.
+An explicit profile records its implementation/override snapshots and selects
+its deterministic interpretation during full replay. Do not invoke the frozen
+low-level verifier alone for an edition that declares a successor profile.
+Keep each profile scoped and versioned; never apply it to earlier editions.
+
 Keep these concerns separate even if the current seed YAML stores more than one of them together.
 
 ### 1. Source acquisition
