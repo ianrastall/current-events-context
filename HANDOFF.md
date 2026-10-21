@@ -2338,3 +2338,31 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   lookup of every published calendar date (3,287 dates total); per-year pinned
   source/revision recovery, replay seed availability, planning presence and
   daily-write refusal. All ran with socket connections blocked.
+
+
+## Main-branch integration and publication — 2026-10-21
+
+- The maintainer explicitly authorized committing, pulling, pushing and
+  publishing, including merging all branches into main, and stated that all
+  work should be on main. Recorded that durable preference in AGENTS.md.
+- Fetched origin and committed the year-folder cleanup as `28f9685d`.
+  Fast-forwarded local main to the repair branch, then merged origin/main
+  as `af0717aa` without conflicts. The incoming changes add exactly 15 daily
+  files from October 5–20, 2026 (October 11 was absent upstream). No data was
+  refetched or synthesized during integration. The three existing book commits
+  are retained as part of the expressly requested all-branch integration.
+- An ancestry check confirmed every local and origin branch tip is included
+  in main: both Claude branches, the checkpoint branch, the repair branch and
+  origin/main. No branch was deleted and no history rewritten. Checkout is main.
+- Post-merge `python -m unittest discover -s tests -q`: all 62 passed. Annual
+  file bytes and pinned implementations are unchanged from the full offline
+  verification recorded above; incoming daily files do not affect those inputs.
+- Queried GitHub release metadata for all nine archive-2017-v1 through
+  archive-2025-v1 releases: all are published, and all 27 SQLite/Markdown/
+  SHA256SUMS assets match local sizes and SHA-256 digests. The layout cleanup
+  needs no replacement annual release, retagging or asset overwrite. Existing
+  local TAR/working JSON remain ignored as previously documented. No PDF asset
+  was published or changed. Source acquisition/network: Git fetch and GitHub
+  release metadata only; no Wikipedia, GDELT or research-service access.
+- Next publication step: push the integrated clean main branch and check its
+  GitHub verification workflow, including annual replay and SQL/TSV recovery.

@@ -289,6 +289,9 @@ When multiple prior outputs exist, the exact cached source is authoritative. New
 
 ## Git and publication safety
 
+Work on `main` by default. The maintainer works only on `main`; integrate
+existing branch work there rather than leaving completed changes on a side branch.
+
 The CLI supports automatic commit and push for range runs. Do not use `--commit` or `--push` during exploratory parser work, cache construction, schema design, or provisional regeneration unless explicitly requested.
 
 Before publication:
