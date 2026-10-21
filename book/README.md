@@ -44,6 +44,23 @@ python book/tool.py build book/2025
 python book/tool.py dossier book/2025 ch02
 ```
 
+## Chapters and illustrations
+
+`2025/<chapter>/chapter.txt` is the chapter text. Notes are written
+`[[S001 locator | S002 locator]]` and refer to dossier sources. `render.py` turns
+the text into a footnoted 6 × 9 in. PDF using `history.typ`. It writes
+`claims.json` with one record per noted sentence, ready for the independent
+verification pass.
+
+```powershell
+python book/illustrate.py book/2025/ch02/portraits.json <photo-folder> book/2025/ch02/figures
+python book/render.py book/2025/ch02 --font-dir <fonts> --sources-dir <folder with mts4.json> --output dist/2025-history-ch02-draft.pdf
+```
+
+`illustrate.py` renders licensed reference photographs as engraving-style line
+hatching. Credits and licences are listed in `portraits.json` and printed in the
+book.
+
 Primary documents are downloaded and hashed during research. Their SHA-256 is
 recorded in each source's note. The files themselves are kept in ignored
 `tmp/pdfs/sources/`, not in Git, and can be fetched again from the recorded URLs.
