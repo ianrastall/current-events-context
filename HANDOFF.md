@@ -2175,3 +2175,46 @@ writes were refused. The publication manifest has no remaining duplicate files.
 2019 post-retirement checks passed: 365 offline reparse dates, 3,841 expansion
 assertions, every revision fallback, exact Markdown regeneration, plan skipping,
 write protection and manifest retirement checks. No daily outputs remain.
+
+
+## Annual 2018 source-preservation cutover — 2026-10-21
+
+- Added `archive/2018.sqlite` (29,700,096 bytes; SHA-256
+  `f7e681ab3aeeafa481a565ea3a545d9378c473c5ea4fd3c8583b91d4dc61b063`)
+  and `archive/2018.md` (2,165,900 bytes; SHA-256
+  `6d82d050b54d349198feee07f8ef561c9c53493111f23528254a004f94ebc99f`).
+- All 365 dates, 4,653 event assertions/leaves and 3,102 topic labels retained.
+  Eleven guarded topic interpretations preserve the original hierarchy. Two
+  unbulleted fragments remain unclassified research material (September 11 school
+  fire prose and November 20 Brussels label). Their claims are not certified.
+  Original empty comment fragments, templates and depth gaps remain visible.
+- Three uncited assertions have separate evidence accounts: two complete
+  (Kerala jackfruit designation, Gran Turismo 6 online closure) and one partial
+  (Winnie Madikizela-Mandela's death/biographical characterization). Original
+  source prose and errors remain unchanged. No unexplained structural differences
+  or unresolved extraction warnings remain.
+- Exact preflight and batched Git comparisons passed for 1,825 retired originals:
+  365 YAML, 365 metadata, 365 wikitext, 730 ignored candidates. Raw original CRLF
+  bytes remain in SQLite despite Git's LF normalization. Every live assertion
+  and live citation was checked present in Markdown. The publication manifest
+  records exact hashes, paths and the preceding Git checkpoint.
+- Commands: annual-series build/prepare/retire; temporary byte/Git/Markdown
+  preflight and post-retirement offline replay/recovery checks. The original
+  59-test suite passed; the successor compatibility tests bring the suite to 61,
+  all passing. Full calendar verification passes with unchanged 1.0 profile.
+- Network: opened Kerala government and Times of India, official Gran Turismo
+  notice, South African government/Presidency and government Vuk'uzenzele
+  biography. An unrelated changed magazine page was not used as evidence.
+  No Wikipedia/GDELT refetch, no PDF changes.
+- 2020 and 2019 CI passed. Release `archive-2020-v1` was uploaded and verified;
+  `archive-2019-v1` publication is being followed separately.
+- Risks: independent review remains incomplete; the biographical evaluation is
+  explicitly partial and the unbulleted fragments remain research leads.
+- Next: publish this year and continue the 2017 migration. A null-name category
+  before the first actual heading needs a successor comparison adapter; original
+  annual-series-1.0 bytes remain frozen. The 1.1 candidate full replay passed.
+
+2018 post-retirement checks passed: 365 offline replay dates, every revision
+fallback, 4,653 expansion assertions, exact Markdown regeneration, manifest
+retirement, plan skipping and daily write protection. Releases for both 2020
+and 2019 were uploaded and their committed file digests/sizes verified.

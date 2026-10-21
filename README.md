@@ -28,6 +28,7 @@ Each published year has a self-contained database and readable companion:
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2018 | [2018.sqlite](archive/2018.sqlite) | [2018.md](archive/2018.md) | 365 | 4,653 |
 | 2019 | [2019.sqlite](archive/2019.sqlite) | [2019.md](archive/2019.md) | 365 | 3,841 |
 | 2020 | [2020.sqlite](archive/2020.sqlite) | [2020.md](archive/2020.md) | 366 | 7,393 |
 | 2021 | [2021.sqlite](archive/2021.sqlite) | [2021.md](archive/2021.md) | 365 | 8,350 |
@@ -72,6 +73,11 @@ source form; an explicit category heading followed by a comment is recognized.
 See [successor annual profiles](reference/schema/ANNUAL_EDITIONS.md) for the
 pinned 2024 interpretation and year-appropriate renderer. The frozen 2025
 implementation and annual file bytes remain unchanged.
+
+The 2018 edition preserves 4,653 assertions and two unbulleted source fragments
+as unclassified research material. Three uncited assertions have separate
+evidence accounts: two complete and one partial. Original templates, depth gaps
+and bare topic labels remain visible with source handling notes.
 
 The 2019 edition preserves 3,841 assertions and a source editorial comment
 without treating it as an event. Six uncited assertions have separate evidence
