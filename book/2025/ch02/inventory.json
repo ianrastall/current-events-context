@@ -1,0 +1,2347 @@
+{
+ "sections": [
+  {
+   "ord": 1,
+   "title": "Opening: 2 April",
+   "span": "2–3 April"
+  },
+  {
+   "ord": 2,
+   "title": "Why tariffs? Authorities and aims",
+   "span": "Background; 26 January"
+  },
+  {
+   "ord": 3,
+   "title": "Neighbours first: Canada and Mexico",
+   "span": "1 February – 27 March"
+  },
+  {
+   "ord": 4,
+   "title": "Liberation Day and the market shock",
+   "span": "10 March – 12 April"
+  },
+  {
+   "ord": 5,
+   "title": "The China spiral and truce",
+   "span": "1 February – 9 November"
+  },
+  {
+   "ord": 6,
+   "title": "Deals by letter",
+   "span": "26 February – 13 November"
+  },
+  {
+   "ord": 7,
+   "title": "Courts and Congress",
+   "span": "2 April – year end"
+  },
+  {
+   "ord": 8,
+   "title": "The world trades around America",
+   "span": "1 January – 29 December"
+  },
+  {
+   "ord": 9,
+   "title": "Assessment: what tariffs did",
+   "span": "Retrospective"
+  }
+ ],
+ "sweep": {
+  "pattern": "tariff|trade war|trade deal|trade agreement|trade talks|trade truce|liberation day|customs|import tax|import dut|reciprocal|de minimis|export control|export ban|rare earth|section 232|unreliable entit|free trade|trade surplus|trade deficit|Nasdaq|S&P 500|Dow Jones|stock market|stocks fall|recession|Boeing|Court of International Trade|IEEPA|Emergency Economic Powers",
+  "candidates": 132,
+  "reviewed_on": "2026-10-21"
+ },
+ "events": [
+  {
+   "locator": {
+    "date": "2025-01-01",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "da33c1ff79543277b63b74e86e9cd012ca4e3f61326efa93b714a808bdcfac51",
+    "raw_sha256": "f2658ac3a9c8229cb8730cdeabae6846f4e052373aeb969667e02dda0e4aed88"
+   },
+   "event_sha256": "1accf542474d2d2565ddc9c4ea05c9c936ae070c5a857662d601f976b42ba9c3",
+   "section": 8,
+   "role": "context",
+   "note": "Mexico raising its own tariffs on non-treaty partners before US action."
+  },
+  {
+   "locator": {
+    "date": "2025-01-02",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "2288eacaf9f3dbdf2a3162bd8173d3a70f8a86fd17da6fc5d53cfbb11d2d9c04",
+    "raw_sha256": "5202ca76a32fac345ebb1f1788d3a46e2334e48e233a1f54600e301a66626dd9"
+   },
+   "event_sha256": "3be2a276401df59fd0854591eeaa062b3838f472fff2f8445192db29e2859e83",
+   "section": 9,
+   "role": "context",
+   "note": "Pre-existing German weakness; separates tariff effects from prior trends."
+  },
+  {
+   "locator": {
+    "date": "2025-01-22",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     2
+    ],
+    "source_sha256": "7e3eba727f52f8ac4bfb217d1e3a35d1007121971bab3f2a2add6180e7952d63",
+    "raw_sha256": "bd9715e68ac2ee230b139fd8875ad3a8635b56ed83e69a04993562b33556d563"
+   },
+   "event_sha256": "7120513172d9ed22a86160e81b5854dd7d77e11a8e6b5f3921f98587a29419f0",
+   "section": null,
+   "role": "excluded",
+   "note": "Boeing safety report; not trade."
+  },
+  {
+   "locator": {
+    "date": "2025-01-26",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "2d84fc29e8b98b2960a9607d6d43e2253964db5c34ab6c4eecd0d34d46021dbd",
+    "raw_sha256": "ba3efe363dabf00efa9493a33e9c3a932e03c6d1e5126d8e3c9bc2fbd2e18aeb"
+   },
+   "event_sha256": "b5d4347d071bde52b91ad4fa1b445b5777e4a9b2ef5cff0519b0b51183c094bf",
+   "section": 2,
+   "role": "core",
+   "note": "Tariff used as leverage over deportation flights; frames the non-trade aims of tariffs."
+  },
+  {
+   "locator": {
+    "date": "2025-01-27",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1
+    ],
+    "source_sha256": "0b4a0861645a5ec3dc6a7b920e07de0a33fca2684cd9b8fa307e40c58d97db5b",
+    "raw_sha256": "2416992203c6281fc4b46334e1f385aaca69fee623ecfd75661f73d0b6b2062b"
+   },
+   "event_sha256": "ed6fb0d20a8b9f39961cf51eb4064a7c7cec5bd7a3e1720e085be376d3b13c0e",
+   "section": null,
+   "role": "excluded",
+   "note": "Technology selloff caused by an AI model release; not tariffs."
+  },
+  {
+   "locator": {
+    "date": "2025-02-01",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "96326035213d9aa9cc188140625fa96fc0b10974f1d1ce81ba1dddb9fb3f226c",
+    "raw_sha256": "09be936d064493c3d6c8eb4a12ea9094aa009ddd6800476c112bf515008bd5e4"
+   },
+   "event_sha256": "990625ffd23c4b5ada982dca1e9fcfb2fdbb28ee8f31e4ec1a3465363b750c93",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-01",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "96326035213d9aa9cc188140625fa96fc0b10974f1d1ce81ba1dddb9fb3f226c",
+    "raw_sha256": "c9ddf66553fc273157d945e3f3027ca4788b3b6938565aa0335cd8d045dbb5cf"
+   },
+   "event_sha256": "8be4e9cd3a4ae04b564d5daec952afe98f67dec5a56a0dda8d6d6963d46f02e3",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-01",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     3
+    ],
+    "source_sha256": "96326035213d9aa9cc188140625fa96fc0b10974f1d1ce81ba1dddb9fb3f226c",
+    "raw_sha256": "98d14170f39b563c281c212bdb8352d850d3ecba73a08205503c1347dd84337f"
+   },
+   "event_sha256": "ca5a2b047618c4c321f16fc1c9d825e764e649a0e607fa666269793e63296bbb",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-01",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     4
+    ],
+    "source_sha256": "96326035213d9aa9cc188140625fa96fc0b10974f1d1ce81ba1dddb9fb3f226c",
+    "raw_sha256": "7b8926f1b94809b52dcaf38d2c185f462d802eb96eb8f6c03a44d0ed150cb189"
+   },
+   "event_sha256": "107e766c49c0dcb94bd57e4ec3c4155bc8d8ce12a687d147f6f7f4338069500d",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-01",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2,
+     1
+    ],
+    "source_sha256": "96326035213d9aa9cc188140625fa96fc0b10974f1d1ce81ba1dddb9fb3f226c",
+    "raw_sha256": "06d03f7da82e8df064243b63d3417c4535ee667e373666b3c35074f826a447c0"
+   },
+   "event_sha256": "9aa23ef753f0b7fade785371cc28ca520e89ec293f6b11b53e19f718c8ff0878",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-03",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "f18490d8c9ed74c2dcfc2d9b364bcc0b2e2ba4878dcc194365a0521cf098acac",
+    "raw_sha256": "d3a83fbe12fe229b82c1fa281a69dc98b3d3fc7a64b65498aa3a3aa1b8c0fb41"
+   },
+   "event_sha256": "802c6759fe077934d256122335fbba50306e942a1a6b77ddcec7d491c3d70db7",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-03",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "f18490d8c9ed74c2dcfc2d9b364bcc0b2e2ba4878dcc194365a0521cf098acac",
+    "raw_sha256": "efb406cbe981205d63cfe696d2e08967a861723051b2a77133734d5a310a762b"
+   },
+   "event_sha256": "09d7bbd217c34cc31b00c9e85d78e933ed5327754382102aabd06ba9c49d0452",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-03",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     2,
+     1
+    ],
+    "source_sha256": "f18490d8c9ed74c2dcfc2d9b364bcc0b2e2ba4878dcc194365a0521cf098acac",
+    "raw_sha256": "89b4fbeef69b21509af7b9a04e2d5b2c273c4be668a3445c899a46ded9842251"
+   },
+   "event_sha256": "1e9547208d6bc1f6a1efcd75560649f29416747ae9f4d614d1012db05e0c648c",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-03",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "f18490d8c9ed74c2dcfc2d9b364bcc0b2e2ba4878dcc194365a0521cf098acac",
+    "raw_sha256": "b9581ce3abb68f4e7cff02bb08b753cc68451a64f90c4fef5c87de0fe2f0bbea"
+   },
+   "event_sha256": "b0882e639eee9289e936519babb782cf1d2b7eae0bfab36a89839c089f955487",
+   "section": 8,
+   "role": "context",
+   "note": "Tariff disputes between third countries."
+  },
+  {
+   "locator": {
+    "date": "2025-02-04",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     2,
+     1,
+     1
+    ],
+    "source_sha256": "0933e258d6e3e05f1b7f47c294c3c18ad703975cc6783dc7d09eb73051f2e911",
+    "raw_sha256": "7318512c18154d517b068c1d4a9cf7a7e5b4f20fb1596c5b388f5fcf64f28d6e"
+   },
+   "event_sha256": "41dc9d0f630c460031403d7a3be7dd7ed20cf75b6c79c750f3cb1386499b1de7",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-05",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "7a75e3ad45a0bb67f29b9dea26ad24baa09500d2b32d3b2389c924b0dc082da9",
+    "raw_sha256": "933dca266194462b835e6b3f5f5bc004f511002012f37d47fd96846a7abe96b1"
+   },
+   "event_sha256": "3dbc15ed636d6d4e66bf7792039186f815fa6fe99c276f94c4fdd5921b9b9467",
+   "section": 5,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-02-10",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "a2d2e7edb62da9df4c7086003d331dad933b74f9440966519d6d30de62420541",
+    "raw_sha256": "ed4567e7207b244ca8d0afc487341b0060eb998970b52c47eda23108450b1df5"
+   },
+   "event_sha256": "3da8fa368b93a2efc0c4b76c326207680f378694ca6ee1f3f0d016ae0ddde467",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-02-26",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "404a3f0c0bf17ab35b959da61b783d0b494aa973dade270fa2e25e7c2110eed6",
+    "raw_sha256": "265890a8157f65b80ed8ea0bb39b19a79e1a3b6df5c1fbf3f39e3bf2ef8ce4a4"
+   },
+   "event_sha256": "10b5b8d62d922e0da21048ec3f2fbc51597a027d959e68ed6d838063d46132f6",
+   "section": 6,
+   "role": "context",
+   "note": "Announcement only; check what, if anything, took effect."
+  },
+  {
+   "locator": {
+    "date": "2025-03-04",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "cd6b84ac14fd476705568df5e0b679f39ec8a0703069b7d3517aba5e4d4dcf7f",
+    "raw_sha256": "40f2e83c589cb910d51600dcb12109c2f8a10b511356acd7b92c694c22391b55"
+   },
+   "event_sha256": "e162e744fe86140954a2db1d7012bc4c5a521bd4e573d619a95cfa9a0c046bda",
+   "section": 3,
+   "role": "core",
+   "note": "Also records the China rate rising to 20%."
+  },
+  {
+   "locator": {
+    "date": "2025-03-04",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "cd6b84ac14fd476705568df5e0b679f39ec8a0703069b7d3517aba5e4d4dcf7f",
+    "raw_sha256": "3a9491b6863b5637d096506ce11525c2c327579e617504886e90ddcdb3cefdc0"
+   },
+   "event_sha256": "0c6cdb985dbaaf778690aebb3c96397b14bab23d581e50fbf763b2a77b3b29d0",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-04",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2,
+     1
+    ],
+    "source_sha256": "cd6b84ac14fd476705568df5e0b679f39ec8a0703069b7d3517aba5e4d4dcf7f",
+    "raw_sha256": "d662ec72c5f4f32cc6570b2e82ec27d3f1cf8eed064f1552993a9c305886fc9c"
+   },
+   "event_sha256": "c54e045517486cee5d5c531f7ef4a4026bb8cf6c62856d8f3fe7f9d1f1383e4a",
+   "section": 5,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-03-05",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "2101fa75ef5d395d1a1d0fcc94c5da33440cb6a0badfd8e86b14cdd3dffb1f89",
+    "raw_sha256": "e8bad5f7a82200bdbbd3622404b968c174d9cd8708c3b3e60f0938814a04b34f"
+   },
+   "event_sha256": "02a12c51638738d138ffb277b41786b5289837270835106134fac5ceb0a7b2ef",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-06",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "7796f110c0b72d2a5cb4311fe9b249c0fc4f82b3540fd03832f574cf8de951c7",
+    "raw_sha256": "dc17fdf64aa1a6c50fdf36dc65046a13116a3f49a3b0ab3024df190731919dde"
+   },
+   "event_sha256": "e74149c9e9f1a1db696d6f9ec2c065a984acf1310500005c0a11e14f3053c433",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-08",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "94d77de760e0c36b1de3ec15cf4fcf9b438c2cdce9133072bd63eb8a199c9442",
+    "raw_sha256": "75fd10f28a6e8077edf5c54e65afd879e240638f40171fa483d0f5240a3f2d2c"
+   },
+   "event_sha256": "4f510377498b4c27d5613ef4d15452a6f8f9df0a02150ee0ab2c7504fb117e16",
+   "section": 8,
+   "role": "context",
+   "note": "China–Canada dispute predates and parallels the US measures."
+  },
+  {
+   "locator": {
+    "date": "2025-03-09",
+    "category": "Law and crime",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "a9f1114fe173cf29d9befdedffde54fd55d9b2c88bae0765386ad25a37b1d4a9",
+    "raw_sha256": "60cc041fa5b9baf8158121f67eb46fdf53068907e61234c3fa2ccab1b8776af5"
+   },
+   "event_sha256": "9f00e1bdb5d9dda3473ee47c4a4be74f32ab4c5be1379ce7e9e24167adb2eadf",
+   "section": null,
+   "role": "excluded",
+   "note": "Immigration arrest; matched \"Customs\" in an agency name."
+  },
+  {
+   "locator": {
+    "date": "2025-03-10",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "9e388e6aa5a2b2ed5e026d14726b703aea00dc6e19573ef201454d641ce4bf4e",
+    "raw_sha256": "b02981a720ca4d754a638f6ba0fc4c29aeeaf53eb22864127c50b2a0750bede9"
+   },
+   "event_sha256": "19aa2b3d80da25b86fe2c0bd35050ed0584a1e479cf2f56d30410f04cc91e4b2",
+   "section": 3,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-03-10",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "9e388e6aa5a2b2ed5e026d14726b703aea00dc6e19573ef201454d641ce4bf4e",
+    "raw_sha256": "0ec3a9efe8b9f9a2afebd66ac8a413501899134070722585a11b78d6558ea531"
+   },
+   "event_sha256": "ed8704782a2b74e5c1f46041114e5cab9a2f489269b4b366d6239e075f7cea0d",
+   "section": 3,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-03-10",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "9e388e6aa5a2b2ed5e026d14726b703aea00dc6e19573ef201454d641ce4bf4e",
+    "raw_sha256": "69ed7903a9953ca89d983633523f7771cda7dd513eda1ea09839b03ca1a3aa91"
+   },
+   "event_sha256": "fcf75f097b7a3467158589758120718b18dcc3c33ce2149a69aaf007ec7d7602",
+   "section": 4,
+   "role": "context",
+   "note": "Market move attributed partly to tariff uncertainty; attribution must come from market reporting, not the archive."
+  },
+  {
+   "locator": {
+    "date": "2025-03-11",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "0ca9e4ac09cf0aa2de3feb77641d1802c17b5a2aac59a9625633a87f466f4d12",
+    "raw_sha256": "af25084bb0ede3e1300c5f8a22013964192df938c3c154d5cc8390b0800b22f3"
+   },
+   "event_sha256": "ef05aa76744653016c63c267ae289d0c1197935590d6b01a9da915b5b7d5f1cc",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-11",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "0ca9e4ac09cf0aa2de3feb77641d1802c17b5a2aac59a9625633a87f466f4d12",
+    "raw_sha256": "ee00ad8d0aa4b0b9864d3bdab700edff4a105857e78be41135eb406eee0b8e12"
+   },
+   "event_sha256": "fa2a930b96f97922626f586bc436b7d8cb87fa354b1668077076d1117defd582",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-11",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     3
+    ],
+    "source_sha256": "0ca9e4ac09cf0aa2de3feb77641d1802c17b5a2aac59a9625633a87f466f4d12",
+    "raw_sha256": "aa9f224f9b7afae876e50efc70b661bfdd76fd92f921b67f9a7a39f5bc8913bf"
+   },
+   "event_sha256": "ce0b17b12ae163e843bc38e2400e084b1b57b07f72459c680fa012256bb0e3a3",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-12",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "1e59af66dcc806bdd494bea3e730427464be31affe6dacc4cfb0f4de799312f5",
+    "raw_sha256": "39b8157d91b6335c44498219cf53dd7f315f8cc36c26ad675f36513a34bcc74d"
+   },
+   "event_sha256": "45b4518ce8f86a3ef641779419ef4f57ebf88a34f2f61b4e8921563c3abc5d23",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-18",
+    "category": "Science and technology",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "cdfe66f808b495ad2d8e2979350811963956cd852537973d0fac04d6696ecc5b",
+    "raw_sha256": "6f8203b1b8afc20e5e36aea297b194a1e0bcd3471d73756ffcba0ae4a325c30c"
+   },
+   "event_sha256": "0664adf6064c6068734ba004a65ec5f9b3a2d57dc461f08e61506fd74a86c3e6",
+   "section": null,
+   "role": "excluded",
+   "note": "Spaceflight; matched \"Boeing\"."
+  },
+  {
+   "locator": {
+    "date": "2025-03-21",
+    "category": "Science and technology",
+    "category_ord": 5,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "482e43080f310ebd6c18a07ccc47bdd83be5580c92761bfb1414c44de20374e9",
+    "raw_sha256": "dfbe05701f8eb11830202a7135b5972c7ee49cb9bf514fd589fe4470fadd725a"
+   },
+   "event_sha256": "da39e65309e1c87a8e35718fa1e1276d0580aa9315ad8448b20209158d4fe376",
+   "section": null,
+   "role": "excluded",
+   "note": "Military procurement; matched \"Boeing\"."
+  },
+  {
+   "locator": {
+    "date": "2025-03-26",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "ca56772a9531fa881a9d387b463fba8b9368fd8587c4e9ceb363b39a3e6a09a0",
+    "raw_sha256": "8f59b9358edc9d265e708e1b9fe68dbf391f48401adc3f699bd7bf823c623d05"
+   },
+   "event_sha256": "ead16098f9d444d10786b7c130636dcfeb850b58d85adc0522267cdec0cd44e2",
+   "section": 4,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-27",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "20a7213bb1455047a4b156a25893912259e84ddf1dd206b42c05fb4e680ea8f1",
+    "raw_sha256": "64d60529daa4107ebab46423344b23df8c3af757384ffaf7378d197208a872f7"
+   },
+   "event_sha256": "25b31d364c3adc99ab9e4b302710fecec92c96d7086a4ecaad26285b9112d352",
+   "section": 3,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-03-27",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "20a7213bb1455047a4b156a25893912259e84ddf1dd206b42c05fb4e680ea8f1",
+    "raw_sha256": "b27f4e7f207199c023bee711bb2ebaf4f12281af054fb5e1c5bd17d03a5754ec"
+   },
+   "event_sha256": "d53c3b7f81575d383ccd7ac5527819cd57b4bed2300945ddd115a144b3bfd6a2",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-02",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "bef57ff4fcd15e009f93cb3999c7de96593a65f968a75d0b0b8f8e63ac8ec06c",
+    "raw_sha256": "51d70b84c11ec3f9f0694b7adb3f50959c2be68bf78076a260d59559f632bdaa"
+   },
+   "event_sha256": "64305905a21a091b52540a8685f9d6b64a42dec43f3c4cc09b7a22a5bf4b3da2",
+   "section": 1,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-02",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "bef57ff4fcd15e009f93cb3999c7de96593a65f968a75d0b0b8f8e63ac8ec06c",
+    "raw_sha256": "a7b8def6e144934bd067f87e5668abe6e1f0ace5c222937c1d2fadd2214f8d71"
+   },
+   "event_sha256": "2d4a90b489d8d02257f2be664e10236a9f2e5dcd2dc52274c4bed78865db549c",
+   "section": 1,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-02",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1,
+     1,
+     3
+    ],
+    "source_sha256": "bef57ff4fcd15e009f93cb3999c7de96593a65f968a75d0b0b8f8e63ac8ec06c",
+    "raw_sha256": "bceaa8489b89501825c4cccef441a3aa483fc881e19c122bc44dde511a33f523"
+   },
+   "event_sha256": "d1a5fbe5b6d4d58b79129626b7cfd59b7ae6df69216bf815880ccaab5003b2fd",
+   "section": 1,
+   "role": "core",
+   "note": "Illustrates how the country list was compiled; verify against the order annex."
+  },
+  {
+   "locator": {
+    "date": "2025-04-02",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "bef57ff4fcd15e009f93cb3999c7de96593a65f968a75d0b0b8f8e63ac8ec06c",
+    "raw_sha256": "b0800b4a164d7f09f838adaa447893bdb61a3982e89d05563a92649d04587e47"
+   },
+   "event_sha256": "82d7874aa3d2f0430f5f6320071b72d60f55f77a53b7012083782e693d219c53",
+   "section": 7,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-03",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "8507a4007acce1879d0d56c460aa855425ebaa9676d0a3f50618cab0a4f36e25",
+    "raw_sha256": "08aa22679dff5277aa455a6c19ea6f1ea4f99b980502e58066eea95c6e15c0f8"
+   },
+   "event_sha256": "f2468ac66af8fa87763beda3bb2027dbd35eeacf4c90c786a17eb24d988fa93c",
+   "section": 4,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-03",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "8507a4007acce1879d0d56c460aa855425ebaa9676d0a3f50618cab0a4f36e25",
+    "raw_sha256": "13a49bd79c903cad4f823889be463c28cd5d3df1e093ff6928ddf90da0d1e92d"
+   },
+   "event_sha256": "2d9d52cab8ae21e4465c5a01ac0e37dbd9fbc19322f68da9c002529497f5ac4f",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-04",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "f271bb48e3b0ba8be214720ab97d29d2dcfaffa8047b45005d72bcae3ff55b20",
+    "raw_sha256": "0232f82c94dd81cb61e78a55518e18c7af5b24a490bbdd5d0a7b9011d4ad549e"
+   },
+   "event_sha256": "8b6111e64eccec5fda974cb3a0d3d052c3b43543fd0adcef566504be7354788c",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-04",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2,
+     1
+    ],
+    "source_sha256": "f271bb48e3b0ba8be214720ab97d29d2dcfaffa8047b45005d72bcae3ff55b20",
+    "raw_sha256": "5c2d28a3e069388bbc28dcc17718089707c4ccf7e6aad9e5f64de898c5348148"
+   },
+   "event_sha256": "63525087c85b660d3968c660f9b9296bd6cbbc40898fb78c71f7df7ae2d83551",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-04",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2,
+     2
+    ],
+    "source_sha256": "f271bb48e3b0ba8be214720ab97d29d2dcfaffa8047b45005d72bcae3ff55b20",
+    "raw_sha256": "4248a257ced6ef3f567f22ed2661b8f52ed8819b003df47e243df97b0c1d0dab"
+   },
+   "event_sha256": "f2ac39667b976fcfd1a1494259d357902126451b248056730de83381007523a8",
+   "section": 4,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-05",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "9f9935562f64e1e99ec1c75ec3c1ea6f3508f52e6941c55ff33fffc1552faea4",
+    "raw_sha256": "d8e4072d2e7d27f92d1e6990caa27afd083b81371c70fffc06cb4e19ffa1b589"
+   },
+   "event_sha256": "69c4e2f00cc0f48c7e9c29528c2f91e873b4efeb23847708fe6ab958c29ff445",
+   "section": 4,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-05",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "9f9935562f64e1e99ec1c75ec3c1ea6f3508f52e6941c55ff33fffc1552faea4",
+    "raw_sha256": "0477268e34768efec2746f471348bab407f9ebfded746a3bbde5bab55929c0df"
+   },
+   "event_sha256": "a534f0e0a9a43f133dc5e2ac0dcd86f66d87632cedebf3e0fccc2e5067d86303",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-07",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "b0c1be87ad8cc0dcfff33a2f8e12a64e34d5d0bf25ab17b5aaff9bdeaa4774db",
+    "raw_sha256": "3ab494332385c3551a67f398134a785aab35559ea993fc4f0358630324f29969"
+   },
+   "event_sha256": "7750a8faf3e2988ff7c13b87dae4a0f4516600cdef63003f0d3ba24d3fc62b86",
+   "section": 4,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-07",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "b0c1be87ad8cc0dcfff33a2f8e12a64e34d5d0bf25ab17b5aaff9bdeaa4774db",
+    "raw_sha256": "da23deca19a882bbb93f36a7cfdae6363df3b62bf782b1035f23baf4ba848e10"
+   },
+   "event_sha256": "a43a280bb71968c95e62d00a8303f6a76c080602eb7f61b8bf68d181787d86dc",
+   "section": 4,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-07",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     3
+    ],
+    "source_sha256": "b0c1be87ad8cc0dcfff33a2f8e12a64e34d5d0bf25ab17b5aaff9bdeaa4774db",
+    "raw_sha256": "27a1876f616f0562329c0fb6725cfd88df4da1be3045bf190d6dc0c7241661ea"
+   },
+   "event_sha256": "5a45ee012d7c678351f13ced2acd1f2e830f99b46bb1cba582fc89b76a966d58",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-07",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     4
+    ],
+    "source_sha256": "b0c1be87ad8cc0dcfff33a2f8e12a64e34d5d0bf25ab17b5aaff9bdeaa4774db",
+    "raw_sha256": "6aa0bcd30f23e28ee628f37dccd8aa121c431c88f6fbbcb6758af44b8d7a4a7e"
+   },
+   "event_sha256": "87652a018589a42dce4f5972dacc7dae9ff697b6eed1daa11bd5e00c7db4a8f8",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "562a27cd0d5f511cad24328add66b7138b46eaa5b8e2714f141d0a3985fc794f",
+    "raw_sha256": "8a53d5d1ea611be520c23872484a176235cd7e47728e19bfba13cccebe573488"
+   },
+   "event_sha256": "02d6778a49bb0c03700f887712884e642463d115bb44579f47e94a02580dab57",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "562a27cd0d5f511cad24328add66b7138b46eaa5b8e2714f141d0a3985fc794f",
+    "raw_sha256": "f88d8bee4dc3519c54b3d71a9376bea53c46daa13b300faad8d176010dc72f50"
+   },
+   "event_sha256": "357e07eac7b22c79cd457e68555efcb9e946a03b86869c0c92d7cf0b51a7044d",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     3
+    ],
+    "source_sha256": "562a27cd0d5f511cad24328add66b7138b46eaa5b8e2714f141d0a3985fc794f",
+    "raw_sha256": "361c700458488b9e0b67f9963bf6bf77c2c0b3867d37322bfca0842a8c33e17f"
+   },
+   "event_sha256": "6917203f1941e224d6a0b7c62348d97291501efb91bfcf96f98b9792a9dcdedb",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     4
+    ],
+    "source_sha256": "562a27cd0d5f511cad24328add66b7138b46eaa5b8e2714f141d0a3985fc794f",
+    "raw_sha256": "5a300a02b6d0ecdec432b7d8d39d543dfa1277effe27ebf50ebfa05b79a33593"
+   },
+   "event_sha256": "d81772023524210c33119837bc25dbf26f05b69fbf1d028c24bbf057153e3f28",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     5
+    ],
+    "source_sha256": "562a27cd0d5f511cad24328add66b7138b46eaa5b8e2714f141d0a3985fc794f",
+    "raw_sha256": "b7549398f0590a815ad79745941f94966f56fb8262c75efab4dd0e1984d82fad"
+   },
+   "event_sha256": "411432f68117047a906d50a030ac8c56f49235118aeb0e97afb65927ae9c1ec2",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     6
+    ],
+    "source_sha256": "562a27cd0d5f511cad24328add66b7138b46eaa5b8e2714f141d0a3985fc794f",
+    "raw_sha256": "1e938c3aeb31edf35b0675bbf743818f17e2796953cd93d2abb977a3a89b4707"
+   },
+   "event_sha256": "594472c91947780ba5f04d6c976cfb246f157dd9e2c89967cdca0d8e10d96aad",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-10",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "36ab83b1cd8b8d6f8b383f7fa91f8a4970263f4502f517caf2a9ec3128b75c16",
+    "raw_sha256": "d922b817943b88cb962550321cc1331b799107128f88dd2243d0147eab712dce"
+   },
+   "event_sha256": "13fc743d166d6bfe94ae134692fe63b3fdd3f7538d3ffd45a2fdd71675af32b8",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-10",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "36ab83b1cd8b8d6f8b383f7fa91f8a4970263f4502f517caf2a9ec3128b75c16",
+    "raw_sha256": "d650f14717d2d98a3b6d3657ef9336cbbea702dfed1942ba214555408bffade7"
+   },
+   "event_sha256": "37162b201c8afca9ada4e0bbd661c01527abc0ef665556f272c66df358267c3a",
+   "section": 4,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-04-11",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "88c7da169230b210929678a373671c8d333d736872e94aeafe8bd1edebe968ae",
+    "raw_sha256": "796e8a3239b637e1ab1ceb1befdf229e0a3eaffe593917b3b49f0f298dec5dbd"
+   },
+   "event_sha256": "eabba0999ad97ebae12b6e39b145bd7c47f7e0db5ff373756b1b30272e5b6b58",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-11",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     2
+    ],
+    "source_sha256": "88c7da169230b210929678a373671c8d333d736872e94aeafe8bd1edebe968ae",
+    "raw_sha256": "c26afde35f0ad5b8aa98a37e248a8a1fe6484de12c6e6a71e707ced4240ae86e"
+   },
+   "event_sha256": "0d85b57dd951068be4d8ff3293457f9e6dcedae8566e2a37c64782ef0b4ea55d",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-12",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "78d34449c58ffc72a5b511b1c7d1ddd80c52dc9a8775e420a365f034a514499c",
+    "raw_sha256": "00d8cbd11c95189a224e279cbe57ed98c66409db3c11e0f115d0b3f4cce89a54"
+   },
+   "event_sha256": "80e565ee506aa4d8e52779db9b1373bfd6f85b0d26955738a0ed823a7c79c696",
+   "section": 4,
+   "role": "core",
+   "note": "Exemption applied across countries including China; cross-reference section 5."
+  },
+  {
+   "locator": {
+    "date": "2025-04-14",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "34c4623ad632bfa7b623a9bdb7eb42d421580761d552af0486d3d4002d27c5f6",
+    "raw_sha256": "fe93aa0df5c8505723453782e51db036798f3d25b9eb894b087792b3d158adc0"
+   },
+   "event_sha256": "3e5781fbad3371ff1c6a1eb8928728f574660d340281277747ab4593cadbeda1",
+   "section": 8,
+   "role": "context",
+   "note": "Xi Jinping's Southeast Asia tour during the tariff escalation."
+  },
+  {
+   "locator": {
+    "date": "2025-04-15",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "86c9d1ef7a5f39622464647d64032ea3f87f59ed3b519ee34d89cbdda0d289aa",
+    "raw_sha256": "d2126b47a7da672625fd3b8b5233338fb40504771a89c630a187adc1b3614021"
+   },
+   "event_sha256": "b4dc84aae7a3f6e9ec95eef428644b5401c38cdd13d88026f4e93dfb5326ca71",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-16",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "a8731a59ed58e7f0b8779d956f247300118a0391ba9af2a7ae249ab6c620e287",
+    "raw_sha256": "d6529fadffe047688324d16a986fbb5d430c6edae2235ea22435cb75d08b4e4b"
+   },
+   "event_sha256": "35ba2f1cdc2d2fd8291774144adfd73b8c4d7252cddb856337c1bd46b87641fa",
+   "section": 7,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-04-25",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "b99b81ce015eb776af1f5ca33575b5c4ce403c292c4609423e415f5f7f078f11",
+    "raw_sha256": "2f6fe911862599f2c2ece01a47603d082775d9ab4242111aa99c8451f2c5298b"
+   },
+   "event_sha256": "ca9c2bc3399ec006e4f6dc1c9fdf32ca03742eecb841553bd48d35c391672ac5",
+   "section": 9,
+   "role": "context",
+   "note": "Forecast cut to zero; check whether the government attributed it to US tariffs."
+  },
+  {
+   "locator": {
+    "date": "2025-05-02",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "20fa6fd79c001e35fdeb217e18e3dcd721d4f227fc0123b451d38894d76d45a2",
+    "raw_sha256": "e5487022ccf545f894abdd372b170e74b7ee9e29a90eb52b2e3f20a7fea334bf"
+   },
+   "event_sha256": "9605dffc7f4ca8839a4326aec2ee383e0362002bb9833590f96c1856d6224417",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-05-03",
+    "category": "Armed conflicts and attacks",
+    "category_ord": 0,
+    "source_path": [
+     4,
+     1
+    ],
+    "source_sha256": "f301c35e76a2170e185e930982ffbb67bc4a9b66bc39d2386c6eb6019e7b8350",
+    "raw_sha256": "5d438a233306b25d470b9338dc9dfa8a693ffeef6b90ddee51288250cb945c3f"
+   },
+   "event_sha256": "90cae896f2d35310eb3ba806aa26dde56345ab1c009576a8180f77df4b2e8a7a",
+   "section": null,
+   "role": "excluded",
+   "note": "Sudan war; matched \"Boeing\"."
+  },
+  {
+   "locator": {
+    "date": "2025-05-04",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "354ae4897f3ce12d6a2ebf46485f71dacfa75c91ea0112ee5f13475f4aca84c1",
+    "raw_sha256": "33c23e9ff138c72854fea9c3ae8c9813a18f7693d2858b0c9fdaf9fff0b3ae59"
+   },
+   "event_sha256": "fc9e21f07c1afd367b2112c8629a80bc7d9580a111c18bc017d6bd235f68d646",
+   "section": 6,
+   "role": "context",
+   "note": "Film tariff threat; check whether any measure followed."
+  },
+  {
+   "locator": {
+    "date": "2025-05-06",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "0b40eef546fc4f248f16b9b76a0c3c541cbf1049be58128c981cb347ff9dfb4b",
+    "raw_sha256": "9c59ee3f05c1213ceca4c886a897d30e3273f97851c30018eeac5dae33bf3325"
+   },
+   "event_sha256": "0d923278a5a03a451fad597cd288de6b7ccfd7e7e6d6c617675ff21f57974228",
+   "section": 8,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-05-12",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "452f1c1c41393f8f22b4424c7897329d485fcd29eeb13dd44c49347882b9dee7",
+    "raw_sha256": "86386dafd67c6c4b17b45be3766b45d34c6c0161a1680b6e05297ffef00c56fa"
+   },
+   "event_sha256": "40d4d79a71933fcd4b234d0929872bab7cd6997d18d7853006f3bea8321ba900",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-05-20",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "bb88c10dd64d5b33d0bbe2eb66197a637d7f1d053c7ef4fc70d61ac18cc381f7",
+    "raw_sha256": "842940f2b53691040bb4bcffcdd5d1e8cf5c2b942797cd2d27fc794397d202f3"
+   },
+   "event_sha256": "358f35891c40a5f77e664c9666d1d344ae15702646f3209616471c097a804801",
+   "section": null,
+   "role": "excluded",
+   "note": "Gaza-related diplomacy; belongs to chapter 4."
+  },
+  {
+   "locator": {
+    "date": "2025-05-23",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "24e7c21ba0eeb8ba9cb13fef2bb1db569e46be160b083465eb398b6d203a2c3e",
+    "raw_sha256": "b768d55c3956ddb0be202c5aa0fa79e4a8f91fb289ecd993dbaa47fd6707bf4b"
+   },
+   "event_sha256": "b9b3d911f310c942dfff2f50b6df380a1a2b387f56b13e6235d0866f2255dcf1",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-05-23",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "24e7c21ba0eeb8ba9cb13fef2bb1db569e46be160b083465eb398b6d203a2c3e",
+    "raw_sha256": "ebb622670a066aaba361554322847a9aeba1a592119539b1bc5e89c39112d364"
+   },
+   "event_sha256": "d296fa5913a7d80f89ec6231492e2f8c5144bdcf0b83d10bd2f015436059fcba",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-05-26",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "0b6025140e41ff77ecc57424a5da1b40f6a940565a7e2f2451ff02576f3f9d1f",
+    "raw_sha256": "3ca00d4cc5537beee9c8f27086f2c77834393044adc81fe15efa09a3ba3bf180"
+   },
+   "event_sha256": "e842fdeb5bdda42ade9729782a4ed3a2ade8817d551c0318e01b47621638a3df",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-05-28",
+    "category": "Politics and elections",
+    "category_ord": 4,
+    "source_path": [
+     4,
+     1
+    ],
+    "source_sha256": "a5453ec875a480e81d8af94fd64e8f6b34a62e3105b40a7c16bba1858f5e7163",
+    "raw_sha256": "e1e906c70cfa9a092532f231d742a96cd36526d1fa83009f554938445fb1903d"
+   },
+   "event_sha256": "b76177907b3f89c15c7b38e31df72fb7ba7b6816baaae1955dca6580852d1181",
+   "section": 7,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-05-30",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "16eae0bc086a5a2131ec22eb113e94f59c521bf239eaa42316400b36667958c7",
+    "raw_sha256": "2befc9a068cb84d70cb1ed5b1d4aab11c267eb14d7bf370321d4a3c0d196f4b8"
+   },
+   "event_sha256": "37a81a1e8a14d6fb6747e04f930fc7f72538d8d65db2013c366420bb7156bbc5",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-05-30",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "16eae0bc086a5a2131ec22eb113e94f59c521bf239eaa42316400b36667958c7",
+    "raw_sha256": "24b9953e5300d1e3bd1bc869fd2b3f5876a4b862535bd00d31a0bcb37c46fda3"
+   },
+   "event_sha256": "64e52e7ab4a96b193b9fd5787b36f271d609f73cfed6605aff7eda413f66440f",
+   "section": 5,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-06-02",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "963b37ea7ccb757082ec496585a1b6716e4461703ed821bc2fc539a82b9432c7",
+    "raw_sha256": "c1abd53aefde5bfd35fd6f263612be7df299b24be7c07c866c47ee4701d4fb44"
+   },
+   "event_sha256": "6ac38d9e7446e1a6c61906543af300467160d05496290fe0ac8251ef02beab63",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-06-02",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     3,
+     1
+    ],
+    "source_sha256": "963b37ea7ccb757082ec496585a1b6716e4461703ed821bc2fc539a82b9432c7",
+    "raw_sha256": "015c7b04d6ec64703067f00d7117ef79e8d787275063cf4c08135ad5f7b0067a"
+   },
+   "event_sha256": "8661877ad9d7d0b13d013655ced307e2574caca6a5ae94631e1cb5286d35316b",
+   "section": 9,
+   "role": "context",
+   "note": "Price effect example; Tier 2 or market data needed."
+  },
+  {
+   "locator": {
+    "date": "2025-06-09",
+    "category": "Law and crime",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     1,
+     3
+    ],
+    "source_sha256": "5e1d0b3213951ca70d5d7d0b2f2943c2ad73c8db9dd109d5f99ceb1be2314d91",
+    "raw_sha256": "4adb79c69b294031972b2cd811440dc1dc6785ac037abd33024ca4c243c0daa5"
+   },
+   "event_sha256": "245ccaf64e596638a4d90dae5d5bdd4a68f5a8d282cd981cbe035efb14d7dfb7",
+   "section": null,
+   "role": "excluded",
+   "note": "Immigration detention; matched agency name."
+  },
+  {
+   "locator": {
+    "date": "2025-06-10",
+    "category": "Law and crime",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "d581cc60eabb824a9f2b87814a5ce113715b692dbc23963c03b1dd99bc16305d",
+    "raw_sha256": "be3b33a40ced6c47de1cedce99881ffdbca3f9183fb5207216b11c350669b7ad"
+   },
+   "event_sha256": "d6daf65e6116d6ab315b0277c959b09a8ee68334f277f63ef67886dc1193b2da",
+   "section": null,
+   "role": "excluded",
+   "note": "Los Angeles protests; belongs to chapter 1."
+  },
+  {
+   "locator": {
+    "date": "2025-06-12",
+    "category": "Disasters and accidents",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "178e17ff9e2cf598aebabcfc57a8e6db0bbc976be5d2c0156ea6df3a9b2de776",
+    "raw_sha256": "edec5cc43e1f8f6308b03aaa0244d09425219b37c709b2a46e508f2a2bd40386"
+   },
+   "event_sha256": "7afffc061b04a62005e597e6298f041c02bf0de825e5f4d8d30f8d96225d68d8",
+   "section": null,
+   "role": "excluded",
+   "note": "Air India crash; belongs to chapter 13."
+  },
+  {
+   "locator": {
+    "date": "2025-06-13",
+    "category": "Disasters and accidents",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "42cce03a885a60638f2efa3e758cb781e6945ce146332306cd6f399f711e6e49",
+    "raw_sha256": "3c4993c386f84bffe0a7a2f244fd2f8ce9f488a8ea2db7600efc42220ef1986c"
+   },
+   "event_sha256": "38b930cc8d65a16f1a272773e052d184c05364f7fd616404efaff67432ba28dd",
+   "section": null,
+   "role": "excluded",
+   "note": "Air India crash; belongs to chapter 13."
+  },
+  {
+   "locator": {
+    "date": "2025-06-27",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1
+    ],
+    "source_sha256": "8c754b55045a5f1078048183af929597bfa091375d4a95ca6c9a653d8c7d1bfe",
+    "raw_sha256": "6ac8055d8b2a498596de11a960c5434e54808fb9beb6266ee389311b021ecc33"
+   },
+   "event_sha256": "88bd60cf80a0baadab1b40765e572b2c7ae9cbae813c3bb43c1004b3c49136ef",
+   "section": 9,
+   "role": "context",
+   "note": "Market recovery by late June; context for the assessment."
+  },
+  {
+   "locator": {
+    "date": "2025-06-27",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "8c754b55045a5f1078048183af929597bfa091375d4a95ca6c9a653d8c7d1bfe",
+    "raw_sha256": "336ae5e8a2551dcdec67afbe33a71d29d370af3af3fedd6e81a0006e39a74241"
+   },
+   "event_sha256": "7ad1c94e7116e3fee588e9afd74143e71a00e51b014d23890576752dd7a2f75c",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-06-30",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "b10de09e332f86b9835ba196be85ef602361d859f2d6f347232c9e332774349a",
+    "raw_sha256": "6d3420ea070b04de0b8b1b3f95fca70ff411a557e9e148df8522d0ee38008b1a"
+   },
+   "event_sha256": "30a7cdc3531c197665ec349c55089191f8b43d8a75d1d75af84d969ccc02f90c",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-07-03",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1
+    ],
+    "source_sha256": "ef7f1ff50f9125d5fdbdd3c0da30ce5a0957f79d5a940adbb0324ba95129c306",
+    "raw_sha256": "8aaeffdc214631a98a4cc182844e9dd6b9c8003992a4749c0de6a1e58002396d"
+   },
+   "event_sha256": "5b57e91fc417f7cf192dbf706f15ad22c2c355061e5b18fd5f1d1426741d37ee",
+   "section": 8,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-07-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "754a818769c36f9d90bbec36b8c5160f00ddde7a817df69788a6737b012168ee",
+    "raw_sha256": "c52fc5611eaf36ae8e9e4ec54a5bd114952a9e64f899a14cf564f58ba8c4dd39"
+   },
+   "event_sha256": "384f3a3b3c45c16ccf375082e484110795fb363f38d9b1e555bf6d6f6f1ec09a",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-07-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "754a818769c36f9d90bbec36b8c5160f00ddde7a817df69788a6737b012168ee",
+    "raw_sha256": "63a0d354fb5188fa2672db5ea86170d40ef5ae10b9d71cfee317f89ee0c7a763"
+   },
+   "event_sha256": "aa98347f0b7ea971e0007551a1a692f40ead17314885463187ce30dd0082c679",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-07-12",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "5e5994608b4d2e95d1ff28d44932a1cb8c3761c0b7162a365fe2db39a76f71fe",
+    "raw_sha256": "3af0778130b14a9f5abbb14df9513c04fdc08057880923cd891e0b5c7235881b"
+   },
+   "event_sha256": "f06717ce77be7b7372ec12280e11d31a80ce3633c07da1ca9922e13bf4e97e05",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-07-15",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "eb6bc1d264c1e0c17792827e0aadeff544dc657a6ab9cb0a11ebe5710e183c45",
+    "raw_sha256": "0066345046f6706f85d1e4b4ac16c68ece705ba392cbb40f3d4ef84a8f90e152"
+   },
+   "event_sha256": "b19385eab4ed6f9c7d49b71ebdbdf61f3245c0ddebac5dbd4e62216dcc182d34",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-07-22",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "8ba70d0c5e10805368f88efa6880de1e612a9e04f51c09c8c67036f6035bc2dc",
+    "raw_sha256": "01d041ff1ba5f100d77191a8256beddc4f984aec503bbceb35718e8bbef082c8"
+   },
+   "event_sha256": "abb5414ff60b456a1a44b00ef15e6c369d4a2c33b67eb83536c06dfd0b80a23a",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-07-22",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     2,
+     1
+    ],
+    "source_sha256": "8ba70d0c5e10805368f88efa6880de1e612a9e04f51c09c8c67036f6035bc2dc",
+    "raw_sha256": "f2fc43583c13afef54b224a88abfaa8294e092077c3c201b9ae356b7db383d4f"
+   },
+   "event_sha256": "f93eab92b5d20ac45574ea253a16e0d56d24d2c8e7ffe8a9bfb56fdedc656741",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-07-25",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "90b82c2ab79c2a08de85e08e62539a471874ea5245ca059151e30776e57d52d3",
+    "raw_sha256": "84e75bad250a04d4d46894276037b58069ebb206a1543267c6e22a8c220fa267"
+   },
+   "event_sha256": "f0843da8af8a3445e2c20d25f4177c10be8fcb15e1c639f8fc7faa5df11b077d",
+   "section": null,
+   "role": "excluded",
+   "note": "India–Maldives aid; not trade policy."
+  },
+  {
+   "locator": {
+    "date": "2025-07-27",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "38c41a9b086396706630095595e80f99c36e3b4b132ccc1e49ffadaf067d0d20",
+    "raw_sha256": "a500a3b7e8c72de83feabd2d92d862b011c9bc31f6701101a0ba12b464ccd481"
+   },
+   "event_sha256": "4affed70842430a09c9d13b3866d18a43fecb8ed7b0de8edf5f4b33727a7baa2",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-07-31",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "ee8d88013aa41e33b8936c52638865164402738082a4050fb78b2b2190218f41",
+    "raw_sha256": "49708e8a17723ad51328352e230d340fbd5d9bb19bea3d3ba368f65e7edaef57"
+   },
+   "event_sha256": "02980f5ff57e57410a5e88d9046b53c20fa8594ff6216c70916556e22e4f3374",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-07-31",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     2
+    ],
+    "source_sha256": "ee8d88013aa41e33b8936c52638865164402738082a4050fb78b2b2190218f41",
+    "raw_sha256": "d6ebf66578530bc17fedc5fe7e3afc1bdd05a72385d3a4eac62bea1854667e83"
+   },
+   "event_sha256": "3a7826f8465f38dfd19fca7e259ff16d537c757495e73fceb8ac5e0a60385705",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-08-01",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "03cfa4ec656815fca07a7b8ab5a34c3dc60d8623c5d84cf6ea38b5b1ccd964ef",
+    "raw_sha256": "c13fd851c8ffa15fe7419112eb76ca2071a503b40f7c9293f025fac14776869f"
+   },
+   "event_sha256": "09150a3ce3d8f40d776c81ae4783afeeba19a1d540a56d6b14f81a3b0e91c312",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-08-06",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "2afffe8a69e460dca15d3e68e7f5033ab6245bcb1286286165e6a54e62fc5fbd",
+    "raw_sha256": "52b28b96f5f40f050a648d1070d4b3c6089ba476844f70e4184b6c27e14fbd49"
+   },
+   "event_sha256": "cc00a2470c5f5e6174450424a1c22cd9555fe66c167f55b661513f27b25c24a2",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-08-12",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "e7b0de423e71dbdf684995e377f3edd8a5b141a56a06fa73fc651a8e580faa8f",
+    "raw_sha256": "7ff494a2d9f013899ba20c2962d0661d8495d38a04e3dfa22159a7dc33eceb5c"
+   },
+   "event_sha256": "150c8a185a0454261ff33d270f220fdbaffdaaa68420abe174a7f476a76840af",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-08-25",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "eae9fb2ab0fdbbd94fa66f4081b587290141143f992a0fdae6f31c2aef989cac",
+    "raw_sha256": "72f37c415180e9085cbdf50c1e1905d39a9c555831eb7afb81b4e70616a2ffd0"
+   },
+   "event_sha256": "f3499261b29c0e13ca607dcff4d3b6d23cbf2368eb99b4d24e97900f97202bd3",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-08-30",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "1fd7e6d8f1b9c0106f7f3ea50f2bacd15cad5e2057dac80e24f9484d0147c64f",
+    "raw_sha256": "df08a4b8261abe02984431e3238eddb99568997d83225f2a1bf010290db6d928"
+   },
+   "event_sha256": "e986845f178b4a2e200df67831fde73ec6c6cf328aa80061100913baf537572a",
+   "section": null,
+   "role": "excluded",
+   "note": "Coal export ban on Israel; belongs to chapter 4."
+  },
+  {
+   "locator": {
+    "date": "2025-09-03",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "ce60bd1958d1709cde46277693c9bd54ff54f8887b9ced1d405b94000b00f3f1",
+    "raw_sha256": "4d40d7764e805d3c7e44c976dfb8b5e28d501f0aa4ff1d3df63fe96541226280"
+   },
+   "event_sha256": "2eaa0873aba08c8c31acc4f4f6ec3907b5ded2f967ea8b198548997cdd070365",
+   "section": 6,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-09-08",
+    "category": "Law and crime",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "ccb131ae50fc8e702536d7c6b87996a7e695bab43e536180ecf23784fa410e42",
+    "raw_sha256": "01c68f567d352f4b19e8e03e1044331e6144e7d810830058042b930ee70a68ee"
+   },
+   "event_sha256": "ebcd2f4dbb3cc8440ded8f4f862afc9659095446a86897f3ab6b76af8c64949f",
+   "section": null,
+   "role": "excluded",
+   "note": "Immigration enforcement; belongs to chapter 1."
+  },
+  {
+   "locator": {
+    "date": "2025-09-08",
+    "category": "Politics and elections",
+    "category_ord": 5,
+    "source_path": [
+     6
+    ],
+    "source_sha256": "ccb131ae50fc8e702536d7c6b87996a7e695bab43e536180ecf23784fa410e42",
+    "raw_sha256": "3b2d93db3589968954ef47c997cbaf56c84eb3f4198bb7e5502472511ef0c2e2"
+   },
+   "event_sha256": "93573f027a56d13b7215e67b5fcc1bdbfd4bcbafe995a005f6dd7c4129122bd4",
+   "section": null,
+   "role": "excluded",
+   "note": "Cabinet reshuffle; matched \"Haj\" ministry text."
+  },
+  {
+   "locator": {
+    "date": "2025-09-09",
+    "category": "Law and crime",
+    "category_ord": 4,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "5856e8882867f82f2130d7c39a1fb15dbd5ff43ab1aa334832874187332a6189",
+    "raw_sha256": "bd8c9625912ae90eef64568e41ac848de85598cdfa228b7796ac51cfb3c2162f"
+   },
+   "event_sha256": "20fe61d51579df91637520f2a28b778f433a49bc55505f369fed60c09d8f2f74",
+   "section": null,
+   "role": "excluded",
+   "note": "Family-law ruling; matched \"reciprocal\"."
+  },
+  {
+   "locator": {
+    "date": "2025-09-13",
+    "category": "Law and crime",
+    "category_ord": 2,
+    "source_path": [
+     3
+    ],
+    "source_sha256": "fb982e24acc2b9d336ad15081b702a32901abffbbc4c50026a394c68ce1dc1ca",
+    "raw_sha256": "e01790b8250e1ef33b1fe166752b95c90f92e862d4abbc5994e610bdec2ff87a"
+   },
+   "event_sha256": "7d5981075ac85fc1fff77cb61a30cbcea23124fa624e888eec726171a9580c8d",
+   "section": null,
+   "role": "excluded",
+   "note": "Drug seizure; matched \"customs\"."
+  },
+  {
+   "locator": {
+    "date": "2025-09-16",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     5
+    ],
+    "source_sha256": "93dba23e7b163d708a475a85d4f6f0dfffc97261434c3b88120522177a0d2e32",
+    "raw_sha256": "a39005a68186d5277609858c3406effa9802a347287875ded05a4a498ac39c76"
+   },
+   "event_sha256": "831ec73aba9c67e735472092aa7c68ded189d840fc824f8bb34d01ef552bd528",
+   "section": 8,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-09-23",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "eae12b8568690922d9c279ca9953000b93e2ba171116d6d0f65c26d90cf1867f",
+    "raw_sha256": "f35003479c0ba0b2ec93c5611eda74f9ceeb5d16649e69513cdb32b9861da051"
+   },
+   "event_sha256": "0dc6c0806ed73c03297079a1767c9c576a5921a2330e857b757e3abef4f57be2",
+   "section": 8,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-09-24",
+    "category": "Law and crime",
+    "category_ord": 3,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "ded807a765d27f1343cbc564032d4bb540982c987f4c3517784e8c8d2889b0c4",
+    "raw_sha256": "cd62fe1ec3c42517bbdbcaa2ad794eff04266823182b8eb0c2b6609cb1da015a"
+   },
+   "event_sha256": "aa05cabdc51de6f6d607f6fea898659dbad2e7ce4965f6fc4275736456124291",
+   "section": null,
+   "role": "excluded",
+   "note": "Shooting at an immigration facility; belongs to chapter 12."
+  },
+  {
+   "locator": {
+    "date": "2025-09-25",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "e9cb0bebae6f5a906efa96ba9d5774e046b212401ac1e5f85fe58ca800d6ac22",
+    "raw_sha256": "aa07d6f09f7e407ce7e38ffd344ab55dd9ea130f1ecf3603740093576a8ff6e6"
+   },
+   "event_sha256": "b2d7f49a334eadb373681db8dd8f01c10ec4cd0666cfc6a4ca52a1ae591ae11b",
+   "section": 5,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-09-26",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "f05dd3f2a5bada7ad71af8ad87842c73cfed3d0e246d9e4b49f78630ccfda1da",
+    "raw_sha256": "5cb2b09bbffe4aa76524054fe947d9fc07bdd6815a0b8c014d50b41d1f60d229"
+   },
+   "event_sha256": "561852fd902e1eccafbc2139d3ccdd444096b80e0a06d41a879bae0993843cb4",
+   "section": null,
+   "role": "excluded",
+   "note": "Botswana investor program; marginal, diamond recession."
+  },
+  {
+   "locator": {
+    "date": "2025-10-14",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "b3759405f21a3cd3fd0b76ab876951d49e9aa3c94c8b814e795fedefc7a719cb",
+    "raw_sha256": "c5e8968b8350ddb0c7631e3a7e98b842c8dcd6213a5d4ec75b1ddee7146cc6c3"
+   },
+   "event_sha256": "0353220fd5b25e9b258bebe21138a7329b3609ff9380a4bdf49b0217772611d0",
+   "section": 5,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-10-23",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "d2ce5a721a8ed4fc140549f27bed348e9ff5b73fb1591c6a2d9fd6af6920692b",
+    "raw_sha256": "6ffbb684f843264485f378ccaa750a0e56c3b4686ba1324b81be26a7e0ea14a7"
+   },
+   "event_sha256": "0f9404df6ceb5538bbed1284ba60946940e683627530b45a87b8642ade48dcfc",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-10-23",
+    "category": "Law and crime",
+    "category_ord": 3,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "d2ce5a721a8ed4fc140549f27bed348e9ff5b73fb1591c6a2d9fd6af6920692b",
+    "raw_sha256": "e1bfeb49ea06922d5362f2f44d833548af3e7003f0e276a859e041a3f28d461b"
+   },
+   "event_sha256": "a1ac7c842f4b33086088b499beac62cbb6d4d1f3c2a85abfe190da4d1b2b584a",
+   "section": null,
+   "role": "excluded",
+   "note": "Deaths in immigration custody; belongs to chapter 1."
+  },
+  {
+   "locator": {
+    "date": "2025-10-25",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     2,
+     1,
+     1
+    ],
+    "source_sha256": "b0c10e13acb43b73de451379189a8c48e242558e3b3e4f8b2dab79773eeb5736",
+    "raw_sha256": "2282bb51d6d9cc30b965928b7f0adff630e3608e72df9b364bf3b640014c9c7a"
+   },
+   "event_sha256": "df6753bc210d14379c7c5cfa4b9dbd6ed37daefd62ff07fde05cc847f7bcd90f",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-10-28",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     1
+    ],
+    "source_sha256": "87d5fbaca47912a98ebf361a57832427317df6dc3956c9aa2879725b6a9b9a71",
+    "raw_sha256": "30b1d9f2504866f246ba83b3919e326d4a02f79a42d563eb26554bbbb33291a1"
+   },
+   "event_sha256": "c974db9891dee448d8fa615be0ee7e497d02074478bf64ed424ccaba8a532396",
+   "section": 8,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-10-29",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "a9b8c75faa4ce4038255ee21884e334af74f822693b4a815c6b981775e659153",
+    "raw_sha256": "78f7e62ff2e1f59244e89c85eaa211869ba0949cc2c7848487938069dd2e2ca7"
+   },
+   "event_sha256": "84aedc9a0ca651ffcb3b6f222172866bc50d8f3b4f6c0bc4dbee2950a1bbdbbd",
+   "section": 6,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-10-30",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "bd0697fdde2d05390a7de9517ad5d810f2bc09e9d5c0be64896c74be4fa79b16",
+    "raw_sha256": "88c05c4d3562a0a0c2a7d4934c04cb0d8390586c1050656668e308a620b4d56f"
+   },
+   "event_sha256": "2496599ebd18ea997c04b9a0af885a75a63cba1fd5ac007714db12cd788757fc",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-11-09",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1,
+     1
+    ],
+    "source_sha256": "229434173a8c8e3d197e6dac89e1a084d1967e3f420095f67a9a35bfdcfe8a49",
+    "raw_sha256": "f87637aae7762bd2751ab85ff3749c5b8b7ac584fb947bd0d6d09c22c83cd4e8"
+   },
+   "event_sha256": "6032a8696d9cceea5ff392868c54ef5b233803315edf8988b7bf865b6fdadd43",
+   "section": 5,
+   "role": "core",
+   "note": "in scope"
+  },
+  {
+   "locator": {
+    "date": "2025-11-12",
+    "category": "Law and crime",
+    "category_ord": 4,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "9ecf55e5fa4b1bea1b10a15466c15061f28b3b8af8f265a8a3c42be1e6aac42f",
+    "raw_sha256": "dd564720d584d0f497dfc4bb0084a4cc1aa722a5716d8d0f221cc5c13f3edfbc"
+   },
+   "event_sha256": "e82413bd2373ab799286509d6b2f4ac029dfc06c2ed12fe2b71a7a305a87e1ab",
+   "section": null,
+   "role": "excluded",
+   "note": "Aviation liability verdict; matched \"Boeing\"."
+  },
+  {
+   "locator": {
+    "date": "2025-11-13",
+    "category": "International relations",
+    "category_ord": 3,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "90ad8a8a645fa609c9af8e650f2350e52a0b49ead24d173ca4f474847e59a846",
+    "raw_sha256": "fba8a132ea6bd5fd0869e26d998ddef6a673667a18ee73030214525997a0da75"
+   },
+   "event_sha256": "bbc1006c887c190cee6a71ef2122936b3072436ceb143eb5e5410c0e197dcc84",
+   "section": 6,
+   "role": "context",
+   "note": "Framework announcements; check signed texts."
+  },
+  {
+   "locator": {
+    "date": "2025-11-17",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     2
+    ],
+    "source_sha256": "1947e537bc596b7a1cc55961106fac4c2e8ecb0190c3dfbaeabaf66681bd1533",
+    "raw_sha256": "76de783726f78999c6b88c04cbcf8fc941eceff1f58d5e1c81a5bc1b90e6bf08"
+   },
+   "event_sha256": "aba037e824a3d1f1a19c2848666d3f4bb3a0db9b1ecc42d7054b8818a6d80a21",
+   "section": null,
+   "role": "excluded",
+   "note": "Aircraft order; matched \"Boeing\"."
+  },
+  {
+   "locator": {
+    "date": "2025-12-08",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "7b8b675ba877aaa90c0fca695a4f0bc8872942c15ccb81432adbd36f9a0327d6",
+    "raw_sha256": "f456432dcadce1f1e1412c199f8e7e483a34880961ce922c68f86b0bac5a5ea6"
+   },
+   "event_sha256": "637c01a397385f11119ce05eade52abc9c429308ac69a5789fdc0dc34b56d4fb",
+   "section": 8,
+   "role": "core",
+   "note": "Annual outcome; verify against Chinese customs data."
+  },
+  {
+   "locator": {
+    "date": "2025-12-10",
+    "category": "Business and economy",
+    "category_ord": 2,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "8a74446e2088d658c8f0233bcf1d4ccc1c5a068e603ee028f82df6601720ed30",
+    "raw_sha256": "e55311dd4d5fe27626efbca4f3808a6e65df6b948c675e317337b4cca36f789e"
+   },
+   "event_sha256": "bec18fa1767c255c1e2cb73fdea3d87e247f0a3a18d894e1c9b9f955b95987f2",
+   "section": null,
+   "role": "excluded",
+   "note": "Visa screening proposal; matched agency name."
+  },
+  {
+   "locator": {
+    "date": "2025-12-15",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     3,
+     1
+    ],
+    "source_sha256": "2ddb16041e8fd9caa716b3cf76318c26f0b5b1eb8ef193f3abd1867448f70448",
+    "raw_sha256": "3e3e44b566b76e15fc96983014f4eaff210a89ec007b47fb9fa6b0b7ed19d916"
+   },
+   "event_sha256": "6930526d10f6e643f492158d01d50bbd8eccac6c615301c8973038909bea0f70",
+   "section": null,
+   "role": "excluded",
+   "note": "Venezuela oil dispute; belongs to chapter 9."
+  },
+  {
+   "locator": {
+    "date": "2025-12-22",
+    "category": "Business and economy",
+    "category_ord": 1,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "b4fdc55435895883c208861633a44c40d6f3e3d579184a8a7cb372cc4540370d",
+    "raw_sha256": "df875240a97a9c2e94d371f2e3b41b59529998a15336a0b614b45624c32ef8cd"
+   },
+   "event_sha256": "0c73bc741b1cad2cf4b3ab6887b6ad9e66e3407fb3249774afd2c6f947ce509c",
+   "section": 8,
+   "role": "context",
+   "note": "Context, not a narrative beat."
+  },
+  {
+   "locator": {
+    "date": "2025-12-22",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "b4fdc55435895883c208861633a44c40d6f3e3d579184a8a7cb372cc4540370d",
+    "raw_sha256": "5c242f5f39b19631a21a3ebaba5edd75531cd257279b30e348b7f190522c86e7"
+   },
+   "event_sha256": "fa39cbf68793037730b9419e4bca7a15c808522a98a57c390e120ca0f6d24e5b",
+   "section": 8,
+   "role": "context",
+   "note": "Same agreement recorded twice in the archive (22 and 29 December); reconcile dates."
+  },
+  {
+   "locator": {
+    "date": "2025-12-29",
+    "category": "International relations",
+    "category_ord": 2,
+    "source_path": [
+     2,
+     1
+    ],
+    "source_sha256": "3369b8941488fd4578d188e3f4ba1b90663592d6d3d2921cd6b3d14d7258d0d5",
+    "raw_sha256": "f5b59776eb3b4e0b991249260565b8c4c1b966f9c91ab6cfb35f8784571bd26a"
+   },
+   "event_sha256": "4c5cfa31ffb51a1a9526414c906e8c616f8557e18f9eb88f36cce484c0c802ac",
+   "section": 8,
+   "role": "context",
+   "note": "Same agreement as 22 December entry; reconcile dates."
+  },
+  {
+   "locator": {
+    "date": "2025-12-30",
+    "category": "International relations",
+    "category_ord": 4,
+    "source_path": [
+     1,
+     1
+    ],
+    "source_sha256": "5adcff76417d22e859b060613b6946d3f24017db39487e4575f555b44663d5b6",
+    "raw_sha256": "b3cd23140cd3712e169bb572486f9f9047bf137e41fc4bcc0d68770f264fe4d6"
+   },
+   "event_sha256": "e9e8882d4cbce83bb21c495dda2fa32c411f07158e42c79b666284a0f94fd78e",
+   "section": null,
+   "role": "excluded",
+   "note": "Travel bans; matched \"reciprocal\"."
+  }
+ ]
+}
