@@ -2013,3 +2013,41 @@ committed. This is a presentation of the archive, not a researched history.
 - Next: finish the already-built 2022 and 2021 annual pairs, then continue
   backward. All 2004–2023 calendars have pinned local inputs; 2003/2002 are
   partial and require an explicit policy before claiming full annual coverage.
+
+
+## Annual 2022 source-preservation cutover — 2026-10-21
+
+- Added `archive/2022.sqlite` (34,402,304 bytes; SHA-256
+  `1549548c5ff9851da635c444333a556e4abdbd806b341b6b96a7a661b91ec1da`)
+  and `archive/2022.md` (2,511,077 bytes; SHA-256
+  `09e353799705d008752fdef7d145b97e6145d33b86c53285525ed5b626c2cbfb`).
+- Preserves all 365 dates and 5,324 assertions (5,323 leaves). The explicit
+  January 14 earthquake sentence adds one assertion relative to the prior
+  candidate; the original indented earthquake paragraph remains its child.
+  Empty source marker, two unbulleted fragments, orphan headers/category,
+  source depth gaps and unsupported templates remain explicit evidence.
+- Six uncited assertions have separate guarded editorial records: four complete
+  wording reviews and two partial reviews. BMKG's 40 km earthquake depth differs
+  from the source's 10 km. The Hans Island agreement was signed June 14 rather
+  than the original June 10 portal placement. Neither source text was rewritten.
+- Exactly 1,825 duplicate files retired after exact-byte checks and batched Git
+  checkpoint comparison: 365 YAML, 365 metadata, 365 wikitext, 730 ignored prior
+  candidates. Original bytes and manifest remain inside SQLite. All event prose
+  and every original citation were checked present in the readable companion.
+- Commands: annual-series build/prepare/retire; temporary cutover preflight;
+  full offline post-retirement QA. Complete 365-date verified reparse, expansion
+  recovery (5,324 events), every source revision fallback, Markdown regeneration,
+  plan skipping, write protection, manifest hashes and missing retired paths
+  passed with sockets disabled. The 59-test suite passed after the 2023 cutover;
+  no extraction implementation changed for 2022. Exact source fixtures retain
+  original trailing whitespace intentionally.
+- Network: active repair branch pulled, no remote changes; opened BMKG,
+  Global Affairs Canada, Reuters via IstoÉ Dinheiro, EFE via SWI and ICC sources
+  for scoped editorial checks. No Wikipedia/GDELT refetch.
+- 2023 commit `d0aeff9f` passed GitHub CI, including all annual SQL/TSV recovery
+  checks and synthesis validation. Release `archive-2023-v1` was published;
+  SQLite/Markdown/checksum asset digests and sizes matched local committed bytes.
+- Independent checking remains incomplete; the two earthquake reviews retain
+  unsupported details explicitly. Next: publish verified 2022, finish 2021,
+  then continue backward. 2020 has two prose-role questions pending; its
+  canonical files have not been changed.

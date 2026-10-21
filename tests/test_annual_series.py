@@ -145,4 +145,3 @@ class AnnualSeriesTests(unittest.TestCase):
                 self.assertEqual(3, series.retire(database, root)['removed_files'])
                 self.assertEqual(original, archive_access.legacy_bytes('2023-01-01', root))
                 self.assertEqual(0, series.retire(database, root)['removed_files'])
-

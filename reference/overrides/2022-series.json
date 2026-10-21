@@ -1,0 +1,335 @@
+{
+  "version": "annual-series-1.0",
+  "year": 2022,
+  "edition_date": "2026-10-21",
+  "roles": [
+    {
+      "date": "2022-01-14",
+      "source_sha256": "04145790d5148e99524a159666cedf4b5c9f63bb44de9f55b528d6b29156bc46",
+      "category": "Disasters and accidents",
+      "source_path": [
+        2
+      ],
+      "raw_sha256": "095e5d6fdf00f8a13d14cc57d058b7caa460eb5f37ddee146a9a1fc32e65b3a5",
+      "role": "event",
+      "reason": "Explicitly approved complete earthquake sentence and its indented paragraph are separate nested event assertions; preserve both and the original depth.",
+      "interpretation": "approved_source_statement",
+      "line": 11
+    },
+    {
+      "date": "2022-01-27",
+      "source_sha256": "8fd4594b82ef897a5b8c3e1579ce376a23535dc64162e94f9b205e3263609afc",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        1
+      ],
+      "raw_sha256": "61de2100c5d5d04a82a5543b86c5d56d35f2648b85526e681cad889e195b26c9",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2022-03-03",
+      "source_sha256": "2cc659489987ef412b6e50141f907992f83e7a280a7f36eba29a73461653d55f",
+      "category": "Health and environment",
+      "source_path": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "raw_sha256": "d0355d375b816962f4555061c4c653a7b4377b405ac54cf38c6ed00a8c6b52f6",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2022-03-13",
+      "source_sha256": "bed45d79189c619b1f75fd87af46db3ef583245096be3d10627097fcaead2b7b",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        3
+      ],
+      "raw_sha256": "88119b9de88f3cd147cde025d9ee04a16f409ef7e4db269e13434c954d9db4b0",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2022-05-06",
+      "source_sha256": "c4e73b183309e51dbb1674369ba6260b216844b2e921613e08a3d8eaa04fca3a",
+      "category": "Health and environment",
+      "source_path": [
+        1,
+        1,
+        1
+      ],
+      "raw_sha256": "7bd994f8207734f7b081f6cf9a0a27b2fbddfc557e0382120da45177afd562a1",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2022-05-09",
+      "source_sha256": "72d16683e861b744b3a9b5be1516179e566071d0e1f2df69c3edd24ff7bf8873",
+      "category": "Arts and culture",
+      "source_path": [
+        1
+      ],
+      "raw_sha256": "b5b23ec672b74c7f29c4d1fcdf27ed211fbb619cec9fac84cb035e73a94f89dd",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2022-08-27",
+      "source_sha256": "64067ea05c97c05fda58b58fa1a48863406269a90ef63a825c86bcfe9f5df64d",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        1
+      ],
+      "raw_sha256": "416ea5eb77bc4e965e34866c838e9b1167299536bd371072448860030bb7a8da",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    },
+    {
+      "date": "2022-11-19",
+      "source_sha256": "8f54aa2ba5163e212e67f59e5ec666b8c353f890b0926f3a994273b0688cae65",
+      "category": "Science and technology",
+      "source_path": [
+        1
+      ],
+      "raw_sha256": "62e194662a15f91c129c2bdc327131703206f9f97841743e1039ec4ffb92ae00",
+      "role": "topic",
+      "reason": "Standing user-approved preservation rule: this exact nominal source label is retained as a topic; actual source indentation determines children, and a childless label remains a flagged orphan."
+    }
+  ],
+  "notices": [
+    {
+      "date": "2022-01-24",
+      "source_sha256": "01ad64862522cef403c967838917680e9406c8c775842167ed7e177e3aa09fb9",
+      "category": "Science and technology",
+      "source_path": [
+        1
+      ],
+      "line": 49,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "2cdacdc40f5d63ccce9c67f1218204dd49a5a0a2f24e7cd1a6fcca54a048f317",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-03-03",
+      "source_sha256": "2cc659489987ef412b6e50141f907992f83e7a280a7f36eba29a73461653d55f",
+      "category": "Health and environment",
+      "source_path": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "line": 39,
+      "code": "ORPHAN_TOPIC",
+      "raw_sha256": "d0355d375b816962f4555061c4c653a7b4377b405ac54cf38c6ed00a8c6b52f6",
+      "action": "preserve_notice",
+      "reason": "Retain the original source depth, orphan topic or empty category explicitly; invent no children or structure."
+    },
+    {
+      "date": "2022-03-13",
+      "source_sha256": "bed45d79189c619b1f75fd87af46db3ef583245096be3d10627097fcaead2b7b",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        1,
+        1,
+        7
+      ],
+      "line": 17,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "d8a3c6eb7cee7082b85b4b5813a8cf5597c6b915fca6e9f82c6724bdb5b98435",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-05-06",
+      "source_sha256": "c4e73b183309e51dbb1674369ba6260b216844b2e921613e08a3d8eaa04fca3a",
+      "category": "Health and environment",
+      "source_path": [
+        1,
+        1,
+        1
+      ],
+      "line": 25,
+      "code": "ORPHAN_TOPIC",
+      "raw_sha256": "7bd994f8207734f7b081f6cf9a0a27b2fbddfc557e0382120da45177afd562a1",
+      "action": "preserve_notice",
+      "reason": "Retain the original source depth, orphan topic or empty category explicitly; invent no children or structure."
+    },
+    {
+      "date": "2022-06-14",
+      "source_sha256": "9c9e668f1810b75a63f4b5a54effa0e4c16325fe13bd849215961e7e74567b65",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        1,
+        1,
+        1
+      ],
+      "line": 6,
+      "code": "DEPTH_JUMP",
+      "raw_sha256": "1cbe28703f6bf6d76887af3b057f8d5af1ad88d80369b6de169b65bc8bd411d9",
+      "action": "preserve_notice",
+      "reason": "Retain the original source depth, orphan topic or empty category explicitly; invent no children or structure."
+    },
+    {
+      "date": "2022-06-16",
+      "source_sha256": "8b0a15b020e300471a5f57e8a038354a3a50c988b2c69cacdf3745c17c7a04ef",
+      "category": "Disasters and accidents",
+      "source_path": [
+        2
+      ],
+      "line": 20,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "ecfe569700a3c6e78ac5133a86f2f9ebf2a7901665111f3e5002ea53826eaaa7",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-06-18",
+      "source_sha256": "24bace68487bfa917716b8705c20be19fadfbdfc0488eddc50e44048898a5b0e",
+      "category": "Disasters and accidents",
+      "source_path": [
+        3
+      ],
+      "line": 22,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "b1fb3ab4dd5f733a273fd626908681199489b105d10c6fd40a9471fa8b043e10",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-07-08",
+      "source_sha256": "b39a8a605f20b8e73eacdee0036e755e80eb39b93b00350f5c287d7b0cc93a94",
+      "category": "Disasters and accidents",
+      "source_path": [
+        1,
+        2
+      ],
+      "line": 21,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "11a5a7529330e9f4395f2a5a1f5302976c4cf60d4163021bc1cadded26d77ea2",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-07-11",
+      "source_sha256": "ffdb7290c84d36c1cd9c9f842594b78c3676697690a0459dd68d52ef35f45abe",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        1,
+        1,
+        1
+      ],
+      "line": 6,
+      "code": "DEPTH_JUMP",
+      "raw_sha256": "86d53f2357823938ea63bd6ef053134baade59cb2b39ce90e6f83a13b96cd9e9",
+      "action": "preserve_notice",
+      "reason": "Retain the original source depth, orphan topic or empty category explicitly; invent no children or structure."
+    },
+    {
+      "date": "2022-07-11",
+      "source_sha256": "ffdb7290c84d36c1cd9c9f842594b78c3676697690a0459dd68d52ef35f45abe",
+      "category": "Disasters and accidents",
+      "source_path": [
+        1,
+        1
+      ],
+      "line": 23,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "1a08a3c40431ab2c133b62b47ab9609dec746cef4dc58e09b161266f2a37b7a8",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-07-24",
+      "source_sha256": "fcdc5307f0d21db76e4fe30eea0f8bdd3fc8f6b4c2194a1869e545408af5877b",
+      "category": "Sports",
+      "source_path": [
+        1
+      ],
+      "line": 41,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "cd10259b280a3b6def88baf4682de74a48c768bc50d94aad6965df6eba9a9e87",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-07-25",
+      "source_sha256": "88a87b87710dccf720ae1ef2fa693451c5b6bc2c7b53f2483bf6a070ad815378",
+      "category": "Disasters and accidents",
+      "source_path": [
+        1
+      ],
+      "line": 20,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "4cd3c8cd7454e1103914a7117c827e7cd054026228ab8bbe3ba07a4c0b83e842",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-10-12",
+      "source_sha256": "c2956fd06e6d5e0e5825d03e7a4939bcbfc7ded3891c96b311854ac85d7eed66",
+      "category": "Armed conflicts and attacks",
+      "source_path": [
+        1,
+        1,
+        3,
+        3
+      ],
+      "line": 14,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "ef5fa4bfbea7f3d74844a87b26872c5b20476fec28fc29849e01807ecadd95a9",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    },
+    {
+      "date": "2022-10-23",
+      "source_sha256": "dac8edafcc5d55d29ff6dd9a7d4e41985481dae351c575e0288c47c62fe9e5ac",
+      "category": "Sports",
+      "source_path": null,
+      "line": 40,
+      "code": "UNSUPPORTED_CONTENT",
+      "raw_sha256": "1c486cf68926d20134834212888f0fb2342cbf69f495cbd0a486f2d03115d96c",
+      "action": "unclassified",
+      "reason": "Standing guarded preservation rule: retain unbulleted prose as unclassified source material and a factual research lead."
+    },
+    {
+      "date": "2022-11-02",
+      "source_sha256": "510febeeddab66639510abdb6763eef745286c48a8deae736ef3a8d0abe7cea3",
+      "category": "Music and media",
+      "source_path": null,
+      "line": 39,
+      "code": "UNSUPPORTED_CONTENT",
+      "raw_sha256": "05a08a3b3e2ec39d54e19d3713e4361bb41d18548c100288c71207ce0cc45d15",
+      "action": "unclassified",
+      "reason": "Standing guarded preservation rule: retain unbulleted prose as unclassified source material and a factual research lead."
+    },
+    {
+      "date": "2022-11-02",
+      "source_sha256": "510febeeddab66639510abdb6763eef745286c48a8deae736ef3a8d0abe7cea3",
+      "category": "Music and media",
+      "source_path": null,
+      "line": 38,
+      "code": "ORPHAN_CATEGORY",
+      "raw_sha256": "fadd82d530277cf330a61bf04f418a4cc6e7fd633bfd1abbc7af60e7a2deef7b",
+      "action": "preserve_notice",
+      "reason": "Retain the original source depth, orphan topic or empty category explicitly; invent no children or structure."
+    },
+    {
+      "date": "2022-11-10",
+      "source_sha256": "4c75cf44c77bd00a227f6a93598919bb96a088ee24034eefe8b5ce3c6ef53891",
+      "category": "Science and technology",
+      "source_path": [
+        1
+      ],
+      "line": 32,
+      "code": "INLINE_TEMPLATE",
+      "raw_sha256": "d1c2571bf0c47ce1f8d630ffe4ab1cf0559a5b4201f385cd665063405e56031c",
+      "action": "retain_template",
+      "reason": "Retain the exact unsupported template and its explicit arguments; no computed expansion or factual correction."
+    }
+  ]
+}
