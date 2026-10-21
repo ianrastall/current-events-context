@@ -1951,3 +1951,19 @@ successor edition; do not modify embedded inputs or rebuild over research.
 The recommended next archive is 2023, using the same inspect/build/verify/retire
 sequence and the same source-preservation policy. Current PDF production is
 separate from this annual SQLite/Markdown cutover.
+
+## Typeset 2025 reading edition (2026-10-21)
+
+Added `reference/yearbook/typeset/` (`book.py`, `book.typ`, `verify.py`,
+README, requirements): a designed Typst reading edition, *2025: A Chronicle
+of the Year*, alongside the unchanged print chronicle. It reads SQLite
+read-only, writes book JSON, and compiles offline in about ten seconds. The
+output is 352 US Letter pages with month openers, charts, notes inline after
+entries, a revision register, a page-referenced index and 387 bookmarks.
+Publisher names link to cited URLs; the full URL register is not printed.
+`verify.py` passed for all 5,453 entries, 6,543 cited URLs and 13,586 index
+headings. Repeated builds are byte-identical
+(`27678654e56057313c1931d6117b651928cfb3c76d63d973e3a743ebf2b72441`). At the
+owner's request `dist/2025-yearbook.pdf` is committed despite the `/dist/`
+ignore rule. Fonts (Source Serif 4 4.005, Source Sans 3 3.052, OFL) are not
+committed. This is a presentation of the archive, not a researched history.

@@ -1,5 +1,8 @@
 # Printed annual reference
 
+For the designed reading edition (*2025: A Chronicle of the Year*), see
+[typeset/README.md](typeset/README.md).
+
 The PDF is the readable physical preservation layer, derived from a named
 annual SQLite edition. It complements the exact-source database and plain-text
 Markdown. It is not a new authoritative source or a claim to complete,
