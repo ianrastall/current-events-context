@@ -2091,3 +2091,47 @@ committed. This is a presentation of the archive, not a researched history.
 - Next: commit/push/release this verified year and finish 2020. Its two complete
   sentences were explicitly approved as nested assertions with misleading-nesting
   notes. The 2019 side-by-side build is also underway; no 2019 originals retired.
+
+
+## Annual 2020 source-preservation cutover — 2026-10-21
+
+- Added `archive/2020.sqlite` (48,078,848 bytes; SHA-256
+  `569cbe9afdb002cd0331d40c13dd2e630b5c6b30167367c11a2e2e15a09dc4c8`)
+  and `archive/2020.md` (3,704,502 bytes; SHA-256
+  `d9880243227ba4fb0db4d769073cb588ab500e695908040cc531494802c61e1f`).
+- All 366 dates and 7,393 assertions (7,389 leaves), 6,926 topic entries and
+  exact sources are preserved. Two explicitly approved complete sentences add
+  two assertions relative to the old candidate: October 25 Melbourne Storm and
+  November 13 Cummings/Cain departures. Their original unrelated descendants
+  remain at source depth. Separate editorial passages flag misleading nesting;
+  indentation does not assert a factual relationship.
+- All 51 guarded role choices and 23 notice resolutions are pinned in the year
+  configuration. Source wrappers, unsupported templates, depth gaps and three
+  orphan topic labels remain visible. No unresolved structural interpretation
+  or unexplained prior-candidate/legacy replay difference remains.
+- Eight uncited assertions have separate opened-source evidence accounts: four
+  complete wording reviews, four partial. Original broad 3DS support wording is
+  qualified using Nintendo's later online-service notice; Ghana timing details,
+  the NRL medal ordinal and political allegations remain explicitly unverified.
+- Exact preflight and batched Git checkpoint comparison passed for 1,830
+  duplicates: 366 YAML (Git LF vs original CRLF retained), 366 metadata,
+  366 wikitext and 732 ignored prior candidates. All live event text and
+  citation occurrences were checked in Markdown before retirement.
+- Commands: annual-series build/prepare/retire, temporary byte/Git preflight,
+  post-retirement offline replay/recovery QA. No parser implementation changes
+  since the passing 59-test suite; full calendar verification passes.
+- Network: scoped Oireachtas proceedings, Czech Ministry of Health, Ghana
+  Finance Ministry, Senedd, NWS, Nintendo, NRL and UK Cabinet Office research.
+  Some original speech/HTML pages were inaccessible; the review uses opened
+  official PDFs where available and states limits. No Wikipedia/GDELT refetch.
+- The 2021 source-preservation commit is `24889eef`; its push succeeded with
+  GitHub's non-blocking recommended-size warning (52.86 MiB SQLite). The archive
+  remains a directly downloadable ordinary SQLite database. CI/release checks
+  are followed separately; PDF artifacts were untouched.
+- Independent review remains incomplete. Next: finish publication of this year,
+  finish the prepared 2019 pair, then continue backward with pinned local data.
+
+2020 post-retirement verification completed: all 366 dates replayed offline,
+all revision fallbacks and expansion consumers recovered 7,393 assertions,
+Markdown regenerated identically, planning skipped the published year and daily
+writes were refused. The publication manifest has no remaining duplicate files.
