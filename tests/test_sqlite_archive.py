@@ -1,9 +1,11 @@
 import copy
 import importlib.util
 import sqlite3
+import socket
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 import yaml
@@ -21,8 +23,12 @@ spec.loader.exec_module(validator)
 class SqliteArchiveTests(unittest.TestCase):
     def test_extraction_round_trip_with_gdelt_and_byte_idempotence(self):
         conn = sqlite_archive.connect(":memory:")
-        raw_text = (ROOT / "provisional/extraction-v1/2026/01/2026-01-16.yaml").read_text(encoding="utf-8")
-        doc = yaml.safe_load(raw_text)
+        # Reconstruct from tracked pinned inputs; ignored local migration
+        # candidates do not exist in clean checkouts or CI.
+        with patch.object(socket.socket, "connect", side_effect=AssertionError("network forbidden")):
+            doc = replay.candidate("2026-01-16")
+        doc.pop("gdelt", None)
+        raw_text = replay.dump(doc)
         doc_with_gdelt = copy.deepcopy(doc)
         doc_with_gdelt["gdelt"] = {
             "queried_at": "2026-01-17T00:00:00Z",

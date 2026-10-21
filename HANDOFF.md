@@ -1721,3 +1721,17 @@ an obligatory pass over every statement. Future extraction/editorial changes
 must use an explicit successor edition, preserving immutable implementation
 snapshots and earlier research. Publish to `codex/repository-repairs`; do not
 silently merge the unrelated daily-update divergence on `origin/main`.
+
+### Remote verification follow-up
+
+The preservation commit `3a8da632` was pushed successfully to
+`origin/codex/repository-repairs`. Its first remote workflow found a pre-existing
+test dependency on ignored local output:
+`tests/test_sqlite_archive.py` read a January 16, 2026 provisional candidate
+that was present locally but absent in a clean checkout. The test now rebuilds
+its input from tracked pinned source using offline replay, explicitly removes
+GDELT before checking enrichment insertion/removal, and keeps its byte-level
+round-trip assertions. This changes the test only, not the published archive,
+its frozen implementation or its Markdown checksum. Local passing results
+above did not catch this clean-checkout dependency; the failed remote run is
+recorded rather than represented as successful verification.
