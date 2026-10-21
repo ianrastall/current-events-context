@@ -2366,3 +2366,16 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   release metadata only; no Wikipedia, GDELT or research-service access.
 - Next publication step: push the integrated clean main branch and check its
   GitHub verification workflow, including annual replay and SQL/TSV recovery.
+
+- Publication completed: integrated main was pushed as `94fa8a3f` and GitHub
+  verification run 39605552076 succeeded:
+  https://github.com/ianrastall/current-events-context/actions/runs/39605552076
+  All 62 tests, nine full annual replay/Markdown checks, all annual SQL/TSV
+  recovery exports and complete synthesis validation passed. GitHub's main
+  directory listing confirms the new annual file locations. Release asset
+  identity checks passed as recorded above; no replacement releases are needed.
+- This final handoff-only follow-up records the completed publication; its
+  commit skips a duplicate CI run because it changes no verified implementation
+  or data. Main remains the working branch; no unmerged branch tip or known
+  publication blocker remains. Next substantive work is the separately scoped
+  annual migration/research backlog, not additional layout publication.
