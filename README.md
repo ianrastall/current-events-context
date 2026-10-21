@@ -18,6 +18,92 @@ The repository is transitioning from published mixed daily paths to separate
 layers. See `reference/reconciliation/README.md` before publication. Imported
 review states preserve prior work; draft research still needs factual review.
 
+## Annual SQLite reference archive
+
+The destination for the next migration is one self-contained database per
+year: `archive/<YYYY>.sqlite`. The first candidate is 2025. Its contract and
+data dictionary are in `reference/schema/ANNUAL_ARCHIVE.md`.
+
+```
+python -m seed.annual_archive build 2025
+python -m seed.annual_archive verify archive/2025.sqlite
+python -m seed.annual_archive ingest-day archive/2025.sqlite 2025-01-01
+```
+
+These commands are offline. Each date is ingested transactionally; the annual
+build replaces its destination only after verification succeeds. The database
+embeds exact legacy seed bytes, raw pinned Wikipedia inputs and metadata,
+schema/code evidence, structured extraction and a migration report. It can be
+verified from embedded source inputs without reopening the daily source tree.
+No permanent daily exports are produced. Changed inputs require an explicit
+migration; existing research is protected against a source-only rebuild.
+
+Open `day_coverage`, `event_overview`, `event_citations`, `event_links`,
+`source_text` and `review_queue` in an SQLite reader. Always specify `ORDER BY`
+for ordered output. Search source events with, for example:
+
+```sql
+SELECT date, category, text FROM archive_events_fts
+WHERE archive_events_fts MATCH 'earthquake' ORDER BY date;
+```
+
+The 2025 material currently has no complete researched synthesis. Successful migration
+verification does not make it fact-checked or ready for a finished yearbook. The
+database retains warnings and reports deletion blockers in `archive_checks`.
+Existing daily files and shared source caches remain intact until the
+documented replacement gate passes. Yearbook sections and researched claims
+have separate tables. A [readable Markdown preview](archive/2025.md) accompanies
+the [SQLite candidate](archive/2025.sqlite); illustrated PDF production is deferred.
+The chosen yearly pair is `<YYYY>.sqlite` plus `<YYYY>.md`.
+
+The current 2025 container is `annual-archive-1.1`. Its original extraction
+queue has been reconciled through tested source rules and seven guarded
+interpretations; no unresolved extraction warnings or unknown heading roles
+remain. Resolved notices are retained. The May 6 pasted football passage
+remains in `unclassified_source`, with separate publisher research evidence.
+Existing synthesis callers keep their historical interpretation profile.
+
+`factual_reviews`, `review_evidence` and `factual_review_queue` contain an
+initial 17 scoped review records across all twelve months, including three
+contradicted claims. They do not approve whole events, days or the year.
+`archive_checks` also contains a complete-calendar coverage census and the
+comparison against the previous annual container. Seven nonempty source event
+entries have no attached citation. A literal empty bullet is retained as a
+known source marker with the existing `unknown` structural role, excluded from
+the 5,453 event/search entries. Five unclassified fragments belong to the one May 6 passage;
+they do not represent five omitted events. The annual file remains a candidate
+and is not ready for a finished yearbook or deletion of the old corpus.
+
+The Markdown preview contains all 5,453 original source assertions, with
+month/day navigation, topic context, pinned Wikipedia revisions and citations.
+Eight separately researched editorial accounts supply evidence for all seven
+originally uncited entries and corrections for the three documented factual
+discrepancies. The original source still has seven uncited entries: editorial
+evidence never overwrites extraction. Five full-event reviews are complete;
+three remain partial, and 5,445 entries have no full-event review. Every event
+requires independent checking before cutover. These counts are separate from
+the 17 earlier scoped findings, which cannot approve whole events.
+
+The remaining partial findings concern the worldwide scope of Titanic
+commemorations, the full extent of Kathmandu's curfew, and the original
+French prime minister's "sworn in" wording. Supported narrower accounts are
+shown alongside the original wording. A corrected editorial account is not
+proof that all remaining source assertions have been established.
+
+Review work is incremental and stays inside the annual database; no permanent
+per-day review files are added. See the [Markdown/review contract](reference/schema/YEARBOOK.md).
+
+```powershell
+python -m seed.yearbook queue archive/2025.sqlite --month 2025-01 --limit 10
+python -m seed.yearbook verify archive/2025.sqlite
+python -m seed.yearbook render archive/2025.sqlite
+```
+
+Rendering is offline and deterministic, records the exact database SHA-256,
+and labels every unreviewed or partial event. Close database writers before
+rendering. Source and embedded pipeline bytes are preserved through Git;
+`.gitattributes` prevents platform newline conversion from breaking replay.
+
 ## Setup and verification
 
 Requires Python 3.10 or later and Git for optional Git workflows.

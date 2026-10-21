@@ -1235,3 +1235,376 @@ the two workflow files and this handoff; no corpus or source inputs change.
 
 - `expanded/2000/01/2000-01-01.yaml` through `2000-01-10.yaml` remain `status: draft` and `reviewed: false` pending explicit human review.
 - Continue acquiring multi-source feeds and building per-day `.sqlite` files for **January 11–15, 2000 (`2000-01-11` through `2000-01-15`)** at the single-pass 15–18 event daily standard.
+
+## October 21, 2026: Annual SQLite destination and initial 2025 migration
+
+This section supersedes the preceding next-step recommendation. The selected
+priority is a self-contained annual SQLite reference archive, starting with
+2025. The user approved designing the fields and structure for eventual
+yearbook use, incremental daily ingestion, and replacement of other annual
+material only after verification. No cutover or deletion has occurred.
+
+### Changes and files
+
+- Added `reference/schema/ANNUAL_ARCHIVE.md` and `annual-archive.sql` defining
+  `annual-archive-1.0`, ordering/null semantics, pinned source policy, embedded
+  evidence, source/editorial separation, and explicit replacement/yearbook gates.
+- Added `seed/annual_archive.py`: offline annual build, transactional per-day
+  ingestion, immutable embedded input identities, original-byte preservation,
+  source replay, reconciliation, browseable views, source-event FTS, and atomic
+  database replacement. A source-only rebuild refuses to discard research.
+- The annual schema incorporates the existing lossless extraction/synthesis
+  bridge and adds claim evidence, generation provenance, ordered yearbook
+  sections, self-contained blobs/input manifests, and internal check reports.
+  Existing per-day SQLite files and other years are unchanged.
+- Created `archive/2025.sqlite` (25,628,672 bytes; SHA-256
+  `065f15d534291cc68ec9a934147f9936959c69320b280ffa55810ec213e7d650`).
+  It contains all 365 days, 5,454 event leaves, 10,096 total structural entries,
+  6,595 citations, and 32,000 wikilinks. There are no researched 2025 synthesis
+  inputs in the repository; no model-generated historical prose was invented.
+- Added `tests/test_annual_archive.py`; updated root `README.md`,
+  `.gitattributes`, and `.gitignore`. No permanent daily outputs or external
+  report files were generated. The verification report is `archive_checks` in
+  the database; unresolved issues are visible through `review_queue`.
+
+### Commands and verification actually run
+
+- Inspected Git status, the existing schemas/bridge/parser/source cache,
+  authoring/migration documentation, and a complete 2025 input inventory.
+  The worktree started clean at `26843942` on `codex/repository-repairs`.
+- `python -X utf8 -m seed.annual_archive build 2025`: complete offline build
+  and verification, followed by atomic installation of the candidate database.
+- `python -X utf8 -m seed.annual_archive verify archive/2025.sqlite`: a second,
+  independent process passed integrity/foreign-key checks, exact embedded
+  payload hashes, complete calendar coverage, extraction schema validation,
+  parent/order/source-bullet checks, canonical structural round trips,
+  repeated-parser idempotence, legacy item mapping/leaf reconciliation,
+  GDELT preservation and source-event search reconciliation. Socket connection
+  attempts were blocked during parsing and replay. Every prior 2025 candidate
+  matched; every old seed matched the legacy parser on the same pinned source.
+- Compared embedded hashes against all 1,104 corresponding existing files:
+  zero byte differences. The additional embedded input is the generated bridge
+  SQL definition. No source inputs were mutated.
+- Manually compared source and extracted structures on January 1, July 1,
+  September 1 (top/bottom wrapper variant), and December 31. This was a
+  structural check, not publisher-level verification of the events.
+- `python -m unittest discover -s tests -v`: 30 tests passed before adding the
+  last research-preservation case. Then
+  `python -m unittest discover -s tests -p test_annual_archive.py -v`: all six
+  annual tests passed, including the additional case. Tests cover day rollback
+  across nested bridge transactions, atomic failed builds, exact CRLF input
+  preservation, idempotent ingestion, hash/content/search corruption, date/year
+  checks, incomplete calendars, and protection of existing research.
+- `git diff --check`: passed. No commit or push performed. No network or new
+  source acquisition performed in this implementation pass.
+
+### Warnings, limits, and next step
+
+- All 140 existing unresolved 2025 warnings remain explicit: 122
+  `INLINE_TEMPLATE`, nine `AMBIGUOUS_ROLE`, and nine `UNSUPPORTED_CONTENT`.
+  Nine entries retain the structural role `unknown`. None were guessed away;
+  no parser warnings were introduced or resolved in this pass.
+- Migration correctness is verified; factual coverage and yearbook readiness
+  are not. The internal report explicitly sets `replacement_ready=false` and
+  `yearbook_ready=false`. No full publisher review, yearbook prose, or PDF was
+  produced. A pinned Wikipedia capture may postdate its event date.
+- Keep all old 2025 daily files and shared immutable source caches until the
+  documented replacement gate passes. Embedding a shared source does not
+  establish that other years/tools no longer depend on its filesystem copy.
+- Next: resolve the 2025 extraction queue through tested general rules or
+  guarded source interpretations, then perform factual/coverage review and
+  add researched material directly to the annual container. Before deletion,
+  produce a dependency-checked exact manifest, preserve a Git checkpoint, and
+  migrate affected consumers. Do not resume the 2000 five-day expansion by
+  default. Current verification requires the recorded parser/tool implementation;
+  changing it requires an explicit archive replay/migration, not silent drift.
+
+## October 21, 2026: 2025 extraction reconciliation and initial factual coverage review
+
+### Scope and result
+
+The original 2025 extraction queue is reconciled. Factual review is explicitly
+partial. No legacy daily files or immutable source caches were removed, and no
+yearbook-ready or complete factual-review claim is made.
+
+The user selected preservation of the malformed May 6 football passage as
+unclassified source material, with a separate factual-research lead. Do not
+promote it into an inferred sports category or extraction event.
+
+### Changed files and behavior
+
+- `seed/inline.py` and `seed/extract.py`: conservative projections of explicit
+  inline-template arguments, interlanguage target/surface capture with unknown
+  red-link state, portal metadata notices, citation-only continuation handling,
+  nominal topic labels, retained reliability tags, and retention of unexpected
+  portal parameters after unescaped pipes. No unit conversion, live exchange
+  rate, source spelling correction, or Wikipedia refetch occurs.
+- The annual builder explicitly selects `source_templates=True`. Existing
+  synthesis/seed callers retain the historical default interpretation profile.
+  An initial test caught changed interpretation in the March 11, 2026 positional
+  synthesis overlay; this was fixed through profile isolation. No historical
+  guard hashes or 2026 generated outputs were changed to bypass the failure.
+- Added `reference/overrides/2025-extraction.json`: two exact guarded nominal
+  heading interpretations and five guarded unclassified-fragment retentions.
+  Locators use date, source hash and raw-fragment hash, with source path/category
+  or warning code/line. A role override no longer resolves unrelated warnings.
+- `reference/schema/annual-archive.sql`, `ANNUAL_ARCHIVE.md`, and
+  `seed/annual_archive.py`: version `annual-archive-1.1`, explicit side-by-side
+  migration, normalized scoped review/evidence tables, a factual-review queue,
+  complete-calendar coverage census, and per-entry prior-candidate delta checks.
+  The extraction JSON shape remains `extraction-1.0`.
+- Extended `tests/test_extraction.py`, `tests/test_annual_archive.py`; added
+  exact-input golden fixtures `tests/fixtures/template_arguments.wiki` and
+  `.json`. Updated root `README.md` and this handoff.
+- Replaced only the initial annual candidate `archive/2025.sqlite` after
+  separate candidate verification and comparison. The original container is
+  preserved in a local temporary checkpoint outside the repository. Its hash
+  is recorded in the internal comparison report; no private local path is
+  written into repository artifacts.
+
+### Current annual database
+
+- `archive/2025.sqlite`: 25,870,336 bytes; SHA-256
+  `9fe1b43abbc5467c119b75ec03583240266c4ea58d501a694f18e78269fd5318`.
+- All 365 dates, 5,453 nonempty event entries/leaves, 6,596 citations and 32,025
+  structured links. Nine formerly unknown headings are topics. The event-leaf
+  delta is -1: one literal empty bullet is now a known marker rather than an
+  event. No nonempty event content was removed. There are 120 changed entries
+  across 95 days, explained through template argument projection, source topic
+  rules/guards, one citation continuation or the empty-marker rule.
+- The old and new annual containers have identical identities/bytes for all
+  1,095 original daily seed, Wikipedia payload and source-metadata inputs.
+  Filesystem inputs were also checked after installation: no hash differences.
+- There are zero unresolved extraction warnings and zero unknown heading roles.
+  One known empty marker retains the existing `unknown` structural role,
+  separately reported from ambiguous headings and excluded from event/search
+  counts. All 10,096 original structural entries remain represented.
+  Audit notices remain: 121 `SOURCE_TEMPLATE`, five `SOURCE_METADATA`, one
+  `CITATION_CONTINUATION`, one `SOURCE_RELIABILITY_TAG`, two guarded
+  `AMBIGUOUS_ROLE`, three guarded `UNSUPPORTED_CONTENT` and two guarded
+  `UNASSIGNED_TEMPLATE_PARAMETER`, plus one `SOURCE_EMPTY_MARKER` (136 resolved
+  notices total).
+- The five unclassified fragments all belong to the one May 6 passage, not
+  five missing events. Extra portal parameters previously concealed by an
+  unescaped pipe are now explicit retained evidence. UEFA independently
+  supports the football result in an embedded research lead; extraction remains
+  unclassified as selected.
+- Seven nonempty source event entries have no attached citation. The literal
+  empty `*` bullet on July 5 is preserved with a resolved notice under the
+  existing extraction contract's `unknown` role and excluded from event/search
+  counts and yearbook narrative. The seven uncited events remain identifiable
+  in the coverage census; some now have separate publisher
+  evidence, which is not written back into Wikipedia extraction.
+
+### Factual coverage and findings
+
+The complete-calendar census is stored as `archive_checks.coverage`.
+`factual_reviews`, `review_evidence`, `factual_review_queue` and immutable
+embedded review records expose the partial publisher/source review. There are
+17 scoped records across all twelve months: seven supported within scope,
+five partially supported, three contradicted and two needing research.
+There are 5,436 event entries without such a record. A record may concern only
+one claim; it never approves the entire event, day or year.
+
+Three concrete discrepancies were recorded without changing source text:
+
+- January 25 women's doubles final: the Australian Open organizer places the
+  final on January 26. Winners and score match; calendar placement differs.
+- April 2 tariff entry: the official announcement distinguishes the April 5
+  baseline tariff from higher reciprocal rates effective April 9 and lists
+  exclusions. The portal's combined effective-date statement is misleading.
+- September 8 Nepal protests: the cited Sky body gives 17 deaths in Kathmandu
+  and two in Itahari; the portal sentence assigns all 19 to Kathmandu.
+
+Additional limits include rolling casualty totals for Myanmar, Texas and
+Bondi; a source-marked unreliable military claim; and insufficient opened
+evidence for detailed 99-year Armenia corridor terms. Failed publisher access
+is recorded as an access limit, not as evidence that a claim is false. Original
+raw source claims, errors, dates and citations remain intact.
+
+### Commands, network access and verification actually run
+
+- Inspected every original warning, template family and all nine ambiguous
+  heading contexts from cached source. Checked template documentation through
+  Wikipedia pages. Publisher browsing included the Australian Open, UEFA,
+  Bundestag, German election authority, White House, Vatican News, GSI Japan,
+  Nobel Committee, Armenian prime minister, Sky, El Pais, UConn-hosted AP, NWS,
+  ABC Australia and initial AAIB report text. Several other original citations
+  were blocked, unavailable or timed out. No raw-source acquisition cache was
+  rewritten, and no GDELT request was made.
+- `python -m unittest discover -s tests -p test_extraction.py -v`: passed during
+  fixture work. Final `python -m unittest discover -s tests -v`: all 37 tests
+  passed after correcting the March synthesis compatibility regression. Tests
+  include network-blocked parsing, new golden fixtures, source-only numeric
+  projections, guarded interpretation drift, source citation continuation,
+  extra portal parameters, empty source markers, scoped review corruption and
+  event-loss rejection.
+- In-memory side-by-side checks covered all 365 inputs before rebuilding.
+- `python -X utf8 -m seed.annual_archive build 2025 --output
+  archive/.2025-review.sqlite`, followed by a final marker-corrected build to
+  `archive/.2025-final.sqlite`: complete verified offline candidate builds.
+  Earlier provisional builds were stopped while correcting the interpretation
+  profile; their temporary files were removed after successful completion.
+- A separate local review-recording process inserted the 17 scoped findings
+  and two research leads, compared every prior/current extraction, checked all
+  original input identities, and ran `annual_archive.verify()` against the
+  completed candidate. Complete calendar, schema, structure/parent/order,
+  source bullet coverage, leaf reconciliation, repeated parse idempotence,
+  canonical round trips, prior output deltas, source/event search contents,
+  GDELT preservation, input hashes and review guards all passed. Socket
+  connections were blocked during annual build/replay verification.
+- Candidate quick-check passed before atomic installation, and foreign-key
+  checks passed afterward. `git diff --check` passed. Exactly one annual DB
+  remains in `archive/`; no permanent per-day output/report files were created.
+  No commit or push was performed. The separate full 40-file synthesis
+  validation command was not rerun; existing synthesis compatibility was
+  exercised through the final full test suite.
+
+### Next step and remaining gate
+
+Continue factual review, starting with the seven nonempty uncited source
+entries and the three documented discrepancies. Put corrected dates, geographic
+totals and reporting-time qualifications in researched synthesis with explicit
+evidence; never silently repair Wikipedia's archival text. The empty marker,
+source reliability tag and unclassified football passage remain separate
+coverage/editorial leads. Independent broader research is needed to assess
+events absent from Wikipedia; a source census cannot prove global completeness.
+
+The database still reports `replacement_ready=false` and
+`yearbook_ready=false`. Full-year factual coverage review, researched yearbook
+content, dependency-checked deletion manifest and checkpoint/cutover work have
+not been completed. Keep the old 2025 files and shared caches intact.
+
+## 2026-10-21: cited editorial resolutions and Markdown checkpoint
+
+### Decisions and scope
+
+The selected yearly pair is `archive/<YYYY>.sqlite` plus
+`archive/<YYYY>.md`. The user explicitly requires independent checking of
+every event before cutover. An unreviewed source chronicle is not sufficient
+grounds to delete the old daily files. The current Markdown is a clearly
+labeled draft preview, not the finished historical yearbook. PDF production,
+especially illustrations, is deferred until the reference content is ready.
+
+### Changes and files
+
+- Added `seed/yearbook.py` and `reference/schema/YEARBOOK.md`: additive,
+  versioned `yearbook-review-1.0` records inside existing annual input/blob
+  tables, full-event review queue, guarded recording, verification and
+  deterministic Markdown rendering. No annual extraction/schema snapshot is
+  replaced. The earlier 17 scoped findings remain distinct.
+- Updated `archive/2025.sqlite` with eight editorial resolution records and
+  embedded implementation/contract inputs. All seven originally uncited
+  entries now have separate opened publisher evidence. The original
+  extraction still correctly reports seven missing source citations.
+- Added `archive/2025.md`: every one of the 5,453 archived event assertions,
+  all 365 dates, month/day navigation, topic ancestry, pinned source revisions,
+  original citations, explicit review labels and eight cited editorial accounts.
+  Original wording remains alongside editorial corrections. Navigation uses
+  the portal date; corrected editorial dates are explicit.
+- Added `tests/test_yearbook.py` and annual/companion checks in
+  `.github/workflows/verify.yaml`. Updated README and `.gitattributes` for
+  companion use and exact replay bytes across platforms. The captured
+  `seed/wikipedia.py` has historical mixed line endings: preserve those exact
+  bytes through Git rather than normalize an embedded implementation silently.
+  This changes Git's representation of that file, not its executable content.
+- This checkpoint also includes the previously uncommitted annual container,
+  parser fixes, guarded overrides, schema/contract, fixtures and tests described
+  in the preceding two passes. All old 2025 daily files and shared source
+  caches remain intact. No source revisions or acquisition policy changed.
+
+### Research results and limits
+
+Five full-event reviews are complete: January 9 wildfires, January 25 tennis
+entry, April 2 tariffs, April 6 UConn and May 11 balloon accident. Corrections
+and qualifications are confined to editorial records:
+
+- The Australian Open final belongs to January 26; both pairs and score agree
+  with the organizer. There is no matching final already in January 26's
+  pinned extraction.
+- The April 2 tariff announcement distinguishes April 5 baseline duties from
+  April 9 scheduled higher duties; Annex I lists EU 20% and China 34%.
+  Exemptions and additional-duty status prevent an all-imports interpretation.
+- Reuters' later January 9 wildfire toll supports the original lower bound,
+  but is reported with its own time scope rather than a final annual count.
+- UConn's result and Fudd's award are supported by the AP game report hosted
+  by the university. La Jornada's correspondent supports the balloon fatality,
+  hanging/fall sequence, Zacatecas location and two other injuries.
+
+Three records remain partial despite supported narrower editorial accounts:
+
+- April 15 Titanic: PA's dated photo caption supports the Belfast City Hall
+  service; the source's worldwide extent is not established by that evidence.
+- September 8 Nepal: the Sky report separates 17 Kathmandu deaths from two
+  in Itahari. It supports injuries and a curfew in parts of the capital; the
+  portal's claim about all government buildings is still unsubstantiated.
+- September 10 France: official sources establish September 9 appointment,
+  September 10 handover and September 8 confidence defeat. They do not
+  substantiate the source's oath-taking terminology.
+
+Thus 5,445 events have no full-event review, three have partial reviews and
+5,448 remain short of the factual cutover gate. The 17 earlier scoped records
+are not silently counted as complete-event approval. No unresolved source
+structure warning was introduced; factual uncertainties remain explicit.
+Broader selection completeness, researched synthesis, deduplication, editorial
+reading, consumer migration and a dependency-checked deletion manifest also
+remain outstanding. No claim is made that the full year has been fact-checked.
+
+### Access and checks actually performed
+
+Publisher browsing opened the Australian Open report, White House tariff
+order and two-page Annex I, UConn-hosted AP report, La Jornada correspondence,
+Sky's Nepal report, French presidency appointment PDF, government handover
+transcript, parliamentary vote record, Reuters via Investing.com and PA Images
+caption via Getty Images. Also inspected the Independent's limited-access
+Titanic report; its article text was not reproduced. Elysee HTML and Belfast
+Telegraph video pages failed to open; they were not counted as opened evidence.
+No images were downloaded, no GDELT query was made, and no cached Wikipedia
+input was reacquired or edited. Research records identify passages, dates,
+access results and source limits. Unknown model identity is explicitly null.
+
+Commands and verification:
+
+- `python -m unittest discover -s tests -p test_yearbook.py -v`: four new
+  tests passed, including incomplete claim coverage, inaccessible evidence,
+  source/implementation drift, immutable records, gate counts and rendering.
+- `python -m unittest discover -s tests -v`: all 41 tests passed.
+- `python -X utf8 -m seed.yearbook render archive/2025.sqlite`: completed after
+  full annual offline verification; wrote the companion atomically.
+- A separate read-only verification invoked `annual_archive.verify()`,
+  `yearbook.review_report()` and two identical renders. All 365 pinned inputs
+  replayed offline; schema, hierarchy, ordering, leaf counts, citations,
+  round-trip, idempotence, hashes, source coverage, baseline reconciliation,
+  FTS, review guards and database integrity passed. The Markdown has exactly
+  365 day headings and 5,453 event anchors and matches the current DB hash.
+- Compared every extraction/source/ingestion/GDELT and prior factual-review
+  table against a preserved pre-editorial database: unchanged. All 1,095
+  original daily/source/metadata files still match their embedded hashes.
+- Ran `reference/schema/validate.py --archive-root expanded` with every
+  existing synthesis path explicitly supplied: all 40 files passed.
+- `git diff --cached --check`: passed after declaring the preserved
+  acquisition module's CR-at-EOL convention. Every staged parser/schema/
+  editorial implementation byte sequence matches its embedded snapshot;
+  staged SQLite and Markdown bytes match their verified editions. Compared
+  the acquisition module to HEAD with CRLF normalized: no content changes.
+- No deletion, cutover, PDF generation or push was performed. Full-year
+  independent factual research is incomplete, not a skipped test presented
+  as success. The commit preserves a reviewable candidate and companion.
+
+Edition identities before commit (the commit does not rewrite archive bytes):
+
+- Database SHA-256:
+  `6ca041ad0f057382378b1e3513136fb761b4d6eac0bea1e28b930b28d42dbc38`.
+- Markdown: 2,744,739 UTF-8 bytes, SHA-256
+  `ea3ccd80224d6988ae2ff4d54a479a9aeb3135c114b9692dc2c63ee88dd2f730`.
+
+### Next pass
+
+Continue independent event review in bounded chronological batches using
+`python -m seed.yearbook queue archive/2025.sqlite --month 2025-01 --limit 10`.
+Open and assess all assertions, including casualty reporting times and topic
+context; record claim dispositions inside the database and regenerate the
+single companion. Prioritize unresolved partial findings and the existing
+source reliability/research leads as well. Do not delete daily files or caches
+until all events meet the user's requirement and the other migration gates
+pass. A final Markdown yearbook and optional PDF follow that gate.

@@ -16,6 +16,22 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
+      - name: Verify annual archive and readable companion
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from seed import annual_archive as annual, yearbook
+          for path in sorted(Path('archive').glob('*.sqlite')):
+              conn = annual.connect(path, readonly=True)
+              try:
+                  annual.verify(conn)
+                  report = yearbook.review_report(conn)
+                  expected = yearbook.render(conn, annual.digest(path.read_bytes()))
+                  assert path.with_suffix('.md').read_bytes() == expected, f'Stale Markdown: {path}'
+                  print(path, report)
+              finally:
+                  conn.close()
+          PY
       - name: Validate complete synthesis archive
         run: |
           python - <<'PY'

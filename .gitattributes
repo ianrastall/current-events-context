@@ -13,3 +13,19 @@ reference/reconciliation/published-HANDOFF.md -text
 reference/sources/wikipedia/wikitext/*.wiki -text
 reference/sources/wikipedia/rendered_html/*.html -text
 reference/sources/wikipedia/** -text
+
+# Annual database containers retain exact binary bytes.
+archive/*.sqlite -text
+archive/*.md text eol=lf
+
+# Replay checks compare embedded implementation bytes across platforms.
+seed/*.py text eol=lf
+requirements.txt text eol=lf
+reference/schema/*.json text eol=lf
+reference/schema/*.sql text eol=lf
+reference/schema/ANNUAL_ARCHIVE.md text eol=lf
+reference/schema/YEARBOOK.md text eol=lf
+reference/overrides/*.json text eol=lf
+# This historical acquisition module has mixed line endings in the captured
+# pipeline; preserve them until an explicit pipeline migration normalizes it.
+seed/wikipedia.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

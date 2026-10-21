@@ -7,17 +7,38 @@ import re
 from datetime import date as Date
 
 import mwparserfromhell as mw
+from seed.inline import project as project_template
 
 
 def fingerprint(raw):
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
 
-def fragment(raw):
+def fragment(raw, *, source_templates=False):
     code = mw.parse(raw)
-    links = [{"surface": (n.text if n.text is not None else n.title).strip_code(),
-              "target": str(n.title), "red_link": None, "raw": str(n)}
-             for n in code.filter_wikilinks(recursive=True)]
+    links = []
+    def capture_links(nodes):
+        for node in nodes:
+            if isinstance(node, mw.nodes.Wikilink):
+                links.append({"surface": (node.text if node.text is not None else node.title).strip_code(),
+                              "target": str(node.title), "red_link": None, "raw": str(node)})
+            elif isinstance(node, mw.nodes.Template):
+                if str(node.name).strip().lower() in ("ill", "interlanguage link") and node.has(1) and project_template(node) is not None:
+                    target = str(node.get(1).value)
+                    links.append({"surface": project_template(node), "target": target,
+                                  "red_link": None, "raw": str(node)})
+                for param in node.params:
+                    capture_links(param.value.nodes)
+            elif isinstance(node, mw.nodes.Tag) and node.contents:
+                capture_links(node.contents.nodes)
+            elif isinstance(node, mw.nodes.ExternalLink) and node.title:
+                capture_links(node.title.nodes)
+    if source_templates:
+        capture_links(code.nodes)
+    else:
+        links = [{"surface": (n.text if n.text is not None else n.title).strip_code(),
+                  "target": str(n.title), "red_link": None, "raw": str(n)}
+                 for n in code.filter_wikilinks(recursive=True)]
     citations = []
     templated_links = set()
     template_cursor = 0
@@ -78,7 +99,13 @@ def fragment(raw):
             elif isinstance(n, mw.nodes.Wikilink):
                 parts.append((n.text if n.text is not None else n.title).strip_code())
             elif isinstance(n, mw.nodes.Template):
-                if str(n.name).strip().lower() in ("nowrap", "small", "lang") and n.params:
+                projection = project_template(n) if source_templates else None
+                if source_templates and str(n.name).strip().lower() == "unreliable inline":
+                    unknown.append(("SOURCE_RELIABILITY_TAG", str(n)))
+                elif projection is not None:
+                    parts.append(projection)
+                    unknown.append(("SOURCE_TEMPLATE", str(n)))
+                elif str(n.name).strip().lower() in ("nowrap", "small", "lang") and n.params:
                     value = n.params[-1].value
                     parts.append(render(value.nodes))
                 else:
@@ -123,11 +150,13 @@ def body(raw, date):
     return raw, 0, None
 
 
-def extract(raw, *, date, source, overrides=None):
+def extract(raw, *, date, source, overrides=None, source_templates=False):
     if fingerprint(raw) != source["source_sha256"]:
         raise ValueError("Extraction payload does not match pinned source hash")
     doc = {"schema_version": "extraction-1.0", "date": date,
            "source_page": copy.deepcopy(source), "categories": [], "warnings": []}
+    def parse_fragment(value):
+        return fragment(value, source_templates=source_templates)
 
     def warn(code, message, *, category=None, entry=None, raw="", line=None):
         doc["warnings"].append({"code": code, "date": date, "source_page": source["page"],
@@ -157,6 +186,18 @@ def extract(raw, *, date, source, overrides=None):
     if problem:
         warn("AMBIGUOUS_DAY", problem, raw=raw)
         return doc
+    # A pasted unescaped pipe can create extra parameters outside `content`.
+    # Retain those exact bytes; never treat parser parameter truncation as
+    # proof that the remaining source does not exist.
+    for template in mw.parse(raw).filter_templates() if source_templates else []:
+        if str(template.name).strip().lower() == "current events" and template.has("content"):
+            if str(template.get("content").value) != content:
+                continue
+            for param in template.params:
+                if str(param.name).strip() not in ("year", "month", "day", "content"):
+                    fragment_raw = str(param)
+                    warn("UNASSIGNED_TEMPLATE_PARAMETER", "Extra portal parameter retained without event classification",
+                         raw=fragment_raw, line=raw[:raw.find(fragment_raw)].count("\n") + 1)
     current = None
     tokens = []
     for lineno, line in enumerate(content.splitlines(), offset + 1):
@@ -166,7 +207,7 @@ def extract(raw, *, date, source, overrides=None):
         cat = re.fullmatch(r"(?:;\s*(.+)|'''(.+?)'''|==+\s*(.+?)\s*==+)", stripped)
         if cat:
             name = next(g for g in cat.groups() if g is not None)
-            text, links, cites, unknown = fragment(name)
+            text, links, cites, unknown = parse_fragment(name)
             current = {"name": text.rstrip(":"), "links": links, "citations": cites,
                        "entries": [], "line": lineno, "raw": line}
             for code, raw_fragment in unknown:
@@ -175,18 +216,27 @@ def extract(raw, *, date, source, overrides=None):
             continue
         bullet = re.match(r"^\s*([*:]+)\s*(.*)$", line)
         if bullet:
-            text, links, cites, unknown = fragment(bullet.group(2))
+            text, links, cites, unknown = parse_fragment(bullet.group(2))
             entry = {"role": "unknown", "depth": len(bullet.group(1)), "list_marker": bullet.group(1), "source_path": [],
                      "parent_path": None, "line": lineno, "raw": line,
                      "text": text, "links": links, "citations": cites}
             tokens.append(("bullet", (entry, unknown)))
+        elif (source_templates and tokens and tokens[-1][0] == "bullet" and lineno == tokens[-1][1][0]["line"] + tokens[-1][1][0]["raw"].count("\n") + 1
+              and not parse_fragment(stripped)[0] and parse_fragment(stripped)[2]):
+            entry, unknown = tokens[-1][1]
+            entry["raw"] += "\n" + line
+            entry["text"], entry["links"], entry["citations"], new = parse_fragment(re.sub(r"^\s*[*:]+\s*", "", entry["raw"]))
+            unknown[:] = new
+            warn("CITATION_CONTINUATION", "Adjacent citation-only source line attached to preceding bullet", raw=line, line=lineno)
         elif line[:1].isspace() and tokens and tokens[-1][0] == "bullet":
             entry, unknown = tokens[-1][1]
             entry["raw"] += "\n" + line
-            entry["text"], entry["links"], entry["citations"], new = fragment(re.sub(r"^\s*[*:]+\s*", "", entry["raw"]))
+            entry["text"], entry["links"], entry["citations"], new = parse_fragment(re.sub(r"^\s*[*:]+\s*", "", entry["raw"]))
             unknown[:] = new
         else:
-            warn("UNSUPPORTED_CONTENT", "Unrecognized structural content retained in warning", category=current["name"] if current else None,
+            wrapper = re.fullmatch(r"\{\{Current events\|year=(\d{4})\|month=(\d{1,2})\|day=(\d{1,2})\|(top|bottom)=yes\}\}", stripped)
+            metadata = source_templates and ((wrapper is not None and tuple(map(int, wrapper.groups()[:3])) == tuple(map(int, date.split("-")))) or stripped == '<noinclude>{{pp|small=yes}}</noinclude>')
+            warn("SOURCE_METADATA" if metadata else "UNSUPPORTED_CONTENT", "Portal metadata retained" if metadata else "Unrecognized structural content retained in warning", category=current["name"] if current else None,
                  raw=line, line=lineno)
     current = None
     stack = []
@@ -228,10 +278,17 @@ def extract(raw, *, date, source, overrides=None):
         label_markup = re.sub(r"<ref\b[^>]*(?:/>|>.*?</ref\s*>)", "", label_markup, flags=re.S | re.I)
         for citation in entry["citations"]:
             label_markup = label_markup.replace(citation["raw"], "")
+        for template in mw.parse(label_markup).filter_templates() if source_templates else []:
+            if str(template.name).strip().lower() in ("ill", "interlanguage link") and template.has(1):
+                label_markup = label_markup.replace(str(template), "[[" + str(template.get(1).value) + "]]")
         label_remainder = re.sub(r"\[\[.*?\]\]", "", re.sub(r"^\s*[*:]+", "", label_markup))
         label_remainder = re.sub(r"\b(?:and|in|of|during|at)\b", "", label_remainder)
+        if source_templates:
+            label_remainder = re.sub(r"\b(?:Aftermath|Spillover|the)\b", "", label_remainder)
         pure_links = bool(entry["links"]) and not re.sub(r"[\s,:;'\"()&/\-–—]", "", label_remainder)
-        if children and pure_links:
+        if source_templates and not entry["text"] and not entry["links"] and not entry["citations"] and re.fullmatch(r"[*:]+\s*", entry["raw"].strip()):
+            warn("SOURCE_EMPTY_MARKER", "Empty source list marker preserved without asserting an event", category=current["name"], entry=entry)
+        elif children and pure_links:
             entry["role"] = "topic"
         elif entry["text"].endswith(":"):
             entry["role"] = "topic"
@@ -244,14 +301,29 @@ def extract(raw, *, date, source, overrides=None):
         current["entries"].append(entry)
         stack.append(entry)
         for code, markup in unknown:
-            warn(code, "Unknown or malformed markup retained verbatim", category=current["name"], entry=entry)
+            message = {"SOURCE_TEMPLATE": "Explicit template arguments projected without live expansion or calculated conversions; exact markup retained",
+                       "SOURCE_RELIABILITY_TAG": "Source reliability annotation retained for factual review"}.get(code, "Unknown or malformed markup retained verbatim")
+            warn(code, message, category=current["name"], entry=entry)
     return finish(doc, overrides, warn)
 
 
 def finish(doc, overrides, warn):
+    for warning in doc["warnings"]:
+        if warning["code"] in ("SOURCE_TEMPLATE", "SOURCE_METADATA", "CITATION_CONTINUATION", "SOURCE_EMPTY_MARKER"):
+            warning["resolution"] = "deterministic_source_rule"
+        elif warning["code"] == "SOURCE_RELIABILITY_TAG":
+            warning["resolution"] = "annotation_preserved_for_factual_review"
     for override in overrides or []:
         if override["date"] != doc["date"] or override["source_sha256"] != doc["source_page"]["source_sha256"]:
             raise ValueError("Override source identity drift")
+        if override.get("action") == "preserve_unclassified":
+            found = [w for w in doc["warnings"] if w["code"] == override["warning_code"]
+                     and w["line"] == override["line"] and fingerprint(w["raw"]) == override["raw_sha256"]]
+            if len(found) != 1 or not override.get("reason"):
+                raise ValueError("Unclassified source locator drift")
+            found[0]["resolution"] = "guarded_unclassified_retention"
+            found[0]["interpretation"] = "unclassified_source_requires_factual_research"
+            continue
         found = [e for c in doc["categories"] if c["name"] == override["category"]
                  for e in c["entries"] if e["source_path"] == override["source_path"]
                  and fingerprint(e["raw"]) == override["raw_sha256"]]
@@ -261,7 +333,7 @@ def finish(doc, overrides, warn):
             raise ValueError("Invalid override role")
         found[0]["role"] = override["role"]
         for warning in doc["warnings"]:
-            if warning["category"] == override["category"] and warning["source_path"] == override["source_path"] and warning["line"] == found[0]["line"]:
+            if warning["code"] == "AMBIGUOUS_ROLE" and warning["category"] == override["category"] and warning["source_path"] == override["source_path"] and warning["line"] == found[0]["line"]:
                 warning["resolution"] = "guarded_override"
                 warning["interpretation"] = override["role"]
     for category in doc["categories"]:

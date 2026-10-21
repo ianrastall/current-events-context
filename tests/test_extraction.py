@@ -32,13 +32,13 @@ class GoldenTests(unittest.TestCase):
             with self.subTest(fixture=expected_path.stem):
                 expected = json.loads(expected_path.read_text(encoding="utf-8"))
                 raw = expected_path.with_suffix(".html" if expected["mode"] == "rendered_html" else ".wiki").read_text(encoding="utf-8")
-                doc = extract(raw, date=expected["date"], source=identity(raw, expected["mode"]))
+                doc = extract(raw, date=expected["date"], source=identity(raw, expected["mode"]), source_templates=expected.get("source_templates", False))
                 got = [[c["name"], e["role"], e["depth"], e["source_path"], e["parent_path"], e["text"]]
                        for c in doc["categories"] for e in c["entries"]]
                 self.assertEqual(expected["entries"], got)
                 self.assertEqual(expected["warnings"], [w["code"] for w in doc["warnings"]])
                 Draft202012Validator(schema).validate(doc)
-                again = extract(raw, date=expected["date"], source=identity(raw, expected["mode"]))
+                again = extract(raw, date=expected["date"], source=identity(raw, expected["mode"]), source_templates=expected.get("source_templates", False))
                 self.assertEqual(dump(doc), dump(again))
                 self.assertEqual(canonical(doc), canonical(yaml.safe_load(dump(doc))))
                 self.assertTrue(dump(doc).endswith("\n"))
@@ -108,6 +108,61 @@ class GoldenTests(unittest.TestCase):
             path.write_bytes(b"tampered")
             with self.assertRaises(ValueError):
                 source.revision(123, cache=directory)
+
+    def test_explicit_template_arguments_without_live_conversions(self):
+        from seed.extract import fragment
+        original_fragment = fragment
+        fragment = lambda raw: original_fragment(raw, source_templates=True)
+        cases = {
+            '{{M|w|7.1}}': '7.1 Mw', '{{M|s|6.8}}': '6.8 Ms',
+            '{{cvt|30|cm|in|adj=on}}': '30 cm', '{{conv|42|C|F}}': '42 C',
+            '{{cvt|770,000|ha|km2|abbr=on}}': '770,000 ha',
+            '{{Euro}}34 million': '€34 million', '{{USD}}2': 'US$2',
+            '{{GBP}}4': '£4', '{{Renminbi|link=yes}}2.9 million': 'CN¥2.9 million',
+            '{{mpl|2024 YR|4}}': '2024 YR4', '{{sub|w}}': 'w',
+            '{{Ship|ARM|Cuauhtémoc}}': 'ARM Cuauhtémoc', '{{USS|Harry Truman||}}': 'USS Harry Truman',
+            '{{MV|Eternity C||2}}': 'MV Eternity C', "{{'}}": "'",
+            '{{FXConvert|BRA|{{#expr:1000000}}|cursign=[[Brazilian real|R$]]}}': 'R$1000000',
+        }
+        for raw, expected in cases.items():
+            with self.subTest(raw=raw):
+                self.assertEqual(expected, fragment(raw)[0])
+                self.assertEqual('SOURCE_TEMPLATE', fragment(raw)[3][0][0])
+        raw = '{{ill|Exact target|fr|Cible|lt=Surface}}'
+        self.assertEqual({'surface': 'Surface', 'target': 'Exact target', 'red_link': None, 'raw': raw}, fragment(raw)[1][0])
+        self.assertIn('INLINE_TEMPLATE', [c for c, _ in fragment('{{FXConvert|BRA|{{#expr:1+2}}|cursign=R$}}')[3]])
+
+    def test_citation_continuation_and_warning_guards_do_not_hide_other_problems(self):
+        raw = ';News\n*[[Heading]]\n**An event [https://a.test (First)]\n[https://b.test (Second)]\nPasted prose\n'
+        doc = extract(raw, date='2002-01-01', source=identity(raw), source_templates=True)
+        event = doc['categories'][0]['entries'][1]
+        self.assertEqual(['https://a.test', 'https://b.test'], [c['url'] for c in event['citations']])
+        warning = next(w for w in doc['warnings'] if w['code'] == 'UNSUPPORTED_CONTENT')
+        override = {'date': doc['date'], 'source_sha256': fingerprint(raw), 'action': 'preserve_unclassified',
+                    'warning_code': warning['code'], 'line': warning['line'], 'raw_sha256': fingerprint(warning['raw']),
+                    'reason': 'Retain unclassified pasted source, never infer an event.'}
+        result = extract(raw, date=doc['date'], source=identity(raw), overrides=[override], source_templates=True)
+        self.assertEqual('guarded_unclassified_retention', next(w for w in result['warnings'] if w['code'] == 'UNSUPPORTED_CONTENT')['resolution'])
+        override['raw_sha256'] = 'wrong'
+        with self.assertRaisesRegex(ValueError, 'locator drift'):
+            extract(raw, date=doc['date'], source=identity(raw), overrides=[override], source_templates=True)
+
+    def test_extra_portal_parameters_and_source_reliability_are_preserved(self):
+        raw = '{{Current events|year=2002|month=1|day=1|content=\n;News\n*Reported claim.{{unreliable inline}}\nPasted video | Extra label |tail=Exact URL and bytes\n}}'
+        doc = extract(raw, date='2002-01-01', source=identity(raw), source_templates=True)
+        extra = [w['raw'] for w in doc['warnings'] if w['code'] == 'UNASSIGNED_TEMPLATE_PARAMETER']
+        self.assertEqual([' Extra label ', 'tail=Exact URL and bytes\n'], extra)
+        reliability = next(w for w in doc['warnings'] if w['code'] == 'SOURCE_RELIABILITY_TAG')
+        self.assertEqual('annotation_preserved_for_factual_review', reliability['resolution'])
+
+    def test_empty_source_marker_is_retained_without_a_factual_assertion(self):
+        raw = ';News\n*\n*A cited event [https://a.test (Source)]\n'
+        result = extract(raw, date='2002-01-01', source=identity(raw), source_templates=True)
+        marker = result['categories'][0]['entries'][0]
+        self.assertEqual(('unknown', '', '*'), (marker['role'], marker['text'], marker['raw']))
+        warning = next(w for w in result['warnings'] if w['code'] == 'SOURCE_EMPTY_MARKER')
+        self.assertEqual('deterministic_source_rule', warning['resolution'])
+        self.assertEqual('event', extract(raw, date='2002-01-01', source=identity(raw))['categories'][0]['entries'][0]['role'])
 
     def test_all_checked_in_wikitext_offline(self):
         for path in sorted((ROOT / "reference/expansion/wikitext").glob("*.wiki")):

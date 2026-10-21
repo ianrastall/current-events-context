@@ -405,3 +405,9 @@ FodyWeavers.xsd
 /provisional/extraction-v*/
 /provisional/*.sqlite
 /provisional/views/
+
+# Interrupted annual builds and SQLite operational files are not archive editions.
+/archive/.*.sqlite*
+/archive/*.sqlite-journal
+/archive/*.sqlite-wal
+/archive/*.sqlite-shm
