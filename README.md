@@ -37,6 +37,8 @@ embedded source paths and implementation snapshots.
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2009 | [2009.sqlite](2009/2009.sqlite) | [2009.md](2009/2009.md) | 365 | 4,371 |
+| 2010 | [2010.sqlite](2010/2010.sqlite) | [2010.md](2010/2010.md) | 365 | 8,069 |
 | 2011 | [2011.sqlite](2011/2011.sqlite) | [2011.md](2011/2011.md) | 365 | 7,597 |
 | 2012 | [2012.sqlite](2012/2012.sqlite) | [2012.md](2012/2012.md) | 366 | 5,790 |
 | 2013 | [2013.sqlite](2013/2013.sqlite) | [2013.md](2013/2013.md) | 365 | 4,991 |
@@ -69,6 +71,15 @@ unsupported source fragments and one commented-out non-event remain explicit.
 Bare film titles remain orphan topics, with no inferred release claims.
 Its [guarded source-label profile](reference/schema/ANNUAL_LABELS.md) advances
 extraction interpretation while preserving the frozen publication protocol.
+
+The 2010 and 2009 editions explicitly disclose 63 and 44 uncited assertions,
+respectively, as unverified and not independently researched. The 2010 edition
+also preserves a malformed October 17 parameter containing 17 additional source
+bullets as unclassified material; these are excluded from its 8,069 classified
+assertions. Two further 2010 fragments and one 2009 fragment remain unclassified.
+Consecutive citation-only lines retain their source placement under the
+[guarded continuation profile](reference/schema/ANNUAL_CONTINUATIONS.md), which
+does not certify their relevance or corroboration of the preceding statement.
 
 The 2025 edition preserves 365 dates, 5,453 event assertions and 10,096 structural
 entries. Exact pinned Wikipedia inputs, category/topic hierarchy, original

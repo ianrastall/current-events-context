@@ -20,6 +20,7 @@ class EarlierAnnualFixtures(unittest.TestCase):
     def fixture(self, day):
         meta = json.loads((self.folder / (day + '.json')).read_bytes())
         raw = (self.folder / (day + '.wiki')).read_bytes()
+        self.assertEqual(meta['source_sha256'], annual.digest(raw))
         cfg = json.loads((ROOT / f'reference/overrides/{day[:4]}-series.json').read_bytes())
         return raw, engine.make_profile(cfg, day, meta, raw, {}), cfg, meta
 

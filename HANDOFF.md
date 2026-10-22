@@ -1,4 +1,4 @@
-Latest status: see the 2011 annual preservation pass dated 2026-10-22 at the end of this file. Earlier inspection and repair passes are retained as history.
+Latest status: see the 2010 and 2009 annual preservation passes dated 2026-10-22 at the end of this file. Earlier inspection and repair passes are retained as history.
 
 # HANDOFF: Wikipedia extraction and seed-schema rewrite
 
@@ -2901,3 +2901,111 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   do not silently lose it or count the initial inventory as complete extraction.
   No 2010 configuration, annual candidate or retirement has been created. Next:
   complete its source-context/role/warning review before building side by side.
+
+### 2010 and 2009 preservation preparation — 2026-10-22
+
+- Worked in the separate clean main checkout; all concurrent 2000 files and
+  shared working changes remain outside this publication. Added guarded annual
+  configurations and eleven exact-source golden fixtures with their expected
+  structured documents/warnings; two also preserve exact prior candidate YAML.
+- Added `seed/annual_continuations.py` and
+  `reference/schema/ANNUAL_CONTINUATIONS.md` (profile annual-series-1.5). Current
+  AGENTS/README/CI select it. Source acquisition, extraction schema, source prose
+  and all earlier implementation snapshots remain unchanged. Like 1.4, it uses
+  the frozen 1.3 publication protocol with preservation-release-1.1.
+- First 1.4 builds stopped safely on December 28, 2010 and July 9, 2009: the
+  extractor preserves two consecutive adjacent citation-only lines, while the
+  comparator only recognized a single appended warning fragment. The successor
+  pins exact source/category/path/line and complete old/new entry hashes, checks
+  every original/current warning at consecutive lines, then uses a comparison-only
+  aggregate. Stored source, entries, hierarchy, separate warnings and citation order
+  are unchanged. Tests keep the frozen rejection and prove citation-loss and
+  hierarchy gates still fail; earlier profile versions stay unchanged.
+- Citation placement is not corroboration. The NOLA.com building-code-fines URL
+  following the December 28 train sentence remains in its original placement,
+  with an explicit relevance limitation in release notes and the pinned contract.
+- Offline fixture and guard/delegation tests passed, followed by all 92 tests with
+  sockets blocked. The added fixture-payload hash assertion passed its five-test
+  suite. Full validation of all 40 committed synthesis files passed. Exact offline
+  renders match published 2011, 2012 and 2025 bytes; all 30 earlier annual
+  SQLite/Markdown files match HEAD. No published edition was rewritten.
+- Config checkpoint 9e2c3035 retained the initial guarded source interpretations;
+  c51e7648 pins the successor comparison and final annual configs. Both annual
+  preservation manifests use c51e7648 as their source-retirement Git checkpoint.
+- All 107 uncited assertions (63 in 2010, 44 in 2009) have immutable exact-source
+  and full-entry-located unverified disclosures with not_researched status. No
+  independent factual research or full-event review was performed. Historical
+  factual-gate reports remain preserved and explicitly superseded for publication.
+- 2010 changes 8,067 prior assertions to 8,069 by preserving the complete Tehran
+  conclusion and constituent-country statements as event containers. Leaves remain
+  8,060. Bare Philippine-election and Afghanistan labels remain orphan topics,
+  retaining actual depth and parentless following siblings. The October 17 malformed
+  P|5+1 parameter preserves a complete tail containing 17 further source bullets
+  and later categories as unclassified evidence, excluded from assertion totals.
+  The two other unbulleted fragments remain unclassified; wrapper/footer markup
+  remains source metadata. No missing list markers or facts were invented.
+- 2009 keeps 4,371 assertions: the election-results statement becomes an event
+  container (+1), while the January 22 empty list marker ceases to assert an event
+  (-1). Leaves change 4,368 to 4,367 solely for that empty marker. The November 24
+  unbulleted Bad Romance sentence remains explicit unclassified evidence.
+- Full calendar builds, offline source replay/idempotence/structural round trips,
+  leaf and prior-candidate reconciliation passed with no unresolved warnings,
+  unknown heading roles, legacy replay gaps or unexplained differences. Raw-source
+  coverage audits account for every bullet, including the malformed-parameter tail.
+- Preparation and Markdown preflight passed for both years: all assertions and
+  HTTP citations appear, UTF-8/LF and one trailing newline verified. Each manifest
+  preserves 1,825 files. All 1,095 tracked originals per year match checkpoint blobs
+  (daily Git LF normalization is allowed; exact captured CRLF bytes are embedded).
+  Retirement removed exactly 3,650 files across both years: 730 daily YAML, 730
+  metadata, 730 source payloads and 1,460 ignored candidates. Retirement sets were
+  disjoint; no shared source or 2000 file was removed. SQL and TSV recovery exports
+  passed for both editions (29 tables, eight views).
+- A temporary preparation reporting helper failed on a duplicate dictionary key
+  after successful preparation/rendering. Its report construction was corrected;
+  independent preflight audits then passed. This did not alter source, research or
+  published bytes. Earlier failed 1.4 builds installed no annual database.
+- Commands run: annual-continuations build/prepare/render/retire; unittest discovery
+  and focused fixture/guard suites; synthesis validator; audit_year preflight;
+  build_tiers build; Git snapshot/diff and SHA checks. Network access was limited
+  to Git/GitHub status checks. No Wikipedia/GDELT refetch, raw-cache edit, publisher
+  evidence acquisition, synthesis regeneration or PDF generation occurred.
+
+- 2010: 365 dates, 8,069 assertions, 456 topics,
+  412 preserved warnings, 3 unclassified fragments.
+  SQLite 44,716,032 bytes; SHA-256
+  `53feb113543c512fd3ca8835ec19f9578ce72bdf60eca0819bdb7bd9b6add119`.
+  Markdown 3,779,268 bytes; SHA-256
+  `facd540ee67c17c700eb1be42f2d080f5ede77f52c0503b24a4973aa807a07ea`.
+  Ignored recovery TAR 198,942,720 bytes; SHA-256
+  `0b52eb790875539b578aca3c8fa5e2aa3797aabeb89f9711736faa280b91ec50`.
+
+- 2009: 365 dates, 4,371 assertions, 111 topics,
+  199 preserved warnings, 1 unclassified fragments.
+  SQLite 24,522,752 bytes; SHA-256
+  `09057f12543b8d28d2a42db1f79f33a9d3e3e7540bd91ad8d2f985d6bfa94c24`.
+  Markdown 1,844,505 bytes; SHA-256
+  `d9cc7eab59d9a29282dad75883915028685e4f71c4073e7332da964c539cacdf`.
+  Ignored recovery TAR 107,284,480 bytes; SHA-256
+  `be28c3ea9a5add88dad192e6200ccc556e5cab835389b46f46b49a2497b48c23`.
+
+- Remaining: final post-retirement consumer audit, clean commit/push, remote CI
+  and release asset verification. The unresearched claims and unclassified fragments
+  remain limitations; this is source preservation, not exhaustive factual review.
+- Preliminary 2008 source-context inspection (no config/build/retirement): January
+  31 contains an unbulleted Kobe Bryant sentence under a childless NBA category;
+  February 7 NATO-meeting and February 17 Kosovo-independence bullets are complete
+  source statements with nested children. Preserve those roles when reviewing the
+  remaining nominal labels. Raw inputs exist; complete reconciliation is still next.
+
+### 2010 and 2009 post-retirement verification — 2026-10-22
+
+- Full offline replay and byte-identical Markdown passed after retirement for
+  both editions. Every one of the 730 dates recovers exact embedded source and
+  revision/legacy inputs. Normal replay and expansion recover all 8,069/4,371
+  assertions; both missing/all planning skip published dates, and daily writes
+  and acquisition refuse them before network access. Raw-source coverage still
+  accounts for every bullet. SQL and TSV restores verify both recovery bundles.
+- Verified the publication stage is limited to the 2,190 tracked retirements,
+  eight annual files, README, HANDOFF and the fixture source-hash assertion.
+  No source cache editing, older edition rewrite or 2000 file is included.
+  Next: clean commit/push, CI for all 17 annuals and release asset verification.
