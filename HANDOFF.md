@@ -2734,3 +2734,54 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   older annual rewrites or PDF creation. Next: commit/push, final 2012 CI and
   release asset checks, then continue with 2011. Its inventory is preliminary;
   source-role and warning inspection are still required before publication.
+
+### 2011 preliminary source inspection — 2026-10-22
+
+- No 2011 annual database, configuration or retirement was created in this
+  pass. The earlier inventory covers 365 dates, 39 unknown-role entries and
+  55 initially uncited assertions. These are inventory counts, not final totals.
+- Inspected the source contexts for the unknowns. May 7, May 28 and November 8
+  contain full source statements, including statements that have nested source
+  bullets; do not turn them into nominal topics. December 31's aircraft-sale
+  statement is inside an HTML comment and must remain non-event material.
+- June 24 contains four bare film-title bullets under Movies, without release
+  assertions or children. Preserve the names and orphan handling; do not invent
+  release wording or infer a premiere date. Other nominal labels must still be
+  checked against their complete source contexts before guarded configuration.
+- April 22 has a colon-ended tornado-outbreak label with an internal wikilink
+  inside a ref tag and circular-reference template. The current extraction
+  reports unsupported citation markup and treats that label as an event; its
+  following tornado sentence is unbulleted. Inspect this for a guarded successor
+  interpretation rather than promoting the sentence or retaining a misleading
+  role just to pass an older comparison rule. Published 1.3 implementation
+  snapshots are frozen; later behavior needs its own successor profile.
+- Seven non-comment unsupported fragments include unbulleted assertions,
+  a merger continuation, a malformed shooting link and two wildfire/hurricane
+  labels. Missing depth and an orphan Afghanistan topic must remain explicit.
+  These observations are source-structure research, not factual endorsements.
+- The 1.3 publication snapshot also pins `seed/annual_access.py`. Future access
+  changes must preserve that replay implementation, as with frozen archive
+  access; do not silently edit an implementation used by published editions.
+
+### 2012 release verification complete — 2026-10-22
+
+- Committed the exact 2012 cutover as
+  `272322d0586dc3908ba2a57507f47dfc84ea9a09`, pulled with `--ff-only`
+  (already up to date), and pushed main. Staged-scope verification confirmed
+  exactly 1,098 tracked retirements, the four annual files, README and HANDOFF.
+  No other files or prior annual editions were changed by that commit.
+- CI 39773480848 passed all 77 tests, full pinned replay and byte-identical
+  readable companions for all 14 annual editions, SQL/TSV recovery exports,
+  and synthesis validation:
+  https://github.com/ianrastall/current-events-context/actions/runs/39773480848
+- Published `archive-2012-v1` after that CI passed, with `latest=false`.
+  Verified published/non-prerelease state, exact commit tag target and all
+  three uploaded assets against local and committed bytes, sizes and SHA-256
+  digests. The optional TAR and PDF were not uploaded:
+  https://github.com/ianrastall/current-events-context/releases/tag/archive-2012-v1
+- Annual 2012–2025 editions are now published. This pass completed 2015–2012
+  and recorded the unverified-claims policy durably. Independent research
+  remains incomplete; 2012's unverified disclosures and scoped findings do not
+  imply exhaustive searches or full-event corroboration. No preservation or
+  publication check remains outstanding for 2012. Next: the 2011 structural
+  issues documented above, using a successor interpretation where required.
