@@ -37,6 +37,7 @@ embedded source paths and implementation snapshots.
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2011 | [2011.sqlite](2011/2011.sqlite) | [2011.md](2011/2011.md) | 365 | 7,597 |
 | 2012 | [2012.sqlite](2012/2012.sqlite) | [2012.md](2012/2012.md) | 366 | 5,790 |
 | 2013 | [2013.sqlite](2013/2013.sqlite) | [2013.md](2013/2013.md) | 365 | 4,991 |
 | 2014 | [2014.sqlite](2014/2014.sqlite) | [2014.md](2014/2014.md) | 365 | 3,720 |
@@ -61,6 +62,13 @@ The 2012 edition explicitly discloses its 34 uncited assertions as unverified.
 Sixteen separate scoped findings preserve partial research without counting as
 full-event reviews. The exact source wording remains unchanged, including
 claims for which separate evidence has not been found or research is incomplete.
+
+The 2011 edition preserves 7,597 assertions, with all 57 uncited assertions
+explicitly disclosed as unverified and not independently researched. Seven
+unsupported source fragments and one commented-out non-event remain explicit.
+Bare film titles remain orphan topics, with no inferred release claims.
+Its [guarded source-label profile](reference/schema/ANNUAL_LABELS.md) advances
+extraction interpretation while preserving the frozen publication protocol.
 
 The 2025 edition preserves 365 dates, 5,453 event assertions and 10,096 structural
 entries. Exact pinned Wikipedia inputs, category/topic hierarchy, original

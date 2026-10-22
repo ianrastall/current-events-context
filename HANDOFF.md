@@ -1,4 +1,4 @@
-Latest status: see the 2012 annual cutover and disclosed-unverified policy passes dated 2026-10-22 at the end of this file. Earlier inspection and repair passes are retained as history.
+Latest status: see the 2011 annual preservation pass dated 2026-10-22 at the end of this file. Earlier inspection and repair passes are retained as history.
 
 # HANDOFF: Wikipedia extraction and seed-schema rewrite
 
@@ -2785,3 +2785,84 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   imply exhaustive searches or full-event corroboration. No preservation or
   publication check remains outstanding for 2012. Next: the 2011 structural
   issues documented above, using a successor interpretation where required.
+
+### 2011 annual preservation pass — 2026-10-22
+
+- Resumed at 2011; annual 2012–2025 editions were already published. Active
+  2000 source work was excluded. A separate clean checkout on main contains
+  the publication commits, so unrelated concurrent files are never staged.
+- Added `seed/annual_labels.py`, `reference/schema/ANNUAL_LABELS.md`, the guarded
+  `reference/overrides/2011-series.json`, four exact-source golden fixtures and
+  five offline tests. Current CI, README and AGENTS select the new dispatcher.
+  Earlier profile implementations, source/revision policy and extraction schema
+  remain unchanged. Profile 1.4 uses the unchanged 1.3 publication toolchain and
+  preservation-release-1.1; both identities are explicitly documented and pinned.
+- All 365 dates preserve 7,597 assertions and 7,579 event leaves. The prior
+  candidate had 7,596 assertions and 7,581 leaves. Three complete statements
+  with nested bullets become explicit event containers; the April 22 colon-ended
+  tornado label becomes a guarded topic; the December 31 commented-out aircraft
+  sale becomes non-event material. Thus assertions change by +3-1-1=+1 and leaves
+  by -1-1=-2. No source entry, link, citation or actual depth was removed.
+- Four bare June 24 film names remain childless topics without inferred release
+  statements. The April 22 unbulleted sentence and six other unsupported fragments
+  remain unclassified, alongside the separately disclosed commented entry.
+  All 315 warning records survive; 255 guarded notice groups resolve handling
+  without claiming factual verification. There are no unknown heading roles,
+  unresolved warnings, unexplained candidate differences or legacy replay gaps.
+- All 57 uncited assertions have immutable exact-event/source-located unverified
+  disclosures with search status not_researched. No outside factual research or
+  full-event verification was performed. Zero complete/partial reviews are claimed.
+  Historical factual-gate reports remain embedded and are explicitly superseded
+  by the preservation policy for this edition.
+- First and final candidates retain identical extraction documents for all 365
+  dates. The first candidate, predating the final dispatcher wrappers, remains
+  separate in the original provisional directory and is not the release edition.
+  Code/config checkpoint: e5cfb016. Published earlier implementations were untouched.
+- Preparation and offline Markdown preflight passed. All assertions and HTTP
+  citations appear in the UTF-8/LF readable companion with one trailing newline.
+  Exact-byte/Git manifest checks passed before retirement: all 1,095 tracked
+  originals match the checkpoint (daily Git blobs normalize LF; original CRLF
+  bytes remain embedded). Retired exactly 1,825 files: 365 daily YAML, 365 source
+  metadata, 365 wikitext and 730 ignored candidates. No shared source was retired.
+- Commands/checks: annual-labels side-by-side build/prepare/render/retire; focused
+  unittest suite; 82-test discovery both normally and with sockets blocked;
+  full validation of all 40 synthesis files; audit_2011 preflight; Git blob and
+  SHA comparisons. Manual source checks included April 22, May 7/28, June 24,
+  November 8 and December 31. New-dispatcher offline renders exactly match
+  published 2012 and 2025 Markdown. All 28 prior annual SQLite/Markdown files
+  match HEAD byte-for-byte. SQL and TSV recovery passed (29 tables, eight views).
+- Initial fixture diff-check flagged four original source trailing spaces;
+  preserved the bytes and scoped the whitespace attribute to exact .wiki fixtures.
+  An early stdout inspection hit Windows encoding limits, then passed with
+  UTF-8. Temporary helper invocations with wrong paths/shell quoting failed
+  before changes and were corrected. No failed preservation check was bypassed.
+- SQLite SHA-256:
+  `a8738d96e92875c6e99942159788d451d4fa01d6eff412478f0562904422c5a1`.
+  Markdown: 3,267,479 bytes, SHA-256
+  `6a84f2ab00d052a2e5bfb97e834842438dca886c7b5b9a92ebbdcba3d6304936`.
+  Ignored recovery TAR: 174,725,120 bytes, SHA-256
+  `ed1d4882aaf2ebea2b45b12edd42f0c757865749dc6667f83ca9acffb313ae63`.
+- Network so far: Git/GitHub status and remote checks only. No Wikipedia/GDELT
+  acquisition, raw cache edits, synthesis changes, older annual rewrites or PDF
+  creation. Independent research remains unattempted for this edition. Final
+  post-retirement consumer audit, commit/push, remote CI and release asset checks
+  remain to be recorded below.
+- Next year: 2010 preliminary offline inventory covers 365 dates, 8,067 initial
+  event roles, 424 topics and 34 unknown roles. Unresolved source notices include
+  349 inline templates, eight unsupported fragments, two orphan topics, one
+  unassigned template parameter and one depth gap. These are inspection counts,
+  not approved publication totals; complete source-context review is still needed.
+
+### 2011 post-retirement verification — 2026-10-22
+
+- Full offline post-retirement replay and byte-identical Markdown passed.
+  All 365 dates recover exact source/revision and legacy bytes from SQLite;
+  replay and expansion return all 7,597 assertions. Every date is skipped by
+  missing-file planning and refuses daily acquisition/writes before network
+  access. Manifest/Git checkpoint checks passed again after retirement.
+- The optional TAR's SQL and TSV restores verify all 29 tables and eight views.
+  Database size is 39,075,840 bytes. Prior annual bytes and implementation
+  snapshots remain unchanged. No preservation check remains outstanding locally.
+- Publication stage contains exactly 1,095 tracked retirements, the four annual
+  files, README and HANDOFF. Local checks passed; next are clean commit/push,
+  remote CI and release asset verification. The 2010 inventory remains preliminary.
