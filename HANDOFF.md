@@ -3009,3 +3009,43 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   eight annual files, README, HANDOFF and the fixture source-hash assertion.
   No source cache editing, older edition rewrite or 2000 file is included.
   Next: clean commit/push, CI for all 17 annuals and release asset verification.
+
+### 2010 and 2009 releases verified — 2026-10-22
+
+- Pushed clean main through c4f6e4c4c121a9e06f0f1e555cc8e9814824a7c1.
+  CI 39821916529 passed all 92 tests, full pinned replay and byte-identical
+  readable companions for all 17 annual editions, SQL/TSV recovery exports
+  and validation of all committed synthesis files:
+  https://github.com/ianrastall/current-events-context/actions/runs/39821916529
+- Published archive-2010-v1 and archive-2009-v1, both non-prerelease and
+  latest=false, targeting that exact verified commit. Before and after publishing,
+  checked all three assets per release against local and committed bytes, sizes
+  and GitHub SHA-256 digests; downloaded-byte comparisons passed. Both published
+  tag refs point directly to the verified commit, and the repository latest
+  release remains unchanged:
+  https://github.com/ianrastall/current-events-context/releases/tag/archive-2010-v1
+  https://github.com/ianrastall/current-events-context/releases/tag/archive-2009-v1
+  Optional TAR/PDF assets were not uploaded.
+- Integrated both cutovers into the active main checkout. Before integration,
+  checked every remaining retirement file against embedded exact bytes and
+  confirmed unrelated dirty paths did not overlap the publication. The shared
+  HANDOFF working appendix was backed up, verified to be append-only, and restored
+  byte-for-byte after the fast-forward. All 2000 dedicated files and concurrent
+  expansion/source work remain untouched. Git fetch briefly waited for automatic
+  object maintenance; no source-policy change or manual Git repair was needed.
+- The normal dispatcher reverified each local edition and retired only its 730
+  remaining ignored candidates (1,460 total). Local recovery TARs and postflight
+  audits live beside the annual pairs. Canonical daily/cache retirements were
+  already applied by the fast-forward. No other corpus range was replaced.
+- Commands/network: Git clone/checkpoint/fetch/pull --ff-only/push/merge; gh run,
+  draft/publish release and tag/asset APIs; SHA/Git/downloaded-byte comparisons.
+  Source access remained offline with exact cached inputs. No Wikipedia/GDELT
+  refetch, source editing, publisher evidence acquisition, synthesis regeneration
+  or older annual rewrite occurred. Annual 2009–2025 editions are now published.
+- Remaining limits: 107 uncited assertions are explicitly unverified and not
+  researched; 2010 retains three unclassified fragments including a malformed
+  parameter with 17 additional source bullets; 2009 retains its unbulleted source
+  fragment and empty marker. Preservation does not certify factual accuracy,
+  completeness or impartiality. No preservation/publication check remains
+  outstanding for either edition. Next: 2008 guarded source interpretation and
+  side-by-side build, using its preliminary source-context notes above.
