@@ -2592,3 +2592,50 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   Python comparisons of local/committed/uploaded bytes. Earlier annual bytes
   remain unchanged. The documented unclassified fragment and partial research
   are still limitations. No PDF or optional TAR was uploaded.
+
+### 2013 annual cutover and 2012 candidate — 2026-10-22
+
+- Added `2013/2013.sqlite`, `2013/2013.md`, `2013/SHA256SUMS`, `2013/notes.md`
+  and its README row. The full 365-date edition preserves 4,991 assertions and
+  4,986 leaves. Its 42 uncited source assertions have separate opened-source
+  accounts: 17 complete and 25 partial. Corrections/qualifications include
+  Cunliffe's 51.15 percent, later NBA 2K14 console dates, and the distinction
+  between the Animaniacs network premiere and its January regular slot.
+  The original source text and errors remain unchanged.
+- A prepublication research migration retained the first Kobe evidence record
+  and predecessor DB unchanged, then selected an opened AP/CBS body instead of
+  the inaccessible NBA page body (empty browser extraction; direct HTTP 403).
+  Other 41 review records and all extraction documents are unchanged. Research
+  predecessors remain in provisional/. No publisher full text was embedded.
+- Full offline verification, final Markdown assertion/citation coverage and
+  exact-byte/Git manifest checks passed. Retired exactly 1,825 files: 365 daily
+  YAML, 365 metadata, 365 wikitext and 730 ignored candidates. All 1,095 tracked
+  originals matched checkpoint Git blobs; exact original CRLF bytes remain
+  embedded. No shared input was retired. A transient Windows atomic-rename
+  refusal on the first preparation caused no replacement; retry passed. An
+  early preflight on that unprepared file failed at the missing publication
+  manifest; the final prepared preflight and subsequent retirement passed.
+- Post-retirement full replay, byte-identical Markdown, every-date source and
+  revision fallback, legacy recovery, expansion/replay consumers, planner
+  skipping and write refusal passed. Expansion recovered all 4,991 assertions.
+  SQL and TSV restore checks passed (29 tables, 8 views). Manual source checks
+  included May 26, July 6 and November 29 structures. The three unclassified
+  fragments remain explicit; no unsupported material was guessed into events.
+- SQLite: 27,459,584 bytes, SHA-256
+  `94e024ade112708d4c24c5ce035e5b1e68e775d210f1f135dea860bb4108a49b`;
+  Markdown: 2,114,347 bytes,
+  `099a6608a71a51367aea4605f93c25599b9c9f992dbb1d17b787f4d548fb935e`.
+  Ignored recovery TAR: 121,374,720 bytes,
+  `8e4bb0d40a610f5edfd280bdb9b3875491604328c0982abaf6c8f6cc9af42346`.
+- Commands: annual-colon prepare/render/retire and offline audit scripts;
+  `tools/build_tiers.py build`; Git diff/checkpoint and SHA comparisons. Network:
+  opened publisher/government evidence and GitHub publication checks; one NBA
+  HTTP attempt returned 403. No Wikipedia/GDELT acquisition, cache edits,
+  synthesis changes, older annual rewrites or PDF generation. Independent
+  research remains incomplete. Next: commit/push, CI and release asset checks.
+- The separate 2012 config is checkpointed. Candidate
+  `provisional/2012-series-1.2.sqlite` verifies 366 dates, 5,790 assertions,
+  5,781 leaves, zero unknown roles/unresolved warnings/unexplained differences,
+  and no unclassified fragments. Six nominal labels are guarded topics;
+  the childless Science category remains preserved with a resolved notice.
+  Its 34 uncited assertions are being researched; no 2012 retirement occurred.
