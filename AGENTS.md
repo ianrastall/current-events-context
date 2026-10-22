@@ -292,6 +292,12 @@ When multiple prior outputs exist, the exact cached source is authoritative. New
 Work on `main` by default. The maintainer works only on `main`; integrate
 existing branch work there rather than leaving completed changes on a side branch.
 
+The maintainer gives standing permission to commit, pull, push and publish
+GitHub releases as part of completing authorized repository work. Perform these
+steps without requesting confirmation each time. Preserve unrelated work, run
+the applicable checks, verify release assets and report publication results.
+This permission does not waive the source, schema or preservation safeguards.
+
 The CLI supports automatic commit and push for range runs. Do not use `--commit` or `--push` during exploratory parser work, cache construction, schema design, or provisional regeneration unless explicitly requested.
 
 Before publication:
