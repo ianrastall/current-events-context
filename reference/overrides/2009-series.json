@@ -1,5 +1,5 @@
 {
-  "version": "annual-series-1.4",
+  "version": "annual-series-1.5",
   "year": 2009,
   "edition_date": "2026-10-22",
   "roles": [
@@ -2307,6 +2307,21 @@
       "raw_sha256": "50e0f9ec3d6e1da738ff4a0cbbc6754d8c8da1be1124b663f1e32bb353da518f",
       "action": "preserve_notice",
       "reason": "Exact source maintenance/archive markup retained verbatim without live expansion or invented citations."
+    }
+  ],
+  "citation_continuations": [
+    {
+      "date": "2009-07-09",
+      "source_sha256": "25e9aebf8c90dd3fc71ce495a690b521a88451efffe20ed781862a5a6f990a49",
+      "category": null,
+      "source_path": [
+        2,
+        2
+      ],
+      "line": 6,
+      "prior_entry_sha256": "fbdadff989a59411b9249782d902c124a1e3852913c314c9d48b352ea3f7ca52",
+      "extraction_entry_sha256": "c44d578277236ab8d8ec3fe38ace31804a5d90d85c79b03c62b75a6ca060123b",
+      "reason": "Exact consecutive adjacent citation-only lines preserved in source order; placement does not establish relevance or independent corroboration."
     }
   ]
 }

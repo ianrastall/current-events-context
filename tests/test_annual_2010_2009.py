@@ -5,7 +5,7 @@ import socket
 import unittest
 from unittest.mock import patch
 
-from seed import annual_archive as annual, annual_labels as engine
+from seed import annual_archive as annual, annual_continuations as engine
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -23,9 +23,9 @@ class EarlierAnnualFixtures(unittest.TestCase):
         cfg = json.loads((ROOT / f'reference/overrides/{day[:4]}-series.json').read_bytes())
         return raw, engine.make_profile(cfg, day, meta, raw, {}), cfg, meta
 
-    def test_all_nine_golden_documents_warnings_and_idempotence_offline(self):
+    def test_all_eleven_golden_documents_warnings_and_idempotence_offline(self):
         files = list(self.folder.glob('*.wiki'))
-        self.assertEqual(9, len(files))
+        self.assertEqual(11, len(files))
         for path in files:
             with self.subTest(day=path.stem):
                 raw, doc, cfg, meta = self.fixture(path.stem)

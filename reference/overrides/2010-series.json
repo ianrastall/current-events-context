@@ -1,5 +1,5 @@
 {
-  "version": "annual-series-1.4",
+  "version": "annual-series-1.5",
   "year": 2010,
   "edition_date": "2026-10-22",
   "roles": [
@@ -4942,6 +4942,20 @@
       "raw_sha256": "690e9823e7f8d811fca11bfe1f17ad5c34b6639ca3fb678c5abc7bdb77e5fed5",
       "action": "preserve_notice",
       "reason": "Exact source maintenance/archive markup retained verbatim without live expansion or invented citations."
+    }
+  ],
+  "citation_continuations": [
+    {
+      "date": "2010-12-28",
+      "source_sha256": "93f5ad66d89d66e6cf6e6a4ada07e8ee133f1ec5794035cfef77b7d3c05a235c",
+      "category": "Disasters and accidents",
+      "source_path": [
+        5
+      ],
+      "line": 22,
+      "prior_entry_sha256": "cc09768e00108c3bb82e908dd9e53d93516b36181545abbea154c68687cecb31",
+      "extraction_entry_sha256": "3364d19bff3aedebbe5732c1b50012f2b5df3183ed6c102f290361ae942c5997",
+      "reason": "Exact consecutive adjacent citation-only lines preserved in source order; placement does not establish relevance or independent corroboration."
     }
   ]
 }
