@@ -37,6 +37,7 @@ embedded source paths and implementation snapshots.
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2012 | [2012.sqlite](2012/2012.sqlite) | [2012.md](2012/2012.md) | 366 | 5,790 |
 | 2013 | [2013.sqlite](2013/2013.sqlite) | [2013.md](2013/2013.md) | 365 | 4,991 |
 | 2014 | [2014.sqlite](2014/2014.sqlite) | [2014.md](2014/2014.md) | 365 | 3,720 |
 | 2015 | [2015.sqlite](2015/2015.sqlite) | [2015.md](2015/2015.md) | 365 | 4,939 |
@@ -55,6 +56,11 @@ These editions replace their old daily YAML files and dedicated cached-source co
 The originals, metadata and prior local extraction candidates remain embedded
 as exact bytes inside the database, with hashes, a retirement manifest and
 a Git checkpoint. Other years retain their existing formats until migrated.
+
+The 2012 edition explicitly discloses its 34 uncited assertions as unverified.
+Sixteen separate scoped findings preserve partial research without counting as
+full-event reviews. The exact source wording remains unchanged, including
+claims for which separate evidence has not been found or research is incomplete.
 
 The 2025 edition preserves 365 dates, 5,453 event assertions and 10,096 structural
 entries. Exact pinned Wikipedia inputs, category/topic hierarchy, original

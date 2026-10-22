@@ -1,4 +1,4 @@
-Latest status: see the annual 2016 preservation pass dated 2026-10-22 at the end of this file. Earlier inspection and repair passes are retained as history.
+Latest status: see the 2012 annual cutover and disclosed-unverified policy passes dated 2026-10-22 at the end of this file. Earlier inspection and repair passes are retained as history.
 
 # HANDOFF: Wikipedia extraction and seed-schema rewrite
 
@@ -2677,3 +2677,60 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   release evidence. This is a limited search, not proof of falsity. No
   Wikipedia/GDELT acquisition or cached-source editing occurred. Next: finish
   2012 research disclosures, preparation, offline cutover and release checks.
+
+### 2012 annual cutover — 2026-10-22
+
+- Added `2012/2012.sqlite`, `2012/2012.md`, `2012/SHA256SUMS`,
+  `2012/notes.md` and README coverage. Profile annual-series-1.3 and publication
+  contract preservation-release-1.1 preserve 366 dates, 5,790 assertions,
+  5,781 leaves and 569 topics. All 366 structured documents and all original
+  source/daily input identities exactly match the retained 1.2 candidate.
+  An embedded migration records that comparison and the hashes of the three
+  retained predecessor candidates. No prior research existed in those builds.
+- All 34 originally uncited assertions are individually disclosed as unverified:
+  26 with incomplete research, seven without documented research and one with
+  a limited unsuccessful independent-evidence search. No full-event review is
+  claimed (zero complete, zero partial). Sixteen opened-source scoped findings
+  are preserved separately, with URLs, scope and access status. They disclose
+  the medal-table ranking distinction, Thai GDP figures and the 2013 MCR
+  announcement, among other limits. No publisher full text was embedded.
+- Six nominal source headings have guarded topic interpretations. Source and
+  leaf reconciliation passed with no unexplained changes, unknown roles,
+  unresolved warnings or unclassified fragments. All 227 warning records remain;
+  206 guarded notice groups preserve reliability templates, the childless Science
+  category, malformed Nobel Prize link and source metadata. Manual checks
+  included January 29 hierarchy, August 21 orphan category and October 12 markup.
+- Preparation and full offline preflight passed; every assertion and original
+  HTTP citation appears in the final readable companion. Retired exactly 1,830
+  files: 366 daily YAML, 366 source metadata, 366 source payloads and 732 ignored
+  candidates. All 1,098 tracked originals match checkpoint
+  `c2c778490804bb8b3436ca3915afff08d53a7760`; 366 daily Git blobs use normalized
+  LF while exact original CRLF bytes remain embedded. No shared input retired.
+- Post-retirement full replay and byte-identical Markdown passed with network
+  blocked. Every-date source/revision access, exact legacy recovery, replay and
+  expansion, planner skipping and published-daily write refusal passed; expansion
+  recovered 5,790 assertions. SQL and TSV restoration passed (29 tables, eight
+  views). An early recovery command ran before Markdown creation and failed
+  safely with FileNotFoundError; the completed recovery run passed afterward.
+  Research helper lookups likewise halted on nonmatching literal text, then
+  used the exact source wording; no source or generated event was edited.
+- All 77 unittest cases pass. New-dispatcher offline renders exactly matched
+  published 2013, 2015 and 2025 bytes. CI 39772421321 passed all 77 tests, all
+  13 prior annual full replays/readable companions/recovery exports and synthesis
+  validation. `git diff --check` passed for this working change. Historical
+  yearbook factual-gate reports remain frozen; the explicit publication policy
+  supersedes those gates for this edition without altering their counts.
+- SQLite: 30,990,336 bytes, SHA-256
+  `e681dd10c70a5ee393040c95efb8bf19f97e48b4c9be17c2f7f0a44848f9a950`;
+  Markdown: 2,510,661 bytes,
+  `23a8614ea117291237aeb6b3ab80ecb73afb4878424ae10f9d90d439d4c95bf0`.
+  Ignored recovery TAR: 137,390,080 bytes,
+  `213bc331481c4124d23b913c137989b34713ebb8e819d1577f432712f5190fc5`.
+- Commands: unittest discovery; annual-unverified build/prepare/retire;
+  offline migration and pre/postflight audit scripts; build_tiers build;
+  Git manifest/checkpoint/diff and SHA comparisons. Network: previously opened
+  publisher/government research, two album-title searches and GitHub operations.
+  No Wikipedia/GDELT acquisition, immutable cache edits, synthesis changes,
+  older annual rewrites or PDF creation. Next: commit/push, final 2012 CI and
+  release asset checks, then continue with 2011. Its inventory is preliminary;
+  source-role and warning inspection are still required before publication.
