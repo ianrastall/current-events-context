@@ -1,4 +1,4 @@
-Latest status: see the annual preservation passes dated 2026-10-21 at the end of this file. Earlier inspection and repair passes are retained as history.
+Latest status: see the annual 2016 preservation pass dated 2026-10-22 at the end of this file. Earlier inspection and repair passes are retained as history.
 
 # HANDOFF: Wikipedia extraction and seed-schema rewrite
 
@@ -2379,3 +2379,77 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   or data. Main remains the working branch; no unmerged branch tip or known
   publication blocker remains. Next substantive work is the separately scoped
   annual migration/research backlog, not additional layout publication.
+
+## Annual 2016 source-preservation cutover — 2026-10-22
+
+- Continued from the prepared 2016 candidate; 2017–2025 were already published.
+  Fast-forwarded main from `3cc0b483` to `2b0119a7`, adding only the upstream
+  October 21 daily capture and its provenance/candidate files. No acquisition
+  was performed locally. Main remains the working branch.
+- Added `2016/2016.sqlite` (34,738,176 bytes; SHA-256
+  `e2a0b239a6aabfd1dff9ed5106d905670da044f3816ad38a1f1c43431480a703`)
+  and `2016/2016.md` (2,621,401 bytes; SHA-256
+  `51dfeefb2e5f11ac380c6bfb719f8119594caa321a45c7c30bff10da7e4b5e4b`).
+  Added adjacent `SHA256SUMS`, `notes.md`, and the README annual-table entry.
+  The existing pinned annual-series-1.1 profile and edition date are retained;
+  no parser, public schema or embedded implementation snapshot was changed.
+- Preserves all 366 dates, 5,233 assertions (5,208 leaves), 2,862 topics and
+  the 24 previously inspected role interpretations. Full offline reconciliation
+  reports no unknown roles, unresolved warnings, unclassified source fragments,
+  unexplained prior-candidate differences or legacy-replay differences.
+- Added 25 guarded editorial accounts to the original research database without
+  rebuilding it. All 26 uncited assertions now have separate evidence: 11
+  complete and 15 partial. Exact comparison confirms the previous partial
+  Afghanistan withdrawal record is unchanged. A pre-pass exact database backup
+  remains at `provisional/2016-series-research-checkpoint-20261022.sqlite`
+  (SHA-256 `52ea2229be00b894dddce8974aece1c7c7807467e7f3c20807ceb3ac80433bb4`).
+  The updated working candidate remains `provisional/2016-series-final.sqlite`.
+- Editorial qualifications preserve the source facts/prose and archival dates.
+  They distinguish the December 2015 military formation announcements from
+  January 5 placement, Watt's reported position, general-obligation debt from
+  total debt service, uncertain appointment details, the play author's
+  self-reported premiere, and local/UTC or US-billing dates. Unsupported award
+  history, election-margin comparisons and other unchecked clauses stay partial.
+  The play's exact venue/premiere still needs independent programme evidence.
+- Preparation embedded 1,830 exact files and recorded checkpoint
+  `2b0119a7e0ce783d6070825ae5f4c08263459fe9`. Preflight compared every original
+  against its embedded bytes/hash/size and all 1,098 tracked originals against
+  checkpoint Git blobs. All 366 original daily CRLF payloads survive exactly
+  inside SQLite despite Git LF normalization. Retirement removed only the
+  manifest's 366 daily YAML, 366 metadata, 366 wikitext and 732 ignored candidate
+  files. No shared input was eligible for this year's retirement. All 18 earlier
+  annual SQLite/Markdown files remain byte-identical to HEAD.
+- Checks actually run: socket-blocked unittest discovery (62 passed);
+  socket-blocked annual-legacy full candidate verify, prepare, pinned render
+  and retire; temporary exact-byte/Git/Markdown preflight; full post-retirement
+  pinned replay and byte-identical Markdown regeneration; all-date source and
+  revision fallback, legacy recovery, extraction access, replay seed availability,
+  planning skipping and daily-write refusal. Expansion recovered 5,233 events
+  across all 366 dates. Every source assertion and original citation is present
+  in Markdown. UTF-8/LF/trailing-newline and review sidecar/DB equality passed.
+  `python tools/build_tiers.py build 2016/2016.sqlite --output
+  2016/2016-preservation.tar` verified SQL and TSV restores (29 tables, 8 views).
+  `git diff --check` passed. No code tests were added for this artifact cutover.
+- Final checks also passed: complete schema-2.2 validation of all 40 synthesis
+  files, and the post-retirement consumer checks above for every calendar date.
+  Full preservation replay, exact Markdown, SQL/TSV recovery and all existing
+  tests passed locally; remote CI remains a separate publication check.
+- Local ignored derivatives: `2016/2016-uncited.json` exports the guarded
+  editorial records; `2016/2016-audit.json` records this pass's checks;
+  `2016/2016-preservation.tar` is a verified 154,214,400-byte recovery bundle,
+  SHA-256 `b28745b94e8339e13a2b2c64d9fe1400f2299f106a48a5b66e3dc7884c6aafbf`.
+- Network/source access: Git fetch/fast-forward and opened publisher research
+  (NIDS, Panthers/NFL, SGTrains, TV Asahi, Cincinnati Zoo, CRS, Puerto Rico
+  Treasury, DailyO/GoKunming, the playwright's biography, Sky Sports, National
+  Archives/UCSB, Latin Recording Academy/AP, Aerocivil report, ABC, Senate,
+  ITV and SBS/LTA). Some alternative official/news URLs timed out, returned
+  inaccessible shells or denied access; those were not substituted for opened
+  passages. A direct Treasury PDF request failed TLS; browser acquisition had
+  already returned the document. No Wikipedia/GDELT refetch, source-cache edits,
+  synthesis rewrite, PDF production or changes to older annuals occurred.
+- Remaining risks: independent review is incomplete and 15 accounts are partial;
+  this edition does not certify exhaustive, impartial or accurate source claims.
+  No GitHub release/upload or remote CI result is claimed by this local pass.
+  Next: publish the checkpointed 2016 pair and verify CI/release assets, then
+  inspect 2015 as the next complete annual unit. The incomplete 2002/2003
+  coverage policy remains unresolved and outside this cutover.

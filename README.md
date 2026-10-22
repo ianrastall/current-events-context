@@ -37,6 +37,7 @@ embedded source paths and implementation snapshots.
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2016 | [2016.sqlite](2016/2016.sqlite) | [2016.md](2016/2016.md) | 366 | 5,233 |
 | 2017 | [2017.sqlite](2017/2017.sqlite) | [2017.md](2017/2017.md) | 365 | 3,791 |
 | 2018 | [2018.sqlite](2018/2018.sqlite) | [2018.md](2018/2018.md) | 365 | 4,653 |
 | 2019 | [2019.sqlite](2019/2019.sqlite) | [2019.md](2019/2019.md) | 365 | 3,841 |
@@ -83,6 +84,13 @@ source form; an explicit category heading followed by a comment is recognized.
 See [successor annual profiles](reference/schema/ANNUAL_EDITIONS.md) for the
 pinned 2024 interpretation and year-appropriate renderer. The frozen 2025
 implementation and annual file bytes remain unchanged.
+
+The 2016 edition preserves all 366 dates, 5,233 assertions and 2,862 topic labels.
+Its 26 originally uncited assertions have separate evidence accounts: 11 complete
+and 15 partial. Formation dates, award descriptions, debt amounts, appointment
+details and local/UTC date conventions are qualified in the editorial layer;
+the original source wording and placement remain unchanged. The existing
+partial Afghanistan withdrawal review is retained without replacement.
 
 The 2017 edition preserves 3,791 assertions and an empty marker before the first
 category heading. Missing source category locations remain absent; no heading
