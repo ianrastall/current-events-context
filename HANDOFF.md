@@ -2866,3 +2866,38 @@ and 2019 were uploaded and their committed file digests/sizes verified.
 - Publication stage contains exactly 1,095 tracked retirements, the four annual
   files, README and HANDOFF. Local checks passed; next are clean commit/push,
   remote CI and release asset verification. The 2010 inventory remains preliminary.
+
+### 2011 release verified — 2026-10-22
+
+- Pushed clean main through `890eb810b89c45d71a86b8f826e5e38fc0deca2d`.
+  CI 39810506600 passed all 82 tests, pinned full replay and byte-identical
+  companions for all 15 annual editions, SQL/TSV recovery and synthesis validation:
+  https://github.com/ianrastall/current-events-context/actions/runs/39810506600
+- Published `archive-2011-v1`, non-prerelease with latest=false, targeting that
+  exact verified commit. Verified the commit tag, all three asset sizes and
+  GitHub SHA-256 digests, downloaded asset bytes and equality to Git blobs:
+  https://github.com/ianrastall/current-events-context/releases/tag/archive-2011-v1
+  The optional TAR and PDF were not uploaded. Draft assets were verified before
+  publication; draft tag lookup required the release-list API, while the final
+  published tag endpoint passed. No failed final asset check remains.
+- Integrated the exact clean publication commits into the active main checkout
+  after validating every owned edit against its checkpoint and every retirement
+  against embedded bytes. Unrelated concurrent work was preserved. The normal
+  annual dispatcher verified the local edition again and retired only its 730
+  remaining ignored candidates. The local recovery TAR and audit are retained
+  beside the annual pair. All tracked originals had already been retired by the
+  fast-forward merge; no other corpus range was replaced.
+- Commands/network: Git clone/fetch/pull --ff-only/push and guarded local
+  fast-forward integration; gh run/release and tag/asset APIs; SHA/Git byte
+  comparisons and downloaded-asset verification. No Wikipedia/GDELT refetch,
+  immutable source edit, factual correction or synthesis regeneration occurred.
+  Annual 2011–2025 editions are published. The 57 unresearched uncited assertions,
+  seven unsupported fragments and one commented non-event remain disclosed.
+- Further 2010 spot checks confirm April 18's Tehran conference-conclusion
+  statement must remain an assertion despite nested bullets. June 29's Australian
+  Winter is a nominal topic label. October 17 has a malformed template parameter
+  starting with `5+1 group in November` and containing substantial further source
+  bullets and categories. Inspect and preserve that complete fragment explicitly;
+  do not silently lose it or count the initial inventory as complete extraction.
+  No 2010 configuration, annual candidate or retirement has been created. Next:
+  complete its source-context/role/warning review before building side by side.
