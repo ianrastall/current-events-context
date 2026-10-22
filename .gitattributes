@@ -48,4 +48,7 @@ tests/fixtures/annual_series/** -text
 reference/schema/ANNUAL_LEGACY.md text eol=lf
 reference/schema/ANNUAL_COLON.md text eol=lf
 reference/schema/PRESERVATION_UNVERIFIED.md text eol=lf
+reference/schema/ANNUAL_LABELS.md text eol=lf
+tests/fixtures/annual_labels/** -text whitespace=cr-at-eol
+tests/fixtures/annual_labels/*.wiki whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/annual_colon/** -text whitespace=cr-at-eol
