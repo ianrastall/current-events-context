@@ -2453,3 +2453,30 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   Next: publish the checkpointed 2016 pair and verify CI/release assets, then
   inspect 2015 as the next complete annual unit. The incomplete 2002/2003
   coverage policy remains unresolved and outside this cutover.
+
+### Standing publication permission and completed 2016 release — 2026-10-22
+
+- The maintainer explicitly confirmed standing permission to commit, pull,
+  push and publish releases without repeated approval. Recorded the durable
+  instruction in `AGENTS.md`; source/schema/preservation safeguards remain.
+- Pulled main (already current) and pushed the annual archive commit `c22974be`
+  plus permission commit `9c7dd33f`. Verification run 39763095224 passed:
+  https://github.com/ianrastall/current-events-context/actions/runs/39763095224
+  This covers all 62 tests, full pinned replay and exact Markdown for all ten
+  annual editions (2016–2025), their SQL/TSV recovery exports and synthesis
+  validation. No implementation or annual bytes changed during publication.
+- Published release `archive-2016-v1`, targeting the verified commit
+  `9c7dd33ff33634b508199850d94da7c6c14d4b14`:
+  https://github.com/ianrastall/current-events-context/releases/tag/archive-2016-v1
+  All three SQLite/Markdown/SHA256SUMS assets have uploaded sizes and SHA-256
+  digests matching the committed local bytes. Checked the published state and
+  exact tag target. Existing releases were not replaced; the release does not
+  displace the latest annual edition. Optional TAR and PDF assets were not added.
+- Commands: Git status/diff checks, fetch, commit, pull, push; `gh run list/view`,
+  `gh release view/create/edit`, and the tag-ref API; local Python comparisons
+  of committed bytes and uploaded asset metadata. Network: Git/GitHub only;
+  no Wikipedia, GDELT or publisher research acquisition. No warnings introduced
+  or resolved. The 15 partial editorial accounts remain partial.
+- Next: continue with the 2015 annual unit using the existing preservation
+  workflow. This handoff-only follow-up skips duplicate CI because it records
+  completed checks without changing implementation or data.
