@@ -37,6 +37,8 @@ embedded source paths and implementation snapshots.
 
 | Year | SQLite | Markdown | Dates | Event assertions |
 |---|---|---|---:|---:|
+| 2014 | [2014.sqlite](2014/2014.sqlite) | [2014.md](2014/2014.md) | 365 | 3,720 |
+| 2015 | [2015.sqlite](2015/2015.sqlite) | [2015.md](2015/2015.md) | 365 | 4,939 |
 | 2016 | [2016.sqlite](2016/2016.sqlite) | [2016.md](2016/2016.md) | 366 | 5,233 |
 | 2017 | [2017.sqlite](2017/2017.sqlite) | [2017.md](2017/2017.md) | 365 | 3,791 |
 | 2018 | [2018.sqlite](2018/2018.sqlite) | [2018.md](2018/2018.md) | 365 | 4,653 |

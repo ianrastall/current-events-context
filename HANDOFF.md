@@ -2514,3 +2514,57 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   inaccessible alternatives were not counted as opened evidence. GitHub
   publication, retirement, final Markdown and recovery verification remain next.
   Earlier complete years 2004–2013 were inventoried, not yet migrated.
+
+### 2015 and 2014 annual cutovers — 2026-10-22
+
+- Final annual pairs, notes and SHA256SUMS now live in `2015/` and `2014/`;
+  README indexes both. 2015 preserves 365 dates, 4,939 assertions and 4,925
+  leaves; 2014 preserves 365 dates, 3,720 assertions and 3,712 leaves.
+  Their 30 and 19 originally uncited assertions have guarded opened-source
+  accounts (2015: 12 complete/18 partial; 2014: 11 complete/8 partial).
+  This is preservation publication, not certification of every source claim.
+- Both use the pinned 1.2 profile, with all topic-header citations in Markdown.
+  2015's explicit migration checked equality of all 365 extraction documents
+  and all 30 current reviews, while retaining previous implementation snapshots,
+  three superseded research records and the qualification migration. Predecessor
+  researched/prepared databases remain in provisional/. A CRLF config snapshot
+  was caught before publication and rebuilt from committed LF bytes. A Windows
+  preparation rename failed while a separate consumer audit held the database
+  open; preparation passed after that audit finished. No input was lost.
+- 2015's manifest preserves and retires 1,825 files (365 daily YAML, 365 source
+  metadata, 365 wikitext, 730 prior candidates), checkpoint `9f9c49d9`.
+  2014 preserves 1,825 files and retires 1,823 (365 daily YAML, 364 metadata,
+  364 wikitext, 730 prior candidates), checkpoint `9f9c49d9`. Revision
+  1116052967's cache pair stays shared with the exact checked-in fixture.
+  Every retirement file matched embedded bytes, size and hash; 1,095/1,093
+  tracked originals respectively matched checkpoint Git blobs, allowing only
+  known Git CRLF normalization. All daily CRLF bytes survive inside SQLite.
+- Checks run: full offline annual-colon build/prepare/retire/render;
+  all-assertion and all-structured-citation Markdown coverage; UTF-8/LF and
+  trailing newline; exact-byte/Git manifest checks; 68 socket-blocked tests;
+  full validation of all 40 synthesis files; all-date annual/legacy/revision
+  recovery, expansion/replay, planner skipping and daily-write refusal for
+  both years (expansion recovered 3,720/4,939 assertions respectively). SQL and
+  TSV recovery passed for both bundles (29 tables, 8 views). The final 2015
+  post-retirement consumer audit passed. All 20 older annual SQLite/Markdown files
+  were compared byte-for-byte with HEAD and remain unchanged.
+- 2015 SQLite: 33,288,192 bytes, SHA-256
+  `5fa3cee4ebc22e54bd4f13ad011c6ed98754f481616eddb68c0f54d72076143d`;
+  Markdown: 2,563,148 bytes,
+  `b8cd6da7e3d2073dce6a26cb67c3b52c067f36844d0acada847d9a74df774d4d`.
+  2014 SQLite: 20,889,600 bytes,
+  `814ceb09fe210346428f3890449ecee9e4c22918a6066f01eb155f53e3206a25`;
+  Markdown: 1,584,617 bytes,
+  `f4de8fed3e77e7181b8b35c63546c9714841fc7a7c7c0846b90a3833ec5919b7`.
+- Network: opened publisher/government evidence, plus Git/GitHub for planned
+  publication. No Wikipedia/GDELT refetch or source-cache edits. Source handling
+  notes preserve 2015's one unclassified malformed parameter and 2014's disclosed
+  historical parser failure. Independent research remains partial. No PDF was
+  produced. Publish both after remote CI and asset checks, then continue 2013.
+- 2013's guarded config is checkpointed separately. Its offline candidate
+  `provisional/2013-series-1.2.sqlite` verifies 365 dates, 4,991 assertions,
+  4,986 leaves, no unknown roles/unresolved warnings/unexplained differences,
+  and three exact unclassified fragments (one unbulleted clinic sentence and
+  two continuations across a commented Lac-Megantic paragraph). Six nominal
+  labels are topics; one literal footer is retained as metadata. Research on
+  its 42 uncited assertions is in progress; no 2013 daily files were retired.
