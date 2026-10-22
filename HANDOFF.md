@@ -2568,3 +2568,27 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   two continuations across a commented Lac-Megantic paragraph). Six nominal
   labels are topics; one literal footer is retained as metadata. Research on
   its 42 uncited assertions is in progress; no 2013 daily files were retired.
+
+### 2015/2014 releases verified — 2026-10-22
+
+- Pushed main through `da367321bd6dc0814edb9f55b649f8ad281c6719` after a clean
+  worktree and fast-forward pull. CI run 39769242887 passed all 68 tests, pinned
+  replay and exact Markdown for all twelve annuals (2014–2025), SQL/TSV recovery
+  and all synthesis validation:
+  https://github.com/ianrastall/current-events-context/actions/runs/39769242887
+- Published `archive-2015-v1` and `archive-2014-v1`, both targeting that exact
+  verified commit. Verified published state, exact tag targets, and all three
+  assets per release against committed bytes, sizes and SHA-256 digests:
+  https://github.com/ianrastall/current-events-context/releases/tag/archive-2015-v1
+  https://github.com/ianrastall/current-events-context/releases/tag/archive-2014-v1
+  Both retain `latest=false`. An early draft creation failed safely because the
+  push had not yet completed; the retry used the full remote commit identity.
+- `git diff --check` flags one trailing space in the pinned generated 2015
+  Markdown's empty source-fragment warning (July 31). This is preserved renderer
+  output, not a hand-edited source correction; replay/Markdown CI passed. The
+  exact CRLF fixture has a scoped whitespace attribute. No substantive defect
+  or failed preservation check remains for either published edition.
+- Commands/network: Git pull/push and `gh run`, `gh release` and tag-ref API;
+  Python comparisons of local/committed/uploaded bytes. Earlier annual bytes
+  remain unchanged. The documented unclassified fragment and partial research
+  are still limitations. No PDF or optional TAR was uploaded.
