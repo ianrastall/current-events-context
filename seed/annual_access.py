@@ -7,9 +7,26 @@ from pathlib import Path
 import datetime as dt
 import sqlite3
 import json
-from seed.archive_access import publication
+import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def publication(conn):
+    """Read either published preservation contract without changing frozen access."""
+    rows = conn.execute("SELECT b.payload,b.sha256 FROM archive_inputs i JOIN archive_blobs b USING(sha256) WHERE i.role='preservation_publication'").fetchall()
+    if not rows:
+        return None
+    if len(rows) != 1 or hashlib.sha256(rows[0][0]).hexdigest() != rows[0][1]:
+        raise ValueError('Invalid annual publication identity')
+    record = json.loads(rows[0][0])
+    if record['contract'] not in ('preservation-release-1.0', 'preservation-release-1.1') or record['edition'] != 'source-preservation':
+        raise ValueError('Unsupported annual publication contract')
+    if record['contract'] == 'preservation-release-1.1' and (
+            record.get('uncited_claim_policy') != 'unverified-source-claim-1.0'
+            or record.get('publication_toolchain') != 'annual-series-1.3'):
+        raise ValueError('Unsupported unverified claim policy')
+    return record
 
 
 def annual_paths(root=None):

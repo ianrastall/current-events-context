@@ -2639,3 +2639,41 @@ and 2019 were uploaded and their committed file digests/sizes verified.
   and no unclassified fragments. Six nominal labels are guarded topics;
   the childless Science category remains preserved with a resolved notice.
   Its 34 uncited assertions are being researched; no 2012 retirement occurred.
+
+### Disclosed unverified claims policy — 2026-10-22
+
+- Published `archive-2013-v1` after CI 39770778454 passed all annual replay,
+  recovery, fixture and synthesis checks. Tag target:
+  `c27226142d94edb4ce264f3b6f6597b5e4f87206`. All three release assets match
+  committed/local bytes, sizes and GitHub SHA-256 digests. Release remains
+  `latest=false`. Annual 2013 bytes and research states are unchanged.
+- The approved policy now permits clearly disclosed unverified uncited claims
+  in preservation editions. Added `seed/annual_unverified.py` (profile 1.3),
+  `seed/preservation_unverified.py` (publication contract 1.1) and
+  `reference/schema/PRESERVATION_UNVERIFIED.md`. Updated current annual access,
+  workflow dispatcher, AGENTS/README and LF attributes. Frozen implementations
+  and published annual bytes are untouched. Earlier factual-gate reports remain
+  preserved and apply to their original profiles.
+- Each missing uncited review requires an immutable exact-source/event-located
+  unverified disclosure. Research status distinguishes incomplete, unattempted
+  and unsuccessful searches. These records do not increment complete/partial
+  review counts. The renderer labels uncited assertions unverified and includes
+  their disclosures and any separately scoped research findings. Source prose,
+  extraction schema, warning and lossless-retirement checks are unchanged.
+- New tests cover missing disclosures, drift, immutable records, stale/duplicate
+  locators, research counts, failed-search provenance, publication protection,
+  old-profile delegation and retained structural gates. An initially overbroad
+  mock in the structural-gate test failed; corrected its input fallback and the
+  targeted suite passed. Current access accepts both publication contracts;
+  frozen archive access intentionally continues accepting only the original.
+- The 2012 candidate is being rebuilt under explicit 1.3 configuration. Earlier
+  1.2 and intermediate 1.3 candidates remain in provisional/; no research was
+  overwritten and no 2012 originals have yet been retired. Rebuilds were needed
+  while completing the new implementation snapshots, before adding research.
+  Existing scoped observations will be preserved separately; no full-event
+  verification is inferred from those observations.
+- Network: GitHub release/CI checks and two exact album-title searches, which
+  found mirrors/event-derived copies and unrelated results, not separate
+  release evidence. This is a limited search, not proof of falsity. No
+  Wikipedia/GDELT acquisition or cached-source editing occurred. Next: finish
+  2012 research disclosures, preparation, offline cutover and release checks.

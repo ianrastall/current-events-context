@@ -20,18 +20,18 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          from seed import annual_archive as annual, archive_access, annual_colon, yearbook, annual_access
+          from seed import annual_archive as annual, annual_access as archive_access, annual_unverified, yearbook, annual_access
           for path in annual_access.annual_paths():
               conn = annual.connect(path, readonly=True)
               try:
                   if archive_access.publication(conn):
                       # Each pinned published renderer performs full verification.
-                      expected = annual_colon.render(conn, annual.digest(path.read_bytes()))
+                      expected = annual_unverified.render(conn, annual.digest(path.read_bytes()))
                       report = {'verification': 'full replay in pinned renderer',
                                 'year': archive_access.publication(conn)['year'],
                                 'events': yearbook.review_report(conn)['source_events']}
                   else:
-                      annual_colon.verify(conn)
+                      annual_unverified.verify(conn)
                       report = yearbook.review_report(conn)
                       expected = yearbook.render(conn, annual.digest(path.read_bytes()))
                   assert path.with_suffix('.md').read_bytes() == expected, f'Stale Markdown: {path}'

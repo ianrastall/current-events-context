@@ -69,6 +69,14 @@ are not certified complete, impartial or correct. The active
 [preservation publication contract](reference/schema/PRESERVATION_RELEASE.md)
 supersedes the exhaustive-check gates in historical embedded draft contracts.
 
+For new editions selecting annual-series-1.3, the
+[disclosed-unverified policy](reference/schema/PRESERVATION_UNVERIFIED.md)
+also permits uncited assertions without separate evidence. They remain
+explicitly unverified, with exact source identity and research status recorded.
+This does not imply that a search was exhaustive or that the assertion is false.
+Use `python -m seed.annual_unverified` to verify/render all annual profiles;
+published editions retain their original implementation and review states.
+
 The Markdown contains the whole year's events, month/day navigation, topic
 context, original citations and pinned revisions. Eight cited editorial accounts
 supply separate evidence for the seven originally uncited entries and correct

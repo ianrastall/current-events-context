@@ -67,13 +67,20 @@ replace embedded implementation snapshots. New editorial research and changed
 extraction require an explicit successor edition/migration. Current published
 years and remaining work belong in `HANDOFF.md`.
 
-Use `seed.annual_colon` to verify/render annual editions. It dispatches each
+Use `seed.annual_unverified` to verify/render annual editions. It dispatches each
 pinned profile, including the frozen 2024/2025 implementations.
 It delegates unprofiled editions to their frozen original implementation.
 An explicit profile records its implementation/override snapshots and selects
 its deterministic interpretation during full replay. Do not invoke the frozen
 low-level verifier alone for an edition that declares a successor profile.
 Keep each profile scoped and versioned; never apply it to earlier editions.
+
+Preservation editions may retain uncited assertions without separate evidence
+when explicitly disclosed as unverified, with source identity and research
+status recorded. Do not imply independent corroboration or an exhaustive search.
+Follow `reference/schema/PRESERVATION_UNVERIFIED.md` for new editions selecting
+annual-series-1.3; older published editions and their review states stay frozen.
+This policy does not waive structural, source-preservation or replay checks.
 
 Keep these concerns separate even if the current seed YAML stores more than one of them together.
 
