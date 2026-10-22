@@ -2480,3 +2480,37 @@ and 2019 were uploaded and their committed file digests/sizes verified.
 - Next: continue with the 2015 annual unit using the existing preservation
   workflow. This handoff-only follow-up skips duplicate CI because it records
   completed checks without changing implementation or data.
+
+### 2015/2014 preparation and successor profile — 2026-10-22
+
+- Continuing backward through complete years at the maintainer's request.
+  Added guarded configs for 2015 (26 role decisions, 125 notice groups) and
+  2014 (9 role decisions, 63 notice groups). Exact cached inputs were used;
+  no Wikipedia or GDELT acquisition occurred. Original facts remain unchanged.
+- Added `seed.annual_colon`, `reference/schema/ANNUAL_COLON.md`, six focused
+  tests and an exact November 18, 2014 fixture. Profile annual-series-1.2
+  proves the structured legacy projection matches all original 15 assertions
+  where the frozen flat parser returns zero; its original per-day false replay
+  result remains disclosed. It also renders citations attached to topic headers.
+  Current dispatcher documentation and CI now select this module; older annual
+  editions delegate to their existing implementations without byte changes.
+- The first 2015 Markdown preflight failed because four topic-header citations
+  were absent from the older readable projection, though intact in SQLite.
+  Unpublished predecessor databases remain in provisional/. A new 1.2 candidate
+  preserves all extraction documents, current and superseded research records,
+  earlier implementation snapshots and explicit migration lineage. No daily
+  duplicates have been retired yet. The failed preflight is not claimed passed.
+- 2015 contains 365 dates, 4,939 assertions, 4,925 leaves and one disclosed
+  unclassified trailing template parameter. The malformed June 12 parameter
+  contains further source bullets retained as exact unclassified evidence;
+  the edition does not claim those bullets are classified assertions.
+- 2014 contains 365 dates, 3,720 assertions and 3,712 leaves. Both builds have
+  no unknown roles, unresolved warnings or unexplained candidate differences.
+  Independent research remains partial; 2015 has 30 guarded accounts, with
+  12 complete and 18 partial after preserving three superseded overbroad ratings.
+- Commands/checks: annual-colon side-by-side builds; socket-blocked unittest
+  discovery (68 passed); exact fixture/idempotence and baseline-drift tests;
+  Git diff check. Opened publisher/government sources for uncited assertions;
+  inaccessible alternatives were not counted as opened evidence. GitHub
+  publication, retirement, final Markdown and recovery verification remain next.
+  Earlier complete years 2004–2013 were inventoried, not yet migrated.

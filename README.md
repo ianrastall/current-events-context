@@ -95,7 +95,7 @@ partial Afghanistan withdrawal review is retained without replacement.
 The 2017 edition preserves 3,791 assertions and an empty marker before the first
 category heading. Missing source category locations remain absent; no heading
 is invented. Seventeen uncited assertions have separate evidence accounts:
-ten complete and seven partial. Use the [current annual dispatcher](reference/schema/ANNUAL_LEGACY.md)
+ten complete and seven partial. Use the [current annual dispatcher](reference/schema/ANNUAL_COLON.md)
 for all published editions, including the frozen earlier profiles.
 
 The 2018 edition preserves 4,653 assertions and two unbulleted source fragments
